@@ -1,0 +1,440 @@
+{
+  "topic": "epidemiology",
+  "condensedNotes": [
+    {
+      "heading": "Scope & Definitions of Psychiatric Epidemiology",
+      "bullets": [
+        {
+          "text": "Epidemiology counts the frequency, risk factors and burden of disease in a specified population over a specified period. Descriptive epidemiology describes disease patterns using the triad of Time (how does the pattern vary over time?), Place (how does where the population lives affect the pattern?) and Person (how do personal characteristics affect the pattern?); analytical epidemiology makes hypothesis-driven inferences from those observed associations.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Genetic epidemiology is a fast-expanding branch that evaluates inherited causes of disease in families and populations, including gene-gene and gene-environment interactions. Morton's definition: 'a science which deals with the etiology, distribution, and control of disease in groups of relatives and with inherited causes of disease in populations.'",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        }
+      ]
+    },
+    {
+      "heading": "Incidence, Prevalence & the Incidence-Duration-Prevalence Relationship",
+      "bullets": [
+        {
+          "text": "Incidence = number of new cases diagnosed in a specified time interval / mid-interval population at risk (e.g. mid-2014 population for a 2014 annual incidence). Incidence is a ratio measured against time, so one-month incidence is always lower than one-year incidence.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "This standard calculation is cumulative incidence — valid in cohort studies with low attrition, but biased when attrition is significant, because dropouts are excluded from the numerator (not counted as new cases) while the denominator population still includes them.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Incidence density (incidence rate) expresses new cases per person-year of observation, avoiding the attrition problem. Its unit is time^-1 ('rather bizarre'), so incidence rate ratios (unit-free) are typically used to compare two groups.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Point prevalence = number of existing cases (new+old, minus dead/cured) at one cross-sectional observation point / cross-sectional population at that point. Period prevalence uses the same 'existing cases' numerator but assessed longitudinally over a period, divided by the mid-period population. Cases must be found at the time of observation, irrespective of when diagnosed — someone dead or cured before the observation period cannot be counted.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Prevalence = incidence x duration of illness. Chronic illnesses (e.g. schizophrenia) show higher prevalence than acute, short-lived illnesses (e.g. influenza) even when their incidence rates are comparable.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Worked examples of the formula's implications: a new preventive vaccine can lower both incidence and prevalence; a cure for schizophrenia would not change incidence but would lower prevalence (shorter duration); interventions that reduce mortality in chronic schizophrenia can paradoxically raise prevalence through patient longevity, without directly affecting incidence.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        }
+      ]
+    },
+    {
+      "heading": "Lifetime Prevalence vs Lifetime Morbid Risk",
+      "bullets": [
+        {
+          "text": "Lifetime prevalence = the proportion of individuals in the population who have ever manifested a disorder and are alive on a given day, ascertained by cross-sectional survey and recall of past status — this method is prone to recall bias.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Lifetime morbid risk (LMR) is the probability of a person developing the disorder across their entire life (often defined by the population's life expectancy) and must be distinguished from lifetime prevalence: LMR includes the whole birth cohort, past and future, including those already deceased at survey time. For low-incidence disorders such as schizophrenia, summing age-specific incidence rates gives an approximate LMR (Saha et al., 2004).",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        }
+      ]
+    },
+    {
+      "heading": "Epidemic, Endemic and Pandemic Terminology",
+      "bullets": [
+        {
+          "text": "Baseline prevalence = a disease's usual community level. Low-to-moderate baseline without significant fluctuation = endemic (most psychiatric disorders, with exceptions); a persistently HIGH baseline = hyperendemic; an irregular pattern of significant fluctuation from baseline = sporadic occurrence; occurrence that clearly EXCEEDS the expected level in a given time period = epidemic (can be a slow, steady rise as in multifactorial chronic disease, or an acute outbreak as in infectious disease); an epidemic of wide geographical proportion = pandemic (e.g. HIV pandemic).",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        }
+      ]
+    },
+    {
+      "heading": "Mortality Rates & Burden-of-Disease Measures",
+      "bullets": [
+        {
+          "text": "A crude rate applies to the whole population (e.g. crude birth rate, crude mortality rate). A specific rate applies to a subgroup (e.g. age-specific, disease-specific, cause-specific mortality). A standardized rate applies observed rates to a hypothetical population adjusted for a variable (e.g. age), making rates from heterogeneous populations comparable — e.g. suicide rates in inner London are not directly comparable to rural Yorkshire because the working-age population differs and would spuriously inflate crude comparisons.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Cause-specific mortality rate = deaths due to a specific cause / total population size (e.g. alcohol-specific mortality). Case-fatality rate = deaths due to a specific disease / number of persons AFFECTED by that disease — a measure of the disease's fatal severity (e.g. 15 of 100 anorexia patients die of its complications).",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Proportionate mortality rate = deaths due to a specific cause / total deaths in the population — a measure of that cause's contribution to overall societal mortality burden.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "Years of Potential Life Lost (YPLL) sums, for deaths before a predetermined endpoint (usually age 65 or average life expectancy), the difference between that endpoint and age at death — this weights earlier deaths more heavily than later ones.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        },
+        {
+          "text": "DALY (disability-adjusted life year) extends YPLL by adding equivalent years of healthy life lost to disability: DALY = YLL + YLD, where YLL = N x LE (N = number of deaths, LE = standard life expectancy at age of death) and YLD = I x DW x LD (I = number of incident cases, DW = disability weight, LD = average duration of the case until remission or death). One DALY = loss of one year of full health. DALY calculation applies 3% time discounting and non-uniform age weighting (less weight to years lived very young or very old).",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+        }
+      ]
+    },
+    {
+      "heading": "Graphical Displays in Epidemiology",
+      "bullets": [
+        {
+          "text": "Bar charts represent each category of a variable as a bar whose length is proportional to the number of persons/events in that category. A frequency polygon plots the number of observations in each interval as a point at the interval's midpoint, then connects the points with straight lines.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 6 }
+        },
+        {
+          "text": "A population pyramid portrays age and sex structure and reveals cohort trends over time. Three prototypical shapes (demographers): constrictive (fewer people in younger age bands, typical of countries like the US as birth rates fall after a baby boom), expansive (more people in younger age bands, typical of developing countries with high birth rates and short life expectancy from harsh conditions), and stationary (roughly equal numbers across age bands with tapering only at older ages, e.g. Sweden, from low constant birth rates and high quality of life).",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 6 }
+        }
+      ]
+    },
+    {
+      "heading": "History & Generations of Psychiatric Epidemiological Studies",
+      "bullets": [
+        {
+          "text": "First generation (~16 studies, pre-WWII, includes the Midtown Manhattan study): focused on health-care-agency-registered prevalence of mental disorder in relation to community characteristics.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+        },
+        {
+          "text": "Second generation (post-WWII, ~60 studies): increased interest in diagnostic criteria/classification/nomenclature; largely field surveys using unstructured clinical interviews, so reliability was low.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+        },
+        {
+          "text": "Third generation (from ~1970): major effort to increase diagnostic reliability, aiming for precise prevalence/incidence estimates of SPECIFIC disorders — contrasted with the second generation's focus on mental ill-health in general.",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+        },
+        {
+          "text": "A claimed fourth generation incorporates comprehensive biologic markers (brain imaging, CSF examination, blood sampling) into large-scale cross-sectional surveys, e.g. the H70 study (Skoog, 2004).",
+          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+        }
+      ]
+    },
+    {
+      "heading": "Disorder Burden & Sex Ratios (ESEMED / SPMM Epidemiological Data)",
+      "bullets": [
+        {
+          "text": "ESEMED epidemiological study: 1 in 4 adults has a lifetime mental disorder; 1 in 10 has one in the last year. Lifetime mood disorder 14.7% (major depression alone 13%); lifetime anxiety 14% (specific phobia alone 8%); lifetime alcohol use disorder 5.2%.",
+          "source": { "file": "books/7-0-epidemiological-data.pdf", "page": 1 }
+        },
+        {
+          "text": "Sex-ratio caveats worth remembering: several 'higher in one sex' ratios narrow or equalise specifically in treatment-seeking samples (social phobia, OCD); schizophrenia's 1.4:1 male excess is for INCIDENCE only, with prevalence roughly equal; Alzheimer's 2:1 female excess in prevalence may reflect female longevity rather than a true incidence difference; pre-puberty major depression runs marginally MORE common in boys, reversing to the well-known 2:1 female excess only after puberty.",
+          "source": { "file": "books/7-0-epidemiological-data.pdf", "page": 1 }
+        }
+      ]
+    },
+    {
+      "heading": "Levels of Prevention (question-bank only — not covered in the book notes for this topic)",
+      "bullets": [
+        {
+          "text": "Primary prevention averts the illness/epidemic before it occurs (e.g. public health initiatives such as poverty eradication or a healthy diet; vaccination to pre-empt an illness, e.g. flu vaccination reducing post-influenza depression). Secondary prevention targets high-risk groups for early detection/treatment (e.g. early intervention services in psychosis). Tertiary prevention reduces disability and progression once a disorder is clinically established, including rehabilitation.",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 3, "questionNumber": 2 }
+        },
+        {
+          "text": "Because current knowledge of psychiatric risk factors and causal insults is limited, tertiary prevention is the level most commonly employed in current psychiatric practice.",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 3, "questionNumber": 2 }
+        },
+        {
+          "text": "Continuous treatment aimed at giving chronic patients their best-attainable quality of life/functioning is TERTIARY prevention, not secondary prevention.",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 18, "questionNumber": 17 }
+        },
+        {
+          "text": "Tertiary prevention specifically means preventing progression of an already-established disease and reducing the resulting disability once diagnosis is well established (e.g. encouraging a patient with schizophrenia's negative symptoms to attend a day centre to reduce disability).",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 28, "questionNumber": 27 }
+        }
+      ]
+    },
+    {
+      "heading": "Pathways to Care, Ecological Fallacy & Deprivation Indices (question-bank only — not covered in the book notes for this topic)",
+      "bullets": [
+        {
+          "text": "The pathways-of-care (filter) model, proposed by Goldberg, explains the difference in prevalence rates seen across settings from the community up to tertiary care centres, via a series of sequential filters. The FIRST filter between disease and healthcare delivery is recognition of symptoms by the patient (self-recognition) — illness behaviour, which varies widely even between people with the same illness severity, is the strong determinant at this first stage.",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 22, "questionNumber": 21 }
+        },
+        {
+          "text": "Ecological fallacy: an inference error made when a researcher attributes an individual-level cause to an individual based on aggregate/group-level data (e.g. concluding that psychiatrists themselves 'drive' patients to suicide because areas with more consultant psychiatrists per catchment population show higher suicide rates).",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 19, "questionNumber": 18 }
+        },
+        {
+          "text": "The Jarman index (Brian Jarman) is a scoring system for relative social deprivation in a community, derived from census data (percentages of elderly living alone, single-parent families, under-5s, unskilled/unemployed persons, ethnic minorities, overcrowded dwellings, recent address changes, etc.). It is a valid indicator but not generally accepted outside the UK.",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 15, "questionNumber": 14 }
+        },
+        {
+          "text": "Attack rate is simply an incidence rate following an acute exposure: number of cases that develop / number exposed (at risk) in the cohort.",
+          "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 17, "questionNumber": 16 }
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Perinatal, neonatal and infant death definitions",
+      "columns": ["Term", "Definition"],
+      "rows": [
+        ["Neonatal death", "A liveborn infant who dies within 28 days"],
+        ["Early neonatal death", "A liveborn infant who dies within 7 days"],
+        ["Late neonatal death", "A liveborn infant who dies between 7 and 28 days"],
+        ["Stillbirth", "A fetus that dies before birth but after 24 weeks of gestation"],
+        ["Perinatal death", "Stillbirths + early neonatal deaths"],
+        ["Postneonatal death", "Deaths from 1 month to 1 year"],
+        ["Infant death", "Deaths under 1 year of age"]
+      ],
+      "sources": [{ "file": "books/14-epidemiology.pdf", "page": 2 }],
+      "highYield": true
+    },
+    {
+      "title": "Mortality and burden-of-disease measures — definitions/formulas",
+      "columns": ["Measure", "Definition / formula"],
+      "rows": [
+        ["Crude rate", "Applies to the whole population (e.g. crude birth rate, crude mortality rate)"],
+        ["Specific rate", "Applies to a subgroup of the population (age-specific, disease-specific, cause-specific mortality)"],
+        ["Standardized rate", "Rate applied to a hypothetical population adjusted for a variable (e.g. age), so heterogeneous populations become comparable"],
+        ["Case-fatality rate", "Deaths due to a specific disease / persons affected by that disease — measures fatal severity"],
+        ["Proportionate mortality rate", "Deaths due to a specific cause / total deaths in the population — measures that cause's contribution to overall mortality burden"],
+        ["Years of Potential Life Lost (YPLL)", "Sum of (predetermined endpoint − age at death) for deaths before that endpoint; endpoint usually age 65 or average life expectancy; weights earlier deaths more heavily"],
+        ["DALY", "YLL + YLD, where YLL = N x LE (N=deaths, LE=standard life expectancy at age of death) and YLD = I x DW x LD (I=incident cases, DW=disability weight, LD=average duration of case)"]
+      ],
+      "sources": [{ "file": "books/14-epidemiology.pdf", "page": 2 }],
+      "highYield": true
+    },
+    {
+      "title": "Sex ratios in selected psychiatric/neurological disorders (SPMM epidemiological data)",
+      "columns": ["Disorder", "Ratio", "Higher in"],
+      "rows": [
+        ["Social phobia (may be equal in treatment-seekers)", "1.2:1", "Females"],
+        ["Bipolar disorder type 2", "1.3:1", "Females"],
+        ["Avoidant personality", "1.5:1", "Females"],
+        ["Dependent personality", "1.5:1", "Females"],
+        ["OCD (may be equal in treatment-seekers)", "1.5:1", "Females"],
+        ["Histrionic personality", "1.8:1", "Females"],
+        ["Alzheimer's disease (prevalence; incidence may be equal)", "2:1", "Females"],
+        ["Dysthymia", "2:1", "Females"],
+        ["Generalised anxiety disorder", "2:1", "Females"],
+        ["Major depression (post-puberty; pre-puberty boys marginally > girls)", "2:1", "Females"],
+        ["Multiple sclerosis", "2:1", "Females"],
+        ["PTSD", "2:1", "Females"],
+        ["Somatization disorder", "2:1", "Females"],
+        ["Conversion disorder", "2–10:1", "Females"],
+        ["Panic disorder", "2–2.5:1", "Females"],
+        ["Agoraphobia", "3:1", "Females"],
+        ["Borderline personality", "3:1", "Females"],
+        ["Specific phobias", "3:1", "Females"],
+        ["Nightmares", "2–4:1", "Females"],
+        ["Dissociative disorders", "4:1", "Females"],
+        ["Bulimia nervosa (some newer estimates ~3:1)", "10:1", "Females"],
+        ["Anorexia nervosa", "10:1", "Females"],
+        ["Lewy body dementia", "1.2:1", "Males"],
+        ["Paranoid personality disorder", "1.3:1", "Males"],
+        ["Schizophrenia (incidence only; prevalence equal) (Saha et al. 2004)", "1.4:1", "Males"],
+        ["Parkinson's disease", "1.5:1", "Males"],
+        ["Conduct disorder", "— (male-predominant, ratio not quoted)", "Males"],
+        ["ADHD", "3:1", "Males"],
+        ["Korsakoff's psychosis", "2:1", "Males"],
+        ["Autism", "3:1", "Males"],
+        ["Asperger's syndrome (Wing 1981 quoted 10:1)", "4:1", "Males"],
+        ["Alcohol dependence", "5:1", "Males"],
+        ["Antisocial personality disorder", "5:1", "Males"],
+        ["Tourette's syndrome", "4:1", "Males"],
+        ["Anankastic (obsessive-compulsive) personality", "1:1", "Neither"],
+        ["Frontal lobe dementia", "1:1", "Neither"],
+        ["Huntington's disease", "1:1", "Neither"],
+        ["Schizoid personality disorder", "1:1", "Neither"],
+        ["Wilson's disease (3:1 female preponderance for acute liver failure specifically)", "1:1", "Neither"],
+        ["Bipolar disorder type 1", "1:1", "Neither"]
+      ],
+      "sources": [{ "file": "books/7-0-epidemiological-data.pdf", "page": 1 }],
+      "highYield": true
+    },
+    {
+      "title": "Point estimates: prevalence, incidence, lifetime risk and mortality (median values, Eaton et al. 2008 / Saha 2004)",
+      "columns": ["Disorder", "Point/1-yr prevalence", "Lifetime prevalence", "Incidence", "Lifetime morbid risk", "All-cause mortality (SMR)"],
+      "rows": [
+        ["Panic disorder", "0.9%", "4.7%", "—", "—", "1.9"],
+        ["Social phobia", "2.8%", "—", "—", "—", "—"],
+        ["Simple phobia", "4.8%", "7–11%", "—", "—", "—"],
+        ["Major depressive disorder", "5.3%", "—", "—", "—", "1.7"],
+        ["Agoraphobia", "1.1%", "0.8%", "—", "—", "—"],
+        ["PTSD", "1%", "8%", "—", "—", "—"],
+        ["OCD", "1.0%", "2.5%", "—", "—", "1.1"],
+        ["Personality disorders", "1.8%", "—", "—", "—", "4.0"],
+        ["Schizophrenia", "0.33% (1yr) / 0.46% (point)", "0.4%", "15.2 per 100,000", "0.72%", "2.6"],
+        ["Bipolar disorder", "0.6%", "1.5%", "—", "—", "2.6"],
+        ["Dementia (>65)", "5.4%", "—", "—", "—", "2.7"],
+        ["Anorexia", "0.37%", "1.2–2.2%", "4.7–8.3 per 100,000", "—", "—"],
+        ["Bulimia", "1.5%", "—", "—", "—", "—"],
+        ["Somatoform disorders", "5%*", "—", "—", "—", "—"],
+        ["Delusional disorders", "0.03%", "—", "0.7–1.3 per 100,000", "—", "—"]
+      ],
+      "sources": [{ "file": "books/7-0-epidemiological-data.pdf", "page": 1 }],
+      "highYield": true
+    },
+    {
+      "title": "Levels of prevention — definitions and worked examples (question-bank only)",
+      "columns": ["Level", "Definition", "Example from question bank"],
+      "rows": [
+        ["Primary", "Prevents the illness/epidemic occurring at all", "Influenza vaccination to pre-empt post-influenza depression; public health initiatives (poverty eradication, healthy diet)"],
+        ["Secondary", "Early detection/treatment aimed at high-risk groups", "Early intervention services in psychosis"],
+        ["Tertiary", "Prevents progression/disability once disease is clinically established, incl. rehabilitation; the level most used in current psychiatric practice", "Day-centre attendance for negative symptoms of schizophrenia; continuous treatment to maximise chronic patients' quality of life"]
+      ],
+      "sources": [
+        { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 3, "questionNumber": 2 },
+        { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 18, "questionNumber": 17 },
+        { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 21, "questionNumber": 20 },
+        { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 28, "questionNumber": 27 },
+        { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 29, "questionNumber": 28 },
+        { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 30, "questionNumber": 29 }
+      ],
+      "highYield": true
+    }
+  ],
+  "mnemonics": [
+    {
+      "forTopic": "Incidence-prevalence relationship",
+      "mnemonic": "P = I x D",
+      "expansion": [
+        "Prevalence = Incidence x Duration of illness",
+        "Increase duration (chronic illness, or reduced mortality prolonging survival) -> prevalence rises even if incidence is flat",
+        "Cut duration (a cure) -> prevalence falls even though incidence is unchanged",
+        "A preventive vaccine cuts incidence itself, so both incidence and prevalence fall"
+      ],
+      "sourced": false
+    },
+    {
+      "forTopic": "Baseline disease occurrence ladder",
+      "mnemonic": "Endemic -> Hyperendemic -> Sporadic -> Epidemic -> Pandemic",
+      "expansion": [
+        "Endemic: usual low-to-moderate baseline, no big fluctuation",
+        "Hyperendemic: usual baseline but persistently HIGH",
+        "Sporadic: irregular fluctuation from baseline",
+        "Epidemic: occurrence clearly EXCEEDS the expected level for that time/place",
+        "Pandemic: an epidemic with wide GEOGRAPHIC spread"
+      ],
+      "sourced": false
+    },
+    {
+      "forTopic": "Levels of prevention",
+      "mnemonic": "3 P's: Prevent, Pick-up, Patch-up",
+      "expansion": [
+        "Primary = Prevent occurrence (vaccination, public health measures)",
+        "Secondary = Pick-up early in high-risk groups (screening, early intervention)",
+        "Tertiary = Patch-up: reduce disability and rehabilitate once disease is established"
+      ],
+      "sourced": false
+    },
+    {
+      "forTopic": "Perinatal/neonatal mortality time windows",
+      "mnemonic": "7 then 28",
+      "expansion": [
+        "Early neonatal death: liveborn dies within 7 days",
+        "Late neonatal death: liveborn dies between 7 and 28 days",
+        "Neonatal death (overall): liveborn dies within 28 days",
+        "Perinatal death = stillbirth (after 24 weeks gestation, before birth) + early neonatal death (within 7 days)"
+      ],
+      "sourced": false
+    },
+    {
+      "forTopic": "Crude vs specific vs standardized rates",
+      "mnemonic": "Crude = whole Country, Specific = Subgroup, Standardized = Same hypothetical population",
+      "expansion": [
+        "Crude rate: applies to the WHOLE population",
+        "Specific rate: applies to a SUBGROUP (age-, disease-, cause-specific)",
+        "Standardized rate: observed rates re-applied to a hypothetical, variable-adjusted population so different populations become comparable"
+      ],
+      "sourced": false
+    }
+  ],
+  "examinerTraps": [
+    {
+      "text": "Distinguishing epidemic/pandemic/hyperendemic/endemic/sporadic: 'pandemic' is specifically defined by wide GEOGRAPHICAL spread, not by size of case numbers, level above baseline, or fluctuation pattern (those describe epidemic, hyperendemic and sporadic respectively) — don't pick hyperendemic or sporadic as distractors for 'wide geographical distribution'.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 2, "questionNumber": 1 }
+    },
+    {
+      "text": "Migrant schizophrenia incidence 3x natives but prevalence only 1.8x: the tested explanation is a shorter illness duration in migrants (via P=I x D) — but the explanation itself flags this as 'hypothetical and not a widely established explanation'. Plausible-sounding distractors like 'better access to care for natives' or 'better treatment response in natives' are wrong; know the intended answer even though it isn't settled science.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 4, "questionNumber": 3 }
+    },
+    {
+      "text": "In P = I x D calculations, a stated mortality rate is often a deliberate red herring: prevalent ('existing') cases already exclude the dead by definition, so mortality figures given in the stem should be discarded rather than subtracted when solving for duration.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 33, "questionNumber": 32 }
+    },
+    {
+      "text": "Infant death rate is NOT an example of a standardized/adjusted rate — restricting a sample to a subgroup (here, age <1 year) is merely a specific rate. Only the standardized mortality ratio is genuinely adjusted for a variable (e.g. age) AFTER observation.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 10, "questionNumber": 9 }
+    },
+    {
+      "text": "Of the factors that can distort comparison between two crude mortality rates (socioeconomic stratification, ethnic composition, age distribution, gender distribution, population size), population SIZE is the one that does NOT matter — it is simply the denominator, whereas the others are genuine confounders of crude-rate comparisons.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 12, "questionNumber": 11 }
+    },
+    {
+      "text": "Cohort incidence-denominator trap: if 200 of an initial 1200 at-risk people already have the illness at baseline, the correct incidence denominator for new cases over the follow-up year is 1200-200=1000 (the truly at-risk group), not the original 1200.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 14, "questionNumber": 13 }
+    },
+    {
+      "text": "Attack rate denominator trap: it is the ORIGINAL number exposed/at-risk in the cohort, not the number of survivors at follow-up and not a figure adjusted for interim deaths — e.g. 50 cases from 1500 originally exposed gives an attack rate of 50/1500, not 50/1450 or 38/1500.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 17, "questionNumber": 16 }
+    },
+    {
+      "text": "'Continuous treatment to enable chronic patients to attain best quality of life' sounds like ongoing (secondary) care but is classified as TERTIARY prevention — a frequently confused level pairing in 'except' style questions.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 18, "questionNumber": 17 }
+    },
+    {
+      "text": "Inferring that consultant psychiatrists 'drive' patients to suicide because catchment areas with more psychiatrists per population show higher suicide rates is the ECOLOGICAL FALLACY (an individual-level causal claim drawn from aggregate/group-level data) — not selection bias, measurement bias, sampling error, or a type 2 error, all of which are plausible-sounding distractors.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 19, "questionNumber": 18 }
+    },
+    {
+      "text": "In Goldberg's pathways-of-care (filter) model, the FIRST filter between disease and secondary psychiatric care is the patient's own recognition of symptoms (self-recognition), driven by illness behaviour — not GP recognition (second stage) and not availability of hospital beds or community services (later stages). Illness behaviour is specifically tested as the determinant AT THIS FIRST STAGE.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 20, "questionNumber": 19 }
+    },
+    {
+      "text": "Perinatal mortality (WHO) = stillbirths + deaths in the FIRST WEEK of life per 1,000 live births — do not confuse the 7-day cut-off here with the 28-day cut-off that defines overall neonatal death.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 23, "questionNumber": 22 }
+    },
+    {
+      "text": "Two disorders with equal incidence but differing prevalence: the tested explanation is a difference in CHRONICITY/duration (P=I x D). The explanation explicitly downgrades competing distractors like differing stigma/awareness or sex distribution ('though A can be considered for a different class of disorders') — don't over-think this into a psychosocial explanation when a pure duration explanation is wanted.",
+      "format": "SBA",
+      "source": { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 32, "questionNumber": 31 }
+    }
+  ],
+  "gaps": [
+    {
+      "subtopic": "Levels of prevention (primary/secondary/tertiary) and Goldberg's pathways-of-care/filter model",
+      "note": "Heavily tested across this question set (6 of 32 questions on prevention levels alone, plus 2 on pathways of care) but neither concept is defined anywhere in the two book PDFs for this topic (14-epidemiology.pdf, 7-0-epidemiological-data.pdf) — the book only lists Compton's 'Clinical Manual of Prevention in Mental Health' (2010) as a further-reading reference without expanding on it in the notes text itself. Condensed notes above are built entirely from question-bank explanations. Verify the formal definitions, boundary cases, and the full Goldberg filter-stage sequence against a public-health/epidemiology textbook or Compton's book directly."
+    },
+    {
+      "subtopic": "Ecological fallacy, Jarman index, attack rate",
+      "note": "Each appears in exactly one question explanation with a brief definition and no dedicated book coverage. Cross-check these against a research-methods/EBM textbook for fuller definitions, alternative deprivation indices (e.g. Townsend, Index of Multiple Deprivation) and other bias/fallacy terminology that may be examined alongside them."
+    },
+    {
+      "subtopic": "Bias, confounding and causality frameworks (e.g. Bradford Hill criteria)",
+      "note": "Not present at all in this topic's book notes or in the 32 sampled Epidemiology question-bank items. Per the manifest, bias and causality content is filed under the separate 'Research Methods' topic (id: research-methods) — do not assume this Epidemiology guide covers bias/confounding; check the research-methods study guide for that content."
+    },
+    {
+      "subtopic": "Currency of sex-ratio and point-estimate figures",
+      "note": "The sex-ratio and prevalence/incidence/mortality tables are sourced by the book itself to Eaton et al. (Epidemiol Rev 2008), Saha et al. (2005/2004), and Narrow et al. (2007), and are explicitly noted as European-data-only medians with some 'inconclusive' empty cells. If exact current figures matter for the exam, verify against a current epidemiology/EBM text or up-to-date Global Burden of Disease data rather than treating these as the latest numbers."
+    }
+  ]
+}

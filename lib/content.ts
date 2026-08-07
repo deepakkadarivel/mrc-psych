@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import manifestJson from "@/content/manifest.json";
-import type { Manifest, NoteBlock, Question } from "@/lib/types";
+import type { Manifest, NoteBlock, Question, StudyGuide } from "@/lib/types";
 
 const manifest = manifestJson as Manifest;
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -26,6 +26,10 @@ export function getTopicNotes(topicId: string): NoteBlock[] {
 
 export function getTopicQuestions(topicId: string): Question[] {
   return readJsonIfExists<Question[]>(`questions/${topicId}.json`) ?? [];
+}
+
+export function getStudyGuide(topicId: string): StudyGuide | null {
+  return readJsonIfExists<StudyGuide>(`study-guides/${topicId}.json`);
 }
 
 export const MOCK_EXAM_COUNT = 14;

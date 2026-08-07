@@ -1,0 +1,1605 @@
+{
+  "topic": "evidence-based-medicine",
+  "condensedNotes": [
+    {
+      "heading": "EBM Principles — Literature Search & Question Formulation",
+      "bullets": [
+        {
+          "text": "A complete literature search must use multiple databases (not just one), cross-check the reference lists of retrieved studies, hand-search unindexed material, write to experts about missing studies, and include grey literature (conference abstracts/posters) — excluding conference posters as 'not peer reviewed' is the wrong strategy.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "text": "Mixing study designs (e.g. 12 uncontrolled trials + 3 RCTs) weakens rather than prevents a meta-analysis; best practice is to run two separate meta-analyses (one per design) rather than pooling heterogeneous designs together.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "text": "PICO format structures a treatment question as Population, Intervention, Comparator, Outcome; useful for treatment questions but may not fit every clinical question.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 13
+          }
+        },
+        {
+          "text": "PECO is the equivalent structure for exposure/aetiology questions: Patient, Exposure, Comparison, Outcome.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 15
+          }
+        },
+        {
+          "text": "The 4 steps of evidence-based practice: (1) formulate an answerable question, (2) track down the best available evidence, (3) critically appraise the evidence, (4) apply the evidence by integrating it with clinical expertise and patient values.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "text": "When framing a question about a side effect (e.g. sexual dysfunction on fluoxetine), the most meaningful comparator population is patients not taking the drug at all, not patients on an alternative drug — this is what makes the risk figure meaningful to the patient.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
+          "text": "Impact factor is a journal-level (not article-level) metric: it is calculated over a rolling three-year period as the average number of citations per published paper.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "text": "Cochrane Library = Cochrane Database of Systematic Reviews + Database of Abstracts of Reviews of Effectiveness (DARE, quality-appraised reviews published elsewhere) + Cochrane Controlled Trials Register (CENTRAL); it is not an alternative to Medline, and not every intervention trial is registered in it.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 14
+          }
+        },
+        {
+          "text": "CENTRAL (the Cochrane trials register) is currently the best single resource for locating registered clinical trials, including ongoing/unpublished ones.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "text": "The single most important conflict of interest a researcher reviewing a drug must disclose is receiving honoraria for lecturing from a company that makes a competing drug.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 16
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Hierarchy of Evidence & Reporting Standards",
+      "bullets": [
+        {
+          "text": "Hierarchy of evidence (highest to lowest): I-1 systematic review of several double-blind RCTs; I-2 one or more large double-blind RCTs; II-1 well-conducted cohort studies; II-2 well-conducted case-control studies; II-3 a dramatic uncontrolled experiment; III expert committee/peer opinion; IV personal experience.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "text": "A commonly examined ranking (highest to lowest robustness): meta-analysis > systematic review > RCT > non-randomised trial > cohort study > case-control study.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 12
+          }
+        },
+        {
+          "text": "Reporting-guideline map: CONSORT for RCTs; QUOROM (an early standard, since superseded by PRISMA) for meta-analyses of RCTs; PRISMA for systematic reviews; STROBE for observational studies (cohort/case-control/cross-sectional); STARD for diagnostic-accuracy studies; MOOSE for meta-analyses of observational studies; COREQ for qualitative research (interviews/focus groups).",
+          "source": {
+            "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 15
+          }
+        },
+        {
+          "text": "NICE is the independent UK body that produces national consensus guidance in three areas: public health, health technologies, and clinical practice.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 11
+          }
+        },
+        {
+          "text": "The Delphi method is an iterative, multistage group-facilitation technique used to transform expert opinion into a group consensus, commonly used to develop treatment guidelines.",
+          "source": {
+            "file": "question_bank/EBM/Recommendations & Guidelines_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Diagnostic Test Accuracy — Sensitivity, Specificity & Predictive Values",
+      "bullets": [
+        {
+          "text": "Diagnostic accuracy = all correct hits / total observations; this is a coarser measure that is generally superseded by the finer measures of sensitivity and specificity.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "text": "Serial (sequential) testing — a second test only given if the first is positive — increases the specificity but decreases the sensitivity of the combined battery. Simultaneous (parallel) testing does the opposite: sensitivity rises, specificity falls, versus either test alone.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "text": "Likelihood ratio for a positive test: LR+ = Sensitivity / (1 - Specificity); this expresses how much more likely a positive result is in a person with the disease versus one without it.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "text": "Higher disease prevalence in the tested population raises positive predictive value (PPV) for the same test, with the gain plateauing at higher prevalence levels; PPV rises and NPV falls as prevalence increases.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "text": "Sensitivity, specificity and the likelihood ratio (LR+) are properties of the test itself and are not affected by disease prevalence in the population tested — only PPV and NPV are prevalence-dependent.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 10
+          }
+        },
+        {
+          "text": "Lowering a diagnostic cut-off (e.g. from 21 to 14 units of alcohol) increases false positives (raises sensitivity, lowers specificity); raising the cut-off does the reverse. For a serious disease with an effective early treatment, the cut-off should be set to minimise false negatives even at the cost of more false positives.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "text": "Post-test odds = likelihood ratio x pre-test odds, where pre-test odds are derived from prevalence (the pre-test probability); post-test probability is then odds/(odds+1). Example: sensitivity 80%, specificity 90%, prevalence 10% -> LR+ = 8, post-test odds = 8/9, post-test probability approx 0.47.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 9
+          }
+        },
+        {
+          "text": "Worked example of Bayesian updating: pre-test probability 1/4 (odds 1/3), LR+ = 9.5 (from sensitivity 95%/specificity 90%) -> post-test odds = 3.16 -> post-test probability approx 0.75.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 14
+          }
+        },
+        {
+          "text": "The single most important methodological safeguard when validating a new test against a 'gold standard' is that the two tests must be applied independently of each other.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 24
+          }
+        }
+      ]
+    },
+    {
+      "heading": "ROC Curves & Choosing a Cut-off",
+      "bullets": [
+        {
+          "text": "A Receiver Operator Characteristic (ROC) curve plots sensitivity (true positive rate) on the y-axis against 1-specificity (false positive rate) on the x-axis; it is used to select the best cut-off and to compare two or more diagnostic instruments.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 61,
+            "questionNumber": 36
+          }
+        },
+        {
+          "text": "The area under the ROC curve (AUC) represents overall test accuracy; an AUC of 0.5 means the test cannot discriminate diseased from non-diseased any better than a coin toss — this is the performance of the diagonal 'line of no discrimination'.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 58,
+            "questionNumber": 35
+          }
+        },
+        {
+          "text": "1-specificity, plotted on the ROC x-axis, is the false positive rate (since true negatives + false positives = 100% of non-diseased cases).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 67,
+            "questionNumber": 38
+          }
+        },
+        {
+          "text": "The best trade-off cut-off point sits at the 'elbow'/knee of the ROC curve, where sensitivity and specificity are jointly optimised even though neither is individually maximal.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 70,
+            "questionNumber": 39
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Case-Control Studies — Odds Ratio, Bias & What Cannot Be Calculated",
+      "bullets": [
+        {
+          "text": "Odds ratio (OR) is the cross-product ratio (a x d)/(b x c) from a 2x2 table; OR cannot take a negative value. Worked example: 3 of 2000 cases and 1 of 2000 controls exposed -> OR = (3x1999)/(1x1997) approx 3.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 1
+          }
+        },
+        {
+          "text": "Relative risk CANNOT be calculated from a case-control study — only from incidence data (cohort/prospective designs); the retrospective design does not distinguish new from old cases, so only odds ratio can be produced.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 15
+          }
+        },
+        {
+          "text": "Case-control studies cannot establish a temporal association between exposure and outcome (though dose-response patterns and confidence intervals for the OR can still be derived).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 20
+          }
+        },
+        {
+          "text": "Given the same case/control exposure counts, one cannot determine true population prevalence from a convenience-sampled diagnostic/case-control dataset — this requires a genuinely representative sample.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 53,
+            "questionNumber": 33
+          }
+        },
+        {
+          "text": "Case-control design is the most efficient choice when the disease under study is rare, even after exposure — a cohort design would need an impractically large sample to observe enough rare events.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 56,
+            "questionNumber": 32
+          }
+        },
+        {
+          "text": "A nested case-control study identifies cases from a defined, prospectively followed cohort/register (e.g. GPRD) and samples matched non-cases from that same cohort using incidence density sampling (time-matched to the case's incidence date); this reduces recall and selection bias relative to a classic case-control design.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 42,
+            "questionNumber": 27
+          }
+        },
+        {
+          "text": "Despite being analysed retrospectively, a nested case-control study CAN support temporal-association claims because the underlying exposure/outcome data were recorded prospectively on the register before the analysis was done.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 48,
+            "questionNumber": 29
+          }
+        },
+        {
+          "text": "Even a carefully matched, register-based nested case-control design remains an observational design — confounding by an unmeasured third variable remains a threat to validity that cannot be experimentally excluded.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 45,
+            "questionNumber": 28
+          }
+        },
+        {
+          "text": "From a case-control association alone, one cannot infer a causal relationship (e.g. 'antipsychotics cause hip fractures') — only the strength of association (OR, with CI) can be inferred; equally, no prescriptive clinical guideline can be derived from such cross-sectional/case-control work alone.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 33,
+            "questionNumber": 24
+          }
+        },
+        {
+          "text": "Multiple linear regression can give unreliable/unstable significance estimates for individual predictors when two included independent variables are highly correlated with each other (multicollinearity) — they compete for statistical significance rather than acting as independent predictors.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
+        },
+        {
+          "text": "A low absolute prevalence of the exposure among cases (e.g. very few schizophrenia patients in a given cancer subgroup) increases the risk of a Type 2 error — a true association may be missed unless the sample is large enough.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 69,
+            "questionNumber": 37
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Cohort Studies — Attributable Risk & Population Impact",
+      "bullets": [
+        {
+          "text": "Relative risk equal to or below 1.0 means no positive association between exposure and outcome — the risk in exposed persons equals (or is below) the risk in non-exposed persons.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 4
+          }
+        },
+        {
+          "text": "Attributable risk (AR) = incidence in exposed - incidence in non-exposed (i.e. EER - CER). Worked example: 25/200 vs 10/200 over 8 years of follow-up -> AR = 0.075.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 12
+          }
+        },
+        {
+          "text": "Population attributable risk (PAR) = attributable risk x proportion of the population exposed to the risk factor. Worked example: AR = 20/100, 25% of the population exposed -> PAR = 1/20.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 19
+          }
+        },
+        {
+          "text": "Population attributable fraction (Levin's formula): PAF = Pe(RR-1) / [1+Pe(RR-1)], where Pe is the proportion of the population exposed. Worked example: RR = 10, prevalence of exposure 5% -> PAF approx 31%.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 16
+          }
+        },
+        {
+          "text": "If an exposure has an attributable risk of 100% for a disease, this means all incident cases of that disease are the result of that single exposure — a situation that is rarely, if ever, seen in practice.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 5
+          }
+        }
+      ]
+    },
+    {
+      "heading": "RCT Design & Internal Validity",
+      "bullets": [
+        {
+          "text": "Randomisation balances known and unknown confounders between groups at baseline; lack of randomisation (e.g. using self-selected volunteers) is a serious threat to external validity/generalisability.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 12
+          }
+        },
+        {
+          "text": "The similarity of baseline characteristics between randomised groups is most likely attributable to randomisation itself, not to blinding or to intention-to-treat analysis (which act at later stages of the trial).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 27
+          }
+        },
+        {
+          "text": "Intention-to-treat (ITT) analysis includes every randomised patient in the group to which they were originally allocated, regardless of adherence or early 'cure' — omitting non-adherers undermines the unbiased comparison that randomisation provides.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 6
+          }
+        },
+        {
+          "text": "Even when more patients drop out of one arm than another, an ITT analysis (analysing all patients per their original allocation) is the correct approach to preserve the value of randomisation.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 30
+          }
+        },
+        {
+          "text": "Crossover trials are not subject to confounding by age, sex or other personal characteristics (each patient acts as their own control) and need fewer patients than parallel-group trials, but they are unsuitable for irreversible endpoints such as cure or death.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 23
+          }
+        },
+        {
+          "text": "n-of-1 trials are most useful when RCTs show a treatment is effective on average but a substantial proportion of patients do not respond, leaving doubt about whether this particular patient will benefit.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 24
+          }
+        },
+        {
+          "text": "n-of-1 trials are not appropriate to evaluate a treatment with only weak evidence for a potentially curative effect on a long-standing condition — and are impractical when a condition might fully resolve within the observation period.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 25
+          }
+        },
+        {
+          "text": "A placebo (or active) run-in phase before randomisation is used to improve compliance — it can weed out non-compliers, wash out previous treatment, and establish a stable baseline before allocation.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 38,
+            "questionNumber": 37
+          }
+        },
+        {
+          "text": "The odd/even last-digit-of-date-of-birth method of allocation is a quasi-randomisation technique and is the least adequate method of treatment allocation in a clinical trial.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 54,
+            "questionNumber": 45
+          }
+        },
+        {
+          "text": "Cluster-randomised trials (randomising groups such as nursing-home units rather than individuals) reduce the effective sample size relative to individual randomisation of the same total N — higher power for a given N is achievable without cluster sampling.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 41
+          }
+        },
+        {
+          "text": "Intracluster correlation is the proportion of total outcome variability attributable to between-cluster (rather than within-cluster) differences; a high value means participants within a cluster behave like a single observational unit, shrinking the effective sample size toward the number of clusters.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 46,
+            "questionNumber": 42
+          }
+        },
+        {
+          "text": "Equivalence trials require the largest sample size of all RCT types, since demonstrating a near-zero effect-size difference between treatments is statistically the hardest target to prove.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 55,
+            "questionNumber": 46
+          }
+        },
+        {
+          "text": "Repeated administration of the same or a similar test (e.g. a pre/post CPD quiz) can itself produce score gains through a repeat-testing/practice effect — this must be considered before crediting an intervention with the improvement.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 1
+          }
+        },
+        {
+          "text": "Patients in the control arms of RCTs tend to do better than similar non-trial patients for reasons besides the specific intervention (a 'trial participation effect') — better clinician input, favourable selection, protocol adherence and a placebo/participation effect, but NOT simply higher medication potency.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Interpreting RCT Results — NNT, ARR, RRR & Confidence Intervals",
+      "bullets": [
+        {
+          "text": "ARR (absolute risk reduction) = |CER - EER|. Worked example: chlorpromazine relapse 45% vs new drug 50% -> ARR = 0.05 (the new drug is actually worse here, but ARR is reported as the absolute difference).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 34
+          }
+        },
+        {
+          "text": "NNT = 1/ARR. Worked example: drug A 20/200 deaths vs placebo 25/225 deaths over 3 years -> ARR = 1/90 -> NNT = 90 to prevent one death.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 5
+          }
+        },
+        {
+          "text": "NNH (number needed to harm) is calculated the same way as NNT but for an adverse outcome: NNH = 1/ARR for the harmful event. Worked example: NNH = 60 for suicidal acts on an antidepressant, used to back-calculate the actual event count in the treated arm (70 of 600).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 4
+          }
+        },
+        {
+          "text": "RR = EER/CER. Worked example: drug A 20/200 vs placebo 25/225 deaths -> RR = 0.9.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 36,
+            "questionNumber": 35
+          }
+        },
+        {
+          "text": "RRR = 1 - RR (equivalently ARR/CER). Worked example continuing above: RRR = 1 - 0.9 = 0.1 (10%).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 37,
+            "questionNumber": 36
+          }
+        },
+        {
+          "text": "RRR figures are usually far larger-looking than the corresponding ARR/risk-difference, which can make results seem more impressive than they are clinically — e.g. a 50% RRR may represent only a 2%->1% absolute drop.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 16
+          }
+        },
+        {
+          "text": "Assuming a constant RRR, NNT is inversely proportional to the baseline (control) event rate: a higher-risk population needs fewer patients treated per event prevented, and vice versa; NNT is also inversely related to RRR itself.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 17
+          }
+        },
+        {
+          "text": "For relative risk reduction (RRR) and other difference-based statistics, the null value is zero — a 95% CI must not cross zero to be statistically significant. For ratio-based statistics (RR, OR), the null value is 1.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 8
+          }
+        },
+        {
+          "text": "If a trial's exact p-value for a treatment effect is 0.05, the lower bound of the 95% CI for the relative risk is likely to sit right at 1.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 9
+          }
+        },
+        {
+          "text": "Increasing sample size while event rates stay the same does not change the point estimate of RR or RRR — it narrows the confidence interval around that same estimate, it does not shift it.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 11
+          }
+        },
+        {
+          "text": "A wide 95% CI for RRR spanning both harm and benefit (e.g. -28% to +49%) means the trial has not actually resolved whether to offer the treatment, even if the point estimate looks favourable.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 10
+          }
+        },
+        {
+          "text": "For an apparently 'negative' trial (p>0.05), check the upper bound of the CI: if it still contains an important treatment benefit, a real beneficial effect cannot be ruled out — only if the upper bound excludes any important benefit is the trial 'definitively negative'.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 20
+          }
+        },
+        {
+          "text": "Subgroup analysis results are more trustworthy when the subgroup hypothesis was specified before the study began, rather than generated after seeing the data.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 13
+          }
+        },
+        {
+          "text": "Composite endpoints (e.g. death + MI + heart failure combined) reduce the required sample size and follow-up duration, but should not be used on the assumption that patients weight each component outcome equally — they usually do not.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 26
+          }
+        },
+        {
+          "text": "A surrogate/substitute endpoint is an easily measurable proxy used instead of the true patient-relevant outcome (e.g. a biomarker instead of survival); surrogates are attractive for feasibility but can be misleading. Activities-of-daily-living scores in a dementia trial are an example of a genuine (non-surrogate) patient-relevant outcome, not a surrogate.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 14
+          }
+        },
+        {
+          "text": "The hazard ratio is essentially a relative risk weighted for the number of patients at risk over time in a survival analysis — useful when timing of onset, not just total count, matters.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 18
+          }
+        },
+        {
+          "text": "The most common reason RCTs are stopped early is the appearance of a large treatment effect that seems unlikely to be due to chance — not usually cost-saving or loss of investigator interest.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 22
+          }
+        },
+        {
+          "text": "Random error has a larger relative influence on the results of smaller studies (affecting reliability/reproducibility), whereas bias affects validity independent of sample size — a biased study can still be highly reproducible yet still wrong.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 21
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Meta-Analysis — Heterogeneity & Choice of Statistical Model",
+      "bullets": [
+        {
+          "text": "Statistical heterogeneity is formally tested with Cochran's Q test and the I-squared statistic, and can be explored visually via forest plots, Galbraith plots and L'Abbe plots — using a second independent reviewer to select studies addresses selection bias, not heterogeneity, and is the odd one out among heterogeneity-assessment options.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "text": "A significant (low p-value) Cochran's Q result means the null hypothesis of 'all variability due to chance' is rejected, i.e. statistical heterogeneity is present; the test is sensitive to study sample sizes, so it can fail to flag true heterogeneity in small studies and can flag trivial heterogeneity in very large ones.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 7
+          }
+        },
+        {
+          "text": "A fixed-effect model assumes every included study is estimating the same true effect, with only within-study sampling variation causing observed differences (i.e. 'differences are due to chance').",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 9
+          }
+        },
+        {
+          "text": "A random-effects model is used specifically because heterogeneity exists between studies; it accepts that each study may be estimating a different underlying effect and incorporates between-study variance, generally widening the pooled confidence interval.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 8
+          }
+        },
+        {
+          "text": "The Galbraith plot displays each study as a point (z-score/effect-size-over-SE on the y-axis vs 1/SE on the x-axis) around a central regression line; points falling outside a 2-SD band around that line are considered outliers, and points near the zero-line show no effect.",
+          "source": {
+            "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 17
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Meta-Analysis — Effect Size, Data Synthesis & Publication Bias",
+      "bullets": [
+        {
+          "text": "For dichotomous outcomes, effect size in meta-analyses is usually expressed as odds ratio or relative risk; likelihood ratio is a diagnostic-test measure and is NOT generally used to express meta-analytic effect size.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 74,
+            "questionNumber": 41
+          }
+        },
+        {
+          "text": "When individual studies measured a continuous outcome on the SAME rating scale, results can be combined directly using the weighted mean difference.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 11
+          }
+        },
+        {
+          "text": "When individual studies measured a continuous outcome on DIFFERENT rating scales (e.g. HAM-D vs BDI for depression), results must first be standardised via the standardised mean difference (SMD, e.g. Cohen's d = difference in means divided by pooled SD) before pooling.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 10
+          }
+        },
+        {
+          "text": "If a study's mean is smaller than its standard deviation, the underlying data are likely skewed — the researcher should consider a log transform or dichotomising the outcome rather than pooling the raw SD-based statistic.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 12
+          }
+        },
+        {
+          "text": "Failsafe N is Rosenthal's estimate of the number of additional null/negative unpublished studies ('file-drawer' studies) that would be needed to reduce a significant meta-analytic result to non-significance.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "text": "A funnel plot (study size plotted against effect size/OR) is used to detect publication bias via asymmetry; the confidence interval of the pooled effect size is NOT a valid way to detect publication bias, since it is simply a function of total sample size and number of trials.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 73,
+            "questionNumber": 38
+          }
+        },
+        {
+          "text": "The four basic steps of a meta-analysis are: (1) literature search, (2) establishing inclusion/exclusion criteria, (3) recording data from individual studies, (4) statistical analysis — being a subject-matter expert is not an essential step.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 71,
+            "questionNumber": 36
+          }
+        },
+        {
+          "text": "The typical stages of a systematic review are: specification of evidence sought, identification of evidence, critical appraisal of evidence, and synthesis of evidence (Higgins 2008); randomisation is not a systematic-review step (it is a trial-design feature).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 68,
+            "questionNumber": 33
+          }
+        },
+        {
+          "text": "A systematic review search strategy must include unpublished studies and papers in all languages, not just English peer-reviewed publications — restricting to peer-reviewed English papers risks publication/language bias.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 70,
+            "questionNumber": 35
+          }
+        },
+        {
+          "text": "A risk ratio (RR) of 1 indicates no difference between groups; a risk ratio below 1 does NOT by itself mean 'no difference' — its statistical significance still depends on whether its CI excludes 1.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 69,
+            "questionNumber": 34
+          }
+        },
+        {
+          "text": "NNT can be derived from a meta-analysis's pooled absolute risk difference exactly as from a single trial. Worked example: risperidone vs haloperidol for PANSS improvement, pooled ARR = 0.125 -> NNT = 8, with 95% CI for NNT = 7 to 10 (calculated from the CI bounds of the ARR).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 13
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Forest Plots, L'Abbe Plots & Other EBM Graphs",
+      "bullets": [
+        {
+          "text": "A forest plot ('blobbogram') represents each study as a block/square at its point estimate, with a horizontal line showing its confidence interval; the size of the square reflects the study's weight in the pooled estimate. Forest plots are produced by meta-analytic (secondary) research.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
+          "text": "Heterogeneity, by definition, cannot be calculated for a single stand-alone trial in a forest plot — it only applies to the pooled set of studies.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 18
+          }
+        },
+        {
+          "text": "Precision of a study's (or the pooled) estimate is reflected by the width of its horizontal line in a forest plot — narrower lines mean more precise results; an arrowhead on the line means the CI extends beyond the plotted axis range (a highly imprecise result).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 24
+          }
+        },
+        {
+          "text": "An L'Abbe plot plots each individual study as a circle with the experimental event rate (EER) on one axis and control event rate (CER) on the other; circle size typically represents study sample size (colour/shading can indicate subgroup, e.g. hospital vs primary-care setting). Studies above the line of equality favour the experimental treatment.",
+          "source": {
+            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 3
+          }
+        },
+        {
+          "text": "CONSORT recommends including a participant flow diagram for RCTs, and such diagrams are strongly recommended to always show the attrition/dropout rate.",
+          "source": {
+            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 13
+          }
+        },
+        {
+          "text": "A cost-effectiveness acceptability curve plots a range of willingness-to-pay thresholds against the probability that the incremental cost-effectiveness ratio (ICER) falls below that threshold — it visualises statistical uncertainty in cost-effectiveness estimates.",
+          "source": {
+            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+            "page": 69,
+            "questionNumber": 27
+          }
+        },
+        {
+          "text": "A scatterplot of country-level (ecological) data, such as income inequality vs prevalence of mental illness across nations, risks the ecological fallacy if used to infer relationships at the individual level.",
+          "source": {
+            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 17
+          }
+        },
+        {
+          "text": "Plotting cumulative incidence (via Kaplan-Meier estimates) separately for each birth cohort demonstrates the combined effect of both age and calendar/birth year on incidence of a diagnosis — useful for showing trend-over-time alongside age effects.",
+          "source": {
+            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+            "page": 56,
+            "questionNumber": 21
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Survival Analysis — Kaplan-Meier, Log-Rank & Cox Regression",
+      "bullets": [
+        {
+          "text": "Survival methods measure 'time to an event' (e.g. discharge, death) and do not require a near-normal distribution, unlike the parametric assumptions of a t-test or ANOVA; they are preferable to a chi-square approach, which would lose information by dichotomising continuous time data.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Prognosis_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "text": "In a Kaplan-Meier plot, the y-axis shows the proportion of subjects who have NOT yet reached the outcome of interest, and the x-axis shows time; plotting the y-axis on a log scale can make the curve look deceptively linear.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Prognosis_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "text": "The log-rank test assesses the effect of a single categorical variable on survival; Cox proportional hazards regression is needed to assess continuous variables (or multiple variables simultaneously), and assumes the hazard ratio is constant over time.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Prognosis_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "text": "Cox regression allows the effect of one variable on survival to be estimated while adjusting for others, distinguishing a variable's independent effect from one that is only associated with survival via another variable.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Prognosis_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "text": "The median survival time is the time point at which the survival curve reaches 50%; if the curve is right-censored before reaching that point (follow-up ends too early), median survival time cannot be determined.",
+          "source": {
+            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 1
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Scale/Questionnaire Development — Validity & Reliability",
+      "bullets": [
+        {
+          "text": "Deleting items that show significant misfit to a Rasch measurement model (e.g. from the 14-item to the 7-item Warwick-Edinburgh Mental Well-Being Scale) improves construct validity, since the remaining items fit the underlying construct model better.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 38,
+            "questionNumber": 26
+          }
+        },
+        {
+          "text": "A shortened scale can lose some face validity (a more restricted view of the construct) even while gaining ease-of-use, brevity, and reduced confounding by gender/age bias present in the deleted items.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 42,
+            "questionNumber": 28
+          }
+        },
+        {
+          "text": "Test-retest reliability is the method used to demonstrate that an instrument's scores remain stable over a defined period (e.g. 2 weeks).",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 27
+          }
+        },
+        {
+          "text": "A summed interval-scale score (e.g. a short well-being scale) does not have meaningful physical units, even though it permits parametric comparison (t-test) or non-parametric comparison (Mann-Whitney U) depending on whether normality assumptions hold.",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 29
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Guideline Development & Implementation",
+      "bullets": [
+        {
+          "text": "The most important single component in developing a clinical guideline is having a systematically reviewed evidence base on which recommendations are built — even though guidance also incorporates value judgements and resource availability.",
+          "source": {
+            "file": "question_bank/EBM/Recommendations & Guidelines_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "text": "It is NOT appropriate to prepare guideline recommendations irrespective of local resources — resource availability should modify a recommended action even when the underlying evidence base is strong.",
+          "source": {
+            "file": "question_bank/EBM/Recommendations & Guidelines_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "text": "Steps in producing a treatment recommendation: define the decision, specify the possible outcomes, use available evidence to link options to outcomes, incorporate value judgements, then adjust for local resource availability — this explains why guidance for the same evidence base can differ between countries (e.g. NICE vs French/Canadian dementia-drug guidance).",
+          "source": {
+            "file": "question_bank/EBM/Recommendations & Guidelines_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "text": "Guidelines are most effectively implemented when developed by those who will use them, disseminated through a specific educational intervention, and reinforced by patient-specific reminders during consultations (e.g. filed in the notes).",
+          "source": {
+            "file": "question_bank/EBM/Recommendations & Guidelines_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "text": "The most effective single measure for getting clinicians to apply a new guideline in practice is using patient-specific reminders at the point of clinical contact.",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 8
+          }
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Diagnostic accuracy — core formulas",
+      "columns": [
+        "Measure",
+        "Formula / definition",
+        "Key point"
+      ],
+      "rows": [
+        [
+          "Sensitivity",
+          "TP / (TP + FN)",
+          "Ability to correctly identify true positives among the diseased"
+        ],
+        [
+          "Specificity",
+          "TN / (TN + FP)",
+          "Ability to correctly identify true negatives among the well"
+        ],
+        [
+          "Positive predictive value (PPV)",
+          "TP / (TP + FP)",
+          "Rises with disease prevalence"
+        ],
+        [
+          "Negative predictive value (NPV)",
+          "TN / (TN + FN)",
+          "Falls with disease prevalence"
+        ],
+        [
+          "Likelihood ratio positive (LR+)",
+          "Sensitivity / (1 - Specificity)",
+          "Unaffected by prevalence"
+        ],
+        [
+          "Post-test odds",
+          "LR x pre-test odds (pre-test odds derived from prevalence)",
+          "Used to get post-test probability = odds / (odds + 1)"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+          "page": 1,
+          "questionNumber": 1
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+          "page": 3,
+          "questionNumber": 3
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+          "page": 9,
+          "questionNumber": 9
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+          "page": 75,
+          "questionNumber": 42
+        },
+        {
+          "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+          "page": 12,
+          "questionNumber": 7
+        },
+        {
+          "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+          "page": 23,
+          "questionNumber": 13
+        }
+      ],
+      "highYield": true
+    },
+    {
+      "title": "Treatment-effect measures — NNT, NNH, ARR, RRR, RR, OR",
+      "columns": [
+        "Measure",
+        "Formula",
+        "Worked example from source"
+      ],
+      "rows": [
+        [
+          "Absolute risk reduction (ARR)",
+          "|CER - EER|",
+          "Chlorpromazine 45% vs new drug 50% relapse -> ARR = 0.05"
+        ],
+        [
+          "Number needed to treat (NNT)",
+          "1 / ARR",
+          "Drug A vs placebo mortality: ARR = 1/90 -> NNT = 90"
+        ],
+        [
+          "Number needed to harm (NNH)",
+          "1 / ARR (for the harmful event)",
+          "Antidepressant reanalysis: NNH = 60 for suicidal acts"
+        ],
+        [
+          "Relative risk (RR)",
+          "EER / CER",
+          "Drug A vs placebo mortality: RR = 0.9"
+        ],
+        [
+          "Relative risk reduction (RRR)",
+          "1 - RR (or ARR / CER)",
+          "Same example: RRR = 0.1 (10%)"
+        ],
+        [
+          "Odds ratio (OR)",
+          "(a x d) / (b x c) cross-product",
+          "Fluoxetine vs placebo in BDD improvement: OR = 9"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+          "page": 35,
+          "questionNumber": 34
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+          "page": 6,
+          "questionNumber": 5
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+          "page": 5,
+          "questionNumber": 4
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+          "page": 36,
+          "questionNumber": 35
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+          "page": 37,
+          "questionNumber": 36
+        },
+        {
+          "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+          "page": 7,
+          "questionNumber": 4
+        }
+      ],
+      "highYield": true
+    },
+    {
+      "title": "What each observational design can and cannot calculate",
+      "columns": [
+        "Study design",
+        "Can calculate",
+        "Cannot calculate"
+      ],
+      "rows": [
+        [
+          "Case-control",
+          "Odds ratio, dose-response pattern, CI for the OR",
+          "Relative risk, incidence, temporal association, true population prevalence (unless representatively sampled)"
+        ],
+        [
+          "Nested case-control",
+          "Odds ratio, plus temporal association (register data recorded prospectively)",
+          "Still cannot rule out confounding (remains observational)"
+        ],
+        [
+          "Cross-sectional / convenience-sampled diagnostic study",
+          "Sensitivity, specificity, PPV/NPV for the sample studied",
+          "True population prevalence, unless the sample is representative"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+          "page": 18,
+          "questionNumber": 15
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+          "page": 23,
+          "questionNumber": 20
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+          "page": 48,
+          "questionNumber": 29
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+          "page": 45,
+          "questionNumber": 28
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+          "page": 53,
+          "questionNumber": 33
+        }
+      ],
+      "highYield": false
+    },
+    {
+      "title": "Reporting-guideline map",
+      "columns": [
+        "Study / analysis type",
+        "Reporting guideline"
+      ],
+      "rows": [
+        [
+          "RCTs",
+          "CONSORT"
+        ],
+        [
+          "Meta-analysis of RCTs",
+          "QUOROM (early standard, superseded by PRISMA)"
+        ],
+        [
+          "Systematic reviews",
+          "PRISMA"
+        ],
+        [
+          "Observational studies (cohort/case-control/cross-sectional)",
+          "STROBE"
+        ],
+        [
+          "Diagnostic-accuracy studies",
+          "STARD"
+        ],
+        [
+          "Meta-analysis of observational studies",
+          "MOOSE"
+        ],
+        [
+          "Qualitative research (interviews/focus groups)",
+          "COREQ"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+          "page": 27,
+          "questionNumber": 15
+        }
+      ],
+      "highYield": false
+    },
+    {
+      "title": "Recognising common EBM graph types",
+      "columns": [
+        "Graph",
+        "What is plotted",
+        "Used for"
+      ],
+      "rows": [
+        [
+          "Forest plot ('blobbogram')",
+          "Point estimate + CI per study (block size = weight)",
+          "Displaying/pooling results of a meta-analysis"
+        ],
+        [
+          "L'Abbe plot",
+          "Experimental event rate vs control event rate, one circle per study",
+          "Visualising heterogeneity in raw event rates across studies"
+        ],
+        [
+          "Galbraith plot",
+          "Standardised effect (z-score) vs 1/SE, one point per study",
+          "Detecting outlier studies / heterogeneity"
+        ],
+        [
+          "Funnel plot",
+          "Study size vs effect size/OR",
+          "Detecting publication bias (asymmetry)"
+        ],
+        [
+          "ROC curve",
+          "Sensitivity (y) vs 1-specificity (x)",
+          "Choosing a diagnostic cut-off / comparing tests (AUC = accuracy)"
+        ],
+        [
+          "Kaplan-Meier curve",
+          "Proportion not-yet-reaching outcome vs time",
+          "Survival / time-to-event analysis"
+        ],
+        [
+          "Cost-effectiveness acceptability curve",
+          "Willingness-to-pay threshold vs probability ICER is below it",
+          "Visualising uncertainty in cost-effectiveness"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+          "page": 6,
+          "questionNumber": 6
+        },
+        {
+          "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+          "page": 8,
+          "questionNumber": 3
+        },
+        {
+          "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+          "page": 31,
+          "questionNumber": 17
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+          "page": 73,
+          "questionNumber": 38
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+          "page": 61,
+          "questionNumber": 36
+        },
+        {
+          "file": "question_bank/EBM/Evaluating Prognosis_ Attempt review.pdf",
+          "page": 2,
+          "questionNumber": 2
+        },
+        {
+          "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
+          "page": 69,
+          "questionNumber": 27
+        }
+      ],
+      "highYield": false
+    }
+  ],
+  "mnemonics": [
+    {
+      "forTopic": "Literature search completeness checklist (systematic review search strategy)",
+      "mnemonic": "MASHED",
+      "expansion": [
+        "Multiple databases searched (not just one)",
+        "Ask experts about missing/unpublished studies",
+        "Search the reference lists of retrieved papers",
+        "Hand-search for unindexed material",
+        "Extend to papers in other languages",
+        "Don't skip grey literature (conference abstracts/posters)"
+      ],
+      "sourced": false
+    },
+    {
+      "forTopic": "What a case-control study cannot give you",
+      "mnemonic": "The RAT stays out of case-control",
+      "expansion": [
+        "R — Relative risk cannot be calculated",
+        "A — Attributable/population risk cannot be calculated",
+        "T — Temporal sequence between exposure and outcome cannot be established"
+      ],
+      "sourced": false
+    },
+    {
+      "forTopic": "Reading a forest plot",
+      "mnemonic": "SWAP",
+      "expansion": [
+        "S — Square size shows the study's Weight in the pooled estimate",
+        "W — Width of the horizontal line shows imprecision (wider = less precise)",
+        "A — Arrowhead means the CI extends beyond the plotted axis (very imprecise)",
+        "P — Pooled diamond/summary line at the bottom gives the overall effect"
+      ],
+      "sourced": false
+    },
+    {
+      "forTopic": "Using sensitivity/specificity to rule disease in or out",
+      "mnemonic": "SnNout, SpPin",
+      "expansion": [
+        "SnNout — a test with high SeNsitivity, when Negative, helps rule OUT disease",
+        "SpPin — a test with high SPecificity, when Positive, helps rule IN disease"
+      ],
+      "sourced": false
+    }
+  ],
+  "examinerTraps": [
+    {
+      "text": "Meta-analysis pooling 12 uncontrolled trials + 3 RCTs: the trap answer is that mixing designs makes a meta-analysis impossible. Correct: it only weakens it — best practice is two separate meta-analyses.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+        "page": 2,
+        "questionNumber": 2
+      }
+    },
+    {
+      "text": "Impact factor is tested as if it measures the quality of a specific article — it is actually a journal-level, 3-year rolling citation average.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+        "page": 4,
+        "questionNumber": 4
+      }
+    },
+    {
+      "text": "When framing a PICO comparator for discussing a side effect with a patient, the trap distractor is an alternative drug; the correct comparator is 'not taking the intervention at all'.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+        "page": 6,
+        "questionNumber": 6
+      }
+    },
+    {
+      "text": "Candidates over-trust the Cochrane Library as covering all trials — it maintains CENTRAL but not every intervention trial is registered there, and it is not a substitute for Medline.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+        "page": 14,
+        "questionNumber": 14
+      }
+    },
+    {
+      "text": "Relative risk is a classic case-control trap: it cannot be calculated from a case-control study (only odds ratio can), because retrospective sampling does not identify incidence.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+        "page": 18,
+        "questionNumber": 15
+      }
+    },
+    {
+      "text": "Case-control studies are repeatedly tested as unable to establish temporal association between exposure and outcome, even when dose-response and OR confidence intervals are available.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+        "page": 23,
+        "questionNumber": 20
+      }
+    },
+    {
+      "text": "Nested case-control design is a trap for assuming all case-control designs share the same weaknesses: because the underlying register data were recorded prospectively, temporal association CAN be inferred here, unlike a classic case-control study.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+        "page": 48,
+        "questionNumber": 29
+      }
+    },
+    {
+      "text": "Interpreting an OR of 5 from a case-control study as if it were a relative risk ('5 times greater risk') is wrong — the correct phrasing is in terms of odds, not risk.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+        "page": 12,
+        "questionNumber": 10
+      }
+    },
+    {
+      "text": "Multicollinearity trap: when two independent variables in a multiple regression are highly correlated, individual predictors can appear falsely non-significant — this is not a sign the whole model or the outcome measure is invalid.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+        "page": 3,
+        "questionNumber": 2
+      }
+    },
+    {
+      "text": "AUC = 0.5 on an ROC curve is a trap for assuming any reported AUC implies good test performance — 0.5 means the test performs no better than chance (the diagonal line).",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+        "page": 58,
+        "questionNumber": 35
+      }
+    },
+    {
+      "text": "Raising a diagnostic cut-off from 3 to 4 on the CAGE reduces sensitivity but leaves specificity UNCHANGED in the sourced worked example — candidates often assume specificity must rise whenever sensitivity falls.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+        "page": 49,
+        "questionNumber": 31
+      }
+    },
+    {
+      "text": "The best likelihood-ratio cut-off is not necessarily the one that maximises sensitivity or specificity individually — it is typically the central/median cut-off where the two trade off best.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+        "page": 51,
+        "questionNumber": 32
+      }
+    },
+    {
+      "text": "'Point prevalence of the disease in the population' cannot be answered from a diagnostic-accuracy study built on a convenience (non-representative) sample of cases and controls — a common trap is assuming the case:control ratio approximates population prevalence.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+        "page": 53,
+        "questionNumber": 33
+      }
+    },
+    {
+      "text": "A significant Cochran's Q test is sensitive to the number/size of included studies: it may fail to flag true heterogeneity when studies are small, and flag trivial heterogeneity when studies are very large — don't treat its p-value as definitive on its own.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+        "page": 8,
+        "questionNumber": 7
+      }
+    },
+    {
+      "text": "Choosing between fixed-effect and random-effects models is about the ASSUMPTION of a single true effect vs accepting heterogeneity — not primarily about differences in methodological quality between studies.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+        "page": 10,
+        "questionNumber": 9
+      }
+    },
+    {
+      "text": "When an included study's mean outcome is smaller than its own standard deviation, this signals skewed data that undermines simple SD-based pooling — a trap for assuming any continuous outcome can be pooled with a mean/SD approach.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+        "page": 13,
+        "questionNumber": 12
+      }
+    },
+    {
+      "text": "The confidence interval of a meta-analysis's pooled effect size is explicitly NOT a valid method for detecting publication bias (that needs a funnel plot or failsafe N) — a common distractor in publication-bias questions.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+        "page": 73,
+        "questionNumber": 38
+      }
+    },
+    {
+      "text": "RRR figures are deliberately tested because they look far more impressive than the corresponding ARR (e.g. a '50% RRR' framing can hide a 2%->1% absolute change) — always convert back to ARR/NNT before judging clinical significance.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+        "page": 17,
+        "questionNumber": 16
+      }
+    },
+    {
+      "text": "Increasing an RCT's sample size while event rates stay identical is a trap for assuming the point estimate of RR/RRR changes — it only narrows the confidence interval, the point estimate stays the same.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+        "page": 12,
+        "questionNumber": 11
+      }
+    },
+    {
+      "text": "A trial with p>0.05 ('negative') is not automatically proof of no effect — check whether the upper CI bound still contains an important benefit before calling it 'definitively negative'.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+        "page": 21,
+        "questionNumber": 20
+      }
+    },
+    {
+      "text": "Equivalence trials are a trap for assuming smaller effect sizes need smaller samples — in fact equivalence trials (near-zero difference to demonstrate) require the LARGEST sample sizes of all RCT types.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+        "page": 55,
+        "questionNumber": 46
+      }
+    },
+    {
+      "text": "Cluster-randomised trials need MORE participants than an individually-randomised trial of the same total N to achieve equivalent power, because intracluster correlation reduces the effective sample size.",
+      "format": "SBA",
+      "source": {
+        "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+        "page": 43,
+        "questionNumber": 41
+      }
+    },
+    {
+      "text": "EMI trap: distinguishing 'the prevalence of disease among test-positives' (= PPV = TP/total positive) from 'how likely a positive result is given disease' (= likelihood ratio, sensitivity/(1-specificity)) — these produce different-looking but easily confused fractions from the same 2x2 table.",
+      "format": "EMI",
+      "source": {
+        "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+        "page": 12,
+        "questionNumber": 7
+      }
+    },
+    {
+      "text": "EMI trap: the same raw 2x2 count table produces different valid statistics depending on whether it is labelled case-control, cohort, or cross-sectional — incidence rate and relative risk are only valid for the cohort framing, odds ratio for case-control, and prevalence for cross-sectional.",
+      "format": "EMI",
+      "source": {
+        "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+        "page": 16,
+        "questionNumber": 9
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "subtopic": "Missing source textbook for this topic",
+      "note": "manifest.json records no dedicated SPMM (or other) book PDF for Evidence-Based Medicine / Critical Appraisal — this entire guide is built solely from the question_bank/EBM explanations (239 questions across 9 sub-banks), since content/notes/evidence-based-medicine.json does not exist. Coverage is therefore driven by what happened to be asked in this question bank, not by a structured syllabus. Cross-check this guide against a dedicated critical appraisal / EBM textbook (e.g. Greenhalgh's 'How to Read a Paper', the CASP checklists, or the RCPsych Paper B syllabus statistics/research-methods chapter) before relying on it alone."
+    },
+    {
+      "subtopic": "GRADE system & quality-of-evidence grading",
+      "note": "The GRADE approach to grading quality of evidence and strength of recommendations is never mentioned anywhere in the 239 sourced questions, despite being a standard EBM/guideline topic. Recommend reviewing the GRADE handbook or NICE's methods manual directly."
+    },
+    {
+      "subtopic": "Formal critical appraisal checklists (CASP, Jadad score, AGREE II, PEDro)",
+      "note": "Although RCT/guideline quality is discussed conceptually throughout this question bank, none of the standard named critical-appraisal instruments (CASP tools, Jadad scale, AGREE II for guidelines, PEDro) are referenced in any sourced explanation. Check a CASP course or a core EBM textbook for these instruments specifically."
+    },
+    {
+      "subtopic": "Evaluating Prognosis",
+      "note": "Only 6 questions were sourced for this sub-bank, and all of them concern survival-analysis mechanics (Kaplan-Meier, log-rank test, Cox regression) rather than prognosis-specific study design issues such as inception cohorts, prognostic-factor selection, clinical prediction rules, or prognosis-specific biases (e.g. lead-time or length-time bias). Cross-check against a core clinical epidemiology text for these."
+    },
+    {
+      "subtopic": "Recommendations & Guidelines",
+      "note": "Only 5 questions were sourced for this sub-bank. Coverage is limited to general principles of guideline development and implementation (evidence + values + resources, Delphi consensus); it does not cover formal recommendation-strength grading (e.g. GRADE strong/weak) or guideline-appraisal instruments (AGREE II)."
+    },
+    {
+      "subtopic": "Bayesian reasoning beyond basic post-test probability",
+      "note": "The sourced questions only cover the mechanics of converting prevalence -> pre-test odds -> post-test odds/probability via a likelihood ratio. There is no coverage in this question bank of Bayesian priors more generally, decision-curve analysis, or how clinical judgement should combine with these calculations in practice."
+    }
+  ]
+}

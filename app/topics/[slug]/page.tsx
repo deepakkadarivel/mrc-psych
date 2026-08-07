@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { TopicView } from "@/components/topic-view";
-import { getManifest, getTopic, getTopicNotes, getTopicQuestions } from "@/lib/content";
+import { getManifest, getStudyGuide, getTopic, getTopicNotes, getTopicQuestions } from "@/lib/content";
 
 export function generateStaticParams() {
   return getManifest().topics.map((t) => ({ slug: t.id }));
@@ -17,6 +17,7 @@ export default async function TopicPage({
 
   const notes = getTopicNotes(slug);
   const questions = getTopicQuestions(slug);
+  const studyGuide = getStudyGuide(slug);
 
-  return <TopicView topic={topic} notes={notes} questionCount={questions.length} />;
+  return <TopicView topic={topic} notes={notes} studyGuide={studyGuide} questionCount={questions.length} />;
 }

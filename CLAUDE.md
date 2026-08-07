@@ -166,6 +166,11 @@ This project's shadcn/ui components (`Button`, `SidebarMenuButton`, etc.) use Ba
 
 not `<Button asChild><Link href="/foo">Text</Link></Button>` — that fails typecheck.
 
+The editor/language-server may warn that a callback prop on a "use client" component (e.g.
+`StudyGuideView`'s `onCite`) "must be serializable" / should be named `...Action` — this rule is
+meant for Server→Client boundaries; it doesn't apply here (both components are client-side) and
+doesn't block `pnpm build`. Don't rename working callback props to chase this cosmetic warning.
+
 Whenever `Button`'s `render` target isn't a real `<button>` (e.g. a `Link`/`<a>`), also pass
 `nativeButton={false}` — otherwise Base UI logs a console error every render ("expected a
 native <button>...").
@@ -186,6 +191,35 @@ every layout change, and an unbounded, content-growing container feeds it a loop
 `ResizablePanelGroup className="h-full"` — never a hardcoded `calc(100vh-...)`, which fights
 this chain instead of relying on it. If you add a new page, don't reach for `min-h-screen` or
 similar — let the existing chain carry the height down and just fill `h-full`.
+
+## Study guides (`content/study-guides/*.json`)
+
+Built on top of the notes/questions extraction, one per topic — condensed bullets, comparison
+tables, mnemonics, examiner traps, and gaps, all citation-verified against the already-extracted
+`content/notes/<topic>.json` / `content/questions/<topic>.json` (never against the raw PDFs
+directly — those two JSON files are the source of truth for what a citation is allowed to point
+to). Schema: `StudyGuide` in `lib/types.ts`.
+
+**The core safety mechanism is extraction-framing, not a post-hoc hallucination check**: every
+bullet/cell/trap must restate something the cited NoteBlock/Question actually says — compression
+of given text, never "write about this topic and cite something plausible afterward." A model's
+own trained psychiatric knowledge bleeding in and looking like it came from the source is the
+specific failure mode this guards against.
+
+`scripts/verify-study-guide-citations.ts` mechanically checks every citation's `{file, page,
+questionNumber?}` exists in the topic's source JSON — run it after touching any study guide. It
+catches fabricated/wrong citations, but NOT a true citation attached to a false claim; that only
+gets caught by the extraction-framing above plus manual spot-checks. Don't treat a clean
+verification run as proof of correctness by itself.
+
+Two topics (`research-methods`, `evidence-based-medicine`) have no book PDF (manifest `gap`
+field) — their guides are built entirely from question explanations and are thinner by
+necessity; that's correct, not a bug to fix by padding with unsourced content.
+
+If delegating more topics to parallel agents later: give each its own uniquely-named scratchpad
+script path — two agents writing a same-named temp script to a shared /tmp location caused one
+silent build failure during this session (caught because the agent verified the output file's
+existence/content immediately after each run — keep doing that).
 
 ## Working conventions
 
