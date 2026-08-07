@@ -1,0 +1,2181 @@
+[
+  {
+    "format": "SBA",
+    "stem": "The most frequently occurring number in a set of values is called",
+    "options": [
+      "Variance",
+      "Mean",
+      "median",
+      "Range",
+      "Mode"
+    ],
+    "correctAnswer": "Mode ",
+    "explanation": "The mode is the most frequently occurring value in a cluster. The median is the central most value in rank order. Both are measures of central tendency.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 929,
+      "questionNumber": 1
+    },
+    "id": "mock-7-0",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The number of new cases during a given time interval, usually one year is called",
+    "options": [
+      "Lifetime prevalence",
+      "Attack rate",
+      "Incidence",
+      "Period prevalence",
+      "Point prevalence"
+    ],
+    "correctAnswer": "Incidence ",
+    "explanation": "The number of new cases during a given time interval, usually one year is called incidence.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 930,
+      "questionNumber": 2
+    },
+    "id": "mock-7-1",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The overall combined estimate from all of the individual trails is usually shown in the shape of a",
+    "options": [
+      "Diamond",
+      "Polygon",
+      "Rectangle",
+      "Square",
+      "Triangle"
+    ],
+    "correctAnswer": "Diamond ",
+    "explanation": "The overall combined estimate from all of the individual trails is usually shown in the shape of a diamond. The outer encasing diamond represents the confi dence interval of the overall odds ratio. Please note that this convention is by no means binding; individual researchers can choose to use a diff erent mode of depicting the pooled estimate.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 931,
+      "questionNumber": 3
+    },
+    "id": "mock-7-2",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The percentage of scores that falls outside one standard deviation of the mean on either side of a normal distribution is",
+    "options": [
+      "95",
+      "34",
+      "5",
+      "68",
+      "32"
+    ],
+    "correctAnswer": "32 ",
+    "explanation": "For any standard normal distribution, 68% scores will fall within and 32% outside the one standard deviation mark on either side.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 932,
+      "questionNumber": 4
+    },
+    "id": "mock-7-3",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The perfect value of Cohen's kappa is",
+    "options": [
+      "1",
+      "0",
+      "0.5",
+      "-0.5",
+      "-1"
+    ],
+    "correctAnswer": "1 ",
+    "explanation": "If there is a 100% agreement kappa will be 1.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 933,
+      "questionNumber": 5
+    },
+    "id": "mock-7-4",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The possible range of correlation coeffi cient varies between",
+    "options": [
+      "-1 to +1",
+      "1 to 100",
+      "0 to 1",
+      "-1 to 0",
+      "1 to infi",
+      "nity"
+    ],
+    "correctAnswer": "-1 to +1 ",
+    "explanation": "Correlation is a prerequisite for regression. If A and B are not correlated, then we cannot predict A from B or vice versa. Regression is used to predict A from B. Correlation can be positive or negative to produce regression. The values range from -1 to +1. Pearson correlation is used for parametric data while Spearman's is used for non-parametric data.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 934,
+      "questionNumber": 6
+    },
+    "id": "mock-7-5",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The possible reasons for heterogeneity include all of the following except",
+    "options": [
+      "Diff",
+      "erent trial durations",
+      "Clinical diff",
+      "erences",
+      "Methodological issues",
+      "Geographical diff",
+      "erences",
+      "Use of relative measures of risk"
+    ],
+    "correctAnswer": "Use of relative measures of risk ",
+    "explanation": "The reasons for signifi cant heterogeneity can be 1) Clinical diff erences 2) Methodological issues such as problems with randomisation, 3) Early termination or varied duration of trials 4) Use of absolute rather than relative measures of risk etc 5) Publication bias.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 935,
+      "questionNumber": 7
+    },
+    "id": "mock-7-6",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The power of a study is set at 80%, what is the chance of a type 2 error in this study?",
+    "options": [
+      "40%",
+      "10%",
+      "20%",
+      "80%",
+      "100%"
+    ],
+    "correctAnswer": "20% ",
+    "explanation": "Type 2 error is denoted by Beta. Type 2 error=1-power. So if the power is set at 80%, the chance of a type 2 error is 20%. Type 2 error is falsely accepting an incorrect null hypothesis (a diff erence that exists is rejected) and is predisposed by small sample sizes. It is usually set at 20%",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 936,
+      "questionNumber": 8
+    },
+    "id": "mock-7-7",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The principle of deriving explanations or theories from the dataset itself rather than from a researcher's prior theoretical viewpoint is called",
+    "options": [
+      "Multiple coding",
+      "Purposive sampling",
+      "Grounded Theory",
+      "Triangulation",
+      "Respondent validation"
+    ],
+    "correctAnswer": "Grounded Theory ",
+    "explanation": "Grounded theory is a method of using empirical data without preconceived theories. It is employed in qualitative researches.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 937,
+      "questionNumber": 9
+    },
+    "id": "mock-7-8",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The probability of type 2 error is generally set at the level of",
+    "options": [
+      "20%",
+      "5%",
+      "95%",
+      "68%",
+      "80%"
+    ],
+    "correctAnswer": "20% ",
+    "explanation": "As power (1-beta) is generally set at 80%, as a corollary we can say that the probability of type 2 error (beta) is set at 20%.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 938,
+      "questionNumber": 10
+    },
+    "id": "mock-7-9",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The results of a meta-analysis are usually displayed using a",
+    "options": [
+      "Survival plot",
+      "Scatter plot",
+      "Kaplan-Meier plot",
+      "Forest plot",
+      "Funnel plot"
+    ],
+    "correctAnswer": "Forest plot ",
+    "explanation": "Forest plot is a diagrammatic representation of the results of each study in a meta-analysis displaying treatment eff ects and confi dence intervals. (Glasziou 2001)",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 939,
+      "questionNumber": 11
+    },
+    "id": "mock-7-10",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The term used to describe the variation that occurs between the diff erent studies in a systematic review is",
+    "options": [
+      "Homogeneity",
+      "Heterogeneity",
+      "Standard deviation",
+      "Discrete probability distribution",
+      "Dummy variable"
+    ],
+    "correctAnswer": "Heterogeneity ",
+    "explanation": "The term used to describe the genuine variation that occurs between the diff erent studies used is Heterogeneity. If there is evidence of signifi cant heterogeneity, it important to investigate the reasons for its presence. The term 'homogeneity' is used to describe non-signifi cant variability between the results of examined studies.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 940,
+      "questionNumber": 12
+    },
+    "id": "mock-7-11",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The validity of a new instrument is compared with an external criterion. A conceptually related external criterion is identifi ed to occur sometime in the future. If the correlation between current scores obtained using the instrument and the future expected outcome is studied, this is called",
+    "options": [
+      "Incremental validity",
+      "Predictive validity",
+      "Inter-rater reliability",
+      "Concurrent validity",
+      "Internal consistency"
+    ],
+    "correctAnswer": "Predictive validity ",
+    "explanation": "As something happening in future is assessed against the scale's current measures, predictive validity is being tested here",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 941,
+      "questionNumber": 13
+    },
+    "id": "mock-7-12",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The value of correlation coeffi cient that demonstrates an inverse relationship between two continuous variables is",
+    "options": [
+      "0.5",
+      "1",
+      "0",
+      "-1",
+      "Infi",
+      "nity"
+    ],
+    "correctAnswer": "-1 ",
+    "explanation": "-1 means there is a negative or inverse correlation.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 942,
+      "questionNumber": 14
+    },
+    "id": "mock-7-13",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To compare the eff ects of bifrontal electrode placement (BF) against two other standard electrode placements, bitemporal (BT) and right unilateral (RUL) in electroconvulsive therapy (ECT), the following study was conducted. Depressed participants (age 20 to 87 years old) who had been referred for ECT were recruited to a trial of ECT electrode placement. A total of 230 people were assigned to one of three electrode placements using block randomization approach - bifrontal at one and a half times seizure threshold, bitemporal at one and a half times seizure threshold and right unilateral at six times seizure threshold. Remission was defi ned as a decrease in the Hamilton Depression Rating Scale (HDRS) -24 total score of at least 50% from baseline (see below). A comprehensive neurocognitive battery was performed at baseline, at at multiple intervals thereafter. Remission rates were 55% (95% CI 43-66%) with right unilateral, 60% with bifrontal (95% CI 50- 71%) and 64% (95% CI 53-75%) with bitemporal. Cognitive data revealed few diff erences between the electrode placements on a variety of neuropsychological instruments. Kellner et al. The British Journal of Psychiatry (2010) 196: 226-234. See thefi gure attached. Which of the following statements most closely refl ects the conclusions that may be drawn from this study about the effi cacy of ECT in treating depression? ",
+    "options": [
+      "All electrode placements were statistically eff",
+      "ective in treating depression.",
+      "Bi-temporal placement was clinically better than other placements.",
+      "Bi-temporal placement was statistically superior to other placements.",
+      "It is not possible to draw any conclusions about the effi",
+      "cacy of ECT.",
+      "All electrode placements were clinically and statistically eff",
+      "ective in treating depression."
+    ],
+    "correctAnswer": "It is not possible to draw any conclusions about the effi cacy of ECT. ",
+    "explanation": "This study is not assessing the effi cacy of ECT use in depression: instead it is comparing two methods of delivering ECT.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 943,
+      "questionNumber": 15
+    },
+    "id": "mock-7-14",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To compare the eff ects of bifrontal electrode placement (BF) against two other standard electrode placements, bitemporal (BT) and right unilateral (RUL) in electroconvulsive therapy (ECT), the following study was conducted. Depressed participants (age 20 to 87 years old) who had been referred for ECT were recruited to a trial of ECT electrode placement. A total of 230 people were assigned to one of three electrode placements using block randomization approach - bifrontal at one and a half times seizure threshold, bitemporal at one and a half times seizure threshold and right unilateral at six times seizure threshold. Remission was defi ned as a decrease in the Hamilton Depression Rating Scale (HDRS) -24 total score of at least 50% from baseline (see below). A comprehensive neurocognitive battery was performed at baseline, at at multiple intervals thereafter. Remission rates were 55% (95% CI 43-66%) with right unilateral, 60% with bifrontal (95% CI 50- 71%) and 64% (95% CI 53-75%) with bitemporal. Cognitive data revealed few diff erences between the electrode placements on a variety of neuropsychological instruments. Kellner et al. The British Journal of Psychiatry (2010) 196: 226-234. See thefi gure attached. Which of the following statistical tests could be used to test the hypothesis that the drop-out rates were not equal in two of the three arms of the study? ",
+    "options": [
+      "Chi-square test",
+      "McNemar's test",
+      "Unpaired t-test",
+      "Kruskal-Wallis test",
+      "ANOVA"
+    ],
+    "correctAnswer": "Chi-square test ",
+    "explanation": "To compare two proportions use Chi-square test",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 945,
+      "questionNumber": 16
+    },
+    "id": "mock-7-15",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To compare the eff ects of bifrontal electrode placement (BF) against two other standard electrode placements, bitemporal (BT) and right unilateral (RUL) in electroconvulsive therapy (ECT), the following study was conducted. Depressed participants (age 20 to 87 years old) who had been referred for ECT were recruited to a trial of ECT electrode placement. A total of 230 people were assigned to one of three electrode placements using block randomization approach - bifrontal at one and a half times seizure threshold, bitemporal at one and a half times seizure threshold and right unilateral at six times seizure threshold. Remission was defi ned as a decrease in the Hamilton Depression Rating Scale (HDRS) -24 total score of at least 50% from baseline (see below). A comprehensive neurocognitive battery was performed at baseline, at at multiple intervals thereafter. Remission rates were 55% (95% CI 43-66%) with right unilateral, 60% with bifrontal (95% CI 50- 71%) and 64% (95% CI 53-75%) with bitemporal. Cognitive data revealed few diff erences between the electrode placements on a variety of neuropsychological instruments. Kellner et al. The British Journal of Psychiatry (2010) 196: 226-234. See thefi gure attached. What is the number needed to treat to achieve one additional remission with bifrontal (BF) electrode placement compared to right unilateral (RUL)? ",
+    "options": [
+      "20",
+      "25",
+      "34",
+      "11",
+      "15"
+    ],
+    "correctAnswer": "20 ",
+    "explanation": "The BF placement has a response rate of 60%; RUF has 55%. The response rate is same as event rate in two groups (experimental group: BF and control group: RUF). Subtract the two Event rates to get ABI: 60-55% = 5% ABI or ARR. If you invert this, you will get the NNT. 1/5% = 20",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 947,
+      "questionNumber": 17
+    },
+    "id": "mock-7-16",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To compare the eff ects of bifrontal electrode placement (BF) against two other standard electrode placements, bitemporal (BT) and right unilateral (RUL) in electroconvulsive therapy (ECT), the following study was conducted. Depressed participants (age 20 to 87 years old) who had been referred for ECT were recruited to a trial of ECT electrode placement. A total of 230 people were assigned to one of three electrode placements using block randomization approach - bifrontal at one and a half times seizure threshold, bitemporal at one and a half times seizure threshold and right unilateral at six times seizure threshold. Remission was defi ned as a decrease in the Hamilton Depression Rating Scale (HDRS) -24 total score of at least 50% from baseline (see below). A comprehensive neurocognitive battery was performed at baseline, at at multiple intervals thereafter. Remission rates were 55% (95% CI 43-66%) with right unilateral, 60% with bifrontal (95% CI 50- 71%) and 64% (95% CI 53-75%) with bitemporal. Cognitive data revealed few diff erences between the electrode placements on a variety of neuropsychological instruments. Kellner et al. The British Journal of Psychiatry (2010) 196: 226-234. See thefi gure attached. Block randomisation has been used in order to: ",
+    "options": [
+      "Ensure equal numbers of participants in all arms",
+      "Ensure equal distribution of a few confounders.",
+      "Ensure allocation concealment",
+      "Minimise measurement bias",
+      "Ensure equal distribution of both genders in all arms."
+    ],
+    "correctAnswer": "Ensure equal numbers of participants in all arms ",
+    "explanation": "The block randomisation helps achieve equal",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 949,
+      "questionNumber": 18
+    },
+    "id": "mock-7-17",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To compare the eff ects of bifrontal electrode placement (BF) against two other standard electrode placements, bitemporal (BT) and right unilateral (RUL) in electroconvulsive therapy (ECT), the following study was conducted. Depressed participants (age 20 to 87 years old) who had been referred for ECT were recruited to a trial of ECT electrode placement. A total of 230 people were assigned to one of three electrode placements using block randomization approach - bifrontal at one and a half times seizure threshold, bitemporal at one and a half times seizure threshold and right unilateral at six times seizure threshold. Remission was defi ned as a decrease in the Hamilton Depression Rating Scale (HDRS) -24 total score of at least 50% from baseline (see below). A comprehensive neurocognitive battery was performed at baseline, at at multiple intervals thereafter. Remission rates were 55% (95% CI 43-66%) with right unilateral, 60% with bifrontal (95% CI 50- 71%) and 64% (95% CI 53-75%) with bitemporal. Cognitive data revealed few diff erences between the electrode placements on a variety of neuropsychological instruments. Kellner et al. The British Journal of Psychiatry (2010) 196: 226-234. See thefi gure attached. Which of the following most closely describes the method used in this trial? ",
+    "options": [
+      "Cohort study",
+      "Cluster RCT",
+      "Parallel group RCT",
+      "Stratifi",
+      "ed RCT",
+      "Cross-over RCT"
+    ],
+    "correctAnswer": "Parallel group RCT ",
+    "explanation": "This is an RCT with 3 parallel groups",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 951,
+      "questionNumber": 19
+    },
+    "id": "mock-7-18",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To compare the eff ects of bifrontal electrode placement (BF) against two other standard electrode placements, bitemporal (BT) and right unilateral (RUL) in electroconvulsive therapy (ECT), the following study was conducted. Depressed participants (age 20 to 87 years old) who had been referred for ECT were recruited to a trial of ECT electrode placement. A total of 230 people were assigned to one of three electrode placements using block randomization approach - bifrontal at one and a half times seizure threshold, bitemporal at one and a half times seizure threshold and right unilateral at six times seizure threshold. Remission was defi ned as a decrease in the Hamilton Depression Rating Scale (HDRS) -24 total score of at least 50% from baseline (see below). A comprehensive neurocognitive battery was performed at baseline, at multiple intervals after that. Remission rates were 55% (95% CI 43-66%) with right unilateral, 60% with bifrontal (95% CI 50-71%) and 64% (95% CI 53-75%) with bitemporal. Cognitive data revealed few diff erences between the electrode placements on a variety of neuropsychological instruments. Kellner et al. The British Journal of Psychiatry (2010) 196: 226-234. See thefi gure attached. What do the horizontal lines in thefi gure represent? ",
+    "options": [
+      "The range of HDRS scores",
+      "The confi",
+      "dence interval of risk rates.",
+      "The confi",
+      "dence interval of HDRS scores.",
+      "The confi",
+      "dence interval of proportion relapsing.",
+      "The confi",
+      "dence interval of proportion achieving a 50% reduction in HDRS scores."
+    ],
+    "correctAnswer": "The confi dence interval of proportion achieving a 50% reduction in HDRS scores. ",
+    "explanation": "This is an idiosyncratic plot used by the authors to represent their study results - don't confuse this with box-whisker plots. If you read the precis carefully, you will realise that remission is defi ned as 50% change in HDRS. In each of the three arms, the proportion achieving this predefi ned remission is determined, and the 95% confi dence intervals for this value is derived. This is represented as the horizontal lines.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 953,
+      "questionNumber": 20
+    },
+    "id": "mock-7-19",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To compare the eff ects of bifrontal electrode placement (BF) against two other standard electrode placements, bitemporal (BT) and right unilateral (RUL) in electroconvulsive therapy (ECT), the following study was conducted. Depressed participants (age 20 to 87 years old) who had been referred for ECT were recruited to a trial of ECT electrode placement. A total of 230 people were assigned to one of three electrode placements using block randomization approach - bifrontal at one and a half times seizure threshold, bitemporal at one and a half times seizure threshold and right unilateral at six times seizure threshold. Remission was defi ned as a decrease in the Hamilton Depression Rating Scale (HDRS) -24 total score of at least 50% from baseline (see below). A comprehensive neurocognitive battery was performed at baseline, at at multiple intervals thereafter. Remission rates were 55% (95% CI 43-66%) with right unilateral, 60% with bifrontal (95% CI 50- 71%) and 64% (95% CI 53-75%) with bitemporal. Cognitive data revealed few diff erences between the electrode placements on a variety of neuropsychological instruments. Kellner et al. The British Journal of Psychiatry (2010) 196: 226-234. See thefi gure attached. Which of the following most closely describes the main aim of the study? ",
+    "options": [
+      "The adverse eff",
+      "ects of three types of electrode placement",
+      "The stimulus threshold used in ECT treatments.",
+      "Whether ECT is superior to placebo in the treatment of depression.",
+      "The optimal length of a course of ECT",
+      "Whether bifrontal placement is as eff",
+      "ective as bi-temporal and unilateral placement"
+    ],
+    "correctAnswer": "Whether bifrontal placement is as eff ective as bi-temporal and unilateral placement ",
+    "explanation": "This study is to assess whether bifrontal electrode placement has diff erential eff ects on effi cacy and adverse eff ects compared to other placements",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 955,
+      "questionNumber": 21
+    },
+    "id": "mock-7-20",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To determine the effi cacy of exposure therapy or cognitive restructuring relative to a wait-list control group in preventing chronic PTSD in those with acute stress reaction, a trial was designed. Participants were randomly allocated to 1 of 3 treatment conditions. Randomization was conducted by a process of stratifi cation by sex, trauma type, and Acute Stress Disorder score. Random numbers system was administered by a third party in a distant center not involved in the study. Which of the following is correct with respect to sample size in research studies?",
+    "options": [
+      "Randomisation ensures precision of estimates.",
+      "A large sample size ensures representativeness of the sample",
+      "We do not need to randomize if our sample size is suffi",
+      "ciently large",
+      "A larger sample size is needed only for a larger population",
+      "Irrespective of size, proper sampling techniques will ensure precision of estimates."
+    ],
+    "correctAnswer": "A large sample size ensures representativeness of the sample ",
+    "explanation": "Randomisation is important irrespective of the size of a sample. But randomisation dos not automatically ensure precision; the larger a sample, the more representative it is to the target population and thus increasing the precision of results.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 957,
+      "questionNumber": 22
+    },
+    "id": "mock-7-21",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To determine the effi cacy of exposure therapy or cognitive restructuring relative to a wait-list control group in preventing chronic PTSD in those with acute stress reaction, a trial was designed. Participants were randomly allocated to 1 of 3 treatment conditions. Randomization was conducted by a process of stratifi cation by sex, trauma type, and Acute Stress Disorder score. Random numbers system was administered by a third party in a distant centre not involved in the study. Which of the following is false with regard to the above study method?",
+    "options": [
+      "This study design is suitable for evaluating an intervention",
+      "Selection of patients who are less likely to develop PTSD to one group is avoided",
+      "The baseline characters suspected to be important are randomly distributed",
+      "Probability theory can be used to make inferences.",
+      "All patients had equal chance of entering the waiting list group"
+    ],
+    "correctAnswer": "The baseline characters suspected to be important are randomly distributed ",
+    "explanation": "As baseline characteristics are stratifi ed before randomisation, these values are 'equally', not just randomly distributed between the two groups. Randomisation process has ensured the application of probability theory in making inferences, and all patients had an equal chance of entering the waiting list group. Randomised trials are the best designs for evaluating interventions.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 958,
+      "questionNumber": 23
+    },
+    "id": "mock-7-22",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To investigate the eff ect of dementia on the risk of mortality in older people undergoing emergency medical admission, a longitudinal cohort study of 617 people (aged over 70) was conducted. Of the cohort, 42.4% had DSM-IV criteria met for dementia. The clinical characteristics and outcomes are shown in the attached table. In men aged 70 –79, dementia prevalence was 16.4%, rising to 48.8% of those over 90. In women, 29.6% aged 70 –79 had dementia, rising to 75.0% aged over 90. Urinary tract infection or pneumonia was the principal cause of admission in 41.3% of the people with dementia. Individuals who were acutely admitted in medical units had markedly higher mortality in the presence of cognitive impairment: 24.0% of those with severe cognitive impairment died during admission (adjusted mortality risk 4.02, 95% CI 2.24 –7.36). Which of the following is a rational inference that can be drawn from this study? ",
+    "options": [
+      "Low MMSE score is associated with higher admission rates",
+      "Acute cardiac syndrome is relatively rare in patients with dementia",
+      "Pneumonia is associated with cognitive impairment",
+      "Pneumonia is associated with higher mortality than other conditions",
+      "UTI is associated with higher prevalence of acute cardiac syndrome",
+      ""
+    ],
+    "correctAnswer": "Pneumonia is associated with cognitive impairment ",
+    "explanation": "The chi-square test of the prevalence of cognitive impairment in patients with pneumonia suggests that there is a disproportionately high degree of severe impairment (MMSE 0-15) in acutely admitted individuals with pneumonia (p<0.001).",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 959,
+      "questionNumber": 24
+    },
+    "id": "mock-7-23",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To investigate the eff ect of dementia on the risk of mortality in older people undergoing emergency medical admission, a longitudinal cohort study of 617 people (aged over 70) was conducted. Of the cohort, 42.4% had DSM-IV criteria met for dementia. The clinical characteristics and outcomes are shown in the attached table. In men aged 70 –79, dementia prevalence was 16.4%, rising to 48.8% of those over 90. In women, 29.6% aged 70 –79 had dementia, rising to 75.0% aged over 90. Urinary tract infection or pneumonia was the principal cause of admission in 41.3% of the people with dementia. Individuals who were acutely admitted in medical units had markedly higher mortality in the presence of cognitive impairment: 24.0% of those with severe cognitive impairment died during admission (adjusted mortality risk 4.02, 95% CI 2.24 –7.36). Chi-square test has been employed to test the statistical signifi cance in this study. This is because ",
+    "options": [
+      "Mortality cannot be quantifi",
+      "ed in proportions",
+      "Chi-square test can reduce type 1 error",
+      "The sample size is too small to conduct a parametric test",
+      "Chi-square test allows multivariate comparisons",
+      "Mortality is a categorical outcome",
+      ""
+    ],
+    "correctAnswer": "Mortality is a categorical outcome ",
+    "explanation": "The chi-squared test can be used to examine the relationship between categorical data. Death is either present or absent. Hence mortality rates are essentially proportions. To compare proportions between 2 (or more) groups, chi-square is a suitable test.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 962,
+      "questionNumber": 25
+    },
+    "id": "mock-7-24",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To investigate the eff ect of dementia on the risk of mortality in older people undergoing emergency medical admission, a longitudinal cohort study of 617 people (aged over 70) was conducted. Of the cohort, 42.4% had DSM-IV criteria met for dementia. The clinical characteristics and outcomes are shown in the attached table. In men aged 70 –79, dementia prevalence was 16.4%, rising to 48.8% of those over 90. In women, 29.6% aged 70 –79 had dementia, rising to 75.0% aged over 90. Urinary tract infection or pneumonia was the principal cause of admission in 41.3% of the people with dementia. Individuals who were acutely admitted in medical units had markedly higher mortality in the presence of cognitive impairment: 24.0% of those with severe cognitive impairment died during admission (adjusted mortality risk 4.02, 95% CI 2.24 –7.36). From the data provided in the table, which of the following numerical interpretation can be made? ",
+    "options": [
+      "Pressure sores are 8 times more common in those without dementia compared to those with dementia",
+      "Risk of death during index admission is more than doubled in the presence of dementia",
+      "Pneumonia is the most common diagnosis on acute admission in patients with high MMSE scores",
+      "Duration of admission in those without dementia is more prolonged than those with dementia",
+      "Acute cardiac syndrome is the most common diagnosis on acute admission in patients with dementia",
+      ""
+    ],
+    "correctAnswer": "Risk of death during index admission is more than doubled in the presence of dementia ",
+    "explanation": "The risk of death during index admission is more than doubled in the presence of dementia (18.1 vs. 7.9). Duration of admission in those without dementia is more prolonged than those with dementia while pressure sores are less common in the absence of dementia. The acute cardiac syndrome is the most common diagnosis on admission in non-demented patients while pneumonia tops the list for patients with dementia.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 965,
+      "questionNumber": 26
+    },
+    "id": "mock-7-25",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To investigate whether patients with a history of schizophrenia are at increased risk of hip fracture, cases of 'hip fracture' on the General Practice Research Database (n=16 341) were compared with matched controls (n=29 889). This database included data from nearly 5% of UK population for a period of 12 years. Hip fracture was associated with schizophrenia (OR=1.73; 95% CI 1.32-2.28), and prolactin-raising antipsychotics (OR=2.6; 95% CI 2.43-2.78), in the univariate analysis. In the multivariate analysis, prolactin-raising antipsychotics were independently associated with hip fracture but schizophrenia was not. A signifi cant interaction between gender and antipsychotics was found in the association with hip fracture (P=0.042); OR=2.12 (95% CI1.73-2.59) for men, OR=1.93 (95% CI1.78-2.10) for women. Howard, L., Kirkwood, G. and Leese, M. (2007) Risk of hip fracture in patients with a history of schizophrenia. The British Journal of Psychiatry, 190, 129- 134. (See the attached table). If the population of UK is 55 million, what will be the closest approximation of the annual incidence of hip fractures using the above study data? \n\n",
+    "options": [
+      "16000",
+      "1333",
+      "33000",
+      "27000",
+      "67000"
+    ],
+    "correctAnswer": "27000 ",
+    "explanation": "GPRD has 5% of total population data. From GPRD, nearly 16000 fractures were recorded in 12 years. Hence annual incidence within GPRD records will be 16000/12 = 1333 per year. As this represents annual incidence in 5% population, the total incidence will be 20 times higher i.e. 26666 or 27,000 approximately. (Don't worry about the 55 million stuff - it is a detractor!)",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 968,
+      "questionNumber": 27
+    },
+    "id": "mock-7-26",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To investigate whether patients with a history of schizophrenia are at increased risk of hip fracture, cases of 'hip fracture' on the General Practice Research Database (n=16 341) were compared with matched controls (n=29 889). This database included data from nearly 5% of UK population for a period of 12 years.. Hip fracture was associated with schizophrenia (OR=1.73; 95% CI 1.32-2.28), and prolactin-raising antipsychotics (OR=2.6; 95% CI 2.43-2.78), in the univariate analysis. In the multivariate analysis, prolactin-raising antipsychotics were independently associated with hip fracture but schizophrenia was not. A signifi cant interaction between gender and antipsychotics was found in the association with hip fracture (P=0.042); OR=2.12 (95% CI1.73-2.59) for men, OR=1.93 (95% CI1.78-2.10) for women. Howard, L., Kirkwood, G. and Leese, M. (2007) Risk of hip fracture in patients with a history of schizophrenia. The British Journal of Psychiatry, 190, 129- 134. (See the attached table) What type of study has been conducted to investigate the association of hip fracture and schizophrenia? \n\n",
+    "options": [
+      "Cohort study",
+      "Case control study",
+      "Census study",
+      "Cross sectional study",
+      "Pragmatic trial"
+    ],
+    "correctAnswer": "Case control study ",
+    "explanation": "Though the data was obtained from an existing data base in somewhat cross-sectional fashion, cases and controls were determined by presence or absence of hip fracture, and the associated exposures are then searched for in retrospective fashion.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 971,
+      "questionNumber": 28
+    },
+    "id": "mock-7-27",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "To investigate whether patients with a history of schizophrenia are at increased risk of hip fracture, cases of 'hip fracture' on the General Practice Research Database GPRD (n=16 341) were compared with matched controls (n=29 889). This database included data from nearly 5% of UK population for aperiod of 12 years.. Hip fracture was associated with schizophrenia (OR=1.73; 95% CI 1.32-2.28), and prolactin- raising antipsychotics (OR=2.6; 95% CI 2.43-2.78), in the univariate analysis. In the multivariate analysis, prolactin-raising antipsychotics were independently associated with hip fracture but schizophrenia was not. A signifi cant interaction between gender and antipsychotics was found in the association with hip fracture (P=0.042); OR=2.12 (95% CI1.73-2.59) for men, OR=1.93 (95% CI1.78-2.10) for women. Howard, L., Kirkwood, G. and Leese, M. (2007) Risk of hip fracture in patients with a history of schizophrenia. The British Journal of Psychiatry, 190, 129- 134. (See the attached table). What cannot be said about the GPRD? \n\n",
+    "options": [
+      "It is comprised of randomly collected data",
+      "It is computerised",
+      "It is one of the largest anonymised healthcare databases",
+      "The data is from longitudinal medical records",
+      "It is representative of general population"
+    ],
+    "correctAnswer": "It is comprised of randomly collected data ",
+    "explanation": "The GPRD is the world's largest computerised database of anonymised longitudinal medical records from primary care that is linked to other healthcare data. Currently, data are being collected on over 3.6 million active patients (approx. 13 million total) from around 488 primary care practices throughout the UK. GPRD today and its key features. The GPRD was set up in the UK in 1987 (but includes pre-1987data too) and contains the computerised medical records of approximately 5.5% of the UK population in primary care. The data collected are audited regularly, and the participating general practices subjected to a number of quality checks, including internal validation by cross-checking within practices and by comparisons with national statistics. Only practices that comply with this quality control are retained within the database. The data are considered representative of the general population although there is some bias towards larger group practices. It is the most validated of all databases used for drug safety and eff ectiveness research.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 974,
+      "questionNumber": 29
+    },
+    "id": "mock-7-28",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Two educational interventions are compared with respect to ability in reducing psychosis related disability in high-risk individuals. The main outcome measured was median days of DUP (duration of untreated psychosis) reduced by each intervention. Which of the following is true with regard to the above study method?",
+    "options": [
+      "DUP is a secondary outcome measure",
+      "None of the above comments could be made with the available information",
+      "The study design isfl",
+      "awed",
+      "This study cannot be a randomised controlled trial",
+      "DUP is a surrogate endpoint"
+    ],
+    "correctAnswer": "DUP is a surrogate endpoint ",
+    "explanation": "Outcome measures that are not of direct practical importance but are believed to refl ect outcomes that are important are called surrogate outcomes. For instance, cholesterol is used as a surrogate endpoint in many trials where cholesterol reduction is used as a surrogate for reduced mortality. (from Bandolier)",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 977,
+      "questionNumber": 30
+    },
+    "id": "mock-7-29",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Two groups are compared using the same outcome measure when evaluating an intervention. Mean baseline variables are compared between the two groups at the onset of study. Which of the following tests is most suitable for this purpose?",
+    "options": [
+      "Unpaired t test",
+      "Kruskal Wallis test",
+      "ANOVA",
+      "ANCOVA",
+      "Paired t test"
+    ],
+    "correctAnswer": "Unpaired t test ",
+    "explanation": "For comparison of means in 2 independent groups for parametric variables, unpaired t tests are suitable.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 978,
+      "questionNumber": 31
+    },
+    "id": "mock-7-30",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Two groups were compared in terms of improvement in symptoms of depression. Group A received self-management strategies while group B was treated as usual. Both groups had comparable periods of follow-up of 2 months. Unfortunately, as the study was not designed as a controlled trial, the outcomes were measured using diff erent scales (HAMD in group A and MADRS in group B). 50% reduction in baseline score was taken as the evidence for response to intervention. In group A 57% showed response while in group B 40% sample showed 50% change in the scale used. For the above data, calculate the NNT when employing self-management strategies for depression.",
+    "options": [
+      "17",
+      "10",
+      "6",
+      "2",
+      "8"
+    ],
+    "correctAnswer": "6 ",
+    "explanation": "Here event of interest is 50% change in the baseline depression scores. TAU (Treatment as usual) is the control group. The event rate in this group is 40%. CER = 40% SImiliarly, we can say EER = 57%. ABI = EER - CER = 57 -40 = 17%. RBI = ABI expressed in terms of control groups event rate (in otherwords, event rate in the absence of intervention) = ABI/CER = 17/40 = 0.425 = 0.43 nearly. NNT is simply 1/ABI = 1/17% = 100/17 = 5.88 = 6.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 979,
+      "questionNumber": 32
+    },
+    "id": "mock-7-31",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Wernicke's encephalopathy is directly caused by a defi ciency of which of the following substances?",
+    "options": [
+      "Thiamine",
+      "Ribofl",
+      "avin",
+      "Alcohol",
+      "Aldehyde",
+      "Niacin"
+    ],
+    "correctAnswer": "Thiamine ",
+    "explanation": "Wernicke's encephalopathy (WE) is directly caused by thiamine defi ciency, due to inadequate dietary intake, reduced gastrointestinal absorption, decreased hepatic storage, and impaired utilization. Not every thiamine-defi cient alcoholic develops WE. A vulnerability elated to abnormal thiamine-dependent transketolase may result in reduced affi nity for sparsely available thiamine.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 980,
+      "questionNumber": 33
+    },
+    "id": "mock-7-32",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "In a malnourished patient with long standing alcohol use, which of the following complications could worsen on immediate refeeding with a glucose-rich infusion?",
+    "options": [
+      "Sodium depletion",
+      "Pancreatitis",
+      "Hypoglycaemia",
+      "Thiamine defi",
+      "ciency",
+      "Alcoholic hepatitis"
+    ],
+    "correctAnswer": "Thiamine defi ciency ",
+    "explanation": "Thiamine should always be administered prior to glucose infusion because glucose metabolism may rapidly deplete patients'thiamine reserves in cases of long-standing poor nutrition.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 981,
+      "questionNumber": 34
+    },
+    "id": "mock-7-33",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "In countries with low suicide rates, what is the factor by which the lifetime risk of suicide is elevated in people who are alcohol dependent?",
+    "options": [
+      "80",
+      "10",
+      "40",
+      "2",
+      "1.5"
+    ],
+    "correctAnswer": "80 ",
+    "explanation": "Alcohol dependence is an important risk factor for suicidal behaviour. The lifetime risk of suicide among individuals with alcohol dependence treated in out-patient and in-patient settings was 2.2% and 3.4%, respectively (Murphy & Wetzel, 2008). Nonetheless, individuals with alcohol dependence have a 60-120 times greater suicide risk than the non-psychiatrically-ill population.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 982,
+      "questionNumber": 35
+    },
+    "id": "mock-7-34",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "A middle-aged woman was treated for her anxiety symptoms using benzodiazepines for a long period. When the benzodiazepine is gradually tapered, she develops certain clinical features.Which of the following feature is commonly associated with benzodiazepine withdrawal rather than a relapse of anxiety?",
+    "options": [
+      "Sweating",
+      "Insomnia",
+      "Delirium",
+      "Dizziness",
+      "Formication"
+    ],
+    "correctAnswer": "Formication ",
+    "explanation": "Formication is not seen in a relapse of anxiety states. Delirium may be a feature of benzodiazepine withdrawal if high doses are rapidly withdrawn; it is not a common feature.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 983,
+      "questionNumber": 36
+    },
+    "id": "mock-7-35",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "During alcohol withdrawal, generalized seizures usually occur within how many hours after the cessation of drinking?",
+    "options": [
+      "1-2 hours",
+      "48 hours",
+      "6 hours",
+      "72 hours",
+      "24 hours"
+    ],
+    "correctAnswer": "24 hours ",
+    "explanation": "During alcohol withdrawal, generalised seizures usually occur within 24 hours of cessation but occur later in some cases. These are grand- mal seizures especially common in those who had previous seizures (epilepsy or withdrawal seizures), head injury and electrolyte imbalance such as hyponatraemia or hypokalemia.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 984,
+      "questionNumber": 37
+    },
+    "id": "mock-7-36",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Regarding the length of community detoxifi cation for opioid dependence, methadone reductions are typically carried out over a period of",
+    "options": [
+      "14 days",
+      "3 months",
+      "1 month",
+      "6 months",
+      "7 days"
+    ],
+    "correctAnswer": "3 months ",
+    "explanation": "Regarding the length of community detoxifi cation for opioid dependence, NICE guidelines state 'dose reduction can take place over anything from a few days to several months, with a higher initial stabilisation dose taking longer to taper'and indicate that 'up to 3 months is typical for methadone reduction, while Buprenorphine reductions are typically carried out over 14 days to a few weeks. In practice, detoxifi cation in the community may extend over a longer period, if this facilitates the patient's comfort during the process. Ref: NICE; Drug misuse, opioid detoxifi cation, clinical guidance 52,2007",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 985,
+      "questionNumber": 38
+    },
+    "id": "mock-7-37",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which is the best known and the most widespread of the voluntary self-help organisations for problem drinkers?",
+    "options": [
+      "Alcoholics anonymous",
+      "Al-Ateen",
+      "Narcotic anonymous",
+      "Al-anon",
+      "Cocaitic anonymous"
+    ],
+    "correctAnswer": "Alcoholics anonymous ",
+    "explanation": "Alcoholics Anonymous (AA) is the most established of the voluntary self-help organizations for problem drinkers. Bill Wilson and Dr Bob Smith, both problem drinkers, found the AA in 1935 in the USA. Currently, there are ~3000 groups in the UK and ~88 000 groups worldwide. Associated organisations are Al-anon (for relatives of problem drinkers); Al-Ateen (for teenage children of problem drinkers) Narcotics Anonymous (NA) (for addicts of illicit drugs). Ref: Oxford handbook of psychiatry; 521",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 986,
+      "questionNumber": 39
+    },
+    "id": "mock-7-38",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following is a negative prognostic factor in patients with a history of alcohol dependence?",
+    "options": [
+      "AA involvement",
+      "Supportive family",
+      "Ambivalence to change",
+      "Motivated to change",
+      "Accepting of appropriate goal"
+    ],
+    "correctAnswer": "Ambivalence to change ",
+    "explanation": "Positive factors: Being motivated to change; supportive family or relationship; in employment; treatable comorbid illness (e.g. anxiety disorder, social phobia); accepting of appropriate treatment goal; AA involvement. Negative factors- Ambivalent to change; unstable accommodation or homeless; drinking embedded into lifestyle (e.g. limited pursuits outside alcohol, all friends are drinkers); repeated treatment failures; cognitive impairment. Ref: Oxford Handbook of Psychiatry; 515",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 987,
+      "questionNumber": 40
+    },
+    "id": "mock-7-39",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "In PTSD which of the following statement is true?",
+    "options": [
+      "Avoidance is associated with chronicity",
+      "Refugees are at no more risk than the indigenous population",
+      "Misdiagnosis as refractory depression does not occur",
+      "Securely attached individuals exhibit more symptoms.",
+      "Cortisol levels are high"
+    ],
+    "correctAnswer": "Avoidance is associated with chronicity ",
+    "explanation": "Cortisol levels are low in PTSD. Insecure attachment increases risk of PTSD. PTSD is often misdiagnosed as depression. Refugees have higher risk of PTSD. Avoidance of traumatic stimuli is associated with chronicity.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 988,
+      "questionNumber": 41
+    },
+    "id": "mock-7-40",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "In traumatic brain injury, the best predictor of outcome is the period of",
+    "options": [
+      "Global amnesia",
+      "Retrograde amnesia",
+      "Selective amnesia",
+      "Continuous headaches",
+      "Post traumatic amnesia"
+    ],
+    "correctAnswer": "Post traumatic amnesia ",
+    "explanation": "After head injury, patients who are not able to resume previous activities are the ones who had a longer duration of PTA than those who resumed work without problems.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 989,
+      "questionNumber": 42
+    },
+    "id": "mock-7-41",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Intermittent dosing using SSRIs is eff ective in treatment of;",
+    "options": [
+      "Postnatal depression",
+      "Postnatal blues",
+      "Premenstrual syndrome",
+      "Post partum psychosis",
+      "Post menopausal syndrome"
+    ],
+    "correctAnswer": "Premenstrual syndrome ",
+    "explanation": "PMS: Intermittent dosing during the luteal phase of the menstrual cycle is eff ective. This temporarily increases serotonin concentration during the luteal phase. Intermittent dosing is eff ective only in luteal phase, 2 weeks prior to menses. Most eff ective- Fluoxetine. Eff ective within one menstrual cycle - too rapid for antidepressant eff ect. Insomnia, GIT disturbances and fatigue are most common side eff ect. There was no signifi cant diff erence in symptom reduction between continuous and intermittent dosing.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 990,
+      "questionNumber": 43
+    },
+    "id": "mock-7-42",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Lucy and Linda are twin sisters; Lucy has type 1 bipolar while Linda has type 2. Which of the following statements regarding their illnesses is correct?",
+    "options": [
+      "Lucy's diagnosis is more likely to change than Linda's diagnosis",
+      "Lucy is more likely to commit suicide than Linda",
+      "All of the other listed options are incorrect.",
+      "Lucy will spend more time in depression than Linda",
+      "Linda will have better functional recovery than Lucy"
+    ],
+    "correctAnswer": "All of the other listed options are incorrect. ",
+    "explanation": "Bipolar II disorder is often thought of as a milder expression of bipolar disorder. However, it is only milder in its severity of manic symptoms as hypomania is less severe than mania. Patients with bipolar type II disorder suff er more depressed days than patients with bipolar type I disorder over time. According to prospective studies, bipolar II patients experienced mood symptoms 54% of the time compared with 47% in bipolar I patients. For both bipolar I and bipolar II patients, those mood symptoms were dominated by depressive versus manic symptoms, although bipolar II patients experienced more depressive symptoms (93%) than bipolar I patients (67%). Thisfi nding may explain the increased suicidality rates and poor functional recovery observed among bipolar 2 patients (Keck, 2007).",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 991,
+      "questionNumber": 44
+    },
+    "id": "mock-7-43",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Male to female ratio of somatisation disorder is",
+    "options": [
+      "1 to 2",
+      "9 to 1",
+      "2 to 1",
+      "1 to 9",
+      "1 to 1"
+    ],
+    "correctAnswer": "1 to 2 ",
+    "explanation": "Somatisation is twice as common in women as in men. Shorter Oxford Textbook Page 208. Please note that this ratio is derived from cross- sectional prevalence of somatisation. The WHO collaborative study of psychological problems in general health care identifi ed a major conceptual problem in measuring somatoform disorders in community - the stability of such diagnosis was very poor irrespective of 'lifetime' defi nitions of syndromes such as somatisation disorder. Though cross sectionally the number of patients meeting the criteria at a given time remained stable, only 25% of the same patients meeting criteria for somatoform disorders at baseline also met these criteria 1 year later. Nearly 61% of lifetime symptoms reported at baseline were not reported at follow-up. This marked discrepancy was attributed to inconsistent recall, implicating that cross-sectional surveys of somatoform disorders are highly unreliable. Simon G, Gureje O: Stability of somatization disorder and somatization symptoms among primary care patients. Arch Gen Psychiatry 1999; 56:90-95",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 992,
+      "questionNumber": 45
+    },
+    "id": "mock-7-44",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Mr P is a 28-year-old gentleman who has suff ered 2 episodes of mania and 2 episodes of depression over the last 6 years. What is the most likely estimate of the mean age of onset of his illness?",
+    "options": [
+      "27",
+      "31",
+      "16",
+      "21",
+      "19"
+    ],
+    "correctAnswer": "21 ",
+    "explanation": "This patient has a diagnosis of Bipolar Aff ective disorder. According to the Epidemiological Catchment Area (ECA) study the mean age of onset of Bipolar is 21 and that of unipolar depression is 27. There is a female predominance of approximately 2:1 for unipolar disorder but equal sex incidence is reported in bipolar disorder.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 993,
+      "questionNumber": 46
+    },
+    "id": "mock-7-45",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Mrs. X has suff ered from 3 episodes of major depression in the past and improved well on tricyclic antidepressants. She is pregnant now and became depressed again. She insists having treatment only with tricyclic antidepressants this time. Choose the preferred option among the following;",
+    "options": [
+      "Protriptyline",
+      "Nortriptyline",
+      "Clomipramine",
+      "Dothiepin",
+      "Dosulepin"
+    ],
+    "correctAnswer": "Nortriptyline ",
+    "explanation": "Tricyclic Antidepressant: They do not cause any signifi cant malformation in all three trimesters. But preferably use nortriptyline and desipramine as they have less hypotensive and anticholinergic side eff ects. However, high dosages use (similar tofl uoxetine) in third trimester can lead reversible withdrawal symptoms (irritability, eating and sleeping diffi culties and convulsions). Nortriptyline, amitriptyline, impramine andfl uoxetine are recommended antidepressants. Avoid paroxetine",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 994,
+      "questionNumber": 47
+    },
+    "id": "mock-7-46",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "One of your well educated patientsfi nds a large trial on antidepressants conducted in USA. He asks you afl urry of questions about this trial called STAR*D. Which of the following is NOT true with respect to this trial?",
+    "options": [
+      "Nearly one third of those who have depression do not respond to any of the four interventions",
+      "With each level of treatment proportion of responders increased",
+      "Switching to one antidepressant is not diff",
+      "erent from another after a failed monotherapy.",
+      "It involved sequenced stepwise treatment for depression",
+      "It is a pragmatic RCT"
+    ],
+    "correctAnswer": "With each level of treatment proportion of responders increased ",
+    "explanation": "STAR*D stands for Sequenced treatment alternative for depression. The study involved 4 possible 'steps' for treatment, and any patient who failed to meet remission criteria at each step was then asked to move to the next level. Remission rates dropped while relapse rates increased with moving higher to each level",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 995,
+      "questionNumber": 48
+    },
+    "id": "mock-7-47",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Postnatal depression usually lasts for less than",
+    "options": [
+      "1 week",
+      "6 months",
+      "3 months",
+      "1 month",
+      "1 year"
+    ],
+    "correctAnswer": "1 month ",
+    "explanation": "Postnatal depression (PND): A signifi cant depressive episode, temporally related to childbirth, occurring in 10-15% of women within 6 months post-partum (peak 3- 4 weeks). The clinical features are similar to other depressive episodes, although thought content may include worries about the baby's health or the mother's ability to cope adequately with the baby. 90% of cases last less than 1 month; 4% greater than one year. Ref: Oxford Handbook of Psychiatry: 2nd edn., Pg. 756",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 996,
+      "questionNumber": 49
+    },
+    "id": "mock-7-48",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Psychomotor disturbance is a key symptom in;",
+    "options": [
+      "Hebephrenic schizophrenia",
+      "Undiff",
+      "erentiated schizophrenia",
+      "Residual schizophrenia",
+      "Catatonic schizophrenia",
+      "paranoid schizophrenia"
+    ],
+    "correctAnswer": "Catatonic schizophrenia ",
+    "explanation": "Catatonic schizophrenia is characterised by marked disturbance in motor behaviours, in addition to the general features of schizophrenia. (Cata: Disturbed, Tonic: Tone). It can present in 3 forms; Excited catatonia, stuporus catatonia, catatonia alternating between excitement and stupor.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 997,
+      "questionNumber": 50
+    },
+    "id": "mock-7-49",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Regarding clinical features of hypomania and mania which of the following is correct?",
+    "options": [
+      "Dysphoric hypomania is commonly seen in bipolar disorder",
+      "Hypomania can be regarded as a normal psychological state",
+      "Most hypomanic episodes in bipolar II disorder last for 4 days or longer.",
+      "Manic episodes can be associated with normal levels of social and occupational functioning",
+      "Duration is the most important criteria of diff",
+      "erentiation"
+    ],
+    "correctAnswer": "Dysphoric hypomania is commonly seen in bipolar disorder ",
+    "explanation": "The diff erentiation is mostly based on degree of functional impairment e.g. requirement for hospitalisation etc. Duration criteria is arbitrary ( 4 days hypomania; 7 days mania) Hypomania is pathological not normal state. Dysphoric features and sometimes frank depression (microepisodes) are common in hypomania or mania.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 998,
+      "questionNumber": 51
+    },
+    "id": "mock-7-50",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Regarding epilepsy and its treatment all are true except",
+    "options": [
+      "TCAs are thefi",
+      "rst line of treatment for depression in epilepsy",
+      "Visual hallucinations are common in ictal psychosis",
+      "Lithium increases seizure severity",
+      "Depression is common in patients with epilepsy",
+      "All anti-epileptics have been associated with psychiatric side eff",
+      "ects"
+    ],
+    "correctAnswer": "TCAs are thefi rst line of treatment for depression in epilepsy ",
+    "explanation": "When antidepressants are necessary to treat depression in patients with epilepsy, selective serotonin reuptake inhibitors (SSRIs) and multireceptor antidepressants are consideredfi rst-line treatments. Electroconvulsive therapy is not contraindicated for treatment-resistant or psychotic depression.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 999,
+      "questionNumber": 52
+    },
+    "id": "mock-7-51",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Mr. Y suff ers from lung cancer and severe depression, which requires treatment with antidepressant medications. He has been complaining of severe nausea and vomiting, as a result of taking chemotherapeutic agents. Which one among the following medications would be the best choice for treatment of his depression?",
+    "options": [
+      "Mirtazapine",
+      "Venlafaxine",
+      "Fluoxetine",
+      "Escitalopram",
+      "Duloxetine"
+    ],
+    "correctAnswer": "Mirtazapine ",
+    "explanation": "Nausea is not a signifi cant side eff ect of mirtazapine due to its 5-HT3 antagonistic properties and could be used for patients taking anticancer drugs, which has high propensity to induce nausea and vomiting. All the other drugs listed above have been shown to cause considerably more nausea than placebo in clinical trails. Ref: Nutt D; mirtazapine; Pharmacology in relation to adverse events, Acta Psychiatry Scand 1997; pg 31-37",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1000,
+      "questionNumber": 53
+    },
+    "id": "mock-7-52",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Research and investigations into sleep disorders have suggested that",
+    "options": [
+      "There is a well known HLA polymorphism associated with REM sleep behaviour disorder",
+      "Hypocretins are diff",
+      "erent from orexins",
+      "REM sleep behaviour disorder can precede future movement disorders.",
+      "Clonazepam is thefi",
+      "rst-line treatment for narcolepsy",
+      "Sleep latency of more than 10 min on overnight polysomnography is characteristic of narcolepsy"
+    ],
+    "correctAnswer": "REM sleep behaviour disorder can precede future movement disorders. ",
+    "explanation": "REM sleep behavior disorder may actually precede the motor symptoms of Parkinson disease and as many as 20% of patents with REM sleep behavior disorder eventually develop Parkinson disease.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1001,
+      "questionNumber": 54
+    },
+    "id": "mock-7-53",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Risk factors for PTSD include which one of the following?",
+    "options": [
+      "Religious affi",
+      "liation",
+      "Cigarette smoking",
+      "Anankastic traits",
+      "Being male",
+      "External locus of control"
+    ],
+    "correctAnswer": "External locus of control ",
+    "explanation": "Lack of internal locus of control is a contributor to the development of PTSD. Being female, high degree of neuroticism and low sense of security also increase the risk of PTSD after a trauma. Religious affi liation is seen as protective in various studies. Most studies showed a positive relationship between PTSD and smoking and nicotine dependence, with odds ratios ranging between 2.04 and 4.52. Specifi c PTSD symptoms may contribute to smoking and disrupt cessation attempts. But there is no evidence that smoking itself elevates the risk of PTSD after exposure to trauma. http://apt.rcpsych.org/content/13/5/369.full Nicotine Tob Res (2007) 9 (11): 1071-1084.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1002,
+      "questionNumber": 55
+    },
+    "id": "mock-7-54",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Risk factors specifi c for bulimia rather than anorexia include",
+    "options": [
+      "Family history of obesity",
+      "Early menarche",
+      "Impulsivity",
+      "Family history of alcoholism",
+      "All of the listed options"
+    ],
+    "correctAnswer": "All of the listed options ",
+    "explanation": "Risk factors for bulimia include (Fairburn and ; Harrison, 2003) female sex, adolescence and early adulthood, Western cultural adaptation, family history of substance misuse, especially alcoholism or obesity, and a history of early menarche and peronal history of being overweight.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1003,
+      "questionNumber": 56
+    },
+    "id": "mock-7-55",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The association between cannabis and schizophrenia is characterised by all of the following except",
+    "options": [
+      "Mediated by genetic polymorphism",
+      "No biological explanation is possible",
+      "Causality is confounded by amphetamine use",
+      "Reverse causality is plausible",
+      "Dose response relationship exists"
+    ],
+    "correctAnswer": "",
+    "explanation": "Cannabis has been strongly debated in the aetiology of schizophrenia. The pooled estimate for development of psychosis associated with prior cannabis use is an odds ratio (OR) of 2.1 (95% CI: 1.7 to 2.5). This shows that the association between cannabis and later psychosis outcome is consistent. Confounders such as amphetamine use are not able to explain the association by themselves. Reverse causality remains plausible but cannot be proven i.e. patients do not smoke cannabis because they have psychotic mental state or distressed. In Dunedin cohort, exposure at age 15 was measured against developing psychosis at age 26 and an association was present even after adjusting for psychotic liability at age 11. A Greek cohort study examined the self-medication hypothesis by testing whether subtle psychotic experiences with distress would have stronger associations with cannabis use than psychotic experiences without distress. But stronger associations were found between cannabis and psychotic experiences in the absence of distress, making self-medication unlikely. Nevertheless there are studies that suggest bidirectional association. Cannabis shows dose-response relationships to psychosis outcome; exposure often precedes the outcome, and there is a plausible biological mechanism linking the cannabis and schizophrenia either via role of endocannabinoids in neurodevelopment or dopamine sensitisation. Caspi et al, using Dunedin New Zealand birth cohort showed that a functional polymorphism in the catechol-O-methyltransferase (COMT) gene moderates the eff ect of adolescent cannabis use on risk for adult psychosis. ",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1004,
+      "questionNumber": 57
+    },
+    "id": "mock-7-56",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The correct answer is: No biological explanation is possible The babies of anorexic mothers",
+    "options": [
+      "Have diabetes",
+      "Are born post-term",
+      "Have lower APGAR scores",
+      "Are large for dates",
+      "Have a larger head circumference"
+    ],
+    "correctAnswer": "Have lower APGAR scores ",
+    "explanation": "Starvation and anorexia aff ects pregnancy adversely. Children born to anorexic mothers have low birth weight, microcephaly, and low APGAR scores. In actively anorexic mother, the neonate may have hypoglycaemia.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1005,
+      "questionNumber": 58
+    },
+    "id": "mock-7-57",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The delusions in persistent delusional disorders are usually",
+    "options": [
+      "Bizarre",
+      "Non bizarre",
+      "Transient",
+      "Fluctuant",
+      "Aff",
+      "ect laden"
+    ],
+    "correctAnswer": "Non bizarre ",
+    "explanation": "Delusional disorder is an uncommon condition in which patients present with circumscribed symptoms of non-bizarre delusions, but with absence of prominent hallucinations and no thought disorder, mood disorder or signifi cantfl attening of aff ect. Note that this distinction between bizarre and non-bizarre content of delusions has been removed from DSM-5.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1006,
+      "questionNumber": 59
+    },
+    "id": "mock-7-58",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The most common neuropsychiatric disorder associated with epilepsy is",
+    "options": [
+      "Hypomania",
+      "Panic disorder",
+      "Cognitive impairment",
+      "Psychosis",
+      "Depression"
+    ],
+    "correctAnswer": "Depression ",
+    "explanation": "Depression is seen in 30-50% of cases with epilepsy. There is possible relationship with lesion location eg in temporal lobe epilepsy. There is also increased mortality secondary to suicide. Suicide risk is also increased x25 over non-epileptics. There is an increased prevalence of conversion disorder in epileptics, including an increased risk of pseudoseizures. Cognitive deterioration is another important outcome of chronic epilepsy and is caused by a number of factors including repeated seizures with cerebral hypoxia as well as the neurological eff ects of chronic anti-convulsant therapy. The association between right-side TLE and manic illness was also described by Flor-Henry.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1007,
+      "questionNumber": 60
+    },
+    "id": "mock-7-59",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The prevalence of psychiatric symptoms at thefi rst presentation of Huntington's disease is",
+    "options": [
+      "50%",
+      "30%",
+      "10%",
+      "3%",
+      "1%"
+    ],
+    "correctAnswer": "30% ",
+    "explanation": "The Prevalence of psychiatric symptoms at thefi rst presentation of Huntington's disease is 30%. Suicide rates 4 times higher than general population (note unaff ected family members also have higher suicide risk, sometimes as high as patients). 3-6% of cases a schizophreniform psychosis is thefi rst presentation of Huntington's disease. OCD like symptoms may occur due to basal ganglia involvement. MRI shows caudate atrophy (head) and resultant box-car ventricles.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1008,
+      "questionNumber": 61
+    },
+    "id": "mock-7-60",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The prevalence of somatoform pain disorder is;",
+    "options": [
+      "40-45%",
+      "30-35%",
+      "1-2%",
+      "8-10%",
+      "2-4%"
+    ],
+    "correctAnswer": "8-10% ",
+    "explanation": "A study in Belgium reported that somatization syndrome is the third highest psychiatric disorder, with a prevalence rate of 8.9%. Thefi rst and second most common psychiatric disorders were depression and anxiety disorders.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1009,
+      "questionNumber": 62
+    },
+    "id": "mock-7-61",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The risk of neonatal withdrawal symptoms is high with which of the following antidepressants?",
+    "options": [
+      "Fluoxetine",
+      "Venlafaxine",
+      "Fluvaxamine",
+      "Bupropion",
+      "Mirtazapine"
+    ],
+    "correctAnswer": "Venlafaxine ",
+    "explanation": "Risk of neonatal withdrawal symptoms is high with Paroxetine and Venlafaxine due to short half life",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1010,
+      "questionNumber": 63
+    },
+    "id": "mock-7-62",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The SF-36 scale measures which of the following?",
+    "options": [
+      "Health Related Quality of Life",
+      "Social Readjustment",
+      "Stress Level at Work",
+      "Developmental psychopathology",
+      "Occupational Functioning"
+    ],
+    "correctAnswer": "Health Related Quality of Life ",
+    "explanation": "Health-related quality of life (HRQOL) refers to functioning and well-being in physical, mental and social dimensions of life. The SF-36 is a frequently used multi-item HRQOL instrument. The SF-36 Health Survey (36 item short form health survey) is a generic outcome measure designed to examine a person's perceived health status. Outcome studies using the SF-36 can be done at outpatient clinics, via postal survey or telephone interview. The SF-36 can also be used in a computerised format. It assesses physical, social and mental well-being.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1011,
+      "questionNumber": 64
+    },
+    "id": "mock-7-63",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The suicide rates vary between European countries by a factor of about;",
+    "options": [
+      "2",
+      "8",
+      "4",
+      "6",
+      "10"
+    ],
+    "correctAnswer": "10 ",
+    "explanation": "Suicide rates in Europe vary widely with countries such as Spain, Italy and Greece reporting rates below 7 per 100000 inhabitants, whereas others such as Hungary and Finland report rates in excess of 72 per 100000 inhabitants.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1012,
+      "questionNumber": 65
+    },
+    "id": "mock-7-64",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The use of SSRIs in pregnancy is associated with no general increase in the rates of major malformations with the exception of",
+    "options": [
+      "Paroxetine",
+      "Fluoxetine",
+      "Fluvaxamine",
+      "Citalopram",
+      "Sertraline"
+    ],
+    "correctAnswer": "Paroxetine ",
+    "explanation": "SSRI: No increase in major malformation (exception- paroxetine); the neonatal withdrawal are reversible complications. However there is 13.3% increase in spontaneous abortion (also with mirtazepine and bupropion), decreased gestational age (mean 1 week) and low birth weight (mean 175 gms). Paroxetine, particularly high dosefi rst trimesters exposure, is clearly linked to cardiac malformation - VSD and ASD. Third trimester use can give rise to neonatal complication due to abrupt withdrawals.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1013,
+      "questionNumber": 66
+    },
+    "id": "mock-7-65",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Vulnerability factors for PTSD include",
+    "options": [
+      "Good impulse control",
+      "Internal locus of control",
+      "Personality disorders.",
+      "Male gender",
+      "Middle age"
+    ],
+    "correctAnswer": "Personality disorders. ",
+    "explanation": "Factors associated with post-traumatic stress disorder (from Bisson, 2007) include pretraumatic factors such as previous psychiatric disorders including personality dysfunction, female gender, an external locus of control greater than internal locus of control, lower socioeconomic status and past history of childhood unresolved trauma among others. High IQ, high social class and male gender may be protective.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1014,
+      "questionNumber": 67
+    },
+    "id": "mock-7-66",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "What is the most characteristic symptom of a patient with SSRI discontinuation syndrome?",
+    "options": [
+      "Fever",
+      "Confusion",
+      "Myoclonus",
+      "Dizziness",
+      "Rigidity"
+    ],
+    "correctAnswer": "Dizziness ",
+    "explanation": "The abrupt withdrawal of SSRI especially paroxetine or fl uvoxamine (shorter half-life), is associated with dizziness, nausea, headache, depression, anxiety, insomnia, poor concentration,fl u-like symptoms, paresthesias, and migraine-like symptoms. It usually requires at least 6 weeks of treatment before discontinuation and resolves spontaneously in 3 weeks. Those who have signifi cant SSRI intolerance during treatment onset will have more discontinuation reactions.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1015,
+      "questionNumber": 68
+    },
+    "id": "mock-7-67",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "What is the most vulnerable period for teratogenic eff ects during pregnancy?",
+    "options": [
+      "Week 6 to 10",
+      "Week 32 to 36",
+      "Week 12 to 16",
+      "Week 26 to 20",
+      "Week 24 to 28"
+    ],
+    "correctAnswer": "Week 6 to 10 ",
+    "explanation": "Teratogenic eff ects are both dose and time dependent, with organs at the greatest risk during their period of fastest development. Week 6 to week 10 is the most vulnerable period.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1016,
+      "questionNumber": 69
+    },
+    "id": "mock-7-68",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "What is the percentage of patients with schizophrenia that discontinue antipsychotics within 18 months of treatment?",
+    "options": [
+      "70 - 75%",
+      "10 - 15%",
+      "50-60%",
+      "80 - 90%",
+      "20-30%"
+    ],
+    "correctAnswer": "70 - 75% ",
+    "explanation": "According to CATIE trial data 70 to 75% of patients who are prescribed antipsychotics will discontinue them in 18 months.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1017,
+      "questionNumber": 70
+    },
+    "id": "mock-7-69",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "When co-prescribed with lithium, which drug can increase the likelihood of neurotoxicity of lithium?",
+    "options": [
+      "Atenolol",
+      "Haloperidol",
+      "Paracetamol",
+      "Lorazepam",
+      "Mirtazapine"
+    ],
+    "correctAnswer": "Haloperidol ",
+    "explanation": "Although haloperidol and lithium have been used safely together in many patients, there have been some reported cases of encephalopathic syndrome consisting of severe neurotoxic eff ects and extrapyramidal symptoms, followed by irreversible brain damage, associated with the combination. The mechanism is unknown. Drugs such as loop diuretics, thiazides, NSAIDs, ACE-Inhibitors,fl uoxetine could raise lithium levels and increase the likelihood of neurotoxicity.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1018,
+      "questionNumber": 71
+    },
+    "id": "mock-7-70",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following factors are generally accepted as predictors of unfavourable outcome in schizophrenia?",
+    "options": [
+      "Short duration and presence of precipitating stressor",
+      "Acute onset and predominantly positive symptoms",
+      "Female sex, older age of onset and married status",
+      "Previous psychiatric illness and a poor educational record",
+      "Higher social economical status and living in a developing country"
+    ],
+    "correctAnswer": "Previous psychiatric illness and a poor educational record ",
+    "explanation": "The poor prognostic factors in schizophrenia include early onset (less than 20 years of age), insidious onset, male sex, poor social support, or unmarried status, absence of stressor, chronic course more than 2 years, poor pre-morbid adjustment, predominance of negative symptoms, past history of schizophrenia, family history of schizophrenia,fl at or blunted aff ect and poor response to treatment.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1019,
+      "questionNumber": 72
+    },
+    "id": "mock-7-71",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which among the following has the best evidence-based non-pharmacological treatment for insomnia?",
+    "options": [
+      "Sleep restriction therapy",
+      "Stimulus control therapy",
+      "Psychodynamic psychotherapy",
+      "Interpersonal psychotherapy",
+      "Behavioural therapy"
+    ],
+    "correctAnswer": "Stimulus control therapy ",
+    "explanation": "Stimulus control therapy. Sleep problems are often triggered by stressful or disturbinglife events, such as serious illness, hospitalization or death of a loved one. Once the situation has been resolved, sleep usually returns to normal. However, sometimes the insomnia can remain. This is because a negative association between going to bed and not sleeping has been formed. These negative emotions automatically triggered by going to bed increase alertness and make it more diffi cult to get to sleep. This type of insomnia is often referred to as conditioned insomnia. Stimulus control therapy replaces these learned negative responses with positive ones. It makes the bed and bedroom positive triggers for sleep, ensuring that when the patient goes to bed or wakes up during the night, they can expect to fall asleep easily. Most patients need about three to four weeks of treatment to undo the maladaptive learning of conditioned insomnia. Ref: Non- pharmacological treatment options by William Dollman",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1020,
+      "questionNumber": 73
+    },
+    "id": "mock-7-72",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following criteria must be met before clozapine is prescribed according to its licensing indications in the UK?",
+    "options": [
+      "2 antipsychotics tried for a total duration of 2 months",
+      "1 typical and 1 atypical tried sequentially for a total duration of 1 month",
+      "1 atypical and 1 typical tried in combination for more than 2 months",
+      "2 atypicals antispychotics tried for 6 months",
+      "1 atypical and 1 typical tried sequentially for a total duration of 2 months"
+    ],
+    "correctAnswer": "1 atypical and 1 typical tried sequentially for a total duration of 2 months ",
+    "explanation": "Under the terms of its UK license clozapine should only be used for patients with schizophrenia who are unresponsive to two or more anti- psychotics (at least one must be atypical) or who are intolerant of their neurological side eff ects.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1021,
+      "questionNumber": 74
+    },
+    "id": "mock-7-73",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "A 46-year-old woman has a history of recurrent depressive episodes each followed by brief hypomania. She recovers from the most recent episode. Which of the following prophylactic treatments would you recommend for this woman?",
+    "options": [
+      "Quetiapine",
+      "Olanzapine",
+      "Lamotrigine",
+      "Lithium",
+      "Fluoxetine"
+    ],
+    "correctAnswer": "Lithium ",
+    "explanation": "Lithium monotherapy is thefi rst line. It is probably eff ective against both manic and depressive relapse, although it is more eff ective in preventing mania. Lithium is also associated with a reduced risk of suicide in bipolar disorder",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1022,
+      "questionNumber": 75
+    },
+    "id": "mock-7-74",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "A 36-year-old woman with a history of bipolar disorder has developed symptoms of hypomania. She has a 3-month-old baby and is breastfeeding her. She is currently not on any medications and wishes to continue breastfeeding. Which one of the following is the safest to allow her to continue breastfeeding?",
+    "options": [
+      "Lamotrigine",
+      "Sodium valproate",
+      "Carbamazepine",
+      "Lithium",
+      "Gabapentin"
+    ],
+    "correctAnswer": "Sodium valproate ",
+    "explanation": "Sodium valproate has been recommended to be used in breast-feeding mothers. The manufacturers of sodium valproate state that there appears to be no contraindication to its use in breast-feeding.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1023,
+      "questionNumber": 76
+    },
+    "id": "mock-7-75",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following group of medications is associated with an elevated risk of persistent pulmonary hypertension in infants when exposed during pregnancy?",
+    "options": [
+      "Benzodiazepines",
+      "Tricyclics",
+      "Carbamazepine",
+      "SSRIs",
+      "Valproate"
+    ],
+    "correctAnswer": "SSRIs ",
+    "explanation": "SSRI use during late pregnancy is related to an increased risk of persistent pulmonary hypertension in the newborn (Chambers 2006).",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1024,
+      "questionNumber": 77
+    },
+    "id": "mock-7-76",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "A girl was sexually abused by her father, who denies responsibility. Regarding support for her un-abused siblings, which approach is best?",
+    "options": [
+      "Family therapy with an appropriate therapist including the abuser",
+      "Individual therapy",
+      "Child psychotherapy",
+      "Psychodynamic psychotherapy",
+      "Family therapy with an appropriate therapist excluding the abuser"
+    ],
+    "correctAnswer": "Individual therapy ",
+    "explanation": "Each sibling would be given the opportunity to explore what issues may be present in an individual and confi dential setting, and some information may not be necessary or appropriately shared with all siblings. Child psychotherapy may not be suitable for siblings who are older and for whom this therapy would not be suitable.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1025,
+      "questionNumber": 78
+    },
+    "id": "mock-7-77",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Role transitions are a major focus of therapy in which of the following models?",
+    "options": [
+      "Motivation enhancement therapy",
+      "Cognitive analytical therapy",
+      "Rational emotive therapy",
+      "Interpersonal therapy",
+      "CBT"
+    ],
+    "correctAnswer": "Interpersonal therapy ",
+    "explanation": "Managing role transitions characterised by a change from one role to other - e.g. graduation, beginning or end of career, migration, medical ill health, etc. is one of the cornerstones of IPT",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1026,
+      "questionNumber": 79
+    },
+    "id": "mock-7-78",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following investigatoryfi ndings is most supportive of a diagnosis of Huntington's disease?",
+    "options": [
+      "26 CAG repeats on DNA analysis",
+      "HMPAO-SPECT scan shows patchy hypo perfusion throughout the brain",
+      "EEG shows spike and wave activity",
+      "MRI scan shows atrophy of head of the caudate nucleus",
+      "Raised white cell count on lumbar puncture"
+    ],
+    "correctAnswer": "MRI scan shows atrophy of head of the caudate nucleus ",
+    "explanation": "Huntington's disease is characterised by degeneration of the striatum (mainly caudate nucleus) and selective loss of GABAergic neurons",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1027,
+      "questionNumber": 80
+    },
+    "id": "mock-7-79",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Mr. Y has been assessed in the memory clinic and diagnosed with Alzheimer's disease of moderate severity. He has been started on Rivastigmine. His wife wants to know the most common side eff ect of this medication. The correct answer is;",
+    "options": [
+      "Rash",
+      "Insomnia",
+      "Nausea",
+      "Constipation",
+      "Syncope"
+    ],
+    "correctAnswer": "Nausea ",
+    "explanation": "The common side eff ects of rivastigmine include nausea, vomiting, diarrhoea, dizziness and anorexia.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1028,
+      "questionNumber": 81
+    },
+    "id": "mock-7-80",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which personality disorder is mostly associated with suicide in patients over the age of 60?",
+    "options": [
+      "Dependent personality disorder",
+      "Avoidant personality disorder",
+      "Obsessive compulsive personality disorder",
+      "Impulsive personality disorder",
+      "Histrionic personality disorder"
+    ],
+    "correctAnswer": "Obsessive compulsive personality disorder ",
+    "explanation": "Harwood and colleagues compared suicides, and natural death controls age 60 years and over on ICD-10 \"personality trait accentuation\" (Harwood et al. 2001). Anankastic (obsessional) and anxious traits, signifi cantly distinguished the groups. These traits are also strongly related to depression in the elderly",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1029,
+      "questionNumber": 82
+    },
+    "id": "mock-7-81",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "An 83-year-old gentleman with Alzheimers dementia has also developed some psychotic symptoms and was due to be started on an antipsychotic medication. Which one of the following would lead to an increase in the risk of stroke?",
+    "options": [
+      "Aripiprazole",
+      "Haloperidol",
+      "Amisulpride",
+      "Olanzapine",
+      "Trifl",
+      "uoperazine"
+    ],
+    "correctAnswer": "Olanzapine ",
+    "explanation": "Having reviewed the literature on the use of Olanzapine and Risperidone for the behavioural and psychological symptoms of dementia, the committee on safety of medicines concluded that each was associated with at least two-fold increase in the risk of stroke and should, therefore, be no longer used in dementia (Duff 2004)",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1030,
+      "questionNumber": 83
+    },
+    "id": "mock-7-82",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following is contraindicated in the elderly with psychosis and cognitive impairment?",
+    "options": [
+      "Haloperidol",
+      "Quetiapine",
+      "Olanzapine",
+      "Promazine",
+      "Sulpiride"
+    ],
+    "correctAnswer": "Olanzapine ",
+    "explanation": "Antipsychotics have been the most commonly used treatment for psychotic symptoms. Their usefulness in treating schizophrenia (both late onset and very late onset psychosis) in elderly people is well established. The atypical antipsychotics, which have a better side-eff ect profi le, are considered to be more suitable for elderly people. But more recently there have been concerns raised regarding their safety in psychosis due to dementia. The Committee on Safety of Medicine concluded that Olanzapine and Risperidone was associated with a two-fold increase in the risk of stroke (a small but signifi cant risk of cerebrovascular events) in elderly patients especially in people over age 80. In elderly people, age-related bodily changes aff ect the pharmacokinetics and pharmacodynamics of antipsychotic drugs, which have numerous side eff ects that can be more persistent and disabled in older people (Ref: http://apt.rcpsych.org/content/aptrcpsych/11/4/286.full.pdf).",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1031,
+      "questionNumber": 84
+    },
+    "id": "mock-7-83",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "A pregnant woman has afi ve-year-old son who has been observed with childhood autism. She is keen to know how likely it is for her unborn child also to have the same condition.",
+    "options": [
+      "1-10%",
+      "21-30%",
+      "11-20%",
+      "41-50%",
+      "31-40%"
+    ],
+    "correctAnswer": "1-10% ",
+    "explanation": "The recurrence rate in siblings of aff ected children is 2% to 8%, much higher than the prevalence rate in the general population but much lower than in single-gene diseases. This translates to 50 times (range: 30 - 120) relative risk in siblings. The risk of autistic disorder in a sibling of 2 autistic children: 25-30% (nearly 300 times higher) [Excerpt retrieved from Muhle R, Trentacoste SV, Rapin I. The genetics of autism. Pediatrics 2004; 113(5):472-486].",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1032,
+      "questionNumber": 85
+    },
+    "id": "mock-7-84",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following suggests a subcultural rather than a biological cause for learning disability?",
+    "options": [
+      "Equal distribution across families of diff",
+      "erent types of socio-economic status",
+      "Dysmorphic features are common",
+      "Moderate/ severe impairment in intellectual abilities",
+      "Men are more commonly aff",
+      "ected than females",
+      "Intellectual ability is impaired in family members"
+    ],
+    "correctAnswer": "Intellectual ability is impaired in family members ",
+    "explanation": "In subcultural LD, family members may also have borderline IQ. Their intellectual disability is usually mild or borderline type. It is more common in lower socioeconomic groups. Dysmorphic features are less likely. Syndromic features are not seen. Behavioural phenotypes are rare.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1033,
+      "questionNumber": 86
+    },
+    "id": "mock-7-85",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "An 18-year-old man shows repeated episodes of violent behaviour causing bodily injury and property damage. Police have been called on numerous occasions. There is a restraining order against him. He does not show any other problems with his behaviour or conduct and feels remorseful for his behaviour. The most appropriate treatment is",
+    "options": [
+      "Logotherapy",
+      "CBT",
+      "SSRIs",
+      "Family therapy",
+      "Lithium"
+    ],
+    "correctAnswer": "Lithium ",
+    "explanation": "Intermittent explosive disorder is classifi ed as an impulse control disorder in DSM 5. DSM 5 recognises 2 variants: high frequency/low- intensity outbursts and low frequency/high-intensity outbursts. It is characterised by recurrent episodic violence and aggression followed by guilt and remorse. Patients do not show any other conduct problems generally. Treatment is empirical, and some evidence exists for the use of mood stabilizers especially carbamazepine, lithium and valproate.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1034,
+      "questionNumber": 87
+    },
+    "id": "mock-7-86",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The most common psychiatric problem associated with homicides is",
+    "options": [
+      "Schizophrenia",
+      "Personality disorder",
+      "Depression",
+      "Delusional disorder",
+      "Alcohol and drug dependence"
+    ],
+    "correctAnswer": "Alcohol and drug dependence ",
+    "explanation": "A minority of homicide off enders are mentally disordered. Alcohol and drug dependence most common, then personality disorder. Schizophrenia, delusional disorder, and depression may be relevant in a few cases. Ref: Kaplan and Sadock Synopsis of Psychiatry 9th edition; Pg 1352.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1035,
+      "questionNumber": 88
+    },
+    "id": "mock-7-87",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The percentage of domestic violence incidents reported to general practitioners is",
+    "options": [
+      "50%",
+      "40%",
+      "30%",
+      "10%",
+      "20%"
+    ],
+    "correctAnswer": "10% ",
+    "explanation": "Sadly many incidents of domestic violence are unreported, not recorded or not prosecuted; therefore domestic violence is often described as a 'hidden crime'. After police, medical staff were the next most likely to hear of incidents (they were told about 10% of all incidents), and were more likely to off er advice and support than the police (they did so in 70% of incidents they were told about). British Crime Survey 1996",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1036,
+      "questionNumber": 89
+    },
+    "id": "mock-7-88",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following is classifi ed under 'crimes of dishonesty'?",
+    "options": [
+      "Indecent exposure",
+      "Homicide",
+      "Sexual assault",
+      "Burglary",
+      "Violence"
+    ],
+    "correctAnswer": "Burglary ",
+    "explanation": "Crimes against the person include off ences of interpersonal violence (minor assault, homicide), sexual off ences (indecent exposure, rape) and robbery. Crimes of dishonesty include burglary; theft and handling stolen goods; fraud and forgery. Property damage and arson are classifi ed under criminal damage. Other crimes include car crime and drug crime (use, possession, supplying). [Ref; Oxford Handbook of Psychiatry, 2nd edition. Pg 628.]",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1037,
+      "questionNumber": 90
+    },
+    "id": "mock-7-89",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "The most common psychiatric disorder seen as a comorbidity of autism in children is",
+    "options": [
+      "ADHD",
+      "Generalised anxiety disorder",
+      "OCD",
+      "Schizophrenia",
+      "Drug abuse"
+    ],
+    "correctAnswer": "ADHD ",
+    "explanation": "Depression is quoted as the most common comorbidity in adults with ASD. If learning disability is considered as a comorbidity, then it will be the most common comorbidity. Seventy percent of participants had at least one comorbid disorder, and 41% had two or more. The most common diagnoses were social anxiety disorder (29.2%, 95% confi dence interval [CI)] 13.2-45.1), attention-defi cit/hyperactivity disorder (28.2%, 95% CI 13.3-43.0), and oppositional defi ant disorder (28.1%, 95% CI 13.9-42.2). Of those with attention-defi cit/hyperactivity disorder, 84% received a second comorbid diagnosis. Simonoff E et al. Psychiatric disorders in children with autism spectrum disorders: prevalence, comorbidity, and associated factors in a population derived sample. J Am Acad Child Adolesc Psychiatry. 2008 Aug;47(8):921-9.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1038,
+      "questionNumber": 91
+    },
+    "id": "mock-7-90",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following childhood psychiatric conditions shows the highest heritability?",
+    "options": [
+      "Pervasive development disorder",
+      "Seperation anxiety disorder",
+      "School refusal",
+      "Oppositional defi",
+      "ant disorder",
+      "ADHD"
+    ],
+    "correctAnswer": "ADHD ",
+    "explanation": "The heritability for ADHD is 70-80%. Risks are higher for male relatives and lower for female relatives. High heritability implies genetic determination",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1039,
+      "questionNumber": 92
+    },
+    "id": "mock-7-91",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which one of the following disorders is characterised by normal language development?",
+    "options": [
+      "High functioning autism",
+      "Childhood disintegrative disorder",
+      "Autism",
+      "Rett's syndrome",
+      "Asperger's syndrome"
+    ],
+    "correctAnswer": "Asperger's syndrome ",
+    "explanation": "Asperger's syndrome is characterised by severe persistent impairment in social interactions, repetitive behaviour patterns, and restricted interests. But the IQ and language are often normal. Unlike autistic disorder, in Asperger's disorder no signifi cant delays occur in language, cognitive development, or age-appropriate self-help skills. Both Rett's syndrome and Heller's syndrome of Childhood Disintegrative Disorder are associated with disturbances in language development.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1040,
+      "questionNumber": 93
+    },
+    "id": "mock-7-92",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "What is the most eff ectivefi rst-line treatment of enuresis in children?",
+    "options": [
+      "Bladder training",
+      "Reboxetine",
+      "Desipramine",
+      "Bell and pad apparatus",
+      "Imipramine"
+    ],
+    "correctAnswer": "Bell and pad apparatus ",
+    "explanation": "Classic conditioning with the bell and pad apparatus is generally the most eff ective treatment for enuresis, with dryness resulting in more than 50% of cases. The treatment is equally eff ective in children with or without concomitant mental disorders, and no evidence suggests symptom substitution. Bladder training- encouragement or reward for delaying micturition for increasing time for waking hours- has also been used. Although seldom eff ective, this method is unquestionably inferior to the use of a bell and pad. (Ref: KS- 1248)",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1041,
+      "questionNumber": 94
+    },
+    "id": "mock-7-93",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Truancy is mostly associated with which of the following childhood conditions?",
+    "options": [
+      "Depression",
+      "Conduct disorder",
+      "Encopresis",
+      "Oppositional defi",
+      "ant disorder",
+      "ADHD"
+    ],
+    "correctAnswer": "Conduct disorder ",
+    "explanation": "Conduct disorders are the most common reason for referral of truant young children to mental health services.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1042,
+      "questionNumber": 95
+    },
+    "id": "mock-7-94",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Reactive attachment disorder is characterised by persistent abnormalities in the child's pattern of social relationships, which are associated with emotional disturbance and reactive to changes in environmental circumstances. The main cause of Reactive Attachment Disorder is",
+    "options": [
+      "Deprivation and neglect",
+      "Marital discord among parents",
+      "Criminality and mental illness in parents",
+      "Harsh parenting",
+      "Single parent family"
+    ],
+    "correctAnswer": "Deprivation and neglect ",
+    "explanation": "RAD is diagnosed before 5 yrs, and may manifest as either inhibited or disinhibited subtypes. It is common in poverty-stricken and socially disrupted environments. It occurs as a direct result of severe parental neglect, abuse and serious mishandling. Other contributory factors include young, isolated, inexperienced, and/or depressed caretaker.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1043,
+      "questionNumber": 96
+    },
+    "id": "mock-7-95",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "There is a gender bias with male greater than female predominance in all syndromes of pervasive developmental disorders except",
+    "options": [
+      "Childhood disintegrative disorder",
+      "Rett's syndrome",
+      "Asperger's syndrome",
+      "Autism",
+      "PDD-Not Otherwise Specifi",
+      "ed"
+    ],
+    "correctAnswer": "Rett's syndrome ",
+    "explanation": "Pervasive developmental disorders (PDDs) include several that are characterized by impaired reciprocal social interactions, aberrant language development and restricted behavioural repertoire. PDDs emerge before the age of 3, and parents often become concerned by 18 months as language development does not occur as expected. PDDs are commonly associated with autism. Rett syndrome is almost exclusive to girls and is suspected to have a rare X-linked dominant pattern of inheritance",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1044,
+      "questionNumber": 97
+    },
+    "id": "mock-7-96",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "What is true about the initial appraisal of a stressful event?",
+    "options": [
+      "Automatic thoughts are part of the primary appraisal",
+      "Perception of the magnitude of the threat is part of the secondary appraisal",
+      "Perception of the magnitude of the threat is part of the primary appraisal",
+      "Negative automatic thoughts are part of the secondary appraisal",
+      "Appraisal process automatically leads to an outcome without any eff",
+      "orts in between."
+    ],
+    "correctAnswer": "Perception of the magnitude of the threat is part of the primary appraisal ",
+    "explanation": "The Transactional Model of Stress and Coping is a framework for evaluating how one copes with stressful events. Here stressful experiences are conceptualized as results of person-environment transactions. (Cohen 1984). When faced with a stressor, a person evaluates the potential threat (primary appraisal). Primary appraisal is a person's judgment about the signifi cance of an event as stressful, positive, controllable, challenging or irrelevant. Facing a stressor, the second appraisal follows, which is an assessment of people's coping resources and options. Secondary appraisals address what one can do about the situation (Retrieved from http://www.utwente.nl/cw/theorieenoverzicht/).",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1045,
+      "questionNumber": 98
+    },
+    "id": "mock-7-97",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which one of the following is a technique used in CBT?",
+    "options": [
+      "Chaining",
+      "Reframing",
+      "Socratic questioning",
+      "Paradoxical injunction",
+      "Circular questioning"
+    ],
+    "correctAnswer": "Socratic questioning ",
+    "explanation": "In CBT, the purpose of Socratic questioning by the therapist is to prompt the patient to examine the accuracy of maladaptive thoughts that are causing psychological distress. It does require therapists to be highly active in asking challenging questions of the patient when they identify maladaptive thoughts.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1046,
+      "questionNumber": 99
+    },
+    "id": "mock-7-98",
+    "topic": "mock"
+  },
+  {
+    "format": "SBA",
+    "stem": "Which of the following scale can be used for a diagnostic assessment for various personality disorders?",
+    "options": [
+      "SARA",
+      "IPDE",
+      "HCR20",
+      "Hare's checklist",
+      "VRAG"
+    ],
+    "correctAnswer": "IPDE ",
+    "explanation": "International Personality Disorder Examination (IPDE) is a standard tool for the assessment of personality disorders. This is a semi- structured interview that contains both the criteria of the DSM-IV and the ICD-10 in question form. The questions are grouped in seven subjects: work, self, aff ects, interpersonal relationships, reality testing, impulse control and behaviour before the age of 15 years.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1047,
+      "questionNumber": 100
+    },
+    "id": "mock-7-99",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Depression Screening Tool A researcher devised a depression-screening tool that was compared with gold-standard ICD 10 clinical diagnosis in 100 consecutive psychiatric outpatients. The following results were obtained. Clinical depression (ICD10)present No Clinical depression Total Screening test positive 16 14 30 Screening test negative 24 46 70 total 40 60 100 Choose the correct answer from the list above for each question below: Sensitivity Specifi city Positive predictive value Negative predictive value False positive rate False negative rate Accuracy Choose... Choose... Choose... Choose... Choose... Choose... Choose... ",
+    "options": [],
+    "correctAnswer": "Sensitivity → 16/40, Specifi city → 46/60, Positive predictive value → 16/30, Negative predictive value → 46/70, False positive rate → 14/60, False negative rate → 24/40, Accuracy → 62/100 ",
+    "explanation": "Explanation: Sensitivity = true positive / total diseased = 16/40 Specifi city = true negative / total non-diseased = 46/60 PPV = true positive/total positive = [16/30)] NPV = true negative/total negative = [46/70)] False positive rate = false positives / total nondiseased or (1-specifi city)= 14/60 False negative rate = false negatives / total diseased or (1-sensitivity)= 24/40 Accuracy = all correct hits/ total hits = (16+46)/100 = 62/100",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1048,
+      "questionNumber": 101
+    },
+    "id": "mock-7-100",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Statistical concepts For each description below choose the best statistical concept from the above list. A researcher wants to establish the relationship between obstetric risk events and development of schizophrenia. He believes that perinatal insults increase the risk of later development of schizophrenia. To make a scientifi c enquiry, he states that perinatal insults decrease the risk of later development of schizophrenia and proceeds to disprove this. To make a scientifi c enquiry, he states that perinatal insults are not associated with later development of schizophrenia and proceeds to disprove this. He devises a scale to measure the degree of perinatal insult. This instrument is not standardized, but the researcher uses it in both controls and cases. Mothers of schizophrenia patients recall more perinatal insults than mothers of controls. Using an 'eff ort scale' the researcher is able to demonstrate extra eff ort taken by mothers of schizophrenia patients to recall any events of signifi cance. The researcher concludes that his predictions are correct by doing a mid-study analysis and publishes these results before study completion. Choose... Choose... Choose... Choose... Choose... Choose...",
+    "options": [],
+    "correctAnswer": "A researcher wants to establish the relationship between obstetric risk events and development of schizophrenia. He believes that perinatal insults increase the risk of later development of schizophrenia. → Alternate hypothesis, To make a scientifi c enquiry, he states that perinatal insults decrease the risk of later development of schizophrenia and proceeds to disprove this. → One-tailed null hypothesis, To make a scientifi c enquiry, he states that perinatal insults are not associated with later development of schizophrenia and proceeds to disprove this. → Two-tailed null hypothesis, He devises a scale to measure the degree of perinatal insult. This instrument is not standardized, but the researcher uses it in both controls and cases. → Random error, Mothers of schizophrenia patients recall more perinatal insults than mothers of controls. Using an 'eff ort scale' the researcher is able to demonstrate extra eff ort taken by mothers of schizophrenia patients to recall any events of signifi cance. → Systematic error, The researcher concludes that his predictions are correct by doing a mid-study analysis and publishes these results before study completion. → Type 1 error ",
+    "explanation": "Explanation: What a researcher believes is generally considered as the alternate hypothesis. The opposite of this belief which he/she sets out to disprove is called the null hypothesis. When using a one-tailed test, we can test for the possibility of the relationship in only one direction and completely disregarding the possibility of a relationship in the other direction. When using a two-tailed test, regardless of the direction of the relationship that we hypothesize, we test for the possibility of the relationship in both directions. Random errors in \n\nexperimental measurements are caused by unknown and unpredictable changes in the experiment. These changes may occur in the measuring instruments. Recall bias described in is a type of systematic error, which unlike random error, is not normally distributed. \"Interim analysis of accumulating data in a clinical trial is now an established practice for ethical and scientifi c reasons. Repeatedly testing interim data can infl ate false positive (type 1) error rates if not handled appropriately\". (Retrieved from Interim analysis: the alpha spending function approach, http://www.ncbi.nlm.nih.gov/pubmed/7973215 (accessed July 21, 2015).)",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1050,
+      "questionNumber": 102
+    },
+    "id": "mock-7-101",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Terms used in RCT Identify the terms commonly used for each of the descriptions given below. This refers to maintaining secrecy with regard to the allocation at the start of the study. This term refers to maintaining secrecy about the status of a patient as to which arm he or she belongs, once the allocation is complete. Allocation of each participant is done methodically to ensure balance of confounding factors between groups This process may distribute even unknown confounders equally across both groups. Choose... Choose... Choose... Choose...",
+    "options": [],
+    "correctAnswer": "This refers to maintaining secrecy with regard to the allocation at the start of the study. → Allocation concealment, This term refers to maintaining secrecy about the status of a patient as to which arm he or she belongs, once the allocation is complete. → Blinding, Allocation of each participant is done methodically to ensure balance of confounding factors between groups → Minimization, This process may distribute even unknown confounders equally across both groups. → Randomization ",
+    "explanation": "1) Allocation concealment refers to maintaining secrecy with regard to the allocation itself at the start of the study. 2) Blinding refers to maintaining secrecy about the status of a patient as to which arm he or she belongs, once the allocation is complete. 3) Minimization is the allocation of each participant aims to ensure the balance of prognostic or confounding factors between groups. 4) Randomization may distribute both known and unknown confounders equally across both groups and thus reduce any confounding bias.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1052,
+      "questionNumber": 103
+    },
+    "id": "mock-7-102",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Diagnostic features (2) For each of the following ICD-10 diagnosis given below choose most common clinical presentation of the given list 1. Mania (TWO)   2. Delirium (TWO)   3. Delusional disorder (TWO)  ",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "1) Mania: Persecutory delusions are common in psychotic mania next only to grandiose delusions. Though visual hallucinations of a religious nature are commoner in mania than schizophrenia, these are still uncommon as a diagnostic feature. Delusions accompanying mania are often short-lived (but not as transient as in delirium) and are poorly systematized. Aff ective changes are often seen in mania. 2) Delirium: Visual hallucinations clearly outnumber auditory hallucinations in delirium. Transient delusions are often seen in delirium. 3) Delusional disorder: Most delusional disorders often have a single delusion and usually a persecutory theme. These are systematized too. In delusional disorders, usually there are no hallucinations (though olfactory and tactile hallucinations may be present as a secondary phenomenon); psychosocial functioning may be at a higher level than expected for schizophrenia. Correct Answer is : 1. Persecutory delusion, Aff ective changes 2. Transient delusion, Visual hallucinations 3. Systematized delusion, Persecutory delusion ",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1053,
+      "questionNumber": 104
+    },
+    "id": "mock-7-103",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Choosing antipsychotics A medical student has heard about antipsychotic medications and their side eff ects. He is keen to discuss options with you about suitable drugs of choice for patients with co-morbid medical conditions. 1. Which of the 2 drugs could be suggested as antipsychotic agents to treat psychosis in patients with dyslipidemia/glucose intolerance?   2. Which 2 drugs are least likely to cause sexual side eff ects?   3. Which drug is least likely to cause QT prolongation?  4. Which 2 drugs are least likely to cause hyperprolactinaemia?   Explanation: The suggested drugs for patients with dyslipidemias/impaired glucose tolerance are Amisulpride, aripiprazole, and Ziprasidone. The suggested drugs for patients with sexual dysfunction are Aripiprazole and Quetiapine. Aripiprazole is least likely to cause QT prolongation. The suggested drugs for patients with hyperprolactinaemia are Aripiprazole and Quetiapine. (Ref: Maudsley guidelines- 10th edition: pg 24) Correct Answer is : 1. Aripiprazole, Amisulpride 2. Quetiapine, Aripiprazole 3. Aripiprazole 4. Quetiapine, Aripiprazole ",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1054,
+      "questionNumber": 105
+    },
+    "id": "mock-7-104",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Alcohol-related issues Choose one option that best describes each clinical vignette listed here A Chinese man develops fl ushing reaction and sweating after having 2 pints of Irish beer. A 44-year-old man has a history of alcohol binges on weekends, for the lastfi ve years. On one Monday morning, while he was sitting in the lounge he started having a seizure. A chronic alcoholic presents with confusion and unsteadiness of gait. On examination he has bilateral 6th cranial nerve palsy. Choose... Choose... Choose...",
+    "options": [],
+    "correctAnswer": "A Chinese man developsfl ushing reaction and sweating after having 2 pints of Irish beer. → Disulfi ram like reaction, A 44-year-old man has a history of alcohol binges on weekends, for the lastfi ve years. On one Monday morning, while he was sitting in the \n\nlounge he started having a seizure. → Delirium tremens, A chronic alcoholic presents with confusion and unsteadiness of gait. On examination he has bilateral 6th cranial nerve palsy. → Wernicke's encephalopathy. ",
+    "explanation": "Case 1- Disulfi ram is a drug that blocks aldehyde dehydrogenase, resulting in the accumulation of acetaldehyde on alcohol consumption. It leads tofl ushing, nausea, vomiting, headache, tachycardia and palpitations. This reaction is dose-dependent, and if a large amount of alcohol is consumed, a more severe reaction may ensue leading to hypertension, collapse and even death. Case 1 describes a patient who has developed disulfi ram-like reaction due to a genetic variability in the aldehyde dehydrogenase enzyme. It is not uncommon in Chinese and other Oriental populations, resulting in alcohol-inducedfl ush reaction even when not taking disulfi ram. Case 2 is alcohol-induced seizures. The incidence of seizures quoted is 1-15% in alcohol-dependent patients with an 8% risk of withdrawal seizures if untreated compared to 3% if treated. Case 3 is suggestive of Wernicke's encephalopathy (WE), an acute condition characterized by the triad of ophthalmoplegia, ataxia and global confusional state. The classic triad is only present in 10% of patients.The eye signs are usually bilateral but not necessarily symmetrical.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1055,
+      "questionNumber": 106
+    },
+    "id": "mock-7-105",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Neurodegenerative disorders Identify the correct diagnosis for each of the following clinical descriptions A neurodegenerative disorder that is genetically transmitted and primarily aff ecting the striatum A neurodegenerative disorder aff ecting the brain stem and basal ganglia presenting with repeated unexplained falls A neurodegenerative disorder aff ecting the frontal and temporal lobes presenting with changes in personality and behaviour A neurodegenerative disease aff ecting the cerebral cortex and basal ganglia with marked disturbances in movement A neurodegenerative disease presenting with visual hallucinations aff ecting the cortex and subcortical structures Choose... Choose... Choose... Choose... Choose...",
+    "options": [],
+    "correctAnswer": "A neurodegenerative disorder that is genetically transmitted and primarily aff ecting the striatum → Huntington's disease, A neurodegenerative disorder aff ecting the brain stem and basal ganglia presenting with repeated unexplained falls → Progressive supranuclear palsy, A neurodegenerative disorder aff ecting the frontal and temporal lobes presenting with changes in personality and behaviour → Picks disease, A neurodegenerative disease aff ecting the cerebral cortex and basal ganglia with marked disturbances in movement → Corticobasal degeneration, A neurodegenerative disease presenting with visual hallucinations aff ecting the cortex and subcortical structures → Lewy body dementia ",
+    "explanation": "1) Huntington's disease is genetically transmitted and primarily aff ects the striatum. The gene for Huntington's disease is located on the short arm of chromosome four and is associated with an expanded trinucleotide repeat. MRI shows caudate head atrophy and resultant box-car shaped ventricles. 2) The description suggests progressive supranuclear palsy. The most common early complaint is unsteadiness of gait and unexplained falling. It aff ects the brain stem and basal ganglia characterized by supranuclear palsy, pseudo bulbar palsy and dementia. 3) Pick's disease involves the frontal and temporal lobes characterized by changes in personality and behaviour. \n\n4) Corticobasal degeneration is a progressive neurodegenerative disease aff ecting the cerebral cortex and basal ganglia. It is characterized by marked disorders of movement and cognitive dysfunction. Clinical diagnosis is diffi cult, as symptoms of CBD are often similar to those of other diseases, such as Parkinson's disease or progressive supranuclear palsy. A defi nitive diagnosis of CBD is only possible after death. 5) The description suggests Lewy body dementia, which is a mixed type of dementia, involves the cortex and subcortical structures. Visual hallucinations are reported in more than 80% of cases.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1057,
+      "questionNumber": 107
+    },
+    "id": "mock-7-106",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Paraphilias Identify the most appropriate type of paraphilias described in each of the following statements Watching others who are naked and or engaging in sexual acts Touching and rubbing genitals against a non-consenting person Feeling sexually aroused by a non-living object Exposure of genitals to strangers Crossdressing with wig and makeup to obtain sexual arousal Choose... Choose... Choose... Choose... Choose...",
+    "options": [],
+    "correctAnswer": "Watching others who are naked and or engaging in sexual acts → Voyeurism, Touching and rubbing genitals against a non-consenting person → Frotteurism, Feeling sexually aroused by a non-living object → Fetishism, Exposure of genitals to strangers → Exhibitionism, Crossdressing with wig and makeup to obtain sexual arousal → Fetishistic transvestism ",
+    "explanation": "Explanation: Voyeurism is watching others who are naked and or engaging in sexual acts. Frotteurism is touching and rubbing against a non- consenting person. Fetishism is feeling sexually aroused to a non-living object such as shoes, cloth, rubber, etc. Exhibitionism is exposure of genitals to strangers. Fetishistic transvestism is cross-dressing with the complete outfi t of the opposite sex such as wig and makeup. Paedophilia is having sexual arousal with children usually pre-pubertal or early pubertal. In sexual masochism, the sexually arousing object is being humiliated, beaten, bound or made to suff er. In sexual sadism, the sexually arousing object is psychological or physical suff ering of others.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1059,
+      "questionNumber": 108
+    },
+    "id": "mock-7-107",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Rating scales in children (3) Select one rating scale for use in each of the following situations This scale measures aggression and conduct problems especially in age between 7 to 17 years. This scale is useful to assess intelligence in children aged less than 16 This scale is helpful to obtain information from school on a variety of psychiatric problems Choose... Choose... Choose...",
+    "options": [],
+    "correctAnswer": "This scale measures aggression and conduct problems especially in age between 7 to 17 years. → Child and adolescent functional assessment scale, This scale is useful to assess intelligence in children aged less than 16 → Weschler's scale WISC, This scale is helpful to obtain information from school on a variety of psychiatric problems → Strength and diffi culties questionnaire ",
+    "explanation": "The Child & Adolescent Functional Assessment Scale is a rating scale to assess the degree of impairment in functioning due to emotional, behavioural, or psychiatric problems. It is completed by a clinical staff and takes about 10 minutes. It measures aggression and conduct problems especially in age between 7 to 17 years. Weschler intelligence scale for children (WISC) is useful to assess intelligence for children aged less than sixteen. It has a verbal, performance subscales that yield a verbal, performance and full-scale IQ. WAIS is for adults. Strength and diffi culties questionnaire (SDQ) helps to obtain information from the school on a variety of psychiatric symptoms in emotional, conduct, hyperactivity, peer problems and prosocial domains.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1060,
+      "questionNumber": 109
+    },
+    "id": "mock-7-108",
+    "topic": "mock"
+  },
+  {
+    "format": "EMI",
+    "stem": "Cognitive errors From the vignettes below, identify the type of cognitive error each patient is harbouring; A 35-year-old gentleman with dysthymia says, \"I will either pass the membership exam, get a job and have a family or I will fail the exam, have no job and remain single forever.\" A 47-year-old depressed woman says, 'I am a hopeless, incompetent and an invalid person.' A 45-year-old anxious woman's husband is late coming home and she concludes 'he's had an accident.' A 27-year-old anxious woman facing surgery to remove her appendix remembers all possible side eff ects but fail to hear that they are extremely rare. Choose... Choose... Choose... Choose...",
+    "options": [],
+    "correctAnswer": "A 35-year-old gentleman with dysthymia says, \"I will either pass the membership exam, get a job and have a family or I will fail the exam, have no job and remain single forever.\" → All or nothing thinking, A 47-year-old depressed woman says, 'I am a hopeless, incompetent and an invalid person.' → Labelling, A 45-year-old anxious woman's husband is late coming home and she concludes 'he's had \n\nan accident.' → Arbitrary inference, A 27-year-old anxious woman facing surgery to remove her appendix remembers all possible side eff ects but fail to hear that they are extremely rare. → Selective attention   © 2024 SPMM Course Limited, UK. Refund Policy | Terms & Conditions \n\nStarted on Sunday, 21 January 2024, 12:56 AM State Finished Completed on Sunday, 21 January 2024, 12:56 AM Time taken 9 secs Grade 0.00 out of 150.00 (0%)",
+    "explanation": "1) The gentleman with dysthymia sees things in black and white and is unable to see any areas of compromise or 'grey shade' between the two extremes of possibilities. 2) The depressed woman is labelling herself as hopeless and incompetent. They tend to attach a negative label to them. Here the distortion leads to a global, over-generalised negative view of oneself. 3) The cognitive error is an arbitrary inference and instead of looking at the evidence available, one quickly jumps to conclusions. 4) The cognitive error identifi ed is selective attention where there is a focus only on the negative aspects of the problem.",
+    "source": {
+      "file": "mocks/SPMM Mocks.pdf",
+      "page": 1061,
+      "questionNumber": 110
+    },
+    "id": "mock-7-109",
+    "topic": "mock"
+  }
+]
