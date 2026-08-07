@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
+import { RichText } from "@/components/rich-text";
 import dynamic from "next/dynamic";
 
 const PdfViewer = dynamic(() => import("@/components/pdf-viewer").then((m) => m.PdfViewer), {
@@ -114,7 +115,11 @@ export function QuizView({
                 </Badge>
               )}
               <p className="text-sm font-medium">Correct answer: {q.correctAnswer || "(not extractable from source — see explanation)"}</p>
-              {q.explanation && <p className="text-sm">{q.explanation}</p>}
+              {q.explanation && (
+                <p className="text-sm">
+                  <RichText text={q.explanation} />
+                </p>
+              )}
               {q.reference && <p className="text-xs text-muted-foreground">Ref: {q.reference}</p>}
               <div className="flex items-center gap-2 pt-2">
                 <button onClick={() => {}}>

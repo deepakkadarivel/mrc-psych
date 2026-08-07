@@ -6,8 +6,11 @@ import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
+import { AlertTriangle } from "lucide-react";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { CitationBadge } from "@/components/citation-badge";
 import { StudyGuideView } from "@/components/study-guide-view";
+import { RichText } from "@/components/rich-text";
 import type { NoteBlock, Source, StudyGuide, TopicManifestEntry } from "@/lib/types";
 
 const PdfViewer = dynamic(() => import("@/components/pdf-viewer").then((m) => m.PdfViewer), {
@@ -47,9 +50,11 @@ export function TopicView({
             )}
           </div>
           {topic.gap && (
-            <div className="m-4 shrink-0 rounded-md border border-amber-300 bg-amber-50 p-3 text-sm text-amber-800">
-              <strong>Gap flagged:</strong> {topic.gap}
-            </div>
+            <Alert className="m-4 shrink-0 border-l-4 border-l-rose-500 bg-rose-50/60 dark:bg-rose-950/30">
+              <AlertTriangle className="text-rose-600 dark:text-rose-400" />
+              <AlertTitle className="text-rose-950 dark:text-rose-100">Gap flagged</AlertTitle>
+              <AlertDescription className="text-rose-800 dark:text-rose-300">{topic.gap}</AlertDescription>
+            </Alert>
           )}
 
           <Tabs defaultValue={studyGuide ? "guide" : "source"} className="flex-1 min-h-0 flex flex-col">
@@ -80,7 +85,9 @@ export function TopicView({
                       <h2 className="font-medium">{note.heading}</h2>
                       <CitationBadge source={note.source} onClick={setActiveSource} />
                     </div>
-                    <p className="mt-3 text-sm leading-relaxed">{note.text}</p>
+                    <p className="mt-3 text-sm leading-relaxed">
+                      <RichText text={note.text} />
+                    </p>
                   </div>
                   <div className="flex shrink-0 items-center justify-between border-t p-3">
                     <Button variant="outline" size="sm" disabled={index === 0} onClick={() => goToNote(index - 1)}>

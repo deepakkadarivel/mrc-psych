@@ -6,19 +6,31 @@
       "bullets": [
         {
           "text": "Study designs are classed by (1) how subjects are identified — by exposure vs. by outcome — and (2) time course: prospective (forward from exposure to outcome), retrospective (backward from outcome to exposure), or cross-sectional (both measured together, a 'snapshot'). Descriptive studies (case reports/series, cross-sectional/prevalence studies, census) describe a group without testing a causal hypothesis or comparing groups.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Analytical studies compare two groups to measure association (case-control, cohort). Ecological studies use populations rather than individuals as the unit of measurement, assuming all members of a population share equal exposure/risk — drawing subject-level conclusions from this group-level data is the ecological fallacy (e.g. countries with low religious attachment having higher suicide rates does not mean irreligious individuals are the ones dying by suicide).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Experimental studies are prospective cohort designs where exposure/intervention is deliberately assigned (clinical trials = interventional studies), unlike cohort studies where exposure occurs naturally.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "Best study design by clinical question: prevalence/nature of sample → cross-sectional; treatment effectiveness → pragmatic RCT (or systematic review); treatment efficacy → explanatory RCT (or systematic review); causation/aetiology → cohort or case-control; prognosis → cohort; diagnostic assessment (new tool vs. gold standard) → cross-sectional; health economics → cost-effectiveness study; 'meaning'/experience → qualitative study.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 1 }
+          "text": "Best study design by clinical question: prevalence/nature of sample → cross-sectional; treatment effectiveness → pragmatic **RCT** (or systematic review); treatment efficacy → explanatory **RCT** (or systematic review); causation/aetiology → cohort or case-control; prognosis → cohort; diagnostic assessment (new tool vs. gold standard) → cross-sectional; health economics → cost-effectiveness study; 'meaning'/experience → qualitative study.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
         }
       ]
     },
@@ -27,19 +39,31 @@
       "bullets": [
         {
           "text": "Case-control study: retrospective; starts from defined diseased/non-diseased groups and looks back at exposure. Best for rare diseases. Advantages: quick, cheap, good for rare disease, several aetiological factors can be studied at once, no attrition. Disadvantages: prone to selection/recall bias, cannot measure incidence (so only odds ratio, not relative risk, can be calculated), cannot prove causality, temporality hard to establish. Increasing the control:case ratio up to 4:1 increases power; beyond that it does not.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "Overzealous matching of cases/controls can make recruitment difficult and can reduce the risk difference between groups, and may inadvertently match on a causal factor itself. If disease prevalence is <5% (rare disease assumption), the odds ratio approximates relative risk; because OR ranges 0 to infinity (no negative values), log transformation is needed to derive its confidence interval.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 1 }
+          "text": "Overzealous matching of cases/controls can make recruitment difficult and can reduce the risk difference between groups, and may inadvertently match on a causal factor itself. If disease prevalence is <5% (rare disease assumption), the odds ratio approximates relative risk; because **OR** ranges 0 to infinity (no negative values), log transformation is needed to derive its confidence interval.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Cohort study: exposed and non-exposed groups followed forward to detect disease development; useful when exposure is rare but disease likelihood after exposure is high. Can be prospective or retrospective (identify cohort from records, then trace forward). Advantages over case-control: less selection/recall bias, incidence and hence relative risk can be measured, temporality established more easily, multiple effects of one exposure can be seen. Disadvantages: time/resource intensive, poor for rare diseases, only one exposure studied at a time, attrition/drop-out is a major issue.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "A nested case-control study draws both cases and controls from within an existing cohort rather than studying the whole cohort — cheaper, similar precision.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 7 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         }
       ]
     },
@@ -47,24 +71,39 @@
       "heading": "RCT Design — Randomisation, Blinding & Special Trial Types",
       "bullets": [
         {
-          "text": "Randomisation types: simple (computer-generated list); block (fixed block size ensures equal arm numbers — larger blocks are harder to predict); stratified (balances baseline characteristics across arms — gain from this is minimal in large trials, and does not remove the need to adjust for baseline imbalance if found); cluster (centres/zones randomised as units, so individuals within a cluster are not independent — this reduces statistical power, hence 'effective sample size' via the intracluster correlation is used for power calculations instead of raw sample size); minimisation (used when stratified randomisation is impractical due to small numbers — only the first allocation is truly random); quasi-randomisation (odd/even DOB, day of week — not reproducible, must be avoided).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 7 }
+          "text": "Randomisation types: simple (computer-generated list); block (fixed block size ensures equal arm numbers — larger blocks are harder to predict); stratified (balances baseline characteristics across arms — gain from this is minimal in large trials, and does not remove the need to adjust for baseline imbalance if found); cluster (centres/zones randomised as units, so individuals within a cluster are not independent — this reduces statistical power, hence 'effective sample size' via the intracluster correlation is used for power calculations instead of raw sample size); minimisation (used when stratified randomisation is impractical due to small numbers — only the first allocation is truly random); quasi-randomisation (odd/even **DOB**, day of week — not reproducible, must be avoided).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         },
         {
-          "text": "Special RCT types: crossover trial (all subjects get both arms after a washout period — economical but unusable for curable conditions); parallel RCT (standard, arms run concurrently); N-of-1 trial (single subject alternates placebo/active blind under a pharmacist, best individual-patient EBM design, but not generalisable); factorial trial (2×2 design tests 2 interventions' independent and combined effects with one sample; costs less than a multi-arm trial but is harder to run); patient preference trial (those with strong preference get their choice, only the equivocal are randomised — primary analysis still restricted to the randomised group); Zelen's design (randomise before consent — MRC does not accept this as ethical); non-inferiority/equivalence trial (null hypothesis is reversed — 'there IS a significant difference' — and requires a larger sample size than a superiority trial at equal power).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 7 }
+          "text": "Special **RCT** types: crossover trial (all subjects get both arms after a washout period — economical but unusable for curable conditions); parallel **RCT** (standard, arms run concurrently); N-of-1 trial (single subject alternates placebo/active blind under a pharmacist, best individual-patient **EBM** design, but not generalisable); factorial trial (2×2 design tests 2 interventions' independent and combined effects with one sample; costs less than a multi-arm trial but is harder to run); patient preference trial (those with strong preference get their choice, only the equivocal are randomised — primary analysis still restricted to the randomised group); Zelen's design (randomise before consent — **MRC** does not accept this as ethical); non-inferiority/equivalence trial (null hypothesis is reversed — 'there **IS** a significant difference' — and requires a larger sample size than a superiority trial at equal power).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         },
         {
           "text": "Uncontrolled trials use a historical control (status of the group before intervention); before-and-after trials have no randomisation and cannot exclude non-intervention causes of change; multi-arm trials add extra comparison arms but need a bigger sample and lose power.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 7 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         },
         {
           "text": "Pragmatic (effectiveness) RCTs reflect real-world heterogeneity, minimise exclusion criteria, and answer 'how effective is this in practice' — but risk drop-outs, failed blinding and less rigorous methodology. Explanatory (efficacy) RCTs use homogeneous, carefully selected samples under optimal conditions to answer 'how well can this drug work'. Efficiency additionally asks whether resources are used to maximise value for money.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 7 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         },
         {
-          "text": "Blinding levels: open label (all aware); single blind (patient OR clinician unaware); double blind (both unaware); triple blind (patient, investigator AND outcome assessor unaware). Allocation concealment = keeping the random sequence secret from generation until assignment; blinding = keeping the allocation secret from measurement onward. Unblinding = planned or unintended disclosure of allocation.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 7 }
+          "text": "Blinding levels: open label (all aware); single blind (patient **OR** clinician unaware); double blind (both unaware); triple blind (patient, investigator **AND** outcome assessor unaware). Allocation concealment = keeping the random sequence secret from generation until assignment; blinding = keeping the allocation secret from measurement onward. Unblinding = planned or unintended disclosure of allocation.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         }
       ]
     },
@@ -72,20 +111,32 @@
       "heading": "Intention-to-Treat, Missing Data & Alternative Analyses",
       "bullets": [
         {
-          "text": "Intention-to-treat (ITT) analysis counts participants in the group to which they were originally randomised regardless of compliance/crossover. This gives a conservative, generalisable estimate of effect. ITT is not ideal for biological-mechanism questions (non-compliers can't show a biological drug effect) and it favours equality (dilution) in equivalence trials; it is also hard to interpret with a high crossover rate.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 7 }
+          "text": "Intention-to-treat (**ITT**) analysis counts participants in the group to which they were originally randomised regardless of compliance/crossover. This gives a conservative, generalisable estimate of effect. **ITT** is not ideal for biological-mechanism questions (non-compliers can't show a biological drug effect) and it favours equality (dilution) in equivalence trials; it is also hard to interpret with a high crossover rate.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         },
         {
-          "text": "Alternatives: per-protocol (PP)/'on treatment' analysis includes only those sufficiently compliant — used in explanatory RCTs, or as a secondary analysis in effectiveness trials; treatment-received (TR) analysis groups by actual treatment taken, but this undoes the benefit of random allocation via contamination.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 17 }
+          "text": "Alternatives: per-protocol (**PP**)/'on treatment' analysis includes only those sufficiently compliant — used in explanatory RCTs, or as a secondary analysis in effectiveness trials; treatment-received (**TR**) analysis groups by actual treatment taken, but this undoes the benefit of random allocation via contamination.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "Methods for handling missing/drop-out data: (1) test whether drop-outs differ from completers on baseline characteristics; (2) last observation carried forward (LOCF) — poor fit if illness naturally remits, and asymmetric in effect on treated vs. control groups; (3) worst-case-scenario analysis (assume all drop-outs failed) — used in sensitivity analyses; (4) mean imputation; (5) hot-deck imputation (borrow a similar person's score); (6) multiple regression to predict missing values; (7) growth curve analysis (fit a line/curve per subject, needs ≥2 follow-up points); (8) random-effects modelling (allows intercept/slope to vary by person, so drop-outs' trajectories need not match completers'); (9) multiple imputation (maximum likelihood/Monte Carlo methods) — sensitivity analysis is recommended whenever data are imputed.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 17 }
+          "text": "Methods for handling missing/drop-out data: (1) test whether drop-outs differ from completers on baseline characteristics; (2) last observation carried forward (**LOCF**) — poor fit if illness naturally remits, and asymmetric in effect on treated vs. control groups; (3) worst-case-scenario analysis (assume all drop-outs failed) — used in sensitivity analyses; (4) mean imputation; (5) hot-deck imputation (borrow a similar person's score); (6) multiple regression to predict missing values; (7) growth curve analysis (fit a line/curve per subject, needs ≥2 follow-up points); (8) random-effects modelling (allows intercept/slope to vary by person, so drop-outs' trajectories need not match completers'); (9) multiple imputation (maximum likelihood/Monte Carlo methods) — sensitivity analysis is recommended whenever data are imputed.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
         },
         {
           "text": "N-of-1 trials are best used when: the clinician is genuinely uncertain a treatment works for this particular patient; treatment has rapid onset/offset without disease-modifying effect; an optimal duration/endpoint can be defined; a pharmacist is available to blind. They can be a stronger form of evidence than poorly conducted RCTs for an individual patient's therapy decision, but results never generalise beyond that patient.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 17 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
         }
       ]
     },
@@ -94,23 +145,38 @@
       "bullets": [
         {
           "text": "Koch's postulates (for infectious disease causality): agent present in every case (consistency); agent absent in other diseases (specificity); agent reproduces disease experimentally (biological coherence); agent recoverable from the experimental disease. Not generalisable to non-infectious illness.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 17 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
         },
         {
           "text": "Susser's criteria group into 5 categories (3 considered essential): strength, specificity, consistency (replicability), predictive/experimental performance, and coherence/plausibility.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 17 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
         },
         {
           "text": "Bradford Hill's criteria for 'A causes B': (1) temporal association — A must precede B; (2) direction/dose-response — higher dose of A tracks with higher (or lower) dose of B; (3) specificity — A precedes B specifically, not C or D; (4) consistency — if A present, B present, and vice versa; strength of association is judged statistically, and absence of association refutes causality.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 22 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
         },
         {
           "text": "Rothman's sufficient-component model: a 'cause' is usually a minimal set of conditions (a sufficient cause/'causal pie') rather than one factor; each component is a component cause, and one that must appear in every sufficient cause is a necessary cause (e.g. H. pylori for gastric ulcer — necessary but not sufficient alone). MacMahon & Pugh's 'web of causation' (1960) describes the mutual, direct/indirect interactions among risk factors; Murray & Lopez extended this into a hierarchical model separating proximal (mechanistic) from distal (empirical) risk factors.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 22 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
         },
         {
           "text": "A positive study result can be explained by: (1) selection bias between groups; (2) measurement bias; (3) confounding causing an indirect association; (4) chance (type 1 error); (5) a genuine causal association.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 22 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
         }
       ]
     },
@@ -118,16 +184,25 @@
       "heading": "Confounding & Effect Modification",
       "bullets": [
         {
-          "text": "A confounder must meet 4 criteria: related to exposure; related to outcome (prognosis/susceptibility); NOT on the causal pathway between exposure and outcome; and its distribution must differ between the compared groups.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 22 }
+          "text": "A confounder must meet 4 criteria: related to exposure; related to outcome (prognosis/susceptibility); **NOT** on the causal pathway between exposure and outcome; and its distribution must differ between the compared groups.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
         },
         {
-          "text": "Controlling confounding — at study design: restriction (exclude the group carrying the confounder, but shrinks sample size), matching (equalise confounder distribution across groups), randomisation (controls both known AND unknown confounders, but distribution must still be checked post-recruitment). At analysis stage: stratification (analyse confounder subgroups separately) or multivariate methods (regression, producing adjusted vs. crude rates). Confounders cannot be eliminated, only controlled for.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 22 }
+          "text": "Controlling confounding — at study design: restriction (exclude the group carrying the confounder, but shrinks sample size), matching (equalise confounder distribution across groups), randomisation (controls both known **AND** unknown confounders, but distribution must still be checked post-recruitment). At analysis stage: stratification (analyse confounder subgroups separately) or multivariate methods (regression, producing adjusted vs. crude rates). Confounders cannot be eliminated, only controlled for.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
         },
         {
           "text": "An effect modifier is a third factor whose presence/level changes the strength (not the existence) of the A→B relationship; it should be reported stratified by levels of the modifier rather than eliminated. Confounders threaten internal validity/create bias; known confounders can be adjusted for at analysis, but unknown confounders can still bias even a well-conducted study.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 22 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
         }
       ]
     },
@@ -135,20 +210,32 @@
       "heading": "Bias — Selection, Measurement & Analysis Bias",
       "bullets": [
         {
-          "text": "Internal validity = how close a study's result is to the truth (threatened by bias); external validity/generalisability = how applicable the result is to the clinician's population. Bias is a systematic, predictable error from poor design/collection/analysis — it does NOT reduce with repetition (unlike random error) and cannot be fixed at the analysis stage.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 26 }
+          "text": "Internal validity = how close a study's result is to the truth (threatened by bias); external validity/generalisability = how applicable the result is to the clinician's population. Bias is a systematic, predictable error from poor design/collection/analysis — it does **NOT** reduce with repetition (unlike random error) and cannot be fixed at the analysis stage.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
         },
         {
-          "text": "Selection bias subtypes: Berkson/admission-rate bias (hospital controls differ in admission likelihood from the exposure itself); Neyman/incidence-prevalence bias (studying prevalent rather than incident cases under-represents a risk factor that kills quickly); response bias ('healthy volunteer' effect); unmasking bias (a risk factor 'unmasks' rather than causes the outcome); lead-time bias (survival looks longer after screening purely because diagnosis was earlier — must adjust for lead time before comparing survival to unscreened controls); referral bias; diagnostic purity bias (excluding comorbidity produces an unrepresentative sample — a particular RCT problem); membership bias (recruiting via patient organisations).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 26 }
+          "text": "Selection bias subtypes: Berkson/admission-rate bias (hospital controls differ in admission likelihood from the exposure itself); Neyman/incidence-prevalence bias (studying prevalent rather than incident cases under-represents a risk factor that kills quickly); response bias ('healthy volunteer' effect); unmasking bias (a risk factor 'unmasks' rather than causes the outcome); lead-time bias (survival looks longer after screening purely because diagnosis was earlier — must adjust for lead time before comparing survival to unscreened controls); referral bias; diagnostic purity bias (excluding comorbidity produces an unrepresentative sample — a particular **RCT** problem); membership bias (recruiting via patient organisations).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
         },
         {
           "text": "Measurement bias subtypes: recall bias (cases recall exposure differently — case-control studies especially vulnerable); reporting bias (differential willingness to report exposure); observer bias; surveillance bias (better ascertainment in a monitored population); work-up/verification bias (gold-standard test applied less often when the new test is negative); misclassification bias — differential (one-sided) misclassification biases results, but non-differential misclassification (errors affecting both groups equally) usually reduces the observed association rather than biasing it; desirability bias; Hawthorne effect (respondents minimise perceived deviation from norm, especially in questionnaire surveys).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 26 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
         },
         {
-          "text": "Analysis bias occurs when participants change group (contamination) or are lost to follow-up (attrition) — minimised by intention-to-treat analysis. Bias direction: 'toward the null' bias yields estimates closer to no-difference; 'away from the null' bias exaggerates the estimate; an extreme case can flip the direction entirely (a true OR>1 appearing as <1) — a switch-over bias.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 26 }
+          "text": "Analysis bias occurs when participants change group (contamination) or are lost to follow-up (attrition) — minimised by intention-to-treat analysis. Bias direction: 'toward the null' bias yields estimates closer to no-difference; 'away from the null' bias exaggerates the estimate; an extreme case can flip the direction entirely (a true **OR**>1 appearing as <1) — a switch-over bias.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
         }
       ]
     },
@@ -156,20 +243,32 @@
       "heading": "Qualitative Research Methods",
       "bullets": [
         {
-          "text": "Five major qualitative designs: phenomenology (characterising an everyday but poorly defined experience, e.g. 'what is it like to be a carer' — distinct from Jasperian descriptive psychopathology); ethnography ('portrait of the people' — emic view = insider perspective of one's own group, etic view = outsider perspective); grounded theory (Glaser & Strauss — constant comparison of data generates categories until theoretical saturation, then theoretical sampling tests them further, e.g. the DABDA stages-of-grief model); case study (single unit — person/organisation — studied in depth, sits between qualitative and quantitative approaches); participatory action research (researcher and researched collaborate, e.g. carers co-designing a study on family challenges in schizophrenia).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 30 }
+          "text": "Five major qualitative designs: phenomenology (characterising an everyday but poorly defined experience, e.g. 'what is it like to be a carer' — distinct from Jasperian descriptive psychopathology); ethnography ('portrait of the people' — emic view = insider perspective of one's own group, etic view = outsider perspective); grounded theory (Glaser & Strauss — constant comparison of data generates categories until theoretical saturation, then theoretical sampling tests them further, e.g. the **DABDA** stages-of-grief model); case study (single unit — person/organisation — studied in depth, sits between qualitative and quantitative approaches); participatory action research (researcher and researched collaborate, e.g. carers co-designing a study on family challenges in schizophrenia).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
         },
         {
           "text": "Three data collection techniques: interviews (structured/semi-structured or 'focused'/unstructured or 'in-depth'; focus groups — 6–10 members, useful when resources limit individual interviews or group interaction adds insight, multiple small groups preferred over one large group); observation (field notes, participant vs. non-participant observer); documents (diaries/letters or formal case notes).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 30 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
         },
         {
           "text": "Analysis: transcribing (roughly 5:1 time ratio to interview length); coding (raw data → standard categories); content analysis (manifest level = what was literally said; latent level = what was implied); conversation analysis (audio/visual, contextual); discourse analysis (personal/autobiographical accounts).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 30 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
         },
         {
           "text": "Validity methods for qualitative research: triangulation (converging results across ≥2 methods/sources/investigators); respondent validation/'member checking' (comparing investigator's account against subjects'); reflexivity (awareness of how the researcher shapes the data); deviant case analysis (deliberately seeking data that contradicts the emerging explanation).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 30 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
         }
       ]
     },
@@ -177,12 +276,18 @@
       "heading": "Secondary Research — Reviews & Meta-Analysis Quality",
       "bullets": [
         {
-          "text": "Narrative reviews are broad, expert-opinion-led, non-systematically searched, cannot be replicated, and carry higher bias risk than systematic reviews — but are useful for introducing a topic or generating hypotheses. Systematic reviews require a focused question, comprehensive/specific data collection, uniform study-selection criteria, and (optionally) quantitative synthesis (meta-analysis) if data are combinable. Poor-quality primary studies produce a meaningless synthesis regardless of statistical rigour — the GIGO ('garbage in, garbage out') principle.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "Narrative reviews are broad, expert-opinion-led, non-systematically searched, cannot be replicated, and carry higher bias risk than systematic reviews — but are useful for introducing a topic or generating hypotheses. Systematic reviews require a focused question, comprehensive/specific data collection, uniform study-selection criteria, and (optionally) quantitative synthesis (meta-analysis) if data are combinable. Poor-quality primary studies produce a meaningless synthesis regardless of statistical rigour — the **GIGO** ('garbage in, garbage out') principle.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         },
         {
-          "text": "A comprehensive literature search uses multiple databases (not MEDLINE/CINAHL alone), cross-checks reference lists, hand-searches, consults experts, and identifies grey literature (conference abstracts/posters). Individual patient data meta-analysis (contacting original authors for raw data) is more powerful than summary-data meta-analysis but far less often achievable.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "A comprehensive literature search uses multiple databases (not **MEDLINE**/**CINAHL** alone), cross-checks reference lists, hand-searches, consults experts, and identifies grey literature (conference abstracts/posters). Individual patient data meta-analysis (contacting original authors for raw data) is more powerful than summary-data meta-analysis but far less often achievable.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         }
       ]
     },
@@ -191,27 +296,45 @@
       "bullets": [
         {
           "text": "Fixed-effects model assumes one common true effect across studies, ignores between-study variation, and is valid only if significant heterogeneity can be excluded. Random-effects model assumes each study has its own true effect normally distributed around a mean — gives smaller studies proportionally more weight, is more susceptible to publication bias, and produces wider (less precise) confidence intervals. The two models diverge in their pooled estimate only when heterogeneity is substantial.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         },
         {
-          "text": "Clinical heterogeneity (different but theoretically combinable interventions/populations — describable, not measurable) vs. methodological heterogeneity (different study methods) vs. statistical heterogeneity (inconsistent quantitative results across trials — testable via chi-square/Cochran's Q or I²). Rule of thumb: an average χ² equals its degrees of freedom (n−1 studies); the tests have low power, so a non-significant result does NOT prove homogeneity. High p (non-significant heterogeneity test) suggests heterogeneity is insignificant enough that a meta-analysis is reasonable.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "Clinical heterogeneity (different but theoretically combinable interventions/populations — describable, not measurable) vs. methodological heterogeneity (different study methods) vs. statistical heterogeneity (inconsistent quantitative results across trials — testable via chi-square/Cochran's Q or I²). Rule of thumb: an average χ² equals its degrees of freedom (n−1 studies); the tests have low power, so a non-significant result does **NOT** prove homogeneity. High p (non-significant heterogeneity test) suggests heterogeneity is insignificant enough that a meta-analysis is reasonable.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         },
         {
-          "text": "Publication bias = studies with significant/'positive' results are more likely submitted/published; small non-significant studies are especially likely to stay unpublished, producing an asymmetric funnel plot (effect size on x-axis, precision/sample size or 1/SE on y-axis). Failsafe N (Rosenthal & Cooper) estimates how many null-effect 'file drawer' studies would be needed to nullify an observed effect. The trim-and-fill procedure (Duval & Tweedie, 2000) imputes missing studies and recomputes the effect as a sensitivity check. Cumulative meta-analysis (adding studies from largest/most precise to smallest) shows whether the pooled estimate shifts as smaller studies are added — a shift signals bias.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "Publication bias = studies with significant/'positive' results are more likely submitted/published; small non-significant studies are especially likely to stay unpublished, producing an asymmetric funnel plot (effect size on x-axis, precision/sample size or 1/**SE** on y-axis). Failsafe N (Rosenthal & Cooper) estimates how many null-effect 'file drawer' studies would be needed to nullify an observed effect. The trim-and-fill procedure (Duval & Tweedie, 2000) imputes missing studies and recomputes the effect as a sensitivity check. Cumulative meta-analysis (adding studies from largest/most precise to smallest) shows whether the pooled estimate shifts as smaller studies are added — a shift signals bias.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         },
         {
-          "text": "Effect size measures: for dichotomous outcomes, OR/RR are preferred (less dependent on baseline risk than absolute risk); OR overestimates RR increasingly as event rates rise above ~20%, so RR is preferred in Cochrane reviews when events are common. For continuous outcomes: simple mean difference (DM) or standardised mean difference (SMD = DM / pooled SD), calculated as Cohen's d or Hedges' g (the latter corrects Cohen's d's small-sample bias).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "Effect size measures: for dichotomous outcomes, **OR**/**RR** are preferred (less dependent on baseline risk than absolute risk); **OR** overestimates **RR** increasingly as event rates rise above ~20%, so **RR** is preferred in Cochrane reviews when events are common. For continuous outcomes: simple mean difference (**DM**) or standardised mean difference (**SMD** = **DM** / pooled **SD**), calculated as Cohen's d or Hedges' g (the latter corrects Cohen's d's small-sample bias).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         },
         {
-          "text": "Statistical model/measure pairing: fixed effects → Mantel-Haenszel (OR, rate/risk ratios) or Peto (approximates OR); random effects → DerSimonian-Laird (ratios and rate differences). Neither Mantel-Haenszel nor Peto methods adjust for confounding.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "Statistical model/measure pairing: fixed effects → Mantel-Haenszel (**OR**, rate/risk ratios) or Peto (approximates **OR**); random effects → DerSimonian-Laird (ratios and rate differences). Neither Mantel-Haenszel nor Peto methods adjust for confounding.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         },
         {
-          "text": "Forest plot ('blobbogram') elements: each study is a blob/square (point estimate) sized by weight, with a horizontal line for its 95% CI; the pooled result is a diamond lozenge with minimal width (highest precision); a vertical 'line of no effect' sits at 1 for ratio measures (OR/RR) or 0 for mean-difference/SMD measures; a study whose CI line crosses the line of no effect is not statistically significant even if heavily weighted.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "Forest plot ('blobbogram') elements: each study is a blob/square (point estimate) sized by weight, with a horizontal line for its 95% **CI**; the pooled result is a diamond lozenge with minimal width (highest precision); a vertical 'line of no effect' sits at 1 for ratio measures (**OR**/**RR**) or 0 for mean-difference/**SMD** measures; a study whose **CI** line crosses the line of no effect is not statistically significant even if heavily weighted.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         }
       ]
     },
@@ -219,28 +342,46 @@
       "heading": "Health Economics — Study Types & Cost/Benefit Concepts",
       "bullets": [
         {
-          "text": "Five economic study types: cost-minimisation (same outcome assumed — compare cost only); cost-effectiveness (outcome measured on the same clinical scale, e.g. £ per point improved); cost-utility (outcome expressed in life-utility units, e.g. QALY/DALY, incorporating disease burden and QOL); cost-benefit (all outcomes converted to monetary terms, single net value — used by managers); cost-consequence (a 'disaggregated' balance-sheet approach — outcomes kept in natural units like days saved/deaths prevented/QALYs rather than forced into one common unit; unlike cost-benefit, intangible costs can be included).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 35 }
+          "text": "Five economic study types: cost-minimisation (same outcome assumed — compare cost only); cost-effectiveness (outcome measured on the same clinical scale, e.g. £ per point improved); cost-utility (outcome expressed in life-utility units, e.g. **QALY**/**DALY**, incorporating disease burden and **QOL**); cost-benefit (all outcomes converted to monetary terms, single net value — used by managers); cost-consequence (a 'disaggregated' balance-sheet approach — outcomes kept in natural units like days saved/deaths prevented/QALYs rather than forced into one common unit; unlike cost-benefit, intangible costs can be included).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         },
         {
           "text": "Cost types: direct (hospital space, drugs, staff salary), indirect (lost productivity, carer costs), intangible (pain, stigma — not measurable), opportunity cost (value of the next-best foregone alternative). Benefit types: economic (savings from prevented illness/admission), clinical (scale-score improvement, life-years gained), quality-of-life, and health-state preference values (elicited via rating/visual-analogue scale, time trade-off, standard gamble, or willingness-to-pay).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 44 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 44
+          }
         },
         {
           "text": "Standard gamble asks how much risk of death a respondent would accept for a chance of cure; willingness-to-pay asks how much a respondent would spend to prevent/cure a health state.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 44 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 44
+          }
         },
         {
-          "text": "Quality indicators for appraising an economic analysis: viewpoint (government/payer/patient/WHO perspectives can give different conclusions from the same data); clinical effectiveness (comparing costs of two ineffective interventions is pointless); incremental values — the ICER (see below) must be computed rather than simply dividing total cost by total responders, or the true marginal cost-per-extra-recovery is misrepresented; sensitivity analysis of the assumptions used (inflation, discount rate — conventionally 6%/year).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 45 }
+          "text": "Quality indicators for appraising an economic analysis: viewpoint (government/payer/patient/**WHO** perspectives can give different conclusions from the same data); clinical effectiveness (comparing costs of two ineffective interventions is pointless); incremental values — the **ICER** (see below) must be computed rather than simply dividing total cost by total responders, or the true marginal cost-per-extra-recovery is misrepresented; sensitivity analysis of the assumptions used (inflation, discount rate — conventionally 6%/year).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
         },
         {
-          "text": "Worked incremental-cost example: CBT (£1000/course, 5/10 recover) vs. GET (£900/course, 4/10 recover). Naive per-patient cost is £2000 (CBT) vs £2250 (GET) — a wrong '£250 saved per extra recovery' conclusion. Correct incremental calculation: (£10,000−£9,000)/(5−4) = £1,000 extra spent per additional recovery via CBT.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 45 }
+          "text": "Worked incremental-cost example: **CBT** (£1000/course, 5/10 recover) vs. **GET** (£900/course, 4/10 recover). Naive per-patient cost is £2000 (**CBT**) vs £2250 (**GET**) — a wrong '£250 saved per extra recovery' conclusion. Correct incremental calculation: (£10,000−£9,000)/(5−4) = £1,000 extra spent per additional recovery via **CBT**.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
         },
         {
-          "text": "Economic sensitivity-analysis methods: one-way (vary one variable — can underestimate uncertainty); extreme scenario (max/min a variable — overestimates uncertainty); two-way (vary two variables together — becomes unwieldy beyond two, hence Monte Carlo simulation for more); Monte Carlo simulation (each utility assigned a probability distribution); bootstrapping (resample the observed dataset to simulate repeating the underlying RCT).",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 45 }
+          "text": "Economic sensitivity-analysis methods: one-way (vary one variable — can underestimate uncertainty); extreme scenario (max/min a variable — overestimates uncertainty); two-way (vary two variables together — becomes unwieldy beyond two, hence Monte Carlo simulation for more); Monte Carlo simulation (each utility assigned a probability distribution); bootstrapping (resample the observed dataset to simulate repeating the underlying **RCT**).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
         }
       ]
     },
@@ -248,16 +389,25 @@
       "heading": "Health Economics — ICER, Cost-Effectiveness Plane & CEAC",
       "bullets": [
         {
-          "text": "ICER (incremental cost-effectiveness ratio) = (cost of proposed − cost of control) / (effect of proposed − effect of control); ACER (average cost-effectiveness ratio) = cost/effect for a single intervention. On the cost-effectiveness plane (incremental cost on vertical axis, incremental effect on horizontal axis): Northwest quadrant = positive cost, negative effect → reject; Northeast = positive cost AND positive effect → needs further judgement against the willingness-to-pay ceiling (λ); Southwest = negative cost, negative effect → not clinically effective, needs further study; Southeast = negative cost, positive effect → intervention dominates, clearly preferred.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 45 }
+          "text": "**ICER** (incremental cost-effectiveness ratio) = (cost of proposed − cost of control) / (effect of proposed − effect of control); **ACER** (average cost-effectiveness ratio) = cost/effect for a single intervention. On the cost-effectiveness plane (incremental cost on vertical axis, incremental effect on horizontal axis): Northwest quadrant = positive cost, negative effect → reject; Northeast = positive cost **AND** positive effect → needs further judgement against the willingness-to-pay ceiling (λ); Southwest = negative cost, negative effect → not clinically effective, needs further study; Southeast = negative cost, positive effect → intervention dominates, clearly preferred.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
         },
         {
-          "text": "An intervention is deemed cost-effective if its ICER falls below the decision-maker's maximum acceptable ceiling ratio λ (e.g. below £25,000 per life-year gained). The Cost-Effectiveness Acceptability Curve (CEAC) expresses, as a probability, how confident a decision-maker can be that an intervention is cost-effective across a range of λ values — summarising uncertainty in the cost-effectiveness estimate.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 46 }
+          "text": "An intervention is deemed cost-effective if its **ICER** falls below the decision-maker's maximum acceptable ceiling ratio λ (e.g. below £25,000 per life-year gained). The Cost-Effectiveness Acceptability Curve (**CEAC**) expresses, as a probability, how confident a decision-maker can be that an intervention is cost-effective across a range of λ values — summarising uncertainty in the cost-effectiveness estimate.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 46
+          }
         },
         {
           "text": "Nixon's permutation matrix pools multiple economic evaluations without a formal meta-analysis: incremental effectiveness (positive/neutral/negative) is crossed against incremental cost (higher/same/lower) in a matrix, from which a summary decision (accept/reject/no obvious decision) can be read off for each combination.",
-          "source": { "file": "books/15-1-statistics.pdf", "page": 46 }
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 46
+          }
         }
       ]
     },
@@ -266,19 +416,31 @@
       "bullets": [
         {
           "text": "Qualitative data: nominal (named categories, no order — e.g. sex; binary if only 2 categories) and ordinal (ordered categories, but intervals between categories are not necessarily equal — e.g. mild/moderate/severe). Quantitative data: discrete (integer counts, e.g. number of fingers) and continuous (any value in a range, e.g. cholesterol level) — though in practice measuring-instrument limits mean most continuous data behave like discrete data.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Interval data has a meaningful difference between values but no true zero (e.g. temperature in °C — 20°C is not 'twice as hot' as 10°C). Ratio data adds a true, meaningful zero point, so ratios are meaningful (e.g. height, weight). In practice the interval-vs-ratio distinction is rarely important in social/medical research since most rating scales have a meaningful zero.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Independent variable = presumed cause/predictor, controlled by the experimenter (more than one can exist per study); dependent variable = the outcome, presumed to depend on the independent variable. A mediator variable (C) explains part or all of A's effect on B statistically (via regression); a complete mediator means A cannot cause B without C, a partial mediator only reduces (not eliminates) A's effect on B when absent. By definition a mediator cannot cause the outcome B directly on its own.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "SPMM rule of thumb: nominal and ordinal data are analysed with non-parametric tests; most measured (interval/ratio) variables are analysed with parametric tests. Nominal data permits only frequency/mode; ordinal adds median; interval/ratio also permit mean and ratio-based measures (e.g. relative risk).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "text": "**SPMM** rule of thumb: nominal and ordinal data are analysed with non-parametric tests; most measured (interval/ratio) variables are analysed with parametric tests. Nominal data permits only frequency/mode; ordinal adds median; interval/ratio also permit mean and ratio-based measures (e.g. relative risk).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         }
       ]
     },
@@ -287,23 +449,38 @@
       "bullets": [
         {
           "text": "Mean = arithmetic average, uses all data, most sensitive to outliers/skew; larger samples give a mean closer to the true population value. Geometric mean (antilog of the mean of log-transformed values) is closer to the median than the raw arithmetic mean when the underlying log-transformed data are symmetrical. Weighted mean multiplies individual values by attached weights before averaging.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Median = the 50th percentile, divides distribution into two equal halves; less influenced by extreme scores than mean but ignores most available information; suitable for nominal data treated as ordered values. Mode = most frequent value; crude, ignores most information, can be bimodal/multimodal; most stable of the three measures against outliers.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "In a symmetric (normal) distribution mean = median = mode. In positive (right) skew, mean > median > mode (mean is pulled toward the longer tail, mode stays on the shorter side). In negative (left) skew, mean < median < mode.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "Range = max − min (very sensitive to outliers). Interquartile range = 75th percentile − 25th percentile (middle 50% of data). Variance = sum of squared deviations from the mean / (n−1); expressed in squared units. SD = √variance, same units as original data — the most commonly used dispersion measure. Coefficient of variation = SD/mean (×100%) — allows comparison of relative spread between two differently-scaled variables (e.g. comparing variability of referral counts vs. revenue). Standard error of the mean (SEM) = SD/√n — describes the precision of the sample mean as an estimate of the population mean, and is always smaller than the SD; SD describes spread of individual data points, SEM describes the precision of the mean estimate itself.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "text": "Range = max − min (very sensitive to outliers). Interquartile range = 75th percentile − 25th percentile (middle 50% of data). Variance = sum of squared deviations from the mean / (n−1); expressed in squared units. **SD** = √variance, same units as original data — the most commonly used dispersion measure. Coefficient of variation = **SD**/mean (×100%) — allows comparison of relative spread between two differently-scaled variables (e.g. comparing variability of referral counts vs. revenue). Standard error of the mean (**SEM**) = **SD**/√n — describes the precision of the sample mean as an estimate of the population mean, and is always smaller than the **SD**; **SD** describes spread of individual data points, **SEM** describes the precision of the mean estimate itself.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Graph choices: bar/pie chart for categorical or discrete data; histogram (no gaps between bars) for continuous data; dot plot (single axis) or scatter diagram (two continuous variables, two axes); stem-and-leaf plot (digit-based, shows raw distribution); box-whisker plot (rectangle spans 1st–3rd quartile with median line inside; whiskers show min/max or a chosen percentile range; outliers plotted separately; box width itself carries no meaning).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 1 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
         }
       ]
     },
@@ -311,16 +488,25 @@
       "heading": "Normal Distribution, Standard Error & Central Limit Theorem",
       "bullets": [
         {
-          "text": "Normal distribution properties: bell-shaped and symmetric about the mean (skew = 0); mean = median = mode; kurtosis = 0 (leptokurtic = sharply peaked, high kurtosis; platykurtic/flat = low kurtosis); tails approach but never touch the x-axis. Two parameters fully specify it: mean (μ, location of peak) and SD (σ, spread — higher SD flattens the peak). Standard Normal Distribution has mean 0 and SD 1; a value converted to this scale is the standard normal deviate/z-score: z = (x − mean)/SD.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "text": "Normal distribution properties: bell-shaped and symmetric about the mean (skew = 0); mean = median = mode; kurtosis = 0 (leptokurtic = sharply peaked, high kurtosis; platykurtic/flat = low kurtosis); tails approach but never touch the x-axis. Two parameters fully specify it: mean (μ, location of peak) and **SD** (σ, spread — higher **SD** flattens the peak). Standard Normal Distribution has mean 0 and **SD** 1; a value converted to this scale is the standard normal deviate/z-score: z = (x − mean)/**SD**.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         },
         {
-          "text": "Importance of the normal distribution: (1) many statistical tests assume it; (2) mean and SD are independent of each other in a normal population — 68% of data lie within ±1 SD, 95% within ±2 SD, 99% within ±3 SD, irrespective of the mean's value; (3) many natural/biological measures approximate it in large samples; (4) the Central Limit Theorem: for a sufficiently large sample (rule of thumb: n≥30 for most purposes), the distribution of sample MEANS drawn from any population — even a non-normal one — approaches normal.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "text": "Importance of the normal distribution: (1) many statistical tests assume it; (2) mean and **SD** are independent of each other in a normal population — 68% of data lie within ±1 **SD**, 95% within ±2 **SD**, 99% within ±3 **SD**, irrespective of the mean's value; (3) many natural/biological measures approximate it in large samples; (4) the Central Limit Theorem: for a sufficiently large sample (rule of thumb: n≥30 for most purposes), the distribution of sample **MEANS** drawn from any population — even a non-normal one — approaches normal.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         },
         {
-          "text": "SEM (standard error of the mean) is the SD of the distribution of sample means drawn repeatedly from a population; it enables calculation of confidence intervals. Larger sample size → smaller SEM → the observed sample mean is closer to the true population mean, regardless of the underlying population's own variability.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "text": "**SEM** (standard error of the mean) is the **SD** of the distribution of sample means drawn repeatedly from a population; it enables calculation of confidence intervals. Larger sample size → smaller **SEM** → the observed sample mean is closer to the true population mean, regardless of the underlying population's own variability.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         }
       ]
     },
@@ -329,15 +515,24 @@
       "bullets": [
         {
           "text": "Probability = frequency of an event / total number of trials; ranges strictly 0 to 1 (or 0–100%). If p=0 the event cannot occur; if p=1 it must occur; probability of the complementary event (not occurring) = 1−p.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         },
         {
-          "text": "Odds = frequency of an event occurring / frequency of it NOT occurring (a ratio of two mutually exclusive counts, not of an event to the total). Odds and probability interconvert: P = O/(1+O); O = P/(1−P).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "text": "Odds = frequency of an event occurring / frequency of it **NOT** occurring (a ratio of two mutually exclusive counts, not of an event to the total). Odds and probability interconvert: P = O/(1+O); O = P/(1−P).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         },
         {
-          "text": "Addition rule (mutually exclusive events): P(X or Y) = P(X) + P(Y) — e.g. heads or tails on one coin toss, or ABO blood groups. Multiplication rule (independent events): P(X and Y) = P(X) × P(Y) — e.g. P(male with blood group A) = P(male) × P(group A). For non-mutually-exclusive events, P(X or Y) = P(X) + P(Y) − P(X and Y), subtracting the double-counted overlap.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "text": "Addition rule (mutually exclusive events): P(X or Y) = P(X) + P(Y) — e.g. heads or tails on one coin toss, or **ABO** blood groups. Multiplication rule (independent events): P(X and Y) = P(X) × P(Y) — e.g. P(male with blood group A) = P(male) × P(group A). For non-mutually-exclusive events, P(X or Y) = P(X) + P(Y) − P(X and Y), subtracting the double-counted overlap.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         }
       ]
     },
@@ -346,19 +541,31 @@
       "bullets": [
         {
           "text": "Target population = the group results should generalise to; source population/sampling frame = the accessible list from which the sample is drawn; eligible population = source population after inclusion/exclusion criteria; study entrants = those who consent/enter; study participants/completers = those who finish. Sampling error = the (measurable) difference between a sample estimate and the true population value, reduced by better sampling technique and larger sample size — distinct from bias/systematic error.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         },
         {
-          "text": "Random sampling methods (every unit has a known, non-zero selection chance): simple random (numbered list + random draw); stratified random (population divided into strata, then random sample from each — ensures small subgroups are adequately represented; proportionate uses the same sampling fraction per stratum, disproportionate deliberately over-samples a small stratum); cluster random (whole pre-existing groups, e.g. GP practices, randomly selected and ALL members included — cheaper fieldwork but can reduce study power); multi-stage (clusters selected randomly, THEN individuals randomly sub-sampled within each selected cluster — two stages of randomness, unlike cluster sampling where everyone in the chosen cluster is included).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "text": "Random sampling methods (every unit has a known, non-zero selection chance): simple random (numbered list + random draw); stratified random (population divided into strata, then random sample from each — ensures small subgroups are adequately represented; proportionate uses the same sampling fraction per stratum, disproportionate deliberately over-samples a small stratum); cluster random (whole pre-existing groups, e.g. **GP** practices, randomly selected and **ALL** members included — cheaper fieldwork but can reduce study power); multi-stage (clusters selected randomly, **THEN** individuals randomly sub-sampled within each selected cluster — two stages of randomness, unlike cluster sampling where everyone in the chosen cluster is included).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         },
         {
           "text": "Non-random ('non-probability') sampling — weaker generalisability, unknown selection probability: quota sampling (stratify, then non-randomly pick a set number per stratum, e.g. first 10); convenience sampling (whoever is accessible, e.g. first patients on a list); volunteer sampling (self-selected, may differ systematically from non-volunteers); snowball sampling (used for hard-to-reach groups — one participant recruits the next); consecutive sampling (all presenting patients in sequence — a form of convenience sampling); purposive sampling (deliberately selected to meet qualitative research objectives — includes extreme-case, critical-case, and theoretical sampling); systematic/interval sampling (every nth item from a list — arguably not truly random since selection probability is influenced by list order).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         },
         {
           "text": "Sampling with replacement returns each selected unit to the pool before the next draw (can be picked more than once); sampling without replacement removes it (can be picked only once).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 10 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
         }
       ]
     },
@@ -366,20 +573,32 @@
       "heading": "Hypothesis Testing — Errors, Power & Multiple Testing",
       "bullets": [
         {
-          "text": "Science uses falsifiability (Popper), not verification: the null hypothesis (H0) states no difference/effect exists and is what statistical tests try to reject; the alternative hypothesis (H1) is accepted if H0 is correctly rejected, and usually mirrors the research hypothesis. One-tailed H1 specifies direction (A>B only); two-tailed specifies only that a difference exists (A≠B, either direction) — two-tailed testing halves the significance level for a given data difference, making it more rigorous and generally preferred in clinical trials, though a one-tailed test is more powerful (needs a smaller sample) when direction can be justified in advance.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "Science uses falsifiability (Popper), not verification: the null hypothesis (**H0**) states no difference/effect exists and is what statistical tests try to reject; the alternative hypothesis (**H1**) is accepted if **H0** is correctly rejected, and usually mirrors the research hypothesis. One-tailed **H1** specifies direction (A>B only); two-tailed specifies only that a difference exists (A≠B, either direction) — two-tailed testing halves the significance level for a given data difference, making it more rigorous and generally preferred in clinical trials, though a one-tailed test is more powerful (needs a smaller sample) when direction can be justified in advance.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "Type 1 error (α) = incorrectly rejecting a true H0 (false positive); conventionally capped at 0.05 = the significance level (p). Type 2 error (β) = incorrectly accepting a false H0 (false negative), mostly from small sample size or large variance; conventionally set at 0.2. Power = 1−β = ability to detect a true difference; conventional target 80%. Lowering type 1 error generally raises type 2 error and vice versa.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "Type 1 error (α) = incorrectly rejecting a true **H0** (false positive); conventionally capped at 0.05 = the significance level (p). Type 2 error (β) = incorrectly accepting a false **H0** (false negative), mostly from small sample size or large variance; conventionally set at 0.2. Power = 1−β = ability to detect a true difference; conventional target 80%. Lowering type 1 error generally raises type 2 error and vice versa.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "'Power calculation' is really a sample-size calculation from chosen values of α (~0.05), power (~80%), the clinically relevant effect size, and an estimated variance (from a pilot or the literature). The standardised difference = (target mean difference)/SD; Altman's nomogram uses this plus power to read off required sample size. Ways to increase power: larger significance level (raises type 1 error risk); larger sample size; larger effect size threshold; reduce variability (precise measurement, matching); use a one-sided test if justified; use the most powerful test the data's assumptions allow.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "'Power calculation' is really a sample-size calculation from chosen values of α (~0.05), power (~80%), the clinically relevant effect size, and an estimated variance (from a pilot or the literature). The standardised difference = (target mean difference)/**SD**; Altman's nomogram uses this plus power to read off required sample size. Ways to increase power: larger significance level (raises type 1 error risk); larger sample size; larger effect size threshold; reduce variability (precise measurement, matching); use a one-sided test if justified; use the most powerful test the data's assumptions allow.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "Multiple testing inflates type 1 error — with p=0.05, testing 20 independent hypotheses on the same data yields ~1 false positive by chance alone (repeated subgroup/secondary analyses are especially at risk). Bonferroni correction: new significance level = (usual α)/(number of tests) — rigorous, prone to false negatives (over-correction), and treats every outcome as independent even when outcomes are correlated. Alternatives: family-wise error methods (Scheffé, Tukey's HSD, Dunnett) or false discovery rate (FDR — controls the expected PROPORTION of false positives rather than the chance of any false positive at all).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "Multiple testing inflates type 1 error — with p=0.05, testing 20 independent hypotheses on the same data yields ~1 false positive by chance alone (repeated subgroup/secondary analyses are especially at risk). Bonferroni correction: new significance level = (usual α)/(number of tests) — rigorous, prone to false negatives (over-correction), and treats every outcome as independent even when outcomes are correlated. Alternatives: family-wise error methods (Scheffé, Tukey's **HSD**, Dunnett) or false discovery rate (**FDR** — controls the expected **PROPORTION** of false positives rather than the chance of any false positive at all).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         }
       ]
     },
@@ -387,16 +606,25 @@
       "heading": "Confidence Intervals & Effect Size",
       "bullets": [
         {
-          "text": "A 95% CI is the range within which we are 95% confident the TRUE population value lies (NOT that 95% of the population falls in that range, and not that the sample mean would be reproduced 95% of the time). Width depends on SE (variability/sample size): wider = less precise. Raising the confidence level (e.g. 95%→99%) widens the interval for the same data; conversely, smaller confidence level, larger sample size, or reduced SD (e.g. via stratification) narrow it.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "A 95% **CI** is the range within which we are 95% confident the **TRUE** population value lies (**NOT** that 95% of the population falls in that range, and not that the sample mean would be reproduced 95% of the time). Width depends on **SE** (variability/sample size): wider = less precise. Raising the confidence level (e.g. 95%→99%) widens the interval for the same data; conversely, smaller confidence level, larger sample size, or reduced **SD** (e.g. via stratification) narrow it.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "Value of 'no difference' for a CI: 0 for mean differences and absolute/relative risk reduction; 1 for ratio measures (OR, RR); infinity for inverse-ratio measures (NNT). If the CI of an estimate crosses this value, the result is not statistically significant. CIs inform: degree of confidence, precision, clinical significance (magnitude), and statistical significance all at once.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "Value of 'no difference' for a **CI**: 0 for mean differences and absolute/relative risk reduction; 1 for ratio measures (**OR**, **RR**); infinity for inverse-ratio measures (**NNT**). If the **CI** of an estimate crosses this value, the result is not statistically significant. CIs inform: degree of confidence, precision, clinical significance (magnitude), and statistical significance all at once.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "Effect size (ES) is the standardised difference in outcomes between groups, independent of sample size (unlike p-values) — the 'common currency' that lets meta-analyses combine studies using different outcome scales. Cohen's d = (M1−M2)/SD; arbitrary bands: small d=0.2, medium d=0.5, large d=0.8. An ES of 1 means the average experimental-group subject exceeds ~84% of the control group (the Common Language Effect Size, CLES, expresses this directly as a probability that a random experimental score exceeds a random control score).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "Effect size (**ES**) is the standardised difference in outcomes between groups, independent of sample size (unlike p-values) — the 'common currency' that lets meta-analyses combine studies using different outcome scales. Cohen's d = (**M1**−**M2**)/**SD**; arbitrary bands: small d=0.2, medium d=0.5, large d=0.8. An **ES** of 1 means the average experimental-group subject exceeds ~84% of the control group (the Common Language Effect Size, **CLES**, expresses this directly as a probability that a random experimental score exceeds a random control score).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         }
       ]
     },
@@ -404,20 +632,32 @@
       "heading": "Reliability, Validity & Kappa Statistics",
       "bullets": [
         {
-          "text": "Reliability = consistency/replicability of a measure (high reliability does NOT guarantee validity). Types: test-retest (same instrument, same people, 2–14 days apart in psychiatry — long enough to avoid practice effects, short enough that the underlying state hasn't changed); Cronbach's alpha (internal consistency — item-total correlations averaged; range −∞ to 1, conventional cut-off ≥0.70 for internal consistency); split-half reliability (correlate two halves of a scale); inter-rater reliability (agreement between ≥2 raters); intraclass correlation coefficient/ICC (continuous variables; 0=unreliable to 1=perfect; relative ICC is always ≥ absolute ICC; arbitrary bands 0.6=fair, 0.8=very good, 0.9=excellent).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "Reliability = consistency/replicability of a measure (high reliability does **NOT** guarantee validity). Types: test-retest (same instrument, same people, 2–14 days apart in psychiatry — long enough to avoid practice effects, short enough that the underlying state hasn't changed); Cronbach's alpha (internal consistency — item-total correlations averaged; range −∞ to 1, conventional cut-off ≥0.70 for internal consistency); split-half reliability (correlate two halves of a scale); inter-rater reliability (agreement between ≥2 raters); intraclass correlation coefficient/**ICC** (continuous variables; 0=unreliable to 1=perfect; relative **ICC** is always ≥ absolute **ICC**; arbitrary bands 0.6=fair, 0.8=very good, 0.9=excellent).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "Validity = extent an instrument measures what it claims to. Face validity (subjective, on-its-face plausibility); content validity (expert judgement of domain coverage — not usually statistically testable); criterion validity — concurrent (agrees with another current instrument) and predictive (predicts a future outcome; a related concept, incremental validity, is the ability to explain variance ABOVE other existing measures); convergent validity (agrees with a DIFFERENT test of the SAME construct); discriminant validity (disagrees with a test of a DIFFERENT construct); experimental/sensitivity-to-change validity (detects change after an intervention); factorial validity (construct validity established via factor analysis).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "text": "Validity = extent an instrument measures what it claims to. Face validity (subjective, on-its-face plausibility); content validity (expert judgement of domain coverage — not usually statistically testable); criterion validity — concurrent (agrees with another current instrument) and predictive (predicts a future outcome; a related concept, incremental validity, is the ability to explain variance **ABOVE** other existing measures); convergent validity (agrees with a **DIFFERENT** test of the **SAME** construct); discriminant validity (disagrees with a test of a **DIFFERENT** construct); experimental/sensitivity-to-change validity (detects change after an intervention); factorial validity (construct validity established via factor analysis).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
           "text": "Precision (repeatability of a central value — comparable to reliability) vs. accuracy (closeness to true population value — comparable to validity); bias compromises accuracy/validity. Wider intervals and higher confidence levels both reduce precision.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
           "text": "Simple percent agreement overestimates true agreement because it ignores chance. Kappa = (observed agreement − chance-expected agreement) / (100% − chance-expected agreement); interpretation bands (arbitrary): 0=none, 0–0.2=slight, 0.2–0.4=fair, 0.4–0.6=moderate, 0.6–0.8=substantial, 0.8–1.0=almost perfect. Kappa is used for nominal (categorical) agreement, weighted kappa for ordinal data, and Bland-Altman plots for continuous measures. Kappa is prevalence-dependent (very rare or very common conditions distort it — e.g. good kappa is easy for rare Capgras syndrome even with a few notable disagreements, but hard for common conditions like depression), and statistical significance cannot be tested directly from a kappa value — so raw percent agreement should still be inspected alongside kappa. Phi is an alternative measure allowing direct significance testing and small samples, but is less widely used than kappa.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         }
       ]
     },
@@ -426,39 +666,66 @@
       "bullets": [
         {
           "text": "First question: are we comparing groups on a point estimate (mean/median/proportion) — Category 1 — or testing an association/relationship — Category 2 (causal-association studies fall under Category 2)? For Category 1, then ask: (a) mean or proportion; (b) how many groups; (c) paired or unpaired/independent observations; (d) can we assume a parametric (normal) distribution?",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 17 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
         },
         {
-          "text": "MEANS (parametric): one sample → one-sample t-test; two unpaired → (unpaired) two-sample t-test; two paired → paired t-test; >2 unpaired → one-way ANOVA; >2 paired → repeated-measures ANOVA/MANOVA. MEDIANS (non-parametric): one sample → sign test; two unpaired → Mann-Whitney U; two paired → Wilcoxon rank-sum; >2 unpaired → Kruskal-Wallis; >2 paired → Friedman test. PROPORTIONS (categorical): two unpaired → chi-square; two paired → McNemar's test; >2 → log-linear analysis or logistic regression.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 32 }
+          "text": "**MEANS** (parametric): one sample → one-sample t-test; two unpaired → (unpaired) two-sample t-test; two paired → paired t-test; >2 unpaired → one-way **ANOVA**; >2 paired → repeated-measures **ANOVA**/**MANOVA**. **MEDIANS** (non-parametric): one sample → sign test; two unpaired → Mann-Whitney U; two paired → Wilcoxon rank-sum; >2 unpaired → Kruskal-Wallis; >2 paired → Friedman test. **PROPORTIONS** (categorical): two unpaired → chi-square; two paired → McNemar's test; >2 → log-linear analysis or logistic regression.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 32
+          }
         },
         {
-          "text": "Parametric tests require: independent observations, normally distributed populations, and equal variances between populations. Assume biological variables are normally distributed unless the question states otherwise. Non-parametric tests are used when both variables are qualitative, OR when quantitative variables are not normally distributed; they compare RANKS (not just medians), so two groups can share the same mean/median yet differ on a non-parametric test.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 32 }
+          "text": "Parametric tests require: independent observations, normally distributed populations, and equal variances between populations. Assume biological variables are normally distributed unless the question states otherwise. Non-parametric tests are used when both variables are qualitative, **OR** when quantitative variables are not normally distributed; they compare **RANKS** (not just medians), so two groups can share the same mean/median yet differ on a non-parametric test.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 32
+          }
         },
         {
           "text": "Data transformation lets skewed data be analysed parametrically: log transformation (best for positive/right skew, yields a lognormal curve, can also linearise a nonlinear correlation); square-root transformation (normalises and linearises, stabilises variance, used for Poisson-distributed counts); reciprocal transformation (survival rates); logit transformation (linearises a sigmoid curve, used for proportions). CIs and geometric means can be harder to interpret after transformation.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 32 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 32
+          }
         },
         {
           "text": "Chi-square (χ²) tests frequency counts/proportions via a contingency table (observed vs. expected frequencies) — must be applied to raw counts, never to percentages. Fisher's exact test replaces chi-square when >20% of expected cell frequencies are <5 (Cochran's criteria). Yates' correction applies if total N<100 or any cell <10. McNemar's test = chi-square for paired data. Mantel-Haenszel test = chi-square variant testing 2 dichotomous variables' influence on one outcome. Log-linear analysis = chi-square variant using log cell-frequencies, for >2 groups/variables.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 32 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 32
+          }
         },
         {
-          "text": "Category 2 (testing association): decide (i) how many dependent variables (usually 1), (ii) how many independent variables, (iii) categorical or continuous. One DV/one IV, continuous+continuous → correlation (Pearson's parametric; Spearman's/Kendall's tau non-parametric) or simple linear/logistic regression. One DV/>1 IV → multiple linear regression/ANCOVA (continuous DV) or multiple logistic regression (categorical DV). ≥2 DVs/>1 IV → MANOVA (categorical) or MANCOVA/multivariate multiple regression (continuous).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 35 }
+          "text": "Category 2 (testing association): decide (i) how many dependent variables (usually 1), (ii) how many independent variables, (iii) categorical or continuous. One **DV**/one **IV**, continuous+continuous → correlation (Pearson's parametric; Spearman's/Kendall's tau non-parametric) or simple linear/logistic regression. One **DV**/>1 **IV** → multiple linear regression/**ANCOVA** (continuous **DV**) or multiple logistic regression (categorical **DV**). ≥2 DVs/>1 **IV** → **MANOVA** (categorical) or **MANCOVA**/multivariate multiple regression (continuous).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 35
+          }
         },
         {
           "text": "t-tests: one-sample t-test compares an observed sample mean to a known/hypothesised population mean. Two-sample (Student's) t-test compares two group means — unpaired for independent samples (one observation per subject), paired for repeated pre/post observations on the same subjects. The t-test assumes equal variance between groups (testable via Levene's test).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         },
         {
-          "text": "ANOVA compares means across >2 groups via the ratio of between-group to within-group variance (F statistic); one-way ANOVA = 1 IV across >2 groups, two-way ANOVA = 2 IVs, repeated-measures ANOVA = paired/multiple-occasion data on the same subjects. ANOVA only tells you SOME group differs, not which — post-hoc tests (e.g. multiple t-tests) are needed to locate the difference. Assumptions: normal distribution within groups, equal variance across groups, independent observations (except repeated-measures).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "text": "**ANOVA** compares means across >2 groups via the ratio of between-group to within-group variance (F statistic); one-way **ANOVA** = 1 **IV** across >2 groups, two-way **ANOVA** = 2 IVs, repeated-measures **ANOVA** = paired/multiple-occasion data on the same subjects. **ANOVA** only tells you **SOME** group differs, not which — post-hoc tests (e.g. multiple t-tests) are needed to locate the difference. Assumptions: normal distribution within groups, equal variance across groups, independent observations (except repeated-measures).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         },
         {
-          "text": "Degrees of freedom = the number of values 'free to vary' once other parameters are already estimated. Estimating an unknown population SD from a sample loses 1 df (uses n−1, since the sample mean is already estimated). df formulas: one-sample t = n−1; two-sample t = (n1+n2)−2; chi-square = (rows−1)×(columns−1) — a plain 2×2 table has 1 df once row/column totals are fixed; one-way ANOVA total df = N−1, between-groups df = (number of groups−1), within-groups df = N−(number of groups).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "text": "Degrees of freedom = the number of values 'free to vary' once other parameters are already estimated. Estimating an unknown population **SD** from a sample loses 1 df (uses n−1, since the sample mean is already estimated). df formulas: one-sample t = n−1; two-sample t = (n1+n2)−2; chi-square = (rows−1)×(columns−1) — a plain 2×2 table has 1 df once row/column totals are fixed; one-way **ANOVA** total df = N−1, between-groups df = (number of groups−1), within-groups df = N−(number of groups).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         }
       ]
     },
@@ -467,19 +734,31 @@
       "bullets": [
         {
           "text": "Correlation coefficient r ranges −1 to +1 (no units); +1 = perfect positive linear association, −1 = perfect negative, 0 = no linear association. Pearson's r is for parametric (continuous, normally distributed) data; Spearman's rho (non-parametric equivalent) is used if ≥1 variable is ordinal, sample size is small, non-linearity is suspected, or distribution is non-normal — but assumes ranks are equidistant; if not, Kendall's tau is more appropriate. Correlation does not imply causation, and is not valid if no linear relationship is suspected or if observations are not independent. Swapping which variable is 'A' vs 'B' does not change r's sign or magnitude. Fisher's transformation can compare two correlation coefficients statistically. Partial correlation adjusts a bivariate correlation for a third variable.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         },
         {
-          "text": "Regression predicts one variable's value from another (correlation alone cannot do this): y = a + bx (simple linear regression), where b = regression coefficient (slope) and a = y-intercept. Correlation is a PREREQUISITE for regression, but correlation alone is not sufficient to justify it — the dependent variable must be continuous and (for regression) normally distributed; the independent variable need not be. The line of best fit is found by the method of least squares (minimising the summed squared vertical residuals); statisticians prefer maximum likelihood estimation for more complex regression models.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "text": "Regression predicts one variable's value from another (correlation alone cannot do this): y = a + bx (simple linear regression), where b = regression coefficient (slope) and a = y-intercept. Correlation is a **PREREQUISITE** for regression, but correlation alone is not sufficient to justify it — the dependent variable must be continuous and (for regression) normally distributed; the independent variable need not be. The line of best fit is found by the method of least squares (minimising the summed squared vertical residuals); statisticians prefer maximum likelihood estimation for more complex regression models.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         },
         {
-          "text": "R² (coefficient of determination) = proportion of variance in the dependent variable explained by the independent variable(s); ranges 0–1; tests goodness of fit. In multiple regression, individual R² values will not sum to more than 1. If the dependent variable is binary, logistic regression is used instead of linear regression (giving OR/RR/hazard ratios for each predictor); log-linear analysis is similar but only accepts categorical data and has no fixed DV/IV demarcation.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "text": "R² (coefficient of determination) = proportion of variance in the dependent variable explained by the independent variable(s); ranges 0–1; tests goodness of fit. In multiple regression, individual R² values will not sum to more than 1. If the dependent variable is binary, logistic regression is used instead of linear regression (giving **OR**/**RR**/hazard ratios for each predictor); log-linear analysis is similar but only accepts categorical data and has no fixed **DV**/**IV** demarcation.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         },
         {
-          "text": "Multiple regression: y = a + b1x1 + b2x2 +…+ bnxn; independent variables are called covariates; two highly correlated IVs (collinearity) can distort the model. '1 in 10' rule of thumb: the number of variables entered should not exceed ~10% of the sample size (or, for logistic regression, ~10% of the number of EVENTS). Methods of building the model: stepwise (adds most-to-least significant variable — risk that statistically significant variables are not clinically meaningful); forward selection (retains a covariate if its addition changes another variable's regression coefficient, signalling confounding, regardless of its own significance); backward elimination (starts from the full model and removes covariates one by one).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "text": "Multiple regression: y = a + b1x1 + b2x2 +…+ bnxn; independent variables are called covariates; two highly correlated IVs (collinearity) can distort the model. '1 in 10' rule of thumb: the number of variables entered should not exceed ~10% of the sample size (or, for logistic regression, ~10% of the number of **EVENTS**). Methods of building the model: stepwise (adds most-to-least significant variable — risk that statistically significant variables are not clinically meaningful); forward selection (retains a covariate if its addition changes another variable's regression coefficient, signalling confounding, regardless of its own significance); backward elimination (starts from the full model and removes covariates one by one).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         }
       ]
     },
@@ -487,24 +766,39 @@
       "heading": "Multivariate Techniques & Factor Analysis",
       "bullets": [
         {
-          "text": "Multivariable analysis = one dependent, >1 independent variable; multivariate analysis = >1 dependent AND >1 independent variable (terms often used loosely/interchangeably). Continuous DV + continuous IVs → multiple regression; continuous DV + categorical IVs → ANOVA; continuous DV + mixed categorical/continuous IVs → ANCOVA; dichotomous categorical DV → logistic regression; DV with a time-to-event component (survival) → Cox proportional hazards model; nominal categorical DV (>2 outcomes) → log-linear analysis.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "text": "Multivariable analysis = one dependent, >1 independent variable; multivariate analysis = >1 dependent **AND** >1 independent variable (terms often used loosely/interchangeably). Continuous **DV** + continuous IVs → multiple regression; continuous **DV** + categorical IVs → **ANOVA**; continuous **DV** + mixed categorical/continuous IVs → **ANCOVA**; dichotomous categorical **DV** → logistic regression; **DV** with a time-to-event component (survival) → Cox proportional hazards model; nominal categorical **DV** (>2 outcomes) → log-linear analysis.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         },
         {
           "text": "Path analysis extends multiple regression to model 'chains of influence' among several dependent variables (e.g. A→B→C). Independent (X) variables are exogenous, dependent (Y) variables endogenous; a single-headed arrow = presumed causal path, a double-headed curved arrow = mere correlation. A recursive path model has unidirectional causal flow (no loops). Despite its older name 'causal modelling', path analysis cannot itself establish causality or prove a model correct — it can only show the data are consistent with the model.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 48 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
         },
         {
-          "text": "Cluster analysis groups variables into homogeneous clusters via a similarity matrix, producing a dendrogram. Canonical correlation explores the relationship between two SETS of variables (via eigenvalues), e.g. risk factors vs. first-rank symptoms. Discriminant function analysis identifies which of several variables best discriminates between ≥2 groups (computationally similar to MANOVA).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 37 }
+          "text": "Cluster analysis groups variables into homogeneous clusters via a similarity matrix, producing a dendrogram. Canonical correlation explores the relationship between two **SETS** of variables (via eigenvalues), e.g. risk factors vs. first-rank symptoms. Discriminant function analysis identifies which of several variables best discriminates between ≥2 groups (computationally similar to **MANOVA**).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
         },
         {
-          "text": "Factor analysis identifies latent, unobserved 'factors' summarising correlations among many observed variables. Exploratory factor analysis makes no prior assumption about factor structure (uses: data reduction for >25 variables; classifying symptoms into meaningful concepts). Confirmatory factor analysis tests whether a pre-specified factor structure holds in a NEW dataset — used to assess questionnaire/test construct validity.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 46 }
+          "text": "Factor analysis identifies latent, unobserved 'factors' summarising correlations among many observed variables. Exploratory factor analysis makes no prior assumption about factor structure (uses: data reduction for >25 variables; classifying symptoms into meaningful concepts). Confirmatory factor analysis tests whether a pre-specified factor structure holds in a **NEW** dataset — used to assess questionnaire/test construct validity.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 46
+          }
         },
         {
           "text": "Deciding how many factors to retain: include factors until a preset proportion of variance is explained; Kaiser rule (retain factors with eigenvalue >1); scree plot (retain factors up to the 'elbow' where the eigenvalue-vs-component-number curve levels off). A factor loading ≥0.40 (arbitrary but conventional) marks a variable as making a significant contribution to that factor.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 48 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
         }
       ]
     },
@@ -512,28 +806,46 @@
       "heading": "Stratification, Standardisation & EBM Framework",
       "bullets": [
         {
-          "text": "Stratification analyses a confounder's effect by splitting the sample into sub-tables/strata by confounder level, then pooling a single adjusted estimate (e.g. via the Mantel-Haenszel procedure) — useful only for KNOWN confounders. Standardisation (commonly for age) applies a hypothetical 'world standard population': direct standardisation applies study-sample stratum rates to the standard population; indirect standardisation applies standard-population rates to the study sample to get 'expected' rates, then compares these to 'observed' rates to derive a standardised ratio (e.g. Standardised Mortality Ratio, SMR = observed/expected).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 48 }
+          "text": "Stratification analyses a confounder's effect by splitting the sample into sub-tables/strata by confounder level, then pooling a single adjusted estimate (e.g. via the Mantel-Haenszel procedure) — useful only for **KNOWN** confounders. Standardisation (commonly for age) applies a hypothetical 'world standard population': direct standardisation applies study-sample stratum rates to the standard population; indirect standardisation applies standard-population rates to the study sample to get 'expected' rates, then compares these to 'observed' rates to derive a standardised ratio (e.g. Standardised Mortality Ratio, **SMR** = observed/expected).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
         },
         {
-          "text": "EBM rests on 2 principles: a hierarchy of evidence guides decisions, but evidence alone never suffices — clinicians must weigh benefits/risks against patient values. The EBM process: define the clinical question (PICO — Patient, Intervention/exposure, Comparison, Outcome) → search the literature → appraise validity and results → apply to patient care.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 48 }
+          "text": "**EBM** rests on 2 principles: a hierarchy of evidence guides decisions, but evidence alone never suffices — clinicians must weigh benefits/risks against patient values. The **EBM** process: define the clinical question (**PICO** — Patient, Intervention/exposure, Comparison, Outcome) → search the literature → appraise validity and results → apply to patient care.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
         },
         {
-          "text": "5 fundamental clinical question types (Guyatt): (1) therapy — effect of interventions on patient-important outcomes, typically via RCT/meta-analysis; (2) harm — effect of potentially harmful agents, also via RCT/meta-analysis; (3) diagnosis — a test's power to differentiate disease, via cross-sectional studies; (4) prognosis — predicting future course, via cohort studies; (5) causation — via case-control or cohort designs (though any design can contribute).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 52 }
+          "text": "5 fundamental clinical question types (Guyatt): (1) therapy — effect of interventions on patient-important outcomes, typically via **RCT**/meta-analysis; (2) harm — effect of potentially harmful agents, also via **RCT**/meta-analysis; (3) diagnosis — a test's power to differentiate disease, via cross-sectional studies; (4) prognosis — predicting future course, via cohort studies; (5) causation — via case-control or cohort designs (though any design can contribute).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 52
+          }
         },
         {
-          "text": "Key databases: MEDLINE (from 1966, via PubMed/Ovid, >10 million citations); EMBASE (Excerpta Medica + pharmacology/psychiatry sub-databases); CINAHL (nursing/allied health); PsycINFO (psychology, from 1887); Cochrane Library (systematic reviews, controlled trials register, methodology register); SIGLE (European grey literature). Even using multiple databases, only ~60–70% of the literature is typically covered by a search.",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 52 }
+          "text": "Key databases: **MEDLINE** (from 1966, via PubMed/Ovid, >10 million citations); **EMBASE** (Excerpta Medica + pharmacology/psychiatry sub-databases); **CINAHL** (nursing/allied health); PsycINFO (psychology, from 1887); Cochrane Library (systematic reviews, controlled trials register, methodology register); **SIGLE** (European grey literature). Even using multiple databases, only ~60–70% of the literature is typically covered by a search.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 52
+          }
         },
         {
           "text": "Types of reporting/retrieval bias when searching literature: publication bias (significant/large-sample results published more); time-lag bias (significant results published sooner); language bias (significant results go to English-language journals); database bias (significant studies more likely indexed); citation bias (citation likelihood tracks significance and trial size); duplicate publication bias; outcome reporting bias (selective reporting of some analyses, not others).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 52 }
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 52
+          }
         },
         {
-          "text": "Reporting-standard checklists: CONSORT (RCTs), QUOROM (older meta-analysis standard) superseded by PRISMA (2009, systematic reviews/meta-analyses), STROBE (22-item checklist for observational studies), MOOSE (meta-analyses of observational studies), ASSERT (ethical review of RCT proposals), STARD (diagnostic accuracy studies — distinct from the STAR*D antidepressant trial).",
-          "source": { "file": "books/15-2-statistics.pdf", "page": 52 }
+          "text": "Reporting-standard checklists: **CONSORT** (RCTs), **QUOROM** (older meta-analysis standard) superseded by **PRISMA** (2009, systematic reviews/meta-analyses), **STROBE** (22-item checklist for observational studies), **MOOSE** (meta-analyses of observational studies), **ASSERT** (ethical review of **RCT** proposals), **STARD** (diagnostic accuracy studies — distinct from the **STAR*D** antidepressant trial).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 52
+          }
         }
       ]
     },
@@ -541,24 +853,39 @@
       "heading": "Diagnostic Test Statistics — Sensitivity, Specificity, ROC & Likelihood Ratios",
       "bullets": [
         {
-          "text": "Standard 2×2 layout (A=true positive, B=false positive, C=false negative, D=true negative; test result in rows, gold-standard truth in columns): Sensitivity = A/(A+C) — proportion of TRULY DISEASED correctly identified. Specificity = D/(B+D) — proportion of TRULY NON-DISEASED correctly identified. Accuracy = (A+D)/(A+B+C+D). All three range 0–1 (max 100%).",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "Standard 2×2 layout (A=true positive, B=false positive, C=false negative, D=true negative; test result in rows, gold-standard truth in columns): Sensitivity = A/(A+C) — proportion of **TRULY** **DISEASED** correctly identified. Specificity = D/(B+D) — proportion of **TRULY** **NON-DISEASED** correctly identified. Accuracy = (A+D)/(A+B+C+D). All three range 0–1 (max 100%).",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "Cut-off choice trades sensitivity against specificity: a lower cut-off (e.g. for hyperprolactinaemia) diagnoses more people — high sensitivity, more false positives, low specificity; a higher cut-off diagnoses fewer — low sensitivity, high specificity, more false negatives. SnNout: a highly SeNsitive test, if Negative, helps rule OUT disease. SpPin: a highly SPecific test, if Positive, helps rule IN disease.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "Cut-off choice trades sensitivity against specificity: a lower cut-off (e.g. for hyperprolactinaemia) diagnoses more people — high sensitivity, more false positives, low specificity; a higher cut-off diagnoses fewer — low sensitivity, high specificity, more false negatives. SnNout: a highly SeNsitive test, if Negative, helps rule **OUT** disease. SpPin: a highly SPecific test, if Positive, helps rule **IN** disease.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "ROC curve plots sensitivity (y-axis) against 1−specificity (x-axis) across cut-offs; used to choose between two tests (curve closer to the top-left corner = better test) or choose an optimal cut-off (the 'knee'/elbow balances sensitivity and specificity). A curve near the 45° diagonal indicates a test no better than chance; area under the curve is the overall accuracy measure. ROC accuracy is limited by the quality of the gold standard used, often imperfect in psychiatry.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "**ROC** curve plots sensitivity (y-axis) against 1−specificity (x-axis) across cut-offs; used to choose between two tests (curve closer to the top-left corner = better test) or choose an optimal cut-off (the 'knee'/elbow balances sensitivity and specificity). A curve near the 45° diagonal indicates a test no better than chance; area under the curve is the overall accuracy measure. **ROC** accuracy is limited by the quality of the gold standard used, often imperfect in psychiatry.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "Sensitivity/specificity describe the TEST, not the patient in front of you — likelihood ratios combine both into a single clinically useful figure. LR+ = sensitivity/(1−specificity); LR− = (1−sensitivity)/specificity. LR>10 or <0.1 is considered conclusive enough to rule a diagnosis in/out. Pretest probability (= disease prevalence) must be converted to pretest ODDS before applying a likelihood ratio (you cannot multiply a probability directly by an LR): pretest odds = pretest probability/(1−pretest probability); post-test odds = LR × pretest odds; post-test probability = post-test odds/(1+post-test odds). Fagan's (Bayesian) nomogram gives a graphical shortcut for this same calculation.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "Sensitivity/specificity describe the **TEST**, not the patient in front of you — likelihood ratios combine both into a single clinically useful figure. **LR**+ = sensitivity/(1−specificity); **LR**− = (1−sensitivity)/specificity. **LR**>10 or <0.1 is considered conclusive enough to rule a diagnosis in/out. Pretest probability (= disease prevalence) must be converted to pretest **ODDS** before applying a likelihood ratio (you cannot multiply a probability directly by an **LR**): pretest odds = pretest probability/(1−pretest probability); post-test odds = **LR** × pretest odds; post-test probability = post-test odds/(1+post-test odds). Fagan's (Bayesian) nomogram gives a graphical shortcut for this same calculation.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "Positive predictive value (PPV) = A/(A+B) — chance of truly having disease if tested positive; rises with prevalence. Negative predictive value (NPV) = D/(C+D) — chance of truly not having disease if tested negative; falls as prevalence rises. PPV/NPV, unlike sensitivity/specificity, are directly useful for interpreting an individual patient's result because they incorporate prevalence.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "Positive predictive value (**PPV**) = A/(A+B) — chance of truly having disease if tested positive; rises with prevalence. Negative predictive value (**NPV**) = D/(C+D) — chance of truly not having disease if tested negative; falls as prevalence rises. **PPV**/**NPV**, unlike sensitivity/specificity, are directly useful for interpreting an individual patient's result because they incorporate prevalence.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         }
       ]
     },
@@ -566,28 +893,46 @@
       "heading": "Evaluating Causation, Prognosis & Therapy from 2×2 Data",
       "bullets": [
         {
-          "text": "Case-control 2×2 (rows=exposure, columns=case/control status): OR = odds of exposure in cases ÷ odds of exposure in controls = (A/C)/(B/D) = AD/BC. Cohort 2×2 (rows=disease outcome, columns=exposure status): Absolute risk (exposed) = A/(A+B); Relative risk RR = [A/(A+B)]/[C/(C+D)] — the key cohort-study output, more clinically meaningful than OR; Risk difference/Attributable Risk = AR(exposed) − AR(non-exposed) (= Absolute Risk Reduction, 'ARR', when framed as a trial benefit). Population Attributable Risk (PAR) = ARR × proportion of the population exposed — gives the number of cases eliminable by removing the exposure.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "Case-control 2×2 (rows=exposure, columns=case/control status): **OR** = odds of exposure in cases ÷ odds of exposure in controls = (A/C)/(B/D) = **AD**/**BC**. Cohort 2×2 (rows=disease outcome, columns=exposure status): Absolute risk (exposed) = A/(A+B); Relative risk **RR** = [A/(A+B)]/[C/(C+D)] — the key cohort-study output, more clinically meaningful than **OR**; Risk difference/Attributable Risk = **AR**(exposed) − **AR**(non-exposed) (= Absolute Risk Reduction, '**ARR**', when framed as a trial benefit). Population Attributable Risk (**PAR**) = **ARR** × proportion of the population exposed — gives the number of cases eliminable by removing the exposure.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "OR and RR converge only under the 'rare disease assumption' (prevalence <5%); as event rates rise, OR diverges increasingly above RR. Range of values: probabilities and absolute risks range 0–1; attributable risk ranges −1 to +1 (negative = risk is higher in the non-exposed group); relative risk and odds ratio both range 0 to infinity (1 = no difference).",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "**OR** and **RR** converge only under the 'rare disease assumption' (prevalence <5%); as event rates rise, **OR** diverges increasingly above **RR**. Range of values: probabilities and absolute risks range 0–1; attributable risk ranges −1 to +1 (negative = risk is higher in the non-exposed group); relative risk and odds ratio both range 0 to infinity (1 = no difference).",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         },
         {
-          "text": "RCT/therapy 2×2 (rows=outcome, columns=treatment vs. placebo): CER (control event rate) = C/(C+D); EER (experimental event rate) = A/(A+B); Absolute Benefit Increase/ARR = EER−CER; Relative Benefit Increase/RRR = ARR/CER = RR−1. NNT = 1/ARR (patients needing treatment for one extra benefit); NNH = 1/ARI (for one extra harm) — both conventionally rounded UP to the next integer; NNT close to 1 = highly effective (e.g. antibiotics for susceptible organisms), NNT 2–5 = effective therapy, NNT ≥20 may still be useful for prophylaxis.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 14 }
+          "text": "**RCT**/therapy 2×2 (rows=outcome, columns=treatment vs. placebo): **CER** (control event rate) = C/(C+D); **EER** (experimental event rate) = A/(A+B); Absolute Benefit Increase/**ARR** = **EER**−**CER**; Relative Benefit Increase/**RRR** = **ARR**/**CER** = **RR**−1. **NNT** = 1/**ARR** (patients needing treatment for one extra benefit); **NNH** = 1/**ARI** (for one extra harm) — both conventionally rounded **UP** to the next integer; **NNT** close to 1 = highly effective (e.g. antibiotics for susceptible organisms), **NNT** 2–5 = effective therapy, **NNT** ≥20 may still be useful for prophylaxis.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 14
+          }
         },
         {
-          "text": "Adapting trial NNT to local practice: PEER (patient expected event rate) replaces the trial's CER with the local baseline risk; ABI(new) = RRR × PEER; NNT(new) = 1/ABI(new), or equivalently NNT(new) = NNT(old)/F, where F is the local population's susceptibility fraction relative to the trial population.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 14 }
+          "text": "Adapting trial **NNT** to local practice: **PEER** (patient expected event rate) replaces the trial's **CER** with the local baseline risk; **ABI**(new) = **RRR** × **PEER**; **NNT**(new) = 1/**ABI**(new), or equivalently **NNT**(new) = **NNT**(old)/F, where F is the local population's susceptibility fraction relative to the trial population.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 14
+          }
         },
         {
-          "text": "Survival analysis: Kaplan-Meier curves plot cumulative probability of remaining event-free against time (stepped shape, each step = an observed event). Observations are left-censored if entry occurred after some events had already happened, or right-censored if observation ended before the event occurred for that subject — median (not mean) survival time is used because censoring prevents calculating a true mean. Log-rank test compares two Kaplan-Meier curves (non-parametric, univariate — cannot adjust for confounders); Cox proportional-hazards regression is the multivariate extension (semiparametric, assumes hazard ratios are constant over time), giving a hazard ratio that quantifies the SIZE of a survival difference (which the log-rank test alone cannot do). Mantel-Haenszel can be applied to life-table data with 2 binary independent variables.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+          "text": "Survival analysis: Kaplan-Meier curves plot cumulative probability of remaining event-free against time (stepped shape, each step = an observed event). Observations are left-censored if entry occurred after some events had already happened, or right-censored if observation ended before the event occurred for that subject — median (not mean) survival time is used because censoring prevents calculating a true mean. Log-rank test compares two Kaplan-Meier curves (non-parametric, univariate — cannot adjust for confounders); Cox proportional-hazards regression is the multivariate extension (semiparametric, assumes hazard ratios are constant over time), giving a hazard ratio that quantifies the **SIZE** of a survival difference (which the log-rank test alone cannot do). Mantel-Haenszel can be applied to life-table data with 2 binary independent variables.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         },
         {
           "text": "Appraising a prognostic study: was the sample representative (did patients pass through a selection filter)? Were patients similar enough in prognostic factors to pool? Was follow-up sufficiently complete? Were outcomes objectively/unbiasedly assessed? Note that survival-curve confidence bands are narrower (more precise) early in follow-up, when more patients remain in the risk set, and widen later as numbers dwindle — and that the median survival time itself can be misleading if curves cross or have different shapes despite similar endpoints.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 14 }
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 14
+          }
         }
       ]
     },
@@ -595,20 +940,32 @@
       "heading": "Evaluating Meta-Analysis — Pitfalls & Forest Plot Interpretation",
       "bullets": [
         {
-          "text": "Advantages of meta-analysis: increased statistical power over any single RCT; can resolve or explain contradictions across studies in a field. Critical limitations: GIGO (rigorous statistics cannot fix poor-quality input data); publication bias (positive trials are disproportionately published, inflating pooled effect — mitigated by systematically searching for negative/unpublished trials); the 'apples and oranges' problem (combining clinically or methodologically dissimilar studies, e.g. a cohort study pooled with a rigorous RCT, gives a meaningless pooled estimate — mitigated by clear inclusion criteria, forest plots and heterogeneity statistics); missing data (studies lacking needed parameters must be excluded, even after contacting authors); differing statistical models (fixed vs. random) — good practice runs both.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 21 }
+          "text": "Advantages of meta-analysis: increased statistical power over any single **RCT**; can resolve or explain contradictions across studies in a field. Critical limitations: **GIGO** (rigorous statistics cannot fix poor-quality input data); publication bias (positive trials are disproportionately published, inflating pooled effect — mitigated by systematically searching for negative/unpublished trials); the 'apples and oranges' problem (combining clinically or methodologically dissimilar studies, e.g. a cohort study pooled with a rigorous **RCT**, gives a meaningless pooled estimate — mitigated by clear inclusion criteria, forest plots and heterogeneity statistics); missing data (studies lacking needed parameters must be excluded, even after contacting authors); differing statistical models (fixed vs. random) — good practice runs both.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
+          }
         },
         {
-          "text": "Inappropriate subgroup analyses: although the parent trials were randomised, that balance does NOT automatically extend to post-hoc-defined subgroups — subgroup findings can be badly confounded/misleading and should be treated as hypothesis-generating, not confirmatory.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 21 }
+          "text": "Inappropriate subgroup analyses: although the parent trials were randomised, that balance does **NOT** automatically extend to post-hoc-defined subgroups — subgroup findings can be badly confounded/misleading and should be treated as hypothesis-generating, not confirmatory.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
+          }
         },
         {
           "text": "Appraising a meta-analysis (Guyatt et al.): was there a written protocol defining the question/outcomes/inclusion-exclusion criteria in advance? Was the literature search thorough across multiple engines? Did the authors seek unpublished, negative, and non-English-language studies (to minimise retrieval/language/publication bias)? Was study selection and quality assessment done independently by two reviewers? Were sensitivity analyses performed (modelling exclusion of unpublished/poor-quality studies, and checking consistency across subgroups)?",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 21 }
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
+          }
         },
         {
-          "text": "Forest plot from a meta-analysis: the pooled CER/EER can be reconstructed by summing each arm's n and N across the included studies (unweighted); the true pooled RR shown at the lozenge may differ from this simple sum if individual studies were weighted before pooling. If any individual study's line extends beyond the plotted axis, this is shown by an arrow — a marker of imprecision, not an error.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 21 }
+          "text": "Forest plot from a meta-analysis: the pooled **CER**/**EER** can be reconstructed by summing each arm's n and N across the included studies (unweighted); the true pooled **RR** shown at the lozenge may differ from this simple sum if individual studies were weighted before pooling. If any individual study's line extends beyond the plotted axis, this is shown by an arrow — a marker of imprecision, not an error.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
+          }
         }
       ]
     },
@@ -617,23 +974,38 @@
       "bullets": [
         {
           "text": "Protocols demand strict adherence; guidelines are evidence-based recommendations, not mandates — even guidelines built on the same evidence base can differ because guidance is also value-based and resource/cost-based, so national guidelines may need local adaptation. A valid guideline needs: all relevant patient groups/options/outcomes considered; a proper systematic review underpinning it; explicit specification of the values/preferences attached to outcomes; and an explicit statement of the strength of its recommendations.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 24 }
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
         },
         {
           "text": "Decision analysis formalises decision-making as a tree: decision nodes (squares) branch into options, chance nodes (circles) branch into outcomes with assigned probabilities (0=impossible to 1=certain) and utility values (0=death to 1=full health, e.g. via QALYs); the total value of each path = probability × utility, summed, and compared across paths to choose the best action.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 24 }
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
         },
         {
-          "text": "Oxford Centre for EBM hierarchy of evidence: I = systematic review of RCTs; II = at least one properly designed RCT; III-1 = pseudo-randomised controlled trial; III-2 = non-randomised comparative study with concurrent controls (cohort, case-control, or controlled interrupted time series); III-3 = comparative study with historical control or uncontrolled interrupted time series; IV = case series; V = expert opinion without critical appraisal. This hierarchy is not absolute — sufficiently large, consistent observational studies can outweigh a poorly conducted RCT.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 25 }
+          "text": "Oxford Centre for **EBM** hierarchy of evidence: I = systematic review of RCTs; **II** = at least one properly designed **RCT**; **III-1** = pseudo-randomised controlled trial; **III-2** = non-randomised comparative study with concurrent controls (cohort, case-control, or controlled interrupted time series); **III-3** = comparative study with historical control or uncontrolled interrupted time series; **IV** = case series; V = expert opinion without critical appraisal. This hierarchy is not absolute — sufficiently large, consistent observational studies can outweigh a poorly conducted **RCT**.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 25
+          }
         },
         {
-          "text": "Guideline effectiveness depends jointly on HOW developed, disseminated and implemented: highest effectiveness = developed by end-users + specific educational intervention + patient-specific reminder in the consultation; lowest = external/national guidelines + simple journal publication + a general reminder only.",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 25 }
+          "text": "Guideline effectiveness depends jointly on **HOW** developed, disseminated and implemented: highest effectiveness = developed by end-users + specific educational intervention + patient-specific reminder in the consultation; lowest = external/national guidelines + simple journal publication + a general reminder only.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 25
+          }
         },
         {
-          "text": "Altman's nomogram reads off required sample size (or power) from a straight line joining the standardised difference (effect size, left axis) and the desired power (right axis) — an alternative to computing the sample-size formula directly; it depends on p-value, power, expected effect size and expected variability (SD, often estimated from a pilot study or the literature).",
-          "source": { "file": "books/15-3-statistics.pdf", "page": 25 }
+          "text": "Altman's nomogram reads off required sample size (or power) from a straight line joining the standardised difference (effect size, left axis) and the desired power (right axis) — an alternative to computing the sample-size formula directly; it depends on p-value, power, expected effect size and expected variability (**SD**, often estimated from a pilot study or the literature).",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 25
+          }
         }
       ]
     }
@@ -641,128 +1013,429 @@
   "tables": [
     {
       "title": "Choosing a Test — Category 1 (comparing a mean/median/proportion)",
-      "columns": ["Data type", "1 sample", "2 groups unpaired", "2 groups paired", ">2 groups unpaired", ">2 groups paired"],
-      "rows": [
-        ["Means (parametric)", "One-sample t-test", "Unpaired (two-sample) t-test", "Paired t-test", "One-way ANOVA", "Repeated-measures ANOVA / MANOVA"],
-        ["Medians (non-parametric)", "Sign test", "Mann-Whitney U test", "Wilcoxon rank-sum test", "Kruskal-Wallis test", "Friedman test"],
-        ["Proportions (categorical)", "—", "Chi-square test", "McNemar's test", "Log-linear analysis / logistic regression", "—"]
+      "columns": [
+        "Data type",
+        "1 sample",
+        "2 groups unpaired",
+        "2 groups paired",
+        ">2 groups unpaired",
+        ">2 groups paired"
       ],
-      "sources": [{ "file": "books/15-2-statistics.pdf", "page": 32 }],
+      "rows": [
+        [
+          "Means (parametric)",
+          "One-sample t-test",
+          "Unpaired (two-sample) t-test",
+          "Paired t-test",
+          "One-way **ANOVA**",
+          "Repeated-measures **ANOVA** / **MANOVA**"
+        ],
+        [
+          "Medians (non-parametric)",
+          "Sign test",
+          "Mann-Whitney U test",
+          "Wilcoxon rank-sum test",
+          "Kruskal-Wallis test",
+          "Friedman test"
+        ],
+        [
+          "Proportions (categorical)",
+          "—",
+          "Chi-square test",
+          "McNemar's test",
+          "Log-linear analysis / logistic regression",
+          "—"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-2-statistics.pdf",
+          "page": 32
+        }
+      ],
       "highYield": true
     },
     {
       "title": "Choosing a Test — Category 2 (testing an association)",
-      "columns": ["Dependent variables", "Independent variables", "Data type", "Test"],
-      "rows": [
-        ["One", "One", "Continuous, parametric", "Pearson's correlation / simple linear regression"],
-        ["One", "One", "Non-parametric or ordinal", "Spearman's / Kendall's tau correlation"],
-        ["One", "One", "Categorical DV", "Simple logistic regression"],
-        ["One", ">1", "Continuous DV", "Multiple linear regression / ANCOVA"],
-        ["One", ">1", "Categorical DV", "Multiple logistic regression"],
-        ["Two or more", ">1", "Categorical DV", "MANOVA"],
-        ["Two or more", ">1", "Continuous DV", "MANCOVA / multivariate multiple regression"]
+      "columns": [
+        "Dependent variables",
+        "Independent variables",
+        "Data type",
+        "Test"
       ],
-      "sources": [{ "file": "books/15-2-statistics.pdf", "page": 35 }],
+      "rows": [
+        [
+          "One",
+          "One",
+          "Continuous, parametric",
+          "Pearson's correlation / simple linear regression"
+        ],
+        [
+          "One",
+          "One",
+          "Non-parametric or ordinal",
+          "Spearman's / Kendall's tau correlation"
+        ],
+        [
+          "One",
+          "One",
+          "Categorical **DV**",
+          "Simple logistic regression"
+        ],
+        [
+          "One",
+          ">1",
+          "Continuous **DV**",
+          "Multiple linear regression / **ANCOVA**"
+        ],
+        [
+          "One",
+          ">1",
+          "Categorical **DV**",
+          "Multiple logistic regression"
+        ],
+        [
+          "Two or more",
+          ">1",
+          "Categorical **DV**",
+          "**MANOVA**"
+        ],
+        [
+          "Two or more",
+          ">1",
+          "Continuous **DV**",
+          "**MANCOVA** / multivariate multiple regression"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-2-statistics.pdf",
+          "page": 35
+        }
+      ],
       "highYield": true
     },
     {
       "title": "2×2 Diagnostic Test Table & Derived Measures",
-      "columns": ["Measure", "Formula", "Interpretation"],
-      "rows": [
-        ["Sensitivity", "A/(A+C)", "Proportion of truly diseased correctly identified"],
-        ["Specificity", "D/(B+D)", "Proportion of truly non-diseased correctly identified"],
-        ["Accuracy", "(A+D)/(A+B+C+D)", "Overall proportion of correct results"],
-        ["PPV", "A/(A+B)", "Chance of true disease if test positive (rises with prevalence)"],
-        ["NPV", "D/(C+D)", "Chance of true absence if test negative (falls with prevalence)"],
-        ["LR+", "Sensitivity/(1−Specificity)", "How much a positive result raises disease odds"],
-        ["LR−", "(1−Sensitivity)/Specificity", "How much a negative result lowers disease odds"]
+      "columns": [
+        "Measure",
+        "Formula",
+        "Interpretation"
       ],
-      "sources": [{ "file": "books/15-3-statistics.pdf", "page": 1 }],
+      "rows": [
+        [
+          "Sensitivity",
+          "A/(A+C)",
+          "Proportion of truly diseased correctly identified"
+        ],
+        [
+          "Specificity",
+          "D/(B+D)",
+          "Proportion of truly non-diseased correctly identified"
+        ],
+        [
+          "Accuracy",
+          "(A+D)/(A+B+C+D)",
+          "Overall proportion of correct results"
+        ],
+        [
+          "**PPV**",
+          "A/(A+B)",
+          "Chance of true disease if test positive (rises with prevalence)"
+        ],
+        [
+          "**NPV**",
+          "D/(C+D)",
+          "Chance of true absence if test negative (falls with prevalence)"
+        ],
+        [
+          "**LR**+",
+          "Sensitivity/(1−Specificity)",
+          "How much a positive result raises disease odds"
+        ],
+        [
+          "**LR**−",
+          "(1−Sensitivity)/Specificity",
+          "How much a negative result lowers disease odds"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-3-statistics.pdf",
+          "page": 1
+        }
+      ],
       "highYield": true
     },
     {
       "title": "2×2 Trial Table & Therapy/Harm Measures",
-      "columns": ["Measure", "Formula", "Notes"],
+      "columns": [
+        "Measure",
+        "Formula",
+        "Notes"
+      ],
       "rows": [
-        ["CER (control event rate)", "C/(C+D)", "Event rate in placebo/control arm"],
-        ["EER (experimental event rate)", "A/(A+B)", "Event rate in treatment arm"],
-        ["ARR / Absolute Benefit Increase", "EER − CER", "Also 'Attributable Risk' in causal studies"],
-        ["RRR / Relative Benefit Increase", "(EER−CER)/CER = RR−1", "ARR expressed relative to CER"],
-        ["Relative Risk (RR)", "EER/CER", "More clinically meaningful than OR"],
-        ["NNT", "1/ARR (round up)", "Number treated for 1 extra benefit"],
-        ["NNH", "1/ARI (round up)", "Number treated for 1 extra harm"]
+        [
+          "**CER** (control event rate)",
+          "C/(C+D)",
+          "Event rate in placebo/control arm"
+        ],
+        [
+          "**EER** (experimental event rate)",
+          "A/(A+B)",
+          "Event rate in treatment arm"
+        ],
+        [
+          "**ARR** / Absolute Benefit Increase",
+          "**EER** − **CER**",
+          "Also 'Attributable Risk' in causal studies"
+        ],
+        [
+          "**RRR** / Relative Benefit Increase",
+          "(**EER**−**CER**)/**CER** = **RR**−1",
+          "**ARR** expressed relative to **CER**"
+        ],
+        [
+          "Relative Risk (**RR**)",
+          "**EER**/**CER**",
+          "More clinically meaningful than **OR**"
+        ],
+        [
+          "**NNT**",
+          "1/**ARR** (round up)",
+          "Number treated for 1 extra benefit"
+        ],
+        [
+          "**NNH**",
+          "1/**ARI** (round up)",
+          "Number treated for 1 extra harm"
+        ]
       ],
       "sources": [
-        { "file": "books/15-3-statistics.pdf", "page": 1 },
-        { "file": "books/15-3-statistics.pdf", "page": 14 }
+        {
+          "file": "books/15-3-statistics.pdf",
+          "page": 1
+        },
+        {
+          "file": "books/15-3-statistics.pdf",
+          "page": 14
+        }
       ],
       "highYield": true
     },
     {
       "title": "Confidence Interval — 'Value of No Difference' by Measure",
-      "columns": ["Measure", "Value of no difference"],
-      "rows": [
-        ["OR (odds ratio)", "1"],
-        ["Relative risk", "1"],
-        ["Absolute risk reduction", "0"],
-        ["Relative risk reduction", "0"],
-        ["NNT", "Infinity"]
+      "columns": [
+        "Measure",
+        "Value of no difference"
       ],
-      "sources": [{ "file": "books/15-2-statistics.pdf", "page": 17 }],
+      "rows": [
+        [
+          "**OR** (odds ratio)",
+          "1"
+        ],
+        [
+          "Relative risk",
+          "1"
+        ],
+        [
+          "Absolute risk reduction",
+          "0"
+        ],
+        [
+          "Relative risk reduction",
+          "0"
+        ],
+        [
+          "**NNT**",
+          "Infinity"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-2-statistics.pdf",
+          "page": 17
+        }
+      ],
       "highYield": true
     },
     {
       "title": "Kappa — Interpretation Bands",
-      "columns": ["Kappa value", "Degree of agreement"],
-      "rows": [
-        ["0", "None"],
-        ["0–0.2", "Slight"],
-        ["0.2–0.4", "Fair"],
-        ["0.4–0.6", "Moderate"],
-        ["0.6–0.8", "Substantial"],
-        ["0.8–1.0", "Almost perfect"]
+      "columns": [
+        "Kappa value",
+        "Degree of agreement"
       ],
-      "sources": [{ "file": "books/15-2-statistics.pdf", "page": 17 }],
+      "rows": [
+        [
+          "0",
+          "None"
+        ],
+        [
+          "0–0.2",
+          "Slight"
+        ],
+        [
+          "0.2–0.4",
+          "Fair"
+        ],
+        [
+          "0.4–0.6",
+          "Moderate"
+        ],
+        [
+          "0.6–0.8",
+          "Substantial"
+        ],
+        [
+          "0.8–1.0",
+          "Almost perfect"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-2-statistics.pdf",
+          "page": 17
+        }
+      ],
       "highYield": true
     },
     {
       "title": "Levels of Measurement — What Each Permits",
-      "columns": ["Data type", "Frequency/mode", "Median", "Sum/mean", "Ratio-based measures (e.g. RR)"],
-      "rows": [
-        ["Nominal", "Yes", "No", "No", "No"],
-        ["Ordinal", "Yes", "Yes", "No", "No"],
-        ["Interval", "Yes", "Yes", "Yes", "No"],
-        ["Ratio", "Yes", "Yes", "Yes", "Yes"]
+      "columns": [
+        "Data type",
+        "Frequency/mode",
+        "Median",
+        "Sum/mean",
+        "Ratio-based measures (e.g. RR)"
       ],
-      "sources": [{ "file": "books/15-2-statistics.pdf", "page": 1 }],
+      "rows": [
+        [
+          "Nominal",
+          "Yes",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Ordinal",
+          "Yes",
+          "Yes",
+          "No",
+          "No"
+        ],
+        [
+          "Interval",
+          "Yes",
+          "Yes",
+          "Yes",
+          "No"
+        ],
+        [
+          "Ratio",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-2-statistics.pdf",
+          "page": 1
+        }
+      ],
       "highYield": false
     },
     {
       "title": "5 Types of Health Economic Study",
-      "columns": ["Study type", "Input", "Output", "Used when"],
-      "rows": [
-        ["Cost-minimisation", "Money", "Not compared (assumed equal)", "Interventions produce the same outcome"],
-        ["Cost-effectiveness", "Money", "Clinical scale unit", "Interventions measured on the same clinical scale"],
-        ["Cost-utility", "Money", "Life-utility units (QALY/DALY)", "Need to weigh disease burden, side-effects, QOL holistically"],
-        ["Cost-benefit", "Money", "Money (all outcomes monetised)", "Different clinical outcomes need a single net comparison value"],
-        ["Cost-consequence", "Money", "Natural units (disaggregated)", "Different outcomes kept separate for stakeholders to weigh themselves"]
+      "columns": [
+        "Study type",
+        "Input",
+        "Output",
+        "Used when"
       ],
-      "sources": [{ "file": "books/15-1-statistics.pdf", "page": 35 }],
+      "rows": [
+        [
+          "Cost-minimisation",
+          "Money",
+          "Not compared (assumed equal)",
+          "Interventions produce the same outcome"
+        ],
+        [
+          "Cost-effectiveness",
+          "Money",
+          "Clinical scale unit",
+          "Interventions measured on the same clinical scale"
+        ],
+        [
+          "Cost-utility",
+          "Money",
+          "Life-utility units (**QALY**/**DALY**)",
+          "Need to weigh disease burden, side-effects, **QOL** holistically"
+        ],
+        [
+          "Cost-benefit",
+          "Money",
+          "Money (all outcomes monetised)",
+          "Different clinical outcomes need a single net comparison value"
+        ],
+        [
+          "Cost-consequence",
+          "Money",
+          "Natural units (disaggregated)",
+          "Different outcomes kept separate for stakeholders to weigh themselves"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-1-statistics.pdf",
+          "page": 35
+        }
+      ],
       "highYield": false
     },
     {
       "title": "Oxford Centre for EBM — Hierarchy of Evidence",
-      "columns": ["Level", "Evidence"],
-      "rows": [
-        ["I", "Systematic review of all relevant RCTs"],
-        ["II", "At least one properly designed RCT"],
-        ["III-1", "Well-designed pseudo-randomised controlled trial"],
-        ["III-2", "Non-randomised comparative studies with concurrent controls (cohort, case-control, controlled interrupted time series)"],
-        ["III-3", "Comparative studies with historical control, or uncontrolled interrupted time series"],
-        ["IV", "Case series"],
-        ["V", "Expert opinion without critical appraisal"]
+      "columns": [
+        "Level",
+        "Evidence"
       ],
-      "sources": [{ "file": "books/15-3-statistics.pdf", "page": 25 }],
+      "rows": [
+        [
+          "I",
+          "Systematic review of all relevant RCTs"
+        ],
+        [
+          "**II**",
+          "At least one properly designed **RCT**"
+        ],
+        [
+          "**III-1**",
+          "Well-designed pseudo-randomised controlled trial"
+        ],
+        [
+          "**III-2**",
+          "Non-randomised comparative studies with concurrent controls (cohort, case-control, controlled interrupted time series)"
+        ],
+        [
+          "**III-3**",
+          "Comparative studies with historical control, or uncontrolled interrupted time series"
+        ],
+        [
+          "**IV**",
+          "Case series"
+        ],
+        [
+          "V",
+          "Expert opinion without critical appraisal"
+        ]
+      ],
+      "sources": [
+        {
+          "file": "books/15-3-statistics.pdf",
+          "page": 25
+        }
+      ],
       "highYield": true
     }
   ],
@@ -774,7 +1447,7 @@
         "Nominal — named categories only, no order",
         "Ordinal — ordered categories, unequal intervals",
         "Interval — equal intervals, no true zero",
-        "Ratio — equal intervals AND a true zero"
+        "Ratio — equal intervals **AND** a true zero"
       ],
       "sourced": false
     },
@@ -782,17 +1455,20 @@
       "forTopic": "Using sensitivity/specificity to rule a diagnosis in or out",
       "mnemonic": "SnNout / SpPin",
       "expansion": [
-        "SnNout: a highly SeNsitive test, if Negative, helps rule a disease OUT",
-        "SpPin: a highly SPecific test, if Positive, helps rule a disease IN"
+        "SnNout: a highly SeNsitive test, if Negative, helps rule a disease **OUT**",
+        "SpPin: a highly SPecific test, if Positive, helps rule a disease **IN**"
       ],
       "sourced": true,
-      "source": { "file": "books/15-3-statistics.pdf", "page": 1 }
+      "source": {
+        "file": "books/15-3-statistics.pdf",
+        "page": 1
+      }
     },
     {
       "forTopic": "Where bias can enter a study",
       "mnemonic": "SMA",
       "expansion": [
-        "Selection bias — who gets INTO the study",
+        "Selection bias — who gets **INTO** the study",
         "Measurement bias — how variables are recorded",
         "Analysis bias — how drop-outs/crossovers are handled at analysis"
       ],
@@ -833,110 +1509,190 @@
   ],
   "examinerTraps": [
     {
-      "text": "\"Weighted kappa is better suited than Cohen's kappa for...\" ordinal data — a common trap is picking 'categorical, non-binary' data; weighted kappa specifically accounts for the DEGREE of disagreement, which only makes sense for ORDERED (ordinal) categories.",
+      "text": "\"Weighted kappa is better suited than Cohen's kappa for...\" ordinal data — a common trap is picking 'categorical, non-binary' data; weighted kappa specifically accounts for the **DEGREE** of disagreement, which only makes sense for **ORDERED** (ordinal) categories.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf", "page": 33, "questionNumber": 31 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+        "page": 33,
+        "questionNumber": 31
+      }
     },
     {
-      "text": "For a 2×2 contingency table, df = (rows−1)×(columns−1) = 1×1 = 1 — NOT 4. Candidates who count the 4 cells directly instead of applying the formula pick 4 and are wrong.",
+      "text": "For a 2×2 contingency table, df = (rows−1)×(columns−1) = 1×1 = 1 — **NOT** 4. Candidates who count the 4 cells directly instead of applying the formula pick 4 and are wrong.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf", "page": 10, "questionNumber": 10 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+        "page": 10,
+        "questionNumber": 10
+      }
     },
     {
-      "text": "\"Which of the following is FALSE with regard to parametric statistics?\" — the false option is 'these are best used for small sample sizes'. Parametric tests need normally-distributed data (which is harder to confirm in small samples) and are not inherently a small-sample tool; this is a straightforward-seeming SBA that inverts the usual framing (asking for the false statement among true ones).",
+      "text": "\"Which of the following is **FALSE** with regard to parametric statistics?\" — the false option is 'these are best used for small sample sizes'. Parametric tests need normally-distributed data (which is harder to confirm in small samples) and are not inherently a small-sample tool; this is a straightforward-seeming **SBA** that inverts the usual framing (asking for the false statement among true ones).",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf", "page": 35, "questionNumber": 33 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+        "page": 35,
+        "questionNumber": 33
+      }
     },
     {
-      "text": "Logistic regression does NOT require normal distribution of residuals of the dependent variable (unlike ANCOVA, ANOVA, paired/unpaired t-tests) because the dependent variable is categorical/ordinal, not continuous — candidates who assume 'regression' always needs normality miss this.",
+      "text": "Logistic regression does **NOT** require normal distribution of residuals of the dependent variable (unlike **ANCOVA**, **ANOVA**, paired/unpaired t-tests) because the dependent variable is categorical/ordinal, not continuous — candidates who assume 'regression' always needs normality miss this.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf", "page": 6, "questionNumber": 6 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+        "page": 6,
+        "questionNumber": 6
+      }
     },
     {
-      "text": "A significant two-way interaction in a 3-variable ANOVA means TWO of the three variables jointly affect the outcome — not all three, and not 'no efficacy'. Candidates conflate 'interaction present' with 'no main effect' or with all variables being implicated.",
+      "text": "A significant two-way interaction in a 3-variable **ANOVA** means **TWO** of the three variables jointly affect the outcome — not all three, and not 'no efficacy'. Candidates conflate 'interaction present' with 'no main effect' or with all variables being implicated.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf", "page": 20, "questionNumber": 20 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+        "page": 20,
+        "questionNumber": 20
+      }
     },
     {
-      "text": "If Pearson's r(A,B) = −0.50 and r(B,C) = +0.50, the relationship between A and C CANNOT be determined from this alone — correlation is not transitive. The tempting wrong answers assume A and C must be negatively correlated, independent, or 'linearly associated'.",
+      "text": "If Pearson's r(A,B) = −0.50 and r(B,C) = +0.50, the relationship between A and C **CANNOT** be determined from this alone — correlation is not transitive. The tempting wrong answers assume A and C must be negatively correlated, independent, or 'linearly associated'.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf", "page": 13, "questionNumber": 8 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf",
+        "page": 13,
+        "questionNumber": 8
+      }
     },
     {
-      "text": "Given y (female twin weight) = 1200 + 0.4x (male twin weight), you can predict female weight from male weight but CANNOT reverse the equation to predict male from female — regression is directional (y is the dependent variable defined by the equation), unlike correlation which is symmetric.",
+      "text": "Given y (female twin weight) = 1200 + 0.4x (male twin weight), you can predict female weight from male weight but **CANNOT** reverse the equation to predict male from female — regression is directional (y is the dependent variable defined by the equation), unlike correlation which is symmetric.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf", "page": 14, "questionNumber": 9 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf",
+        "page": 14,
+        "questionNumber": 9
+      }
     },
     {
-      "text": "Two scales correlating highly (Spearman's r=0.8, p<0.01) does NOT let you conclude the shorter scale 'can replace' the longer one, or say anything about either scale's validity/reliability — a head-to-head correlation between two different instruments tests neither validity nor reliability directly, and a longer scale is not automatically superior just for being longer.",
+      "text": "Two scales correlating highly (Spearman's r=0.8, p<0.01) does **NOT** let you conclude the shorter scale 'can replace' the longer one, or say anything about either scale's validity/reliability — a head-to-head correlation between two different instruments tests neither validity nor reliability directly, and a longer scale is not automatically superior just for being longer.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf", "page": 21, "questionNumber": 16 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf",
+        "page": 21,
+        "questionNumber": 16
+      }
     },
     {
-      "text": "In a path diagram, the numbers printed on the arrows are standardised PATH COEFFICIENTS (equivalent to regression coefficients), NOT correlation coefficients, degrees of freedom, or confidence/significance levels — a distractor-rich labelling trap.",
+      "text": "In a path diagram, the numbers printed on the arrows are standardised **PATH** **COEFFICIENTS** (equivalent to regression coefficients), **NOT** correlation coefficients, degrees of freedom, or confidence/significance levels — a distractor-rich labelling trap.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Multivariate Techniques_ Attempt review.pdf", "page": 8, "questionNumber": 3 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Multivariate Techniques_ Attempt review.pdf",
+        "page": 8,
+        "questionNumber": 3
+      }
     },
     {
-      "text": "In a positively skewed distribution, most VALUES fall to the LEFT of the mean (the mean itself is pulled right by a few extreme high values) — a commonly reversed detail; the 'tail', not the bulk of the data, is on the right.",
+      "text": "In a positively skewed distribution, most **VALUES** fall to the **LEFT** of the mean (the mean itself is pulled right by a few extreme high values) — a commonly reversed detail; the 'tail', not the bulk of the data, is on the right.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Describing Data_ Attempt review.pdf", "page": 9, "questionNumber": 7 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Describing Data_ Attempt review.pdf",
+        "page": 9,
+        "questionNumber": 7
+      }
     },
     {
-      "text": "Excluding cardiovascular disease from controls but not cases in a case-control study of reserpine and breast cancer primarily threatens INTERNAL validity (via selection bias in this specific study's conclusions) — not external validity/generalisability or reliability, which candidates often reach for instead.",
+      "text": "Excluding cardiovascular disease from controls but not cases in a case-control study of reserpine and breast cancer primarily threatens **INTERNAL** validity (via selection bias in this specific study's conclusions) — not external validity/generalisability or reliability, which candidates often reach for instead.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf", "page": 4, "questionNumber": 4 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+        "page": 4,
+        "questionNumber": 4
+      }
     },
     {
-      "text": "Of several scenarios prone to regression to the mean (selecting extreme baseline BP/cholesterol/maths-ability scores for repeat measurement or intervention), the one NOT affected is a properly randomised RCT with a concurrent control group — because both arms regress equally, the comparison cancels the effect out. This is the 'odd one out' answer candidates often miss by assuming ALL repeated-measurement designs are vulnerable.",
+      "text": "Of several scenarios prone to regression to the mean (selecting extreme baseline **BP**/cholesterol/maths-ability scores for repeat measurement or intervention), the one **NOT** affected is a properly randomised **RCT** with a concurrent control group — because both arms regress equally, the comparison cancels the effect out. This is the 'odd one out' answer candidates often miss by assuming **ALL** repeated-measurement designs are vulnerable.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf", "page": 5, "questionNumber": 5 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+        "page": 5,
+        "questionNumber": 5
+      }
     },
     {
-      "text": "Testing whether MRCPsych Paper A score correlates with Paper B score (same underlying construct — theoretical knowledge) is testing CONVERGENT validity, not predictive validity — predictive validity would require correlating a CURRENT score against a FUTURE, different outcome (e.g. CASC performance).",
+      "text": "Testing whether MRCPsych Paper A score correlates with Paper B score (same underlying construct — theoretical knowledge) is testing **CONVERGENT** validity, not predictive validity — predictive validity would require correlating a **CURRENT** score against a **FUTURE**, different outcome (e.g. **CASC** performance).",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf", "page": 14, "questionNumber": 14 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+        "page": 14,
+        "questionNumber": 14
+      }
     },
     {
-      "text": "An odds ratio of 2.00 with 95% CI 1.48–2.70 (p<0.0001) does NOT let you estimate degree of bias, and the CI DOES show effect size (~2-fold) rather than showing nothing — 'none of the listed inferences are possible' was the correct answer precisely because every individual plausible-sounding inference offered was subtly wrong.",
+      "text": "An odds ratio of 2.00 with 95% **CI** 1.48–2.70 (p<0.0001) does **NOT** let you estimate degree of bias, and the **CI** **DOES** show effect size (~2-fold) rather than showing nothing — 'none of the listed inferences are possible' was the correct answer precisely because every individual plausible-sounding inference offered was subtly wrong.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf", "page": 18, "questionNumber": 18 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+        "page": 18,
+        "questionNumber": 18
+      }
     },
     {
-      "text": "A one-tailed (rather than two-tailed) significance test for in-utero famine exposure and schizophrenia is justified specifically because the researchers already have strong prior grounds to expect the effect runs in ONE direction (exposure → illness, not the reverse) — not because of sample size, distribution shape, or number of control groups, which are the tempting-but-wrong distractors.",
+      "text": "A one-tailed (rather than two-tailed) significance test for in-utero famine exposure and schizophrenia is justified specifically because the researchers already have strong prior grounds to expect the effect runs in **ONE** direction (exposure → illness, not the reverse) — not because of sample size, distribution shape, or number of control groups, which are the tempting-but-wrong distractors.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf", "page": 9, "questionNumber": 9 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+        "page": 9,
+        "questionNumber": 9
+      }
     },
     {
-      "text": "Recruiting fewer patients than the pre-calculated sample size (175 vs. planned 300) specifically raises the chance of a TYPE 2 error — the chance of type 1 error is NOT directly tied to sample size, a distinction the 'blue rabbit' worked example in the explanation makes explicit.",
+      "text": "Recruiting fewer patients than the pre-calculated sample size (175 vs. planned 300) specifically raises the chance of a **TYPE** 2 error — the chance of type 1 error is **NOT** directly tied to sample size, a distinction the 'blue rabbit' worked example in the explanation makes explicit.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf", "page": 13, "questionNumber": 13 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+        "page": 13,
+        "questionNumber": 13
+      }
     },
     {
-      "text": "The p-value does NOT indicate the probability that the null hypothesis is FALSE (a very common misstatement) — it reflects the probability of the observed (or more extreme) data occurring IF the null hypothesis is true. The 'not correct' statement in this SBA is exactly this common misreading.",
+      "text": "The p-value does **NOT** indicate the probability that the null hypothesis is **FALSE** (a very common misstatement) — it reflects the probability of the observed (or more extreme) data occurring **IF** the null hypothesis is true. The 'not correct' statement in this **SBA** is exactly this common misreading.",
       "format": "SBA",
-      "source": { "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf", "page": 15, "questionNumber": 15 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+        "page": 15,
+        "questionNumber": 15
+      }
     },
     {
-      "text": "EMI vignette: a null RCT result contradicting strong prior belief/evidence after an adequately powered, rigorous 18-month trial is best labelled a TYPE 2 error possibility — not automatically 'the drug doesn't work' — while choosing sibling controls (who share genetic/parenting exposure with autistic probands) for a bonding study is SELECTION bias that would UNDERESTIMATE, not overestimate, the true association.",
+      "text": "**EMI** vignette: a null **RCT** result contradicting strong prior belief/evidence after an adequately powered, rigorous 18-month trial is best labelled a **TYPE** 2 error possibility — not automatically 'the drug doesn't work' — while choosing sibling controls (who share genetic/parenting exposure with autistic probands) for a bonding study is **SELECTION** bias that would **UNDERESTIMATE**, not overestimate, the true association.",
       "format": "EMI",
-      "source": { "file": "question_bank/Advanced Statstics/EMIs Statistics_ Attempt review.pdf", "page": 13, "questionNumber": 8 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/EMIs Statistics_ Attempt review.pdf",
+        "page": 13,
+        "questionNumber": 8
+      }
     },
     {
-      "text": "EMI worked kappa calculation trap: overall percent agreement (70%) is NOT the same as kappa (0.4) — candidates who stop at simple percent agreement without subtracting chance-expected agreement (50% here) will pick the wrong 'degree of agreement' answer.",
+      "text": "**EMI** worked kappa calculation trap: overall percent agreement (70%) is **NOT** the same as kappa (0.4) — candidates who stop at simple percent agreement without subtracting chance-expected agreement (50% here) will pick the wrong 'degree of agreement' answer.",
       "format": "EMI",
-      "source": { "file": "question_bank/Advanced Statstics/EMIs Statistics_ Attempt review.pdf", "page": 17, "questionNumber": 11 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/EMIs Statistics_ Attempt review.pdf",
+        "page": 17,
+        "questionNumber": 11
+      }
     },
     {
       "text": "\"Odds for a 90% event rate\" trips candidates who answer with the probability (0.9) or its complement (0.1) instead of computing odds = p/(1−p) = 0.9/0.1 = 9.",
       "format": "EMI",
-      "source": { "file": "question_bank/Advanced Statstics/Odds & Probabilities_ Attempt review.pdf", "page": 5, "questionNumber": 5 }
+      "source": {
+        "file": "question_bank/Advanced Statstics/Odds & Probabilities_ Attempt review.pdf",
+        "page": 5,
+        "questionNumber": 5
+      }
     }
   ],
   "gaps": [
     {
       "subtopic": "Bayesian statistics",
-      "note": "No Bayesian statistical framework (priors, posterior probabilities, Bayes factors as a general inferential approach beyond the specific Fagan/Bayesian nomogram for diagnostic post-test probability) appears anywhere in the three SPMM statistics book PDFs or the question bank explanations read for this topic. If Bayesian concepts are tested, this guide cannot support them — cross-check a general biostatistics text."
+      "note": "No Bayesian statistical framework (priors, posterior probabilities, Bayes factors as a general inferential approach beyond the specific Fagan/Bayesian nomogram for diagnostic post-test probability) appears anywhere in the three **SPMM** statistics book PDFs or the question bank explanations read for this topic. If Bayesian concepts are tested, this guide cannot support them — cross-check a general biostatistics text."
     },
     {
       "subtopic": "Sample size / power formulae",
@@ -948,7 +1704,7 @@
     },
     {
       "subtopic": "ICC / weighted kappa — calculation formulae",
-      "note": "The source material gives interpretive bands for ICC (0.6=fair, 0.8=very good, 0.9=excellent) and for kappa, and states that weighted kappa exists for ordinal data and Bland-Altman plots for continuous measures, but does not provide the calculation formula for ICC or weighted kappa themselves (only the plain-kappa formula is given with a worked example). If a question requires calculating ICC or weighted kappa by hand, this guide cannot support it from the given sources."
+      "note": "The source material gives interpretive bands for **ICC** (0.6=fair, 0.8=very good, 0.9=excellent) and for kappa, and states that weighted kappa exists for ordinal data and Bland-Altman plots for continuous measures, but does not provide the calculation formula for **ICC** or weighted kappa themselves (only the plain-kappa formula is given with a worked example). If a question requires calculating **ICC** or weighted kappa by hand, this guide cannot support it from the given sources."
     }
   ]
 }

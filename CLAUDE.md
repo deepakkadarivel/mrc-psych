@@ -221,6 +221,42 @@ script path — two agents writing a same-named temp script to a shared /tmp loc
 silent build failure during this session (caught because the agent verified the output file's
 existence/content immediately after each run — keep doing that).
 
+## RichText must not return a Fragment
+
+`components/rich-text.tsx` wraps its output in a single `<span>`, not a `Fragment`. This isn't
+cosmetic: a `Fragment`'s children flatten directly into whatever parent renders `<RichText/>`,
+so if that parent is `display:flex`/`grid`, every emphasized word-chunk becomes its own flex/grid
+item instead of flowing as one block of inline text — this is exactly what broke the Notes
+accordion (screenshot showed bullet text shattered into a jagged multi-column grid, one column
+per bold/highlighted fragment). If you ever see study-guide text rendering as disconnected
+word-chunks instead of flowing prose, check two things: (1) `RichText` still returns a real
+wrapping element, and (2) the immediate parent markup around `<RichText/>` isn't itself
+`flex`/`grid` with `RichText` as one of several siblings inside it — put `RichText` inside its
+own non-flex block (a `<p>`/`<span>`) and make THAT block the flex item, not `RichText` directly.
+
+## Study guide emphasis markup
+
+`content/study-guides/*.json` bullet/table-cell/trap/gap text may contain `**bold**`/`*italic*`
+markdown-lite markup, rendered by `components/rich-text.tsx` (`RichText`). Two layers:
+
+1. **Manual/curated** (`scripts/lib/emphasize.ts`, run via `scripts/emphasize-study-guides.ts`):
+   bolds clinically-loaded abbreviations (2+ consecutive uppercase letters/digits — real prose
+   essentially never does this by accident, e.g. `NICE`, `SSRI`, `DSM-5`, `STAR*D`) and a curated
+   drug-name list. A short stoplist (`SR`/`XR`/`CR`/etc.) prevents double-bolding a drug's
+   release-form suffix right next to the drug name itself. Re-run this script (idempotent-ish,
+   but re-review a sample after) if you add a new study guide topic or want more drugs covered —
+   don't hand-type `**`/`*` into 15 files individually.
+2. **Automatic, rendering-only** (`RichText` itself): highlights standalone numbers/percentages/
+   doses/durations in plain (non-emphasized) text with a colored span — no markup needed, no
+   script to re-run, applies everywhere `RichText` is used (study guides, source notes, quiz
+   explanations).
+
+`components/table-chart.tsx` auto-renders a bar chart above a table only when every non-label
+column is a clean number/percentage/range in every row (2-6 cols, 2-12 rows) — verified against
+the real content before shipping, only a handful of tables actually qualify (e.g. STAR*D
+remission rates). Don't loosen this to force more tables into charts; a table that doesn't fit
+this shape shouldn't become a misleading chart.
+
 ## Working conventions
 
 - pnpm, not npm/yarn (already on this machine).
