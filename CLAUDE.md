@@ -269,25 +269,84 @@ own non-flex block (a `<p>`/`<span>`) and make THAT block the flex item, not `Ri
 ## Study guide emphasis markup
 
 `content/study-guides/*.json` bullet/table-cell/trap/gap text may contain `**bold**`/`*italic*`
-markdown-lite markup, rendered by `components/rich-text.tsx` (`RichText`). Two layers:
+markdown-lite markup, rendered by `components/rich-text.tsx` (`RichText`). This is manual/curated
+only (`scripts/lib/emphasize.ts`, run via `scripts/emphasize-study-guides.ts`): bolds
+clinically-loaded abbreviations (2+ consecutive uppercase letters/digits — real prose essentially
+never does this by accident, e.g. `NICE`, `SSRI`, `DSM-5`, `STAR*D`) and a curated drug-name list.
+A short stoplist (`SR`/`XR`/`CR`/etc.) prevents double-bolding a drug's release-form suffix right
+next to the drug name itself. Re-run this script (idempotent-ish, but re-review a sample after)
+if you add a new study guide topic or want more drugs covered — don't hand-type `**`/`*` into 15
+files individually.
 
-1. **Manual/curated** (`scripts/lib/emphasize.ts`, run via `scripts/emphasize-study-guides.ts`):
-   bolds clinically-loaded abbreviations (2+ consecutive uppercase letters/digits — real prose
-   essentially never does this by accident, e.g. `NICE`, `SSRI`, `DSM-5`, `STAR*D`) and a curated
-   drug-name list. A short stoplist (`SR`/`XR`/`CR`/etc.) prevents double-bolding a drug's
-   release-form suffix right next to the drug name itself. Re-run this script (idempotent-ish,
-   but re-review a sample after) if you add a new study guide topic or want more drugs covered —
-   don't hand-type `**`/`*` into 15 files individually.
-2. **Automatic, rendering-only** (`RichText` itself): highlights standalone numbers/percentages/
-   doses/durations in plain (non-emphasized) text with a colored span — no markup needed, no
-   script to re-run, applies everywhere `RichText` is used (study guides, source notes, quiz
-   explanations).
+`RichText` deliberately does NOT auto-highlight numbers/percentages/doses inline (it used to; this
+was removed to match the reference design's own emphasis language — see "Print-document design
+system" below, which relies only on color-blocking in tables/boxes, never inline text
+decoration). Don't re-add per-number coloring without re-checking that decision.
 
-`components/table-chart.tsx` auto-renders a bar chart above a table only when every non-label
-column is a clean number/percentage/range in every row (2-6 cols, 2-12 rows) — verified against
-the real content before shipping, only a handful of tables actually qualify (e.g. STAR*D
-remission rates). Don't loosen this to force more tables into charts; a table that doesn't fit
-this shape shouldn't become a misleading chart.
+Do not set an explicit theme-token text color (`text-foreground`, etc.) on `RichText`'s
+`<strong>`/`<em>` — they intentionally inherit color from their parent so the same component
+renders correctly both inside the theme-aware app chrome (Source Notes tab) and inside the
+always-light study-guide "paper" content (see below), which fixes text to a literal hex
+regardless of app theme. An explicit theme-token color there would win over the parent's literal
+color and make bold/italic text unreadable in dark mode inside the always-light paper.
+
+There is no auto-chart-from-table feature — `components/table-chart.tsx` and
+`components/ui/chart.tsx` were deleted (the reference design never uses charts, only
+tables/text/boxes; don't re-add this without re-checking that decision too).
+
+## Print-document design system (`components/study-guide-view.tsx`)
+
+The Study Guide tabs (Full Guide/Notes/Tables/Mnemonics/Traps/Gaps) are styled to visually match
+two reference PDFs the user actually studied from
+(`resources/paper-b/study-format-design-reference/`), not a generic app aesthetic — the user's
+own words: it should feel like reading a printed study document, not browsing a website.
+
+**The palette is literal hex values extracted from the reference PDFs, not Tailwind's stock
+colors** — `lib/category-colors.ts` exports `CATEGORY_COLOR_CLASSES` (teal/orange/red/gray/blue/
+purple: header bg, alternating-row tint, border, text) plus `DEFAULT_TABLE_COLORS` (navy —
+**every** table in the reference has a colored header, there's no neutral/plain table; tables
+with no `category` get this navy default) and `COMPARISON_TABLE_COLORS` (reuses gray, for
+`comparison`-type blocks). Row striping **alternates** by index (`ri % 2`) even within a
+category-colored table — don't tint every row uniformly, that doesn't match the source.
+
+**This content is pinned to a fixed light "paper" look regardless of the app's light/dark
+theme** — confirmed with the user explicitly. The `Paper` wrapper component sets
+`bg-white text-[#1A1A1A]` via literal Tailwind arbitrary values, never theme tokens
+(`bg-background`/`text-foreground`/etc.), and none of the block-view components use `dark:`
+variants. Only the surrounding app chrome (header bar, `TabsList`, sidebar) still follows the
+app's normal theme — the split is deliberate, not an oversight.
+
+Two structural details that are easy to get wrong (both were wrong in an earlier pass — verified
+against every page of the reference PDFs, not samples, before fixing):
+- **Exam trap boxes have a full border on all four sides** (`border-2`), not a left-accent
+  border.
+- **"MCQ Traps — Remember These!" lists have NO box at all** — just a colored heading
+  (`text-[#C0392B]`, ⚡) followed by a plain bullet list in normal body-text color. Don't wrap
+  this in an `Alert`/card — that was tried once and was a genuine misread of the reference.
+
+**Deliberate, disclosed scope cuts** (don't "fix" these without re-reading the plan/CLAUDE-md
+history first): the reference sometimes nests lettered sub-sections inside a numbered section
+(e.g. "1. Defence Mechanisms" containing "A. Mature Defences", "B. ...") — our content stays
+flattened to one heading level per `Section`, not revisited. All `paragraph` blocks render as a
+plain bulleted list (small round bullet) rather than distinguishing flowing prose from condensed
+facts, since the schema doesn't carry that distinction. One exceptional highlighted row inside an
+otherwise-plain reference table (seen once in the source) isn't reproduced — no per-row metadata
+for it.
+
+Content sits inside a `max-w-[820px] mx-auto` container (`Paper`) so line length stays readable
+even when the PDF panel is hidden and the notes column spans a full wide viewport — this must sit
+*inside* the existing `flex-1 overflow-y-auto` chain, never introduce `min-h-*` here (see "Layout
+height must be bounded" above — this exact class of change caused a real freeze bug once).
+
+**PDF panel toggle + mobile** (`components/topic-view.tsx`): a `pdfOpen` state toggled by a header
+button; on desktop the second `ResizablePanel` (holding `PdfViewer`) is only mounted when
+`pdfOpen`, collapsing the notes panel to 100% width otherwise (resizing still works when both
+panels are present). On mobile (`useIsMobile()` from `hooks/use-mobile.ts` — the same hook
+`components/ui/sidebar.tsx` already uses for its own desktop-panel-vs-mobile-sheet split, not a
+new pattern), there's no `ResizablePanelGroup` at all — notes render full-width and the PDF opens
+in a `Sheet` (`side="bottom"`, explicit `h-[90vh]` since bottom sheets default to `h-auto`).
+Clicking a citation (`onCite`) always sets `pdfOpen(true)` too, so citing while the panel/sheet is
+closed opens it automatically on both layouts.
 
 ## Working conventions
 
