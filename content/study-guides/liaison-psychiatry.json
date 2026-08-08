@@ -110,7 +110,69 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Severe PMS prevalence",
+            "value": "3-==8%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "PMS/PMDD mood-disorder comorbidity",
+            "value": "30-==70%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "SSRI response rate (PMS)",
+            "value": "60-==90%== vs 30-==40%== placebo",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**PMDD** (**DSM-5**) needs ≥5 of 11 symptoms (≥1 core: depressed mood/anxiety/affective lability/anger-irritability), confined to the late luteal phase, confirmed by ≥2 cycles of prospective daily ratings.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**SSRI** in **PMS** differs from depression: low sexual side-effect rate, intermittent (luteal-phase) dosing more effective, effect within days not weeks, no akathisia/suicidality signal.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Intermittent luteal-phase dosing is cheaper, has fewer withdrawal effects, and is more effective than continuous dosing for core symptoms (Wikander 1998), though less effective for somatic symptoms.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Hormonal ovulation suppression (GnRH agonist etc.) should be a last resort given early-menopause implications; remission after stopping treatment is low.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          7
+        ]
+      }
     },
     {
       "id": "cardiac-psychiatry",
@@ -177,7 +239,63 @@
             "questionNumber": 7
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "CHD patients with comorbid depression",
+            "value": "==20%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "CHF depression prevalence",
+            "value": "~==21.5%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Depressed vs non-depressed CHF mortality risk",
+            "value": "~2:1",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**SADHART** (**sertraline** vs placebo post-**MI**): no safety signal, nonsignificant reduction in **MI**/**CHD** death (**RR** 0.77), greater benefit in severe/recurrent depression.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**ENRICHD** (**CBT**) and **MIND-IT** trials had only modest effect on depression and neither improved survival.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**Sertraline** is drug of choice post-**MI** depression; avoid **fluvoxamine**/**citalopram**/**escitalopram**; avoid antidepressants in the first 2 months post-**MI**; consider **mirtazapine**/low-dose **trazodone** if sedation is needed.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          6
+        ]
+      }
     },
     {
       "id": "endocrine-metabolic",
@@ -249,7 +367,71 @@
             "questionNumber": 30
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Hyperthyroidism → mainly anxiety, also depression/irritability/hypomania; hypothyroidism (M:F 1:6) → depression often misdiagnosed as primary **MDD**, myxoedema madness in severe cases; subclinical hypothyroidism raises depression and bipolar rapid-cycling risk.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Hyperparathyroidism tracks serum calcium: mild-moderate → depression/apathy; severe (>14mg/dL) → delirium with psychosis/catatonia/coma. Hypoparathyroidism: mild hypocalcaemia → anxiety; severe → mania/psychosis/tetany/seizures.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Cushing's syndrome: depression is the most common psychiatric symptom, then anxiety, hypomania/mania, psychosis; exogenous steroids cause more mania than endogenous excess.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Addison's disease: apathy/anhedonia/fatigue/depressed mood may mimic **MDD**, but nausea/vomiting/skin pigmentation point to Addison's.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Pheochromocytoma mimics panic attacks (episodic tachycardia, labile hypertension, sweating); best diagnostic test is a plasma metanephrine level (more specific than urinary **VMA**).",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Depression is 2-3x more common in diabetics, linked to poorer glycaemic control; frequent hyperglycaemia (not hypoglycaemia) is the more common route to cognitive impairment.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Subclinical hypothyroidism specifically (not hyper/hypoparathyroidism, hyperthyroidism, or hypopituitarism) is the tested risk factor for both depression and bipolar rapid cycling.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 1,
+              "questionNumber": 1
+            }
+          },
+          {
+            "text": "**SLE** can mimic bipolar mania - a vignette with elated mood plus sun-worsened facial rash and mouth ulcers should trigger **SLE** suspicion, not primary bipolar disorder.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 35,
+              "questionNumber": 30
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "renal-psychotropic-prescribing",
@@ -367,7 +549,51 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "**Lorazepam** half-life rises from 8-25h to 32-72h in end-stage renal disease - halve the dose at low renal function.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**Citalopram**: halve the dose in renal impairment/elderly. **Paroxetine**: half-life considerably increased in severe impairment, reduce dose. **Fluoxetine**/**fluvoxamine**/**imipramine**/**amitriptyline**: no dose change needed. **Sertraline**: manufacturer doesn't recommend use in renal impairment.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**Amisulpride** is almost exclusively renally excreted - relative contraindication in renal failure. **Risperidone**'s elimination half-life is prolonged in renal impairment. **Lithium** is best avoided or used at low dose.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Uraemic encephalopathy occurs once **GFR** falls to ==10%== of normal - reversible with dialysis, transplant, or treating the underlying disease.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Dialysis disequilibrium syndrome occurs during/after early dialysis sessions, more common in younger patients and those with pre-existing neurological problems; mostly cerebral-oedema mediated.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3,
+          4
+        ]
+      }
     },
     {
       "id": "palliative-care",
@@ -444,7 +670,55 @@
             "questionNumber": 10
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Major depression prevalence in advanced cancer",
+            "value": "5-==15%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Delirium prevalence in cancer inpatients",
+            "value": "~==44%==, rising to ==62%== near death",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Somatic symptoms are not useful for diagnosing depression in advanced cancer - pervasive global anhedonia is the more useful criterion.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**SSRI** evidence in palliative depression is feeble/largely empirical, not well-established; low-dose **amitriptyline** helps neuropathic pain but raises delirium risk; **lofepramine**/rapid psychostimulants suit patients with only weeks of life.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Delirium in palliative care does **NOT** always respond to neuroleptics - **haloperidol**/**lorazepam** are frequently used but not always successful, especially in the hypoactive subtype.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          7
+        ]
+      }
     },
     {
       "id": "other-medical-neuropsychiatric",
@@ -498,7 +772,55 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Lyme disease: erythema migrans within 4 weeks; ~==15%== develop neuroborreliosis (rare in **UK**); late-stage disease can mimic almost any encephalopathy/psychiatric disorder, often compared to neurosyphilis.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**SLE**: depression/anxiety common especially early after diagnosis; psychosis rare; **CNS** manifestations include seizures, chorea, cognitive impairment, stroke, a limbic-encephalitis-type picture.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Insulinoma can mimic psychosis/depression; classically recurrent headache, lethargy, diplopia/blurred vision worse with exercise/fasting.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Neurosarcoidosis: depression in ==20%==, psychosis rare; erythema nodosum on the shin; **ACE** elevated; treated with immunosuppression.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Metachromatic leucodystrophy: nearly ==60%== of adolescent-onset cases have schizophrenia-like psychosis (not seen in younger-onset cases).",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Neuroacanthocytosis: movement disorder with personality change, cognitive deterioration, seizures; acanthocytosis affects 10-==30%== of erythrocytes.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "multiple-sclerosis",
@@ -600,7 +922,84 @@
             "questionNumber": 12
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "UK lifetime MS risk",
+            "value": "1:8000",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "MS depression lifetime prevalence",
+            "value": "40-==50%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "ECT relapse-trigger risk in MS",
+            "value": "==20%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Suicidal ideation cross-sectional in MS",
+            "value": "~==30%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Drug-induced low mood differential in **MS**: steroids (most likely), **baclofen**, dantrolene, tizanidine. Interferon-**ALPHA** (not beta) is clearly linked to depression; the beta-interferon association is contested.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Mild-to-moderate steroid-induced mania occurs in up to 1/3 (not 2/3) of steroid-treated **MS** patients, linked to family/premorbid affective disorder or alcoholism history.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**MRI**: mania-with-psychosis plaques localise to bilateral **TEMPORAL HORN** areas, not a frontal distribution.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Pathological laughing/crying: ==66%== responded to **amitriptyline** 75mg/day in one study; amantadine, **levodopa**, **fluoxetine**, **sertraline**, **citalopram** have also shown benefit.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Cognitive impairment in **MS** is subcortical and not well screened by **MMSE**; **donepezil** improved memory in an **RCT**.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 26
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          6
+        ]
+      }
     },
     {
       "id": "stroke",
@@ -711,7 +1110,53 @@
             "questionNumber": 19
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Mean duration of post-stroke major depression is 34 weeks; major depression is common with basal-ganglia infarcts, especially on the left (though left-hemisphere depressogenicity is contested).",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "National stroke guideline: screen for depression/anxiety in the first month, continue antidepressants ≥4 months after a good response, don't use antidepressants routinely to prevent depression onset; both **fluoxetine** and **citalopram** have **RCT** support.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "The post-stroke antidepressant \"best evidence\" answer varies by option list - both **nortriptyline** and **fluoxetine** are marked correct in different questions.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 57,
+              "questionNumber": 51
+            }
+          },
+          {
+            "text": "Lesion proximity to the **LEFT** frontal lobe predicts post-stroke depression.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 34,
+              "questionNumber": 34
+            }
+          },
+          {
+            "text": "Vascular depression: psychomotor retardation, anhedonia, lack of insight, executive dysfunction, but patients are **LESS** likely to report guilt than in primary depression.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 24,
+              "questionNumber": 19
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "epilepsy-nes",
@@ -856,7 +1301,78 @@
             "questionNumber": 31
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Depression in epilepsy",
+            "value": "30-==50%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Psychosis in epilepsy",
+            "value": "3-==7%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Mortality multiplier with comorbid depression",
+            "value": "~25x",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "SSRIs are first-line for depression in epilepsy (rare seizure-threshold reduction); **lithium** can increase seizure severity/lower threshold.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Episodic psychosis in epilepsy is most often post-ictal; antiepileptic-drug-related psychosis lasts <1 week; **vigabatrin** is especially associated with psychosis; **sulpiride**/**haloperidol** may be less epileptogenic.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Pseudoseizures associate with past psychiatric history, somatisation, childhood abuse; incontinence has no diagnostic value; postictal serum prolactin >1000 **IU**/l (measured within 15 min) supports true epilepsy.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Antipsychotic epileptogenicity: **sulpiride**/**haloperidol**/**trifluoperazine** low risk; **chlorpromazine** most epileptogenic (avoid); **clozapine** lowers the seizure threshold.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 30,
+              "questionNumber": 30
+            }
+          },
+          {
+            "text": "Antidepressant choice in epilepsy: **moclobemide** is not proconvulsant, SSRIs are generally good; most TCAs and **bupropion** are best avoided; **mirtazapine**/**venlafaxine**/**reboxetine**/**duloxetine** need care.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 74,
+              "questionNumber": 68
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          5,
+          6
+        ]
+      }
     },
     {
       "id": "parkinsons-disease",
@@ -990,7 +1506,87 @@
             "questionNumber": 58
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "All psychiatric symptoms in PD",
+            "value": "==70%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "PD depression",
+            "value": "40-==50%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "PD dementia",
+            "value": "25-==40%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Depression risk factors: female gender, younger onset, prominent right-sided lesions, bradykinesia/gait disturbance, rapid progression, poorer cognitive status/ADLs.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "De novo mania is rare in **PD** - mostly related to **levodopa**/dopamine-agonist treatment, especially with pre-existing bipolar disorder/family history; **levodopa** can also cause pathological gambling/hypersexuality/hallucinations.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Low-dose **clozapine** (<100mg/day) or **quetiapine** improve psychosis without worsening Parkinsonism; **rivastigmine** is useful in the closely related Lewy body dementia; no drug is yet licensed for **PD**-related dementia.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Cognitive-impairment risk factors: older age, **LATE**-onset **PD**, **LOW** socioeconomic status/education, severe extrapyramidal signs - the reverse pairing is the common distractor set.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 45,
+              "questionNumber": 45
+            }
+          },
+          {
+            "text": "Cognitive impairment **WORSENS** **PD** prognosis (reflects frontal-cortical circuit dysfunction) - it does not improve outcome.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 46,
+              "questionNumber": 46
+            }
+          },
+          {
+            "text": "**Quetiapine**: 8 open-label studies (191 pts, ~==80%== improvement) plus 2 single-blind RCTs show efficacy similar to **clozapine** for **PD** psychosis, not attributable to reduced **levodopa** dose.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 58,
+              "questionNumber": 58
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          6,
+          8
+        ]
+      }
     },
     {
       "id": "huntingtons-disease",
@@ -1126,7 +1722,89 @@
             "questionNumber": 54
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "HD psychiatric symptoms at first presentation",
+            "value": "==30%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "HD presenting with schizophreniform psychosis first",
+            "value": "3-==6%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "CAG repeats explaining onset-age variation",
+            "value": "~==60%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "HD suicide rate vs general population",
+            "value": "4x",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**HD** gene (huntingtin, **CAG** repeat) is on the **SHORT** arm of chromosome 4; ≥41 repeats = full penetrance, 36-40 = incomplete (~==95%== penetrance even at 36-39), ≤35 not associated with disease. Inheritance shows anticipation.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Lifetime suicide risk in **HD** is quoted as 10-==15%== absolute (up to ==12.7%==, rising after age 50) - distinct from the separate 4-6x relative-risk figure; suicide is the 3rd commonest cause of death after pneumonia/cardiovascular disease.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 50,
+              "questionNumber": 50
+            }
+          },
+          {
+            "text": "The most common behavioural change in **HD** (Craufurd 2001) is lack of initiative, not disinhibition/aggression/agitation, followed by poor judgement/blunted affect/poor self-care.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 51,
+              "questionNumber": 51
+            }
+          },
+          {
+            "text": "**HD** dementia is **SUBCORTICAL** (vs Alzheimer's cortical pattern): early executive dysfunction, with language/visuospatial function/semantic memory relatively preserved until late.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 52,
+              "questionNumber": 52
+            }
+          },
+          {
+            "text": "Genetic testing for **HD** is advised even without a known family history, since sporadic new mutations occur.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 54,
+              "questionNumber": 54
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3,
+          7
+        ]
+      }
     },
     {
       "id": "wilsons-fahrs-meige",
@@ -1203,7 +1881,61 @@
             "questionNumber": 6
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Wilson's disease exclusively psychiatric presentation",
+            "value": "==20%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Wilson's disease depression",
+            "value": "==30%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Fahr's disease patients with psychiatric problems",
+            "value": "==50%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Kayser-Fleischer rings: ==95%== with neurological symptoms, 50-==60%== without, only ==10%== of asymptomatic siblings; **MRI** shows the \"giant panda sign\"; copper-chelating treatment can improve most manifestations if started early.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Fahr's disease: onset 20-40y associates with schizophreniform psychosis/catatonia; onset 40-60y associates with dementia/choreoathetosis; psychiatric problems correlate with more extensive calcification.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Meige syndrome (oral facial dystonia): more common in **WOMEN**, usually middle age; primary form idiopathic, secondary form caused by antipsychotics/**levodopa**/Lewy body dementia; disappears with sleep.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "transient-global-amnesia",
@@ -1249,7 +1981,37 @@
             "questionNumber": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "**TGA** criteria: witnessed attack, clear-cut anterograde amnesia only (no aphasia/apraxia), no focal signs/epileptic features/clouded consciousness, resolves within 24h, excludes recent head injury/active epilepsy.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Incidence 5-10/100,000/year, rising to 30/100,000 over age 50; mostly temporal/parietotemporal hypoperfusion (particularly left hemisphere); episodes last 6-24h with high recurrence but usually complete recovery.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**TGA** also produces retrograde amnesia in addition to anterograde amnesia; most severe in the first 1-2 hours; by definition never exceeds 24h.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "herpes-simplex-encephalitis",
@@ -1315,7 +2077,86 @@
             "questionNumber": 4
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "HSE caused by HSV-1",
+            "value": "==70%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "HSE showing psychiatric disturbance",
+            "value": "==70%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "CSF PCR sensitivity/specificity",
+            "value": "~==95%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Untreated case fatality",
+            "value": "~==70%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Case fatality with IV aciclovir",
+            "value": "20-==30%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Imaging shows temporal-lobe signal change/swelling (**MRI** is the imaging of choice); **CSF** shows lymphocytosis/raised protein; **EEG** is invariably abnormal.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**HSE** is the most common human cause of Kluver-Bucy syndrome (emotional blunting, hyperphagia, visual agnosia, inappropriate sexual behaviour) via bilateral temporal damage; **carbamazepine** may help.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**HSE** most commonly causes amnesia among the encephalitis differentials; **HSV-1** predominates in adults/children >3 months, **HSV-2** in neonates.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 41,
+              "questionNumber": 36
+            }
+          },
+          {
+            "text": "Abrupt-onset confusion is the clinical feature most suggestive of **HSE** (vs chorea/anxiety/myoclonus/dystonia).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 4
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "tbi-post-concussion",
@@ -1436,7 +2277,59 @@
             "questionNumber": 40
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Post-traumatic amnesia duration maps to injury severity: <60min mild (RTW <1mo), 1-24h moderate (<2mo), 1-7d severe (<4mo), >7d very severe (>1yr).",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Poor psychiatric-morbidity prognostic factors: long **LOC**/**PTA**, elderly, chronic alcohol use, diffuse brain damage, new-onset seizures, focal damage to the **DOMINANT** lobe; **LOC**/**PTA** predict functional outcome better than **GCS**.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Depression (with anxiety, roughly 1/4 of survivors) is the most common late sequela; left-frontal lesions predict depression; left-temporal injury links to paranoid schizophrenia-like psychosis, right temporal/orbitofrontal to affective psychosis/mania.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Post-concussion syndrome: at least ==50%== recover fully within 3 months; slower recovery with age >40, prior head injury, or alcohol/substance misuse; a single early hour-long assessment/education session significantly reduces persisting symptoms.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Focal damage to the **NON**-dominant lobe is specifically **NOT** a poor-prognosis factor - dominant-lobe damage is.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 11,
+              "questionNumber": 11
+            }
+          },
+          {
+            "text": "Speed of information processing is the cognitive faculty most affected in post-concussion syndrome (not visual memory/line orientation/digit span/time perception).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 22,
+              "questionNumber": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "sleep-disorders",
@@ -1536,7 +2429,92 @@
             "questionNumber": 14
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Narcolepsy prevalence",
+            "value": "==0.025%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "Narcolepsy cataplexy",
+            "value": "==75%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "OSA in men / women",
+            "value": "==4%== / ==2.5%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "RLS prevalence (median)",
+            "value": "==7.2%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Delayed sleep phase syndrome is the most common circadian disorder; narcolepsy is associated with **HLA-DQB1*0602** and low **CSF** hypocretin-1; polysomnogram shows sleep latency <10min with sleep-onset **REM**.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "**REM** sleep behaviour disorder: loss of **REM** atonia, dreams acted out, occurs middle-to-latter third of the night; may be prodromal to Parkinson's/Lewy body dementia/multiple system atrophy; **clonazepam** is effective, a safe sleep environment is first-line.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Restless legs syndrome is an **AWAKE**, worse-at-rest/night phenomenon; check ferritin (iron deficiency predisposes); treat with non-ergot dopamine agonists (**ropinirole** first licensed), **gabapentin**, **clonazepam**, or oral iron if low ferritin.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Periodic limb movement disorder is an **ASLEEP** phenomenon (contrast **RLS**, an awake phenomenon); common in **RLS** (80-==90%==), narcolepsy, **REM** behaviour disorder; treat only if there's clear sleep disruption.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Initial insomnia → anxiety disorders; middle insomnia → medical illness/pain/depression; terminal insomnia → major depression.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Sleep terrors occur in **NREM** slow-wave sleep, first third of the night, with autonomic hyperactivity AND **increased** muscle tone (unlike **REM** behaviour disorder's acting-out/recall pattern), lasting 5-10min with no dream recall.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 14
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          6,
+          10
+        ]
+      }
     },
     {
       "id": "chronic-fatigue-syndrome",
@@ -1749,7 +2727,117 @@
           "subtopic": "Current NICE guidance on ME/CFS (NG206, 2021)",
           "note": "The book notes cite older **CDC** (1994) diagnostic criteria and older graded-exercise-therapy evidence. **NICE** **NG206** (2021) substantially revised **UK** guidance on **CFS**/**ME**, notably de-emphasising **GET** as a curative treatment - this guide reflects only the **SPMM** source material's (older) framing. Cross-check current **NICE** guidance before relying on the **GET**/**CBT** efficacy figures here for exam answers that specify \"current **NICE** guidance\"."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "UK CFS prevalence (excl. comorbid psych disease)",
+            "value": "==0.5%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "CFS diagnostic duration",
+            "value": "≥6 months",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "Unable to work",
+            "value": "==33%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "CBT improvement rate",
+            "value": "~==70%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "GET improvement rate",
+            "value": "~==55%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "Current major depression in CFS",
+            "value": "==23%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**CDC** (1994) criteria: unexplained chronic fatigue ≥6 months, not relieved by rest, plus ≥4 of impaired memory/sore throat/tender nodes/muscle-joint pain/headaches/unrefreshing sleep/post-exertional malaise; excludes major psychotic/bipolar/eating/substance disorders but NOT non-psychotic psychiatric disorders.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Poor-outcome predictors (Powell 2004): claiming disability benefit, low sense of control, symptom-focus, passivity/reduced activity, self-help group membership - severity/duration are **NOT** useful predictors.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "**HPA**-axis and serotonin-pathway abnormality is the most consistent aetiological finding; 1/3 have **CNS**-origin (not primary adrenal) hypocortisolism.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "**CBT**/graded exercise therapy are the only evidence-based treatments; medication added to **CBT** improved outcomes but **CBT** added to medication did not (timing matters, Stubhaug 2008).",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Pacing is patient-group-recommended but of questionable effectiveness - **NICE** includes it only on consensus grounds; might prolong illness via avoidance.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Full spontaneous recovery is rare (<==10%== over 5 years); **CFS** is not associated with increased mortality; distinguished from depression by serotonergic direction, **HPA**-axis direction, sleep pattern, and antidepressant non-response.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Significant weight loss is specifically **NOT** characteristic of **CFS** - it's a **NICE** red-flag prompting investigation for an alternative serious illness.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 16,
+              "questionNumber": 13
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          7,
+          10,
+          13,
+          15
+        ]
+      }
     },
     {
       "id": "chronic-pain",
@@ -1787,7 +2875,41 @@
             "page": 18
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "**DSM-5**'s Somatic Symptom and Related Disorders (**SSD**) is diagnosed on **POSITIVE** symptoms/signs (distressing symptoms plus abnormal thoughts/feelings/behaviours), not on absence of a medical explanation.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Pain is the most common presenting somatic symptom in medical outpatients; treatments that improve depression give moderate pain reductions via a shared central pain-modulation mechanism.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Atypical/persistent idiopathic facial pain: unilateral, poorly localised, doesn't fit any cranial neuralgia, no sensory loss/imaging abnormality; depression/anxiety prevalent.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "**BAP** guidelines (Cleare 2015): no compelling evidence SNRIs outperform SSRIs for pain symptoms in depression; no useful predictive biological factor for antidepressant response identified.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 18
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "hiv-aids-psychiatry",
@@ -1999,7 +3121,123 @@
           "subtopic": "Reference list currency",
           "note": "The book notes' **HIV**/**AIDS** treatment section (antiretroviral psychiatric effects, zidovudine for **HIV** dementia, protease-inhibitor **CSF** penetration) cites sources from the 1990s-2000s and predates modern combination antiretroviral therapy (cART) regimens. Treat drug-specific **HIV** psychiatric side-effect and dementia-treatment claims here as historically accurate to the source but verify current antiretroviral regimens/side-effect profiles against up-to-date **HIV** medicine guidance before using them as current clinical fact."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Adjustment disorder in HIV",
+            "value": "5-==20%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "Depression in HIV",
+            "value": "~==40%== (30-==60%== lifetime)",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "HIV dementia diagnostic duration",
+            "value": "1 month",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 18
+            }
+          },
+          {
+            "label": "Efavirenz neuropsychiatric effects",
+            "value": "==46%==",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 29
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Depression is the most common **HIV** psychiatric disorder, higher in women; some criteria (sleep/weight loss) overlap with **HIV** symptoms, spuriously inflating rates.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "TCAs/SSRIs are equally effective; SSRIs are safer in overdose and can start at ==25%== usual dose; interpersonal psychotherapy is particularly beneficial (Markowitz).",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Mania is the most frequent reason for psychiatric hospitalisation in **HIV** (ahead of depression, then psychosis); linked to illicit drug use and iatrogenic causes (didanosine, ganciclovir, stavudine, steroids, zidovudine); new-onset mania in advanced disease predicts reduced survival.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 27
+            }
+          },
+          {
+            "text": "**AIDS** dementia complex: present at initial diagnosis in ==3%==, incidence ==7%==/year in the first 2 years post-diagnosis, ==15%== develop dementia over the disease course.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 27
+            }
+          },
+          {
+            "text": "Naming/vocabulary are preserved even late in **HIV** dementia (subcortical pattern); bilateral ring-enhancing lesions suggest toxoplasmosis, contrast-enhancing mass lesions suggest primary **CNS** lymphoma.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 28
+            }
+          },
+          {
+            "text": "Zidovudine has evidence for preventing cognitive decline; didanosine doesn't affect progression; there's no protease-inhibitor trial data (poor **CSF** penetration); **methylphenidate** repeatedly improves cognitive symptoms.",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 28
+            }
+          },
+          {
+            "text": "Antiretroviral psychiatric effects: zidovudine → confusion/mania/depression; mania specifically linked to didanosine; efavirenz causes significant neuropsychiatric effects (~==6%== stop the drug because of them).",
+            "source": {
+              "file": "books/7-3-liaison-psychiatry.pdf",
+              "page": 29
+            }
+          },
+          {
+            "text": "Antiretroviral therapy itself is specifically **NOT** a common cause of depression in **HIV** - shared risk factors (advanced infection, lost social support, personal/family depression history) are the tested causes.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 14
+            }
+          },
+          {
+            "text": "**HIV** dementia is classified as a **PRIMARY** organic disorder (direct viral **CNS** damage) - distinct from secondary organic (opportunistic/drug-related) and reactive (e.g. adjustment) disorders.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 16,
+              "questionNumber": 16
+            }
+          },
+          {
+            "text": "The diagnostic duration for **HIV** dementia is only 1 month, not the 1-year distractor; diagnosis is clinical (labs alone insufficient).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 18
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          9,
+          20
+        ]
+      }
     },
     {
       "id": "somatoform-factitious-dissociative",
@@ -2078,7 +3316,73 @@
             "questionNumber": 66
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Hypochondriasis comorbid with GAD",
+            "value": "==71%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 72,
+              "questionNumber": 66
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**ICD-11** bodily distress disorder requires distressing bodily symptoms with excessive attention and repeated healthcare contact, most days for several months+; may involve a single or multiple symptoms.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 16
+            }
+          },
+          {
+            "text": "Hoover's sign identifies conversion paralysis: the patient can't voluntarily lift the affected leg but involuntarily presses down with the affected heel when lifting the unaffected leg.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 3
+            }
+          },
+          {
+            "text": "\"Doctor-shopping\" is specifically associated with somatisation disorder (not depression/Munchausen/hypochondriasis/conversion), often with staff-splitting and iatrogenic-harm risk.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 66,
+              "questionNumber": 60
+            }
+          },
+          {
+            "text": "Somatisation disorder affects **MULTIPLE** organ systems, has onset before age 40, and produces long complex medical histories.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 67,
+              "questionNumber": 61
+            }
+          },
+          {
+            "text": "Munchausen syndrome involves intentional, conscious falsification with primary gain being medical attention itself, unlike malingering (external gain).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 8,
+              "questionNumber": 8
+            }
+          },
+          {
+            "text": "**ICD-10** classifies trance and possession disorder under dissociative disorders, reflecting implied psychological causation.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 59,
+              "questionNumber": 53
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4
+        ]
+      }
     },
     {
       "id": "dsh-suicide-risk",
@@ -2112,7 +3416,42 @@
             "questionNumber": 63
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Suicide risk within 1 year of DSH",
+            "value": "~==0.7%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 68,
+              "questionNumber": 62
+            }
+          },
+          {
+            "label": "Risk multiplier vs general population",
+            "value": "~66x",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 68,
+              "questionNumber": 62
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Completed-suicide risk factors: **MALE** sex, older age, single/divorced/widowed, living alone, unemployment, previous **DSH**, any mental disorder (greatest with major depression/anorexia), alcohol/drug dependence, recent psychiatric admission, concurrent physical illness.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 69,
+              "questionNumber": 63
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "reproductive-perinatal-pharmacology",
@@ -2213,7 +3552,93 @@
           "subtopic": "Antenatal/perinatal psychopharmacology depth",
           "note": "A cluster of pregnancy/breastfeeding psychopharmacology questions appears in this question bank (**SSRI** in pregnancy, **valproate**/**lithium**/**lamotrigine** in pregnancy and breastfeeding, postpartum psychosis relapse rates) with no corresponding book-notes coverage under liaison-psychiatry. These are captured above from question explanations only - cross-check against the Maudsley Prescribing Guidelines chapter on prescribing in pregnancy/breastfeeding and the dedicated Perinatal Psychiatry topic (if present in this course) for fuller coverage."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Late-pregnancy **SSRI** exposure most often causes neonatal irritability/discontinuation symptoms (not NTDs/facial abnormalities/Ebstein's anomaly/bleeding); short-half-life drugs (**paroxetine**, **venlafaxine**) carry higher discontinuation-symptom risk.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 20
+            }
+          },
+          {
+            "text": "**MADRS** monitors antidepressant response (remission ≤10); the **EPDS** is for postpartum screening specifically, not treatment-response tracking.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 28,
+              "questionNumber": 23
+            }
+          },
+          {
+            "text": "Bipolar relapse prevention while breastfeeding: sodium **valproate** is preferred over **lithium** (infant thyroid dysfunction/tone/**ECG** risk with lithium).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 33,
+              "questionNumber": 28
+            }
+          },
+          {
+            "text": "First-trimester bipolar relapse prevention: **NICE** recommends switching to an antipsychotic (e.g. **olanzapine**) rather than any mood stabiliser, since none is clearly safe in the first trimester.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 43,
+              "questionNumber": 38
+            }
+          },
+          {
+            "text": "Folate doesn't prevent anticonvulsant-induced neural tube defects if started only once pregnancy has begun (may help if pre-conception), but should always be offered for its neurodevelopmental benefit.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 45,
+              "questionNumber": 40
+            }
+          },
+          {
+            "text": "**Fluoxetine** is preferred over **paroxetine**/**sertraline**/**citalopram**/**venlafaxine** for depression in pregnancy per the Maudsley Guidelines.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 46,
+              "questionNumber": 41
+            }
+          },
+          {
+            "text": "Postpartum schizophrenia relapse occurs in ~==16%== within 12 months - a less common, different pattern from bipolar postpartum relapse risk.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 51,
+              "questionNumber": 45
+            }
+          },
+          {
+            "text": "\"Baby blues\" affects up to 3/4 of new mothers, onset day 2-3 postpartum, lasting 1-2 days, weakly linked to the ~72h postpartum hormone drop.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 65,
+              "questionNumber": 59
+            }
+          },
+          {
+            "text": "Maximum **valproate** dose in pregnancy if continuation is essential is 1000mg/day (**NICE**); mood-stabiliser anticonvulsant withdrawal should be tapered over ≥1 month (vs 6 months when used for epilepsy).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 48,
+              "questionNumber": 48
+            }
+          },
+          {
+            "text": "**Lamotrigine** in pregnancy: low overall malformation risk as monotherapy but a substantially increased cleft-palate risk specifically; clearance increases markedly in pregnancy; **NICE** advises against routine use.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 60,
+              "questionNumber": 60
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "cross-cutting-neuropsychiatry-pharmacology",
@@ -2373,7 +3798,127 @@
             "questionNumber": 55
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Associative visual agnosia: can't name/use objects but **CAN** draw them (bilateral medial occipitotemporal lesions); apperceptive: can't draw or identify objects (bilateral visual-association-area lesions).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 3
+            }
+          },
+          {
+            "text": "Cerebellar (intention) tremor amplifies as a target is reached - distinguishes it from Parkinsonian/drug-induced tremor and myoclonic jerk.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 4
+            }
+          },
+          {
+            "text": "Subcortical dementia (**PD**, **NPH**, **HIV**, vascular, **MS**) → affective change, slowed processing, gait abnormality with preserved alertness/attention; cortical dementia (Alzheimer's) → aphasia/agnosia/apraxia.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 15
+            }
+          },
+          {
+            "text": "Amnestic disorders: immediate memory intact; anterograde and retrograde memory impaired; remote/childhood memories retained but memory for the less-remote past is impaired.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 25
+            }
+          },
+          {
+            "text": "Upper motor neuron facial palsy spares the upper face (bilateral cortical innervation of the forehead).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 37,
+              "questionNumber": 32
+            }
+          },
+          {
+            "text": "Subacute combined degeneration (**B12** deficiency) is commonly accompanied by anaemia - discriminates it from Friedreich's ataxia/Brown-Sequard syndrome/Huntington's disease/tabes dorsalis.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 38,
+              "questionNumber": 33
+            }
+          },
+          {
+            "text": "Asterixis is the characteristic sign of hepatic encephalopathy.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 34,
+              "questionNumber": 29
+            }
+          },
+          {
+            "text": "Ganser syndrome: pseudohallucinations, approximate answers, disorientation, clouded consciousness, motor disturbance, sudden resolution with amnesia; **ICD-11** classifies it as \"other specified dissociative disorder\".",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 42,
+              "questionNumber": 37
+            }
+          },
+          {
+            "text": "**Mirtazapine**'s 5HT3-antagonism gives it an antiemetic effect (peri-operative/chemotherapy nausea), shared with ondansetron - distinguishes it from **venlafaxine**/**duloxetine**/**bupropion**/**buspirone**.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 32,
+              "questionNumber": 27
+            }
+          },
+          {
+            "text": "**Modafinil** acts by blocking the dopamine transporter; its elimination half-life is 10-12h (not 24h); headache is the most common (dose-dependent) side effect; it can theoretically activate psychosis, mania, or suicidal ideation.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 24
+            }
+          },
+          {
+            "text": "SSRIs including **fluoxetine** can cause hyponatraemia via **SIADH** - dizziness, nausea, lethargy, confusion, cramps, seizures.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 56,
+              "questionNumber": 50
+            }
+          },
+          {
+            "text": "**CYP450**-inhibition potency among SSRIs: **fluoxetine**/**paroxetine** are potent inhibitors (**CYP2D6**/**CYP3A4**); **sertraline** is less potent but dose-related; **citalopram** is weak.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 7,
+              "questionNumber": 7
+            }
+          },
+          {
+            "text": "For **clozapine**-induced seizures at high dose, sodium **valproate** is the anticonvulsant of choice (lower leucopenia incidence than **carbamazepine**).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+              "page": 55,
+              "questionNumber": 55
+            }
+          },
+          {
+            "text": "Poor response to anxiolytic agents (not family history/early onset/anticipatory anxiety/avoidance behaviour) should prompt investigation for an underlying medical cause of recurrent anxiety.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+              "page": 50,
+              "questionNumber": 44
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          6
+        ]
+      }
     },
     {
       "id": "coverage-gaps",
@@ -2389,7 +3934,14 @@
           "subtopic": "Mental Capacity Act / Mental Health Act application in liaison settings (e.g. assessing capacity to refuse treatment on medical wards, Section 5(2)/136 in A&E)",
           "note": "Neither the book notes nor the sampled question set for this topic cover **MCA**/**MHA** legal frameworks as applied in general-hospital liaison settings. This is likely addressed under the Forensic Psychiatry or Psychiatric Services topics instead - don't assume liaison-psychiatry coverage of capacity/detention law is complete without checking those topics too."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [],
+        "highlightBlockIndices": [
+          0,
+          1
+        ]
+      }
     }
   ]
 }

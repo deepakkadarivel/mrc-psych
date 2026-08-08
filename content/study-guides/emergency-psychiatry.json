@@ -38,7 +38,28 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "A-E framework: **A**Triage → **B**Assessment → **C**Diagnosis → **D**short-term Management → **E**Discharge planning.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Common ED syndromes: suicidality, agitation, confusion, starvation, catatonia, disinhibition. Iatrogenic issues: acute dystonia, **NMS**, serotonin syndrome, **lithium** toxicity, **clozapine** agranulocytosis, intoxication/withdrawal.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "differential-diagnosis",
@@ -233,7 +254,67 @@
             "questionNumber": 29
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Inappropriate sexual behaviour in dementia",
+            "value": "7-==25%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 31,
+              "questionNumber": 29
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Catastrophic reaction: dementia patient asked to do a task beyond current ability → sudden agitation/anger, occasionally violence.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 1,
+              "questionNumber": 1
+            }
+          },
+          {
+            "text": "Complex partial seizures can present as aggression/decreased consciousness with normal **FBC**/**LP**/LFTs; may begin as simple partial seizures and progress to impaired consciousness.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 23,
+              "questionNumber": 21
+            }
+          },
+          {
+            "text": "Dissociative stupor: profound reduced movement, normal responsiveness to stimuli, no physical cause, positive evidence of psychogenic causation — unlike depressive stupor, which needs a prior depressive history.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 27,
+              "questionNumber": 25
+            }
+          },
+          {
+            "text": "Delirium tremens: onset within 48-72h of alcohol abstinence, worse at night, multimodal hallucinations.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 28,
+              "questionNumber": 26
+            }
+          },
+          {
+            "text": "Amphetamine intoxication: tachycardia, arrhythmias, hyperpyrexia, quasi-psychotic state despite clear consciousness, followed by post-use depression.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 30,
+              "questionNumber": 28
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
     },
     {
       "id": "suicide-epidemiology",
@@ -343,7 +424,121 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Global mortality share",
+            "value": "1-==2%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Global suicide rate",
+            "value": "==1 in 6000==/year",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "England & Wales rate",
+            "value": "==1%== of deaths, 8/100,000/yr",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Male:female ratio",
+            "value": "2-4:1",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Peak age (female / male)",
+            "value": "15-24 / 25-34",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Rates fluctuate with socioeconomic conditions (e.g. fell in World Wars); declining overall but **rising in young men**.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Age >65 rates declining; age 15-24 rates increasing.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Method by sex — men: hanging ~==40%==, overdose ~==20%==, car-exhaust ~==10%==. Women: overdose ==46%==, hanging ~==27%==, drowning ==7%==.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Over-75s have the highest national suicide rate; depression is a strong predictor, with social isolation and poor physical health acting partly via depression.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Suicide rare in children but rising in adolescents, mainly males 15-19, chiefly hanging/car-exhaust; antisocial behaviour and family history of suicide/depression are common.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Particular **UK** concern about disproportionately higher suicide rates in Asian women.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Higher-risk occupations: doctors (excess greater in female doctors), anaesthetists/GPs/psychiatrists especially, and farmers — linked to means availability plus work/financial stress.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "14th leading cause of death worldwide; ~20 attempts per completed suicide (varies with method lethality); attempts more common in females, completions 2-3x more common in males.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 18
+            }
+          },
+          {
+            "text": "Rates vary >10-fold between countries (partly reporting reliability); recession raises rates, war lowers them, celebrity suicide causes transient rises. Suicide is currently the leading cause of death in young/middle-aged **UK** men.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 24
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          9
+        ]
+      }
     },
     {
       "id": "suicide-risk-by-diagnosis",
@@ -587,7 +782,180 @@
             "questionNumber": 34
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Depressive disorder in completed suicides",
+            "value": "36-==90%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Alcohol dependence/abuse in completed suicides",
+            "value": "43-==54%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Schizophrenic disorder in completed suicides",
+            "value": "3-==10%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Lifetime suicide risk, mood disorder",
+            "value": "6-==10%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Prior attempt → risk multiplier",
+            "value": "40-fold",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Alcohol dependence lifetime risk",
+            "value": "~==7%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Drug dependence/abuse risk multiplier",
+            "value": "~15x",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Anorexia nervosa risk multiplier",
+            "value": "~20-fold",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Schizophrenia lifetime risk (revised)",
+            "value": "~==6%== (==5.6%==, Palmer 2005)",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 4
+            }
+          },
+          {
+            "label": "Epilepsy suicide rate",
+            "value": "~==10%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 5
+            }
+          },
+          {
+            "label": "Bipolar I / II attempt rate",
+            "value": "~==17%== / ~==24%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 9
+            }
+          },
+          {
+            "label": "Bipolar death by suicide (men/women)",
+            "value": "==8%== / ==5%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 9
+            }
+          },
+          {
+            "label": "First-episode psychosis attempt rate",
+            "value": "~==35%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 36,
+              "questionNumber": 34
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Personality disorders: most victims have comorbid depression/substance abuse; rates of **PD** are higher among younger suicide victims.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "As high as ==90%== of people who die by suicide in high-income countries were experiencing a mental illness at the time.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 16,
+              "questionNumber": 15
+            }
+          },
+          {
+            "text": "The classic ~==10%== lifetime schizophrenia figure is **outdated** — exam expects the corrected ~==6%== (==5.6%==, Palmer 2005) meta-analytic figure.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 4
+            }
+          },
+          {
+            "text": "Dementia has **NO** clearly-raised completed-suicide rate — the literature is genuinely mixed, unlike alcohol dependence/depression/mania/schizophrenia.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 5
+            }
+          },
+          {
+            "text": "In bipolar disorder, most attempts **AND** most completions occur in the **depressive** phase, not mania; bipolar **II** carries a higher suicide risk than bipolar I.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 9
+            }
+          },
+          {
+            "text": "It is specifically **post**-schizophrenic depression (not paranoid/catatonic/simple subtypes) that carries the recognised increased suicide risk.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 12,
+              "questionNumber": 12
+            }
+          },
+          {
+            "text": "In first-episode psychosis, depression during/after the episode is the single most significant suicide risk factor; completed suicide is most common in the early years of illness.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 36,
+              "questionNumber": 34
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          5
+        ]
+      }
     },
     {
       "id": "suicide-health-service-contact",
@@ -729,7 +1097,178 @@
             "questionNumber": 39
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Major depression among suicides",
+            "value": "30-==31%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Alcohol dependence among suicides",
+            "value": "17-==24%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Prior DSH among suicides",
+            "value": "40-==60%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Contact with **MH** services within year of death",
+            "value": "==25%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Seen **GP** within previous week (of those who died)",
+            "value": "==40%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Inpatient suicides in first week of admission",
+            "value": "==25%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Inpatient suicides under routine observation",
+            "value": "==80%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Post-discharge suicides within 3 months",
+            "value": "==25%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Suicides deemed preventable by **MH** teams",
+            "value": "~==22%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Enhanced **CPA** cases among suicides",
+            "value": "~==50%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Black Caribbean suicides with schizophrenia dx",
+            "value": "==75%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Suicide risk within 1yr of **DSH**",
+            "value": "==0.7%== (66-fold increase)",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "==25%== of attempted suicides occur under alcohol influence; ==12.5%== of those who die by suicide had seen a psychiatrist in the previous week, ==66%== their **GP** within 4 weeks.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Inpatient suicide: commonest methods hanging/belt/curtain rail; ==20%== were medication non-compliant; about a third were on agreed leave at the time.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Post-discharge suicide linked to admissions <7 days, a prior discharge within 3 months, and higher self-discharge rates.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Homelessness involved in ==3%== of **UK** suicides; ==71%== of homeless suicides occur during/just after inpatient care.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "~==1%== die by completed suicide within 24 months of an initial self-harm act — mortality rate 50-100x the general population, risk highest in the immediate following weeks.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 13
+            }
+          },
+          {
+            "text": "Watch the timeframe: ~==1%== risk is over **2 years** post-**DSH**, distinct from the **SPMM** book's ==0.7%== risk within **1 year** — don't conflate the two.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 13
+            }
+          },
+          {
+            "text": "Two source-quoted 'preventable suicide' figures exist — ~==22%== (book notes) vs '==1 in 4==' / ==25%== (Q32) — both attributed to the National Confidential Inquiry; check the current **NCISH** report rather than relying on either alone.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 34,
+              "questionNumber": 32
+            }
+          },
+          {
+            "text": "Development of social networks (not individual psychotherapy/crisis intervention/post-self-harm assessment) is **primary** prevention for suicide in old age — those others act after risk has already emerged.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 39,
+              "questionNumber": 37
+            }
+          },
+          {
+            "text": "Non-fatal suicidal behaviour (a prior attempt) is the single **strongest** known risk factor for suicide — ~==40%== of people who die by suicide had previously attempted.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 41,
+              "questionNumber": 39
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "dsh-epidemiology",
@@ -858,7 +1397,101 @@
             "questionNumber": 19
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Lifetime prevalence: ideation / plan / attempt",
+            "value": "==9.2%== / ==3.1%== / ==2.7%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Ideation→plan/attempt within 1st year",
+            "value": "==60%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Self-poisoning share of **DSH**",
+            "value": "==90%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Antidepressants used in **DSH** episodes",
+            "value": "~==25%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "**UK DSH** rate",
+            "value": "~3/1000/year",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "**DSH** repeat within 1yr / die within 1yr / eventual suicide",
+            "value": "==20%== / ==1%== / ==10%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Psychiatric disorder detected in **DSH** patients",
+            "value": "~==90%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Males complete more suicides, females attempt more; ~25 attempts recorded per completed suicide.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Deliberate self-injury (usually laceration of forearm/wrist) accounts for ~==10%== of **DSH** presenting to **UK** general hospitals.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Most frequent **DSH** diagnosis is depressive disorder (alcohol/drug dependence in men, anxiety in women); repeat-**DSH** risk factors include age 25-54, substance use, **PD**, prior self-harm, unemployment.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Low socio-economic class (social class 5) is the most common suicide-attempt risk factor in the **ONS** survey, ahead of ethnicity-based factors.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 19
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4
+        ]
+      }
     },
     {
       "id": "suicide-risk-assessment",
@@ -1042,7 +1675,74 @@
             "questionNumber": 38
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "High suicidal intent clues: acted in isolation timed to avoid discovery, precautions against being found, premeditation, communicated intent beforehand but didn't alert anyone after, ongoing access to means, comorbid illness, recent psychiatric contact/discharge.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Risk factors group into: demographic, background, psychological/psychosocial, and current context (ideation/plans/access to means).",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "**SAD PERSONS**: 10-item, 1 point each, mnemonic tool used in acute general hospitals to guide admission/discharge decisions.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Beck Hopelessness Scale: 20 true/false items, 0-3 minimal to 15-20 severe. Beck Scale for Suicidal Ideation: 24 items, 0-48, higher = greater risk but **no defined cut-offs**.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Risk management: 4 key questions (mental illness? ongoing intent? addressable non-**MH** issues? social support?) plus community safety measures (reduce toxicity/access, involve relatives, arrange crisis access).",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "**Female** sex is **NOT** a sociodemographic risk factor for completed suicide (male sex is) — attempts vs completions split by sex deliberately.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 14
+            }
+          },
+          {
+            "text": "Highest-risk demographic combination weighs **multiple** factors together (e.g. older + male + low social class) rather than any single factor in isolation.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 17
+            }
+          },
+          {
+            "text": "Antidepressant-related suicide risk: elevated <25, neutral 25-64, protective ≥65 (Tiihonen 2006) — patient **age** is the key clarifying question.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 40,
+              "questionNumber": 38
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3,
+          4
+        ]
+      }
     },
     {
       "id": "adolescent-dsh",
@@ -1069,7 +1769,60 @@
           "subtopic": "Adolescent self-harm frequency figure — duplicated label in source text",
           "note": "The **SPMM** book notes (page 7, '**FACT** **FIGURE**' section) contain the identical label 'Proportion that self harm at least once a week' listed twice in a row with two different values (==41%== and ==27%==) — likely an **OCR**/formatting artifact in the source **PDF** rather than two genuinely distinct statistics. Neither figure was used as a clean fact in this guide; verify against the original cited study before quoting either number."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Suicidal ideation w/o DSH, past year (UK school cohort)",
+            "value": "==15.0%== (F ==22%==, M ==8.5%==, OR 3.1)",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Adolescent **DSH** receiving hospital attention",
+            "value": "<==13%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "One-year prevalence, 15-16 year-olds",
+            "value": "==6.9%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Under-16s among A&E self-harm attendees",
+            "value": "==5%==",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "One-year self-harm prevalence rises steeply with comorbid mental disorder in both the 5-10 and 11-15 age bands, highest with depression (==18.8%==, ages 11-15).",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "No difference in self-harm prevalence between ethnic groups in **UK** adolescents; commonest methods are paracetamol overdose and cutting.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "managing-agitation-rt",
@@ -1189,7 +1942,46 @@
             "questionNumber": 23
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Violence/dangerousness risk factors: younger age, male sex, past criminality/violence, childhood abuse, psychiatric diagnosis (mania, schizophrenia, substance dependence, antisocial **PD**, **IED**), conducive environment, command hallucinations/hostile suspiciousness, unemployment.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Extremely agitated patient: secure safety first, then verbal de-escalation — pharmacological options are **second-line**.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Acute dystonia: involuntary twisting movements/fixed postures, most often from antipsychotics; onset usually within 1 week of starting/increasing the drug or reducing anticholinergics.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 23
+            }
+          },
+          {
+            "text": "Young **female** patients are at **lowest** risk of acute dystonia — contrasts with male sex, youth, high-potency antipsychotics, and recent alcohol/cocaine use as actual risk-raising factors.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 23
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3,
+          5
+        ]
+      }
     },
     {
       "id": "managing-catatonia-nms",
@@ -1342,7 +2134,54 @@
           "subtopic": "Catatonia 'muscle tone' question wording (Q16)",
           "note": "Question 16 in the bank ('Catatonia refers to increased muscle tone that is...') has a stated correct answer ('reduced on both active and passive movement') that reads as internally inconsistent with the question stem, and the supplied explanation (about 4 latent classes of psychomotor catatonia) does not clearly justify that specific answer. This point was deliberately omitted from condensed notes/traps as a clean fact — verify the intended teaching point against a core catatonia reference (e.g. Bush-Francis Catatonia Rating Scale descriptions) before relying on it."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Withdrawn catatonia needs management of self-neglect (starvation/dehydration); agitated/excited catatonia needs management of dangerousness. Untreated catatonia risks electrolyte imbalance/renal damage; most catatonic patients need inpatient care.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "**Lorazepam** 1-2mg **IM/IV** for catatonia; suspected **NMS** = medical emergency — stop offending drug, supportive care, dantrolene or bromocriptine after **ITU** transfer.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Genuine catatonic signs: ambitendency, catalepsy, negativism, posturing — **ambivalence** is **NOT** a catatonic sign despite the similar name.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 33,
+              "questionNumber": 31
+            }
+          },
+          {
+            "text": "**BAP** 2020 **NMS** ladder: **IV lorazepam** first-line → bromocriptine/amantadine for moderately severe disease (rigidity, temp to 40C, pulse to 120) → dantrolene for severe/rapid progression → **ECT** for severe/refractory cases.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 20
+            }
+          },
+          {
+            "text": "**ECT** was first used in the 1930s: Meduna induced seizures with camphor-in-oil in 1934; Cerletti & Bini performed the first **electrical** induction in 1938 — both dates fall in the 1930s.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 24,
+              "questionNumber": 22
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          4,
+          8
+        ]
+      }
     },
     {
       "id": "managing-confusion-starvation",
@@ -1397,7 +2236,35 @@
             "page": 13
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Confused/delirious patient: optimise environment first (familiar people, good lighting, frequent reorientation, 1:1 nursing, encourage fluids/food, avoid polypharmacy/anticholinergics); medicate only if agitated/distressed.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Elderly self-neglect risk factors: advanced age, social isolation, medical morbidity, dementia/depression/alcoholism, poverty, paranoid personality, bereavement, sensory impairment; assessment needs **ADLs**, environment, cognition, and formal capacity assessment.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Anorexia/starvation: check metabolic/endocrine/acid-base/electrolytes; restore nutrition/hydration first-line; **ECT** for psychotic depression with severe self-neglect/catatonia, **NG** feeding may be needed in anorexia.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 13
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "legal-framework",
@@ -1511,7 +2378,85 @@
             "questionNumber": 27
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Section 2 duration",
+            "value": "28 days",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Section 3 duration",
+            "value": "6 months, renewable",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Section 5(2) duration",
+            "value": "72 hours",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Section 5(4) duration",
+            "value": "up to 6 hours",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Presume capacity in an alert/conscious self-harm patient unless shown otherwise; if incapable, act in their best interests; consent should be re-sought before each new procedure as capacity may change.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Section 5(2) applies **only** to voluntary inpatients (not A&E/outpatients), by the doctor in charge only, and does **NOT** itself authorise treatment. Section 5(4) is a nurse's holding power over an informal inpatient.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "**MCA 2005** five principles: capacity assumed; support given before deemed unable; unwise decision ≠ incapacity; best interests; least restrictive option.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Capacity assessment is 2-stage (impairment of mind/brain? → unable to decide **this** decision?), testing 4 abilities: understand, retain, weigh, communicate.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Capacity is decision-specific, not diagnosis-based — never presumed absent purely because of dementia/learning disability/psychosis; all doctors, not just psychiatrists, should be able to assess it.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 27
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
     },
     {
       "id": "crht-teams",
@@ -1533,7 +2478,36 @@
             "page": 16
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Typical duration under CRHT care",
+            "value": "<2 months",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**CRHT**: rapid (often same-day), community/home-based, aims to reduce admission and bed occupancy — home treatment is often preferred, cheaper, and less stigmatising than admission.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "**CRHT** is a gate-keeper: no admission to an acute unit without **CRHT** assessment first; response within 1 hour where possible, 24-hour availability.",
+            "source": {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "coverage-gaps",
@@ -1549,7 +2523,11 @@
           "subtopic": "Question-bank format coverage for this topic",
           "note": "All 39 available questions in the Emergency Psychiatry question bank are **SBA**-format; no **EMI**-format items were supplied for this topic, so no **EMI**-specific examiner traps could be mined here. If the actual exam includes **EMI**-style matching questions on emergency psychiatry, they are not represented in this guide."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [],
+        "highlightBlockIndices": []
+      }
     }
   ]
 }

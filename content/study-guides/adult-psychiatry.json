@@ -86,7 +86,102 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "1-year prevalence",
+            "value": "==5.3%==",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Lifetime prevalence",
+            "value": "==13%==",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Mean onset age",
+            "value": "30y (**NESARC**)",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Comorbid alcohol use",
+            "value": ">==40%==",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Comorbid anxiety",
+            "value": ">==40%==",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Comorbid personality disorder",
+            "value": "==30%==",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Suicide attempt rate",
+            "value": "==9%==",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "MI risk",
+            "value": "5-fold",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Mood-disorder suicide rate",
+            "value": "~14x general population",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "==56%== of initial diagnoses change on follow-up — mainly to schizophrenic spectrum (==16%==), **PD** (==9%==), or bipolar (==8%==).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Untreated episode 6–13 months; recurrence risk ~==50%== after 1 episode, ~==70%== after 2, 80–==95%== after 3.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "mdd-treatment",
@@ -168,7 +263,64 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Treat comorbid depression **BEFORE** anxiety; watchful waiting (2wk review) for mild depression — no antidepressants there.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**SSRI** first-line; severe depression → antidepressant + **CBT** combo. Continue ≥6 months post-remission (moderate/severe), ≥2 years if >2 episodes or residual symptoms.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**ECT**: rapid relief of severe/life-threatening depression after treatment failure only; no maintenance **ECT**.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**NNT**: response ~4–5, remission ~6–7 (12–14wk trials). Elderly **NNT**: tricyclics 4, SSRIs 8, MAOIs 3.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Kirsch meta-analysis: drug–placebo **HRSD** gap only 1.80 (below **NICE**'s 3-point threshold), exceeding it only above baseline **HRSD** ~28.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Suicide warning applies to under-25s only (neutral 25–64, protective ≥65); **BAP**: SSRIs not linked to completed suicide in adults.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Overdose toxicity: TCAs > **venlafaxine**/**mirtazapine** > SSRIs; **citalopram** highest **SSRI** case fatality.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          7
+        ]
+      }
     },
     {
       "id": "mdd-resistant",
@@ -268,7 +420,37 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Pseudo-resistance causes ('5 A's'): Alcoholism, inAdequate dose, non-Adherence, Axis 2 disorder, Alternate diagnosis.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**STAR*D** (n=4041): remission fell each level (==37%==→==31%==→==14%==→==13%==); cumulative remission after all 4 steps ==67%==.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**Venlafaxine**+**mirtazapine** ('Californian rocket fuel') has some **TRD** support; **SSRI**+**MAOI** risks serotonin syndrome; no combo proven superior.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          3,
+          4
+        ]
+      }
     },
     {
       "id": "bipolar-epidemiology",
@@ -369,7 +551,56 @@
             "page": 11
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Lifetime prevalence: **BP-I** ==1.0%==, **BP-II** ==1.1%==, subsyndromal ==2.4%==; onset **BP-I** 18.2y, **BP-II** ~20y; suicide rate 15–18x general population.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Diagnostic stability 70–==91%== (**BP-I** > **BP-II**, **II** can switch to **I** not vice versa); recurrence ~==50%== at 1yr, >==70%== at 4yr (**NICE**).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "**BP-II** spends more time depressed than **BP-I** (==93%== vs ==67%== of symptomatic time) — explains higher suicidality despite 'milder' mania.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "**STEP-BD**: biggest relapse predictor is residual symptoms; most relapses are into depression.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Rapid cycling (≥4 episodes/yr) affects ~==20%== of bipolar patients, ~==80%== of whom are women; linked to hypothyroidism and poor **lithium** response.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "'Switch' (antidepressant-induced mania, <2mo) ≠ 'mood destabilization' (long-term episode-frequency rise) — a drug can cause one without the other.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "bipolar-treatment",
@@ -433,7 +664,56 @@
             "page": 11
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Acute mania: antipsychotic first-line (**haloperidol**/**olanzapine**/**quetiapine**/**risperidone**); NEVER **lamotrigine** for mania; stop antidepressant + start antipsychotic regardless.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Bipolar depression: psychological intervention first-line; drug-naive moderate/severe → **fluoxetine**+**olanzapine** or **quetiapine** alone; 2nd step **lamotrigine**.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Maintenance: **lithium** first-line (best for mania, ↓suicide risk); **valproate** both phases; **olanzapine** > mania; **lamotrigine** > depression; **carbamazepine** < **lithium**.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Maintenance duration: ≥2yr post-episode, up to 5yr if high relapse risk.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Mixed episodes: treat as mania, avoid antidepressants; **valproate** has best evidence.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Bauer's strict 'mood stabiliser' definition (efficacy in all 4: acute mania, acute depression, manic & depressive prophylaxis) — only **lithium** qualifies.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "schizo-epidemiology",
@@ -517,7 +797,49 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Incidence 7–42/100,000 (**WHO** 7-country study); **M:F** ~1.4:1; migrants 3–5x native incidence.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Median lifetime prevalence 4.0/1000 (**NOT** ==1%== as **DSM** often states); no sex difference in prevalence.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Genetic risk: 12–==15%== with 1 first-degree relative affected, 40–==50%== if both parents affected.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Cannabis: pooled **OR** ~2.1 for psychosis (==95%== **CI** 1.7–2.5); exposure by age 15 → fourfold risk.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "**AESOP**: all psychoses more common in Black/minority ethnic groups in **UK** (adjusted **IRR** 2.9).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          5
+        ]
+      }
     },
     {
       "id": "schizo-antipsychotic-choice",
@@ -740,7 +1062,52 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**Clozapine** only drug with moderate-large superiority over FGAs (resistant illness); **CATIE**/**CUtLASS** found SGAs no better than FGAs overall.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 28
+            }
+          },
+          {
+            "text": "**NICE** first episode: oral atypical first-line; **clozapine** at earliest sign of resistance; don't switch a well-controlled patient typical→atypical.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 31
+            }
+          },
+          {
+            "text": "Relapse: ~==20%==/yr on treatment vs ~==60%== off it; stopping meds → ~5x relapse risk; multi-episode patients maintain ≥5yr.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 34
+            }
+          },
+          {
+            "text": "Depot myths: **NMS** risk/history and tardive dyskinesia risk are **NOT** higher for depot vs oral of the same drug.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 34
+            }
+          },
+          {
+            "text": "High-dose (>1g **chlorpromazine**-equivalent): avoid; no evidence in non-responders; **ECG** monitoring; stop after 3 months if no response.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 34
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          6,
+          7,
+          9
+        ]
+      }
     },
     {
       "id": "schizo-treatment-resistant",
@@ -798,7 +1165,43 @@
             "page": 36
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**NICE** **TRD**: no satisfactory response to ≥2 sequential adequate (6–8wk) antipsychotic trials, ≥1 non-**clozapine** atypical.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          },
+          {
+            "text": "Kane 1988: **clozapine** ==30%== responders vs **chlorpromazine** ==4%== in **TRD**; trial **clozapine** ≥6 months; non-response threshold ~350–450 ng/mL.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          },
+          {
+            "text": "**CATIE** (n=1493): ==74%== discontinued within 18mo; **olanzapine** lowest discontinuation (==64%==) but worst metabolic burden; **clozapine** lowest discontinuation vs other SGAs.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          },
+          {
+            "text": "**CUtLASS**: no **SGA** advantage over **FGA** at 1yr; **CUtLASS** 2: **clozapine** beat other SGAs in non-responders, patients preferred it.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          4
+        ]
+      }
     },
     {
       "id": "schizo-prognosis",
@@ -938,7 +1341,30 @@
             "page": 19
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "High expressed emotion raises relapse risk despite adequate pharmacotherapy; family therapy cuts relapse ~==64%==→~==24%== (**NNT** ~6).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Long-term outcome studies (Iowa 500, Bonn, Chestnut Lodge, Vermont, **WHO** ISoS/DOSMeD) show better course than clinicians assume, better in developing than developed countries.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
     },
     {
       "id": "ocd",
@@ -1008,7 +1434,42 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Point prevalence 1–==3%== (adults); lifetime ~2–==3%==.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Symmetry/ordering and hoarding subtypes more chronic/treatment-resistant than the other two factors.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "**PANDAS**: **OCD**/tic onset age 3–puberty, abrupt onset, exacerbation linked to group-A strep infection, abnormal neuro exam during exacerbation.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "**NICE** stepped care: mild–mod → self-help → **CBT**+**ERP** → **SSRI**±**CBT**; severe → **SSRI**±**CBT** first; continue **SSRI** 1–2yr; **NNT** 6–12 (higher **SSRI** doses than depression).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "ptsd",
@@ -1048,7 +1509,35 @@
             "page": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Lifetime prevalence ==6.8%== (men ==3.6%==, women ==9.7%==) — women ~2x risk even controlling for trauma type; rape is the one trauma type where men > women.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**NICE**: watchful waiting <4wk if mild; trauma-focused **CBT**/**EMDR** >3mo; **paroxetine**/**sertraline** only SSRIs **UK**-licensed for **PTSD** (**sertraline** females only).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Acute stress reaction: immediate onset, resolves within 2–3 days, mixed/changing symptom picture (not one dominant symptom).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "anxiety-disorders",
@@ -1086,7 +1575,40 @@
             "page": 9
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**GAD** lifetime prevalence ~==5%==; **SSRI** first-line (**SNRI**/**pregabalin** alternatives).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Panic disorder: prevalence ==0.9%==, onset ~22y; **CBT** (7–14hr, ≤4mo) or **SSRI** first-line; switch to **imipramine**/**clomipramine** after 12wk no improvement; avoid benzodiazepines.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Social phobia: prevalence ==2.8%==; **CBT**/**SSRI** best-established; avoid benzodiazepines; **phenelzine** 2nd-line; beta-blockers help performance-only subtype, not generalised.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "**Kava** has anxiolytic trial evidence but is **UK**-withdrawn (hepatotoxicity) — not clinically recommendable.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "eating-disorders",
@@ -1134,7 +1656,42 @@
             "page": 15
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**DSM-5** dropped anorexia's amenorrhoea criterion — amenorrhoeic/menstruating patients have similar features/outcome.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Heritability: anorexia **MZ** ==55%== vs **DZ** ==5%== (significant); bulimia **MZ** ==35%== vs **DZ** ==30%== (not significant).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Anorexia: bradycardia (~40), orthostatic hypotension, **QT** prolongation, lanugo, Russell's sign, perimylolysis.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "**NICE**: drugs never sole/primary treatment for anorexia; bulimia — self-help first-line, **fluoxetine** 60mg/day, **CBT** 16–20 sessions.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "personality-disorders",
@@ -1270,7 +1827,37 @@
             "page": 20
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "5–==13%== general population has ≥1 **PD**; borderline most prevalent in psychiatric settings, antisocial most prevalent in prison (==63%== male remand).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Borderline **PD**: ~==2%== general population, ==10%== outpatients, 15–==20%== inpatients, **F:M** ~3:1; ==40%== remit by 2yr, ==88%== by 10yr (McLean study).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "**NICE**: no drugs for **PD** itself, only comorbid illness; off-label symptom-targeted use only (antipsychotics/SSRIs/mood stabilisers by symptom domain).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          4
+        ]
+      }
     },
     {
       "id": "sleep-disorders",
@@ -1353,7 +1940,62 @@
           "subtopic": "Sleep disorders (RLS, narcolepsy, parasomnias, OSA)",
           "note": "Heavily tested in the **SPMM** question bank for this topic but entirely absent from the **SPMM** book notes (7-1-adult-psychiatry-1/2.pdf) — condensed notes above are built only from question explanations. Verify depth against current **NICE** guidance on insomnia/**RLS** and the Maudsley Prescribing Guidelines chapter on hypnotics before relying on this section alone."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**RLS** core criteria (**URGED**): Urge to move legs, Rest worsens, Getting up improves, Evening/night worse, Disorders excluded.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+              "page": 84,
+              "questionNumber": 66
+            }
+          },
+          {
+            "text": "First-line **RLS** tx: α2δ ligands (**gabapentin**/**pregabalin**) or dopamine agonists (**pramipexole**/**ropinirole**/**rotigotine**).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+              "page": 87,
+              "questionNumber": 69
+            }
+          },
+          {
+            "text": "Narcolepsy type 1 (with cataplexy): low **CSF** hypocretin-1.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+              "page": 93,
+              "questionNumber": 74
+            }
+          },
+          {
+            "text": "**REM** behaviour disorder: lost **REM** atonia → dreams acted out; brainstem lesions.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+              "page": 86,
+              "questionNumber": 68
+            }
+          },
+          {
+            "text": "Sleep terrors: abrupt panicked waking, no recall, **NREM** parasomnia (like sleepwalking).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 2_ Attempt review.pdf",
+              "page": 60,
+              "questionNumber": 47
+            }
+          },
+          {
+            "text": "Snoring: highest sensitivity (nonspecific) for **OSA** among typical symptoms.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+              "page": 89,
+              "questionNumber": 71
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "cross-cutting-pharmacology",
@@ -1452,7 +2094,56 @@
             "questionNumber": 80
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Serotonin syndrome: hyperreflexia/clonus (fast onset); **NMS**: rigidity/pyrexia (slow onset, **DSM-5**). Highest serotonin-syndrome risk: **MAOI**+**SSRI** combo.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 2_ Attempt review.pdf",
+              "page": 40,
+              "questionNumber": 32
+            }
+          },
+          {
+            "text": "Hyponatraemia risk: SSRIs (esp. **citalopram**) and anticonvulsants (esp. **carbamazepine**/**oxcarbazepine**); incidence 0.06–==40%== depending on definition.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Prolactin elevation greatest: **risperidone**, **paliperidone**, **amisulpride**, **haloperidol**; lowest: **aripiprazole**/**olanzapine**/**quetiapine**.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 34
+            }
+          },
+          {
+            "text": "**CYP2D6** substrates: **clomipramine**, **fluoxetine**, **paroxetine**, **venlafaxine**; **reboxetine** uses **CYP3A4** instead.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 2_ Attempt review.pdf",
+              "page": 48,
+              "questionNumber": 38
+            }
+          },
+          {
+            "text": "Breastfeeding: avoid **carbamazepine**, **clozapine**, **lithium** (toxicity/neonatal risk); otherwise generally encourage.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 2_ Attempt review.pdf",
+              "page": 98,
+              "questionNumber": 80
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          3,
+          5,
+          8
+        ]
+      }
     },
     {
       "id": "prevention-frameworks",
@@ -1468,7 +2159,22 @@
             "questionNumber": 1
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Two prevention models tested: Caplan's primary/secondary/tertiary AND the 1992 **IOM** universal/selective/indicated (pre-onset only) — know which applies to which scenario.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Adult Psychiatry_ Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 1
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
     },
     {
       "id": "coverage-gaps",
@@ -1489,7 +2195,15 @@
           "subtopic": "Question bank not fully reviewed",
           "note": "This guide draws on the complete book notes (both 7-1-adult-psychiatry PDFs, all 28 blocks) plus the full MCQs Part 1 and Part 2 sets and the first two **EMI** items, out of 99 **EMI** questions total. The remaining **EMI** items were not individually mined for this guide — spot-check the EMIs Adult Psychiatry file directly (via the Source Notes tab / quiz) for additional exam angles, especially multi-part matching scenarios."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
     }
   ]
 }

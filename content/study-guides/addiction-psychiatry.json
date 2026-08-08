@@ -37,7 +37,97 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Alcohol drank last week (men)",
+            "value": "==67%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Alcohol drank last week (women)",
+            "value": "==53%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Hazardous drinking (AUDIT>=8) — men",
+            "value": "==38%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Hazardous drinking (AUDIT>=8) — women",
+            "value": "==15%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Alcohol dependence prevalence",
+            "value": "74/1000 (119 men, 29 women)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Illicit drug use, past year (16-59y)",
+            "value": "==1 in 12== (==8.3%==)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Cannabis use, past year",
+            "value": "==6.4%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "==1 in 16== hospital admissions and ==1 in 6== A&E attendees (rising to ==8 in 10== at peak hours) are alcohol-related; dependent drinkers die around age 60 — markedly premature.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Hazardous drinking has an ethnic gradient: ==27%== White adults vs ==18%== Black adults vs ==8%== South Asian adults.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Young adults (16-24y) use any drug at double the rate of the whole 16-59y group: ==1 in 6== (==16.3%==) vs ==1 in 12==.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "First use is typically age 16 (cannabis) or 18 (cocaine/ecstasy); average duration of regular use is longest for cannabis (6.2y) vs cocaine (4.4y)/ecstasy (3.9y).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ]
+      }
     },
     {
       "id": "classification-diagnostic-criteria",
@@ -223,7 +313,88 @@
             "page": 6
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "ICD-10 dependence — criteria needed",
+            "value": "≥3 of 7 (last 12 months)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "DSM-IV dependence — criteria needed",
+            "value": "≥3 of 7 (≥1 month)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "DSM-IV tolerance threshold",
+            "value": "≥==50%== dose increase from baseline",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "DSM-5 mild SUD threshold",
+            "value": "2-3 of 11 symptoms (vs DSM-IV abuse's 1)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**DSM-IV** 'abuse' = maladaptive substance use causing problems for ≥1 month, short of dependence.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "**DSM-5** merges abuse and dependence into one Substance Use Disorder continuum; adds craving, removes legal problems as a criterion; gambling disorder is the only condition in the new 'behavioural addictions' category.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**ICD-11** harmful pattern of use (harm already caused) is time-defined (≥12 months episodic or ≥1 month continuous); hazardous use (increased risk, no harm yet) has NO defined time period.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+              "page": 57,
+              "questionNumber": 53
+            }
+          },
+          {
+            "text": "'Impaired control' was **NOT** part of Edwards & Gross's original 1976 criteria — it was added later by **ICD**/**DSM**.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Neuroadaptation differs from dependence: e.g. **SSRI** discontinuation gives loss-of-effect/discontinuation symptoms with no active drug-seeking, and can start from the very first dose.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 6
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
     },
     {
       "id": "dependence-concept",
@@ -402,7 +573,53 @@
           ],
           "sourced": false
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Withdrawal reliably co-occurs with tolerance from increased neuronal excitability (depressants); intermittent use can still produce tolerance but rarely produces withdrawal.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Benzodiazepines: marked withdrawal anxiety but comparatively little tolerance to anxiolytic effects — the opposite pattern to barbiturates.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "'Diminished/reversed tolerance' occurs after abstinence, in older patients with brain damage, in liver disease, or idiosyncratically — causing rapid intoxication at previously tolerated doses.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Reward pharmacology ≠ withdrawal pharmacology: cocaine has modest withdrawal but very high reward potential. Compulsion (repetitive urge-driven drug-seeking) differs from craving (a motivational state occurring in withdrawal).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Reinstatement after abstinence: a long-abstinent patient can rapidly return to their original heavy pattern after just a priming dose (abstinence violation effect, carried-over withdrawal propensity, cue-triggered memory).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "alcohol-pharmacology",
@@ -536,7 +753,96 @@
             "page": 9
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Seizure incidence, untreated withdrawal",
+            "value": "==8%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Seizure incidence, treated withdrawal",
+            "value": "==3%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Withdrawal-seizure patients later developing DTs",
+            "value": "==30%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Untreated DTs mortality",
+            "value": "~==10%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "DTs incidence",
+            "value": "~==5%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "UK safe drinking limit",
+            "value": "14 units/week (both sexes)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Females have lower body water, higher gastric absorption and less gastric alcohol dehydrogenase than males — higher oral bioavailability.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "In polysubstance withdrawal including alcohol, alcohol withdrawal/DTs must be treated **FIRST** given the mortality risk.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Real markers of excess alcohol: raised **MCV**, raised **GGT**, carbohydrate-deficient transferrin (**CDT**), anaemia/thrombocytopenia/neutropenia/raised LFTs — lactate dehydrogenase is **NOT** a recognised marker.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 20
+            }
+          },
+          {
+            "text": "Gastrectomy **INCREASES** alcohol absorption/intoxication risk (less gastric **ADH** contact time); conditions that slow gastric emptying (e.g. pyloric stenosis) can **REDUCE** acute intoxication.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+              "page": 73,
+              "questionNumber": 69
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          7,
+          9
+        ]
+      }
     },
     {
       "id": "opioids-pharmacology",
@@ -662,7 +968,69 @@
           "subtopic": "Fentanyl, nitazenes and the contemporary synthetic-opioid supply",
           "note": "Neither the book notes nor the question bank mention fentanyl analogues, nitazenes, or the recent **UK** heroin-supply contamination crisis, despite this being a live, exam-relevant public health issue. Cross-check current RCPsych/**OHID**/**PHE** guidance and the Maudsley Prescribing Guidelines (15th ed.) for up-to-date overdose/**naloxone**-provision advice."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "UK heroin prevalence",
+            "value": "~==1%== (M:F 2:1)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Naloxone IV dose",
+            "value": "0.8 mg per 70kg body weight",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "'Opiate' = natural opium alkaloids/semi-synthetics only; 'opioid' is the broader term. Street heroin is adulterated, so a purer batch can cause fatal accidental toxicity.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Mu receptor agonism drives most abused-opioid effects (analgesia, respiratory depression, euphoria, constipation, ↑**VTA** dopamine); tolerance develops to most Mu effects but little/none to constipation and miosis. Kappa agonists cause dysphoria and ↓**VTA** dopamine, no pupillary effect.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Morphine/heroin withdrawal ('cold turkey') begins 6-8h after last dose, peaks at 2 days; insomnia, bradycardia, temperature dysregulation and craving can persist for months.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**Naloxone** is short-acting relative to heroin/**methadone** — repeat dosing may be needed, and it can precipitate withdrawal in dependent patients.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          },
+          {
+            "text": "Harm reduction: never inject alone, avoid the **IV** route, inject with (not against) blood flow, use new sterile equipment and sterile water (not lemon juice — Candida endophthalmitis risk), never share equipment.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          4,
+          5
+        ]
+      }
     },
     {
       "id": "sedative-hypnotics",
@@ -710,7 +1078,69 @@
             "page": 9
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Benzo dependence at 1-5 months use",
+            "value": "~==15%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Benzo dependence at ~1 year use",
+            "value": "~==40%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Benzo:barbiturate overdose safety margin",
+            "value": "~200:1 (lethal:effective dose)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Graded discontinuation success (short term)",
+            "value": "~==66%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**Flumazenil** is the specific benzodiazepine antagonist for A&E/**ICU** reversal; overdose death (usually respiratory depression) mainly occurs combined with alcohol/other sedatives.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Additional psychological therapies add nothing over graded discontinuation alone; **buspirone**/antidepressants/anticonvulsants show no meaningful added effect. **Carbamazepine** may substitute when controlling withdrawal from high illicit doses.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**GHB** withdrawal resembles alcohol/benzodiazepine withdrawal (starts at 12h, up to 12 days); routine toxicology screening does **NOT** detect **GHB**.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "stimulants-hallucinogens",
@@ -814,7 +1244,82 @@
             "page": 9
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Cocaine users reporting mental health problems",
+            "value": "≥==60%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "...of whom reporting psychotic experiences",
+            "value": "==18%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Cocaine-related A&E visits with seizures",
+            "value": "3-==8%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Amphetamines: acute tolerance develops to subjective effects of d-amphetamine but **NOT** to its hypertensive/cardiopressor effect — repeated dosing to chase the subjective high can push plasma levels toxic.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Amphetamine withdrawal = dysphoric 'crash' (± suicidal ideation), hypersomnia, increased appetite, psychomotor retardation, small pupils.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**MDMA**: R(-) isomer gives **LSD**-like effects via serotonin release (irreversible long-term serotonergic damage → depression risk); S(+) gives amphetamine-like effects; lower doses more stimulant-like, higher doses more hallucinogenic.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Cocaine withdrawal = intense craving with a striking lack of physical symptoms; usually resolves in 18 hours but up to a week (peak day 3) in heavy users.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**LSD**: tolerance to sensory/psychological effects by day 2-3 of successive use; cross-tolerance among mescaline/psilocybin/**LSD** but **NOT** with amphetamine; no overdose risk, no physiological dependence/withdrawal.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "'Date rape drugs' (strong sedation + amnesia): **GHB**, flunitrazepam (rohypnol), **ketamine**.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4
+        ]
+      }
     },
     {
       "id": "nicotine-cannabis-inhalants",
@@ -860,7 +1365,72 @@
             "page": 9
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Cigarette smokers who are nicotine dependent",
+            "value": "==80%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "CYP1A2-mediated drop in affected drug levels",
+            "value": "up to ==50%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Mean post-cessation weight gain",
+            "value": "~10 lb",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Smoking induces hepatic **CYP1A2**, lowering levels of **clozapine**, **olanzapine**, **chlorpromazine**, **fluphenazine**, **haloperidol**, tricyclics, **mirtazapine**, **fluvoxamine** and **propranolol** — **lithium** is unaffected (renally cleared).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Nicotine withdrawal peaks 2-3 days, eases over 1-3 weeks; cravings last longer; weight gain greatest in women and heavy smokers.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Cannabis acts via inhibitory **CB1** (basal ganglia/hippocampus/cerebellum, sparse cortex, none in brainstem — hence minimal cardiorespiratory effect); **CB2** is peripheral/immune.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Cannabis withdrawal is rare, occurring only after abrupt cessation of very high doses; physiological dependence evidence is weak despite demonstrable tolerance/psychological dependence.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Inhalants: no dependence syndrome or reliable withdrawal syndrome described; signature exam clues are perioral rash, unusual breath odour, ocular/oropharyngeal irritation; chronic use → diffuse cerebral/cerebellar/brainstem atrophy and leukoencephalopathy.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 9
+            }
+          }
+        ]
+      }
     },
     {
       "id": "prescribing-controlled-drugs",
@@ -941,7 +1511,60 @@
             "page": 21
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "CD prescription validity",
+            "value": "28 days (Schedules 1-4)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "Instalment prescription max quantity",
+            "value": "generally ≤14 days' treatment",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Schedule 1 (coca leaf/cannabis/**LSD**/mescaline): no recognised medicinal use, Home Office licence needed to possess. Schedule 2 (diamorphine/morphine/pethidine/amphetamine/cocaine/secobarbital): special prescription + safe-custody, register kept, witnessed destruction.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Schedule 3 (barbiturates except secobarbital, **buprenorphine**, **temazepam**, pentazocine): special prescription but no register (safe custody only for **buprenorphine**/diethylpropion/flunitrazepam/**temazepam**), invoices kept 2 years. Schedule 4 Part 1 (benzodiazepines except **temazepam**, **zolpidem**): no special requirements. Schedule 5: exempt except invoice retention.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "**CD** prescriptions must state patient name/address/age, drug/form/strength/dose, total quantity in words **AND** figures, ideally **NHS** number, prescriber's handwritten signature; Schedule 2/3 drugs cannot be repeat-prescribed/dispensed.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Instalment prescriptions must specify number of instalments, interval between them, weekend/bank holiday instructions, and total plus per-instalment quantity/duration.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "pharmacology-quick-reference",
@@ -981,7 +1604,35 @@
             "questionNumber": 51
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**Clonidine**/lofexidine: presynaptic alpha-2 agonists that reduce central sympathetic tone — counteracting the increased adrenergic firing of sudden opioid withdrawal.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Dexfenfluramine/fenfluramine were withdrawn for irreversible serotonergic damage/valvular regurgitation/pulmonary fibrosis; **LAAM** was withdrawn for **QT** prolongation/torsades de pointes.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "**Varenicline** is a partial agonist at alpha4-beta2 nicotinic receptors; **naloxone** is short-acting and **naltrexone** longer-acting mu antagonists; phencyclidine is a non-competitive **NMDA** antagonist (like **ketamine**), also binds sigma receptors.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "neuropsychiatric-alcohol",
@@ -1165,7 +1816,119 @@
             "questionNumber": 73
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "WE classic triad present",
+            "value": "only ~==10%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "WE diagnosed only at post-mortem",
+            "value": "~==80%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "MRI sensitivity / specificity for WE",
+            "value": "==53%== / ==93%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "Untreated WE mortality",
+            "value": "~==20%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "WE progressing to Korsakoff's in survivors",
+            "value": "==84%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "Alcoholics recovering from WE who develop Korsakoff's",
+            "value": "~==80%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "label": "Chronic alcoholics with cerebellar degeneration",
+            "value": "~==40%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Alcoholic hallucinosis: alcohol-induced psychosis with clear sensorium (unlike DTs), usually <1 week; responds well and rapidly to antipsychotics — ==95%== resolve with alcohol cessation alone.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Alcoholic blackouts = discrete anterograde amnesia during intoxication (blocked hippocampal consolidation); remote memory intact; not in **DSM**/**ICD-10**.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "**Thiamine** must be given **BEFORE** **IV** glucose — glucose worsens **thiamine** deficiency biochemically.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Korsakoff's = marked anterograde/retrograde episodic memory deficit with intact sensorium and relatively preserved attention/procedural/working memory; best correlates with dorsomedial thalamic lesions; confabulation reflects a double frontal + diencephalic lesion.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Marchiafava-Bignami syndrome: corpus callosum/white matter demyelination, first described in Italian red wine drinkers; Type A = coma/pyramidal signs/whole callosum; Type B = normal/mild mental status, focal lesions.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Central pontine myelinolysis follows rapid correction of chronic hyponatraemia (also non-alcoholic causes: Wilson's, malnutrition, burns, Addison's) — not specific to alcohol.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3,
+          7,
+          9,
+          15,
+          16
+        ]
+      }
     },
     {
       "id": "neuropsychiatric-illicit-dual-diagnosis",
@@ -1211,7 +1974,46 @@
             "page": 26
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Four models explain high **SUD** rates in severe mental illness: common factor (shared vulnerability), secondary use (self-medication), supersensitivity (unusual sensitivity to substance harms), secondary illness (**SUD** causes mental illness via kindling).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Stimulant-induced psychosis mimics schizophrenia but with absent negative symptoms, predominant visual hallucinations, appropriate affect, hyperactivity, disinhibition, near-absent formal thought disorder; diagnosis often rests on rapid resolution or a positive urine screen.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "'Hemp insanity' = florid psychosis after high-potency high-dose cannabis; the 'amotivational syndrome' (apathy/anergia/weight gain) remains controversial.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Hallucinogen 'bad trip' resembles acute panic ± true psychotic symptoms, resolving as acute effects wear off; flashback phenomenon can be triggered by emotional stress, sensory deprivation, or another psychoactive substance.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Chronic inhalant use causes diffuse cerebral/cerebellar/brainstem atrophy with leukoencephalopathy — hearing loss, peripheral neuropathy, parkinsonism, and visuospatial/linguistic impairment.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 26
+            }
+          }
+        ]
+      }
     },
     {
       "id": "risk-factors-genetics-screening",
@@ -1445,7 +2247,112 @@
             "page": 33
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "General population with family history of alcoholism",
+            "value": "==40%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "Risk with 1 affected 1st-degree relative",
+            "value": "~==86%==/2x",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "Risk with 1st + 2nd-degree affected relatives",
+            "value": "~==167%==/4x",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "Heritability of alcohol use disorders (Virginia Twin Study)",
+            "value": "0.51-0.66",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "ALDH2 homozygosity in SE Asian/Chinese people",
+            "value": "==12%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "AUDIT sensitivity (men / women)",
+            "value": "==83%== / ==65%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "AUDIT score cut-off (max 40)",
+            "value": "≥8",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "CAGE sensitivity (men / women)",
+            "value": "==62%== / ==54%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "label": "MAST sensitivity / specificity",
+            "value": "86-==98%== / 81-==95%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**CAGE** is the most widely used tool but does **NOT** ask about frequency/quantity/heavy episodes — misses early problem drinking.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "text": "Conventional lab tests alone are not useful for screening in primary care; **AUDIT** is one of the best all-round tools.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          },
+          {
+            "text": "False positives: **PCP** from dextromethorphan; marijuana metabolites from ibuprofen; opiates from tonic water; amphetamines from phenylephrine decongestants.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 33
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3,
+          6,
+          9,
+          10
+        ]
+      }
     },
     {
       "id": "alcohol-detoxification",
@@ -1515,7 +2422,85 @@
             "page": 37
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "CIWA-Ar severity cutoffs",
+            "value": "10-20 moderate, >20 severe",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "SAWS treatment threshold",
+            "value": ">12",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Successive untreated withdrawal episodes increase severity/complications (kindling), including cognitive impairment.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Inpatient detox indications: past/current DTs or seizure, psychiatric morbidity with suicide risk, **WE**/Korsakoff's, homelessness/social difficulties likely to prevent completion.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Benzodiazepines beat placebo on severity, DT/seizure incidence, and completion; longer half-life agents reduce delirium/seizure more but accumulate in the elderly — **lorazepam**/**oxazepam** (no phase-1 metabolism) suit liver failure/**COPD** patients.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Fixed regimen: **chlordiazepoxide** 20mg qds tapering over ~7 days. 'Front-loading': repeated **diazepam** loading doses every 90 min until light sedation, then none further — **diazepam**'s long half-life covers withdrawal.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Symptom-triggered regimen (dosing only when **CIWA**-Ar/**SAWS** threshold is met) gives faster control and fewer total doses, safer in intoxicated patients — but may undermine settings aiming to prevent symptoms altogether.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Chlormethiazole is avoided: higher respiratory depression risk (especially with alcohol), variable bioavailability, higher addictive potential/street value.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**Carbamazepine** can be first-line (effective across severity, safe in liver failure) but has limited DT-prevention evidence; anticonvulsants alone match benzodiazepines for seizures but combining adds no benefit — **phenytoin** alone is ineffective for a secondary withdrawal seizure, **lorazepam** is effective.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**Haloperidol** reduces withdrawal symptoms but not as effectively as benzodiazepines for seizure/delirium risk, and may actually increase seizure likelihood vs placebo.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          }
+        ]
+      }
     },
     {
       "id": "alcohol-relapse-pharmacotherapy",
@@ -1644,7 +2629,93 @@
           "subtopic": "Nalmefene and naltrexone current UK licensing/availability",
           "note": "The source states **naltrexone** was **UK**-licensed for alcohol relapse prevention 'from 2012' and **nalmefene** is licensed for consumption reduction - licensing status and market availability of these agents can change; verify current **UK** licensing and Maudsley Prescribing Guidelines (15th ed.) dosing before relying on this for prescribing decisions."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Spontaneous abstinence without treatment",
+            "value": "==1 in 10==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "Acamprosate OR for abstinence",
+            "value": "~1.73",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "Acamprosate NNT (abstinence / craving)",
+            "value": "11 / 8",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "Naltrexone OR / NNT",
+            "value": "1.46 / 9-11",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Controlled drinking (vs total abstinence) is favoured by: age <40, early detection, minimal dependence, no medical/psychiatric complications, no impulsivity, stable social support, feasible partner/family monitoring.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**Acamprosate** should start **ASAP** after detox (delay reduces efficacy), is not effective as monotherapy, and combining with **disulfiram** improves outcome over **acamprosate** alone.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**Naltrexone** trials use 'time to relapse to heavy drinking' as the outcome (so should **NOT** be stopped after a lapse), while **acamprosate** trials use complete abstinence — head-to-head the two show no difference on % abstinent/retention.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**Nalmefene** (Selincro) is licensed for **REDUCING** consumption, not detox/abstinence — can be started 'as needed' with no liver monitoring or prior detox, for high-risk drinkers (>60g/day men, >40g/day women) if the high-risk level persists 2 weeks after assessment.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**Disulfiram** acts as a deterrent (not aversion) via aldehyde dehydrogenase inhibition → acetaldehyde accumulation if alcohol is taken; reduces drinking days/quantity but not abstinence itself; witnessed dosing improves efficacy.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "SSRIs may improve outcomes in Type 1 (late-onset, anxious) alcoholism but may worsen outcomes in Type 2 (early-onset, family history, impulsive/antisocial) alcoholism.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          7,
+          8,
+          10
+        ]
+      }
     },
     {
       "id": "alcohol-relapse-psychosocial",
@@ -1758,7 +2829,81 @@
             "page": 43
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "UKATT 1-year follow-up rate",
+            "value": "==83%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Project **MATCH** found little evidence that matching **CBT**/**TSF**/**MET** to client characteristics improved overall outcome; **AA** attendance predicted better long-term outcome; readiness-to-change and self-efficacy were the strongest predictors.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**UKATT** found Social Behaviour and Network Therapy (**SBNT**) did not differ significantly in effectiveness from Motivational Enhancement Therapy (**MET**).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Slattery et al. (2003): **CBT**, **BSCT**, **MET**, coping skills training and marital/family therapy all show similar, moderate-to-small effect sizes.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**BSCT** techniques: limiting drinks, self-monitoring/drink diary, non-alcoholic spacers, food before/after drinking, slowing drinking rate, assertive refusal, self-reward, awareness of antecedents/alternate coping.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Expert consensus on **AA**: introduce and encourage but do **NOT** mandate attendance — compulsion reduces **AA**'s efficacy.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Motivational interviewing's four principles: express empathy, develop attitude-behaviour discrepancy, roll with resistance (no confrontation), support self-efficacy.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 42
+            }
+          },
+          {
+            "text": "Transtheoretical model: precontemplation → contemplation → determination/preparation → action → maintenance, with relapse possible at any stage feeding back into the cycle.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 43
+            }
+          },
+          {
+            "text": "Over-investment in absolute abstinence itself contributes to how catastrophic a relapse feels (abstinence violation effect); the 'matrix model' combines **CBT**, family education, social support, counselling, alcohol testing, optional 12-step.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 43
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          5,
+          9
+        ]
+      }
     },
     {
       "id": "opioid-detox-maintenance",
@@ -1947,7 +3092,126 @@
           "subtopic": "Naltrexone depot/implant formulations",
           "note": "The source states **naltrexone** implants and depot injections are 'untested in Phase **III** RCTs and cannot be recommended' - this evidence base may have moved on since these notes/questions were written; verify current evidence and licensing status against the Maudsley Prescribing Guidelines (15th ed.) before treating this as still true."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Methadone dose reducing withdrawal symptoms",
+            "value": "40-60mg/day",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          },
+          {
+            "label": "Methadone dose needed to block craving",
+            "value": ">60mg/day",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          },
+          {
+            "label": "Methadone maintenance most effective range",
+            "value": "60-120mg",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 45
+            }
+          },
+          {
+            "label": "Effective buprenorphine maintenance dose",
+            "value": "≥8mg (up to 16mg)",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 45
+            }
+          },
+          {
+            "label": "Naloxone:buprenorphine ratio in Suboxone",
+            "value": "4:1",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 45
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "For a **SHORT** desired detox duration, alpha-2 agonists (lofexidine > **clonidine**) are preferred to **methadone**; **buprenorphine** also suits short-term withdrawal, dosed thrice-weekly (slow receptor dissociation), causing less abrupt-discontinuation withdrawal than **methadone**/heroin — but **methadone** gives better analgesia for chronic pain.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          },
+          {
+            "text": "**Buprenorphine** is preferable to alpha-2 agonists if bradycardia/hypotension are a concern, and produces **LOWER** withdrawal severity than alpha-2 agonists.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          },
+          {
+            "text": "**Buprenorphine** can look like it has mild agonist effects at low dose even in a dependent patient (masked by tolerance), but higher doses produce antagonist effects/precipitate withdrawal.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 44
+            }
+          },
+          {
+            "text": "**LAAM** suppressed withdrawal for 48-72h (fewer clinic visits) but was withdrawn for **QT** prolongation/torsades de pointes.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 45
+            }
+          },
+          {
+            "text": "Suboxone's **naloxone** component is negligible sublingually but produces unpleasant withdrawal if injected by a dependent user — deterring **IV** misuse (though it can still give an agonist 'high' if injected by a non-dependent person).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 45
+            }
+          },
+          {
+            "text": "**Naltrexone** for opioid relapse prevention has an **INCONCLUSIVE** evidence base; may help highly motivated patients (e.g. healthcare professionals); implants/depots are untested in Phase **III** RCTs and not recommended; can precipitate serious withdrawal if given to an ongoing user.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 45
+            }
+          },
+          {
+            "text": "**NICE**: offer community-based detox routinely **EXCEPT** after previous failed community detox, significant comorbidity, polydrug detox, or considerable social problems; do **NOT** routinely use benzodiazepines/minor analgesics/antidiarrhoeals for opioid withdrawal.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 45
+            }
+          },
+          {
+            "text": "Injectable diamorphine maintenance is the option after **methadone** **AND** **buprenorphine** both fail (Home Office licence needed) — slow-release oral morphine and dihydrocodeine are **NOT** licensed in the **UK** for opioid dependence.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+              "page": 41,
+              "questionNumber": 37
+            }
+          },
+          {
+            "text": "Precipitated withdrawal: **buprenorphine** (high-affinity partial agonist) displaces a full agonist (**methadone**/heroin) still on receptors — **methadone** (full agonist) has no such risk, so it suits a patient anxious about withdrawal during induction.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+              "page": 45,
+              "questionNumber": 41
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          6,
+          9,
+          13,
+          15,
+          16
+        ]
+      }
     },
     {
       "id": "pregnancy-opioid-detox",
@@ -1977,7 +3241,51 @@
             "page": 53
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Antepartum haemorrhage OR (opiate-using mothers)",
+            "value": "2.33",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 53
+            }
+          },
+          {
+            "label": "Mean birthweight reduction (heroin/methadone)",
+            "value": "~500g",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 53
+            }
+          },
+          {
+            "label": "Neonatal withdrawal incidence with methadone",
+            "value": "60-==80%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 53
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "If detox is undertaken, do it in the **MIDDLE** trimester — avoid the 1st (miscarriage risk) and 3rd (premature birth risk).",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 53
+            }
+          },
+          {
+            "text": "No clear dose-response between maternal **methadone** dose and neonatal withdrawal intensity, but lower maintenance doses (~15mg) are advocated; **methadone** is not a contraindication to breastfeeding; **buprenorphine** gives similar maternal/foetal benefit with less severe neonatal withdrawal.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 53
+            }
+          }
+        ]
+      }
     },
     {
       "id": "other-substances-smoking-cessation",
@@ -2077,7 +3385,94 @@
             "questionNumber": 30
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Unassisted quit-attempt long-term success",
+            "value": "5-==10%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          },
+          {
+            "label": "NRT OR for 6-month abstinence",
+            "value": "1.74",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          },
+          {
+            "label": "NRT week-1 compliance (patch/gum/nasal spray/inhaler)",
+            "value": "==82%== / ==38%== / ==15%== / ==11%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          },
+          {
+            "label": "Bupropion seizure risk, standard-release",
+            "value": "==0.4%== (from ==0.6%==)",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 1_ Attempt review.pdf",
+              "page": 33,
+              "questionNumber": 30
+            }
+          },
+          {
+            "label": "Bupropion seizure risk, extended-release",
+            "value": "==0.1%== (~==1 in 1000==)",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 1_ Attempt review.pdf",
+              "page": 33,
+              "questionNumber": 30
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "No pharmacological agent reliably reduces cocaine withdrawal intensity/craving; dopamine agonists show no significant benefit, and evidence does not support antidepressants, **carbamazepine** or **olanzapine** either.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          },
+          {
+            "text": "Contingency management (tangible reinforcers for drug-negative tests) has the most consistent psychosocial evidence base for stimulant misuse and for illicit use during **methadone** maintenance — but response reduces once reinforcement stops.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          },
+          {
+            "text": "**NRT** delivery speed: nasal spray fastest (peak 5-10 min), patch slowest but most constant (16-24h); none matches smoking itself; safe in stable cardiac disease; evidence insufficient in pregnancy/under-18s.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          },
+          {
+            "text": "**Bupropion**: not licensed for adolescents/pregnant women, contraindicated with seizure history/eating disorders; dosed 150mg/day for 6 days then 300mg/day, smoking must stop by day 8, total course 8 weeks; adding a nicotine patch adds no significant benefit.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          },
+          {
+            "text": "**NICE**: do not usually re-prescribe **NRT** or **bupropion** within 6 months of a failed quit attempt; **varenicline** is an alpha4-beta2 nicotinic partial agonist that relieves withdrawal and reduces nicotine's rewarding effect.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 48
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          8,
+          10
+        ]
+      }
     },
     {
       "id": "non-substance-addictive-behaviours",
@@ -2185,7 +3580,84 @@
           "subtopic": "Novel psychoactive substances / Psychoactive Substances Act 2016",
           "note": "The book notes describe the pre-2016 'legal highs' landscape (cost/difficulty of testing new products, named agents like mephedrone, **MXE**, Spice) but never mention the **UK** Psychoactive Substances Act 2016, which subsequently banned blanket categories of these substances. Verify the current legal status of any named **NPS** against up-to-date **UK** legislation rather than relying on this section's framing."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Gambling disorder comorbid substance misuse",
+            "value": "30-==50%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 50
+            }
+          },
+          {
+            "label": "Compulsive buying prevalence",
+            "value": "2-==8%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 50
+            }
+          },
+          {
+            "label": "Compulsive buying — female",
+            "value": "≥==80%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 50
+            }
+          },
+          {
+            "label": "Anabolic steroid exposure (fitness-centre surveys)",
+            "value": "up to ==13%==",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 51
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Pathological gambling moved from **DSM-IV** Impulse Control Disorders into the substance-use-disorder category in **DSM-5**, reflecting withdrawal-like irritability on cutting down and tolerance-like escalating stakes.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 50
+            }
+          },
+          {
+            "text": "Gambling pharmacotherapy: **naltrexone** (especially higher doses) and **lithium** each have 2 favourable RCTs; SSRIs show mixed evidence.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 50
+            }
+          },
+          {
+            "text": "Internet addiction (not a formal **DSM-5** diagnosis, research appendix only) has 5 types: cybersexual, cyberrelationship, net compulsion, information overload, gaming — reported more often in China/Taiwan/**SE** Asia than Europe/Americas.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 50
+            }
+          },
+          {
+            "text": "Anabolic steroids are Class C under the Misuse of Drugs Act, but **ICD-10** classifies steroid abuse as a non-psychoactive substance disorder (**F50**.xx) rather than an addiction (F1x.xx); patterns include cycling, stacking, and pyramiding.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 51
+            }
+          },
+          {
+            "text": "Legal highs/**NPS**: testing a novel psychoactive product for harm cost ~£1 million and took ~1 year, making legislation practically impossible to keep ahead of new products.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 51
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          6,
+          7
+        ]
+      }
     },
     {
       "id": "pregnancy-alcohol-neonatal",
@@ -2255,7 +3727,28 @@
           ],
           "highYield": true
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Foetal alcohol syndrome is the commonest non-genetic cause of learning disability; **disulfiram**, **acamprosate** and **naltrexone** should be **AVOIDED** in pregnancy for maintaining abstinence.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 53
+            }
+          },
+          {
+            "text": "Neonatal opiate withdrawal onset 24-48h (occasionally delayed 3-4 days); **methadone** withdrawal typically 48-72h post-birth (can be delayed to 3 weeks), milder with **buprenorphine**; alcohol withdrawal onsets earlier, 3-12h after delivery.",
+            "source": {
+              "file": "books/11-1-addiction-psychiatry.pdf",
+              "page": 53
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "coverage-gaps",
@@ -2266,7 +3759,13 @@
           "subtopic": "Current NICE guidance numbering for alcohol-use disorders",
           "note": "Source material cites older **NICE** guidance (**CG051** psychosocial interventions, **CG052** opioid detoxification) by their historical codes. These have since been superseded/renumbered (e.g. **NICE** **NG** guidance and **CG115** for alcohol-use disorders diagnosis/management). Verify current guideline numbers and any updated recommendations directly against the live **NICE** website before the exam."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
     }
   ]
 }

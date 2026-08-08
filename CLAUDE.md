@@ -260,6 +260,70 @@ session-usage limits mid-run on a large fan-out (this reformat hit one on 9 of 1
 once) — check the actual file on disk before assuming a "failed" agent lost its work; several had
 already written and self-verified successfully before the API cut them off mid-report.
 
+## Concise Guide (`Section.concise`, the "Concise Guide" tab)
+
+An exam-cram compression of the Full Guide, one section at a time, added on top of the existing
+`sections[].blocks[]` — not a separate parallel file, so it can't drift out of sync with the Full
+Guide it's compressing. Schema (`lib/types.ts`):
+
+```ts
+interface ConciseBullet { text: string; source: Source }
+interface ConciseSection { bullets: ConciseBullet[]; highlightBlockIndices?: number[] }
+// added to Section: concise?: ConciseSection
+```
+
+**What "concise" means here, precisely** (confirmed with the user via `AskUserQuestion` before
+writing any of it): compression/rephrasing of existing facts into shorter bullets is allowed —
+this is NOT a retain-verbatim-sentences-only pass — but every bullet's `source` must be the exact
+same `{file, page, questionNumber?}` as the block it was compressed from. This is the same
+extraction-framing discipline as the rest of this project's content (see "The core safety
+mechanism is extraction-framing" above), applied to compression instead of splitting/regrouping —
+compress what the cited block already says, never add a fact from trained psychiatric knowledge
+just because it would plausibly follow.
+
+`highlightBlockIndices` is an array of indices into that *same* `Section.blocks[]` — it resurfaces
+this section's own tables/mnemonics/traps verbatim (via the shared `BlockView` dispatcher) instead
+of re-summarizing them as prose, since those block types are already concise by nature. Because
+it's an index into the live `blocks` array rather than a duplicated copy, the Concise tab can
+never show a stale/diverged version of a table the Full Guide has since changed.
+
+**UI**: `ConciseTabView` in `study-guide-view.tsx` uses the exact same left-panel-list +
+detail-pane pattern as the Notes tab (the user asked for this explicitly: "build the concise tab
+topic wise similar to how we have designed the notes"). Both tabs are now thin wrappers around a
+shared `SectionListDetail` component (nav list + `ResizablePanelGroup` desktop / stacked-pill
+mobile scaffold) — extracted specifically so the two tabs can't visually drift apart from each
+other. Each concise bullet (`ConciseBulletView`) is a numbered marker plus slightly heavier
+(`font-medium`) text — deliberately NOT a boxed card: an earlier version boxed every bullet
+individually, and the user asked for "simpler but emphasised" instead, since a whole list of
+bordered one-liners read as busier than the "quick to read" goal this tab exists for. A section
+with no `concise`
+entry is simply omitted from the tab's own section list (not an error); a topic with *no* sections
+processed yet shows a plain "not yet available" message instead of an empty panel — this is a
+topic-by-topic rollout, not all-or-nothing.
+
+**Rollout state**: complete — all 15 topics, 281 sections total, every section has a `concise`
+entry (verified by walking every `content/study-guides/*.json` file and asserting none is
+missing). `adult-psychiatry` was the hand-built template (all 18 sections), reviewed before
+scaling; the other 14 were delegated to parallel agents, each given this section's
+`ConciseBullet`/`ConciseFact` contract, the adult-psychiatry.json result as a worked example, and
+the same "compress the section's own blocks only, exact-citation, spot-check before scaling"
+instructions. Same workflow the original study-guide reformat used. Two agents (forensic-
+psychiatry, learning-disability) caught and self-corrected off-by-one citation-index bugs in their
+own draft before writing the final file — expect this kind of error and have agents check for it
+themselves, don't just trust a clean first pass.
+
+**`ConciseFact` (the `facts` array) was added after the template's first review round** — the user
+asked for a more structured/scannable representation for genuinely tabular content ("term/metric →
+number") than a numbered sentence, without turning *every* concise item into a table (most bullets
+are still sentence-shaped and read worse forced into rows). This is an editorial per-fact choice
+made when the content is written, not something inferred from bullet text — see `ConciseFact`'s
+own comment in lib/types.ts for why auto-detecting the shape from prose wasn't the approach taken.
+
+`scripts/verify-study-guide-citations.ts` checks `concise.bullets[].source` and
+`concise.facts[].source` against the topic's notes/questions (same as every other citation) and
+validates `highlightBlockIndices` are in range for that section's `blocks` — run it after
+adding/editing any topic's concise content.
+
 ## RichText must not return a Fragment
 
 `components/rich-text.tsx` wraps its output in a single `<span>`, not a `Fragment`. This isn't

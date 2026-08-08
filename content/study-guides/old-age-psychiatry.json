@@ -45,7 +45,66 @@
             "page": 2
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "World population >60 (2000→2050)",
+            "value": "==11%==→==22%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "UK population >65",
+            "value": "10 million (**→4x growth to 19 million by 2050**)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "UK population >80",
+            "value": "3 million",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Carers who develop depression",
+            "value": "==30%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**NSF for Older People** (2001), **Everybody's Business** (2005) and **No Health Without Mental Health** (2011) require age-appropriate, non-discriminatory services — replacing specialist older-adult services with \"ageless\" services risks indirect discrimination under the **Equality Act 2010**.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**JCPMH** commissioning: services must be need-based (not age alone), cover functional illness as well as dementia, and give access to community crisis/home treatment and acute liaison services.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "A carer's inability to continue support is a recognised trigger for a move into long-term care; home assessment gives richer information for dementia patients and avoids a tiring, costly journey.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          }
+        ]
+      }
     },
     {
       "id": "physical-disease-psychological-aspects",
@@ -83,7 +142,73 @@
             "page": 4
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Depression in Parkinson's disease",
+            "value": "~2/3 of patients",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "Dementia in Parkinson's disease",
+            "value": "~==40%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "Delirium in the week after stroke",
+            "value": "30–==40%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "Depression prevalence with chronic physical illness",
+            "value": "~==20%== (2–3x general rate)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "In **PD**, missed medication doses can themselves cause delirium, depression, slowed cognition and anxiety — not just under-treatment of motor symptoms.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Post-stroke pathological crying/emotional lability is common and treatable with **SSRIs**.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Charles Bonnet syndrome (visual hallucinations, no other psychosis) is linked most to macular degeneration, also cataracts/diabetic retinopathy; auditory impairment is linked to psychotic symptoms in the elderly.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "**NICE**: no antidepressant is specifically better for a given physical illness — a generic **SSRI** is first-line, but watch for hyponatraemia and increased bleeding risk.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 4
+            }
+          }
+        ]
+      }
     },
     {
       "id": "reversible-intracranial-causes",
@@ -151,7 +276,70 @@
             "page": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Alcohol-related dementia (% of young-onset dementia)",
+            "value": "==12%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "NPH population prevalence",
+            "value": "==0.4%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Chronic subdural haematoma — bilateral",
+            "value": "==30%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Chronic subdural haematoma — mortality",
+            "value": "~==10%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Alcohol-related dementia memory impairment can be static and improve with abstinence; autobiographical memory affected, confabulation may occur.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**NPH** triad (dementia, gait ataxia, urinary incontinence) — gait disturbance always comes first; ==50%== idiopathic/==50%== secondary; **CSF** tap test has poor sensitivity; gait is most likely to improve after **VP** shunt, and milder dementia predicts a better outcome.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Subdural haematoma: head-injury history present in only ==50%==; clot can be isodense (missed) on **CT** in the first 3 weeks; mortality highest with depressed consciousness and bilateral clots.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1
+        ]
+      }
     },
     {
       "id": "secondary-dementias-prion-diseases",
@@ -289,7 +477,78 @@
           "subtopic": "Fatal familial insomnia and Gerstmann-Straussler syndrome detail",
           "note": "These two of the four human prion diseases are named in the source but not described in clinical detail (fatal familial insomnia gets essentially no description beyond being named; Gerstmann-Straussler is described only via one **EMI** answer). Verify clinical features against a current neuropsychiatry reference if these come up in more depth than 'name the prion disease'."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Sporadic CJD — spontaneous",
+            "value": "==85%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Sporadic CJD — genetic",
+            "value": "==10%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Sporadic CJD — iatrogenic",
+            "value": "==5%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Pulvinar sign in confirmed variant CJD",
+            "value": ">==70%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Huntington's dementia: autosomal dominant **CAG** repeat, presents 4th decade with frontal dementia + movement disorder; recall worse than recognition (retrieval, not encoding, deficit).",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**MS** dementia: **MRI** is the key test (demyelination vs vascular damage can be hard to tell apart in older adults); other secondary causes include **HIV** dementia, Wilson's disease, limbic encephalitis.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Sporadic **CJD**: **EEG** periodic complexes, **CSF** 14-3-3 raised but non-specific, definitive diagnosis only post-mortem; symptomatic treatment with **valproate**/**clonazepam** for movement disorder.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Variant **CJD** follows **BSE** exposure, affects young men (20s); anxiety/depression → personality change → dementia with ataxia/myoclonus over 1–2 years; tonsillar biopsy is sensitive and specific.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          5,
+          6
+        ]
+      }
     },
     {
       "id": "ad-epidemiology-genetics",
@@ -444,7 +703,58 @@
             "questionNumber": 34
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "AD risk at age 60",
+            "value": "==1%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "AD risk by age 85",
+            "value": "==40%== (doubling every 5y)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "AD:VaD risk ratio beyond age 75",
+            "value": "6:1",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "First-degree relative absolute risk",
+            "value": "15–==19%== (vs ==5%== controls)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**PSEN1** (chr 14) and **PSEN2** (chr 1) cause early-onset **AD**; **APP** (chr 21) explains near-universal early **AD** pathology in Down's syndrome; **ApoE ε4** (chr 19) raises late-onset risk 3x (1 copy) or 8x (2 copies) but isn't recommended for clinical genetic testing.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          4,
+          6
+        ]
+      }
     },
     {
       "id": "ad-diagnosis-imaging-features",
@@ -691,7 +1001,77 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Delusions in AD",
+            "value": "==15%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Hallucinations in AD",
+            "value": "10–==15%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Depression requiring treatment in AD",
+            "value": "==20%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Average survival",
+            "value": "~8 years",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Psychosis overall in AD",
+            "value": "30–==50%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Probable **AD** needs dementia established clinically/neuropsychologically, deficits in ≥2 cognitive domains, progressive worsening, no impaired consciousness, and no other explanatory disease — cerebral atrophy on **CT** is **NOT** a required criterion, only supportive.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Misidentification delusions (Capgras, phantom boarder, mirror sign, **TV** sign, magazine sign) are a recognised **AD** psychosis cluster (Karim & Burns 2003); psychosis overall is linked to more rapid cognitive decline.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          11
+        ]
+      }
     },
     {
       "id": "antidementia-drugs",
@@ -838,7 +1218,52 @@
           "subtopic": "Prescribing specifics not stated in this source",
           "note": "The **SPMM** notes and questions give antidementia drug doses and general safety points (e.g. **CSM** stroke-risk restriction on **olanzapine**/**risperidone**), but do not give full current **UK** dosing/monitoring detail (e.g. current **memantine** titration schedule, current **NICE** technology appraisal thresholds for starting/stopping cholinesterase inhibitors). Verify against the Maudsley Prescribing Guidelines (15th ed.) and current **NICE** dementia guidance (**NG97**) before applying to practice."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**Donepezil**: long half-life (70h, once daily), near-total protein binding, mainly **GI** side effects. **Rivastigmine**/**galantamine** cause more **GI**/neuropsychiatric effects than **donepezil**.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**Galantamine** has a direct nicotinic stimulatory action; **rivastigmine** inhibits both acetyl- and butyryl-cholinesterase, comes as a once-daily patch, and helps cognition/**ADLs** in **PD** dementia.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**Memantine** (**NMDA** antagonist) is better tolerated than cholinesterase inhibitors; used in moderate-severe **AD**, or mild-moderate **AD** if cholinesterase inhibitors aren't tolerated (e.g. severe cardiac conduction defects/asthma).",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**CSM** (Duff 2004): **olanzapine**/**risperidone** each carry ≥2x stroke risk in dementia and should not be used — though Herrmann et al (2004) found no difference vs typical neuroleptics.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Ginkgo biloba's benefit on cognition is unconvincing (Cochrane 2007); tacrine is rarely used owing to hepatotoxicity.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3,
+          6,
+          8
+        ]
+      }
     },
     {
       "id": "vascular-dementia",
@@ -1040,7 +1465,72 @@
             "questionNumber": 23
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "VaD as % of dementia",
+            "value": "==20%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Reflex asymmetry (most prevalent sign)",
+            "value": "==49%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Hypertension history in VaD",
+            "value": "==50%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**NINCDS-AIREN**: cerebrovascular disease on exam/imaging **PLUS** dementia within 3 months of stroke, **OR** abrupt/stepwise-fluctuating deterioration.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Three subtypes: single-stroke deficits (midbrain/thalamic, may fix or recover), multi-infarct (stepwise, minor episodes + stable periods), Binswanger's/small-vessel (subcortical, slow decline, gait/dysarthria, lacunae/leukoaraiosis on **MRI**).",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**CADASIL**: autosomal dominant, chromosome 19; recurrent stroke age 40–50 with migraine history, later subcortical dementia/pseudobulbar palsy; widespread white-matter change on **MRI**.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Imaging: **MRI** white-matter lesions more numerous/severe than **AD**; **MRS** lacks the phospholipid changes seen in **AD**.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          4,
+          7,
+          8,
+          9
+        ]
+      }
     },
     {
       "id": "dementia-lewy-bodies",
@@ -1121,7 +1611,78 @@
             "page": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "DLB as % of dementia",
+            "value": "15–==20%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Paranoid delusions",
+            "value": "==65%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Visual hallucinations",
+            "value": "60–==80%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Extreme antipsychotic sensitivity",
+            "value": "==60%== (~==50%== life-threatening)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Parkinsonism worsening",
+            "value": "~==10%==/year",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Consensus criteria: 2 of 3 core features (fluctuating cognition, recurrent well-formed visual hallucinations, spontaneous parkinsonism) = probable; 1 = possible.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Lewy bodies are essential for confirmed diagnosis; plaques/tangles/neuronal loss (locus coeruleus, substantia nigra, nucleus basalis) are associated but not essential.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**Rivastigmine** improved delusions/hallucinations vs placebo (McKeith 2000), but is not **UK**-licensed for **DLB** and a Cochrane review questioned its benefit.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
     },
     {
       "id": "pd-dementia",
@@ -1169,7 +1730,53 @@
             "questionNumber": 7
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "PD dementia incidence",
+            "value": "~==10%==/year",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "PD dementia at 8-year follow-up",
+            "value": "==78%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**Levodopa**/dopamine agonists commonly cause visual hallucinations (most common), plus psychosis, anxiety, euphoria, mania, impulsivity, delirium; hallucinations with preserved insight are typical.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Management of **PD** psychosis: reduce **levodopa**/agonist dose first; if ineffective, atypical antipsychotic — **clozapine** most successful, **quetiapine** reasonable first try (lower success rate).",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**LBD** vs **PD** dementia (McKeith 1996): motor + cognitive symptoms both within 12 months = **LBD**; parkinsonism preceding dementia by >12 months = **PD** dementia. **DAT**-scan detects the shared dopamine-transporter deficit vs **AD**; **rivastigmine** is licensed for **PD** dementia.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4
+        ]
+      }
     },
     {
       "id": "ftd-picks-disease",
@@ -1199,7 +1806,50 @@
             "page": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "FTD as % of presenile dementia",
+            "value": "~==20%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Pick's disease positive family history",
+            "value": "==50%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**FTD** early features are personality/behaviour change (disinhibition, apathy, mutism, repetitive behaviours); memory affected later/less than **AD**, spatial orientation preserved, insight lost early.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Pick's disease: autosomal dominant tau mutation (chr 17q21-22); pathognomonic Pick cells; **CT**/**MRI** shows frontotemporal 'knife-blade atrophy' sparing posterior 3rd of superior temporal gyrus.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Primary progressive aphasia: non-fluent speech, perisylvian atrophy. Semantic dementia: fluent speech, impaired word meaning, disproportionate (left>right, anterior>posterior) temporal atrophy.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ]
+      }
     },
     {
       "id": "early-onset-dementia-psp",
@@ -1300,7 +1950,30 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Most pre-65 dementia is Alzheimer's type; familial early-onset **AD** genes are **APP**, **PSEN1**, **PSEN2**; language and visuospatial problems are common.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**PSP** onset in 6th decade: early falls/retropulsion, slurred speech, dysphagia, personality change; full syndrome (supranuclear ophthalmoplegia, pseudobulbar palsy, axial dystonia) may take >1 year; vertical gaze palsy, lost Bell's phenomenon/convergence, 'perpetual surprise' stare are characteristic; subcortical dementia is typical.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3,
+          4
+        ]
+      }
     },
     {
       "id": "delirium",
@@ -1429,7 +2102,78 @@
             "questionNumber": 25
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Delirium on admission",
+            "value": "10–==15%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          },
+          {
+            "label": "Develops during hospital stay",
+            "value": "10–==40%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          },
+          {
+            "label": "ICU point prevalence",
+            "value": "12–==50%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          },
+          {
+            "label": "Nursing home point prevalence",
+            "value": "up to ==60%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Rapid onset, fluctuating severity; visual perceptual disturbances/hallucinations are characteristic. Hyperactive delirium = agitation; hypoactive = lethargy, worse prognosis.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "Major pathway is dorsal tegmental (mesencephalic reticular formation → tectum/thalamus); acetylcholine is the key implicated neurotransmitter; **EEG** shows generalised slowing (helps differentiate from depression/psychosis).",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "**DRS** is the most widely used scale to distinguish delirium from dementia; **CAM** has high sensitivity/specificity but is less sensitive when used by nursing staff vs physicians.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "Management: treat cause, environmental/supportive measures, avoid sedation unless severely agitated. **NICE**: short-term (<1wk) **haloperidol**/**olanzapine** if conservative measures fail; benzodiazepines can worsen agitation/falls but are specifically useful for alcohol/sedative withdrawal delirium.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 22
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          4,
+          7
+        ]
+      }
     },
     {
       "id": "depression-epidemiology-features",
@@ -1467,7 +2211,58 @@
             "page": 24
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Clinically significant depression >65",
+            "value": "10–==15%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Dementia patients developing depressive illness",
+            "value": "==25%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Cognitive impairment in later-onset depression",
+            "value": "~==70%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Late-life depression: less prominent low mood (Gurland 1976), more hypochondriasis/somatic concern, dementia-like subjective memory complaints, late-onset neurotic symptoms, apathy rather than classic sadness.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Early-onset depression: more depressive cognitions, up to ==30%== severe psychomotor change, higher familial loading. Later-onset: more cognitive impairment/anxiety, less familial loading, more life stress.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Risk factors: female sex, poor health, disability, poor perceived social support. Neuroimaging: ischaemic changes, reduced frontal/temporal grey matter, reduced caudate/hippocampal volume, ventricular enlargement.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ]
+      }
     },
     {
       "id": "depression-treatment-prognosis",
@@ -1584,7 +2379,70 @@
           ],
           "highYield": true
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Antidepressant NNT",
+            "value": "~4",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Non-response to medication",
+            "value": "~==30%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "ECT recovery in severe depression",
+            "value": "~==80%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "2-year outcome (well / still depressed / dead)",
+            "value": "==33%== / ==33%== / ==21%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**NICE**: **SSRI** first-line for late-onset depression (safety in overdose), though **GI** bleed risk is somewhat raised and all SSRIs can cause hyponatraemia; response may take 6–8 weeks.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Psychological therapies are as effective as medication for mild-moderate episodes but rarely offered; combining antidepressants + psychotherapy beats either alone, especially for relapse prevention. **CBT** best-established, **IPT** effective for relapse prevention.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Depressed elderly patients are ~4x more likely to die within 4 months of an **MI** (raised platelet aggregation, elevated **IL-6** linked to fracture risk via bone resorption).",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          5
+        ]
+      }
     },
     {
       "id": "pseudodementia-vascular-depression",
@@ -1684,7 +2542,45 @@
             "page": 24
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Pseudodementia progressing to true dementia within 3y",
+            "value": "~==40%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Late-onset depression shows attention/executive (frontal) deficits; recurrent early-onset depression shows episodic memory (temporal) deficits (Rapp 2005). Pseudodementia occurs mostly in late-onset major depression.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Vascular depression (Alexopoulos): apathy, psychomotor retardation, poor executive function, less guilt/worthlessness, late onset; verbal fluency/object naming most impaired.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "**MRI** deep white-matter lesions are commoner in depression (esp. late-onset) and predict poorer antidepressant response, though **ECT** can still work (with higher post-treatment delirium risk); favour dopamine/norepinephrine-enhancing antidepressants, avoid adrenergic blockers.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "bipolar-disorder-old-age",
@@ -1714,7 +2610,51 @@
             "page": 24
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "1-year prevalence bipolar disorder ≥65",
+            "value": "==0.4%== (vs ==1.4%== younger)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Mania as % of late-life mood disorders",
+            "value": "5–==10%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Mean onset age / F:M ratio",
+            "value": "55y / 2:1",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "First-episode late-life mania has lower familial loading and is often secondary (stroke commonest, especially right-sided; also head injury, tumours, endocrine, **HIV**, steroids/antiparkinsonian drugs); cognitive impairment in a fifth to a third of elderly manic patients.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "**Lithium** first-line but at a lower therapeutic range (~0.4–0.6 mmol/L, Shulman 2002); **valproate** also popular; antipsychotics added for more severe illness at age-appropriate doses.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ]
+      }
     },
     {
       "id": "late-life-psychosis-paraphrenia",
@@ -1830,7 +2770,61 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Late paraphrenia as % of elderly psychiatric inpatients",
+            "value": "~==10%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Tardive dyskinesia risk vs younger adults",
+            "value": "5–6x greater",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Partition delusions (people/gas/radiation through walls/ceilings) are characteristic; **ICD** has no separate paraphrenia category — classify as delusional disorder or schizophrenia.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Late-onset schizophrenia (Palmer 2001): fewer negative symptoms, better antipsychotic response, more visual hallucinations, less thought disorder/affective blunting; relatives of very-late-onset patients have lower morbid schizophrenia risk than early-onset relatives.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Risk factors: frontal/temporal cortical change, cognitive decline, social isolation, sensory deprivation, polypharmacy, paranoid/schizoid traits, female sex, weaker family history than younger-onset schizophrenia.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Exclude Lewy body dementia before antipsychotics; 'start low, go slow'; reserve **clozapine** for treatment resistance/severe tardive dyskinesia given toxicity/monitoring burden.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          6
+        ]
+      }
     },
     {
       "id": "neurotic-disorders-alcohol-substance-misuse",
@@ -1895,7 +2889,53 @@
             "page": 24
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Illicit drug lifetime prevalence (ECA)",
+            "value": "==1.6%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Benzodiazepine use, community-dwelling elderly",
+            "value": "==17%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Anxiety prevalence decreases with age but remains commonest psychiatric disorder (excl. dementia); phobic disorder most prevalent, panic least. **Fluoxetine**/**paroxetine** (**GAD**/**PTSD**), **citalopram** (panic), **venlafaxine** (**GAD**) are **UK**-licensed — watch for transient anxiety increase in the first 1–2 weeks.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Older people develop alcohol problems at lower intake levels; men >2x more likely to exceed weekly limits, but women report more late-onset problems; widowed/divorced men drink most heavily, married women drink most among women.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "**Disulfiram** generally avoided in the elderly (confusional state risk; contraindicated with hypertension/cardiac failure/stroke/**IHD**); **acamprosate**/**naltrexone** are alternatives; give **thiamine** to prevent Wernicke-Korsakoff.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "suicide-self-harm-old-age",
@@ -1933,7 +2973,58 @@
             "page": 24
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Completed suicide M:F ratio",
+            "value": "3–4:1",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "MDD at time of suicide death",
+            "value": "==70%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Prior DSH history in suicide victims",
+            "value": "~1/3",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**DSH** incidence falls with age while completed suicide rises; **DSH** over 75 should be treated clinically as failed suicide given the higher suicidal intent behind it.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Drug overdose is the commonest **DSH** method; about half of older **DSH** patients have **MDD**, up to a third alcohol abuse, and <==10%== no psychiatric diagnosis at all.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Social risk factors: isolation, lack of a confidant, concern over dependents, move to residential care. Bereavement alone isn't an added risk unless grief is prolonged beyond a year. Personality correlates: high Neuroticism, low Openness, anankastic/anxious traits.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ]
+      }
     },
     {
       "id": "personality-disorders-diogenes-syndrome",
@@ -1981,7 +3072,61 @@
             "questionNumber": 14
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Personality disorder prevalence, elderly",
+            "value": "5–==10%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Cohen 1994: any PD, >50 vs <50",
+            "value": "==6.6%== vs ==10.5%== (**OR** 0.42)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Highest single elderly PD prevalence",
+            "value": "OCPD ==3.3%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**PD** patients are 4x more likely to have persistent/relapsing depression (Morse & Lynch 2004); avoidant/dependent/compulsive traits cluster with depressive illness, hypochondriacal **PD** with psychotic depression, paranoid traits may predate late paraphrenia.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Two-thirds of people with dementia show negative personality change, in one of four patterns: onset change only, ongoing change with progression, regression to old disturbed behaviours, or no change.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Diogenes syndrome: eccentric, reclusive self-neglect, filthy living conditions, hoarding of valueless items (syllogomania); patients are oblivious and resistant to help.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4
+        ]
+      }
     },
     {
       "id": "sleep-disorders-later-life",
@@ -2051,7 +3196,68 @@
             "page": 24
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "REM sleep behaviour disorder in Parkinson's disease",
+            "value": "15–==34%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "REM sleep behaviour disorder in MSA",
+            "value": "==90%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "REM sleep behaviour disorder, general population",
+            "value": "0.5–==0.8%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Ageing reduces total sleep time/slow-wave sleep/**REM**, increases naps/arousals/latency — not itself poorer sleep quality, and sleep disorders shouldn't be dismissed as normal ageing.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "**NICE CKS** insomnia: treat cause, sleep hygiene, short-acting benzodiazepine/Z-drug or **melatonin** agonist (only >55y, symptoms >4 weeks), refer to **IAPT**/**CBT** if symptoms persist >2 weeks; restrict hypnotics to ≤2 weeks.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Circadian disorders common in nursing homes; advanced sleep phase syndrome likely commonest, treated with light therapy/evening **melatonin**/chronotherapy. Breathing disorders need bed-partner history + polysomnography; treat with weight loss, **CPAP**, oral appliances.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "**REM** sleep behaviour disorder can predate a dementia diagnosis by years to decades; treat with a safe sleeping environment, **clonazepam**, **melatonin** or **pramipexole**.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "psychosexual-disorders-old-age",
@@ -2081,7 +3287,50 @@
             "page": 39
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Impotence, men ≥70",
+            "value": "10–==20%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          },
+          {
+            "label": "Inappropriate sexual behaviour in AD",
+            "value": "~==7%== (~==18%== in care homes)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Sexual satisfaction doesn't necessarily decline with age despite oestrogen/testosterone decline, though sexual history is rarely taken despite being recommended.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          },
+          {
+            "text": "Drugs causing **ED** include alcohol, benzodiazepines, antidepressants (**trazodone** → priapism), beta-blockers, thiazides/spironolactone; physical illness can undermine sexual confidence/safety concerns post-**MI**/**CVA**/mastectomy/colostomy.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          },
+          {
+            "text": "Inappropriate sexual behaviour in dementia may reflect frontal pathology, managed with the **ABC** framework; capacity to consent to sexual activity is decision-specific.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          }
+        ]
+      }
     },
     {
       "id": "psychotherapy-bereavement-old-age",
@@ -2159,7 +3408,55 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "MDD in first month of spousal bereavement",
+            "value": "~1/3 (half still depressed at 1y)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          },
+          {
+            "label": "Surviving spouses needing treatment for depression, year 1",
+            "value": "10–==20%==",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          },
+          {
+            "label": "Bereaved elderly with MDD by year 2",
+            "value": "==14%== (vs 1–==4%== general elderly)",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**CBT** is most commonly used in older adults (incl. dementia caregivers); cognitive impairment can limit engagement, transference may be altered by a younger therapist, and dependency/sexuality/death are key themes.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          },
+          {
+            "text": "Normal grief has four phases (shock/protest → preoccupation → disorganisation → resolution), with substantial improvement expected within 2–6 months.",
+            "source": {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 39
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          5
+        ]
+      }
     },
     {
       "id": "additional-epidemiology-ageing-physiology",
@@ -2303,7 +3600,104 @@
             "questionNumber": 56
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Dementia prevalence >65 / >80",
+            "value": "~==5%== / ==20%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 2
+            }
+          },
+          {
+            "label": "AD as % of all dementia",
+            "value": "~==60%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 2
+            }
+          },
+          {
+            "label": "Antipsychotic-associated mortality risk, elderly",
+            "value": "1–==2%== absolute",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 4
+            }
+          },
+          {
+            "label": "MCI → dementia conversion",
+            "value": "5–==10%==/year, ~==40%== by 10y",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 13
+            }
+          },
+          {
+            "label": "Delirium prevalence: general medical / elderly medical / ICU-palliative",
+            "value": "~==20%== / >==50%== / >==80%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 18
+            }
+          },
+          {
+            "label": "Brain weight decrease by age 80 (normal ageing)",
+            "value": "~==17%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 37,
+              "questionNumber": 32
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Pharmacokinetics: gut motility/gastric acid secretion decrease (slows but doesn't reduce total absorption); renal function declines with age (==35%== lost by 65, ==50%== by 80); serum creatinine is a misleading renal marker due to reduced muscle mass.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 38,
+              "questionNumber": 33
+            }
+          },
+          {
+            "text": "Simple recall reliably declines with age (a common false-answer trap says it stays intact); complete learning of new material still occurs, just slower; **IQ** stable to ~70.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 45,
+              "questionNumber": 40
+            }
+          },
+          {
+            "text": "Hyperhomocysteinaemia is a modifiable risk factor for cognitive decline, dementia and **AD**.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 8,
+              "questionNumber": 5
+            }
+          },
+          {
+            "text": "**DMR** (Dementia Questionnaire for Mentally Retarded Persons) is the correct **AD** screening tool in people with intellectual disability/Down's syndrome, since **MMSE** has a floor effect there.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 59,
+              "questionNumber": 56
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          7,
+          9
+        ]
+      }
     },
     {
       "id": "cross-cutting-pharmacology-differential-diagnosis",
@@ -2463,7 +3857,103 @@
             "questionNumber": 29
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Levodopa nightmares/vivid dreams",
+            "value": "~==30%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 16
+            }
+          },
+          {
+            "label": "Levodopa night terrors",
+            "value": "~==7%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 16
+            }
+          },
+          {
+            "label": "Levodopa delirium",
+            "value": "~==5%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 16
+            }
+          },
+          {
+            "label": "Levodopa delusional disorder",
+            "value": "~==3%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 16
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Aminophylline decreases proximal tubular sodium reabsorption, increasing **lithium** excretion and lowering serum levels — a specific interaction pairing.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 28
+            }
+          },
+          {
+            "text": "Cerebellar dysarthria has a scanning/explosive, staccato, nasal quality — distinguishes it from pseudobulbar (spastic) or bulbar (flaccid) dysarthria.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 43,
+              "questionNumber": 41
+            }
+          },
+          {
+            "text": "Vascular (not degenerative) dementia signs: focal neurological signs, rigidity, akinesia, brisk reflexes/clonus, pseudobulbar palsy, asymmetrical hyperreflexia/weakness.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 47,
+              "questionNumber": 45
+            }
+          },
+          {
+            "text": "Barthel Index is the widely used, globally validated **ADL** scale (dressing, bathing, grooming) in older people.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 36,
+              "questionNumber": 34
+            }
+          },
+          {
+            "text": "The most common cause of death in advanced Alzheimer's disease is pneumonia.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 40,
+              "questionNumber": 38
+            }
+          },
+          {
+            "text": "Anankastic (obsessional) and anxious personality traits/disorders (esp. **OCPD**, avoidant **PD**) predict late-life suicide more than Cluster B traits (Harwood 2001).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+              "page": 30,
+              "questionNumber": 29
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          4,
+          6,
+          7
+        ]
+      }
     },
     {
       "id": "coverage-gaps-flags",
@@ -2484,7 +3974,10 @@
           "subtopic": "Current NICE dementia/depression guidance version",
           "note": "The source material cites **NICE** **CG103** (delirium) and general **NICE** depression/dementia guidance current at the time the **SPMM** notes were written, plus some 2023-referenced question content. **NICE** guidance is periodically updated (e.g. **NG97** dementia, **NG222** depression in adults with a chronic physical health problem) — verify any guideline step or drug-choice recommendation above against the current **NICE** pathway before relying on it for exam answers that test 'latest guidance'."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": []
+      }
     }
   ]
 }

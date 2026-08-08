@@ -78,7 +78,36 @@
           ],
           "highYield": true
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Studies are classified by how subjects are identified (by exposure vs. by outcome) and by time course — prospective, retrospective, or cross-sectional ('snapshot').",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Ecological studies use population-level exposure data; drawing individual-level conclusions from this is the **ecological fallacy**.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Experimental studies are prospective cohort designs with deliberately assigned exposure (**RCT**s) — unlike naturally-occurring exposure in cohort studies.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "case-control-cohort",
@@ -145,7 +174,46 @@
             "page": 7
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Case-control power gain caps at",
+            "value": "**4:1** control:case ratio",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "OR≈RR rare-disease threshold",
+            "value": "prevalence <==5%==",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Overzealous matching can hinder recruitment, shrink the risk difference, and risk matching on a causal factor itself; **OR** needs log transformation for its **CI** since it ranges 0–∞.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "A nested case-control study draws cases/controls from within an existing cohort rather than studying the whole cohort — cheaper, similar precision.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
     },
     {
       "id": "rct-design",
@@ -325,7 +393,39 @@
             "page": 7
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Before-and-after trials lack randomisation and can't exclude non-intervention causes of change; multi-arm trials need bigger samples and lose power.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Efficiency additionally asks whether resources are used to maximise value for money.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Allocation concealment = keeping the random sequence secret until assignment; blinding = keeping the allocation secret from measurement onward.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          3,
+          5
+        ]
+      }
     },
     {
       "id": "itt-missing-data",
@@ -408,7 +508,45 @@
             "page": 17
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "ITT definition",
+            "value": "analyse by **randomised** group regardless of compliance/crossover",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**ITT** gives a conservative, generalisable estimate but is poor for biological-mechanism questions and favours equality (dilution) in equivalence trials.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Per-protocol/'on treatment' analysis includes only sufficiently compliant patients; treatment-received analysis groups by actual treatment taken, undoing randomisation's benefit via contamination.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "N-of-1 trials suit genuine clinical uncertainty + rapid-onset/offset, non-disease-modifying treatment + a definable endpoint + pharmacist blinding — strong individual evidence, but never generalisable.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "causality",
@@ -491,7 +629,46 @@
             "page": 22
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Susser's essential criteria",
+            "value": "3 of 5 (strength, specificity, consistency, predictive/experimental performance, coherence)",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Koch's postulates (agent present in every case, absent in other diseases, reproduces disease experimentally, recoverable from it) apply only to infectious-disease causality — not generalisable to non-infectious illness.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Rothman's sufficient-component model: a 'cause' is usually a minimal set of conditions (a **causal pie**); a necessary cause (e.g. H. pylori for gastric ulcer) must appear in every sufficient cause but isn't sufficient alone.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "A positive study result may reflect selection bias, measurement bias, confounding, chance (type 1 error), or a genuine causal association.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 22
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
     },
     {
       "id": "confounding-effect-modification",
@@ -563,7 +740,38 @@
             "page": 22
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Confounder criteria",
+            "value": "related to exposure + related to outcome + **NOT** on the causal pathway + differs between groups",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 22
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Confounders cannot be eliminated, only controlled for.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "An effect modifier changes the **strength** (not the existence) of an A→B relationship — report it stratified by its levels rather than eliminating it.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 22
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "bias",
@@ -714,7 +922,33 @@
             "questionNumber": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Bias is a systematic, predictable error from poor design/collection/analysis — unlike random error it does **NOT** shrink with repetition and can't be fixed at analysis.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "Bias 'toward the null' underestimates an effect; 'away from the null' exaggerates it; an extreme switch-over bias can flip the direction entirely (a true **OR**>1 appearing as <1).",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 26
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      }
     },
     {
       "id": "qualitative-research",
@@ -780,7 +1014,45 @@
             "page": 30
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Focus group size",
+            "value": "6–10 members",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 30
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Multiple small focus groups are preferred over one large group.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 30
+            }
+          },
+          {
+            "text": "Transcribing takes roughly a 5:1 time ratio to interview length; content analysis splits manifest (literally said) from latent (implied) meaning.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 30
+            }
+          },
+          {
+            "text": "Validity methods: triangulation (≥2 methods/sources converge), respondent validation ('member checking'), reflexivity, and deviant case analysis (deliberately seeking contradicting data).",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 30
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
     },
     {
       "id": "secondary-research-reviews",
@@ -802,7 +1074,36 @@
             "page": 35
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "GIGO principle",
+            "value": "poor primary studies → meaningless synthesis regardless of statistical rigour",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Narrative reviews are broad/expert-led, non-systematically searched, non-replicable, and carry higher bias risk — but useful for introducing a topic or generating hypotheses.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          },
+          {
+            "text": "A comprehensive search uses multiple databases, reference-list cross-checks, hand-searching, expert consultation and grey literature; individual-patient-data meta-analysis is more powerful than summary-data meta-analysis but far less often achievable.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "meta-analysis-heterogeneity",
@@ -922,7 +1223,53 @@
             "page": 35
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "OR overestimates RR once event rate rises above",
+            "value": "~==20%==",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Heterogeneity tests (chi-square/Cochran's Q or I²) have low power — a non-significant result does **NOT** prove homogeneity.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          },
+          {
+            "text": "Publication bias favours significant/positive results; an asymmetric funnel plot, failsafe N, trim-and-fill, and cumulative meta-analysis all help detect it.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          },
+          {
+            "text": "Neither Mantel-Haenszel nor Peto methods adjust for confounding.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          },
+          {
+            "text": "Forest plot: each study is a weighted blob with a ==95%== **CI** line; the pooled diamond has minimal width (highest precision); the line of no effect sits at 1 (**OR**/**RR**) or 0 (mean difference/**SMD**).",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          5
+        ]
+      }
     },
     {
       "id": "health-economics-study-types",
@@ -1109,7 +1456,56 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Standard discount rate convention",
+            "value": "==6%==/year",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
+            }
+          },
+          {
+            "label": "Incremental cost example (CBT vs GET)",
+            "value": "£1,000 extra per additional recovery",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Standard gamble asks how much death-risk a respondent would accept for a chance of cure; willingness-to-pay asks how much they'd spend to prevent/cure a health state.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 44
+            }
+          },
+          {
+            "text": "Quality indicators: viewpoint (payer/patient/government perspectives can differ), clinical effectiveness, computing the true incremental (**ICER**) rather than a naive per-patient cost, and sensitivity analysis of assumptions.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
+            }
+          },
+          {
+            "text": "Naive per-patient cost comparison (£2000 vs £2250) wrongly implies savings — the correct incremental calc is (£10,000−£9,000)/(5−4) = £1,000 extra spent per extra recovery via **CBT**.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          6
+        ]
+      }
     },
     {
       "id": "health-economics-icer-ceac",
@@ -1182,7 +1578,46 @@
             "page": 46
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "ICER formula",
+            "value": "(cost of proposed − cost of control) / (effect of proposed − effect of control)",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
+            }
+          },
+          {
+            "label": "ACER formula",
+            "value": "cost/effect for a single intervention",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "An intervention is cost-effective if its **ICER** falls below the decision-maker's ceiling ratio λ (e.g. below £25,000/life-year gained); the **CEAC** expresses, as a probability, how confident a decision-maker can be that it's cost-effective across a range of λ.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 46
+            }
+          },
+          {
+            "text": "Nixon's permutation matrix pools multiple economic evaluations without a formal meta-analysis by crossing incremental effectiveness against incremental cost.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 46
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "variables-levels-measurement",
@@ -1280,7 +1715,54 @@
             "page": 1
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Interval data",
+            "value": "meaningful difference, no true zero (e.g. °C)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "Ratio data",
+            "value": "true zero → ratios meaningful (e.g. height, weight)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Nominal = named categories, no order; ordinal = ordered but unequal intervals; discrete = integer counts; continuous = any value in a range.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "A mediator (C) statistically explains part (partial) or all (complete) of A's effect on B via regression, but by definition cannot cause the outcome B directly on its own.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "**SPMM** rule of thumb: nominal/ordinal data → non-parametric tests; interval/ratio data → parametric tests.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
     },
     {
       "id": "descriptive-statistics",
@@ -1418,7 +1900,42 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Symmetric distribution",
+            "value": "mean = median = mode",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "Positive (right) skew",
+            "value": "mean > median > mode",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "Negative (left) skew",
+            "value": "mean < median < mode",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 1
+            }
+          }
+        ],
+        "bullets": [],
+        "highlightBlockIndices": [
+          0,
+          2,
+          3,
+          4
+        ]
+      }
     },
     {
       "id": "normal-distribution-clt",
@@ -1448,7 +1965,69 @@
             "page": 10
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "z-score formula",
+            "value": "z = (x − mean)/**SD**",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "±1 SD contains",
+            "value": "==68%== of data",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "±2 SD contains",
+            "value": "==95%== of data",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "±3 SD contains",
+            "value": "==99%== of data",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "CLT sample-size rule of thumb",
+            "value": "n≥30",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "SEM formula",
+            "value": "**SD**/√n",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Larger sample size → smaller **SEM** → the observed sample mean is closer to the true population mean, regardless of the underlying population's own variability.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "probability-odds",
@@ -1512,7 +2091,40 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Probability range",
+            "value": "0 to 1 (0–==100%==)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Odds → Probability",
+            "value": "P = O/(1+O)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Probability → Odds",
+            "value": "O = P/(1−P)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "bullets": [],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
     },
     {
       "id": "sampling-methods",
@@ -1628,7 +2240,39 @@
             "page": 10
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Sampling error",
+            "value": "measurable gap between sample estimate and true population value — distinct from bias",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Non-random ('non-probability') sampling has weaker generalisability, with unknown selection probability.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Sampling with replacement can re-select the same unit; sampling without replacement removes it after selection.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          3
+        ]
+      }
     },
     {
       "id": "hypothesis-testing",
@@ -1743,7 +2387,78 @@
             "questionNumber": 8
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Type 1 error (α) convention",
+            "value": "capped at 0.05",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "label": "Type 2 error (β) convention",
+            "value": "0.2",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "label": "Power convention",
+            "value": "==80%==",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "label": "Bonferroni correction",
+            "value": "new α = usual α / number of tests",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Two-tailed tests specify only that a difference exists (more rigorous, generally preferred in clinical trials); one-tailed tests specify direction and are more powerful (smaller sample) when direction is justified in advance.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Lowering type 1 error generally raises type 2 error, and vice versa.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Ways to increase power: larger significance level, bigger sample, larger effect-size threshold, reduced variability, a justified one-sided test, or the most powerful test the data allow.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Multiple testing inflates type 1 error (~1 false positive expected testing 20 independent hypotheses at p=0.05); **FDR** controls the expected **proportion** of false positives rather than the chance of any single false positive.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          4,
+          6
+        ]
+      }
     },
     {
       "id": "confidence-intervals-effect-size",
@@ -1848,7 +2563,48 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Cohen's d formula",
+            "value": "(**M1**−**M2**)/**SD**",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "label": "ES = 1 interpretation",
+            "value": "average experimental-group subject exceeds ~==84%== of controls",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "A ==95%== **CI** is the range within which we are ==95%== confident the **TRUE** population value lies — **NOT** that ==95%== of the population falls in that range, nor that repeat sampling reproduces the same mean ==95%== of the time.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "If a **CI** crosses the value of no difference, the result is not statistically significant; **CI**s jointly convey confidence, precision, clinical significance, and statistical significance.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          5
+        ]
+      }
     },
     {
       "id": "reliability-validity-kappa",
@@ -2053,7 +2809,57 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Kappa formula",
+            "value": "(observed agreement − chance-expected agreement) / (==100%== − chance-expected agreement)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "label": "Cronbach's alpha cutoff",
+            "value": "≥0.70 for internal consistency",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "High reliability does **NOT** guarantee validity.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Precision (repeatability, ~reliability) vs. accuracy (closeness to the true value, ~validity); bias compromises accuracy/validity.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Simple percent agreement overestimates true agreement because it ignores chance; kappa is prevalence-dependent and its significance can't be tested directly, so raw percent agreement should still be inspected alongside it.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          3,
+          4,
+          7,
+          8
+        ]
+      }
     },
     {
       "id": "choosing-statistical-test",
@@ -2338,7 +3144,67 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "df, one-sample t",
+            "value": "n−1",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "df, two-sample t",
+            "value": "(n1+n2)−2",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "df, chi-square",
+            "value": "(rows−1)×(columns−1)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Parametric tests require independent observations, normally distributed populations, and equal variances between groups; assume biological variables are normally distributed unless stated otherwise.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 32
+            }
+          },
+          {
+            "text": "The t-test assumes equal variance between groups (testable via Levene's test); unpaired for independent samples, paired for repeated pre/post observations on the same subjects.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "**ANOVA** only tells you **SOME** group differs, not which — post-hoc tests are needed to locate the difference.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          12
+        ]
+      }
     },
     {
       "id": "correlation-regression",
@@ -2406,7 +3272,62 @@
             "page": 37
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Correlation r range",
+            "value": "−1 to +1",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "'1 in 10' rule",
+            "value": "variables entered ≤ ~==10%== of sample size (or events, for logistic regression)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Pearson's r needs parametric continuous data; Spearman's rho is the non-parametric equivalent (ordinal/non-normal/small n); correlation does not imply causation and needs a suspected linear relationship and independent observations.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Regression predicts one variable's value from another (correlation alone cannot); correlation is a prerequisite for regression but not sufficient alone to justify it.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "R² = proportion of dependent-variable variance explained by the independent variable(s), ranging 0–1; individual R² values in multiple regression will not sum to more than 1.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Stepwise adds the most-to-least significant variable (risk: statistically but not clinically meaningful); forward selection retains a covariate if it changes another's coefficient (signals confounding); backward elimination starts from the full model and removes covariates one by one.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          3,
+          5
+        ]
+      }
     },
     {
       "id": "multivariate-factor-analysis",
@@ -2510,7 +3431,63 @@
             "page": 48
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Multivariable analysis",
+            "value": "1 **DV**, >1 **IV**",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "Multivariate analysis",
+            "value": ">1 **DV** **AND** >1 **IV**",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "Kaiser rule",
+            "value": "retain factors with eigenvalue >1",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
+          },
+          {
+            "label": "Factor loading cutoff",
+            "value": "≥0.40 (conventional)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Path analysis cannot itself establish causality — it can only show the data are consistent with the model; a recursive path model has unidirectional causal flow (no loops).",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
+          },
+          {
+            "text": "Exploratory factor analysis makes no prior assumption about factor structure (data reduction, symptom classification); confirmatory factor analysis tests whether a pre-specified structure holds in a **NEW** dataset (construct validity).",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 46
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          3
+        ]
+      }
     },
     {
       "id": "stratification-standardisation-ebm",
@@ -2710,7 +3687,57 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "SMR formula",
+            "value": "observed/expected",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
+          },
+          {
+            "label": "PICO",
+            "value": "Patient, Intervention/exposure, Comparison, Outcome",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
+          },
+          {
+            "label": "Typical literature-search coverage",
+            "value": "only ~60–==70%==",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 52
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Stratification pools an adjusted estimate across confounder strata (e.g. via Mantel-Haenszel) but only works for **KNOWN** confounders; standardisation applies a hypothetical standard population (direct: study rates → standard population; indirect: standard rates → study sample, giving expected vs. observed).",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
+          },
+          {
+            "text": "**EBM** process: define the clinical question (**PICO**) → search the literature → appraise validity/results → apply to patient care; the evidence hierarchy alone never suffices without weighing benefits/risks against patient values.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3,
+          5,
+          6
+        ]
+      }
     },
     {
       "id": "diagnostic-test-statistics",
@@ -2823,7 +3850,85 @@
             "page": 1
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Sensitivity",
+            "value": "A/(A+C)",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "Specificity",
+            "value": "D/(B+D)",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "LR+ formula",
+            "value": "Sensitivity/(1−Specificity)",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "LR− formula",
+            "value": "(1−Sensitivity)/Specificity",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "LR conclusive threshold",
+            "value": ">10 or <0.1",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Lower cut-off → more diagnoses, high sensitivity, more false positives, low specificity; higher cut-off → fewer diagnoses, low sensitivity, high specificity, more false negatives.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "**ROC** plots sensitivity vs. 1−specificity across cut-offs; curve closer to top-left = better test; near the 45° diagonal = no better than chance; area under the curve = overall accuracy.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Pretest probability must be converted to pretest **ODDS** before applying a likelihood ratio (you cannot multiply a probability directly by an **LR**): post-test odds = **LR** × pretest odds → post-test probability = odds/(1+odds).",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "**PPV**/**NPV**, unlike sensitivity/specificity, are directly useful for interpreting an individual patient's result because they incorporate prevalence.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          3
+        ]
+      }
     },
     {
       "id": "causation-prognosis-therapy-2x2",
@@ -2969,7 +4074,93 @@
             "page": 14
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "OR formula (case-control)",
+            "value": "**AD**/**BC**",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "RR formula (cohort)",
+            "value": "[A/(A+B)]/[C/(C+D)]",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "NNT formula",
+            "value": "1/**ARR** (round up)",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "label": "NNT close to 1",
+            "value": "highly effective (e.g. antibiotics)",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 14
+            }
+          },
+          {
+            "label": "NNT 2–5",
+            "value": "effective therapy",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 14
+            }
+          },
+          {
+            "label": "NNT ≥20",
+            "value": "may still be useful for prophylaxis",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 14
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**OR** and **RR** converge only under the rare-disease assumption (<==5%== prevalence); **OR** diverges increasingly above **RR** as event rates rise.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "**PEER** (local baseline risk) replaces the trial's **CER** to adapt **NNT** locally: **ABI**(new) = **RRR** × **PEER**, **NNT**(new) = 1/**ABI**(new) = **NNT**(old)/F.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Median (not mean) survival time is used because censoring prevents a true mean; the log-rank test compares two Kaplan-Meier curves (can't adjust for confounders); Cox regression is the multivariate extension, giving a hazard ratio.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Survival-curve confidence bands are narrower early in follow-up (more patients at risk) and widen later; median survival time can mislead if curves cross or differ in shape.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 14
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          2
+        ]
+      }
     },
     {
       "id": "evaluating-meta-analysis",
@@ -3007,7 +4198,41 @@
             "page": 21
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [],
+        "bullets": [
+          {
+            "text": "Key pitfalls: **GIGO** (rigorous statistics can't fix poor input data), publication bias, the 'apples and oranges' problem (combining dissimilar studies), missing data forcing exclusion, and differing statistical models — good practice runs both fixed and random.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Post-hoc subgroup analyses lose the parent trial's randomised balance — treat as hypothesis-generating, not confirmatory.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Appraising a meta-analysis: a pre-specified written protocol, thorough multi-engine search, efforts to find unpublished/non-English studies, independent dual review, and sensitivity analyses.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "A study's **CI** line extending beyond the forest-plot axis is shown by an arrow — imprecision, not an error.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "guidelines-decision-analysis",
@@ -3090,7 +4315,45 @@
             "page": 25
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Decision-tree utility scale",
+            "value": "0 (death) to 1 (full health, e.g. **QALY**s)",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Protocols demand strict adherence; guidelines are evidence-based recommendations, not mandates — also value- and resource-based, so may need local adaptation.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "The evidence hierarchy isn't absolute — large, consistent observational studies can outweigh a poorly conducted **RCT**; guideline effectiveness depends on how it's developed/disseminated/implemented, highest when end-user-developed plus specific education plus a patient-specific reminder.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 25
+            }
+          },
+          {
+            "text": "Altman's nomogram reads off required sample size/power from a line joining standardised difference (effect size) and desired power — needs p-value, power, effect size and expected **SD**.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 25
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "coverage-gaps",
@@ -3116,7 +4379,16 @@
           "subtopic": "ICC / weighted kappa — calculation formulae",
           "note": "The source material gives interpretive bands for **ICC** (0.6=fair, 0.8=very good, 0.9=excellent) and for kappa, and states that weighted kappa exists for ordinal data and Bland-Altman plots for continuous measures, but does not provide the calculation formula for **ICC** or weighted kappa themselves (only the plain-kappa formula is given with a worked example). If a question requires calculating **ICC** or weighted kappa by hand, this guide cannot support it from the given sources."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
     }
   ]
 }

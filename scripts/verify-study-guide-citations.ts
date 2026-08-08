@@ -82,6 +82,20 @@ for (const file of files) {
           break;
       }
     }
+
+    if (section.concise) {
+      for (const bullet of section.concise.bullets) {
+        checkSources([bullet.source], `[${section.title}] concise[${bullet.text.slice(0, 40)}...]`, sets, invalid);
+      }
+      for (const fact of section.concise.facts ?? []) {
+        checkSources([fact.source], `[${section.title}] concise-fact[${fact.label}]`, sets, invalid);
+      }
+      for (const idx of section.concise.highlightBlockIndices ?? []) {
+        if (idx < 0 || idx >= section.blocks.length) {
+          invalid.push(`[${section.title}] concise.highlightBlockIndices: index ${idx} out of range (0-${section.blocks.length - 1})`);
+        }
+      }
+    }
   }
 
   if (invalid.length) {

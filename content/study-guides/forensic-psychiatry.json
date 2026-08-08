@@ -55,7 +55,78 @@
             "questionNumber": 35
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Attributable to mental illness",
+            "value": "<==10%== of all crime",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "MacArthur 20wk violence — schizophrenia",
+            "value": "==9%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "MacArthur 20wk violence — substance misuse",
+            "value": "==29%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Fazel & Danesh — psychosis in prison (men)",
+            "value": "==3.7%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Fazel & Danesh — PD in prisoners",
+            "value": "==65%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Homicides linked to mental disorder (Shaw 2006)",
+            "value": "==34%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Violence 4–6x commoner in mental illness, but PD, alcohol/drugs, male sex, age 15–30, deprivation and past violence are all bigger risk factors than mental illness itself.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Penrose's Law: psychiatric bed occupancy rose **INVERSELY** with prison occupancy — a correlation, not a claim mental illness causes crime.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          5
+        ]
+      }
     },
     {
       "id": "homicide-filicide-infanticide",
@@ -166,7 +237,102 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "UK homicide rate",
+            "value": "1.2/100,000",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Homicide convicts with abnormal mental state",
+            "value": "==10%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Schizophrenia annual homicide risk",
+            "value": "1:10,000",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "McKee & Shea — psychosis in mentally-ill-mother filicide",
+            "value": "==40%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Infanticide Act — child age limit",
+            "value": "<12 months",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Murder-suicide incidence",
+            "value": "0.2–0.3/100,000/yr",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Parricide",
+            "value": "==2%== of homicides",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "D'Orban (1979) filicide types: battering, mentally ill, neonaticide (<24h, not covered by Infanticide Act), retaliating, unwanted-child, mercy killing.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "No reliable predictor exists for which mothers will kill their children — teenage motherhood/affective disorder are associations, not predictors.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+              "page": 8,
+              "questionNumber": 8
+            }
+          },
+          {
+            "text": "Infanticide Act 1938: death of a child <12 months by a mother whose mind was disturbed by non-recovery from birth/lactation effects.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Depression is commoner in murder-suicide (20–==60%==) than homicide alone; classic profile — recently-separated depressed man, or caregiver of an ill spouse, with firearm access.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
     },
     {
       "id": "nonfatal-violence-shoplifting-kleptomania",
@@ -206,7 +372,62 @@
             "questionNumber": 8
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Non-fatal assault, England & Wales",
+            "value": "2033/100,000/yr",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Shoplifters who are mentally ill",
+            "value": "==3.2%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Shoplifters with kleptomania",
+            "value": "1–==2%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Kleptomania with comorbid PD",
+            "value": "~==50%== (paranoid > histrionic)",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Non-fatal assault: common (apprehension of force), aggravated (attempted/actual serious injury) or battery (actual unlawful contact); ~==9%== of convicts have schizophrenia, most intoxicated at the time.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Kleptomania (ICD-10 F63) is petty impulsive theft without planning/accomplices — most are women.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "arson-firesetting",
@@ -276,7 +497,77 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Fire-setters who intentionally started the fire",
+            "value": "==1 in 4==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Psychiatric patients with fire-setting history",
+            "value": "==26%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Juvenile share of firesetting arrests",
+            "value": ">==50%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Recidivism range",
+            "value": "4–==20%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Reconviction — MDO vs non-MDO",
+            "value": "==11%== vs ==4%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Faulk's classification: Group I = instrumental fires (means to an end); Group II = the fire itself is the phenomenon of interest (pyromania).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "DSM-IV pyromania: deliberate fire-setting >1 occasion, tension beforehand, fascination with fire, gratification during/after, not better explained by conduct disorder/antisocial PD.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Recidivism risk factors: childhood firesetting, younger age at first firesetting, verbalised threats, setting fires alone, unmarried, low IQ. Treatment is behavioural — no established role for psychodynamic therapy.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "stalking",
@@ -337,7 +628,77 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Lifetime stalking prevalence (Mullen)",
+            "value": "==15%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Stalkers who are men",
+            "value": "80–==90%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "PTSD in stalking victims",
+            "value": "37–==60%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Psychiatrists ever stalked (RCPsych 2007)",
+            "value": "==22%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Mullen (1999) typology: rejected (ex-intimate, reconciliation/vengeance), intimacy seeker (believes love reciprocated), incompetent suitor, resentful (revenge), predatory (precursor to sexual offending).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Cluster B PD predominates in ex-intimate stalkers; delusional disorder (erotomanic>jealous>persecutory)/schizophrenia/psychosis common in stranger/'star' stalkers. No notable mental illness link in those stalking/attempting to assassinate public figures.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Assault risk factors in stalking: substance misuse, offending history, male sex, threats, narcissistic/antisocial PD, unemployment/isolation, access to victim, non-compliance with treatment.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Stalkers of mental health professionals are usually male, with a prior stalking history and an axis I/II disorder under that clinician's care, motivated by wanting greater intimacy. Prosecuted under Protection from Harassment Act 1997; restraining orders can sometimes intensify stalking.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
     },
     {
       "id": "sexual-offending-epidemiology",
@@ -393,7 +754,84 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Sex offenders with mental illness",
+            "value": "<==10%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Sexual offences share of all offences",
+            "value": "==1%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Child-abuse offenders known to victim",
+            "value": "==80%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Paedophiles with another paraphilia",
+            "value": "50–==70%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Incest reported against children",
+            "value": "==30%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Exhibitionism reoffending rate",
+            "value": "20–==30%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Incest requires penetration by definition; step-relatives don't count as incest in England (Scotland includes them).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Indecent exposure: rarely secondary to dementia/hypomania; offender rarely communicates with victim. Inhibited/'guilty' (flaccid) exhibitionists are lower risk than angry/aggressive (erect) ones.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Internet sex-offending typology: emotional satisfaction-seeking, intimacy deficit, hypersexuality — most have no prior convictions and don't reoffend without a past sexual-offending history.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 7,
+              "questionNumber": 6
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "sexual-offending-reoffending",
@@ -441,7 +879,76 @@
             "questionNumber": 7
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Sex offenders with no prior sexual conviction",
+            "value": "75–==80%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "6-yr resexual-reconviction (overall)",
+            "value": "<==10%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "6-yr resexual-reconviction — rapists",
+            "value": "==19%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "6-yr resexual-reconviction — CSA",
+            "value": "==13%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Incest (within-family child) recidivism",
+            "value": "<==10%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Abel study (n=561): boys molested 5x more often than girls; most had multiple paraphilias, >==50%== starting before age 18.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Lowest reconviction risk: incest within own family. Highest: extra-familial child abuse — molesting boys reoffends more (13–==40%==) than girls (10–==29%==). Rapists more criminally versatile, more likely to reoffend non-sexually.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "The single best predictor of future sexual offending is a history of previous sexual offences — not current-offence severity or diagnosis.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+              "page": 7,
+              "questionNumber": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "sexual-offending-assessment-pharmacotherapy",
@@ -476,7 +983,35 @@
           "subtopic": "Dosing and monitoring of anti-libidinal/testosterone-lowering agents",
           "note": "The source describes the mechanisms and headline side effects of cyproterone acetate, medroxyprogesterone acetate and GnRH agonists, but gives no dosing, monitoring schedule, or current **UK** licensing status. Verify against the Maudsley Prescribing Guidelines (15th ed.) before applying this to any prescribing-style question."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Self-report is unreliable (denial common); penile plethysmography measures tumescence to deviant cues. Finkelhor's 4-stage CBT model: motivation to abuse → overcoming internal inhibitions → overcoming external inhibitions → overcoming victim resistance.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Cyproterone acetate blocks testosterone receptors; side effects deranged LFTs, osteoporosis, gynaecomastia; can worsen depression — avoid with severe depression history.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Medroxyprogesterone acetate (main US anti-libidinal) induces hepatic testosterone alpha-reductase. SSRIs/other antidepressants reported useful in paraphilia (first buspirone case report was for transvestic fetishism).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
     },
     {
       "id": "domestic-violence",
@@ -498,7 +1033,45 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Women survivors who never tell anyone",
+            "value": "==31%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Domestic violence cases reaching police",
+            "value": "17–==23%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Lifetime DV prevalence (incl. sexual violence)",
+            "value": "==1 in 4== women",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Of those who disclosed, ==47%== told a friend/relative, ==20%== police, ==10%== medical staff; ==1 in 8== women thought police involvement would make things worse.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "schizophrenia-psychosis-substance-violence-risk",
@@ -572,7 +1145,78 @@
             "questionNumber": 21
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Prison substance misuse",
+            "value": ">==50%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Intoxication linked to non-fatal assaults",
+            "value": "~==50%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Intoxication linked to murders",
+            "value": "==66%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Violence RR, schizophrenia alone → +substance misuse",
+            "value": "3.6x → 25x",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Steinart two-type model: Type 1 = organised delusions, no childhood conduct history, overrepresented in homicide; Type 2 (most common) = disorganised, childhood conduct history, early substance misuse, attacks carers/acquaintances.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "MacArthur study cast doubt on threat/control-override (T/C-O) syndrome — neither delusions generally nor T/C-O delusions specifically were linked to increased violence risk.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Of 5 discharge diagnoses compared, substance use disorder carries the **HIGHEST** 6-month violence risk — higher than schizophrenia.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 5
+            }
+          },
+          {
+            "text": "Negative symptoms (blunted affect, poverty of speech) are **LEAST** associated with violence risk — more severe/chronic illness ≠ higher risk.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 21
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "personality-disorder-psychopathy",
@@ -667,7 +1311,71 @@
           ],
           "sourced": false
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Any PD — remanded men",
+            "value": "==78%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Antisocial PD violence risk",
+            "value": "10-fold vs general population",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Psychopathy in forensic population",
+            "value": "15–==30%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Psychopathy in general population",
+            "value": "==4%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "PCL-R psychopathy cutoff",
+            "value": ">25",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "PD offenders mostly offend against known victims (incl. healthcare staff); women with PD are more likely than women without PD to offend against children.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Factor 1 (callous-unemotional: arrogant, glib, lacking empathy/remorse) is more heritable/biological; Factor 2 (antisocial: impulsive, irresponsible, parasitic lifestyle) is more behavioural.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          4
+        ]
+      }
     },
     {
       "id": "learning-disability-offending",
@@ -697,7 +1405,59 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Delinquency, IQ<90 vs IQ>110",
+            "value": "==20%== vs ==2%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "LD adults with police contact/yr (Lyall)",
+            "value": "==2%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Reoffending, untreated → treated",
+            "value": "40–==70%== → 20–==55%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "LD offenders in high-secure care have the longest stays and are hardest to discharge; offending more likely in mild/moderate than severe LD.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "People with LD more likely to commit sexual/fire-raising offences (property offences still commonest overall); LD sex offenders more often target younger male children; Hawk found charge rates ~2x higher than non-disabled defendants.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Recidivism risk is highest in the year immediately post-discharge; managed with group Sex Offender Treatment Programmes plus SSRI/anti-libidinal pharmacotherapy.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "other-psychiatric-conditions-offending",
@@ -743,7 +1503,65 @@
             "page": 3
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Anxiety disorders in prisoners",
+            "value": "10–==25%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Epilepsy prevalence, general vs prison",
+            "value": "==1%== vs 1–==2%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Bipolar-violence link is unclear and much weaker (~1/10th) than schizophrenia's; depression is a violence risk factor mainly alongside other factors (psychosis, substance use), and a clear risk factor for domestic killings/'mercy killing' via psychotic depression nihilism.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Dissociative/psychogenic amnesia is linked to violence against a known victim where the perpetrator is often aroused/intoxicated — difficult to give clear legal evidence about.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Ictal violence is rare, more likely in partial than tonic-clonic seizures; no general increase in violent acts with epilepsy.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Asperger's overlaps with schizoid PD; some studies show more violent/criminal-damage offences (theory-of-mind/social-reciprocity deficits) — relevant to sexual offending but no increase in violent sexual offences specifically.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Sleepwalking offenders usually know the victim and appear not to hear cries/recognise the victim during the episode; sleep deprivation/cannabis/alcohol/caffeine are precursors.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "special-forensic-syndromes",
@@ -789,7 +1607,47 @@
             "page": 20
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Malingering = intentional feigning for gain; assessed with SIRS, SIMS, TOMM. Polygraphs used in the US, rarely the UK.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Munchausen = factitious illness for the sick role, no external incentive; Munchausen-by-proxy = induced in a child/dependent. Linked to PD, attention-seeking; managed via safeguarding, treating depression, limiting behaviours (e.g. hospital register).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Morbid jealousy (Othello syndrome): core belief of partner infidelity, commonest with paranoid PD or psychosis; risks include partner/child harm, self-harm, DV, homicide.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Erotomania (De Clerambault's): commoner in females — belief a (often higher-status) person loves them, linked to psychotic disorders and stalking; violence occurs on rejection of the perpetrator.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Ganser syndrome: hysterical dissociative disorder — approximate answers, clouded consciousness, pseudohallucinations, amnesia for the behaviour; seen in prisoners, especially military prisoners/deserters.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 20
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "special-offender-groups",
@@ -835,7 +1693,97 @@
             "page": 21
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Offenders who are women",
+            "value": "==1 in 5==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "Imprisoned women for non-violent offences",
+            "value": "==68%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "Women in custody with diagnosable mental health problem",
+            "value": "up to ==80%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "Remand women (2003) with psychosis",
+            "value": "==1 in 5==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "Criminal responsibility age (England & Wales)",
+            "value": "10",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "Ethnic minority share of UK population",
+            "value": "==15%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Women's peak offending age is 2–3yr earlier than men's (14 vs 17–18); women steal fewer/lower-value items and get more psychiatric pleas/disposals than men.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "HMIP 2006/07: ==19%== of women attempted suicide in the year before custody (~3x male rate); ==60%== had recorded emotional wellbeing problems (vs ==36%== of men).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Placement by age: Young Offender Institutes (18–21, and 15–17 juveniles), secure training centres/detention schools (up to 17), secure children's homes (12–16), adolescent secure hospitals.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Ethnic minorities overrepresented in prison/secure settings, with more schizophrenia diagnoses, involuntary admission, seclusion/restraint and custodial sentences among BME patients.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Deaf offenders have higher mental-disorder prevalence and communication barriers to services; deafness may affect fitness to plead. UK has 3 general psychiatric deaf-service hospitals plus 1 high-secure deaf service.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "victims-of-crime",
@@ -865,7 +1813,59 @@
             "page": 23
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Prisoners with diagnosable PTSD",
+            "value": "~==20%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 23
+            }
+          },
+          {
+            "label": "Severe mental illness patients victimised in past year",
+            "value": "==40%== (vs ==14%== general pop, OR 2.8)",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 23
+            }
+          },
+          {
+            "label": "Violent-assault victimisation, SMI vs general pop",
+            "value": "==19%== vs ==3%== (OR 5.3)",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 23
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "More violent crime = greater social dysfunction; sexual assault victims particularly prone to social withdrawal — >==50%== report a continuously restricted social life 15–30 months on.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 23
+            }
+          },
+          {
+            "text": "No definite causal link between offending and PTSD in perpetrators, but both perpetrators and victims (victims more) carry high PTSD risk; the index offence itself can be a significant traumatic trigger for forensic inpatients in up to ==70%== of cases, especially if unplanned/disinhibited/no prior forensic history.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 23
+            }
+          },
+          {
+            "text": "Women with SMI are 4x more likely victims of domestic violence, 4x sexual violence, 10x any community violence.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 23
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "mha-criminal-justice-pathway",
@@ -981,7 +1981,80 @@
           "subtopic": "Mental Health Act 1983 (as amended) — exact current section numbers and safeguards",
           "note": "The source notes explicitly state that detailed knowledge of exact **MHA** sections/articles is **NOT** required for the MRCPsych exam and present only a reference flowchart; subsequent reforms to the 1983 Act are not covered here. Verify any exact section number, time limit, or safeguard you plan to rely on against the current Mental Health Act and its Code of Practice."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Mental disorder prevalence in police custody",
+            "value": "2–==5%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 3
+            }
+          },
+          {
+            "label": "Severe mental illness in police custody",
+            "value": "1–==2%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 3
+            }
+          },
+          {
+            "label": "PD-primary homicide perpetrators imprisoned",
+            "value": "==92%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Forensic Psychiatry_ Attempt review.pdf",
+              "page": 12,
+              "questionNumber": 9
+            }
+          },
+          {
+            "label": "Schizophrenia-primary homicide perpetrators imprisoned",
+            "value": "==29%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Forensic Psychiatry_ Attempt review.pdf",
+              "page": 12,
+              "questionNumber": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "PACE: an 'appropriate adult' must attend if a suspect is thought to have a mental disorder/disability; CPS continues prosecution only if public interest outweighs other concerns.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Section 35 = remand to hospital for assessment (28d, up to 12wk max); Section 36 = remand for treatment (28d, renewable to 12wk, very rarely used — only 16 recorded uses to March 2007).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Section 41 restriction order: no time limit; RC needs Ministry of Justice permission for leave/discharge, hospital managers cannot discharge unilaterally.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Section 47 = sentenced-prisoner transfer to hospital, typically with a Section 49 restriction direction; on sentence expiry the 49 is removed and the section 'notionally' converts to a Section 37.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          7
+        ]
+      }
     },
     {
       "id": "secure-settings-care-models",
@@ -1035,7 +2108,65 @@
             "page": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Supervised offenders on probation at discharge",
+            "value": "~==70%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "UK prisons with an inreach team",
+            "value": "~==87%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Security tiers: high (grave/immediate risk MDOs), medium (high-risk MDOs), low (limited violence/absconding risk).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Care models: Parallel (inpatient + community run in parallel, same service), Integrated (general services take over rehab/lower-security readmission post-discharge), Hybrid (integrated + a period of shared care post-discharge, forensic retains a high-risk subset).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "MAPPA covers MDOs convicted of a specified sexual/violent offence sentenced >12 months, or hospital-detained/conditionally discharged — an interagency framework for managing these offenders.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Three security domains: physical (fences/sharps removal), relational (training/communication/activities — its absence undermines physical security), procedural (searches/incident learning/vetting). Observation: general, intermittent, within eyesight, within arm's length (highest self-harm risk).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Section 17 leave decisions weigh mental-state stability, insight, staff rapport, engagement and past leave behaviour — distinct from parole.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "prison-psychiatry-morbidity-suicide",
@@ -1133,7 +2264,85 @@
             "questionNumber": 23
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Mental disorder — sentenced men / remand men",
+            "value": "==37%== / ==63%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 8
+            }
+          },
+          {
+            "label": "Mental disorder — sentenced women / remand women",
+            "value": "==57%== / ==76%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 8
+            }
+          },
+          {
+            "label": "Prison suicide rate rise, 1982→1998",
+            "value": "54→128/100,000",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 8
+            }
+          },
+          {
+            "label": "Prison suicide vs general population",
+            "value": "~8x higher",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 8
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Antisocial PD is the commonest PD diagnosis in all four prison subgroups (sentenced/remand, male/female), then paranoid PD.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Probable psychosis: 4.5/1000 household survey vs 52/1000 prison survey (>10x); ~1/4 of prison psychoses attributable to psychoactive substances. Internationally, prisoners ~20x more likely to have psychosis/major depression, ~10x more likely ASPD than general population.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "The 'psychosis 10x commoner in prison' figure is Brugha et al. (2005), UK-specific — international estimates run higher (up to 20x); don't pick an inflated distractor like '50x'.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 4
+            }
+          },
+          {
+            "text": "Most prison suicides are by hanging; ~half of all prison deaths are self-inflicted; majority occur within 6 months of imprisonment; life-sentence prisoners overrepresented; alcohol/substance misuse is the most likely associated psychiatric problem.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Two near-identical SBAs on 'greatest suicide risk factor' gave different single-best-answers ('single cell' vs 'substance misuse history') depending on the option set — read the full option list, there's no absolute ranking.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 24,
+              "questionNumber": 23
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "violence-risk-assessment-concepts",
@@ -1255,7 +2464,43 @@
             }
           ]
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Butler Committee defined dangerousness as 'propensity to cause serious physical injury or lasting psychological harm' — now replaced by risk assessment/management terminology. The Ritchie report (Clunis/Zito) identified failures of individual risk assessment/management.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Serious violence base rate is <==1%== even in the severely mentally ill (Wallace 1998) — a low base rate severely limits predictive value and raises false positives.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Recurring homicide-inquiry failures: ignoring carers' views, over-emphasis on civil liberties, poor MHA implementation, cross-sectional (not longitudinal) risk view, poor information-sharing.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Clinical judgment is subjective/poor predictive value (~1/3 correct retrospectively); actuarial is superior for predicting violence/sexual reoffending but insensitive to change and over-weights static/stable factors; structured professional judgment (e.g. HCR-20) combines both — neither should replace conventional clinical assessment.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          6
+        ]
+      }
     },
     {
       "id": "structured-actuarial-risk-tools",
@@ -1428,7 +2673,44 @@
             "questionNumber": 5
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "HCR-20: 10 historical + 5 clinical + 5 risk-management items; predicts both inpatient and post-discharge community violence.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "SARA = 20-item spousal-assault risk guide; SVR-20 = 20-item sex-offender violence-risk guide.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "VRAG (Quinsey 1995) = 12-item actuarial tool, entirely historical, includes PCL-R as a subscale. Static-99 = 10-item actuarial tool for adult male sex offenders. SORAG = 14-item actuarial tool incorporating PCL-R.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "PCL-R is **NOT** itself a standalone actuarial risk tool — it's a diagnostic instrument (0–40, cutoff ≥25) that gets embedded as a subscale inside VRAG/SORAG. Structured (HCR-20/SARA/SVR-20) vs actuarial (VRAG/Static-99/SORAG) vs diagnostic (PCL-R) is tested across SBA and EMI.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          4
+        ]
+      }
     },
     {
       "id": "fitness-to-plead-pritchard",
@@ -1502,7 +2784,59 @@
             "questionNumber": 23
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Presumption of fitness; relevant only at time of trial (not arrest/charging); amnesia for the offence does not itself interfere with fitness to plead.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "R v Pritchard: unfit if incapable of understanding the charge, deciding plea, challenging jurors, instructing counsel, following proceedings, or giving evidence.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Pritchard criteria do **NOT** include distinguishing diminished responsibility from automatism — a plausible-sounding distractor.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 1
+            }
+          },
+          {
+            "text": "Amnesia for the offence does **NOT** itself render a defendant unfit — exam favours an amnesic defendant as 'most likely fit' over one who is catatonic/mute or can't understand charges.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 2
+            }
+          },
+          {
+            "text": "Criminal Procedures Act 1964: 2 medical practitioners give evidence. Prosecution-raised fitness proven 'beyond reasonable doubt'; defence-raised on 'balance of probabilities'. If unfit, trial of facts proceeds and all disposals remain available.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "MacCAT-FP evaluates **FITNESS TO PLEAD** specifically — not general capacity, risk, or fitness to be interviewed.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+              "page": 23,
+              "questionNumber": 23
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "mcnaughten-diminished-responsibility",
@@ -1542,7 +2876,41 @@
             "questionNumber": 17
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "McNaughten Rules (1843): defect of reason, due to disease of the mind, causing loss of appreciation of nature/quality of act, such that the accused didn't know it was wrong. Burden of proof on the defence; jury decides; disposal flexible (not automatic hospital confinement).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Diminished responsibility reduces murder to manslaughter (no malice aforethought, act still unlawful); disposal restricted for murder but flexible for manslaughter — more likely granted to females/no criminal record.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Capacity to form intent can be prevented by specific delusions, severe mood-state changes, or severe cognitive impairment — but **NOT** by voluntary intoxication (doctrine of prior fault).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Legal terms: actus reus = physical act; mens rea = intent; doli incapax = below age of criminal responsibility; habeas corpus = right to a hearing on legality of detention; corpus delicti = the factual evidence of the offence.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+              "page": 17,
+              "questionNumber": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "automatism-culpable-homicide-intoxication",
@@ -1655,7 +3023,57 @@
             "questionNumber": 22
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Automatism negates actus reus (involuntary bodily movement). Sane/'simpliciter' (extrinsic, one-off) → complete acquittal; insane (intrinsic, likely to recur) → not-guilty-by-reason-of-insanity disposal.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Hypoglycaemia (isolated), night terrors, dissociative states = sane/extrinsic; sleepwalking, epilepsy, recurring hypoglycaemia = insane/intrinsic. R v Burgess (1991): sleepwalking can be genetic/internal, classified sane or insane at judge's discretion.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Sane vs insane automatism is classified by **INTRINSIC vs EXTRINSIC** cause, not severity — sleep terrors are 'sane', while sleepwalking (Burgess) could be held 'insane'/internal.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+              "page": 41,
+              "questionNumber": 39
+            }
+          },
+          {
+            "text": "Fenwick (1990) features supporting sleepwalking-automatism: family history, within 2 hours of sleep onset (non-REM), witnessed confusion, triggers (alcohol/fatigue), substantial amnesia, no concealment, no sexual arousal if offence sexual.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Culpable homicide sits between manslaughter and murder: involuntary (unintended death from assault/negligence) or voluntary (intentional/reckless, mitigated by provocation/diminished responsibility).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Involuntary intoxication (spiked drink, prescribed medication, reckless non-dangerous substance, dependence-driven irresistible impulse) IS a valid defence; voluntary intoxication is **NEVER** a defence or basis for an insanity plea, even to a basic-intent crime.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "mitigating-factors-amnesia",
@@ -1677,7 +3095,36 @@
             "page": 18
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Amnesia claimed in homicide",
+            "value": "25–==45%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 18
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Mitigating factors: provocation, age/vulnerability, mental disorder/LD, involuntary intoxication, remorse, limited role in the offence.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Amnesia itself has no legal implication in England & Wales absent automatism and does not render someone unfit to plead — though credibility issues can arise without expert-witness support.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 18
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "psychiatrists-role-evidence-human-rights",
@@ -1735,7 +3182,47 @@
           ],
           "sourced": false
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Fitness-to-give-evidence test: understanding the question, applying one's mind to answer, conveying it intelligibly. Three false-confession types: voluntary, coerced-compliant, coerced-internalised.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Psychiatric roles: custody assessment, diversion advice, fitness to be interviewed/appropriate-adult need, fitness to plead, remand-to-hospital transfer, sentencing advice.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "GMC good-practice (2006): be honest/trustworthy, don't mislead or omit relevant information, act without unreasonable delay, make clear the limits of your competence.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Three witness types: ordinary (fact only), professional (clinical comment, prior involvement), expert (reports on mental disorder/specific issue — advisory/actuarial/clinical/experimental).",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "ECHR Article 2 = right to life (positive duty to safeguard custody); Article 3 = no torture/degrading treatment; Article 5 = liberty (authorises detention of 'unsound mind', underpins DoLS); Article 8 = private/family life.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-2.pdf",
+              "page": 19
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "coverage-gaps-flags",
@@ -1761,7 +3248,16 @@
           "subtopic": "Currency of epidemiological statistics",
           "note": "Several figures (domestic violence reporting rates, homicide-by-**MDO** trend data, prison suicide rates) derive from British Crime Survey/Home Office data and **SPMM** course text dated up to roughly the early-2010s. Treat these as the figures the exam bank tests rather than as current statistics, and cross-check against current **ONS**/Ministry of Justice data before using them clinically."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
     }
   ]
 }

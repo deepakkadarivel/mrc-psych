@@ -138,7 +138,80 @@
           "subtopic": "Current ICD-11 terminology and coding for intellectual disability",
           "note": "The source notes state **ICD-11** 'is due to publication in 2017' and will use the term 'intellectual disability' — this description is now outdated (**ICD-11** was formally adopted by **WHO** member states in 2019 and came into effect on 1 January 2022). Verify the current **ICD-11** code and exact diagnostic criteria for 'disorders of intellectual development' against the live **WHO** **ICD-11** browser rather than relying on this note text."
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Mild LD",
+            "value": "IQ **50-69** (==85%== of LD)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Moderate LD",
+            "value": "IQ **35-49** (==10%==)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Severe LD",
+            "value": "IQ **20-34** (3-==4%==)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Profound LD",
+            "value": "IQ **<20** (1-==2%==)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Borderline (NOT LD)",
+            "value": "IQ 71-84",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**LD** = **IQ** <70 within the developmental period + adaptive-functioning deficits; assessed with a standardised scale (e.g. Vineland) using ≥1 independent informant.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**DSM-IV**'s (now-abandoned) multiaxial system coded mental retardation/personality disorder on **Axis 2**, not Axis 1 — a common recall trap.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 10
+            }
+          },
+          {
+            "text": "**ICD-11** classifies dyslexia as a 'developmental learning disorder' — a distinct category from intellectual disability, not a synonym.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2
+        ]
+      }
     },
     {
       "id": "epidemiology",
@@ -202,7 +275,77 @@
             "questionNumber": 60
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "LD prevalence",
+            "value": "==1-3%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "M:F ratio",
+            "value": "~==1.5:1== (M>F)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Peak incidence age",
+            "value": "10-14y (school-age)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Comorbid seizure disorder",
+            "value": "~==16%== overall, up to ==50%== in profound LD",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "Hearing loss",
+            "value": "25-==42%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "CIPOLD mortality gap",
+            "value": "Men die **13y** early, women **20y** early",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Up to two-thirds of people with **LD** have comorbid mental health problems; conduct-type behaviours cluster in **MILD** LD, autism/PDD clusters in **SEVERE** LD.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Aetiological timing: ~50-==70%== prenatal, 10-==20%== perinatal, 5-==10%== postnatal.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 26
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "aetiology-prevention",
@@ -306,7 +449,77 @@
           ],
           "highYield": true
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Genetic inheritance",
+            "value": "~==5%== of LD cases",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 8
+            }
+          },
+          {
+            "label": "Pregnancy/perinatal problems",
+            "value": "~==10%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 8
+            }
+          },
+          {
+            "label": "Acquired medical conditions",
+            "value": "~==5%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 8
+            }
+          },
+          {
+            "label": "Environmental influences",
+            "value": "15-==20%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 8
+            }
+          },
+          {
+            "label": "No definite aetiology found",
+            "value": "30-==40%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 8
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Head injury is a classic **POSTNATAL** risk factor for LD — distinct from birth asphyxia/neonatal septicaemia (both perinatal).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 35,
+              "questionNumber": 35
+            }
+          },
+          {
+            "text": "Three-tier prevention: **Primary** (immunisation, folic acid, antenatal care) → **Secondary** (newborn screening for hypothyroidism/PKU, genetic counselling) → **Tertiary** (help reach full developmental potential).",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          6,
+          7
+        ]
+      }
     },
     {
       "id": "subcultural-vs-biological",
@@ -376,7 +589,29 @@
             "questionNumber": 25
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "E. O. Lewis (1933): 'subcultural' LD = lower extreme of the normal **IQ** curve, concentrated in social class V, mild severity — vs 'biological/pathological' LD, evenly distributed across classes; later studies don't support the division.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "The strongest pointer to a **SUBCULTURAL** (not biological) cause is impaired/borderline **IQ** in **family members** — not dysmorphism, even class distribution, or severe impairment (all biological pointers).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 25
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "social-history-normalisation",
@@ -440,7 +675,67 @@
             "questionNumber": 74
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "LD prevalence among UK offenders",
+            "value": "1-==10%== (up to ==30%== learning difficulty)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Prisoners with IQ <70",
+            "value": "==7%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Prisoners with IQ <80",
+            "value": "==25%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Normalisation (Nirje, 1960s Scandinavia; extended by Wolfensberger, 1972) → 'social role valorisation' (**SRV**): counter poor attitudes to **LD** by creating valued social roles (family member, neighbour, employee).",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Valuing People (2001, UK White Paper) set four key principles for LD: rights, independence, choice, inclusion; deinstitutionalisation (from the 1980s) shifted care into the community.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Most offending in the LD population is by those with **borderline/mild** LD, not severe LD.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 63,
+              "questionNumber": 62
+            }
+          },
+          {
+            "text": "Lord Bradley's report (2009) called for better identification of LD/mental health problems at every criminal-justice stage; liaison and diversion teams link justice agencies with health/social care.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "psychiatric-comorbidity",
@@ -591,7 +886,88 @@
           ],
           "highYield": true
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Total mental health problem prevalence in adults with LD",
+            "value": "30-==50%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Psychiatric illness (Hastings et al 2004)",
+            "value": "==32.2%== vs ==11.2%== general population",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Life event in past year",
+            "value": "==46.3%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Epilepsy (Hastings et al)",
+            "value": "==22.1%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Autism prevalence (population table)",
+            "value": "==7%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Schizophrenia prevalence",
+            "value": "==3%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Depression prevalence",
+            "value": "==4%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**Diagnostic overshadowing**: once a major diagnosis is made, coexisting problems get wrongly attributed to it — physical symptoms are often misattributed to a mental/behavioural problem or dismissed as 'inherent' to the LD.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**PAS-ADD** (full interview) gives an **ICD-10** diagnosis; Mini **PAS-ADD** aids case identification; **PAS-ADD** Checklist is a carer-completed screening tool; **DLD** (formerly **DMR**) is an informant tool for dementia diagnosis in LD.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          4,
+          5
+        ]
+      }
     },
     {
       "id": "psychiatric-syndromes",
@@ -688,7 +1064,77 @@
             "questionNumber": 18
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Schizophrenia prevalence in LD",
+            "value": "~==3-3.5%== (3-fold general population)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Bipolar prevalence in LD",
+            "value": "2-==12%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Depression prevalence in LD",
+            "value": "~2-==4%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "OCD prevalence in LD",
+            "value": "==2.5%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "In **severe** LD, thought disorder/complex delusions are **LESS** evident in schizophrenia — unexplained aggression, bizarre behaviour, labile mood and mannerisms dominate instead; symptoms often respond to a neuroleptic trial.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Unlike schizophrenia, bipolar disorder **CAN** still be diagnosed in severe LD via biological mania/depression features; mania may show only as hyperactivity, wandering, mutism, or challenging behaviour.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Depression in LD: mood often not vocalised but biological features (diurnal variation) are more marked; irritability is key in young people; suicide is very rare in severe LD, more common in borderline-moderate LD.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Anxiety syndromes by genetics: Fragile X → social anxiety; Prader-Willi/Rubinstein-Taybi → **OCD**; Williams → anxiety/phobias; Cornelia de Lange → compulsive behaviour.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          6
+        ]
+      }
     },
     {
       "id": "autism-adhd-conduct-dementia",
@@ -805,7 +1251,97 @@
             "questionNumber": 59
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Autism in children also having LD",
+            "value": "75-==80%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "ASD in mild LD",
+            "value": "~==10%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "ASD in severe LD",
+            "value": "~==40%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Autism heritability",
+            "value": "~80-==90%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 51,
+              "questionNumber": 51
+            }
+          },
+          {
+            "label": "Sibling recurrence (1 affected child)",
+            "value": "<==10%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 51,
+              "questionNumber": 51
+            }
+          },
+          {
+            "label": "Sibling recurrence (≥2 affected)",
+            "value": "~==35%==",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 51,
+              "questionNumber": 51
+            }
+          },
+          {
+            "label": "Conduct disorder in mild/borderline LD youth",
+            "value": "~==30%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**ADHD** becomes more common with greater LD severity; stimulants may help in mild LD but have no clear efficacy in severe-profound LD.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Dementia in Down's syndrome: Alzheimer neuropathology near-universal by age 40, but diagnosis is complicated by pre-existing impairment; often presents atypically (**BPSD**, nocturnal confusion, transient psychosis, late-onset epilepsy).",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Strongest risk factor for Alzheimer's in Down's syndrome is **family history** (via **APOE** ε4), not obesity, anxiety, eczema, or LD severity.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 60,
+              "questionNumber": 59
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          8
+        ]
+      }
     },
     {
       "id": "challenging-behaviour-sib-pica",
@@ -913,7 +1449,78 @@
             "questionNumber": 52
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Challenging behaviour prevalence",
+            "value": "~==7%== (==14%== in hospital settings)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Self-injurious behaviour (SIB) lifetime",
+            "value": "10-==50%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "SIB peak age",
+            "value": "15-20y (most frequent 10-30y)",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Pica in adult LD (hospital/care)",
+            "value": "10-==20%== vs ~==5%== community",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Challenging behaviour (Emerson, 1995) = culturally abnormal behaviour so intense/frequent/prolonged it endangers physical safety or seriously limits community access — not a diagnosis itself, often communicates frustration/anxiety/stress.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Clinically significant threshold: 'a few minutes' disruption **DAILY**' counts, but the same on a **WEEKLY** basis does **NOT** meet the threshold.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 11,
+              "questionNumber": 11
+            }
+          },
+          {
+            "text": "**SIB** genetic associations: Prader-Willi, fragile X, Tourette's, Smith-Magenis, Cornelia de Lange, Lesch-Nyhan; endogenous-opioid hypothesis explains why **naloxone**/**naltrexone** reduce SIB.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Pica associated with male sex, poor cognitive function, autism, non-verbal status; more common in severe LD/ASD and less common with advancing age.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          6
+        ]
+      }
     },
     {
       "id": "ptsd",
@@ -957,7 +1564,36 @@
             "questionNumber": 56
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**Aggression** (not nightmares/jumpiness) is the most common **PTSD** presenting symptom in **children/adolescents** with LD — the reverse of the 'classic' adult profile.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 55,
+              "questionNumber": 55
+            }
+          },
+          {
+            "text": "In **ADULTS** with LD, nightmares/jumpiness/trouble sleeping remain most commonly reported and exaggerated startle **IS** common; symptoms are **NOT** reliably self-limiting — comorbidity with other psychiatric diagnoses is the norm.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 56,
+              "questionNumber": 56
+            }
+          },
+          {
+            "text": "Doyle & Mitchell (2003): ==16.5%== of psychiatric referrals to paediatric LD teams met **PTSD** criteria.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 55,
+              "questionNumber": 55
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "psychopharmacology",
@@ -1153,7 +1789,51 @@
           ],
           "highYield": true
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "General principle: treatment must be diagnosis-driven; 'start low, go slow' — people with LD are more susceptible to **CNS** side effects and comorbid physical illness.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Antipsychotics (**risperidone** first-line) treat comorbid psychosis and acute behavioural disturbance; low doses also reduce stereotypies.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**Lithium** is licensed for control of aggressive behaviour/intentional self-harm in LD; requires baseline **EEG** + renal function + cell counts, since even therapeutic levels can trigger seizures and pre-existing EEG changes raise toxicity risk.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "**Naltrexone** (opiate antagonist) helps repetitive **SIB** occurring for no apparent reason (absent depression) acutely, but is less effective long-term.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 13
+            }
+          },
+          {
+            "text": "**Clonazepam** and other CNS-lowering/muscle-tone-altering drugs (benzodiazepines, baclofen) and antipsychotics are recognised causes of dysphagia in LD.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 67,
+              "questionNumber": 66
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          14
+        ]
+      }
     },
     {
       "id": "psychological-treatments",
@@ -1183,7 +1863,52 @@
             "page": 9
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Clinical psychologists using behavioural interventions (Nagel & Leiper)",
+            "value": "==80%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "...using CBT techniques",
+            "value": "==35%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "...using psychodynamic methods",
+            "value": "==17%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "**CBT** evidence in LD is largely from forensic secure settings — effective for anxiety, depression, anger management, sex offending; can be adapted for borderline/mild/moderate LD.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Behavioural treatments (shaping, chaining, **ABC** charts) teach basic/complex skills and manage challenging behaviour; family therapy targets the person with LD plus their support network.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "down-syndrome",
@@ -1408,7 +2133,105 @@
             "questionNumber": 19
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Down's syndrome incidence",
+            "value": "~1/1,000 live births",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Risk at maternal age <30",
+            "value": "1:2,500",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Risk at maternal age >40",
+            "value": "1:80",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Risk at maternal age ≥45",
+            "value": "1:32",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Full trisomy 21",
+            "value": "~92-==95%== of cases",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Robertsonian translocation",
+            "value": "~2-==4%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Congenital heart defects",
+            "value": "~==50%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Average IQ",
+            "value": "~50",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Recurrence risk is **HIGHEST** after a **translocation**-type Down's child (~==1 in 3==), not after full trisomy 21 — the translocation can be silently carried by an unaffected 45-chromosome parent.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 78,
+              "questionNumber": 77
+            }
+          },
+          {
+            "text": "Atrioventricular septal defect is the most common congenital heart lesion in Down's (~==42%== of CHDs) — the classic tested association.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 81,
+              "questionNumber": 80
+            }
+          },
+          {
+            "text": "Below age 1, congenital heart disease predominates as cause of death; across the lifespan overall, **infection** (bronchopneumonia) is the most common cause of death.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          4,
+          12
+        ]
+      }
     },
     {
       "id": "sex-chromosome-disorders",
@@ -1545,7 +2368,82 @@
             "page": 16
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Fragile X incidence",
+            "value": "~1/3,000; ==10-12%== of LD in men",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Fragile X autism co-occurrence",
+            "value": "nearly ==50%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Turner syndrome incidence",
+            "value": "1/2,000-1/5,000 female births",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Triple X incidence",
+            "value": "~1/1,000 female births",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Klinefelter incidence",
+            "value": "1/500-1/1,000 male births",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Fragile X: **CGG** repeat expansion at Xq27.3 (**FMR1**); X-**LINKED DOMINANT** with low penetrance, more severe in males (females protected by 2nd normal X).",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Fragile X IQ: repeat length is **INVERSELY** related to IQ; the IQ drop is steepest at 8-12y and **stabilises by puberty** (~15y) — Fragile X is **NOT** degenerative.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Turner syndrome (45,X monosomy) does **NOT** typically cause LD — intelligence/verbal ability usually normal, despite the physical phenotype.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Klinefelter (47,XXY): sterility is the primary feature; median **IQ** ~90, taller than average, introverted — a chromosomal **TRISOMY**, not a deletion/duplication syndrome.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "autosomal-deletion-duplication",
@@ -1848,7 +2746,75 @@
             "questionNumber": 12
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Prader-Willi (**PATERNAL** 15q11-13 deletion) vs Angelman (**MATERNAL** 15q12 deletion) — same chromosome, opposite parent-of-origin, opposite phenotype (hyperphagic/obese vs happy/ataxic).",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 12
+            }
+          },
+          {
+            "text": "Prader-Willi causes **MICRO**-orchidism/hypogonadism (not macro-orchidism, which is the classic Fragile X finding) — a commonly swapped pair.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 62,
+              "questionNumber": 61
+            }
+          },
+          {
+            "text": "Angelman syndrome: maternal 15q12 deletion; happy disposition, paroxysmal laughter, hand-flapping, attraction to water; severe/profound LD; epilepsy in over ==90%==.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Williams syndrome (7q deletion, ~26 genes): elfin face, >==60%== hypercalcaemia, supravalvular aortic stenosis, mild-moderate LD (mean IQ 56), verbal skills > visuospatial.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Cri-du-chat (5p15.2 deletion): high-pitched cat-like cry, microcephaly, hypertelorism, severe-profound LD.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Smith-Magenis (17p11.2 deletion): severe self-injury with self-hugging stereotypy, reduced/absent REM sleep, reduced pain sensitivity.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "DiGeorge/velo-cardio-facial (22q11.2 microdeletion, ==90%== de novo): cardiac defects, hypocalcaemia ==60%==, associated with schizophrenia-like psychosis.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Rubinstein-Taybi syndrome: moderate-severe LD, broad thumbs/first toes, friendly disposition, performance **IQ** > verbal **IQ**.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          9,
+          18,
+          19,
+          20
+        ]
+      }
     },
     {
       "id": "autosomal-dominant",
@@ -1897,7 +2863,41 @@
             "page": 16
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Tuberous sclerosis (**TSC1**/**TSC2**, autosomal dominant): seizures in ==90%== (often infantile spasms first), CNS hamartomas, ash-leaf skin patches; LD ranges from absent (==30%==) to profound.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Neurofibromatosis type 1 (chromosome 17): café-au-lait spots, neurofibromas, Lisch nodules; ~==50%== speech/language difficulty, ==10%== moderate-profound LD with verbal IQ > performance IQ.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Ash-leaf spots (tuberous sclerosis) vs café-au-lait spots (**NF1**) — a commonly swapped EMI distractor pair.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 3
+            }
+          },
+          {
+            "text": "Sturge-Weber syndrome: LD, epilepsy, hemiparesis, port-wine stains, and meningeal angiomas (temporal/occipital).",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
     },
     {
       "id": "autosomal-recessive-xlinked-misc",
@@ -2069,7 +3069,65 @@
             "questionNumber": 15
           }
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Phenylketonuria (autosomal recessive, PAH deficiency): all UK newborns screened; untreated → microcephaly, severe LD, musty odour, seizures (==25%==).",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Sanfilippo disease (heparan sulphate breakdown disorder): severe LD, claw hand, hepatosplenomegaly, joint stiffness — a **prominent sleep disorder** is a distinguishing behavioural feature; death typically age 10-20.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Lesch-Nyhan (X-linked recessive, **HGPRT** deficiency): compulsive self-mutilation (biting lips/tongue/fingers, onset 2-3y), choreoathetoid movements, death usually from renal failure.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Hunter syndrome (X-linked recessive, iduronate sulfatase deficiency) vs Hurler syndrome (autosomal recessive, alpha-L-iduronidase deficiency) — near-identical names, easily confused.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+              "page": 54,
+              "questionNumber": 54
+            }
+          },
+          {
+            "text": "Cornelia de Lange syndrome: **NIPBL** gene (~half of cases); moderate/severe LD, hypertrichosis, and **SMALL** (not large) hands/feet.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Foetal alcohol spectrum disorder: no safe alcohol level in pregnancy; UK ~1/100 children affected; typically mild LD with microcephaly and characteristic facial features.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Homocystinuria mimics Marfan (marfanoid habitus, lens dislocation) but has **TIGHT** (not loose) joints and only mild LD — the key EMI differentiator from Sanfilippo disease.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 15
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          8
+        ]
+      }
     },
     {
       "id": "epilepsy",
@@ -2194,7 +3252,85 @@
             "questionNumber": 22
           }
         }
-      ]
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "LD prevalence in people with epilepsy",
+            "value": "≥30-==40%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Epilepsy prevalence in LD overall",
+            "value": "~20-==25%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "...in severe LD",
+            "value": "30-==50%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "...in mild LD",
+            "value": "15-==20%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "Good seizure control achieved",
+            "value": "up to ==70%==",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Epilepsy can mimic behavioural/psychiatric presentations in LD (sudden aggression, self-mutilation, staring, exaggerated startle); antiepileptics themselves can cause behavioural problems.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Epilepsy by syndrome: Down's 5-==10%==, Fragile X 20-==25%== (often resolves in adolescence), Angelman >==90%==, Rett ==90%==, tuberous sclerosis ==90%==.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Rett syndrome is linked to **MECP2** (Xq28), not **FMR1** — a trap for pattern-matching 'X-linked LD in a girl' to Fragile X.",
+            "source": {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 11
+            }
+          },
+          {
+            "text": "Lennox-Gastaut syndrome: cognitive impairment **WORSENS** over time — a progressive **INCREASE** in IQ is **NOT** a feature.",
+            "source": {
+              "file": "books/13-learning-disability.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4
+        ]
+      }
     },
     {
       "id": "coverage-gaps",
@@ -2205,7 +3341,13 @@
           "subtopic": "Mental Capacity Act, DoLS/Liberty Protection Safeguards & adult safeguarding law",
           "note": "Neither the attached book notes nor the question explanations cover the Mental Capacity Act 2005, best-interests decision-making, Deprivation of Liberty Safeguards (or their intended successor, the Liberty Protection Safeguards), or adult safeguarding procedures — all frequently tested alongside **LD** in Paper B. This guide cannot cover this area from the source text alone; verify against the current Mental Capacity Act Code of Practice and related guidance."
         }
-      ]
+      ],
+      "concise": {
+        "bullets": [],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
     }
   ]
 }

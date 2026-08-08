@@ -87,11 +87,39 @@ export type Block =
   | TrapListBlock
   | GapBlock;
 
+export interface ConciseBullet {
+  text: string;
+  source: Source;
+}
+
+// A compact label/value pair for facts that are naturally "metric -> number" (a prevalence rate,
+// an NNT, a ratio) rather than a sentence — e.g. "1-year prevalence" / "5.3%". Kept separate from
+// ConciseBullet rather than trying to auto-detect this shape from bullet text: whether a fact
+// reads better as a row or a sentence is an editorial call made when the concise content is
+// written, not a pattern to infer mechanically.
+export interface ConciseFact {
+  label: string;
+  value: string;
+  source: Source;
+}
+
+// The "Concise Guide" tab's per-section content: a handful of exam-focused bullets, each
+// compressed from (and citing the exact same source as) one of this section's own `blocks` —
+// never independently sourced. `highlightBlockIndices` points back into this same `Section`'s
+// `blocks` array to resurface already-concise blocks (tables/mnemonics/traps) verbatim instead of
+// duplicating them as prose.
+export interface ConciseSection {
+  bullets: ConciseBullet[];
+  facts?: ConciseFact[];
+  highlightBlockIndices?: number[];
+}
+
 export interface Section {
   id: string;
   title: string;
   intro?: string;
   blocks: Block[];
+  concise?: ConciseSection;
 }
 
 export interface StudyGuide {

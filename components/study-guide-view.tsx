@@ -7,6 +7,7 @@ import {
   BookOpenText,
   HelpCircle,
   Lightbulb,
+  ListChecks,
   NotebookText,
   Table2,
   Zap,
@@ -23,6 +24,8 @@ import { CATEGORY_COLOR_CLASSES, COMPARISON_TABLE_COLORS, DEFAULT_TABLE_COLORS }
 import type {
   Block,
   ComparisonBlock,
+  ConciseBullet,
+  ConciseFact,
   GapBlock,
   MnemonicBlock,
   ParagraphBlock,
@@ -334,21 +337,27 @@ function GapBlockView({ block }: { block: GapBlock }) {
   );
 }
 
-// A left panel listing every section (like the app's own AppSidebar listing every topic) with the
-// selected section's notes shown centered in the middle — replaces an earlier accordion-of-
-// sections design. The nav is deliberately NOT inside <Paper>: it's navigation chrome, not study
-// content that's meant to look like a printed page, so it follows the app's normal (theme-aware)
-// styling. On md+ it's a genuinely independent-scrolling pane via ResizablePanelGroup (plain CSS
-// `sticky` doesn't reliably hold here — Base UI's Tabs.Panel wraps content in an animated,
-// transformed element, which changes what a `position: sticky` descendant sticks relative to;
-// bounded-height resizable panes sidestep that entirely, and the user can drag to resize besides).
-function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
-  const sections = guide.sections.filter((s) => s.blocks.some((b) => b.type === "paragraph"));
-  const [activeId, setActiveId] = useState(sections[0]?.id);
+// Shared scaffold for a left panel listing sections (like the app's own AppSidebar listing every
+// topic) with the selected section's content shown centered in the middle — used by both the
+// Notes tab and the Concise Guide tab so they stay visually/behaviourally in sync automatically.
+// The nav is deliberately NOT inside <Paper>: it's navigation chrome, not study content that's
+// meant to look like a printed page, so it follows the app's normal (theme-aware) styling. On md+
+// it's a genuinely independent-scrolling pane via ResizablePanelGroup (plain CSS `sticky` doesn't
+// reliably hold here — Base UI's Tabs.Panel wraps content in an animated, transformed element,
+// which changes what a `position: sticky` descendant sticks relative to; bounded-height resizable
+// panes sidestep that entirely, and the user can drag to resize besides).
+function SectionListDetail({
+  sections,
+  activeId,
+  onSelect,
+  renderDetail,
+}: {
+  sections: Section[];
+  activeId: string | undefined;
+  onSelect: (id: string) => void;
+  renderDetail: (section: Section) => React.ReactNode;
+}) {
   const active = sections.find((s) => s.id === activeId) ?? sections[0];
-  const paragraphs = active
-    ? active.blocks.filter((b): b is ParagraphBlock => b.type === "paragraph")
-    : [];
 
   const navItems = (
     <ul className="flex gap-1.5 overflow-x-auto p-3 md:flex-col md:overflow-visible">
@@ -356,7 +365,7 @@ function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
         <li key={s.id} className="shrink-0 md:shrink">
           <button
             type="button"
-            onClick={() => setActiveId(s.id)}
+            onClick={() => onSelect(s.id)}
             className={cn(
               "block w-full rounded-md px-3 py-2 text-left text-sm font-medium whitespace-nowrap transition-colors md:whitespace-normal",
               s.id === active?.id
@@ -371,16 +380,7 @@ function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
     </ul>
   );
 
-  const detail = active && (
-    <>
-      <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{active.title}</h2>
-      <ul className="mt-4 space-y-4">
-        {paragraphs.map((b, i) => (
-          <ParagraphBlockView key={i} block={b} onCite={onCite} />
-        ))}
-      </ul>
-    </>
-  );
+  const detail = active && renderDetail(active);
 
   return (
     <>
@@ -412,6 +412,131 @@ function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
         </ResizablePanelGroup>
       </div>
     </>
+  );
+}
+
+function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
+  const sections = guide.sections.filter((s) => s.blocks.some((b) => b.type === "paragraph"));
+  const [activeId, setActiveId] = useState(sections[0]?.id);
+
+  return (
+    <SectionListDetail
+      sections={sections}
+      activeId={activeId}
+      onSelect={setActiveId}
+      renderDetail={(section) => {
+        const paragraphs = section.blocks.filter((b): b is ParagraphBlock => b.type === "paragraph");
+        return (
+          <>
+            <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
+            <ul className="mt-4 space-y-4">
+              {paragraphs.map((b, i) => (
+                <ParagraphBlockView key={i} block={b} onCite={onCite} />
+              ))}
+            </ul>
+          </>
+        );
+      }}
+    />
+  );
+}
+
+// Deliberately NOT a boxed card — a numbered marker plus slightly heavier text weight is enough
+// to read as "distinct fact to memorize" without every single bullet becoming its own bordered
+// box; a whole list of individually-boxed one-liners was busier than the "quick to read" goal
+// this tab exists for. `bullet.text` is a compression of (never independent of) the exact block
+// `bullet.source` points at — see lib/types.ts's `ConciseBullet` and CLAUDE.md.
+function ConciseBulletView({ bullet, index, onCite }: { bullet: ConciseBullet; index: number; onCite: Cite }) {
+  return (
+    <li className="flex items-start gap-3">
+      <span className="mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-[#1B3A5C] text-[11px] font-bold text-white">
+        {index + 1}
+      </span>
+      <p className="flex-1 text-[16px] font-medium leading-7 text-[#1A1A1A] md:text-[17px] md:leading-8">
+        <RichText text={bullet.text} />{" "}
+        <CitationBadge source={bullet.source} onClick={onCite} className="align-middle" />
+      </p>
+    </li>
+  );
+}
+
+// A compact label/value list for facts that are naturally "metric -> number" rather than a
+// sentence (a prevalence rate, an NNT) — a tighter scan pattern than a numbered sentence for
+// facts that are just a number to memorize. Not a bordered table: just a label/value row with a
+// hairline divider between rows, since a full table header/footer would be heavier chrome than
+// this content needs. See ConciseFact in lib/types.ts for why this is a distinct authored shape
+// rather than something auto-detected from bullet text.
+function ConciseFactList({ facts, onCite }: { facts: ConciseFact[]; onCite: Cite }) {
+  return (
+    <dl className="divide-y divide-[#D9D9D9] rounded-md border border-[#D9D9D9]">
+      {facts.map((fact, i) => (
+        <div key={i} className="flex items-baseline justify-between gap-4 px-3 py-2">
+          <dt className="text-[15px] text-[#4A5568]">{fact.label}</dt>
+          <dd className="flex items-baseline gap-1.5 text-right text-[16px] font-semibold text-[#1B3A5C]">
+            <RichText text={fact.value} />
+            <CitationBadge source={fact.source} onClick={onCite} className="align-middle" />
+          </dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+// Exam-focused compression of the Full Guide, one section at a time — same left-panel/detail
+// pattern as Notes (the user asked for this explicitly: "build the concise tab topic wise similar
+// to how we have designed the notes"). Bullets are compressed exam-critical facts (see
+// ConciseBulletView); `highlightBlockIndices` resurfaces this section's own already-concise
+// tables/mnemonics/traps verbatim via the shared BlockView dispatcher, rather than duplicating
+// them as prose — same objects the Full Guide renders, so this can't drift out of alignment with
+// it. Sections without a `concise` entry yet are simply not listed (rolling out topic by topic,
+// not all-or-nothing); if a topic has none at all, show a heads-up instead of an empty panel.
+function ConciseTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
+  const sections = guide.sections.filter((s) => s.concise);
+  const [activeId, setActiveId] = useState(sections[0]?.id);
+
+  if (sections.length === 0) {
+    return (
+      <Paper>
+        <p className="text-center text-muted-foreground">
+          Concise guide not yet available for this topic.
+        </p>
+      </Paper>
+    );
+  }
+
+  return (
+    <SectionListDetail
+      sections={sections}
+      activeId={activeId}
+      onSelect={setActiveId}
+      renderDetail={(section) => {
+        const concise = section.concise!;
+        return (
+          <>
+            <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
+            {(concise.facts ?? []).length > 0 && (
+              <div className="mt-4">
+                <ConciseFactList facts={concise.facts!} onCite={onCite} />
+              </div>
+            )}
+            {concise.bullets.length > 0 && (
+              <ul className="mt-4 space-y-3.5">
+                {concise.bullets.map((b, i) => (
+                  <ConciseBulletView key={i} bullet={b} index={i} onCite={onCite} />
+                ))}
+              </ul>
+            )}
+            {(concise.highlightBlockIndices ?? []).length > 0 && (
+              <div className="mt-6 space-y-6">
+                {concise.highlightBlockIndices!.map((idx) => (
+                  <BlockView key={idx} block={section.blocks[idx]} onCite={onCite} />
+                ))}
+              </div>
+            )}
+          </>
+        );
+      }}
+    />
   );
 }
 
@@ -476,6 +601,9 @@ export function StudyGuideView({
             <TabsTrigger value="full" className="gap-1.5">
               <BookOpenText className="size-4" /> Full Guide
             </TabsTrigger>
+            <TabsTrigger value="concise" className="gap-1.5">
+              <ListChecks className="size-4" /> Concise Guide
+            </TabsTrigger>
             <TabsTrigger value="notes" className="gap-1.5">
               <NotebookText className="size-4" /> Notes
             </TabsTrigger>
@@ -515,6 +643,10 @@ export function StudyGuideView({
             ))}
           </div>
         </Paper>
+      </TabsContent>
+
+      <TabsContent value="concise">
+        <ConciseTabView guide={guide} onCite={onCite} />
       </TabsContent>
 
       <TabsContent value="notes">
