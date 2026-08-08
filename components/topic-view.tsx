@@ -1,13 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { AlertTriangle, PanelBottomClose, PanelBottomOpen } from "lucide-react";
+import { AlertTriangle, PanelRightIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { CitationBadge } from "@/components/citation-badge";
 import { StudyGuideView } from "@/components/study-guide-view";
@@ -33,7 +34,6 @@ export function TopicView({
   const [index, setIndex] = useState(0);
   const [activeSource, setActiveSource] = useState<Source | null>(notes[0]?.source ?? null);
   const [pdfOpen, setPdfOpen] = useState(false);
-  const pdfSectionRef = useRef<HTMLDivElement>(null);
   const note = notes[index];
 
   // The title/action-buttons and the outer Study-Guide/Source-Notes tab list render into slots
@@ -47,22 +47,12 @@ export function TopicView({
     setActiveSource(notes[i]?.source ?? null);
   }
 
-  // The reference PDF section renders BELOW the content in a single column (not a side panel) —
-  // citing a source opens it and scrolls it into view, since it may be off-screen below a long
-  // study guide.
+  // The reference PDF opens as a right-side drawer over the content (not a permanent side
+  // column, not a below-content section requiring a scroll) — citing a source just opens it.
   function handleCite(source: Source) {
     setActiveSource(source);
     setPdfOpen(true);
   }
-
-  // Only scroll on the false -> true transition (the section just mounted) — not on every
-  // activeSource change, or paging through Source Notes while the PDF section is already open
-  // would yank the scroll position on every click.
-  useEffect(() => {
-    if (pdfOpen) {
-      pdfSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }, [pdfOpen]);
 
   return (
     <div>
@@ -71,26 +61,26 @@ export function TopicView({
           <>
             <h1 className="truncate text-lg font-semibold">{topic.title}</h1>
             <div className="flex shrink-0 items-center gap-2">
-              <Tooltip>
-                <TooltipTrigger
-                  render={
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      onClick={() => setPdfOpen((v) => !v)}
-                      data-testid="pdf-toggle"
-                    >
-                      {pdfOpen ? <PanelBottomClose className="size-4" /> : <PanelBottomOpen className="size-4" />}
-                    </Button>
-                  }
-                />
-                <TooltipContent>Source PDF</TooltipContent>
-              </Tooltip>
               {questionCount > 0 && (
                 <Button render={<Link href={`/quiz/${topic.id}`} />} nativeButton={false} size="sm">
                   Take quiz ({questionCount})
                 </Button>
               )}
+              <Tooltip>
+                <TooltipTrigger
+                  render={
+                    <Button
+                      variant="ghost"
+                      size="icon-sm"
+                      onClick={() => setPdfOpen((v) => !v)}
+                      data-testid="pdf-toggle"
+                    >
+                      <PanelRightIcon />
+                    </Button>
+                  }
+                />
+                <TooltipContent>Source PDF</TooltipContent>
+              </Tooltip>
             </div>
           </>,
           titleSlot
@@ -161,19 +151,16 @@ export function TopicView({
         </TabsContent>
       </Tabs>
 
-      {pdfOpen && (
-        <div ref={pdfSectionRef} className="border-t" data-testid="pdf-section">
-          <div className="flex items-center justify-between p-3">
-            <h3 className="text-sm font-semibold text-muted-foreground">Source PDF</h3>
-            <Button variant="ghost" size="sm" onClick={() => setPdfOpen(false)}>
-              Close
-            </Button>
-          </div>
-          <div className="h-[85vh]">
-            <PdfViewer source={activeSource} />
-          </div>
-        </div>
-      )}
+      <Sheet open={pdfOpen} onOpenChange={setPdfOpen}>
+        <SheetContent
+          side="right"
+          className="w-full data-[side=right]:sm:max-w-2xl"
+          data-testid="pdf-section"
+        >
+          <SheetTitle className="sr-only">Source PDF</SheetTitle>
+          <PdfViewer source={activeSource} />
+        </SheetContent>
+      </Sheet>
     </div>
   );
 }

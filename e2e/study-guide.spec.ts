@@ -49,7 +49,7 @@ for (const topic of TOPICS) {
       await expect(page.getByTestId("pdf-section")).toHaveCount(0);
     });
 
-    test("clicking a citation opens the PDF section and scrolls it into view", async ({ page }) => {
+    test("clicking a citation opens the PDF drawer", async ({ page }) => {
       await page.goto(`/topics/${topic}`);
       await expect(page.getByTestId("pdf-section")).toHaveCount(0);
 

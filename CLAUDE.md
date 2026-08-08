@@ -56,16 +56,18 @@ on 3 and then scaled.
 
 - Next.js App Router, TypeScript, Tailwind, shadcn/ui, `output: 'export'` (static — must work
   on Vercel Hobby and GitHub Pages both).
-- Every topic page (`components/topic-view.tsx`) is a single scrolling column: header, tabs
-  (Study Guide / Source Notes), then an optional PDF section below, toggled open/closed by a
-  header button — not a left/right split. (An earlier version used a `ResizablePanelGroup` side
-  panel; dropped per explicit user feedback in favor of "reference above or below the content,
-  one column" — see "Print-document design system" below for the full rationale.) The Source
-  Notes tab shows **one note block at a time with Prev/Next** (not a scrolling list — changed on
-  earlier user feedback for better study-session UX); paging through it updates which page the
-  PDF section (if open) shows, but does *not* force-scroll to it — only explicitly opening the
-  section (the toggle button, or clicking a citation) scrolls it into view, otherwise paging
-  through notes while it's already open would yank your scroll position on every click.
+- Every topic page (`components/topic-view.tsx`) is a single scrolling column for its actual
+  content — header, tabs (Study Guide / Source Notes) — with the source PDF opening as a
+  **right-side drawer overlay** (`components/ui/sheet.tsx`, `side="right"`) on top of that
+  content, not a permanent side column and not a below-content section. This went through two
+  earlier layouts before landing here, both dropped on explicit user feedback: a
+  `ResizablePanelGroup` side panel (too much like a permanent two-column split), then a
+  below-content section you had to scroll down to reach (technically one column, but "scrolls
+  completely down" was still the wrong feel for something you want quick access to). A drawer
+  gives one-column content *and* instant access, without a scroll. See "Print-document design
+  system" and "Consolidated sticky header" below. The Source Notes tab shows **one note block at a
+  time with Prev/Next** (not a scrolling list — changed on earlier user feedback for better
+  study-session UX); paging through it updates which page the drawer (if open) shows.
 - PDF viewer (`components/pdf-viewer.tsx`) uses `react-pdf` (pdf.js), not a plain
   `<iframe src=".../file.pdf#page=N">`. The iframe version was tried first (simpler, no
   dependency) but every page change reloaded the whole PDF from scratch — visible flicker,
@@ -341,20 +343,36 @@ for it.
 Content sits inside a `max-w-[880px] mx-auto` container (`Paper`) so line length stays readable
 regardless of viewport width.
 
-**Single column, not a side-by-side split** (`components/topic-view.tsx`): an earlier pass used a
-`ResizablePanelGroup` with the PDF as a resizable side panel (plus a mobile `Sheet`), toggled by a
-`pdfOpen` state. The user explicitly asked to drop the two-column split — "put the reference on
-top or below the actual content... so it's in one column itself" — so `topic-view.tsx` no longer
-uses `ResizablePanelGroup`, `Sheet`, or `useIsMobile()` at all (deleted, not hidden): the header,
-tabs, and content render as normal page flow, and when `pdfOpen` is true a `PdfViewer` section
-mounts *below* the tabs, full width, with an effect that `scrollIntoView`s it (it may be off-screen
-below a long guide). This is identical at every breakpoint — no separate mobile code path needed
-anymore, since a single scrolling column is already mobile-appropriate. One consequence worth
-knowing: this let the component drop its own `h-full`/`overflow-hidden` chain entirely — the page
-now just flows normally inside the root layout's one `flex-1 overflow-y-auto` container (see
-"Layout height must be bounded" above) rather than needing its own nested bounded-height/scroll
-region. Don't reintroduce `ResizablePanelGroup` or a nested `overflow-y-auto` here without a
-reason; the single flowing column is simpler and was what was asked for.
+**Single column, not a side-by-side split, PDF as a right-side drawer** (`components/topic-view.tsx`).
+Went through three layouts: (1) `ResizablePanelGroup` with the PDF as a resizable side panel
+(dropped — a permanent two-column split, not what "put the reference on top or below... one
+column" asked for); (2) a `PdfViewer` section mounted *below* the tabs with a `scrollIntoView`
+effect (dropped — technically one column, but the user reported "the source PDF now scrolls
+completely down," i.e. reaching it meant scrolling through the whole guide); (3) the current
+design — the header/tabs/content render as normal page flow (no side panel, no below-content
+section), and the PDF opens as a right-side `Sheet` drawer (`components/ui/sheet.tsx`,
+`side="right"`) overlaying that content, toggled by the header button or a citation click. A
+drawer gets you both properties at once: the page content itself stays one column, and the PDF is
+reachable instantly without scrolling. Identical at every breakpoint — no separate mobile code
+path (`useIsMobile()` was deleted along with layout (1), not reintroduced for the drawer either;
+`Sheet` is already responsive — full-ish width in this project's mode with `data-[side=right]:sm:max-w-2xl`
+capping it to a comfortable reading width on desktop, base `w-3/4` on mobile). One consequence
+worth knowing: dropping the side panel/below-content section let the component drop its own
+`h-full`/`overflow-hidden` chain entirely — the page just flows normally inside the root layout's
+one `flex-1 overflow-y-auto` container (see "Layout height must be bounded" above) rather than
+needing its own nested bounded-height/scroll region. Don't reintroduce `ResizablePanelGroup` or a
+nested `overflow-y-auto` here without a reason.
+
+**The drawer's z-index must stay below the sticky header's, not above it.** shadcn's `Sheet`
+(Base UI Dialog) ships at `z-50`. The consolidated header (see "Consolidated sticky header" below)
+was originally `z-20` — with the drawer open, its `fixed inset-y-0 right-0` popup painted *over*
+the top-right of the page, including the header's own PDF-toggle button, so the button became
+unclickable (clicks were intercepted by the drawer's close button/PDF content instead) — this is
+what surfaced as "fix that layer changes" in user feedback. Fixed by raising the header to
+`z-[60]` (strictly above the Sheet/Dialog's `z-50`) in `app/layout.tsx`, so the header — and
+anything in it — always stays clickable above any drawer/dialog the page opens, regardless of
+DOM order (the Sheet portals to the end of `<body>`, so equal z-index would have let it win on
+paint order alone).
 
 **Individual blocks render as bordered cards; `Section`s themselves do NOT.** Tables, mnemonics,
 traps, and gaps each get the `rounded-xl border shadow-sm` header/body/footer-strip treatment. A
@@ -420,11 +438,15 @@ lives in its normal place in the tree (wrapping the real `<TabsContent>` panels)
 `<TabsList>` is portaled elsewhere; since portals preserve React context, clicking a portaled
 trigger still correctly drives which panel shows, exactly as if the list were rendered in place.
 
-**Why the slots have zero classes of their own** (no padding/border): an empty div with no
-padding renders at zero height, so pages that don't portal into a slot (quiz, tracker, recalls,
-home) see no visual trace of it — no stray empty bar. All visual chrome (padding, the `TabsList`'s
-own pill background) belongs to the *portaled content*, never the slot div itself; adding
-padding/border to a slot div directly would show up as a visible empty strip on every other page.
+**Both header rows carry the same `border-b p-2` treatment**, applied at the row wrapper in
+`app/layout.tsx` (not on the individual slot divs, which stay classless so multiple slots in the
+same row don't double up on padding). This was an explicit correction — the tabs row originally
+had no padding/border of its own (so it'd render at zero height and stay invisible on pages that
+don't populate it), but the user asked for "the same styling as the header, with right padding
+and everything," i.e. visual *consistency* matters more here than hiding an unused row. Tradeoff:
+pages that don't portal into the tabs row (quiz, tracker, recalls, home) now show a slim empty
+second row rather than nothing — accepted deliberately, don't revert to the zero-padding version
+to "fix" that without checking this paragraph first.
 
 **Known tradeoff**: `usePortalSlot` resolves client-side only (`document.getElementById` can't run
 during static-export prerender), so the title/buttons/tabs are absent from the initial static HTML
@@ -432,17 +454,20 @@ and appear only after hydration — a brief flash on first paint. Acceptable for
 user, JS always on); don't try to "fix" this by moving the header content back to being
 server-rendered per-page, which is exactly the two-bar layout that was just removed.
 
-The "Source PDF" toggle is icon-only now (`PanelBottomOpen`/`PanelBottomClose` in a `Tooltip`,
-label "Source PDF" shown on hover) rather than an icon+text button — freed up header width now
-that it shares a row with the title and action buttons.
+The "Source PDF" toggle is icon-only (a `Tooltip`, label "Source PDF" on hover) and sits as the
+**rightmost** element in the header, after "Take quiz" — the user asked for it moved to the far
+right and given "the same icon style as the drawer icon on the left," i.e. matching
+`SidebarTrigger` (`components/ui/sidebar.tsx`): same `variant="ghost" size="icon-sm"` Button, and a
+single static `PanelRightIcon` (mirroring `SidebarTrigger`'s single static `PanelLeftIcon`) rather
+than swapping between separate open/closed icon variants.
 
 ## End-to-end tests (`e2e/`, Playwright)
 
 `playwright.config.ts` + `e2e/study-guide.spec.ts` cover exactly the class of bug this project
 kept catching manually and imperfectly (screenshot-less, via curl+grep against dev-server HTML,
 because the Chrome browser extension has been unavailable in this environment): horizontal table
-overflow, the PDF section's default-collapsed/toggle/citation-click-scroll behavior, and inner
-tab switching, run across two representative topics (`adult-psychiatry` — richest block-type mix;
+overflow, the PDF drawer's default-closed/toggle/citation-click-open behavior, and inner tab
+switching, run across two representative topics (`adult-psychiatry` — richest block-type mix;
 `psychiatric-services` — the one flagged for table/trap density in user feedback).
 
 - Run with `pnpm exec playwright test` (or add `"test:e2e": "playwright test"` usage — already in
@@ -454,10 +479,9 @@ tab switching, run across two representative topics (`adult-psychiatry` — rich
   no server is running, Playwright starts one itself on 3001 via `webServer.command`
   (`pnpm run predev && next dev --port 3001`); if one's already up, `reuseExistingServer: true`
   attaches to it instead of erroring.
-- `data-testid="pdf-toggle"` / `data-testid="pdf-section"` on the button/section in
-  `topic-view.tsx` exist specifically so these tests don't have to disambiguate from the
-  identically-worded "Source PDF" text that appears in both the toggle button and the section
-  heading.
+- `data-testid="pdf-toggle"` (the header button) / `data-testid="pdf-section"` (the `SheetContent`
+  drawer) in `topic-view.tsx` give the tests a stable target independent of the toggle's icon-only
+  markup and the drawer's `sr-only` title.
 - Extend this file (don't create a second spec file per concern) when adding topics/assertions —
   it's parametrized over a `TOPICS` array already.
 

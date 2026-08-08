@@ -33,15 +33,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <main className="flex h-full flex-1 min-w-0 flex-col overflow-hidden">
               {/* Page-specific header content (title, action buttons, tab lists) is portaled in
                   here by client components like `topic-view.tsx`/`study-guide-view.tsx` — see
-                  CLAUDE.md "Consolidated sticky header". These slot divs render empty (zero
-                  visual footprint, no padding of their own) on pages that don't portal into
-                  them. */}
-              <div className="sticky top-0 z-20 flex shrink-0 flex-col bg-background">
+                  CLAUDE.md "Consolidated sticky header". Both rows share the same padding/border
+                  treatment so they read as one consistent header regardless of whether a page
+                  has populated the second (tabs) row. z-[60] (above shadcn Sheet/Dialog's z-50)
+                  keeps the header — and its drawer-toggle button — clickable above an open
+                  right-side PDF drawer instead of the drawer's own content intercepting clicks
+                  meant for the button that opened it. */}
+              <div className="sticky top-0 z-[60] flex shrink-0 flex-col bg-background">
                 <div className="flex items-center gap-2 border-b p-2">
                   <SidebarTrigger />
                   <div id="page-header-slot" className="flex min-w-0 flex-1 items-center justify-between gap-2" />
                 </div>
-                <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center justify-between gap-2 border-b p-2">
                   <div id="page-header-tabs-left" className="flex min-w-0 items-center gap-2" />
                   <div id="page-header-tabs-right" className="flex min-w-0 items-center gap-2 overflow-x-auto" />
                 </div>
