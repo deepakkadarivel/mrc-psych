@@ -1,5 +1,6 @@
 "use client";
 
+import { createPortal } from "react-dom";
 import {
   AlertTriangle,
   BookOpenText,
@@ -7,14 +8,15 @@ import {
   Lightbulb,
   NotebookText,
   Table2,
+  Zap,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { CitationBadge } from "@/components/citation-badge";
 import { RichText } from "@/components/rich-text";
+import { usePortalSlot } from "@/hooks/use-portal-slot";
 import { CATEGORY_COLOR_CLASSES, COMPARISON_TABLE_COLORS, DEFAULT_TABLE_COLORS } from "@/lib/category-colors";
 import type {
   Block,
@@ -22,6 +24,7 @@ import type {
   GapBlock,
   MnemonicBlock,
   ParagraphBlock,
+  Section,
   Source,
   StudyGuide,
   TableBlock,
@@ -32,78 +35,102 @@ import type {
 type Cite = (source: Source) => void;
 
 // Every tab's content sits inside this "paper" wrapper — fixed white/light regardless of the
-// app's theme, narrow max-width so line length stays readable even when the PDF panel is
-// hidden and the notes column spans a wide viewport. No shadow/card — the print-document feel
-// comes from typography and color fidelity to the reference, not from faking page depth.
+// app's theme. `[&_strong]/[&_em]` give bold/italic markup (RichText) a consistent accent color
+// everywhere it appears (tables, mnemonics, traps, gaps, paragraphs) so emphasis actually reads
+// as emphasis, not just a font-weight change on the same black text.
 function Paper({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mx-auto max-w-[820px] bg-white px-6 py-8 text-[#1A1A1A] md:px-10">
+    <div className="mx-auto max-w-[880px] bg-white px-5 py-8 text-[16px] text-[#1A1A1A] md:px-10 md:py-10 [&_em]:text-[#4A5568] [&_strong]:font-bold [&_strong]:text-[#1B3A5C]">
       {children}
     </div>
   );
 }
 
-function SectionHeading({ children }: { children: React.ReactNode }) {
+// Deliberately NOT a card — the section itself is just a heading, not a boxed container. Only
+// individual blocks (tables, mnemonics, traps, gaps) are cards; wrapping the entire section
+// (heading + intro + every block inside it) in one more enclosing card was a genuine over-read
+// of "use better cards" and made the whole page read as one giant nested box.
+function SectionHeading({ section }: { section: Section }) {
   return (
-    <h2 className="border-b-2 border-[#1B3A5C] pb-2 text-xl font-bold text-[#1B3A5C] md:text-[26px]">
-      {children}
-    </h2>
+    <div className="flex items-center gap-2.5 border-b-2 border-[#1B3A5C] pb-2">
+      <BookOpenText className="size-5 shrink-0 text-[#1B3A5C]" />
+      <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
+    </div>
   );
 }
 
+// The citation sits inline, right after the text it supports — not as a flex sibling pinned to
+// the far right of the row. Pinning it to the row's end made every bullet look like two columns
+// (text on the left, a "reference column" of badges running down the right) instead of one
+// flowing line of text with a small reference mark at the end, like a footnote.
 function ParagraphBlockView({ block, onCite }: { block: ParagraphBlock; onCite: Cite }) {
   return (
-    <li className="flex items-start gap-3 marker:text-[#1B3A5C]">
-      <span className="mt-2.5 size-1.5 shrink-0 rounded-full bg-[#1B3A5C]" />
-      <p className="flex-1 text-[15px] leading-7">
-        <RichText text={block.text} />
+    <li className="flex items-start gap-3">
+      <span className="mt-3 size-1.5 shrink-0 rounded-full bg-[#1B3A5C]" />
+      <p className="flex-1 text-[16px] leading-7 md:text-[17px] md:leading-8">
+        <RichText text={block.text} />{" "}
+        <CitationBadge source={block.source} onClick={onCite} className="align-middle" />
       </p>
-      <CitationBadge source={block.source} onClick={onCite} className="mt-1 shrink-0" />
     </li>
   );
 }
+
+// Shared cell/head classes: overrides the shadcn Table primitive's default `whitespace-nowrap`
+// (that plus its `overflow-x-auto` container is what forced every wide table to scroll
+// horizontally instead of wrapping text within its column). `table-fixed` on <Table> makes
+// column widths respect the container instead of growing to fit unwrapped content.
+const TABLE_HEAD_CLASS =
+  "h-auto whitespace-normal break-words px-3 py-2.5 align-top text-[13px] font-bold text-white md:text-[14px]";
+const TABLE_CELL_CLASS =
+  "whitespace-normal break-words px-3 py-2.5 align-top text-[14px] leading-6 text-[#1A1A1A] md:text-[15px]";
 
 function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) {
   const colors = block.category ? CATEGORY_COLOR_CLASSES[block.category.color] : DEFAULT_TABLE_COLORS;
   return (
     <div>
-      <div className="flex flex-wrap items-center gap-2">
+      <div className="flex flex-wrap items-baseline gap-2">
         {block.category && (
-          <span className={`text-sm font-semibold ${colors.text}`}>{block.category.label}</span>
+          <span className={`text-sm font-bold uppercase tracking-wide ${colors.text}`}>
+            {block.category.label}
+          </span>
         )}
-        {block.title && <h3 className="font-semibold text-[#1A1A1A]">{block.title}</h3>}
+        {block.title && <h3 className="text-base font-semibold text-[#1A1A1A]">{block.title}</h3>}
         {block.highYield && (
           <Badge className="border-transparent bg-amber-500 text-white">High-yield</Badge>
         )}
-        <div className="flex gap-1">
-          {block.sources.map((s, si) => (
-            <CitationBadge key={si} source={s} onClick={onCite} />
-          ))}
-        </div>
       </div>
-      <div className={`mt-2 overflow-x-auto rounded-sm border ${colors.border}`}>
-        <Table>
-          <TableHeader>
-            <TableRow className={colors.header}>
-              {block.columns.map((c) => (
-                <TableHead key={c} className="text-[13px] font-semibold text-white md:text-sm">
-                  {c}
-                </TableHead>
-              ))}
-            </TableRow>
-          </TableHeader>
-          <TableBody>
-            {block.rows.map((row, ri) => (
-              <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-white"}>
-                {row.map((cell, ci) => (
-                  <TableCell key={ci} className="text-[14px] text-[#1A1A1A]">
-                    <RichText text={cell} />
-                  </TableCell>
+      <div className={`mt-2 overflow-hidden rounded-xl border shadow-sm ${colors.border}`}>
+        <div className="overflow-x-auto">
+          <Table className="table-fixed">
+            <TableHeader>
+              <TableRow className={colors.header}>
+                {block.columns.map((c) => (
+                  <TableHead key={c} className={TABLE_HEAD_CLASS}>
+                    {c}
+                  </TableHead>
                 ))}
               </TableRow>
+            </TableHeader>
+            <TableBody>
+              {block.rows.map((row, ri) => (
+                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-white"}>
+                  {row.map((cell, ci) => (
+                    <TableCell key={ci} className={TABLE_CELL_CLASS}>
+                      <RichText text={cell} />
+                    </TableCell>
+                  ))}
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+        {block.sources.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1.5 border-t border-[#D9D9D9] bg-[#FAFAFA] px-3 py-2">
+            {block.sources.map((s, si) => (
+              <CitationBadge key={si} source={s} onClick={onCite} />
             ))}
-          </TableBody>
-        </Table>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -113,37 +140,39 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
   const colors = COMPARISON_TABLE_COLORS;
   return (
     <div>
-      <div className="flex flex-wrap items-center gap-2">
-        <h3 className={`font-semibold ${colors.text}`}>{block.title}</h3>
-        <div className="flex gap-1">
-          {block.sources.map((s, si) => (
-            <CitationBadge key={si} source={s} onClick={onCite} />
-          ))}
-        </div>
-      </div>
-      <div className={`mt-2 overflow-x-auto rounded-sm border ${colors.border}`}>
-        <Table>
-          <TableHeader>
-            <TableRow className={colors.header}>
-              {block.columns.map((c) => (
-                <TableHead key={c} className="text-[13px] font-semibold text-white md:text-sm">
-                  {c}
-                </TableHead>
-              ))}
-            </TableRow>
-          </TableHeader>
-          <TableBody>
-            {block.rows.map((row, ri) => (
-              <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-white"}>
-                {row.map((cell, ci) => (
-                  <TableCell key={ci} className="text-[14px] text-[#1A1A1A]">
-                    <RichText text={cell} />
-                  </TableCell>
+      <h3 className={`text-sm font-bold uppercase tracking-wide ${colors.text}`}>{block.title}</h3>
+      <div className={`mt-2 overflow-hidden rounded-xl border shadow-sm ${colors.border}`}>
+        <div className="overflow-x-auto">
+          <Table className="table-fixed">
+            <TableHeader>
+              <TableRow className={colors.header}>
+                {block.columns.map((c) => (
+                  <TableHead key={c} className={TABLE_HEAD_CLASS}>
+                    {c}
+                  </TableHead>
                 ))}
               </TableRow>
+            </TableHeader>
+            <TableBody>
+              {block.rows.map((row, ri) => (
+                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-white"}>
+                  {row.map((cell, ci) => (
+                    <TableCell key={ci} className={TABLE_CELL_CLASS}>
+                      <RichText text={cell} />
+                    </TableCell>
+                  ))}
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+        {block.sources.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1.5 border-t border-[#D9D9D9] bg-[#FAFAFA] px-3 py-2">
+            {block.sources.map((s, si) => (
+              <CitationBadge key={si} source={s} onClick={onCite} />
             ))}
-          </TableBody>
-        </Table>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -151,56 +180,78 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
 
 function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Cite }) {
   return (
-    <Alert className="border-l-4 border-l-[#7D3C98] bg-[#F1E6F7]">
-      <Lightbulb className="text-[#7D3C98]" />
-      <AlertTitle className="flex items-center justify-between gap-2">
-        <span className="text-[#6C3483]">{block.mnemonic}</span>
+    <div className="overflow-hidden rounded-xl border border-[#7D3C98] shadow-sm">
+      <div className="flex flex-wrap items-center justify-between gap-2 bg-[#7D3C98] px-4 py-2.5">
+        <span className="flex items-center gap-2 text-base font-bold text-white">
+          <Lightbulb className="size-4 shrink-0" />
+          {block.mnemonic}
+        </span>
         {block.sourced && block.source ? (
-          <CitationBadge source={block.source} onClick={onCite} />
+          <CitationBadge
+            source={block.source}
+            onClick={onCite}
+            className="border-white/40 bg-white/10 text-white hover:bg-white/20"
+          />
         ) : (
-          <Badge variant="secondary" className="text-xs">not in source</Badge>
+          <Badge className="border-white/40 bg-white/10 text-xs text-white">Mnemonic — not in source</Badge>
         )}
-      </AlertTitle>
-      <AlertDescription>
-        <p className="text-[#7D3C98]">for: {block.forTopic}</p>
-        <ul className="mt-1.5 space-y-0.5 text-[#1A1A1A]">
+      </div>
+      <div className="bg-[#F1E6F7] px-4 py-3.5">
+        <p className="text-[13px] font-bold tracking-wide text-[#7D3C98] uppercase">For: {block.forTopic}</p>
+        <ul className="mt-2 space-y-1.5">
           {block.expansion.map((e, ei) => (
-            <li key={ei}>– <RichText text={e} /></li>
+            <li key={ei} className="text-[15px] leading-7 text-[#1A1A1A] md:text-[16px]">
+              <span className="font-bold text-[#7D3C98]">–</span> <RichText text={e} />
+            </li>
           ))}
         </ul>
-      </AlertDescription>
-    </Alert>
+      </div>
+    </div>
   );
 }
 
 function TrapBlockView({ block, onCite }: { block: TrapBlock; onCite: Cite }) {
   return (
-    <div className="rounded-md border-2 border-[#B71C1C] bg-[#FBE3E1] p-4">
-      <div className="flex items-center gap-2">
-        <AlertTriangle className="size-4 text-[#B71C1C]" />
-        <span className="font-bold text-[#7B241C]">EXAM TRAP</span>
-        <Badge variant="outline" className="border-[#B71C1C] text-xs text-[#7B241C]">{block.format}</Badge>
-        <CitationBadge source={block.source} onClick={onCite} />
+    <div className="overflow-hidden rounded-xl border-2 border-[#B71C1C] shadow-sm">
+      <div className="flex items-center gap-2 bg-[#B71C1C] px-4 py-2.5">
+        <AlertTriangle className="size-4 shrink-0 text-white" />
+        <span className="text-sm font-bold tracking-wide text-white">EXAM TRAP</span>
+        <Badge className="border-white/40 bg-white/10 text-xs text-white">{block.format}</Badge>
       </div>
-      <p className="mt-2 text-[14px] leading-6 font-semibold text-[#7B241C]">
-        <RichText text={block.text} />
-      </p>
+      <div className="bg-[#FBE3E1] px-4 py-3.5">
+        <p className="text-[15px] leading-7 font-semibold text-[#7B241C] md:text-[16px]">
+          <RichText text={block.text} />
+        </p>
+      </div>
+      <div className="flex items-center justify-end border-t border-[#B71C1C]/25 bg-[#FBE3E1] px-4 py-1.5">
+        <CitationBadge
+          source={block.source}
+          onClick={onCite}
+          className="border-[#B71C1C]/30 bg-white text-[#7B241C] hover:bg-[#FBE3E1]"
+        />
+      </div>
     </div>
   );
 }
 
+// Deliberately NOT a bordered/backgrounded box — verified against every page of the reference
+// that "MCQ Traps — Remember These!" lists render as a plain heading + bullet list with no box
+// at all. Visual weight instead comes from a bigger heading, an icon, and a colored rule.
 function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Cite }) {
   return (
     <div>
-      <p className="font-bold text-[#C0392B]">⚡ {block.title}</p>
-      <ul className="mt-2 space-y-2">
+      <div className="flex items-center gap-2 border-b-2 border-[#C0392B] pb-2">
+        <Zap className="size-4 shrink-0 text-[#C0392B]" />
+        <p className="text-base font-bold text-[#C0392B]">{block.title}</p>
+      </div>
+      <ul className="mt-3 space-y-3">
         {block.items.map((item, i) => (
-          <li key={i} className="flex items-start gap-2">
-            <span className="mt-2 size-1.5 shrink-0 rounded-full bg-[#C0392B]" />
-            <span className="flex-1 text-[14px] leading-6 text-[#1A1A1A]">
-              <RichText text={item.text} />
+          <li key={i} className="flex items-start gap-2.5">
+            <span className="mt-2.5 size-1.5 shrink-0 rounded-full bg-[#C0392B]" />
+            <span className="flex-1 text-[15px] leading-7 text-[#1A1A1A] md:text-[16px]">
+              <RichText text={item.text} />{" "}
+              <CitationBadge source={item.source} onClick={onCite} className="align-middle" />
             </span>
-            <CitationBadge source={item.source} onClick={onCite} className="mt-0.5 shrink-0" />
           </li>
         ))}
       </ul>
@@ -210,11 +261,16 @@ function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Ci
 
 function GapBlockView({ block }: { block: GapBlock }) {
   return (
-    <div className="rounded-sm border-l-4 border-l-rose-600 bg-rose-50 p-4">
-      <p className="font-semibold text-rose-900">{block.subtopic}</p>
-      <p className="mt-1 text-[14px] leading-6 text-rose-800">
-        <RichText text={block.note} />
-      </p>
+    <div className="overflow-hidden rounded-xl border border-rose-300 shadow-sm">
+      <div className="flex items-center gap-2 bg-rose-600 px-4 py-2.5">
+        <HelpCircle className="size-4 shrink-0 text-white" />
+        <span className="text-sm font-bold text-white">{block.subtopic}</span>
+      </div>
+      <div className="bg-rose-50 px-4 py-3.5">
+        <p className="text-[15px] leading-7 text-rose-900 md:text-[16px]">
+          <RichText text={block.note} />
+        </p>
+      </div>
     </div>
   );
 }
@@ -266,41 +322,51 @@ export function StudyGuideView({
   const trapCount = countBlocks(guide, "trap", "trap-list");
   const gapCount = countBlocks(guide, "gap");
 
-  return (
-    <Tabs defaultValue="full" className="h-full flex flex-col">
-      <TabsList className="mx-0 shrink-0 overflow-x-auto">
-        <TabsTrigger value="full" className="gap-1.5">
-          <BookOpenText className="size-4" /> Full Guide
-        </TabsTrigger>
-        <TabsTrigger value="notes" className="gap-1.5">
-          <NotebookText className="size-4" /> Notes
-        </TabsTrigger>
-        <TabsTrigger value="tables" className="gap-1.5">
-          <Table2 className="size-4" /> Tables ({tableCount})
-        </TabsTrigger>
-        <TabsTrigger value="mnemonics" className="gap-1.5">
-          <Lightbulb className="size-4" /> Mnemonics ({mnemonicCount})
-        </TabsTrigger>
-        <TabsTrigger value="traps" className="gap-1.5">
-          <AlertTriangle className="size-4" /> Traps ({trapCount})
-        </TabsTrigger>
-        <TabsTrigger value="gaps" className="gap-1.5">
-          <HelpCircle className="size-4" /> Gaps ({gapCount})
-        </TabsTrigger>
-      </TabsList>
+  // This tab list renders in the root layout's sticky header (to the right of the outer
+  // Study-Guide/Source-Notes tabs from topic-view.tsx), not inline here — see CLAUDE.md
+  // "Consolidated sticky header". The <Tabs> root itself stays right here so its context still
+  // wraps both the portaled list and the TabsContent panels below.
+  const tabsRightSlot = usePortalSlot("page-header-tabs-right");
 
-      <TabsContent value="full" className="flex-1 overflow-y-auto">
+  return (
+    <Tabs defaultValue="full" className="w-full">
+      {tabsRightSlot &&
+        createPortal(
+          <TabsList className="mx-0 overflow-x-auto">
+            <TabsTrigger value="full" className="gap-1.5">
+              <BookOpenText className="size-4" /> Full Guide
+            </TabsTrigger>
+            <TabsTrigger value="notes" className="gap-1.5">
+              <NotebookText className="size-4" /> Notes
+            </TabsTrigger>
+            <TabsTrigger value="tables" className="gap-1.5">
+              <Table2 className="size-4" /> Tables ({tableCount})
+            </TabsTrigger>
+            <TabsTrigger value="mnemonics" className="gap-1.5">
+              <Lightbulb className="size-4" /> Mnemonics ({mnemonicCount})
+            </TabsTrigger>
+            <TabsTrigger value="traps" className="gap-1.5">
+              <AlertTriangle className="size-4" /> Traps ({trapCount})
+            </TabsTrigger>
+            <TabsTrigger value="gaps" className="gap-1.5">
+              <HelpCircle className="size-4" /> Gaps ({gapCount})
+            </TabsTrigger>
+          </TabsList>,
+          tabsRightSlot
+        )}
+
+      <TabsContent value="full">
         <Paper>
           <div className="space-y-10">
             {guide.sections.map((section) => (
               <div key={section.id}>
-                <SectionHeading>{section.title}</SectionHeading>
-                {section.intro && (
-                  <p className="mt-3 text-[15px] leading-7">
-                    <RichText text={section.intro} />
-                  </p>
-                )}
-                <div className="mt-4 space-y-5">
+                <SectionHeading section={section} />
+                <div className="mt-4 space-y-6">
+                  {section.intro && (
+                    <p className="text-[16px] leading-7 md:text-[17px] md:leading-8">
+                      <RichText text={section.intro} />
+                    </p>
+                  )}
                   {section.blocks.map((block, i) => (
                     <BlockView key={i} block={block} onCite={onCite} />
                   ))}
@@ -311,9 +377,9 @@ export function StudyGuideView({
         </Paper>
       </TabsContent>
 
-      <TabsContent value="notes" className="flex-1 overflow-y-auto">
+      <TabsContent value="notes">
         <Paper>
-          <Accordion>
+          <Accordion className="space-y-3">
             {guide.sections
               .filter((s) => s.blocks.some((b) => b.type === "paragraph"))
               .map((section) => {
@@ -321,26 +387,31 @@ export function StudyGuideView({
                   (b): b is ParagraphBlock => b.type === "paragraph"
                 );
                 return (
-                  <AccordionItem key={section.id} value={section.id}>
-                    <AccordionTrigger>
-                      <span className="font-semibold text-[#1B3A5C]">{section.title}</span>
-                      <Badge variant="secondary" className="ml-2 text-xs">{paragraphs.length}</Badge>
-                    </AccordionTrigger>
-                    <AccordionContent className="pb-4">
-                      <ul className="space-y-4">
-                        {paragraphs.map((b, i) => (
-                          <ParagraphBlockView key={i} block={b} onCite={onCite} />
-                        ))}
-                      </ul>
-                    </AccordionContent>
-                  </AccordionItem>
+                  <div key={section.id} className="overflow-hidden rounded-xl border border-[#D9D9D9]">
+                    <AccordionItem value={section.id} className="border-b-0">
+                      <AccordionTrigger className="px-4 py-3.5 hover:no-underline">
+                        <span className="flex items-center gap-2 text-base font-bold text-[#1B3A5C]">
+                          <NotebookText className="size-4 shrink-0" />
+                          {section.title}
+                        </span>
+                        <Badge variant="secondary" className="ml-2 text-xs">{paragraphs.length}</Badge>
+                      </AccordionTrigger>
+                      <AccordionContent className="px-4 pb-4">
+                        <ul className="space-y-4">
+                          {paragraphs.map((b, i) => (
+                            <ParagraphBlockView key={i} block={b} onCite={onCite} />
+                          ))}
+                        </ul>
+                      </AccordionContent>
+                    </AccordionItem>
+                  </div>
                 );
               })}
           </Accordion>
         </Paper>
       </TabsContent>
 
-      <TabsContent value="tables" className="flex-1 overflow-y-auto">
+      <TabsContent value="tables">
         <Paper>
           <div className="space-y-8">
             {guide.sections.flatMap((section) =>
@@ -348,7 +419,7 @@ export function StudyGuideView({
                 .filter((b): b is TableBlock | ComparisonBlock => b.type === "table" || b.type === "comparison")
                 .map((block, i) => (
                   <div key={`${section.id}-${i}`}>
-                    <p className="text-xs font-medium uppercase tracking-wide text-[#6B7280]">
+                    <p className="text-xs font-bold tracking-wide text-[#6B7280] uppercase">
                       {section.title}
                     </p>
                     <div className="mt-1.5">
@@ -365,9 +436,9 @@ export function StudyGuideView({
         </Paper>
       </TabsContent>
 
-      <TabsContent value="mnemonics" className="flex-1 overflow-y-auto">
+      <TabsContent value="mnemonics">
         <Paper>
-          <div className="space-y-3">
+          <div className="space-y-4">
             {guide.sections.flatMap((section) =>
               section.blocks
                 .filter((b): b is MnemonicBlock => b.type === "mnemonic")
@@ -377,9 +448,9 @@ export function StudyGuideView({
         </Paper>
       </TabsContent>
 
-      <TabsContent value="traps" className="flex-1 overflow-y-auto">
+      <TabsContent value="traps">
         <Paper>
-          <div className="space-y-4">
+          <div className="space-y-5">
             {guide.sections.flatMap((section) =>
               section.blocks
                 .filter((b): b is TrapBlock | TrapListBlock => b.type === "trap" || b.type === "trap-list")
@@ -395,9 +466,9 @@ export function StudyGuideView({
         </Paper>
       </TabsContent>
 
-      <TabsContent value="gaps" className="flex-1 overflow-y-auto">
+      <TabsContent value="gaps">
         <Paper>
-          <div className="space-y-3">
+          <div className="space-y-4">
             {guide.sections.flatMap((section) =>
               section.blocks
                 .filter((b): b is GapBlock => b.type === "gap")

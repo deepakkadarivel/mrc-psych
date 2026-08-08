@@ -56,11 +56,16 @@ on 3 and then scaled.
 
 - Next.js App Router, TypeScript, Tailwind, shadcn/ui, `output: 'export'` (static — must work
   on Vercel Hobby and GitHub Pages both).
-- Every topic page is a left/right split (`components/topic-view.tsx`, shadcn `resizable`):
-  notes on the left, an embedded PDF viewer on the right. The left panel shows **one note block
-  at a time with Prev/Next** (not a scrolling list — was originally a long scroll, changed on
-  user feedback for better study-session UX), and the right panel auto-follows to that block's
-  source page — no separate citation-click needed since there's only one block in view.
+- Every topic page (`components/topic-view.tsx`) is a single scrolling column: header, tabs
+  (Study Guide / Source Notes), then an optional PDF section below, toggled open/closed by a
+  header button — not a left/right split. (An earlier version used a `ResizablePanelGroup` side
+  panel; dropped per explicit user feedback in favor of "reference above or below the content,
+  one column" — see "Print-document design system" below for the full rationale.) The Source
+  Notes tab shows **one note block at a time with Prev/Next** (not a scrolling list — changed on
+  earlier user feedback for better study-session UX); paging through it updates which page the
+  PDF section (if open) shows, but does *not* force-scroll to it — only explicitly opening the
+  section (the toggle button, or clicking a citation) scrolls it into view, otherwise paging
+  through notes while it's already open would yank your scroll position on every click.
 - PDF viewer (`components/pdf-viewer.tsx`) uses `react-pdf` (pdf.js), not a plain
   `<iframe src=".../file.pdf#page=N">`. The iframe version was tried first (simpler, no
   dependency) but every page change reloaded the whole PDF from scratch — visible flicker,
@@ -333,20 +338,128 @@ facts, since the schema doesn't carry that distinction. One exceptional highligh
 otherwise-plain reference table (seen once in the source) isn't reproduced — no per-row metadata
 for it.
 
-Content sits inside a `max-w-[820px] mx-auto` container (`Paper`) so line length stays readable
-even when the PDF panel is hidden and the notes column spans a full wide viewport — this must sit
-*inside* the existing `flex-1 overflow-y-auto` chain, never introduce `min-h-*` here (see "Layout
-height must be bounded" above — this exact class of change caused a real freeze bug once).
+Content sits inside a `max-w-[880px] mx-auto` container (`Paper`) so line length stays readable
+regardless of viewport width.
 
-**PDF panel toggle + mobile** (`components/topic-view.tsx`): a `pdfOpen` state toggled by a header
-button; on desktop the second `ResizablePanel` (holding `PdfViewer`) is only mounted when
-`pdfOpen`, collapsing the notes panel to 100% width otherwise (resizing still works when both
-panels are present). On mobile (`useIsMobile()` from `hooks/use-mobile.ts` — the same hook
-`components/ui/sidebar.tsx` already uses for its own desktop-panel-vs-mobile-sheet split, not a
-new pattern), there's no `ResizablePanelGroup` at all — notes render full-width and the PDF opens
-in a `Sheet` (`side="bottom"`, explicit `h-[90vh]` since bottom sheets default to `h-auto`).
-Clicking a citation (`onCite`) always sets `pdfOpen(true)` too, so citing while the panel/sheet is
-closed opens it automatically on both layouts.
+**Single column, not a side-by-side split** (`components/topic-view.tsx`): an earlier pass used a
+`ResizablePanelGroup` with the PDF as a resizable side panel (plus a mobile `Sheet`), toggled by a
+`pdfOpen` state. The user explicitly asked to drop the two-column split — "put the reference on
+top or below the actual content... so it's in one column itself" — so `topic-view.tsx` no longer
+uses `ResizablePanelGroup`, `Sheet`, or `useIsMobile()` at all (deleted, not hidden): the header,
+tabs, and content render as normal page flow, and when `pdfOpen` is true a `PdfViewer` section
+mounts *below* the tabs, full width, with an effect that `scrollIntoView`s it (it may be off-screen
+below a long guide). This is identical at every breakpoint — no separate mobile code path needed
+anymore, since a single scrolling column is already mobile-appropriate. One consequence worth
+knowing: this let the component drop its own `h-full`/`overflow-hidden` chain entirely — the page
+now just flows normally inside the root layout's one `flex-1 overflow-y-auto` container (see
+"Layout height must be bounded" above) rather than needing its own nested bounded-height/scroll
+region. Don't reintroduce `ResizablePanelGroup` or a nested `overflow-y-auto` here without a
+reason; the single flowing column is simpler and was what was asked for.
+
+**Individual blocks render as bordered cards; `Section`s themselves do NOT.** Tables, mnemonics,
+traps, and gaps each get the `rounded-xl border shadow-sm` header/body/footer-strip treatment. A
+`Section` in the Full Guide tab is just a heading (`SectionHeading`: navy `border-b-2`, icon,
+title) followed by its intro/blocks in normal flow — **not** wrapped in one more enclosing card.
+An earlier pass put the whole section (heading + intro + every block inside it) in a single outer
+card too; the user explicitly flagged this as "the entire main content is in a card, remove the
+main card wrapper" — one card nested around everything read as one giant box, not a page of
+distinct cards. Don't reintroduce an outer `SectionCard`-style wrapper. The one other deliberate
+exception: **`TrapListBlockView` ("MCQ Traps") has no box either** — per the structural finding
+above, the reference renders these as a plain heading + bullet list. Giving it more visual weight
+without a box means a bigger heading, a `Zap` icon, and a `border-b-2` colored rule instead of a
+background/border.
+
+**Citations render inline, right after the text — never as a flex sibling pinned to the row's far
+right edge.** `ParagraphBlockView` and `TrapListBlockView`'s items used to lay out as `bullet +
+<p className="flex-1">text</p> + <CitationBadge/>` in one flex row; with the badge pinned to the
+container's right edge and the text left-aligned, this visually read as two columns — text on the
+left, a "reference column" of badges running down the right — which is exactly what the user
+flagged as a leftover two-column layout even after the PDF side-panel was removed. Fixed by moving
+`<CitationBadge>` inside the flowing `<p>`/`<span>`, immediately after the text (`{" "}` then the
+badge, `className="align-middle"`) — it now wraps with the text like a footnote mark, not a
+separate column. Table/comparison-block citations stay in their own footer strip (that's a real
+table footer, not this two-column bug) and mnemonic/trap citations stay in their header/footer
+bars — only the plain bullet-list blocks had this problem.
+
+**Table columns wrap instead of scrolling horizontally.** The root cause of an earlier
+"tables scroll off the right edge" complaint: `components/ui/table.tsx`'s `TableHead`/`TableCell`
+both ship `whitespace-nowrap` as a base class, which — combined with the `Table` wrapper's
+`overflow-x-auto` — forces wide unwrapped columns to overflow rather than wrap. Fixed by
+overriding at the call site (`TABLE_HEAD_CLASS`/`TABLE_CELL_CLASS` constants in
+`study-guide-view.tsx`): `whitespace-normal break-words`, plus `h-auto` on the head cell since
+wrapped header text needs more than the primitive's fixed `h-10`. Also pass `table-fixed` on
+`<Table>` so column widths respect the container instead of growing to fit content. Fixed at the
+call site, not in the shared `components/ui/table.tsx` primitive — that primitive is used
+elsewhere in the app (quiz views) where the default single-line behavior is still correct; don't
+"fix" it globally.
+
+**`RichText`'s `strong`/`em` get a consistent accent color from the `Paper` wrapper**
+(`[&_strong]:text-[#1B3A5C] [&_em]:text-[#4A5568]`), not from `RichText` itself — this was added
+in response to "text doesn't have proper... emphasis," but deliberately does NOT reintroduce
+inline number/percentage highlighting (that was explicitly dropped by the user's own prior
+decision to match the reference exactly — see the git history around this section). If study
+content still reads flat after this, that's a question worth asking again, not something to
+pre-empt by re-adding number-highlighting speculatively.
+
+## Consolidated sticky header (`app/layout.tsx` + portals)
+
+The user asked for the title, the "Source PDF"/"Take quiz" actions, and *both* tab-row groups
+(outer Study Guide/Source Notes, inner Full Guide/Notes/Tables/Mnemonics/Traps/Gaps) to live in
+one persistent header next to the sidebar drawer icon, instead of topic-view.tsx rendering its own
+separate sticky bar below the layout's sidebar-trigger bar (two stacked bars read as extra chrome,
+and the title wasn't "next to" the drawer icon the way the user wanted).
+
+Next.js App Router layouts can't declaratively receive page-specific JSX (a `layout.tsx` only gets
+`{children}`), so this uses **DOM-id portal targets**: `app/layout.tsx` renders three empty,
+unstyled slot divs inside its one sticky header — `page-header-slot` (next to `SidebarTrigger`,
+for title + action buttons), `page-header-tabs-left` (outer tabs), `page-header-tabs-right` (inner
+tabs). `hooks/use-portal-slot.ts` (`usePortalSlot(id)`) resolves a slot via
+`document.getElementById` in an effect; `topic-view.tsx` and `study-guide-view.tsx` each
+`createPortal(...)` their header content into the slot they own. The `<Tabs>` root itself still
+lives in its normal place in the tree (wrapping the real `<TabsContent>` panels) — only the
+`<TabsList>` is portaled elsewhere; since portals preserve React context, clicking a portaled
+trigger still correctly drives which panel shows, exactly as if the list were rendered in place.
+
+**Why the slots have zero classes of their own** (no padding/border): an empty div with no
+padding renders at zero height, so pages that don't portal into a slot (quiz, tracker, recalls,
+home) see no visual trace of it — no stray empty bar. All visual chrome (padding, the `TabsList`'s
+own pill background) belongs to the *portaled content*, never the slot div itself; adding
+padding/border to a slot div directly would show up as a visible empty strip on every other page.
+
+**Known tradeoff**: `usePortalSlot` resolves client-side only (`document.getElementById` can't run
+during static-export prerender), so the title/buttons/tabs are absent from the initial static HTML
+and appear only after hydration — a brief flash on first paint. Acceptable for this app (single
+user, JS always on); don't try to "fix" this by moving the header content back to being
+server-rendered per-page, which is exactly the two-bar layout that was just removed.
+
+The "Source PDF" toggle is icon-only now (`PanelBottomOpen`/`PanelBottomClose` in a `Tooltip`,
+label "Source PDF" shown on hover) rather than an icon+text button — freed up header width now
+that it shares a row with the title and action buttons.
+
+## End-to-end tests (`e2e/`, Playwright)
+
+`playwright.config.ts` + `e2e/study-guide.spec.ts` cover exactly the class of bug this project
+kept catching manually and imperfectly (screenshot-less, via curl+grep against dev-server HTML,
+because the Chrome browser extension has been unavailable in this environment): horizontal table
+overflow, the PDF section's default-collapsed/toggle/citation-click-scroll behavior, and inner
+tab switching, run across two representative topics (`adult-psychiatry` — richest block-type mix;
+`psychiatric-services` — the one flagged for table/trap density in user feedback).
+
+- Run with `pnpm exec playwright test` (or add `"test:e2e": "playwright test"` usage — already in
+  `package.json`).
+- **The webServer port is pinned to `3001`, not a dedicated test port.** `next dev` refuses to
+  start a second instance in the same project directory even on a different port ("Another next
+  dev server is already running"), and this project conventionally keeps a standing dev server up
+  across sessions on 3001 (see the git-safety note about not casually killing dev server PIDs). If
+  no server is running, Playwright starts one itself on 3001 via `webServer.command`
+  (`pnpm run predev && next dev --port 3001`); if one's already up, `reuseExistingServer: true`
+  attaches to it instead of erroring.
+- `data-testid="pdf-toggle"` / `data-testid="pdf-section"` on the button/section in
+  `topic-view.tsx` exist specifically so these tests don't have to disambiguate from the
+  identically-worded "Source PDF" text that appears in both the toggle button and the section
+  heading.
+- Extend this file (don't create a second spec file per concern) when adding topics/assertions —
+  it's parametrized over a `TOPICS` array already.
 
 ## Working conventions
 
