@@ -471,7 +471,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Post-test odds = likelihood ratio x pre-test odds, where pre-test odds are derived from prevalence (the pre-test probability); post-test probability is then odds/(odds+1). Example: sensitivity 80%, specificity 90%, prevalence 10% -> **LR**+ = 8, post-test odds = 8/9, post-test probability approx 0.47.",
+          "text": "Post-test odds = likelihood ratio x pre-test odds, where pre-test odds are derived from prevalence (the pre-test probability); post-test probability is then odds/(odds+1). Example: sensitivity ==80%==, specificity ==90%==, prevalence ==10%== -> **LR**+ = 8, post-test odds = 8/9, post-test probability approx 0.47.",
           "source": {
             "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
             "page": 9,
@@ -480,7 +480,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Worked example of Bayesian updating: pre-test probability 1/4 (odds 1/3), **LR**+ = 9.5 (from sensitivity 95%/specificity 90%) -> post-test odds = 3.16 -> post-test probability approx 0.75.",
+          "text": "Worked example of Bayesian updating: pre-test probability 1/4 (odds 1/3), **LR**+ = 9.5 (from sensitivity ==95%==/specificity ==90%==) -> post-test odds = 3.16 -> post-test probability approx 0.75.",
           "source": {
             "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
             "page": 16,
@@ -537,7 +537,7 @@
         },
         {
           "type": "paragraph",
-          "text": "1-specificity, plotted on the **ROC** x-axis, is the false positive rate (since true negatives + false positives = 100% of non-diseased cases).",
+          "text": "1-specificity, plotted on the **ROC** x-axis, is the false positive rate (since true negatives + false positives = ==100%== of non-diseased cases).",
           "source": {
             "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
             "page": 67,
@@ -823,12 +823,12 @@
             [
               "Population attributable risk (**PAR**)",
               "**AR** x proportion of population exposed",
-              "**AR** = 20/100, 25% of population exposed -> **PAR** = 1/20"
+              "**AR** = 20/100, ==25%== of population exposed -> **PAR** = 1/20"
             ],
             [
               "Population attributable fraction (**PAF**, Levin's formula)",
               "Pe(**RR**-1) / [1+Pe(**RR**-1)], Pe = proportion of population exposed",
-              "**RR** = 10, prevalence of exposure 5% -> **PAF** approx 31%"
+              "**RR** = 10, prevalence of exposure ==5%== -> **PAF** approx ==31%=="
             ]
           ],
           "sources": [
@@ -851,7 +851,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If an exposure has an attributable risk of 100% for a disease, this means all incident cases of that disease are the result of that single exposure — a situation that is rarely, if ever, seen in practice.",
+          "text": "If an exposure has an attributable risk of ==100%== for a disease, this means all incident cases of that disease are the result of that single exposure — a situation that is rarely, if ever, seen in practice.",
           "source": {
             "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
             "page": 7,
@@ -1028,7 +1028,7 @@
             [
               "Absolute risk reduction (**ARR**)",
               "|**CER** - **EER**|",
-              "**Chlorpromazine** 45% vs new drug 50% relapse -> **ARR** = 0.05"
+              "**Chlorpromazine** ==45%== vs new drug ==50%== relapse -> **ARR** = 0.05"
             ],
             [
               "Number needed to treat (**NNT**)",
@@ -1048,7 +1048,7 @@
             [
               "Relative risk reduction (**RRR**)",
               "1 - **RR** (or **ARR** / **CER**)",
-              "Same example: **RRR** = 0.1 (10%)"
+              "Same example: **RRR** = 0.1 (==10%==)"
             ],
             [
               "Odds ratio (**OR**)",
@@ -1092,7 +1092,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**ARR** (absolute risk reduction) = |**CER** - **EER**|. Worked example: **chlorpromazine** relapse 45% vs new drug 50% -> **ARR** = 0.05 (the new drug is actually worse here, but **ARR** is reported as the absolute difference).",
+          "text": "**ARR** (absolute risk reduction) = |**CER** - **EER**|. Worked example: **chlorpromazine** relapse ==45%== vs new drug ==50%== -> **ARR** = 0.05 (the new drug is actually worse here, but **ARR** is reported as the absolute difference).",
           "source": {
             "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
             "page": 35,
@@ -1128,7 +1128,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**RRR** = 1 - **RR** (equivalently **ARR**/**CER**). Worked example continuing above: **RRR** = 1 - 0.9 = 0.1 (10%).",
+          "text": "**RRR** = 1 - **RR** (equivalently **ARR**/**CER**). Worked example continuing above: **RRR** = 1 - 0.9 = 0.1 (==10%==).",
           "source": {
             "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
             "page": 37,
@@ -1137,7 +1137,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**RRR** figures are usually far larger-looking than the corresponding **ARR**/risk-difference, which can make results seem more impressive than they are clinically — e.g. a 50% **RRR** may represent only a 2%->1% absolute drop.",
+          "text": "**RRR** figures are usually far larger-looking than the corresponding **ARR**/risk-difference, which can make results seem more impressive than they are clinically — e.g. a ==50%== **RRR** may represent only a ==2%==->==1%== absolute drop.",
           "source": {
             "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
             "page": 17,
@@ -1146,7 +1146,7 @@
         },
         {
           "type": "trap",
-          "text": "**RRR** figures are deliberately tested because they look far more impressive than the corresponding **ARR** (e.g. a '50% **RRR**' framing can hide a 2%->1% absolute change) — always convert back to **ARR**/**NNT** before judging clinical significance.",
+          "text": "**RRR** figures are deliberately tested because they look far more impressive than the corresponding **ARR** (e.g. a '==50%== **RRR**' framing can hide a ==2%==->==1%== absolute change) — always convert back to **ARR**/**NNT** before judging clinical significance.",
           "format": "SBA",
           "source": {
             "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
@@ -1165,7 +1165,7 @@
         },
         {
           "type": "paragraph",
-          "text": "For relative risk reduction (**RRR**) and other difference-based statistics, the null value is zero — a 95% **CI** must not cross zero to be statistically significant. For ratio-based statistics (**RR**, **OR**), the null value is 1.",
+          "text": "For relative risk reduction (**RRR**) and other difference-based statistics, the null value is zero — a ==95%== **CI** must not cross zero to be statistically significant. For ratio-based statistics (**RR**, **OR**), the null value is 1.",
           "source": {
             "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
             "page": 9,
@@ -1174,7 +1174,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If a trial's exact p-value for a treatment effect is 0.05, the lower bound of the 95% **CI** for the relative risk is likely to sit right at 1.",
+          "text": "If a trial's exact p-value for a treatment effect is 0.05, the lower bound of the ==95%== **CI** for the relative risk is likely to sit right at 1.",
           "source": {
             "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
             "page": 10,
@@ -1202,7 +1202,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A wide 95% **CI** for **RRR** spanning both harm and benefit (e.g. -28% to +49%) means the trial has not actually resolved whether to offer the treatment, even if the point estimate looks favourable.",
+          "text": "A wide ==95%== **CI** for **RRR** spanning both harm and benefit (e.g. -==28%== to +==49%==) means the trial has not actually resolved whether to offer the treatment, even if the point estimate looks favourable.",
           "source": {
             "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
             "page": 11,
@@ -1519,7 +1519,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**NNT** can be derived from a meta-analysis's pooled absolute risk difference exactly as from a single trial. Worked example: **risperidone** vs **haloperidol** for **PANSS** improvement, pooled **ARR** = 0.125 -> **NNT** = 8, with 95% **CI** for **NNT** = 7 to 10 (calculated from the **CI** bounds of the **ARR**).",
+          "text": "**NNT** can be derived from a meta-analysis's pooled absolute risk difference exactly as from a single trial. Worked example: **risperidone** vs **haloperidol** for **PANSS** improvement, pooled **ARR** = 0.125 -> **NNT** = 8, with ==95%== **CI** for **NNT** = 7 to 10 (calculated from the **CI** bounds of the **ARR**).",
           "source": {
             "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
             "page": 14,
@@ -1744,7 +1744,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The median survival time is the time point at which the survival curve reaches 50%; if the curve is right-censored before reaching that point (follow-up ends too early), median survival time cannot be determined.",
+          "text": "The median survival time is the time point at which the survival curve reaches ==50%==; if the curve is right-censored before reaching that point (follow-up ends too early), median survival time cannot be determined.",
           "source": {
             "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
             "page": 2,

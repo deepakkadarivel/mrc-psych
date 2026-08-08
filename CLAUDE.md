@@ -275,20 +275,57 @@ own non-flex block (a `<p>`/`<span>`) and make THAT block the flex item, not `Ri
 
 ## Study guide emphasis markup
 
-`content/study-guides/*.json` bullet/table-cell/trap/gap text may contain `**bold**`/`*italic*`
-markdown-lite markup, rendered by `components/rich-text.tsx` (`RichText`). This is manual/curated
-only (`scripts/lib/emphasize.ts`, run via `scripts/emphasize-study-guides.ts`): bolds
+`content/study-guides/*.json` bullet/table-cell/trap/gap text may contain
+`**bold**`/`*italic*`/`==highlight==` markdown-lite markup, rendered by `components/rich-text.tsx`
+(`RichText`). All three are mechanical, not hand-typed — never hand-type `**`/`*`/`==` into 15
+files individually, extend the relevant script/regex instead.
+
+**Bold** (`scripts/lib/emphasize.ts`'s `emphasize()`, run via `scripts/emphasize-study-guides.ts`):
 clinically-loaded abbreviations (2+ consecutive uppercase letters/digits — real prose essentially
 never does this by accident, e.g. `NICE`, `SSRI`, `DSM-5`, `STAR*D`) and a curated drug-name list.
 A short stoplist (`SR`/`XR`/`CR`/etc.) prevents double-bolding a drug's release-form suffix right
-next to the drug name itself. Re-run this script (idempotent-ish, but re-review a sample after)
-if you add a new study guide topic or want more drugs covered — don't hand-type `**`/`*` into 15
-files individually.
+next to the drug name itself.
 
-`RichText` deliberately does NOT auto-highlight numbers/percentages/doses inline (it used to; this
-was removed to match the reference design's own emphasis language — see "Print-document design
-system" below, which relies only on color-blocking in tables/boxes, never inline text
-decoration). Don't re-add per-number coloring without re-checking that decision.
+**`emphasize()` is NOT idempotent — do not re-run `scripts/emphasize-study-guides.ts` against
+content it has already processed.** Confirmed empirically: running it a second time against
+already-`**bolded**` text produces `****OR****`-style corruption, because the acronym/drug regex
+passes re-match text that's already inside `**` markers with no "already bolded" guard on that
+first pass. Only run this script against a *newly generated* topic's guide (one that has never
+been through it), never as a blanket "re-apply emphasis to everything" pass — if you want more
+drugs covered or a broader acronym rule, either hand-verify the idempotency of your change first,
+or process only the new/changed topics.
+
+**Highlight** (`highlightKeyFacts()` in the same file, run via a *separate* script,
+`scripts/highlight-study-guides.ts` — deliberately not called from inside `emphasize()`, for the
+idempotency reason above) wraps percentages (`70%`, `12.5%`) and "N in M" ratios (`1 in 5`) in
+`==...==`, rendered as a literal-hex highlighter-pen `<mark>` (amber bg, amber-900 text) in
+`RichText`. This is a *bounded* reintroduction of inline highlighting, not a reversal of the
+earlier "no per-number coloring" decision (see below) — it targets two specific, unambiguous
+numeric patterns (a percentage is always a percentage) rather than colorizing numbers generally,
+and was explicitly requested and confirmed by the user (`AskUserQuestion`: "stronger bold/italic +
+a distinct highlight for critical facts", not a return to broad number-highlighting). Unlike
+`emphasize()`, `highlightKeyFacts()` alone IS idempotent (checks `alreadyMarked` for both `**` and
+`==` before wrapping) — confirmed empirically — so it's safe to re-run against already-processed
+content, including content `emphasize()` has already bolded.
+
+`RichText`'s `<strong>` renders `font-extrabold` (not `font-bold`) and `Paper`'s own
+`[&_strong]:font-extrabold` override must match — Paper's descendant selector has higher CSS
+specificity than a plain class on the element, so if these two ever drift apart, Paper's class
+wins regardless of what `RichText` sets locally; keep them in sync if you touch either.
+
+**Sub-points from inline enumerations** (`splitEnumeratedClauses()` in `study-guide-view.tsx`,
+used by `ParagraphBlockView`): a paragraph like "reduces X by (1) doing A and (2) doing B" renders
+as a lead-in line plus indented sub-bullets, instead of one dense run-on sentence — the user's own
+example. This happens **purely at render time**, splitting the *existing* text on its own `(1)`,
+`(2)`, `(3)`... markers with no words added, removed, or reworded and the same citation carried
+onto the last sub-bullet — there is no fabrication risk the way editing the JSON text would carry.
+Only triggers when markers start at `(1)` and run strictly sequentially with 1-2 digits each; this
+is what excludes false positives found in the real corpus during testing: `Section 5(2)` /
+`Section 5(4)` (not sequential from 1), a citation year `(1998)` (too many digits), and inline
+counts like `borderline (5) and dependent (4)` (doesn't start at 1). Verified against ~20 real
+paragraphs pulled from multiple topics (not just the one that prompted this) before shipping.
+Scoped to `ParagraphBlockView` only — deliberately not applied to `TrapListBlockView`, table
+cells, or mnemonic expansions, which have their own already-verified formatting.
 
 Do not set an explicit theme-token text color (`text-foreground`, etc.) on `RichText`'s
 `<strong>`/`<em>` — they intentionally inherit color from their parent so the same component
@@ -412,12 +449,13 @@ elsewhere in the app (quiz views) where the default single-line behavior is stil
 "fix" it globally.
 
 **`RichText`'s `strong`/`em` get a consistent accent color from the `Paper` wrapper**
-(`[&_strong]:text-[#1B3A5C] [&_em]:text-[#4A5568]`), not from `RichText` itself — this was added
-in response to "text doesn't have proper... emphasis," but deliberately does NOT reintroduce
-inline number/percentage highlighting (that was explicitly dropped by the user's own prior
-decision to match the reference exactly — see the git history around this section). If study
-content still reads flat after this, that's a question worth asking again, not something to
-pre-empt by re-adding number-highlighting speculatively.
+(`[&_strong]:text-[#1B3A5C] [&_em]:text-[#4A5568]`), not from `RichText` itself — added in response
+to "text doesn't have proper... emphasis." A later round did reintroduce a *bounded* form of
+inline highlighting (percentages/ratios only, via `==...==`/`<mark>` — see "Study guide emphasis
+markup" above) after the user explicitly asked for it and confirmed via `AskUserQuestion` that
+this wasn't meant as a full reversal of the earlier "match reference exactly, no per-number
+coloring" decision. Don't widen the highlight regex to cover more number types without checking
+that section first — the whole point of stopping at percentages/ratios was staying unambiguous.
 
 **The "Notes" tab (`NotesTabView`) is a resizable left-panel-list + right-panel-detail layout, not
 an accordion.** It originally rendered every section as an `AccordionItem` you expand in place.

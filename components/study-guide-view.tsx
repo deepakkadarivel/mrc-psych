@@ -42,7 +42,7 @@ type Cite = (source: Source) => void;
 // as emphasis, not just a font-weight change on the same black text.
 function Paper({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mx-auto max-w-[880px] bg-white px-5 py-8 text-[16px] text-[#1A1A1A] md:px-10 md:py-10 [&_em]:text-[#4A5568] [&_strong]:font-bold [&_strong]:text-[#1B3A5C]">
+    <div className="mx-auto max-w-[880px] bg-white px-5 py-8 text-[16px] text-[#1A1A1A] md:px-10 md:py-10 [&_em]:font-medium [&_em]:text-[#4A5568] [&_strong]:font-extrabold [&_strong]:text-[#1B3A5C]">
       {children}
     </div>
   );
@@ -61,18 +61,75 @@ function SectionHeading({ section }: { section: Section }) {
   );
 }
 
+// A numbered enumeration already written inline in the source text — "(1) ... (2) ... (3) ..." —
+// reads as one dense run-on bullet. This splits it into a lead-in + sub-bullets PURELY at render
+// time: same words, same citation, just different line breaks — no content is added, removed, or
+// reworded, so it carries none of the fabrication risk a real rewrite would. Requires markers to
+// start at (1) and run strictly sequentially (1,2,3,...) and be 1-2 digits, which is what
+// separates a real enumeration from an incidental parenthetical like "Section 5(2)" (not
+// sequential from 1) or a citation year "(1998)" (too many digits) — verified against ~20 real
+// examples across multiple topics before shipping, not just the one that prompted this.
+const ENUM_MARKER_RE = /(?<!\d)\((\d{1,2})\)/g;
+
+function splitEnumeratedClauses(text: string): { lead: string; items: string[] } | null {
+  const matches = [...text.matchAll(ENUM_MARKER_RE)];
+  if (matches.length < 2) return null;
+  for (let i = 0; i < matches.length; i++) {
+    if (Number(matches[i][1]) !== i + 1) return null;
+  }
+  const lead = text.slice(0, matches[0].index).trim();
+  const items: string[] = [];
+  for (let i = 0; i < matches.length; i++) {
+    const start = matches[i].index! + matches[i][0].length;
+    const end = i + 1 < matches.length ? matches[i + 1].index! : text.length;
+    const item = text
+      .slice(start, end)
+      .trim()
+      .replace(/[,;]?\s*(?:and|or)?\s*$/i, "")
+      .trim();
+    items.push(item);
+  }
+  if (items.some((it) => it.length === 0)) return null;
+  return { lead, items };
+}
+
 // The citation sits inline, right after the text it supports — not as a flex sibling pinned to
 // the far right of the row. Pinning it to the row's end made every bullet look like two columns
 // (text on the left, a "reference column" of badges running down the right) instead of one
 // flowing line of text with a small reference mark at the end, like a footnote.
 function ParagraphBlockView({ block, onCite }: { block: ParagraphBlock; onCite: Cite }) {
+  const split = splitEnumeratedClauses(block.text);
+  const citation = <CitationBadge source={block.source} onClick={onCite} className="align-middle" />;
+
   return (
     <li className="flex items-start gap-3">
       <span className="mt-3 size-1.5 shrink-0 rounded-full bg-[#1B3A5C]" />
-      <p className="flex-1 text-[16px] leading-7 md:text-[17px] md:leading-8">
-        <RichText text={block.text} />{" "}
-        <CitationBadge source={block.source} onClick={onCite} className="align-middle" />
-      </p>
+      <div className="flex-1 text-[16px] leading-7 md:text-[17px] md:leading-8">
+        {split ? (
+          <>
+            {split.lead && (
+              <p>
+                <RichText text={split.lead} />
+              </p>
+            )}
+            <ul className="mt-1.5 space-y-1">
+              {split.items.map((item, i) => (
+                <li key={i} className="flex gap-2">
+                  <span className="shrink-0 text-[#1B3A5C]/60">–</span>
+                  <span>
+                    <RichText text={item} />
+                    {i === split.items.length - 1 && <> {citation}</>}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </>
+        ) : (
+          <p>
+            <RichText text={block.text} /> {citation}
+          </p>
+        )}
+      </div>
     </li>
   );
 }

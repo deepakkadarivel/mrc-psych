@@ -8,12 +8,18 @@
         {
           "type": "paragraph",
           "text": "Epidemiology counts the frequency, risk factors and burden of disease in a specified population over a specified period. Descriptive epidemiology describes disease patterns using the triad of Time (how does the pattern vary over time?), Place (how does where the population lives affect the pattern?) and Person (how do personal characteristics affect the pattern?); analytical epidemiology makes hypothesis-driven inferences from those observed associations.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Genetic epidemiology is a fast-expanding branch that evaluates inherited causes of disease in families and populations, including gene-gene and gene-environment interactions. Morton's definition: 'a science which deals with the etiology, distribution, and control of disease in groups of relatives and with inherited causes of disease in populations.'",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         }
       ]
     },
@@ -24,7 +30,10 @@
         {
           "type": "paragraph",
           "text": "Incidence = number of new cases diagnosed in a specified time interval / mid-interval population at risk (e.g. mid-2014 population for a 2014 annual incidence). Incidence is a ratio measured against time, so one-month incidence is always lower than one-year incidence.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "trap",
@@ -39,22 +48,34 @@
         {
           "type": "paragraph",
           "text": "This standard calculation is cumulative incidence — valid in cohort studies with low attrition, but biased when attrition is significant, because dropouts are excluded from the numerator (not counted as new cases) while the denominator population still includes them.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Incidence density (incidence rate) expresses new cases per person-year of observation, avoiding the attrition problem. Its unit is time^-1 ('rather bizarre'), so incidence rate ratios (unit-free) are typically used to compare two groups.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Point prevalence = number of existing cases (new+old, minus dead/cured) at one cross-sectional observation point / cross-sectional population at that point. Period prevalence uses the same 'existing cases' numerator but assessed longitudinally over a period, divided by the mid-period population. Cases must be found at the time of observation, irrespective of when diagnosed — someone dead or cured before the observation period cannot be counted.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Prevalence = incidence x duration of illness. Chronic illnesses (e.g. schizophrenia) show higher prevalence than acute, short-lived illnesses (e.g. influenza) even when their incidence rates are comparable.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "mnemonic",
@@ -71,7 +92,10 @@
         {
           "type": "paragraph",
           "text": "Worked examples of the formula's implications: a new preventive vaccine can lower both incidence and prevalence; a cure for schizophrenia would not change incidence but would lower prevalence (shorter duration); interventions that reduce mortality in chronic schizophrenia can paradoxically raise prevalence through patient longevity, without directly affecting incidence.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "trap",
@@ -112,12 +136,18 @@
         {
           "type": "paragraph",
           "text": "Lifetime prevalence = the proportion of individuals in the population who have ever manifested a disorder and are alive on a given day, ascertained by cross-sectional survey and recall of past status — this method is prone to recall bias.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Lifetime morbid risk (**LMR**) is the probability of a person developing the disorder across their entire life (often defined by the population's life expectancy) and must be distinguished from lifetime prevalence: **LMR** includes the whole birth cohort, past and future, including those already deceased at survey time. For low-incidence disorders such as schizophrenia, summing age-specific incidence rates gives an approximate **LMR** (Saha et al., 2004).",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         }
       ]
     },
@@ -128,7 +158,10 @@
         {
           "type": "paragraph",
           "text": "Baseline prevalence = a disease's usual community level. Low-to-moderate baseline without significant fluctuation = endemic (most psychiatric disorders, with exceptions); a persistently **HIGH** baseline = hyperendemic; an irregular pattern of significant fluctuation from baseline = sporadic occurrence; occurrence that clearly **EXCEEDS** the expected level in a given time period = epidemic (can be a slow, steady rise as in multifactorial chronic disease, or an acute outbreak as in infectious disease); an epidemic of wide geographical proportion = pandemic (e.g. **HIV** pandemic).",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "mnemonic",
@@ -162,42 +195,86 @@
         {
           "type": "paragraph",
           "text": "A crude rate applies to the whole population (e.g. crude birth rate, crude mortality rate). A specific rate applies to a subgroup (e.g. age-specific, disease-specific, cause-specific mortality). A standardized rate applies observed rates to a hypothetical population adjusted for a variable (e.g. age), making rates from heterogeneous populations comparable — e.g. suicide rates in inner London are not directly comparable to rural Yorkshire because the working-age population differs and would spuriously inflate crude comparisons.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Cause-specific mortality rate = deaths due to a specific cause / total population size (e.g. alcohol-specific mortality). Case-fatality rate = deaths due to a specific disease / number of persons **AFFECTED** by that disease — a measure of the disease's fatal severity (e.g. 15 of 100 anorexia patients die of its complications).",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Proportionate mortality rate = deaths due to a specific cause / total deaths in the population — a measure of that cause's contribution to overall societal mortality burden.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
           "text": "Years of Potential Life Lost (**YPLL**) sums, for deaths before a predetermined endpoint (usually age 65 or average life expectancy), the difference between that endpoint and age at death — this weights earlier deaths more heavily than later ones.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "paragraph",
-          "text": "**DALY** (disability-adjusted life year) extends **YPLL** by adding equivalent years of healthy life lost to disability: **DALY** = **YLL** + **YLD**, where **YLL** = N x **LE** (N = number of deaths, **LE** = standard life expectancy at age of death) and **YLD** = I x **DW** x **LD** (I = number of incident cases, **DW** = disability weight, **LD** = average duration of the case until remission or death). One **DALY** = loss of one year of full health. **DALY** calculation applies 3% time discounting and non-uniform age weighting (less weight to years lived very young or very old).",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 2 }
+          "text": "**DALY** (disability-adjusted life year) extends **YPLL** by adding equivalent years of healthy life lost to disability: **DALY** = **YLL** + **YLD**, where **YLL** = N x **LE** (N = number of deaths, **LE** = standard life expectancy at age of death) and **YLD** = I x **DW** x **LD** (I = number of incident cases, **DW** = disability weight, **LD** = average duration of the case until remission or death). One **DALY** = loss of one year of full health. **DALY** calculation applies ==3%== time discounting and non-uniform age weighting (less weight to years lived very young or very old).",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
         },
         {
           "type": "table",
           "title": "Mortality and burden-of-disease measures — definitions/formulas",
-          "columns": ["Measure", "Definition / formula"],
-          "rows": [
-            ["Crude rate", "Applies to the whole population (e.g. crude birth rate, crude mortality rate)"],
-            ["Specific rate", "Applies to a subgroup of the population (age-specific, disease-specific, cause-specific mortality)"],
-            ["Standardized rate", "Rate applied to a hypothetical population adjusted for a variable (e.g. age), so heterogeneous populations become comparable"],
-            ["Case-fatality rate", "Deaths due to a specific disease / persons affected by that disease — measures fatal severity"],
-            ["Proportionate mortality rate", "Deaths due to a specific cause / total deaths in the population — measures that cause's contribution to overall mortality burden"],
-            ["Years of Potential Life Lost (**YPLL**)", "Sum of (predetermined endpoint − age at death) for deaths before that endpoint; endpoint usually age 65 or average life expectancy; weights earlier deaths more heavily"],
-            ["**DALY**", "**YLL** + **YLD**, where **YLL** = N x **LE** (N=deaths, **LE**=standard life expectancy at age of death) and **YLD** = I x **DW** x **LD** (I=incident cases, **DW**=disability weight, **LD**=average duration of case)"]
+          "columns": [
+            "Measure",
+            "Definition / formula"
           ],
-          "sources": [{ "file": "books/14-epidemiology.pdf", "page": 2 }],
+          "rows": [
+            [
+              "Crude rate",
+              "Applies to the whole population (e.g. crude birth rate, crude mortality rate)"
+            ],
+            [
+              "Specific rate",
+              "Applies to a subgroup of the population (age-specific, disease-specific, cause-specific mortality)"
+            ],
+            [
+              "Standardized rate",
+              "Rate applied to a hypothetical population adjusted for a variable (e.g. age), so heterogeneous populations become comparable"
+            ],
+            [
+              "Case-fatality rate",
+              "Deaths due to a specific disease / persons affected by that disease — measures fatal severity"
+            ],
+            [
+              "Proportionate mortality rate",
+              "Deaths due to a specific cause / total deaths in the population — measures that cause's contribution to overall mortality burden"
+            ],
+            [
+              "Years of Potential Life Lost (**YPLL**)",
+              "Sum of (predetermined endpoint − age at death) for deaths before that endpoint; endpoint usually age 65 or average life expectancy; weights earlier deaths more heavily"
+            ],
+            [
+              "**DALY**",
+              "**YLL** + **YLD**, where **YLL** = N x **LE** (N=deaths, **LE**=standard life expectancy at age of death) and **YLD** = I x **DW** x **LD** (I=incident cases, **DW**=disability weight, **LD**=average duration of case)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/14-epidemiology.pdf",
+              "page": 2
+            }
+          ],
           "highYield": true
         },
         {
@@ -214,17 +291,46 @@
         {
           "type": "table",
           "title": "Perinatal, neonatal and infant death definitions",
-          "columns": ["Term", "Definition"],
-          "rows": [
-            ["Neonatal death", "A liveborn infant who dies within 28 days"],
-            ["Early neonatal death", "A liveborn infant who dies within 7 days"],
-            ["Late neonatal death", "A liveborn infant who dies between 7 and 28 days"],
-            ["Stillbirth", "A fetus that dies before birth but after 24 weeks of gestation"],
-            ["Perinatal death", "Stillbirths + early neonatal deaths"],
-            ["Postneonatal death", "Deaths from 1 month to 1 year"],
-            ["Infant death", "Deaths under 1 year of age"]
+          "columns": [
+            "Term",
+            "Definition"
           ],
-          "sources": [{ "file": "books/14-epidemiology.pdf", "page": 2 }],
+          "rows": [
+            [
+              "Neonatal death",
+              "A liveborn infant who dies within 28 days"
+            ],
+            [
+              "Early neonatal death",
+              "A liveborn infant who dies within 7 days"
+            ],
+            [
+              "Late neonatal death",
+              "A liveborn infant who dies between 7 and 28 days"
+            ],
+            [
+              "Stillbirth",
+              "A fetus that dies before birth but after 24 weeks of gestation"
+            ],
+            [
+              "Perinatal death",
+              "Stillbirths + early neonatal deaths"
+            ],
+            [
+              "Postneonatal death",
+              "Deaths from 1 month to 1 year"
+            ],
+            [
+              "Infant death",
+              "Deaths under 1 year of age"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/14-epidemiology.pdf",
+              "page": 2
+            }
+          ],
           "highYield": true
         },
         {
@@ -278,12 +384,18 @@
         {
           "type": "paragraph",
           "text": "Bar charts represent each category of a variable as a bar whose length is proportional to the number of persons/events in that category. A frequency polygon plots the number of observations in each interval as a point at the interval's midpoint, then connects the points with straight lines.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 6 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 6
+          }
         },
         {
           "type": "paragraph",
           "text": "A population pyramid portrays age and sex structure and reveals cohort trends over time. Three prototypical shapes (demographers): constrictive (fewer people in younger age bands, typical of countries like the **US** as birth rates fall after a baby boom), expansive (more people in younger age bands, typical of developing countries with high birth rates and short life expectancy from harsh conditions), and stationary (roughly equal numbers across age bands with tapering only at older ages, e.g. Sweden, from low constant birth rates and high quality of life).",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 6 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 6
+          }
         }
       ]
     },
@@ -294,22 +406,34 @@
         {
           "type": "paragraph",
           "text": "First generation (~16 studies, pre-**WWII**, includes the Midtown Manhattan study): focused on health-care-agency-registered prevalence of mental disorder in relation to community characteristics.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 7
+          }
         },
         {
           "type": "paragraph",
           "text": "Second generation (post-**WWII**, ~60 studies): increased interest in diagnostic criteria/classification/nomenclature; largely field surveys using unstructured clinical interviews, so reliability was low.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 7
+          }
         },
         {
           "type": "paragraph",
           "text": "Third generation (from ~1970): major effort to increase diagnostic reliability, aiming for precise prevalence/incidence estimates of **SPECIFIC** disorders — contrasted with the second generation's focus on mental ill-health in general.",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 7
+          }
         },
         {
           "type": "paragraph",
           "text": "A claimed fourth generation incorporates comprehensive biologic markers (brain imaging, **CSF** examination, blood sampling) into large-scale cross-sectional surveys, e.g. the **H70** study (Skoog, 2004).",
-          "source": { "file": "books/14-epidemiology.pdf", "page": 7 }
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 7
+          }
         }
       ]
     },
@@ -319,106 +443,382 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "**ESEMED** epidemiological study: 1 in 4 adults has a lifetime mental disorder; 1 in 10 has one in the last year. Lifetime mood disorder 14.7% (major depression alone 13%); lifetime anxiety 14% (specific phobia alone 8%); lifetime alcohol use disorder 5.2%.",
-          "source": { "file": "books/7-0-epidemiological-data.pdf", "page": 1 }
+          "text": "**ESEMED** epidemiological study: ==1 in 4== adults has a lifetime mental disorder; ==1 in 10== has one in the last year. Lifetime mood disorder ==14.7%== (major depression alone ==13%==); lifetime anxiety ==14%== (specific phobia alone ==8%==); lifetime alcohol use disorder ==5.2%==.",
+          "source": {
+            "file": "books/7-0-epidemiological-data.pdf",
+            "page": 1
+          }
         },
         {
           "type": "paragraph",
           "text": "Sex-ratio caveats worth remembering: several 'higher in one sex' ratios narrow or equalise specifically in treatment-seeking samples (social phobia, **OCD**); schizophrenia's 1.4:1 male excess is for **INCIDENCE** only, with prevalence roughly equal; Alzheimer's 2:1 female excess in prevalence may reflect female longevity rather than a true incidence difference; pre-puberty major depression runs marginally **MORE** common in boys, reversing to the well-known 2:1 female excess only after puberty.",
-          "source": { "file": "books/7-0-epidemiological-data.pdf", "page": 1 }
+          "source": {
+            "file": "books/7-0-epidemiological-data.pdf",
+            "page": 1
+          }
         },
         {
           "type": "table",
           "title": "Disorders with Higher Female Preponderance",
-          "category": { "label": "Higher Female Preponderance", "color": "orange" },
-          "columns": ["Disorder", "Ratio"],
-          "rows": [
-            ["Social phobia (may be equal in treatment-seekers)", "1.2:1"],
-            ["Bipolar disorder type 2", "1.3:1"],
-            ["Avoidant personality", "1.5:1"],
-            ["Dependent personality", "1.5:1"],
-            ["**OCD** (may be equal in treatment-seekers)", "1.5:1"],
-            ["Histrionic personality", "1.8:1"],
-            ["Alzheimer's disease (prevalence; incidence may be equal)", "2:1"],
-            ["Dysthymia", "2:1"],
-            ["Generalised anxiety disorder", "2:1"],
-            ["Major depression (post-puberty; pre-puberty boys marginally > girls)", "2:1"],
-            ["Multiple sclerosis", "2:1"],
-            ["**PTSD**", "2:1"],
-            ["Somatization disorder", "2:1"],
-            ["Conversion disorder", "2–10:1"],
-            ["Panic disorder", "2–2.5:1"],
-            ["Agoraphobia", "3:1"],
-            ["Borderline personality", "3:1"],
-            ["Specific phobias", "3:1"],
-            ["Nightmares", "2–4:1"],
-            ["Dissociative disorders", "4:1"],
-            ["Bulimia nervosa (some newer estimates ~3:1)", "10:1"],
-            ["Anorexia nervosa", "10:1"]
+          "category": {
+            "label": "Higher Female Preponderance",
+            "color": "orange"
+          },
+          "columns": [
+            "Disorder",
+            "Ratio"
           ],
-          "sources": [{ "file": "books/7-0-epidemiological-data.pdf", "page": 1 }],
+          "rows": [
+            [
+              "Social phobia (may be equal in treatment-seekers)",
+              "1.2:1"
+            ],
+            [
+              "Bipolar disorder type 2",
+              "1.3:1"
+            ],
+            [
+              "Avoidant personality",
+              "1.5:1"
+            ],
+            [
+              "Dependent personality",
+              "1.5:1"
+            ],
+            [
+              "**OCD** (may be equal in treatment-seekers)",
+              "1.5:1"
+            ],
+            [
+              "Histrionic personality",
+              "1.8:1"
+            ],
+            [
+              "Alzheimer's disease (prevalence; incidence may be equal)",
+              "2:1"
+            ],
+            [
+              "Dysthymia",
+              "2:1"
+            ],
+            [
+              "Generalised anxiety disorder",
+              "2:1"
+            ],
+            [
+              "Major depression (post-puberty; pre-puberty boys marginally > girls)",
+              "2:1"
+            ],
+            [
+              "Multiple sclerosis",
+              "2:1"
+            ],
+            [
+              "**PTSD**",
+              "2:1"
+            ],
+            [
+              "Somatization disorder",
+              "2:1"
+            ],
+            [
+              "Conversion disorder",
+              "2–10:1"
+            ],
+            [
+              "Panic disorder",
+              "2–2.5:1"
+            ],
+            [
+              "Agoraphobia",
+              "3:1"
+            ],
+            [
+              "Borderline personality",
+              "3:1"
+            ],
+            [
+              "Specific phobias",
+              "3:1"
+            ],
+            [
+              "Nightmares",
+              "2–4:1"
+            ],
+            [
+              "Dissociative disorders",
+              "4:1"
+            ],
+            [
+              "Bulimia nervosa (some newer estimates ~3:1)",
+              "10:1"
+            ],
+            [
+              "Anorexia nervosa",
+              "10:1"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-0-epidemiological-data.pdf",
+              "page": 1
+            }
+          ],
           "highYield": true
         },
         {
           "type": "table",
           "title": "Disorders with Higher Male Preponderance",
-          "category": { "label": "Higher Male Preponderance", "color": "blue" },
-          "columns": ["Disorder", "Ratio"],
-          "rows": [
-            ["Lewy body dementia", "1.2:1"],
-            ["Paranoid personality disorder", "1.3:1"],
-            ["Schizophrenia (incidence only; prevalence equal) (Saha et al. 2004)", "1.4:1"],
-            ["Parkinson's disease", "1.5:1"],
-            ["Conduct disorder", "— (male-predominant, ratio not quoted)"],
-            ["**ADHD**", "3:1"],
-            ["Korsakoff's psychosis", "2:1"],
-            ["Autism", "3:1"],
-            ["Asperger's syndrome (Wing 1981 quoted 10:1)", "4:1"],
-            ["Alcohol dependence", "5:1"],
-            ["Antisocial personality disorder", "5:1"],
-            ["Tourette's syndrome", "4:1"]
+          "category": {
+            "label": "Higher Male Preponderance",
+            "color": "blue"
+          },
+          "columns": [
+            "Disorder",
+            "Ratio"
           ],
-          "sources": [{ "file": "books/7-0-epidemiological-data.pdf", "page": 1 }],
+          "rows": [
+            [
+              "Lewy body dementia",
+              "1.2:1"
+            ],
+            [
+              "Paranoid personality disorder",
+              "1.3:1"
+            ],
+            [
+              "Schizophrenia (incidence only; prevalence equal) (Saha et al. 2004)",
+              "1.4:1"
+            ],
+            [
+              "Parkinson's disease",
+              "1.5:1"
+            ],
+            [
+              "Conduct disorder",
+              "— (male-predominant, ratio not quoted)"
+            ],
+            [
+              "**ADHD**",
+              "3:1"
+            ],
+            [
+              "Korsakoff's psychosis",
+              "2:1"
+            ],
+            [
+              "Autism",
+              "3:1"
+            ],
+            [
+              "Asperger's syndrome (Wing 1981 quoted 10:1)",
+              "4:1"
+            ],
+            [
+              "Alcohol dependence",
+              "5:1"
+            ],
+            [
+              "Antisocial personality disorder",
+              "5:1"
+            ],
+            [
+              "Tourette's syndrome",
+              "4:1"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-0-epidemiological-data.pdf",
+              "page": 1
+            }
+          ],
           "highYield": true
         },
         {
           "type": "table",
           "title": "Disorders with Equal Sex Distribution",
-          "category": { "label": "Equal Sex Distribution", "color": "gray" },
-          "columns": ["Disorder", "Ratio"],
-          "rows": [
-            ["Anankastic (obsessive-compulsive) personality", "1:1"],
-            ["Frontal lobe dementia", "1:1"],
-            ["Huntington's disease", "1:1"],
-            ["Schizoid personality disorder", "1:1"],
-            ["Wilson's disease (3:1 female preponderance for acute liver failure specifically)", "1:1"],
-            ["Bipolar disorder type 1", "1:1"]
+          "category": {
+            "label": "Equal Sex Distribution",
+            "color": "gray"
+          },
+          "columns": [
+            "Disorder",
+            "Ratio"
           ],
-          "sources": [{ "file": "books/7-0-epidemiological-data.pdf", "page": 1 }],
+          "rows": [
+            [
+              "Anankastic (obsessive-compulsive) personality",
+              "1:1"
+            ],
+            [
+              "Frontal lobe dementia",
+              "1:1"
+            ],
+            [
+              "Huntington's disease",
+              "1:1"
+            ],
+            [
+              "Schizoid personality disorder",
+              "1:1"
+            ],
+            [
+              "Wilson's disease (3:1 female preponderance for acute liver failure specifically)",
+              "1:1"
+            ],
+            [
+              "Bipolar disorder type 1",
+              "1:1"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-0-epidemiological-data.pdf",
+              "page": 1
+            }
+          ],
           "highYield": true
         },
         {
           "type": "table",
           "title": "Point estimates: prevalence, incidence, lifetime risk and mortality (median values, Eaton et al. 2008 / Saha 2004)",
-          "columns": ["Disorder", "Point/1-yr prevalence", "Lifetime prevalence", "Incidence", "Lifetime morbid risk", "All-cause mortality (SMR)"],
-          "rows": [
-            ["Panic disorder", "0.9%", "4.7%", "—", "—", "1.9"],
-            ["Social phobia", "2.8%", "—", "—", "—", "—"],
-            ["Simple phobia", "4.8%", "7–11%", "—", "—", "—"],
-            ["Major depressive disorder", "5.3%", "—", "—", "—", "1.7"],
-            ["Agoraphobia", "1.1%", "0.8%", "—", "—", "—"],
-            ["**PTSD**", "1%", "8%", "—", "—", "—"],
-            ["**OCD**", "1.0%", "2.5%", "—", "—", "1.1"],
-            ["Personality disorders", "1.8%", "—", "—", "—", "4.0"],
-            ["Schizophrenia", "0.33% (1yr) / 0.46% (point)", "0.4%", "15.2 per 100,000", "0.72%", "2.6"],
-            ["Bipolar disorder", "0.6%", "1.5%", "—", "—", "2.6"],
-            ["Dementia (>65)", "5.4%", "—", "—", "—", "2.7"],
-            ["Anorexia", "0.37%", "1.2–2.2%", "4.7–8.3 per 100,000", "—", "—"],
-            ["Bulimia", "1.5%", "—", "—", "—", "—"],
-            ["Somatoform disorders", "5%*", "—", "—", "—", "—"],
-            ["Delusional disorders", "0.03%", "—", "0.7–1.3 per 100,000", "—", "—"]
+          "columns": [
+            "Disorder",
+            "Point/1-yr prevalence",
+            "Lifetime prevalence",
+            "Incidence",
+            "Lifetime morbid risk",
+            "All-cause mortality (SMR)"
           ],
-          "sources": [{ "file": "books/7-0-epidemiological-data.pdf", "page": 1 }],
+          "rows": [
+            [
+              "Panic disorder",
+              "==0.9%==",
+              "==4.7%==",
+              "—",
+              "—",
+              "1.9"
+            ],
+            [
+              "Social phobia",
+              "==2.8%==",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "Simple phobia",
+              "==4.8%==",
+              "7–==11%==",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "Major depressive disorder",
+              "==5.3%==",
+              "—",
+              "—",
+              "—",
+              "1.7"
+            ],
+            [
+              "Agoraphobia",
+              "==1.1%==",
+              "==0.8%==",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "**PTSD**",
+              "==1%==",
+              "==8%==",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "**OCD**",
+              "==1.0%==",
+              "==2.5%==",
+              "—",
+              "—",
+              "1.1"
+            ],
+            [
+              "Personality disorders",
+              "==1.8%==",
+              "—",
+              "—",
+              "—",
+              "4.0"
+            ],
+            [
+              "Schizophrenia",
+              "==0.33%== (1yr) / ==0.46%== (point)",
+              "==0.4%==",
+              "15.2 per 100,000",
+              "==0.72%==",
+              "2.6"
+            ],
+            [
+              "Bipolar disorder",
+              "==0.6%==",
+              "==1.5%==",
+              "—",
+              "—",
+              "2.6"
+            ],
+            [
+              "Dementia (>65)",
+              "==5.4%==",
+              "—",
+              "—",
+              "—",
+              "2.7"
+            ],
+            [
+              "Anorexia",
+              "==0.37%==",
+              "1.2–==2.2%==",
+              "4.7–8.3 per 100,000",
+              "—",
+              "—"
+            ],
+            [
+              "Bulimia",
+              "==1.5%==",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "Somatoform disorders",
+              "==5%==*",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "Delusional disorders",
+              "==0.03%==",
+              "—",
+              "0.7–1.3 per 100,000",
+              "—",
+              "—"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-0-epidemiological-data.pdf",
+              "page": 1
+            }
+          ],
           "highYield": true
         }
       ]
@@ -487,19 +887,59 @@
         {
           "type": "table",
           "title": "Levels of prevention — definitions and worked examples (question-bank only)",
-          "columns": ["Level", "Definition", "Example from question bank"],
+          "columns": [
+            "Level",
+            "Definition",
+            "Example from question bank"
+          ],
           "rows": [
-            ["Primary", "Prevents the illness/epidemic occurring at all", "Influenza vaccination to pre-empt post-influenza depression; public health initiatives (poverty eradication, healthy diet)"],
-            ["Secondary", "Early detection/treatment aimed at high-risk groups", "Early intervention services in psychosis"],
-            ["Tertiary", "Prevents progression/disability once disease is clinically established, incl. rehabilitation; the level most used in current psychiatric practice", "Day-centre attendance for negative symptoms of schizophrenia; continuous treatment to maximise chronic patients' quality of life"]
+            [
+              "Primary",
+              "Prevents the illness/epidemic occurring at all",
+              "Influenza vaccination to pre-empt post-influenza depression; public health initiatives (poverty eradication, healthy diet)"
+            ],
+            [
+              "Secondary",
+              "Early detection/treatment aimed at high-risk groups",
+              "Early intervention services in psychosis"
+            ],
+            [
+              "Tertiary",
+              "Prevents progression/disability once disease is clinically established, incl. rehabilitation; the level most used in current psychiatric practice",
+              "Day-centre attendance for negative symptoms of schizophrenia; continuous treatment to maximise chronic patients' quality of life"
+            ]
           ],
           "sources": [
-            { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 3, "questionNumber": 2 },
-            { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 18, "questionNumber": 17 },
-            { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 21, "questionNumber": 20 },
-            { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 28, "questionNumber": 27 },
-            { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 29, "questionNumber": 28 },
-            { "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf", "page": 30, "questionNumber": 29 }
+            {
+              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 2
+            },
+            {
+              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 17
+            },
+            {
+              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 20
+            },
+            {
+              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+              "page": 28,
+              "questionNumber": 27
+            },
+            {
+              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 28
+            },
+            {
+              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+              "page": 30,
+              "questionNumber": 29
+            }
           ],
           "highYield": true
         }

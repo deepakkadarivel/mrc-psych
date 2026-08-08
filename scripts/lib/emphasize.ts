@@ -44,6 +44,55 @@ function alreadyBolded(text: string, index: number): boolean {
   return starsBefore % 2 === 1;
 }
 
+// Highlight = a separate, narrower signal from bold: reserved for the specific numeric facts a
+// student needs to recall exactly (a percentage, a prevalence ratio), not general emphasis. Both
+// patterns are unambiguous on their own (a percentage is always a percentage) so this carries
+// none of the false-positive risk that made broad inline number-highlighting a bad idea earlier —
+// see CLAUDE.md "Study guide emphasis markup" for why this is bounded rather than reintroducing
+// that. Percentages: "70%", "12.5%". Ratios: "1 in 5", "1 in 100".
+const PERCENT_RE = /\b\d+(?:\.\d+)?\s?%/g;
+const RATIO_RE = /\b\d+\s+in\s+\d{1,4}\b/gi;
+
+function alreadyMarked(text: string, index: number): boolean {
+  const starsBefore = (text.slice(0, index).match(/\*\*/g) ?? []).length;
+  const eqBefore = (text.slice(0, index).match(/==/g) ?? []).length;
+  return starsBefore % 2 === 1 || eqBefore % 2 === 1;
+}
+
+/**
+ * A separate, narrower pass from `emphasize()` — wraps percentages/ratios in `==highlight==`.
+ * Deliberately NOT folded into `emphasize()`/called from it: `emphasize()`'s acronym/drug bold
+ * pass is not idempotent (re-running it on already-**bolded** text double-wraps into
+ * `****OR****` garbage — confirmed empirically before shipping this), so re-running the combined
+ * function against the already-emphasized `content/study-guides/*.json` would corrupt existing
+ * markup. This pass alone IS idempotent (checks `alreadyMarked` for both `**` and `==`), so it's
+ * safe to run standalone against already-processed content — see
+ * `scripts/highlight-study-guides.ts`.
+ */
+export function highlightKeyFacts(text: string): string {
+  const spans: Array<{ start: number; end: number }> = [];
+  for (const re of [PERCENT_RE, RATIO_RE]) {
+    re.lastIndex = 0;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(text))) spans.push({ start: m.index, end: m.index + m[0].length });
+  }
+  spans.sort((a, b) => a.start - b.start);
+  const merged: Array<{ start: number; end: number }> = [];
+  for (const s of spans) {
+    if (merged.length && s.start < merged[merged.length - 1].end) continue;
+    if (alreadyMarked(text, s.start)) continue;
+    merged.push(s);
+  }
+  let result = "";
+  let cursor = 0;
+  for (const { start, end } of merged) {
+    result += text.slice(cursor, start) + "==" + text.slice(start, end) + "==";
+    cursor = end;
+  }
+  result += text.slice(cursor);
+  return result;
+}
+
 /**
  * Adds ** markdown-bold ** around clinically-loaded abbreviations (acronym-shape: 2+ consecutive
  * uppercase letters/digits) and a curated list of drug names, leaving everything else untouched.
