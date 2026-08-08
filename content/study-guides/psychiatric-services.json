@@ -1,10 +1,12 @@
 {
   "topic": "psychiatric-services",
-  "condensedNotes": [
+  "sections": [
     {
-      "heading": "Prevention in Psychiatry — Levels & Models",
-      "bullets": [
+      "id": "prevention-frameworks",
+      "title": "1. Prevention in Psychiatry — Levels & Models",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Prevention psychiatry reduces mental disorders/behavioural problems by (1) identifying risk and protective factors and (2) applying evidence-based interventions. The natural course insult → prodrome → disorder → outcome (disability/death/recovery) gives three intervention 'nodes': insult-to-prodrome (primary prevention), prodrome-to-diagnosis (secondary prevention, early diagnosis), diagnosis-to-outcome (tertiary prevention, preventing disability).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -12,6 +14,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Traditional public-health classification: Primary prevention reduces incidence by eliminating aetiological factors/increasing host resistance/reducing risk factors (e.g. vaccines, reducing adverse social factors). Secondary prevention reduces the total number of existing cases via early identification and prompt treatment, shortening illness duration (e.g. screening programmes, early intervention, crisis support, mammography). Tertiary prevention reduces the prevalence of residual defects/disability so individuals reach their highest possible functioning — it may not fully eliminate the sequelae of illness (e.g. relapse prevention, rehabilitation).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -19,6 +22,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Institute of Medicine (1994) reclassification is strictly pre-onset: Universal preventive intervention targets an entire population regardless of individual risk (e.g. water fluoridation, food fortification, seatbelt laws, drinking-age limits, media campaigns). Selective preventive intervention targets population subgroups with higher-than-average risk factors (e.g. lifestyle modification/drug treatment for hyperlipidaemia, group psychological treatment for children of depressed parents). Indicated preventive intervention targets individuals with minimal but detectable subsyndromal signs/symptoms or a biological marker foreshadowing a disorder, not yet meeting diagnostic criteria (e.g. detection/targeted treatment of metabolic syndrome, early intervention in psychotic prodrome). Under the **IOM** scheme, 'prevention' is reserved for pre-onset interventions only — treatment of an already-diagnosable disorder is not prevention.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -26,6 +30,59 @@
           }
         },
         {
+          "type": "table",
+          "title": "Prevention models — traditional public health vs Institute of Medicine (1994)",
+          "columns": [
+            "Traditional type",
+            "Aim",
+            "IOM equivalent (pre-onset only)",
+            "Target group",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Primary prevention",
+              "Reduce incidence by preventing new cases",
+              "Universal preventive intervention",
+              "Entire population regardless of risk",
+              "Vaccines; reducing adverse social factors; water fluoridation; seatbelt laws"
+            ],
+            [
+              "Secondary prevention",
+              "Reduce total existing cases via rapid effective treatment",
+              "Selective preventive intervention",
+              "Subgroups with higher-than-average risk factors",
+              "Screening programmes; early intervention in psychosis; lifestyle modification for hyperlipidaemia"
+            ],
+            [
+              "Tertiary prevention",
+              "Reduce prevalence of residual defects/disability; maximise functioning",
+              "Indicated preventive intervention",
+              "Individuals with subsyndromal/detectable signs not yet meeting diagnostic criteria",
+              "Relapse prevention; rehabilitation; early **ID** of psychotic prodrome"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 2
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Types of prevention (traditional) vs IOM pre-onset model",
+          "mnemonic": "PST vs USI (Primary/Secondary/Tertiary vs Universal/Selective/Indicated)",
+          "expansion": [
+            "Primary ≈ Universal — whole-population, before any risk is individually identified",
+            "Secondary ≈ Selective/Indicated — targeted at higher-risk subgroups or those with subsyndromal signs",
+            "Tertiary has no **IOM** equivalent — **IOM** prevention stops at disorder onset; tertiary prevention is post-onset rehabilitation"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
           "text": "Because knowledge of the causal 'insult' in psychiatry is still limited, most current psychiatric prevention is tertiary; early intervention in psychosis is an example of secondary prevention; public health measures (poverty eradication, healthy diet) could count as primary prevention for milder illness forms; interventions targeted at high-risk groups are usually secondary prevention; rehabilitation can also be viewed as tertiary prevention aimed at reducing further disability, and should not be delayed until acute treatment is complete since it is often unclear whether symptoms are acute or will persist.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -33,6 +90,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Rose's Prevention Paradox (Geoffrey Rose, 1981): universal prevention approaches achieve maximum benefit at the population level by reducing overall disease burden, but offer only a small benefit to each individual who receives the intervention. Conversely, the high-risk individuals who gain the greatest 'individual' benefit from targeted prevention contribute only a small proportion of total disease burden at population level.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -40,18 +98,67 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Risk factors predate the associated disorder — some are identifiable/modifiable via intervention, some are not. Biological risk factors: genetic vulnerability, adverse prenatal events (traumatic/toxic/infectious). Psychological/psychosocial: family discord, parenting-skill deficits. Social/environmental: availability of drugs/firearms, extreme economic/social deprivation. Protective factors (also predate the disorder) include support from caring adults, good school performance, conflict-resolution skills, positive role models, and clear/consistent family discipline.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
             "page": 2
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Tertiary prevention means reducing handicap/disability from established disease (i.e. rehabilitation), **NOT** eliminating the illness itself — a frequently mis-selected option is 'reducing incidence', which describes primary, not tertiary, prevention.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "Universal vs selective prevention in pregnancy-related interventions is a fine distinction: improving prenatal nutrition/antenatal care broadly (all pregnant women) is classed as **UNIVERSAL** prevention, whereas targeting a specific risk factor like low birth weight within pregnant women is classed as **SELECTIVE** prevention (see the linked **EMI**) — the exam expects you to track whether the whole population or only a risk-defined subgroup is targeted.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 21
+              }
+            },
+            {
+              "text": "Rose's Prevention Paradox is regularly tested with near-identical distractor wording ('universal is best for individuals' vs 'high-risk targeting is best for individuals but universal wins at population level') — read to the end of each option before choosing; the two SBAs sampled here use almost the same stem with subtly reordered clauses.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 36,
+                "questionNumber": 36
+              }
+            },
+            {
+              "text": "Early recognition of alcohol misuse using screening questionnaires is **SECONDARY** prevention (early detection of existing/incipient cases), not primary — a frequently mis-selected option in 'which is **NOT** primary prevention' framing.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 37,
+                "questionNumber": 37
+              }
+            },
+            {
+              "text": "In the schizophrenia-prevention **EMI**, targeting pregnant women to address low birth weight is **SELECTIVE** prevention (a defined risk factor within a subgroup), while targeting the general urban social milieu is **UNIVERSAL** prevention, and identifying a preschizophrenic/prodromal state is **INDICATED** prevention — three different classifications for three superficially similar 'early action in psychosis' scenarios.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 4
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "heading": "Physical Treatments — ECT",
-      "bullets": [
+      "id": "ect",
+      "title": "2. Physical Treatments — ECT",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Cereletti & Bini (1938) performed the first electrically-induced seizure series in a catatonic patient. **ECT** is first-line for emergency treatment of depression needing rapid definitive response, or for treatment-resistant depression with a prior good **ECT** response; it may be preferred when depression involves life-threatening food/fluid refusal, high suicide risk, stupor, marked psychomotor retardation, psychotic depression, or pregnancy (avoiding teratogenic drug risk) — otherwise it is 2nd/3rd-line after drug non-response.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -59,6 +166,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Mania: considered for life-threatening physical exhaustion or prolonged/severe mania unresponsive to all appropriate drug treatment. Schizophrenia: a rarely-used 4th-line option after 2 antipsychotics and then **clozapine** have failed. Catatonia: indicated when benzodiazepine (usually **lorazepam**) fails. Parkinson's disease: adjunctive for motor/psychotic/affective symptoms with severe disability. Others: **NMS**, and intractable seizure disorders (**ECT** raises seizure threshold).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -66,6 +174,48 @@
           }
         },
         {
+          "type": "table",
+          "title": "ECT — indications by condition",
+          "columns": [
+            "Condition",
+            "Indication for ECT"
+          ],
+          "rows": [
+            [
+              "Depressive illness",
+              "First-line if rapid response needed, or treatment-resistant with prior good **ECT** response; preferred with food/fluid refusal, high suicide risk, stupor, marked psychomotor retardation, psychotic depression, or pregnancy"
+            ],
+            [
+              "Mania",
+              "Life-threatening physical exhaustion, or prolonged/severe mania unresponsive to all appropriate drug treatment"
+            ],
+            [
+              "Schizophrenia",
+              "Rarely-used 4th-line option after failure of 2 antipsychotics then **clozapine**"
+            ],
+            [
+              "Catatonia",
+              "When benzodiazepine (usually **lorazepam**) has failed"
+            ],
+            [
+              "Parkinson's disease",
+              "Adjunctive for motor/psychotic/affective symptoms with severe disability"
+            ],
+            [
+              "Others",
+              "Neuroleptic malignant syndrome; intractable seizure disorders (raises seizure threshold)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 6
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
           "text": "No absolute contraindications exist. Relative contraindications: acute respiratory infection, recent **MI** (<3 months), uncontrolled cardiac failure/arrhythmia, recent **CVA** (<1 month), raised intracranial pressure, untreated cerebral aneurysm/intracerebral haemorrhage/phaeochromocytoma, unstable major fracture, **DVT** until anticoagulated, acute/impending retinal detachment, high anaesthetic risk.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -73,6 +223,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Pregnancy is a **RELATIVE** contraindication to **ECT**, not absolute — the book notes state there are no absolute contraindications to **ECT** at all, which itself is a frequently tested standalone fact.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "**UK** **ECT** Review Group meta-analysis: real **ECT** significantly more effective than simulated **ECT** (mean **HDRS** difference 9.7, **CI** 5.7–13.5); **ECT** (bilateral or unilateral) significantly more effective than pharmacotherapy (mean **HDRS** difference 5.2, **CI** 1.4–8.9) with significantly less premature discontinuation than drug treatment; bilateral **ECT** more effective than unilateral but with greater cognitive impairment; no efficacy difference between twice- vs thrice-weekly, or brief-pulse vs sine-wave **ECT**; higher electrical dose gave a (non-significant) larger effect, especially bilaterally, but slowed reorientation with high-dose unilateral **ECT**.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -80,6 +241,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Rose (2003, **BMJ**) analysis of 35 patient-view studies: nearly one-third reported significant memory loss; by 2005 nearly 50% felt they received insufficient information about **ECT** and nearly one-third, though consenting, felt coerced. **UK** **ECT** usage rates fell to 0.82–0.88 per 10,000 population in 2006–07 — about a third less than 2005 and three-quarters less than 1993.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -87,6 +249,12 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "ECT usage-rate and consent-experience statistics currency",
+          "note": "Rose's patient-experience findings and the cited 2005–2007 **UK** **ECT** usage rates (0.82–0.88 per 10,000 population) are now dated. Current **ECT** usage rates, **ECTAS** accreditation standards, and RCPsych **ECT** guidance should be checked directly if a question hinges on present-day practice rather than historical trend data."
+        },
+        {
+          "type": "paragraph",
           "text": "Early side effects: headache (48%), temporary confusion (27%), nausea/vomiting (9%), muscular aches (5%). Memory deficits are anterograde (new learning) or retrograde (recall of prior information), worse during the treatment course especially with bilateral **ECT**; retrograde amnesia gradually but incompletely resolves (older personal memories recover better), while anterograde amnesia resolves faster and rarely persists once depression remits. No credible evidence of structural brain damage; no effect on executive function or **IQ**. Mortality ≈2:100,000, no greater than general anaesthesia for minor surgery — deaths are usually anaesthesia-related (**VF** or **MI**), greatest risk in cardiovascular disease.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -94,6 +262,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**ECT**'s effect is time-limited with poor durability: 51.1% of responders relapse by 12 months, 37.7% within the first 6 months, despite continued pharmacotherapy or continuation **ECT**. Antidepressants roughly halve 6-month relapse risk (**NNT** 3.3); the largest post-**ECT** relapse-prevention evidence base is for tricyclic antidepressants, with limited/no evidence for newer agents or augmentation strategies.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -101,6 +270,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The relapse rate quoted for **ECT** in the **MCQ** bank (one-third relapse despite maintenance **ECT**) differs numerically from the book notes' figure (51.1% relapse by 12 months, 37.7% within 6 months) — both are real cited figures from different sources; don't force them into a single number, and be alert to which framing ('maintenance **ECT** specifically' vs 'general post-**ECT** relapse') a question is using.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Practical administration: full medical history/exam plus routine bloods (**FBC**, U&Es) before starting, ±**CXR**/**ECG**. Optimal frequency is twice weekly for 6–12 treatments/course; if no improvement at all after the first 6 bilateral treatments, further treatment is unlikely to help (Segman 1995). Bilateral electrodes are centred 4cm above and perpendicular to the midpoint of the line joining the lateral canthus and external auditory meatus, on both temples; unilateral **ECT** places one electrode identically and the other over the non-dominant parietal scalp near the vertex. An effective treatment needs a generalised motor seizure ≥20 seconds (**EEG** gold standard: build-up, spike-and-wave, slow-wave trains, then electrical silence, lasting ~35–130s overall).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -108,6 +288,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Choose bilateral **ECT** when speed/completeness of response is the priority, unilateral has failed, prior bilateral response was good without undue memory impairment, or cerebral dominance is hard to determine. Choose unilateral when speed of response matters less, there was a prior good unilateral response, or minimising memory impairment is a priority.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -115,6 +296,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Drug interactions: benzodiazepines, barbiturates and anticonvulsants raise seizure threshold (reducing **ECT** efficacy); antipsychotics, antidepressants and **lithium** lower it. **Clozapine** and **moclobemide** should be suspended 24 hours before **ECT**. **Lithium** is best avoided around **ECT** — it can increase cognitive side effects and neurotoxicity risk.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -124,9 +306,11 @@
       ]
     },
     {
-      "heading": "Physical Treatments — TMS, Psychosurgery, DBS & VNS",
-      "bullets": [
+      "id": "tms-psychosurgery-dbs-vns",
+      "title": "3. Physical Treatments — TMS, Psychosurgery, DBS & VNS",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Barker (1985) developed the first **TMS** device. rTMS (repetitive **TMS**) is **FDA**-approved for depression that has failed a trial of antidepressants (**NNT** 4, Furukawa 2014) and is endorsed by national guidelines including **BAP** depression guidance. It is applied to left or right **DLPFC** (usually left) for 30–40 minutes/day for ≥4 consecutive weeks, needs no anaesthesia, is outpatient with no recovery period, and — unlike **ECT** — does not cause amnesia or other cognitive side effects, a major driver of its recent growth. In patients failing an average 2.5 antidepressant trials, **TMS** produced 40% response sustained beyond 6 months using 'rescue' **TMS** (Janicak & Carpenter 2012).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -134,6 +318,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Head-to-head, **ECT**'s short-term response rate is significantly superior to **TMS**, especially with psychotic features (Ren et al., 2014). **TMS** side effects: application-site discomfort, transient headache (10%), transient facial muscle twitching; seizure risk is theoretical (motor cortex stimulation) but no cases were reported across 45 RCTs of prefrontal depression application. **TMS** applied to the left temporoparietal cortex (near Wernicke's area) has shown effect in resistant auditory hallucinations, though a smaller effect than for depression.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -141,6 +326,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Moniz & Lima performed the first pre-frontal leucotomy. Psychosurgery today is reserved for severe mood disorder or **OCD** resistant to all appropriately-dosed, adequate-duration evidence-based treatments, in a competent, consenting patient. Modern technique uses a stereotactic frame with pre-op **MRI** targeting the orbitofrontal/anterior cingulate ('limbic') loop, via radiofrequency thermocoagulation or gamma-knife radiation.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -148,6 +334,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Freeman (with Watts) is associated with transorbital leucotomy in the **US** (1946) — a distinct historical figure/procedure from Moniz & Lima's earlier pre-frontal leucotomy; the exam tests these as separate factual pairings.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 32,
+            "questionNumber": 32
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Stereotactic procedures: subcaudate tractotomy (lesion beneath the head of each caudate nucleus, rostral orbital cortex); anterior cingulotomy (bilateral cingulate-bundle lesions); limbic leucotomy (combines subcaudate tractotomy + anterior cingulotomy); anterior capsulotomy (bilateral lesions in the anterior limb of the internal capsule). Limbic leucotomy and anterior capsulotomy are used for **OCD**; subcaudate tractotomy is the treatment of choice for mood disorder.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -155,6 +352,45 @@
           }
         },
         {
+          "type": "table",
+          "title": "Psychosurgery — stereotactic procedures",
+          "columns": [
+            "Procedure",
+            "Lesion location",
+            "Main use"
+          ],
+          "rows": [
+            [
+              "Subcaudate tractotomy",
+              "Beneath the head of each caudate nucleus, rostral orbital cortex",
+              "Treatment of choice for mood disorder"
+            ],
+            [
+              "Anterior cingulotomy",
+              "Bilateral lesions within the cingulate bundles",
+              "Combined into limbic leucotomy"
+            ],
+            [
+              "Limbic leucotomy",
+              "Subcaudate tractotomy + anterior cingulotomy combined",
+              "**OCD**"
+            ],
+            [
+              "Anterior capsulotomy",
+              "Bilateral lesions in the anterior limb of the internal capsule",
+              "**OCD**"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 6
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
           "text": "Older psychosurgery techniques risked amotivational syndrome (4%), marked personality change (up to 60%), epilepsy (up to 15%). Modern techniques: post-op headache/nausea common, confusion in 10% lasting a few days, minimal long-term cognitive impairment (**IQ** may even improve, probably via improved task attention), personality/social-functioning change in only 2–8%, post-op seizures <1% (usually **phenytoin**-controlled), operative mortality <0.1%, weight gain in 10%. 50–70% of carefully selected patients show significant improvement, <3% become worse, with continued improvement often seen 1–2 years post-op. Chronic intractable **MDD** and **OCD** respond best; a Royal College of Psychiatrists 2000 report cites 'marked improvement' in 63% of major depression and 58% of **OCD** cases.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -162,6 +398,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Deep brain stimulation (**DBS**) uses fine-wire brain implants triggered by a subdermal chest-wall pacemaker; high-frequency stimulation temporarily 'arrests' regional brain activity. Evidenced/indicated for Parkinson's disease, essential tremor, Tourette's disorder, dystonia, and evaluated for major depression, **OCD** and chronic (neuropathic/phantom limb) pain. Subthalamic nucleus/internal globus pallidus **DBS** is endorsed by many Parkinson's guidelines (may match medication efficacy without motor side effects); internal-capsule **DBS** shows positive **OCD** effects; **DBS** can reduce Tourette's tic severity. Advantage over ablative surgery: less invasive, reversible (device can be switched off, leads removed with little sequelae).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -169,6 +406,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**DBS** surgical complications: infection 0–15% per patient (0–9.7% per electrode, the most common complication), intracranial haemorrhage 0–4.5%, stroke 0–2%, lead erosion/fracture/migration, death 0–4.4%. Post-op seizure incidence has varied 0–4% (typically ~2%), with epilepsy risk essentially nil. Neuropsychiatric effects: depression (postoperative incidence reported 1.5–25% in case-series review), anxiety, mania, impulsivity/impulse-control disorders, speech/language difficulty, cognitive-performance decline, postural instability with increased falls.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -176,18 +414,77 @@
           }
         },
         {
+          "type": "table",
+          "title": "Deep brain stimulation — reported surgical complication rates",
+          "columns": [
+            "Complication",
+            "Reported rate"
+          ],
+          "rows": [
+            [
+              "Infection (most common)",
+              "0–15% per patient; 0–9.7% per electrode"
+            ],
+            [
+              "Intracranial haemorrhage",
+              "0–4.5%"
+            ],
+            [
+              "Stroke",
+              "0–2%"
+            ],
+            [
+              "Postoperative seizure",
+              "0–4% (typically ~2%); epilepsy risk essentially nil"
+            ],
+            [
+              "Death",
+              "0–4.4%"
+            ],
+            [
+              "Postoperative depression",
+              "1.5–25% (literature review of case series)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 6
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "gap",
+          "subtopic": "Psychosurgery and DBS current regulatory/indication status",
+          "note": "The adverse-effect rates and indications quoted (e.g. older-technique amotivational syndrome rates, **DBS** complication ranges) come from a mix of older and case-series literature cited in the source notes. Current regulatory status of psychosurgery in the **UK** (very tightly restricted, requiring independent second-opinion/Mental Health Act Part 4A safeguards) and current **DBS** trial evidence for depression/**OCD** should be verified against the Maudsley Prescribing Guidelines (15th ed.) or current specialist guidance rather than assumed current from these figures alone."
+        },
+        {
+          "type": "paragraph",
           "text": "Vagus nerve stimulation (**VNS**) stimulates the left cervical vagus nerve and is licensed for treatment-resistant partial-onset seizures in epilepsy. Its mechanism is unknown but may involve changes in serotonin, noradrenaline, **GABA** and glutamate — neurotransmitters also implicated in major depression.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
             "page": 6
           }
+        },
+        {
+          "type": "trap",
+          "text": "**TMS** targets the **DLPFC** and does **NOT** cause amnesia, in direct contrast to **ECT**'s amnesia profile — this **ECT**-vs-**TMS** side-effect contrast is the discriminating feature in **EMI** matching of neuromodulation therapies, alongside **DBS**'s subdermal pacemaker (Tourette's) and psychosurgery's gamma-radiation/personality-change profile (severe **OCD**).",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 1
+          }
         }
       ]
     },
     {
-      "heading": "Multidisciplinary Teams & National Policy",
-      "bullets": [
+      "id": "mdt-national-policy",
+      "title": "4. Multidisciplinary Teams & National Policy",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "A multidisciplinary team (**MDT**) is 'a group of people with complementary skills who are committed to a common purpose, performance goals, and approach, for which they hold themselves mutually accountable' (Sainsbury Centre for Mental Health, 1997), which listed key **MDT** competencies: assessment; treatment and care management; collaborative working; team management/administration; interpersonal skills. Extending competency to complex/changing settings is termed 'capability'. Moss (1994) identified key **MDT** functions: continuing proactive care of long-term serious mental illness; uninterrupted crisis access/support/treatment; an organised response to primary-care referral requests.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -195,6 +492,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Evidenced **MDT** benefits (Mental Health Commission of Ireland discussion paper): maximise clinical effectiveness; reduce bed use (Dean et al., 1993); maintain service contact after discharge (Ford et al., 1995); cost-effectiveness (Knapp et al., 1994); provide a wide range of services without prolonged referral processes (Campbell et al., 1998); enhance continuity of care (Towell & Beardshaw, 1991).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -202,6 +500,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "National Service Framework for Mental Health (**DH**, 1999) set 7 standards for community-psychiatry-focused service development: promote mental health, reduce discrimination/exclusion; improve primary healthcare (x2 standards); ensure crisis care and timely access to a secure, safe place close to home (x2 standards); address carers' needs; a public-health target to cut suicide by one-fifth by 2010. The **NHS** Plan (2000) provided targets/funding to realise the **NSF**, with three key targets: 50 early intervention teams by 2004; 335 crisis resolution teams by 2004; 220 assertive outreach teams by 2003.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -209,6 +508,12 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Current early intervention / crisis / assertive outreach service targets",
+          "note": "The source book notes describe **NSF** (1999) and **NHS** Plan (2000) targets (e.g. 50 **EI** teams by 2004, 335 crisis teams by 2004, 220 assertive outreach teams by 2003) and the 2011 'No Health Without Mental Health' strategy. These are historical policy documents; current **UK** service specifications (e.g. **NICE** psychosis/schizophrenia guideline, **NHS** Long Term Plan community mental health framework, Access and Waiting Time Standards for **EIP**) have since superseded these targets. Verify current **EIP**/crisis-team access standards against current **NICE** guidance rather than relying on these historical figures for a live clinical-service question."
+        },
+        {
+          "type": "paragraph",
           "text": "A new English mental health strategy (2011) set 6 shared outcomes: more people will have good mental health; more people with mental health problems will recover (improved quality of life); more will have good physical health; more will have a positive experience of care/support (timely evidence-based interventions); fewer will suffer avoidable harm (improved confidence in services); fewer will experience stigma and discrimination (improved public understanding).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -216,18 +521,47 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Ten principles of the **ACT** model (per notes figure): continuous service (both temporal and functional continuity); staff ratio 1:10–15 patients; most work done in the community; whole-team (not individual case-manager) ownership of each case; individualised treatments with no time constraints; direct assistance/service delivery rather than commissioning/brokerage wherever possible; functional improvement as the primary outcome; bulk/core care provided directly by the team (no brokerage); titrated input given on an as-and-when-needed basis; 'backing off' service provision in times of reduced need rather than completely withdrawing if the patient disengages.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
             "page": 15
           }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "ACT model core principles",
+          "mnemonic": "TEAM CARE (memory hook for the 10 ACT principles)",
+          "expansion": [
+            "Team ownership of every case, not an individual case manager",
+            "Everything (bulk/core care) delivered by the team itself, no brokerage",
+            "As-needed (titrated) input",
+            "Mostly community-based work",
+            "Continuous service (time + functional continuity)",
+            "Aiming for functional improvement as the primary outcome",
+            "Ratio of staff to patients kept at ~1:10-15",
+            "Emergency 'backing off' rather than full withdrawal if a patient disengages"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'Backing off' in assertive outreach/**ACT** jargon specifically means reducing (not withdrawing) input when a patient disengages — distinct from the other **ACT** principles (titrated input, team ownership, etc.); the exam uses a realistic clinical vignette to test recognition of this specific term.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 42,
+            "questionNumber": 42
+          }
         }
       ]
     },
     {
-      "heading": "Models of Community Care & CMHTs",
-      "bullets": [
+      "id": "community-care-models",
+      "title": "5. Models of Community Care & CMHTs",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Brokerage model: the main worker coordinates various services while not actively providing input directly. Case management model: one professional holds long-term responsibility across all care domains — engagement, assessment, planning, direct delivery, and monitoring effectiveness — stressing continuity, similar to the 'key worker' concept in the Building Bridges document (**DH**, 1995).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -235,6 +569,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Assertive community treatment (**ACT**): Stein & Test (1980) evaluated 'training in community living', addressing failed transfer of hospital/rehab-learned social skills into real community life (patients otherwise left in a 'tenuous community adjustment on the brink of hospitalisation'). The **NSF** and **NHS** Plan endorsed **ACT**. **UK700** study: caseload is the most important predictor of **ACT** outcome. **ACT** reduces admissions, reduces A&E presentations, and increases secondary-care compliance; a Cochrane review found no clear advantage of **ACT** over intensive community management.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -242,6 +577,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Intensive case management: proposed for hard-to-engage patients; follows **ACT** principles but with smaller individual caseloads to reduce time spent on case discussion; main drawback is heavy staff burnout/responsibility. Personal strengths (development-acquisition) model: the patient directs the process, is seen as capable of inherent growth/change, therapeutic relationship is primary, no goals are imposed, and community is treated as a resource. Rehabilitation model: similar to the personal strengths model, but with an assessment-based comprehensive plan retaining a deficit focus while stressing increased patient autonomy/independence.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -249,6 +585,48 @@
           }
         },
         {
+          "type": "table",
+          "title": "Models of delivering community care",
+          "columns": [
+            "Model",
+            "Key feature"
+          ],
+          "rows": [
+            [
+              "Brokerage",
+              "Worker coordinates services without directly providing care"
+            ],
+            [
+              "Case management",
+              "One professional holds long-term, all-domain responsibility; stresses continuity"
+            ],
+            [
+              "Assertive community treatment (**ACT**)",
+              "Team-based, caseload is the strongest outcome predictor (**UK700**); reduces admissions/A&E use"
+            ],
+            [
+              "Intensive case management",
+              "**ACT** principles with smaller caseloads for hard-to-engage patients; risks staff burnout"
+            ],
+            [
+              "Personal strengths model",
+              "Patient directs the process; no imposed goals; community as a resource"
+            ],
+            [
+              "Rehabilitation model",
+              "Similar to personal strengths model but retains a deficit-focused assessment plan"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 16
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
           "text": "Community mental health teams (CMHTs) are the 'basic building blocks' of community psychiatric services, generally comprising psychiatrists, community psychiatric nurses, social workers, psychologists and occupational therapists. Their main advantage over outpatient services/regional hospital care is continuity of care; geographically-limited CMHTs improve engagement, user satisfaction, and adherence, and reduce unmet needs, though gains in social function are questionable.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -256,6 +634,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Case management/keyworking is the predominant **CMHT** care-delivery model — the keyworker (from any discipline) coordinates/leads the care plan and is the main point of access for patient and carers. Case management is defined as the 'coordination, integration and allocation of individualised care within limited resources' (Thornicroft, 1991); it has good evidence for improving continuity of care, satisfaction and social function via CMHTs, but questionable utility in inpatient services, and is less intensive/more non-specific than assertive community treatment.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -265,9 +644,11 @@
       ]
     },
     {
-      "heading": "Care Programme Approach (CPA)",
-      "bullets": [
+      "id": "cpa",
+      "title": "6. Care Programme Approach (CPA)",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "**CPA**'s origin traces to the Spokes Inquiry into the care of Sharon Campbell, who killed her social worker (**DHSS**, 1988); the Care Programme Approach was actively introduced in 1991. Five basic requirements: (1) a thorough assessment of health and social needs; (2) every service user must have a written care plan; (3) the service user must be involved in drafting it; (4) the plan must be reviewed regularly or as necessary; (5) a named mental health worker must coordinate care delivery.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -275,6 +656,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The Care Programme Approach's origin — the Spokes Inquiry into Sharon Campbell, who killed her social worker — is a specific historical trigger fact the exam expects verbatim, not just 'introduced in the 1990s for care coordination'.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 39,
+            "questionNumber": 39
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "**CPA** levels were simplified in 1999 to: Enhanced (care needs best served by regular multidisciplinary review meetings) and Standard (such meetings are unnecessary).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -282,18 +674,68 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "'Modernising **CPA**' proposed: (1) integrating **CPA** with care management into a single care-coordination approach; (2) appointing a lead officer to work across all agencies; (3) applying **CPA** as a framework for mental healthcare delivery rather than simply an after-care arrangement; (4) abolishing supervision registers; (5) renaming the key worker to 'care coordinator'.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
             "page": 18
           }
+        },
+        {
+          "type": "table",
+          "title": "Care Programme Approach — requirements, levels & 'modernising' changes",
+          "columns": [
+            "Component",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Origin",
+              "Spokes Inquiry into the care of Sharon Campbell, who killed her social worker (**DHSS**, 1988); introduced 1991"
+            ],
+            [
+              "5 basic requirements",
+              "Health/social needs assessment; written care plan; user involvement in drafting it; regular review; a named coordinating worker"
+            ],
+            [
+              "Levels (1999)",
+              "Enhanced (regular **MDT** review meetings needed) vs Standard (not needed)"
+            ],
+            [
+              "Modernising **CPA** changes",
+              "Merge with care management into single care coordination; appoint cross-agency lead officer; use as a delivery framework not just after-care; abolish supervision registers; rename key worker to 'care coordinator'"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 16
+            },
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 18
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+              "page": 39,
+              "questionNumber": 39
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+              "page": 41,
+              "questionNumber": 41
+            }
+          ],
+          "highYield": true
         }
       ]
     },
     {
-      "heading": "Service Utilisation & Pathways to Care",
-      "bullets": [
+      "id": "service-utilisation-pathways",
+      "title": "7. Service Utilisation & Pathways to Care",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Pooled World Mental Health (**WMH**) survey analysis: median delay to first treatment contact ranged 3.0–30.0 years for anxiety disorders, 1.0–14.0 years for mood disorders, and 6.0–18.0 years for substance-use disorders. Delays/failure in help-seeking were generally greater in developing countries, older cohorts, men, and cases with earlier ages of onset — a pervasive worldwide problem.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -301,6 +743,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "\"Delay in seeking psychiatric treatment is more common in all **EXCEPT**...\" — the correct **EXCEPT**-answer is being a working adult; delays are actually greater in developing countries, older cohorts, men, and earlier age of onset (pooled **WMH** data) — don't assume employment status itself is a tested delay factor.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Goldberg & Huxley's 'pathways to care' (filter model) explains why community-survey prevalence of mental illness is always higher than clinical-sample prevalence. It describes five levels — the community, primary care attendees, diagnosed primary care attendees (recognised illness), psychiatrist level, and psychiatric inpatient level — separated by four 'filters': patient-level recognition; **GP**-level recognition and decision to treat/refer; the outpatient mental-healthcare level; and the inpatient admission level.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -310,9 +763,11 @@
       ]
     },
     {
-      "heading": "Early Intervention Services in Psychosis",
-      "bullets": [
+      "id": "early-intervention-psychosis",
+      "title": "8. Early Intervention Services in Psychosis",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Early intervention (**EI**) tries to change the trajectory of severe mental illness (especially psychosis) and improve long-term prognosis by intervening early, sometimes pre-syndromally. Birchwood's 'critical period' = the first 3–5 years from psychosis onset, when psychosocial plasticity is highest and intervention impact is greatest. 'Prodrome' is only usable retrospectively (implies inevitable progression); 'premorbid state'/'at-risk mental state' are preferred prospective terms. **EI** tenets: reduce duration of untreated psychosis (**DUP**); promote recovery; reduce psychosocial damage; engage the patient early to enable longer treatment; reduce comorbidities such as substance use.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -320,6 +775,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**PACE**–**UHR** ('close-in') criteria: prioritise specificity over sensitivity; age 14–30; require attenuated positive symptoms (**APS**) or **BLIPS** (brief limited intermittent psychotic symptoms), schizotypal **PD**, or family history of schizophrenia. Adapted by the **PRIME** study (Yale) and the **EDIE** clinic (Manchester). 'Basic symptoms' (cognitive/affective/social disturbances predating schizophrenia, described by German psychopathologists) predict conversion in 78% of cases on the Bonn Scale for Assessment of Basic Symptoms; other criteria in use include the Hillside criteria.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -327,6 +783,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**EI** evidence: 1-, 2- and 5-year follow-up from randomised **EI** teams (**OPUS** trial, Denmark; Lambeth Early Onset/**LEO**) and first-episode cohorts (**PEPP**, London Ontario; **TIPS**, Norway) favour **EI**, but initial gains may not be sustained if **EI** services stop after 2 years. **CBT** may reduce progression from at-risk state to full-blown schizophrenia (Morrison, 2004); the SoCRATES study found both **CBT** and supportive counselling produced significant improvement at 18-month follow-up in first-/second-episode schizophrenia (Tarrier et al., 2004). **PRIME** used low-dose **olanzapine** with favourable but not strongly generalisable results. **EPPIC** (Melbourne, McGorry) found **CBT**+**risperidone** reduced conversion at 6 months, though longer follow-up suggested a 'delay' rather than 'prevention' effect; Warner's reappraisal found even one additional case of schizophrenia would have nullified **EPPIC**'s results. **LEO** compared specialised assertive-outreach-based care (low-dose atypicals, manualised **CBT**, family counselling, vocational strategies) with standard care and found lower relapse rates with specialised care.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -334,6 +791,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Watch for another notes-vs-question wording mismatch around the **LEO**/**EPPIC** comparison: this question's explanation states the Lambeth Early Onset (**LEO**) study found 'remission rates were lower with specialised care', whereas the book notes state 'the relapse rates were lower with specialised care' for the same **LEO** comparison — these point to opposite conclusions about whether specialised care helped. Don't assume one figure is simply a typo of the other; note the discrepancy and lean on the notes' explicit 'relapse' framing (specialised, assertive-outreach-based care associated with fewer relapses) unless a specific question forces the 'remission' wording.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 44
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Obstacles to **EI**: it is unclear whether 'earlier use' of interventions is genuinely effective, since some patients may self-recover naturally (cf. the Soteria project), making medication exposure only toxic for that subgroup; low screening-instrument specificity causes high false-positive rates and unnecessary treatment; and prodromal-stage intervention may only delay, not fully prevent, psychosis.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -341,6 +809,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Duration of Untreated Psychosis (**DUP**): Wyatt proposed **DUP** as a prognostic marker and suggested untreated psychosis may be neurotoxic, though the start/end of the interval is hard to define. Before 1960, **DUP** equalled lifetime illness length for most patients; antipsychotics have not hugely changed long-term remission proportions since (Hegarty et al., 1994), so **DUP** may not be a useful outcome measure; **DUP** does not correlate directly with outcome in most secondary research (Rankin et al., 2005) — in developing countries with **DUP** of ~10–15 years, outcome is not grossly different once treatment starts. **DUP** is confounded by insidious onset, negative symptoms and premorbid dysfunction, which independently delay help-seeking/treatment and worsen outcome. **UK** Department of Health target: service median **DUP** of 3 months, individual maximum 6 months; established **UK** services report low median **DUP**, e.g. 52 days for schizophrenia in Nottingham (Singh et al., 2005a).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -348,6 +817,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "The neurotoxicity theory behind early **EI** advocacy is hard to sustain: no cell death or gliosis is evident with cumulative psychotic episodes; cognitive impairment is not cumulative with repeated episodes as neurotoxicity would predict; and age of onset, not number of episodes, appears to be the more important prognostic factor.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -357,9 +827,11 @@
       ]
     },
     {
-      "heading": "Rehabilitation, Recovery & Vocational Models",
-      "bullets": [
+      "id": "rehabilitation-recovery-vocational",
+      "title": "9. Rehabilitation, Recovery & Vocational Models",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Most rehabilitation psychiatry literature concerns schizophrenia, given the severity of its functional deficits. Remission = reduction of core signs/symptoms below the threshold that interferes with behaviour/justifies diagnosis — necessary but not sufficient for recovery. Medical definitions of recovery mean complete cure; the consumer definition of recovery emphasises the process rather than the outcome. The Vermont longitudinal study first challenged pessimism about schizophrenia recovery; the International Study of Schizophrenia found 48% recovered by loose criteria at 15- and 25-year follow-up (38% by strict criteria).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -367,6 +839,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Jacobson & Greenley's recovery model (in Morris & Lloyd, 2004) — internal conditions: hope of recovery, healing as a primary aim, empowerment, connection with other services/patients; external conditions: valuing human rights, services oriented towards recovery, appraising the positive value of healing, vocational rehabilitation.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -374,6 +847,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Characteristics of recovery-oriented services: self-directed, person-centred, peer-supported, empowerment-focused, holistic, non-linear (not stepwise), strengths-based, respect-driven, responsibility-shared, and hope-instilling.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -381,6 +855,25 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Recovery-oriented service characteristics",
+          "mnemonic": "SHARP-HERO (10 characteristics)",
+          "expansion": [
+            "Self-directed",
+            "Holistic",
+            "Achievement-oriented (strengths-based)",
+            "Respect-driven",
+            "Person-centred",
+            "Hope-instilling",
+            "Empowerment-focused",
+            "Responsibility-shared",
+            "Ongoing (non-linear, not stepwise)",
+            "(+ Peer-supported)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
           "text": "Skills training/prevocational training is the core of most current **UK** psychiatric rehabilitation units — it improves rehabilitation results, reduces demand on clinical services, and increases the likelihood of gaining employment; may include NVQs, vocational practice, sheltered workshops.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -388,6 +881,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Transitional employment (**TE**) programmes emerged from the clubhouse model developed by Fountain House (1948); **TE** is time-limited, supported work experience. Clubhouses provide a meaningful day, education, in-house vocational training, and social/recreational options; the clubhouse itself owns some employment positions, filled consecutively by members typically over a 6-month period, often part-time, with graduation to competitive part-/full-time employment possible.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -395,6 +889,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Sheltered employment: reserved-entry jobs (e.g. a quota for the mentally ill), a segregated workforce, often not commercially viable (e.g. Remploy, **UK**). Supported employment (**SE**) became prominent in the 1990s: the individual is placed directly into a full-/part-time job with an employment consultant, with only minimal prevocational training first — 'place and train' rather than 'train and place' (Drake & Becker model), which eases transfer of learning. Techniques include 'choose-get-keep', job coach, **ACT**, and individual placement and support.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -402,18 +897,59 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Characteristics of successful **SE** programmes: rapid job search and placement; jobs selected on individual preference plus the person's skills/experience; follow-up employment-consultant support and case management maintained indefinitely; close integration of **SE** with mental health teams.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
             "page": 23
           }
+        },
+        {
+          "type": "table",
+          "title": "Vocational rehabilitation models compared",
+          "columns": [
+            "Model",
+            "Key feature",
+            "Origin/example"
+          ],
+          "rows": [
+            [
+              "Skills/prevocational training",
+              "Improves outcomes, reduces service demand, raises employment chances",
+              "NVQs, vocational practice, sheltered workshops"
+            ],
+            [
+              "Transitional employment (**TE**)",
+              "Time-limited, supported work; positions owned by the clubhouse",
+              "Fountain House clubhouse model, 1948; ~6-month rotations"
+            ],
+            [
+              "Sheltered employment",
+              "Reserved-entry, segregated workforce; often not commercially viable",
+              "Remploy, **UK**"
+            ],
+            [
+              "Supported employment (**SE**)",
+              "'Place and train' not 'train and place'; minimal prevocational training; job coach/**ACT**/individual placement and support",
+              "Drake & Becker model, prominent from the 1990s"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 22
+            }
+          ],
+          "highYield": true
         }
       ]
     },
     {
-      "heading": "Treatment Adherence, Compliance & Concordance",
-      "bullets": [
+      "id": "treatment-adherence-concordance",
+      "title": "10. Treatment Adherence, Compliance & Concordance",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Tacchi & Scott (2005) terminology: Compliance implies a passive patient, has a paternal connotation, is one-dimensional, outcome-focused ('adhered or not'), and labels non-compliance 'bad behaviour'. Adherence has a more dynamic sense, implies a spectrum of behaviours, but still concentrates on outcome ('medication-taking behaviour'). Concordance is an 'expert patient' philosophy that legitimises doctor–patient differences, implies negotiation as a key factor, respects patient preference, and stresses process over outcome.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -421,6 +957,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "The treatment gap (gap between efficacy and real-world effectiveness) has causes including drug factors (side effects, idiosyncratic inefficiency) and patient factors (comorbid illness, health beliefs, stigma, influence of others). Kohn (2004, **WHO** Bulletin) from community epidemiological studies: worldwide 32% of psychosis is untreated (falling to 18% in Europe); 40% of bipolar disorder untreated in Europe; >50% of depression and anxiety untreated.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -428,6 +965,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Non-adherence is the single most important factor increasing hospitalisation risk in severe mental illness (Weiden, 2004, California Medicaid data). Haynes (2001, Cochrane review): improving adherence can have a greater impact on population health than any other specific health intervention. Median continuous **lithium** use in bipolar disorder is estimated at only 76 days.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -435,6 +973,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Measuring compliance: subjective measures (both patients and physicians overestimate actual compliance rates); objective measures include pill counts, cumulative possession ratio (days of treatment received / days eligible), serum drug levels, and electronic bottle-cap 'pop' recordings (**MEMS** — medication event monitoring system).",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -442,6 +981,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Myths about adherence: (a) non-adherence is **NOT** specific to mental illness — **WHO**'s 2003 'Adherence to Long-term Therapies' report found 30–40% non-adherence even in chronic medical illness such as diabetes; (b) adherence is **NOT** all-or-none — it ranges across complete non-adherence, non-satisfactory, partial, satisfactory and full adherence; (c) newer drugs with fewer side effects do **NOT** drastically change overall adherence rates — side-effect-driven non-adherence specifically may fall, but overall rates remain largely unchanged.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -451,9 +991,11 @@
       ]
     },
     {
-      "heading": "Medicolegal — Human Rights in Mental Health",
-      "bullets": [
+      "id": "medicolegal-human-rights",
+      "title": "11. Medicolegal — Human Rights in Mental Health",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Most common human-rights violations experienced by the mentally ill (Drew et al., 2011): exclusion, marginalisation and discrimination in the community; denial/restriction of employment and educational opportunities; physical abuse/violence; inability to access effective mental health services; arbitrary detention; denial of opportunities for marriage/right to found a family; lack of means to live independently in the community; denial of access to general health/medical services; financial exploitation.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -461,6 +1003,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Marriage legislation in many low- and middle-income countries treats being of 'unsound mind' or having a long-term mental health condition as grounds for divorce, and the right to marry/have children is often denied on grounds of mental illness (Drew et al., 2011). Strategies to improve human rights in mental health (Drew et al., 2011): public-awareness/anti-stigma campaigns and rights education; better professional training and support for community mental health services; empowerment/rehabilitation/participation of people with mental disability in their communities; effective, humane laws and policies; support for patient organisations; monitoring/assessment of human rights; integrating mental health into overall health/development policy.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -468,6 +1011,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Hospitalised patients retain the right to vote if registered on the electoral list; the right is restricted if detained under criminal sections by Court direction or transferred from prison.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -475,6 +1019,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**ECHR** articles relevant to psychiatric practice: Art. 2 (right to life) — the state must investigate all deaths in detention including suicide, for both formal and informal patients. Art. 3 (prohibition of torture) — cannot be justified in any circumstance; prescribed treatment causing intolerable side effects does not itself breach Art. 3; issues most often arise around seclusion/detention. Art. 5 (right to liberty) — detention for treating mental disorder is **ECHR**-acknowledged; issues arise from tribunal-review delays, detentions non-compliant with **MHA** 1983/**MCA** 2005/DoLS, and prolonged restraint/seclusion or delayed discharge.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -482,18 +1027,99 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Art. 6 (fair hearing) cannot be interfered with in any circumstance — applies to mental health review tribunals and the Court of Protection. Art. 8 (private/family life) — issues include permitting family visits, home leave, restricting correspondence, and prohibiting activities like smoking in care homes. Art. 9 (freedom of thought/religion) is a qualified right, interferable to protect public safety/order — issues include failing to provide worship space or appropriate diet, or requiring mixed-sex wards. Art. 10 (freedom of expression) can be restricted for national security/public safety — **MHA** tribunal and Court of Protection proceedings are usually private. Art. 12 (right to marry) — a patient detained under s.2 **MHA** may not be able to enter a marriage contract. Art. 14 (non-discrimination) covers race, religion, nationality, disability and gender.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
             "page": 25
           }
+        },
+        {
+          "type": "table",
+          "title": "ECHR articles with specific psychiatric relevance",
+          "columns": [
+            "Article",
+            "Right",
+            "Common clinical-practice issue"
+          ],
+          "rows": [
+            [
+              "Article 2",
+              "Right to life",
+              "State must investigate all deaths in detention, including suicide (formal and informal patients)"
+            ],
+            [
+              "Article 3",
+              "Prohibition of torture",
+              "Seclusion/detention mishandling; prescribed treatment causing side effects alone does not breach this"
+            ],
+            [
+              "Article 5",
+              "Right to liberty",
+              "Tribunal delays; detention non-compliant with **MHA** 1983/**MCA** 2005/DoLS; prolonged restraint/seclusion; delayed discharge"
+            ],
+            [
+              "Article 6",
+              "Right to a fair hearing",
+              "**MHA** tribunals and Court of Protection; cannot be interfered with"
+            ],
+            [
+              "Article 8",
+              "Private/family life",
+              "Family visits, home leave, correspondence, smoking restrictions on wards"
+            ],
+            [
+              "Article 9",
+              "Freedom of thought/religion",
+              "Lack of worship space, dietary needs, mixed-sex wards (qualified right)"
+            ],
+            [
+              "Article 10",
+              "Freedom of expression",
+              "**MHA** tribunal/**COP** proceedings usually private; restrictable for public safety"
+            ],
+            [
+              "Article 12",
+              "Right to marry",
+              "Patient detained under s.2 **MHA** may be unable to enter a marriage contract"
+            ],
+            [
+              "Article 14",
+              "Non-discrimination",
+              "Race, religion, nationality, disability, gender"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 25
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 2
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Human Rights Act **EMI** matching frequently confuses similar-sounding articles: failure to organise a mental health tribunal during a 4-month detention is Article 6 (fair hearing), **NOT** Article 5 (liberty); denial of family visits is Article 8, **NOT** Article 3; and a patient left unwashed/undressed after restraint is Article 3 (torture/degrading treatment), **NOT** Article 8 — match the specific right being violated, not just 'this seems like a ward-restriction issue'.",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 2
+          }
         }
       ]
     },
     {
-      "heading": "Medicolegal — Driving, Capacity, Consent & Confidentiality",
-      "bullets": [
+      "id": "medicolegal-driving-capacity-consent",
+      "title": "12. Medicolegal — Driving, Capacity, Consent & Confidentiality",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "The **DVLA** is legally responsible for deciding fitness to drive, but doctors must inform patients how their condition could impair driving and encourage self-reporting to **DVLA** (patients may seek a second opinion if they disagree). If a patient continues driving while unfit, the doctor can override confidentiality and inform the authorities able to stop them — but must first inform the patient of that decision.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -501,6 +1127,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Group 1 (car/motorcycle) drivers with acute psychosis of any cause, hypomania/mania, schizophrenia, or other chronic psychosis must stop driving during acute illness. Relicensing requires **ALL** of: well and stable ≥3 months; treatment-compliant; free from medication side effects that would impair driving; a favourable specialist report; and (for bipolar mania/hypomania) regained insight. Group 2 (**HGV**) drivers with the same conditions must stop driving pending medical enquiry and need to be well/stable with insight for a minimum of 3 years before resuming.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -508,6 +1135,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Group 1 drivers with severe anxiety or depression should stop driving pending medical enquiry, resuming after a period of stability that depends on individual circumstances (not required for mild depression/anxiety managed in primary care). Group 2 drivers with severe anxiety or depression may resume only once well and stable for 6 months. In dementia, Group 1 licences are subject to annual review in early stages, while Group 2 licences are revoked.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -515,6 +1143,75 @@
           }
         },
         {
+          "type": "table",
+          "title": "DVLA fitness-to-drive criteria — psychiatric conditions",
+          "columns": [
+            "Driver group",
+            "Condition",
+            "Requirement to resume driving"
+          ],
+          "rows": [
+            [
+              "Group 1 (car/motorcycle)",
+              "Acute psychosis/mania/hypomania/schizophrenia",
+              "Well & stable ≥3 months, treatment-compliant, no impairing drug side effects, favourable specialist report, insight regained (if bipolar)"
+            ],
+            [
+              "Group 2 (**HGV**)",
+              "Acute psychosis/mania/hypomania/schizophrenia",
+              "Well & stable with insight for ≥3 years"
+            ],
+            [
+              "Group 1",
+              "Severe anxiety/depression",
+              "Cease pending medical enquiry; resume after a variable stability period (not required for mild illness managed in primary care)"
+            ],
+            [
+              "Group 2",
+              "Severe anxiety/depression",
+              "Well & stable for 6 months"
+            ],
+            [
+              "Group 1",
+              "Dementia",
+              "Licence subject to annual review in early stages"
+            ],
+            [
+              "Group 2",
+              "Dementia",
+              "Licence revoked"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 25
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+              "page": 28,
+              "questionNumber": 28
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+              "page": 33,
+              "questionNumber": 33
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+              "page": 34,
+              "questionNumber": 34
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "gap",
+          "subtopic": "DVLA 'Assessing fitness to drive' guidance currency",
+          "note": "The driving criteria and specific stand-down periods summarised here (e.g. 3 months/3 years/6 months) come from the **SPMM** book notes and question-bank explanations, which may reflect an older edition of **DVLA** guidance. Cross-check exact current stand-down periods and conditions against the current **DVLA** 'Assessing fitness to drive — a guide for medical professionals' document before relying on them in a live scenario."
+        },
+        {
+          "type": "paragraph",
           "text": "Consent requires information + competency + autonomy (competence + information → understanding; understanding + autonomy → decision; decision + communication → consent). A competent adult may refuse any treatment, including life-saving measures (forcing treatment on them constitutes battery); withholding procedural information from a competent adult constitutes negligence. Incompetent adults are managed per the Mental Capacity Act 2005 — check for a previously appointed attorney or advance directive, and use substituted judgment to reach a best-interest decision; relatives may advise on best interests but cannot themselves give/withhold consent unless legally sanctioned as a health attorney.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -522,6 +1219,28 @@
           }
         },
         {
+          "type": "trap",
+          "text": "An acutely psychotic patient refusing medication despite feeling 'safe' on the ward — the expected first move is negotiation about the benefits of medication, not immediate legal/coercive escalation; the exam rewards de-escalation before invoking formal powers.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Consent chain",
+          "mnemonic": "I-C-A → U-D-C (Information + Competency + Autonomy → Understanding, Decision, Consent)",
+          "expansion": [
+            "Information + Competence → Understanding",
+            "Understanding + Autonomy → Decision",
+            "Decision + Communication → Consent"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
           "text": "Children under 18 should not be allowed to come to serious harm on the grounds of refused consent (by the minor or their parents) for necessary/urgent treatment. Ages 16–17 are presumed to have capacity unless shown otherwise. A Gillick-competent child can consent, but if they refuse, parents or a court can override that refusal; if not Gillick-competent, a parent can consent in the child's best interests. Implied consent (e.g. a patient holding out an arm for a blood-pressure cuff) needs no explicit consent step.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -529,6 +1248,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Capacity is presumed by default; an imprudent decision alone is not sufficient to suspect incapacity. Capacity is task-specific, not global, requiring comprehension/retention, ability to weigh consequences, and ability to communicate the decision. The MacArthur Treatment Competence Study (1988) identified four legally-relevant abilities — Choosing, Understanding, Appreciating, Reasoning — operationalised in the MacArthur Competence Assessment Tool (MacCAT) family: MacCAT-CR (clinical research), MacCAT-T (treatment decisions), MacCAT-**CA** (criminal adjudication). Hoge et al. developed the MacArthur Structured Assessment of the Competence of Criminal Defendants (MacSAC-**CD**) to assess fitness to plead based on legal competence theory.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -536,6 +1256,19 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "MacArthur Competence Assessment Tool — 4 legally relevant abilities",
+          "mnemonic": "CURA",
+          "expansion": [
+            "Choosing — ability to state a choice",
+            "Understanding — ability to understand relevant information",
+            "Reasoning — ability to reason with the information",
+            "Appreciating — ability to appreciate the nature of one's own situation"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
           "text": "Medical negligence is the most common reason doctors attend court, usually arising from dereliction of duty directly causing harm to the claimant (the '4 Ds'). The **UK**'s Bolam test requires a doctor to exercise the ordinary skill of a competent practitioner in the field — a profession-based, not patient-based, standard.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -543,18 +1276,56 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Confidentiality exceptions (beyond **GMC** guidance) include: court order; statutory obligations to aid legal proceedings (e.g. Misuse of Drugs Act, Road Traffic Act, Police and Criminal Evidence Act, Terrorism Prevention legislation); Venereal Diseases Regulations (to prevent public hazard from communicable disease); and disclosure on a need-to-know basis. The Tarasoff case (**USA**) established the 'duty to warn' identifiable third parties of danger disclosed by a patient — this duty to warn is not legislated in England & Wales.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
             "page": 29
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Confidentiality — current GMC guidance detail",
+          "note": "The notes state statutory disclosure exceptions and the Tarasoff 'duty to warn' concept but explicitly defer detail to '**GMC** guidelines' without reproducing them. Verify the exact current **GMC** confidentiality guidance (Confidentiality: good practice in handling patient information) if a question requires precise disclosure thresholds beyond the general exceptions listed here."
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "The MacArthur Competence Assessment Tool family is most associated with fitness to plead via Hoge et al.'s MacSAC-**CD** variant — don't conflate this with the more general MacCAT-T (treatment decisions) when a question specifically frames the scenario around legal/criminal competence.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "Capacity is explicitly a **LEGAL**, not a medical, concept — a recurring one-line factual trap independent of clinical scenario detail.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "'To support social benefit claims' is **NOT** a recognised statutory public-interest disclosure exception — the genuine list is communicable diseases, controlled drugs, unfitness to drive, suspected child abuse, court order, and evidence of major crime; the exam inserts a plausible-sounding but wrong 'benefit claims' option.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 35
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "heading": "Seclusion, Restraint & Safeguarding",
-      "bullets": [
+      "id": "seclusion-restraint-safeguarding",
+      "title": "13. Seclusion, Restraint & Safeguarding",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Seclusion = involuntary confinement of a patient in a space from which they are physically prevented from moving freely, used inpatient to manage violent/self-destructive behaviour. Restraint = use of a physical, manual, material or mechanical method to immobilise/restrict a patient's freedom of movement. Pharmacological restraint = using a drug outside the patient's standard treatment/dosage specifically to restrict behaviour or movement. Both must stop as soon as practically possible; though often experienced as traumatic/a form of social control, lawful and proportionate seclusion does not necessarily breach Human Rights — the landmark case is Munjaz v Ashworth Hospital.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -562,6 +1333,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "A vulnerable adult ('No Secrets', **DH** 2000) is a person who may need community care services because of mental/other disability, age or illness, and who may be unable to protect themselves from significant harm/exploitation. Abuse occurs most often in a person's own home (41%) or a care home (34%); family members are perpetrators in 25% of cases, care-home staff in a further 25%. Abuse types: physical (30%), neglect (23%, including omission-based withdrawal of help), financial (20%), emotional/psychological (16%), sexual (6%). Institutional abuse is often linked to poor staff training and inflexible treatment regimes.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -569,6 +1341,59 @@
           }
         },
         {
+          "type": "table",
+          "title": "Vulnerable adult abuse — location, perpetrators & type",
+          "columns": [
+            "Category",
+            "Breakdown"
+          ],
+          "rows": [
+            [
+              "Most frequent location",
+              "Person's own home (41%), then a care home (34%)"
+            ],
+            [
+              "Perpetrators",
+              "Family members (25%), care-home staff (a further 25%)"
+            ],
+            [
+              "Abuse type",
+              "Physical (30%), neglect (23%), financial (20%), emotional/psychological (16%), sexual (6%)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/6-psychiatric-services.pdf",
+              "page": 29
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Vulnerable adult abuse types, ranked by frequency",
+          "mnemonic": "PNFES (Physical > Neglect > Financial > Emotional > Sexual)",
+          "expansion": [
+            "Physical — 30%",
+            "Neglect — 23%",
+            "Financial — 20%",
+            "Emotional/psychological — 16%",
+            "Sexual — 6%"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Finding an undocumented bruise on ward review — the expected next step is informing the nursing/consultant team promptly, **NOT** jumping straight to a safeguarding referral or accusatory conclusion from sparse information; the exam penalises premature escalation as much as under-reaction.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 18
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Safeguarding Adults (**DH**, 2011) six principles: empowerment (person-led decisions and consent); protection, support and representation for those in greatest need; prevention of harm or abuse; proportionality and the least intrusive appropriate response to risk; partnerships providing local, community-based solutions; accountability and transparency.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -576,6 +1401,12 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Safeguarding legal framework currency",
+          "note": "The safeguarding principles here derive from 'No Secrets' (**DH**, 2000) and the 2011 Safeguarding Adults six principles. In England, the statutory safeguarding framework is now the Care Act 2014 (which formalised these six principles in law). The six principles themselves remain accurate, but verify any exam question implying a specific current statutory basis against the Care Act 2014 rather than 'No Secrets'."
+        },
+        {
+          "type": "paragraph",
           "text": "Child maltreatment risk factors fall into four domains. Parent/caregiver: low self-esteem, external locus of control, poor impulse control, depression/anxiety/antisocial behaviour, own history of maltreatment (about one-third of maltreated individuals will maltreat their own children), substance abuse, unrealistic/negative expectations of the child, and younger parental age (teenage mothers/young parents abuse more often). Family: marital conflict, domestic violence, single parenthood, unemployment, financial stress, social isolation — single-parent households have a child-abuse rate of 27.3/1,000 (nearly double two-parent households), and 30–60% of families with spousal abuse also have child maltreatment.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -583,6 +1414,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Family history of schizophrenia is the deliberate distractor among child-abuse risk factors — it is depression (not schizophrenia) that is a strong parental risk factor for child physical abuse; social/demographic variables are otherwise only limited predictors of maltreatment.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Child: documented maltreatment rate is highest between birth and 3 years of age; children with disabilities are 1.7x more likely to be maltreated than those without. Protective factors: emotionally satisfying relationships, a network of relatives/friends, and — for parents who were themselves abused — resolution of internal conflict plus an intact, stable, supportive, non-abusive partner relationship.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -590,6 +1432,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Finkelhor's (1988) traumagenic dynamics model proposes the adverse effects of child sexual abuse depend on the presence/absence of four factors: powerlessness, betrayal, traumatic sexualisation, stigmatisation. The 'child abuse accommodation syndrome' describes ongoing, unreported abuse via: secrecy (fear of consequences); helplessness under ongoing threat; entrapment/accommodation damaging personality development; delayed and unconvincing disclosure at times of family conflict (often met with rejection/disbelief); and retraction of disclosure under threat of family disintegration.",
           "source": {
             "file": "books/6-psychiatric-services.pdf",
@@ -599,9 +1442,11 @@
       ]
     },
     {
-      "heading": "Epidemiology & Ethnicity — Question-Bank Additions",
-      "bullets": [
+      "id": "epidemiology-ethnicity-qbank",
+      "title": "14. Epidemiology & Ethnicity — Question-Bank Additions",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "ESEMeD (European Study of the Epidemiology of Mental Disorders, part of the **WHO** World Mental Health survey initiative): only about one-third of Europeans identified with a past-year mental health problem consulted a **GP** in the preceding 12 months, while 21% saw a psychiatrist; roughly one-third of those who sought any help never saw a mental health professional at all.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
@@ -610,6 +1455,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "The **AESOP** study estimated ethnic-group differences in **UK** psychosis incidence: all psychoses were more common in Black and minority ethnic groups than White populations across Bristol, south-east London and Nottingham (crude **IRR** 3.6, adjusted **IRR** 2.9 after age/sex/centre); age-sex standardised incidence was highest in south-east London. **AESOP** also found African Caribbeans have the highest **UK** risk of bipolar affective disorder.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
@@ -618,6 +1464,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "About 5–10% of people seen in **UK** primary care have major depressive disorder (Butler et al., Clinical Evidence 2005). Prevalence of hallucinatory experiences in healthy British community respondents was ~4% in the **ONS** 2000 Psychiatric Morbidity Survey (5.5% endorsed ≥1 psychosis item; 4.2% endorsed a hallucination item; only 0.7% reported hearing voices saying several words with no one present, Johns 2004).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
@@ -626,6 +1473,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**NESARC** data: mean age of onset of depression is 30 years; mean number of lifetime episodes is 5; longest episode duration averaged 24 weeks; mean age of first treatment contact is 33.5 years, i.e. an average 3-year treatment lag; women receive psychiatric treatment more often and earlier than men (50.5% of men in the sample received no treatment at all).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
@@ -634,6 +1482,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**AESOP** found insidious onset (psychotic symptoms emerging incrementally over >1 month) is independently associated with substantially longer duration of untreated psychosis (**DUP**) than acute onset, an effect independent of other factors; unemployment has a similar but weaker effect, while family involvement in help-seeking independently predicts shorter **DUP**. Separately, negative symptoms are described as the most crucial illness-related factor prolonging **DUP**, alongside insidious onset and premorbid dysfunction.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
@@ -642,6 +1491,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Low concordance with prescribing advice is predicted by younger patient age — the younger the patient, the poorer the concordance in adults. Socioeconomic classifications recognised by the Office for National Statistics do not include a separate 'part-time employed' category.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
@@ -650,805 +1500,90 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**EMI** prevalence figures for the **UK** (Adult Psychiatric Morbidity in England, 2007, and related sources): one in four adults will experience an episode of mental illness in their lifetime; one in six people are living with a mental health problem at any one time; among people aged >65 in the community, depressive syndromes considered clinically relevant have an average prevalence of ~1 in 7 (13.3%; strict-criteria major depression alone is rarer at 1.8%, minor depression 10.2%, Beekman et al. 1999); about one in ten patients with a depressive episode develop a chronic course (Kessler et al., 2003), while 50% still carry a depression diagnosis at 1 year (Simon et al., 2002, **WHO** 14-centre study).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
             "page": 6,
             "questionNumber": 3
           }
+        },
+        {
+          "type": "trap",
+          "text": "An **EMI** drills four different epidemiological denominators for **UK** mental illness that are easy to conflate: 'one in four' = lifetime risk of any mental illness episode; 'one in six' = point prevalence of living with a mental health problem; 'one in seven' (13.3%) = prevalence of any clinically-relevant depressive syndrome in the over-65 community population; 'one in ten' = proportion of depressive episodes that become chronic — memorise which fraction answers which specific question.",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "\"Proportion of Europeans with a mental health problem who attend their **GP**\" — the tested figure is one-third (ESEMeD), not the more intuitive 50% or 67%; a further one-third of help-seekers never see any mental health professional at all.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "The study that quantified **UK** ethnic differences in psychosis incidence is **AESOP**, not ESEMeD, PRiSM Psychosis, or **UK700** — each of those is a distinct named **UK**/European study and the options are designed to be confused with one another.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "**AESOP** found African Caribbeans have the highest **UK** incidence of bipolar affective disorder specifically — don't default to assuming **AESOP**'s ethnicity findings apply only to schizophrenia/psychosis broadly.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "Low concordance with prescribing advice is predicted by **YOUNGER** (not older) patient age — a counter-intuitive direction that is easy to reverse under exam pressure.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 9
+              }
+            },
+            {
+              "text": "'Part-time employed' is a deliberate distractor for **ONS** socioeconomic classification — the **ONS** scheme does not recognise part-time employment as its own separate class.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 10
+              }
+            },
+            {
+              "text": "Two closely related but distinct **DUP** questions are both tested: the strongest overall predictor of long **DUP** is insidious mode of onset (**AESOP**), while the most crucial specifically illness-related factor is negative symptoms — read the stem carefully, as both 'insidious onset' and 'negative symptoms' are correct answers to differently-worded questions.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 11
+              }
+            }
+          ]
         }
       ]
-    }
-  ],
-  "tables": [
+    },
     {
-      "title": "Prevention models — traditional public health vs Institute of Medicine (1994)",
-      "columns": [
-        "Traditional type",
-        "Aim",
-        "IOM equivalent (pre-onset only)",
-        "Target group",
-        "Example"
-      ],
-      "rows": [
-        [
-          "Primary prevention",
-          "Reduce incidence by preventing new cases",
-          "Universal preventive intervention",
-          "Entire population regardless of risk",
-          "Vaccines; reducing adverse social factors; water fluoridation; seatbelt laws"
-        ],
-        [
-          "Secondary prevention",
-          "Reduce total existing cases via rapid effective treatment",
-          "Selective preventive intervention",
-          "Subgroups with higher-than-average risk factors",
-          "Screening programmes; early intervention in psychosis; lifestyle modification for hyperlipidaemia"
-        ],
-        [
-          "Tertiary prevention",
-          "Reduce prevalence of residual defects/disability; maximise functioning",
-          "Indicated preventive intervention",
-          "Individuals with subsyndromal/detectable signs not yet meeting diagnostic criteria",
-          "Relapse prevention; rehabilitation; early **ID** of psychotic prodrome"
-        ]
-      ],
-      "sources": [
+      "id": "coverage-gaps",
+      "title": "15. Coverage Gaps & Flags",
+      "blocks": [
         {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 2
+          "type": "gap",
+          "subtopic": "Mental Health Act 1983 / Mental Capacity Act 2005 detailed provisions",
+          "note": "This topic's source notes mention the **MHA**/**MCA** only briefly (e.g. in the context of **DVLA**, **ECHR** Article 5, and incapacity/best-interest decision-making) without covering sections, detention criteria, or tribunal procedure in depth. Fuller **MHA**/**MCA**/DoLS content is likely covered under the Forensic Psychiatry topic — do not assume this guide gives complete legal-framework coverage; cross-check against that topic and current **MHA**/**MCA** case law/Code of Practice."
         }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "ECT — indications by condition",
-      "columns": [
-        "Condition",
-        "Indication for ECT"
-      ],
-      "rows": [
-        [
-          "Depressive illness",
-          "First-line if rapid response needed, or treatment-resistant with prior good **ECT** response; preferred with food/fluid refusal, high suicide risk, stupor, marked psychomotor retardation, psychotic depression, or pregnancy"
-        ],
-        [
-          "Mania",
-          "Life-threatening physical exhaustion, or prolonged/severe mania unresponsive to all appropriate drug treatment"
-        ],
-        [
-          "Schizophrenia",
-          "Rarely-used 4th-line option after failure of 2 antipsychotics then **clozapine**"
-        ],
-        [
-          "Catatonia",
-          "When benzodiazepine (usually **lorazepam**) has failed"
-        ],
-        [
-          "Parkinson's disease",
-          "Adjunctive for motor/psychotic/affective symptoms with severe disability"
-        ],
-        [
-          "Others",
-          "Neuroleptic malignant syndrome; intractable seizure disorders (raises seizure threshold)"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 6
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Psychosurgery — stereotactic procedures",
-      "columns": [
-        "Procedure",
-        "Lesion location",
-        "Main use"
-      ],
-      "rows": [
-        [
-          "Subcaudate tractotomy",
-          "Beneath the head of each caudate nucleus, rostral orbital cortex",
-          "Treatment of choice for mood disorder"
-        ],
-        [
-          "Anterior cingulotomy",
-          "Bilateral lesions within the cingulate bundles",
-          "Combined into limbic leucotomy"
-        ],
-        [
-          "Limbic leucotomy",
-          "Subcaudate tractotomy + anterior cingulotomy combined",
-          "**OCD**"
-        ],
-        [
-          "Anterior capsulotomy",
-          "Bilateral lesions in the anterior limb of the internal capsule",
-          "**OCD**"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 6
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Deep brain stimulation — reported surgical complication rates",
-      "columns": [
-        "Complication",
-        "Reported rate"
-      ],
-      "rows": [
-        [
-          "Infection (most common)",
-          "0–15% per patient; 0–9.7% per electrode"
-        ],
-        [
-          "Intracranial haemorrhage",
-          "0–4.5%"
-        ],
-        [
-          "Stroke",
-          "0–2%"
-        ],
-        [
-          "Postoperative seizure",
-          "0–4% (typically ~2%); epilepsy risk essentially nil"
-        ],
-        [
-          "Death",
-          "0–4.4%"
-        ],
-        [
-          "Postoperative depression",
-          "1.5–25% (literature review of case series)"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 6
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "DVLA fitness-to-drive criteria — psychiatric conditions",
-      "columns": [
-        "Driver group",
-        "Condition",
-        "Requirement to resume driving"
-      ],
-      "rows": [
-        [
-          "Group 1 (car/motorcycle)",
-          "Acute psychosis/mania/hypomania/schizophrenia",
-          "Well & stable ≥3 months, treatment-compliant, no impairing drug side effects, favourable specialist report, insight regained (if bipolar)"
-        ],
-        [
-          "Group 2 (**HGV**)",
-          "Acute psychosis/mania/hypomania/schizophrenia",
-          "Well & stable with insight for ≥3 years"
-        ],
-        [
-          "Group 1",
-          "Severe anxiety/depression",
-          "Cease pending medical enquiry; resume after a variable stability period (not required for mild illness managed in primary care)"
-        ],
-        [
-          "Group 2",
-          "Severe anxiety/depression",
-          "Well & stable for 6 months"
-        ],
-        [
-          "Group 1",
-          "Dementia",
-          "Licence subject to annual review in early stages"
-        ],
-        [
-          "Group 2",
-          "Dementia",
-          "Licence revoked"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 25
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-          "page": 28,
-          "questionNumber": 28
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-          "page": 33,
-          "questionNumber": 33
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-          "page": 34,
-          "questionNumber": 34
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "ECHR articles with specific psychiatric relevance",
-      "columns": [
-        "Article",
-        "Right",
-        "Common clinical-practice issue"
-      ],
-      "rows": [
-        [
-          "Article 2",
-          "Right to life",
-          "State must investigate all deaths in detention, including suicide (formal and informal patients)"
-        ],
-        [
-          "Article 3",
-          "Prohibition of torture",
-          "Seclusion/detention mishandling; prescribed treatment causing side effects alone does not breach this"
-        ],
-        [
-          "Article 5",
-          "Right to liberty",
-          "Tribunal delays; detention non-compliant with **MHA** 1983/**MCA** 2005/DoLS; prolonged restraint/seclusion; delayed discharge"
-        ],
-        [
-          "Article 6",
-          "Right to a fair hearing",
-          "**MHA** tribunals and Court of Protection; cannot be interfered with"
-        ],
-        [
-          "Article 8",
-          "Private/family life",
-          "Family visits, home leave, correspondence, smoking restrictions on wards"
-        ],
-        [
-          "Article 9",
-          "Freedom of thought/religion",
-          "Lack of worship space, dietary needs, mixed-sex wards (qualified right)"
-        ],
-        [
-          "Article 10",
-          "Freedom of expression",
-          "**MHA** tribunal/**COP** proceedings usually private; restrictable for public safety"
-        ],
-        [
-          "Article 12",
-          "Right to marry",
-          "Patient detained under s.2 **MHA** may be unable to enter a marriage contract"
-        ],
-        [
-          "Article 14",
-          "Non-discrimination",
-          "Race, religion, nationality, disability, gender"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 25
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
-          "page": 4,
-          "questionNumber": 2
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Models of delivering community care",
-      "columns": [
-        "Model",
-        "Key feature"
-      ],
-      "rows": [
-        [
-          "Brokerage",
-          "Worker coordinates services without directly providing care"
-        ],
-        [
-          "Case management",
-          "One professional holds long-term, all-domain responsibility; stresses continuity"
-        ],
-        [
-          "Assertive community treatment (**ACT**)",
-          "Team-based, caseload is the strongest outcome predictor (**UK700**); reduces admissions/A&E use"
-        ],
-        [
-          "Intensive case management",
-          "**ACT** principles with smaller caseloads for hard-to-engage patients; risks staff burnout"
-        ],
-        [
-          "Personal strengths model",
-          "Patient directs the process; no imposed goals; community as a resource"
-        ],
-        [
-          "Rehabilitation model",
-          "Similar to personal strengths model but retains a deficit-focused assessment plan"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 16
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Care Programme Approach — requirements, levels & 'modernising' changes",
-      "columns": [
-        "Component",
-        "Detail"
-      ],
-      "rows": [
-        [
-          "Origin",
-          "Spokes Inquiry into the care of Sharon Campbell, who killed her social worker (**DHSS**, 1988); introduced 1991"
-        ],
-        [
-          "5 basic requirements",
-          "Health/social needs assessment; written care plan; user involvement in drafting it; regular review; a named coordinating worker"
-        ],
-        [
-          "Levels (1999)",
-          "Enhanced (regular **MDT** review meetings needed) vs Standard (not needed)"
-        ],
-        [
-          "Modernising **CPA** changes",
-          "Merge with care management into single care coordination; appoint cross-agency lead officer; use as a delivery framework not just after-care; abolish supervision registers; rename key worker to 'care coordinator'"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 16
-        },
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 18
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-          "page": 39,
-          "questionNumber": 39
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-          "page": 41,
-          "questionNumber": 41
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Vocational rehabilitation models compared",
-      "columns": [
-        "Model",
-        "Key feature",
-        "Origin/example"
-      ],
-      "rows": [
-        [
-          "Skills/prevocational training",
-          "Improves outcomes, reduces service demand, raises employment chances",
-          "NVQs, vocational practice, sheltered workshops"
-        ],
-        [
-          "Transitional employment (**TE**)",
-          "Time-limited, supported work; positions owned by the clubhouse",
-          "Fountain House clubhouse model, 1948; ~6-month rotations"
-        ],
-        [
-          "Sheltered employment",
-          "Reserved-entry, segregated workforce; often not commercially viable",
-          "Remploy, **UK**"
-        ],
-        [
-          "Supported employment (**SE**)",
-          "'Place and train' not 'train and place'; minimal prevocational training; job coach/**ACT**/individual placement and support",
-          "Drake & Becker model, prominent from the 1990s"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 22
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Vulnerable adult abuse — location, perpetrators & type",
-      "columns": [
-        "Category",
-        "Breakdown"
-      ],
-      "rows": [
-        [
-          "Most frequent location",
-          "Person's own home (41%), then a care home (34%)"
-        ],
-        [
-          "Perpetrators",
-          "Family members (25%), care-home staff (a further 25%)"
-        ],
-        [
-          "Abuse type",
-          "Physical (30%), neglect (23%), financial (20%), emotional/psychological (16%), sexual (6%)"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/6-psychiatric-services.pdf",
-          "page": 29
-        }
-      ],
-      "highYield": true
-    }
-  ],
-  "mnemonics": [
-    {
-      "forTopic": "MacArthur Competence Assessment Tool — 4 legally relevant abilities",
-      "mnemonic": "CURA",
-      "expansion": [
-        "Choosing — ability to state a choice",
-        "Understanding — ability to understand relevant information",
-        "Reasoning — ability to reason with the information",
-        "Appreciating — ability to appreciate the nature of one's own situation"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "Consent chain",
-      "mnemonic": "I-C-A → U-D-C (Information + Competency + Autonomy → Understanding, Decision, Consent)",
-      "expansion": [
-        "Information + Competence → Understanding",
-        "Understanding + Autonomy → Decision",
-        "Decision + Communication → Consent"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "Recovery-oriented service characteristics",
-      "mnemonic": "SHARP-HERO (10 characteristics)",
-      "expansion": [
-        "Self-directed",
-        "Holistic",
-        "Achievement-oriented (strengths-based)",
-        "Respect-driven",
-        "Person-centred",
-        "Hope-instilling",
-        "Empowerment-focused",
-        "Responsibility-shared",
-        "Ongoing (non-linear, not stepwise)",
-        "(+ Peer-supported)"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "ACT model core principles",
-      "mnemonic": "TEAM CARE (memory hook for the 10 ACT principles)",
-      "expansion": [
-        "Team ownership of every case, not an individual case manager",
-        "Everything (bulk/core care) delivered by the team itself, no brokerage",
-        "As-needed (titrated) input",
-        "Mostly community-based work",
-        "Continuous service (time + functional continuity)",
-        "Aiming for functional improvement as the primary outcome",
-        "Ratio of staff to patients kept at ~1:10-15",
-        "Emergency 'backing off' rather than full withdrawal if a patient disengages"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "Types of prevention (traditional) vs IOM pre-onset model",
-      "mnemonic": "PST vs USI (Primary/Secondary/Tertiary vs Universal/Selective/Indicated)",
-      "expansion": [
-        "Primary ≈ Universal — whole-population, before any risk is individually identified",
-        "Secondary ≈ Selective/Indicated — targeted at higher-risk subgroups or those with subsyndromal signs",
-        "Tertiary has no **IOM** equivalent — **IOM** prevention stops at disorder onset; tertiary prevention is post-onset rehabilitation"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "Vulnerable adult abuse types, ranked by frequency",
-      "mnemonic": "PNFES (Physical > Neglect > Financial > Emotional > Sexual)",
-      "expansion": [
-        "Physical — 30%",
-        "Neglect — 23%",
-        "Financial — 20%",
-        "Emotional/psychological — 16%",
-        "Sexual — 6%"
-      ],
-      "sourced": false
-    }
-  ],
-  "examinerTraps": [
-    {
-      "text": "\"Proportion of Europeans with a mental health problem who attend their **GP**\" — the tested figure is one-third (ESEMeD), not the more intuitive 50% or 67%; a further one-third of help-seekers never see any mental health professional at all.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 1,
-        "questionNumber": 1
-      }
-    },
-    {
-      "text": "The study that quantified **UK** ethnic differences in psychosis incidence is **AESOP**, not ESEMeD, PRiSM Psychosis, or **UK700** — each of those is a distinct named **UK**/European study and the options are designed to be confused with one another.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 2,
-        "questionNumber": 2
-      }
-    },
-    {
-      "text": "**AESOP** found African Caribbeans have the highest **UK** incidence of bipolar affective disorder specifically — don't default to assuming **AESOP**'s ethnicity findings apply only to schizophrenia/psychosis broadly.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 4,
-        "questionNumber": 4
-      }
-    },
-    {
-      "text": "\"Delay in seeking psychiatric treatment is more common in all **EXCEPT**...\" — the correct **EXCEPT**-answer is being a working adult; delays are actually greater in developing countries, older cohorts, men, and earlier age of onset (pooled **WMH** data) — don't assume employment status itself is a tested delay factor.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 7,
-        "questionNumber": 7
-      }
-    },
-    {
-      "text": "Low concordance with prescribing advice is predicted by **YOUNGER** (not older) patient age — a counter-intuitive direction that is easy to reverse under exam pressure.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 9,
-        "questionNumber": 9
-      }
-    },
-    {
-      "text": "'Part-time employed' is a deliberate distractor for **ONS** socioeconomic classification — the **ONS** scheme does not recognise part-time employment as its own separate class.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 10,
-        "questionNumber": 10
-      }
-    },
-    {
-      "text": "Two closely related but distinct **DUP** questions are both tested: the strongest overall predictor of long **DUP** is insidious mode of onset (**AESOP**), while the most crucial specifically illness-related factor is negative symptoms — read the stem carefully, as both 'insidious onset' and 'negative symptoms' are correct answers to differently-worded questions.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 11,
-        "questionNumber": 11
-      }
-    },
-    {
-      "text": "Tertiary prevention means reducing handicap/disability from established disease (i.e. rehabilitation), **NOT** eliminating the illness itself — a frequently mis-selected option is 'reducing incidence', which describes primary, not tertiary, prevention.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 14,
-        "questionNumber": 14
-      }
-    },
-    {
-      "text": "The MacArthur Competence Assessment Tool family is most associated with fitness to plead via Hoge et al.'s MacSAC-**CD** variant — don't conflate this with the more general MacCAT-T (treatment decisions) when a question specifically frames the scenario around legal/criminal competence.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 15,
-        "questionNumber": 15
-      }
-    },
-    {
-      "text": "Capacity is explicitly a **LEGAL**, not a medical, concept — a recurring one-line factual trap independent of clinical scenario detail.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 17,
-        "questionNumber": 17
-      }
-    },
-    {
-      "text": "Finding an undocumented bruise on ward review — the expected next step is informing the nursing/consultant team promptly, **NOT** jumping straight to a safeguarding referral or accusatory conclusion from sparse information; the exam penalises premature escalation as much as under-reaction.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 18,
-        "questionNumber": 18
-      }
-    },
-    {
-      "text": "An acutely psychotic patient refusing medication despite feeling 'safe' on the ward — the expected first move is negotiation about the benefits of medication, not immediate legal/coercive escalation; the exam rewards de-escalation before invoking formal powers.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 19,
-        "questionNumber": 19
-      }
-    },
-    {
-      "text": "Universal vs selective prevention in pregnancy-related interventions is a fine distinction: improving prenatal nutrition/antenatal care broadly (all pregnant women) is classed as **UNIVERSAL** prevention, whereas targeting a specific risk factor like low birth weight within pregnant women is classed as **SELECTIVE** prevention (see the linked **EMI**) — the exam expects you to track whether the whole population or only a risk-defined subgroup is targeted.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 21,
-        "questionNumber": 21
-      }
-    },
-    {
-      "text": "The relapse rate quoted for **ECT** in the **MCQ** bank (one-third relapse despite maintenance **ECT**) differs numerically from the book notes' figure (51.1% relapse by 12 months, 37.7% within 6 months) — both are real cited figures from different sources; don't force them into a single number, and be alert to which framing ('maintenance **ECT** specifically' vs 'general post-**ECT** relapse') a question is using.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 23,
-        "questionNumber": 23
-      }
-    },
-    {
-      "text": "Pregnancy is a **RELATIVE** contraindication to **ECT**, not absolute — the book notes state there are no absolute contraindications to **ECT** at all, which itself is a frequently tested standalone fact.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 24,
-        "questionNumber": 24
-      }
-    },
-    {
-      "text": "Watch for another notes-vs-question wording mismatch around the **LEO**/**EPPIC** comparison: this question's explanation states the Lambeth Early Onset (**LEO**) study found 'remission rates were lower with specialised care', whereas the book notes state 'the relapse rates were lower with specialised care' for the same **LEO** comparison — these point to opposite conclusions about whether specialised care helped. Don't assume one figure is simply a typo of the other; note the discrepancy and lean on the notes' explicit 'relapse' framing (specialised, assertive-outreach-based care associated with fewer relapses) unless a specific question forces the 'remission' wording.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 44,
-        "questionNumber": 44
-      }
-    },
-    {
-      "text": "Family history of schizophrenia is the deliberate distractor among child-abuse risk factors — it is depression (not schizophrenia) that is a strong parental risk factor for child physical abuse; social/demographic variables are otherwise only limited predictors of maltreatment.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 26,
-        "questionNumber": 26
-      }
-    },
-    {
-      "text": "Freeman (with Watts) is associated with transorbital leucotomy in the **US** (1946) — a distinct historical figure/procedure from Moniz & Lima's earlier pre-frontal leucotomy; the exam tests these as separate factual pairings.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 32,
-        "questionNumber": 32
-      }
-    },
-    {
-      "text": "'To support social benefit claims' is **NOT** a recognised statutory public-interest disclosure exception — the genuine list is communicable diseases, controlled drugs, unfitness to drive, suspected child abuse, court order, and evidence of major crime; the exam inserts a plausible-sounding but wrong 'benefit claims' option.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 35,
-        "questionNumber": 35
-      }
-    },
-    {
-      "text": "Rose's Prevention Paradox is regularly tested with near-identical distractor wording ('universal is best for individuals' vs 'high-risk targeting is best for individuals but universal wins at population level') — read to the end of each option before choosing; the two SBAs sampled here use almost the same stem with subtly reordered clauses.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 36,
-        "questionNumber": 36
-      }
-    },
-    {
-      "text": "Early recognition of alcohol misuse using screening questionnaires is **SECONDARY** prevention (early detection of existing/incipient cases), not primary — a frequently mis-selected option in 'which is **NOT** primary prevention' framing.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 37,
-        "questionNumber": 37
-      }
-    },
-    {
-      "text": "The Care Programme Approach's origin — the Spokes Inquiry into Sharon Campbell, who killed her social worker — is a specific historical trigger fact the exam expects verbatim, not just 'introduced in the 1990s for care coordination'.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 39,
-        "questionNumber": 39
-      }
-    },
-    {
-      "text": "'Backing off' in assertive outreach/**ACT** jargon specifically means reducing (not withdrawing) input when a patient disengages — distinct from the other **ACT** principles (titrated input, team ownership, etc.); the exam uses a realistic clinical vignette to test recognition of this specific term.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
-        "page": 42,
-        "questionNumber": 42
-      }
-    },
-    {
-      "text": "**TMS** targets the **DLPFC** and does **NOT** cause amnesia, in direct contrast to **ECT**'s amnesia profile — this **ECT**-vs-**TMS** side-effect contrast is the discriminating feature in **EMI** matching of neuromodulation therapies, alongside **DBS**'s subdermal pacemaker (Tourette's) and psychosurgery's gamma-radiation/personality-change profile (severe **OCD**).",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
-        "page": 2,
-        "questionNumber": 1
-      }
-    },
-    {
-      "text": "Human Rights Act **EMI** matching frequently confuses similar-sounding articles: failure to organise a mental health tribunal during a 4-month detention is Article 6 (fair hearing), **NOT** Article 5 (liberty); denial of family visits is Article 8, **NOT** Article 3; and a patient left unwashed/undressed after restraint is Article 3 (torture/degrading treatment), **NOT** Article 8 — match the specific right being violated, not just 'this seems like a ward-restriction issue'.",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
-        "page": 4,
-        "questionNumber": 2
-      }
-    },
-    {
-      "text": "An **EMI** drills four different epidemiological denominators for **UK** mental illness that are easy to conflate: 'one in four' = lifetime risk of any mental illness episode; 'one in six' = point prevalence of living with a mental health problem; 'one in seven' (13.3%) = prevalence of any clinically-relevant depressive syndrome in the over-65 community population; 'one in ten' = proportion of depressive episodes that become chronic — memorise which fraction answers which specific question.",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
-        "page": 6,
-        "questionNumber": 3
-      }
-    },
-    {
-      "text": "In the schizophrenia-prevention **EMI**, targeting pregnant women to address low birth weight is **SELECTIVE** prevention (a defined risk factor within a subgroup), while targeting the general urban social milieu is **UNIVERSAL** prevention, and identifying a preschizophrenic/prodromal state is **INDICATED** prevention — three different classifications for three superficially similar 'early action in psychosis' scenarios.",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
-        "page": 8,
-        "questionNumber": 4
-      }
-    }
-  ],
-  "gaps": [
-    {
-      "subtopic": "Current early intervention / crisis / assertive outreach service targets",
-      "note": "The source book notes describe **NSF** (1999) and **NHS** Plan (2000) targets (e.g. 50 **EI** teams by 2004, 335 crisis teams by 2004, 220 assertive outreach teams by 2003) and the 2011 'No Health Without Mental Health' strategy. These are historical policy documents; current **UK** service specifications (e.g. **NICE** psychosis/schizophrenia guideline, **NHS** Long Term Plan community mental health framework, Access and Waiting Time Standards for **EIP**) have since superseded these targets. Verify current **EIP**/crisis-team access standards against current **NICE** guidance rather than relying on these historical figures for a live clinical-service question."
-    },
-    {
-      "subtopic": "Mental Health Act 1983 / Mental Capacity Act 2005 detailed provisions",
-      "note": "This topic's source notes mention the **MHA**/**MCA** only briefly (e.g. in the context of **DVLA**, **ECHR** Article 5, and incapacity/best-interest decision-making) without covering sections, detention criteria, or tribunal procedure in depth. Fuller **MHA**/**MCA**/DoLS content is likely covered under the Forensic Psychiatry topic — do not assume this guide gives complete legal-framework coverage; cross-check against that topic and current **MHA**/**MCA** case law/Code of Practice."
-    },
-    {
-      "subtopic": "Safeguarding legal framework currency",
-      "note": "The safeguarding principles here derive from 'No Secrets' (**DH**, 2000) and the 2011 Safeguarding Adults six principles. In England, the statutory safeguarding framework is now the Care Act 2014 (which formalised these six principles in law). The six principles themselves remain accurate, but verify any exam question implying a specific current statutory basis against the Care Act 2014 rather than 'No Secrets'."
-    },
-    {
-      "subtopic": "DVLA 'Assessing fitness to drive' guidance currency",
-      "note": "The driving criteria and specific stand-down periods summarised here (e.g. 3 months/3 years/6 months) come from the **SPMM** book notes and question-bank explanations, which may reflect an older edition of **DVLA** guidance. Cross-check exact current stand-down periods and conditions against the current **DVLA** 'Assessing fitness to drive — a guide for medical professionals' document before relying on them in a live scenario."
-    },
-    {
-      "subtopic": "ECT usage-rate and consent-experience statistics currency",
-      "note": "Rose's patient-experience findings and the cited 2005–2007 **UK** **ECT** usage rates (0.82–0.88 per 10,000 population) are now dated. Current **ECT** usage rates, **ECTAS** accreditation standards, and RCPsych **ECT** guidance should be checked directly if a question hinges on present-day practice rather than historical trend data."
-    },
-    {
-      "subtopic": "Psychosurgery and DBS current regulatory/indication status",
-      "note": "The adverse-effect rates and indications quoted (e.g. older-technique amotivational syndrome rates, **DBS** complication ranges) come from a mix of older and case-series literature cited in the source notes. Current regulatory status of psychosurgery in the **UK** (very tightly restricted, requiring independent second-opinion/Mental Health Act Part 4A safeguards) and current **DBS** trial evidence for depression/**OCD** should be verified against the Maudsley Prescribing Guidelines (15th ed.) or current specialist guidance rather than assumed current from these figures alone."
-    },
-    {
-      "subtopic": "Confidentiality — current GMC guidance detail",
-      "note": "The notes state statutory disclosure exceptions and the Tarasoff 'duty to warn' concept but explicitly defer detail to '**GMC** guidelines' without reproducing them. Verify the exact current **GMC** confidentiality guidance (Confidentiality: good practice in handling patient information) if a question requires precise disclosure thresholds beyond the general exceptions listed here."
+      ]
     }
   ]
 }

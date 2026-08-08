@@ -194,23 +194,52 @@ similar — let the existing chain carry the height down and just fill `h-full`.
 
 ## Study guides (`content/study-guides/*.json`)
 
-Built on top of the notes/questions extraction, one per topic — condensed bullets, comparison
-tables, mnemonics, examiner traps, and gaps, all citation-verified against the already-extracted
-`content/notes/<topic>.json` / `content/questions/<topic>.json` (never against the raw PDFs
-directly — those two JSON files are the source of truth for what a citation is allowed to point
-to). Schema: `StudyGuide` in `lib/types.ts`.
+Built on top of the notes/questions extraction, one per topic — but the shape is `sections[]`,
+each with `blocks[]`, not the flat `condensedNotes`/`tables`/`mnemonics`/`examinerTraps`/`gaps`
+arrays this originally shipped with. The flat shape was replaced (all 15 topics reformatted, one
+hand-built as a template then 14 delegated to parallel agents) to match a reference note format
+the user actually used to pass this exam: numbered sections read top-to-bottom, with tables,
+mnemonics, and traps interleaved right next to the concept they relate to, instead of siloed into
+separate detached lists. Schema: `StudyGuide`/`Section`/`Block` in `lib/types.ts`.
+
+`Block` is a tagged union on `type`: `paragraph` (the old bullet), `table` (optionally carrying a
+`category: {label, color}` for genuinely multi-group content — see below), `comparison` (an "X
+vs Y" head-to-head table, no `highYield` field), `mnemonic`, `trap` (red, not amber — see the
+"RichText"-adjacent styling note below), `trap-list` (a titled bullet list of several short
+one-fact recall traps grouped together, e.g. "MCQ Traps — Remember These!", instead of one box
+per trap), and `gap`. All citation-bearing fields (`source`/`sources`) are unchanged in shape.
+
+**Category colors (`table.category.color`, `lib/category-colors.ts`)**: one of
+`teal`/`orange`/`red`/`gray`/`blue`/`purple`. Only assign a category when the SOURCE TEXT ITSELF
+states a multi-group classification (e.g. a book bullet that literally says "Good prognostic
+factors: ... Poor: ...", or headers a section "1. Immature Defence Mechanisms" / "2. Neurotic
+..." / "3. Mature ..."). Never invent a categorization from trained psychiatric knowledge that
+isn't explicit in the extracted text — assigning a category to a fact is itself a claim ("this
+fact belongs in this group"), not a free restyling, and needs the same source-grounding
+discipline as the fact itself. Most tables legitimately have no category — that's expected, not
+a gap to fill. Genuine examples already in the corpus: adult-psychiatry's Good/Poor Prognostic
+Factors (teal/red), psychotherapy's Immature/Neurotic/Mature defence mechanisms (red/orange/teal,
+Vaillant's own tiering), statistics' Random/Non-Random sampling (blue/gray) and Cost/Benefit
+types (orange/teal), epidemiology's three sex-preponderance groups, perinatal's maternal/foetal
+risk split, child-psychiatry's conduct-disorder protective/poor-prognostic factors.
 
 **The core safety mechanism is extraction-framing, not a post-hoc hallucination check**: every
-bullet/cell/trap must restate something the cited NoteBlock/Question actually says — compression
-of given text, never "write about this topic and cite something plausible afterward." A model's
-own trained psychiatric knowledge bleeding in and looking like it came from the source is the
-specific failure mode this guards against.
+paragraph/cell/trap must restate something the cited NoteBlock/Question actually says —
+compression of given text, never "write about this topic and cite something plausible
+afterward." A model's own trained psychiatric knowledge bleeding in and looking like it came from
+the source is the specific failure mode this guards against. This applies with equal force to
+*reorganizing* existing verified content: splitting one bullet into several table rows, or
+grouping traps into a `trap-list`, must not silently misattribute which specific fact a row/item
+came from — re-check against `content/notes/<topic>.json` / `content/questions/<topic>.json`
+whenever a split or grouping is ambiguous, don't just trust the prior prose's phrasing blindly.
 
-`scripts/verify-study-guide-citations.ts` mechanically checks every citation's `{file, page,
-questionNumber?}` exists in the topic's source JSON — run it after touching any study guide. It
-catches fabricated/wrong citations, but NOT a true citation attached to a false claim; that only
-gets caught by the extraction-framing above plus manual spot-checks. Don't treat a clean
-verification run as proof of correctness by itself.
+`scripts/verify-study-guide-citations.ts` walks `sections[].blocks[]` and mechanically checks
+every citation's `{file, page, questionNumber?}` exists in the topic's source JSON — run it after
+touching any study guide. It catches fabricated/wrong citations and structural mistakes (a source
+attached to the wrong block type), but NOT a true citation attached to a false claim, and NOT a
+fact sorted into the wrong category — those only get caught by the extraction-framing above plus
+manual spot-checks. Don't treat a clean verification run as proof of correctness by itself.
+`scripts/emphasize-study-guides.ts` similarly walks the new nested structure now.
 
 Two topics (`research-methods`, `evidence-based-medicine`) have no book PDF (manifest `gap`
 field) — their guides are built entirely from question explanations and are thinner by
@@ -219,7 +248,10 @@ necessity; that's correct, not a bug to fix by padding with unsourced content.
 If delegating more topics to parallel agents later: give each its own uniquely-named scratchpad
 script path — two agents writing a same-named temp script to a shared /tmp location caused one
 silent build failure during this session (caught because the agent verified the output file's
-existence/content immediately after each run — keep doing that).
+existence/content immediately after each run — keep doing that). Also budget for platform
+session-usage limits mid-run on a large fan-out (this reformat hit one on 9 of 14 agents at
+once) — check the actual file on disk before assuming a "failed" agent lost its work; several had
+already written and self-verified successfully before the API cut them off mid-report.
 
 ## RichText must not return a Fragment
 

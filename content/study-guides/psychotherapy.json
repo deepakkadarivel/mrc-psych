@@ -1,10 +1,12 @@
 {
   "topic": "psychotherapy",
-  "condensedNotes": [
+  "sections": [
     {
-      "heading": "Freudian Models of Mind & Psychosexual Development",
-      "bullets": [
+      "id": "freudian-models",
+      "title": "1. Freudian Models of Mind & Psychosexual Development",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Topographical model: mind = unconscious (governed by the pleasure principle, primary process thinking), preconscious (maintains the 'repressive barrier' censoring unacceptable wishes), and conscious (secondary process thinking, bound by time/space). Structural model superseded it: Id (instinctual, mostly unconscious), Ego (executive, reality-linked), Superego (internalised morals; punitive 'thou shalt not' or the helpful Ego Ideal).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -12,6 +14,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Psychosexual stages: Oral (0-18m, fixation linked to alcoholism/overeating); Anal (18m-3y, potty training, fixation linked to **OCD**/'anally retentive' controlling traits); Phallic/Oedipal (3-5y) — resolution of the Oedipus complex (boy wishes to eliminate father, possess mother) forms the Superego via introjection of parental values; Freud's parallel 'Electra complex' for girls (penis envy, turning to father) was heavily criticised and Freud admitted not understanding women well.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -19,6 +22,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Dreams combine unconscious material, day residues, and sleep stimuli. Dream work converts latent content (unconscious wishes/fantasies) into manifest content (recalled dream) via condensation (several impulses fused into one image), diffusion/irradiation (opposite of condensation — one impulse split into several images), displacement (energy shifted from one object/idea to another), and symbolic representation (an overwhelming wish replaced by a less-charged image).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -26,6 +30,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Freud grounded mental development in managing instincts: destructive/aggressive Thanatos (death instinct) versus life-affirming libidinal Eros (life instinct); pressure from unmet instincts generates anxiety.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -33,18 +38,31 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Access routes to the unconscious: free association (the fundamental rule — say whatever comes to mind, however trivial or embarrassing), parapraxes (Freudian slips — return of repressed material), dreams, and abreaction.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
             "page": 2
           }
+        },
+        {
+          "type": "trap",
+          "text": "'Interpretation of the transference is the **ONLY** means to access the unconscious' is the **INCORRECT** statement to spot — dreams, free association, slips of the tongue and abreaction are all valid routes too. Absolute-language options ('only', 'always', 'never') are a recurring **SBA** trap in this topic.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
         }
       ]
     },
     {
-      "heading": "Neo-Freudian Schools",
-      "bullets": [
+      "id": "neo-freudian-schools",
+      "title": "2. Neo-Freudian Schools",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Melanie Klein: paranoid-schizoid position (world split into 'good'/'bad'; infant fears retaliation from the 'bad' mother — the paranoid element — and withdraws/cuts off — the schizoid element) versus depressive position (infant integrates good and bad, feels guilt, wishes to repair damage). Klein introduced play as a technique for analysing children under six, akin to free association in adults.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -52,6 +70,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Jung's Analytic Psychology: collective unconscious (mankind's shared symbolic past, containing Archetypes such as the Hero, Old Wise Man) and personal unconscious (individual Complexes). Other Jungian concepts: Persona (social mask), Anima/Animus (unconscious feminine/masculine aspect), Shadow (unacceptable aspects of self), Individuation, Extraversion/Introversion.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -59,6 +78,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Winnicott: development occurs in a 'transitional zone' between reality and fantasy; a Transitional Object (e.g. teddy bear) is under the child's control; the 'Good Enough Mother' allows gradual disillusionment fostering independence; parental over-control can produce a False Self. 'Holding' (Winnicott) is the therapist's affective restraint from retaliating against negative transference, distinct from 'containing' (Bion) — the therapist's cognitive capacity to stay objective and focused on selected facts.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -66,6 +86,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Fairbairn proposed libidinal, antilibidinal and ideal parts of both the object and the self.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -73,18 +94,32 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Kohut (1971) described three transferences: mirroring (from parental mirroring failures — patient needs the therapist to constantly affirm self-esteem), idealizing (self-esteem preserved by idealising/identifying with a powerful other), and twinship (patient comfortable only when the self-object mirrors their own thoughts/values/appearance).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
             "page": 2
           }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Kohut's three transferences",
+          "mnemonic": "MIT",
+          "expansion": [
+            "Mirroring transference — needs constant self-esteem affirmation from the therapist",
+            "Idealizing transference — preserves self-esteem via attachment to an idealised, powerful other",
+            "Twinship transference — comfortable only when the self-object mirrors the patient's own thoughts/values"
+          ],
+          "sourced": false
         }
       ]
     },
     {
-      "heading": "Defence Mechanisms",
-      "bullets": [
+      "id": "defence-mechanisms",
+      "title": "3. Defence Mechanisms",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Vaillant (1977) grouped defences into three tiers. Immature (infancy/early childhood): acting out, regression, denial — plus the Kleinian/psychotic defences splitting, idealisation and denigration, projection, and projective identification (the projection is taken in by the recipient, who begins to act as though it were their own quality).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -92,6 +127,55 @@
           }
         },
         {
+          "type": "table",
+          "title": "Immature Defence Mechanisms",
+          "category": {
+            "label": "Immature Defences",
+            "color": "red"
+          },
+          "columns": [
+            "Defence Mechanism",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Acting Out",
+              "Unconscious wish/impulse is expressed and does not remain repressed"
+            ],
+            [
+              "Regression",
+              "Reverting back to an earlier stage of development"
+            ],
+            [
+              "Denial",
+              "Explicit refusal to acknowledge a threatening reality"
+            ],
+            [
+              "Splitting",
+              "Good and bad aspects are split and kept apart (Kleinian/psychotic)"
+            ],
+            [
+              "Idealisation & Denigration",
+              "When splitting occurs, one side is idealised, the other denigrated"
+            ],
+            [
+              "Projection",
+              "An unwanted aspect of the self is located in the other"
+            ],
+            [
+              "Projective Identification",
+              "The projection is taken in by the recipient, who begins to act as though it were their own quality"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
           "text": "Neurotic defences: repression (unwanted material kept unconscious, though associated affect may still be felt), intellectualisation, rationalisation (e.g. the fox-and-grapes fable), reaction formation (opposite feeling expressed consciously), undoing/magical thinking (seen in **OCD**), displacement (feelings redirected to a safer target).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -99,6 +183,51 @@
           }
         },
         {
+          "type": "table",
+          "title": "Neurotic Defence Mechanisms",
+          "category": {
+            "label": "Neurotic Defences",
+            "color": "orange"
+          },
+          "columns": [
+            "Defence Mechanism",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Repression",
+              "Unwanted material kept unconscious, though associated affect may still be felt"
+            ],
+            [
+              "Intellectualisation",
+              "Focus on abstract/theoretical concepts, distancing from emotions"
+            ],
+            [
+              "Rationalisation",
+              "Justification made to explain away a thought/feeling (e.g. the fox-and-grapes fable)"
+            ],
+            [
+              "Reaction Formation",
+              "Opposite feeling to what is really felt is expressed consciously"
+            ],
+            [
+              "Undoing / Magical Thinking",
+              "Belief that a specific action can prevent a feared outcome (seen in OCD)"
+            ],
+            [
+              "Displacement",
+              "Feelings redirected to a safer target than the one really provoking them"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
           "text": "Mature defences: humour, altruism, sublimation (unacceptable impulse redirected into a socially valued outlet).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -106,6 +235,57 @@
           }
         },
         {
+          "type": "table",
+          "title": "Mature Defence Mechanisms",
+          "category": {
+            "label": "Mature Defences",
+            "color": "teal"
+          },
+          "columns": [
+            "Defence Mechanism",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Humour",
+              "Difficult/unpleasant experiences made humorous and therefore more bearable"
+            ],
+            [
+              "Altruism",
+              "Attending to others' needs before one's own"
+            ],
+            [
+              "Sublimation",
+              "Energy from an unacceptable impulse redirected into a socially valued outlet"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Mature defence mechanisms",
+          "mnemonic": "SASHA",
+          "expansion": [
+            "Sublimation",
+            "Anticipation",
+            "Suppression",
+            "Humour",
+            "Altruism"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+            "page": 41,
+            "questionNumber": 41
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Defence mechanisms are a function of the Ego, not the Id or Superego — the first systematic account was Anna Freud's 'The Ego and the Mechanisms of Defence' (1936).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
@@ -114,7 +294,28 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Defence mechanisms are a function of the **EGO** specifically (Anna Freud, 1936) — not the Id, Superego, or a combination; a single-structure answer is required despite the temptation to hedge with 'both'.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+            "page": 60,
+            "questionNumber": 60
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Examiner-style pairing: a patient projecting hatred onto ward nursing staff, who then act it out toward her, is projective identification — a mechanism that explains counter-transference reactions in staff.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+            "page": 49,
+            "questionNumber": 49
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A vignette where nursing staff feel 'unwanted' and angry toward a personality-disordered patient is keyed to Counter-transference as the best single answer, even though the explanation's actual mechanism described is projective identification (the patient's projected hatred is taken in and acted out by staff) — the exam wants the broader phenomenon name, not the specific Kleinian mechanism.",
+          "format": "SBA",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
             "page": 49,
@@ -124,9 +325,11 @@
       ]
     },
     {
-      "heading": "Core Psychodynamic Process Concepts",
-      "bullets": [
+      "id": "psychodynamic-process-concepts",
+      "title": "4. Core Psychodynamic Process Concepts",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Therapeutic alliance = the rational, unwritten, implicit contract between doctor and patient; alongside transference and countertransference it forms the therapeutic relationship. Bateman & Holmes (1995) classify clinical problems as continuity issues (absence, lateness, breaks), acting-in (physical contact, persistent questions, silence), or acting-out (suicide, self-injury, substance use).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -134,6 +337,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Transference: feelings/attitudes from a past relationship displaced onto the therapist. It is bidimensional (replays the past + seeks a new relationship), unconscious, only partly appropriate to the present, historically inaccurate yet a current mental representation, and only an aspect (not the whole) of a relationship is transferred. Increased by borderline features, a needy/dependent position, and frequent contact with the therapist.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -141,6 +345,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Countertransference = the therapist's spontaneous feelings evoked when 'tuning in' to the patient's unconscious communication; analysing it yields insight comparable to analysing transference.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -148,6 +353,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Resistance = repeated unconscious rejection of aspects of reality that hinders progress. Repression resistance = difficulty accessing certain ideas/emotions; transference resistance = unconscious wish to keep the therapeutic relationship like past relationships. Negative Therapeutic Reaction (Freud, 1923) is a backward step (e.g. return of an old symptom) following a positive step, attributed to Thanatos/aggressive impulses.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -155,6 +361,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "'Working through' unlearns prior misconceptions via observing and unlearning defences; Franz Alexander added 'corrective emotional experience' as the step needed for durable change. Regression (activation of normally hidden personality aspects) is considered crucial to successful psychoanalysis, but fear of it is a major source of resistance, especially with a history of psychosis.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -164,9 +371,11 @@
       ]
     },
     {
-      "heading": "Indications, Contraindications & Formats of Psychodynamic Therapy",
-      "bullets": [
+      "id": "indications-contraindications-formats",
+      "title": "5. Indications, Contraindications & Formats of Psychodynamic Therapy",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Brief psychotherapy suits well-demarcated, short-duration problems with otherwise reasonable functioning; long-term therapy suits complex, longstanding, character/personality-level difficulties; supportive psychotherapy suits transition/adaptation periods not requiring deep working-through.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -174,6 +383,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Contraindications to brief/long-term psychodynamic therapy: poor impulse control, poor frustration tolerance, low motivation, antisocial personality disorder, absence of psychological mindedness, being in a major life crisis, poor ego strength, severe active psychosis, poor ability to form/sustain relationships.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -181,6 +391,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Psychodynamic therapy is generally avoided in acute psychosis, very high risk of recurrent deliberate self-harm, acute suicidal risk, delirium, dementia, very severe depression, and drug/alcohol misuse; favourable indicators include a good response to a trial interpretation, self-reflection, realistic expectations, personality integration, and motivation for change.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
@@ -189,6 +400,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "'A diagnosis of paraphrenia' is the answer to spot among positive prognostic indicators for psychotherapy — psychotic disorders are traditionally viewed as involving ego disintegration and are **NOT** a positive predictor, unlike self-scrutiny, response to trial interpretation, some medication response, and psychological mindedness.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+            "page": 56,
+            "questionNumber": 56
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Brief psychodynamic psychotherapy (Alexander & French, 1946; later Malan, Sifneos, Davanloo): time-limited, focused on the here-and-now, transference interpreted and termination date set early. Methods: goal setting, focus choosing (core conflictual relationship themes), active early interpretation, and heightened emotional context (Sifneos & Davanloo). Positive transference is addressed early in this format specifically.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -196,6 +418,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Good-outcome predictors for brief dynamic therapy: circumscribed problem, strong motivation, ability to express feeling at assessment, psychological-mindedness, at least one good relationship, evidence of achievement, not actively suicidal/chronically obsessional/phobic, not grossly self-destructive or actively drug-abusing.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -203,6 +426,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Poor-response predictor: a history of multiple uncontrolled 'acting out' incidents (not low socioeconomic status or average **IQ**, which are not by themselves poor predictors); good-response predictor: curiosity to understand and reformulate problems in terms of one's own life experience/psychological structure.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
@@ -211,6 +435,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Poor response to psychodynamic psychotherapy is predicted by a history of multiple 'acting out' incidents — **NOT** by lower socioeconomic status or average **IQ**, which the explanation explicitly states are not, by themselves, poor predictors (counters an intuitive but wrong assumption).",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Supportive psychotherapy supports reality testing, offers ego support, and re-establishes usual functioning via problem-solving, advice, reinforcement and reassurance; not time-limited, therapist must be predictably available. Suited to otherwise-healthy patients in overwhelming crises, those with ego deficits, or those not motivated to 'explore' themselves.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -218,18 +453,58 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Exploratory/analytic therapy is typically time-limited, childhood/developmental-trauma focused, and needs frustration tolerance, psychological-mindedness, intact reality-testing and capacity for object relations; supportive therapy has no fixed boundaries, focuses on the current crisis, and can be used even with poor frustration tolerance, low psychological-mindedness or impaired reality-testing (psychosis).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
             "page": 10
           }
+        },
+        {
+          "type": "comparison",
+          "title": "Exploratory/Analytic vs Supportive Psychotherapy",
+          "columns": [
+            "Feature",
+            "Exploratory/Analytic Psychotherapy",
+            "Supportive Psychotherapy"
+          ],
+          "rows": [
+            [
+              "Aim",
+              "Explore the cause of symptoms",
+              "Identify and support existing coping skills"
+            ],
+            [
+              "Duration",
+              "Often time-limited",
+              "No set boundaries — as and when needed"
+            ],
+            [
+              "Focus",
+              "Childhood trauma and developmental difficulties",
+              "Current life crisis and the support needed"
+            ],
+            [
+              "Patient suitability",
+              "Reasonable frustration tolerance, psychological-mindedness, intact reality-testing (no psychosis); must form meaningful object relations",
+              "Usable even with poor frustration tolerance, low psychological-mindedness, or impaired reality-testing (presence of psychosis); can tolerate severely impaired object relations"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 10
+            }
+          ]
         }
       ]
     },
     {
-      "heading": "Family Therapy Models",
-      "bullets": [
+      "id": "family-therapy-models",
+      "title": "6. Family Therapy Models",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "General Systems Theory (von Bertalanffy): a family is an interconnected system whose components show properties of the whole, sustained by continuous feedback cycles.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -237,6 +512,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Dynamic family therapy: interprets unconscious processes/alliances between members (includes family sculpting). Structural (Minuchin): challenges disrupted hierarchies/boundaries/rules; encourages clear, open boundaries between parents and children. Family Systems (Bowen): analyses 'emotional triangles' (closeness of two members excludes a third — a 'hot triangle' producing symptoms) via the genogram; therapist keeps minimal emotional contact. Strategic (Haley): positive reframing and the 'domino effect'. Psychoeducational: reduces relapse via managing overinvolved/critical family stress (high expressed emotion). Behavioural: symptom-focused, time-limited, based on learned reinforcement of dysfunctional patterns.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -244,6 +520,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Milan systemic approach (Palazzoli): circular and reflexive questioning, associated with use of a one-way mirror. Paradoxical therapy (Bateson): the patient is instructed to intentionally engage in the unwanted behaviour (the 'paradoxical injunction').",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -251,6 +528,65 @@
           }
         },
         {
+          "type": "table",
+          "title": "Family therapy models at a glance",
+          "columns": [
+            "Model",
+            "Key figure",
+            "Central technique/idea"
+          ],
+          "rows": [
+            [
+              "Dynamic",
+              "—",
+              "Interprets unconscious alliances/dyads/triads; family sculpting"
+            ],
+            [
+              "Structural",
+              "Minuchin",
+              "Challenges disrupted hierarchies/boundaries/rules"
+            ],
+            [
+              "Family Systems",
+              "Bowen",
+              "Emotional triangle analysis; genogram; minimal therapist emotional contact"
+            ],
+            [
+              "Strategic",
+              "Haley",
+              "Positive reframing; domino effect; task setting (homework)"
+            ],
+            [
+              "Systemic (Milan)",
+              "Palazzoli",
+              "Circular/reflexive questioning; one-way mirror"
+            ],
+            [
+              "Psychoeducational",
+              "—",
+              "Reduces relapse via managing high expressed-emotion stress"
+            ],
+            [
+              "Behavioural",
+              "—",
+              "Symptom-focused, time-limited, learning-theory based"
+            ],
+            [
+              "Paradoxical",
+              "Bateson",
+              "Paradoxical injunction — patient told to engage in the unwanted behaviour"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 13
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
           "text": "Family therapy terminology: triangulation (a third person recruited to bypass a two-person conflict), enmeshment (blurred boundaries, over-involvement) versus disengagement (emotional distance/isolation), circularity (interdependent X→Y→X causality, versus linear causality), hypothesis (therapist's testable initial explanation of symptoms in context), and scapegoating (blaming an innocent member for the family's problems).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
@@ -259,6 +595,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Strategic family therapy centres on task setting (homework), easier tasks early to build success before increasing complexity. Bowen's family systems approach specifically studies the triangular closeness-excludes-a-third pattern. The Milan school's one-way mirror is paired with circular questioning.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
@@ -269,9 +606,11 @@
       ]
     },
     {
-      "heading": "Behavioural Therapy — Conditioning Concepts & Techniques",
-      "bullets": [
+      "id": "behavioural-therapy",
+      "title": "7. Behavioural Therapy — Conditioning Concepts & Techniques",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Operant conditioning (Skinner): reinforcement increases behaviour frequency, punishment (aversive conditioning) reduces it. Shaping/successive approximation reinforces behaviours progressively closer to the target. Chaining reinforces sequential responses (forward or backward chaining). Incubation: anxiety strengthens with brief repeated stimulus exposure (rumination increases anxiety this way). Learned helplessness (Seligman): escape attempts cease when escape from an aversive stimulus proves impossible — an early behavioural depression model. Habituation (response reduces with repeated stimulation) versus sensitization (response increases) arise from the same repeated-exposure conditions.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -279,6 +618,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The Premack Principle ('Grandma's rule' — high-frequency behaviour reinforces a low-frequency one, e.g. finishing homework before play) is a specifically named operant concept distinct from plain positive reinforcement — worth knowing by name for **EMI** matching.",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Systematic desensitisation (Wolpe) uses counterconditioning/reciprocal inhibition in three steps: relaxation training, hierarchy construction, graded stimulus desensitisation. Related techniques: progressive relaxation (Jacobson, small muscle groups first), mental imagery, graded exposure (real-life, hierarchical, no relaxation), autogenic training, and applied tension (counteracts fainting in injection phobia).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -286,6 +636,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Flooding (in vivo, no hierarchy, anxiety tackled head-on; premature withdrawal reinforces avoidance) versus implosion/imaginal flooding (in vitro, confronted via imagination). Flooding is contraindicated with poor stress tolerance or cardiac morbidity risking ischaemia.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -293,6 +644,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Massed negative practice (deliberate tic performance with rest periods) is used for tic disorder. Habit Reversal Training (awareness training, competing response training, contingency management, relaxation training, generalisation training) treats **OCD** and tic disorders — and is also the behavioural treatment of choice for trichotillomania.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -300,6 +652,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Modelling (participant modelling = observation without immediate performance; behaviour rehearsal = real-life problems acted out under supervision) and biofeedback (conditioning autonomic functions — skin temperature, conductivity, muscle tension, **BP**, respiratory/heart rate) for psychosomatic conditions.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -307,6 +660,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Behavioural/functional analysis proceeds via the antecedents-behaviour-consequence approach: identify Motivating Operations, Antecedents/triggers, the operationalised Behaviour, and reinforcing Consequences — history-taking to establish this must precede any behavioural treatment (e.g. for a simple phobia).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -316,9 +670,11 @@
       ]
     },
     {
-      "heading": "Cognitive Therapy (Beck) — Model, Distortions & Techniques",
-      "bullets": [
+      "id": "cognitive-therapy-beck",
+      "title": "8. Cognitive Therapy (Beck) — Model, Distortions & Techniques",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Beck's cognitive model: a thought-feeling-action triangle, with three levels of cognitive dysfunction — negative automatic thoughts (reflexive, situational), conditional assumptions ('I must'/'I should' rules), and core beliefs/schemas ('I am...').",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -326,6 +682,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Cognitive distortions (mnemonic **MOSPAD-C**): Minimisation/magnification, Overgeneralising, Selective abstraction, Personalisation, Arbitrary inference, Dichotomous (black/white) thinking, Catastrophisation.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -333,6 +690,81 @@
           }
         },
         {
+          "type": "table",
+          "title": "Cognitive distortions — MOSPAD-C",
+          "columns": [
+            "Distortion",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Minimisation/Magnification",
+              "Passing an exam but thinking 'I only just scraped through' (minimisation); failing by one mark and thinking 'I totally flunked it' (magnification)"
+            ],
+            [
+              "Over-generalising",
+              "A teacher sees one student sleeping and assumes the whole class is bored"
+            ],
+            [
+              "Selective abstraction",
+              "Failing one exam and focusing only on that, ignoring exams passed"
+            ],
+            [
+              "Personalisation",
+              "A team redundancy occurs and you think 'it happened because of me'"
+            ],
+            [
+              "Arbitrary inference",
+              "'I failed my **CASC** on the last day of autumn last year — the same will happen again this year'"
+            ],
+            [
+              "Dichotomous (black/white) thinking",
+              "'Either I pass and my life is a success, or I fail and my life is a complete failure'"
+            ],
+            [
+              "Catastrophisation",
+              "Palpitations interpreted as 'this is a heart attack, I will die'"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 18
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Cognitive distortions (Beck)",
+          "mnemonic": "MOSPAD-C",
+          "expansion": [
+            "Minimisation and magnification",
+            "Over-generalising",
+            "Selective abstraction",
+            "Personalisation",
+            "Arbitrary inference",
+            "Dichotomous thinking",
+            "Catastrophisation"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "books/9-psychotherapy.pdf",
+            "page": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Beck's cognitive model of depression comprises selective abstraction, arbitrary inference, minimisation/magnification, all-or-nothing thinking, personalisation, catastrophic thinking, and overgeneralisation — 'turning against self' is a psychodynamic (not Beckian/cognitive) concept of depression planted as a distractor.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Disorder-specific cognitive assumptions: Depression = negative view of self/world/future; Panic disorder = catastrophic misinterpretation of physiological experience; Paranoid **PD** = negative global external attribution bias; **OCD** = thought omnipotence and undoing; Suicidal behaviour = hopelessness/cognitive constriction ('one-way exit'); **PTSD** = guilt/self-blame and loss of control; **GAD** = fear of physical/psychological danger; Hypomania/mania = inflated view of self/future; Hypochondriasis = non-catastrophic misattribution to serious illness; Social phobia = misinterpretation of social threat.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -340,6 +772,48 @@
           }
         },
         {
+          "type": "table",
+          "title": "Cognitive assumptions by psychiatric disorder",
+          "columns": [
+            "Disorder",
+            "Cognitive assumption"
+          ],
+          "rows": [
+            [
+              "Depression",
+              "Negative view of self/past, world/present, future (worthlessness, helplessness, hopelessness)"
+            ],
+            [
+              "Panic disorder",
+              "Catastrophic misinterpretation of physiological experiences"
+            ],
+            [
+              "Paranoid personality disorder",
+              "Negative global external attribution bias"
+            ],
+            [
+              "**OCD**",
+              "Thoughts as powerful as actions (thought omnipotence); undoing"
+            ],
+            [
+              "Suicidal behaviour",
+              "Hopelessness and cognitive constriction ('one-way exit')"
+            ],
+            [
+              "**PTSD**",
+              "Guilt and self-blame; feelings of loss of control"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 18
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
           "text": "Anxiety maintenance is not explained by distorted cognition alone: situational avoidance/escape and in-situation 'safety behaviours' (Salkovskis) reinforce anxiety by generating new symptoms (e.g. hyperventilation-induced paraesthesiae), worsening existing symptoms (thought suppression in **PTSD**/**OCD** raises intrusion probability), or escalating unwanted social responses (coughing to mask a blush attracts more attention).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -347,6 +821,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Safety behaviours are counterintuitively harmful across disorders: active thought suppression in **OCD**/**PTSD** **INCREASES** intrusion/flashback probability, and hyperventilation in panic (meant to prevent 'choking') itself produces the acid-base symptoms mistaken for confirming the crisis — the mechanism is paradoxical, not protective.",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
+            "page": 68,
+            "questionNumber": 39
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Techniques: Guided discovery (4 stages — informal questioning, listening, summarising, synthesising/analytical questions) lets the patient reach new interpretations without the therapist prescribing solutions; Socratic questioning challenges the accuracy/completeness of thinking; behavioural experiments test specific catastrophic predictions as homework; cognitive techniques include reading assignments, thought diaries and role play, while behavioural techniques include activity scheduling and graded assignments/exposure.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
@@ -357,9 +842,11 @@
       ]
     },
     {
-      "heading": "CBT Applied to Specific Disorders",
-      "bullets": [
+      "id": "cbt-specific-disorders",
+      "title": "9. CBT Applied to Specific Disorders",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "**CBT** for **OCD**: thought stopping (shouting 'stop' or applying an aversive stimulus) and thought postponement; exposure and response prevention (hierarchy of obsession-provoking situations with compulsions/responses prevented).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -367,6 +854,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**CBT** for hypochondriasis/health anxiety: self-monitoring diaries; inverted pyramid technique to correct overperception of risk; selective physical attention experiments (demonstrating that focused attention generates 'new' bodily sensations); dropping safety-seeking behaviours via alternating-treatment experiments. Goal is reduced distress at illness-related thoughts and better role function — not complete absence of illness-related thoughts, which is unrealistic; only ~30% of eligible patients in the supporting **RCT** agreed to a **CBT** trial, limiting generalisability.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
@@ -375,6 +863,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**CBT** for psychosis rests on two models: the stress-vulnerability model (Coping Strategy Enhancement using affective/behavioural/cognitive strategies; aims at relapse prevention) and the continuum model (normal beliefs vs delusions differ by degree; aims at symptom/delusion relief by weighing contrary evidence). Turkington's elements: therapeutic alliance without colluding with delusions, improving medication adherence, alternate explanations (normalisation), decreasing positive-symptom impact, and **GRADED** (not flooded) reality testing via peripheral questioning/inference chaining. Birchwood: the **CBT** target is the emotional dysfunction accompanying psychosis, not the psychotic symptom itself. **NICE** and the British Psychological Society endorse **CBT** for psychosis, though many experts still question the appraised evidence.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -382,6 +871,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Predictors of poor outcome when treating chronic fatigue syndrome with **CBT**/graded exercise (Powell et al., 2004): claiming a disability-related benefit, low sense of control, strong focus on physical symptoms, being passive with reduced activity, and self-help-group membership (a marker of perceived severity, not a causal worsening factor).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
@@ -390,19 +880,52 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**CBT**-Enhanced (**CBT-E**), developed by Christopher Fairburn, was originally for bulimia nervosa and later extended to all eating disorders, in 'focused' (eating-disorder only) and 'broad' (also addressing self-esteem, perfectionism, interpersonal problems, mood intolerance) forms.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
             "page": 24,
             "questionNumber": 24
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Hypochondriasis **CBT**'s realistic cognitive endpoint is **LESS** distress at illness-related thoughts and better role functioning — 'complete absence of thoughts of illness' is an unrealistic distractor; hypochondriasis is often refractory and treatment aims at coping rather than cure.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 58,
+                "questionNumber": 58
+              }
+            },
+            {
+              "text": "The **CBT**-for-psychosis component is 'graded' reality testing (via peripheral questioning and inference chaining) — 'flooded reality testing' is a fabricated distractor combining a real behavioural term (flooding) with the wrong **CBT**-for-psychosis technique.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 59,
+                "questionNumber": 59
+              }
+            },
+            {
+              "text": "Predictors of poor **CBT**/graded-exercise outcome in chronic fatigue syndrome include membership of a self-help group — the explanation explicitly warns this is **NOT** because self-help groups worsen **CFS**, but because membership is a marker of perceived illness severity; a causal-inference trap.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 59,
+                "questionNumber": 59
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "heading": "Group Therapy",
-      "bullets": [
+      "id": "group-therapy",
+      "title": "10. Group Therapy",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Group therapy originated from J.H. Pratt's **TB**-patient care classes; developed by T. Burrow in the 1920s and expanded after **WWII**. Group alliance (member-therapist relationship quality), group cohesion (working toward a common goal), group coherence (self-evolving, works through conflict), positive identification, and catharsis are key group processes.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -410,6 +933,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Classification: by leadership/specificity (highly specific/high-leader-input groups e.g. structured substance-use or occupational-therapy groups; low-specificity/low-leader-input groups e.g. support and art-therapy groups); by membership (homogeneous/heterogeneous; closed — fixed membership, no replacement on departure — versus open); by mode (activity, support, problem-focused, psychodynamic, behavioural).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -417,6 +941,35 @@
           }
         },
         {
+          "type": "table",
+          "title": "Group therapy classification",
+          "columns": [
+            "Basis",
+            "Types"
+          ],
+          "rows": [
+            [
+              "By objective/leadership",
+              "High leader input (target-oriented, e.g. substance-use, occupational-therapy groups) → less specific but leader-directed (psychodrama, music therapy, systems-centred) → high specificity/low leader activity (problem-solving, psychoeducational) → low specificity/low leader activity (support, art therapy, interpersonal, Tavistock analytic)"
+            ],
+            [
+              "By membership",
+              "Homogeneous vs heterogeneous; closed (fixed membership) vs open (new members admitted as others leave)"
+            ],
+            [
+              "By mode",
+              "Activity, support, problem-focused, psychodynamic, behavioural"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
           "text": "Bion: a derailed group enters one of three basic assumption states — dependency, pairing, fight-flight; Hopper added a fourth, massification/aggregation (rigid fusion of identities or extensive withdrawal). Foulkes: the group 'matrix' — foundation matrix (preconditions shared even between strangers) evolving into the dynamic matrix (exchanges as members get to know each other).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -424,6 +977,19 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Bion's group basic assumptions + Hopper's 4th",
+          "mnemonic": "D-P-F + M",
+          "expansion": [
+            "Dependency (group seeks protection)",
+            "Pairing (hope a new partnership resolves things)",
+            "Fight-flight (attack or withdraw)",
+            "+ Massification/aggregation (Hopper's 4th — rigid fusion of identities, or extensive withdrawal)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
           "text": "Yalom's 11 curative factors: instillation of hope, universality, imparting information, altruism, corrective recapitulation, socialisation techniques, imitative behaviour, interpersonal learning, group cohesiveness, catharsis, existential factors — of which cohesiveness and learning from feedback are most consistently valued.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -431,6 +997,41 @@
           }
         },
         {
+          "type": "table",
+          "title": "Yalom's group curative factors",
+          "columns": [
+            "Factor category",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Most consistently valued",
+              "Group cohesiveness; interpersonal learning from feedback"
+            ],
+            [
+              "Other cited factors",
+              "Instillation of hope, universality, imparting information, altruism, corrective recapitulation, socialisation techniques, imitative behaviour, catharsis, existential factors"
+            ],
+            [
+              "**NOT** a Yalom factor (trap distractor)",
+              "'Identification' — the correct term is imitative behaviour"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 26
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+              "page": 63,
+              "questionNumber": 63
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
           "text": "Expressive therapies: Psychodrama (Moreno) — protagonist, auxiliary ego, soliloquy, role reversal, the double/multiple double, mirror technique. Art therapy ('art as therapy' vs 'art in therapy') and music therapy, where the therapeutic alliance is the key component.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -438,6 +1039,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Therapeutic communities (Henderson Hospital model, mnemonic **CPD-R**): Communalism, Permissiveness, Democratisation, Reality confrontation. Tom Main coined the term 'therapeutic community'; Maxwell Jones established the model; Rapoport described its key features.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -445,19 +1047,68 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Henderson Hospital therapeutic community principles",
+          "mnemonic": "CPD-R",
+          "expansion": [
+            "Communalism",
+            "Permissiveness",
+            "Democratisation",
+            "Reality confrontation"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "books/9-psychotherapy.pdf",
+            "page": 26
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Anti-therapeutic group techniques: scapegoating, idealisation of the therapist, and coupling. Group types matched to need: support groups for carers/chronic illness, problem-focused groups for alcohol/drug dependence and sexual deviancy, behavioural groups for phobia.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
             "page": 25,
             "questionNumber": 25
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Therapeutic community core principles are Communalism, Permissiveness, Democratisation, Reality confrontation (**CPD-R**) — 'Aggregation' is a distractor borrowed from a different concept entirely (Hopper's 4th group basic assumption, massification/aggregation), not a **TC** principle.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 34,
+                "questionNumber": 34
+              }
+            },
+            {
+              "text": "Bion's basic assumptions are dependency, pairing, and fight-flight; 'Intellectualization' is a defence-mechanism distractor planted among the options, not a basic assumption.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 28,
+                "questionNumber": 28
+              }
+            },
+            {
+              "text": "Yalom's 11 curative factors do **NOT** include 'Identification' as a labelled factor — the correct term in his list is 'imitative behaviour'; a near-synonym distractor.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 63,
+                "questionNumber": 63
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "heading": "Named Individual & Integrative Therapies",
-      "bullets": [
+      "id": "named-integrative-therapies",
+      "title": "11. Named Individual & Integrative Therapies",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Interpersonal Therapy (Klerman & Weissman): 12-16 weekly hour-long sessions; gives the 'sick role'; here-and-now focus on current interpersonal relationships. Therapist stance: explicit ally/advocate, nonjudgmental, warm, believes problems are solvable, but still willing to give direct advice. Four focus areas: role transitions, interpersonal disputes, grief, interpersonal deficits (**NOT** attachment issues, and **NOT** free association, which is a Freudian technique). Comparable efficacy to **imipramine** (**NIMH** trial); less effective than **CBT** in depression with comorbid personality disorder; particularly useful for bulimia and for patients with poor engagement in other therapies.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -465,6 +1116,19 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "IPT's four focus areas",
+          "mnemonic": "GRRD",
+          "expansion": [
+            "Grief",
+            "Role disputes",
+            "Role transitions",
+            "interpersonal Deficits"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
           "text": "Dialectical Behaviour Therapy (Marsha Linehan), for **BPD**/self-harm: four modes — group skills training, individual therapy, phone consultation, consultation team (mnemonic **DICE** for skills: Distress tolerance, Interpersonal effectiveness, Core mindfulness, Emotion regulation). Comprises a hierarchy of goals (self-harm behaviours first, then therapy-interfering behaviours, then quality-of-life-reducing behaviours). 'Role transition' is an **IPT** concept, not a **DBT** technique.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -472,6 +1136,23 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "DBT key skill modules",
+          "mnemonic": "DICE",
+          "expansion": [
+            "Distress tolerance",
+            "Interpersonal effectiveness training",
+            "Core mindfulness training",
+            "Emotion regulation skills"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "books/9-psychotherapy.pdf",
+            "page": 28
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Cognitive Analytic Therapy (Anthony Ryle): combines the Procedural Sequence Model with role-repertoire theory. Faulty procedures: Traps (self-perpetuating negative-assumption cycles), Dilemmas (false, polarised choices — e.g. the placation dilemma), Snags ('Subtle Negative Aspects of Goals' — appropriate goals abandoned as 'forbidden'). 16-24 sessions in three phases: initial (formulation letter), middle (target problem procedures), ending (goodbye letters from both parties) — the 'three Rs' are Recognition, Reformulation, Revision.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -479,6 +1160,33 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "CAT's 'three Rs'",
+          "mnemonic": "RRR",
+          "expansion": [
+            "Recognition of maladaptive behaviour/beliefs",
+            "Reformulation of these ideas",
+            "Revision"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
+            "page": 69,
+            "questionNumber": 40
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**SNAGS** in **CAT** stands for 'Subtle Negative Aspects of Goals' — appropriate goals/roles abandoned because they are assumed 'forbidden' by others; a specific acronym expansion the exam can ask for directly.",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
+            "page": 42,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Transactional Analysis (Eric Berne): three ego-states — Parent (critical or nurturing), Adult (objective/rational), Child (source of emotion/spontaneity).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -486,6 +1194,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Humanistic psychotherapy ('third force'): the relationship itself **IS** the treatment, not just a delivery vehicle. Client-Centred Therapy (Carl Rogers): nondirective; genuineness, unconditional positive regard, accurate empathy; Q-sort technique. Gestalt Therapy (Perls & Goodman): phenomenological method, dialogical relationship/'inclusion', field-theoretical strategies, experiential freedom.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -493,6 +1202,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Mentalization-Based Therapy (Bateman & Fonagy, from attachment theory, for **BPD**): maintains a curious/'not-knowing' stance; de-emphasises unconscious content versus classic psychodynamic therapy; goal is recovery of mentalizing capacity, not insight; began as a psychoanalytically-oriented partial hospitalisation programme, now includes individual and group therapy.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -500,6 +1210,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**EMDR** (Shapiro): premise that trauma gets 'locked' in the nervous system and bilateral eye movements 'unlock'/desensitise and allow correct reprocessing; the **REM**-sleep-processing hypothesis is unproven; originally used with Vietnam veterans with **PTSD**.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -507,6 +1218,12 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "EMDR's evidence base and current NICE/international guideline status",
+          "note": "The source text presents **EMDR**'s theoretical premise (**REM**-sleep-linked hypothesis) as 'not proven yet' and gives no current guideline-endorsement detail. Verify **EMDR**'s current recommendation status for **PTSD** against up-to-date **NICE** guidance before treating it as first-line in exam answers."
+        },
+        {
+          "type": "paragraph",
           "text": "Transtheoretical Model (Prochaska & DiClemente): 5 processes of change (consciousness raising, choosing, catharsis, conditional stimuli [stimulus control + counterconditioning], contingency control) underlying 6 non-linear, cyclical stages — precontemplation, contemplation, preparation, action, maintenance, relapse.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -514,6 +1231,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Motivational Interviewing (Miller & Rollnick): works collaboratively rather than confronting resistance directly; resolving ambivalence is the main route to intrinsic motivation. Five principles: express empathy (**NOT** sympathy), develop discrepancy, avoid argumentation, roll with resistance, support self-efficacy.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -521,6 +1239,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Behavioural Couples Therapy: for alcoholism, 15-20 sessions over 5-6 months; daily 'sobriety contract' plus spousal support; 'Catch Your Partner Doing Something Nice' technique; evidence shows improved psychosocial functioning in the children of treated heterosexual couples. Behavioural systems couple therapy (Crowe) instead adds systems components (structural moves, paradox) to the behavioural base; psychodynamic couple therapy focuses on each partner's emotional needs; the systems approach to couple therapy focuses on the couple's hidden rules.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -528,6 +1247,17 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Behavioural couples therapy is specifically indicated when the alcohol-dependent patient has a regular, willing partner and an abstinence goal, whereas psychodynamic therapy is favoured when significant childhood trauma is present (per **NICE** **CG133** guidance on self-harm interventions, 3-12 tailored sessions) — the exam expects matching the modality to the specific clinical modifier, not just 'alcohol misuse = **CBT**'.",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
+            "page": 32,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Acceptance and Commitment Therapy (third-wave **CBT**, Relational Frame Theory): targets cognitive fusion and experiential avoidance via acceptance, cognitive defusion, present-moment contact, self-as-context, values, and committed action. Despite accumulating evidence in depression/pain/substance misuse/psychosis, **ACT** has the **LEAST** empirical evidence for **BPD** of the major modalities and is **NOT** **NICE**-recommended for **BPD** (unlike **DBT**, **MBT**, **CBT** and transference-focused psychotherapy).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -535,18 +1265,148 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Mindfulness-Based Cognitive Therapy (Segal & Teasdale), for relapsing depression: 8 weeks combining mindfulness classes, psychoeducation, and cognitive-therapy-derived exercises; associated with a 44% reduction in depressive relapse risk; included in the 2009 **NICE** Depression Guideline for those with 3+ past episodes who are currently well.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
             "page": 28
           }
+        },
+        {
+          "type": "table",
+          "title": "Session/duration numbers commonly tested",
+          "columns": [
+            "Therapy",
+            "Duration/sessions"
+          ],
+          "rows": [
+            [
+              "Interpersonal Therapy",
+              "12-16 weekly, hour-long sessions"
+            ],
+            [
+              "Cognitive Analytic Therapy",
+              "16-24 sessions (weekly, 50-60 min), + 1-5 follow-up sessions"
+            ],
+            [
+              "Brief dynamic psychotherapy",
+              "Up to 1 year, usually 20-25 sessions"
+            ],
+            [
+              "Multisystemic therapy",
+              "3 months, then stopped; 4-6 cases per clinician at a time"
+            ],
+            [
+              "Functional family therapy",
+              "Target age range 11-18 years"
+            ],
+            [
+              "Behavioural couples therapy (alcoholism)",
+              "15-20 sessions over 5-6 months"
+            ],
+            [
+              "Behavioural systems couple therapy (Crowe)",
+              "5-10 sessions over 3-6 months"
+            ],
+            [
+              "**MBCT**",
+              "8 weeks"
+            ],
+            [
+              "**CBT** for hypochondriasis (trial evidence)",
+              "6 sessions; benefit seen at 6 and 12 months"
+            ],
+            [
+              "Self-harm psychological intervention (**NICE** **CG133**)",
+              "3-12 sessions, tailored, may include **CBT**/psychodynamic/problem-solving elements"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 10
+            },
+            {
+              "file": "books/9-psychotherapy.pdf",
+              "page": 28
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 3
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 4
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+              "page": 58,
+              "questionNumber": 58
+            },
+            {
+              "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
+              "page": 32,
+              "questionNumber": 17
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "'Which best describes **CAT**?' — the **SPMM**-correct answer is the option combining cognitive **AND** emotional functioning **WITH** reformulation; distractors that sound like plain **CBT** (hierarchy of goals, homework hypothesis-testing, distorted cognitions alone) are wrong because they omit the analytic/reformulation half of **CAT**.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "'Which is correct about **DBT**?' — the keyed answer is that **DBT** 'comprises a hierarchy of goals' (self-harm → therapy-interfering behaviour → quality-of-life behaviour), not the more obvious-sounding 'requires group participation' distractor.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Motivational interviewing principles include expressing **EMPATHY**, not sympathy — a precise-wording distractor that is easy to misread as correct.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 41,
+                "questionNumber": 41
+              }
+            },
+            {
+              "text": "'Role transition' is a distractor among **DBT** technique options — it is an Interpersonal Therapy concept, not a **DBT** technique. **DBT** techniques are distress tolerance, interpersonal effectiveness, core mindfulness, and emotion regulation training.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 43,
+                "questionNumber": 43
+              }
+            },
+            {
+              "text": "Among **BPD** treatments, Acceptance and Commitment Therapy has the **LEAST** empirical evidence and is **NOT** **NICE**-recommended for **BPD** — this contrasts directly with **DBT**, **MBT**, **CBT**, and transference-focused psychotherapy, which the same question lists as the better-evidenced comparators.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 69,
+                "questionNumber": 69
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "heading": "Outcome Research, Evidence Base & NICE Recommendations",
-      "bullets": [
+      "id": "outcome-research-evidence",
+      "title": "12. Outcome Research, Evidence Base & NICE Recommendations",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Fixed duration, manualisation, random assignment, a single specific problem, and symptom-count outcomes maximise measurability of specific psychotherapy effects — but reduce real-world generalisability, and an adequate placebo for psychotherapy is hard to construct.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -554,6 +1414,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "The therapeutic alliance is consistently one of the most important effectiveness factors, and psychotherapy's effects persist beyond termination longer than non-psychotherapeutic treatments (**APA**, 2012).",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -561,6 +1422,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**NICE**-recommended psychotherapies by condition: **CBT** (psychosis/schizophrenia, depression, anxiety disorders, eating disorders, **PTSD**); **IPT** (depression, eating disorders); **MBT** (personality disorder); **MBCT** (relapse prevention in depression); **DBT** (personality disorder); **CAT** (depression, anxiety, personality disorder); Psychodynamic psychotherapy (depression, anxiety, **PTSD**, personality disorder); Behavioural psychotherapy (addiction); Family/systemic therapy (eating disorders, psychosis/schizophrenia); Counselling/supportive therapy per patient preference unless another therapy is more strongly indicated.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -568,6 +1430,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "**YAVIS** ('young, attractive, verbal, intelligent, successful' clients improve more) was coined by Schofield (1964) but is unproven. The best-established predictor of outcome across modalities is the degree of therapeutic alliance (Krupnick et al., 2006); patient-rated alliance predicts outcome, but therapist-rated alliance does not; idealisation of the therapist is not necessary and can even be counterproductive.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -575,6 +1438,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Huhn et al. (2014): combined psychotherapy+pharmacotherapy outperformed monotherapy for depression, social phobia, panic disorder and bulimia; evidence was equivocal for schizophrenia and dysthymia (medication superior). Methodological caveats: psychotherapy trials are smaller with inflated effect sizes especially versus waiting-list controls, have lower dropout and better follow-up than drug trials, are prone to 'researcher allegiance' effects, and often under-report conflicts of interest that are not purely financial.",
           "source": {
             "file": "books/9-psychotherapy.pdf",
@@ -582,7 +1446,23 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Named drug/pharmacotherapy specifics for combined treatment (e.g. exact antidepressant choices alongside IPT/CBT)",
+          "note": "The source book chapter and question bank discuss combining psychotherapy with pharmacotherapy only at the level of effect-size comparisons (Huhn et al., 2014) and do not specify individual drug choices or doses. Verify any drug-specific combination recommendations against the Maudsley Prescribing Guidelines (15th ed.) and current **NICE** guidance before using them in the exam."
+        },
+        {
+          "type": "paragraph",
           "text": "Borderline personality disorder was specifically flagged as having insufficient evidence to justify existing therapies in practice (**DBT**, **CBT**, **CAT**, **MBT**) — a nuance worth holding alongside the **NICE**-recommendation list above, which does still list these modalities for personality disorder.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 40
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**BPD** is explicitly flagged in the source material as having 'insufficient evidence to justify supporting the use of existing therapies in practice' (**DBT**, **CBT**, **CAT**, **MBT**) — a nuance that sits in tension with the same source's **NICE**-recommendation list, which does name **DBT**/**MBT**/**CAT** for personality disorder. Hold both facts; the exam has tested the sceptical framing directly.",
+          "format": "SBA",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
             "page": 40,
@@ -592,9 +1472,11 @@
       ]
     },
     {
-      "heading": "Other Named Interventions & Historical Pioneers (question-bank only)",
-      "bullets": [
+      "id": "other-interventions-pioneers",
+      "title": "13. Other Named Interventions & Historical Pioneers",
+      "blocks": [
         {
+          "type": "paragraph",
           "text": "Multisystemic therapy: clinicians take only 4-6 cases at a time given intensity of the work; treatment usually given for 3 months then stopped.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
@@ -603,6 +1485,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Functional Family Therapy for conduct disorder: designed to be practicable/inexpensive, target age range 11-18 years.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
@@ -611,6 +1494,12 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Detailed play therapy technique and child/adolescent-specific psychotherapy modalities beyond functional/multisystemic family therapy",
+          "note": "The question bank tests functional family therapy and multisystemic therapy only briefly (single duration/age facts) with no book-chapter coverage; broader child psychotherapy technique detail is not present in this topic's source material. Cross-check against current **NICE** guidance on conduct disorder and child psychological interventions if this is examined in more depth than the facts captured here."
+        },
+        {
+          "type": "paragraph",
           "text": "Genetic counselling is classified as 'risk counselling' — distinguished from other counselling types by the counsellor being the clear expert with access to specialist information (other types: psychoeducation, crisis management, problem-based counselling).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
@@ -619,6 +1508,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Camberwell Family Interview (**CFI**): a long interview process, audio-taped, that **DOES** include the patient (not just relatives); if any one relative is rated high-**EE**, the whole family is classed high-**EE**; ratings from interviewing parents individually had the most predictive value.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
@@ -627,6 +1517,7 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Historical pioneers: Progressive muscular relaxation — Jacobson; Gestalt therapy — Frederick & Laura Perls; Will Therapy — Otto Rank; Primal therapy — Arthur Janov; Rational Emotive Therapy — Albert Ellis (1955, a reality-based short-term therapy aimed at cognitive restructuring, a forerunner of **CBT**); Token economy — Ayllon, Azrin, Paul & Krasner; Existential Logotherapy ('therapy through meaning') — Victor Frankl; Psychodrama — Jacob Moreno (via sociometry); Dual sex therapy — Masters and Johnson; Reciprocal inhibition/systematic desensitisation — Joseph Wolpe.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
@@ -635,703 +1526,64 @@
           }
         },
         {
+          "type": "paragraph",
           "text": "Jean Piaget is **NOT** considered a Neo-Freudian (unlike Fromm, Sullivan, Adler, Horney) — he is a developmental psychologist, not a psychoanalytic theorist.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
             "page": 19,
             "questionNumber": 19
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Multisystemic therapy is time-boxed to 3 months (not 6 or 12) and run with only 4-6 cases per clinician at a time — an easily-confused exact-duration fact.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 3
+              }
+            },
+            {
+              "text": "Functional family therapy for conduct disorder targets ages 11-18, not younger childhood ranges — examiners test the specific age band.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "On the Camberwell Family Interview, 'the patient is not interviewed' is the **FALSE** statement to identify — the patient **IS** included; the detail examiners actually want is that ratings from interviewing parents **INDIVIDUALLY** carry the most predictive value.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "Jean Piaget is the odd one out among Neo-Freudians (vs Fromm, Sullivan, Adler, Horney) — he is a developmental psychologist, not a psychoanalytic theorist, despite superficially 'sounding' like he belongs on a Freud-adjacent list.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 19,
+                "questionNumber": 19
+              }
+            }
+          ]
         }
       ]
-    }
-  ],
-  "tables": [
+    },
     {
-      "title": "Exploratory/Analytic vs Supportive Psychotherapy",
-      "columns": [
-        "Feature",
-        "Exploratory/Analytic Psychotherapy",
-        "Supportive Psychotherapy"
-      ],
-      "rows": [
-        [
-          "Aim",
-          "Explore the cause of symptoms",
-          "Identify and support existing coping skills"
-        ],
-        [
-          "Duration",
-          "Often time-limited",
-          "No set boundaries — as and when needed"
-        ],
-        [
-          "Focus",
-          "Childhood trauma and developmental difficulties",
-          "Current life crisis and the support needed"
-        ],
-        [
-          "Patient suitability",
-          "Reasonable frustration tolerance, psychological-mindedness, intact reality-testing (no psychosis); must form meaningful object relations",
-          "Usable even with poor frustration tolerance, low psychological-mindedness, or impaired reality-testing (presence of psychosis); can tolerate severely impaired object relations"
-        ]
-      ],
-      "sources": [
+      "id": "coverage-gaps",
+      "title": "14. Coverage Gaps & Flags",
+      "blocks": [
         {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 10
+          "type": "gap",
+          "subtopic": "Legal/capacity framework intersecting with psychotherapy (e.g. consent to therapy, safeguarding disclosures mid-session)",
+          "note": "One **EMI** vignette (a patient disclosing child abuse mid-session) is answered only at the level of 'seek clarification before proceeding' — the source material does not cover the safeguarding/reporting duties that would follow such a disclosure in practice. Verify current safeguarding and information-sharing obligations against local policy and **GMC** guidance rather than relying on this guide."
         }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Cognitive distortions — MOSPAD-C",
-      "columns": [
-        "Distortion",
-        "Example"
-      ],
-      "rows": [
-        [
-          "Minimisation/Magnification",
-          "Passing an exam but thinking 'I only just scraped through' (minimisation); failing by one mark and thinking 'I totally flunked it' (magnification)"
-        ],
-        [
-          "Over-generalising",
-          "A teacher sees one student sleeping and assumes the whole class is bored"
-        ],
-        [
-          "Selective abstraction",
-          "Failing one exam and focusing only on that, ignoring exams passed"
-        ],
-        [
-          "Personalisation",
-          "A team redundancy occurs and you think 'it happened because of me'"
-        ],
-        [
-          "Arbitrary inference",
-          "'I failed my **CASC** on the last day of autumn last year — the same will happen again this year'"
-        ],
-        [
-          "Dichotomous (black/white) thinking",
-          "'Either I pass and my life is a success, or I fail and my life is a complete failure'"
-        ],
-        [
-          "Catastrophisation",
-          "Palpitations interpreted as 'this is a heart attack, I will die'"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 18
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Cognitive assumptions by psychiatric disorder",
-      "columns": [
-        "Disorder",
-        "Cognitive assumption"
-      ],
-      "rows": [
-        [
-          "Depression",
-          "Negative view of self/past, world/present, future (worthlessness, helplessness, hopelessness)"
-        ],
-        [
-          "Panic disorder",
-          "Catastrophic misinterpretation of physiological experiences"
-        ],
-        [
-          "Paranoid personality disorder",
-          "Negative global external attribution bias"
-        ],
-        [
-          "**OCD**",
-          "Thoughts as powerful as actions (thought omnipotence); undoing"
-        ],
-        [
-          "Suicidal behaviour",
-          "Hopelessness and cognitive constriction ('one-way exit')"
-        ],
-        [
-          "**PTSD**",
-          "Guilt and self-blame; feelings of loss of control"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 18
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Family therapy models at a glance",
-      "columns": [
-        "Model",
-        "Key figure",
-        "Central technique/idea"
-      ],
-      "rows": [
-        [
-          "Dynamic",
-          "—",
-          "Interprets unconscious alliances/dyads/triads; family sculpting"
-        ],
-        [
-          "Structural",
-          "Minuchin",
-          "Challenges disrupted hierarchies/boundaries/rules"
-        ],
-        [
-          "Family Systems",
-          "Bowen",
-          "Emotional triangle analysis; genogram; minimal therapist emotional contact"
-        ],
-        [
-          "Strategic",
-          "Haley",
-          "Positive reframing; domino effect; task setting (homework)"
-        ],
-        [
-          "Systemic (Milan)",
-          "Palazzoli",
-          "Circular/reflexive questioning; one-way mirror"
-        ],
-        [
-          "Psychoeducational",
-          "—",
-          "Reduces relapse via managing high expressed-emotion stress"
-        ],
-        [
-          "Behavioural",
-          "—",
-          "Symptom-focused, time-limited, learning-theory based"
-        ],
-        [
-          "Paradoxical",
-          "Bateson",
-          "Paradoxical injunction — patient told to engage in the unwanted behaviour"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 13
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Session/duration numbers commonly tested",
-      "columns": [
-        "Therapy",
-        "Duration/sessions"
-      ],
-      "rows": [
-        [
-          "Interpersonal Therapy",
-          "12-16 weekly, hour-long sessions"
-        ],
-        [
-          "Cognitive Analytic Therapy",
-          "16-24 sessions (weekly, 50-60 min), + 1-5 follow-up sessions"
-        ],
-        [
-          "Brief dynamic psychotherapy",
-          "Up to 1 year, usually 20-25 sessions"
-        ],
-        [
-          "Multisystemic therapy",
-          "3 months, then stopped; 4-6 cases per clinician at a time"
-        ],
-        [
-          "Functional family therapy",
-          "Target age range 11-18 years"
-        ],
-        [
-          "Behavioural couples therapy (alcoholism)",
-          "15-20 sessions over 5-6 months"
-        ],
-        [
-          "Behavioural systems couple therapy (Crowe)",
-          "5-10 sessions over 3-6 months"
-        ],
-        [
-          "**MBCT**",
-          "8 weeks"
-        ],
-        [
-          "**CBT** for hypochondriasis (trial evidence)",
-          "6 sessions; benefit seen at 6 and 12 months"
-        ],
-        [
-          "Self-harm psychological intervention (**NICE** **CG133**)",
-          "3-12 sessions, tailored, may include **CBT**/psychodynamic/problem-solving elements"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 10
-        },
-        {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 28
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-          "page": 3,
-          "questionNumber": 3
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-          "page": 4,
-          "questionNumber": 4
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-          "page": 58,
-          "questionNumber": 58
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
-          "page": 32,
-          "questionNumber": 17
-        }
-      ],
-      "highYield": true
-    },
-    {
-      "title": "Group therapy classification",
-      "columns": [
-        "Basis",
-        "Types"
-      ],
-      "rows": [
-        [
-          "By objective/leadership",
-          "High leader input (target-oriented, e.g. substance-use, occupational-therapy groups) → less specific but leader-directed (psychodrama, music therapy, systems-centred) → high specificity/low leader activity (problem-solving, psychoeducational) → low specificity/low leader activity (support, art therapy, interpersonal, Tavistock analytic)"
-        ],
-        [
-          "By membership",
-          "Homogeneous vs heterogeneous; closed (fixed membership) vs open (new members admitted as others leave)"
-        ],
-        [
-          "By mode",
-          "Activity, support, problem-focused, psychodynamic, behavioural"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 24
-        }
-      ],
-      "highYield": false
-    },
-    {
-      "title": "Yalom's group curative factors",
-      "columns": [
-        "Factor category",
-        "Examples"
-      ],
-      "rows": [
-        [
-          "Most consistently valued",
-          "Group cohesiveness; interpersonal learning from feedback"
-        ],
-        [
-          "Other cited factors",
-          "Instillation of hope, universality, imparting information, altruism, corrective recapitulation, socialisation techniques, imitative behaviour, catharsis, existential factors"
-        ],
-        [
-          "**NOT** a Yalom factor (trap distractor)",
-          "'Identification' — the correct term is imitative behaviour"
-        ]
-      ],
-      "sources": [
-        {
-          "file": "books/9-psychotherapy.pdf",
-          "page": 26
-        },
-        {
-          "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-          "page": 63,
-          "questionNumber": 63
-        }
-      ],
-      "highYield": true
-    }
-  ],
-  "mnemonics": [
-    {
-      "forTopic": "Mature defence mechanisms",
-      "mnemonic": "SASHA",
-      "expansion": [
-        "Sublimation",
-        "Anticipation",
-        "Suppression",
-        "Humour",
-        "Altruism"
-      ],
-      "sourced": true,
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 41,
-        "questionNumber": 41
-      }
-    },
-    {
-      "forTopic": "Henderson Hospital therapeutic community principles",
-      "mnemonic": "CPD-R",
-      "expansion": [
-        "Communalism",
-        "Permissiveness",
-        "Democratisation",
-        "Reality confrontation"
-      ],
-      "sourced": true,
-      "source": {
-        "file": "books/9-psychotherapy.pdf",
-        "page": 26
-      }
-    },
-    {
-      "forTopic": "DBT key skill modules",
-      "mnemonic": "DICE",
-      "expansion": [
-        "Distress tolerance",
-        "Interpersonal effectiveness training",
-        "Core mindfulness training",
-        "Emotion regulation skills"
-      ],
-      "sourced": true,
-      "source": {
-        "file": "books/9-psychotherapy.pdf",
-        "page": 28
-      }
-    },
-    {
-      "forTopic": "Cognitive distortions (Beck)",
-      "mnemonic": "MOSPAD-C",
-      "expansion": [
-        "Minimisation and magnification",
-        "Over-generalising",
-        "Selective abstraction",
-        "Personalisation",
-        "Arbitrary inference",
-        "Dichotomous thinking",
-        "Catastrophisation"
-      ],
-      "sourced": true,
-      "source": {
-        "file": "books/9-psychotherapy.pdf",
-        "page": 18
-      }
-    },
-    {
-      "forTopic": "Bion's group basic assumptions + Hopper's 4th",
-      "mnemonic": "D-P-F + M",
-      "expansion": [
-        "Dependency (group seeks protection)",
-        "Pairing (hope a new partnership resolves things)",
-        "Fight-flight (attack or withdraw)",
-        "+ Massification/aggregation (Hopper's 4th — rigid fusion of identities, or extensive withdrawal)"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "Kohut's three transferences",
-      "mnemonic": "MIT",
-      "expansion": [
-        "Mirroring transference — needs constant self-esteem affirmation from the therapist",
-        "Idealizing transference — preserves self-esteem via attachment to an idealised, powerful other",
-        "Twinship transference — comfortable only when the self-object mirrors the patient's own thoughts/values"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "IPT's four focus areas",
-      "mnemonic": "GRRD",
-      "expansion": [
-        "Grief",
-        "Role disputes",
-        "Role transitions",
-        "interpersonal Deficits"
-      ],
-      "sourced": false
-    },
-    {
-      "forTopic": "CAT's 'three Rs'",
-      "mnemonic": "RRR",
-      "expansion": [
-        "Recognition of maladaptive behaviour/beliefs",
-        "Reformulation of these ideas",
-        "Revision"
-      ],
-      "sourced": true,
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
-        "page": 69,
-        "questionNumber": 40
-      }
-    }
-  ],
-  "examinerTraps": [
-    {
-      "text": "'Which best describes **CAT**?' — the **SPMM**-correct answer is the option combining cognitive **AND** emotional functioning **WITH** reformulation; distractors that sound like plain **CBT** (hierarchy of goals, homework hypothesis-testing, distorted cognitions alone) are wrong because they omit the analytic/reformulation half of **CAT**.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 1,
-        "questionNumber": 1
-      }
-    },
-    {
-      "text": "'Which is correct about **DBT**?' — the keyed answer is that **DBT** 'comprises a hierarchy of goals' (self-harm → therapy-interfering behaviour → quality-of-life behaviour), not the more obvious-sounding 'requires group participation' distractor.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 2,
-        "questionNumber": 2
-      }
-    },
-    {
-      "text": "Multisystemic therapy is time-boxed to 3 months (not 6 or 12) and run with only 4-6 cases per clinician at a time — an easily-confused exact-duration fact.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 3,
-        "questionNumber": 3
-      }
-    },
-    {
-      "text": "Functional family therapy for conduct disorder targets ages 11-18, not younger childhood ranges — examiners test the specific age band.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 4,
-        "questionNumber": 4
-      }
-    },
-    {
-      "text": "'Interpretation of the transference is the **ONLY** means to access the unconscious' is the **INCORRECT** statement to spot — dreams, free association, slips of the tongue and abreaction are all valid routes too. Absolute-language options ('only', 'always', 'never') are a recurring **SBA** trap in this topic.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 7,
-        "questionNumber": 7
-      }
-    },
-    {
-      "text": "Poor response to psychodynamic psychotherapy is predicted by a history of multiple 'acting out' incidents — **NOT** by lower socioeconomic status or average **IQ**, which the explanation explicitly states are not, by themselves, poor predictors (counters an intuitive but wrong assumption).",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 16,
-        "questionNumber": 16
-      }
-    },
-    {
-      "text": "Therapeutic community core principles are Communalism, Permissiveness, Democratisation, Reality confrontation (**CPD-R**) — 'Aggregation' is a distractor borrowed from a different concept entirely (Hopper's 4th group basic assumption, massification/aggregation), not a **TC** principle.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 34,
-        "questionNumber": 34
-      }
-    },
-    {
-      "text": "**BPD** is explicitly flagged in the source material as having 'insufficient evidence to justify supporting the use of existing therapies in practice' (**DBT**, **CBT**, **CAT**, **MBT**) — a nuance that sits in tension with the same source's **NICE**-recommendation list, which does name **DBT**/**MBT**/**CAT** for personality disorder. Hold both facts; the exam has tested the sceptical framing directly.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 40,
-        "questionNumber": 40
-      }
-    },
-    {
-      "text": "Motivational interviewing principles include expressing **EMPATHY**, not sympathy — a precise-wording distractor that is easy to misread as correct.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 41,
-        "questionNumber": 41
-      }
-    },
-    {
-      "text": "'Role transition' is a distractor among **DBT** technique options — it is an Interpersonal Therapy concept, not a **DBT** technique. **DBT** techniques are distress tolerance, interpersonal effectiveness, core mindfulness, and emotion regulation training.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 43,
-        "questionNumber": 43
-      }
-    },
-    {
-      "text": "Defence mechanisms are a function of the **EGO** specifically (Anna Freud, 1936) — not the Id, Superego, or a combination; a single-structure answer is required despite the temptation to hedge with 'both'.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 60,
-        "questionNumber": 60
-      }
-    },
-    {
-      "text": "On the Camberwell Family Interview, 'the patient is not interviewed' is the **FALSE** statement to identify — the patient **IS** included; the detail examiners actually want is that ratings from interviewing parents **INDIVIDUALLY** carry the most predictive value.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 17,
-        "questionNumber": 17
-      }
-    },
-    {
-      "text": "Jean Piaget is the odd one out among Neo-Freudians (vs Fromm, Sullivan, Adler, Horney) — he is a developmental psychologist, not a psychoanalytic theorist, despite superficially 'sounding' like he belongs on a Freud-adjacent list.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 19,
-        "questionNumber": 19
-      }
-    },
-    {
-      "text": "Bion's basic assumptions are dependency, pairing, and fight-flight; 'Intellectualization' is a defence-mechanism distractor planted among the options, not a basic assumption.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 28,
-        "questionNumber": 28
-      }
-    },
-    {
-      "text": "Beck's cognitive model of depression comprises selective abstraction, arbitrary inference, minimisation/magnification, all-or-nothing thinking, personalisation, catastrophic thinking, and overgeneralisation — 'turning against self' is a psychodynamic (not Beckian/cognitive) concept of depression planted as a distractor.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 43,
-        "questionNumber": 43
-      }
-    },
-    {
-      "text": "A vignette where nursing staff feel 'unwanted' and angry toward a personality-disordered patient is keyed to Counter-transference as the best single answer, even though the explanation's actual mechanism described is projective identification (the patient's projected hatred is taken in and acted out by staff) — the exam wants the broader phenomenon name, not the specific Kleinian mechanism.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 49,
-        "questionNumber": 49
-      }
-    },
-    {
-      "text": "'A diagnosis of paraphrenia' is the answer to spot among positive prognostic indicators for psychotherapy — psychotic disorders are traditionally viewed as involving ego disintegration and are **NOT** a positive predictor, unlike self-scrutiny, response to trial interpretation, some medication response, and psychological mindedness.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 56,
-        "questionNumber": 56
-      }
-    },
-    {
-      "text": "The **CBT**-for-psychosis component is 'graded' reality testing (via peripheral questioning and inference chaining) — 'flooded reality testing' is a fabricated distractor combining a real behavioural term (flooding) with the wrong **CBT**-for-psychosis technique.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 59,
-        "questionNumber": 59
-      }
-    },
-    {
-      "text": "Yalom's 11 curative factors do **NOT** include 'Identification' as a labelled factor — the correct term in his list is 'imitative behaviour'; a near-synonym distractor.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 63,
-        "questionNumber": 63
-      }
-    },
-    {
-      "text": "Among **BPD** treatments, Acceptance and Commitment Therapy has the **LEAST** empirical evidence and is **NOT** **NICE**-recommended for **BPD** — this contrasts directly with **DBT**, **MBT**, **CBT**, and transference-focused psychotherapy, which the same question lists as the better-evidenced comparators.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 69,
-        "questionNumber": 69
-      }
-    },
-    {
-      "text": "Predictors of poor **CBT**/graded-exercise outcome in chronic fatigue syndrome include membership of a self-help group — the explanation explicitly warns this is **NOT** because self-help groups worsen **CFS**, but because membership is a marker of perceived illness severity; a causal-inference trap.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
-        "page": 59,
-        "questionNumber": 59
-      }
-    },
-    {
-      "text": "Hypochondriasis **CBT**'s realistic cognitive endpoint is **LESS** distress at illness-related thoughts and better role functioning — 'complete absence of thoughts of illness' is an unrealistic distractor; hypochondriasis is often refractory and treatment aims at coping rather than cure.",
-      "format": "SBA",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
-        "page": 58,
-        "questionNumber": 58
-      }
-    },
-    {
-      "text": "**SNAGS** in **CAT** stands for 'Subtle Negative Aspects of Goals' — appropriate goals/roles abandoned because they are assumed 'forbidden' by others; a specific acronym expansion the exam can ask for directly.",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
-        "page": 42,
-        "questionNumber": 23
-      }
-    },
-    {
-      "text": "Safety behaviours are counterintuitively harmful across disorders: active thought suppression in **OCD**/**PTSD** **INCREASES** intrusion/flashback probability, and hyperventilation in panic (meant to prevent 'choking') itself produces the acid-base symptoms mistaken for confirming the crisis — the mechanism is paradoxical, not protective.",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
-        "page": 68,
-        "questionNumber": 39
-      }
-    },
-    {
-      "text": "Behavioural couples therapy is specifically indicated when the alcohol-dependent patient has a regular, willing partner and an abstinence goal, whereas psychodynamic therapy is favoured when significant childhood trauma is present (per **NICE** **CG133** guidance on self-harm interventions, 3-12 tailored sessions) — the exam expects matching the modality to the specific clinical modifier, not just 'alcohol misuse = **CBT**'.",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
-        "page": 32,
-        "questionNumber": 17
-      }
-    },
-    {
-      "text": "The Premack Principle ('Grandma's rule' — high-frequency behaviour reinforces a low-frequency one, e.g. finishing homework before play) is a specifically named operant concept distinct from plain positive reinforcement — worth knowing by name for **EMI** matching.",
-      "format": "EMI",
-      "source": {
-        "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
-        "page": 2,
-        "questionNumber": 1
-      }
-    }
-  ],
-  "gaps": [
-    {
-      "subtopic": "Named drug/pharmacotherapy specifics for combined treatment (e.g. exact antidepressant choices alongside IPT/CBT)",
-      "note": "The source book chapter and question bank discuss combining psychotherapy with pharmacotherapy only at the level of effect-size comparisons (Huhn et al., 2014) and do not specify individual drug choices or doses. Verify any drug-specific combination recommendations against the Maudsley Prescribing Guidelines (15th ed.) and current **NICE** guidance before using them in the exam."
-    },
-    {
-      "subtopic": "Detailed play therapy technique and child/adolescent-specific psychotherapy modalities beyond functional/multisystemic family therapy",
-      "note": "The question bank tests functional family therapy and multisystemic therapy only briefly (single duration/age facts) with no book-chapter coverage; broader child psychotherapy technique detail is not present in this topic's source material. Cross-check against current **NICE** guidance on conduct disorder and child psychological interventions if this is examined in more depth than the facts captured here."
-    },
-    {
-      "subtopic": "EMDR's evidence base and current NICE/international guideline status",
-      "note": "The source text presents **EMDR**'s theoretical premise (**REM**-sleep-linked hypothesis) as 'not proven yet' and gives no current guideline-endorsement detail. Verify **EMDR**'s current recommendation status for **PTSD** against up-to-date **NICE** guidance before treating it as first-line in exam answers."
-    },
-    {
-      "subtopic": "Legal/capacity framework intersecting with psychotherapy (e.g. consent to therapy, safeguarding disclosures mid-session)",
-      "note": "One **EMI** vignette (a patient disclosing child abuse mid-session) is answered only at the level of 'seek clarification before proceeding' — the source material does not cover the safeguarding/reporting duties that would follow such a disclosure in practice. Verify current safeguarding and information-sharing obligations against local policy and **GMC** guidance rather than relying on this guide."
+      ]
     }
   ]
 }

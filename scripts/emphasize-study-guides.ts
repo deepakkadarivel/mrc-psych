@@ -11,17 +11,31 @@ for (const file of files) {
   const full = path.join(guidesDir, file);
   const guide = JSON.parse(fs.readFileSync(full, "utf-8")) as StudyGuide;
 
-  for (const group of guide.condensedNotes) {
-    for (const b of group.bullets) b.text = emphasize(b.text);
+  for (const section of guide.sections) {
+    for (const block of section.blocks) {
+      switch (block.type) {
+        case "paragraph":
+          block.text = emphasize(block.text);
+          break;
+        case "table":
+        case "comparison":
+          block.rows = block.rows.map((row) => row.map((cell) => emphasize(cell)));
+          break;
+        case "mnemonic":
+          block.expansion = block.expansion.map((e) => emphasize(e));
+          break;
+        case "trap":
+          block.text = emphasize(block.text);
+          break;
+        case "trap-list":
+          for (const item of block.items) item.text = emphasize(item.text);
+          break;
+        case "gap":
+          block.note = emphasize(block.note);
+          break;
+      }
+    }
   }
-  for (const t of guide.tables) {
-    t.rows = t.rows.map((row) => row.map((cell) => emphasize(cell)));
-  }
-  for (const mn of guide.mnemonics) {
-    mn.expansion = mn.expansion.map((e) => emphasize(e));
-  }
-  for (const trap of guide.examinerTraps) trap.text = emphasize(trap.text);
-  for (const gap of guide.gaps) gap.note = emphasize(gap.note);
 
   fs.writeFileSync(full, JSON.stringify(guide, null, 2));
   console.log(`${file}: emphasized`);

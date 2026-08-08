@@ -30,6 +30,17 @@ function isValid(source: Source, sets: { pageKeys: Set<string>; questionKeys: Se
   return sets.pageKeys.has(`${source.file}|${source.page}`);
 }
 
+function checkSources(
+  sources: Source[],
+  label: string,
+  sets: { pageKeys: Set<string>; questionKeys: Set<string> },
+  invalid: string[]
+) {
+  for (const s of sources) {
+    if (!isValid(s, sets)) invalid.push(`${label}: ${JSON.stringify(s)}`);
+  }
+}
+
 const files = fs.existsSync(guidesDir)
   ? fs.readdirSync(guidesDir).filter((f) => f.endsWith(".json"))
   : [];
@@ -42,23 +53,35 @@ for (const file of files) {
   const sets = buildValidSets(topic);
   const invalid: string[] = [];
 
-  for (const group of guide.condensedNotes) {
-    for (const b of group.bullets) {
-      if (!isValid(b.source, sets)) invalid.push(`condensedNotes[${group.heading}]: ${JSON.stringify(b.source)}`);
+  for (const section of guide.sections) {
+    for (const block of section.blocks) {
+      switch (block.type) {
+        case "paragraph":
+          checkSources([block.source], `[${section.title}] paragraph`, sets, invalid);
+          break;
+        case "table":
+          checkSources(block.sources, `[${section.title}] table[${block.title ?? block.category?.label ?? ""}]`, sets, invalid);
+          break;
+        case "comparison":
+          checkSources(block.sources, `[${section.title}] comparison[${block.title}]`, sets, invalid);
+          break;
+        case "mnemonic":
+          if (block.sourced && block.source) {
+            checkSources([block.source], `[${section.title}] mnemonic[${block.forTopic}]`, sets, invalid);
+          }
+          break;
+        case "trap":
+          checkSources([block.source], `[${section.title}] trap[${block.text.slice(0, 40)}...]`, sets, invalid);
+          break;
+        case "trap-list":
+          for (const item of block.items) {
+            checkSources([item.source], `[${section.title}] trap-list[${item.text.slice(0, 40)}...]`, sets, invalid);
+          }
+          break;
+        case "gap":
+          break;
+      }
     }
-  }
-  for (const t of guide.tables) {
-    for (const s of t.sources) {
-      if (!isValid(s, sets)) invalid.push(`table[${t.title}]: ${JSON.stringify(s)}`);
-    }
-  }
-  for (const m of guide.mnemonics) {
-    if (m.sourced && m.source && !isValid(m.source, sets)) {
-      invalid.push(`mnemonic[${m.forTopic}]: ${JSON.stringify(m.source)}`);
-    }
-  }
-  for (const t of guide.examinerTraps) {
-    if (!isValid(t.source, sets)) invalid.push(`trap[${t.text.slice(0, 40)}...]: ${JSON.stringify(t.source)}`);
   }
 
   if (invalid.length) {
