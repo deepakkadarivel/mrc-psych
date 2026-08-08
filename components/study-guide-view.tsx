@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { createPortal } from "react-dom";
 import {
   AlertTriangle,
@@ -11,12 +12,13 @@ import {
   Zap,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { CitationBadge } from "@/components/citation-badge";
 import { RichText } from "@/components/rich-text";
 import { usePortalSlot } from "@/hooks/use-portal-slot";
+import { cn } from "@/lib/utils";
 import { CATEGORY_COLOR_CLASSES, COMPARISON_TABLE_COLORS, DEFAULT_TABLE_COLORS } from "@/lib/category-colors";
 import type {
   Block,
@@ -275,6 +277,87 @@ function GapBlockView({ block }: { block: GapBlock }) {
   );
 }
 
+// A left panel listing every section (like the app's own AppSidebar listing every topic) with the
+// selected section's notes shown centered in the middle — replaces an earlier accordion-of-
+// sections design. The nav is deliberately NOT inside <Paper>: it's navigation chrome, not study
+// content that's meant to look like a printed page, so it follows the app's normal (theme-aware)
+// styling. On md+ it's a genuinely independent-scrolling pane via ResizablePanelGroup (plain CSS
+// `sticky` doesn't reliably hold here — Base UI's Tabs.Panel wraps content in an animated,
+// transformed element, which changes what a `position: sticky` descendant sticks relative to;
+// bounded-height resizable panes sidestep that entirely, and the user can drag to resize besides).
+function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
+  const sections = guide.sections.filter((s) => s.blocks.some((b) => b.type === "paragraph"));
+  const [activeId, setActiveId] = useState(sections[0]?.id);
+  const active = sections.find((s) => s.id === activeId) ?? sections[0];
+  const paragraphs = active
+    ? active.blocks.filter((b): b is ParagraphBlock => b.type === "paragraph")
+    : [];
+
+  const navItems = (
+    <ul className="flex gap-1.5 overflow-x-auto p-3 md:flex-col md:overflow-visible">
+      {sections.map((s) => (
+        <li key={s.id} className="shrink-0 md:shrink">
+          <button
+            type="button"
+            onClick={() => setActiveId(s.id)}
+            className={cn(
+              "block w-full rounded-md px-3 py-2 text-left text-sm font-medium whitespace-nowrap transition-colors md:whitespace-normal",
+              s.id === active?.id
+                ? "bg-muted font-semibold text-foreground"
+                : "text-muted-foreground hover:bg-muted hover:text-foreground"
+            )}
+          >
+            {s.title}
+          </button>
+        </li>
+      ))}
+    </ul>
+  );
+
+  const detail = active && (
+    <>
+      <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{active.title}</h2>
+      <ul className="mt-4 space-y-4">
+        {paragraphs.map((b, i) => (
+          <ParagraphBlockView key={i} block={b} onCite={onCite} />
+        ))}
+      </ul>
+    </>
+  );
+
+  return (
+    <>
+      {/* Mobile: a plain stacked layout — dragging a resize handle doesn't translate to touch,
+          so this stays the simple pill-row-then-content flow the rest of the app uses below md. */}
+      <div className="md:hidden">
+        <nav className="border-b">{navItems}</nav>
+        <Paper>{detail}</Paper>
+      </div>
+
+      {/* Desktop: resizable, independently-scrolling nav + detail panes. Height is pinned to the
+          measured consolidated-header height (94px, two rows — see app/layout.tsx), not an
+          arbitrary vh guess, so the panel fills the actual available viewport with no leftover
+          gap at the bottom. Can't use h-full here: topic-view.tsx's whole ancestor chain is
+          deliberately unbounded/flowing (see "Layout height must be bounded"), so there's no
+          bounded parent for h-full to resolve against without reintroducing that chain for every
+          sibling tab too. */}
+      <div className="hidden md:block md:h-[calc(100vh-94px)]">
+        <ResizablePanelGroup orientation="horizontal" className="h-full">
+          <ResizablePanel defaultSize="26" minSize="18" maxSize="40">
+            <nav className="h-full overflow-y-auto border-r">{navItems}</nav>
+          </ResizablePanel>
+          <ResizableHandle withHandle />
+          <ResizablePanel defaultSize="74" minSize="40">
+            <div className="h-full overflow-y-auto">
+              <Paper>{detail}</Paper>
+            </div>
+          </ResizablePanel>
+        </ResizablePanelGroup>
+      </div>
+    </>
+  );
+}
+
 function BlockView({ block, onCite }: { block: Block; onCite: Cite }) {
   switch (block.type) {
     case "paragraph":
@@ -378,37 +461,7 @@ export function StudyGuideView({
       </TabsContent>
 
       <TabsContent value="notes">
-        <Paper>
-          <Accordion className="space-y-3">
-            {guide.sections
-              .filter((s) => s.blocks.some((b) => b.type === "paragraph"))
-              .map((section) => {
-                const paragraphs = section.blocks.filter(
-                  (b): b is ParagraphBlock => b.type === "paragraph"
-                );
-                return (
-                  <div key={section.id} className="overflow-hidden rounded-xl border border-[#D9D9D9]">
-                    <AccordionItem value={section.id} className="border-b-0">
-                      <AccordionTrigger className="px-4 py-3.5 hover:no-underline">
-                        <span className="flex items-center gap-2 text-base font-bold text-[#1B3A5C]">
-                          <NotebookText className="size-4 shrink-0" />
-                          {section.title}
-                        </span>
-                        <Badge variant="secondary" className="ml-2 text-xs">{paragraphs.length}</Badge>
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-4">
-                        <ul className="space-y-4">
-                          {paragraphs.map((b, i) => (
-                            <ParagraphBlockView key={i} block={b} onCite={onCite} />
-                          ))}
-                        </ul>
-                      </AccordionContent>
-                    </AccordionItem>
-                  </div>
-                );
-              })}
-          </Accordion>
-        </Paper>
+        <NotesTabView guide={guide} onCite={onCite} />
       </TabsContent>
 
       <TabsContent value="tables">

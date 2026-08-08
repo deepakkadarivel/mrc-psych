@@ -182,7 +182,7 @@ Whenever `Button`'s `render` target isn't a real `<button>` (e.g. a `Link`/`<a>`
 `nativeButton={false}` — otherwise Base UI logs a console error every render ("expected a
 native <button>...").
 
-`ResizablePanelGroup` also isn't the classic react-resizable-panels API: use `orientation="horizontal"`, not `direction="horizontal"`.
+`ResizablePanelGroup` also isn't the classic react-resizable-panels API: use `orientation="horizontal"`, not `direction="horizontal"`. Also on this v4: `ResizablePanel`'s `defaultSize`/`minSize`/`maxSize` take a bare `number` as *pixels*, not percent — pass a numeric *string* (`"26"`) for a percentage, or you get e.g. a panel clamped to a few px instead of the intended 26% (see "Print-document design system" → Notes tab below for the concrete bug this caused).
 
 ## Layout height must be bounded, not `min-h-*`
 
@@ -418,6 +418,42 @@ inline number/percentage highlighting (that was explicitly dropped by the user's
 decision to match the reference exactly — see the git history around this section). If study
 content still reads flat after this, that's a question worth asking again, not something to
 pre-empt by re-adding number-highlighting speculatively.
+
+**The "Notes" tab (`NotesTabView`) is a resizable left-panel-list + right-panel-detail layout, not
+an accordion.** It originally rendered every section as an `AccordionItem` you expand in place.
+The user asked to replace that with something "similar to how we have a main left panel that would
+list all the topics" (i.e. `AppSidebar`): a nav list of section titles on the left, the selected
+section's paragraph notes on the right; clicking a title swaps the detail pane instead of
+expanding/collapsing in place. Plain `useState` for the active section id, no router/URL state —
+scoped entirely inside the Notes tab, not a page navigation. This is a *different* two-column
+layout than the one removed from `topic-view.tsx` (content vs. PDF reference) — that removal was
+about not permanently splitting screen real estate between two competing large panels; this is a
+small in-tab table-of-contents pattern the user asked for directly, not a regression of that
+decision.
+
+**On `md:` and up it's a `ResizablePanelGroup` (nav panel ~26%, detail panel ~74%, draggable
+handle), not plain flexbox, and not CSS `sticky`.** Two earlier attempts were tried and dropped:
+(1) `sticky top-0` on the nav — doesn't reliably hold here, because Base UI's `Tabs.Panel` wraps
+its content in an animated/transformed element, which changes what a `position: sticky`
+descendant sticks relative to; verified broken by scrolling the actual scroll container (not
+`window.scrollTo`, which is a no-op in this app's layout — the real scrollable element is
+layout.tsx's `flex-1 overflow-y-auto` div) and watching the nav slide out from under the header.
+(2) a shared `md:h-[Nvh]` bounded height with `overflow-y-auto` on both plain flex children — this
+part actually worked (each pane scrolled independently), but the user then asked for draggable
+resizing too, and a fixed vh guess left a visible gap below the panel on tall viewports. Landed on
+`ResizablePanelGroup`/`ResizablePanel` (`components/ui/resizable.tsx`, already used elsewhere in
+this app) with each panel's own inner `overflow-y-auto` div, sized to
+`md:h-[calc(100vh-94px)]` — 94px is the *measured* height of the consolidated header (two rows,
+see below), not a guess, so the panel fills the actual remaining viewport with no leftover gap.
+Below `md` there's no resizable/independent-scroll behavior at all — dragging a resize handle
+doesn't translate to touch, so it's a plain stacked pill-row nav above page-flowing detail
+content, matching the rest of the app's single-column-on-mobile approach.
+
+**`react-resizable-panels` v4's `defaultSize`/`minSize`/`maxSize` take a bare `number` as
+*pixels*, not percent** — only a numeric *string* (`"26"`) is treated as a percentage
+(`defaultSize={26}` is 26px; `defaultSize="26"` is 26%). This bit `NotesTabView` directly: passing
+numbers collapsed the nav panel to ~35px wide despite `minSize={15}`, because 15 was 15px too, not
+a real minimum. Always pass these three props as numeric strings on this version.
 
 ## Consolidated sticky header (`app/layout.tsx` + portals)
 
