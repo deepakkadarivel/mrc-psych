@@ -17,6 +17,7 @@ import { Badge } from "@/components/ui/badge";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CitationBadge } from "@/components/citation-badge";
 import { QuizView } from "@/components/quiz-view";
 import { RichText } from "@/components/rich-text";
@@ -579,6 +580,36 @@ function countBlocks(guide: StudyGuide, ...types: Block["type"][]): number {
   return n;
 }
 
+// Icon-only tab, matching the drawer-toggle icon's own pattern (topic-view.tsx): the label (and
+// count, where relevant) shows in a Tooltip on hover instead of always-visible text, so the
+// header row's tab list reads as a compact row of icons rather than 8 spelled-out labels. The
+// icon is still the same accessible <TabsTrigger> (aria-label carries the name for screen readers
+// and for Playwright's role-based selectors), just with no visible text child.
+function IconTabTrigger({
+  value,
+  icon,
+  label,
+  disabled,
+}: {
+  value: string;
+  icon: React.ReactNode;
+  label: string;
+  disabled?: boolean;
+}) {
+  return (
+    <Tooltip>
+      <TooltipTrigger
+        render={
+          <TabsTrigger value={value} disabled={disabled} aria-label={label}>
+            {icon}
+          </TabsTrigger>
+        }
+      />
+      <TooltipContent>{label}</TooltipContent>
+    </Tooltip>
+  );
+}
+
 export function StudyGuideView({
   guide,
   onCite,
@@ -608,30 +639,23 @@ export function StudyGuideView({
       {tabsAnchorSlot &&
         createPortal(
           <TabsList className="mx-0 overflow-x-auto">
-            <TabsTrigger value="full" className="gap-1.5">
-              <BookOpenText className="size-4" /> Full Guide
-            </TabsTrigger>
-            <TabsTrigger value="concise" className="gap-1.5">
-              <ListChecks className="size-4" /> Concise Guide
-            </TabsTrigger>
-            <TabsTrigger value="notes" className="gap-1.5">
-              <NotebookText className="size-4" /> Notes
-            </TabsTrigger>
-            <TabsTrigger value="tables" className="gap-1.5">
-              <Table2 className="size-4" /> Tables ({tableCount})
-            </TabsTrigger>
-            <TabsTrigger value="mnemonics" className="gap-1.5">
-              <Lightbulb className="size-4" /> Mnemonics ({mnemonicCount})
-            </TabsTrigger>
-            <TabsTrigger value="traps" className="gap-1.5">
-              <AlertTriangle className="size-4" /> Traps ({trapCount})
-            </TabsTrigger>
-            <TabsTrigger value="gaps" className="gap-1.5">
-              <HelpCircle className="size-4" /> Gaps ({gapCount})
-            </TabsTrigger>
-            <TabsTrigger value="quiz" className="gap-1.5" disabled={questions.length === 0}>
-              <GraduationCap className="size-4" /> Quiz ({questions.length})
-            </TabsTrigger>
+            <IconTabTrigger value="full" icon={<BookOpenText className="size-4" />} label="Full Guide" />
+            <IconTabTrigger value="concise" icon={<ListChecks className="size-4" />} label="Concise Guide" />
+            <IconTabTrigger value="notes" icon={<NotebookText className="size-4" />} label="Notes" />
+            <IconTabTrigger value="tables" icon={<Table2 className="size-4" />} label={`Tables (${tableCount})`} />
+            <IconTabTrigger
+              value="mnemonics"
+              icon={<Lightbulb className="size-4" />}
+              label={`Mnemonics (${mnemonicCount})`}
+            />
+            <IconTabTrigger value="traps" icon={<AlertTriangle className="size-4" />} label={`Traps (${trapCount})`} />
+            <IconTabTrigger value="gaps" icon={<HelpCircle className="size-4" />} label={`Gaps (${gapCount})`} />
+            <IconTabTrigger
+              value="quiz"
+              icon={<GraduationCap className="size-4" />}
+              label={`Quiz (${questions.length})`}
+              disabled={questions.length === 0}
+            />
           </TabsList>,
           tabsAnchorSlot
         )}
