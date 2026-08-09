@@ -117,6 +117,14 @@
   --sidebar-ring: oklch(0.65 0.09 220);
 }
 
+/* Unlayered (not @layer base) so it beats the row's own "flex" utility class — Tailwind's
+   utilities layer wins over base regardless of specificity, so this rule must sit outside any
+   @layer to override it. Hides the page-header tabs row when no page has portaled anything
+   into either slot (quiz/tracker/recalls/home) — see CLAUDE.md "Consolidated sticky header". */
+#page-header-tabs-row:has(#page-header-tabs-left:empty):has(#page-header-tabs-right:empty) {
+  display: none;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

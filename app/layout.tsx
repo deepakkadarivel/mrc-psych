@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <SidebarTrigger />
                   <div id="page-header-slot" className="flex min-w-0 flex-1 items-center justify-between gap-2" />
                 </div>
-                <div className="flex items-center justify-between gap-2 border-b p-2">
+                <div id="page-header-tabs-row" className="flex items-center justify-between gap-2 border-b p-2">
                   <div id="page-header-tabs-left" className="flex min-w-0 items-center gap-2" />
                   <div id="page-header-tabs-right" className="flex min-w-0 items-center gap-2 overflow-x-auto" />
                 </div>
