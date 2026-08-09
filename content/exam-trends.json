@@ -1,0 +1,1021 @@
+{
+  "weightSource": {
+    "text": "Mark/percentage breakdown per syllabus section, per the RCPsych Paper B blueprint (confirmed against an independent published guide, not just the syllabus PDF, which does not itself print a marks table).",
+    "url": "https://edubros.org/mrcpsych-paper-b-complete-guide/"
+  },
+  "externalStrategyNotes": [
+    {
+      "text": "Paper B is ~150 questions in a roughly 2:1 mix of MCQs to EMIs, and is commonly described as split about evenly between clinical psychiatry and statistics/critical appraisal in terms of study effort, even though critical review alone is 33.5% of marks.",
+      "url": "https://passmrcpsych.com/the-mrcpsych-paper-b-a-comprehensive-guide/"
+    },
+    {
+      "text": "Clinical questions lean heavily on NICE guideline stepwise-management knowledge (e.g. first/second-line drug choice sequences for mood, psychotic and anxiety disorders) rather than obscure facts.",
+      "url": "https://edubros.org/mrcpsych-paper-b-complete-guide/"
+    },
+    {
+      "text": "Past-paper recalls are widely cited by successful candidates as the best signal for which exact topics repeat year to year — cross-check this app's own recurring-trap lists below against resources/paper-b/previous-year-question-source/ (see the Recalls page) for the most current signal.",
+      "url": "https://mindrecalls.com/paper-b-study-pattern/"
+    }
+  ],
+  "sections": [
+    {
+      "id": "organisation-of-services",
+      "syllabusNumber": "6",
+      "title": "Organisation and Delivery of Psychiatric Services",
+      "weightPercent": 5.5,
+      "weightMarks": 8,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 13
+      },
+      "mappedTopics": [
+        "psychiatric-services"
+      ],
+      "totalQuestionBankCount": 48,
+      "topicSignals": [
+        {
+          "topicId": "psychiatric-services",
+          "topicTitle": "Psychiatric Services & Rehabilitation",
+          "questionBankCount": 48,
+          "highYieldTableCount": 10,
+          "recurringTraps": [
+            {
+              "text": "Tertiary prevention means reducing handicap/disability from established disease (i.e. rehabilitation), **NOT** eliminating the illness itself — a frequently mis-selected option is 'reducing incidence', which describes primary, not tertiary, prevention.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "Universal vs selective prevention in pregnancy-related interventions is a fine distinction: improving prenatal nutrition/antenatal care broadly (all pregnant women) is classed as **UNIVERSAL** prevention, whereas targeting a specific risk factor like low birth weight within pregnant women is classed as **SELECTIVE** prevention (see the linked **EMI**) — the exam expects you to track whether the whole population or only a risk-defined subgroup is targeted.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 21
+              }
+            },
+            {
+              "text": "Rose's Prevention Paradox is regularly tested with near-identical distractor wording ('universal is best for individuals' vs 'high-risk targeting is best for individuals but universal wins at population level') — read to the end of each option before choosing; the two SBAs sampled here use almost the same stem with subtly reordered clauses.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 36,
+                "questionNumber": 36
+              }
+            },
+            {
+              "text": "Early recognition of alcohol misuse using screening questionnaires is **SECONDARY** prevention (early detection of existing/incipient cases), not primary — a frequently mis-selected option in 'which is **NOT** primary prevention' framing.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 37,
+                "questionNumber": 37
+              }
+            },
+            {
+              "text": "In the schizophrenia-prevention **EMI**, targeting pregnant women to address low birth weight is **SELECTIVE** prevention (a defined risk factor within a subgroup), while targeting the general urban social milieu is **UNIVERSAL** prevention, and identifying a preschizophrenic/prodromal state is **INDICATED** prevention — three different classifications for three superficially similar 'early action in psychosis' scenarios.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychiatric Services_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "Pregnancy is a **RELATIVE** contraindication to **ECT**, not absolute — the book notes state there are no absolute contraindications to **ECT** at all, which itself is a frequently tested standalone fact.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychiatric Services_ Attempt review.pdf",
+                "page": 24,
+                "questionNumber": 24
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-adult-psychiatry",
+      "syllabusNumber": "7",
+      "title": "General Adult Psychiatry",
+      "weightPercent": 20,
+      "weightMarks": 30,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 14
+      },
+      "mappedTopics": [
+        "adult-psychiatry",
+        "perinatal-psychiatry",
+        "liaison-psychiatry",
+        "emergency-psychiatry"
+      ],
+      "totalQuestionBankCount": 490,
+      "topicSignals": [
+        {
+          "topicId": "adult-psychiatry",
+          "topicTitle": "Adult Psychiatry",
+          "questionBankCount": 277,
+          "highYieldTableCount": 8,
+          "recurringTraps": [
+            {
+              "text": "\"Which comorbidity should be treated first?\" → **NICE** explicitly wants comorbid depression treated **BEFORE** anxiety — treating anxiety first is presented as the wrong (non-recommended) answer.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+                "page": 38,
+                "questionNumber": 27
+              }
+            },
+            {
+              "text": "\"Do antidepressants increase suicide risk?\" — the expected, guideline-backed answer is that suicides occur **MORE** often among those **NOT** on an antidepressant; don't let the black-box-warning framing pull you toward the intuitive-but-wrong answer.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+                "page": 41,
+                "questionNumber": 29
+              }
+            },
+            {
+              "text": "**Lithium** toxicity with neurological symptoms → haemodialysis is the expected answer once levels exceed the life-threatening 2.0 mmol/L threshold, not simply stopping the drug.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 2_ Attempt review.pdf",
+                "page": 23,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "Risk of schizophrenia if **BOTH** parents affected is 40–==50%== — don't confuse with the single first-degree-relative figure of 12–==15%==; both numbers are tested.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 1_ Attempt review.pdf",
+                "page": 30,
+                "questionNumber": 20
+              }
+            },
+            {
+              "text": "Cannabis by age 15 confers a fourfold (not the general twofold) increased schizophrenia risk — the exam distinguishes the age-15 figure from the overall-adolescent figure.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 2_ Attempt review.pdf",
+                "page": 29,
+                "questionNumber": 22
+              }
+            },
+            {
+              "text": "Positive family history of schizophrenia is a **GENETIC** factor, not an environmental one — a classification trap in \"which is **NOT** an environmental risk factor\" questions.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Adult Part 2_ Attempt review.pdf",
+                "page": 52,
+                "questionNumber": 41
+              }
+            }
+          ]
+        },
+        {
+          "topicId": "perinatal-psychiatry",
+          "topicTitle": "Perinatal Psychiatry",
+          "questionBankCount": 42,
+          "highYieldTableCount": 5,
+          "recurringTraps": [
+            {
+              "text": "'Delivery at home' is a deliberate distractor for postnatal depression risk factors — Pop et al. (1995) found no difference in blues/depression rates between home and hospital delivery, unlike the other genuine risk factors listed (traumatic delivery, complicated antenatal course, child health problems, past depression).",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Perinatal Psychiatry_ Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 35
+              }
+            },
+            {
+              "text": "Even when a bipolar-disorder stem emphasises medication-free status while trying to conceive and evokes postpartum psychosis/mania, the statistically most likely tested outcome is relapse into depression after delivery — mania/psychosis are more dramatic, but depression is the most prevalent postpartum relapse type overall.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Perinatal Psychiatry_ Attempt review.pdf",
+                "page": 42,
+                "questionNumber": 42
+              }
+            },
+            {
+              "text": "The 'most sensitive period for foetal malformation' is tested in the question bank as weeks 2–14 (citing **NICE** 2020) — a wider window than the **SPMM** book's 'weeks 6–10 most vulnerable' framing. Go with whichever framing the stem's cited guideline points to.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Perinatal Psychiatry_ Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "'Widely used by **UK** perinatal services for schizophrenia in pregnancy' is tested specifically as **olanzapine**, not **amisulpride**, **quetiapine**, **risperidone** or **aripiprazole**, despite all being plausible atypical antipsychotic options.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Perinatal Psychiatry_ Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Neural tube defects are **NOT** an **SSRI** risk in pregnancy — that is a **valproate** association. The tested **SSRI** risks are neonatal irritability, spontaneous abortion, prematurity and reduced birth weight.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Perinatal Psychiatry_ Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 11
+              }
+            },
+            {
+              "text": "Three different antidepressant/relapse statistics are tested for this topic and are easy to conflate: a 5-fold relative risk of relapse on stopping antidepressants generally, a ==70%== relapse rate specifically in psychiatric-setting cohorts with recurrent depression who discontinue medication, and a ==40%== relapse rate in pregnancies of women with recurrent major depression more generally — check exactly what population/exposure the stem specifies before picking a number.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Perinatal Psychiatry_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 10
+              }
+            }
+          ]
+        },
+        {
+          "topicId": "liaison-psychiatry",
+          "topicTitle": "Liaison Psychiatry",
+          "questionBankCount": 132,
+          "highYieldTableCount": 6,
+          "recurringTraps": [
+            {
+              "text": "Depression risk in **CHF** versus the general population is quoted as an exact 3:1 ratio (==21.5%== prevalence) - option lists offer nearby-sounding wrong ratios (1:8, 5:1, 1:7, 1:5) to test precise recall.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 8
+              }
+            },
+            {
+              "text": "Post-**MI** depression: **sertraline** (**SADHART**) is the drug of choice - **fluvoxamine** and **citalopram**/**escitalopram** should specifically be avoided, and antidepressants are generally avoided in the first 2 months post-**MI** regardless of drug choice.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "**SSRI** evidence for depression in palliative care is described as feeble/largely empirical - the exam marks \"**SSRI** evidence here is well established\" as the false statement, contrasted with **amitriptyline** (neuropathic pain but delirium risk), **lorazepam** (acute anxiety), and **risperidone** (psychotic symptoms).",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 1_ Attempt review.pdf",
+                "page": 63,
+                "questionNumber": 57
+              }
+            },
+            {
+              "text": "Delirium in palliative care does **NOT** always respond to neuroleptics, especially the hypoactive subtype - a deliberate \"except\" trap in a list of otherwise-true statements about **haloperidol**/**lorazepam** use.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 10
+              }
+            },
+            {
+              "text": "**MS** steroid-induced mania: mild-to-moderate mania occurs in up to 1/3rd (not 2/3rd) of steroid-treated patients, and psychotic mania's plaques localise to the bilateral temporal horn (not a frontal distribution) - both figures are independently swapped as distractors across multiple questions.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 35
+              }
+            },
+            {
+              "text": "Beta-interferon's link to depression in **MS** is contested/controversial - the clearly depressogenic interferon is interferon-**ALPHA** (used in viral hepatitis), not beta. The exam expects steroids, not beta-interferon, as the answer for \"most likely to cause depression\" in **MS** treatment.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Liaison Part 2_ Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 21
+              }
+            }
+          ]
+        },
+        {
+          "topicId": "emergency-psychiatry",
+          "topicTitle": "Emergency Psychiatry",
+          "questionBankCount": 39,
+          "highYieldTableCount": 10,
+          "recurringTraps": [
+            {
+              "text": "China is the country-level exception to the global pattern of higher male suicide rates — the exam tests awareness that female rates approach or exceed male rates there.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "'Except' (false statement) question: the most common **METHOD** of suicide does **NOT** remain the same across countries (it varies with lethality/availability of means, e.g. pesticides vs analgesics) — this is the false statement to identify among otherwise-true epidemiological facts.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+                "page": 19,
+                "questionNumber": 18
+              }
+            },
+            {
+              "text": "Among several plausible-sounding options, the **TRUE** statement about suicide epidemiology is that suicide statistics have low reliability (due to variable coroner recording and cultural reporting bias) — the exam surrounds this with several confidently-worded **FALSE** statements (recessions decrease suicide, comparable rates across nations, wars increase suicide, declining rates in young men) to test whether you can spot the one accurate claim.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+                "page": 26,
+                "questionNumber": 24
+              }
+            },
+            {
+              "text": "As high as ==90%== of people who die by suicide in high-income countries were experiencing a mental illness at the time — a frequently tested headline figure distinct from the lower per-disorder psychological-autopsy percentages.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+                "page": 16,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "The classically-quoted ~==10%== lifetime suicide risk in schizophrenia is outdated; the exam expects the corrected meta-analytic figure of ~==6%== (==5.6%==, Palmer 2005) from studies with adequate follow-up — don't default to the older, higher number.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "'Except' question: dementia is the diagnosis **WITHOUT** a clearly-raised completed-suicide rate (unlike alcohol dependence, depression, mania, schizophrenia) — the literature on dementia and suicide is genuinely mixed, and the exam expects you to know that nuance rather than assume all cognitive/psychiatric illness raises risk equally.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Emergency Psychiatry_ Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-age-psychiatry",
+      "syllabusNumber": "8",
+      "title": "Old Age Psychiatry",
+      "weightPercent": 9,
+      "weightMarks": 14,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 16
+      },
+      "mappedTopics": [
+        "old-age-psychiatry"
+      ],
+      "totalQuestionBankCount": 163,
+      "topicSignals": [
+        {
+          "topicId": "old-age-psychiatry",
+          "topicTitle": "Old Age Psychiatry",
+          "questionBankCount": 163,
+          "highYieldTableCount": 13,
+          "recurringTraps": [
+            {
+              "text": "**EEG** periodic sharp-wave complexes are a sporadic-**CJD** feature that the exam explicitly excludes from variant **CJD** — a \"which prion disease shows this **EEG** pattern\" **EMI** item expects you to know the absence in vCJD, not just the presence in sporadic disease.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
+                "page": 29,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "Alzheimer's risk in a first-degree relative is tested as **BOTH** \"3-4x higher than controls\" and \"15-==19%== absolute risk\" in different question framings (both figures come from the same statistic) — read whether the option list wants a relative or absolute figure.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+                "page": 39,
+                "questionNumber": 34
+              }
+            },
+            {
+              "text": "**NINCDS-ADRDA** probable-**AD** criteria trap: cerebral atrophy on **CT** is **NOT** a required criterion (it only helps exclude other causes) — a frequently tested \"which is **NOT** required\" question.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+                "page": 44,
+                "questionNumber": 42
+              }
+            },
+            {
+              "text": "**CAMDEX** vs **CAMDEX-R** vs **CAMCOG** is a recurring confusable set: **CAMDEX** is the full instrument (structured interview + informant interview + physical exam + **CAMCOG** cognitive battery), **CAMCOG** is specifically its cognitive subscale, and **DMR** (not **CAMDEX**/**MMSE**) is the correct screening tool for dementia in people with intellectual disability.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+                "page": 59,
+                "questionNumber": 56
+              }
+            },
+            {
+              "text": "\"Which feature correlates with **AD** severity?\" — clinically evident depression is the odd one out: depression becomes **LESS** common as **AD** progresses from moderate to severe, unlike most other features that track severity.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+                "page": 46,
+                "questionNumber": 44
+              }
+            },
+            {
+              "text": "The Duff (2004) **CSM** restriction (**olanzapine**/**risperidone** associated with a 2x stroke risk increase in dementia) is deliberately contrasted with Herrmann et al (2004), who found **NO** significant difference in stroke risk vs typical neuroleptics — both study findings are independently examinable, and the exam expects you to know the regulatory position (Duff/**CSM**) governs practice regardless of the conflicting evidence (Herrmann).",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+                "page": 23,
+                "questionNumber": 19
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychotherapy",
+      "syllabusNumber": "9",
+      "title": "Psychotherapy",
+      "weightPercent": 5.5,
+      "weightMarks": 8,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 18
+      },
+      "mappedTopics": [
+        "psychotherapy"
+      ],
+      "totalQuestionBankCount": 170,
+      "topicSignals": [
+        {
+          "topicId": "psychotherapy",
+          "topicTitle": "Psychotherapy",
+          "questionBankCount": 170,
+          "highYieldTableCount": 5,
+          "recurringTraps": [
+            {
+              "text": "'Interpretation of the transference is the **ONLY** means to access the unconscious' is the **INCORRECT** statement to spot — dreams, free association, slips of the tongue and abreaction are all valid routes too. Absolute-language options ('only', 'always', 'never') are a recurring **SBA** trap in this topic.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "Defence mechanisms are a function of the **EGO** specifically (Anna Freud, 1936) — not the Id, Superego, or a combination; a single-structure answer is required despite the temptation to hedge with 'both'.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 60,
+                "questionNumber": 60
+              }
+            },
+            {
+              "text": "A vignette where nursing staff feel 'unwanted' and angry toward a personality-disordered patient is keyed to Counter-transference as the best single answer, even though the explanation's actual mechanism described is projective identification (the patient's projected hatred is taken in and acted out by staff) — the exam wants the broader phenomenon name, not the specific Kleinian mechanism.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 49,
+                "questionNumber": 49
+              }
+            },
+            {
+              "text": "'A diagnosis of paraphrenia' is the answer to spot among positive prognostic indicators for psychotherapy — psychotic disorders are traditionally viewed as involving ego disintegration and are **NOT** a positive predictor, unlike self-scrutiny, response to trial interpretation, some medication response, and psychological mindedness.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 2_ Attempt review.pdf",
+                "page": 56,
+                "questionNumber": 56
+              }
+            },
+            {
+              "text": "Poor response to psychodynamic psychotherapy is predicted by a history of multiple 'acting out' incidents — **NOT** by lower socioeconomic status or average **IQ**, which the explanation explicitly states are not, by themselves, poor predictors (counters an intuitive but wrong assumption).",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Psychotherapy Part 1_ Attempt review.pdf",
+                "page": 16,
+                "questionNumber": 16
+              }
+            },
+            {
+              "text": "The Premack Principle ('Grandma's rule' — high-frequency behaviour reinforces a low-frequency one, e.g. finishing homework before play) is a specifically named operant concept distinct from plain positive reinforcement — worth knowing by name for **EMI** matching.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/EMIs Psychotherapy_ Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child-and-adolescent-psychiatry",
+      "syllabusNumber": "10",
+      "title": "Child and Adolescent Psychiatry",
+      "weightPercent": 9,
+      "weightMarks": 14,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 20
+      },
+      "mappedTopics": [
+        "child-psychiatry"
+      ],
+      "totalQuestionBankCount": 152,
+      "topicSignals": [
+        {
+          "topicId": "child-psychiatry",
+          "topicTitle": "Child & Adolescent Psychiatry",
+          "questionBankCount": 152,
+          "highYieldTableCount": 9,
+          "recurringTraps": [
+            {
+              "text": "Child-abuse-signs **EMI**: 'stained underwear / discomfort walking or sitting' maps to **SEXUAL** abuse, 'poor personal hygiene / untreated medical problems' maps to physical **NEGLECT**, and 'sudden speech disorder / rocking / head-banging' maps to **EMOTIONAL** abuse — these overlapping physical/behavioural sign lists across abuse subtypes are a classic **EMI** cross-matching trap.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/EMIs Child Psychiatry_ Attempt review.pdf",
+                "page": 27,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "**ADHD** with congenital structural heart disease: the expected answer is **atomoxetine**, **NOT** a stimulant — **FDA** (2006) label warning covers sudden-unexplained-death risk with stimulants in structural heart abnormalities.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Child Part 1_ Attempt review.pdf",
+                "page": 34,
+                "questionNumber": 30
+              }
+            },
+            {
+              "text": "Pemoline is no longer licensed in the **UK** for **ADHD** (hepatotoxicity/liver failure risk) — a specific 'which drug is delisted' recall question, not a first-line-choice question.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Child Part 1_ Attempt review.pdf",
+                "page": 50,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "**ADHD** plus comorbid tics: the expected drug is **atomoxetine** (a noradrenaline reuptake inhibitor), **NOT** a stimulant, because stimulants can exacerbate tics while **atomoxetine** does not affect dopamine.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Child Part 2_ Attempt review.pdf",
+                "page": 45,
+                "questionNumber": 44
+              }
+            },
+            {
+              "text": "**ADHD** plus aggressive outbursts in a girl: **atomoxetine** is 'unlikely to be beneficial' for the aggression specifically — the expected pharmacological answer is an atypical antipsychotic (e.g. **olanzapine**) or **clonidine**, after behavioural therapy, not simply escalating the **ADHD** drug.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Child Part 2_ Attempt review.pdf",
+                "page": 62,
+                "questionNumber": 60
+              }
+            },
+            {
+              "text": "**ADHD** once-daily-dosing **EMI** expects **TWO** answers — **atomoxetine** **AND** **methylphenidate** XL (sustained-release) — the immediate-release **methylphenidate** formulation does not qualify, so picking only '**methylphenidate**' without specifying the XL/sustained-release form is the wrong answer.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/EMIs Child Psychiatry_ Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "substance-misuse-addictions",
+      "syllabusNumber": "11",
+      "title": "Substance Misuse / Addictions",
+      "weightPercent": 6.5,
+      "weightMarks": 10,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 22
+      },
+      "mappedTopics": [
+        "addiction-psychiatry"
+      ],
+      "totalQuestionBankCount": 177,
+      "topicSignals": [
+        {
+          "topicId": "addiction-psychiatry",
+          "topicTitle": "Addiction Psychiatry",
+          "questionBankCount": 177,
+          "highYieldTableCount": 8,
+          "recurringTraps": [
+            {
+              "text": "**ICD-11**'s 'harmful pattern of use' (damage already caused) is time-defined (>=12 months episodic **OR** >=1 month continuous use), whereas 'hazardous substance use' (increased risk, no harm yet) has explicitly **NO** defined time period - the exam tests this asymmetry directly.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+                "page": 57,
+                "questionNumber": 53
+              }
+            },
+            {
+              "text": "\"Which feature is **NOT** in the Edwards & Gross (1976) criteria?\" -> the distractor 'decreased tolerance' is wrong on two counts: tolerance in dependence is **INCREASED**, and impaired control (not tolerance direction) is the concept that was never in the original 1976 list at all (it was added later by **ICD**/**DSM**).",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 1_ Attempt review.pdf",
+                "page": 76,
+                "questionNumber": 67
+              }
+            },
+            {
+              "text": "Lactate dehydrogenase is a distractor, **NOT** a recognised marker of excess alcohol use - the real markers are raised **MCV**, raised **GGT** and carbohydrate-deficient transferrin (**CDT**), plus anaemia/thrombocytopenia/neutropenia/raised LFTs.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 20
+              }
+            },
+            {
+              "text": "Counter-intuitive pharmacokinetics: gastrectomy **INCREASES** alcohol absorption/intoxication risk (less time for gastric alcohol dehydrogenase to break it down), while conditions that **SLOW** gastric emptying (e.g. pyloric stenosis) can **REDUCE** acute intoxication - the opposite of what test-takers often assume about surgery and alcohol tolerance.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+                "page": 73,
+                "questionNumber": 69
+              }
+            },
+            {
+              "text": "Opioid withdrawal pupils are **DILATED**, not constricted - pupillary constriction is a feature of opioid **INTOXICATION**/overdose. This exact reversal is tested repeatedly across the question bank as 'which is **NOT**/least suggestive of opioid withdrawal'.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+                "page": 53,
+                "questionNumber": 49
+              }
+            },
+            {
+              "text": "Muscle spasm/twitching signals an **ADVANCED** opioid withdrawal state (scoring higher on the Clinical Opiate Withdrawal Scale) - a distractor trap versus the more commonly recognised early features (lacrimation, rhinorrhoea, yawning, piloerection).",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Addictions Part 2_ Attempt review.pdf",
+                "page": 63,
+                "questionNumber": 59
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forensic-psychiatry",
+      "syllabusNumber": "12",
+      "title": "Forensic Psychiatry",
+      "weightPercent": 5.5,
+      "weightMarks": 8,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 22
+      },
+      "mappedTopics": [
+        "forensic-psychiatry"
+      ],
+      "totalQuestionBankCount": 87,
+      "topicSignals": [
+        {
+          "topicId": "forensic-psychiatry",
+          "topicTitle": "Forensic Psychiatry",
+          "questionBankCount": 87,
+          "highYieldTableCount": 6,
+          "recurringTraps": [
+            {
+              "text": "Penrose's Law/hypothesis specifically describes the **INVERSE** relationship between the number of psychiatric beds and the prison population — it is not a direct claim that mental illness causes crime, a subtly different (and wrong) paraphrase often offered as a distractor.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 35
+              }
+            },
+            {
+              "text": "There is explicitly **NO** reliable predictor for identifying which mothers will kill their children — despite recognised associations (teenage motherhood, affective disorder), the tested correct answer is 'there are no reliable predictors,' not one of the plausible risk factors offered as distractors.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 8
+              }
+            },
+            {
+              "text": "Impulse control disorders are distinguished by demographic stereotype as much as by symptom: kleptomania (typically women in their 30s), pyromania (more often male adolescents with poor social skills/learning difficulties), trichotillomania and pathological gambling each carry a distinct typical profile — the exam expects you to match the vignette demographic, not just the behaviour.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/EMIs Forensic Psychiatry_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 8
+              }
+            },
+            {
+              "text": "Stalking typology hinges on a subtle distinction: 'rejected' stalkers **HAD** a prior relationship and pursue reconciliation/vengeance, whereas 'intimacy seekers' had **NO** prior relationship but believe an imagined love will be reciprocated — both involve a hoped-for relationship, making them easy to conflate. Tested in both **SBA** and **EMI** formats.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 11
+              }
+            },
+            {
+              "text": "Most exhibitionism offenders are aged 15–25, not middle-aged as intuition might suggest.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 1_ Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "The single best predictor of a **FUTURE** sexual offence is a history of **PREVIOUS** sexual offences — not the severity of the current offence or a specific diagnosis.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "learning-disability",
+      "syllabusNumber": "13",
+      "title": "Psychiatry of Learning Disability",
+      "weightPercent": 5.5,
+      "weightMarks": 8,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 23
+      },
+      "mappedTopics": [
+        "learning-disability"
+      ],
+      "totalQuestionBankCount": 97,
+      "topicSignals": [
+        {
+          "topicId": "learning-disability",
+          "topicTitle": "Learning Disability",
+          "questionBankCount": 97,
+          "highYieldTableCount": 14,
+          "recurringTraps": [
+            {
+              "text": "**DSM-IV**'s (now-abolished) multiaxial system coded mental retardation on Axis 2 alongside personality disorder — a recall trap for anyone assuming Axis 1 (clinical disorders) is the more intuitive answer.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 10
+              }
+            },
+            {
+              "text": "**ICD-11** places dyslexia under 'developmental learning disorder' — easily confused with 'learning disability'/intellectual disability. The exam is testing that these terms are different diagnostic categories, not synonyms.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 9
+              }
+            },
+            {
+              "text": "A stem asks for the **FALSE** statement about schizophrenia in **LD**; the trap answer is 'thought disorder is probably more evident' — in reality thought disorder and complex persecutory delusions are **LESS** evident in severe **LD**, where unexplained aggression/bizarre behaviour dominate instead.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+                "page": 76,
+                "questionNumber": 75
+              }
+            },
+            {
+              "text": "Challenging-behaviour criteria distinguish 'a few minutes' disruption at least **DAILY**' (which counts) from 'a few minutes' disruption on a **WEEKLY** basis' (which does **NOT** meet the threshold) — a single timeframe swap flips the correct answer.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 11
+              }
+            },
+            {
+              "text": "**PTSD** in **LD** presents atypically in children/adolescents: aggression (not nightmares or an exaggerated startle response) is the most commonly reported presenting symptom, reversing the 'classic' adult **PTSD** symptom profile candidates expect.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+                "page": 55,
+                "questionNumber": 55
+              }
+            },
+            {
+              "text": "In **ADULTS** with **LD**, an exaggerated startle response **IS** commonly reported (unlike some paediatric presentations) and symptoms are **NOT** reliably self-limiting within a few weeks — comorbidity with other psychiatric diagnoses is the norm, not the exception, and this is the opposite of what a 'quick recovery' distractor implies.",
+              "source": {
+                "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
+                "page": 56,
+                "questionNumber": 56
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "critical-review",
+      "syllabusNumber": "14",
+      "title": "Critical Review",
+      "weightPercent": 33.5,
+      "weightMarks": 50,
+      "syllabusSource": {
+        "file": "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
+        "page": 24
+      },
+      "mappedTopics": [
+        "research-methods",
+        "evidence-based-medicine",
+        "statistics",
+        "epidemiology"
+      ],
+      "totalQuestionBankCount": 634,
+      "topicSignals": [
+        {
+          "topicId": "research-methods",
+          "topicTitle": "Research Methods",
+          "questionBankCount": 181,
+          "highYieldTableCount": 6,
+          "recurringTraps": [
+            {
+              "text": "Attributable risk (a risk **DIFFERENCE**) can be negative when risk in the exposed is lower than the unexposed, but relative risk (a **RATIO**) can never be negative — and the odds ratio, not **RR** or **AR**, is the 'cross product' measure. Don't assume all these measures share the same numeric constraints.",
+              "source": {
+                "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "Even a large, well-validated, randomly-sampled cross-sectional survey (e.g. a national comorbidity survey) can only ever estimate **PREVALENCE** — it can never yield an incidence rate, however good its diagnostic methodology.",
+              "source": {
+                "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 8
+              }
+            },
+            {
+              "text": "Retrospective cohort studies need the **SAME** sample size as prospective cohort studies — the difference is purely the calendar timing of data collection and reliance on existing records, a frequently mis-answered 'advantage/disadvantage' question.",
+              "source": {
+                "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "Prospective cohort studies do **NOT** cost less than case-control studies — this is a commonly tested 'which is **NOT** an advantage' distractor.",
+              "source": {
+                "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 8
+              }
+            },
+            {
+              "text": "A hospital-based case-control study is vulnerable to Berkson's bias, Neyman bias, recall bias, and family-information bias — but **NOT** typically to verification/work-up bias, which is specific to diagnostic-test-accuracy studies rather than ordinary case-control designs.",
+              "source": {
+                "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "Absence of a dose-response relationship does **NOT** disprove causality: a genuine threshold effect, doses tested outside the effective 'window', an unmeasured confounder, or chance can all mask a truly causal dose-response relationship.",
+              "source": {
+                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 11
+              }
+            }
+          ]
+        },
+        {
+          "topicId": "evidence-based-medicine",
+          "topicTitle": "Evidence-Based Medicine / Critical Appraisal",
+          "questionBankCount": 239,
+          "highYieldTableCount": 2,
+          "recurringTraps": [
+            {
+              "text": "Meta-analysis pooling 12 uncontrolled trials + 3 RCTs: the trap answer is that mixing designs makes a meta-analysis impossible. Correct: it only weakens it — best practice is two separate meta-analyses.",
+              "source": {
+                "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Impact factor is tested as if it measures the quality of a specific article — it is actually a journal-level, 3-year rolling citation average.",
+              "source": {
+                "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "When framing a **PICO** comparator for discussing a side effect with a patient, the trap distractor is an alternative drug; the correct comparator is 'not taking the intervention at all'.",
+              "source": {
+                "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "Candidates over-trust the Cochrane Library as covering all trials — it maintains **CENTRAL** but not every intervention trial is registered there, and it is not a substitute for Medline.",
+              "source": {
+                "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "**EMI** trap: distinguishing 'the prevalence of disease among test-positives' (= **PPV** = **TP**/total positive) from 'how likely a positive result is given disease' (= likelihood ratio, sensitivity/(1-specificity)) — these produce different-looking but easily confused fractions from the same 2x2 table.",
+              "source": {
+                "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "Raising a diagnostic cut-off from 3 to 4 on the **CAGE** reduces sensitivity but leaves specificity **UNCHANGED** in the sourced worked example — candidates often assume specificity must rise whenever sensitivity falls.",
+              "source": {
+                "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+                "page": 49,
+                "questionNumber": 31
+              }
+            }
+          ]
+        },
+        {
+          "topicId": "statistics",
+          "topicTitle": "Statistics",
+          "questionBankCount": 182,
+          "highYieldTableCount": 24,
+          "recurringTraps": [
+            {
+              "text": "Excluding cardiovascular disease from controls but not cases in a case-control study of reserpine and breast cancer primarily threatens **INTERNAL** validity (via selection bias in this specific study's conclusions) — not external validity/generalisability or reliability, which candidates often reach for instead.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "Of several scenarios prone to regression to the mean (selecting extreme baseline **BP**/cholesterol/maths-ability scores for repeat measurement or intervention), the one **NOT** affected is a properly randomised **RCT** with a concurrent control group — because both arms regress equally, the comparison cancels the effect out. This is the 'odd one out' answer candidates often miss by assuming **ALL** repeated-measurement designs are vulnerable.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 5
+              }
+            },
+            {
+              "text": "In a positively skewed distribution, most **VALUES** fall to the **LEFT** of the mean (the mean itself is pulled right by a few extreme high values) — a commonly reversed detail; the 'tail', not the bulk of the data, is on the right.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Describing Data_ Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "\"Odds for a ==90%== event rate\" trips candidates who answer with the probability (0.9) or its complement (0.1) instead of computing odds = p/(1−p) = 0.9/0.1 = 9.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Odds & Probabilities_ Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 5
+              }
+            },
+            {
+              "text": "A one-tailed (rather than two-tailed) significance test for in-utero famine exposure and schizophrenia is justified specifically because the researchers already have strong prior grounds to expect the effect runs in **ONE** direction (exposure → illness, not the reverse) — not because of sample size, distribution shape, or number of control groups, which are the tempting-but-wrong distractors.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 9
+              }
+            },
+            {
+              "text": "Recruiting fewer patients than the pre-calculated sample size (175 vs. planned 300) specifically raises the chance of a **TYPE** 2 error — the chance of type 1 error is **NOT** directly tied to sample size, a distinction the 'blue rabbit' worked example in the explanation makes explicit.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 13
+              }
+            }
+          ]
+        },
+        {
+          "topicId": "epidemiology",
+          "topicTitle": "Epidemiology",
+          "questionBankCount": 32,
+          "highYieldTableCount": 7,
+          "recurringTraps": [
+            {
+              "text": "Cohort incidence-denominator trap: if 200 of an initial 1200 at-risk people already have the illness at baseline, the correct incidence denominator for new cases over the follow-up year is 1200-200=1000 (the truly at-risk group), not the original 1200.",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "Migrant schizophrenia incidence 3x natives but prevalence only 1.8x: the tested explanation is a shorter illness duration in migrants (via P=I x D) — but the explanation itself flags this as 'hypothetical and not a widely established explanation'. Plausible-sounding distractors like 'better access to care for natives' or 'better treatment response in natives' are wrong; know the intended answer even though it isn't settled science.",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 3
+              }
+            },
+            {
+              "text": "In P = I x D calculations, a stated mortality rate is often a deliberate red herring: prevalent ('existing') cases already exclude the dead by definition, so mortality figures given in the stem should be discarded rather than subtracted when solving for duration.",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 33,
+                "questionNumber": 32
+              }
+            },
+            {
+              "text": "Two disorders with equal incidence but differing prevalence: the tested explanation is a difference in **CHRONICITY**/duration (P=I x D). The explanation explicitly downgrades competing distractors like differing stigma/awareness or sex distribution ('though A can be considered for a different class of disorders') — don't over-think this into a psychosocial explanation when a pure duration explanation is wanted.",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 32,
+                "questionNumber": 31
+              }
+            },
+            {
+              "text": "Distinguishing epidemic/pandemic/hyperendemic/endemic/sporadic: 'pandemic' is specifically defined by wide **GEOGRAPHICAL** spread, not by size of case numbers, level above baseline, or fluctuation pattern (those describe epidemic, hyperendemic and sporadic respectively) — don't pick hyperendemic or sporadic as distractors for 'wide geographical distribution'.",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "Infant death rate is **NOT** an example of a standardized/adjusted rate — restricting a sample to a subgroup (here, age <1 year) is merely a specific rate. Only the standardized mortality ratio is genuinely adjusted for a variable (e.g. age) **AFTER** observation.",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 9
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

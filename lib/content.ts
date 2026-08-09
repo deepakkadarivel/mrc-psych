@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import manifestJson from "@/content/manifest.json";
-import type { Manifest, NoteBlock, Question, StudyGuide } from "@/lib/types";
+import examTrendsJson from "@/content/exam-trends.json";
+import type { ExamTrendsData, Manifest, NoteBlock, Question, StudyGuide } from "@/lib/types";
 
 const manifest = manifestJson as Manifest;
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -36,4 +37,12 @@ export const MOCK_EXAM_COUNT = 14;
 
 export function getMockQuestions(examId: number): Question[] {
   return readJsonIfExists<Question[]>(`questions/mock-${examId}.json`) ?? [];
+}
+
+export function getExamTrends(): ExamTrendsData {
+  return examTrendsJson as ExamTrendsData;
+}
+
+export function getExamTrendSection(sectionId: string) {
+  return getExamTrends().sections.find((s) => s.id === sectionId);
 }

@@ -28,6 +28,7 @@ if (requestedIds.length === 0) {
     "mocks/SPMM Mocks.pdf",
     ...manifest.pastPaperRecalls.files,
     "previous-year-question-source/Paper B Mock Exam 14  _april_2024_).pdf",
+    "exam-syllabic/exams-syllabic-curriculum-mrcpsych-february-2021.pdf",
   ];
   for (const rel of extra) {
     const src = path.join(resourcesDir, rel);

@@ -10,10 +10,11 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { getManifest } from "@/lib/content";
+import { getExamTrends, getManifest } from "@/lib/content";
 
 export function AppSidebar() {
   const manifest = getManifest();
+  const examTrends = getExamTrends();
   const clinical = manifest.topics.filter((t) => t.area === "clinical");
   const researchAndStats = manifest.topics.filter((t) => t.area === "research-and-stats");
 
@@ -47,6 +48,23 @@ export function AppSidebar() {
                 <SidebarMenuItem key={topic.id}>
                   <SidebarMenuButton render={<Link href={`/topics/${topic.id}`} />}>
                     {topic.title}
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+        <SidebarGroup>
+          <SidebarGroupLabel>Exam Trends</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton render={<Link href="/exam-trends" />}>Overview</SidebarMenuButton>
+              </SidebarMenuItem>
+              {examTrends.sections.map((s) => (
+                <SidebarMenuItem key={s.id}>
+                  <SidebarMenuButton render={<Link href={`/exam-trends/${s.id}`} />}>
+                    {s.title}
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}

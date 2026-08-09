@@ -140,3 +140,47 @@ export interface Manifest {
   examDate: string;
   topics: TopicManifestEntry[];
 }
+
+// A claim that can't carry a {file,page} Source back into resources/paper-b/ — either it's an
+// external web source (cited by `url`, genuinely fetched, not fabricated) or general exam-prep
+// knowledge with no single citable source at all. Same discipline as MnemonicBlock's
+// `sourced: false`: never presented as if it were a corpus-verified fact.
+export interface ExternalNote {
+  text: string;
+  url?: string;
+}
+
+export interface RecurringTrap {
+  text: string;
+  source: Source;
+}
+
+export interface ExamTrendTopicSignal {
+  topicId: string;
+  topicTitle: string;
+  questionBankCount: number;
+  highYieldTableCount: number;
+  recurringTraps: RecurringTrap[];
+}
+
+// One page per official RCPsych Paper B syllabus section (see the mark-weighted breakdown the
+// user supplied, cross-checked against resources/paper-b/exam-syllabic/). `questionBankCount`/
+// `highYieldTableCount`/`recurringTraps` are computed directly from this app's own already-cited
+// content/questions and content/study-guides — real counts and verbatim traps, not new claims.
+export interface ExamTrendSection {
+  id: string;
+  syllabusNumber: string;
+  title: string;
+  weightPercent: number;
+  weightMarks: number;
+  syllabusSource: Source;
+  mappedTopics: string[];
+  totalQuestionBankCount: number;
+  topicSignals: ExamTrendTopicSignal[];
+}
+
+export interface ExamTrendsData {
+  weightSource: ExternalNote;
+  externalStrategyNotes: ExternalNote[];
+  sections: ExamTrendSection[];
+}
