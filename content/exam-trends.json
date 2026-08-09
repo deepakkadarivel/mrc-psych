@@ -694,6 +694,1004 @@
       }
     ]
   },
+  "independentAnalysis": {
+    "methodology": "Built directly from this app's own corpus rather than citing the two documents above: (1) a mechanical keyword-frequency count across all 1578 already-parsed, already-cited mock-exam questions (content/questions/mock-*.json, 14 exams); (2) five real recall/answer-key PDFs from resources/paper-b/previous-year-question-source/ (Sep 2022, Mar 2023, Jun 2023, Oct 2023, and a compiled \"Recalls solved\"), read page-by-page with every extracted fact spot-checked against the source PDF. Two further free-form recall files in the same folder (Mar 2024, May 2025) have no page markers and a lot of hedged, uncertain phrasing, so — consistent with this app's existing stance on that folder — they were read for corroboration only, never cited as an individual fact. A web search for current trend commentary found nothing beyond the same handful of sites already reflected in the Priority & Recall Analysis branch; the two url-cited points below are the only web additions.",
+    "repeatedTopics": [
+      {
+        "text": "Schizophrenia is the single most recurring clinical topic in this app's mock corpus — 152 questions across 14/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 100,
+          "questionNumber": 58
+        }
+      },
+      {
+        "text": "Diagnostic-test-statistics questions (sensitivity/specificity/PPV/NPV) recur most consistently of any stats subtopic — 45 questions across 14/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 15,
+          "questionNumber": 7
+        }
+      },
+      {
+        "text": "Lithium-related questions (toxicity, monitoring, teratogenicity) recur across almost every mock — 71 questions across 13/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 27,
+          "questionNumber": 10
+        }
+      },
+      {
+        "text": "Alzheimer's disease recurs across every single mock exam analysed — 58 questions across 14/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 45,
+          "questionNumber": 19
+        }
+      },
+      {
+        "text": "Clozapine (augmentation, monitoring, contraindications) recurs across every mock exam analysed — 52 questions across 14/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 94,
+          "questionNumber": 52
+        }
+      },
+      {
+        "text": "Suicide risk within 1 year of self-harm (~0.7%; 1.1% males, 0.5% females) is quoted with the exact same figures in two independently-written recall sessions (Sep 2022 and Oct 2023).",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 34
+        }
+      },
+      {
+        "text": "Retrograde memory as the type most affected by ECT is tested in both the Oct 2023 and Mar 2023 recall sessions, each with near-identical explanation wording.",
+        "source": {
+          "file": "previous-year-question-source/1. October 2023 completed.pdf",
+          "page": 6
+        }
+      },
+      {
+        "text": "Sane automatism (external cause → acquittal) vs insane automatism (internal/recurring cause → not guilty by reason of insanity) is tested in the Jun 2023, Mar 2023, and Sep 2022 sessions alike.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 36
+        }
+      },
+      {
+        "text": "Cri-du-chat's features (high-pitched cat-like cry, hypertelorism, micrognathia, epicanthic folds) are recited in near-identical wording across the Mar 2023, Sep 2022, and Jun 2023 recalls.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 10
+        }
+      },
+      {
+        "text": "DiGeorge/22q11.2's CATCH-22 mnemonic (Cardiac, Abnormal facies, Thymic aplasia, Cleft palate, Hypocalcaemia) is named identically in both Mar 2023 and Jun 2023.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 11
+        }
+      },
+      {
+        "text": "Rett syndrome's MECP2 gene, X-linked, girls-only presentation with regression at 6–18 months recurs across the Jun 2023 and Sep 2022 recalls.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 33
+        }
+      },
+      {
+        "text": "Pritchard fitness-to-plead criteria recur in both the Mar 2023 and Sep 2022 recalls, each listing the same six components.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 39
+        }
+      },
+      {
+        "text": "Bournewood (DoLS) and Tarasoff (duty to warn) are named as a case pair in the Mar 2023 recall's legal-cases section, matching the same pairing this app's own study guides already flag.",
+        "source": {
+          "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+          "page": 33
+        }
+      },
+      {
+        "text": "Prader-Willi's equal (1:1) male:female prevalence is highlighted independently in both the Jun 2023 recall and the Recalls Solved compilation.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 11
+        }
+      },
+      {
+        "text": "QTc >500ms → reduce dose immediately and consider cardiology referral is stated in near-identical wording in both the Sep 2022 and Jun 2023 recalls.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 21
+        }
+      },
+      {
+        "text": "Block randomisation (equal group sizes, larger blocks = less predictable) is explained in matching terms in the Oct 2023 and Sep 2022 recalls.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 45
+        }
+      },
+      {
+        "text": "PRISMA having replaced QUOROM as the systematic-review reporting standard is stated in both the Mar 2023 and Sep 2022 recalls.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 54
+        }
+      },
+      {
+        "text": "Refeeding syndrome's mechanism (carbohydrate-driven insulin release causing intracellular phosphate/potassium/magnesium shift) is explained almost identically in the Oct 2023 and Sep 2022 recalls.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 16
+        }
+      }
+    ],
+    "concentrationTopics": [
+      {
+        "text": "Statistics: diagnostic-test calculations are this app's single highest-yield subtopic by mock-exam volume — 45 questions across 14/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 15,
+          "questionNumber": 7
+        }
+      },
+      {
+        "text": "Learning Disability: the 12-syndrome comparison table (genetics, features, exam clue) is the densest single recurring block across all 5 analysed recall sessions — memorise it once.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 10
+        }
+      },
+      {
+        "text": "Adult Psychiatry: schizophrenia and mood-disorder management dominate this app's mock-exam question volume — 152 questions across 14/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 100,
+          "questionNumber": 58
+        }
+      },
+      {
+        "text": "Old Age Psychiatry: dementia differentials (Alzheimer's, DLB, vascular, FTD) are the most tested old-age subtopic — 58 questions across 14/14 of this app's own mock exams.",
+        "source": {
+          "file": "mocks/SPMM Mocks.pdf",
+          "page": 45,
+          "questionNumber": 19
+        }
+      },
+      {
+        "text": "Forensic Psychiatry: named legal cases (Bournewood, Tarasoff, Osman, Gillick, Pritchard) plus specific memorised numbers (prison suicide rates, recidivism %) appear across 4 of the 5 analysed recall sessions.",
+        "source": {
+          "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+          "page": 33
+        }
+      },
+      {
+        "text": "Perinatal Psychiatry: the drugs-in-pregnancy/neonatal-effects EMI format appears in 4 of the 5 analysed recall sessions.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 1
+        }
+      },
+      {
+        "text": "Psychotherapy: CAT/DBT/family-therapy terminology is tested in 4 of the 5 analysed recall sessions, always as short factual-recall items rather than scenario reasoning.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 15
+        }
+      },
+      {
+        "text": "Addiction Psychiatry: alcohol-withdrawal timeline and drug-specific withdrawal features appear in 3 of the 5 analysed recall sessions.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 24
+        }
+      },
+      {
+        "text": "Child & Adolescent Psychiatry: ADHD/OCD/depression NICE-guideline drug-choice questions appear in 3 of the 5 analysed recall sessions.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 3
+        }
+      },
+      {
+        "text": "Evidence-Based Medicine: reporting-guideline matching (CONSORT/PRISMA/STROBE/STARD/MOOSE) appears in 3 of the 5 analysed recall sessions.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 54
+        }
+      },
+      {
+        "text": "Research Methods: intention-to-treat vs per-protocol analysis, and randomisation/stratification distinctions, appear in 4 of the 5 analysed recall sessions.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 45
+        }
+      },
+      {
+        "text": "Epidemiology: Susser's criteria for causation (association, time order, direction as the three essential elements) appear in 3 of the 5 analysed recall sessions.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 8
+        }
+      }
+    ],
+    "expectedTopics": [
+      {
+        "text": "Diagnostic-test-statistics worked calculations (Sn/Sp/LR+/post-test odds) have been the single most consistent question type across both this app's own mocks (all 14) and 4 of 5 analysed recall sessions — expect several worked-calculation stems again, with new numbers testing the same method.",
+        "source": {
+          "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+          "page": 20
+        }
+      },
+      {
+        "text": "The LD syndrome comparison table's content has stayed essentially unchanged since at least the Sep 2022 session — a future paper is far more likely to re-test an existing syndrome than introduce a new one.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 33
+        }
+      },
+      {
+        "text": "Fitness to plead, automatism, and diminished responsibility recur as a paired forensic-legal trio across multiple sessions — expect at least one of the three each sitting.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 39
+        }
+      },
+      {
+        "text": "QTc-prolongation combination stems (a specific drug pairing plus an electrolyte or comorbidity) have appeared in most analysed sessions in slightly different combinations — expect the same stem shape with different drugs.",
+        "source": {
+          "file": "previous-year-question-source/2. June 2023 completed.pdf",
+          "page": 21
+        }
+      },
+      {
+        "text": "The BALANCE (lithium vs valproate) and CUtLASS (FGA vs SGA efficacy) named trials recur as a pair in mood-stabiliser/antipsychotic-choice questions across sessions — worth knowing both by name and headline finding.",
+        "source": {
+          "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+          "page": 22
+        }
+      },
+      {
+        "text": "Reporting-guideline matching (which acronym goes with which study type) has appeared in three of the five analysed sessions with the same 6-8 guidelines each time — a fixed, learnable set.",
+        "source": {
+          "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+          "page": 29
+        }
+      },
+      {
+        "text": "Genomic imprinting (Prader-Willi = paternal deletion, Angelman = maternal deletion, Fragile X = imprinting error) has recurred every session analysed and is a strong candidate to recur again.",
+        "source": {
+          "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+          "page": 33
+        }
+      },
+      {
+        "text": "Independent exam-prep commentary describes MRCPsych Paper B statistics as \"highly predictable and concept-driven\" once the recurring calculation types are learned, and notes that tables/flowcharts repeat with new numbers each session rather than new concepts — consistent with what this app's own corpus analysis found.",
+        "url": "https://mindrecalls.com/paper-b-study-pattern/"
+      },
+      {
+        "text": "Paper B is commonly described online as splitting revision effort roughly evenly between clinical psychiatry and statistics/critical appraisal, even though critical review alone carries 33.5% of marks — worth weighting revision time accordingly rather than by mark share alone.",
+        "url": "https://passmrcpsych.com/the-mrcpsych-paper-b-a-comprehensive-guide/"
+      }
+    ],
+    "topicGroups": [
+      {
+        "topic": "Adult Psychiatry",
+        "points": [
+          {
+            "text": "Early-onset schizophrenia (vs adult-onset) shows poorer premorbid functioning, earlier developmental delays, and more impaired global IQ.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 27
+            }
+          },
+          {
+            "text": "Worse first-episode-psychosis outcome predictors: longer duration of untreated psychosis, male gender, non-adherence, poor premorbid adjustment, insidious onset, and comorbid substance use.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 26
+            }
+          },
+          {
+            "text": "DSM-5 requires 5 of 9 criteria for borderline personality disorder, including unstable self-image/relationships, impulsivity, self-harm, affective instability, micro-psychosis, and chronic emptiness.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 29
+            }
+          },
+          {
+            "text": "First-episode psychosis is treated with low-to-moderate dose antipsychotic monotherapy — well below doses used in established illness.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 31
+            }
+          },
+          {
+            "text": "Bipolar diagnosis is commonly delayed 8–10 years, is misdiagnosed in 20–60% of cases, and bipolar I is more diagnostically stable over time than bipolar II.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "In Alzheimer's BPSD, apathy is the most frequent symptom, ahead of depression, aggression, anxiety, and sleep disturbance.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "In renal impairment, haloperidol (low dose) is generally preferred; sulpiride/amisulpride should be avoided as they're renally cleared, and clozapine/chlorpromazine avoided for urinary retention risk.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Extrapyramidal side-effect prevalence with older antipsychotics: dystonia ~10%, pseudo-parkinsonism ~20–25%, akathisia ~20–25%, tardive dyskinesia ~5% per year of exposure.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 15
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Perinatal Psychiatry",
+        "points": [
+          {
+            "text": "Around delivery, lithium is suspended 24–48h before a planned induction/C-section, checked 12h after the last dose, and restarted on postnatal day 1.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Lithium monitoring in pregnancy is typically every 4 weeks until 34 weeks, then weekly until 2 weeks postpartum.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Valproate exposure in pregnancy causes major malformations in up to 11% of children, including cleft palate, neural tube defects (1–2%), and developmental delay/autism.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Paroxetine at high first-trimester dose is linked to cardiac malformations (VSD/ASD) — the highest cardiac risk of the SSRIs.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Quetiapine is considered relatively safe in pregnancy due to low placental transfer; NICE favours it as an alternative to a mood stabiliser during pregnancy.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "For breastfeeding, lithium is contraindicated (40–50% of maternal serum level passes into milk); paroxetine has a lower milk/plasma ratio than fluoxetine or sertraline.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Late-pregnancy SSRI exposure carries a small absolute increased risk of persistent pulmonary hypertension of the newborn, particularly with short-half-life drugs like paroxetine and venlafaxine.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 23
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Liaison Psychiatry",
+        "points": [
+          {
+            "text": "Ictal eye closure favours psychogenic non-epileptic seizures over true epileptic seizures; PNES episodes also tend to last longer (>2 minutes suggestive, >10 minutes strongly suggestive).",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Poor outcome after traumatic brain injury is linked to longer loss of consciousness, longer post-traumatic amnesia (>24h), older age, and reduced pre-injury cognitive reserve.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "rTMS is contraindicated with ferromagnetic/magnetic-sensitive implants near the coil field, and cautioned in prior stroke, brain tumour, or epilepsy.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 29
+            }
+          },
+          {
+            "text": "ICD-11's dissociative neurological symptom disorder (with speech disturbance) covers dysphonia/aphonia/dysarthria of psychological cause, often preceded by conflict or stress, not produced intentionally.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 24
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Emergency Psychiatry",
+        "points": [
+          {
+            "text": "NMS risk factors include high ambient temperature, dehydration, agitation/catatonia, rapid antipsychotic dose escalation, withdrawal of anti-parkinsonian medication, and depot/high-potency antipsychotics.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 35
+            }
+          },
+          {
+            "text": "Malignant catatonia can mimic NMS with immobility, rigidity, mutism, posturing, and excessive motor activity, and shares pathophysiological features with it.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Lorazepam is first-line for catatonic/affective stupor, with rapid onset of benefit when effective (doses of 4mg/day up to 8–24mg/day if needed).",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 28
+            }
+          },
+          {
+            "text": "QTc-prolongation risk factors: female sex, extremes of age, bradycardia/heart failure, liver disease, hypokalaemia/hypocalcaemia/hypomagnesaemia, stimulant use, and starvation.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Delirium tremens starts 3–4 days after the last drink, occurs in 3–5% of those withdrawing, and carries 10–20% mortality if untreated.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Lithium toxicity (>1.2mmol/L) presents with polyuria, abdominal pain, fine tremor, and myoclonic twitches.",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 7
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Old Age Psychiatry",
+        "points": [
+          {
+            "text": "Rivastigmine has the best evidence in DLB/Parkinson's disease dementia — a large RCT (McKeith et al 2006) showed it alleviated hallucinations, delusions, anxiety, and apathy.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "The greatest risk factors for vascular dementia are high systolic and diastolic blood pressure, acting via stroke risk and white-matter change.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "MoCA (2005) is a 30-item, ~10-minute update to the MMSE (1975), available in 35+ languages, but cannot itself differentiate dementia subtypes.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 31
+            }
+          },
+          {
+            "text": "Alzheimer's risk is ~1% at 60, ~5% at 65, doubling roughly every 5 years, reaching ~40% by age 85.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 40
+            }
+          },
+          {
+            "text": "First-degree relatives of an Alzheimer's proband carry a 15–19% risk (vs 5% controls); APOE4 homozygotes carry 10–30× the risk of non-carriers.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 33
+            }
+          },
+          {
+            "text": "Frontotemporal dementia is highly heritable (~30% strong family history), mostly via autosomal dominant C9orf72, GRN, or MAPT mutations.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 34
+            }
+          },
+          {
+            "text": "DLB's core features (mnemonic REM-PCV) are fluctuating cognition, recurrent visual hallucinations, REM sleep behaviour disorder, and spontaneous parkinsonism, with neuroleptic sensitivity as a supportive feature.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 36
+            }
+          },
+          {
+            "text": "A third of late-life dementia risk is attributed to seven modifiable factors (low education, midlife hypertension/obesity, diabetes, inactivity, smoking, depression) — smoking has the largest population attributable fraction.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 3
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Psychotherapy",
+        "points": [
+          {
+            "text": "CAT's sequential diagrammatic reformulation (a visual flow-chart of the target problem procedure) is its distinguishing technique, built on the 3 Rs.",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "'Acting out' is illustrated by missed therapy appointments or increased substance use precisely when therapeutic work becomes difficult.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Displacement redirects emotion toward a safer target — separating the feeling from its real object to avoid confronting what's actually threatening.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Yalom's therapeutic factors include catharsis, altruism, group cohesion, interpersonal learning, and installation of hope.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Behavioural activation uses the TRAP model (Trigger, Response, Avoidance Pattern) to assess avoidance, aiming to replace it with TRAC (Alternate Coping).",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Motivational Interviewing's DEARS (Developing discrepancy, Empathy, Avoid arguments, Rolling with resistance, Support self-efficacy) starts by amplifying cognitive dissonance.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "DBT (Linehan, 1991) takes a hierarchical view of goals: reducing self-harm first, then therapy-interfering behaviours, then quality-of-life-diminishing behaviours.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 3
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Child & Adolescent Psychiatry",
+        "points": [
+          {
+            "text": "Atomoxetine is used when tics emerge as a side effect of stimulant treatment; clonidine/guanfacine is used when a comorbid tic disorder isn't secondary to stimulant use.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "ICD-11 requires ADHD symptoms be evident before age 12.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Sertraline (from age 6) and fluvoxamine (from age 8) are the SSRIs licensed for paediatric OCD in the UK; paroxetine isn't recommended in this age group.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Fluoxetine is the only antidepressant licensed for depression under 18 in the UK, creating a treatment dilemma when depression and OCD co-occur (since only fluvoxamine/sertraline are licensed for paediatric OCD).",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "PTSD identification in children improves by asking the child directly about their experiences rather than relying only on caregiver history; drug treatment isn't routinely recommended.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "ADHD heritability (70–80%) is the highest of the listed childhood psychiatric conditions, with a 2–3× increased risk in siblings.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 33
+            }
+          },
+          {
+            "text": "Landau-Kleffner syndrome is a childhood epilepsy syndrome with onset usually before age 6, twice as common in boys.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 11
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Addiction Psychiatry",
+        "points": [
+          {
+            "text": "Amphetamine/cocaine withdrawal features hypersomnia, hyperphagia, depression ('crash'), irritability, agitation, and vivid dreams.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Withdrawal psychosis occurs with alcohol and benzodiazepines but not typically with cannabis, cocaine, or heroin withdrawal.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "LSD carries no overdose risk and causes no physiological dependence or withdrawal — the least dependence-forming of the common illicit drugs.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Amphetamine-induced psychosis resembles schizophrenia but with prominent visual/tactile hallucinations, hyperactivity, disinhibited behaviour, and little formal thought disorder.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Around 30% of dependent cocaine users (and 12% of recreational users) show clinically relevant cognitive impairment, especially in sustained attention and working memory.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Mephedrone is a synthetic cathinone stimulant (cathinone itself from the khat plant), producing effects similar to cocaine, MDMA, and amphetamines.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Chronic ketamine use causes urinary tract symptoms (frequency, urgency, haematuria) via interstitial cystitis in up to 30% of users.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 5
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Forensic Psychiatry",
+        "points": [
+          {
+            "text": "Arson is most commonly associated with substance use disorders (especially alcohol) and antisocial personality disorder, alongside psychotic disorders and low intellectual functioning.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 38
+            }
+          },
+          {
+            "text": "Victims of female homicide perpetrators are often under 16; 13% of filicide perpetrators go on to suicide.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 38
+            }
+          },
+          {
+            "text": "Female intimate-partner-homicide perpetrators are most commonly aged 30–39 (average age 35).",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 38
+            }
+          },
+          {
+            "text": "Among homicide perpetrators, 30% have a recorded mental disorder — personality disorder is the single most common diagnosis (27%), ahead of schizophrenia, substance use, and affective disorder (18% each of that 30%).",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 28
+            }
+          },
+          {
+            "text": "Of indecent exposure offenders, 20% are first-time offenders and 20–30% reoffend; most have a prior history of sexual or non-sexual offending.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Half of mentally ill perpetrators of child homicide have a psychotic disorder, and victims are disproportionately under 16.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Mens rea (guilty mind/intent) and actus reus (the guilty act) are both required for an offence; mens rea cannot exist if a mental abnormality removes capacity for rational intent.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 11
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Learning Disability",
+        "points": [
+          {
+            "text": "Lesch-Nyhan syndrome (X-linked recessive, HPRT gene) causes hyperuricaemia, spasticity, choreiform movements, and severe self-mutilating biting behaviour.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Down syndrome is the most common chromosomal cause of intellectual disability, Fragile X the most common inherited cause, and foetal alcohol syndrome the most common acquired cause; up to 60% of cases have no identifiable cause.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 30
+            }
+          },
+          {
+            "text": "Functional behavioural analysis (assessing behaviour, situation, consequence, and reinforcer) is the gold-standard first step before managing aggression or self-injury in intellectual disability.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "The normalisation principle argues people with intellectual disability should experience normal patterns of everyday life — changing the environment, not the individual.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Diagnostic overshadowing describes clinicians attributing new physical or mental symptoms to a patient's pre-existing learning disability rather than investigating them.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 36
+            }
+          },
+          {
+            "text": "IQ bands: mild 50–69 (~85% of ID), moderate 35–49 (~10%), severe 20–34 (~3–4%), profound <20 (~1–2%, developmental level of a one-year-old).",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Recall distinguishes Lesch-Nyhan (severe self-mutilation) from Prader-Willi, Cri du Chat, Cornelia de Lange, and Smith-Magenis as EMI options for the same self-harm scenario.",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 4
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Psychiatric Services & Rehabilitation",
+        "points": [
+          {
+            "text": "Nolan's Model for Improvement structures quality-improvement work around three questions: what are we trying to accomplish, how will we know a change is an improvement, and what changes will produce that improvement.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 31
+            }
+          },
+          {
+            "text": "Direct costs (staff, drugs, hospital space) are distinguished from indirect costs (lost patient/carer productivity) and intangible costs (pain, suffering, stigma) when costing a service.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 11
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Epidemiology",
+        "points": [
+          {
+            "text": "Sex-ratio table: Tourette's 2–5:1, ADHD (children) 2:1, ASD 4–5:1, Asperger's 5:1, depression 1:2, anorexia 1:9, bulimia 1:9, BPD 1:3 (male:female unless noted).",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Schizophrenia risk is 9% in siblings and 13% in children of an affected person (vs 1% general population); 17% in dizygotic twins and 48% in monozygotic twins.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 30
+            }
+          },
+          {
+            "text": "Almost all adults with Down syndrome develop Alzheimer's-like neuropathology by age 40, with amyloid pathology preceding cognitive impairment by 15–20 years.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 13
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Research Methods",
+        "points": [
+          {
+            "text": "Mean imputation of missing data in an ITT analysis injects false precision and increases the risk of a Type 1 (false positive) error.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 40
+            }
+          },
+          {
+            "text": "Randomisation controls both known and unknown confounders at the design stage; stratification controls confounders (and effect modifiers) at the analysis stage.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 41
+            }
+          },
+          {
+            "text": "Non-parametric test pairings: Wilcoxon signed-rank ↔ paired t-test, Mann-Whitney U ↔ unpaired t-test, Kruskal-Wallis ↔ one-way ANOVA.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 42
+            }
+          },
+          {
+            "text": "Cox proportional hazards assumes the hazard ratio between groups is constant over time; the log-rank test, unlike Cox regression, cannot adjust for other explanatory variables.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 43
+            }
+          },
+          {
+            "text": "Risk ratio can't be calculated in a case-control study (no true population denominator) — only odds ratio can; cohort studies allow direct relative-risk calculation.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 46
+            }
+          },
+          {
+            "text": "Per-protocol analysis (compliant patients only) is the antithesis of intention-to-treat and is better suited to testing a drug's biological efficacy than its real-world effectiveness.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 44
+            }
+          },
+          {
+            "text": "Imputing missing/unpublished smaller studies on a funnel plot reduces the risk of a Type 2 error and makes the plot more representative of true effect.",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 5
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Evidence-Based Medicine / Critical Appraisal",
+        "points": [
+          {
+            "text": "Both the Galbraith plot and the forest plot can be used to check for heterogeneity between studies.",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "The Belmont Report (1976, US National Commission) and the Declaration of Helsinki (1964, updated 2000/2002/2004) both set ethical principles for human-subject research, distinct from the Nuremberg Code's post-WWII focus on experimentation.",
+            "source": {
+              "file": "previous-year-question-source/1. October 2023 completed.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Fisher's exact test is required instead of chi-square when any expected cell value in a comparison table falls below 5.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "A fixed-effects meta-analysis model assumes one shared true effect across studies and should only be used once heterogeneity is safely excluded; a random-effects model is used when heterogeneity exists and gives proportionally more weight to smaller studies.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 38
+            }
+          },
+          {
+            "text": "The F-statistic is the ratio of two variances.",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "A very small p-value (e.g. 0.01) paired with a very narrow confidence interval typically signals a large sample size.",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 10
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Statistics",
+        "points": [
+          {
+            "text": "NNT = 1/ARR, where ARR (absolute risk reduction) = EER − CER (experimental minus control event rate).",
+            "source": {
+              "file": "previous-year-question-source/Recalls solved.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Worked SEM example: SD 16, n 12 → SEM = 16/√12 ≈ 4.62.",
+            "source": {
+              "file": "previous-year-question-source/2. June 2023 completed.pdf",
+              "page": 46
+            }
+          },
+          {
+            "text": "If a test's sensitivity increases at a fixed cut-off, the false-positive rate rises and specificity falls, because a lower threshold catches more true positives but also more false positives.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Worked example: pre-test probability 1/8, sensitivity 80%, specificity 80% → pre-test odds 1/7, LR+ = 0.8/0.2 = 4, post-test odds = 1/7 × 4 = 4/7.",
+            "source": {
+              "file": "previous-year-question-source/3. March 2023 Completed.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Formal definitions: sensitivity = proportion of diseased correctly identified; specificity = proportion of well correctly excluded; PPV = proportion of positive results truly diseased; NPV = proportion of negative results truly disease-free.",
+            "source": {
+              "file": "previous-year-question-source/4. September 2022 recall completed.pdf",
+              "page": 49
+            }
+          }
+        ]
+      }
+    ]
+  },
   "sections": [
     {
       "id": "organisation-of-services",

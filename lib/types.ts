@@ -212,8 +212,38 @@ export interface PriorityAnalysis {
   domains: PriorityDomain[];
 }
 
+// A point grounded in exactly one of two ways: `source` when it's traceable to a real
+// {file,page[,questionNumber]} in resources/paper-b/ (a mock-exam question, a recall-file page),
+// or `url` when it's genuinely external (a web source). Never both omitted — every point here
+// must be attributable to something real, not house knowledge asserted as if it were sourced.
+export interface CitedPoint {
+  text: string;
+  source?: Source;
+  url?: string;
+}
+
+export interface IndependentTopicGroup {
+  topic: string;
+  points: CitedPoint[];
+}
+
+// This app's OWN independent trend analysis — built by mechanically counting term frequency
+// across the already-parsed, already-cited mock-exam corpus (content/questions/mock-*.json, 1578
+// real questions) and by reading this app's own previous-year recall files
+// (resources/paper-b/previous-year-question-source/), rather than citing the two user-supplied
+// analysis PDFs (see PriorityAnalysis above). A handful of `url`-cited points supplement this
+// with current external commentary where a web search turned up something genuinely new.
+export interface IndependentAnalysis {
+  methodology: string;
+  repeatedTopics: CitedPoint[];
+  concentrationTopics: CitedPoint[];
+  expectedTopics: CitedPoint[];
+  topicGroups: IndependentTopicGroup[];
+}
+
 export interface ExamTrendsData {
   weightSource: ExternalNote;
   priorityAnalysis: PriorityAnalysis;
+  independentAnalysis: IndependentAnalysis;
   sections: ExamTrendSection[];
 }

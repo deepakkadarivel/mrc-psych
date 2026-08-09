@@ -44,6 +44,10 @@ yarn-error.log*
 # ~290MB of PDFs in git on top of what's already committed under resources/
 /public/sources/
 
+# regenerated automatically by scripts/build-exam-trends.ts (which shells out to
+# scripts/analyze-mock-frequency.ts on every run) — an intermediate, not a source of truth
+/scripts/.mock-frequency.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

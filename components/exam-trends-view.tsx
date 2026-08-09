@@ -21,9 +21,11 @@ import { CitationBadge } from "@/components/citation-badge";
 import { RichText } from "@/components/rich-text";
 import { cn } from "@/lib/utils";
 import type {
+  CitedPoint,
   ExamTrendsData,
   ExamTrendSection,
   ExamTrendTopicSignal,
+  IndependentTopicGroup,
   PriorityAnalysis,
   PriorityDomain,
   PriorityFact,
@@ -46,12 +48,14 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
   const [activeSectionId, setActiveSectionId] = useState<string>("overview");
   const [activeTopicId, setActiveTopicId] = useState<string | null>(null);
   const [activeDomainId, setActiveDomainId] = useState<string | null>(null);
+  const [activeGroupTopic, setActiveGroupTopic] = useState<string | null>(null);
   const [expandedSectionId, setExpandedSectionId] = useState<string | null>(null);
   const [activeSource, setActiveSource] = useState<Source | null>(null);
   const [pdfOpen, setPdfOpen] = useState(false);
 
   const activeSection = data.sections.find((s) => s.id === activeSectionId);
   const activeDomain = data.priorityAnalysis.domains.find((d) => d.id === activeDomainId);
+  const activeGroup = data.independentAnalysis.topicGroups.find((g) => g.topic === activeGroupTopic);
 
   function handleCite(source: Source) {
     setActiveSource(source);
@@ -76,7 +80,7 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
   function openPriority() {
     setExpandedSectionId("priority");
     setActiveSectionId("priority");
-    setActiveDomainId(data.priorityAnalysis.domains[0]?.id ?? null);
+    setActiveDomainId("golden-rules");
   }
 
   function togglePriority() {
@@ -98,9 +102,35 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
     setActiveTopicId(topicId);
   }
 
+  // A syllabus section mapped to exactly one app topic has nothing to expand into — a one-item
+  // subnav under it would just be a redundant extra click, so it's a plain leaf button instead.
+  function selectSoleSection(sectionId: string, topicId: string) {
+    setExpandedSectionId(null);
+    selectTopic(sectionId, topicId);
+  }
+
   function selectDomain(domainId: string) {
     setActiveSectionId("priority");
     setActiveDomainId(domainId);
+  }
+
+  function openIndependent() {
+    setExpandedSectionId("independent");
+    setActiveSectionId("independent");
+    setActiveGroupTopic("summary");
+  }
+
+  function toggleIndependent() {
+    if (expandedSectionId === "independent") {
+      setExpandedSectionId(null);
+    } else {
+      openIndependent();
+    }
+  }
+
+  function selectGroup(topic: string) {
+    setActiveSectionId("independent");
+    setActiveGroupTopic(topic);
   }
 
   const nav = (
@@ -120,13 +150,23 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
         </SidebarMenuButton>
         {expandedSectionId === "priority" && (
           <SidebarMenuSub>
+            <SidebarMenuSubItem>
+              <SidebarMenuSubButton
+                render={<button type="button" />}
+                isActive={activeDomainId === "golden-rules"}
+                onClick={() => setActiveDomainId("golden-rules")}
+                className="w-full text-left"
+              >
+                <span className="min-w-0 flex-1 truncate">Golden rules</span>
+              </SidebarMenuSubButton>
+            </SidebarMenuSubItem>
             {data.priorityAnalysis.domains.map((d) => (
               <SidebarMenuSubItem key={d.id}>
                 <SidebarMenuSubButton
                   render={<button type="button" />}
                   isActive={activeDomainId === d.id}
                   onClick={() => selectDomain(d.id)}
-                  className="w-full"
+                  className="w-full text-left"
                 >
                   <span className="min-w-0 flex-1 truncate">{d.title}</span>
                   <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{d.percentOfPaper}</span>
@@ -137,38 +177,91 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
         )}
       </SidebarMenuItem>
 
-      {data.sections.map((s) => (
-        <SidebarMenuItem key={s.id}>
-          <SidebarMenuButton isActive={activeSectionId === s.id} onClick={() => toggleSection(s.id)}>
-            <span className="min-w-0 flex-1 truncate">
-              {s.syllabusNumber}. {s.title}
-            </span>
-            <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{s.weightPercent}%</span>
-            <ChevronRight
-              className={cn("size-4 shrink-0 transition-transform", expandedSectionId === s.id && "rotate-90")}
-            />
-          </SidebarMenuButton>
-          {expandedSectionId === s.id && (
-            <SidebarMenuSub>
-              {s.topicSignals.map((signal) => (
-                <SidebarMenuSubItem key={signal.topicId}>
-                  <SidebarMenuSubButton
-                    render={<button type="button" />}
-                    isActive={activeTopicId === signal.topicId}
-                    onClick={() => selectTopic(s.id, signal.topicId)}
-                    className="w-full"
-                  >
-                    <span className="min-w-0 flex-1 truncate">{signal.topicTitle}</span>
-                    <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
-                      {signal.questionBankCount}
-                    </span>
-                  </SidebarMenuSubButton>
-                </SidebarMenuSubItem>
-              ))}
-            </SidebarMenuSub>
-          )}
-        </SidebarMenuItem>
-      ))}
+      <SidebarMenuItem>
+        <SidebarMenuButton isActive={activeSectionId === "independent"} onClick={toggleIndependent}>
+          <span className="min-w-0 flex-1 truncate">Independent Corpus Analysis</span>
+          <ChevronRight
+            className={cn(
+              "size-4 shrink-0 transition-transform",
+              expandedSectionId === "independent" && "rotate-90"
+            )}
+          />
+        </SidebarMenuButton>
+        {expandedSectionId === "independent" && (
+          <SidebarMenuSub>
+            <SidebarMenuSubItem>
+              <SidebarMenuSubButton
+                render={<button type="button" />}
+                isActive={activeGroupTopic === "summary"}
+                onClick={() => setActiveGroupTopic("summary")}
+                className="w-full text-left"
+              >
+                <span className="min-w-0 flex-1 truncate">Summary</span>
+              </SidebarMenuSubButton>
+            </SidebarMenuSubItem>
+            {data.independentAnalysis.topicGroups.map((g) => (
+              <SidebarMenuSubItem key={g.topic}>
+                <SidebarMenuSubButton
+                  render={<button type="button" />}
+                  isActive={activeGroupTopic === g.topic}
+                  onClick={() => selectGroup(g.topic)}
+                  className="w-full text-left"
+                >
+                  <span className="min-w-0 flex-1 truncate">{g.topic}</span>
+                  <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{g.points.length}</span>
+                </SidebarMenuSubButton>
+              </SidebarMenuSubItem>
+            ))}
+          </SidebarMenuSub>
+        )}
+      </SidebarMenuItem>
+
+      {data.sections.map((s) =>
+        s.topicSignals.length <= 1 ? (
+          <SidebarMenuItem key={s.id}>
+            <SidebarMenuButton
+              isActive={activeSectionId === s.id}
+              onClick={() => selectSoleSection(s.id, s.topicSignals[0].topicId)}
+            >
+              <span className="min-w-0 flex-1 truncate">
+                {s.syllabusNumber}. {s.title}
+              </span>
+              <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{s.weightPercent}%</span>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        ) : (
+          <SidebarMenuItem key={s.id}>
+            <SidebarMenuButton isActive={activeSectionId === s.id} onClick={() => toggleSection(s.id)}>
+              <span className="min-w-0 flex-1 truncate">
+                {s.syllabusNumber}. {s.title}
+              </span>
+              <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{s.weightPercent}%</span>
+              <ChevronRight
+                className={cn("size-4 shrink-0 transition-transform", expandedSectionId === s.id && "rotate-90")}
+              />
+            </SidebarMenuButton>
+            {expandedSectionId === s.id && (
+              <SidebarMenuSub>
+                {s.topicSignals.map((signal) => (
+                  <SidebarMenuSubItem key={signal.topicId}>
+                    <SidebarMenuSubButton
+                      render={<button type="button" />}
+                      isActive={activeTopicId === signal.topicId}
+                      onClick={() => selectTopic(s.id, signal.topicId)}
+                      className="w-full text-left"
+                    >
+                      <span className="min-w-0 flex-1 truncate">{signal.topicTitle}</span>
+                      <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
+                        {signal.questionBankCount}
+                      </span>
+                    </SidebarMenuSubButton>
+                  </SidebarMenuSubItem>
+                ))}
+              </SidebarMenuSub>
+            )}
+          </SidebarMenuItem>
+        )
+      )}
     </SidebarMenu>
   );
 
@@ -176,11 +269,17 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
     activeSectionId === "overview" ? (
       <OverviewDetail data={data} onSelectSection={openSection} onSelectPriority={openPriority} />
     ) : activeSectionId === "priority" ? (
-      <PriorityBranchDetail
-        priorityAnalysis={data.priorityAnalysis}
-        domain={activeDomain ?? data.priorityAnalysis.domains[0]}
-        onCite={handleCite}
-      />
+      activeDomainId === "golden-rules" || !activeDomain ? (
+        <GoldenRulesDetail priorityAnalysis={data.priorityAnalysis} onCite={handleCite} />
+      ) : (
+        <PriorityDomainDetail domain={activeDomain} onCite={handleCite} />
+      )
+    ) : activeSectionId === "independent" ? (
+      activeGroupTopic === "summary" || !activeGroup ? (
+        <IndependentSummaryDetail independentAnalysis={data.independentAnalysis} onCite={handleCite} />
+      ) : (
+        <IndependentGroupDetail group={activeGroup} onCite={handleCite} />
+      )
     ) : (
       <TopicDetail
         section={activeSection!}
@@ -323,16 +422,13 @@ function PriorityFactList({ facts, onCite }: { facts: PriorityFact[]; onCite: (s
   );
 }
 
-// Persistent framing (intro + golden rules) for the whole Priority & Recall Analysis branch,
-// with the selected domain's detail below it — so the golden rules stay visible as a reminder
-// regardless of which of the 12 domains is currently open.
-function PriorityBranchDetail({
+// The landing view for the Priority & Recall Analysis branch — intro + golden rules live here
+// ONCE, as their own nav leaf, instead of repeating atop every domain's detail.
+function GoldenRulesDetail({
   priorityAnalysis,
-  domain,
   onCite,
 }: {
   priorityAnalysis: PriorityAnalysis;
-  domain: PriorityDomain;
   onCite: (source: Source) => void;
 }) {
   return (
@@ -342,17 +438,11 @@ function PriorityBranchDetail({
         <p className="mt-2 text-sm text-muted-foreground">{priorityAnalysis.intro}</p>
       </div>
 
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-base">Golden rules</CardTitle>
-        </CardHeader>
-        <CardContent>
+      <div>
+        <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">Golden rules</p>
+        <div className="mt-2">
           <PriorityFactList facts={priorityAnalysis.goldenRules} onCite={onCite} />
-        </CardContent>
-      </Card>
-
-      <div className="border-t pt-6">
-        <PriorityDomainDetail domain={domain} onCite={onCite} />
+        </div>
       </div>
     </div>
   );
@@ -404,6 +494,96 @@ function PriorityDomainDetail({
           </p>
         </div>
       )}
+    </div>
+  );
+}
+
+// Renders a CitedPoint list — each point is grounded either in this app's own corpus (`source`,
+// opens the PDF drawer like everywhere else) or in a genuine web source (`url`, opens in a new
+// tab) — see CitedPoint in lib/types.ts. Never both, never neither.
+function CitedPointList({ points, onCite }: { points: CitedPoint[]; onCite: (source: Source) => void }) {
+  return (
+    <ul className="space-y-3 text-sm">
+      {points.map((p, i) => (
+        <li key={i}>
+          <RichText text={p.text} />{" "}
+          {p.source ? (
+            <CitationBadge source={p.source} onClick={onCite} className="align-middle" />
+          ) : p.url ? (
+            <a
+              href={p.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 align-middle text-xs text-muted-foreground underline hover:no-underline"
+            >
+              source <ExternalLink className="size-3" />
+            </a>
+          ) : null}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+// Landing view for the Independent Corpus Analysis branch — methodology + the three summary
+// lists (repeated/concentration/expected) live here ONCE, not repeated atop every topic group.
+function IndependentSummaryDetail({
+  independentAnalysis,
+  onCite,
+}: {
+  independentAnalysis: ExamTrendsData["independentAnalysis"];
+  onCite: (source: Source) => void;
+}) {
+  return (
+    <div className="space-y-6">
+      <div>
+        <h2 className="text-xl font-bold">Independent Corpus Analysis</h2>
+        <p className="mt-2 text-sm text-muted-foreground">{independentAnalysis.methodology}</p>
+      </div>
+
+      <div>
+        <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
+          Repeated topics — confirmed recurring across independent sources
+        </p>
+        <div className="mt-2">
+          <CitedPointList points={independentAnalysis.repeatedTopics} onCite={onCite} />
+        </div>
+      </div>
+
+      <div>
+        <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
+          Where to concentrate — ranked by this app&apos;s own topics
+        </p>
+        <div className="mt-2">
+          <CitedPointList points={independentAnalysis.concentrationTopics} onCite={onCite} />
+        </div>
+      </div>
+
+      <div>
+        <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">Expected going forward</p>
+        <div className="mt-2">
+          <CitedPointList points={independentAnalysis.expectedTopics} onCite={onCite} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Not a Card, same reasoning as the other drill-down detail panes.
+function IndependentGroupDetail({
+  group,
+  onCite,
+}: {
+  group: IndependentTopicGroup;
+  onCite: (source: Source) => void;
+}) {
+  return (
+    <div className="space-y-6">
+      <div>
+        <p className="text-sm text-muted-foreground">Independent Corpus Analysis</p>
+        <h2 className="text-xl font-bold">{group.topic}</h2>
+      </div>
+      <CitedPointList points={group.points} onCite={onCite} />
     </div>
   );
 }
