@@ -2,11 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { PanelRightIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
+import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { RichText } from "@/components/rich-text";
 import dynamic from "next/dynamic";
 
@@ -33,6 +34,7 @@ export function QuizView({
   const [correctCount, setCorrectCount] = useState(0);
   const [missed, setMissed] = useState<string[]>([]);
   const [finished, setFinished] = useState(false);
+  const [pdfOpen, setPdfOpen] = useState(false);
 
   const q = questions[index];
   const isSba = q.options.length > 0;
@@ -57,6 +59,7 @@ export function QuizView({
     setIndex((i) => i + 1);
     setSelected(null);
     setRevealed(false);
+    setPdfOpen(false);
   }
 
   if (finished) {
@@ -74,82 +77,87 @@ export function QuizView({
   }
 
   return (
-    <ResizablePanelGroup orientation="horizontal" className="h-full">
-      <ResizablePanel defaultSize={55} minSize={30}>
-        <div className="h-full overflow-y-auto p-6 space-y-4">
-          <Progress value={((index + 1) / questions.length) * 100} />
-          <div className="flex items-center justify-between text-sm text-muted-foreground">
-            <span>
-              Question {index + 1} / {questions.length}
-            </span>
-            <Badge variant="outline">{q.format}</Badge>
-          </div>
-
-          <p className="whitespace-pre-line text-base">{q.stem}</p>
-
-          {isSba ? (
-            <RadioGroup value={selected ?? undefined} onValueChange={setSelected} disabled={revealed}>
-              {q.options.map((opt) => (
-                <label key={opt} className="flex items-center gap-2 rounded-md border p-2 text-sm">
-                  <RadioGroupItem value={opt} />
-                  {opt}
-                </label>
-              ))}
-            </RadioGroup>
-          ) : (
-            <p className="text-xs text-muted-foreground">
-              This EMI question&apos;s option list wasn&apos;t recoverable from the source PDF
-              (see CLAUDE.md) — reveal the answer, then self-assess.
-            </p>
-          )}
-
-          {!revealed ? (
-            <Button disabled={isSba && !selected} onClick={() => setRevealed(true)}>
-              Reveal answer
-            </Button>
-          ) : (
-            <div className="space-y-2 rounded-md border p-3">
-              {isSba && (
-                <Badge variant={gotItRight ? "default" : "destructive"}>
-                  {gotItRight ? "Correct" : "Incorrect"}
-                </Badge>
-              )}
-              <p className="text-sm font-medium">Correct answer: {q.correctAnswer || "(not extractable from source — see explanation)"}</p>
-              {q.explanation && (
-                <p className="text-sm">
-                  <RichText text={q.explanation} />
-                </p>
-              )}
-              {q.reference && <p className="text-xs text-muted-foreground">Ref: {q.reference}</p>}
-              <div className="flex items-center gap-2 pt-2">
-                <button onClick={() => {}}>
-                  <Badge variant="outline" className="cursor-default text-xs">
-                    Source: {q.source.file.split("/").pop()} p.{q.source.page}
-                  </Badge>
-                </button>
-                {isSba ? (
-                  <Button size="sm" onClick={() => next(!!gotItRight)}>
-                    Next
-                  </Button>
-                ) : (
-                  <>
-                    <Button size="sm" variant="outline" onClick={() => next(false)}>
-                      I got it wrong
-                    </Button>
-                    <Button size="sm" onClick={() => next(true)}>
-                      I got it right
-                    </Button>
-                  </>
-                )}
-              </div>
-            </div>
-          )}
+    <div className="h-full overflow-y-auto">
+      <div className="mx-auto max-w-2xl p-6 space-y-4">
+        <Progress value={((index + 1) / questions.length) * 100} />
+        <div className="flex items-center justify-between text-sm text-muted-foreground">
+          <span>
+            Question {index + 1} / {questions.length}
+          </span>
+          <Badge variant="outline">{q.format}</Badge>
         </div>
-      </ResizablePanel>
-      <ResizableHandle withHandle />
-      <ResizablePanel defaultSize={45} minSize={25}>
-        <PdfViewer source={revealed ? q.source : null} />
-      </ResizablePanel>
-    </ResizablePanelGroup>
+
+        <p className="whitespace-pre-line text-base">{q.stem}</p>
+
+        {isSba ? (
+          <RadioGroup value={selected ?? undefined} onValueChange={setSelected} disabled={revealed}>
+            {q.options.map((opt) => (
+              <label key={opt} className="flex items-center gap-2 rounded-md border p-2 text-sm">
+                <RadioGroupItem value={opt} />
+                {opt}
+              </label>
+            ))}
+          </RadioGroup>
+        ) : (
+          <p className="text-xs text-muted-foreground">
+            This EMI question&apos;s option list wasn&apos;t recoverable from the source PDF
+            (see CLAUDE.md) — reveal the answer, then self-assess.
+          </p>
+        )}
+
+        {!revealed ? (
+          <Button disabled={isSba && !selected} onClick={() => setRevealed(true)}>
+            Reveal answer
+          </Button>
+        ) : (
+          <div className="space-y-2 rounded-md border p-3">
+            {isSba && (
+              <Badge variant={gotItRight ? "default" : "destructive"}>
+                {gotItRight ? "Correct" : "Incorrect"}
+              </Badge>
+            )}
+            <p className="text-sm font-medium">Correct answer: {q.correctAnswer || "(not extractable from source — see explanation)"}</p>
+            {q.explanation && (
+              <p className="text-sm">
+                <RichText text={q.explanation} />
+              </p>
+            )}
+            {q.reference && <p className="text-xs text-muted-foreground">Ref: {q.reference}</p>}
+            <div className="flex items-center gap-2 pt-2">
+              <button onClick={() => setPdfOpen(true)}>
+                <Badge variant="outline" className="cursor-pointer gap-1 text-xs">
+                  <PanelRightIcon className="size-3" />
+                  Source: {q.source.file.split("/").pop()} p.{q.source.page}
+                </Badge>
+              </button>
+              {isSba ? (
+                <Button size="sm" onClick={() => next(!!gotItRight)}>
+                  Next
+                </Button>
+              ) : (
+                <>
+                  <Button size="sm" variant="outline" onClick={() => next(false)}>
+                    I got it wrong
+                  </Button>
+                  <Button size="sm" onClick={() => next(true)}>
+                    I got it right
+                  </Button>
+                </>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+
+      <Sheet open={pdfOpen} onOpenChange={setPdfOpen}>
+        <SheetContent
+          side="right"
+          className="w-full data-[side=right]:sm:max-w-2xl"
+        >
+          <SheetTitle className="sr-only">Source PDF</SheetTitle>
+          <PdfViewer source={revealed ? q.source : null} />
+        </SheetContent>
+      </Sheet>
+    </div>
   );
 }
