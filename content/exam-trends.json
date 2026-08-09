@@ -3,20 +3,697 @@
     "text": "Mark/percentage breakdown per syllabus section, per the RCPsych Paper B blueprint (confirmed against an independent published guide, not just the syllabus PDF, which does not itself print a marks table).",
     "url": "https://edubros.org/mrcpsych-paper-b-complete-guide/"
   },
-  "externalStrategyNotes": [
-    {
-      "text": "Paper B is ~150 questions in a roughly 2:1 mix of MCQs to EMIs, and is commonly described as split about evenly between clinical psychiatry and statistics/critical appraisal in terms of study effort, even though critical review alone is 33.5% of marks.",
-      "url": "https://passmrcpsych.com/the-mrcpsych-paper-b-a-comprehensive-guide/"
-    },
-    {
-      "text": "Clinical questions lean heavily on NICE guideline stepwise-management knowledge (e.g. first/second-line drug choice sequences for mood, psychotic and anxiety disorders) rather than obscure facts.",
-      "url": "https://edubros.org/mrcpsych-paper-b-complete-guide/"
-    },
-    {
-      "text": "Past-paper recalls are widely cited by successful candidates as the best signal for which exact topics repeat year to year — cross-check this app's own recurring-trap lists below against resources/paper-b/previous-year-question-source/ (see the Recalls page) for the most current signal.",
-      "url": "https://mindrecalls.com/paper-b-study-pattern/"
-    }
-  ],
+  "priorityAnalysis": {
+    "intro": "Both documents independently converge on ~12 recurring domains, ranked by how often each actually appears across real past recall papers rather than by curriculum weighting — a different, complementary lens to the official syllabus breakdown above.",
+    "goldenRules": [
+      {
+        "text": "Never skip stats. There are 40–50 stats questions per paper — getting most of them right is the difference between passing and failing.",
+        "source": {
+          "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+          "page": 24
+        }
+      },
+      {
+        "text": "The same LD syndrome questions come up every session. Learn one good table covering all 12 syndromes and you will get most of these marks.",
+        "source": {
+          "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+          "page": 24
+        }
+      },
+      {
+        "text": "Prevention questions are the easiest marks in the exam — the same 5 scenarios recycle every session. Memorise the definitions once and bank these 3–4 marks every time.",
+        "source": {
+          "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+          "page": 25
+        }
+      },
+      {
+        "text": "For psychotherapy: the distinction between CAT (3 Rs, goodbye letters), DBT (phone calls, hierarchy), and the family-therapy model types is tested in every paper.",
+        "source": {
+          "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+          "page": 25
+        }
+      },
+      {
+        "text": "For ECT: retrograde (explicit) memory is most affected; bilateral > unilateral efficacy but more cognitive side effects; QTc >500ms = emergency dose reduction.",
+        "source": {
+          "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+          "page": 25
+        }
+      },
+      {
+        "text": "1st priority: statistics every single day — calculations, test selection, graph reading (30–35% of the paper). 2nd: LD syndromes + drugs in pregnancy + ECT facts (low effort, guaranteed marks). 3rd: psychotherapy terms + prevention scenarios (1–2 hours total). 4th: pharmacology special-situation drug choices + dementia differentials. 5th: forensic statistics + child-psychiatry NICE guidelines.",
+        "source": {
+          "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+          "page": 13
+        }
+      }
+    ],
+    "domains": [
+      {
+        "id": "pr-statistics",
+        "title": "Statistics & Research Methods",
+        "tier": "CRITICAL",
+        "percentOfPaper": "30–35%",
+        "percentRevisionTime": "30%",
+        "effortReward": "High effort / massive reward",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "Diagnostic-test statistics (sensitivity, specificity, PPV, NPV, LR+, LR−, post-test odds) appear EVERY session, multiple questions each time.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Exam favourite worked example: pre-test probability 1/8, Sn 80%, Sp 80% → pre-test odds 1/7 × LR+ 4 = post-test odds 4/7 — appeared in Sep 2022, Mar 2023, and Mock 14.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "ANCOVA vs ANOVA (adjusting for a covariate such as age) is a frequently tested trap — appeared in Oct 2023, Jun 2023, and May 2025.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Case-control → odds ratio; cohort → relative risk. Risk ratio CANNOT be calculated from a case-control study (no population denominator).",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Block randomisation (ensures equal numbers per arm) is the most frequently tested randomisation question.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Audit-loop trap: a re-audit done with no changes implemented in between means the audit loop is incomplete — appeared in Sep 2022, Oct 2023, and the compiled Recalls Solved file.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "STARD (diagnostic accuracy reporting) specifically appeared in Mar 2023 and May 2025.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Forest-plot, Kaplan-Meier, and CONSORT-diagram EMI stems use new numbers every session but test the same interpretation skills — practise reading them, don't memorise specific figures.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 25
+            }
+          },
+          {
+            "text": "Full statistical-test decision table and formula sheet.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "expectedNote": {
+          "text": "There are 40–50 stats questions per paper; getting most of them right is described as the difference between passing and failing, regardless of clinical knowledge — the single highest-expected-value topic to keep drilling right up to the exam.",
+          "source": {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        }
+      },
+      {
+        "id": "pr-pharmacology",
+        "title": "Clinical Pharmacology (pregnancy, EPSEs, mood stabilisers, clozapine)",
+        "tier": "CRITICAL",
+        "percentOfPaper": "18–25%",
+        "percentRevisionTime": "20%",
+        "effortReward": "Medium effort / high reward",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "Drugs-in-pregnancy / neonatal-effects EMI appears in EVERY paper.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Sertraline is the preferred SSRI in both pregnancy and breastfeeding (least placental/milk exposure); lithium is contraindicated in breastfeeding.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Tardive dyskinesia management trap: the first step is to STOP the anticholinergic (e.g. procyclidine) — anticholinergics worsen TD — before reducing/switching the antipsychotic.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Lithium RAISES calcium, opposite to carbamazepine, valproate and haloperidol, which lower it.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "If clozapine isn't working, the first step is to check compliance (clozapine level) before anything else; amisulpride augmentation has the best evidence for partial response.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "QTc >500ms → reduce dose immediately and consider urgent cardiology referral; risperidone+citalopram and citalopram+diphenhydramine are named high-risk combinations.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Neonatal-presentation EMI (classic, tested every session): opioids → jittery/high-pitched cry; cocaine → overarousal/tachycardia; sodium valproate → cleft palate + developmental delay.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 6
+            }
+          }
+        ],
+        "expectedNote": {
+          "text": "Drug-choice-in-special-situations tables (post-MI, epilepsy, renal/liver impairment, tamoxifen, breastfeeding) recur across sessions in near-identical form — learning the table once covers most of this domain's marks.",
+          "source": {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 8
+          }
+        }
+      },
+      {
+        "id": "pr-ld-genetics",
+        "title": "Intellectual Disability & Genetics",
+        "tier": "HIGH",
+        "percentOfPaper": "8–12%",
+        "percentRevisionTime": "8–10%",
+        "effortReward": "Low effort once the table is learnt",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "The same LD syndromes are tested repeatedly across every recall session — the full 12-syndrome comparison table (genetics, clinical features, exam clue) is worth memorising in one sitting.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Genomic imprinting is a specifically recurring point: Prader-Willi = paternal deletion 15q; Angelman = maternal deletion 15q — tested in Mar 2024 and the compiled Recalls Solved file.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Most common cause of intellectual disability overall = unknown (up to 60%); chromosomal = Down syndrome; inherited/genetic = Fragile X; environmental/acquired = foetal alcohol syndrome.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "5–7 questions on the same syndrome set appear every session.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "expectedNote": {
+          "text": "\"Learn ONE good table covering all 12 syndromes and you will get most of these marks\" — the source's own framing after cross-referencing 8 recall sources.",
+          "source": {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        }
+      },
+      {
+        "id": "pr-dementia",
+        "title": "Dementia & Old Age Psychiatry (DLB, Alzheimer's, FTD, MCI)",
+        "tier": "HIGH",
+        "percentOfPaper": "7–9%",
+        "percentRevisionTime": "8%",
+        "effortReward": "Medium effort / high reward",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "\"Which dementia is irreversible?\" is frequently tested — answer MND/ALS; reversible causes (NPH, chronic subdural haematoma, Wilson's disease, pellagra, alcohol) are the distractor set.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "DLB's core feature — REM sleep behaviour disorder, which can precede cognitive decline by years — and its supportive feature, severe neuroleptic sensitivity, are repeatedly tested.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Best tool to differentiate MCI from dementia is informant assessment of activities of daily living, NOT MMSE or MoCA scores alone.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Risperidone is the only UK-licensed antipsychotic for BPSD in moderate-severe Alzheimer's.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "MCI converts to Alzheimer's at roughly 9.6% (range 5–15%) per year.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "pr-psychotherapy",
+        "title": "Psychotherapy (CAT, DBT, Family Therapy)",
+        "tier": "HIGH",
+        "percentOfPaper": "7–10%",
+        "percentRevisionTime": "7%",
+        "effortReward": "Low effort / pure recall",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "CAT's 3 Rs (Reformulation → Recognition → Revision) plus its goodbye letters, DBT's phone-calls-as-core-technique plus its behaviour hierarchy, and the four family-therapy model distinctions are tested in every paper.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 25
+            }
+          },
+          {
+            "text": "Most-tested family-therapy distinction: Systemic/Milan = re-framing + hypothesising; Strategic = paradoxical injunctions; Structural = unspoken rules + hierarchy; Narrative = externalisation.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "DBT trap: it is NOT based on psychodynamic formulations and is NOT delivered only in groups — both are common wrong-option distractors.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Motivational Interviewing (DEARS) and IPT (RIIG) mnemonics recur as EMI option sets.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 6
+            }
+          }
+        ]
+      },
+      {
+        "id": "pr-forensic",
+        "title": "Forensic Psychiatry",
+        "tier": "MEDIUM",
+        "percentOfPaper": "5–8%",
+        "percentRevisionTime": "6%",
+        "effortReward": "Low effort / specific facts",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "Prison suicide risk is 3–8× higher in males and >10× higher in females than the general population; remand status carries HIGHER risk than sentenced status (the reverse of intuition).",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Pritchard fitness-to-plead criteria: amnesia for the offence does NOT make someone unfit to plead; learning disability is the most common cause of unfitness.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Sane automatism = external cause (concussion, one-off hypoglycaemia, sleep terrors) → complete acquittal. Insane automatism = internal cause (epilepsy, sleepwalking, brain tumour) → not guilty by reason of insanity.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Key legal cases recur as a set: Bournewood (DoLS), Tarasoff (duty to warn), Osman v UK (police duty to warn), Gillick/Fraser (minors' consent), Bolam (negligence standard).",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "ASPD prevalence in the male prison population is consistently cited at ~50%.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "expectedNote": {
+          "text": "Forensic questions test specific memorised numbers rather than concepts — the source frames this as \"once learnt, reliable marks; learn the numbers, not just the concepts.\"",
+          "source": {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 7
+          }
+        }
+      },
+      {
+        "id": "pr-child-adolescent",
+        "title": "Child & Adolescent Psychiatry",
+        "tier": "MEDIUM",
+        "percentOfPaper": "5–8%",
+        "percentRevisionTime": "6%",
+        "effortReward": "Medium effort",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "ADHD heritability (70–80%) is the highest of all listed childhood psychiatric conditions.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Paediatric OCD drug-licensing ages are a specific recurring trap: sertraline from age 6, fluvoxamine from age 8; clomipramine is NOT first-line and needs cardiac monitoring.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Mild depression watchful-waiting period is 2 WEEKS, not 6 weeks or 2 months — a commonly-tested exact-number trap; fluoxetine's minimum licensed age is 5 years.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Tourette syndrome requires 2+ motor tics AND 1+ vocal tic for over a year; M:F ratio 2–5:1.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 20
+            }
+          }
+        ]
+      },
+      {
+        "id": "pr-eating-perinatal",
+        "title": "Eating Disorders & Perinatal Psychiatry",
+        "tier": "MEDIUM",
+        "percentOfPaper": "4–6%",
+        "percentRevisionTime": "5%",
+        "effortReward": "Low effort",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "Refeeding syndrome's most dangerous electrolyte disturbance is hypophosphataemia (not hypokalaemia, though that also occurs).",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "MEED admission red flags recur as an exact-number set: HR <40, BMI <13 (adult), temperature <35.5°C, QTc >430ms (male)/>450ms (female), K+ <2.5.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Postpartum blues affects up to 50% of new mothers; postpartum depression 10–15%; postpartum psychosis 1–2 per 1000 deliveries; BPAD postpartum relapse risk ~50%.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 11
+            }
+          }
+        ]
+      },
+      {
+        "id": "pr-prevention",
+        "title": "Prevention (universal / selective / indicated)",
+        "tier": "EASY MARKS",
+        "percentOfPaper": "2–3%",
+        "percentRevisionTime": "2%",
+        "effortReward": "Minimal effort / free marks",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "The same ~5 prevention scenarios recycle every single session — described as the easiest marks in the whole exam.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "At-risk mental state for psychosis + CBT is BOTH primary prevention AND indicated prevention — always select two answers when this scenario appears.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Universal prevention for alcohol in the community = increasing the price per unit, the most evidence-backed answer; school-based education is also universal.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Full scenario-to-classification table (school anti-bullying, low-income family support, lithium prophylaxis, alcohol pricing, screening).",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "expectedNote": {
+          "text": "\"1 hour of learning = 3–4 guaranteed marks\" — the source's own estimate of return on effort for this domain.",
+          "source": {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 4
+          }
+        }
+      },
+      {
+        "id": "pr-ect",
+        "title": "ECT",
+        "tier": "EASY MARKS",
+        "percentOfPaper": "2–3%",
+        "percentRevisionTime": "2%",
+        "effortReward": "Low effort / fixed facts",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "Retrograde (explicit/episodic) memory is the most affected memory type; the only absolute contraindication is phaeochromocytoma.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Bilateral placement is more effective than unilateral but causes more cognitive side effects.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Psychotic depression is the best predictor of ECT response — not severity of depression.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "ECT combined with lithium carries a ×12 risk of delirium.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 18
+            }
+          }
+        ]
+      },
+      {
+        "id": "pr-substance-misuse",
+        "title": "Substance Misuse",
+        "tier": "EASY MARKS",
+        "percentOfPaper": "2–3%",
+        "percentRevisionTime": "3%",
+        "effortReward": "Low effort",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          },
+          {
+            "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+            "page": 24
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "Alcohol and benzodiazepines are the ONLY substances with life-threatening withdrawal; opioid withdrawal is very unpleasant but not life-threatening.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Chlordiazepoxide is standard first-line for alcohol detox; oxazepam is preferred in liver disease/COPD; disulfiram is a deterrent, not relapse prevention (that's naltrexone/acamprosate).",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Alcohol is the only substance that is both a GABA-A agonist AND an NMDA antagonist.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf",
+              "page": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "pr-old-age-other",
+        "title": "Old Age Psychiatry & Other Clinical Topics",
+        "tier": "LOWER PRIORITY",
+        "percentOfPaper": "2–3%",
+        "percentRevisionTime": "3%",
+        "effortReward": "Medium effort",
+        "tierSources": [
+          {
+            "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+            "page": 1
+          }
+        ],
+        "repeatedFacts": [
+          {
+            "text": "This is the source's own catch-all lower-priority bucket for older-adult clinical content not already folded into the Dementia domain above — ranked 12th of 12 domains by revision priority.",
+            "source": {
+              "file": "exam-syllabic/MRCPsych_Strategy_Guide.pdf",
+              "page": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
   "sections": [
     {
       "id": "organisation-of-services",

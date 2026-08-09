@@ -42,7 +42,3 @@ export function getMockQuestions(examId: number): Question[] {
 export function getExamTrends(): ExamTrendsData {
   return examTrendsJson as ExamTrendsData;
 }
-
-export function getExamTrendSection(sectionId: string) {
-  return getExamTrends().sections.find((s) => s.id === sectionId);
-}

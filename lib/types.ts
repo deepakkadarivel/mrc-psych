@@ -179,8 +179,41 @@ export interface ExamTrendSection {
   topicSignals: ExamTrendTopicSignal[];
 }
 
+// A fact cited to one of the two user-supplied recall-analysis PDFs
+// (resources/paper-b/exam-syllabic/MRCPsych_Paper_B_Trend_Analysis.pdf /
+// MRCPsych_Strategy_Guide.pdf) — real {file,page} citations, same discipline as every other
+// Source in this app, just a different corpus than books/question_bank.
+export interface PriorityFact {
+  text: string;
+  source: Source;
+}
+
+// One of the ~12 broad domains both recall-analysis documents independently converge on (their
+// own taxonomy — cuts across this app's 15 book-topics and the syllabus's 9 official sections,
+// since it's organised by how often each domain actually recurs across real past recall papers,
+// not by curriculum structure). `repeatedFacts` are the specific facts/traps the source itself
+// flags as recurring ("every session", "CONSISTENT", "frequently tested", "exam favourite") —
+// picked, not paraphrased-then-forgotten-where-from; each keeps its own page citation.
+export interface PriorityDomain {
+  id: string;
+  title: string;
+  tier: string;
+  percentOfPaper: string;
+  percentRevisionTime: string;
+  effortReward: string;
+  tierSources: Source[];
+  repeatedFacts: PriorityFact[];
+  expectedNote?: PriorityFact;
+}
+
+export interface PriorityAnalysis {
+  intro: string;
+  goldenRules: PriorityFact[];
+  domains: PriorityDomain[];
+}
+
 export interface ExamTrendsData {
   weightSource: ExternalNote;
-  externalStrategyNotes: ExternalNote[];
+  priorityAnalysis: PriorityAnalysis;
   sections: ExamTrendSection[];
 }
