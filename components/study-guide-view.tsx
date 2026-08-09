@@ -395,13 +395,14 @@ function SectionListDetail({
       </div>
 
       {/* Desktop: resizable, independently-scrolling nav + detail panes. Height is pinned to the
-          measured consolidated-header height (94px, two rows — see app/layout.tsx), not an
-          arbitrary vh guess, so the panel fills the actual available viewport with no leftover
-          gap at the bottom. Can't use h-full here: topic-view.tsx's whole ancestor chain is
-          deliberately unbounded/flowing (see "Layout height must be bounded"), so there's no
-          bounded parent for h-full to resolve against without reintroducing that chain for every
-          sibling tab too. */}
-      <div className="hidden md:block md:h-[calc(100vh-94px)]">
+          measured consolidated header height (49px — a single row now that the tab list lives in
+          the title row via #topic-tabs-anchor, not the old two-row header; see app/layout.tsx and
+          CLAUDE.md "Consolidated sticky header"), not an arbitrary vh guess, so the panel fills
+          the actual available viewport with no leftover gap at the bottom. Can't use h-full here:
+          topic-view.tsx's whole ancestor chain is deliberately unbounded/flowing (see "Layout
+          height must be bounded"), so there's no bounded parent for h-full to resolve against
+          without reintroducing that chain for every sibling tab too. */}
+      <div className="hidden md:block md:h-[calc(100vh-49px)]">
         <ResizablePanelGroup orientation="horizontal" className="h-full">
           <ResizablePanel defaultSize="26" minSize="18" maxSize="40">
             <nav className="h-full overflow-y-auto border-r">{navItems}</nav>
@@ -596,15 +597,15 @@ export function StudyGuideView({
   const trapCount = countBlocks(guide, "trap", "trap-list");
   const gapCount = countBlocks(guide, "gap");
 
-  // This tab list renders in the root layout's sticky header (to the right of the outer
-  // Study-Guide/Source-Notes tabs from topic-view.tsx), not inline here — see CLAUDE.md
-  // "Consolidated sticky header". The <Tabs> root itself stays right here so its context still
-  // wraps both the portaled list and the TabsContent panels below.
-  const tabsRightSlot = usePortalSlot("page-header-tabs-right");
+  // This tab list renders into `#topic-tabs-anchor`, a div topic-view.tsx puts in its own header
+  // portal right between the page title and the source-drawer toggle icon, not inline here — see
+  // CLAUDE.md "Consolidated sticky header". The <Tabs> root itself stays right here so its
+  // context still wraps both the portaled list and the TabsContent panels below.
+  const tabsAnchorSlot = usePortalSlot("topic-tabs-anchor");
 
   return (
     <Tabs defaultValue="full" className="w-full">
-      {tabsRightSlot &&
+      {tabsAnchorSlot &&
         createPortal(
           <TabsList className="mx-0 overflow-x-auto">
             <TabsTrigger value="full" className="gap-1.5">
@@ -632,7 +633,7 @@ export function StudyGuideView({
               <GraduationCap className="size-4" /> Quiz ({questions.length})
             </TabsTrigger>
           </TabsList>,
-          tabsRightSlot
+          tabsAnchorSlot
         )}
 
       <TabsContent value="full">

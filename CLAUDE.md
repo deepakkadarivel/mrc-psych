@@ -56,18 +56,24 @@ on 3 and then scaled.
 
 - Next.js App Router, TypeScript, Tailwind, shadcn/ui, `output: 'export'` (static — must work
   on Vercel Hobby and GitHub Pages both).
-- Every topic page (`components/topic-view.tsx`) is a single scrolling column for its actual
-  content — header, tabs (Study Guide / Source Notes) — with the source PDF opening as a
-  **right-side drawer overlay** (`components/ui/sheet.tsx`, `side="right"`) on top of that
-  content, not a permanent side column and not a below-content section. This went through two
-  earlier layouts before landing here, both dropped on explicit user feedback: a
-  `ResizablePanelGroup` side panel (too much like a permanent two-column split), then a
-  below-content section you had to scroll down to reach (technically one column, but "scrolls
-  completely down" was still the wrong feel for something you want quick access to). A drawer
-  gives one-column content *and* instant access, without a scroll. See "Print-document design
-  system" and "Consolidated sticky header" below. The Source Notes tab shows **one note block at a
-  time with Prev/Next** (not a scrolling list — changed on earlier user feedback for better
-  study-session UX); paging through it updates which page the drawer (if open) shows.
+- Every topic page (`components/topic-view.tsx`) is a single scrolling column showing the study
+  guide directly — there's no outer content-switching tab row anymore. The raw source book/notes
+  and the source PDF both live together in a **right-side drawer overlay**
+  (`components/ui/sheet.tsx`, `side="right"`) on top of that content, not a permanent side column
+  and not a below-content section. This went through several earlier layouts before landing here,
+  each dropped on explicit user feedback: a `ResizablePanelGroup` side panel (too much like a
+  permanent two-column split), then a below-content section you had to scroll down to reach
+  (technically one column, but "scrolls completely down" was still the wrong feel for something
+  you want quick access to), then an outer "Study Guide"/"Source Notes" tab pair on the main page
+  (the user wanted the raw notes "remote from the main page" entirely, alongside the PDF, not a
+  second tab competing with the study guide for the page's main content). A drawer gives
+  one-column content *and* instant access, without a scroll. See "Print-document design system"
+  and "Consolidated sticky header" below. Inside the drawer, a small `<Tabs>` switches between
+  **Source** (the PDF, `components/pdf-viewer.tsx`) and **Source Notes** (the raw book text, one
+  note block at a time with Prev/Next — not a scrolling list, changed on earlier user feedback for
+  better study-session UX); paging through Source Notes updates which page the Source tab shows,
+  and citing a source elsewhere in the study guide always switches the drawer to the Source tab at
+  that exact page.
 - PDF viewer (`components/pdf-viewer.tsx`) uses `react-pdf` (pdf.js), not a plain
   `<iframe src=".../file.pdf#page=N">`. The iframe version was tried first (simpler, no
   dependency) but every page change reloaded the whole PDF from scratch — visible flicker,
@@ -545,11 +551,14 @@ part actually worked (each pane scrolled independently), but the user then asked
 resizing too, and a fixed vh guess left a visible gap below the panel on tall viewports. Landed on
 `ResizablePanelGroup`/`ResizablePanel` (`components/ui/resizable.tsx`, already used elsewhere in
 this app) with each panel's own inner `overflow-y-auto` div, sized to
-`md:h-[calc(100vh-94px)]` — 94px is the *measured* height of the consolidated header (two rows,
-see below), not a guess, so the panel fills the actual remaining viewport with no leftover gap.
-Below `md` there's no resizable/independent-scroll behavior at all — dragging a resize handle
-doesn't translate to touch, so it's a plain stacked pill-row nav above page-flowing detail
-content, matching the rest of the app's single-column-on-mobile approach.
+`md:h-[calc(100vh-49px)]` — 49px is the *measured* height of the consolidated header (a single
+row — see below), not a guess, so the panel fills the actual remaining viewport with no leftover
+gap. **This number moves if the header's own height ever changes** (it used to be 94px back when
+the header was two stacked rows) — re-measure rather than assume, e.g. via Playwright:
+`page.locator("main > div.sticky").boundingBox()`. Below `md` there's no resizable/independent-scroll
+behavior at all — dragging a resize handle doesn't translate to touch, so it's a plain stacked
+pill-row nav above page-flowing detail content, matching the rest of the app's
+single-column-on-mobile approach.
 
 **`react-resizable-panels` v4's `defaultSize`/`minSize`/`maxSize` take a bare `number` as
 *pixels*, not percent** — only a numeric *string* (`"26"`) is treated as a percentage
@@ -559,45 +568,61 @@ a real minimum. Always pass these three props as numeric strings on this version
 
 ## Consolidated sticky header (`app/layout.tsx` + portals)
 
-The user asked for the title, the "Source PDF"/"Take quiz" actions, and *both* tab-row groups
-(outer Study Guide/Source Notes, inner Full Guide/Notes/Tables/Mnemonics/Traps/Gaps) to live in
-one persistent header next to the sidebar drawer icon, instead of topic-view.tsx rendering its own
-separate sticky bar below the layout's sidebar-trigger bar (two stacked bars read as extra chrome,
-and the title wasn't "next to" the drawer icon the way the user wanted).
+The user asked for the title, the study guide's own tab list (Full Guide/Concise Guide/Notes/
+Tables/Mnemonics/Traps/Gaps/Quiz), and the source-drawer toggle icon to all live in **one**
+persistent header row next to the sidebar drawer icon — tabs to the right of the title, the drawer
+icon last — instead of topic-view.tsx rendering its own separate sticky bar below the layout's
+sidebar-trigger bar. This header used to be two stacked rows (an outer Study Guide/Source Notes
+tab pair above an inner Full Guide/etc. tab pair); both of those concerns moved elsewhere (Source
+Notes into the PDF drawer, "outer" tabs removed entirely — see the App architecture bullet above)
+so now it's a single row, title/tabs/icon together.
 
 Next.js App Router layouts can't declaratively receive page-specific JSX (a `layout.tsx` only gets
-`{children}`), so this uses **DOM-id portal targets**: `app/layout.tsx` renders three empty,
-unstyled slot divs inside its one sticky header — `page-header-slot` (next to `SidebarTrigger`,
-for title + action buttons), `page-header-tabs-left` (outer tabs), `page-header-tabs-right` (inner
-tabs). `hooks/use-portal-slot.ts` (`usePortalSlot(id)`) resolves a slot via
-`document.getElementById` in an effect; `topic-view.tsx` and `study-guide-view.tsx` each
-`createPortal(...)` their header content into the slot they own. The `<Tabs>` root itself still
-lives in its normal place in the tree (wrapping the real `<TabsContent>` panels) — only the
-`<TabsList>` is portaled elsewhere; since portals preserve React context, clicking a portaled
-trigger still correctly drives which panel shows, exactly as if the list were rendered in place.
+`{children}`), so this uses **DOM-id portal targets**: `app/layout.tsx` renders one empty, unstyled
+slot div in its sticky header — `page-header-slot`, next to `SidebarTrigger`. `topic-view.tsx`
+portals its title + a `div#topic-tabs-anchor` + the drawer-toggle icon into it, in that DOM order
+(so they read left-to-right: title, tabs, icon). `study-guide-view.tsx` then portals its own
+`<TabsList>` into that `#topic-tabs-anchor` div — a *second-order* portal target, rendered by
+another client component's portal rather than being a static node in `layout.tsx`. The `<Tabs>`
+root itself still lives in its normal place in the tree (wrapping the real `<TabsContent>` panels)
+— only the `<TabsList>` is portaled elsewhere; since portals preserve React context, clicking a
+portaled trigger still correctly drives which panel shows, exactly as if the list were rendered in
+place.
 
-**Both header rows carry the same `border-b p-2` treatment**, applied at the row wrapper in
-`app/layout.tsx` (not on the individual slot divs, which stay classless so multiple slots in the
-same row don't double up on padding). This was an explicit correction — the tabs row originally
-had no padding/border of its own (so it'd render at zero height and stay invisible on pages that
-don't populate it), but the user asked for "the same styling as the header, with right padding
-and everything," i.e. visual *consistency* matters more here than hiding an unused row. Tradeoff:
-pages that don't portal into the tabs row (quiz, tracker, recalls, home) now show a slim empty
-second row rather than nothing — accepted deliberately, don't revert to the zero-padding version
-to "fix" that without checking this paragraph first.
+**`hooks/use-portal-slot.ts` (`usePortalSlot(id)`) had to grow a `MutationObserver` fallback for
+this second-order case.** It used to just do one `document.getElementById(id)` in a mount effect —
+fine when the target is a static node already in `layout.tsx`'s server-rendered markup, but
+`#topic-tabs-anchor` doesn't exist until *topic-view.tsx's own* `usePortalSlot("page-header-slot")`
+has resolved and its portal has committed. A single one-shot lookup at mount raced this and lost
+(study-guide-view.tsx's tab list silently never appeared — `getElementById` returned null exactly
+once and never looked again). Fix: check once synchronously (still resolves immediately for a
+static target, no behavior change there), and if not found, watch `document.body` with a
+`MutationObserver` until it appears. Any future component that portals into another component's
+own dynamically-created anchor needs this same handling — don't revert to a plain one-shot lookup.
+
+**Both `h1` and the tabs+icon wrapper need `min-w-0`/`shrink`** for the title to actually truncate
+once the tab list (which can be 8 tabs wide) shares the row — a flex child's default min-width is
+its content's intrinsic width, not 0, so without this the title would refuse to shrink below its
+full untruncated width and push the tabs/icon off-screen instead. The tab list itself keeps
+`overflow-x-auto` (from when it lived in its own header row) so on narrow viewports it scrolls
+internally rather than the whole row overflowing; the drawer-toggle icon carries `shrink-0` so it
+never disappears — the title and tab list absorb space pressure first.
 
 **Known tradeoff**: `usePortalSlot` resolves client-side only (`document.getElementById` can't run
-during static-export prerender), so the title/buttons/tabs are absent from the initial static HTML
+during static-export prerender), so the title/tabs/icon are absent from the initial static HTML
 and appear only after hydration — a brief flash on first paint. Acceptable for this app (single
 user, JS always on); don't try to "fix" this by moving the header content back to being
-server-rendered per-page, which is exactly the two-bar layout that was just removed.
+server-rendered per-page, which is exactly the two-bar layout that was removed earlier.
 
-The "Source PDF" toggle is icon-only (a `Tooltip`, label "Source PDF" on hover) and sits as the
-**rightmost** element in the header, after "Take quiz" — the user asked for it moved to the far
-right and given "the same icon style as the drawer icon on the left," i.e. matching
-`SidebarTrigger` (`components/ui/sidebar.tsx`): same `variant="ghost" size="icon-sm"` Button, and a
-single static `PanelRightIcon` (mirroring `SidebarTrigger`'s single static `PanelLeftIcon`) rather
-than swapping between separate open/closed icon variants.
+The drawer-toggle icon is icon-only (a `Tooltip`, label "Source" on hover) and sits as the
+**rightmost** element in the header, after the tab list — matching `SidebarTrigger`
+(`components/ui/sidebar.tsx`): same `variant="ghost" size="icon-sm"` Button, and a single static
+`PanelRightIcon` (mirroring `SidebarTrigger`'s single static `PanelLeftIcon`) rather than swapping
+between separate open/closed icon variants. Inside the drawer itself, a second, small `<Tabs>`
+(Source/Source Notes — see the App architecture bullet above) needs `pt-[49px]` on `SheetContent`
+so its own `<TabsList>` isn't painted over by the sticky header (z-[60], above the drawer's z-50)
+— the header covers the same 49px band on every page, drawer included, since the drawer is a
+fixed, full-height overlay starting at the very top of the viewport, not below the header.
 
 ## End-to-end tests (`e2e/`, Playwright)
 

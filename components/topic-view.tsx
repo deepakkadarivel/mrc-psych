@@ -38,11 +38,12 @@ export function TopicView({
 
   // The title/action-buttons render into a slot owned by the root layout's single sticky header
   // (app/layout.tsx) instead of a separate header bar inside this page — see CLAUDE.md
-  // "Consolidated sticky header". There's no outer left-hand tab list anymore: the page only ever
-  // shows the study guide, and the raw source book/notes moved into the drawer below, so
-  // StudyGuideView's own tab row (portaled to page-header-tabs-right) is the page's only nav —
-  // it ends up flush right since the now-permanently-empty left slot still exists in layout.tsx
-  // and the row is a `justify-between` flex.
+  // "Consolidated sticky header". There's no separate tabs row anymore: StudyGuideView's own tab
+  // list (Full Guide/Concise/.../Quiz) portals into the `#topic-tabs-anchor` div rendered right
+  // here, between the title and the drawer-toggle icon, so title/tabs/icon all sit in one row
+  // with the tabs and icon grouped at the right. `#topic-tabs-anchor` only exists once this
+  // component's own portal has committed — usePortalSlot's MutationObserver fallback is what lets
+  // StudyGuideView find it anyway despite not being a static layout.tsx node (see the hook).
   const titleSlot = usePortalSlot("page-header-slot");
 
   function goToNote(i: number) {
@@ -64,8 +65,11 @@ export function TopicView({
       {titleSlot &&
         createPortal(
           <>
-            <h1 className="truncate text-lg font-semibold">{topic.title}</h1>
-            <div className="flex shrink-0 items-center gap-2">
+            <h1 className="min-w-0 shrink truncate text-lg font-semibold">{topic.title}</h1>
+            <div className="flex min-w-0 items-center gap-2">
+              {studyGuide && (
+                <div id="topic-tabs-anchor" className="flex min-w-0 items-center overflow-x-auto" />
+              )}
               <Tooltip>
                 <TooltipTrigger
                   render={
@@ -74,6 +78,7 @@ export function TopicView({
                       size="icon-sm"
                       onClick={() => setPdfOpen((v) => !v)}
                       data-testid="pdf-toggle"
+                      className="shrink-0"
                     >
                       <PanelRightIcon />
                     </Button>
@@ -109,9 +114,16 @@ export function TopicView({
       )}
 
       <Sheet open={pdfOpen} onOpenChange={setPdfOpen}>
+        {/* pt-[49px]: the consolidated sticky header (z-[60], see app/layout.tsx) paints above
+            this drawer's own z-50 popup, so its top 49px (the header's real measured height —
+            see CLAUDE.md "Consolidated sticky header") would otherwise cover this drawer's own
+            Source/Source Notes TabsList. Padding-top only pushes the flex children (the Tabs)
+            down; the absolutely-positioned close button is unaffected (its containing block is
+            the popup's padding box, not shifted by the popup's own padding) and stays exactly
+            where it always was — under the header, same as before this drawer had its own tabs. */}
         <SheetContent
           side="right"
-          className="w-full gap-0 data-[side=right]:sm:max-w-2xl"
+          className="w-full gap-0 pt-[49px] data-[side=right]:sm:max-w-2xl"
           data-testid="pdf-section"
         >
           <SheetTitle className="sr-only">Source</SheetTitle>
