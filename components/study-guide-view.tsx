@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 import {
   AlertTriangle,
   BookOpenText,
+  GraduationCap,
   HelpCircle,
   Lightbulb,
   ListChecks,
@@ -17,6 +18,7 @@ import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/componen
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { CitationBadge } from "@/components/citation-badge";
+import { QuizView } from "@/components/quiz-view";
 import { RichText } from "@/components/rich-text";
 import { usePortalSlot } from "@/hooks/use-portal-slot";
 import { cn } from "@/lib/utils";
@@ -29,6 +31,7 @@ import type {
   GapBlock,
   MnemonicBlock,
   ParagraphBlock,
+  Question,
   Section,
   Source,
   StudyGuide,
@@ -578,9 +581,15 @@ function countBlocks(guide: StudyGuide, ...types: Block["type"][]): number {
 export function StudyGuideView({
   guide,
   onCite,
+  questions,
+  topicId,
+  topicTitle,
 }: {
   guide: StudyGuide;
   onCite: (source: Source) => void;
+  questions: Question[];
+  topicId: string;
+  topicTitle: string;
 }) {
   const tableCount = countBlocks(guide, "table", "comparison");
   const mnemonicCount = countBlocks(guide, "mnemonic");
@@ -618,6 +627,9 @@ export function StudyGuideView({
             </TabsTrigger>
             <TabsTrigger value="gaps" className="gap-1.5">
               <HelpCircle className="size-4" /> Gaps ({gapCount})
+            </TabsTrigger>
+            <TabsTrigger value="quiz" className="gap-1.5" disabled={questions.length === 0}>
+              <GraduationCap className="size-4" /> Quiz ({questions.length})
             </TabsTrigger>
           </TabsList>,
           tabsRightSlot
@@ -718,6 +730,12 @@ export function StudyGuideView({
             )}
           </div>
         </Paper>
+      </TabsContent>
+
+      <TabsContent value="quiz">
+        {questions.length > 0 && (
+          <QuizView topicId={topicId} topicTitle={topicTitle} questions={questions} />
+        )}
       </TabsContent>
     </Tabs>
   );

@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { createPortal } from "react-dom";
-import Link from "next/link";
 import dynamic from "next/dynamic";
 import { AlertTriangle, PanelRightIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -14,7 +13,7 @@ import { CitationBadge } from "@/components/citation-badge";
 import { StudyGuideView } from "@/components/study-guide-view";
 import { RichText } from "@/components/rich-text";
 import { usePortalSlot } from "@/hooks/use-portal-slot";
-import type { NoteBlock, Source, StudyGuide, TopicManifestEntry } from "@/lib/types";
+import type { NoteBlock, Question, Source, StudyGuide, TopicManifestEntry } from "@/lib/types";
 
 const PdfViewer = dynamic(() => import("@/components/pdf-viewer").then((m) => m.PdfViewer), {
   ssr: false,
@@ -24,12 +23,12 @@ export function TopicView({
   topic,
   notes,
   studyGuide,
-  questionCount,
+  questions,
 }: {
   topic: TopicManifestEntry;
   notes: NoteBlock[];
   studyGuide: StudyGuide | null;
-  questionCount: number;
+  questions: Question[];
 }) {
   const [index, setIndex] = useState(0);
   const [activeSource, setActiveSource] = useState<Source | null>(notes[0]?.source ?? null);
@@ -61,11 +60,6 @@ export function TopicView({
           <>
             <h1 className="truncate text-lg font-semibold">{topic.title}</h1>
             <div className="flex shrink-0 items-center gap-2">
-              {questionCount > 0 && (
-                <Button render={<Link href={`/quiz/${topic.id}`} />} nativeButton={false} size="sm">
-                  Take quiz ({questionCount})
-                </Button>
-              )}
               <Tooltip>
                 <TooltipTrigger
                   render={
@@ -106,7 +100,13 @@ export function TopicView({
 
         <TabsContent value="guide">
           {studyGuide ? (
-            <StudyGuideView guide={studyGuide} onCite={handleCite} />
+            <StudyGuideView
+              guide={studyGuide}
+              onCite={handleCite}
+              questions={questions}
+              topicId={topic.id}
+              topicTitle={topic.title}
+            />
           ) : (
             <div className="p-6 text-center text-muted-foreground">
               No study guide for this topic yet.

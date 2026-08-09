@@ -19,5 +19,5 @@ export default async function TopicPage({
   const questions = getTopicQuestions(slug);
   const studyGuide = getStudyGuide(slug);
 
-  return <TopicView topic={topic} notes={notes} studyGuide={studyGuide} questionCount={questions.length} />;
+  return <TopicView topic={topic} notes={notes} studyGuide={studyGuide} questions={questions} />;
 }
