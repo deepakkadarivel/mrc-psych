@@ -78,6 +78,21 @@ export function cleanBookText(text: string): string {
 }
 
 /**
+ * Moodle's "Attempt review" PDF export renders small icon-font glyphs (correct/incorrect
+ * marks, flags) inline with the text; pdftotext extracts them as literal Private Use Area
+ * codepoints (U+E000-U+F8FF) with no visible glyph in a normal font. Confirmed present in
+ * question_bank/, mocks/, and the Attempt-review-format previous-year file, scattered across
+ * stem/options/correctAnswer/explanation/reference. Invisible, but real characters — they
+ * silently broke exact-string option/correctAnswer matching in the quiz UI (an option's text
+ * no longer equalled `correctAnswer` because of a trailing icon codepoint the option carried
+ * and the answer line didn't). This corpus never legitimately uses PUA codepoints, so a
+ * blanket strip is safe.
+ */
+export function stripIconGlyphs(text: string): string {
+  return text.replace(/[\uE000-\uF8FF]/g, "");
+}
+
+/**
  * KNOWN UNSOLVED LIMITATION (do not silently "fix" this with more regexes):
  * bold/heading text in books/ appears to use a second, different custom font
  * encoding than body text. Confirmed example (7-1-adult-psychiatry-1.pdf, page 36):

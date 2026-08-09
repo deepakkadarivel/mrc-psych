@@ -1,4 +1,5 @@
 import type { Question } from "@/lib/types";
+import { stripIconGlyphs } from "./pdf-text";
 
 const PAGE_MARK = " PAGE:";
 const HEADER_RE = /^\s*\d{1,2}\/\d{1,2}\/\d{2,4},\s*\d{1,2}:\d{2}(\s*[AP]M)?.*$/;
@@ -47,7 +48,7 @@ export function parseAttemptReview(
 ): Array<Omit<Question, "id" | "topic">> {
   let combined = "";
   pages.forEach((pageText, idx) => {
-    combined += `${PAGE_MARK}${idx + 1} \n${stripHeaderFooter(pageText)}\n`;
+    combined += `${PAGE_MARK}${idx + 1} \n${stripIconGlyphs(stripHeaderFooter(pageText))}\n`;
   });
 
   const questionStarts = [...combined.matchAll(/\n\s*Question\s+(\d+)\s*\n/g)];
