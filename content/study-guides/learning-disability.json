@@ -96,8 +96,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "**DSM-IV**'s (now-abandoned) multiaxial system coded any personality disorder and mental handicap on Axis 2, not Axis 1.",
+          "type": "gap",
+          "subtopic": "DSM-IV Axis coding of mental retardation",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: **DSM-IV**'s (now-abandoned) multiaxial system coded any personality disorder and mental handicap on Axis 2, not Axis 1.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 10,
@@ -115,8 +116,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "In **ICD-11**, dyslexia is classified as a 'developmental learning disorder' (impairment in reading, written expression, or mathematics) — a distinct diagnostic category from intellectual disability.",
+          "type": "gap",
+          "subtopic": "ICD-11 classification of dyslexia",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: in **ICD-11**, dyslexia is classified as a 'developmental learning disorder' (impairment in reading, written expression, or mathematics) — a distinct diagnostic category from intellectual disability. (The book only uses 'dyslexia' as an example of the separate term 'learning difficulty', without discussing its ICD-11 classification.)",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 9,
@@ -265,8 +267,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Aetiological timing of **LD**: ~50-==70%== attributable to a prenatal factor (defects in embryogenesis), 10-==20%== to a perinatal factor, and 5-==10%== to a postnatal factor.",
+          "type": "gap",
+          "subtopic": "Aetiological timing breakdown of LD (prenatal/perinatal/postnatal %)",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: aetiological timing of **LD** is approximately 50-70% attributable to a prenatal factor, 10-20% to a perinatal factor, and 5-10% to a postnatal factor. (The book divides causes into prenatal/perinatal/postnatal categories with examples, but gives no percentage breakdown.)",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 26,
@@ -275,11 +278,10 @@
         },
         {
           "type": "paragraph",
-          "text": "The highest incidence of **LD** is reported in school-age children (peak 10-14 years), not in infants, toddlers or adults.",
+          "text": "The highest incidence of **LD** is reported in school-age children, with the peak at ages 10 to 14 years — not in infants, toddlers or adults.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 61,
-            "questionNumber": 60
+            "file": "books/13-learning-disability.pdf",
+            "page": 3
           }
         }
       ],
@@ -341,17 +343,11 @@
               "file": "books/13-learning-disability.pdf",
               "page": 3
             }
-          },
-          {
-            "text": "Aetiological timing: ~50-==70%== prenatal, 10-==20%== perinatal, 5-==10%== postnatal.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 26,
-              "questionNumber": 26
-            }
           }
         ],
-        "highlightBlockIndices": []
+        "highlightBlockIndices": [
+          5
+        ]
       }
     },
     {
@@ -392,11 +388,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Head injury is a classic example of a postnatal (not perinatal or genetic) risk factor for **LD**, distinct from birth asphyxia (perinatal) or neonatal septicaemia (perinatal).",
+          "text": "Head injury (e.g. RTAs, household accidents, child abuse) is a classic example of a **postnatal** risk factor for **LD** — distinct from birth asphyxia/intracranial haemorrhage (perinatal) or neonatal septicaemia (perinatal).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 35,
-            "questionNumber": 35
+            "file": "books/13-learning-disability.pdf",
+            "page": 5
           }
         },
         {
@@ -419,99 +414,24 @@
           "sourced": false
         },
         {
-          "type": "table",
-          "title": "Estimated proportion of LD cases by cause",
-          "columns": [
-            "Cause",
-            "Estimated proportion of LD cases"
-          ],
-          "rows": [
-            [
-              "Genetic inheritance",
-              "~==5%=="
-            ],
-            [
-              "Pregnancy-related/perinatal problems",
-              "~==10%=="
-            ],
-            [
-              "Acquired general medical conditions",
-              "~==5%=="
-            ],
-            [
-              "Environmental influences",
-              "15-==20%=="
-            ],
-            [
-              "No definite aetiology identified",
-              "30-==40%=="
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 8
-            }
-          ],
-          "highYield": true
+          "type": "gap",
+          "subtopic": "Aetiology-category percentage breakdown of LD causes",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: genetic inheritance ~5%, pregnancy-related/perinatal problems ~10%, acquired general medical conditions ~5%, environmental influences 15-20%, no definite aetiology identified 30-40%. (The book lists genetic/prenatal/perinatal/postnatal categories with examples, but gives no such percentage table.)",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 8
+          }
         }
       ],
       "concise": {
-        "facts": [
-          {
-            "label": "Genetic inheritance",
-            "value": "~==5%== of LD cases",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 8
-            }
-          },
-          {
-            "label": "Pregnancy/perinatal problems",
-            "value": "~==10%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 8
-            }
-          },
-          {
-            "label": "Acquired medical conditions",
-            "value": "~==5%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 8
-            }
-          },
-          {
-            "label": "Environmental influences",
-            "value": "15-==20%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 8
-            }
-          },
-          {
-            "label": "No definite aetiology found",
-            "value": "30-==40%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 8
-            }
-          }
-        ],
+        "facts": [],
         "bullets": [
           {
             "text": "Head injury is a classic **POSTNATAL** risk factor for LD — distinct from birth asphyxia/neonatal septicaemia (both perinatal).",
             "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 35,
-              "questionNumber": 35
+              "file": "books/13-learning-disability.pdf",
+              "page": 5
             }
           },
           {
@@ -596,11 +516,10 @@
         },
         {
           "type": "paragraph",
-          "text": "The feature that most supports a 'subcultural' rather than biological cause is impaired/borderline intellectual ability in family members — not dysmorphic features, equal distribution across socioeconomic groups, or significant impairment (all of which point toward a biological cause).",
+          "text": "The feature that most supports a 'subcultural' rather than biological cause of LD is impaired/borderline intellectual ability in family members — not dysmorphic features, equal distribution across socioeconomic groups, or significant impairment (all of which point toward a biological cause).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 25,
-            "questionNumber": 25
+            "file": "books/13-learning-disability.pdf",
+            "page": 6
           }
         }
       ],
@@ -616,9 +535,8 @@
           {
             "text": "The strongest pointer to a **SUBCULTURAL** (not biological) cause is impaired/borderline **IQ** in **family members** — not dysmorphism, even class distribution, or severe impairment (all biological pointers).",
             "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 25,
-              "questionNumber": 25
+              "file": "books/13-learning-disability.pdf",
+              "page": 6
             }
           }
         ],
@@ -672,8 +590,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Offending in the **LD** population is committed predominantly by those with borderline and mild **LD** rather than severe **LD**.",
+          "type": "gap",
+          "subtopic": "Offending predominance by LD severity",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: offending in the **LD** population is committed predominantly by those with borderline and mild **LD** rather than severe **LD**. (The book states people with mild/moderate LD are 'just as likely' to offend as the general population, but does not compare offending rates across LD severity bands.)",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 63,
@@ -681,8 +600,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "The Special Educational Needs and Disability Act (**SENDA**) 2001 (**UK**) requires schools to draw up accessibility strategies, aiming to include pupils with **LD** in mainstream schools.",
+          "type": "gap",
+          "subtopic": "SENDA 2001",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: the Special Educational Needs and Disability Act (**SENDA**) 2001 (**UK**) requires schools to draw up accessibility strategies, aiming to include pupils with **LD** in mainstream schools.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 75,
@@ -733,14 +653,6 @@
             }
           },
           {
-            "text": "Most offending in the LD population is by those with **borderline/mild** LD, not severe LD.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 63,
-              "questionNumber": 62
-            }
-          },
-          {
             "text": "Lord Bradley's report (2009) called for better identification of LD/mental health problems at every criminal-justice stage; liaison and diversion teams link justice agencies with health/social care.",
             "source": {
               "file": "books/13-learning-disability.pdf",
@@ -753,17 +665,12 @@
               "file": "books/13-learning-disability.pdf",
               "page": 7
             }
-          },
-          {
-            "text": "The Special Educational Needs and Disability Act (**SENDA**) 2001 (**UK**) requires schools to draw up accessibility strategies, aiming to include pupils with **LD** in mainstream schools.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 75,
-              "questionNumber": 74
-            }
           }
         ],
-        "highlightBlockIndices": []
+        "highlightBlockIndices": [
+          5,
+          6
+        ]
       }
     },
     {
@@ -879,41 +786,51 @@
         },
         {
           "type": "table",
-          "title": "EMI-tested prevalence figures in adults with LD",
+          "title": "Psychiatric/medical comorbidity prevalence in LD",
           "columns": [
-            "Disorder",
-            "EMI-tested prevalence"
+            "Condition",
+            "Prevalence in LD"
           ],
           "rows": [
             [
               "Schizophrenia",
-              "3-==3.5%=="
+              "3-3.5%"
             ],
             [
               "Depression",
-              "==4%=="
+              "2-4%"
             ],
             [
               "Epilepsy",
-              "20-==25%=="
+              "20-25%"
             ],
             [
-              "**ADHD**",
-              "up to 15-==20%=="
+              "ADHD (in children with LD)",
+              "up to 20%"
             ],
             [
-              "Self-injurious behaviour",
-              "15-==20%=="
+              "Self-injurious behaviour (overall)",
+              "10-50%"
             ]
           ],
           "sources": [
             {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-              "page": 15,
-              "questionNumber": 9
+              "file": "books/13-learning-disability.pdf",
+              "page": 10
+            },
+            {
+              "file": "books/13-learning-disability.pdf",
+              "page": 11
+            },
+            {
+              "file": "books/13-learning-disability.pdf",
+              "page": 13
+            },
+            {
+              "file": "books/13-learning-disability.pdf",
+              "page": 27
             }
-          ],
-          "highYield": true
+          ]
         }
       ],
       "concise": {
@@ -1110,11 +1027,10 @@
         },
         {
           "type": "paragraph",
-          "text": "A stem asking which syndrome is **NOT** commonly associated with anxiety (options: Williams, Fragile X, Down's, Prader-Willi, Cornelia de Lange) — Down's syndrome is the correct exception; the other four all have documented anxiety/**OCD**/phobia associations.",
+          "text": "A stem asking which syndrome is **NOT** commonly associated with anxiety (options: Williams, Fragile X, Down's, Prader-Willi, Cornelia de Lange) — Down's syndrome is the correct exception; the other four all have documented anxiety/**OCD**/phobia associations (Fragile X: social anxiety; Prader-Willi & Rubinstein-Taybi: **OCD**; Williams: anxiety/phobias; Cornelia de Lange: compulsive behaviour).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 18,
-            "questionNumber": 18
+            "file": "books/13-learning-disability.pdf",
+            "page": 11
           }
         }
       ],
@@ -1185,9 +1101,8 @@
           {
             "text": "Among genetic syndromes with prominent anxiety/**OCD** (Fragile X, Williams, Prader-Willi, Cornelia de Lange), **Down's syndrome** is the classic exception — **NOT** commonly associated with anxiety.",
             "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 18,
-              "questionNumber": 18
+              "file": "books/13-learning-disability.pdf",
+              "page": 11
             }
           }
         ],
@@ -1210,8 +1125,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Autism heritability is approximately 80-==90%== — one of the most heritable common medical conditions. Sibling recurrence risk is <==10%== if only one child in the family is affected so far, rising to ~==35%== if ≥2 children are already affected.",
+          "type": "gap",
+          "subtopic": "Autism heritability and sibling recurrence risk",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: autism heritability is approximately 80-90% — one of the most heritable common medical conditions. Sibling recurrence risk is <10% if only one child in the family is affected so far, rising to ~35% if 2+ children are already affected.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 51,
@@ -1219,8 +1135,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Sibling recurrence risk for autism is estimated at 1-==10%== when only one child in the family has autism so far.",
+          "type": "gap",
+          "subtopic": "Autism sibling recurrence risk (single affected child)",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: sibling recurrence risk for autism is estimated at 1-10% when only one child in the family has autism so far.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 31,
@@ -1228,8 +1145,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Approximately ==20%== of people with autism spectrum disorder also have obesity.",
+          "type": "gap",
+          "subtopic": "Obesity prevalence in autism spectrum disorder",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: approximately 20% of people with autism spectrum disorder also have obesity.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 48,
@@ -1237,8 +1155,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Savant syndrome: a minority of people with autism have extraordinary proficiency in one isolated skill (e.g. memory, arithmetic) despite **LD** in other domains ('islands of precocity').",
+          "type": "gap",
+          "subtopic": "Savant syndrome",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: a minority of people with autism have extraordinary proficiency in one isolated skill (e.g. memory, arithmetic) despite **LD** in other domains ('islands of precocity').",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 72,
@@ -1246,8 +1165,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "High-functioning autism (**HFA**) and Asperger's syndrome are both more common in boys; language onset is delayed in **HFA** but not Asperger's, though the language differences between the groups narrow with age; little evidence supports retaining them as separate diagnostic categories.",
+          "type": "gap",
+          "subtopic": "High-functioning autism vs Asperger's syndrome",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: high-functioning autism (**HFA**) and Asperger's syndrome are both more common in boys; language onset is delayed in **HFA** but not Asperger's, though the language differences between the groups narrow with age; little evidence supports retaining them as separate diagnostic categories.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 40,
@@ -1304,8 +1224,9 @@
           "highYield": true
         },
         {
-          "type": "paragraph",
-          "text": "The strongest risk factor for developing Alzheimer's disease in Down's syndrome is a family history of Alzheimer's disease (via the **APOE** genotype, especially the ε4 allele) — not obesity, chronic anxiety, eczema, or **LD** severity.",
+          "type": "gap",
+          "subtopic": "Strongest risk factor for Alzheimer's disease in Down's syndrome",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: the strongest risk factor for developing Alzheimer's disease in Down's syndrome is a family history of Alzheimer's disease (via the **APOE** genotype, especially the epsilon-4 allele) — not obesity, chronic anxiety, eczema, or **LD** severity. (The book states the age-banded dementia prevalence and 3x expected-rate figures, and lists 'family history of dementia' among medical risk factors generally, but does not name **APOE**/epsilon-4 or rank it as the strongest risk factor.)",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 60,
@@ -1340,47 +1261,11 @@
             }
           },
           {
-            "label": "Autism heritability",
-            "value": "~80-==90%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 51,
-              "questionNumber": 51
-            }
-          },
-          {
-            "label": "Sibling recurrence (1 affected child)",
-            "value": "<==10%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 51,
-              "questionNumber": 51
-            }
-          },
-          {
-            "label": "Sibling recurrence (≥2 affected)",
-            "value": "~==35%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 51,
-              "questionNumber": 51
-            }
-          },
-          {
             "label": "Conduct disorder in mild/borderline LD youth",
             "value": "~==30%==",
             "source": {
               "file": "books/13-learning-disability.pdf",
               "page": 9
-            }
-          },
-          {
-            "label": "Obesity in autism spectrum disorder",
-            "value": "~==20%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 48,
-              "questionNumber": 48
             }
           }
         ],
@@ -1398,34 +1283,15 @@
               "file": "books/13-learning-disability.pdf",
               "page": 9
             }
-          },
-          {
-            "text": "Strongest risk factor for Alzheimer's in Down's syndrome is **family history** (via **APOE** ε4), not obesity, anxiety, eczema, or LD severity.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 60,
-              "questionNumber": 59
-            }
-          },
-          {
-            "text": "**Savant syndrome**: a minority of people with autism show extraordinary proficiency in one isolated skill (e.g. memory, arithmetic) despite **LD** in other domains ('islands of precocity').",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 72,
-              "questionNumber": 71
-            }
-          },
-          {
-            "text": "High-functioning autism (**HFA**) and Asperger's syndrome are both more common in boys; language onset is delayed in **HFA** but not Asperger's (gap narrows with age) — little evidence supports keeping them as separate diagnostic categories.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 40,
-              "questionNumber": 40
-            }
           }
         ],
         "highlightBlockIndices": [
-          8
+          8,
+          9,
+          4,
+          5,
+          1,
+          3
         ]
       }
     },
@@ -1528,11 +1394,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Self-injurious behaviour is most frequent between the ages of 5 and 20 years.",
+          "text": "Self-injurious behaviour occurs more often among people with moderate and severe **LD** (**IQ** < 50), most frequently between the ages of 10 and 30, with a peak between 15 and 20 years of age.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 52,
-            "questionNumber": 52
+            "file": "books/13-learning-disability.pdf",
+            "page": 13
           }
         }
       ],
@@ -1620,8 +1485,9 @@
       "title": "10. PTSD in Learning Disability",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Aggression (rather than nightmares/jumpiness/sleep problems typical of the non-disabled population) is the most common presenting symptom of **PTSD** in people with **LD**. Doyle & Mitchell (2003): ==16.5%== of psychiatric referrals to paediatric **LD** teams met **PTSD** criteria.",
+          "type": "gap",
+          "subtopic": "PTSD presentation in children/adolescents with LD",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: aggression (rather than nightmares/jumpiness/sleep problems typical of the non-disabled population) is the most common presenting symptom of **PTSD** in people with **LD**. Doyle & Mitchell (2003): 16.5% of psychiatric referrals to paediatric **LD** teams met **PTSD** criteria.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 55,
@@ -1639,8 +1505,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "In adults with **LD**, the most commonly reported **PTSD** symptoms remain nightmares, jumpiness and trouble sleeping (Helzer et al, 1987), but an exaggerated startle response is often seen. In half of those affected, symptoms lasted <6 months; in a third, symptoms persisted >1 year. **PTSD** rarely occurs in isolation — comorbidity with other psychiatric disorders is the norm. Diagnosis is hindered by communication difficulties in severe **LD**, so behaviour/functional change (aggression, regression, altered sleep) may be the main clue, and symptoms risk being misattributed to other diagnoses.",
+          "type": "gap",
+          "subtopic": "PTSD presentation in adults with LD",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: in adults with **LD**, the most commonly reported **PTSD** symptoms remain nightmares, jumpiness and trouble sleeping (Helzer et al, 1987), but an exaggerated startle response is often seen. In half of those affected, symptoms lasted <6 months; in a third, symptoms persisted >1 year. **PTSD** rarely occurs in isolation — comorbidity with other psychiatric disorders is the norm. Diagnosis is hindered by communication difficulties in severe **LD**, so behaviour/functional change (aggression, regression, altered sleep) may be the main clue, and symptoms risk being misattributed to other diagnoses.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 56,
@@ -1674,14 +1541,6 @@
               "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
               "page": 56,
               "questionNumber": 56
-            }
-          },
-          {
-            "text": "Doyle & Mitchell (2003): ==16.5%== of psychiatric referrals to paediatric LD teams met **PTSD** criteria.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 55,
-              "questionNumber": 55
             }
           }
         ],
@@ -1744,20 +1603,18 @@
         },
         {
           "type": "paragraph",
-          "text": "**Lithium** is licensed for the treatment of self-injurious behaviour and aggression in people with intellectual disability.",
+          "text": "**Lithium** is licensed for the 'control of aggressive behaviour or intentional self-harm' — useful in people with intellectual disability for aggressive outbursts and self-injurious behaviour, and for bipolar affective disorder/antidepressant augmentation.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 15,
-            "questionNumber": 15
+            "file": "books/13-learning-disability.pdf",
+            "page": 14
           }
         },
         {
           "type": "paragraph",
-          "text": "Before starting **lithium** in a patient with **LD**, the key baseline investigation is an **EEG** (given increased seizure prevalence in this population and **lithium**'s epileptogenic potential at therapeutic/overdose levels).",
+          "text": "Before starting **lithium** in a patient with **LD**, an **EEG** must be obtained as a baseline (along with renal function and cell counts) — because even therapeutic doses of **lithium** may induce seizures in those with epilepsy, and patients with pre-existing **EEG** changes are more prone to **lithium** toxicity.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 80,
-            "questionNumber": 79
+            "file": "books/13-learning-disability.pdf",
+            "page": 14
           }
         },
         {
@@ -1775,11 +1632,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Opiate antagonists (e.g. **naltrexone**) are particularly helpful for repetitive self-injurious behaviour occurring for no apparent reason, in the absence of depression.",
+          "text": "Opiate antagonists (e.g. **naltrexone**) may be effective in the treatment of repetitive self-injurious behaviour — it may decrease self-injurious behaviour acutely, but it is less effective in the long term.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 13,
-            "questionNumber": 13
+            "file": "books/13-learning-disability.pdf",
+            "page": 14
           }
         },
         {
@@ -1792,11 +1648,10 @@
         },
         {
           "type": "paragraph",
-          "text": "**Clonazepam** (a benzodiazepine) is a known cause of dysphagia in adults with intellectual disability, via **CNS** depression affecting swallowing control.",
+          "text": "Benzodiazepines such as **clonazepam** are a known cause of dysphagia in people with **LD**, via two mechanisms: altering levels of alertness, and altering muscle tone/coordination.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 67,
-            "questionNumber": 66
+            "file": "books/13-learning-disability.pdf",
+            "page": 15
           }
         },
         {
@@ -1907,19 +1762,17 @@
             }
           },
           {
-            "text": "**Naltrexone** (opiate antagonist) helps repetitive **SIB** occurring for no apparent reason (absent depression) acutely, but is less effective long-term.",
+            "text": "**Naltrexone** (opiate antagonist) may decrease repetitive self-injurious behaviour acutely, but is less effective long-term.",
             "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 13,
-              "questionNumber": 13
+              "file": "books/13-learning-disability.pdf",
+              "page": 14
             }
           },
           {
-            "text": "**Clonazepam** and other CNS-lowering/muscle-tone-altering drugs (benzodiazepines, baclofen) and antipsychotics are recognised causes of dysphagia in LD.",
+            "text": "Benzodiazepines such as **clonazepam** are a known cause of dysphagia in LD, via altered alertness and altered muscle tone/coordination.",
             "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 67,
-              "questionNumber": 66
+              "file": "books/13-learning-disability.pdf",
+              "page": 15
             }
           }
         ],
@@ -2046,11 +1899,10 @@
         },
         {
           "type": "paragraph",
-          "text": "At maternal age 43, the risk of a Down's-syndrome pregnancy is approximately ==1 in 50==, compared with ~==1 in 1==,500 at age 20.",
+          "text": "Down's-syndrome pregnancy risk rises steeply with maternal age: 1:2,500 in women under 30, 1:80 over 40, and 1:32 at 45 or older.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 30,
-            "questionNumber": 30
+            "file": "books/13-learning-disability.pdf",
+            "page": 16
           }
         },
         {
@@ -2094,16 +1946,16 @@
         },
         {
           "type": "paragraph",
-          "text": "Full trisomy 21 is the most common chromosomal aberration causing Down's syndrome.",
+          "text": "Full trisomy 21 (non-disjunction) is the most common chromosomal aberration causing Down's syndrome, occurring in around 92-95% of cases.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 53,
-            "questionNumber": 53
+            "file": "books/13-learning-disability.pdf",
+            "page": 16
           }
         },
         {
-          "type": "paragraph",
-          "text": "Recurrence risk is highest when the first affected child has **TRANSLOCATION**-type Down's syndrome (~==1 in 3==) rather than full trisomy 21, because the translocated chromosome may be silently carried on only 45 chromosomes by an unaffected parent.",
+          "type": "gap",
+          "subtopic": "Down's syndrome recurrence risk by translocation vs full trisomy",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: recurrence risk is highest when the first affected child has **TRANSLOCATION**-type Down's syndrome (~1 in 3) rather than full trisomy 21, because the translocated chromosome may be silently carried on only 45 chromosomes by an unaffected parent. (The book states Robertsonian translocation increases risk and occurs in 2-4% of cases, but does not give a recurrence-risk figure or the '45 chromosomes' mechanism.)",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 78,
@@ -2130,16 +1982,16 @@
         },
         {
           "type": "paragraph",
-          "text": "All of short/broad hands with a single palmar crease, syndactyly (webbed fingers), clinodactyly (incurved fingers), and altered dermatoglyphics are seen in the hands of people with Down's syndrome.",
+          "text": "Short broad hands with a single palmar crease (simian crease), syndactyly (webbed fingers), clinodactyly (incurving of fingers), and altered dermatoglyphics are seen in the hands of people with Down's syndrome.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 6,
-            "questionNumber": 6
+            "file": "books/13-learning-disability.pdf",
+            "page": 17
           }
         },
         {
-          "type": "paragraph",
-          "text": "Atrioventricular septal defect (the most common congenital heart lesion in Down's syndrome, ~==42%== of CHDs in this group) is the classic association tested alongside Down's syndrome.",
+          "type": "gap",
+          "subtopic": "Most common congenital heart defect specific to Down's syndrome",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: atrioventricular septal defect (the most common congenital heart lesion in Down's syndrome, ~42% of CHDs in this group) is the classic association tested alongside Down's syndrome. (The book states congenital heart defects occur in ~50% of cases, naming VSD, mitral valve disease and patent ductus arteriosus as examples, but does not rank **AVSD** as most common or give the 42% figure.)",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 81,
@@ -2193,11 +2045,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Individuals with Down's syndrome surviving into their 40s-50s show pathological brain changes similar to Alzheimer's dementia.",
+          "text": "Neuropathological changes similar to Alzheimer's dementia occur in individuals with Down's syndrome over the age of 40 — post-mortem studies show a high incidence of senile plaques and neurofibrillary tangles, as seen in Alzheimer's.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 36,
-            "questionNumber": 36
+            "file": "books/13-learning-disability.pdf",
+            "page": 17
           }
         },
         {
@@ -2210,20 +2061,18 @@
         },
         {
           "type": "paragraph",
-          "text": "The most common cause of death in Down's syndrome (across the lifespan, not just infancy) is infection.",
+          "text": "Up to age 30, the overall predominant cause of death in Down's syndrome is bronchopneumonia and other infections (below age 1, congenital heart disease predominates instead).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 68,
-            "questionNumber": 67
+            "file": "books/13-learning-disability.pdf",
+            "page": 17
           }
         },
         {
           "type": "paragraph",
           "text": "Self-talk (private speech) is a normal developmental phenomenon particularly common in children with Down's syndrome (also seen in autism), and must be distinguished from psychosis.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 19,
-            "questionNumber": 19
+            "file": "books/13-learning-disability.pdf",
+            "page": 10
           }
         }
       ],
@@ -2304,14 +2153,6 @@
             }
           },
           {
-            "text": "Atrioventricular septal defect is the most common congenital heart lesion in Down's (~==42%== of CHDs) — the classic tested association.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-              "page": 81,
-              "questionNumber": 80
-            }
-          },
-          {
             "text": "Below age 1, congenital heart disease predominates as cause of death; across the lifespan overall, **infection** (bronchopneumonia) is the most common cause of death.",
             "source": {
               "file": "books/13-learning-disability.pdf",
@@ -2329,7 +2170,8 @@
         "highlightBlockIndices": [
           1,
           4,
-          12
+          12,
+          10
         ]
       }
     },
@@ -2357,11 +2199,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Fragile X syndrome is both the most common inherited cause of intellectual disability and the mode of inheritance is X-linked dominant.",
+          "text": "Fragile X syndrome is the most common inherited cause of intellectual disability, accounting for 10-12% of **LD** in men.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 39,
-            "questionNumber": 39
+            "file": "books/13-learning-disability.pdf",
+            "page": 17
           }
         },
         {
@@ -2374,11 +2215,10 @@
         },
         {
           "type": "paragraph",
-          "text": "A vignette of autistic traits, conversational rigidity, palilalia, anxiety and poor eye contact in a male points to Fragile X syndrome — the most common inherited cause of **LD** and the most common single-gene cause of autism.",
+          "text": "A vignette of autistic traits, conversational rigidity, palilalia, anxiety and poor eye contact in a male points to Fragile X syndrome — the most common inherited cause of **LD**; nearly 50% of children with fragile X meet the criteria for a diagnosis of autism.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 23,
-            "questionNumber": 23
+            "file": "books/13-learning-disability.pdf",
+            "page": 17
           }
         },
         {
@@ -2425,29 +2265,18 @@
         },
         {
           "type": "paragraph",
-          "text": "Klinefelter syndrome is characterised by hypogonadism, taller-than-average stature, median **IQ** ~90, and karyotype 47,**XXY** — but there is no established higher incidence in prison populations for Klinefelter syndrome specifically.",
+          "text": "Klinefelter syndrome (47,**XXY**) is characterised by hypogonadism, taller-than-average stature (~4cm), and median **IQ** ~90 with a skewed distribution.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 49,
-            "questionNumber": 49
+            "file": "books/13-learning-disability.pdf",
+            "page": 18
           }
         },
         {
           "type": "paragraph",
-          "text": "Klinefelter syndrome is the most commonly tested condition associated with tall stature among **LD**-associated genetic syndromes.",
+          "text": "Klinefelter syndrome (47,**XXY**) is a sex-chromosome trisomy, not a genetic deletion/duplication syndrome — unlike Smith-Magenis (17p11.2 deletion), DiGeorge/velo-cardio-facial (22q11.2 microdeletion), Rubinstein-Taybi (16p13.3 microdeletion), or Cri-du-chat (5p15.2 deletion) syndromes.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 65,
-            "questionNumber": 64
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Klinefelter syndrome is a chromosomal trisomy, not a genetic deletion/duplication syndrome (unlike Smith-Magenis, DiGeorge/velo-cardio-facial, Rubinstein-Taybi, or Cri-du-chat syndromes).",
-          "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 70,
-            "questionNumber": 69
+            "file": "books/13-learning-disability.pdf",
+            "page": 18
           }
         },
         {
@@ -2580,29 +2409,26 @@
         },
         {
           "type": "paragraph",
-          "text": "A microdeletion on the paternal 15q12 segment causes Prader-Willi syndrome.",
+          "text": "Prader-Willi syndrome is caused by deletion or inexpression of genes on chromosome 15 (q11-13) on the **paternal** chromosome.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 46,
-            "questionNumber": 46
+            "file": "books/13-learning-disability.pdf",
+            "page": 19
           }
         },
         {
           "type": "paragraph",
-          "text": "Compulsive skin-picking is a common feature of Prader-Willi syndrome, alongside hyperphagia and mild-to-moderate **LD**.",
+          "text": "Skin picking is a common feature of Prader-Willi syndrome, alongside food obsession, hyperphagia, obesity, impulsivity, aggression and obsessive-compulsive behaviour.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 82,
-            "questionNumber": 81
+            "file": "books/13-learning-disability.pdf",
+            "page": 16
           }
         },
         {
           "type": "paragraph",
-          "text": "Prader-Willi syndrome causes **MICRO**-orchidism/hypogonadism, not macro-orchidism (macro-orchidism is the classic Fragile X finding); other Prader-Willi features include small hands/feet and overeating.",
+          "text": "Prader-Willi syndrome features hypogonadism (not macro-orchidism, which is the distinguishing Fragile X finding) — other Prader-Willi features include small hands/feet and hyperphagia/overeating.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 62,
-            "questionNumber": 61
+            "file": "books/13-learning-disability.pdf",
+            "page": 19
           }
         },
         {
@@ -2625,29 +2451,26 @@
         },
         {
           "type": "paragraph",
-          "text": "Angelman syndrome is characterised by severe/profound (not mild or moderate) intellectual disability, with ~==86%== of individuals affected by epilepsy.",
+          "text": "Angelman syndrome is characterised by severe/profound (not mild or moderate) intellectual disability, with epilepsy present in over 90% of affected individuals.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 2,
-            "questionNumber": 2
+            "file": "books/13-learning-disability.pdf",
+            "page": 20
           }
         },
         {
           "type": "paragraph",
           "text": "Happy disposition and paroxysmal laughter are characteristic of Angelman syndrome, distinguishing it from other syndromes with self-injury or hyperphagia.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 45,
-            "questionNumber": 45
+            "file": "books/13-learning-disability.pdf",
+            "page": 20
           }
         },
         {
           "type": "paragraph",
-          "text": "Epilepsy is present in nearly ==90%== of individuals with Angelman syndrome.",
+          "text": "Epilepsy is present in over 90% of individuals with Angelman syndrome, with EEG changes noted as early as age 3.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 64,
-            "questionNumber": 63
+            "file": "books/13-learning-disability.pdf",
+            "page": 20
           }
         },
         {
@@ -2670,11 +2493,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Hypercalcaemia with supravalvular aortic stenosis and elfin facial features are characteristic of Williams syndrome.",
+          "text": "Hypercalcaemia with supravalvular aortic stenosis and an elfin-like facial appearance are characteristic of Williams syndrome.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 71,
-            "questionNumber": 70
+            "file": "books/13-learning-disability.pdf",
+            "page": 20
           }
         },
         {
@@ -2689,9 +2511,8 @@
           "type": "paragraph",
           "text": "A child with a round face, hypertelorism, slanting palpebral fissures, broad flat nose, and an infantile cat-like cry has Cri-du-chat syndrome.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 7,
-            "questionNumber": 7
+            "file": "books/13-learning-disability.pdf",
+            "page": 21
           }
         },
         {
@@ -2712,11 +2533,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Velo-cardio-facial (DiGeorge) syndrome occurs in around ==1 in 2==,000 people, is caused by a chromosome 22 (not 21) microdeletion, and is not usually associated with severe **LD** or dementia.",
+          "text": "Velo-cardio-facial (DiGeorge) syndrome occurs in around 1 in 4,000 people, is caused by a chromosome 22 (not 21) microdeletion, and more than half of affected individuals have mild/moderate (not typically severe) **LD**.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 41,
-            "questionNumber": 41
+            "file": "books/13-learning-disability.pdf",
+            "page": 22
           }
         },
         {
@@ -2860,11 +2680,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Genetic deletion loci to memorise: Angelman syndrome chromosome 15, Cri-du-chat chromosome 5, velo-cardio-facial syndrome chromosome 22, Smith-Magenis syndrome chromosome 17, Williams syndrome chromosome 7.",
+          "text": "Genetic deletion loci to memorise: Angelman syndrome chromosome 15 (q12, maternal), Cri-du-chat syndrome chromosome 5 (p15.2), velo-cardio-facial syndrome chromosome 22 (q11.2), Smith-Magenis syndrome chromosome 17 (p11.2), Williams syndrome chromosome 7.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-            "page": 21,
-            "questionNumber": 12
+            "file": "books/13-learning-disability.pdf",
+            "page": 20
           }
         }
       ],
@@ -2958,11 +2777,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Tuberous sclerosis is inherited in an autosomal dominant manner (unlike Sanfilippo, Hunter, Hurler, or Lesch-Nyhan syndromes, which are recessive).",
+          "text": "Tuberous sclerosis is inherited in an autosomal **dominant** manner — unlike Sanfilippo disease and Hurler syndrome (autosomal **recessive**), or Hunter syndrome and Lesch-Nyhan syndrome (**X-linked recessive**).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 43,
-            "questionNumber": 43
+            "file": "books/13-learning-disability.pdf",
+            "page": 23
           }
         },
         {
@@ -3041,11 +2859,10 @@
         },
         {
           "type": "paragraph",
-          "text": "An autosomal recessive pattern of inheritance occurs in phenylketonuria (not Hunter disease, Fragile X, tuberous sclerosis, or Lesch-Nyhan syndrome).",
+          "text": "An autosomal recessive pattern of inheritance occurs in phenylketonuria — unlike Hunter syndrome (X-linked recessive), Fragile X syndrome, tuberous sclerosis (autosomal dominant), or Lesch-Nyhan syndrome (X-linked recessive).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 79,
-            "questionNumber": 78
+            "file": "books/13-learning-disability.pdf",
+            "page": 24
           }
         },
         {
@@ -3082,11 +2899,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Lesch-Nyhan syndrome is characterised by compulsive self-mutilation, not hydrocephalus, hepatic failure, hypertonia, or normal secondary sexual characteristics.",
+          "text": "Lesch-Nyhan syndrome is characterised by compulsive self-mutilation (biting of lips and tongue, head banging) and failure of secondary sexual development — not hydrocephalus, hepatic failure, hypertonia, or normal secondary sexual characteristics.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 37,
-            "questionNumber": 37
+            "file": "books/13-learning-disability.pdf",
+            "page": 25
           }
         },
         {
@@ -3111,9 +2927,8 @@
           "type": "paragraph",
           "text": "Hunter syndrome is the X-linked recessive condition among the listed mucopolysaccharidoses (distinguished from the autosomal recessive Hurler and Sanfilippo diseases).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 54,
-            "questionNumber": 54
+            "file": "books/13-learning-disability.pdf",
+            "page": 25
           }
         },
         {
@@ -3136,11 +2951,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Cornelia de Lange syndrome is associated with hypertrichosis and severe **LD**, and its features do **NOT** include large hands and feet — small hands/feet are the characteristic finding.",
+          "text": "Cornelia de Lange syndrome is associated with hypertrichosis and (usually) moderate or severe **LD**, and its features do **NOT** include large hands and feet — small hands/feet are the characteristic finding.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 17,
-            "questionNumber": 17
+            "file": "books/13-learning-disability.pdf",
+            "page": 26
           }
         },
         {
@@ -3163,11 +2977,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Microcephaly is a characteristic feature of foetal alcohol syndrome (among the listed options, distinguishing it from Fragile X, Down's syndrome, tuberous sclerosis, or hydrocephalus).",
+          "text": "Microcephaly is a characteristic feature of foetal alcohol spectrum disorder (among the listed options, distinguishing it from Fragile X, Down's syndrome, tuberous sclerosis, or hydrocephalus).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 38,
-            "questionNumber": 38
+            "file": "books/13-learning-disability.pdf",
+            "page": 26
           }
         },
         {
@@ -3179,8 +2992,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Homocystinuria (autosomal recessive) mimics Marfan syndrome but with **TIGHT** rather than loose joints: marfanoid stature, chest deformity, dislocated lens, mild **LD** — the key differential in an **EMI** list against Sanfilippo disease (dwarfism, claw hand, joint stiffness, hepatosplenomegaly, severe **LD**).",
+          "type": "gap",
+          "subtopic": "Homocystinuria vs Marfan syndrome vs Sanfilippo disease",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: homocystinuria (autosomal recessive) mimics Marfan syndrome but with **TIGHT** rather than loose joints: marfanoid stature, chest deformity, dislocated lens, mild **LD** — the key differential in an **EMI** list against Sanfilippo disease (dwarfism, claw hand, joint stiffness, hepatosplenomegaly, severe **LD**, which the book does cover on p.24).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
             "page": 26,
@@ -3292,11 +3106,10 @@
         },
         {
           "type": "paragraph",
-          "text": "The prevalence of epilepsy among patients with **LD** is approximately 20-==25%==.",
+          "text": "The prevalence of epilepsy among patients with **LD** is approximately 20-25%.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
-            "page": 21,
-            "questionNumber": 21
+            "file": "books/13-learning-disability.pdf",
+            "page": 27
           }
         },
         {
@@ -3368,13 +3181,48 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Epilepsy frequency by syndrome tested in **EMI** format: Down's syndrome 5-==10%==, Fragile X syndrome 20-==25%==, Rett syndrome ==90%==, Angelman syndrome ==90%==, tuberous sclerosis ==90%==.",
-          "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/EMIs Learning Disability_ Attempt review.pdf",
-            "page": 17,
-            "questionNumber": 10
-          }
+          "type": "table",
+          "title": "Epilepsy frequency by syndrome",
+          "columns": [
+            "Syndrome",
+            "Epilepsy frequency"
+          ],
+          "rows": [
+            [
+              "Down's syndrome",
+              "5-10%"
+            ],
+            [
+              "Fragile X syndrome",
+              "20-25%"
+            ],
+            [
+              "Rett syndrome",
+              "90%"
+            ],
+            [
+              "Angelman syndrome",
+              "over 90%"
+            ],
+            [
+              "Tuberous sclerosis",
+              "90%"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/13-learning-disability.pdf",
+              "page": 27
+            },
+            {
+              "file": "books/13-learning-disability.pdf",
+              "page": 18
+            },
+            {
+              "file": "books/13-learning-disability.pdf",
+              "page": 23
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -3393,8 +3241,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Lennox-Gastaut syndrome does **NOT** feature a progressive increase in **IQ** — cognitive impairment deteriorates, not improves, with disease course.",
+          "type": "gap",
+          "subtopic": "Lennox-Gastaut syndrome and IQ trajectory",
+          "note": "Not covered in books/13-learning-disability.pdf — tested via the question bank: Lennox-Gastaut syndrome does **NOT** feature a progressive increase in **IQ** — cognitive impairment deteriorates, not improves, with disease course. (The book states LGS is associated with LD and multiple generalised seizure types with a prognosis that is 'often poor', but does not explicitly discuss IQ trajectory.)",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Learning Disability_ Attempt review.pdf",
             "page": 22,
