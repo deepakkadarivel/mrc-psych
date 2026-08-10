@@ -863,6 +863,20 @@
               "page": 34,
               "questionNumber": 23
             }
+          },
+          {
+            "text": "Case-control power gains from raising the control:case ratio plateau beyond 4:1. If disease prevalence is <5% (rare-disease assumption), the odds ratio approximates relative risk.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Because the odds ratio ranges 0 to infinity (no negative values), log transformation is needed to derive its confidence interval.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
           }
         ],
         "facts": [
@@ -982,19 +996,47 @@
               "page": 19,
               "questionNumber": 11
             }
+          },
+          {
+            "label": "Nested case-control study",
+            "value": "Cases and controls both drawn from within an existing cohort rather than studying the whole cohort — cheaper, similar precision",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "Point / period / lifetime prevalence",
+            "value": "Point = at one specific time; period = over a specified period; lifetime = history of the disease at any point in life",
+            "source": {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 23,
+              "questionNumber": 14
+            }
+          },
+          {
+            "label": "Prevalence = Incidence × Duration",
+            "value": "Holds in a steady state (rates not changing, in-migration = out-migration)",
+            "source": {
+              "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 5
+            }
           }
         ],
         "highlightBlockIndices": [
           2,
           14,
           15,
+          17,
           29,
           32,
           34,
           39,
           40,
           49,
-          53
+          53,
+          54
         ]
       }
     },
@@ -1383,12 +1425,20 @@
               "page": 40,
               "questionNumber": 29
             }
+          },
+          {
+            "text": "Treatment-received (TR) analysis groups participants by the treatment they actually took, not their randomised allocation — this undoes the benefit of randomisation via contamination, unlike per-protocol analysis.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 17
+            }
           }
         ],
         "highlightBlockIndices": [
           3,
           4,
-          9
+          9,
+          11
         ]
       }
     },
@@ -1691,6 +1741,15 @@
               "page": 14,
               "questionNumber": 14
             }
+          },
+          {
+            "label": "Healthy relatives as controls",
+            "value": "Reduces confounding from factors genuinely shared within families, but risks overmatching (losing the ability to show a true causal association) if the risk factor itself is genetic/familial",
+            "source": {
+              "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 3
+            }
           }
         ],
         "bullets": [
@@ -1748,6 +1807,20 @@
               "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
               "page": 13,
               "questionNumber": 13
+            }
+          },
+          {
+            "text": "Named causal-model frameworks: Koch's postulates (infectious disease only — agent present in every case, absent in others, reproducible experimentally); Rothman's sufficient-component model/'causal pie' (a necessary cause, e.g. H. pylori for gastric ulcer, must appear in every sufficient cause but isn't sufficient alone); MacMahon & Pugh's 'web of causation' (1960); Murray & Lopez's hierarchical model separating proximal (mechanistic) from distal (empirical) risk factors.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "A positive study result can be explained by: (1) selection bias; (2) measurement bias; (3) confounding; (4) chance/type 1 error; (5) a genuine causal association.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 22
             }
           }
         ],
@@ -2167,6 +2240,15 @@
               "page": 4,
               "questionNumber": 4
             }
+          },
+          {
+            "label": "Hawthorne effect",
+            "value": "Being observed/studied can itself improve performance — affects psychological measures (motivation, self-report) but NOT physiological parameters like blood pressure",
+            "source": {
+              "file": "question_bank/Research Methods/Bias_ Attempt review.pdf",
+              "page": 8,
+              "questionNumber": 8
+            }
           }
         ],
         "bullets": [
@@ -2185,11 +2267,22 @@
               "page": 39,
               "questionNumber": 28
             }
+          },
+          {
+            "text": "Bias can run toward the null (estimate closer to no-difference), away from the null (exaggerated estimate), or in an extreme case flip direction entirely (a true OR>1 appearing as <1) — a switch-over bias.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 26
+            }
           }
         ],
         "highlightBlockIndices": [
           13,
-          19
+          14,
+          19,
+          20,
+          21,
+          23
         ]
       }
     },
@@ -2586,12 +2679,28 @@
               "page": 21,
               "questionNumber": 13
             }
+          },
+          {
+            "text": "Interview structure spectrum: structured (fixed schedule, close to a questionnaire); semi-structured/\"focused\" (open-ended, predetermined topics, wording not fixed); unstructured/\"in-depth\" (no fixed order, driven by the interviewee's previous response).",
+            "source": {
+              "file": "question_bank/Research Methods/Qualitative Studies_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 8
+            }
+          },
+          {
+            "text": "Further data-collection techniques beyond interviews/focus groups: observation (field notes, participant vs. non-participant) and documents (diaries/letters, case notes). Analysis-stage: content analysis (manifest vs latent level), conversation analysis, discourse analysis.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 30
+            }
           }
         ],
         "highlightBlockIndices": [
           17,
           22,
-          23
+          23,
+          24
         ]
       }
     },
@@ -2982,6 +3091,20 @@
               "page": 14,
               "questionNumber": 14
             }
+          },
+          {
+            "text": "Heterogeneity has 3 flavours: clinical (different but theoretically combinable interventions/populations — describable, not measurable), methodological (different study methods), and statistical (inconsistent quantitative results — testable via chi-square/Cochran's Q or I²). Rule of thumb: an average chi-square equals its degrees of freedom (n−1 studies); these tests have low power, so a non-significant result does **NOT** prove homogeneity.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          },
+          {
+            "text": "Effect-size measures: for dichotomous outcomes, **OR**/**RR** are preferred (less dependent on baseline risk than absolute risk); **OR** overestimates **RR** increasingly as event rates rise above ~==20%==, so **RR** is preferred in Cochrane reviews when events are common. For continuous outcomes: simple mean difference (**DM**) or standardised mean difference (**SMD** = DM / pooled SD), calculated as Cohen's d or Hedges' g (the latter corrects Cohen's d's small-sample bias).",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
           }
         ],
         "facts": [
@@ -3043,6 +3166,7 @@
         "highlightBlockIndices": [
           9,
           16,
+          21,
           26
         ]
       }
@@ -3426,6 +3550,14 @@
               "page": 33,
               "questionNumber": 22
             }
+          },
+          {
+            "label": "ACER vs ICER",
+            "value": "ACER = cost/effect for a single intervention alone; ICER compares incremental cost/effect of one intervention against a specific comparator",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
+            }
           }
         ],
         "bullets": [
@@ -3499,6 +3631,20 @@
               "file": "question_bank/Research Methods/Economic Studies_ Attempt review.pdf",
               "page": 36,
               "questionNumber": 25
+            }
+          },
+          {
+            "text": "Nixon's permutation matrix pools multiple economic evaluations without a formal meta-analysis: incremental cost and incremental effect pairs from each study are cross-tabulated onto a single cost-effectiveness plane so results can be compared visually across studies.",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 46
+            }
+          },
+          {
+            "text": "Two further sensitivity-analysis methods: extreme-scenario analysis (maxing/minning a variable, which overestimates uncertainty) and two-way analysis (varying two variables together — unwieldy beyond two variables, hence Monte Carlo simulation for more).",
+            "source": {
+              "file": "books/15-1-statistics.pdf",
+              "page": 45
             }
           }
         ],

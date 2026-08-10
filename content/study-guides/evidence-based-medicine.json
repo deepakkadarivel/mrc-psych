@@ -502,7 +502,8 @@
         "highlightBlockIndices": [
           0,
           1,
-          4
+          4,
+          7
         ]
       }
     },
@@ -910,6 +911,14 @@
               "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
               "page": 44,
               "questionNumber": 29
+            }
+          },
+          {
+            "text": "Worked Bayesian-updating example: pre-test probability 1/4 (odds 1/3), LR+ = 9.5 (from sensitivity 95%/specificity 90%) → post-test odds 3.16 → post-test probability ≈0.75.",
+            "source": {
+              "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+              "page": 16,
+              "questionNumber": 14
             }
           }
         ],
@@ -1475,6 +1484,13 @@
               "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
               "page": 2,
               "questionNumber": 1
+            }
+          },
+          {
+            "text": "Appraising a prognostic study: sample representative of a defined population (not filtered by referral/selection bias)? Follow-up sufficiently long and complete? Objective, unbiased outcome criteria, ideally with assessors blinded to baseline predictors?",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
             }
           }
         ]
@@ -2105,6 +2121,36 @@
               "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
               "page": 22,
               "questionNumber": 21
+            }
+          },
+          {
+            "text": "Baseline similarity between randomised groups is attributable to randomisation itself, not blinding or ITT analysis (both act later in the trial).",
+            "source": {
+              "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+              "page": 28,
+              "questionNumber": 27
+            }
+          },
+          {
+            "text": "n-of-1 trials are NOT appropriate for weak evidence of a potentially curative effect on a long-standing condition, and impractical if the condition might resolve spontaneously within the observation period.",
+            "source": {
+              "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 25
+            }
+          },
+          {
+            "text": "Adapting NNT to local practice: PEER (patient expected event rate — local baseline risk) replaces the trial's CER when the local population's baseline risk differs from the trial population's.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "NNT interpretation: ≈1 = highly effective (e.g. antibiotics for a susceptible organism); 2–5 = effective for a common outcome; ≥20 = marginal/preventive benefit.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 14
             }
           }
         ],
@@ -2763,6 +2809,20 @@
               "page": 56,
               "questionNumber": 21
             }
+          },
+          {
+            "text": "Post-hoc subgroups carved from pooled meta-analysis data do NOT inherit the parent trials' randomisation balance — treat as hypothesis-generating, not confirmatory (distinct from pre-specified-vs-post-hoc subgroups within a single RCT).",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Guyatt's meta-analysis appraisal checklist: pre-specified written protocol (question/outcomes/inclusion criteria)? Comprehensive search across languages and unpublished sources? Study quality formally assessed before pooling?",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 21
+            }
           }
         ],
         "facts": [
@@ -2912,6 +2972,27 @@
               "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
               "page": 8,
               "questionNumber": 8
+            }
+          },
+          {
+            "text": "Protocols mandate strict procedure; guidelines are evidence-based recommendations meant to inform, not mandate — deviating from a guideline is not automatically a breach of care if clinically justified.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Decision analysis models a clinical choice as a tree: decision nodes (squares) branch into options, chance nodes (circles) branch into probability-weighted outcomes, each end-point given a utility value to find the option with the best expected value.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Altman's nomogram: a graphical tool that reads off required sample size (or power) from a line joining the standardised difference (effect size) and desired power/significance level.",
+            "source": {
+              "file": "books/15-3-statistics.pdf",
+              "page": 25
             }
           }
         ]
