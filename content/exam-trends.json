@@ -2470,7 +2470,7 @@
           "topicId": "research-methods",
           "topicTitle": "Research Methods",
           "questionBankCount": 181,
-          "highYieldTableCount": 6,
+          "highYieldTableCount": 8,
           "recurringTraps": [
             {
               "text": "Attributable risk (a risk **DIFFERENCE**) can be negative when risk in the exposed is lower than the unexposed, but relative risk (a **RATIO**) can never be negative — and the odds ratio, not **RR** or **AR**, is the 'cross product' measure. Don't assume all these measures share the same numeric constraints.",
@@ -2582,24 +2582,8 @@
           "topicId": "statistics",
           "topicTitle": "Statistics",
           "questionBankCount": 182,
-          "highYieldTableCount": 24,
+          "highYieldTableCount": 12,
           "recurringTraps": [
-            {
-              "text": "Excluding cardiovascular disease from controls but not cases in a case-control study of reserpine and breast cancer primarily threatens **INTERNAL** validity (via selection bias in this specific study's conclusions) — not external validity/generalisability or reliability, which candidates often reach for instead.",
-              "source": {
-                "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 4
-              }
-            },
-            {
-              "text": "Of several scenarios prone to regression to the mean (selecting extreme baseline **BP**/cholesterol/maths-ability scores for repeat measurement or intervention), the one **NOT** affected is a properly randomised **RCT** with a concurrent control group — because both arms regress equally, the comparison cancels the effect out. This is the 'odd one out' answer candidates often miss by assuming **ALL** repeated-measurement designs are vulnerable.",
-              "source": {
-                "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 5
-              }
-            },
             {
               "text": "In a positively skewed distribution, most **VALUES** fall to the **LEFT** of the mean (the mean itself is pulled right by a few extreme high values) — a commonly reversed detail; the 'tail', not the bulk of the data, is on the right.",
               "source": {
@@ -2630,6 +2614,22 @@
                 "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
                 "page": 13,
                 "questionNumber": 13
+              }
+            },
+            {
+              "text": "The p-value does **NOT** indicate the probability that the null hypothesis is **FALSE** (a very common misstatement) — it reflects the probability of the observed (or more extreme) data occurring **IF** the null hypothesis is true. The 'not correct' statement in this **SBA** is exactly this common misreading.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "**EMI** vignette: a null **RCT** result contradicting strong prior belief/evidence after an adequately powered, rigorous 18-month trial is best labelled a **TYPE** 2 error possibility — not automatically 'the drug doesn't work' — while choosing sibling controls (who share genetic/parenting exposure with autistic probands) for a bonding study is **SELECTION** bias that would **UNDERESTIMATE**, not overestimate, the true association.",
+              "source": {
+                "file": "question_bank/Advanced Statstics/EMIs Statistics_ Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 8
               }
             }
           ]

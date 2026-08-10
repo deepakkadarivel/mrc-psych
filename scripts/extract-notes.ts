@@ -1,9 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
-import manifest from "../content/manifest.json";
+import manifestJson from "../content/manifest.json";
 import { extractPdfPages } from "./lib/pdf-text";
 import { segmentBookIntoNotes } from "./lib/segment-book";
-import type { NoteBlock } from "@/lib/types";
+import type { Manifest, NoteBlock } from "@/lib/types";
+
+const manifest = manifestJson as Manifest;
 
 const root = process.cwd();
 const resourcesDir = path.join(root, "resources/paper-b");

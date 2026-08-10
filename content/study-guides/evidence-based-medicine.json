@@ -384,6 +384,50 @@
             "page": 5,
             "questionNumber": 5
           }
+        },
+        {
+          "type": "table",
+          "title": "Oxford Centre for EBM — Hierarchy of Evidence (an alternative named scheme)",
+          "columns": [
+            "Level",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "I",
+              "Systematic review of all relevant RCTs"
+            ],
+            [
+              "**II**",
+              "At least one properly designed **RCT**"
+            ],
+            [
+              "**III-1**",
+              "Well-designed pseudo-randomised controlled trial"
+            ],
+            [
+              "**III-2**",
+              "Non-randomised comparative studies with concurrent controls (cohort, case-control, controlled interrupted time series)"
+            ],
+            [
+              "**III-3**",
+              "Comparative studies with historical control, or uncontrolled interrupted time series"
+            ],
+            [
+              "**IV**",
+              "Case series"
+            ],
+            [
+              "V",
+              "Expert opinion without critical appraisal"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-3-statistics.pdf",
+              "page": 25
+            }
+          ]
         }
       ],
       "concise": {
@@ -461,6 +505,11 @@
               "Ability to correctly identify true negatives among the well"
             ],
             [
+              "Accuracy",
+              "(**TP** + **TN**) / Total",
+              "Overall proportion of correct results"
+            ],
+            [
               "Positive predictive value (**PPV**)",
               "**TP** / (**TP** + **FP**)",
               "Rises with disease prevalence"
@@ -479,6 +528,11 @@
               "Post-test odds",
               "**LR** x pre-test odds (pre-test odds derived from prevalence)",
               "Used to get post-test probability = odds / (odds + 1)"
+            ],
+            [
+              "Likelihood ratio negative (**LR**−)",
+              "(1 - Sensitivity) / Specificity",
+              "How much a negative result lowers disease odds"
             ]
           ],
           "sources": [
@@ -511,6 +565,10 @@
               "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
               "page": 23,
               "questionNumber": 13
+            },
+            {
+              "file": "books/15-3-statistics.pdf",
+              "page": 1
             }
           ],
           "highYield": true
@@ -1746,6 +1804,22 @@
             "page": 22,
             "questionNumber": 21
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "Adapting a trial's **NNT** to local practice: **PEER** (patient expected event rate, the baseline risk in the population actually being treated) replaces the trial's **CER** when the local population's baseline risk differs from the trial population's.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Interpreting **NNT** size: **NNT** close to 1 signals a highly effective treatment (e.g. antibiotics for a susceptible organism); **NNT** 2–5 signals an effective therapy for a common outcome; **NNT** ≥20 signals a marginal or preventive benefit.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 14
+          }
         }
       ],
       "concise": {
@@ -1978,6 +2052,14 @@
             "page": 31,
             "questionNumber": 17
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "Inappropriate subgroup analyses: although the parent trials were individually randomised, that balance does **NOT** automatically extend to post-hoc subgroups carved out of the pooled data — subgroup findings should be treated as hypothesis-generating, not confirmatory.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
+          }
         }
       ],
       "concise": {
@@ -2198,6 +2280,22 @@
             "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
             "page": 14,
             "questionNumber": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Appraising a meta-analysis (Guyatt et al.): was there a written protocol defining the question, outcomes, and inclusion/exclusion criteria in advance? Was the search comprehensive across languages and unpublished sources? Was study quality formally assessed before pooling?",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A forest plot's pooled control/experimental event rates (**CER**/**EER**) can be reconstructed by summing each included study's event count and denominator across arms — useful for back-calculating an **NNT** from the plot alone.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
           }
         }
       ],
@@ -2586,6 +2684,14 @@
           "type": "gap",
           "subtopic": "Evaluating Prognosis",
           "note": "Only 6 questions were sourced for this sub-bank, and all of them concern survival-analysis mechanics (Kaplan-Meier, log-rank test, Cox regression) rather than prognosis-specific study design issues such as inception cohorts, prognostic-factor selection, clinical prediction rules, or prognosis-specific biases (e.g. lead-time or length-time bias). Cross-check against a core clinical epidemiology text for these."
+        },
+        {
+          "type": "paragraph",
+          "text": "Appraising a prognostic study: was the sample representative of a defined population (not filtered by referral/selection bias)? Was follow-up sufficiently long and complete? Were objective, unbiased outcome criteria used, ideally with assessors blinded to baseline predictors?",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
         }
       ],
       "concise": {
@@ -2769,6 +2875,30 @@
           "type": "gap",
           "subtopic": "Recommendations & Guidelines",
           "note": "Only 5 questions were sourced for this sub-bank. Coverage is limited to general principles of guideline development and implementation (evidence + values + resources, Delphi consensus); it does not cover formal recommendation-strength grading (e.g. **GRADE** strong/weak) or guideline-appraisal instruments (**AGREE** **II**)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Protocols demand strict adherence to a fixed procedure; guidelines are evidence-based recommendations intended to inform, not mandate, clinical decisions — deviation from a guideline is not itself a breach of care if clinically justified.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Decision analysis formalises a clinical choice as a tree: decision nodes (squares) branch into the available options, chance nodes (circles) branch into possible outcomes with their probabilities, and each end-point is assigned a utility value to calculate the option with the best expected value.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Altman's nomogram reads off the sample size (or power) required for a study from a straight line joining the standardised difference (effect size) and the desired power/significance level — a graphical alternative to calculating sample size from first principles.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 25
+          }
         }
       ],
       "concise": {

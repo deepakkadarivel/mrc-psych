@@ -7,6 +7,14 @@
       "blocks": [
         {
           "type": "paragraph",
+          "text": "Study designs are classified by (1) how subjects are identified — by exposure vs. by outcome — and (2) time course: prospective (forward from exposure to outcome), retrospective (backward from outcome to exposure), or cross-sectional (both measured together, a 'snapshot'). Descriptive studies (case reports/series, cross-sectional/prevalence studies, census) describe a group without testing a causal hypothesis or comparing groups; analytical studies (case-control, cohort) compare two groups to measure association; experimental studies are prospective designs where exposure is deliberately assigned (RCTs), unlike cohort studies where exposure occurs naturally.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Case-control studies are retrospective: both the exposure and the outcome have already occurred by the time subjects are recruited. They are cheaper than cohort studies and most useful for common exposures but relatively rare outcomes.",
           "source": {
             "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
@@ -239,6 +247,79 @@
               }
             }
           ]
+        },
+        {
+          "type": "table",
+          "title": "Best Study Design by Clinical Question",
+          "columns": [
+            "Clinical question",
+            "Best study design"
+          ],
+          "rows": [
+            [
+              "Prevalence / nature of a sample",
+              "Cross-sectional study"
+            ],
+            [
+              "Treatment effectiveness",
+              "Pragmatic **RCT** (or systematic review)"
+            ],
+            [
+              "Treatment efficacy",
+              "Explanatory **RCT** (or systematic review)"
+            ],
+            [
+              "Causation / aetiology",
+              "Cohort or case-control study"
+            ],
+            [
+              "Prognosis",
+              "Cohort study"
+            ],
+            [
+              "Diagnostic assessment (new tool vs. gold standard)",
+              "Cross-sectional study"
+            ],
+            [
+              "Health economics",
+              "Cost-effectiveness study"
+            ],
+            [
+              "'Meaning' / experience",
+              "Qualitative study"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 1
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Case-control studies gain power by increasing the control:case ratio up to 4:1; beyond that ratio, power does not increase further. If disease prevalence is <==5%== (the rare-disease assumption), the odds ratio approximates relative risk.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Overzealous matching of cases/controls can make recruitment difficult, can shrink the risk difference between groups, and may inadvertently match on a causal factor itself; because the odds ratio ranges 0 to infinity (no negative values), log transformation is needed to derive its confidence interval.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A nested case-control study draws both cases and controls from within an existing cohort rather than studying the whole cohort — cheaper, with similar precision.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         }
       ],
       "concise": {
@@ -394,6 +475,14 @@
       "id": "bias-in-research",
       "title": "3. Bias in Research",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Internal validity = how close a study's result is to the truth (threatened by bias); external validity/generalisability = how applicable the result is to the clinician's own population. Bias is a systematic, predictable error from poor design/collection/analysis — unlike random error it does **NOT** shrink with repetition and cannot be fixed at the analysis stage.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
+        },
         {
           "type": "paragraph",
           "text": "Selection bias occurs when the sample recruited systematically differs from the target population — e.g. screening for 'unidentified depression' in the general population using a sample drawn from gym/leisure-centre attendees.",
@@ -664,6 +753,74 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "table",
+          "title": "Further bias subtypes (selection & measurement)",
+          "columns": [
+            "Subtype",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Lead-time bias",
+              "Survival looks longer after screening purely because diagnosis was earlier — must adjust for lead time before comparing survival to unscreened controls"
+            ],
+            [
+              "Unmasking bias",
+              "A risk factor 'unmasks' rather than causes the outcome"
+            ],
+            [
+              "Response bias",
+              "'Healthy volunteer' effect"
+            ],
+            [
+              "Referral bias",
+              "Referred patients differ systematically from the wider population of people with the condition"
+            ],
+            [
+              "Membership bias",
+              "Recruiting via patient organisations selects an unrepresentative, more-engaged subgroup"
+            ],
+            [
+              "Diagnostic purity bias",
+              "Excluding comorbidity produces an unrepresentative sample — a particular RCT problem"
+            ],
+            [
+              "Desirability bias",
+              "Respondents answer in a way they believe is socially favourable"
+            ],
+            [
+              "Misclassification bias",
+              "Differential (one-sided) misclassification biases results; non-differential misclassification (errors affecting both groups equally) usually reduces the observed association rather than biasing it"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 26
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Bias direction: 'toward the null' bias yields estimates closer to no-difference; 'away from the null' bias exaggerates the estimate; an extreme case can flip the direction entirely (a true **OR**>1 appearing as <1) — a switch-over bias.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Where bias can enter a study",
+          "mnemonic": "SMA",
+          "expansion": [
+            "Selection bias — who gets **INTO** the study",
+            "Measurement bias — how variables are recorded",
+            "Analysis bias — how drop-outs/crossovers are handled at analysis"
+          ],
+          "sourced": false
         }
       ],
       "concise": {
@@ -970,6 +1127,30 @@
               }
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Koch's postulates (for infectious-disease causality specifically): the agent must be present in every case (consistency); absent in other diseases (specificity); reproduce the disease experimentally; and be recoverable from the experimental disease. Not generalisable to non-infectious illness — Susser's criteria (grouped into 5 categories, 3 considered essential) are the broader alternative.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Rothman's sufficient-component model treats a 'cause' as usually a minimal set of conditions (a sufficient cause/'causal pie') rather than one factor; each component is a component cause, and one that must appear in every sufficient cause is a necessary cause (e.g. H. pylori for gastric ulcer — necessary but not sufficient alone). MacMahon & Pugh's 'web of causation' (1960) describes the mutual, direct/indirect interactions among risk factors; Murray & Lopez extended this into a hierarchical model separating proximal (mechanistic) from distal (empirical) risk factors.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A positive study result can be explained by: (1) selection bias between groups; (2) measurement bias; (3) confounding causing an indirect association; (4) chance (type 1 error); (5) a genuine causal association.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
         }
       ],
       "concise": {
@@ -1394,6 +1575,42 @@
             "page": 34,
             "questionNumber": 23
           }
+        },
+        {
+          "type": "table",
+          "title": "Further special RCT types",
+          "columns": [
+            "Type",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Patient preference trial",
+              "Those with a strong preference get their choice; only the equivocal are randomised — primary analysis stays restricted to the randomised group"
+            ],
+            [
+              "Zelen's design",
+              "Randomise before consent — the MRC does not accept this as ethical"
+            ],
+            [
+              "Non-inferiority / equivalence trial",
+              "Null hypothesis is reversed ('there **IS** a significant difference') and requires a larger sample size than a superiority trial at equal power"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Efficiency (distinct from effectiveness and efficacy) additionally asks whether resources are used to maximise value for money.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
         }
       ],
       "concise": {
@@ -1678,6 +1895,50 @@
             "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
             "page": 40,
             "questionNumber": 29
+          }
+        },
+        {
+          "type": "table",
+          "title": "Further missing/drop-out data methods",
+          "columns": [
+            "Method",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Hot-deck imputation",
+              "Borrow a similar person's score"
+            ],
+            [
+              "Multiple regression",
+              "Predict missing values from other variables"
+            ],
+            [
+              "Growth curve analysis",
+              "Fit a line/curve per subject — needs 2+ follow-up points"
+            ],
+            [
+              "Random-effects modelling",
+              "Allows intercept/slope to vary by person, so drop-outs' trajectories need not match completers'"
+            ],
+            [
+              "Multiple imputation",
+              "Maximum-likelihood/Monte Carlo methods — a sensitivity analysis is recommended whenever data are imputed"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Treatment-received (**TR**) analysis groups participants by the treatment they actually took rather than their randomised allocation — this undoes the benefit of random allocation via contamination, unlike per-protocol analysis.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
           }
         }
       ],
@@ -2105,6 +2366,50 @@
             "Theories = Theoretical sampling (further data collected specifically to refine an emerging theory)"
           ],
           "sourced": false
+        },
+        {
+          "type": "table",
+          "title": "Named qualitative research designs",
+          "columns": [
+            "Design",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Phenomenology",
+              "Characterising an everyday but poorly defined experience (e.g. 'what is it like to be a carer') — distinct from Jasperian descriptive psychopathology"
+            ],
+            [
+              "Ethnography",
+              "'Portrait of the people' — emic view = insider perspective of one's own group, etic view = outsider perspective"
+            ],
+            [
+              "Grounded theory",
+              "Glaser & Strauss — constant comparison of data generates categories until theoretical saturation, then theoretical sampling tests them further (e.g. the **DABDA** stages-of-grief model)"
+            ],
+            [
+              "Case study",
+              "A single unit (person/organisation) studied in depth — sits between qualitative and quantitative approaches"
+            ],
+            [
+              "Participatory action research",
+              "Researcher and researched collaborate (e.g. carers co-designing a study on family challenges in schizophrenia)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 30
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond interviews and focus groups, observation (field notes, participant vs. non-participant observer) and documents (diaries/letters or formal case notes) are further qualitative data-collection techniques. Analysis-stage distinctions: content analysis splits manifest level (what was literally said) from latent level (what was implied); conversation analysis examines audio/visual, contextual talk; discourse analysis examines personal/autobiographical accounts.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
         }
       ],
       "concise": {
@@ -2554,6 +2859,30 @@
               }
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nixon's permutation matrix pools multiple economic evaluations without a formal meta-analysis: incremental cost and incremental effect pairs from each study are cross-tabulated onto a single cost-effectiveness plane so results can be compared visually across studies.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 46
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**ACER** (average cost-effectiveness ratio) = cost/effect for a single intervention on its own — distinct from **ICER**, which compares the incremental cost and effect of one intervention against a specific comparator.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Two further sensitivity-analysis methods: extreme-scenario analysis (maxing/minning a variable, which overestimates uncertainty) and two-way analysis (varying two variables together — unwieldy beyond two variables, hence Monte Carlo simulation for more).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
         }
       ],
       "concise": {
@@ -2892,7 +3221,108 @@
         {
           "type": "gap",
           "subtopic": "Meta-analysis statistical mechanics (I-squared, Q-statistic, forest-plot construction)",
-          "note": "The question bank explains **WHEN** to use fixed vs random effects models and **WHY** heterogeneity matters, but does not explain how to calculate or interpret the I-squared statistic or Cochran's Q for testing heterogeneity, nor how a forest plot's confidence-interval lines or summary diamond are actually constructed — only how to read numeric values off an already-completed plot. Cross-check against a statistics or **EBM** text for the underlying mechanics."
+          "note": "Resolved: heterogeneity typing/testing, effect-size measures (OR/RR/SMD/Cohen's d/Hedges' g), the fixed-vs-random-effects model/method pairing, and forest-plot construction mechanics are now covered above, sourced from books/15-1-statistics.pdf p.35 (added once that book was assigned to this topic)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A comprehensive literature search uses multiple databases (not MEDLINE/CINAHL alone), cross-checks reference lists, hand-searches, consults experts, and identifies grey literature (conference abstracts/posters). Individual-patient-data meta-analysis (contacting original authors for raw data) is more powerful than summary-data meta-analysis but far less often achievable.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Heterogeneity has 3 flavours: clinical (different but theoretically combinable interventions/populations — describable, not measurable), methodological (different study methods), and statistical (inconsistent quantitative results — testable via chi-square/Cochran's Q or I²). Rule of thumb: an average chi-square equals its degrees of freedom (n−1 studies); these tests have low power, so a non-significant result does **NOT** prove homogeneity.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Fixed-Effects vs Random-Effects Meta-Analysis Model",
+          "columns": [
+            "Feature",
+            "Fixed-effects model",
+            "Random-effects model"
+          ],
+          "rows": [
+            [
+              "Assumption",
+              "One common true effect across studies; ignores between-study variation",
+              "Each study has its own true effect, normally distributed around a mean"
+            ],
+            [
+              "Validity",
+              "Valid only if significant heterogeneity can be excluded",
+              "—"
+            ],
+            [
+              "Weighting",
+              "—",
+              "Gives smaller studies proportionally more weight"
+            ],
+            [
+              "Confidence interval width",
+              "Narrower",
+              "Wider (less precise)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Meta-analysis statistical model ↔ method pairing",
+          "columns": [
+            "Model",
+            "Method(s)"
+          ],
+          "rows": [
+            [
+              "Fixed effects",
+              "Mantel-Haenszel (**OR**, rate/risk ratios) or Peto (approximates **OR**) — neither adjusts for confounding"
+            ],
+            [
+              "Random effects",
+              "DerSimonian-Laird (ratios and rate differences)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Publication bias (significant/'positive' results are more likely published) produces an asymmetric funnel plot (effect size on x-axis, precision/sample size or 1/SE on y-axis). Failsafe N (Rosenthal & Cooper) estimates how many null-effect 'file drawer' studies would be needed to nullify an observed effect; the trim-and-fill procedure (Duval & Tweedie, 2000) imputes missing studies and recomputes the effect as a sensitivity check; cumulative meta-analysis (adding studies from largest/most precise to smallest) shows whether the pooled estimate shifts as smaller studies are added — a shift signals bias.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Effect-size measures: for dichotomous outcomes, **OR**/**RR** are preferred (less dependent on baseline risk than absolute risk); **OR** overestimates **RR** increasingly as event rates rise above ~==20%==, so **RR** is preferred in Cochrane reviews when events are common. For continuous outcomes: simple mean difference (**DM**) or standardised mean difference (**SMD** = DM / pooled SD), calculated as Cohen's d or Hedges' g (the latter corrects Cohen's d's small-sample bias).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Forest plot ('blobbogram') construction: each study is a blob/square (point estimate) sized by weight, with a horizontal line for its 95% CI; the pooled result is a diamond lozenge with minimal width (highest precision); a vertical 'line of no effect' sits at 1 for ratio measures (OR/RR) or 0 for mean-difference/SMD measures — a study whose CI line crosses the line of no effect is not statistically significant even if heavily weighted.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
         }
       ],
       "concise": {
