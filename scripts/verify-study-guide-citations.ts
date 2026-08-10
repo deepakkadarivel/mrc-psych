@@ -79,6 +79,9 @@ for (const file of files) {
           }
           break;
         case "gap":
+          if (block.source) {
+            checkSources([block.source], `[${section.title}] gap[${block.subtopic.slice(0, 40)}...]`, sets, invalid);
+          }
           break;
       }
     }

@@ -325,7 +325,7 @@ function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Ci
   );
 }
 
-function GapBlockView({ block }: { block: GapBlock }) {
+function GapBlockView({ block, onCite }: { block: GapBlock; onCite: Cite }) {
   return (
     <div className="overflow-hidden rounded-xl border border-rose-300 shadow-sm">
       <div className="flex items-center gap-2 bg-rose-600 px-4 py-2.5">
@@ -335,6 +335,12 @@ function GapBlockView({ block }: { block: GapBlock }) {
       <div className="bg-rose-50 px-4 py-3.5">
         <p className="text-[15px] leading-7 text-rose-900 md:text-[16px]">
           <RichText text={block.note} />
+          {block.source && (
+            <>
+              {" "}
+              <CitationBadge source={block.source} onClick={onCite} className="align-middle" />
+            </>
+          )}
         </p>
       </div>
     </div>
@@ -564,7 +570,7 @@ function BlockView({ block, onCite }: { block: Block; onCite: Cite }) {
     case "trap-list":
       return <TrapListBlockView block={block} onCite={onCite} />;
     case "gap":
-      return <GapBlockView block={block} />;
+      return <GapBlockView block={block} onCite={onCite} />;
   }
 }
 
@@ -751,7 +757,7 @@ export function StudyGuideView({
             {guide.sections.flatMap((section) =>
               section.blocks
                 .filter((b): b is GapBlock => b.type === "gap")
-                .map((block, i) => <GapBlockView key={`${section.id}-${i}`} block={block} />)
+                .map((block, i) => <GapBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} />)
             )}
           </div>
         </Paper>

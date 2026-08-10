@@ -76,6 +76,11 @@ export interface GapBlock {
   type: "gap";
   subtopic: string;
   note: string;
+  // Set when this gap is a single fact that's tested (question bank/mocks) but never stated in
+  // the source book — as opposed to the usual whole-subtopic-uncovered gap note, which has no
+  // single citable source at all. Lets verify-study-guide-citations.ts and the UI's citation
+  // badge treat this fact like any other cited claim instead of silently skipping it.
+  source?: Source;
 }
 
 export type Block =
