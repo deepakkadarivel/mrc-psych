@@ -401,6 +401,13 @@
         ],
         "bullets": [
           {
+            "text": "Normal distribution properties: bell-shaped and symmetric about the mean (skew = 0); mean = median = mode; kurtosis = 0 (leptokurtic = sharply peaked, high kurtosis; platykurtic/flat = low kurtosis); tails approach but never touch the x-axis.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
             "text": "Larger sample size → smaller **SEM** → the observed sample mean is closer to the true population mean, regardless of the underlying population's own variability.",
             "source": {
               "file": "books/15-2-statistics.pdf",
@@ -626,6 +633,14 @@
       "concise": {
         "facts": [
           {
+            "label": "Population-to-sample chain",
+            "value": "target population → source population/sampling frame → eligible population (after inclusion/exclusion) → study entrants (consent) → study participants/completers",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 10
+            }
+          },
+          {
             "label": "Sampling error",
             "value": "measurable gap between sample estimate and true population value — distinct from bias",
             "source": {
@@ -803,6 +818,14 @@
               "file": "books/15-2-statistics.pdf",
               "page": 17
             }
+          },
+          {
+            "label": "Standardised difference formula",
+            "value": "(target mean difference)/**SD**",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
           }
         ],
         "bullets": [
@@ -815,6 +838,13 @@
           },
           {
             "text": "Lowering type 1 error generally raises type 2 error, and vice versa.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "'Power calculation' is really a sample-size calculation from chosen values of α (~0.05), power (~==80%==), the clinically relevant effect size, and an estimated variance (from a pilot or the literature); Altman's nomogram uses the standardised difference plus power to read off the required sample size.",
             "source": {
               "file": "books/15-2-statistics.pdf",
               "page": 17
@@ -975,6 +1005,13 @@
           },
           {
             "text": "If a **CI** crosses the value of no difference, the result is not statistically significant; **CI**s jointly convey confidence, precision, clinical significance, and statistical significance.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "CI width depends on **SE** (variability/sample size) — wider = less precise. Raising the confidence level (e.g. ==95%==→==99%==) widens the interval for the same data; smaller confidence level, larger sample size, or reduced **SD** (e.g. via stratification) narrow it.",
             "source": {
               "file": "books/15-2-statistics.pdf",
               "page": 17
@@ -1259,7 +1296,9 @@
           3,
           4,
           7,
-          8
+          8,
+          9,
+          10
         ]
       }
     },
@@ -1614,6 +1653,30 @@
               "file": "books/15-2-statistics.pdf",
               "page": 37
             }
+          },
+          {
+            "label": "df, one-way ANOVA total",
+            "value": "N−1",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "df, one-way ANOVA between-groups",
+            "value": "number of groups − 1",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "df, one-way ANOVA within-groups",
+            "value": "N − number of groups",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
           }
         ],
         "highlightBlockIndices": []
@@ -1697,6 +1760,14 @@
             }
           },
           {
+            "label": "Simple linear regression equation",
+            "value": "y = a + bx (b = slope/regression coefficient, a = y-intercept)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
             "label": "'1 in 10' rule",
             "value": "variables entered ≤ ~==10%== of sample size (or events, for logistic regression)",
             "source": {
@@ -1708,6 +1779,13 @@
         "bullets": [
           {
             "text": "Pearson's r needs parametric continuous data; Spearman's rho is the non-parametric equivalent (ordinal/non-normal/small n); correlation does not imply causation and needs a suspected linear relationship and independent observations.",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "text": "Fisher's transformation statistically compares two correlation coefficients; partial correlation adjusts a bivariate correlation for a third variable.",
             "source": {
               "file": "books/15-2-statistics.pdf",
               "page": 37
@@ -1897,6 +1975,13 @@
           }
         ],
         "bullets": [
+          {
+            "text": "Cluster analysis groups variables into homogeneous clusters via a similarity matrix, producing a dendrogram. Canonical correlation explores the relationship between two **SETS** of variables (via eigenvalues). Discriminant function analysis identifies which of several variables best discriminates between ≥2 groups (computationally similar to **MANOVA**).",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
           {
             "text": "Path analysis cannot itself establish causality — it can only show the data are consistent with the model; a recursive path model has unidirectional causal flow (no loops).",
             "source": {
