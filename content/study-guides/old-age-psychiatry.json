@@ -425,42 +425,14 @@
           "highYield": true
         },
         {
-          "type": "table",
-          "title": "EEG findings by disorder",
-          "columns": [
-            "EEG finding",
-            "Disorder"
-          ],
-          "rows": [
-            [
-              "Generalised periodic 1-2 Hz sharp wave complexes (~==90%== of cases)",
-              "Sporadic Creutzfeldt-Jakob disease (not seen in variant **CJD**)"
-            ],
-            [
-              "Episodic discharges recurring every 1-3 seconds, focal temporal waves",
-              "Herpes simplex encephalitis"
-            ],
-            [
-              "Initial loss of alpha, later flattened trace",
-              "Huntington's disease"
-            ],
-            [
-              "Triphasic waves with diffuse generalised slowing",
-              "Hepatic encephalopathy"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
-              "page": 29,
-              "questionNumber": 17
-            },
-            {
-              "file": "books/8-1-old-age-psychiatry.pdf",
-              "page": 5
-            }
-          ],
-          "highYield": true
+          "type": "gap",
+          "subtopic": "EEG findings by disorder (table)",
+          "note": "Not fully covered in books/8-1-old-age-psychiatry.pdf. The book does mention sporadic CJD shows EEG 'periodic complexes' (periodic bi/triphasic discharges against a low-voltage background, p.8) but never states the specific '1-2 Hz sharp wave, ~90% of cases' figures. The other three rows (herpes simplex encephalitis, Huntington's disease, hepatic encephalopathy EEG findings) are tested via the question bank but not covered in the book at all.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 17
+          }
         },
         {
           "type": "trap",
@@ -1921,62 +1893,14 @@
           }
         },
         {
-          "type": "comparison",
-          "title": "Cortical vs Subcortical Dementia — Clinical Features",
-          "columns": [
-            "Feature",
-            "Cortical dementia",
-            "Subcortical dementia"
-          ],
-          "rows": [
-            [
-              "Aphasia",
-              "Early",
-              "Absent/late"
-            ],
-            [
-              "Calculation",
-              "Lost early",
-              "Preserved until late"
-            ],
-            [
-              "Speed of cognitive processing",
-              "Relatively preserved early",
-              "Slowed early"
-            ],
-            [
-              "Mood/movement",
-              "Less prominent",
-              "Depressed mood, dysarthria, adventitious movements (tics, chorea, tremor, dystonia), apathetic personality"
-            ],
-            [
-              "Examples",
-              "Alzheimer's disease, Pick's disease, normal pressure hydrocephalus",
-              "Parkinson's disease, Huntington's disease, Wilson's disease, Binswanger's disease, **HIV** dementia"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 32,
-              "questionNumber": 31
-            },
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 49,
-              "questionNumber": 47
-            },
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 49,
-              "questionNumber": 44
-            },
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
-              "page": 61,
-              "questionNumber": 35
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Cortical vs subcortical dementia — feature comparison table",
+          "note": "books/8-1-old-age-psychiatry.pdf discusses subcortical dementia conceptually in several places (e.g. Binswanger's, Parkinson's, PSP) but never lays out this specific feature-by-feature cortical-vs-subcortical comparison table (aphasia, calculation, processing speed, mood/movement). Tested via the question bank only.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+            "page": 32,
+            "questionNumber": 31
+          }
         }
       ],
       "concise": {
@@ -3491,8 +3415,9 @@
       "title": "25. Additional Epidemiology & Ageing Physiology (Question-Bank)",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "General population dementia prevalence is ~==5%== over 65, rising to ==20%== in the over-80s; Alzheimer's disease accounts for ~==60%== of all dementia cases (Maudsley Prescribing Guidelines, 14th ed., p.604).",
+          "type": "gap",
+          "subtopic": "General dementia prevalence by age / AD proportion",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf, which discusses individual dementia subtypes but not this general prevalence-by-age breakdown. Tested via the question bank (citing Maudsley Prescribing Guidelines, 14th ed.): general population dementia prevalence ~5% over 65, rising to ~20% in the over-80s; Alzheimer's disease accounts for ~60% of all dementia cases.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 2,
@@ -3500,45 +3425,19 @@
           }
         },
         {
-          "type": "table",
-          "title": "Aetiological categories of dementia — worked examples",
-          "columns": [
-            "Category",
-            "Examples"
-          ],
-          "rows": [
-            [
-              "Degenerative",
-              "Alzheimer's disease, Pick's disease, Parkinson's disease, Lewy body dementia, Huntington's disease, Wilson's disease, motor neuron disease, progressive supranuclear palsy, multiple sclerosis"
-            ],
-            [
-              "Intracranial",
-              "Subdural haematoma, normal pressure hydrocephalus, tumour, head injury"
-            ],
-            [
-              "Infectious",
-              "Creutzfeldt-Jakob disease, **HIV**-associated dementia, neurosyphilis, tuberculosis"
-            ],
-            [
-              "Endocrine",
-              "Hypothyroidism, hyperparathyroidism, Cushing's syndrome, Addison's disease"
-            ],
-            [
-              "Toxic/metabolic",
-              "Prolonged alcohol misuse, heavy metal poisoning, uraemia, hepatic encephalopathy, hypoglycaemia, calcium/magnesium imbalance"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
-              "page": 57,
-              "questionNumber": 33
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Aetiological categories of dementia (table)",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf as a general classification table. The book discusses individual dementia types (Alzheimer's, vascular, LBD, prion diseases, etc.) but never groups them into degenerative/intracranial/infectious/endocrine/toxic-metabolic categories, and several named examples (Wilson's disease, neurosyphilis, hepatic encephalopathy, Addison's disease) don't appear anywhere in this book. Tested via the question bank only.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
+            "page": 57,
+            "questionNumber": 33
+          }
         },
         {
-          "type": "paragraph",
-          "text": "Antipsychotics in the elderly are associated with increased mortality (1-==2%== absolute risk) and cerebrovascular events (rate ratio 1.73, range 1.6-1.87), with the increased ischaemic stroke risk thought to be similar for atypical and typical antipsychotics.",
+          "type": "gap",
+          "subtopic": "Antipsychotic-associated mortality risk in dementia",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf — no mention of the antipsychotic mortality risk figure anywhere in the book. Tested via the question bank: antipsychotics in the elderly are associated with increased mortality (1-2% absolute risk increase).",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 4,
@@ -3546,8 +3445,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Meta-analysis (Mitchell & Shiri-Feshki 2009, 41 studies): the yearly conversion rate from mild cognitive impairment to dementia is ~5-==10%==, and even after 10 years only ~==40%== (not the majority) of **MCI** patients progress to dementia; other long-term meta-analyses give lower yearly rates (3.3-==4.2%==) with ~==31%== cumulative conversion over 10 years.",
+          "type": "gap",
+          "subtopic": "MCI-to-dementia conversion rate",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank (Mitchell & Shiri-Feshki 2009 meta-analysis, 41 studies): yearly conversion rate from MCI to dementia is around 5-10%, rising to ~40% by 10 years.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 13,
@@ -3555,8 +3455,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Delirium prevalence rises steeply by care setting: ~==20%== in general medical admissions, over ==50%== in medical admissions of older people, and over ==80%== in intensive care/palliative care.",
+          "type": "gap",
+          "subtopic": "Delirium prevalence by care setting",
+          "note": "books/8-1-old-age-psychiatry.pdf discusses delirium's idiopathic rate (Liposwski 1983: no detectable cause in 5-20% of cases, p.22) but never gives this specific prevalence-by-care-setting breakdown. Tested via the question bank: delirium prevalence rises steeply by setting — ~20% in general medical admissions, over 50% in medical admissions of older people, and over 80% in intensive care/palliative care.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 18,
@@ -3564,8 +3465,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Normal ageing brain changes (biological, not pathological): ~==17%== decrease in gross brain weight by age 80, widened sulci/gyral atrophy, enlarged ventricles, increased blood-brain barrier transport, and decreased cerebral blood flow/oxygenation — note ventricles enlarge with normal ageing, they do not shrink.",
+          "type": "gap",
+          "subtopic": "Normal ageing brain changes (biological, not pathological)",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank: ~17% decrease in gross brain weight by age 80, widened sulci/gyral atrophy, enlarged ventricles, increased blood-brain barrier transport, and decreased cerebral blood flow/oxygenation — note ventricles enlarge with normal ageing, they do not shrink.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
             "page": 37,
@@ -3573,8 +3475,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Pharmacokinetics in the elderly: gut motility and gastric acid secretion decrease (slower but not reduced total absorption); renal function declines with age (==35%== lost by 65, ==50%== by 80) with renal blood flow reduced even in healthy older people; serum creatinine can be misleading as a marker of renal function because muscle mass (and creatinine production) is reduced.",
+          "type": "gap",
+          "subtopic": "Pharmacokinetics in the elderly (absorption)",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank: gut motility and gastric acid secretion decrease with age, affecting drug absorption.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
             "page": 38,
@@ -3592,8 +3495,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Learning and memory in the elderly: simple recall reliably declines with age (a common false-answer trap is that it remains intact), while complete learning of new material can still occur, albeit more slowly, and **IQ** is broadly stable until around age 70.",
+          "type": "gap",
+          "subtopic": "Learning and memory changes with normal ageing",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf as a general ageing fact (the book discusses recall-vs-recognition only in the context of specific dementia subtypes, not normal ageing). Tested via the question bank: simple recall reliably declines with age (a common false-answer trap), while recognition memory is relatively preserved.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
             "page": 45,
@@ -3611,8 +3515,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Hyperhomocysteinaemia is a modifiable risk factor for cognitive decline, dementia and Alzheimer's disease in older people.",
+          "type": "gap",
+          "subtopic": "Hyperhomocysteinaemia as a modifiable dementia risk factor",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank: hyperhomocysteinaemia is a modifiable risk factor for cognitive decline and dementia.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
             "page": 8,
@@ -3620,8 +3525,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "The Dementia Questionnaire for Mentally Retarded Persons (**DMR**) is the appropriate screening tool for Alzheimer's disease in people with intellectual disability/Down's syndrome, since the **MMSE** has a floor effect in this population.",
+          "type": "gap",
+          "subtopic": "Dementia Questionnaire for Mentally Retarded Persons (DMR)",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf — this book's assessment-scale coverage doesn't include the DMR. Tested via the question bank: the DMR is the appropriate screening tool for dementia in patients with pre-existing intellectual disability.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 59,
@@ -3630,96 +3536,8 @@
         }
       ],
       "concise": {
-        "facts": [
-          {
-            "label": "Dementia prevalence >65 / >80",
-            "value": "~==5%== / ==20%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 2,
-              "questionNumber": 2
-            }
-          },
-          {
-            "label": "AD as % of all dementia",
-            "value": "~==60%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 2,
-              "questionNumber": 2
-            }
-          },
-          {
-            "label": "Antipsychotic-associated mortality risk, elderly",
-            "value": "1–==2%== absolute",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 4,
-              "questionNumber": 4
-            }
-          },
-          {
-            "label": "MCI → dementia conversion",
-            "value": "5–==10%==/year, ~==40%== by 10y",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 13,
-              "questionNumber": 13
-            }
-          },
-          {
-            "label": "Delirium prevalence: general medical / elderly medical / ICU-palliative",
-            "value": "~==20%== / >==50%== / >==80%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 18,
-              "questionNumber": 18
-            }
-          },
-          {
-            "label": "Brain weight decrease by age 80 (normal ageing)",
-            "value": "~==17%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 37,
-              "questionNumber": 32
-            }
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Pharmacokinetics: gut motility/gastric acid secretion decrease (slows but doesn't reduce total absorption); renal function declines with age (==35%== lost by 65, ==50%== by 80); serum creatinine is a misleading renal marker due to reduced muscle mass.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 38,
-              "questionNumber": 33
-            }
-          },
-          {
-            "text": "Simple recall reliably declines with age (a common false-answer trap says it stays intact); complete learning of new material still occurs, just slower; **IQ** stable to ~70.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 45,
-              "questionNumber": 40
-            }
-          },
-          {
-            "text": "Hyperhomocysteinaemia is a modifiable risk factor for cognitive decline, dementia and **AD**.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 8,
-              "questionNumber": 5
-            }
-          },
-          {
-            "text": "**DMR** (Dementia Questionnaire for Mentally Retarded Persons) is the correct **AD** screening tool in people with intellectual disability/Down's syndrome, since **MMSE** has a floor effect there.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 59,
-              "questionNumber": 56
-            }
-          }
-        ],
+        "facts": [],
+        "bullets": [],
         "highlightBlockIndices": [
           1,
           7,
@@ -3732,8 +3550,9 @@
       "title": "26. Cross-Cutting Pharmacology & Differential-Diagnosis Pitfalls (Question-Bank)",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Ginkgo biloba may increase bleeding risk — avoid/use with caution in patients on warfarin (e.g. for atrial fibrillation) despite its popularity as a memory-enhancing herbal remedy.",
+          "type": "gap",
+          "subtopic": "Ginkgo biloba bleeding-risk interaction",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf — Ginkgo biloba appears only in the book's own reference/bibliography list (a Cochrane review citation), not in the body text discussing bleeding risk. Tested via the question bank: Ginkgo biloba may increase bleeding risk — avoid/use with caution in patients on anticoagulants.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
             "page": 58,
@@ -3751,8 +3570,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Aminophylline decreases proximal tubular sodium reabsorption, increasing **lithium** excretion and lowering serum **lithium** levels — a specific drug-interaction pairing.",
+          "type": "gap",
+          "subtopic": "Aminophylline-lithium drug interaction",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank: aminophylline decreases proximal tubular sodium reabsorption, increasing lithium excretion and lowering serum lithium levels.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 29,
@@ -3761,45 +3581,26 @@
         },
         {
           "type": "paragraph",
-          "text": "**Levodopa**'s psychiatric side effects are common (up to a third of patients): nightmares/vivid dreams (~==30%==) are most frequent, followed by night terrors (~==7%==), delirium (~==5%==) and delusional disorder (~==3%==); dopamine agonists such as **ropinirole** can independently cause hypersexuality/increased libido, and L-dopa itself can precipitate hypomania/mania.",
+          "text": "Most patients treated with Levodopa or dopamine agonists (e.g. apomorphine, ropinirole) develop neuropsychiatric side effects: visual hallucinations with preserved insight are most common, followed by psychosis, anxiety, euphoria, mania, impulsive behaviour and delirium.",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-            "page": 20,
-            "questionNumber": 16
+            "file": "books/8-1-old-age-psychiatry.pdf",
+            "page": 17
           }
         },
         {
-          "type": "table",
-          "title": "Psychiatric side effects of physical-health drugs",
-          "columns": [
-            "Drug",
-            "Psychiatric effect"
-          ],
-          "rows": [
-            [
-              "Digoxin (toxicity)",
-              "Visual disturbance (halo/light around objects) with psychiatric confusion"
-            ],
-            [
-              "Corticosteroids",
-              "Iatrogenic depression, mania/hypomania and confusion"
-            ],
-            [
-              "Amiodarone",
-              "Altered mental status, hallucinations and delirium, particularly in older patients"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
-              "page": 16,
-              "questionNumber": 9
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Digoxin toxicity (table)",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank only.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/EMIs Old Age Psychiatry_ Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 9
+          }
         },
         {
-          "type": "paragraph",
-          "text": "Cerebellar dysarthria has a scanning/explosive, staccato quality with a nasal voice quality — a distinguishing feature from pseudobulbar (spastic) or bulbar (flaccid) dysarthria.",
+          "type": "gap",
+          "subtopic": "Cerebellar dysarthria — speech quality",
+          "note": "books/8-1-old-age-psychiatry.pdf mentions dysarthria only as one of several signs associated with small-vessel disease (p.14), without describing its scanning/explosive/staccato speech quality. Tested via the question bank: cerebellar dysarthria has a scanning/explosive, staccato quality with a nasal voice.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 43,
@@ -3807,37 +3608,14 @@
           }
         },
         {
-          "type": "comparison",
-          "title": "Facial nerve palsy — LMN vs UMN lesion",
-          "columns": [
-            "Feature",
-            "LMN (peripheral CN VII) lesion",
-            "UMN lesion"
-          ],
-          "rows": [
-            [
-              "Eye closure",
-              "Cannot close the eye (both upper and lower face affected)",
-              "Can still close the eyes (bilateral cortical innervation of orbicularis oculi)"
-            ],
-            [
-              "Forehead wrinkling",
-              "Cannot wrinkle the forehead",
-              "Can still wrinkle the forehead (bilateral cortical innervation of frontalis)"
-            ],
-            [
-              "Laterality of weakness",
-              "Both upper and lower face affected on the same side",
-              "Upper face spared; only lower face (smile) weak"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 67,
-              "questionNumber": 63
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Facial nerve palsy — LMN vs UMN lesion (table)",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf — this is general neurology content the book doesn't include. Tested via the question bank only.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
+            "page": 67,
+            "questionNumber": 63
+          }
         },
         {
           "type": "trap",
@@ -3851,16 +3629,16 @@
         },
         {
           "type": "paragraph",
-          "text": "Vascular disease signs distinguishing it from degenerative dementia: focal neurological signs, rigidity, akinesia, brisk reflexes/clonus and pseudobulbar palsy; asymmetrical hyperreflexia/weakness is seen more often in vascular than degenerative dementia.",
+          "text": "Vascular disease signs distinguishing it from degenerative dementia: focal neurological signs are present in vascular dementia and typically absent in degenerative dementia, alongside a stepwise (vs gradual progressive) course and more prominent somatic complaints (e.g. dizziness, headaches).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-            "page": 47,
-            "questionNumber": 45
+            "file": "books/8-1-old-age-psychiatry.pdf",
+            "page": 15
           }
         },
         {
-          "type": "paragraph",
-          "text": "The Barthel Index is the widely used, simple, globally validated scale for summarising activities of daily living (self-maintenance skills such as dressing, bathing, grooming) in older people.",
+          "type": "gap",
+          "subtopic": "Barthel Index (ADL scale)",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank: the Barthel Index is the widely used, simple, globally validated scale for summarising activities of daily living.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 36,
@@ -3868,8 +3646,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "The most common cause of death in Alzheimer's disease, particularly in advanced disease, is pneumonia.",
+          "type": "gap",
+          "subtopic": "Most common cause of death in advanced Alzheimer's disease",
+          "note": "Not covered in books/8-1-old-age-psychiatry.pdf. Tested via the question bank only.",
           "source": {
             "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
             "page": 40,
@@ -3878,100 +3657,38 @@
         },
         {
           "type": "paragraph",
-          "text": "Anankastic (obsessional) and anxious personality traits/disorders are specifically implicated as predictors of suicide in older people (Harwood et al 2001) — obsessive-compulsive and avoidant **PD** are the specific diagnoses linked, more than Cluster B traits, which play a smaller role in late-life suicide.",
+          "text": "Anankastic (obsessional) and anxious personality traits are significantly associated with both depression and suicidality in older adults (Harwood et al 2001).",
           "source": {
-            "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-            "page": 30,
-            "questionNumber": 29
+            "file": "books/8-1-old-age-psychiatry.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Levodopa neuropsychiatric side-effect frequency breakdown",
+          "note": "books/8-1-old-age-psychiatry.pdf confirms Levodopa/dopamine-agonist neuropsychiatric side effects qualitatively (see above) but gives no frequency breakdown. Tested via the question bank: nightmares/vivid dreams (~30%, most frequent), night terrors (~7%), delirium (~5%), delusional disorder (~3%); dopamine agonists such as ropinirole can independently cause hypersexuality/increased libido, and L-dopa itself can precipitate hypomania/mania.",
+          "source": {
+            "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 16
           }
         }
       ],
       "concise": {
-        "facts": [
-          {
-            "label": "Levodopa nightmares/vivid dreams",
-            "value": "~==30%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 20,
-              "questionNumber": 16
-            }
-          },
-          {
-            "label": "Levodopa night terrors",
-            "value": "~==7%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 20,
-              "questionNumber": 16
-            }
-          },
-          {
-            "label": "Levodopa delirium",
-            "value": "~==5%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 20,
-              "questionNumber": 16
-            }
-          },
-          {
-            "label": "Levodopa delusional disorder",
-            "value": "~==3%==",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 2_ Attempt review.pdf",
-              "page": 20,
-              "questionNumber": 16
-            }
-          }
-        ],
+        "facts": [],
         "bullets": [
-          {
-            "text": "Aminophylline decreases proximal tubular sodium reabsorption, increasing **lithium** excretion and lowering serum levels — a specific interaction pairing.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 29,
-              "questionNumber": 28
-            }
-          },
-          {
-            "text": "Cerebellar dysarthria has a scanning/explosive, staccato, nasal quality — distinguishes it from pseudobulbar (spastic) or bulbar (flaccid) dysarthria.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 43,
-              "questionNumber": 41
-            }
-          },
           {
             "text": "Vascular (not degenerative) dementia signs: focal neurological signs, rigidity, akinesia, brisk reflexes/clonus, pseudobulbar palsy, asymmetrical hyperreflexia/weakness.",
             "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 47,
-              "questionNumber": 45
-            }
-          },
-          {
-            "text": "Barthel Index is the widely used, globally validated **ADL** scale (dressing, bathing, grooming) in older people.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 36,
-              "questionNumber": 34
-            }
-          },
-          {
-            "text": "The most common cause of death in advanced Alzheimer's disease is pneumonia.",
-            "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 40,
-              "questionNumber": 38
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 15
             }
           },
           {
             "text": "Anankastic (obsessional) and anxious personality traits/disorders (esp. **OCPD**, avoidant **PD**) predict late-life suicide more than Cluster B traits (Harwood 2001).",
             "source": {
-              "file": "question_bank/Clinical Parts_ Paper B/MCQs Old Age Part 1_ Attempt review.pdf",
-              "page": 30,
-              "questionNumber": 29
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 35
             }
           }
         ],
@@ -3979,7 +3696,8 @@
           1,
           4,
           6,
-          7
+          7,
+          12
         ]
       }
     },
