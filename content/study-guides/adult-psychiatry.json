@@ -164,7 +164,7 @@
         ],
         "bullets": [
           {
-            "text": "==56%== of initial diagnoses change on follow-up — mainly to schizophrenic spectrum (==16%==), **PD** (==9%==), or bipolar (==8%==).",
+            "text": "==56%== of initial diagnoses change on follow-up — mainly to schizophrenic spectrum (==16%==), **PD** (==9%==), neurotic/stress-related/somatoform disorders (==8%==), or bipolar (==8%==).",
             "source": {
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 2
@@ -302,14 +302,14 @@
             }
           },
           {
-            "text": "Suicide warning applies to under-25s only (neutral 25–64, protective ≥65); **BAP**: SSRIs not linked to completed suicide in adults.",
+            "text": "Suicide warning applies to under-25s only (neutral 25–64, protective ≥65); **BAP**: SSRIs not linked to completed suicide in adults, though linked to a small (<==1%==) rise in non-fatal suicidal ideation in adolescents/young adults.",
             "source": {
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 2
             }
           },
           {
-            "text": "Overdose toxicity: TCAs > **venlafaxine**/**mirtazapine** > SSRIs; **citalopram** highest **SSRI** case fatality.",
+            "text": "Overdose toxicity: TCAs > **venlafaxine**/**mirtazapine** > SSRIs (Hawton 2010); within TCAs **dosulepin**/**doxepin** more toxic than **amitriptyline**; **citalopram** highest **SSRI** case fatality.",
             "source": {
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 2
@@ -838,6 +838,32 @@
         ],
         "highlightBlockIndices": [
           5
+        ],
+        "facts": [
+          {
+            "label": "Point prevalence",
+            "value": "4.6/1000",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "label": "Period prevalence",
+            "value": "3.3/1000",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "label": "Lifetime morbid risk",
+            "value": "7.2/1000 (Saha 2004)",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          }
         ]
       }
     },
@@ -1094,7 +1120,7 @@
             }
           },
           {
-            "text": "High-dose (>1g **chlorpromazine**-equivalent): avoid; no evidence in non-responders; **ECG** monitoring; stop after 3 months if no response.",
+            "text": "High-dose (>1g **chlorpromazine**-equivalent): avoid; no evidence in non-responders; increase no more than weekly; **ECG** monitoring; stop after 3 months if no response.",
             "source": {
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 34
@@ -1183,7 +1209,7 @@
             }
           },
           {
-            "text": "**CATIE** (n=1493): ==74%== discontinued within 18mo; **olanzapine** lowest discontinuation (==64%==) but worst metabolic burden; **clozapine** lowest discontinuation vs other SGAs.",
+            "text": "**CATIE** (n=1493): ==74%== discontinued within 18mo; **olanzapine** lowest discontinuation (==64%==) but worst metabolic burden; **clozapine** lowest discontinuation vs other SGAs (~3x longer time-to-discontinuation).",
             "source": {
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 36
@@ -1520,7 +1546,7 @@
             }
           },
           {
-            "text": "**NICE**: watchful waiting <4wk if mild; trauma-focused **CBT**/**EMDR** >3mo; **paroxetine**/**sertraline** only SSRIs **UK**-licensed for **PTSD** (**sertraline** females only).",
+            "text": "**NICE**: watchful waiting <4wk if mild; trauma-focused **CBT**/**EMDR** >3mo; **paroxetine**/**mirtazapine** general use, **amitriptyline**/**phenelzine** specialist use; **paroxetine**/**sertraline** only SSRIs **UK**-licensed for **PTSD** (**sertraline** females only).",
             "source": {
               "file": "books/7-1-adult-psychiatry-2.pdf",
               "page": 5
