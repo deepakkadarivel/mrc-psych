@@ -2,8 +2,8 @@
   "topic": "research-methods",
   "sections": [
     {
-      "id": "observational-study-designs",
-      "title": "1. Observational Study Designs — Cohort, Case-Control & Cross-Sectional",
+      "id": "study-designs",
+      "title": "1. Study Designs — Observational & Interventional",
       "blocks": [
         {
           "type": "paragraph",
@@ -320,6 +320,450 @@
             "file": "books/15-1-statistics.pdf",
             "page": 7
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecological studies use exposure data available only at the level of groups/populations, not individuals — they cannot link a specific exposure to a specific person's disease and cannot control for other associated factors. Common types include geographical comparisons, time-trend analyses, and migration studies.",
+          "source": {
+            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecological fallacy is the error of ascribing the aggregate characteristics of a group to every individual within that group.",
+          "source": {
+            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Case series are descriptive reports of a group of people (often sharing a diagnosis or treatment) with no comparison group, so they cannot show how outcomes compare with people treated differently — but they are the fastest way to alert the field to a novel/anecdotal observation (e.g. a cluster of myoclonic epilepsy cases after depot discontinuation).",
+          "source": {
+            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparing incidence rates across time periods requires an appropriately specified denominator (e.g. the mid-period population) — omitting this invalidates the comparison, even in a purely retrospective descriptive survey that needs no randomisation or control group.",
+          "source": {
+            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Pragmatic trials deliberately use looser eligibility criteria and less tightly controlled intervention parameters than explanatory trials, aiming to show how an intervention performs in real clinical practice rather than proving biological efficacy — the result is **HIGHER** external validity/generalisability than explanatory trials, not lower.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 32,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "RCTs differ from natural clinical practice in numerous, simultaneous ways: specialist-centre recruitment, exclusion of comorbidity, deliberately homogeneous diagnostic groups, random (non-negotiated) treatment allocation, detailed informed consent, placebo comparison, more frequent follow-up/monitoring than usual care, detailed side-effect checklists, typically short (4-6 week) assessment endpoints, symptom-scale outcomes, and blinding of patient/clinician.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 30,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A surrogate endpoint is a proxy measure substituted for the outcome of real clinical interest (e.g. using duration of untreated psychosis, **DUP**, as a stand-in for psychosis-related disability) — this is distinct from a secondary outcome measure, which tests a different, additional hypothesis.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Stopping an **RCT** early because an interim analysis shows an apparently large treatment benefit risks **OVERESTIMATING** the true treatment effect — with fewer accumulated events, there is a greater chance that an extreme, chance-driven result triggers early stopping.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Stopping a trial early after an interim analysis shows a large apparent benefit tends to **OVERESTIMATE** the true treatment effect — this is a small-numbers/chance artefact, not evidence the intervention truly works even better than a completed trial would show.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In the traditional hierarchy of evidence for therapy questions, secondary research (systematic reviews/synthesis of RCTs) is given more weight than a single **RCT**, which in turn outweighs uncontrolled or non-experimental study designs.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 36,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A survey's completion/response rate is **NOT** the same statistic as a study's statistical power — power is the ability to detect a true difference between groups, and cannot be inferred from response rates alone.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A survey's response/completion rate is **NOT** the same statistic as a study's statistical power — a vignette quoting ==74%==/==60%==/==88%== response rates across groups is testing whether you know power cannot be inferred from response rate alone.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "When a results figure collapses 'agree' and 'strongly agree' into one headline comparison percentage (e.g. ==67%== vs ==24%==), that combined figure must not be read as if it were the proportion who answered 'strongly agree' alone — the actual 'strongly agree' bar can show a materially different (here, lower, ==30%==) value.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "When a results figure collapses 'agree' and 'strongly agree' into a single headline percentage (e.g. ==67%== vs ==24%==), that combined figure is **NOT** the same as the proportion who answered 'strongly agree' alone — read the individual bar, not the reported headline comparison.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Parallel-design **RCT**: each group is exposed to only one of the interventions being compared (the default, most common **RCT** design).",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Crossover-design **RCT**: each participant receives all interventions in succession, with the order randomly generated — this within-participant comparison needs fewer participants than a parallel design because each subject also serves as their own control, but it is unsuited to designs needing long or irreversible follow-up periods.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Factorial-design **RCT**: two or more experimental interventions are evaluated both separately and in combination against a control.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Worked factorial-**RCT** example: antidepressant alone vs antipsychotic alone vs antidepressant+antipsychotic vs neither (placebo), for psychotic depression, is a factorial design; a costly intervention compared to placebo where recruiting as few participants as possible matters is best served by a crossover design; and comparing a new drug's side-effect profile to an established drug is a standard parallel **RCT**.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "table",
+          "title": "Types of RCT design",
+          "columns": [
+            "Design",
+            "Description",
+            "Key feature"
+          ],
+          "rows": [
+            [
+              "Parallel",
+              "Each group is exposed to only one intervention",
+              "Most common design; between-participant comparison"
+            ],
+            [
+              "Crossover",
+              "Each participant receives all interventions in succession, order randomised",
+              "Within-participant comparison; needs fewer participants"
+            ],
+            [
+              "Factorial",
+              "Two or more interventions evaluated separately **AND** in combination against a control",
+              "Tests main effects plus a combination effect (e.g. antidepressant vs antipsychotic vs both vs neither)"
+            ],
+            [
+              "N-of-1",
+              "A single participant receives interventions in sequence under blinded conditions",
+              "Optimises one individual's regimen; not generalisable to other patients"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 10
+            },
+            {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 6
+            },
+            {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 18
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Types of RCT design",
+          "mnemonic": "P-C-F-N",
+          "expansion": [
+            "P = Parallel — each group gets only one intervention",
+            "C = Crossover — each participant gets all interventions in sequence",
+            "F = Factorial — interventions tested separately **AND** combined",
+            "N = N-of-1 — a trial with a single participant"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
+          "text": "A non-randomised controlled trial still has a genuine control arm, but allocation is not random (e.g. alternating consecutive patients between two treatments) — this is distinct from a pragmatic **RCT**, which remains randomised.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 41,
+            "questionNumber": 30
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A quasi-experimental study shares the structure of a true experiment but lacks random assignment of participants to intervention groups (e.g. clinicians choosing freely between two formulations based on clinical judgement).",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 37,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Historical controlled trial: the comparison group's data come from a period before the new intervention was introduced, rather than being collected in parallel — a simple before-and-after study extends this to a single group compared against its own past; an interrupted time series takes repeated measurements before and after the 'interruption'; a controlled before-and-after study adds a genuine second group also measured before and after.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Block randomisation allocates in specified-size blocks (e.g. of 6) to keep group sizes close to equal — the larger the block size, the harder it is to predict the next allocation.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Stratified randomisation classifies participants into subgroups (e.g. by sex, trauma type, baseline severity score) and randomises within each subgroup — used especially with small samples to avoid an accidental skew of an influential variable; note that this deliberately makes those specific baseline characteristics **NOT** purely randomly distributed.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Cluster randomisation randomises at the level of a site/group (e.g. **GP** practices, cities) rather than the individual patient — everyone within an allocated cluster receives the same arm; one major reason for this design is to avoid contamination between arms.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Minimisation is a scheme in which each new participant's allocation depends on the characteristics of those already allocated, aiming to balance prognostic factors between groups — it is considered inferior to true randomisation because the allocation process becomes somewhat predictable/manually 'controlled'.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Quasi-randomisation (e.g. odd/even last digit of date of birth, day of the week seen) is **NOT** a proper randomisation method: it is not reproducible and cannot guarantee equal distribution of prognostic variables, even though allocation still occurs before the patient is formally assessed.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Odd/even birth-date or day-of-the-week 'randomisation' is quasi-randomisation, not true randomisation — it is not reproducible and cannot guarantee equal distribution of prognostic variables, even though allocation still technically occurs before the patient is examined.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Sequential **RCT**: participants are recruited into each group until the investigators can clearly determine a difference (or lack of difference) between groups — sample size is not fixed a priori, analysis is done at intervals, and the trial is stopped by a pre-specified stopping rule, which can lower overall trial cost.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Randomisation does **NOT** guarantee a study is free of confounders (only that confounders are more evenly distributed across groups); it can be performed at a cluster as well as an individual level; and it does not automatically reduce generalisability — pragmatic RCTs are randomised yet remain highly generalisable.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 33,
+            "questionNumber": 22
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A large sample size does not remove the need for randomisation, and randomisation itself does not automatically ensure precision of estimates — a large sample chiefly buys representativeness, while precision depends on the number of observations and proper sampling technique.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A large sample size chiefly buys representativeness — it is not a substitute for randomisation, and randomisation itself does not automatically guarantee precision of estimates; these are three separate statistical properties frequently bundled together as distractors in the same question.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "table",
+          "title": "Further special RCT types",
+          "columns": [
+            "Type",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Patient preference trial",
+              "Those with a strong preference get their choice; only the equivocal are randomised — primary analysis stays restricted to the randomised group"
+            ],
+            [
+              "Zelen's design",
+              "Randomise before consent — the MRC does not accept this as ethical"
+            ],
+            [
+              "Non-inferiority / equivalence trial",
+              "Null hypothesis is reversed ('there **IS** a significant difference') and requires a larger sample size than a superiority trial at equal power"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Efficiency (distinct from effectiveness and efficacy) additionally asks whether resources are used to maximise value for money.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Point prevalence = proportion of a population with the disease at one specific point in time; period prevalence = prevalence over a specified period; lifetime prevalence = proportion with a history of the disease at any point in their life.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In a steady state (rates not changing, in-migration = out-migration): Prevalence = Incidence × Duration of disease.",
+          "source": {
+            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Population = the complete set of subjects from which a sample is drawn; sampling frame = the actual accessible list/source of elements a researcher uses to select a sample, since direct access to the full population is rarely possible.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbally-descriptive Likert-type scales (e.g. **CGI**) suit objective, clinician-rated measurement of change; visual analogue scales/pictorial 'thermometers' suit subjective self-report across ages and abilities (including word/number-free smiley-face versions for young children or people with learning disabilities); Guttman scalograms (cumulative scaling, e.g. the Bogardus Social Distance Scale) suit a single hierarchical index where agreeing with one item implies agreement with 'lower-order' items.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Adoption studies are the design used to separate genetic from shared-environmental causes of schizophrenia; blind-rated analysis of childhood home movies can detect pre-illness motor/neurological abnormalities; army-conscript cohort designs (alongside birth-cohort and school-grade studies) examine premorbid cognitive/**IQ** deficits; unmedicated cohorts are needed to delineate a disease's natural, untreated course.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Study-design choice by ethical/practical constraint: retrospective cross-sectional record review suits both rare fatal-outcome questions (e.g. suicide-overdose deaths via national mortality registries) and prevalence questions (e.g. a birth-registry review for cardiac abnormalities linked to **lithium** exposure); case-control avoids the heavy attrition seen in long cohort follow-up; prospective cohort avoids case-control's recall bias.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Cluster RCTs suit interventions delivered at the level of a practitioner or practice (e.g. training GPs in motivational interviewing) specifically to avoid contamination between arms; case series suit very rare conditions where too few participants are available for any controlled design (e.g. n=5).",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 9
+          }
         }
       ],
       "concise": {
@@ -379,57 +823,48 @@
               "page": 11,
               "questionNumber": 11
             }
+          },
+          {
+            "text": "Comparing incidence rates across time periods requires an appropriately specified denominator (e.g. mid-period population) — omitting this invalidates the comparison.",
+            "source": {
+              "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 2
+            }
+          },
+          {
+            "text": "RCTs differ from real clinical practice in many simultaneous ways: specialist-centre recruitment, comorbidity exclusion, homogeneous diagnostic groups, random allocation, detailed consent, placebo comparison, closer monitoring, short assessment endpoints, symptom-scale outcomes, and blinding.",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 30,
+              "questionNumber": 19
+            }
+          },
+          {
+            "text": "Historical controlled trial = comparison data from before the intervention; before-and-after study = single group vs its own past; interrupted time series = repeated pre/post measurements; controlled before-and-after = adds a genuine second group also measured pre/post.",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 2
+            }
+          },
+          {
+            "text": "Randomisation does **NOT** guarantee freedom from confounders (only more even distribution), can be done at a cluster level, and does not automatically reduce generalisability — pragmatic RCTs are randomised yet highly generalisable.",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 33,
+              "questionNumber": 22
+            }
+          },
+          {
+            "text": "A large sample size chiefly buys representativeness — it is **NOT** a substitute for randomisation, and randomisation itself does not automatically guarantee precision.",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 34,
+              "questionNumber": 23
+            }
           }
         ],
-        "highlightBlockIndices": [
-          2,
-          14,
-          15
-        ]
-      }
-    },
-    {
-      "id": "ecological-studies-case-series",
-      "title": "2. Ecological Studies & Case Series",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Ecological studies use exposure data available only at the level of groups/populations, not individuals — they cannot link a specific exposure to a specific person's disease and cannot control for other associated factors. Common types include geographical comparisons, time-trend analyses, and migration studies.",
-          "source": {
-            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
-            "page": 5,
-            "questionNumber": 5
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Ecological fallacy is the error of ascribing the aggregate characteristics of a group to every individual within that group.",
-          "source": {
-            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
-            "page": 6,
-            "questionNumber": 6
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Case series are descriptive reports of a group of people (often sharing a diagnosis or treatment) with no comparison group, so they cannot show how outcomes compare with people treated differently — but they are the fastest way to alert the field to a novel/anecdotal observation (e.g. a cluster of myoclonic epilepsy cases after depot discontinuation).",
-          "source": {
-            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
-            "page": 4,
-            "questionNumber": 4
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Comparing incidence rates across time periods requires an appropriately specified denominator (e.g. the mid-period population) — omitting this invalidates the comparison, even in a purely retrospective descriptive survey that needs no randomisation or control group.",
-          "source": {
-            "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
-            "page": 2,
-            "questionNumber": 2
-          }
-        }
-      ],
-      "concise": {
         "facts": [
           {
             "label": "Ecological study",
@@ -457,23 +892,877 @@
               "page": 4,
               "questionNumber": 4
             }
+          },
+          {
+            "label": "Pragmatic trial",
+            "value": "Looser eligibility/intervention control than explanatory trials — **HIGHER** external validity/generalisability, not lower",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 32,
+              "questionNumber": 21
+            }
+          },
+          {
+            "label": "Surrogate endpoint",
+            "value": "A proxy measure substituted for the outcome of real clinical interest — distinct from a secondary outcome (a different, additional hypothesis)",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 27,
+              "questionNumber": 16
+            }
+          },
+          {
+            "label": "Hierarchy of evidence (therapy)",
+            "value": "Secondary research (systematic reviews) > single RCT > uncontrolled/non-experimental designs",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 36,
+              "questionNumber": 25
+            }
+          },
+          {
+            "label": "Non-randomised controlled trial",
+            "value": "Genuine control arm, but allocation is not random (e.g. alternating consecutive patients) — distinct from a pragmatic RCT, which remains randomised",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 41,
+              "questionNumber": 30
+            }
+          },
+          {
+            "label": "Quasi-experimental study",
+            "value": "Shares the structure of a true experiment but lacks random assignment (e.g. clinicians freely choosing between two formulations)",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 37,
+              "questionNumber": 26
+            }
+          },
+          {
+            "label": "Block randomisation",
+            "value": "Allocates in specified-size blocks (e.g. of 6) to keep group sizes close to equal — larger blocks are harder to predict",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 17,
+              "questionNumber": 6
+            }
+          },
+          {
+            "label": "Stratified randomisation",
+            "value": "Classifies into subgroups (sex, trauma type, baseline severity) and randomises within each — used with small samples to avoid skew",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 8
+            }
+          },
+          {
+            "label": "Cluster randomisation",
+            "value": "Randomises at site/group level (GP practices, cities), not individual patient — mainly to avoid contamination between arms",
+            "source": {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 16,
+              "questionNumber": 9
+            }
+          },
+          {
+            "label": "Minimisation",
+            "value": "New participant's allocation depends on characteristics of those already allocated — inferior to true randomisation as allocation becomes predictable",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 28,
+              "questionNumber": 17
+            }
+          },
+          {
+            "label": "Sequential RCT",
+            "value": "Recruits until a clear difference is determinable; sample size not fixed a priori, stopped by a pre-specified rule — can lower trial cost",
+            "source": {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          14,
+          15,
+          29,
+          32,
+          34,
+          39,
+          40,
+          49,
+          53
+        ]
+      }
+    },
+    {
+      "id": "blinding",
+      "title": "2. Blinding — Allocation Concealment",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Allocation concealment means keeping the outcome of the **NEXT** randomised allocation unpredictable — typically achieved by having an independent third party (at a distant site, uninvolved in the study) generate and administer the random sequence. This is distinct from blinding, which conceals the arm **AFTER** allocation has already happened.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Allocation concealment (keeping the **NEXT** allocation unpredictable, usually via an independent third party) is a distinct safeguard from blinding (masking the arm **AFTER** allocation) — don't conflate the two when a vignette mentions a third party administering the randomisation sequence.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Blinding levels: single-blind (participant unaware of their treatment), double-blind (participant and the investigator measuring outcomes both unaware — the most common form), triple-blind (participant, investigator(s), and the data analyst all unaware), open-label (no one blind).",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "table",
+          "title": "Blinding levels in RCTs",
+          "columns": [
+            "Level",
+            "Who is blind to treatment allocation"
+          ],
+          "rows": [
+            [
+              "Single-blind",
+              "Participant only"
+            ],
+            [
+              "Double-blind",
+              "Participant + investigator measuring outcomes (most common)"
+            ],
+            [
+              "Triple-blind",
+              "Participant + investigator(s) + data analyst"
+            ],
+            [
+              "Open-label",
+              "No one"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 11
+            },
+            {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 10
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Blinding levels in RCTs",
+          "mnemonic": "P-I-D",
+          "expansion": [
+            "Single-blind = Participant only",
+            "Double-blind = Participant + Investigator (outcome assessor)",
+            "Triple-blind = Participant + Investigator + Data-analyst",
+            "Open-label = none of the above blinded"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Blinding chiefly reduces measurement/observer bias, not selection bias — including investigator-guessing effects such as exposure-suspicion/ascertainment bias when an unblinded rater unconsciously rates improvement more favourably.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Concealment of allocation specifically refers to whether the **OUTCOME** of randomisation can be predicted in advance.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 33,
+            "questionNumber": 22
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Blinding chiefly reduces measurement/observer bias, **NOT** selection bias.",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 22,
+              "questionNumber": 11
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Allocation concealment",
+            "value": "Keeps the **NEXT** allocation unpredictable, typically via an independent third party — distinct from blinding, which conceals arm **AFTER** allocation",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "analysing-rcts-itt-pp-missing-data",
+      "title": "3. Intention to Treat Analysis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intention-to-treat (**ITT**) analysis counts every participant in the group to which they were originally randomised, regardless of adherence or discontinuation — this gives a conservative, generalisable/pragmatic estimate and is the preferred default way to report most **RCT** results.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Reporting the number improved out of **ALL** participants originally randomised (e.g. all 100), rather than only those who completed follow-up, is precisely what defines an intention-to-treat analysis.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Per-protocol (**PP**) analysis includes only participants who adequately complied with the trial protocol ('on-treatment' analysis) — the intentional antithesis of **ITT**; it suits questions about a drug's biological efficacy rather than its real-world effectiveness, and is often used as a secondary analysis within effectiveness trials.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Per-protocol analysis is not simply 'a stricter **ITT**' — it deliberately answers a different question (biological efficacy in fully compliant patients) and is the intentional antithesis of intention-to-treat, which answers the real-world effectiveness question.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Intention-to-Treat vs Per-Protocol Analysis",
+          "columns": [
+            "Feature",
+            "Intention-to-treat (ITT)",
+            "Per-protocol (PP)"
+          ],
+          "rows": [
+            [
+              "Who is included",
+              "Every participant in the group to which they were originally randomised, regardless of adherence/discontinuation",
+              "Only participants who adequately complied with the trial protocol ('on-treatment')"
+            ],
+            [
+              "Question answered",
+              "Real-world effectiveness — a conservative, generalisable/pragmatic estimate",
+              "Biological efficacy in fully compliant patients"
+            ],
+            [
+              "Typical role",
+              "Preferred default way to report most RCT results",
+              "Often used as a secondary analysis within effectiveness trials"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 23,
+              "questionNumber": 12
+            },
+            {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 24,
+              "questionNumber": 13
+            },
+            {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Worst-case-scenario imputation assumes drop-outs in the active arm had negative outcomes and drop-outs in the control arm had positive outcomes.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Last observation carried forward (**LOCF**) assumes the last recorded rating-scale score is carried forward unchanged to the end of the trial — this only suits longitudinal continuous-scale data, and is problematic for conditions with a natural remitting course, being 'too good' for controls and 'too stringent' for the patient group.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Mean imputation assumes a drop-out's missing score equals the average score for their own treatment group.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**LOCF** specifically substitutes the most recent available rating (e.g. the 3rd-month **HAMD**/**MADRS** score) forward through all remaining scheduled assessments for a participant lost to follow-up.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "table",
+          "title": "Intention-to-treat missing-data imputation methods",
+          "columns": [
+            "Method",
+            "Assumption made about missing/dropout data"
+          ],
+          "rows": [
+            [
+              "Worst-case scenario",
+              "Active-arm dropouts assumed to have a negative outcome; control-arm dropouts assumed to have a positive outcome"
+            ],
+            [
+              "Last observation carried forward (**LOCF**)",
+              "The last recorded scale score is carried forward unchanged to the end of the trial"
+            ],
+            [
+              "Mean imputation",
+              "The dropout's missing score is assumed equal to their own group's average score"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 12
+            },
+            {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 14
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
+          "text": "If a positive trial result (favouring active treatment) still holds even under a worst-case-scenario sensitivity analysis for its lost-to-follow-up participants, this is genuine reassurance that high attrition has not driven the finding — comparable loss rates across arms, <==20%== loss, or a sample size over 300 do **NOT**, on their own, provide this reassurance.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 29
+          }
+        },
+        {
+          "type": "table",
+          "title": "Further missing/drop-out data methods",
+          "columns": [
+            "Method",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Hot-deck imputation",
+              "Borrow a similar person's score"
+            ],
+            [
+              "Multiple regression",
+              "Predict missing values from other variables"
+            ],
+            [
+              "Growth curve analysis",
+              "Fit a line/curve per subject — needs 2+ follow-up points"
+            ],
+            [
+              "Random-effects modelling",
+              "Allows intercept/slope to vary by person, so drop-outs' trajectories need not match completers'"
+            ],
+            [
+              "Multiple imputation",
+              "Maximum-likelihood/Monte Carlo methods — a sensitivity analysis is recommended whenever data are imputed"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Treatment-received (**TR**) analysis groups participants by the treatment they actually took rather than their randomised allocation — this undoes the benefit of random allocation via contamination, unlike per-protocol analysis.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
+        }
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Intention-to-treat (ITT)",
+            "value": "Counts every participant in the group they were randomised to, regardless of adherence — conservative, generalisable, preferred default",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 23,
+              "questionNumber": 12
+            }
+          },
+          {
+            "label": "Per-protocol (PP)",
+            "value": "Only participants who adequately complied ('on-treatment') — the intentional antithesis of ITT, suits biological-efficacy questions",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 15
+            }
           }
         ],
         "bullets": [
           {
-            "text": "Comparing incidence rates across time periods requires an appropriately specified denominator (e.g. mid-period population) — omitting this invalidates the comparison.",
+            "text": "Reporting the number improved out of **ALL** participants originally randomised (not just those who completed follow-up) is precisely what defines an ITT analysis.",
             "source": {
-              "file": "question_bank/Research Methods/Study Design_ Attempt review.pdf",
-              "page": 2,
-              "questionNumber": 2
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 24,
+              "questionNumber": 13
+            }
+          },
+          {
+            "text": "LOCF is problematic for conditions with a natural remitting course — being 'too good' for controls and 'too stringent' for the patient group.",
+            "source": {
+              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 12
+            }
+          },
+          {
+            "text": "A positive trial result that still holds under a worst-case-scenario sensitivity analysis is genuine reassurance against attrition — comparable loss rates across arms, <==20%== loss, or n>300 alone do **NOT** provide this reassurance.",
+            "source": {
+              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+              "page": 40,
+              "questionNumber": 29
             }
           }
+        ],
+        "highlightBlockIndices": [
+          3,
+          4,
+          9
+        ]
+      }
+    },
+    {
+      "id": "n-of-1-trial",
+      "title": "4. N of 1 Trial",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "N-of-1 **RCT**: a single participant is given (typically) both/all interventions in succession under blinded conditions — this optimises treatment for that one individual but the result cannot be generalised to other patients.",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 18
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [],
+        "facts": [],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "confounding-effect-modification-causality",
+      "title": "5. Causality & Confounding",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A confounder is a third variable that must be related to **BOTH** exposure and outcome (and not lie on the causal pathway being investigated) — restriction, randomisation, standardisation, stratification and matching are the ways to eliminate its effect.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Confounder-control methods — design-stage vs analysis-stage",
+          "mnemonic": "ARMS before, Regress after",
+          "expansion": [
+            "A = Randomisation (before data collection)",
+            "R = Restriction (before)",
+            "M = Matching (before)",
+            "S = Stratification / Standardisation (before)",
+            "Regress = Regression / multivariate adjustment is the only method usable **AFTER** data are collected"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Regression/multivariate adjustment is the one confounder-control method that can only be applied at the analysis stage, after data collection — restriction, randomisation, and stratification must all be built into the study design beforehand.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Temporal association between cause and outcome is the one Hill criterion that a retrospective case-control design cannot itself establish — this is precisely why cohort (or experimental) designs are considered stronger for demonstrating this aspect of causality.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A confounder can distort an association only if it is unevenly distributed between exposed and unexposed groups — this is precisely why randomisation controls confounding, even though randomisation does not eliminate confounders as such.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "To distinguish a confounder from an effect modifier, compare the crude (unstratified) relative risk against the Mantel-Haenszel-adjusted (stratified) relative risk: if crude ≈ adjusted, the factor is not a confounder; if the **RR** differs materially between strata (subgroups), the factor is an effect modifier. A factor can be both.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The Mantel-Haenszel method is the standard technique for stratified analysis of odds ratios in the presence of confounding.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Blinding is **NOT** a method for minimising confounding in a case-control study — randomisation, restriction, matching (design-stage) and stratified analysis/regression (analysis-stage) are.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The defining difference between an experimental and an observational study is that the researcher controls the subjects' exposure in an experimental study — both require ethical approval, and observational cohort studies can still be prospective.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Matching on shared factors is realistic mainly for smaller studies (e.g. a case-control study of ~30 per group) — it is not practical for large cohort studies, RCTs, ecological studies, or cross-sectional surveys.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "As tested in this question bank, the criteria for causality are temporality, dose-response ('biological gradient'), specificity, consistency, and biological plausibility (plus strength of association) — 'sensitivity' is explicitly **NOT** one of them (Hill **AB**, 1965).",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Bradford Hill's criteria for causality (as tested in this question bank: temporality, dose-response, specificity, consistency, plausibility, strength)",
+          "mnemonic": "Ten Dogs Sit Calmly, Purring Softly",
+          "expansion": [
+            "Ten = Temporal association (cause precedes effect)",
+            "Dogs = Dose-response (biological gradient)",
+            "Sit = Specificity of association",
+            "Calmly = Consistency across studies/settings",
+            "Purring = Plausibility (biological)",
+            "Softly = Strength of association"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Absence of a dose-response relationship does **NOT** rule out a real causal relationship: possible explanations include a genuine threshold effect, all tested doses lying outside the effective 'window' (too low or too high), a confounder masking the effect, or chance/random variation.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Absence of a dose-response relationship does **NOT** disprove causality: a genuine threshold effect, doses tested outside the effective 'window', an unmeasured confounder, or chance can all mask a truly causal dose-response relationship.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Stratification is the one listed method that can evaluate **BOTH** confounders and effect modifiers within the same analysis.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Worked example: crude **RR** = 5.0 for bullying and adult depression; strata RRs of 7.0/3.0/1.5 by parental socioeconomic class differ materially from each other, while the Mantel-Haenszel-adjusted **RR** (3.0) is close to the crude **RR** — the correct conclusion is that risk is modified by socioeconomic status (an effect modifier), and the reportable headline figure is the adjusted **RR** (3), not an average or sum across strata.",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Restriction as a confounder-control method means limiting the study population to a group that lacks the confounding exposure altogether (e.g. studying alcohol's effect on **REM** sleep only in subjects who do not use cannabis or nicotine).",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Using healthy relatives as controls in a case-control study reduces bias/confounding from factors genuinely shared within families — but risks 'overmatching' (losing the ability to demonstrate a true causal association) if the risk factor under study is itself genetic or otherwise familial.",
+          "source": {
+            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Using healthy relatives as case-control study controls is a double-edged design choice: it reduces confounding from genuinely family-shared factors, but risks 'overmatching' — losing the ability to demonstrate a true causal association — if the risk factor itself is genetic or otherwise familial.",
+          "format": "SBA",
+          "source": {
+            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Regression/multivariate adjustment is the **ONLY** confounder-control method from the standard list that can be applied at the analysis stage, after data collection — restriction, randomisation, stratification, and matching must all be designed into the study beforehand.",
+              "source": {
+                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Randomisation does not eliminate confounders — it only ensures they are distributed evenly enough between groups that they cannot distort the comparison. A confounder only distorts results if it is **UNEVENLY** distributed.",
+              "source": {
+                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "When strata differ from one another (an effect modifier is present), the reportable headline result is the Mantel-Haenszel-**ADJUSTED** rate — never a simple average or sum of the individual stratum-specific rates.",
+              "source": {
+                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "'Sensitivity' is a deliberate distractor among Hill's causality criteria — it is explicitly **NOT** one of them; the tested list is temporality, dose-response, specificity, consistency, and biological plausibility.",
+              "source": {
+                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Koch's postulates (for infectious-disease causality specifically): the agent must be present in every case (consistency); absent in other diseases (specificity); reproduce the disease experimentally; and be recoverable from the experimental disease. Not generalisable to non-infectious illness — Susser's criteria (grouped into 5 categories, 3 considered essential) are the broader alternative.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Rothman's sufficient-component model treats a 'cause' as usually a minimal set of conditions (a sufficient cause/'causal pie') rather than one factor; each component is a component cause, and one that must appear in every sufficient cause is a necessary cause (e.g. H. pylori for gastric ulcer — necessary but not sufficient alone). MacMahon & Pugh's 'web of causation' (1960) describes the mutual, direct/indirect interactions among risk factors; Murray & Lopez extended this into a hierarchical model separating proximal (mechanistic) from distal (empirical) risk factors.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A positive study result can be explained by: (1) selection bias between groups; (2) measurement bias; (3) confounding causing an indirect association; (4) chance (type 1 error); (5) a genuine causal association.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
+        }
+      ],
+      "concise": {
+        "facts": [
+          {
+            "label": "Confounder",
+            "value": "A third variable related to **BOTH** exposure and outcome, not on the causal pathway — controlled by restriction, randomisation, standardisation, stratification, matching",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 1,
+              "questionNumber": 1
+            }
+          },
+          {
+            "label": "Mantel-Haenszel method",
+            "value": "Standard technique for stratified analysis of odds ratios in the presence of confounding",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 6
+            }
+          },
+          {
+            "label": "Restriction",
+            "value": "Limiting the study population to a group that lacks the confounding exposure altogether",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 14
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Temporal association is the one Hill criterion a retrospective case-control design **CANNOT** itself establish — cohort/experimental designs are stronger for this.",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 3
+            }
+          },
+          {
+            "text": "To distinguish a confounder from an effect modifier: compare crude vs Mantel-Haenszel-adjusted RR — crude ≈ adjusted means not a confounder; RR differing materially between strata means effect modifier. A factor can be both.",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 5
+            }
+          },
+          {
+            "text": "Blinding is **NOT** a method for minimising confounding — randomisation, restriction, matching (design-stage) and stratified analysis/regression (analysis-stage) are.",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 7,
+              "questionNumber": 7
+            }
+          },
+          {
+            "text": "The defining difference between experimental and observational studies: the researcher controls exposure in an experimental study — both need ethical approval, and cohorts can still be prospective.",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 8,
+              "questionNumber": 8
+            }
+          },
+          {
+            "text": "Matching is realistic mainly for smaller studies (e.g. ~30/group case-control) — not practical for large cohorts, RCTs, ecological, or cross-sectional studies.",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 9
+            }
+          },
+          {
+            "text": "Stratification is the one listed method that can evaluate **BOTH** confounders and effect modifiers within the same analysis.",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 12,
+              "questionNumber": 12
+            }
+          },
+          {
+            "text": "Worked example: crude RR=5.0, strata RRs 7.0/3.0/1.5 differ materially (effect modification by socioeconomic status) while the MH-adjusted RR (3.0) ≈ crude — report the adjusted RR, never an average/sum of strata.",
+            "source": {
+              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 13
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          11,
+          13,
+          18,
+          19
         ]
       }
     },
     {
       "id": "bias-in-research",
-      "title": "3. Bias in Research",
+      "title": "6. Bias",
       "blocks": [
         {
           "type": "paragraph",
@@ -905,1245 +2194,8 @@
       }
     },
     {
-      "id": "confounding-effect-modification-causality",
-      "title": "4. Confounding, Effect Modification & Causality",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "A confounder is a third variable that must be related to **BOTH** exposure and outcome (and not lie on the causal pathway being investigated) — restriction, randomisation, standardisation, stratification and matching are the ways to eliminate its effect.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 1,
-            "questionNumber": 1
-          }
-        },
-        {
-          "type": "mnemonic",
-          "forTopic": "Confounder-control methods — design-stage vs analysis-stage",
-          "mnemonic": "ARMS before, Regress after",
-          "expansion": [
-            "A = Randomisation (before data collection)",
-            "R = Restriction (before)",
-            "M = Matching (before)",
-            "S = Stratification / Standardisation (before)",
-            "Regress = Regression / multivariate adjustment is the only method usable **AFTER** data are collected"
-          ],
-          "sourced": false
-        },
-        {
-          "type": "paragraph",
-          "text": "Regression/multivariate adjustment is the one confounder-control method that can only be applied at the analysis stage, after data collection — restriction, randomisation, and stratification must all be built into the study design beforehand.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 2,
-            "questionNumber": 2
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Temporal association between cause and outcome is the one Hill criterion that a retrospective case-control design cannot itself establish — this is precisely why cohort (or experimental) designs are considered stronger for demonstrating this aspect of causality.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 3,
-            "questionNumber": 3
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A confounder can distort an association only if it is unevenly distributed between exposed and unexposed groups — this is precisely why randomisation controls confounding, even though randomisation does not eliminate confounders as such.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 4,
-            "questionNumber": 4
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "To distinguish a confounder from an effect modifier, compare the crude (unstratified) relative risk against the Mantel-Haenszel-adjusted (stratified) relative risk: if crude ≈ adjusted, the factor is not a confounder; if the **RR** differs materially between strata (subgroups), the factor is an effect modifier. A factor can be both.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 5,
-            "questionNumber": 5
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "The Mantel-Haenszel method is the standard technique for stratified analysis of odds ratios in the presence of confounding.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 6,
-            "questionNumber": 6
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Blinding is **NOT** a method for minimising confounding in a case-control study — randomisation, restriction, matching (design-stage) and stratified analysis/regression (analysis-stage) are.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 7,
-            "questionNumber": 7
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "The defining difference between an experimental and an observational study is that the researcher controls the subjects' exposure in an experimental study — both require ethical approval, and observational cohort studies can still be prospective.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 8,
-            "questionNumber": 8
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Matching on shared factors is realistic mainly for smaller studies (e.g. a case-control study of ~30 per group) — it is not practical for large cohort studies, RCTs, ecological studies, or cross-sectional surveys.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 9,
-            "questionNumber": 9
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "As tested in this question bank, the criteria for causality are temporality, dose-response ('biological gradient'), specificity, consistency, and biological plausibility (plus strength of association) — 'sensitivity' is explicitly **NOT** one of them (Hill **AB**, 1965).",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 10,
-            "questionNumber": 10
-          }
-        },
-        {
-          "type": "mnemonic",
-          "forTopic": "Bradford Hill's criteria for causality (as tested in this question bank: temporality, dose-response, specificity, consistency, plausibility, strength)",
-          "mnemonic": "Ten Dogs Sit Calmly, Purring Softly",
-          "expansion": [
-            "Ten = Temporal association (cause precedes effect)",
-            "Dogs = Dose-response (biological gradient)",
-            "Sit = Specificity of association",
-            "Calmly = Consistency across studies/settings",
-            "Purring = Plausibility (biological)",
-            "Softly = Strength of association"
-          ],
-          "sourced": false
-        },
-        {
-          "type": "paragraph",
-          "text": "Absence of a dose-response relationship does **NOT** rule out a real causal relationship: possible explanations include a genuine threshold effect, all tested doses lying outside the effective 'window' (too low or too high), a confounder masking the effect, or chance/random variation.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 11,
-            "questionNumber": 11
-          }
-        },
-        {
-          "type": "trap",
-          "text": "Absence of a dose-response relationship does **NOT** disprove causality: a genuine threshold effect, doses tested outside the effective 'window', an unmeasured confounder, or chance can all mask a truly causal dose-response relationship.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 11,
-            "questionNumber": 11
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Stratification is the one listed method that can evaluate **BOTH** confounders and effect modifiers within the same analysis.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 12,
-            "questionNumber": 12
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Worked example: crude **RR** = 5.0 for bullying and adult depression; strata RRs of 7.0/3.0/1.5 by parental socioeconomic class differ materially from each other, while the Mantel-Haenszel-adjusted **RR** (3.0) is close to the crude **RR** — the correct conclusion is that risk is modified by socioeconomic status (an effect modifier), and the reportable headline figure is the adjusted **RR** (3), not an average or sum across strata.",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 13,
-            "questionNumber": 13
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Restriction as a confounder-control method means limiting the study population to a group that lacks the confounding exposure altogether (e.g. studying alcohol's effect on **REM** sleep only in subjects who do not use cannabis or nicotine).",
-          "source": {
-            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-            "page": 14,
-            "questionNumber": 14
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Using healthy relatives as controls in a case-control study reduces bias/confounding from factors genuinely shared within families — but risks 'overmatching' (losing the ability to demonstrate a true causal association) if the risk factor under study is itself genetic or otherwise familial.",
-          "source": {
-            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
-            "page": 3,
-            "questionNumber": 3
-          }
-        },
-        {
-          "type": "trap",
-          "text": "Using healthy relatives as case-control study controls is a double-edged design choice: it reduces confounding from genuinely family-shared factors, but risks 'overmatching' — losing the ability to demonstrate a true causal association — if the risk factor itself is genetic or otherwise familial.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
-            "page": 3,
-            "questionNumber": 3
-          }
-        },
-        {
-          "type": "trap-list",
-          "title": "MCQ Traps — Remember These!",
-          "items": [
-            {
-              "text": "Regression/multivariate adjustment is the **ONLY** confounder-control method from the standard list that can be applied at the analysis stage, after data collection — restriction, randomisation, stratification, and matching must all be designed into the study beforehand.",
-              "source": {
-                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 2
-              }
-            },
-            {
-              "text": "Randomisation does not eliminate confounders — it only ensures they are distributed evenly enough between groups that they cannot distort the comparison. A confounder only distorts results if it is **UNEVENLY** distributed.",
-              "source": {
-                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 4
-              }
-            },
-            {
-              "text": "When strata differ from one another (an effect modifier is present), the reportable headline result is the Mantel-Haenszel-**ADJUSTED** rate — never a simple average or sum of the individual stratum-specific rates.",
-              "source": {
-                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 13
-              }
-            },
-            {
-              "text": "'Sensitivity' is a deliberate distractor among Hill's causality criteria — it is explicitly **NOT** one of them; the tested list is temporality, dose-response, specificity, consistency, and biological plausibility.",
-              "source": {
-                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Koch's postulates (for infectious-disease causality specifically): the agent must be present in every case (consistency); absent in other diseases (specificity); reproduce the disease experimentally; and be recoverable from the experimental disease. Not generalisable to non-infectious illness — Susser's criteria (grouped into 5 categories, 3 considered essential) are the broader alternative.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 17
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Rothman's sufficient-component model treats a 'cause' as usually a minimal set of conditions (a sufficient cause/'causal pie') rather than one factor; each component is a component cause, and one that must appear in every sufficient cause is a necessary cause (e.g. H. pylori for gastric ulcer — necessary but not sufficient alone). MacMahon & Pugh's 'web of causation' (1960) describes the mutual, direct/indirect interactions among risk factors; Murray & Lopez extended this into a hierarchical model separating proximal (mechanistic) from distal (empirical) risk factors.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 22
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A positive study result can be explained by: (1) selection bias between groups; (2) measurement bias; (3) confounding causing an indirect association; (4) chance (type 1 error); (5) a genuine causal association.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 22
-          }
-        }
-      ],
-      "concise": {
-        "facts": [
-          {
-            "label": "Confounder",
-            "value": "A third variable related to **BOTH** exposure and outcome, not on the causal pathway — controlled by restriction, randomisation, standardisation, stratification, matching",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 1,
-              "questionNumber": 1
-            }
-          },
-          {
-            "label": "Mantel-Haenszel method",
-            "value": "Standard technique for stratified analysis of odds ratios in the presence of confounding",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 6,
-              "questionNumber": 6
-            }
-          },
-          {
-            "label": "Restriction",
-            "value": "Limiting the study population to a group that lacks the confounding exposure altogether",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 14
-            }
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Temporal association is the one Hill criterion a retrospective case-control design **CANNOT** itself establish — cohort/experimental designs are stronger for this.",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 3,
-              "questionNumber": 3
-            }
-          },
-          {
-            "text": "To distinguish a confounder from an effect modifier: compare crude vs Mantel-Haenszel-adjusted RR — crude ≈ adjusted means not a confounder; RR differing materially between strata means effect modifier. A factor can be both.",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 5,
-              "questionNumber": 5
-            }
-          },
-          {
-            "text": "Blinding is **NOT** a method for minimising confounding — randomisation, restriction, matching (design-stage) and stratified analysis/regression (analysis-stage) are.",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 7,
-              "questionNumber": 7
-            }
-          },
-          {
-            "text": "The defining difference between experimental and observational studies: the researcher controls exposure in an experimental study — both need ethical approval, and cohorts can still be prospective.",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 8,
-              "questionNumber": 8
-            }
-          },
-          {
-            "text": "Matching is realistic mainly for smaller studies (e.g. ~30/group case-control) — not practical for large cohorts, RCTs, ecological, or cross-sectional studies.",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 9,
-              "questionNumber": 9
-            }
-          },
-          {
-            "text": "Stratification is the one listed method that can evaluate **BOTH** confounders and effect modifiers within the same analysis.",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 12,
-              "questionNumber": 12
-            }
-          },
-          {
-            "text": "Worked example: crude RR=5.0, strata RRs 7.0/3.0/1.5 differ materially (effect modification by socioeconomic status) while the MH-adjusted RR (3.0) ≈ crude — report the adjusted RR, never an average/sum of strata.",
-            "source": {
-              "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-              "page": 13,
-              "questionNumber": 13
-            }
-          }
-        ],
-        "highlightBlockIndices": [
-          1,
-          11,
-          13,
-          18,
-          19
-        ]
-      }
-    },
-    {
-      "id": "rct-design-randomisation-blinding",
-      "title": "5. RCT Design, Randomisation & Blinding",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Parallel-design **RCT**: each group is exposed to only one of the interventions being compared (the default, most common **RCT** design).",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 18,
-            "questionNumber": 10
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Crossover-design **RCT**: each participant receives all interventions in succession, with the order randomly generated — this within-participant comparison needs fewer participants than a parallel design because each subject also serves as their own control, but it is unsuited to designs needing long or irreversible follow-up periods.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 18,
-            "questionNumber": 10
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Factorial-design **RCT**: two or more experimental interventions are evaluated both separately and in combination against a control.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 18,
-            "questionNumber": 10
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Worked factorial-**RCT** example: antidepressant alone vs antipsychotic alone vs antidepressant+antipsychotic vs neither (placebo), for psychotic depression, is a factorial design; a costly intervention compared to placebo where recruiting as few participants as possible matters is best served by a crossover design; and comparing a new drug's side-effect profile to an established drug is a standard parallel **RCT**.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 10,
-            "questionNumber": 6
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "N-of-1 **RCT**: a single participant is given (typically) both/all interventions in succession under blinded conditions — this optimises treatment for that one individual but the result cannot be generalised to other patients.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 29,
-            "questionNumber": 18
-          }
-        },
-        {
-          "type": "table",
-          "title": "Types of RCT design",
-          "columns": [
-            "Design",
-            "Description",
-            "Key feature"
-          ],
-          "rows": [
-            [
-              "Parallel",
-              "Each group is exposed to only one intervention",
-              "Most common design; between-participant comparison"
-            ],
-            [
-              "Crossover",
-              "Each participant receives all interventions in succession, order randomised",
-              "Within-participant comparison; needs fewer participants"
-            ],
-            [
-              "Factorial",
-              "Two or more interventions evaluated separately **AND** in combination against a control",
-              "Tests main effects plus a combination effect (e.g. antidepressant vs antipsychotic vs both vs neither)"
-            ],
-            [
-              "N-of-1",
-              "A single participant receives interventions in sequence under blinded conditions",
-              "Optimises one individual's regimen; not generalisable to other patients"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 18,
-              "questionNumber": 10
-            },
-            {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 10,
-              "questionNumber": 6
-            },
-            {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 29,
-              "questionNumber": 18
-            }
-          ],
-          "highYield": true
-        },
-        {
-          "type": "mnemonic",
-          "forTopic": "Types of RCT design",
-          "mnemonic": "P-C-F-N",
-          "expansion": [
-            "P = Parallel — each group gets only one intervention",
-            "C = Crossover — each participant gets all interventions in sequence",
-            "F = Factorial — interventions tested separately **AND** combined",
-            "N = N-of-1 — a trial with a single participant"
-          ],
-          "sourced": false
-        },
-        {
-          "type": "paragraph",
-          "text": "A non-randomised controlled trial still has a genuine control arm, but allocation is not random (e.g. alternating consecutive patients between two treatments) — this is distinct from a pragmatic **RCT**, which remains randomised.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 41,
-            "questionNumber": 30
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A quasi-experimental study shares the structure of a true experiment but lacks random assignment of participants to intervention groups (e.g. clinicians choosing freely between two formulations based on clinical judgement).",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 37,
-            "questionNumber": 26
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Historical controlled trial: the comparison group's data come from a period before the new intervention was introduced, rather than being collected in parallel — a simple before-and-after study extends this to a single group compared against its own past; an interrupted time series takes repeated measurements before and after the 'interruption'; a controlled before-and-after study adds a genuine second group also measured before and after.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 5,
-            "questionNumber": 2
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Block randomisation allocates in specified-size blocks (e.g. of 6) to keep group sizes close to equal — the larger the block size, the harder it is to predict the next allocation.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 17,
-            "questionNumber": 6
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Stratified randomisation classifies participants into subgroups (e.g. by sex, trauma type, baseline severity score) and randomises within each subgroup — used especially with small samples to avoid an accidental skew of an influential variable; note that this deliberately makes those specific baseline characteristics **NOT** purely randomly distributed.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 19,
-            "questionNumber": 8
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Cluster randomisation randomises at the level of a site/group (e.g. **GP** practices, cities) rather than the individual patient — everyone within an allocated cluster receives the same arm; one major reason for this design is to avoid contamination between arms.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 16,
-            "questionNumber": 9
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Minimisation is a scheme in which each new participant's allocation depends on the characteristics of those already allocated, aiming to balance prognostic factors between groups — it is considered inferior to true randomisation because the allocation process becomes somewhat predictable/manually 'controlled'.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 28,
-            "questionNumber": 17
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Quasi-randomisation (e.g. odd/even last digit of date of birth, day of the week seen) is **NOT** a proper randomisation method: it is not reproducible and cannot guarantee equal distribution of prognostic variables, even though allocation still occurs before the patient is formally assessed.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 18,
-            "questionNumber": 7
-          }
-        },
-        {
-          "type": "trap",
-          "text": "Odd/even birth-date or day-of-the-week 'randomisation' is quasi-randomisation, not true randomisation — it is not reproducible and cannot guarantee equal distribution of prognostic variables, even though allocation still technically occurs before the patient is examined.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 18,
-            "questionNumber": 7
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Allocation concealment means keeping the outcome of the **NEXT** randomised allocation unpredictable — typically achieved by having an independent third party (at a distant site, uninvolved in the study) generate and administer the random sequence. This is distinct from blinding, which conceals the arm **AFTER** allocation has already happened.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 20,
-            "questionNumber": 9
-          }
-        },
-        {
-          "type": "trap",
-          "text": "Allocation concealment (keeping the **NEXT** allocation unpredictable, usually via an independent third party) is a distinct safeguard from blinding (masking the arm **AFTER** allocation) — don't conflate the two when a vignette mentions a third party administering the randomisation sequence.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 20,
-            "questionNumber": 9
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Blinding levels: single-blind (participant unaware of their treatment), double-blind (participant and the investigator measuring outcomes both unaware — the most common form), triple-blind (participant, investigator(s), and the data analyst all unaware), open-label (no one blind).",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 21,
-            "questionNumber": 10
-          }
-        },
-        {
-          "type": "table",
-          "title": "Blinding levels in RCTs",
-          "columns": [
-            "Level",
-            "Who is blind to treatment allocation"
-          ],
-          "rows": [
-            [
-              "Single-blind",
-              "Participant only"
-            ],
-            [
-              "Double-blind",
-              "Participant + investigator measuring outcomes (most common)"
-            ],
-            [
-              "Triple-blind",
-              "Participant + investigator(s) + data analyst"
-            ],
-            [
-              "Open-label",
-              "No one"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 19,
-              "questionNumber": 11
-            },
-            {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 21,
-              "questionNumber": 10
-            }
-          ],
-          "highYield": true
-        },
-        {
-          "type": "mnemonic",
-          "forTopic": "Blinding levels in RCTs",
-          "mnemonic": "P-I-D",
-          "expansion": [
-            "Single-blind = Participant only",
-            "Double-blind = Participant + Investigator (outcome assessor)",
-            "Triple-blind = Participant + Investigator + Data-analyst",
-            "Open-label = none of the above blinded"
-          ],
-          "sourced": false
-        },
-        {
-          "type": "paragraph",
-          "text": "Blinding chiefly reduces measurement/observer bias, not selection bias — including investigator-guessing effects such as exposure-suspicion/ascertainment bias when an unblinded rater unconsciously rates improvement more favourably.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 22,
-            "questionNumber": 11
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Sequential **RCT**: participants are recruited into each group until the investigators can clearly determine a difference (or lack of difference) between groups — sample size is not fixed a priori, analysis is done at intervals, and the trial is stopped by a pre-specified stopping rule, which can lower overall trial cost.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 19,
-            "questionNumber": 11
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Randomisation does **NOT** guarantee a study is free of confounders (only that confounders are more evenly distributed across groups); it can be performed at a cluster as well as an individual level; and it does not automatically reduce generalisability — pragmatic RCTs are randomised yet remain highly generalisable.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 33,
-            "questionNumber": 22
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Concealment of allocation specifically refers to whether the **OUTCOME** of randomisation can be predicted in advance.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 33,
-            "questionNumber": 22
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A large sample size does not remove the need for randomisation, and randomisation itself does not automatically ensure precision of estimates — a large sample chiefly buys representativeness, while precision depends on the number of observations and proper sampling technique.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 34,
-            "questionNumber": 23
-          }
-        },
-        {
-          "type": "trap",
-          "text": "A large sample size chiefly buys representativeness — it is not a substitute for randomisation, and randomisation itself does not automatically guarantee precision of estimates; these are three separate statistical properties frequently bundled together as distractors in the same question.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 34,
-            "questionNumber": 23
-          }
-        },
-        {
-          "type": "table",
-          "title": "Further special RCT types",
-          "columns": [
-            "Type",
-            "Description"
-          ],
-          "rows": [
-            [
-              "Patient preference trial",
-              "Those with a strong preference get their choice; only the equivocal are randomised — primary analysis stays restricted to the randomised group"
-            ],
-            [
-              "Zelen's design",
-              "Randomise before consent — the MRC does not accept this as ethical"
-            ],
-            [
-              "Non-inferiority / equivalence trial",
-              "Null hypothesis is reversed ('there **IS** a significant difference') and requires a larger sample size than a superiority trial at equal power"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "books/15-1-statistics.pdf",
-              "page": 7
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Efficiency (distinct from effectiveness and efficacy) additionally asks whether resources are used to maximise value for money.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 7
-          }
-        }
-      ],
-      "concise": {
-        "facts": [
-          {
-            "label": "Non-randomised controlled trial",
-            "value": "Genuine control arm, but allocation is not random (e.g. alternating consecutive patients) — distinct from a pragmatic RCT, which remains randomised",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 41,
-              "questionNumber": 30
-            }
-          },
-          {
-            "label": "Quasi-experimental study",
-            "value": "Shares the structure of a true experiment but lacks random assignment (e.g. clinicians freely choosing between two formulations)",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 37,
-              "questionNumber": 26
-            }
-          },
-          {
-            "label": "Block randomisation",
-            "value": "Allocates in specified-size blocks (e.g. of 6) to keep group sizes close to equal — larger blocks are harder to predict",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 17,
-              "questionNumber": 6
-            }
-          },
-          {
-            "label": "Stratified randomisation",
-            "value": "Classifies into subgroups (sex, trauma type, baseline severity) and randomises within each — used with small samples to avoid skew",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 19,
-              "questionNumber": 8
-            }
-          },
-          {
-            "label": "Cluster randomisation",
-            "value": "Randomises at site/group level (GP practices, cities), not individual patient — mainly to avoid contamination between arms",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 16,
-              "questionNumber": 9
-            }
-          },
-          {
-            "label": "Minimisation",
-            "value": "New participant's allocation depends on characteristics of those already allocated — inferior to true randomisation as allocation becomes predictable",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 28,
-              "questionNumber": 17
-            }
-          },
-          {
-            "label": "Allocation concealment",
-            "value": "Keeps the **NEXT** allocation unpredictable, typically via an independent third party — distinct from blinding, which conceals arm **AFTER** allocation",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 20,
-              "questionNumber": 9
-            }
-          },
-          {
-            "label": "Sequential RCT",
-            "value": "Recruits until a clear difference is determinable; sample size not fixed a priori, stopped by a pre-specified rule — can lower trial cost",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 19,
-              "questionNumber": 11
-            }
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Historical controlled trial = comparison data from before the intervention; before-and-after study = single group vs its own past; interrupted time series = repeated pre/post measurements; controlled before-and-after = adds a genuine second group also measured pre/post.",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 5,
-              "questionNumber": 2
-            }
-          },
-          {
-            "text": "Blinding chiefly reduces measurement/observer bias, **NOT** selection bias.",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 22,
-              "questionNumber": 11
-            }
-          },
-          {
-            "text": "Randomisation does **NOT** guarantee freedom from confounders (only more even distribution), can be done at a cluster level, and does not automatically reduce generalisability — pragmatic RCTs are randomised yet highly generalisable.",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 33,
-              "questionNumber": 22
-            }
-          },
-          {
-            "text": "A large sample size chiefly buys representativeness — it is **NOT** a substitute for randomisation, and randomisation itself does not automatically guarantee precision.",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 34,
-              "questionNumber": 23
-            }
-          }
-        ],
-        "highlightBlockIndices": [
-          5,
-          6,
-          15,
-          17,
-          19,
-          20,
-          26
-        ]
-      }
-    },
-    {
-      "id": "analysing-rcts-itt-pp-missing-data",
-      "title": "6. Analysing RCTs — Intention-to-Treat, Per-Protocol & Missing Data",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Intention-to-treat (**ITT**) analysis counts every participant in the group to which they were originally randomised, regardless of adherence or discontinuation — this gives a conservative, generalisable/pragmatic estimate and is the preferred default way to report most **RCT** results.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 23,
-            "questionNumber": 12
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Reporting the number improved out of **ALL** participants originally randomised (e.g. all 100), rather than only those who completed follow-up, is precisely what defines an intention-to-treat analysis.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 24,
-            "questionNumber": 13
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Per-protocol (**PP**) analysis includes only participants who adequately complied with the trial protocol ('on-treatment' analysis) — the intentional antithesis of **ITT**; it suits questions about a drug's biological efficacy rather than its real-world effectiveness, and is often used as a secondary analysis within effectiveness trials.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 26,
-            "questionNumber": 15
-          }
-        },
-        {
-          "type": "trap",
-          "text": "Per-protocol analysis is not simply 'a stricter **ITT**' — it deliberately answers a different question (biological efficacy in fully compliant patients) and is the intentional antithesis of intention-to-treat, which answers the real-world effectiveness question.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 26,
-            "questionNumber": 15
-          }
-        },
-        {
-          "type": "comparison",
-          "title": "Intention-to-Treat vs Per-Protocol Analysis",
-          "columns": [
-            "Feature",
-            "Intention-to-treat (ITT)",
-            "Per-protocol (PP)"
-          ],
-          "rows": [
-            [
-              "Who is included",
-              "Every participant in the group to which they were originally randomised, regardless of adherence/discontinuation",
-              "Only participants who adequately complied with the trial protocol ('on-treatment')"
-            ],
-            [
-              "Question answered",
-              "Real-world effectiveness — a conservative, generalisable/pragmatic estimate",
-              "Biological efficacy in fully compliant patients"
-            ],
-            [
-              "Typical role",
-              "Preferred default way to report most RCT results",
-              "Often used as a secondary analysis within effectiveness trials"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 23,
-              "questionNumber": 12
-            },
-            {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 24,
-              "questionNumber": 13
-            },
-            {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 26,
-              "questionNumber": 15
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Worst-case-scenario imputation assumes drop-outs in the active arm had negative outcomes and drop-outs in the control arm had positive outcomes.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 20,
-            "questionNumber": 12
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Last observation carried forward (**LOCF**) assumes the last recorded rating-scale score is carried forward unchanged to the end of the trial — this only suits longitudinal continuous-scale data, and is problematic for conditions with a natural remitting course, being 'too good' for controls and 'too stringent' for the patient group.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 20,
-            "questionNumber": 12
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Mean imputation assumes a drop-out's missing score equals the average score for their own treatment group.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 20,
-            "questionNumber": 12
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "**LOCF** specifically substitutes the most recent available rating (e.g. the 3rd-month **HAMD**/**MADRS** score) forward through all remaining scheduled assessments for a participant lost to follow-up.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 25,
-            "questionNumber": 14
-          }
-        },
-        {
-          "type": "table",
-          "title": "Intention-to-treat missing-data imputation methods",
-          "columns": [
-            "Method",
-            "Assumption made about missing/dropout data"
-          ],
-          "rows": [
-            [
-              "Worst-case scenario",
-              "Active-arm dropouts assumed to have a negative outcome; control-arm dropouts assumed to have a positive outcome"
-            ],
-            [
-              "Last observation carried forward (**LOCF**)",
-              "The last recorded scale score is carried forward unchanged to the end of the trial"
-            ],
-            [
-              "Mean imputation",
-              "The dropout's missing score is assumed equal to their own group's average score"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 20,
-              "questionNumber": 12
-            },
-            {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 25,
-              "questionNumber": 14
-            }
-          ],
-          "highYield": true
-        },
-        {
-          "type": "paragraph",
-          "text": "If a positive trial result (favouring active treatment) still holds even under a worst-case-scenario sensitivity analysis for its lost-to-follow-up participants, this is genuine reassurance that high attrition has not driven the finding — comparable loss rates across arms, <==20%== loss, or a sample size over 300 do **NOT**, on their own, provide this reassurance.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 40,
-            "questionNumber": 29
-          }
-        },
-        {
-          "type": "table",
-          "title": "Further missing/drop-out data methods",
-          "columns": [
-            "Method",
-            "Description"
-          ],
-          "rows": [
-            [
-              "Hot-deck imputation",
-              "Borrow a similar person's score"
-            ],
-            [
-              "Multiple regression",
-              "Predict missing values from other variables"
-            ],
-            [
-              "Growth curve analysis",
-              "Fit a line/curve per subject — needs 2+ follow-up points"
-            ],
-            [
-              "Random-effects modelling",
-              "Allows intercept/slope to vary by person, so drop-outs' trajectories need not match completers'"
-            ],
-            [
-              "Multiple imputation",
-              "Maximum-likelihood/Monte Carlo methods — a sensitivity analysis is recommended whenever data are imputed"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "books/15-1-statistics.pdf",
-              "page": 17
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Treatment-received (**TR**) analysis groups participants by the treatment they actually took rather than their randomised allocation — this undoes the benefit of random allocation via contamination, unlike per-protocol analysis.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 17
-          }
-        }
-      ],
-      "concise": {
-        "facts": [
-          {
-            "label": "Intention-to-treat (ITT)",
-            "value": "Counts every participant in the group they were randomised to, regardless of adherence — conservative, generalisable, preferred default",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 23,
-              "questionNumber": 12
-            }
-          },
-          {
-            "label": "Per-protocol (PP)",
-            "value": "Only participants who adequately complied ('on-treatment') — the intentional antithesis of ITT, suits biological-efficacy questions",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 26,
-              "questionNumber": 15
-            }
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Reporting the number improved out of **ALL** participants originally randomised (not just those who completed follow-up) is precisely what defines an ITT analysis.",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 24,
-              "questionNumber": 13
-            }
-          },
-          {
-            "text": "LOCF is problematic for conditions with a natural remitting course — being 'too good' for controls and 'too stringent' for the patient group.",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 20,
-              "questionNumber": 12
-            }
-          },
-          {
-            "text": "A positive trial result that still holds under a worst-case-scenario sensitivity analysis is genuine reassurance against attrition — comparable loss rates across arms, <==20%== loss, or n>300 alone do **NOT** provide this reassurance.",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 40,
-              "questionNumber": 29
-            }
-          }
-        ],
-        "highlightBlockIndices": [
-          3,
-          4,
-          9
-        ]
-      }
-    },
-    {
-      "id": "trial-validity-pragmatic-surrogate-reporting",
-      "title": "7. Trial Validity — Pragmatic Trials, Surrogate Outcomes & Reporting Traps",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Pragmatic trials deliberately use looser eligibility criteria and less tightly controlled intervention parameters than explanatory trials, aiming to show how an intervention performs in real clinical practice rather than proving biological efficacy — the result is **HIGHER** external validity/generalisability than explanatory trials, not lower.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 32,
-            "questionNumber": 21
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "RCTs differ from natural clinical practice in numerous, simultaneous ways: specialist-centre recruitment, exclusion of comorbidity, deliberately homogeneous diagnostic groups, random (non-negotiated) treatment allocation, detailed informed consent, placebo comparison, more frequent follow-up/monitoring than usual care, detailed side-effect checklists, typically short (4-6 week) assessment endpoints, symptom-scale outcomes, and blinding of patient/clinician.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 30,
-            "questionNumber": 19
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A surrogate endpoint is a proxy measure substituted for the outcome of real clinical interest (e.g. using duration of untreated psychosis, **DUP**, as a stand-in for psychosis-related disability) — this is distinct from a secondary outcome measure, which tests a different, additional hypothesis.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 27,
-            "questionNumber": 16
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Stopping an **RCT** early because an interim analysis shows an apparently large treatment benefit risks **OVERESTIMATING** the true treatment effect — with fewer accumulated events, there is a greater chance that an extreme, chance-driven result triggers early stopping.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 35,
-            "questionNumber": 24
-          }
-        },
-        {
-          "type": "trap",
-          "text": "Stopping a trial early after an interim analysis shows a large apparent benefit tends to **OVERESTIMATE** the true treatment effect — this is a small-numbers/chance artefact, not evidence the intervention truly works even better than a completed trial would show.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 35,
-            "questionNumber": 24
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "In the traditional hierarchy of evidence for therapy questions, secondary research (systematic reviews/synthesis of RCTs) is given more weight than a single **RCT**, which in turn outweighs uncontrolled or non-experimental study designs.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 36,
-            "questionNumber": 25
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A survey's completion/response rate is **NOT** the same statistic as a study's statistical power — power is the ability to detect a true difference between groups, and cannot be inferred from response rates alone.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 8,
-            "questionNumber": 3
-          }
-        },
-        {
-          "type": "trap",
-          "text": "A survey's response/completion rate is **NOT** the same statistic as a study's statistical power — a vignette quoting ==74%==/==60%==/==88%== response rates across groups is testing whether you know power cannot be inferred from response rate alone.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 8,
-            "questionNumber": 3
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "When a results figure collapses 'agree' and 'strongly agree' into one headline comparison percentage (e.g. ==67%== vs ==24%==), that combined figure must not be read as if it were the proportion who answered 'strongly agree' alone — the actual 'strongly agree' bar can show a materially different (here, lower, ==30%==) value.",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 14,
-            "questionNumber": 5
-          }
-        },
-        {
-          "type": "trap",
-          "text": "When a results figure collapses 'agree' and 'strongly agree' into a single headline percentage (e.g. ==67%== vs ==24%==), that combined figure is **NOT** the same as the proportion who answered 'strongly agree' alone — read the individual bar, not the reported headline comparison.",
-          "format": "SBA",
-          "source": {
-            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-            "page": 14,
-            "questionNumber": 5
-          }
-        }
-      ],
-      "concise": {
-        "facts": [
-          {
-            "label": "Pragmatic trial",
-            "value": "Looser eligibility/intervention control than explanatory trials — **HIGHER** external validity/generalisability, not lower",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 32,
-              "questionNumber": 21
-            }
-          },
-          {
-            "label": "Surrogate endpoint",
-            "value": "A proxy measure substituted for the outcome of real clinical interest — distinct from a secondary outcome (a different, additional hypothesis)",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 27,
-              "questionNumber": 16
-            }
-          },
-          {
-            "label": "Hierarchy of evidence (therapy)",
-            "value": "Secondary research (systematic reviews) > single RCT > uncontrolled/non-experimental designs",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 36,
-              "questionNumber": 25
-            }
-          }
-        ],
-        "bullets": [
-          {
-            "text": "RCTs differ from real clinical practice in many simultaneous ways: specialist-centre recruitment, comorbidity exclusion, homogeneous diagnostic groups, random allocation, detailed consent, placebo comparison, closer monitoring, short assessment endpoints, symptom-scale outcomes, and blinding.",
-            "source": {
-              "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
-              "page": 30,
-              "questionNumber": 19
-            }
-          }
-        ],
-        "highlightBlockIndices": [
-          4,
-          7,
-          9
-        ]
-      }
-    },
-    {
       "id": "qualitative-research-methods",
-      "title": "8. Qualitative Research Methods",
+      "title": "7. Qualitative Studies",
       "blocks": [
         {
           "type": "paragraph",
@@ -2544,8 +2596,460 @@
       }
     },
     {
-      "id": "economic-evaluation",
-      "title": "9. Economic Evaluation",
+      "id": "secondary-research",
+      "title": "8. Secondary Research",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In secondary research, the unit of 'recruitment' is the individual completed primary study, not individual patients.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A narrative review is typically written by a field expert, synthesising evidence subjectively around key papers already familiar to the author, without a narrow/specific question — broad, easy to read, but higher risk of bias than a systematic review; still useful for introducing a topic or generating hypotheses.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The feature that distinguishes a narrative review from a systematic review is that its literature search is driven by the author's personal familiarity with the field rather than a reproducible, comprehensive search protocol.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "RCTs are the study design most frequently combined in meta-analysis; the **GIGO** principle ('garbage in, garbage out') means a meta-analysis of poor-quality primary studies is meaningless however sound its own statistical methods are.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Factors that determine meta-analysis/study quality include the nature of the patient sample, outcomes studied, length of follow-up, and comparability of the intervention (e.g. dosage) across studies, plus methodological rigour (randomisation adequacy, allocation concealment, **ITT** analysis, blinded outcome assessment) — the **MAGNITUDE** of a study's reported outcome is explicitly **NOT** a quality indicator.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Weighting of individual studies within a meta-analysis is based on sample size, precision of results, external validity, and methodological rigour — assigned independently of a study's outcome direction.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Methodological heterogeneity refers to different studies using genuinely different methodological approaches to the same underlying question (e.g. some studies dichotomising duration-of-untreated-psychosis into 'long/short', others correlating it continuously with outcome severity) — this is describable but does not itself need statistical quantification.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "When primary studies differ in methodology like this, the correct approach is to analyse the two sets of studies separately as two independent meta-analyses, rather than forcing them into a single pooled fixed- or random-effects estimate.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A fixed-effects model assumes all included studies share one common true treatment effect (valid only once statistical heterogeneity is excluded) and restricts inference to the studies included; a random-effects model assumes each study's true effect is drawn from a normal distribution around a mean, is used specifically when statistical heterogeneity is present, gives proportionally greater weight to smaller studies, and yields wider, less precise confidence intervals (making it more susceptible to publication bias).",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Fixed-effects vs Random-effects Meta-Analysis Model",
+          "columns": [
+            "Feature",
+            "Fixed-effects model",
+            "Random-effects model"
+          ],
+          "rows": [
+            [
+              "Core assumption",
+              "All included studies share one common true treatment effect",
+              "Each study's true effect is drawn from a normal distribution around a mean"
+            ],
+            [
+              "When valid/used",
+              "Valid only once statistical heterogeneity is excluded",
+              "Used specifically when statistical heterogeneity is present"
+            ],
+            [
+              "Weighting of smaller studies",
+              "—",
+              "Gives proportionally greater weight to smaller studies"
+            ],
+            [
+              "Confidence intervals",
+              "—",
+              "Wider, less precise"
+            ],
+            [
+              "Scope / publication-bias susceptibility",
+              "Restricts inference to the studies included",
+              "More susceptible to publication bias (as CIs are wider)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Funnel-plot asymmetry (specifically, the absence of small studies showing a negative/null result) is the classic sign of publication bias, though visual inspection alone is unreliable and formal statistical tests should be used to confirm true asymmetry.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Effect size, as used to pool data from studies using different measurement instruments, is the difference in mean outcome between intervention and control groups, expressed in units of the outcome's own standard deviation — this scale-free property is what makes cross-study pooling possible.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Grey literature — theses, unpublished conference abstracts, monographs and convention proceedings — is difficult to search systematically because it is not indexed in standard databases like Medline, PsycINFO, or the Cochrane Controlled Trials Register.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Publication bias is driven mainly by researchers failing to **SUBMIT** null or unimportant findings for publication (the 'file drawer problem'), rather than by editors/reviewers rejecting submitted manuscripts (Dickersin, Min & Meinert, **JAMA** 1992).",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Meta-analyses are needed chiefly because individual primary studies often lack sufficient statistical power for generalisable conclusions — not because pooling data automatically corrects for confounding, bias, or measurement error present in the originals (**GIGO** still applies).",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Gene Glass coined the term 'meta-analysis' in 1976, describing it as the 'analysis of analyses'.",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "A meta-analysis study's weighting depends on sample size, precision, external validity and methodological rigour — **NEVER** on the direction or magnitude of its reported outcome, which is a commonly offered but incorrect distractor.",
+              "source": {
+                "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 5
+              }
+            },
+            {
+              "text": "Publication bias is driven mainly by authors failing to **SUBMIT** null/unimportant findings (the 'file drawer problem'), not primarily by editors rejecting submitted manuscripts — a common misconception this question bank targets directly.",
+              "source": {
+                "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "When primary studies differ in underlying **METHODOLOGY** (not just in numeric spread) — e.g. some dichotomising an exposure while others treat it continuously — the correct response is to run two **SEPARATE** meta-analyses, not to force everything into one pooled fixed- or random-effects estimate.",
+              "source": {
+                "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Meta-analysis statistical mechanics (I-squared, Q-statistic, forest-plot construction)",
+          "note": "Resolved: heterogeneity typing/testing, effect-size measures (OR/RR/SMD/Cohen's d/Hedges' g), the fixed-vs-random-effects model/method pairing, and forest-plot construction mechanics are now covered above, sourced from books/15-1-statistics.pdf p.35 (added once that book was assigned to this topic)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A comprehensive literature search uses multiple databases (not MEDLINE/CINAHL alone), cross-checks reference lists, hand-searches, consults experts, and identifies grey literature (conference abstracts/posters). Individual-patient-data meta-analysis (contacting original authors for raw data) is more powerful than summary-data meta-analysis but far less often achievable.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Heterogeneity has 3 flavours: clinical (different but theoretically combinable interventions/populations — describable, not measurable), methodological (different study methods), and statistical (inconsistent quantitative results — testable via chi-square/Cochran's Q or I²). Rule of thumb: an average chi-square equals its degrees of freedom (n−1 studies); these tests have low power, so a non-significant result does **NOT** prove homogeneity.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Fixed-Effects vs Random-Effects Meta-Analysis Model",
+          "columns": [
+            "Feature",
+            "Fixed-effects model",
+            "Random-effects model"
+          ],
+          "rows": [
+            [
+              "Assumption",
+              "One common true effect across studies; ignores between-study variation",
+              "Each study has its own true effect, normally distributed around a mean"
+            ],
+            [
+              "Validity",
+              "Valid only if significant heterogeneity can be excluded",
+              "—"
+            ],
+            [
+              "Weighting",
+              "—",
+              "Gives smaller studies proportionally more weight"
+            ],
+            [
+              "Confidence interval width",
+              "Narrower",
+              "Wider (less precise)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Meta-analysis statistical model ↔ method pairing",
+          "columns": [
+            "Model",
+            "Method(s)"
+          ],
+          "rows": [
+            [
+              "Fixed effects",
+              "Mantel-Haenszel (**OR**, rate/risk ratios) or Peto (approximates **OR**) — neither adjusts for confounding"
+            ],
+            [
+              "Random effects",
+              "DerSimonian-Laird (ratios and rate differences)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/15-1-statistics.pdf",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Publication bias (significant/'positive' results are more likely published) produces an asymmetric funnel plot (effect size on x-axis, precision/sample size or 1/SE on y-axis). Failsafe N (Rosenthal & Cooper) estimates how many null-effect 'file drawer' studies would be needed to nullify an observed effect; the trim-and-fill procedure (Duval & Tweedie, 2000) imputes missing studies and recomputes the effect as a sensitivity check; cumulative meta-analysis (adding studies from largest/most precise to smallest) shows whether the pooled estimate shifts as smaller studies are added — a shift signals bias.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Effect-size measures: for dichotomous outcomes, **OR**/**RR** are preferred (less dependent on baseline risk than absolute risk); **OR** overestimates **RR** increasingly as event rates rise above ~==20%==, so **RR** is preferred in Cochrane reviews when events are common. For continuous outcomes: simple mean difference (**DM**) or standardised mean difference (**SMD** = DM / pooled SD), calculated as Cohen's d or Hedges' g (the latter corrects Cohen's d's small-sample bias).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Forest plot ('blobbogram') construction: each study is a blob/square (point estimate) sized by weight, with a horizontal line for its 95% CI; the pooled result is a diamond lozenge with minimal width (highest precision); a vertical 'line of no effect' sits at 1 for ratio measures (OR/RR) or 0 for mean-difference/SMD measures — a study whose CI line crosses the line of no effect is not statistically significant even if heavily weighted.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Reading a forest plot from a relapse-prevention meta-analysis: the pooled experimental event rate and pooled control event rate can be read directly off the plot; **NNT** is the reciprocal of the absolute risk reduction (**ARR**); relative benefit/risk reduction is (**CER**−**EER**)/**CER**. Worked example from an antidepressant relapse-prevention meta-analysis gave a pooled **EER** of 0.18, an **MAOI**-specific **CER** of 0.86, an overall **NNT** of approximately 4, and an **SSRI**-specific relative benefit of approximately 0.58.",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Forest-plot EMIs expect you to read pooled experimental/control event rates directly off the graph and then derive **NNT** (the reciprocal of absolute risk reduction) and relative benefit ((**CER**−**EER**)/**CER**) yourself — these are calculation traps built on graph-reading, not simple recall questions.",
+          "format": "EMI",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 4
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "In secondary research the unit of 'recruitment' is the individual completed primary study, not individual patients.",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 1,
+              "questionNumber": 1
+            }
+          },
+          {
+            "text": "Meta-analysis quality depends on patient sample, outcomes, follow-up length, intervention comparability, and methodological rigour — the **MAGNITUDE** of a study's reported outcome is explicitly **NOT** a quality indicator.",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 5
+            }
+          },
+          {
+            "text": "Study weighting in a meta-analysis is based on sample size, precision, external validity, and methodological rigour — assigned independently of outcome direction.",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 6
+            }
+          },
+          {
+            "text": "When primary studies differ in underlying methodology (not just numeric spread), run two **SEPARATE** meta-analyses rather than forcing a single pooled estimate.",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 8,
+              "questionNumber": 8
+            }
+          },
+          {
+            "text": "Publication bias is driven mainly by authors failing to **SUBMIT** null/unimportant findings (the 'file drawer problem'), not by editors rejecting manuscripts.",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 13
+            }
+          },
+          {
+            "text": "Meta-analyses are needed chiefly because individual studies often lack statistical power — pooling does **NOT** automatically correct for confounding/bias/measurement error in the originals (GIGO still applies).",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 14
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Narrative review — distinguishing feature",
+            "value": "Literature search driven by the author's personal familiarity, not a reproducible/comprehensive search protocol",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 3
+            }
+          },
+          {
+            "label": "GIGO principle",
+            "value": "'Garbage in, garbage out' — a meta-analysis of poor-quality primary studies is meaningless however sound its own statistics",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 4
+            }
+          },
+          {
+            "label": "Funnel-plot asymmetry",
+            "value": "Classic sign of publication bias (absence of small negative/null studies) — visual inspection alone unreliable, use formal tests",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 10
+            }
+          },
+          {
+            "label": "Effect size",
+            "value": "Difference in mean outcome between groups, expressed in units of the outcome's own SD — this scale-free property enables cross-study pooling",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 11,
+              "questionNumber": 11
+            }
+          },
+          {
+            "label": "Grey literature",
+            "value": "Theses, unpublished conference abstracts, monographs, convention proceedings — hard to search systematically, not indexed in Medline/PsycINFO/Cochrane",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 12,
+              "questionNumber": 12
+            }
+          },
+          {
+            "label": "'Meta-analysis' coined",
+            "value": "Gene Glass, ==1976== — 'analysis of analyses'",
+            "source": {
+              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+              "page": 15,
+              "questionNumber": 15
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          9,
+          16,
+          26
+        ]
+      }
+    },
+    {
+      "id": "economic-studies",
+      "title": "9. Economic Studies",
       "blocks": [
         {
           "type": "paragraph",
@@ -3007,440 +3511,8 @@
       }
     },
     {
-      "id": "secondary-research-meta-analysis",
-      "title": "10. Secondary Research — Systematic Reviews & Meta-Analysis",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "In secondary research, the unit of 'recruitment' is the individual completed primary study, not individual patients.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 1,
-            "questionNumber": 1
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A narrative review is typically written by a field expert, synthesising evidence subjectively around key papers already familiar to the author, without a narrow/specific question — broad, easy to read, but higher risk of bias than a systematic review; still useful for introducing a topic or generating hypotheses.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 2,
-            "questionNumber": 2
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "The feature that distinguishes a narrative review from a systematic review is that its literature search is driven by the author's personal familiarity with the field rather than a reproducible, comprehensive search protocol.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 3,
-            "questionNumber": 3
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "RCTs are the study design most frequently combined in meta-analysis; the **GIGO** principle ('garbage in, garbage out') means a meta-analysis of poor-quality primary studies is meaningless however sound its own statistical methods are.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 4,
-            "questionNumber": 4
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Factors that determine meta-analysis/study quality include the nature of the patient sample, outcomes studied, length of follow-up, and comparability of the intervention (e.g. dosage) across studies, plus methodological rigour (randomisation adequacy, allocation concealment, **ITT** analysis, blinded outcome assessment) — the **MAGNITUDE** of a study's reported outcome is explicitly **NOT** a quality indicator.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 5,
-            "questionNumber": 5
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Weighting of individual studies within a meta-analysis is based on sample size, precision of results, external validity, and methodological rigour — assigned independently of a study's outcome direction.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 6,
-            "questionNumber": 6
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Methodological heterogeneity refers to different studies using genuinely different methodological approaches to the same underlying question (e.g. some studies dichotomising duration-of-untreated-psychosis into 'long/short', others correlating it continuously with outcome severity) — this is describable but does not itself need statistical quantification.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 7,
-            "questionNumber": 7
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "When primary studies differ in methodology like this, the correct approach is to analyse the two sets of studies separately as two independent meta-analyses, rather than forcing them into a single pooled fixed- or random-effects estimate.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 8,
-            "questionNumber": 8
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "A fixed-effects model assumes all included studies share one common true treatment effect (valid only once statistical heterogeneity is excluded) and restricts inference to the studies included; a random-effects model assumes each study's true effect is drawn from a normal distribution around a mean, is used specifically when statistical heterogeneity is present, gives proportionally greater weight to smaller studies, and yields wider, less precise confidence intervals (making it more susceptible to publication bias).",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 9,
-            "questionNumber": 9
-          }
-        },
-        {
-          "type": "comparison",
-          "title": "Fixed-effects vs Random-effects Meta-Analysis Model",
-          "columns": [
-            "Feature",
-            "Fixed-effects model",
-            "Random-effects model"
-          ],
-          "rows": [
-            [
-              "Core assumption",
-              "All included studies share one common true treatment effect",
-              "Each study's true effect is drawn from a normal distribution around a mean"
-            ],
-            [
-              "When valid/used",
-              "Valid only once statistical heterogeneity is excluded",
-              "Used specifically when statistical heterogeneity is present"
-            ],
-            [
-              "Weighting of smaller studies",
-              "—",
-              "Gives proportionally greater weight to smaller studies"
-            ],
-            [
-              "Confidence intervals",
-              "—",
-              "Wider, less precise"
-            ],
-            [
-              "Scope / publication-bias susceptibility",
-              "Restricts inference to the studies included",
-              "More susceptible to publication bias (as CIs are wider)"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 9,
-              "questionNumber": 9
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Funnel-plot asymmetry (specifically, the absence of small studies showing a negative/null result) is the classic sign of publication bias, though visual inspection alone is unreliable and formal statistical tests should be used to confirm true asymmetry.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 10,
-            "questionNumber": 10
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Effect size, as used to pool data from studies using different measurement instruments, is the difference in mean outcome between intervention and control groups, expressed in units of the outcome's own standard deviation — this scale-free property is what makes cross-study pooling possible.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 11,
-            "questionNumber": 11
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Grey literature — theses, unpublished conference abstracts, monographs and convention proceedings — is difficult to search systematically because it is not indexed in standard databases like Medline, PsycINFO, or the Cochrane Controlled Trials Register.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 12,
-            "questionNumber": 12
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Publication bias is driven mainly by researchers failing to **SUBMIT** null or unimportant findings for publication (the 'file drawer problem'), rather than by editors/reviewers rejecting submitted manuscripts (Dickersin, Min & Meinert, **JAMA** 1992).",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 13,
-            "questionNumber": 13
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Meta-analyses are needed chiefly because individual primary studies often lack sufficient statistical power for generalisable conclusions — not because pooling data automatically corrects for confounding, bias, or measurement error present in the originals (**GIGO** still applies).",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 14,
-            "questionNumber": 14
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Gene Glass coined the term 'meta-analysis' in 1976, describing it as the 'analysis of analyses'.",
-          "source": {
-            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-            "page": 15,
-            "questionNumber": 15
-          }
-        },
-        {
-          "type": "trap-list",
-          "title": "MCQ Traps — Remember These!",
-          "items": [
-            {
-              "text": "A meta-analysis study's weighting depends on sample size, precision, external validity and methodological rigour — **NEVER** on the direction or magnitude of its reported outcome, which is a commonly offered but incorrect distractor.",
-              "source": {
-                "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 5
-              }
-            },
-            {
-              "text": "Publication bias is driven mainly by authors failing to **SUBMIT** null/unimportant findings (the 'file drawer problem'), not primarily by editors rejecting submitted manuscripts — a common misconception this question bank targets directly.",
-              "source": {
-                "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 13
-              }
-            },
-            {
-              "text": "When primary studies differ in underlying **METHODOLOGY** (not just in numeric spread) — e.g. some dichotomising an exposure while others treat it continuously — the correct response is to run two **SEPARATE** meta-analyses, not to force everything into one pooled fixed- or random-effects estimate.",
-              "source": {
-                "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "gap",
-          "subtopic": "Meta-analysis statistical mechanics (I-squared, Q-statistic, forest-plot construction)",
-          "note": "Resolved: heterogeneity typing/testing, effect-size measures (OR/RR/SMD/Cohen's d/Hedges' g), the fixed-vs-random-effects model/method pairing, and forest-plot construction mechanics are now covered above, sourced from books/15-1-statistics.pdf p.35 (added once that book was assigned to this topic)."
-        },
-        {
-          "type": "paragraph",
-          "text": "A comprehensive literature search uses multiple databases (not MEDLINE/CINAHL alone), cross-checks reference lists, hand-searches, consults experts, and identifies grey literature (conference abstracts/posters). Individual-patient-data meta-analysis (contacting original authors for raw data) is more powerful than summary-data meta-analysis but far less often achievable.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 35
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Heterogeneity has 3 flavours: clinical (different but theoretically combinable interventions/populations — describable, not measurable), methodological (different study methods), and statistical (inconsistent quantitative results — testable via chi-square/Cochran's Q or I²). Rule of thumb: an average chi-square equals its degrees of freedom (n−1 studies); these tests have low power, so a non-significant result does **NOT** prove homogeneity.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 35
-          }
-        },
-        {
-          "type": "comparison",
-          "title": "Fixed-Effects vs Random-Effects Meta-Analysis Model",
-          "columns": [
-            "Feature",
-            "Fixed-effects model",
-            "Random-effects model"
-          ],
-          "rows": [
-            [
-              "Assumption",
-              "One common true effect across studies; ignores between-study variation",
-              "Each study has its own true effect, normally distributed around a mean"
-            ],
-            [
-              "Validity",
-              "Valid only if significant heterogeneity can be excluded",
-              "—"
-            ],
-            [
-              "Weighting",
-              "—",
-              "Gives smaller studies proportionally more weight"
-            ],
-            [
-              "Confidence interval width",
-              "Narrower",
-              "Wider (less precise)"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "books/15-1-statistics.pdf",
-              "page": 35
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "title": "Meta-analysis statistical model ↔ method pairing",
-          "columns": [
-            "Model",
-            "Method(s)"
-          ],
-          "rows": [
-            [
-              "Fixed effects",
-              "Mantel-Haenszel (**OR**, rate/risk ratios) or Peto (approximates **OR**) — neither adjusts for confounding"
-            ],
-            [
-              "Random effects",
-              "DerSimonian-Laird (ratios and rate differences)"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "books/15-1-statistics.pdf",
-              "page": 35
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Publication bias (significant/'positive' results are more likely published) produces an asymmetric funnel plot (effect size on x-axis, precision/sample size or 1/SE on y-axis). Failsafe N (Rosenthal & Cooper) estimates how many null-effect 'file drawer' studies would be needed to nullify an observed effect; the trim-and-fill procedure (Duval & Tweedie, 2000) imputes missing studies and recomputes the effect as a sensitivity check; cumulative meta-analysis (adding studies from largest/most precise to smallest) shows whether the pooled estimate shifts as smaller studies are added — a shift signals bias.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 35
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Effect-size measures: for dichotomous outcomes, **OR**/**RR** are preferred (less dependent on baseline risk than absolute risk); **OR** overestimates **RR** increasingly as event rates rise above ~==20%==, so **RR** is preferred in Cochrane reviews when events are common. For continuous outcomes: simple mean difference (**DM**) or standardised mean difference (**SMD** = DM / pooled SD), calculated as Cohen's d or Hedges' g (the latter corrects Cohen's d's small-sample bias).",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 35
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Forest plot ('blobbogram') construction: each study is a blob/square (point estimate) sized by weight, with a horizontal line for its 95% CI; the pooled result is a diamond lozenge with minimal width (highest precision); a vertical 'line of no effect' sits at 1 for ratio measures (OR/RR) or 0 for mean-difference/SMD measures — a study whose CI line crosses the line of no effect is not statistically significant even if heavily weighted.",
-          "source": {
-            "file": "books/15-1-statistics.pdf",
-            "page": 35
-          }
-        }
-      ],
-      "concise": {
-        "facts": [
-          {
-            "label": "Narrative review — distinguishing feature",
-            "value": "Literature search driven by the author's personal familiarity, not a reproducible/comprehensive search protocol",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 3,
-              "questionNumber": 3
-            }
-          },
-          {
-            "label": "GIGO principle",
-            "value": "'Garbage in, garbage out' — a meta-analysis of poor-quality primary studies is meaningless however sound its own statistics",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 4,
-              "questionNumber": 4
-            }
-          },
-          {
-            "label": "Funnel-plot asymmetry",
-            "value": "Classic sign of publication bias (absence of small negative/null studies) — visual inspection alone unreliable, use formal tests",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 10,
-              "questionNumber": 10
-            }
-          },
-          {
-            "label": "Effect size",
-            "value": "Difference in mean outcome between groups, expressed in units of the outcome's own SD — this scale-free property enables cross-study pooling",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 11,
-              "questionNumber": 11
-            }
-          },
-          {
-            "label": "Grey literature",
-            "value": "Theses, unpublished conference abstracts, monographs, convention proceedings — hard to search systematically, not indexed in Medline/PsycINFO/Cochrane",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 12,
-              "questionNumber": 12
-            }
-          },
-          {
-            "label": "'Meta-analysis' coined",
-            "value": "Gene Glass, ==1976== — 'analysis of analyses'",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 15,
-              "questionNumber": 15
-            }
-          }
-        ],
-        "bullets": [
-          {
-            "text": "In secondary research the unit of 'recruitment' is the individual completed primary study, not individual patients.",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 1,
-              "questionNumber": 1
-            }
-          },
-          {
-            "text": "Meta-analysis quality depends on patient sample, outcomes, follow-up length, intervention comparability, and methodological rigour — the **MAGNITUDE** of a study's reported outcome is explicitly **NOT** a quality indicator.",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 5,
-              "questionNumber": 5
-            }
-          },
-          {
-            "text": "Study weighting in a meta-analysis is based on sample size, precision, external validity, and methodological rigour — assigned independently of outcome direction.",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 6,
-              "questionNumber": 6
-            }
-          },
-          {
-            "text": "When primary studies differ in underlying methodology (not just numeric spread), run two **SEPARATE** meta-analyses rather than forcing a single pooled estimate.",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 8,
-              "questionNumber": 8
-            }
-          },
-          {
-            "text": "Publication bias is driven mainly by authors failing to **SUBMIT** null/unimportant findings (the 'file drawer problem'), not by editors rejecting manuscripts.",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 13,
-              "questionNumber": 13
-            }
-          },
-          {
-            "text": "Meta-analyses are needed chiefly because individual studies often lack statistical power — pooling does **NOT** automatically correct for confounding/bias/measurement error in the originals (GIGO still applies).",
-            "source": {
-              "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
-              "page": 14,
-              "questionNumber": 14
-            }
-          }
-        ],
-        "highlightBlockIndices": [
-          9,
-          16
-        ]
-      }
-    },
-    {
       "id": "quality-improvement",
-      "title": "11. Quality Improvement",
+      "title": "10. Quality Improvement (a separate SPMM chapter, kept here for this app's topic grouping)",
       "blocks": [
         {
           "type": "paragraph",
@@ -3628,177 +3700,13 @@
       }
     },
     {
-      "id": "epidemiological-measures-scales-sampling",
-      "title": "12. Epidemiological Measures, Scales & Sampling",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Point prevalence = proportion of a population with the disease at one specific point in time; period prevalence = prevalence over a specified period; lifetime prevalence = proportion with a history of the disease at any point in their life.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 23,
-            "questionNumber": 14
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "In a steady state (rates not changing, in-migration = out-migration): Prevalence = Incidence × Duration of disease.",
-          "source": {
-            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
-            "page": 5,
-            "questionNumber": 5
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Population = the complete set of subjects from which a sample is drawn; sampling frame = the actual accessible list/source of elements a researcher uses to select a sample, since direct access to the full population is rarely possible.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 24,
-            "questionNumber": 15
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Verbally-descriptive Likert-type scales (e.g. **CGI**) suit objective, clinician-rated measurement of change; visual analogue scales/pictorial 'thermometers' suit subjective self-report across ages and abilities (including word/number-free smiley-face versions for young children or people with learning disabilities); Guttman scalograms (cumulative scaling, e.g. the Bogardus Social Distance Scale) suit a single hierarchical index where agreeing with one item implies agreement with 'lower-order' items.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 25,
-            "questionNumber": 16
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Adoption studies are the design used to separate genetic from shared-environmental causes of schizophrenia; blind-rated analysis of childhood home movies can detect pre-illness motor/neurological abnormalities; army-conscript cohort designs (alongside birth-cohort and school-grade studies) examine premorbid cognitive/**IQ** deficits; unmedicated cohorts are needed to delineate a disease's natural, untreated course.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 27,
-            "questionNumber": 17
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Reading a forest plot from a relapse-prevention meta-analysis: the pooled experimental event rate and pooled control event rate can be read directly off the plot; **NNT** is the reciprocal of the absolute risk reduction (**ARR**); relative benefit/risk reduction is (**CER**−**EER**)/**CER**. Worked example from an antidepressant relapse-prevention meta-analysis gave a pooled **EER** of 0.18, an **MAOI**-specific **CER** of 0.86, an overall **NNT** of approximately 4, and an **SSRI**-specific relative benefit of approximately 0.58.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 6,
-            "questionNumber": 4
-          }
-        },
-        {
-          "type": "trap",
-          "text": "Forest-plot EMIs expect you to read pooled experimental/control event rates directly off the graph and then derive **NNT** (the reciprocal of absolute risk reduction) and relative benefit ((**CER**−**EER**)/**CER**) yourself — these are calculation traps built on graph-reading, not simple recall questions.",
-          "format": "EMI",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 6,
-            "questionNumber": 4
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Study-design choice by ethical/practical constraint: retrospective cross-sectional record review suits both rare fatal-outcome questions (e.g. suicide-overdose deaths via national mortality registries) and prevalence questions (e.g. a birth-registry review for cardiac abnormalities linked to **lithium** exposure); case-control avoids the heavy attrition seen in long cohort follow-up; prospective cohort avoids case-control's recall bias.",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 8,
-            "questionNumber": 5
-          }
-        },
-        {
-          "type": "paragraph",
-          "text": "Cluster RCTs suit interventions delivered at the level of a practitioner or practice (e.g. training GPs in motivational interviewing) specifically to avoid contamination between arms; case series suit very rare conditions where too few participants are available for any controlled design (e.g. n=5).",
-          "source": {
-            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-            "page": 16,
-            "questionNumber": 9
-          }
-        }
-      ],
-      "concise": {
-        "facts": [
-          {
-            "label": "Point / period / lifetime prevalence",
-            "value": "Point = at one specific time; period = over a specified period; lifetime = history of disease at any point in life",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 23,
-              "questionNumber": 14
-            }
-          },
-          {
-            "label": "Prevalence (steady state)",
-            "value": "= Incidence × Duration of disease (rates not changing, in-migration = out-migration)",
-            "source": {
-              "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
-              "page": 5,
-              "questionNumber": 5
-            }
-          },
-          {
-            "label": "Population vs sampling frame",
-            "value": "Population = full set of subjects a sample is drawn from; sampling frame = the actual accessible list/source used to select the sample",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 24,
-              "questionNumber": 15
-            }
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Verbally-descriptive Likert scales (e.g. **CGI**) suit clinician-rated change; visual analogue/pictorial scales suit subjective self-report across ages/abilities; Guttman scalograms suit a hierarchical index where agreeing with one item implies agreeing with 'lower-order' items.",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 25,
-              "questionNumber": 16
-            }
-          },
-          {
-            "text": "Adoption studies separate genetic from shared-environmental causes; blind-rated home movies detect pre-illness motor/neurological signs; army-conscript/birth-cohort/school-grade designs examine premorbid IQ deficits; unmedicated cohorts delineate untreated natural course.",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 27,
-              "questionNumber": 17
-            }
-          },
-          {
-            "text": "Forest-plot EMIs: read pooled experimental/control event rates directly off the graph, then derive **NNT** = 1/ARR and relative benefit = (CER−EER)/CER — worked example gave EER 0.18, MAOI-CER 0.86, NNT ≈4, SSRI relative benefit ≈0.58.",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 6,
-              "questionNumber": 4
-            }
-          },
-          {
-            "text": "Study-design choice by constraint: retrospective cross-sectional record review for rare fatal outcomes or prevalence; case-control avoids heavy cohort attrition; prospective cohort avoids case-control recall bias.",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 8,
-              "questionNumber": 5
-            }
-          },
-          {
-            "text": "Cluster RCTs suit interventions delivered at practitioner/practice level specifically to avoid contamination between arms; case series suit very rare conditions with too few participants for any controlled design.",
-            "source": {
-              "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
-              "page": 16,
-              "questionNumber": 9
-            }
-          }
-        ],
-        "highlightBlockIndices": [
-          6
-        ]
-      }
-    },
-    {
       "id": "coverage-gaps-flags",
-      "title": "13. Coverage Gaps & Flags",
+      "title": "11. Coverage Gaps & Flags",
       "blocks": [
         {
           "type": "gap",
-          "subtopic": "General — no dedicated source book for Research Methods",
-          "note": "No **SPMM** book **PDF** exists for this topic (per content/manifest.json, which flags this as a known corpus gap). This guide is built entirely from the Research Methods question-bank explanations across its 10 sub-files (Analytical Studies, Bias, Causality & Confounders, EMIs, Economic Studies, Interventional Studies, Qualitative Studies, Quality Improvement, Secondary Research, Study Design). It is necessarily thinner and less systematically organised than book-backed topics in this repo. Cross-check against a dedicated research methods / evidence-based-medicine textbook (e.g. Greenhalgh's 'How to Read a Paper', a critical appraisal course text, or a formal epidemiology textbook such as Gordis) before relying on this guide alone for the exam."
+          "subtopic": "General — section structure now follows the SPMM curriculum's own headings",
+          "note": "This guide previously noted no SPMM book PDF existed for Research Methods; books/15-1-statistics.pdf was subsequently identified (via the SPMM curriculum index, resources/paper-b/books/SPMM NOTES CURRECULUM_ PART B.pdf) as the actual Research Methods chapter and is now cited throughout. Sections above are named and ordered to match that curriculum's own 9 Research Methods headings (Study Designs, Blinding, Intention to Treat Analysis, N of 1 Trial, Causality & Confounding, Bias, Qualitative Studies, Secondary Research, Economic Studies), plus Quality Improvement (a separate curriculum chapter this app groups under the same topic)."
         },
         {
           "type": "gap",
@@ -3817,7 +3725,13 @@
         }
       ],
       "concise": {
-        "bullets": []
+        "bullets": [],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
       }
     }
   ]

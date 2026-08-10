@@ -2505,19 +2505,19 @@
               }
             },
             {
-              "text": "A hospital-based case-control study is vulnerable to Berkson's bias, Neyman bias, recall bias, and family-information bias — but **NOT** typically to verification/work-up bias, which is specific to diagnostic-test-accuracy studies rather than ordinary case-control designs.",
+              "text": "Stopping a trial early after an interim analysis shows a large apparent benefit tends to **OVERESTIMATE** the true treatment effect — this is a small-numbers/chance artefact, not evidence the intervention truly works even better than a completed trial would show.",
               "source": {
-                "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 4
+                "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 24
               }
             },
             {
-              "text": "Absence of a dose-response relationship does **NOT** disprove causality: a genuine threshold effect, doses tested outside the effective 'window', an unmeasured confounder, or chance can all mask a truly causal dose-response relationship.",
+              "text": "A survey's response/completion rate is **NOT** the same statistic as a study's statistical power — a vignette quoting ==74%==/==60%==/==88%== response rates across groups is testing whether you know power cannot be inferred from response rate alone.",
               "source": {
-                "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 11
+                "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 3
               }
             }
           ]
@@ -2526,7 +2526,7 @@
           "topicId": "evidence-based-medicine",
           "topicTitle": "Evidence-Based Medicine / Critical Appraisal",
           "questionBankCount": 239,
-          "highYieldTableCount": 2,
+          "highYieldTableCount": 3,
           "recurringTraps": [
             {
               "text": "Meta-analysis pooling 12 uncontrolled trials + 3 RCTs: the trap answer is that mixing designs makes a meta-analysis impossible. Correct: it only weakens it — best practice is two separate meta-analyses.",

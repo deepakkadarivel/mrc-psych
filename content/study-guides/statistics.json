@@ -3,7 +3,7 @@
   "sections": [
     {
       "id": "variables-levels-measurement",
-      "title": "1. Variables & Levels of Measurement",
+      "title": "1. Variables & Data",
       "blocks": [
         {
           "type": "paragraph",
@@ -148,7 +148,7 @@
     },
     {
       "id": "descriptive-statistics",
-      "title": "2. Descriptive Statistics — Central Tendency & Dispersion",
+      "title": "2. Describing Data — Central Tendency & Dispersion",
       "blocks": [
         {
           "type": "table",
@@ -321,7 +321,7 @@
     },
     {
       "id": "normal-distribution-clt",
-      "title": "3. Normal Distribution, Standard Error & Central Limit Theorem",
+      "title": "3. Describing Data — Normal Distribution, SEM & CLT",
       "blocks": [
         {
           "type": "paragraph",
@@ -413,7 +413,7 @@
     },
     {
       "id": "probability-odds",
-      "title": "4. Probability & Odds",
+      "title": "4. Describing Data — Odds & Probabilities",
       "blocks": [
         {
           "type": "paragraph",
@@ -510,7 +510,7 @@
     },
     {
       "id": "sampling-methods",
-      "title": "5. Population, Sample & Sampling Methods",
+      "title": "5. Describing Data — Population & Sample",
       "blocks": [
         {
           "type": "paragraph",
@@ -658,7 +658,7 @@
     },
     {
       "id": "hypothesis-testing",
-      "title": "6. Hypothesis Testing — Errors, Power & Multiple Testing",
+      "title": "6. Inferential Statistics — Hypothesis Testing, Errors & Power",
       "blocks": [
         {
           "type": "paragraph",
@@ -844,7 +844,7 @@
     },
     {
       "id": "confidence-intervals-effect-size",
-      "title": "7. Confidence Intervals & Effect Size",
+      "title": "7. Inferential Statistics — Confidence Intervals & Effect Size",
       "blocks": [
         {
           "type": "paragraph",
@@ -990,7 +990,7 @@
     },
     {
       "id": "reliability-validity-kappa",
-      "title": "8. Reliability, Validity & Kappa Statistics",
+      "title": "8. Reliability & Validity — Kappa Statistics",
       "blocks": [
         {
           "type": "paragraph",
@@ -1265,7 +1265,7 @@
     },
     {
       "id": "choosing-statistical-test",
-      "title": "9. Choosing a Statistical Test",
+      "title": "9. Reliability & Validity — Choosing a Statistical Test",
       "blocks": [
         {
           "type": "paragraph",
@@ -1509,14 +1509,6 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Degrees of freedom = the number of values 'free to vary' once other parameters are already estimated. Estimating an unknown population **SD** from a sample loses 1 df (uses n−1, since the sample mean is already estimated). df formulas: one-sample t = n−1; two-sample t = (n1+n2)−2; chi-square = (rows−1)×(columns−1) — a plain 2×2 table has 1 df once row/column totals are fixed; one-way **ANOVA** total df = N−1, between-groups df = (number of groups−1), within-groups df = N−(number of groups).",
-          "source": {
-            "file": "books/15-2-statistics.pdf",
-            "page": 37
-          }
-        },
-        {
           "type": "trap-list",
           "title": "MCQ Traps — Remember These!",
           "items": [
@@ -1548,32 +1540,7 @@
         }
       ],
       "concise": {
-        "facts": [
-          {
-            "label": "df, one-sample t",
-            "value": "n−1",
-            "source": {
-              "file": "books/15-2-statistics.pdf",
-              "page": 37
-            }
-          },
-          {
-            "label": "df, two-sample t",
-            "value": "(n1+n2)−2",
-            "source": {
-              "file": "books/15-2-statistics.pdf",
-              "page": 37
-            }
-          },
-          {
-            "label": "df, chi-square",
-            "value": "(rows−1)×(columns−1)",
-            "source": {
-              "file": "books/15-2-statistics.pdf",
-              "page": 37
-            }
-          }
-        ],
+        "facts": [],
         "bullets": [
           {
             "text": "Parametric tests require independent observations, normally distributed populations, and equal variances between groups; assume biological variables are normally distributed unless stated otherwise.",
@@ -1604,13 +1571,57 @@
           5,
           6,
           8,
-          12
+          11
         ]
       }
     },
     {
+      "id": "comparing-means-degrees-of-freedom",
+      "title": "10. Comparing Means — Degrees of Freedom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Degrees of freedom = the number of values 'free to vary' once other parameters are already estimated. Estimating an unknown population **SD** from a sample loses 1 df (uses n−1, since the sample mean is already estimated). df formulas: one-sample t = n−1; two-sample t = (n1+n2)−2; chi-square = (rows−1)×(columns−1) — a plain 2×2 table has 1 df once row/column totals are fixed; one-way **ANOVA** total df = N−1, between-groups df = (number of groups−1), within-groups df = N−(number of groups).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [],
+        "facts": [
+          {
+            "label": "df, one-sample t",
+            "value": "n−1",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "df, two-sample t",
+            "value": "(n1+n2)−2",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          },
+          {
+            "label": "df, chi-square",
+            "value": "(rows−1)×(columns−1)",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 37
+            }
+          }
+        ],
+        "highlightBlockIndices": []
+      }
+    },
+    {
       "id": "correlation-regression",
-      "title": "10. Correlation & Regression",
+      "title": "11. Regression & Correlation — Regression Equation",
       "blocks": [
         {
           "type": "paragraph",
@@ -1733,7 +1744,7 @@
     },
     {
       "id": "multivariate-factor-analysis",
-      "title": "11. Multivariate Techniques & Factor Analysis",
+      "title": "12. Multivariate Analyses — Factor Analysis & Stratification",
       "blocks": [
         {
           "type": "paragraph",
@@ -1832,6 +1843,14 @@
             "file": "books/15-2-statistics.pdf",
             "page": 48
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "Stratification analyses a confounder's effect by splitting the sample into sub-tables/strata by confounder level, then pooling a single adjusted estimate (e.g. via the Mantel-Haenszel procedure) — useful only for **KNOWN** confounders. Standardisation (commonly for age) applies a hypothetical 'world standard population': direct standardisation applies study-sample stratum rates to the standard population; indirect standardisation applies standard-population rates to the study sample to get 'expected' rates, then compares these to 'observed' rates to derive a standardised ratio (e.g. Standardised Mortality Ratio, **SMR** = observed/expected).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
         }
       ],
       "concise": {
@@ -1867,6 +1886,14 @@
               "file": "books/15-2-statistics.pdf",
               "page": 48
             }
+          },
+          {
+            "label": "SMR formula",
+            "value": "observed/expected",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
           }
         ],
         "bullets": [
@@ -1883,6 +1910,13 @@
               "file": "books/15-2-statistics.pdf",
               "page": 46
             }
+          },
+          {
+            "text": "Stratification pools an adjusted estimate across confounder strata (e.g. via Mantel-Haenszel) but only works for **KNOWN** confounders; standardisation applies a hypothetical standard population (direct: study rates → standard population; indirect: standard rates → study sample, giving expected vs. observed).",
+            "source": {
+              "file": "books/15-2-statistics.pdf",
+              "page": 48
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -1892,17 +1926,9 @@
       }
     },
     {
-      "id": "stratification-standardisation-ebm",
-      "title": "12. Stratification, Standardisation & EBM Framework",
+      "id": "ebm-framework-bridging",
+      "title": "13. EBM Framework (from the Advanced Statistics book's closing chapter)",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Stratification analyses a confounder's effect by splitting the sample into sub-tables/strata by confounder level, then pooling a single adjusted estimate (e.g. via the Mantel-Haenszel procedure) — useful only for **KNOWN** confounders. Standardisation (commonly for age) applies a hypothetical 'world standard population': direct standardisation applies study-sample stratum rates to the standard population; indirect standardisation applies standard-population rates to the study sample to get 'expected' rates, then compares these to 'observed' rates to derive a standardised ratio (e.g. Standardised Mortality Ratio, **SMR** = observed/expected).",
-          "source": {
-            "file": "books/15-2-statistics.pdf",
-            "page": 48
-          }
-        },
         {
           "type": "paragraph",
           "text": "**EBM** rests on 2 principles: a hierarchy of evidence guides decisions, but evidence alone never suffices — clinicians must weigh benefits/risks against patient values. The **EBM** process: define the clinical question (**PICO** — Patient, Intervention/exposure, Comparison, Outcome) → search the literature → appraise validity and results → apply to patient care.",
@@ -2091,15 +2117,16 @@
         }
       ],
       "concise": {
-        "facts": [
+        "bullets": [
           {
-            "label": "SMR formula",
-            "value": "observed/expected",
+            "text": "**EBM** process: define the clinical question (**PICO**) → search the literature → appraise validity/results → apply to patient care; the evidence hierarchy alone never suffices without weighing benefits/risks against patient values.",
             "source": {
               "file": "books/15-2-statistics.pdf",
               "page": 48
             }
-          },
+          }
+        ],
+        "facts": [
           {
             "label": "PICO",
             "value": "Patient, Intervention/exposure, Comparison, Outcome",
@@ -2117,33 +2144,17 @@
             }
           }
         ],
-        "bullets": [
-          {
-            "text": "Stratification pools an adjusted estimate across confounder strata (e.g. via Mantel-Haenszel) but only works for **KNOWN** confounders; standardisation applies a hypothetical standard population (direct: study rates → standard population; indirect: standard rates → study sample, giving expected vs. observed).",
-            "source": {
-              "file": "books/15-2-statistics.pdf",
-              "page": 48
-            }
-          },
-          {
-            "text": "**EBM** process: define the clinical question (**PICO**) → search the literature → appraise validity/results → apply to patient care; the evidence hierarchy alone never suffices without weighing benefits/risks against patient values.",
-            "source": {
-              "file": "books/15-2-statistics.pdf",
-              "page": 48
-            }
-          }
-        ],
         "highlightBlockIndices": [
+          1,
           2,
-          3,
-          5,
-          6
+          4,
+          5
         ]
       }
     },
     {
       "id": "coverage-gaps",
-      "title": "13. Coverage Gaps & Flags",
+      "title": "14. Coverage Gaps & Flags",
       "blocks": [
         {
           "type": "gap",
