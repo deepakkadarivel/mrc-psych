@@ -69,7 +69,7 @@
           "text": "This standard calculation is cumulative incidence — valid in cohort studies with low attrition, but biased when attrition is significant, because dropouts are excluded from the numerator (not counted as new cases) while the denominator population still includes them.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 3
           }
         },
         {
@@ -77,7 +77,7 @@
           "text": "Incidence density (incidence rate) expresses new cases per person-year of observation, avoiding the attrition problem. Its unit is time^-1 ('rather bizarre'), so incidence rate ratios (unit-free) are typically used to compare two groups.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 3
           }
         },
         {
@@ -85,7 +85,7 @@
           "text": "Point prevalence = number of existing cases (new+old, minus dead/cured) at one cross-sectional observation point / cross-sectional population at that point. Period prevalence uses the same 'existing cases' numerator but assessed longitudinally over a period, divided by the mid-period population. Cases must be found at the time of observation, irrespective of when diagnosed — someone dead or cured before the observation period cannot be counted.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 3
           }
         },
         {
@@ -93,7 +93,7 @@
           "text": "Prevalence = incidence x duration of illness. Chronic illnesses (e.g. schizophrenia) show higher prevalence than acute, short-lived illnesses (e.g. influenza) even when their incidence rates are comparable.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 3
           }
         },
         {
@@ -113,7 +113,7 @@
           "text": "Worked examples of the formula's implications: a new preventive vaccine can lower both incidence and prevalence; a cure for schizophrenia would not change incidence but would lower prevalence (shorter duration); interventions that reduce mortality in chronic schizophrenia can paradoxically raise prevalence through patient longevity, without directly affecting incidence.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 3
           }
         },
         {
@@ -210,7 +210,7 @@
           "text": "Lifetime prevalence = the proportion of individuals in the population who have ever manifested a disorder and are alive on a given day, ascertained by cross-sectional survey and recall of past status — this method is prone to recall bias.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 3
           }
         },
         {
@@ -218,7 +218,7 @@
           "text": "Lifetime morbid risk (**LMR**) is the probability of a person developing the disorder across their entire life (often defined by the population's life expectancy) and must be distinguished from lifetime prevalence: **LMR** includes the whole birth cohort, past and future, including those already deceased at survey time. For low-incidence disorders such as schizophrenia, summing age-specific incidence rates gives an approximate **LMR** (Saha et al., 2004).",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 4
           }
         }
       ],
@@ -250,7 +250,7 @@
           "text": "Baseline prevalence = a disease's usual community level. Low-to-moderate baseline without significant fluctuation = endemic (most psychiatric disorders, with exceptions); a persistently **HIGH** baseline = hyperendemic; an irregular pattern of significant fluctuation from baseline = sporadic occurrence; occurrence that clearly **EXCEEDS** the expected level in a given time period = epidemic (can be a slow, steady rise as in multifactorial chronic disease, or an acute outbreak as in infectious disease); an epidemic of wide geographical proportion = pandemic (e.g. **HIV** pandemic).",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 4
           }
         },
         {
@@ -302,7 +302,7 @@
           "text": "A crude rate applies to the whole population (e.g. crude birth rate, crude mortality rate). A specific rate applies to a subgroup (e.g. age-specific, disease-specific, cause-specific mortality). A standardized rate applies observed rates to a hypothetical population adjusted for a variable (e.g. age), making rates from heterogeneous populations comparable — e.g. suicide rates in inner London are not directly comparable to rural Yorkshire because the working-age population differs and would spuriously inflate crude comparisons.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 4
           }
         },
         {
@@ -310,7 +310,7 @@
           "text": "Cause-specific mortality rate = deaths due to a specific cause / total population size (e.g. alcohol-specific mortality). Case-fatality rate = deaths due to a specific disease / number of persons **AFFECTED** by that disease — a measure of the disease's fatal severity (e.g. 15 of 100 anorexia patients die of its complications).",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 4
           }
         },
         {
@@ -318,7 +318,7 @@
           "text": "Proportionate mortality rate = deaths due to a specific cause / total deaths in the population — a measure of that cause's contribution to overall societal mortality burden.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 5
           }
         },
         {
@@ -326,7 +326,7 @@
           "text": "Years of Potential Life Lost (**YPLL**) sums, for deaths before a predetermined endpoint (usually age 65 or average life expectancy), the difference between that endpoint and age at death — this weights earlier deaths more heavily than later ones.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 5
           }
         },
         {
@@ -334,7 +334,7 @@
           "text": "**DALY** (disability-adjusted life year) extends **YPLL** by adding equivalent years of healthy life lost to disability: **DALY** = **YLL** + **YLD**, where **YLL** = N x **LE** (N = number of deaths, **LE** = standard life expectancy at age of death) and **YLD** = I x **DW** x **LD** (I = number of incident cases, **DW** = disability weight, **LD** = average duration of the case until remission or death). One **DALY** = loss of one year of full health. **DALY** calculation applies ==3%== time discounting and non-uniform age weighting (less weight to years lived very young or very old).",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 2
+            "page": 5
           }
         },
         {
@@ -377,7 +377,11 @@
           "sources": [
             {
               "file": "books/14-epidemiology.pdf",
-              "page": 2
+              "page": 4
+            },
+            {
+              "file": "books/14-epidemiology.pdf",
+              "page": 5
             }
           ],
           "highYield": true
@@ -433,7 +437,7 @@
           "sources": [
             {
               "file": "books/14-epidemiology.pdf",
-              "page": 2
+              "page": 6
             }
           ],
           "highYield": true
@@ -555,7 +559,7 @@
           "text": "A population pyramid portrays age and sex structure and reveals cohort trends over time. Three prototypical shapes (demographers): constrictive (fewer people in younger age bands, typical of countries like the **US** as birth rates fall after a baby boom), expansive (more people in younger age bands, typical of developing countries with high birth rates and short life expectancy from harsh conditions), and stationary (roughly equal numbers across age bands with tapering only at older ages, e.g. Sweden, from low constant birth rates and high quality of life).",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 6
+            "page": 7
           }
         }
       ],
@@ -595,7 +599,7 @@
           "text": "Second generation (post-**WWII**, ~60 studies): increased interest in diagnostic criteria/classification/nomenclature; largely field surveys using unstructured clinical interviews, so reliability was low.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 7
+            "page": 8
           }
         },
         {
@@ -603,7 +607,7 @@
           "text": "Third generation (from ~1970): major effort to increase diagnostic reliability, aiming for precise prevalence/incidence estimates of **SPECIFIC** disorders — contrasted with the second generation's focus on mental ill-health in general.",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 7
+            "page": 8
           }
         },
         {
@@ -611,7 +615,7 @@
           "text": "A claimed fourth generation incorporates comprehensive biologic markers (brain imaging, **CSF** examination, blood sampling) into large-scale cross-sectional surveys, e.g. the **H70** study (Skoog, 2004).",
           "source": {
             "file": "books/14-epidemiology.pdf",
-            "page": 7
+            "page": 8
           }
         }
       ],
@@ -657,15 +661,23 @@
           "text": "**ESEMED** epidemiological study: ==1 in 4== adults has a lifetime mental disorder; ==1 in 10== has one in the last year. Lifetime mood disorder ==14.7%== (major depression alone ==13%==); lifetime anxiety ==14%== (specific phobia alone ==8%==); lifetime alcohol use disorder ==5.2%==.",
           "source": {
             "file": "books/7-0-epidemiological-data.pdf",
-            "page": 1
+            "page": 2
           }
         },
         {
           "type": "paragraph",
-          "text": "Sex-ratio caveats worth remembering: several 'higher in one sex' ratios narrow or equalise specifically in treatment-seeking samples (social phobia, **OCD**); schizophrenia's 1.4:1 male excess is for **INCIDENCE** only, with prevalence roughly equal; Alzheimer's 2:1 female excess in prevalence may reflect female longevity rather than a true incidence difference; pre-puberty major depression runs marginally **MORE** common in boys, reversing to the well-known 2:1 female excess only after puberty.",
+          "text": "Sex-ratio caveats worth remembering: several 'higher in one sex' ratios narrow or equalise specifically in treatment-seeking samples (social phobia, **OCD**); Alzheimer's 2:1 female excess in prevalence may reflect female longevity rather than a true incidence difference; pre-puberty major depression runs marginally **MORE** common in boys, reversing to the well-known 2:1 female excess only after puberty.",
           "source": {
-            "file": "books/7-0-epidemiological-data.pdf",
-            "page": 1
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Schizophrenia's 1.4:1 male excess (Saha et al., PLoS Med 2004) is for **INCIDENCE** only — prevalence is roughly equal between sexes.",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 3
           }
         },
         {
@@ -772,7 +784,7 @@
           "sources": [
             {
               "file": "books/7-0-epidemiological-data.pdf",
-              "page": 1
+              "page": 2
             }
           ],
           "highYield": true
@@ -841,7 +853,7 @@
           "sources": [
             {
               "file": "books/7-0-epidemiological-data.pdf",
-              "page": 1
+              "page": 3
             }
           ],
           "highYield": true
@@ -886,7 +898,7 @@
           "sources": [
             {
               "file": "books/7-0-epidemiological-data.pdf",
-              "page": 1
+              "page": 3
             }
           ],
           "highYield": true
@@ -1027,7 +1039,7 @@
           "sources": [
             {
               "file": "books/7-0-epidemiological-data.pdf",
-              "page": 1
+              "page": 4
             }
           ],
           "highYield": true
@@ -1114,8 +1126,9 @@
       "title": "9. Levels of Prevention (question-bank only — not covered in the book notes for this topic)",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Primary prevention averts the illness/epidemic before it occurs (e.g. public health initiatives such as poverty eradication or a healthy diet; vaccination to pre-empt an illness, e.g. flu vaccination reducing post-influenza depression). Secondary prevention targets high-risk groups for early detection/treatment (e.g. early intervention services in psychosis). Tertiary prevention reduces disability and progression once a disorder is clinically established, including rehabilitation.",
+          "type": "gap",
+          "subtopic": "Levels of prevention (primary/secondary/tertiary)",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: Primary prevention averts the illness/epidemic before it occurs (e.g. public health initiatives such as poverty eradication or a healthy diet; vaccination to pre-empt an illness, e.g. flu vaccination reducing post-influenza depression). Secondary prevention targets high-risk groups for early detection/treatment (e.g. early intervention services in psychosis). Tertiary prevention reduces disability and progression once a disorder is clinically established, including rehabilitation.",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 3,
@@ -1123,8 +1136,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Because current knowledge of psychiatric risk factors and causal insults is limited, tertiary prevention is the level most commonly employed in current psychiatric practice.",
+          "type": "gap",
+          "subtopic": "Levels of prevention (primary/secondary/tertiary)",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: Because current knowledge of psychiatric risk factors and causal insults is limited, tertiary prevention is the level most commonly employed in current psychiatric practice.",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 3,
@@ -1132,8 +1146,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Continuous treatment aimed at giving chronic patients their best-attainable quality of life/functioning is **TERTIARY** prevention, not secondary prevention.",
+          "type": "gap",
+          "subtopic": "Levels of prevention (primary/secondary/tertiary)",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: Continuous treatment aimed at giving chronic patients their best-attainable quality of life/functioning is **TERTIARY** prevention, not secondary prevention.",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 18,
@@ -1151,8 +1166,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Tertiary prevention specifically means preventing progression of an already-established disease and reducing the resulting disability once diagnosis is well established (e.g. encouraging a patient with schizophrenia's negative symptoms to attend a day centre to reduce disability).",
+          "type": "gap",
+          "subtopic": "Levels of prevention (primary/secondary/tertiary)",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: Tertiary prevention specifically means preventing progression of an already-established disease and reducing the resulting disability once diagnosis is well established (e.g. encouraging a patient with schizophrenia's negative symptoms to attend a day centre to reduce disability).",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 28,
@@ -1171,94 +1187,24 @@
           "sourced": false
         },
         {
-          "type": "table",
-          "title": "Levels of prevention — definitions and worked examples (question-bank only)",
-          "columns": [
-            "Level",
-            "Definition",
-            "Example from question bank"
-          ],
-          "rows": [
-            [
-              "Primary",
-              "Prevents the illness/epidemic occurring at all",
-              "Influenza vaccination to pre-empt post-influenza depression; public health initiatives (poverty eradication, healthy diet)"
-            ],
-            [
-              "Secondary",
-              "Early detection/treatment aimed at high-risk groups",
-              "Early intervention services in psychosis"
-            ],
-            [
-              "Tertiary",
-              "Prevents progression/disability once disease is clinically established, incl. rehabilitation; the level most used in current psychiatric practice",
-              "Day-centre attendance for negative symptoms of schizophrenia; continuous treatment to maximise chronic patients' quality of life"
-            ]
-          ],
-          "sources": [
-            {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 3,
-              "questionNumber": 2
-            },
-            {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 18,
-              "questionNumber": 17
-            },
-            {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 21,
-              "questionNumber": 20
-            },
-            {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 28,
-              "questionNumber": 27
-            },
-            {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 29,
-              "questionNumber": 28
-            },
-            {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 30,
-              "questionNumber": 29
-            }
-          ],
-          "highYield": true
+          "type": "gap",
+          "subtopic": "Levels of prevention — worked examples table",
+          "note": "Not covered in the source books — the primary/secondary/tertiary prevention framework with its worked examples (vaccination, early intervention, day-centre rehabilitation) is tested via the question bank only.",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
         }
       ],
       "concise": {
-        "bullets": [
-          {
-            "text": "Primary prevention averts illness before onset (public health, vaccination); secondary targets high-risk groups for early detection/treatment (e.g. early intervention in psychosis); tertiary reduces disability/progression once established (rehabilitation).",
-            "source": {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 3,
-              "questionNumber": 2
-            }
-          },
-          {
-            "text": "Tertiary prevention is the level most used in current psychiatric practice, because knowledge of psychiatric risk factors/causal insults remains limited.",
-            "source": {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 3,
-              "questionNumber": 2
-            }
-          },
-          {
-            "text": "Tertiary prevention specifically = preventing progression of an already-established disease + reducing resulting disability (e.g. day-centre attendance for schizophrenia negative symptoms).",
-            "source": {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 28,
-              "questionNumber": 27
-            }
-          }
-        ],
+        "bullets": [],
         "highlightBlockIndices": [
+          0,
+          1,
+          2,
           3,
+          4,
           5,
           6
         ]
@@ -1269,8 +1215,9 @@
       "title": "10. Pathways to Care, Ecological Fallacy & Deprivation Indices (question-bank only — not covered in the book notes for this topic)",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "The pathways-of-care (filter) model, proposed by Goldberg, explains the difference in prevalence rates seen across settings from the community up to tertiary care centres, via a series of sequential filters. The **FIRST** filter between disease and healthcare delivery is recognition of symptoms by the patient (self-recognition) — illness behaviour, which varies widely even between people with the same illness severity, is the strong determinant at this first stage.",
+          "type": "gap",
+          "subtopic": "Goldberg's pathways-of-care (filter) model",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: The pathways-of-care (filter) model, proposed by Goldberg, explains the difference in prevalence rates seen across settings from the community up to tertiary care centres, via a series of sequential filters. The **FIRST** filter between disease and healthcare delivery is recognition of symptoms by the patient (self-recognition) — illness behaviour, which varies widely even between people with the same illness severity, is the strong determinant at this first stage.",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 22,
@@ -1288,8 +1235,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Ecological fallacy: an inference error made when a researcher attributes an individual-level cause to an individual based on aggregate/group-level data (e.g. concluding that psychiatrists themselves 'drive' patients to suicide because areas with more consultant psychiatrists per catchment population show higher suicide rates).",
+          "type": "gap",
+          "subtopic": "Ecological fallacy",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: Ecological fallacy: an inference error made when a researcher attributes an individual-level cause to an individual based on aggregate/group-level data (e.g. concluding that psychiatrists themselves 'drive' patients to suicide because areas with more consultant psychiatrists per catchment population show higher suicide rates).",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 19,
@@ -1307,8 +1255,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "The Jarman index (Brian Jarman) is a scoring system for relative social deprivation in a community, derived from census data (percentages of elderly living alone, single-parent families, under-5s, unskilled/unemployed persons, ethnic minorities, overcrowded dwellings, recent address changes, etc.). It is a valid indicator but not generally accepted outside the **UK**.",
+          "type": "gap",
+          "subtopic": "The Jarman index",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: The Jarman index (Brian Jarman) is a scoring system for relative social deprivation in a community, derived from census data (percentages of elderly living alone, single-parent families, under-5s, unskilled/unemployed persons, ethnic minorities, overcrowded dwellings, recent address changes, etc.). It is a valid indicator but not generally accepted outside the **UK**.",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 15,
@@ -1316,8 +1265,9 @@
           }
         },
         {
-          "type": "paragraph",
-          "text": "Attack rate is simply an incidence rate following an acute exposure: number of cases that develop / number exposed (at risk) in the cohort.",
+          "type": "gap",
+          "subtopic": "Attack rate",
+          "note": "Not covered in books/14-epidemiology.pdf or books/7-0-epidemiological-data.pdf — tested via the question bank: Attack rate is simply an incidence rate following an acute exposure: number of cases that develop / number exposed (at risk) in the cohort.",
           "source": {
             "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
             "page": 17,
@@ -1336,43 +1286,14 @@
         }
       ],
       "concise": {
-        "bullets": [
-          {
-            "text": "Goldberg's pathways-of-care (filter) model explains prevalence differences across settings via sequential filters; the **FIRST** filter is the patient's own symptom recognition (illness behaviour), not **GP** recognition or service availability.",
-            "source": {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 22,
-              "questionNumber": 21
-            }
-          },
-          {
-            "text": "Ecological fallacy = attributing an individual-level cause to a person based on aggregate/group-level data (e.g. wrongly inferring psychiatrists 'cause' suicide from an area-level correlation).",
-            "source": {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 19,
-              "questionNumber": 18
-            }
-          },
-          {
-            "text": "Jarman index (Brian Jarman): census-derived social deprivation score (elderly living alone, single-parent families, under-5s, unskilled/unemployed, ethnic minorities, overcrowding, recent address changes) — valid but not generally accepted outside the **UK**.",
-            "source": {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 15,
-              "questionNumber": 14
-            }
-          },
-          {
-            "text": "Attack rate = an incidence rate following an acute exposure: cases that develop / number exposed (at risk) in the cohort.",
-            "source": {
-              "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
-              "page": 17,
-              "questionNumber": 16
-            }
-          }
-        ],
+        "bullets": [],
         "highlightBlockIndices": [
+          0,
           1,
+          2,
           3,
+          4,
+          5,
           6
         ]
       }
