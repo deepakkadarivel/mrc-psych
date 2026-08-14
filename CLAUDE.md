@@ -104,6 +104,31 @@ on 3 and then scaled.
   user — then add `SupabaseTrackerStore` behind the same interface and swap in one place.
   Don't build the Supabase implementation speculatively before creds exist.
 
+## Quiz progress persistence and navigation (`components/quiz-view.tsx`)
+
+One shared `QuizView` powers both `/quiz/[topic]` and `/quiz/mock/[examId]` (mock exams just pass
+a different `topicId`/`questions`/`backHref`), so this is fixed once for every quiz. Per-question
+answer state (`selected`, `revealed`, and `wasRight` for EMI self-assessment) plus the current
+question index live in `lib/quiz-progress-store.ts`, keyed by `mrcpsych-quiz-progress-${topicId}`
+in localStorage, not component state alone — leaving a quiz mid-attempt (closing the tab,
+navigating away) and coming back used to silently restart from question 1 with every answer lost.
+Progress is loaded in a `useEffect` after the first paint rather than in the `useState`
+initializer, deliberately, to avoid a hydration mismatch against this app's statically-exported
+HTML (same reasoning as `usePortalSlot`'s client-only resolution — see "Consolidated sticky
+header" below). `loadQuizProgress` discards saved progress whose `answers.length` doesn't match
+the current question count, so a content-JSON re-extraction (like the parser fix above) can't
+desync a stale saved index/array against the live questions array.
+
+Free back/forth navigation (Prev/Next buttons, plus a per-question numbered "palette" strip that
+jumps directly to any question) replaced the old forced-linear flow where "Next" was the only way
+to move and also silently scored the question as a side effect. Scoring is now fully decoupled
+from navigation: correctness is derived on demand from the stored answer (`isCorrect()`), and
+`trackerStore.addEntry()` only fires from an explicit "Finish quiz" button, which computes the
+final score by walking every stored answer once (not an incrementally-maintained counter, so
+revisiting and changing an earlier answer before finishing doesn't double-count). Finishing clears
+the saved progress — a completed attempt always starts a fresh one next time, matching the
+pre-existing "Done" screen's own behavior.
+
 ## Attempt-review parser — verified findings (don't re-derive these)
 
 `scripts/lib/parse-attempt-review.ts` is verified against real files: exact question-count
@@ -145,6 +170,43 @@ match on a plain SBA file (90/90) and an EMI file (99/99), scale-tested across a
   "TIME'FACTOR:'"). Body prose cleanup (`cleanBookText`) stays reliable everywhere — it's only
   bold/heading runs that vary per file. Don't write a fix for one file's symbol and assume it
   generalizes; treat every garbled heading as its own spot-check, not a pattern to codify.
+- **Fixed (2026-08-14): a real SBA option could get split into two `options[]` entries.**
+  `pdftotext` sometimes wraps one option's text across two physical lines with no blank line
+  separating it from the next option — confirmed no reliable indentation/positional difference
+  between a wrapped continuation and a genuine new option exists in this export format (checked
+  via `pdftotext -bbox`, the x-coordinates only differ by per-glyph left-bearing noise). This
+  broke exact-string grading in the quiz UI: the split option was never selectable as one radio
+  choice, and `correctAnswer` (reconstructed correctly via `joinWrapped`, since it isn't
+  line-split) then matched nothing in `options`, so a genuinely correct pick still showed
+  "Incorrect". Fixed by `mergeSplitOption()`: when `correctAnswer` isn't in `options`, look for a
+  run of up to 3 consecutive options that concatenate (with or without a space) to `correctAnswer`
+  and collapse them. Deliberately keyed off `correctAnswer` rather than a general lowercase-start
+  heuristic — many quizzes have entirely legitimate lowercase options (drug names, "olanzapine",
+  "haloperidol", etc.), so "line starts lowercase = continuation" would have corrupted good data.
+  This only repairs the correct option; a wrong option split the same way is unverifiable against
+  anything and stays split (not observed to matter for grading, since grading only compares
+  against `correctAnswer`).
+- **Fixed (2026-08-14): trailing page-footer/exam-summary noise leaking into the last extractable
+  field.** `stripHeaderFooter` only stripped the date-time header and the quiz-review-URL footer;
+  it now also strips the copyright/refund footer (`© 2023/2024 SPMM Course Limited...` /
+  `Refund Policy | Terms & Conditions`, sometimes with an extra `Right-click is disabled` line)
+  and the per-exam "Started on / State Finished / Completed on / Time taken N secs / Grade X out
+  of Y (Z%) / Feedback ..." summary block Moodle prints at the top of each mock exam. Both leak
+  into whichever question's chunk has no following "Question N" marker to bound it — the last
+  question of a question_bank PDF, or the last question of each mock exam (which butts up against
+  the *next* exam's summary block in the same combined `SPMM Mocks.pdf` text stream). `Grade`
+  is deliberately matched narrowly (`Grade [\d.]+ out of [\d.]+...`) — plain `Grade` alone would
+  also strip genuine clinical content like "Grade I/II/III/IV" tumour-staging options. Same
+  reasoning for `Time taken \d...` (a digit must follow) after a first pass wrongly stripped the
+  genuine option "Time taken to achieve an event of interest" in evidence-based-medicine.
+- **Known residual, not chased further**: 5 questions (of ~3130 SBA questions) still have a
+  `correctAnswer` that doesn't match any option, all in `mocks/` — same underlying cause as the
+  documented ligature-out-of-order limitation above, just manifesting as an orphan superscript
+  digit (e.g. R² rendered with the "2" on its own out-of-order line: `"...Coefficient of
+  determination 2 2 2 2 2 2 2"`) or as duplicated overlapping page content in `-raw` mode
+  (`mock-9-86`, `mock-12-115`). `scripts/verify-question-answers.ts` re-surfaces these on every
+  extraction run — don't try to regex-guess a fix for either without new evidence; both need the
+  same "needs an actual word list / real bbox-order fix" treatment already ruled out above.
 
 ## Notes segmenter — verified findings
 
@@ -646,7 +708,9 @@ switching, run across two representative topics (`adult-psychiatry` — richest 
   drawer) in `topic-view.tsx` give the tests a stable target independent of the toggle's icon-only
   markup and the drawer's `sr-only` title.
 - Extend this file (don't create a second spec file per concern) when adding topics/assertions —
-  it's parametrized over a `TOPICS` array already.
+  it's parametrized over a `TOPICS` array already. That "one file" rule is scoped to *this* file's
+  concern (topic/study-guide rendering); `e2e/quiz.spec.ts` is a genuinely separate concern (quiz
+  progress persistence and Prev/Next/palette navigation) and lives in its own file for that reason.
 
 ## Working conventions
 

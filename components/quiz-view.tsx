@@ -1,14 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { PanelRightIcon } from "lucide-react";
+import { ChevronLeftIcon, ChevronRightIcon, PanelRightIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { RichText } from "@/components/rich-text";
+import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 
 const PdfViewer = dynamic(() => import("@/components/pdf-viewer").then((m) => m.PdfViewer), {
@@ -16,6 +17,21 @@ const PdfViewer = dynamic(() => import("@/components/pdf-viewer").then((m) => m.
 });
 import type { Question } from "@/lib/types";
 import { trackerStore } from "@/lib/tracker-store";
+import {
+  clearQuizProgress,
+  loadQuizProgress,
+  saveQuizProgress,
+  type QuizAnswer,
+  type QuizProgress,
+} from "@/lib/quiz-progress-store";
+
+function freshAnswers(count: number): QuizAnswer[] {
+  return Array.from({ length: count }, () => ({ selected: null, revealed: false, wasRight: null }));
+}
+
+function isCorrect(q: Question, a: QuizAnswer): boolean {
+  return q.options.length > 0 ? a.revealed && a.selected === q.correctAnswer : a.wasRight === true;
+}
 
 export function QuizView({
   topicId,
@@ -28,38 +44,56 @@ export function QuizView({
   questions: Question[];
   backHref?: string;
 }) {
-  const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<string | null>(null);
-  const [revealed, setRevealed] = useState(false);
-  const [correctCount, setCorrectCount] = useState(0);
-  const [missed, setMissed] = useState<string[]>([]);
-  const [finished, setFinished] = useState(false);
+  const [progress, setProgress] = useState<QuizProgress>(() => ({ index: 0, answers: freshAnswers(questions.length) }));
+  const [loaded, setLoaded] = useState(false);
   const [pdfOpen, setPdfOpen] = useState(false);
+  const [finished, setFinished] = useState(false);
+  const [finalScore, setFinalScore] = useState(0);
 
-  const q = questions[index];
+  // Resume saved progress client-side only, after the deterministic first paint, to avoid a
+  // hydration mismatch against the static-exported HTML (see CLAUDE.md's usePortalSlot note for
+  // the same pattern elsewhere in this app).
+  useEffect(() => {
+    setProgress(loadQuizProgress(topicId, questions.length));
+    setLoaded(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topicId]);
+
+  useEffect(() => {
+    if (loaded) saveQuizProgress(topicId, progress);
+  }, [topicId, progress, loaded]);
+
+  const q = questions[progress.index];
+  const answer = progress.answers[progress.index];
   const isSba = q.options.length > 0;
-  const gotItRight = isSba ? selected === q.correctAnswer : null;
+  const gotItRight = isSba ? answer.selected === q.correctAnswer : answer.wasRight;
 
-  function next(wasRight: boolean) {
-    if (wasRight) setCorrectCount((c) => c + 1);
-    else setMissed((m) => [...m, q.id]);
+  function updateAnswer(patch: Partial<QuizAnswer>) {
+    setProgress((p) => ({
+      ...p,
+      answers: p.answers.map((a, i) => (i === p.index ? { ...a, ...patch } : a)),
+    }));
+  }
 
-    if (index + 1 >= questions.length) {
-      trackerStore.addEntry({
-        id: `${topicId}-${Date.now()}`,
-        date: new Date().toISOString(),
-        topic: topicId,
-        score: wasRight ? correctCount + 1 : correctCount,
-        total: questions.length,
-        missedQuestionIds: wasRight ? missed : [...missed, q.id],
-      });
-      setFinished(true);
-      return;
-    }
-    setIndex((i) => i + 1);
-    setSelected(null);
-    setRevealed(false);
+  function goTo(index: number) {
     setPdfOpen(false);
+    setProgress((p) => ({ ...p, index: Math.max(0, Math.min(questions.length - 1, index)) }));
+  }
+
+  function finish() {
+    const correctCount = progress.answers.filter((a, i) => isCorrect(questions[i], a)).length;
+    const missedQuestionIds = questions.filter((qq, i) => !isCorrect(qq, progress.answers[i])).map((qq) => qq.id);
+    trackerStore.addEntry({
+      id: `${topicId}-${Date.now()}`,
+      date: new Date().toISOString(),
+      topic: topicId,
+      score: correctCount,
+      total: questions.length,
+      missedQuestionIds,
+    });
+    clearQuizProgress(topicId);
+    setFinalScore(correctCount);
+    setFinished(true);
   }
 
   if (finished) {
@@ -67,7 +101,7 @@ export function QuizView({
       <div className="mx-auto max-w-lg p-6 text-center space-y-4">
         <h1 className="text-2xl font-semibold">Done</h1>
         <p className="text-lg">
-          {correctCount} / {questions.length} correct
+          {finalScore} / {questions.length} correct
         </p>
         <Button render={<Link href={backHref ?? `/topics/${topicId}`} />} nativeButton={false}>
           Back to {topicTitle}
@@ -79,18 +113,39 @@ export function QuizView({
   return (
     <div className="h-full overflow-y-auto">
       <div className="mx-auto max-w-2xl p-6 space-y-4">
-        <Progress value={((index + 1) / questions.length) * 100} />
+        <Progress value={((progress.index + 1) / questions.length) * 100} />
         <div className="flex items-center justify-between text-sm text-muted-foreground">
           <span>
-            Question {index + 1} / {questions.length}
+            Question {progress.index + 1} / {questions.length}
           </span>
           <Badge variant="outline">{q.format}</Badge>
+        </div>
+
+        <div className="flex gap-1 overflow-x-auto pb-1">
+          {questions.map((qq, i) => {
+            const a = progress.answers[i];
+            const answered = a.revealed || a.wasRight !== null;
+            return (
+              <button
+                key={qq.id}
+                onClick={() => goTo(i)}
+                aria-label={`Go to question ${i + 1}`}
+                className={cn(
+                  "flex size-7 shrink-0 items-center justify-center rounded-md border text-xs",
+                  i === progress.index && "ring-2 ring-primary",
+                  answered ? "bg-muted font-medium" : "text-muted-foreground"
+                )}
+              >
+                {i + 1}
+              </button>
+            );
+          })}
         </div>
 
         <p className="whitespace-pre-line text-base">{q.stem}</p>
 
         {isSba ? (
-          <RadioGroup value={selected ?? undefined} onValueChange={setSelected} disabled={revealed}>
+          <RadioGroup value={answer.selected ?? undefined} onValueChange={(v) => updateAnswer({ selected: v })} disabled={answer.revealed}>
             {q.options.map((opt) => (
               <label key={opt} className="flex items-center gap-2 rounded-md border p-2 text-sm">
                 <RadioGroupItem value={opt} />
@@ -105,8 +160,8 @@ export function QuizView({
           </p>
         )}
 
-        {!revealed ? (
-          <Button disabled={isSba && !selected} onClick={() => setRevealed(true)}>
+        {!answer.revealed ? (
+          <Button disabled={isSba && !answer.selected} onClick={() => updateAnswer({ revealed: true })}>
             Reveal answer
           </Button>
         ) : (
@@ -130,16 +185,16 @@ export function QuizView({
                   Source: {q.source.file.split("/").pop()} p.{q.source.page}
                 </Badge>
               </button>
-              {isSba ? (
-                <Button size="sm" onClick={() => next(!!gotItRight)}>
-                  Next
-                </Button>
-              ) : (
+              {!isSba && (
                 <>
-                  <Button size="sm" variant="outline" onClick={() => next(false)}>
+                  <Button
+                    size="sm"
+                    variant={answer.wasRight === false ? "destructive" : "outline"}
+                    onClick={() => updateAnswer({ wasRight: false })}
+                  >
                     I got it wrong
                   </Button>
-                  <Button size="sm" onClick={() => next(true)}>
+                  <Button size="sm" variant={answer.wasRight === true ? "default" : "outline"} onClick={() => updateAnswer({ wasRight: true })}>
                     I got it right
                   </Button>
                 </>
@@ -147,6 +202,25 @@ export function QuizView({
             </div>
           </div>
         )}
+
+        <div className="flex items-center justify-between pt-2">
+          <Button variant="outline" size="sm" disabled={progress.index === 0} onClick={() => goTo(progress.index - 1)}>
+            <ChevronLeftIcon className="size-4" />
+            Prev
+          </Button>
+          <Button size="sm" variant="secondary" onClick={finish}>
+            Finish quiz
+          </Button>
+          <Button
+            variant="outline"
+            size="sm"
+            disabled={progress.index === questions.length - 1}
+            onClick={() => goTo(progress.index + 1)}
+          >
+            Next
+            <ChevronRightIcon className="size-4" />
+          </Button>
+        </div>
       </div>
 
       <Sheet open={pdfOpen} onOpenChange={setPdfOpen}>
@@ -155,7 +229,7 @@ export function QuizView({
           className="w-full data-[side=right]:sm:max-w-2xl"
         >
           <SheetTitle className="sr-only">Source PDF</SheetTitle>
-          <PdfViewer source={revealed ? q.source : null} />
+          <PdfViewer source={answer.revealed ? q.source : null} />
         </SheetContent>
       </Sheet>
     </div>

@@ -4,10 +4,59 @@ import { stripIconGlyphs } from "./pdf-text";
 const PAGE_MARK = " PAGE:";
 const HEADER_RE = /^\s*\d{1,2}\/\d{1,2}\/\d{2,4},\s*\d{1,2}:\d{2}(\s*[AP]M)?.*$/;
 const FOOTER_RE = /^\s*https:\/\/spmmcourse\.com\/mod\/quiz\/review\.php.*\d+\/\d+\s*$/;
+// The course-branding footer on the PDF's last page — with no following "Question N" marker to
+// bound it, it otherwise leaks into the final question's correctAnswer (see CLAUDE.md quiz fixes).
+const COPYRIGHT_RE = /^\s*©\s*\d{4}\s*SPMM Course Limited.*$/;
+const REFUND_RE = /^\s*Refund Policy\s*\|\s*Terms\s*&\s*Conditions\s*$/;
+const RIGHT_CLICK_RE = /^\s*Right-click is disabled\s*$/;
+// The exam-attempt summary block Moodle prints at the top of each mock exam's export — with no
+// preceding "Question N" marker of its own, it leaks into the PREVIOUS exam's last question's
+// correctAnswer instead (same unbounded-final-chunk issue as the copyright footer above).
+const WEEKDAY_DATE = /(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday), \d{1,2} \w+ \d{4}/;
+const STARTED_ON_RE = new RegExp(`^\\s*Started on ${WEEKDAY_DATE.source}.*$`);
+const STATE_RE = /^\s*State Finished\s*$/;
+const COMPLETED_ON_RE = new RegExp(`^\\s*Completed on ${WEEKDAY_DATE.source}.*$`);
+const TIME_TAKEN_RE = /^\s*Time taken \d.*$/;
+const GRADE_SUMMARY_RE = /^\s*Grade [\d.]+ out of [\d.]+.*$/;
+const FEEDBACK_RE = /^\s*Feedback You are on the right track\..+$/;
+
+const NOISE_LINE_PATTERNS = [
+  HEADER_RE,
+  FOOTER_RE,
+  COPYRIGHT_RE,
+  REFUND_RE,
+  RIGHT_CLICK_RE,
+  STARTED_ON_RE,
+  STATE_RE,
+  COMPLETED_ON_RE,
+  TIME_TAKEN_RE,
+  GRADE_SUMMARY_RE,
+  FEEDBACK_RE,
+];
 
 function stripHeaderFooter(pageText: string): string {
   const lines = pageText.split("\n");
-  return lines.filter((l) => !HEADER_RE.test(l) && !FOOTER_RE.test(l)).join("\n");
+  return lines.filter((l) => !NOISE_LINE_PATTERNS.some((re) => re.test(l))).join("\n");
+}
+
+/**
+ * pdftotext sometimes wraps one option's text across two physical lines with no blank-line
+ * separator from the next option (confirmed: no reliable indentation/positional difference
+ * between a wrapped continuation and a genuine new option in this export format — see CLAUDE.md).
+ * The one place we have verified, fully-reconstructed text to check against is `correctAnswer`
+ * (already rejoined via joinWrapped from "The correct answer is:"), so when it doesn't match any
+ * single option, look for a run of consecutive options that concatenate to it and collapse them.
+ */
+function mergeSplitOption(options: string[], correctAnswer: string): string[] {
+  for (let i = 0; i < options.length; i++) {
+    for (let j = i + 1; j < options.length && j <= i + 3; j++) {
+      const slice = options.slice(i, j + 1);
+      if (slice.join(" ") === correctAnswer || slice.join("") === correctAnswer) {
+        return [...options.slice(0, i), correctAnswer, ...options.slice(j + 1)];
+      }
+    }
+  }
+  return options;
 }
 
 /** Rejoins pdftotext's mid-paragraph line wraps into single lines, keeping blank-line paragraph breaks. */
@@ -110,6 +159,10 @@ export function parseAttemptReview(
     let correctAnswer = "";
     if (correctAnswerMatch) {
       correctAnswer = joinWrapped(body.slice(correctAnswerMatch.index! + correctAnswerMatch[0].length));
+    }
+
+    if (format === "SBA" && correctAnswer && !options.includes(correctAnswer)) {
+      options = mergeSplitOption(options, correctAnswer);
     }
 
     results.push({
