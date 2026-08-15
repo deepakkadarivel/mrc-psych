@@ -252,3 +252,19 @@ export interface ExamTrendsData {
   independentAnalysis: IndependentAnalysis;
   sections: ExamTrendSection[];
 }
+
+export interface ReferenceItem {
+  title: string;
+  url: string;
+}
+
+export interface ReferenceSection {
+  heading: string;
+  items: ReferenceItem[];
+}
+
+export interface ReferenceFile {
+  file: string;
+  title: string;
+  sections: ReferenceSection[];
+}

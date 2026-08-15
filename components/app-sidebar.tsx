@@ -10,12 +10,14 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { getManifest } from "@/lib/content";
+import { StatMcqNav } from "@/components/stat-mcq-nav";
+import { getManifest, getStatMcqTopics } from "@/lib/content";
 
 export function AppSidebar() {
   const manifest = getManifest();
   const clinical = manifest.topics.filter((t) => t.area === "clinical");
   const researchAndStats = manifest.topics.filter((t) => t.area === "research-and-stats");
+  const statMcqTopics = getStatMcqTopics();
 
   return (
     <Sidebar>
@@ -66,6 +68,12 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
         <SidebarGroup>
+          <SidebarGroupLabel>Stats MCQ</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <StatMcqNav topics={statMcqTopics} />
+          </SidebarGroupContent>
+        </SidebarGroup>
+        <SidebarGroup>
           <SidebarGroupLabel>Practice</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
@@ -82,6 +90,18 @@ export function AppSidebar() {
               <SidebarMenuItem>
                 <SidebarMenuButton render={<Link href="/tracker" />}>
                   Performance tracker
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+        <SidebarGroup>
+          <SidebarGroupLabel>References</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton render={<Link href="/references" />}>
+                  Video links
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
