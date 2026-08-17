@@ -22,6 +22,7 @@ import { CitationBadge } from "@/components/citation-badge";
 import { QuizView } from "@/components/quiz-view";
 import { RichText } from "@/components/rich-text";
 import { usePortalSlot } from "@/hooks/use-portal-slot";
+import { useTabParam } from "@/hooks/use-tab-param";
 import { cn } from "@/lib/utils";
 import { CATEGORY_COLOR_CLASSES, COMPARISON_TABLE_COLORS, DEFAULT_TABLE_COLORS } from "@/lib/category-colors";
 import type {
@@ -616,6 +617,8 @@ function IconTabTrigger({
   );
 }
 
+const TAB_VALUES = ["full", "concise", "notes", "tables", "mnemonics", "traps", "gaps", "quiz"] as const;
+
 export function StudyGuideView({
   guide,
   onCite,
@@ -640,8 +643,13 @@ export function StudyGuideView({
   // context still wraps both the portaled list and the TabsContent panels below.
   const tabsAnchorSlot = usePortalSlot("topic-tabs-anchor");
 
+  // ?tab= so refreshing, deep-linking, or sharing a link on any tab (Quiz included) lands back
+  // on that same tab instead of always resetting to Full Guide — see hooks/use-tab-param.ts.
+  const validTabs = TAB_VALUES.filter((v) => v !== "quiz" || questions.length > 0);
+  const [tab, setTab] = useTabParam(validTabs, "full");
+
   return (
-    <Tabs defaultValue="full" className="w-full">
+    <Tabs value={tab} onValueChange={setTab} className="w-full">
       {tabsAnchorSlot &&
         createPortal(
           <TabsList className="mx-0 overflow-x-auto">
