@@ -12,7 +12,9 @@ export interface QuizStatus {
 // "resolve client-side after first paint" note for why (avoids a hydration mismatch).
 export function getQuizStatus(quizId: string, total: number): QuizStatus {
   const progress = loadQuizProgress(quizId, total);
-  const answered = progress.answers.filter((a) => a.revealed || a.wasRight !== null).length;
+  // selected covers SBA questions, wasRight covers EMI self-assessment — an answer only ever
+  // populates one of the two, so this works without knowing each question's format here.
+  const answered = progress.answers.filter((a) => a.selected !== null || a.wasRight !== null).length;
   const attempts = trackerStore
     .getEntries()
     .filter((e) => e.topic === quizId)

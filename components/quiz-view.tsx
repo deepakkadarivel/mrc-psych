@@ -30,7 +30,14 @@ function freshAnswers(count: number): QuizAnswer[] {
 }
 
 function isCorrect(q: Question, a: QuizAnswer): boolean {
-  return q.options.length > 0 ? a.revealed && a.selected === q.correctAnswer : a.wasRight === true;
+  // Graded only at finish time now — an SBA question counts as correct/incorrect purely from
+  // the final selection, not from whether it was ever "revealed" mid-quiz (see CLAUDE.md quiz
+  // section: no correct/incorrect marking is shown until Finish).
+  return q.options.length > 0 ? a.selected === q.correctAnswer : a.wasRight === true;
+}
+
+function isAnswered(q: Question, a: QuizAnswer): boolean {
+  return q.options.length > 0 ? a.selected !== null : a.wasRight !== null;
 }
 
 export function QuizView({
@@ -66,7 +73,6 @@ export function QuizView({
   const q = questions[progress.index];
   const answer = progress.answers[progress.index];
   const isSba = q.options.length > 0;
-  const gotItRight = isSba ? answer.selected === q.correctAnswer : answer.wasRight;
 
   function updateAnswer(patch: Partial<QuizAnswer>) {
     setProgress((p) => ({
@@ -124,7 +130,7 @@ export function QuizView({
         <div className="flex gap-1 overflow-x-auto pb-1">
           {questions.map((qq, i) => {
             const a = progress.answers[i];
-            const answered = a.revealed || a.wasRight !== null;
+            const answered = isAnswered(qq, a);
             return (
               <button
                 key={qq.id}
@@ -145,7 +151,17 @@ export function QuizView({
         <p className="whitespace-pre-line text-base">{q.stem}</p>
 
         {isSba ? (
-          <RadioGroup value={answer.selected ?? undefined} onValueChange={(v) => updateAnswer({ selected: v })} disabled={answer.revealed}>
+          // Always enabled — no correct/incorrect marking happens until Finish, so there's
+          // nothing to "lock in" mid-quiz. Selection is free to change right up to Finish.
+          //
+          // key={loaded}: Base UI's RadioGroup decides controlled-vs-uncontrolled from its very
+          // first render. Before saved progress loads, `value` is undefined, so the group locks
+          // into "uncontrolled" and then ignores the resume effect's later value push — the
+          // radio's data-checked attribute never updates on its own, only after a real click
+          // re-syncs it (confirmed via the DOM: aria-checked stays correct, data-checked doesn't
+          // update, until interacted with). Remounting once `loaded` flips true gives the group a
+          // fresh first render with the correct value already in place.
+          <RadioGroup key={String(loaded)} value={answer.selected ?? undefined} onValueChange={(v) => updateAnswer({ selected: v })}>
             {q.options.map((opt) => (
               <label key={opt} className="flex items-center gap-2 rounded-md border p-2 text-sm">
                 <RadioGroupItem value={opt} />
@@ -153,24 +169,16 @@ export function QuizView({
               </label>
             ))}
           </RadioGroup>
-        ) : (
-          <p className="text-xs text-muted-foreground">
-            This EMI question&apos;s option list wasn&apos;t recoverable from the source PDF
-            (see CLAUDE.md) — reveal the answer, then self-assess.
-          </p>
-        )}
-
-        {!answer.revealed ? (
-          <Button disabled={isSba && !answer.selected} onClick={() => updateAnswer({ revealed: true })}>
-            Reveal answer
-          </Button>
+        ) : !answer.revealed ? (
+          <>
+            <p className="text-xs text-muted-foreground">
+              This EMI question&apos;s option list wasn&apos;t recoverable from the source PDF
+              (see CLAUDE.md) — reveal the answer, then self-assess.
+            </p>
+            <Button onClick={() => updateAnswer({ revealed: true })}>Reveal answer</Button>
+          </>
         ) : (
           <div className="space-y-2 rounded-md border p-3">
-            {isSba && (
-              <Badge variant={gotItRight ? "default" : "destructive"}>
-                {gotItRight ? "Correct" : "Incorrect"}
-              </Badge>
-            )}
             <p className="text-sm font-medium">Correct answer: {q.correctAnswer || "(not extractable from source — see explanation)"}</p>
             {q.explanation && (
               <p className="text-sm">
@@ -185,20 +193,16 @@ export function QuizView({
                   Source: {q.source.file.split("/").pop()} p.{q.source.page}
                 </Badge>
               </button>
-              {!isSba && (
-                <>
-                  <Button
-                    size="sm"
-                    variant={answer.wasRight === false ? "destructive" : "outline"}
-                    onClick={() => updateAnswer({ wasRight: false })}
-                  >
-                    I got it wrong
-                  </Button>
-                  <Button size="sm" variant={answer.wasRight === true ? "default" : "outline"} onClick={() => updateAnswer({ wasRight: true })}>
-                    I got it right
-                  </Button>
-                </>
-              )}
+              <Button
+                size="sm"
+                variant={answer.wasRight === false ? "destructive" : "outline"}
+                onClick={() => updateAnswer({ wasRight: false })}
+              >
+                I got it wrong
+              </Button>
+              <Button size="sm" variant={answer.wasRight === true ? "default" : "outline"} onClick={() => updateAnswer({ wasRight: true })}>
+                I got it right
+              </Button>
             </div>
           </div>
         )}
