@@ -7,6 +7,7 @@ import {
   BookOpenText,
   GraduationCap,
   HelpCircle,
+  Image as ImageIcon,
   Lightbulb,
   ListChecks,
   NotebookText,
@@ -31,6 +32,7 @@ import type {
   ConciseBullet,
   ConciseFact,
   GapBlock,
+  ImageBlock,
   MnemonicBlock,
   ParagraphBlock,
   Question,
@@ -326,6 +328,25 @@ function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Ci
   );
 }
 
+function ImageBlockView({ block, onCite }: { block: ImageBlock; onCite: Cite }) {
+  return (
+    <div className="overflow-hidden rounded-xl border border-[#1B3A5C]/30 shadow-sm">
+      <div className="flex items-center gap-2 bg-[#1B3A5C] px-4 py-2.5">
+        <ImageIcon className="size-4 shrink-0 text-white" />
+        <span className="text-sm font-bold text-white">Figure</span>
+      </div>
+      <div className="bg-white p-3">
+        {/* eslint-disable-next-line @next/next/no-img-element -- static export, images.unoptimized */}
+        <img src={block.src} alt={block.caption} className="mx-auto max-w-full" />
+      </div>
+      <div className="flex items-center justify-between gap-3 border-t border-[#1B3A5C]/15 bg-[#F5F7FA] px-4 py-2">
+        <p className="text-[13px] leading-5 text-[#1A1A1A]/80 md:text-[14px]">{block.caption}</p>
+        <CitationBadge source={block.source} onClick={onCite} className="shrink-0" />
+      </div>
+    </div>
+  );
+}
+
 function GapBlockView({ block, onCite }: { block: GapBlock; onCite: Cite }) {
   return (
     <div className="overflow-hidden rounded-xl border border-rose-300 shadow-sm">
@@ -570,6 +591,8 @@ function BlockView({ block, onCite }: { block: Block; onCite: Cite }) {
       return <TrapBlockView block={block} onCite={onCite} />;
     case "trap-list":
       return <TrapListBlockView block={block} onCite={onCite} />;
+    case "image":
+      return <ImageBlockView block={block} onCite={onCite} />;
     case "gap":
       return <GapBlockView block={block} onCite={onCite} />;
   }

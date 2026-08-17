@@ -72,6 +72,18 @@ export interface TrapListBlock {
   items: Array<{ text: string; source: Source }>;
 }
 
+// A cropped screenshot of a vector-drawn figure from the source PDF (flowchart, graph, decision
+// tree) — these carry information pdftotext can't extract as text at all, so the image itself
+// IS the source, not a paraphrase of it. `caption` must stay strictly descriptive (what the
+// figure is), never interpretive/synthesised — same extraction-framing discipline as every other
+// block, just applied to an image instead of a compressed sentence.
+export interface ImageBlock {
+  type: "image";
+  src: string;
+  caption: string;
+  source: Source;
+}
+
 export interface GapBlock {
   type: "gap";
   subtopic: string;
@@ -90,6 +102,7 @@ export type Block =
   | MnemonicBlock
   | TrapBlock
   | TrapListBlock
+  | ImageBlock
   | GapBlock;
 
 export interface ConciseBullet {

@@ -78,6 +78,9 @@ for (const file of files) {
             checkSources([item.source], `[${section.title}] trap-list[${item.text.slice(0, 40)}...]`, sets, invalid);
           }
           break;
+        case "image":
+          checkSources([block.source], `[${section.title}] image[${block.caption.slice(0, 40)}...]`, sets, invalid);
+          break;
         case "gap":
           if (block.source) {
             checkSources([block.source], `[${section.title}] gap[${block.subtopic.slice(0, 40)}...]`, sets, invalid);

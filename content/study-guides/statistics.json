@@ -14,6 +14,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/data-classification-tree.png",
+          "caption": "Classification of data: qualitative (nominal, ordinal) vs quantitative (discrete, continuous — interval or ratio).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Interval data has a meaningful difference between values but no true zero (e.g. temperature in °C — 20°C is not 'twice as hot' as 10°C). Ratio data adds a true, meaningful zero point, so ratios are meaningful (e.g. height, weight). In practice the interval-vs-ratio distinction is rarely important in social/medical research since most rating scales have a meaningful zero.",
           "source": {
@@ -141,8 +150,8 @@
           }
         ],
         "highlightBlockIndices": [
-          2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -2023,6 +2032,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/categorisation-of-evidence.png",
+          "caption": "Categorisation of evidence (Shekelle, Woolf, Eccles & Grimshaw, BMJ 1999): Ia meta-analysis, Ib randomised controlled trial, IIa non-randomised trial, IIb quasi-experimental study, III descriptive study, IV consensus reports.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 52
+          }
+        },
+        {
           "type": "table",
           "title": "5 Fundamental Clinical Question Types (Guyatt)",
           "columns": [
@@ -2230,10 +2248,10 @@
           }
         ],
         "highlightBlockIndices": [
-          1,
           2,
-          4,
-          5
+          3,
+          5,
+          6
         ]
       }
     },
