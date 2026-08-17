@@ -30,9 +30,8 @@ function freshAnswers(count: number): QuizAnswer[] {
 }
 
 function isCorrect(q: Question, a: QuizAnswer): boolean {
-  // Graded only at finish time now — an SBA question counts as correct/incorrect purely from
-  // the final selection, not from whether it was ever "revealed" mid-quiz (see CLAUDE.md quiz
-  // section: no correct/incorrect marking is shown until Finish).
+  // Scored from the final selection, not from whether "Reveal answer" was ever clicked —
+  // revealing mid-quiz is just an on-demand check, not what determines the graded outcome.
   return q.options.length > 0 ? a.selected === q.correctAnswer : a.wasRight === true;
 }
 
@@ -322,8 +321,9 @@ export function QuizView({
         <p className="whitespace-pre-line text-base">{q.stem}</p>
 
         {isSba ? (
-          // Always enabled — no correct/incorrect marking happens until Finish, so there's
-          // nothing to "lock in" mid-quiz. Selection is free to change right up to Finish.
+          // Stays enabled even after reveal — answers are free to change right up to Finish
+          // (see quiz-status-card.tsx / lib/quiz-status.ts, which key off the current selection,
+          // not whether it was ever locked in).
           //
           // key={loaded}: Base UI's RadioGroup decides controlled-vs-uncontrolled from its very
           // first render. Before saved progress loads, `value` is undefined, so the group locks
@@ -340,16 +340,24 @@ export function QuizView({
               </label>
             ))}
           </RadioGroup>
-        ) : !answer.revealed ? (
-          <>
-            <p className="text-xs text-muted-foreground">
-              This EMI question&apos;s option list wasn&apos;t recoverable from the source PDF
-              (see CLAUDE.md) — reveal the answer, then self-assess.
-            </p>
-            <Button onClick={() => updateAnswer({ revealed: true })}>Reveal answer</Button>
-          </>
+        ) : (
+          <p className="text-xs text-muted-foreground">
+            This EMI question&apos;s option list wasn&apos;t recoverable from the source PDF
+            (see CLAUDE.md) — reveal the answer, then self-assess.
+          </p>
+        )}
+
+        {!answer.revealed ? (
+          <Button disabled={isSba && !answer.selected} onClick={() => updateAnswer({ revealed: true })}>
+            Reveal answer
+          </Button>
         ) : (
           <div className="space-y-2 rounded-md border p-3">
+            {isSba && (
+              <Badge variant={answer.selected === q.correctAnswer ? "default" : "destructive"}>
+                {answer.selected === q.correctAnswer ? "Correct" : "Incorrect"}
+              </Badge>
+            )}
             <p className="text-sm font-medium">Correct answer: {q.correctAnswer || "(not extractable from source — see explanation)"}</p>
             {q.explanation && (
               <p className="text-sm">
@@ -364,16 +372,20 @@ export function QuizView({
                   Source: {q.source.file.split("/").pop()} p.{q.source.page}
                 </Badge>
               </button>
-              <Button
-                size="sm"
-                variant={answer.wasRight === false ? "destructive" : "outline"}
-                onClick={() => updateAnswer({ wasRight: false })}
-              >
-                I got it wrong
-              </Button>
-              <Button size="sm" variant={answer.wasRight === true ? "default" : "outline"} onClick={() => updateAnswer({ wasRight: true })}>
-                I got it right
-              </Button>
+              {!isSba && (
+                <>
+                  <Button
+                    size="sm"
+                    variant={answer.wasRight === false ? "destructive" : "outline"}
+                    onClick={() => updateAnswer({ wasRight: false })}
+                  >
+                    I got it wrong
+                  </Button>
+                  <Button size="sm" variant={answer.wasRight === true ? "default" : "outline"} onClick={() => updateAnswer({ wasRight: true })}>
+                    I got it right
+                  </Button>
+                </>
+              )}
             </div>
           </div>
         )}
