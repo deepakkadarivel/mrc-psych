@@ -70,7 +70,7 @@ function QuizReview({
 
   return (
     <div className="h-full overflow-y-auto">
-      <div className="mx-auto max-w-2xl p-6 space-y-4">
+      <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-6 pb-3">
         <div className="flex items-center justify-between">
           <h1 className="text-lg font-semibold">Review — {topicTitle}</h1>
           <Button variant="outline" size="sm" onClick={onExit}>
@@ -105,7 +105,9 @@ function QuizReview({
             );
           })}
         </div>
+      </div>
 
+      <div className="mx-auto max-w-2xl space-y-4 p-6 pt-0">
         <p className="whitespace-pre-line text-base">{q.stem}</p>
 
         {isSba ? (
@@ -288,7 +290,7 @@ export function QuizView({
 
   return (
     <div className="h-full overflow-y-auto">
-      <div className="mx-auto max-w-2xl p-6 space-y-4">
+      <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-6 pb-3">
         <Progress value={((progress.index + 1) / questions.length) * 100} />
         <div className="flex items-center justify-between text-sm text-muted-foreground">
           <span>
@@ -317,7 +319,9 @@ export function QuizView({
             );
           })}
         </div>
+      </div>
 
+      <div className="mx-auto max-w-2xl space-y-4 p-6 pt-0">
         <p className="whitespace-pre-line text-base">{q.stem}</p>
 
         {isSba ? (
