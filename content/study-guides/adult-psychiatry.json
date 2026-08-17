@@ -462,7 +462,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**STAR*D** drop-out rose at each level: ==21%== withdrew after level 3 and ==42%== withdrew after level 4 (vs ~30% after level 2) — on top of the rising intolerance/relapse figures already noted. About half of participants became symptom-free after only **two** treatment levels; the cumulative *non-response* rate after all 4 steps was ==33%== (i.e. the mirror of the ==67%== cumulative remission figure).",
+          "text": "**STAR*D** drop-out rose across levels: ==21%== withdrew after Level 1, ==30%== withdrew after Level 2, and ==42%== withdrew after Level 3 — the source data does not report a separate Level 4 drop-out figure — on top of the rising intolerance/relapse figures already noted. About half of participants became symptom-free after only **two** treatment levels; the cumulative *non-response* rate after all 4 steps was ==33%== (i.e. the mirror of the ==67%== cumulative remission figure).",
           "source": {
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 2
@@ -525,7 +525,7 @@
             }
           },
           {
-            "text": "**STAR*D** dropout: ==21%== after L3, ==42%== after L4; ~half symptom-free after 2 levels; cumulative non-response ==33%==.",
+            "text": "**STAR*D** dropout: ==21%== after L1, ==30%== after L2, ==42%== after L3 (no L4 figure given); ~half symptom-free after 2 levels; cumulative non-response ==33%==.",
             "source": {
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 2
@@ -645,6 +645,139 @@
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 11
           }
+        },
+        {
+          "type": "table",
+          "title": "Evolving spectrum of bipolar disorders (Akiskal & Pinto, 1999)",
+          "columns": [
+            "Category",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Bipolar I",
+              "Manic-depressive illness"
+            ],
+            [
+              "Bipolar I ½",
+              "Depression with protracted hypomania"
+            ],
+            [
+              "Bipolar II",
+              "Depression with spontaneous hypomanic episodes"
+            ],
+            [
+              "Bipolar II ½",
+              "Depression superimposed on cyclothymic temperament"
+            ],
+            [
+              "Bipolar III",
+              "Recurrent depression, plus hypomania occurring solely in association with antidepressant/other somatotherapy"
+            ],
+            [
+              "Bipolar III ½",
+              "Mood swings persisting beyond stimulant and/or alcohol abuse"
+            ],
+            [
+              "Bipolar IV",
+              "Depression superimposed on a hyperthymic temperament"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**DSM-5** now emphasises changes in activity/energy as well as mood when diagnosing manic and hypomanic episodes.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Prodrome: a predominantly insidious prodrome (>1 year) is seen in more than half of bipolar patients; acute presentations (<1 month prodrome) are rare. Prodrome duration doesn't differ between psychotic and non-psychotic mania. Attenuated positive symptoms and increased goal-directed activity are significantly more common in the prodrome of later psychotic mania specifically. Mania and schizophrenia prodromes overlap considerably, but subsyndromal unusual ideas are more likely part of the schizophrenia prodrome specifically, while obsessions/compulsions, suicidality, difficulty thinking/communicating, depressed mood, decreased concentration/memory, tiredness, mood lability, and physical agitation are more likely part of the mania prodrome.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Ambelas** confirmed a strong correlation between stressful life events and *first manic* admissions specifically (not depressive ones) — this correlation lessens as illness progresses and is significantly linked to mania, not depression, particularly in younger patients. Sleep reduction may be a final common pathway to mania.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "table",
+          "title": "Predominant polarity in bipolar disorder (Vieta & Phillips, 2007)",
+          "columns": [
+            "Feature",
+            "Depressive polarity",
+            "Manic polarity"
+          ],
+          "rows": [
+            [
+              "Proportion of bipolar patients",
+              "~1/3rd",
+              "~1/4th"
+            ],
+            [
+              "More common in",
+              "Bipolar 2",
+              "Bipolar 1"
+            ],
+            [
+              "Onset",
+              "With depressive episode, somewhat later age",
+              "With mania, earlier age"
+            ],
+            [
+              "Seasonality",
+              "More seasonal",
+              "Less seasonal"
+            ],
+            [
+              "Suicide attempts",
+              "More",
+              "—"
+            ],
+            [
+              "Substance use",
+              "—",
+              "More"
+            ],
+            [
+              "Long-term drug response",
+              "Better response to lamotrigine",
+              "Better response to antipsychotics"
+            ],
+            [
+              "Antidepressant exposure",
+              "More",
+              "—"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "==56%== of bipolar patients display a specific predominant-polarity pattern.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
         }
       ],
       "concise": {
@@ -690,10 +823,33 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 11
             }
+          },
+          {
+            "text": "Akiskal & Pinto (1999) extended spectrum: Bipolar I/I½/II/II½/III/III½/IV — protracted hypomania, cyclothymic temperament, antidepressant-only hypomania, and hyperthymic-temperament depression respectively distinguish the \"½\"/III/IV tiers.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Prodrome >1yr insidious in >half; overlaps with schizophrenia prodrome but unusual ideas favour schizophrenia while mood/energy/cognitive symptoms favour mania. Ambelas: stressful life events correlate specifically with *first manic* (not depressive) admissions.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Predominant polarity (Vieta & Phillips): depressive (~⅓, more in BP2, more seasonal, more suicide attempts, better lamotrigine response) vs manic (~¼, more in BP1, more substance use, better antipsychotic response). ==56%== show a predominant-polarity pattern.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          7,
+          11
         ]
       }
     },
@@ -758,6 +914,39 @@
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 11
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Antidepressant-associated chronic irritable dysphoria**: a distinct phenomenon in some bipolar patients on long-term antidepressants — possibly the bipolar equivalent of antidepressant \"tachyphylaxis\"/poop-out seen in unipolar depression. A triad of irritability, middle insomnia (restless sleep/night-time waking), and dysphoria is typical. Discontinuing the antidepressant usually resolves these symptoms slowly, without worsening the underlying depressive symptoms (El-Mallakh & Karippot, 2006). Tricyclic antidepressants carry a greater switch-to-mania risk than other antidepressant classes; because bipolar depressive episodes tend to be shorter than unipolar ones, antidepressants may be discontinued after 3–4 months.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Vigabatrin** has no proven efficacy in bipolar disorder and is associated with visual field defects (and can cause psychosis) as a side effect. **Topiramate** and **phenytoin** similarly have no place in bipolar treatment — don't mistake \"is an anticonvulsant\" for \"has mood-stabilising evidence\".",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**CBT** for bipolar disorder includes: psychoeducation, self-monitoring, self-regulation (action plans and behaviour modification), and increased treatment compliance.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**NICE** recognises bipolar disorder as possible in those under 18 and encourages use of adult diagnostic criteria, with three exceptions: (1) mania must be present for a **BPAD** diagnosis; (2) euphoria must be present most days, most of the time, for 7 days; (3) irritability is not a core diagnostic criterion on its own, but can be helpful in adolescents if it is episodic, severe, impairs function, and is out of character for the individual.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 11
+          }
         }
       ],
       "concise": {
@@ -803,10 +992,32 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 11
             }
+          },
+          {
+            "text": "Antidepressant-associated chronic irritable dysphoria: irritability + middle insomnia + dysphoria triad, resolves slowly on stopping the antidepressant (El-Mallakh & Karippot 2006). TCAs = highest switch-to-mania risk; bipolar depressive episodes shorter than unipolar → can stop antidepressant at 3–4 months.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "**Vigabatrin**/**topiramate**/**phenytoin**: no proven bipolar efficacy despite being anticonvulsants; vigabatrin also risks visual field defects/psychosis.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "**NICE** paediatric BPAD: adult criteria apply except mania must be present, euphoria most days for 7 days, and irritability alone only counts if episodic/severe/impairing/out-of-character.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 11
+            }
           }
         ],
         "highlightBlockIndices": [
-          3
+          3,
+          8
         ]
       }
     },
@@ -891,6 +1102,119 @@
               }
             }
           ]
+        },
+        {
+          "type": "table",
+          "title": "Genetic findings in schizophrenia (GWAS/CNV studies, adapted from Harrison 2015)",
+          "columns": [
+            "Locus",
+            "Gene",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "12p13.33",
+              "CACNA1C (L-type calcium channel)",
+              "Mutations cause Timothy syndrome and Brugada syndrome"
+            ],
+            [
+              "12q24.11",
+              "D-amino acid oxidase",
+              "Degrades d-serine (NMDA co-agonist)"
+            ],
+            [
+              "1q42.2",
+              "DISC-1",
+              "Seen in a Scottish family with a 1;11 translocation"
+            ],
+            [
+              "11q23.2",
+              "Dopamine D2 receptor",
+              "Target for antipsychotic action"
+            ],
+            [
+              "2q33-34",
+              "Receptor tyrosine kinase erbB4",
+              "Neuregulin 1 receptor"
+            ],
+            [
+              "5q33.2",
+              "AMPA receptor subunit 1",
+              "Affects synaptic plasticity"
+            ],
+            [
+              "16p13",
+              "NMDA receptor subunit 2A",
+              "Influences channel conductance/synaptic localisation"
+            ],
+            [
+              "7q21",
+              "Metabotropic glutamate receptor 3",
+              "Inhibitory autoreceptor"
+            ],
+            [
+              "1p21",
+              "Micro RNA 137",
+              "Regulates transcription"
+            ],
+            [
+              "8p12",
+              "Neuregulin 1",
+              "Growth factor"
+            ],
+            [
+              "17p13",
+              "Serine racemase",
+              "Synthesizes d-serine from l-serine"
+            ],
+            [
+              "18q21",
+              "Transcription factor 4",
+              "Deletion causes Pitt-Hopkins syndrome"
+            ],
+            [
+              "2q32",
+              "Zinc finger 804A",
+              "Affects gene regulation esp. in cortical pyramidal neurons"
+            ],
+            [
+              "2p16.3 deletion (CNV)",
+              "Neurexin 1",
+              "Involved in synaptic structure"
+            ],
+            [
+              "7q36.3 duplication (CNV)",
+              "Vasoactive intestinal peptide receptor 2",
+              "Regulates synaptic transmission in hippocampus/dentate gyrus neural progenitor development"
+            ],
+            [
+              "22q11 hemideletion (CNV)",
+              "COMT coding genes",
+              "Velocardiofacial syndrome"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Perinatal complications: low birth weight was initially implicated as a schizophrenia risk factor, then anoxic brain damage at delivery (hypoxia dose correlated with neuronal death). **Kendell (1996)** found pregnancy-induced hypertension increased psychosis risk almost **9-fold** in a retrospective study. Three obstetric-event types are described: growth-related (low birth weight, small for gestational age), perinatal (PIH), and hypoxic (premature rupture of membranes). The **Lewis-Murray scale** measures obstetric complications during childbirth, though odds ratios across studies have been too low to reach significance.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 19
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Cannabis (expanding on the pooled **OR** 2.1 already noted): confounders like amphetamine use don't explain the association alone, and reverse causality remains plausible but unproven. In the **Dunedin cohort**, cannabis exposure at age 15 predicted psychosis at age 26 even after adjusting for psychotic liability at age 11. A **Greek cohort study** tested the self-medication hypothesis by comparing cannabis associations with distressing vs non-distressing subtle psychotic experiences — associations were *stronger* with non-distressing experiences, making self-medication theory unlikely (though a bidirectional association remains possible). Cannabis shows a dose-response relationship to psychosis outcome, with exposure typically preceding the outcome and plausible biological mechanisms via endocannabinoid neurodevelopmental effects or dopamine sensitisation.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 19
+          }
         }
       ],
       "concise": {
@@ -929,10 +1253,32 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 19
             }
+          },
+          {
+            "text": "Schizophrenia genetics (Harrison 2015): DISC-1 (1q42.2, Scottish 1;11 translocation family), dopamine D2 receptor (11q23.2), neuregulin 1 (8p12) + its receptor erbB4 (2q33-34); CNVs incl. neurexin 1 deletion, 22q11 hemideletion (velocardiofacial syndrome).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Kendell 1996: pregnancy-induced hypertension → ==9-fold== psychosis risk. Lewis-Murray scale measures obstetric complications (ORs too low for significance).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Cannabis: Dunedin cohort (age-15 exposure predicts age-26 psychosis, controlling age-11 liability); Greek cohort found *stronger* association with non-distressing psychotic experiences (against self-medication theory).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
           }
         ],
         "highlightBlockIndices": [
-          5
+          5,
+          6
         ],
         "facts": [
           {
@@ -1508,6 +1854,42 @@
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 36
           }
+        },
+        {
+          "type": "table",
+          "title": "Delusional disorder — epidemiology",
+          "columns": [
+            "Measure",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Incidence",
+              "0.7–1.3 per 100,000"
+            ],
+            [
+              "Prevalence",
+              "24–30 per 100,000"
+            ],
+            [
+              "Proportion of hospital first admissions",
+              "1–3%"
+            ],
+            [
+              "Mean age of onset",
+              "39 years"
+            ],
+            [
+              "Sex ratio (M:F)",
+              "1.18:1"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          ]
         }
       ],
       "concise": {
@@ -1567,6 +1949,13 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 36
             }
+          },
+          {
+            "text": "Delusional disorder (Kendler 1982 & Retterstol 1966): incidence 0.7–1.3/100,000, prevalence 24–30/100,000, ==1–3%== of first admissions, mean onset ==39y==, M:F ==1.18:1==.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -1576,7 +1965,8 @@
           7,
           10,
           11,
-          15
+          15,
+          17
         ]
       }
     },
@@ -1643,16 +2033,43 @@
           ],
           "rows": [
             [
-              "Early/insidious onset"
+              "Early onset† (not strong)"
+            ],
+            [
+              "No precipitating factors‡"
+            ],
+            [
+              "Insidious onset‡"
+            ],
+            [
+              "Poor premorbid adjustment"
             ],
             [
               "Social withdrawal"
+            ],
+            [
+              "Single, divorced, or widowed"
+            ],
+            [
+              "Family history of schizophrenia† (weak, controversial)"
+            ],
+            [
+              "Poor social network, High EE families"
             ],
             [
               "Negative symptoms"
             ],
             [
               "Poor compliance"
+            ],
+            [
+              "Neurological signs and symptoms"
+            ],
+            [
+              "History of perinatal trauma"
+            ],
+            [
+              "No remissions in 3 years"
             ],
             [
               "Many relapses"
@@ -1668,6 +2085,14 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "paragraph",
+          "text": "†Suvisaari, JM. Br J Psychiatry. 1998 Dec;173:494-500. ‡Rosen, K & Garety, P. Schizophr Bull. 2005; 31:735–750.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 24
+          }
         },
         {
           "type": "table",
@@ -1717,6 +2142,113 @@
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 19
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "High-risk prediction studies: individuals at enhanced genetic risk (family history) are thought to inherit a state of vulnerability with transient/partial psychosis-like symptoms, though not all develop florid schizophrenia. **Edinburgh High Risk Study** (Johnstone et al., 2005): the 10% risk in those with high-risk family history rises to nearly 50% in the subgroup with high schizotypal-cognition and social-withdrawal scores; episodic-memory measures significantly discriminate converters (suggestive of temporal lobe dysfunction, though whether temporal lobe volume deteriorates over time remains controversial).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 19
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Australian PACE clinic**: 20 of 49 ultra-high-risk subjects (==40.8%==) developed a psychotic disorder within 12 months; significant predictors were long prodrome duration, poor functioning at intake, low-grade psychotic symptoms, depression, and disorganisation. **German Bonn Basic Symptoms** criteria study: very high conversion rate in help-seeking individuals over ~10 years; of the Bonn Scale's 5 symptom clusters, thought/language/perception/motor disturbances showed significantly greater predictive discrimination than any other cluster. **NAPLS** (North American Prodrome Longitudinal Study): ultra-high-risk (UHR) criteria predict early transition to psychosis with a relative risk of ==405== vs general-population incidence; predictive power is enhanced by genetic risk, functional impairment, and higher baseline psychopathology (especially odd beliefs/suspiciousness) — substance use (not a specific class) also raises predictive value, and the three variables together roughly double predictive power.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 19
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Psychoeducation (Bauml et al.): psychosocial interventions in schizophrenia are classified as **obligatory** (psychoeducation — empowering patients/relatives to understand and cope with the illness) vs **voluntary** (individual behavioural therapy, self-assertiveness training, problem-solving training, communication training, further family therapy). The term \"psychoeducation\" was first used by **Anderson**, describing a 4-element behavioural-therapeutic concept: briefing on the illness, problem-solving training, communication training, and self-assertiveness training, with relatives included. Cochrane review: reduces relapse, improves compliance, does not increase suicidal thoughts.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 19
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Social skills training** (Bellack & Mueser framework) has three models: (1) **basic model** — complex social repertoires broken into simpler steps via corrective learning/role-play, applied in natural settings; (2) **social problem-solving model** — targets information-processing impairments across medication/symptom management, recreation, conversation, self-care; (3) **cognitive remediation model** — targets fundamental cognitive impairments (attention, planning) on the assumption that improvement transfers to more complex processes.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**CBT for psychosis** (Turkington's elements): (1) therapeutic alliance — validation without colluding with delusions; (2) improving medication adherence; (3) alternate explanations for unusual experiences (normalisation); (4) decreasing the impact of positive symptoms (e.g. addressing the omnipotence of voices); (5) graded reality testing via peripheral questioning and inference chaining. A meta-analysis of 34 trials found beneficial effects on target symptom (effect size ==0.4==), positive symptoms, negative symptoms, functioning, mood, and social anxiety (effects ==0.35–0.44==) — but no effect on hopelessness. Trials with unblinded raters showed inflated effect sizes (==50–100%== larger).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Vocational rehabilitation**: competitive employment is estimated at <==20%== for severely mentally ill persons, likely lower in schizophrenia specifically. Supported-employment programmes use an individual \"place-and-train\" model (vs traditional train-and-place) with 6 common components: permanent competitive-employment goal, minimal employability screening, avoidance of preoccupational training, individualised placement, time-unlimited support, and consideration of client preference. RCT evidence: ==65%== obtained competitive employment on supported-employment programmes vs ==26%== on control interventions.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "table",
+          "title": "Long-term outcome studies in schizophrenia",
+          "columns": [
+            "Study",
+            "Follow-up",
+            "Key finding"
+          ],
+          "rows": [
+            [
+              "Iowa 500",
+              "35 years (n=186)",
+              "46% improved or recovered (excluding affective/schizoaffective disorder)"
+            ],
+            [
+              "Bonn Hospital Study (Germany)",
+              "22.4 years (n=502)",
+              "22% complete remission; 65% overall had a more favourable outcome than clinical experience would suggest"
+            ],
+            [
+              "Chestnut Lodge",
+              "15 years (n=446)",
+              "36% recovered (strict criteria) or functioning adequately"
+            ],
+            [
+              "Vermont longitudinal study",
+              "32 years (n=269)",
+              "68% good functioning by GAF scale"
+            ],
+            [
+              "WHO ISoS (IPSS + DOSMeD cohorts)",
+              "5 years+",
+              "52% in developing countries vs 39% in developed countries reached \"best\" outcome category at initial follow-up; widened to 73% vs 52% at 5-year follow-up"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "paragraph",
+          "text": "Suicide: Palmer et al.'s meta-analysis of 61 studies estimated lifetime suicide prevalence in schizophrenia (from first admission/illness onset) at ==5.6%== (95% CI 3.7–8.5%), with most suicides occurring within a few years of onset. Non-fatal self-harm: ==38%== of people with chronic schizophrenia had at least one episode over a 2–12 year follow-up.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Mortality: median standardised mortality rate (**SMR**) for schizophrenia is ==2.58== (no obvious sex difference); suicide carries the highest individual **SMR** (==12.86==), though most major causes of death are elevated. All-cause **SMR** has *increased* over recent decades even though case-fatality rates haven't changed and general-population mortality has fallen — the mortality gap between schizophrenia and the general population has widened over time. **SMRs did not differ by economic status.**",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 24
+          }
         }
       ],
       "concise": {
@@ -1734,12 +2266,48 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 19
             }
+          },
+          {
+            "text": "High-risk conversion: Edinburgh (10%→~50% with schizotypal+withdrawal), PACE (==40.8%== at 12mo), Bonn Basic Symptoms (5 clusters), **NAPLS** UHR criteria (**RR 405**; genetic risk+functional impairment+psychopathology ~doubles predictive power).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Psychoeducation (Bauml/Anderson): obligatory vs voluntary interventions, 4-element behavioural concept; Cochrane — ↓relapse, ↑compliance, no ↑suicidality.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Social skills training 3 models (basic/social-problem-solving/cognitive-remediation); CBT-for-psychosis (Turkington, 5 elements) — effect size ==0.4== overall, ==0.35–0.44== on subdomains, none on hopelessness; supported employment ==65%== vs ==26%== control.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 24
+            }
+          },
+          {
+            "text": "Long-term outcome: Iowa 500 ==46%==, Bonn ==65%== favourable, Chestnut Lodge ==36%==, Vermont ==68%== good GAF, WHO ISoS ==52%== vs ==39%== (developing vs developed), widening to ==73%== vs ==52%== at 5yr.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 19
+            }
+          },
+          {
+            "text": "Suicide lifetime prevalence ==5.6%== (Palmer, 61 studies); self-harm ==38%== over 2-12yr. Mortality: **SMR** ==2.58== overall, ==12.86== for suicide; gap vs general population has *widened* over time, no economic-status difference.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 24
+            }
           }
         ],
         "highlightBlockIndices": [
           0,
           1,
-          2
+          3,
+          12
         ]
       }
     },
