@@ -40,6 +40,159 @@ function isAnswered(q: Question, a: QuizAnswer): boolean {
   return q.options.length > 0 ? a.selected !== null : a.wasRight !== null;
 }
 
+function QuizReview({
+  questions,
+  answers,
+  topicId,
+  topicTitle,
+  backHref,
+  onExit,
+}: {
+  questions: Question[];
+  answers: QuizAnswer[];
+  topicId: string;
+  topicTitle: string;
+  backHref?: string;
+  onExit: () => void;
+}) {
+  const [index, setIndex] = useState(0);
+  const [pdfOpen, setPdfOpen] = useState(false);
+
+  const q = questions[index];
+  const a = answers[index];
+  const isSba = q.options.length > 0;
+  const correct = isCorrect(q, a);
+  const answered = isAnswered(q, a);
+
+  function goTo(i: number) {
+    setPdfOpen(false);
+    setIndex(Math.max(0, Math.min(questions.length - 1, i)));
+  }
+
+  return (
+    <div className="h-full overflow-y-auto">
+      <div className="mx-auto max-w-2xl p-6 space-y-4">
+        <div className="flex items-center justify-between">
+          <h1 className="text-lg font-semibold">Review — {topicTitle}</h1>
+          <Button variant="outline" size="sm" onClick={onExit}>
+            Back to summary
+          </Button>
+        </div>
+
+        <Progress value={((index + 1) / questions.length) * 100} />
+        <div className="flex items-center justify-between text-sm text-muted-foreground">
+          <span>
+            Question {index + 1} / {questions.length}
+          </span>
+          <Badge variant="outline">{q.format}</Badge>
+        </div>
+
+        <div className="flex gap-1 overflow-x-auto pb-1">
+          {questions.map((qq, i) => {
+            const qCorrect = isCorrect(qq, answers[i]);
+            return (
+              <button
+                key={qq.id}
+                onClick={() => goTo(i)}
+                aria-label={`Go to question ${i + 1}`}
+                className={cn(
+                  "flex size-7 shrink-0 items-center justify-center rounded-md border text-xs font-medium text-white",
+                  i === index && "ring-2 ring-primary ring-offset-1",
+                  qCorrect ? "border-green-600 bg-green-600" : "border-red-600 bg-red-600"
+                )}
+              >
+                {i + 1}
+              </button>
+            );
+          })}
+        </div>
+
+        <p className="whitespace-pre-line text-base">{q.stem}</p>
+
+        {isSba ? (
+          <div className="space-y-2">
+            {q.options.map((opt) => {
+              const isCorrectOpt = opt === q.correctAnswer;
+              const isSelected = opt === a.selected;
+              return (
+                <div
+                  key={opt}
+                  className={cn(
+                    "rounded-md border p-2 text-sm",
+                    isCorrectOpt && "border-green-600 bg-green-50 text-green-900",
+                    !isCorrectOpt && isSelected && "border-red-600 bg-red-50 text-red-900"
+                  )}
+                >
+                  {opt}
+                  {isCorrectOpt && (
+                    <span className="ml-2 text-xs font-medium text-green-700">(correct answer)</span>
+                  )}
+                  {!isCorrectOpt && isSelected && (
+                    <span className="ml-2 text-xs font-medium text-red-700">(your answer)</span>
+                  )}
+                </div>
+              );
+            })}
+            {!answered && <p className="text-xs text-muted-foreground">You didn&apos;t answer this one.</p>}
+          </div>
+        ) : (
+          <p className="text-sm">
+            Your self-assessment:{" "}
+            {a.wasRight === null ? "not assessed" : a.wasRight ? "I got it right" : "I got it wrong"}
+          </p>
+        )}
+
+        <div className="space-y-2 rounded-md border p-3">
+          <Badge variant={correct ? "default" : "destructive"}>{correct ? "Correct" : "Incorrect"}</Badge>
+          {isSba && (
+            <p className="text-sm font-medium">
+              Correct answer: {q.correctAnswer || "(not extractable from source — see explanation)"}
+            </p>
+          )}
+          {q.explanation && (
+            <p className="text-sm">
+              <RichText text={q.explanation} />
+            </p>
+          )}
+          {q.reference && <p className="text-xs text-muted-foreground">Ref: {q.reference}</p>}
+          <button onClick={() => setPdfOpen(true)}>
+            <Badge variant="outline" className="cursor-pointer gap-1 text-xs">
+              <PanelRightIcon className="size-3" />
+              Source: {q.source.file.split("/").pop()} p.{q.source.page}
+            </Badge>
+          </button>
+        </div>
+
+        <div className="flex items-center justify-between pt-2">
+          <Button variant="outline" size="sm" disabled={index === 0} onClick={() => goTo(index - 1)}>
+            <ChevronLeftIcon className="size-4" />
+            Prev
+          </Button>
+          <Button render={<Link href={backHref ?? `/topics/${topicId}`} />} nativeButton={false} size="sm">
+            Back to {topicTitle}
+          </Button>
+          <Button
+            variant="outline"
+            size="sm"
+            disabled={index === questions.length - 1}
+            onClick={() => goTo(index + 1)}
+          >
+            Next
+            <ChevronRightIcon className="size-4" />
+          </Button>
+        </div>
+      </div>
+
+      <Sheet open={pdfOpen} onOpenChange={setPdfOpen}>
+        <SheetContent side="right" className="w-full data-[side=right]:sm:max-w-2xl">
+          <SheetTitle className="sr-only">Source PDF</SheetTitle>
+          <PdfViewer source={q.source} />
+        </SheetContent>
+      </Sheet>
+    </div>
+  );
+}
+
 export function QuizView({
   topicId,
   topicTitle,
@@ -56,6 +209,7 @@ export function QuizView({
   const [pdfOpen, setPdfOpen] = useState(false);
   const [finished, setFinished] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
+  const [reviewing, setReviewing] = useState(false);
 
   // Resume saved progress client-side only, after the deterministic first paint, to avoid a
   // hydration mismatch against the static-exported HTML (see CLAUDE.md's usePortalSlot note for
@@ -103,15 +257,32 @@ export function QuizView({
   }
 
   if (finished) {
+    if (reviewing) {
+      return (
+        <QuizReview
+          questions={questions}
+          answers={progress.answers}
+          topicId={topicId}
+          topicTitle={topicTitle}
+          backHref={backHref}
+          onExit={() => setReviewing(false)}
+        />
+      );
+    }
     return (
       <div className="mx-auto max-w-lg p-6 text-center space-y-4">
         <h1 className="text-2xl font-semibold">Done</h1>
         <p className="text-lg">
           {finalScore} / {questions.length} correct
         </p>
-        <Button render={<Link href={backHref ?? `/topics/${topicId}`} />} nativeButton={false}>
-          Back to {topicTitle}
-        </Button>
+        <div className="flex items-center justify-center gap-2">
+          <Button variant="outline" onClick={() => setReviewing(true)}>
+            Review answers
+          </Button>
+          <Button render={<Link href={backHref ?? `/topics/${topicId}`} />} nativeButton={false}>
+            Back to {topicTitle}
+          </Button>
+        </div>
       </div>
     );
   }
