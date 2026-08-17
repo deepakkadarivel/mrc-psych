@@ -191,7 +191,7 @@
             ],
             [
               "New psychiatric episodes",
-              "Significant increase in the first 3 months postpartum"
+              "Significant increase in the first 3 months postpartum — ==80%== are mood disorder (mainly depression)"
             ]
           ],
           "sources": [
@@ -283,7 +283,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Puerperal psychosis can present as mania, schizophreniform/acute polymorphic psychosis, or with confusion and disorientation. Recurrence rate is about ==1 in 4== pregnancies, and there is a 20-fold increase in relative risk of psychosis in one's lifetime during the first postpartum month.",
+          "text": "Puerperal psychosis can present as mania, schizophreniform/acute polymorphic psychosis, or with confusion and disorientation. Recurrence rate is about ==1 in 4== pregnancies, and there is a 20-fold increase in relative risk of psychosis in one's lifetime during the first postpartum month — women with **schizoaffective disorder** are also susceptible.",
           "source": {
             "file": "books/7-2-perinatal-psychiatry.pdf",
             "page": 2
@@ -891,6 +891,10 @@
             [
               "3rd-trimester dosing",
               "Increased dose often required as total body water increases; requirement returns abruptly to pre-pregnancy level immediately after delivery"
+            ],
+            [
+              "General principle",
+              "No decision is risk-free; guidelines should vary with the severity of the illness"
             ]
           ],
           "sources": [
@@ -980,6 +984,13 @@
             "source": {
               "file": "books/7-2-perinatal-psychiatry.pdf",
               "page": 3
+            }
+          },
+          {
+            "text": "Lithium-in-pregnancy decisions: \"no decision is risk-free\" and guidelines should flex with illness severity, not a fixed rule.",
+            "source": {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 7
             }
           }
         ],
@@ -1135,7 +1146,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Carbamazepine**: 0.5–==1%== risk of spina bifida, craniofacial anomalies, growth retardation and reduced head circumference; in one exposed cohort, craniofacial defects occurred in ==11%==, fingernail hypoplasia in ==26%==, and developmental delay in ==20%==. Mechanistic overlap with foetal hydantoin syndrome is proposed via a shared arene oxide metabolic pathway.",
+          "text": "**Carbamazepine**: 0.5–==1%== risk of spina bifida, craniofacial anomalies, growth retardation and reduced head circumference; in one exposed cohort, craniofacial defects occurred in ==11%==, fingernail hypoplasia in ==26%==, and developmental delay in ==20%==. Mechanistic overlap with foetal hydantoin syndrome is proposed via a shared arene oxide metabolic pathway — the epoxide intermediate, rather than carbamazepine itself, may be the principal teratogenic agent.",
           "source": {
             "file": "books/7-2-perinatal-psychiatry.pdf",
             "page": 3
@@ -1287,7 +1298,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Conventional antipsychotics carry low teratogenic risk overall and are comparatively safe (California Child Health Development Project, ~19,000 births); low-potency agents are linked to transient perinatal syndrome/floppy infant/withdrawal symptoms, and first-trimester low-potency use carries a small but statistically significant increased malformation risk (2–==2.4%==). First-trimester **haloperidol** has been linked to limb deformities in one study, not confirmed by others (Yaeger et al., 2006).",
+          "text": "Conventional antipsychotics carry low teratogenic risk overall and are comparatively safe (California Child Health Development Project, ~19,000 births); low-potency agents are linked to transient perinatal syndrome/floppy infant/withdrawal symptoms (irritability, hypertonicity, hypotonicity and underdeveloped reflexes), and first-trimester low-potency use carries a small but statistically significant increased malformation risk (2–==2.4%==). First-trimester **haloperidol** has been linked to limb deformities in one study, not confirmed by others (Yaeger et al., 2006).",
           "source": {
             "file": "books/7-2-perinatal-psychiatry.pdf",
             "page": 3
@@ -1348,6 +1359,14 @@
             "page": 36,
             "questionNumber": 36
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Promethazine** is widely used as a sedative in pregnancy, but data on its safety is limited.",
+          "source": {
+            "file": "books/7-2-perinatal-psychiatry.pdf",
+            "page": 3
+          }
         }
       ],
       "concise": {
@@ -1393,6 +1412,20 @@
           },
           {
             "text": "Benzodiazepine risks also include neonatal withdrawal, respiratory depression and floppy baby syndrome — best avoided in pregnancy.",
+            "source": {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Low-potency antipsychotic perinatal syndrome: irritability, hypertonicity, hypotonicity, underdeveloped reflexes.",
+            "source": {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "**Promethazine**: widely used sedative in pregnancy, but limited safety data.",
             "source": {
               "file": "books/7-2-perinatal-psychiatry.pdf",
               "page": 3
@@ -1567,6 +1600,85 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "table",
+          "title": "Median time to maximum concentration in milk after maternal ingestion",
+          "columns": [
+            "Drug",
+            "Time to peak milk concentration"
+          ],
+          "rows": [
+            [
+              "Moclobemide",
+              "3 hours"
+            ],
+            [
+              "Olanzapine",
+              "5 hours"
+            ],
+            [
+              "Sertraline",
+              "7–10 hours"
+            ],
+            [
+              "Paroxetine / fluoxetine",
+              "Not reported"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Colostrum has a greater concentration of protein-bound drugs; hindmilk has a greater concentration of lipid-soluble drugs, compared to foremilk.",
+          "source": {
+            "file": "books/7-2-perinatal-psychiatry.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "table",
+          "title": "Factors in the breastfeeding risk/benefit analysis",
+          "columns": [
+            "Factor"
+          ],
+          "rows": [
+            [
+              "Severity and frequency of mental illness"
+            ],
+            [
+              "Benefits of breastfeeding"
+            ],
+            [
+              "Impact of untreated maternal illness on infant and mother"
+            ],
+            [
+              "Level of family support"
+            ],
+            [
+              "Compliance with treatment"
+            ],
+            [
+              "Patient's and family's ability to recognise early warning signs"
+            ],
+            [
+              "Physical health and maturity of the infant"
+            ],
+            [
+              "Support from statutory and voluntary organisations"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 8
+            }
+          ]
         }
       ],
       "concise": {
@@ -1601,10 +1713,26 @@
               "file": "books/7-2-perinatal-psychiatry.pdf",
               "page": 8
             }
+          },
+          {
+            "text": "Time to peak milk concentration: moclobemide 3h, olanzapine 5h, sertraline 7–10h; not reported for paroxetine/fluoxetine.",
+            "source": {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Colostrum → more protein-bound drug; hindmilk → more lipid-soluble drug (vs foremilk) — classic EMI/SBA discriminator.",
+            "source": {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 8
+            }
           }
         ],
         "highlightBlockIndices": [
-          4
+          4,
+          5,
+          7
         ]
       }
     },
@@ -1663,6 +1791,31 @@
             "file": "books/7-2-perinatal-psychiatry.pdf",
             "page": 8
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "Data is limited for **trazodone** in breastfeeding and it should be used with caution.",
+          "source": {
+            "file": "books/7-2-perinatal-psychiatry.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The book states no studies of **MAOIs** or **bupropion** use in breastfeeding are available, and that **MAOIs** should be stopped before breastfeeding.",
+          "source": {
+            "file": "books/7-2-perinatal-psychiatry.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The book's own position on **bupropion** and breastfeeding is \"no data available\" — a *separate*, question-bank-sourced claim elsewhere on this page says bupropion should be avoided due to case reports of infant seizure. These aren't the same source: default to the book's \"no data\" framing unless a question stem itself cites a specific source for the seizure claim.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-2-perinatal-psychiatry.pdf",
+            "page": 8
+          }
         }
       ],
       "concise": {
@@ -1687,9 +1840,25 @@
               "file": "books/7-2-perinatal-psychiatry.pdf",
               "page": 8
             }
+          },
+          {
+            "text": "**Trazodone**: limited breastfeeding data, use with caution.",
+            "source": {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Book: no breastfeeding data for **MAOIs**/**bupropion** exists at all; MAOIs stopped before breastfeeding — don't conflate with the separate question-bank \"bupropion avoided, infant-seizure case reports\" claim.",
+            "source": {
+              "file": "books/7-2-perinatal-psychiatry.pdf",
+              "page": 8
+            }
           }
         ],
-        "highlightBlockIndices": [],
+        "highlightBlockIndices": [
+          8
+        ],
         "facts": []
       }
     },
