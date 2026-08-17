@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 import {
   AlertTriangle,
   BookOpenText,
+  Download,
   GraduationCap,
   HelpCircle,
   Image as ImageIcon,
@@ -15,6 +16,7 @@ import {
   Zap,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -642,6 +644,102 @@ function IconTabTrigger({
 
 const TAB_VALUES = ["full", "concise", "notes", "tables", "mnemonics", "traps", "gaps", "quiz"] as const;
 
+const TAB_LABELS: Record<(typeof TAB_VALUES)[number], string> = {
+  full: "Full Guide",
+  concise: "Concise Guide",
+  notes: "Notes",
+  tables: "Tables",
+  mnemonics: "Mnemonics",
+  traps: "Traps",
+  gaps: "Gaps",
+  quiz: "Quiz",
+};
+
+// Restricts a StudyGuide down to only the sections/blocks a given tab actually renders, so the
+// downloaded JSON matches what's on screen instead of always being the whole guide. Every tab
+// besides "full"/"quiz" is just a block-type filter over the same `guide` object every tab
+// already renders from (see NotesTabView/ConciseTabView above) — there's no separate per-tab data
+// source to keep in sync.
+function blocksByType(guide: StudyGuide, ...types: Block["type"][]) {
+  return {
+    topic: guide.topic,
+    sections: guide.sections
+      .map((s) => ({ id: s.id, title: s.title, blocks: s.blocks.filter((b) => types.includes(b.type)) }))
+      .filter((s) => s.blocks.length > 0),
+  };
+}
+
+function buildTabExport(tab: string, guide: StudyGuide, questions: Question[]): unknown {
+  switch (tab) {
+    case "full":
+      return guide;
+    case "concise":
+      return {
+        topic: guide.topic,
+        sections: guide.sections
+          .filter((s) => s.concise)
+          .map((s) => ({ id: s.id, title: s.title, concise: s.concise })),
+      };
+    case "notes":
+      return blocksByType(guide, "paragraph");
+    case "tables":
+      return blocksByType(guide, "table", "comparison");
+    case "mnemonics":
+      return blocksByType(guide, "mnemonic");
+    case "traps":
+      return blocksByType(guide, "trap", "trap-list");
+    case "gaps":
+      return blocksByType(guide, "gap");
+    case "quiz":
+      return questions;
+    default:
+      return guide;
+  }
+}
+
+function downloadJson(filename: string, data: unknown) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function DownloadTabButton({
+  tab,
+  guide,
+  questions,
+  topicId,
+}: {
+  tab: string;
+  guide: StudyGuide;
+  questions: Question[];
+  topicId: string;
+}) {
+  const label = TAB_LABELS[tab as (typeof TAB_VALUES)[number]] ?? "Full Guide";
+  return (
+    <Tooltip>
+      <TooltipTrigger
+        render={
+          <Button
+            variant="ghost"
+            size="icon-sm"
+            className="shrink-0"
+            aria-label={`Download ${label} JSON`}
+            data-testid="download-tab-json"
+            onClick={() => downloadJson(`${topicId}-${tab}.json`, buildTabExport(tab, guide, questions))}
+          >
+            <Download />
+          </Button>
+        }
+      />
+      <TooltipContent>Download {label} JSON</TooltipContent>
+    </Tooltip>
+  );
+}
+
 export function StudyGuideView({
   guide,
   onCite,
@@ -675,25 +773,28 @@ export function StudyGuideView({
     <Tabs value={tab} onValueChange={setTab} className="w-full">
       {tabsAnchorSlot &&
         createPortal(
-          <TabsList className="mx-0 overflow-x-auto">
-            <IconTabTrigger value="full" icon={<BookOpenText className="size-4" />} label="Full Guide" />
-            <IconTabTrigger value="concise" icon={<ListChecks className="size-4" />} label="Concise Guide" />
-            <IconTabTrigger value="notes" icon={<NotebookText className="size-4" />} label="Notes" />
-            <IconTabTrigger value="tables" icon={<Table2 className="size-4" />} label={`Tables (${tableCount})`} />
-            <IconTabTrigger
-              value="mnemonics"
-              icon={<Lightbulb className="size-4" />}
-              label={`Mnemonics (${mnemonicCount})`}
-            />
-            <IconTabTrigger value="traps" icon={<AlertTriangle className="size-4" />} label={`Traps (${trapCount})`} />
-            <IconTabTrigger value="gaps" icon={<HelpCircle className="size-4" />} label={`Gaps (${gapCount})`} />
-            <IconTabTrigger
-              value="quiz"
-              icon={<GraduationCap className="size-4" />}
-              label={`Quiz (${questions.length})`}
-              disabled={questions.length === 0}
-            />
-          </TabsList>,
+          <>
+            <DownloadTabButton tab={tab} guide={guide} questions={questions} topicId={topicId} />
+            <TabsList className="mx-0 overflow-x-auto">
+              <IconTabTrigger value="full" icon={<BookOpenText className="size-4" />} label="Full Guide" />
+              <IconTabTrigger value="concise" icon={<ListChecks className="size-4" />} label="Concise Guide" />
+              <IconTabTrigger value="notes" icon={<NotebookText className="size-4" />} label="Notes" />
+              <IconTabTrigger value="tables" icon={<Table2 className="size-4" />} label={`Tables (${tableCount})`} />
+              <IconTabTrigger
+                value="mnemonics"
+                icon={<Lightbulb className="size-4" />}
+                label={`Mnemonics (${mnemonicCount})`}
+              />
+              <IconTabTrigger value="traps" icon={<AlertTriangle className="size-4" />} label={`Traps (${trapCount})`} />
+              <IconTabTrigger value="gaps" icon={<HelpCircle className="size-4" />} label={`Gaps (${gapCount})`} />
+              <IconTabTrigger
+                value="quiz"
+                icon={<GraduationCap className="size-4" />}
+                label={`Quiz (${questions.length})`}
+                disabled={questions.length === 0}
+              />
+            </TabsList>
+          </>,
           tabsAnchorSlot
         )}
 
