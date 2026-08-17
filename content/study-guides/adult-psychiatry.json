@@ -262,6 +262,23 @@
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 2
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "Khan, analysing **FDA** data, concluded no increase in adult suicides with antidepressants — but **Healy** reappraised the same data and found ==1.62 times== more suicides, arguing this is a significant difference. This Khan-vs-Healy disagreement over the *same* dataset is a good illustration of how reappraisal can flip a safety conclusion.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "From epidemiological/cross-sectional data, it is more likely that **suicidal behaviour leads to treatment** (reverse causality) than treatment causing suicidal behaviour. One finding that doesn't make biological sense is quoted as an illustration: **sertraline appears to increase self-harm but not suicide risk** — a result that doesn't fit a simple causal story, underlining why this evidence base is hard to interpret. The reported association also does **not** appear to be a general psychotropic-prescription effect: prescription-related suicides are **not** seen with **antipsychotic** use (Khan, 2001).",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 2
+          }
         }
       ],
       "concise": {
@@ -314,11 +331,26 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 2
             }
+          },
+          {
+            "text": "Khan (FDA data): no adult suicide increase. Healy reappraised same data: ==1.62x== more suicides — a genuine analytic disagreement, not just a guideline update.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Reverse-causality caveat: suicidal behaviour likely *leads to* treatment, not the other way round. Sertraline's self-harm-but-not-suicide signal is biologically implausible. Antipsychotics show no equivalent prescription-linked suicide signal.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
-          7
+          7,
+          10
         ]
       }
     },
@@ -419,6 +451,47 @@
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 2
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "**STAR*D** methodology: a *pragmatic* **RCT** — nearly ⅔ of participants had a comorbid physical disorder, nearly ⅔ had a comorbid psychiatric diagnosis, and ~==40%== had depression onset before age 18 — deliberately close to real-world presentations. 4041 patients were enrolled across 25 US sites. \"Measurement-based care\" was used throughout: routine symptom/side-effect measurement at each visit, with a treatment manual guiding dose changes tailored to the individual. Patients tended to choose their next step based on their experience so far — a **partial** response led them to prefer **augmentation**, while **non-response** led them to prefer **switching**.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**STAR*D** drop-out rose at each level: ==21%== withdrew after level 3 and ==42%== withdrew after level 4 (vs ~30% after level 2) — on top of the rising intolerance/relapse figures already noted. About half of participants became symptom-free after only **two** treatment levels; the cumulative *non-response* rate after all 4 steps was ==33%== (i.e. the mirror of the ==67%== cumulative remission figure).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Novel antidepressant mechanisms (Palaniyappan & McAllister-Williams, 2007): **agomelatine** is a **5-HT2C antagonist** and melatonergic agonist — 5-HT2C stimulation normally drives GABA interneurons that tonically inhibit noradrenergic/dopaminergic circuits to the prefrontal cortex, so 5-HT2C antagonism *disinhibits* those circuits. Clinical efficacy is confirmed, though how much the melatonergic action itself contributes is unclear.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Ketamine** acts via glutamatergic **NMDA** receptor blockade with relative **AMPA** receptor upregulation (also implicating **mTOR** and **BDNF** signalling) — an extremely rapidly-acting antidepressant. A single 0.5mg/kg dose showed a large effect vs placebo at 24 hours (effect size ==1.46==, ==71%== response), but the effect decayed to ==0.68== by 1 week, with no pharmacological augmentation yet shown to sustain it.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "St John's Wort's (**Hypericum perforatum**) evidence base shrank on reanalysis: an initial 2001 meta-analysis found a relative risk of ==1.94== favouring it, but adding 3 later studies dropped the effect size to ==1.30== — a caution against citing the earlier, larger figure. It can also increase the effect of conventional **SSRIs**.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 2
+          }
         }
       ],
       "concise": {
@@ -443,12 +516,34 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 2
             }
+          },
+          {
+            "text": "**STAR*D** design: pragmatic **RCT**, ⅔ comorbid physical/⅔ comorbid psychiatric, ==40%== onset <18y, n=4041 across 25 sites; measurement-based care; partial response → augment, non-response → switch.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**STAR*D** dropout: ==21%== after L3, ==42%== after L4; ~half symptom-free after 2 levels; cumulative non-response ==33%==.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "**Agomelatine** = 5-HT2C antagonist + melatonergic agonist (disinhibits NE/DA circuits). **Ketamine** = NMDA blockade/AMPA upregulation, effect size ==1.46==→==0.68== over 1 week.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 2
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
           3,
-          4
+          4,
+          10
         ]
       }
     },
@@ -1087,6 +1182,15 @@
               }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "IPAP schizophrenia antipsychotic algorithm (full flowchart)",
+          "note": "The book page references the IPAP schizophrenia algorithm (www.ipap.org/schiz) right after the NICE first-episode summary, but the algorithm itself is a diagram/flowchart in the source PDF that didn't survive text extraction — only the URL caption did. Don't fabricate the step-by-step decision tree from general knowledge; view the actual PDF page via the Source tab, or consult ipap.org directly, for the flowchart content.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 31
+          }
         }
       ],
       "concise": {
@@ -1190,6 +1294,220 @@
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 36
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "CATIE controversies",
+          "items": [
+            {
+              "text": "A complicated study design generated many different analysable outcomes from one dataset.",
+              "source": {
+                "file": "books/7-1-adult-psychiatry-1.pdf",
+                "page": 36
+              }
+            },
+            {
+              "text": "**Ziprasidone** was added to the protocol only after recruitment had already begun.",
+              "source": {
+                "file": "books/7-1-adult-psychiatry-1.pdf",
+                "page": 36
+              }
+            },
+            {
+              "text": "**Perphenazine** (the first-generation comparator) was used in only one randomised phase (phase 1) of the study.",
+              "source": {
+                "file": "books/7-1-adult-psychiatry-1.pdf",
+                "page": 36
+              }
+            },
+            {
+              "text": "Using double-blinded treatment reduced how closely the study resembled routine clinical care.",
+              "source": {
+                "file": "books/7-1-adult-psychiatry-1.pdf",
+                "page": 36
+              }
+            },
+            {
+              "text": "The mean doses used remain controversial, despite the trial's pragmatic (not purely experimental) design intent.",
+              "source": {
+                "file": "books/7-1-adult-psychiatry-1.pdf",
+                "page": 36
+              }
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "CATIE median doses used",
+          "columns": [
+            "Drug",
+            "Median dose"
+          ],
+          "rows": [
+            [
+              "Olanzapine",
+              "20.1 mg"
+            ],
+            [
+              "Quetiapine",
+              "543.4 mg"
+            ],
+            [
+              "Risperidone",
+              "3.9 mg"
+            ],
+            [
+              "Ziprasidone",
+              "112.8 mg"
+            ],
+            [
+              "Clozapine (phase 2, efficacy pathway)",
+              "332.1 mg"
+            ],
+            [
+              "Quetiapine (phase 2, efficacy pathway)",
+              "642.9 mg"
+            ],
+            [
+              "Risperidone (phase 2, efficacy pathway)",
+              "4.8 mg"
+            ],
+            [
+              "Olanzapine (phase 2, efficacy pathway)",
+              "23.4 mg"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**CUtLASS** enrolled ==1227== patients being reviewed for poor response/adverse effects; second-generation drugs used were amisulpride, olanzapine, quetiapine or risperidone; follow-up rate was ==81%== at 1 year. Participants reported **no clear preference** for either drug class overall (contrast with **CUtLASS 2**, where patients did prefer **clozapine**).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 36
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Deficit schizophrenia** (primary, enduring negative symptoms) full diagnostic definition: (1) at least 2 of 6 clinically-significant features — restricted affect, diminished emotional range, poverty of speech, curbing of interest, diminished sense of purpose, diminished social drive; (2) present for the preceding 12 months and always present during periods of clinical stability; (3) idiopathic — not secondary to anxiety, drug effects/EPSE, suspiciousness, formal thought disorder, hallucinations/delusions, intellectual disability, or depression; (4) meets **DSM-5** schizophrenia criteria. Deficit-form prevalence: ==20–30%== of clinical samples, ==14–17%== of population/incidence samples.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 29
+          }
+        },
+        {
+          "type": "table",
+          "title": "Deficit syndrome associations",
+          "columns": [
+            "Association"
+          ],
+          "rows": [
+            [
+              "Frontal atrophy"
+            ],
+            [
+              "Familial pattern"
+            ],
+            [
+              "Summer birth"
+            ],
+            [
+              "Increased eye-tracking dysfunction"
+            ],
+            [
+              "More tardive dyskinesia"
+            ],
+            [
+              "Poorer functional outcome"
+            ],
+            [
+              "Lower suicide and depression rates"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 29
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "Deficit schizophrenia is associated with **poorer** functional outcome overall, but paradoxically **lower** suicide and depression rates — a counterintuitive pairing worth remembering as its own trap.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 29
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Treatment of related psychotic presentations — **delusional disorder**: a triple-blind RCT of fluoxetine in body dysmorphic disorder (==40%== of participants had *delusional* BDD) titrated to a maximum 80mg/day; delusional patients responded to fluoxetine just as well as non-delusional patients (30% BDD-Y-BOCS reduction: ==53%== fluoxetine vs ==18%== placebo, **NNT** 3). No RCTs exist for primary delusional parasitosis — only heterogeneous case reports, with no evidence-based recommendation possible.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 36
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Post-schizophrenic depression**: Levinson's systematic review found antidepressants beneficial once patients are stable with respect to psychotic symptoms, whereas antipsychotics are more effective for depressive symptoms occurring during acute psychosis. Both **clozapine** (vs olanzapine) and **olanzapine** (vs haloperidol) show antisuicidal effects in schizophrenia.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 36
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Schizoaffective disorder**: mood stabilisers are the mainstay of treatment. **Carbamazepine is specifically superior for the depressive subtype**; lithium and carbamazepine show no efficacy difference for the manic (bipolar-like) subtype. Antidepressant treatment follows the same approach as bipolar depression.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 36
+          }
+        },
+        {
+          "type": "table",
+          "title": "Psychotic depression — Wijkstra et al. meta-analysis (10 RCTs)",
+          "columns": [
+            "Comparison",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Antidepressant alone vs antipsychotic alone",
+              "No difference"
+            ],
+            [
+              "Antidepressant + antipsychotic vs antidepressant alone",
+              "No difference"
+            ],
+            [
+              "Antidepressant + antipsychotic vs antipsychotic alone",
+              "Combination superior"
+            ],
+            [
+              "Antidepressant + antipsychotic vs placebo",
+              "Combination superior"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite overall high withdrawal rates in the psychotic-depression trials, there was no significant difference in withdrawal *between* treatments. Both the **APA** and **NICE** recommend antidepressant+antipsychotic combination as first-line for psychotic depression.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 36
+          }
         }
       ],
       "concise": {
@@ -1221,11 +1539,44 @@
               "file": "books/7-1-adult-psychiatry-1.pdf",
               "page": 36
             }
+          },
+          {
+            "text": "**CATIE** controversies: ziprasidone added mid-recruitment, perphenazine only in phase 1, double-blinding reduced real-world resemblance, doses still disputed.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          },
+          {
+            "text": "**CUtLASS**: 1227 patients, ==81%== 1yr follow-up, no drug-class preference overall (but **clozapine** preferred in **CUtLASS 2**).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
+          },
+          {
+            "text": "Deficit schizophrenia: ≥2/6 enduring negative features for 12 months, idiopathic, DSM-5 criteria met; ==20–30%== clinical / ==14–17%== population prevalence. Poorer function but *lower* suicide/depression rates.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 29
+            }
+          },
+          {
+            "text": "Schizoaffective: **carbamazepine** superior in depressive subtype; lithium=carbamazepine in manic subtype. Psychotic depression: **NICE**/**APA** recommend antidepressant+antipsychotic combo first-line (Wijkstra meta-analysis: combo beats either monotherapy alone, not beats antidepressant-alone specifically).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-1.pdf",
+              "page": 36
+            }
           }
         ],
         "highlightBlockIndices": [
           2,
-          4
+          4,
+          6,
+          7,
+          10,
+          11,
+          15
         ]
       }
     },
@@ -1393,8 +1744,82 @@
       }
     },
     {
+      "id": "anxiety-overview",
+      "title": "10. Anxiety Disorders — Overview",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "National Psychiatric Morbidity Survey (**NPMS**, 1995): ==15%== of **UK** adults have broadly-defined neurosis at any time, and anxiety disorders are more prevalent than depression — consistent with **US** **ECA**/**NCS** data. But the *most common individual* anxiety diagnosis differs by study: phobic disorder tops **ECA**/**NCS**, while **NPMS** found mixed anxiety-depression (followed by **GAD**) most common in the **UK**. ==25%== of all **GP** consultations are for anxiety-related symptoms.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Mean age of onset by disorder: social phobia ~15y, **OCD** ~20y, panic disorder ~22–25y, **GAD** ~30y; specific phobia varies by subtype — blood/injection/injury and environmental types begin age 5–9y, situational type ~20y. Each successive generation is diagnosed with anxiety disorders at a younger age than the last.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood-injection-injury phobia: lifetime prevalence ~==3.5%==, median onset age 5–6y; strongly associated with a personal history of fainting/seizures. Prevalence is lower in the elderly and higher in females and those with less education.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "All anxiety disorders are commoner in women — **except** **OCD** (more boys than girls in childhood, equal in adult men and women) and social-phobia **treatment-seeking** specifically (men outnumber women in attending healthcare for social phobia, even though social phobia itself is still more prevalent in women overall).",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 2
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**NPMS** 1995: ==15%== UK adults have broadly-defined neurosis; anxiety > depression prevalence (as in US **ECA**/**NCS**). But commonest individual diagnosis differs: **ECA**/**NCS** = phobic disorder; **NPMS** = mixed anxiety-depression. ==25%== of **GP** consults are anxiety-related.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Onset ladder: social phobia ~15y → **OCD** ~20y → panic ~22–25y → **GAD** ~30y; specific phobia onset varies by subtype (5–9y vs ~20y). Diagnosed younger each generation.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Blood-injection-injury phobia: ==3.5%== lifetime prevalence, onset 5–6y, linked to fainting/seizure history.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Sex-distribution exceptions: **OCD** (boys>girls in childhood, equal in adults) and social-phobia treatment-seeking (men>women attending care, though the disorder itself is still commoner in women).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
+    },
+    {
       "id": "ocd",
-      "title": "10. Obsessive Compulsive Disorder",
+      "title": "11. Obsessive Compulsive Disorder",
       "blocks": [
         {
           "type": "paragraph",
@@ -1459,6 +1884,67 @@
             "file": "books/7-1-adult-psychiatry-2.pdf",
             "page": 3
           }
+        },
+        {
+          "type": "table",
+          "title": "OCD spectrum disorders (Castle & Phillips, 2006)",
+          "columns": [
+            "Category",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Somatic preoccupation",
+              "Body dysmorphic disorder, hypochondriasis, anorexia nervosa"
+            ],
+            [
+              "Neurological (repetitive behaviours)",
+              "Tourette syndrome, Sydenham's chorea, autism spectrum"
+            ],
+            [
+              "Impulse-control / rousing-repetitive behaviours",
+              "Paraphilias, kleptomania, trichotillomania, pathological gambling"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Anankastic personality disorder is also considered part of the **OCD** spectrum.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**AntiDNAseB**/antistreptolysin O (**ASO**) titres are typically elevated in **PANDAS** after recent streptococcal infection; a subset also have anti-basal-ganglia antibodies — the proposed mechanistic link to basal ganglia dysfunction.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**PANDAS** does not require neuropsychiatric symptoms to *begin* during the streptococcal infection — a temporally-correlated *exacerbation* of existing symptoms is sufficient for the diagnosis. A common exam trap assumes onset must coincide exactly with the infection.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Antipsychotic augmentation of an **SSRI** is indicated after a **three-month trial of a maximal-dose SSRI** with no response — particularly useful when tics are also present.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 3
+          }
         }
       ],
       "concise": {
@@ -1490,16 +1976,39 @@
               "file": "books/7-1-adult-psychiatry-2.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "**OCD** spectrum (Castle & Phillips): somatic preoccupation (**BDD**/hypochondriasis/anorexia), neurological (Tourette's/Sydenham's chorea/autism), impulse-control (paraphilias/kleptomania/trichotillomania/gambling); anankastic **PD** also spectrum member.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "**PANDAS** mechanism: AntiDNAseB/**ASO** titres elevated, some have anti-basal-ganglia antibodies. Exacerbation need not coincide with infection onset — temporal correlation is enough.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Antipsychotic augmentation after a **3-month** trial of maximal-dose **SSRI**, especially with tics.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 3
+            }
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          5,
+          8
         ]
       }
     },
     {
       "id": "ptsd",
-      "title": "11. PTSD & Acute Stress Reaction",
+      "title": "12. PTSD & Acute Stress Reaction",
       "blocks": [
         {
           "type": "paragraph",
@@ -1534,6 +2043,164 @@
             "file": "books/7-1-adult-psychiatry-2.pdf",
             "page": 5
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "**DSM-5** reclassified **PTSD** (and acute stress disorder) out of anxiety disorders into a new **\"trauma and stressor-related disorders\"** class. Diagnosis requires exposure to a qualifying traumatic event plus symptoms from **four** clusters: intrusion, avoidance, negative alterations in cognition/mood (including persistent self-blame or blaming others), and alterations in arousal/reactivity (including reckless/destructive behaviour). A **\"with dissociative symptoms\"** subtype was also added.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "table",
+          "title": "Factors influencing PTSD development (Bisson, 2007)",
+          "columns": [
+            "Category",
+            "Factors"
+          ],
+          "rows": [
+            [
+              "Pre-traumatic",
+              "Previous psychiatric disorder, female gender, external (vs internal) locus of control, lower socioeconomic/educational status, ethnic minority status, Cluster B personality disorder"
+            ],
+            [
+              "Peritraumatic",
+              "Higher trauma severity, perceived threat to life, peritraumatic dissociation"
+            ],
+            [
+              "Post-traumatic",
+              "Perceived lack of social support, subsequent life stress or physical illness (especially chronic pain)"
+            ],
+            [
+              "Protective",
+              "High IQ, higher social class, opportunity to grieve the loss (e.g. viewing the body)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Prevention of PTSD — evidence strength (Bisson, Clinical Evidence 2004)",
+          "columns": [
+            "Evidence category",
+            "Intervention"
+          ],
+          "rows": [
+            [
+              "Likely to be beneficial",
+              "Multiple-session CBT in people with acute stress disorder (vs supportive counselling)"
+            ],
+            [
+              "Unknown effectiveness",
+              "Multiple-session CBT in everyone exposed to trauma; propranolol; single-session group debriefing; temazepam"
+            ],
+            [
+              "Unlikely to be beneficial",
+              "Single-session individual debriefing; supportive counselling"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "Single-session debriefing is **not** an evidence-based way to prevent **PTSD** — individual debriefing is specifically \"unlikely to be beneficial\", and a Cochrane review found psychological debriefing may even *increase* the risk of **PTSD**/depression rather than prevent it.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "table",
+          "title": "PTSD drug evidence (UK practice)",
+          "columns": [
+            "Drug",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Paroxetine",
+              "Good RCT evidence; NICE second-line; UK-licensed for PTSD"
+            ],
+            [
+              "Sertraline",
+              "RCT evidence but NICE appraisal not significant; UK-licensed for females only"
+            ],
+            [
+              "Fluoxetine",
+              "One RCT, not significant"
+            ],
+            [
+              "Imipramine",
+              "Poor-quality evidence, not significant"
+            ],
+            [
+              "Amitriptyline",
+              "Poor-quality evidence but statistically significant"
+            ],
+            [
+              "Phenelzine",
+              "Poor-quality evidence but statistically significant"
+            ],
+            [
+              "Mirtazapine",
+              "One small, strongly positive RCT; NICE second-line"
+            ],
+            [
+              "Venlafaxine",
+              "One large RCT, no benefit"
+            ],
+            [
+              "Olanzapine",
+              "Negative as monotherapy; positive as SSRI augmentation"
+            ],
+            [
+              "Risperidone",
+              "Tested only as adjunct — no effect"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Eye Movement Desensitisation and Reprocessing (**EMDR**) was discovered serendipitously by psychologist Francine Shapiro, who first applied it to herself. Its proposed mechanism: bilateral stimulation (typically eye movements) while focusing on traumatic images/cognitions allows reprocessing of traumatic memories. A meta-analysis (Bisson et al., 2007) found no difference in efficacy between trauma-focused **CBT** and **EMDR**, though both were superior to stress management and other therapies.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Outcome: more than **one-third** of people with **PTSD** still had the disorder ==6 years== after onset; there is a ==50%== chance of remission at ==2 years==.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Acute stress reaction should **not** be diagnosed as a sudden exacerbation of an already-diagnosed psychiatric disorder — the one exception is personality disorder (**ICD-10 F60**), where a superimposed acute stress reaction can still be diagnosed.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 5
+          }
         }
       ],
       "concise": {
@@ -1558,16 +2225,64 @@
               "file": "books/7-1-adult-psychiatry-2.pdf",
               "page": 5
             }
+          },
+          {
+            "text": "**DSM-5** moved **PTSD**/acute stress disorder into \"trauma and stressor-related disorders\"; 4 symptom clusters (intrusion, avoidance, negative cognition/mood, arousal/reactivity) + \"with dissociative symptoms\" subtype.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Bisson's framework: pre-traumatic / peritraumatic / post-traumatic / protective factors — classic 4-category **EMI** setup.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Prevention: multi-session **CBT** in **ASD** = likely beneficial; single-session individual debriefing = unlikely beneficial (may even worsen outcomes).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Drug evidence: **paroxetine** (good RCT, **NICE** 2nd-line, **UK**-licensed) and **sertraline** (females-only **UK** licence) are the only **UK**-licensed **SSRIs**; **mirtazapine** also **NICE** 2nd-line.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "**EMDR** discovered by Shapiro (self-applied); no efficacy difference vs trauma-focused **CBT**, both beat stress management.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Outcome: >⅓ still symptomatic at ==6 years==; ==50%== remission chance at ==2 years==.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 5
+            }
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          2,
+          5,
+          6,
+          7,
+          8,
+          11
         ]
       }
     },
     {
       "id": "anxiety-disorders",
-      "title": "12. GAD, Panic Disorder & Social Phobia",
+      "title": "13. GAD, Panic Disorder & Social Phobia",
       "blocks": [
         {
           "type": "paragraph",
@@ -1600,6 +2315,130 @@
             "file": "books/7-1-adult-psychiatry-2.pdf",
             "page": 9
           }
+        },
+        {
+          "type": "table",
+          "title": "GAD drug treatment by phase (Tyrer & Baldwin, 2006)",
+          "columns": [
+            "Phase",
+            "Options"
+          ],
+          "rows": [
+            [
+              "Acute treatment",
+              "SSRIs (escitalopram, paroxetine, sertraline); TCA (imipramine); benzodiazepines (alprazolam, diazepam — not for long-term use); venlafaxine, duloxetine, buspirone; CBT"
+            ],
+            [
+              "Long-term efficacy / relapse prevention",
+              "Paroxetine, escitalopram, CBT, venlafaxine, pregabalin"
+            ],
+            [
+              "Adjuncts for non-response",
+              "Low-dose antipsychotics (olanzapine/risperidone)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**GAD** twin studies: **MZ** concordance ==41%== vs **DZ** ==4%== (though Andrews et al. found ==21.5%== **MZ** vs ==13.5%== **DZ** — figures vary by sample). Hamilton Anxiety Scale (**HAM-A**) is a 14-item, somatic-symptom-emphasis instrument; treatment response = ==50%== reduction from baseline, clinical recovery = score <7.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At 12-year follow-up, ==42%== of **GAD** patients had recovered — but **GAD** was a marker of *poor* outcome specifically in patients who also had another anxiety disorder.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Social phobia has two subtypes (Schneier, 2003): **generalised** (fear in most social situations — higher impairment, more likely to seek treatment) and **situational/non-generalised** (fear limited to public speaking/performance anxiety).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Classification-system contrast: **DSM** treats panic disorder as the primary diagnosis, while **ICD** focuses on agoraphobia instead.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "table",
+          "title": "NCS-R panic composite groups — lifetime prevalence",
+          "columns": [
+            "Group",
+            "Lifetime prevalence"
+          ],
+          "rows": [
+            [
+              "Isolated panic attacks (PA only)",
+              "==28%=="
+            ],
+            [
+              "Panic disorder alone",
+              "==4.7%=="
+            ],
+            [
+              "Panic disorder + agoraphobia",
+              "==1.1%=="
+            ],
+            [
+              "PA + agoraphobia (no PD)",
+              "==0.8%=="
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Panic disorder heritability estimate ==30–40%==. A fear network involving the amygdala, orbitofrontal cortex and hypothalamus has been implicated in neuroimaging studies.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "table",
+          "title": "BAP acute management of panic disorder vs NICE longer-term algorithm",
+          "columns": [
+            "Phase",
+            "Recommendation"
+          ],
+          "rows": [
+            [
+              "BAP acute management (patient choice)",
+              "Pharmacological — any SSRI, some TCAs (clomipramine, imipramine), some benzodiazepines (alprazolam, clonazepam, diazepam, lorazepam), venlafaxine, reboxetine; or psychological — CBT. Both broadly similar efficacy acutely."
+            ],
+            [
+              "NICE longer-term algorithm",
+              "SSRI first-line; imipramine second-line; continue a responding drug 6 months beyond the 12-week response point; cognitive therapy with exposure preferred for relapse prevention; routine drug+psychological combination not recommended"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 11
+            }
+          ]
         }
       ],
       "concise": {
@@ -1631,14 +2470,270 @@
               "file": "books/7-1-adult-psychiatry-2.pdf",
               "page": 9
             }
+          },
+          {
+            "text": "**GAD** twins: **MZ** ==41%== vs **DZ** ==4%== (Andrews: ==21.5%== vs ==13.5%==). **HAM-A** 14-item; response===50%== reduction, recovery=score<7.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "12yr **GAD** outcome: ==42%== recovered, but **GAD** = poor-outcome marker when another anxiety disorder is comorbid.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Social phobia subtypes: generalised (higher impairment, more treatment-seeking) vs situational/performance-only.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "**DSM** = panic disorder primary; **ICD** = agoraphobia primary. **NCS-R**: isolated **PA** ==28%==, **PD** alone ==4.7%==, **PD**+**AG** ==1.1%==, **PA**+**AG** ==0.8%==.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Panic heritability ==30–40%==; fear network = amygdala/orbitofrontal cortex/hypothalamus.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 11
+            }
           }
         ],
-        "highlightBlockIndices": []
+        "highlightBlockIndices": [
+          4,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "id": "herbal-treatments-anxiety",
+      "title": "14. Herbal Treatments of Anxiety",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Evidence review (Ernst, Advances in Psychiatric Treatment 2007): **kava** (*Piper methysticum*) has trial evidence for anxiolysis; ginkgo and valerian are not effective; common lavender, saffron, German chamomile and lemon balm appear promising but are less well studied.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Kava's proposed mechanism: kavapyrones act (in animal models) as muscle relaxants/anticonvulsants, protect against strychnine poisoning and reduce limbic excitability — via inhibition of voltage-dependent sodium channels, increased **GABA-A** receptor density, blocked noradrenaline reuptake, and suppressed glutamate release.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A Cochrane review of 11 RCTs found **kava is the only herbal remedy proven effective for anxiety** — but it cannot be recommended clinically: it is associated with (sometimes fatal) hepatotoxicity and has been **withdrawn from the UK market**. Valerian and passiflora showed no efficacy vs diazepam in separate Cochrane reviews.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "table",
+          "title": "Herb–drug interactions in anxiety treatment",
+          "columns": [
+            "Herb",
+            "Interacting drug",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Kava",
+              "Levodopa / alprazolam",
+              "Extrapyramidal symptoms or lethargy"
+            ],
+            [
+              "Valerian",
+              "Loperamide / fluoxetine",
+              "Delirium"
+            ],
+            [
+              "Evening primrose oil",
+              "Phenothiazines",
+              "Epileptic seizures"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "**Kava** = only herbal remedy with proven anxiolytic efficacy (Cochrane) but **UK**-withdrawn for hepatotoxicity. Ginkgo/valerian not effective.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Kava mechanism: Na⁺-channel inhibition, ↑**GABA-A** density, blocked NE reuptake, ↓glutamate release.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Interactions: kava+levodopa/alprazolam→EPSE/lethargy; valerian+loperamide/fluoxetine→delirium; evening primrose oil+phenothiazines→seizures.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "other-related-disorders",
+      "title": "15. Other Related Disorders (Hypochondriasis, BDD, MUS, Dissociative Disorders)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Hypochondriasis** (**ICD-10**): preoccupation with fear of serious disease based on misinterpretation of bodily symptoms. **DSM-5** removed the diagnosis (the name was seen as pejorative) — patients would now be diagnosed with **Somatic Symptom Disorder** or **Illness Anxiety Disorder**. Prevalence ==0.8–4.5%== (mostly primary-care data); no clear specific risk factors, but associated with anxiety, depressive and other somatoform disorders. **CBT** (including group **CBT**) and **SSRIs** are efficacious.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Body Dysmorphic Disorder (BDD)**: conviction that a body part is defective/flawed despite normal or near-normal appearance, with repetitive behaviours/mental acts about the perceived flaw. **DSM-5** treats psychotic and non-psychotic **BDD** as **one spectrum disorder** (distinguished by degree of insight), not as separate diagnoses.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "table",
+          "title": "BDD — predisposing factors, comorbidity and prevalence",
+          "columns": [
+            "Domain",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Predisposing factors",
+              "Low self-esteem, critical parents/significant others, early childhood trauma, unconscious displacement of emotional conflict"
+            ],
+            [
+              "Comorbidity",
+              "Major depression ==26%== (also earlier depression onset), social phobia ==16%==, OCD ==6%==; higher rates of psychotic disorder and family substance-use disorders"
+            ],
+            [
+              "Population prevalence",
+              "Cosmetic-surgery attenders ==7–15%==; dermatology attenders ==12%=="
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**BDD** treatment: high-dose **SSRIs** for longer than a standard antidepressant trial (fluoxetine has RCT evidence); antipsychotics show variable success; pimozide has anecdotal support but **QT**-prolongation risk limits use; **CBT** effective in case series, ± fluoxetine for resistant cases. Prognosis of the psychotic variant is generally poor (waxing/waning course) but psychosocial function is often relatively preserved — consistent with outcomes in persistent delusional disorder.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Medically Unexplained Symptoms (MUS) / Somatisation Disorder**: community-survey prevalence <==1%==, but primary-care structured-interview prevalence ==1–2%== — and **WHO** multicentre follow-up data suggest structured-interview recall likely *underestimates* true lifetime prevalence. Prevalence is twice as high in women as men (also true for persistent pain syndromes, seen in ~20% of primary care patients).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Rohricht & Elanjithara (2009): of patients with **MUS**, ==42%== had a primary somatoform diagnosis and ==36%== had a depressive disorder. Sumathipala et al.'s evidence review found three evidence-supported intervention types for **MUS** — antidepressants, **CBT** (strongest, level-I evidence), and other non-specific interventions; no trials have directly compared pharmacological vs psychological treatment, and most only assessed short-term outcomes. Collaborative care models are recommended; body-oriented psychological therapy, mentalisation-based **CBT** and brief psychodynamic interpersonal therapy may also help.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Dissociative Disorders**: **ICD-10** classifies Conversion Disorder as a dissociative disorder; **DSM-5** lists Dissociative Identity Disorder, Dissociative Amnesia (with Dissociative Fugue as a subtype — reversible amnesia for identity with unplanned travel, sometimes a new identity), and Depersonalisation/Derealisation Disorder.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Dissociative disorder prevalence is estimated at ==10%== of the adult population (**DSM-III**-era definition) — comparable to anxiety, mood and substance-use disorders. Most studies find **no gender difference** in prevalence, though some report more severe presentations in women. High rates of childhood trauma are reported: sexual abuse ==57–90%==, physical abuse 62–82%, emotional abuse 57%, neglect 62%. Treatment aims to integrate feelings/perceptions/thoughts/memories — individual psychotherapy (structured therapies including **ACT** and **DBT**) plus skills training, though the evidence base is still immature.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 12
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Hypochondriasis: **DSM-5** removed it → **Somatic Symptom Disorder**/**Illness Anxiety Disorder**. Prevalence ==0.8–4.5%==; **CBT**/**SSRIs** effective.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "**BDD**: psychotic/non-psychotic = **one** spectrum (not separate dx); comorbid depression ==26%==, social phobia ==16%==, **OCD** ==6%==; ==7–15%== of cosmetic-surgery, ==12%== of dermatology attenders.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "**MUS**: community <==1%== vs primary-care structured-interview ==1–2%== (likely still an underestimate per **WHO** data); **CBT** has strongest evidence.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Dissociative disorders ~==10%== prevalence; childhood sexual abuse in ==57–90%== of cases; no consistent gender difference.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
+        ]
       }
     },
     {
       "id": "eating-disorders",
-      "title": "13. Eating Disorders",
+      "title": "16. Eating Disorders",
       "blocks": [
         {
           "type": "paragraph",
@@ -1681,6 +2776,211 @@
             "file": "books/7-1-adult-psychiatry-2.pdf",
             "page": 15
           }
+        },
+        {
+          "type": "paragraph",
+          "text": "**ICD-10** recognises 3 major eating-disorder types: anorexia nervosa, bulimia nervosa, and **EDNOS** (eating disorder not otherwise specified/atypical). Binge eating disorder (**BED**) is increasingly recognised as a 4th type but currently falls under **EDNOS**. Diagnostic stability between categories is poor: ¼ to ⅓ of bulimia patients have a *past* anorexia history, though migration from bulimia to anorexia is rare.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Binge-eating episodes involve food intake of ==1000–2000 kCal==; **DSM-5** requires a once-weekly frequency of binge eating plus compensatory behaviour for a bulimia diagnosis.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "table",
+          "title": "Eating disorder epidemiology (Fairburn & Harrison, 2003)",
+          "columns": [
+            "Feature",
+            "Anorexia nervosa",
+            "Bulimia nervosa"
+          ],
+          "rows": [
+            [
+              "Typical onset",
+              "Adolescence",
+              "Mostly young adults (later than anorexia)"
+            ],
+            [
+              "Social class",
+              "Excess in higher social class",
+              "Even class distribution"
+            ],
+            [
+              "Prevalence (teenage / young-adult girls)",
+              "==0.5–1%==",
+              "==1–2%== (age 16–35)"
+            ],
+            [
+              "Incidence (per 100,000 females/year)",
+              "19",
+              "29"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comorbidity in anorexia: ==65%== depression, ==34%== social phobia, ==26%== **OCD**.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "table",
+          "title": "Eating disorder risk factors (adapted from Fairburn & Harrison, 2003)",
+          "columns": [
+            "Category",
+            "Risk factors"
+          ],
+          "rows": [
+            [
+              "General",
+              "Female sex, adolescence/early adulthood, Western cultural adaptation, family history of ED/depression/substance misuse"
+            ],
+            [
+              "Bulimia-specific",
+              "Family history of obesity or alcoholism, past history of obesity, early menarche"
+            ],
+            [
+              "Personal / environmental",
+              "Adverse parenting (low contact, high expectations, discord), childhood sexual abuse, critical comments about eating/shape/weight, occupational/recreational pressure to be slim, low self-esteem, perfectionism (more in anorexia)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Binge Eating Disorder (**BED**): recurrent bingeing without extreme weight-control behaviours, often against a background of general overeating; associated with obesity (5–10% of obesity-treatment attenders have **BED**). Typical onset in the ==40s==; ==25%== of the **BED** population is male (a higher male proportion than other eating disorders, though still female-predominant overall). High rate of spontaneous remission. Self-help, behavioural weight-loss programmes and **CBT**/**IPT** can help.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "table",
+          "title": "Physical signs and investigation findings in eating disorders, by system",
+          "columns": [
+            "System",
+            "Findings"
+          ],
+          "rows": [
+            [
+              "Endocrine",
+              "Low LH/FSH/oestradiol; low T3 and low-normal T4 with normal TSH (\"low T3 syndrome\"); mildly raised cortisol; raised growth hormone; low leptin; rare severe hypoglycaemia"
+            ],
+            [
+              "Cardiovascular",
+              "Bradycardia (~40 bpm common), orthostatic hypotension, QT-interval prolongation, arrhythmias; ipecac (emetine) can cause reversible myopathy or fatal cardiomyopathy; systolic BP may fall to ~70 in extreme starvation"
+            ],
+            [
+              "Gastrointestinal",
+              "Delayed gastric emptying, decreased colonic motility (chronic laxative misuse), acute gastric dilatation (rare, from bingeing/re-feeding)"
+            ],
+            [
+              "Haematological",
+              "Moderate normocytic normochromic anaemia, mild leucopenia with relative lymphocytosis, thrombocytopenia"
+            ],
+            [
+              "Other metabolic",
+              "Hypercholesterolaemia, raised serum carotene, hypophosphataemia (exaggerated on refeeding), dehydration; vomiting causes metabolic alkalosis + hypokalaemia; laxative misuse causes metabolic acidosis + hyponatraemia + hypokalaemia"
+            ],
+            [
+              "Other",
+              "Osteopenia/osteoporosis (raised fracture risk); enlarged cerebral ventricles/CSF spaces (\"pseudoatrophy\")"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Eating disorders in pregnancy: reduced fertility (regained near-normal after full recovery); higher rates of hyperemesis gravidarum, anaemia, impaired maternal weight gain, intrauterine growth restriction, prematurity and caesarean delivery, and higher postpartum depression risk. Neonates may show low birth weight, microcephaly, low Apgar scores, and — in actively anorexic mothers — hypoglycaemia.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "table",
+          "title": "Evidence-based management of eating disorders, by modality (Fairburn & Harrison, 2003)",
+          "columns": [
+            "Modality",
+            "Anorexia nervosa",
+            "Bulimia nervosa"
+          ],
+          "rows": [
+            [
+              "Antidepressants (acute)",
+              "Modest",
+              "Considerable"
+            ],
+            [
+              "Antidepressants (relapse prevention)",
+              "Modest",
+              "Modest"
+            ],
+            [
+              "Cognitive analytic therapy (CAT)",
+              "Modest",
+              "None"
+            ],
+            [
+              "Cognitive behaviour therapy (CBT)",
+              "Modest",
+              "Strong"
+            ],
+            [
+              "DBT-based treatment",
+              "None",
+              "Modest"
+            ],
+            [
+              "Family-based therapy (adolescents)",
+              "Moderate",
+              "None"
+            ],
+            [
+              "Interpersonal psychotherapy (IPT)",
+              "None",
+              "Moderate"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bulimia management: **CBT** is most effective (~20 individual sessions over 5 months; ==33–50%== achieve complete, lasting recovery). Antidepressants have a rapid antibulimic effect (reduced bingeing/purging, improved mood) but are less effective than **CBT** and the effect is often not sustained. Anorexia's four therapeutic goals: engagement, weight restoration, psychological therapy (cognitive restructuring), and use of compulsion if needed. Best outpatient prognosis for anorexia: illness present <6 months, no bingeing/vomiting, and cooperative parents willing to engage in family therapy.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 15
+          }
         }
       ],
       "concise": {
@@ -1712,16 +3012,56 @@
               "file": "books/7-1-adult-psychiatry-2.pdf",
               "page": 15
             }
+          },
+          {
+            "text": "**ICD-10**: anorexia/bulimia/**EDNOS** (3 types); **BED** = emerging 4th, currently under **EDNOS**. ¼–⅓ of bulimia patients have a past anorexia history.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Binge episodes ==1000–2000 kCal==. Anorexia comorbidity: ==65%== depression, ==34%== social phobia, ==26%== **OCD**.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "**BED**: ==40s== onset, ==25%== male, high spontaneous remission.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Management evidence: **CBT** strong for bulimia, modest for anorexia; antidepressants considerable (acute) for bulimia only; family therapy for adolescent anorexia.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Bulimia: ~20 **CBT** sessions/5 months, ==33–50%== full recovery. Anorexia: engagement → weight restoration → cognitive restructuring → compulsion if needed.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 15
+            }
           }
         ],
         "highlightBlockIndices": [
-          3
+          3,
+          3,
+          7,
+          9,
+          11,
+          13
         ]
       }
     },
     {
       "id": "personality-disorders",
-      "title": "14. Personality Disorders",
+      "title": "17. Personality Disorders",
       "blocks": [
         {
           "type": "paragraph",
@@ -1852,6 +3192,315 @@
             "file": "books/7-1-adult-psychiatry-2.pdf",
             "page": 20
           }
+        },
+        {
+          "type": "table",
+          "title": "Personality disorder prevalence by individual PD and source",
+          "columns": [
+            "PD",
+            "Oxford Textbook (per 1000, community)",
+            "Coid 2006 GB (per 1000, community)",
+            "Zimmerman 2005 (per 1000, psychiatric outpatients)"
+          ],
+          "rows": [
+            [
+              "Paranoid",
+              "6",
+              "7",
+              "42"
+            ],
+            [
+              "Schizoid",
+              "4",
+              "8",
+              "14"
+            ],
+            [
+              "Schizotypal",
+              "6",
+              "0.6",
+              "6"
+            ],
+            [
+              "Antisocial",
+              "19",
+              "6",
+              "36"
+            ],
+            [
+              "Borderline",
+              "16",
+              "7",
+              "93"
+            ],
+            [
+              "Histrionic",
+              "20",
+              "12",
+              "10"
+            ],
+            [
+              "Narcissistic",
+              "2",
+              "8",
+              "23"
+            ],
+            [
+              "Anankastic",
+              "17",
+              "19",
+              "87"
+            ],
+            [
+              "Avoidant",
+              "7",
+              "8",
+              "147"
+            ],
+            [
+              "Dependent",
+              "7",
+              "1",
+              "14"
+            ],
+            [
+              "Passive-aggressive",
+              "17",
+              "no data",
+              "no data"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "Avoidant **PD** has the *highest* individual-PD prevalence in the Zimmerman psychiatric-outpatient data (==147/1000==) — higher than borderline (==93/1000==). The cluster-level summary (Cluster C > Cluster B overall) hides this individual-PD detail, which is a common exam trap.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "table",
+          "title": "Personality disorder prevalence in prison (England & Wales survey)",
+          "columns": [
+            "Population",
+            "Any PD",
+            "Antisocial PD specifically"
+          ],
+          "rows": [
+            [
+              "Male remand",
+              "==78%==",
+              "==63%=="
+            ],
+            [
+              "Male sentenced",
+              "==64%==",
+              "==49%=="
+            ],
+            [
+              "Female",
+              "==50%==",
+              "==31%=="
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "General-population **ASPD** prevalence in Great Britain ~==0.6%==; men (==1%==) outnumber women (==0.2%==) 5-fold. International surveys report **ASPD** prevalence ranging ==0.2–4.1%==; higher rates are generally found in urban populations.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "McLean Study of Adult Development — borderline symptoms that **decline fastest**: quasi-psychotic thought, self-mutilation, help-seeking suicide efforts, treatment regressions, countertransference problems. Symptoms that **remain common even at 10 years**: chronic dysphoria, intense anger, nondelusional paranoia, and general impulsivity (disordered eating, spending sprees, reckless driving). (Collaborative Longitudinal Personality Disorders Study: abandonment fears and physically self-destructive acts were the *least* stable, remitting fastest.)",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Seivewright & Tyrer's 12-year follow-up found personality traits change in **opposite directions by cluster**: Cluster B (antisocial, histrionic) traits became *less* pronounced over time, while Cluster A (schizoid, schizotypal, paranoid) and Cluster C (obsessional, avoidant) traits became *more* pronounced. A common exam trap assumes all personality pathology softens with age.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "table",
+          "title": "Diagnostic features by individual personality disorder",
+          "columns": [
+            "Cluster",
+            "PD",
+            "Key features"
+          ],
+          "rows": [
+            [
+              "A (odd, eccentric)",
+              "Paranoid",
+              "Suspicious of others' motives, holds grudges, believes others untrustworthy, emotionally detached, feels others are deceiving/threatening"
+            ],
+            [
+              "A",
+              "Schizoid",
+              "Difficulty expressing warmth, prefers solitude, aloof, unresponsive to praise/criticism, unaware of social trends"
+            ],
+            [
+              "A",
+              "Schizotypal (ICD-10 classifies as a type of schizophrenia)",
+              "Odd/eccentric appearance, illusions/magical thinking, obsessions without resistance, quasi-cultural group membership, belief in ESP/clairvoyance, transient psychotic features"
+            ],
+            [
+              "B (dramatic, erratic)",
+              "Antisocial",
+              "Disregard for others' rights/feelings, lack of remorse, ignores social norms/breaks the law, forms and breaks relationships easily"
+            ],
+            [
+              "B",
+              "Borderline",
+              "Poor self-image, unstable relationships, impulsivity, self-harm/suicidality, mood instability, micro-psychotic episodes, chronic emptiness, abandonment fears"
+            ],
+            [
+              "B",
+              "Histrionic",
+              "Overdramatic, attention-seeking, rapid but demanding relationships, shallow emotions, inappropriately sexually provocative"
+            ],
+            [
+              "B",
+              "Narcissistic",
+              "Exaggerated self-importance, self-centred, intolerant of others, grandiosity, craves admiration"
+            ],
+            [
+              "C (anxious, inhibited)",
+              "Avoidant",
+              "Fears negative judgement, discomfort in groups, socially withdrawn, low self-esteem, craves affection but fears rejection"
+            ],
+            [
+              "C",
+              "Dependent",
+              "Passive, allows others to take responsibility, lacks self-confidence, feels own needs are secondary"
+            ],
+            [
+              "C",
+              "Obsessive-compulsive / anankastic (1–2% prevalence)",
+              "Difficulty expressing warmth, perfectionist, rigid, may hoard/be scrupulous with money, workaholic, poor delegation"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "**\"Quasi-psychotic\"** is technically an **ICD-10** term specifically for **schizotypal disorder** (\"occasional transient quasipsychotic episodes with intense illusions, hallucinations and delusion-like ideas, usually without external provocation\") — even though transient stress-induced paranoid ideation in borderline PD is sometimes loosely called this too. Exam questions may test the precise term-to-disorder mapping.",
+          "format": "Both",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "table",
+          "title": "Personality disorder — drug-by-drug evidence (Tyrer & Bateman, 2004)",
+          "columns": [
+            "Drug",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Amitriptyline",
+              "No effect on borderline PD even if depressed; haloperidol compares better"
+            ],
+            [
+              "Flupentixol",
+              "Some efficacy for self-harm behaviour"
+            ],
+            [
+              "Low-dose antipsychotics",
+              "Effective in both schizotypal and borderline PD"
+            ],
+            [
+              "SSRIs",
+              "Reduce aggressive/impulsive/angry behaviour in borderline and aggressive PD"
+            ],
+            [
+              "Anticonvulsants / lithium",
+              "Some effect against affective dysregulation in borderline PD and aggressive outbursts in Cluster B"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Bipolar vs BPD — Richardson & Tracy (2015) illness-perception themes",
+          "columns": [
+            "Theme",
+            "Bipolar Disorder",
+            "Borderline PD"
+          ],
+          "rows": [
+            [
+              "Public information",
+              "Greater public awareness, positive celebrity exposure, more support groups",
+              "Less public information/awareness"
+            ],
+            [
+              "Diagnosis delivery",
+              "Taken more seriously, more staff time",
+              "Less so"
+            ],
+            [
+              "Perceived illness cause",
+              "More genetic/'brain wiring or chemical' framing",
+              "Less biologically framed"
+            ],
+            [
+              "Illness management",
+              "More medication-orientated, better-established protocols",
+              "Less well-established protocols"
+            ],
+            [
+              "Stigma and blame",
+              "Less stigma",
+              "Greater stigma, staff hopelessness/self-blame"
+            ],
+            [
+              "Relationships with others",
+              "More family/friend support; infrequent episodes are easier to conceal",
+              "Insidious relationship damage, felt ever-present, harder to conceal"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          ]
         }
       ],
       "concise": {
@@ -1876,18 +3525,162 @@
               "file": "books/7-1-adult-psychiatry-2.pdf",
               "page": 20
             }
+          },
+          {
+            "text": "Individual-PD prevalence trap: avoidant **PD** highest in outpatients (==147/1000==) — above borderline (==93/1000==).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Prison: any **PD** ==78%== male remand / ==64%== sentenced / ==50%== female; **ASPD** ==63%==/==49%==/==31%==. General-population **ASPD**: men ==1%== vs women ==0.2%== (5x); international ==0.2–4.1%==.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "McLean: quasi-psychotic thought/self-mutilation/help-seeking suicide efforts/treatment regressions/countertransference problems decline fastest; chronic dysphoria/anger/nondelusional paranoia/impulsivity persist at 10yr.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Seivewright & Tyrer (12yr): Cluster B traits *soften*, Cluster A and C traits *harden* — opposite directions, classic trap.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "\"Quasi-psychotic\" is technically an **ICD-10 schizotypal** term, not a borderline one.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 20
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
           2,
-          4
+          4,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "id": "psychosexual-disorders",
+      "title": "18. Psychosexual Disorders",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sexual dysfunctions are coded in the **F50** group in **ICD-10**. Classification (DSM-style): sexual desire disorders (sexual aversion, hypoactive sexual desire), sexual arousal disorders (female sexual arousal disorder, male erectile disorder), orgasmic disorders (female/male orgasmic disorder, premature ejaculation), and sexual pain disorders (dyspareunia, vaginismus).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 25
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Hypoactive sexual desire** is the most common — and hardest to treat — female sexual dysfunction. Testosterone has been trialled in both sexes but with only modest effect, largely limited by side effects.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 25
+          }
+        },
+        {
+          "type": "table",
+          "title": "DSM-5 paraphilic disorders (Yakeley & Wood, 2014)",
+          "columns": [
+            "Disorder",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Voyeurism",
+              "Spying on others' sexual/private activities"
+            ],
+            [
+              "Exhibitionism",
+              "Deliberately exposing one's genitals"
+            ],
+            [
+              "Frotteurism",
+              "Deliberately rubbing against a non-consenting individual"
+            ],
+            [
+              "Sexual masochism",
+              "Choosing to undergo humiliation, bondage or suffering for sexual arousal"
+            ],
+            [
+              "Sexual sadism",
+              "Choosing to inflict humiliation, bondage or suffering on a partner for sexual arousal"
+            ],
+            [
+              "Paedophilia",
+              "Sexual focus on children"
+            ],
+            [
+              "Fetishism",
+              "Using objects or non-genital body parts to achieve arousal"
+            ],
+            [
+              "Transvestic disorder",
+              "Engaging in sexually arousing cross-dressing"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "'**Other specified paraphilic disorder**' covers rarer paraphilias: zoophilia (animals), scatalogia (obscene phone calls), necrophilia (corpses), coprophilia (faeces), klismaphilia (enemas), and urophilia (urine).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 25
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Sexual dysfunctions = **ICD-10 F50**: desire, arousal, orgasmic, pain disorders. Hypoactive sexual desire = commonest & hardest-to-treat female dysfunction.",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 25
+            }
+          },
+          {
+            "text": "**DSM-5** paraphilic disorders: voyeurism, exhibitionism, frotteurism, sexual masochism/sadism, paedophilia, fetishism, transvestic disorder + 'other specified' (zoophilia, scatalogia, necrophilia, coprophilia, klismaphilia, urophilia).",
+            "source": {
+              "file": "books/7-1-adult-psychiatry-2.pdf",
+              "page": 25
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2
         ]
       }
     },
     {
       "id": "sleep-disorders",
-      "title": "15. Sleep Disorders (question-bank only — not covered in the SPMM book notes)",
+      "title": "19. Sleep Disorders (question-bank only — not covered in the SPMM book notes)",
       "blocks": [
         {
           "type": "gap",
@@ -1989,7 +3782,7 @@
     },
     {
       "id": "cross-cutting-pharmacology",
-      "title": "16. Cross-Cutting Psychopharmacology Pitfalls",
+      "title": "20. Cross-Cutting Psychopharmacology Pitfalls",
       "blocks": [
         {
           "type": "gap",
@@ -2119,7 +3912,7 @@
     },
     {
       "id": "prevention-frameworks",
-      "title": "17. Prevention & Risk Frameworks",
+      "title": "21. Prevention & Risk Frameworks",
       "blocks": [
         {
           "type": "trap",
@@ -2150,7 +3943,7 @@
     },
     {
       "id": "coverage-gaps",
-      "title": "18. Coverage Gaps & Flags",
+      "title": "22. Coverage Gaps & Flags",
       "blocks": [
         {
           "type": "gap",
