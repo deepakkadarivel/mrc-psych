@@ -303,15 +303,26 @@ export function QuizView({
           {questions.map((qq, i) => {
             const a = progress.answers[i];
             const answered = isAnswered(qq, a);
+            // Only a revealed question has actually been "checked" against the correct answer —
+            // green/red grading only applies once evaluated; a selected-but-not-yet-revealed
+            // question stays in the neutral "attempted" state, same as before this change.
+            const evaluated = a.revealed;
+            const correct = evaluated && isCorrect(qq, a);
             return (
               <button
                 key={qq.id}
                 onClick={() => goTo(i)}
                 aria-label={`Go to question ${i + 1}`}
                 className={cn(
-                  "flex size-7 shrink-0 items-center justify-center rounded-md border text-xs",
+                  "flex size-7 shrink-0 items-center justify-center rounded-md border text-xs font-medium",
                   i === progress.index && "ring-2 ring-primary",
-                  answered ? "bg-muted font-medium" : "text-muted-foreground"
+                  evaluated
+                    ? correct
+                      ? "border-green-600 bg-green-600 text-white"
+                      : "border-red-600 bg-red-600 text-white"
+                    : answered
+                      ? "bg-muted"
+                      : "text-muted-foreground"
                 )}
               >
                 {i + 1}
