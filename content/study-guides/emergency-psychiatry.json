@@ -32,7 +32,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Common emergencies are grouped as general syndromes (suicidality, agitation, confusion, starvation, catatonia, disinhibition) and iatrogenic issues (acute dystonia, neuroleptic malignant syndrome, serotonin syndrome, **lithium** toxicity, **clozapine**-related agranulocytosis, intoxication/withdrawal syndromes).",
+          "text": "Common emergencies are grouped as general syndromes (suicidality, agitation, confusion, starvation, catatonia, disinhibition, intoxication/withdrawal syndromes) and iatrogenic issues (acute dystonia, neuroleptic malignant syndrome, serotonin syndrome, **lithium** toxicity, **clozapine**-related agranulocytosis).",
           "source": {
             "file": "books/7-4-emergency-psychiatry.pdf",
             "page": 2
@@ -67,6 +67,43 @@
       "blocks": [
         {
           "type": "table",
+          "title": "Self-harming and/or suicidal patient — differential diagnosis",
+          "columns": [
+            "Clinical clue",
+            "Likely diagnosis"
+          ],
+          "rows": [
+            [
+              "Low mood, past history of depression, hopelessness",
+              "Mood disorders (esp. depression)"
+            ],
+            [
+              "Hallucinations, delusions, paranoia",
+              "Psychotic disorder"
+            ],
+            [
+              "Acute stress, interpersonal conflicts, exposure to trauma",
+              "Adjustment disorders/stress reaction"
+            ],
+            [
+              "Unstable, ambivalent relationship structure",
+              "**EUPD**"
+            ],
+            [
+              "Impaired intelligence, other stereotypic behaviour patterns",
+              "Autistic self-injury / injury related to learning-communication difficulties"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/7-4-emergency-psychiatry.pdf",
+              "page": 3
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "table",
           "title": "Agitated patient — differential diagnosis",
           "columns": [
             "Clinical clue",
@@ -74,44 +111,40 @@
           ],
           "rows": [
             [
-              "Hallucinations/delusions/paranoia",
-              "Psychotic disorder"
+              "Acute confusion, physical frailty, metabolic/electrolyte disturbance or infection",
+              "Medical/neurological syndromes"
             ],
             [
-              "Acute stress/interpersonal conflict/trauma exposure",
-              "Adjustment disorder or acute stress reaction"
+              "Disorientation, impaired consciousness, ataxia, autonomic dysfunction, hallucinations",
+              "Intoxication/withdrawal of alcohol and/or other substances"
             ],
             [
-              "Unstable, ambivalent relationships",
-              "**EUPD**"
-            ],
-            [
-              "Disorganised speech, suspiciousness, delusions/hallucinations",
+              "Disorganised speech, suspiciousness, delusions, hallucinations",
               "Acute psychotic disturbance"
+            ],
+            [
+              "Memory disturbance, disorientation, disinhibition, cognitive difficulties",
+              "Dementia"
             ],
             [
               "Forensic history, premeditated behaviour, verbal threats targeting victims",
               "Antisocial personality"
             ],
             [
-              "Elevated/irritable mood with flight of ideas",
+              "Increased drive, flight of ideas, elevated/irritated mood",
               "Mania"
             ],
             [
-              "Subdued mood with catastrophic/guilt delusions",
+              "Subdued mood, anxiety, catastrophic/guilt delusions",
               "Agitated depression"
             ],
             [
-              "Fear/palpitations/shortness of breath",
-              "Panic attack"
+              "Intense fear, shortness of breath, palpitations, autonomic manifestations",
+              "Panic attack / Generalized anxiety"
             ],
             [
-              "Subjective restlessness/motor unrest predominantly in the legs",
-              "Akathisia from neuroleptic use"
-            ],
-            [
-              "Disorientation, ataxia, autonomic dysfunction, hallucinations",
-              "Medical/neurological cause, metabolic/electrolyte disturbance or infection"
+              "Subjective restlessness, motor unrest predominantly in the legs",
+              "Akathisia due to neuroleptic use"
             ]
           ],
           "sources": [
@@ -149,6 +182,10 @@
             [
               "Rapid onset with marked rigidity and autonomic instability but **WITHOUT** posturing",
               "Psychotropic-induced (e.g. **NMS**)"
+            ],
+            [
+              "Impaired intelligence, other stereotypic behaviour patterns",
+              "Autism/Neurodevelopmental disorders"
             ]
           ],
           "sources": [
@@ -273,7 +310,8 @@
           5,
           6,
           7,
-          8
+          8,
+          9
         ]
       }
     },
@@ -2240,7 +2278,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Factors associated with self-neglect in the elderly: advanced age, lack of social contacts, medical morbidity, dementia/depression/alcoholism, poverty and illiteracy, suspicious/mistrustful/paranoid personality, loss of a caregiver, bereavement/other loss events, decreased vision/hearing or other physical impairment. Assessment must include activities of daily living, environmental assessment, cognitive assessment and detailed physical assessment, plus formal, documented capacity assessment for treatment decisions.",
+          "text": "Factors associated with self-neglect in the elderly: advanced age, lack of social contacts, medical morbidity, dementia/depression/alcoholism, poverty and illiteracy, suspicious/mistrustful/avoidant/paranoid personality, loss of a caregiver, bereavement/other loss events, decreased vision/hearing or other physical impairment. Assessment must include activities of daily living, environmental assessment, cognitive assessment and detailed physical assessment, plus formal, documented capacity assessment for treatment decisions.",
           "source": {
             "file": "books/7-4-emergency-psychiatry.pdf",
             "page": 15
