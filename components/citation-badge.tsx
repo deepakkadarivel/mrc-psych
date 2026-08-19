@@ -17,10 +17,11 @@ export function CitationBadge({
     <button onClick={() => onClick(source)} type="button">
       {/* Literal colors, not the `outline` variant's theme tokens — this sits inside the
           always-light study-guide "paper" as well as the theme-aware app chrome, and must stay
-          a quiet, legible marginal reference mark (like a footnote) in both. */}
+          a quiet, legible marginal reference mark (like a footnote) in both. Monospace marks it
+          as reference data, not prose — matches every citation/figure across the app. */}
       <Badge
         variant="outline"
-        className={`cursor-pointer border-[#D9D9D9] bg-white whitespace-nowrap text-[11px] text-[#6B7280] hover:bg-[#F1F1F1] ${className ?? ""}`}
+        className={`cursor-pointer border-[#E4E1D9] bg-white font-mono whitespace-nowrap text-[10.5px] text-[#5B6472] hover:bg-[#F3F1EC] ${className ?? ""}`}
       >
         {label}
       </Badge>

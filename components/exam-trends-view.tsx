@@ -294,7 +294,7 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
     <>
       <div className="md:hidden">
         <div className="max-h-64 overflow-y-auto border-b">
-          <h1 className="px-3 pt-3 text-lg font-semibold">Exam Trend Analysis</h1>
+          <h1 className="px-3 pt-3 font-serif text-lg font-semibold">Exam Trend Analysis</h1>
           <nav className="p-2">{nav}</nav>
         </div>
         <div className="p-4">{detail}</div>
@@ -304,7 +304,7 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
         <ResizablePanelGroup orientation="horizontal" className="h-full">
           <ResizablePanel defaultSize="27" minSize="20" maxSize="42">
             <div className="h-full overflow-y-auto border-r">
-              <h1 className="px-3 pt-3 text-sm font-semibold">Exam Trend Analysis</h1>
+              <h1 className="px-3 pt-3 font-serif text-sm font-semibold">Exam Trend Analysis</h1>
               <nav className="p-2">{nav}</nav>
             </div>
           </ResizablePanel>
@@ -337,7 +337,7 @@ function OverviewDetail({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-bold">Overview</h2>
+        <h2 className="font-serif text-xl font-bold">Overview</h2>
         <p className="mt-2 text-sm text-muted-foreground">
           Two complementary lenses: the official RCPsych syllabus weighting below (curriculum
           structure), and the &quot;Priority &amp; Recall Analysis&quot; branch in the nav (actual
@@ -434,7 +434,7 @@ function GoldenRulesDetail({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-bold">Priority &amp; Recall Analysis</h2>
+        <h2 className="font-serif text-xl font-bold">Priority &amp; Recall Analysis</h2>
         <p className="mt-2 text-sm text-muted-foreground">{priorityAnalysis.intro}</p>
       </div>
 
@@ -462,7 +462,7 @@ function PriorityDomainDetail({
       <div>
         <div className="flex items-center gap-2">
           <Badge>{domain.tier}</Badge>
-          <h2 className="text-xl font-bold">{domain.title}</h2>
+          <h2 className="font-serif text-xl font-bold">{domain.title}</h2>
         </div>
         <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
           <span>{domain.percentOfPaper} of paper</span>
@@ -537,7 +537,7 @@ function IndependentSummaryDetail({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-bold">Independent Corpus Analysis</h2>
+        <h2 className="font-serif text-xl font-bold">Independent Corpus Analysis</h2>
         <p className="mt-2 text-sm text-muted-foreground">{independentAnalysis.methodology}</p>
       </div>
 
@@ -581,7 +581,7 @@ function IndependentGroupDetail({
     <div className="space-y-6">
       <div>
         <p className="text-sm text-muted-foreground">Independent Corpus Analysis</p>
-        <h2 className="text-xl font-bold">{group.topic}</h2>
+        <h2 className="font-serif text-xl font-bold">{group.topic}</h2>
       </div>
       <CitedPointList points={group.points} onCite={onCite} />
     </div>
@@ -615,7 +615,7 @@ function TopicDetail({
 
       <div>
         <div className="flex items-center justify-between gap-4">
-          <h2 className="text-xl font-bold">
+          <h2 className="font-serif text-xl font-bold">
             <Link href={`/topics/${signal.topicId}`} className="hover:underline">
               {signal.topicTitle}
             </Link>

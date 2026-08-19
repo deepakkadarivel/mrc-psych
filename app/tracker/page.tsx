@@ -25,7 +25,7 @@ export default function TrackerPage() {
 
   return (
     <div className="mx-auto max-w-4xl space-y-6 p-4 sm:p-6">
-      <h1 className="text-2xl font-semibold">Performance tracker</h1>
+      <h1 className="font-serif text-xl font-semibold sm:text-2xl">Performance tracker</h1>
 
       {entries.length === 0 ? (
         <p className="text-muted-foreground">No quiz sessions logged yet — take a topic quiz to start tracking.</p>
@@ -41,7 +41,7 @@ export default function TrackerPage() {
               <ul className="list-disc pl-5 text-sm">
                 {weakTopics.map((w) => (
                   <li key={w.topic}>
-                    {w.topic} {w.attempts >= 3 && <span className="font-semibold text-red-600">🔴 Priority (3+ sessions)</span>}
+                    {w.topic} {w.attempts >= 3 && <span className="font-semibold text-[#B71C1C]">🔴 Priority (3+ sessions)</span>}
                   </li>
                 ))}
               </ul>
@@ -50,24 +50,26 @@ export default function TrackerPage() {
 
           <div>
             <h2 className="mb-2 font-medium">Session history</h2>
-            <Table>
+            <Table className="table-fixed">
               <TableHeader>
                 <TableRow>
-                  <TableHead>Date</TableHead>
+                  <TableHead className="w-20 sm:w-24">Date</TableHead>
                   <TableHead>Topic</TableHead>
-                  <TableHead>Score</TableHead>
-                  <TableHead>%</TableHead>
+                  <TableHead className="w-16 text-right">Score</TableHead>
+                  <TableHead className="w-14 text-right">%</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 {[...entries].reverse().map((e) => (
                   <TableRow key={e.id}>
-                    <TableCell>{new Date(e.date).toLocaleDateString()}</TableCell>
-                    <TableCell>{e.topic}</TableCell>
-                    <TableCell>
+                    <TableCell className="whitespace-normal text-xs sm:text-sm">
+                      {new Date(e.date).toLocaleDateString(undefined, { month: "short", day: "numeric" })}
+                    </TableCell>
+                    <TableCell className="whitespace-normal break-words">{e.topic}</TableCell>
+                    <TableCell className="text-right">
                       {e.score}/{e.total}
                     </TableCell>
-                    <TableCell>{Math.round((e.score / e.total) * 100)}%</TableCell>
+                    <TableCell className="text-right">{Math.round((e.score / e.total) * 100)}%</TableCell>
                   </TableRow>
                 ))}
               </TableBody>

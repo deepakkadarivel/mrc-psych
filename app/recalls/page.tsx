@@ -10,8 +10,8 @@ const RECALL_FILES = [
 
 export default function RecallsPage() {
   return (
-    <div className="mx-auto max-w-4xl p-6 space-y-4">
-      <h1 className="text-2xl font-semibold">Past paper recalls</h1>
+    <div className="mx-auto max-w-4xl p-4 sm:p-6 space-y-4">
+      <h1 className="font-serif text-xl font-semibold sm:text-2xl">Past paper recalls</h1>
       <p className="text-muted-foreground">
         These are free-form, student-compiled recall notes — a different format from the
         structured SPMM quiz exports (no consistent question/answer markers), so they aren&apos;t

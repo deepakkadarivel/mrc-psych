@@ -9,7 +9,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+  --font-serif: var(--font-source-serif-4);
+  --font-heading: var(--font-serif);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -48,39 +49,52 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+/* Design system palette — see plan (resilient-stirring-lovelace): a clinical chart/casebook
+   register, not a generic app theme. Dark mode is not wired up anywhere in this app (no
+   ThemeProvider ever sets `.dark`), so this is the one cohesive palette, not a light variant of
+   a light/dark pair. Named tokens, referenced directly by hex in components that need the exact
+   brand colors (citation badges, category tables, mnemonic/trap cards) rather than the generic
+   semantic slots below:
+     ink              #101826  body text, headings
+     chart-navy       #1B3A5C  brand anchor — section rules, primary actions, active nav
+     parchment        #FAF8F4  card/content surface (warm off-white, not flat white)
+     alert-red        #B71C1C  exam traps
+     recall-violet    #7D3C98  mnemonics
+     clinical-teal    #1F7A6C  success/correct/progress states
+     highlight-amber  #F2A93B  <mark> highlights, high-yield badges */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.16 0.015 235);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.16 0.015 235);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.16 0.015 235);
-  --primary: oklch(0.4 0.09 231);
-  --primary-foreground: oklch(0.985 0.005 235);
-  --secondary: oklch(0.96 0.008 235);
-  --secondary-foreground: oklch(0.32 0.07 231);
-  --muted: oklch(0.965 0.006 235);
-  --muted-foreground: oklch(0.5 0.02 235);
-  --accent: oklch(0.94 0.025 220);
-  --accent-foreground: oklch(0.32 0.07 231);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.912 0.008 235);
-  --input: oklch(0.912 0.008 235);
-  --ring: oklch(0.6 0.09 231);
+  --background: #ffffff;
+  --foreground: #101826;
+  --card: #ffffff;
+  --card-foreground: #101826;
+  --popover: #ffffff;
+  --popover-foreground: #101826;
+  --primary: #1b3a5c;
+  --primary-foreground: #faf8f4;
+  --secondary: #eef2f5;
+  --secondary-foreground: #1b3a5c;
+  --muted: #f3f1ec;
+  --muted-foreground: #5b6472;
+  --accent: #fdf1dc;
+  --accent-foreground: #1b3a5c;
+  --destructive: #b71c1c;
+  --border: #e4e1d9;
+  --input: #e4e1d9;
+  --ring: #1b3a5c;
   --chart-1: oklch(0.55 0.1 231);
   --chart-2: oklch(0.62 0.13 280);
   --chart-3: oklch(0.72 0.15 60);
   --chart-4: oklch(0.62 0.19 15);
   --chart-5: oklch(0.6 0.02 235);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0.004 235);
-  --sidebar-foreground: oklch(0.16 0.015 235);
-  --sidebar-primary: oklch(0.4 0.09 231);
-  --sidebar-primary-foreground: oklch(0.985 0.005 235);
-  --sidebar-accent: oklch(0.94 0.025 220);
-  --sidebar-accent-foreground: oklch(0.32 0.07 231);
-  --sidebar-border: oklch(0.912 0.008 235);
-  --sidebar-ring: oklch(0.6 0.09 231);
+  --radius: 0.5rem;
+  --sidebar: #fffefc;
+  --sidebar-foreground: #101826;
+  --sidebar-primary: #1b3a5c;
+  --sidebar-primary-foreground: #faf8f4;
+  --sidebar-accent: #fdf1dc;
+  --sidebar-accent-foreground: #1b3a5c;
+  --sidebar-border: #e4e1d9;
+  --sidebar-ring: #1b3a5c;
 }
 
 .dark {

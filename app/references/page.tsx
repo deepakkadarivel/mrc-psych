@@ -4,9 +4,9 @@ export default function ReferencesPage() {
   const files = getReferences();
 
   return (
-    <div className="mx-auto max-w-4xl p-6 space-y-8">
+    <div className="mx-auto max-w-4xl p-4 sm:p-6 space-y-8">
       <div className="space-y-2">
-        <h1 className="text-2xl font-semibold">References</h1>
+        <h1 className="font-serif text-xl font-semibold sm:text-2xl">References</h1>
         <p className="text-muted-foreground">
           External revision videos and links, not exam facts — see{" "}
           <code>resources/paper-b/references/</code>.

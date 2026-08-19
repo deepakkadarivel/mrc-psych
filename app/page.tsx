@@ -16,21 +16,25 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-4xl space-y-6 p-4 sm:p-6">
       <div>
-        <h1 className="text-2xl font-semibold">MRCPsych Paper B</h1>
-        <p className="text-muted-foreground">
+        <h1 className="font-serif text-xl font-semibold sm:text-2xl">MRCPsych Paper B</h1>
+        <p className="text-sm text-muted-foreground sm:text-base">
           {days} days until the exam ({manifest.examDate}). Every topic below is built
           from real SPMM source material — click through to notes with citations, or
           jump straight into a quiz.
         </p>
       </div>
 
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="grid gap-2 sm:grid-cols-2 sm:gap-3">
         {manifest.topics.map((topic) => {
           const noteCount = getTopicNotes(topic.id).length;
           const questions = getTopicQuestions(topic.id);
           const ready = noteCount > 0 || questions.length > 0;
           return (
-            <Card key={topic.id} className="relative h-full transition-colors hover:border-foreground/30">
+            <Card
+              key={topic.id}
+              size="sm"
+              className="relative h-full transition-colors hover:border-foreground/30"
+            >
               <Link href={`/topics/${topic.id}`} className="absolute inset-0 z-10" aria-label={topic.title} />
               <CardHeader>
                 <CardTitle className="flex items-center justify-between text-base">
@@ -40,7 +44,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground">
                 {noteCount} note blocks · {questions.length} questions
-                {topic.gap && <p className="mt-1 text-amber-600">Gap: {topic.gap}</p>}
+                {topic.gap && <p className="mt-1 text-[#9C3E5C]">Gap: {topic.gap}</p>}
                 {questions.length > 0 && (
                   <QuizStatusCard
                     quizId={topic.id}

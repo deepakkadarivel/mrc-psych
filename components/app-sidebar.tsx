@@ -11,6 +11,7 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { StatMcqNav } from "@/components/stat-mcq-nav";
+import { TopicSidebarSearch } from "@/components/topic-sidebar-search";
 import { getManifest, getStatMcqTopics } from "@/lib/content";
 
 export function AppSidebar() {
@@ -22,39 +23,12 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <Link href="/" className="px-2 py-1.5 text-sm font-semibold">
+        <Link href="/" className="px-2 py-1.5 font-serif text-base font-semibold text-sidebar-primary">
           MRCPsych Paper B
         </Link>
       </SidebarHeader>
       <SidebarContent>
-        <SidebarGroup>
-          <SidebarGroupLabel>Clinical topics</SidebarGroupLabel>
-          <SidebarGroupContent>
-            <SidebarMenu>
-              {clinical.map((topic) => (
-                <SidebarMenuItem key={topic.id}>
-                  <SidebarMenuButton render={<Link href={`/topics/${topic.id}`} />}>
-                    {topic.title}
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
-        <SidebarGroup>
-          <SidebarGroupLabel>Research &amp; statistics</SidebarGroupLabel>
-          <SidebarGroupContent>
-            <SidebarMenu>
-              {researchAndStats.map((topic) => (
-                <SidebarMenuItem key={topic.id}>
-                  <SidebarMenuButton render={<Link href={`/topics/${topic.id}`} />}>
-                    {topic.title}
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
+        <TopicSidebarSearch clinical={clinical} researchAndStats={researchAndStats} />
         <SidebarGroup>
           <SidebarGroupLabel>Exam Trends</SidebarGroupLabel>
           <SidebarGroupContent>

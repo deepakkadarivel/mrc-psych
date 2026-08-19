@@ -61,14 +61,21 @@ export function TopicView({
   }
 
   return (
-    <div>
+    <div className={studyGuide ? "pb-16 md:pb-0" : undefined}>
       {titleSlot &&
         createPortal(
           <>
-            <h1 className="min-w-0 shrink truncate text-lg font-semibold">{topic.title}</h1>
+            <h1 className="min-w-0 shrink truncate font-serif text-base font-semibold text-primary md:text-lg">
+              {topic.title}
+            </h1>
             <div className="flex min-w-0 items-center gap-2">
+              {/* Hidden below md: the icon tab row (plus its jump-to-section select and download
+                  button, portaled here by StudyGuideView) moves to the mobile bottom "chart tabs"
+                  bar + its More sheet instead — see study-guide-view.tsx. Kept as one anchor
+                  (rather than two render paths) so StudyGuideView doesn't need to know about the
+                  breakpoint itself. */}
               {studyGuide && (
-                <div id="topic-tabs-anchor" className="flex min-w-0 items-center overflow-x-auto" />
+                <div id="topic-tabs-anchor" className="hidden min-w-0 items-center overflow-x-auto md:flex" />
               )}
               <Tooltip>
                 <TooltipTrigger
@@ -92,10 +99,10 @@ export function TopicView({
         )}
 
       {topic.gap && (
-        <Alert className="m-4 border-l-4 border-l-rose-500 bg-rose-50/60 dark:bg-rose-950/30">
-          <AlertTriangle className="text-rose-600 dark:text-rose-400" />
-          <AlertTitle className="text-rose-950 dark:text-rose-100">Gap flagged</AlertTitle>
-          <AlertDescription className="text-rose-800 dark:text-rose-300">{topic.gap}</AlertDescription>
+        <Alert className="m-4 border-l-4 border-l-[#C2607D] bg-[#FBEEF1]">
+          <AlertTriangle className="text-[#9C3E5C]" />
+          <AlertTitle className="text-[#7A2F45]">Gap flagged</AlertTitle>
+          <AlertDescription className="text-[#7A2F45]">{topic.gap}</AlertDescription>
         </Alert>
       )}
 

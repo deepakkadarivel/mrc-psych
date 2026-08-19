@@ -1,25 +1,29 @@
 import type { CategoryColor } from "@/lib/types";
 
-// Literal hex values extracted directly from the reference PDFs
-// (resources/paper-b/study-format-design-reference/), not Tailwind's stock palette — chosen for
-// visual fidelity to the actual reference design, not app-theme consistency. Deliberately
-// theme-invariant (no dark: variants) since the study content always renders on a fixed light
-// "paper" background regardless of the app's light/dark theme — see CLAUDE.md.
+// Retuned onto this app's own "clinical chart" palette (see app/globals.css's design-system
+// comment) rather than the original reference-PDF-extracted hexes — the user explicitly brought
+// the study content's visual identity into scope for the mobile-first redesign, superseding the
+// earlier "match the reference exactly" constraint. `teal` is now the same clinical-teal used
+// for success/progress states elsewhere in the app (one teal, not two near-identical ones); row
+// tints are warmed toward the app's parchment undertone instead of cool computed pastels; `red`
+// and `purple` were already exactly this app's alert-red/recall-violet, unchanged. Still
+// deliberately theme-invariant (no dark: variants) — dark mode isn't wired up anywhere in this
+// app, so there's one cohesive palette to maintain, not a light/dark pair.
 export const CATEGORY_COLOR_CLASSES: Record<
   CategoryColor,
   { header: string; rowTint: string; border: string; text: string }
 > = {
   teal: {
-    header: "bg-[#1F7A7A] text-white",
-    rowTint: "bg-[#E3F3F1]",
-    border: "border-[#1F7A7A]",
-    text: "text-[#1F7A7A]",
+    header: "bg-[#1F7A6C] text-white",
+    rowTint: "bg-[#E9F3F0]",
+    border: "border-[#1F7A6C]",
+    text: "text-[#1F7A6C]",
   },
   orange: {
-    header: "bg-[#D35400] text-white",
-    rowTint: "bg-[#FDECDC]",
-    border: "border-[#D35400]",
-    text: "text-[#D35400]",
+    header: "bg-[#C9600A] text-white",
+    rowTint: "bg-[#FBEADA]",
+    border: "border-[#C9600A]",
+    text: "text-[#C9600A]",
   },
   red: {
     header: "bg-[#B71C1C] text-white",
@@ -28,16 +32,16 @@ export const CATEGORY_COLOR_CLASSES: Record<
     text: "text-[#B71C1C]",
   },
   gray: {
-    header: "bg-[#595959] text-white",
-    rowTint: "bg-[#F1F1F1]",
-    border: "border-[#9E9E9E]",
-    text: "text-[#595959]",
+    header: "bg-[#5B6472] text-white",
+    rowTint: "bg-[#F3F1EC]",
+    border: "border-[#9A9587]",
+    text: "text-[#5B6472]",
   },
   blue: {
-    header: "bg-[#2E75B6] text-white",
-    rowTint: "bg-[#E7F0F9]",
-    border: "border-[#2E75B6]",
-    text: "text-[#2E75B6]",
+    header: "bg-[#2E6FA8] text-white",
+    rowTint: "bg-[#E9F0F6]",
+    border: "border-[#2E6FA8]",
+    text: "text-[#2E6FA8]",
   },
   purple: {
     header: "bg-[#7D3C98] text-white",
@@ -48,7 +52,7 @@ export const CATEGORY_COLOR_CLASSES: Record<
 };
 
 // Every table in the reference has a colored header — there's no neutral/plain table. Tables
-// without an explicit category fall back to this navy, matching the reference's own default.
+// without an explicit category fall back to this navy (this app's chart-navy brand anchor).
 export const DEFAULT_TABLE_COLORS = {
   header: "bg-[#1B3A5C] text-white",
   rowTint: "bg-[#EAF0F5]",
@@ -56,9 +60,9 @@ export const DEFAULT_TABLE_COLORS = {
   text: "text-[#1B3A5C]",
 };
 
-// Comparison ("X vs Y") tables reuse the gray family — matches the reference exactly.
+// Comparison ("X vs Y") tables reuse the gray family.
 export const COMPARISON_TABLE_COLORS = CATEGORY_COLOR_CLASSES.gray;
 
 export const DOC_NAVY = "#1B3A5C";
-export const DOC_BODY_TEXT = "#1A1A1A";
-export const DOC_BORDER = "#D9D9D9";
+export const DOC_BODY_TEXT = "#101826";
+export const DOC_BORDER = "#E4E1D9";

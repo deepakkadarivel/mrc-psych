@@ -72,7 +72,7 @@ function QuizReview({
     <div className="h-full overflow-y-auto">
       <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-4 pb-3 sm:p-6 sm:pb-3">
         <div className="flex items-center justify-between">
-          <h1 className="text-lg font-semibold">Review — {topicTitle}</h1>
+          <h1 className="font-serif text-lg font-semibold">Review — {topicTitle}</h1>
           <Button variant="outline" size="sm" onClick={onExit}>
             Back to summary
           </Button>
@@ -97,7 +97,7 @@ function QuizReview({
                 className={cn(
                   "flex size-8 shrink-0 items-center justify-center rounded-md border text-xs font-medium text-white sm:size-7",
                   i === index && "ring-2 ring-primary ring-offset-1",
-                  qCorrect ? "border-green-600 bg-green-600" : "border-red-600 bg-red-600"
+                  qCorrect ? "border-[#1F7A6C] bg-[#1F7A6C]" : "border-[#B71C1C] bg-[#B71C1C]"
                 )}
               >
                 {i + 1}
@@ -120,16 +120,16 @@ function QuizReview({
                   key={opt}
                   className={cn(
                     "rounded-md border p-2 text-sm",
-                    isCorrectOpt && "border-green-600 bg-green-50 text-green-900",
-                    !isCorrectOpt && isSelected && "border-red-600 bg-red-50 text-red-900"
+                    isCorrectOpt && "border-[#1F7A6C] bg-[#E9F3F0] text-[#123D35]",
+                    !isCorrectOpt && isSelected && "border-[#B71C1C] bg-[#FBE3E1] text-[#7B241C]"
                   )}
                 >
                   {opt}
                   {isCorrectOpt && (
-                    <span className="ml-2 text-xs font-medium text-green-700">(correct answer)</span>
+                    <span className="ml-2 text-xs font-medium text-[#1F7A6C]">(correct answer)</span>
                   )}
                   {!isCorrectOpt && isSelected && (
-                    <span className="ml-2 text-xs font-medium text-red-700">(your answer)</span>
+                    <span className="ml-2 text-xs font-medium text-[#B71C1C]">(your answer)</span>
                   )}
                 </div>
               );
@@ -272,7 +272,7 @@ export function QuizView({
     }
     return (
       <div className="mx-auto max-w-lg space-y-4 p-4 text-center sm:p-6">
-        <h1 className="text-2xl font-semibold">Done</h1>
+        <h1 className="font-serif text-2xl font-semibold">Done</h1>
         <p className="text-lg">
           {finalScore} / {questions.length} correct
         </p>
@@ -318,8 +318,8 @@ export function QuizView({
                   i === progress.index && "ring-2 ring-primary",
                   evaluated
                     ? correct
-                      ? "border-green-600 bg-green-600 text-white"
-                      : "border-red-600 bg-red-600 text-white"
+                      ? "border-[#1F7A6C] bg-[#1F7A6C] text-white"
+                      : "border-[#B71C1C] bg-[#B71C1C] text-white"
                     : answered
                       ? "bg-muted"
                       : "text-muted-foreground"

@@ -33,10 +33,10 @@ function AttemptRow({ attempt, questions }: { attempt: QuizStatus["attempts"][nu
         <div className="space-y-3 border-t p-3">
           {wrong.length > 0 && (
             <div className="space-y-1">
-              <p className="text-xs font-medium text-red-700">Incorrect ({wrong.length})</p>
+              <p className="text-xs font-medium text-[#B71C1C]">Incorrect ({wrong.length})</p>
               {wrong.map((q) => (
                 <div key={q.id} className="flex items-start gap-2 text-xs">
-                  <XIcon className="mt-0.5 size-3 shrink-0 text-red-600" />
+                  <XIcon className="mt-0.5 size-3 shrink-0 text-[#B71C1C]" />
                   <span>{q.stem}</span>
                 </div>
               ))}
@@ -45,7 +45,7 @@ function AttemptRow({ attempt, questions }: { attempt: QuizStatus["attempts"][nu
           {correct.length > 0 && (
             <div className="space-y-1">
               <button
-                className="text-xs font-medium text-green-700 underline-offset-2 hover:underline"
+                className="text-xs font-medium text-[#1F7A6C] underline-offset-2 hover:underline"
                 onClick={() => setShowCorrect((v) => !v)}
               >
                 {showCorrect ? "Hide" : "Show"} correct ({correct.length})
@@ -53,7 +53,7 @@ function AttemptRow({ attempt, questions }: { attempt: QuizStatus["attempts"][nu
               {showCorrect &&
                 correct.map((q) => (
                   <div key={q.id} className="flex items-start gap-2 text-xs">
-                    <CheckIcon className="mt-0.5 size-3 shrink-0 text-green-600" />
+                    <CheckIcon className="mt-0.5 size-3 shrink-0 text-[#1F7A6C]" />
                     <span className="text-muted-foreground">{q.stem}</span>
                   </div>
                 ))}

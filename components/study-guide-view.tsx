@@ -11,6 +11,7 @@ import {
   Image as ImageIcon,
   Lightbulb,
   ListChecks,
+  MoreHorizontal,
   NotebookText,
   Table2,
   Zap,
@@ -18,6 +19,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
+import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
@@ -54,7 +56,7 @@ type Cite = (source: Source) => void;
 // as emphasis, not just a font-weight change on the same black text.
 function Paper({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mx-auto max-w-[880px] bg-white px-5 py-8 text-[16px] text-[#1A1A1A] md:px-10 md:py-10 [&_em]:font-medium [&_em]:text-[#4A5568] [&_strong]:font-extrabold [&_strong]:text-[#1B3A5C]">
+    <div className="mx-auto max-w-[880px] bg-[#FAF8F4] px-4 py-6 text-[15px] leading-[1.65] text-[#101826] md:px-10 md:py-10 md:text-[16px] md:leading-[1.7] [&_em]:font-medium [&_em]:text-[#5B6472] [&_strong]:font-extrabold [&_strong]:text-[#1B3A5C]">
       {children}
     </div>
   );
@@ -68,7 +70,7 @@ function SectionHeading({ section }: { section: Section }) {
   return (
     <div className="flex items-center gap-2.5 border-b-2 border-[#1B3A5C] pb-2">
       <BookOpenText className="size-5 shrink-0 text-[#1B3A5C]" />
-      <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
+      <h2 className="font-serif text-lg font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
     </div>
   );
 }
@@ -153,7 +155,7 @@ function ParagraphBlockView({ block, onCite }: { block: ParagraphBlock; onCite: 
 const TABLE_HEAD_CLASS =
   "h-auto whitespace-normal break-words px-3 py-2.5 align-top text-[13px] font-bold text-white md:text-[14px]";
 const TABLE_CELL_CLASS =
-  "whitespace-normal break-words px-3 py-2.5 align-top text-[14px] leading-6 text-[#1A1A1A] md:text-[15px]";
+  "whitespace-normal break-words px-3 py-2.5 align-top text-[14px] leading-6 text-[#101826] md:text-[15px]";
 
 function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) {
   const colors = block.category ? CATEGORY_COLOR_CLASSES[block.category.color] : DEFAULT_TABLE_COLORS;
@@ -165,12 +167,12 @@ function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) 
             {block.category.label}
           </span>
         )}
-        {block.title && <h3 className="text-base font-semibold text-[#1A1A1A]">{block.title}</h3>}
+        {block.title && <h3 className="text-base font-semibold text-[#101826]">{block.title}</h3>}
         {block.highYield && (
-          <Badge className="border-transparent bg-amber-500 text-white">High-yield</Badge>
+          <Badge className="border-transparent bg-[#F2A93B] text-white">High-yield</Badge>
         )}
       </div>
-      <div className={`mt-2 overflow-hidden rounded-xl border shadow-sm ${colors.border}`}>
+      <div className={`mt-2 overflow-hidden rounded-lg border shadow-sm ${colors.border}`}>
         <div className="overflow-x-auto">
           <Table className="table-fixed">
             <TableHeader>
@@ -184,7 +186,7 @@ function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) 
             </TableHeader>
             <TableBody>
               {block.rows.map((row, ri) => (
-                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-white"}>
+                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-[#FAF8F4]"}>
                   {row.map((cell, ci) => (
                     <TableCell key={ci} className={TABLE_CELL_CLASS}>
                       <RichText text={cell} />
@@ -196,7 +198,7 @@ function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) 
           </Table>
         </div>
         {block.sources.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5 border-t border-[#D9D9D9] bg-[#FAFAFA] px-3 py-2">
+          <div className="flex flex-wrap items-center gap-1.5 border-t border-[#E4E1D9] bg-[#F3F1EC] px-3 py-2">
             {block.sources.map((s, si) => (
               <CitationBadge key={si} source={s} onClick={onCite} />
             ))}
@@ -212,7 +214,7 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
   return (
     <div>
       <h3 className={`text-sm font-bold uppercase tracking-wide ${colors.text}`}>{block.title}</h3>
-      <div className={`mt-2 overflow-hidden rounded-xl border shadow-sm ${colors.border}`}>
+      <div className={`mt-2 overflow-hidden rounded-lg border shadow-sm ${colors.border}`}>
         <div className="overflow-x-auto">
           <Table className="table-fixed">
             <TableHeader>
@@ -226,7 +228,7 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
             </TableHeader>
             <TableBody>
               {block.rows.map((row, ri) => (
-                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-white"}>
+                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-[#FAF8F4]"}>
                   {row.map((cell, ci) => (
                     <TableCell key={ci} className={TABLE_CELL_CLASS}>
                       <RichText text={cell} />
@@ -238,7 +240,7 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
           </Table>
         </div>
         {block.sources.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5 border-t border-[#D9D9D9] bg-[#FAFAFA] px-3 py-2">
+          <div className="flex flex-wrap items-center gap-1.5 border-t border-[#E4E1D9] bg-[#F3F1EC] px-3 py-2">
             {block.sources.map((s, si) => (
               <CitationBadge key={si} source={s} onClick={onCite} />
             ))}
@@ -251,7 +253,7 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
 
 function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Cite }) {
   return (
-    <div className="overflow-hidden rounded-xl border border-[#7D3C98] shadow-sm">
+    <div className="overflow-hidden rounded-lg border border-[#7D3C98] shadow-sm">
       <div className="flex flex-wrap items-center justify-between gap-2 bg-[#7D3C98] px-4 py-2.5">
         <span className="flex items-center gap-2 text-base font-bold text-white">
           <Lightbulb className="size-4 shrink-0" />
@@ -271,7 +273,7 @@ function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Ci
         <p className="text-[13px] font-bold tracking-wide text-[#7D3C98] uppercase">For: {block.forTopic}</p>
         <ul className="mt-2 space-y-1.5">
           {block.expansion.map((e, ei) => (
-            <li key={ei} className="text-[15px] leading-7 text-[#1A1A1A] md:text-[16px]">
+            <li key={ei} className="text-[15px] leading-7 text-[#101826] md:text-[16px]">
               <span className="font-bold text-[#7D3C98]">–</span> <RichText text={e} />
             </li>
           ))}
@@ -283,7 +285,7 @@ function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Ci
 
 function TrapBlockView({ block, onCite }: { block: TrapBlock; onCite: Cite }) {
   return (
-    <div className="overflow-hidden rounded-xl border-2 border-[#B71C1C] shadow-sm">
+    <div className="overflow-hidden rounded-lg border-2 border-[#B71C1C] shadow-sm">
       <div className="flex items-center gap-2 bg-[#B71C1C] px-4 py-2.5">
         <AlertTriangle className="size-4 shrink-0 text-white" />
         <span className="text-sm font-bold tracking-wide text-white">EXAM TRAP</span>
@@ -298,7 +300,7 @@ function TrapBlockView({ block, onCite }: { block: TrapBlock; onCite: Cite }) {
         <CitationBadge
           source={block.source}
           onClick={onCite}
-          className="border-[#B71C1C]/30 bg-white text-[#7B241C] hover:bg-[#FBE3E1]"
+          className="border-[#B71C1C]/30 bg-[#FAF8F4] text-[#7B241C] hover:bg-[#FBE3E1]"
         />
       </div>
     </div>
@@ -319,7 +321,7 @@ function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Ci
         {block.items.map((item, i) => (
           <li key={i} className="flex items-start gap-2.5">
             <span className="mt-2.5 size-1.5 shrink-0 rounded-full bg-[#C0392B]" />
-            <span className="flex-1 text-[15px] leading-7 text-[#1A1A1A] md:text-[16px]">
+            <span className="flex-1 text-[15px] leading-7 text-[#101826] md:text-[16px]">
               <RichText text={item.text} />{" "}
               <CitationBadge source={item.source} onClick={onCite} className="align-middle" />
             </span>
@@ -332,17 +334,17 @@ function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Ci
 
 function ImageBlockView({ block, onCite }: { block: ImageBlock; onCite: Cite }) {
   return (
-    <div className="overflow-hidden rounded-xl border border-[#1B3A5C]/30 shadow-sm">
+    <div className="overflow-hidden rounded-lg border border-[#1B3A5C]/30 shadow-sm">
       <div className="flex items-center gap-2 bg-[#1B3A5C] px-4 py-2.5">
         <ImageIcon className="size-4 shrink-0 text-white" />
         <span className="text-sm font-bold text-white">Figure</span>
       </div>
-      <div className="bg-white p-3">
+      <div className="bg-[#FAF8F4] p-3">
         {/* eslint-disable-next-line @next/next/no-img-element -- static export, images.unoptimized */}
         <img src={block.src} alt={block.caption} className="mx-auto max-w-full" />
       </div>
       <div className="flex items-center justify-between gap-3 border-t border-[#1B3A5C]/15 bg-[#F5F7FA] px-4 py-2">
-        <p className="text-[13px] leading-5 text-[#1A1A1A]/80 md:text-[14px]">{block.caption}</p>
+        <p className="text-[13px] leading-5 text-[#101826]/80 md:text-[14px]">{block.caption}</p>
         <CitationBadge source={block.source} onClick={onCite} className="shrink-0" />
       </div>
     </div>
@@ -351,13 +353,13 @@ function ImageBlockView({ block, onCite }: { block: ImageBlock; onCite: Cite }) 
 
 function GapBlockView({ block, onCite }: { block: GapBlock; onCite: Cite }) {
   return (
-    <div className="overflow-hidden rounded-xl border border-rose-300 shadow-sm">
-      <div className="flex items-center gap-2 bg-rose-600 px-4 py-2.5">
+    <div className="overflow-hidden rounded-lg border border-[#C2607D] shadow-sm">
+      <div className="flex items-center gap-2 bg-[#9C3E5C] px-4 py-2.5">
         <HelpCircle className="size-4 shrink-0 text-white" />
         <span className="text-sm font-bold text-white">{block.subtopic}</span>
       </div>
-      <div className="bg-rose-50 px-4 py-3.5">
-        <p className="text-[15px] leading-7 text-rose-900 md:text-[16px]">
+      <div className="bg-[#FBEEF1] px-4 py-3.5">
+        <p className="text-[15px] leading-7 text-[#7A2F45] md:text-[16px]">
           <RichText text={block.note} />
           {block.source && (
             <>
@@ -463,7 +465,7 @@ function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
         const paragraphs = section.blocks.filter((b): b is ParagraphBlock => b.type === "paragraph");
         return (
           <>
-            <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
+            <h2 className="font-serif text-lg font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
             <ul className="mt-4 space-y-4">
               {paragraphs.map((b, i) => (
                 <ParagraphBlockView key={i} block={b} onCite={onCite} />
@@ -487,7 +489,7 @@ function ConciseBulletView({ bullet, index, onCite }: { bullet: ConciseBullet; i
       <span className="mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-[#1B3A5C] text-[11px] font-bold text-white">
         {index + 1}
       </span>
-      <p className="flex-1 text-[16px] font-medium leading-7 text-[#1A1A1A] md:text-[17px] md:leading-8">
+      <p className="flex-1 text-[16px] font-medium leading-7 text-[#101826] md:text-[17px] md:leading-8">
         <RichText text={bullet.text} />{" "}
         <CitationBadge source={bullet.source} onClick={onCite} className="align-middle" />
       </p>
@@ -503,10 +505,10 @@ function ConciseBulletView({ bullet, index, onCite }: { bullet: ConciseBullet; i
 // rather than something auto-detected from bullet text.
 function ConciseFactList({ facts, onCite }: { facts: ConciseFact[]; onCite: Cite }) {
   return (
-    <dl className="divide-y divide-[#D9D9D9] rounded-md border border-[#D9D9D9]">
+    <dl className="divide-y divide-[#E4E1D9] rounded-md border border-[#E4E1D9]">
       {facts.map((fact, i) => (
         <div key={i} className="flex items-baseline justify-between gap-4 px-3 py-2">
-          <dt className="text-[15px] text-[#4A5568]">{fact.label}</dt>
+          <dt className="text-[15px] text-[#5B6472]">{fact.label}</dt>
           <dd className="flex items-baseline gap-1.5 text-right text-[16px] font-semibold text-[#1B3A5C]">
             <RichText text={fact.value} />
             <CitationBadge source={fact.source} onClick={onCite} className="align-middle" />
@@ -548,7 +550,7 @@ function ConciseTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) 
         const concise = section.concise!;
         return (
           <>
-            <h2 className="text-xl font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
+            <h2 className="font-serif text-lg font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
             {(concise.facts ?? []).length > 0 && (
               <div className="mt-4">
                 <ConciseFactList facts={concise.facts!} onCite={onCite} />
@@ -740,6 +742,231 @@ function DownloadTabButton({
   );
 }
 
+// The "chart tabs" bottom bar — mobile's replacement for the icon tab row that lives in the
+// header on md+ (see topic-view.tsx's `#topic-tabs-anchor`, hidden below md). Styled after a
+// patient chart's colored index-tab dividers: a color flag along the top edge of each tab,
+// matching the accent that section already carries elsewhere (chart-navy/clinical-teal/amber).
+// Rendered as a SIBLING of <Tabs> in StudyGuideView's return, never inside a TabsContent — Base
+// UI's Tabs.Panel wraps its content in an animated/transformed element, which breaks
+// position:fixed/sticky descendants the same way it broke a plain sticky nav once before (see
+// the Notes-tab history above). `color` is genuinely per-instance, not expressible as a static
+// Tailwind class, hence the inline style here rather than a class name.
+function ChartTab({
+  active,
+  color,
+  icon,
+  label,
+  onClick,
+}: {
+  active: boolean;
+  color: string;
+  icon: React.ReactNode;
+  label: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-current={active}
+      className="relative flex flex-1 flex-col items-center gap-1 py-2.5 text-[11px] font-medium text-muted-foreground"
+      style={{ color: active ? color : undefined }}
+    >
+      <span
+        className="absolute inset-x-3 top-0 h-1 rounded-b-full"
+        style={{ backgroundColor: color, opacity: active ? 1 : 0 }}
+      />
+      {icon}
+      {label}
+    </button>
+  );
+}
+
+function BottomTabBar({
+  tab,
+  onSelect,
+  hasQuiz,
+  moreActive,
+  onMore,
+}: {
+  tab: string;
+  onSelect: (v: string) => void;
+  hasQuiz: boolean;
+  moreActive: boolean;
+  onMore: () => void;
+}) {
+  return (
+    <nav
+      aria-label="Study guide sections"
+      className="fixed inset-x-0 bottom-0 z-40 flex border-t border-[#E4E1D9] bg-white pb-[env(safe-area-inset-bottom)] md:hidden"
+    >
+      <ChartTab
+        active={tab === "full"}
+        color="#1B3A5C"
+        icon={<BookOpenText className="size-5" />}
+        label="Full Guide"
+        onClick={() => onSelect("full")}
+      />
+      <ChartTab
+        active={tab === "concise"}
+        color="#1F7A6C"
+        icon={<ListChecks className="size-5" />}
+        label="Concise"
+        onClick={() => onSelect("concise")}
+      />
+      {hasQuiz && (
+        <ChartTab
+          active={tab === "quiz"}
+          color="#F2A93B"
+          icon={<GraduationCap className="size-5" />}
+          label="Quiz"
+          onClick={() => onSelect("quiz")}
+        />
+      )}
+      <ChartTab
+        active={moreActive}
+        color="#5B6472"
+        icon={<MoreHorizontal className="size-5" />}
+        label="More"
+        onClick={onMore}
+      />
+    </nav>
+  );
+}
+
+function MoreRow({
+  icon,
+  label,
+  active,
+  onClick,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn(
+        "flex items-center gap-3 rounded-md px-3 py-2.5 text-left text-sm font-medium",
+        active ? "bg-muted text-foreground" : "text-foreground/80 hover:bg-muted"
+      )}
+    >
+      <span className="text-muted-foreground">{icon}</span>
+      {label}
+    </button>
+  );
+}
+
+// Mobile's home for everything that doesn't fit the 4-slot bottom bar: the remaining tabs
+// (Notes/Tables/Mnemonics/Traps/Gaps), the download-this-tab action, and — only on Full Guide —
+// a clickable section list. That last one intentionally isn't the same `<select>` the desktop
+// header uses (see the header portal above): once there's a full-height sheet with room for a
+// real list, a row of buttons matching this sheet's own list style reads more consistently than
+// nesting a native dropdown inside it. The desktop `<select>` stays as-is — it already works and
+// only ever renders at md+.
+function MoreSheet({
+  open,
+  onOpenChange,
+  guide,
+  tab,
+  onSelectTab,
+  counts,
+  onDownload,
+}: {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+  guide: StudyGuide;
+  tab: string;
+  onSelectTab: (v: string) => void;
+  counts: { tableCount: number; mnemonicCount: number; trapCount: number; gapCount: number };
+  onDownload: () => void;
+}) {
+  function selectAndClose(v: string) {
+    onSelectTab(v);
+    onOpenChange(false);
+  }
+
+  return (
+    <Sheet open={open} onOpenChange={onOpenChange}>
+      <SheetContent side="bottom" className="max-h-[80vh] gap-0 overflow-y-auto rounded-t-2xl">
+        <SheetTitle className="px-4 pt-4 font-serif text-base">More views</SheetTitle>
+        <div className="flex flex-col gap-0.5 p-2">
+          <MoreRow
+            icon={<NotebookText className="size-4" />}
+            label="Notes"
+            active={tab === "notes"}
+            onClick={() => selectAndClose("notes")}
+          />
+          <MoreRow
+            icon={<Table2 className="size-4" />}
+            label={`Tables (${counts.tableCount})`}
+            active={tab === "tables"}
+            onClick={() => selectAndClose("tables")}
+          />
+          <MoreRow
+            icon={<Lightbulb className="size-4" />}
+            label={`Mnemonics (${counts.mnemonicCount})`}
+            active={tab === "mnemonics"}
+            onClick={() => selectAndClose("mnemonics")}
+          />
+          <MoreRow
+            icon={<AlertTriangle className="size-4" />}
+            label={`Traps (${counts.trapCount})`}
+            active={tab === "traps"}
+            onClick={() => selectAndClose("traps")}
+          />
+          <MoreRow
+            icon={<HelpCircle className="size-4" />}
+            label={`Gaps (${counts.gapCount})`}
+            active={tab === "gaps"}
+            onClick={() => selectAndClose("gaps")}
+          />
+        </div>
+
+        {tab === "full" && guide.sections.length > 0 && (
+          <>
+            <p className="border-t px-4 py-2 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
+              Jump to section
+            </p>
+            <div className="flex flex-col gap-0.5 px-2 pb-2" data-testid="jump-section-list">
+              {guide.sections.map((s) => (
+                <button
+                  key={s.id}
+                  type="button"
+                  className="rounded-md px-3 py-2 text-left text-sm hover:bg-muted"
+                  onClick={() => {
+                    onOpenChange(false);
+                    document.getElementById(s.id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+                  }}
+                >
+                  {s.title}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+
+        <div className="border-t p-2">
+          <Button
+            variant="outline"
+            className="w-full justify-start gap-2"
+            onClick={() => {
+              onDownload();
+              onOpenChange(false);
+            }}
+          >
+            <Download className="size-4" />
+            Download {TAB_LABELS[tab as (typeof TAB_VALUES)[number]] ?? "Full Guide"} JSON
+          </Button>
+        </div>
+      </SheetContent>
+    </Sheet>
+  );
+}
+
 export function StudyGuideView({
   guide,
   onCite,
@@ -768,8 +995,15 @@ export function StudyGuideView({
   // on that same tab instead of always resetting to Full Guide — see hooks/use-tab-param.ts.
   const validTabs = TAB_VALUES.filter((v) => v !== "quiz" || questions.length > 0);
   const [tab, setTab] = useTabParam(validTabs, "full");
+  const [moreOpen, setMoreOpen] = useState(false);
+
+  // The bottom bar's own tabs (full/concise/quiz) — everything else (notes/tables/mnemonics/
+  // traps/gaps) lives behind "More" and counts as that tab being "active" for the bar's own
+  // highlight state.
+  const moreTabs = ["notes", "tables", "mnemonics", "traps", "gaps"];
 
   return (
+    <>
     <Tabs value={tab} onValueChange={setTab} className="w-full">
       {tabsAnchorSlot &&
         createPortal(
@@ -865,7 +1099,7 @@ export function StudyGuideView({
                 .filter((b): b is TableBlock | ComparisonBlock => b.type === "table" || b.type === "comparison")
                 .map((block, i) => (
                   <div key={`${section.id}-${i}`}>
-                    <p className="text-xs font-bold tracking-wide text-[#6B7280] uppercase">
+                    <p className="text-xs font-bold tracking-wide text-[#5B6472] uppercase">
                       {section.title}
                     </p>
                     <div className="mt-1.5">
@@ -930,5 +1164,23 @@ export function StudyGuideView({
         )}
       </TabsContent>
     </Tabs>
+
+    <BottomTabBar
+      tab={tab}
+      onSelect={setTab}
+      hasQuiz={questions.length > 0}
+      moreActive={moreTabs.includes(tab)}
+      onMore={() => setMoreOpen(true)}
+    />
+    <MoreSheet
+      open={moreOpen}
+      onOpenChange={setMoreOpen}
+      guide={guide}
+      tab={tab}
+      onSelectTab={setTab}
+      counts={{ tableCount, mnemonicCount, trapCount, gapCount }}
+      onDownload={() => downloadJson(`${topicId}-${tab}.json`, buildTabExport(tab, guide, questions))}
+    />
+    </>
   );
 }
