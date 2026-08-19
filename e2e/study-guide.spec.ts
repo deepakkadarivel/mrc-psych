@@ -60,7 +60,12 @@ for (const topic of TOPICS) {
       await page.goto(`/topics/${topic}`);
 
       await switchToTab(page, "Tables");
-      await expect(page.locator('[data-slot="table-container"]').first()).toBeVisible();
+      // Below sm, tables render as stacked cards (data-testid="table-mobile-view") instead of the
+      // real <table> (data-slot="table-container") — see DataTableGrid in study-guide-view.tsx.
+      const tableLocator = isMobileNav(page)
+        ? page.getByTestId("table-mobile-view")
+        : page.locator('[data-slot="table-container"]');
+      await expect(tableLocator.first()).toBeVisible();
 
       await switchToTab(page, "Traps");
       await expect(page.getByText("EXAM TRAP").first()).toBeVisible();

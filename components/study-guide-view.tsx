@@ -157,6 +157,80 @@ const TABLE_HEAD_CLASS =
 const TABLE_CELL_CLASS =
   "whitespace-normal break-words px-3 py-2.5 align-top text-[14px] leading-6 text-[#101826] md:text-[15px]";
 
+// Below `sm` (640px), a table-fixed grid forces every column to the same cramped width
+// regardless of content — fine for 2 short columns, unreadable for 3-4. Below `sm` this renders
+// each row as its own stacked card instead: a 2-column table (by far the most common shape in
+// this content — "Term | Definition" style) reads as a bold term + its definition below, no
+// labels needed; anything wider shows each column's own header as a small label above its value,
+// since with 3+ groups the column meaning isn't self-evident from position alone. `sm:` and up
+// renders the exact same real `<table>` this app always has — no data or column order changes,
+// only how narrow viewports lay it out.
+function DataTableGrid({
+  columns,
+  rows,
+  colors,
+}: {
+  columns: string[];
+  rows: string[][];
+  colors: { header: string; rowTint: string; border: string; text: string };
+}) {
+  return (
+    <>
+      <div className="divide-y divide-[#E4E1D9] sm:hidden" data-testid="table-mobile-view">
+        {rows.map((row, ri) => (
+          <div key={ri} className={cn("px-3 py-3", ri % 2 === 0 ? colors.rowTint : "bg-[#FAF8F4]")}>
+            {columns.length === 2 ? (
+              <>
+                <p className="text-[14.5px] font-bold text-[#101826]">
+                  <RichText text={row[0]} />
+                </p>
+                <p className="mt-1 text-[13.5px] leading-6 text-[#101826]">
+                  <RichText text={row[1]} />
+                </p>
+              </>
+            ) : (
+              <div className="space-y-1.5">
+                {row.map((cell, ci) => (
+                  <div key={ci}>
+                    <p className="text-[10.5px] font-semibold tracking-wide text-[#5B6472] uppercase">{columns[ci]}</p>
+                    <p className="text-[13.5px] leading-6 text-[#101826]">
+                      <RichText text={cell} />
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+      <div className="hidden overflow-x-auto sm:block">
+        <Table className="table-fixed">
+          <TableHeader>
+            <TableRow className={colors.header}>
+              {columns.map((c) => (
+                <TableHead key={c} className={TABLE_HEAD_CLASS}>
+                  {c}
+                </TableHead>
+              ))}
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {rows.map((row, ri) => (
+              <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-[#FAF8F4]"}>
+                {row.map((cell, ci) => (
+                  <TableCell key={ci} className={TABLE_CELL_CLASS}>
+                    <RichText text={cell} />
+                  </TableCell>
+                ))}
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </div>
+    </>
+  );
+}
+
 function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) {
   const colors = block.category ? CATEGORY_COLOR_CLASSES[block.category.color] : DEFAULT_TABLE_COLORS;
   return (
@@ -173,30 +247,7 @@ function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) 
         )}
       </div>
       <div className={`mt-2 overflow-hidden rounded-lg border shadow-sm ${colors.border}`}>
-        <div className="overflow-x-auto">
-          <Table className="table-fixed">
-            <TableHeader>
-              <TableRow className={colors.header}>
-                {block.columns.map((c) => (
-                  <TableHead key={c} className={TABLE_HEAD_CLASS}>
-                    {c}
-                  </TableHead>
-                ))}
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {block.rows.map((row, ri) => (
-                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-[#FAF8F4]"}>
-                  {row.map((cell, ci) => (
-                    <TableCell key={ci} className={TABLE_CELL_CLASS}>
-                      <RichText text={cell} />
-                    </TableCell>
-                  ))}
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </div>
+        <DataTableGrid columns={block.columns} rows={block.rows} colors={colors} />
         {block.sources.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5 border-t border-[#E4E1D9] bg-[#F3F1EC] px-3 py-2">
             {block.sources.map((s, si) => (
@@ -215,30 +266,7 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
     <div>
       <h3 className={`text-sm font-bold uppercase tracking-wide ${colors.text}`}>{block.title}</h3>
       <div className={`mt-2 overflow-hidden rounded-lg border shadow-sm ${colors.border}`}>
-        <div className="overflow-x-auto">
-          <Table className="table-fixed">
-            <TableHeader>
-              <TableRow className={colors.header}>
-                {block.columns.map((c) => (
-                  <TableHead key={c} className={TABLE_HEAD_CLASS}>
-                    {c}
-                  </TableHead>
-                ))}
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {block.rows.map((row, ri) => (
-                <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-[#FAF8F4]"}>
-                  {row.map((cell, ci) => (
-                    <TableCell key={ci} className={TABLE_CELL_CLASS}>
-                      <RichText text={cell} />
-                    </TableCell>
-                  ))}
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </div>
+        <DataTableGrid columns={block.columns} rows={block.rows} colors={colors} />
         {block.sources.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5 border-t border-[#E4E1D9] bg-[#F3F1EC] px-3 py-2">
             {block.sources.map((s, si) => (
