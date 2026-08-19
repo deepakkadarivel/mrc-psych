@@ -315,6 +315,42 @@
               "page": 25
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/stem-and-leaf-plot.png",
+          "caption": "Stem-and-leaf plot of a sample of scores (40,41 / 32,32,34,36 / 21,21,24,26,27,28,28 / 19): each row's stem (tens digit) is paired with one or more leaf digits (units), so each leaf represents one observation and the plot's shape shows the data's frequency distribution.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 34
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/path-analysis-diagram.png",
+          "caption": "Path analysis diagram: three predictor variables (ANX, HSM, TAX) connected by curved double-headed correlation arrows (-0.26, 0.34, 0.26) and each with a one-headed path coefficient arrow (0.29, -0.38, 0.35) into outcome variable PNP, with an R-square of 0.41 and a disturbance term 'd' (error in measurement) feeding into PNP.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/scatter-plot-ln-urea-vs-age.png",
+          "caption": "Scatter plot of ln(urea) (y-axis) against age (x-axis), each dot an individual observation, with a fitted regression line running through the points and a dotted vertical line marking the deviation (residual) between one observed point and the line.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 36
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/box-whisker-plot-anxiety-depression.png",
+          "caption": "Box-and-whisker plot of score (y-axis) across five diagnostic groups (No diagnosis, Anxiety, Depression, Comorbid depression and anxiety, Mixed anxiety-depression), each box showing the median line, upper/lower quartile (hinge) edges, upper/lower adjacent whiskers, and individual outlier/extreme-outlier points beyond 1.5x the quartile range (source: Das-Munshi et al, British Journal of Psychiatry 2008;192:171-177).",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 39
+          }
         }
       ],
       "concise": {
@@ -454,6 +490,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/prevalence-predictive-value.png",
+          "caption": "Line chart 'Prevalence and Predictive Value' plotting positive predictive value and negative predictive value (y-axis, 0.00-1.20) against prevalence (x-axis, 0.1-0.5): positive predictive value rises with increasing prevalence while negative predictive value falls, the two lines crossing around a prevalence of 0.35-0.4.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Sensitivity, specificity and the likelihood ratio (**LR**+) are properties of the test itself and are not affected by disease prevalence in the population tested — only **PPV** and **NPV** are prevalence-dependent.",
           "source": {
@@ -507,6 +552,24 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/fagan-bayesian-nomogram.png",
+          "caption": "Fagan/Bayesian nomogram (Method 2) with three scales — Pretest Probability, Likelihood Ratio, Posttest Probability — showing a worked example: a dashed line drawn from a pretest probability of 20% through a likelihood ratio of roughly 20 reads off a posttest probability of about 90%.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/likelihood-ratio-nomogram.png",
+          "caption": "Likelihood Ratio Nomogram: three parallel vertical scales for Pre-Test Probability (%), Likelihood Ratio, and Post-Test Probability (%), used by drawing a straight line through a chosen pre-test probability and likelihood ratio to read off the resulting post-test probability.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 26
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Worked Bayesian-updating numeric examples",
           "note": "books/15-3-statistics.pdf states the general pre-test-odds -> post-test-odds -> post-test-probability method (see above) without a worked numeric example. Two specific worked instances are tested via the question bank instead: (1) sensitivity 80%, specificity 90%, prevalence 10% -> LR+ = 8, post-test odds = 8/9, post-test probability approx 0.47; (2) pre-test probability 1/4 (odds 1/3), LR+ = 9.5 (from sensitivity 95%/specificity 90%) -> post-test odds = 3.16, post-test probability approx 0.75.",
@@ -532,6 +595,15 @@
         {
           "type": "paragraph",
           "text": "A Receiver Operator Characteristic (**ROC**) curve plots sensitivity (true positive rate) on the y-axis against 1-specificity (false positive rate) on the x-axis; it is used to select the best cut-off and to compare two or more diagnostic instruments.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/roc-curve-chance-line.png",
+          "caption": "ROC curve plotting sensitivity (y-axis) against 1-specificity (x-axis): a dashed curve bows toward the top-left corner, with a diagonal 'chance line' (the 45-degree line of no discrimination) running from (0,0) to (1,1) for comparison.",
           "source": {
             "file": "books/15-3-statistics.pdf",
             "page": 5
@@ -569,6 +641,15 @@
           "source": {
             "file": "books/15-3-statistics.pdf",
             "page": 5
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/roc-curve-cutoff-points-table.png",
+          "caption": "ROC curve annotated with successive cut-off points (1/2 through 9/10) plotted against a dashed chance line, alongside Table 3 listing sensitivity and (1-specificity) for each cut point of the SPNP scale, from <1 (sensitivity 1.00) down to >10 (sensitivity 0.00).",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 30
           }
         },
         {
@@ -979,6 +1060,15 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/attributable-risk-bar-chart.png",
+          "caption": "Stacked bar chart comparing 'exposed' and 'non-exposed' groups: both bars share the same baseline incidence (not due to exposure, ~45), and the exposed bar carries an additional segment labelled 'incidence due to exposure (attributable risk)' bringing its total to ~78, while the non-exposed bar has no such additional segment.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Attributable risk of 100% — interpretation",
           "note": "Not explicitly stated in books/15-3-statistics.pdf. Tested via the question bank: If an exposure has an attributable risk of ==100%== for a disease, this means all incident cases of that disease are the result of that single exposure — a situation that is rarely, if ever, seen in practice.",
@@ -1079,11 +1169,29 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/kaplan-meier-survival-curve-intro.png",
+          "caption": "Introductory Kaplan-Meier step curve (probability of surviving vs months in trial, 0-36 months) annotated with speech bubbles: the first event occurs at month 6, two events occur at month 18, three events occur at month 36 when the study is terminated (right-censored), leaving a probability of survival at the end of the trial of 20%.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 12
+          }
+        },
+        {
           "type": "paragraph",
           "text": "The log-rank test assesses the effect of a single categorical variable on survival; Cox proportional hazards regression is needed to assess continuous variables (or multiple variables simultaneously), and assumes the hazard ratio is constant over time.",
           "source": {
             "file": "books/15-3-statistics.pdf",
             "page": 13
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/kaplan-meier-smokers-vs-nonsmokers-depression.png",
+          "caption": "Kaplan-Meier plot of probability of not developing major depressive disorder (y-axis, 0.85-1.00) against years (x-axis, 1-11) for smokers (dashed line) versus non-smokers (solid line): the non-smokers' curve stays above the smokers' curve throughout, both are left-censored (starting below 1.00) and right-censored (most subjects event-free at study end), and the smokers' curve ends around 84% survival with median survival time undeterminable.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 33
           }
         },
         {
@@ -1100,6 +1208,15 @@
           "source": {
             "file": "books/15-3-statistics.pdf",
             "page": 13
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/kaplan-meier-three-curves-variable-median.png",
+          "caption": "Three annotated Kaplan-Meier-style survival curves on shared axes (probability of survival vs time period): one falls steeply below 0.5 early ('poor median survival: worse early prognosis but better later prognosis'), one stays flat near 1.0 for most of the period then drops ('representative median survival: no comparable differences'), and one starts by tracking the flat curve then drops sharply near the end ('impressive median survival: good early prognosis but poor later prognosis') — all three converge to a comparable survival probability by the end of the period.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 15
           }
         },
         {
@@ -1382,11 +1499,29 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/nnt-nomogram.png",
+          "caption": "NNT Nomogram: three parallel vertical scales — Absolute risk in the absence of treatment (%), Relative risk reduction (%), and Number needed to treat — used by drawing a straight line through a chosen absolute risk and relative risk reduction to read off the number needed to treat.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 20
+          }
+        },
+        {
           "type": "paragraph",
           "text": "**NNH** (number needed to harm) is calculated the same way as **NNT** but for an adverse outcome: **NNH** = 1/**ARR** for the harmful event.",
           "source": {
             "file": "books/15-3-statistics.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/nnh-risperidone-hyperlipidaemia.png",
+          "caption": "Bar chart of the rate of new-onset hyperlipidaemia (y-axis, 0-25%) comparing risperidone (20%) against controls (5%), the worked example behind an absolute risk increase of 15% and a number needed to harm of 7.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 18
           }
         },
         {
@@ -1753,13 +1888,12 @@
           }
         },
         {
-          "type": "gap",
-          "subtopic": "Galbraith plot",
-          "note": "Not stated in books/15-3-statistics.pdf (confirmed by full-text search). Tested via the question bank: The Galbraith plot displays each study as a point (z-score/effect-size-over-**SE** on the y-axis vs 1/**SE** on the x-axis) around a central regression line; points falling outside a 2-**SD** band around that line are considered outliers, and points near the zero-line show no effect.",
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/galbraith-plot.png",
+          "caption": "Galbraith plot: standardised effect (y-axis) plotted against precision (x-axis) for 12 numbered studies as red dots, with a central line depicting the pooled effect size flanked by parallel +2SD and -2SD lines; studies 1, 9 and 11 fall outside the 2SD band and are flagged as outliers contributing to heterogeneity.",
           "source": {
-            "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
-            "page": 31,
-            "questionNumber": 17
+            "file": "books/15-3-statistics.pdf",
+            "page": 37
           }
         },
         {
@@ -1946,6 +2080,24 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/forest-plot-wijkstra-antipsychotic-antidepressant.png",
+          "caption": "Forest plot from Wijkstra et al, Br J Psychiatry 2006;188:410-415, comparing antipsychotic-plus-antidepressant (AP+AD) against antipsychotic monotherapy (AP) across three study arms (Spiker et al 1985, Rothschild et al 2004 studies a and b), each shown as a point estimate with 95% CI and weight percentage, plus a pooled diamond total of RR 1.92 (95% CI 1.32-2.80) favouring AP+AD.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 22
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/forest-plot-antidepressant-drug-class-nnt.png",
+          "caption": "Forest plot 'Figure 1: Risk of relapse: odds ratios by drug type' showing five antidepressant drug classes (NARI, MAOI, Tricyclic, SSRI, Other) plus a pooled Total, each row giving number of trials, allocated-antidepressant and placebo event rates, and an odds-ratio point estimate with 95%/99% CI on a log scale — annotated with worked ABI/NNT calculations for MAOIs (ABI 65%, NNT 2) and overall treatment (ABI 23%, NNT 5).",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 32
+          }
+        },
+        {
           "type": "mnemonic",
           "forTopic": "Reading a forest plot",
           "mnemonic": "SWAP",
@@ -2026,23 +2178,21 @@
           "highYield": false
         },
         {
-          "type": "gap",
-          "subtopic": "L'Abbe plot",
-          "note": "Not stated in books/15-3-statistics.pdf (confirmed by full-text search). Tested via the question bank: An L'Abbe plot plots each individual study as a circle with the experimental event rate (**EER**) on one axis and control event rate (**CER**) on the other; circle size typically represents study sample size (colour/shading can indicate subgroup, e.g. hospital vs primary-care setting). Studies above the line of equality favour the experimental treatment.",
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/labbe-plot.png",
+          "caption": "L'Abbe plot: intervention event rate % (y-axis) plotted against control event rate % (x-axis) for 11 numbered trials, each drawn as a circle whose size represents that trial's sample size; a solid 'equal line' (RR=1) runs diagonally through the origin, and a dashed 'overall RR line' shows the pooled relative risk from the meta-analysis — trials below the equality line show better control-group event rates than intervention.",
           "source": {
-            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
-            "page": 8,
-            "questionNumber": 3
+            "file": "books/15-3-statistics.pdf",
+            "page": 38
           }
         },
         {
-          "type": "gap",
-          "subtopic": "CONSORT participant flow diagram",
-          "note": "Not stated in books/15-3-statistics.pdf (confirmed by full-text search). Tested via the question bank: **CONSORT** recommends including a participant flow diagram for RCTs, and such diagrams are strongly recommended to always show the attrition/dropout rate.",
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/consort-flow-diagram-opus-st.png",
+          "caption": "CONSORT-style RCT flow diagram: 547 patients randomised to OPUS (n=275) or ST (n=272) at baseline, with numbered and itemised losses to follow-up (refused/moved/not located/deaths, including suicides) shown at each stage, giving 205 (75%) of OPUS and 164 (60%) of ST followed up at 2 years, and 151 (56%) of OPUS and 150 (57%) of ST followed up at 5 years.",
           "source": {
-            "file": "question_bank/EBM/Interpreting Graphs_ Attempt review.pdf",
-            "page": 34,
-            "questionNumber": 13
+            "file": "books/15-3-statistics.pdf",
+            "page": 31
           }
         },
         {
@@ -2251,6 +2401,15 @@
           "source": {
             "file": "books/15-3-statistics.pdf",
             "page": 27
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/evidence-based-medicine/altman-nomogram-sample-size.png",
+          "caption": "Altman's nomogram: a diagonal ruled scale for standardised mean difference (effect size, 0.0-1.2) on the left, a required-sample-size (N) scale down the centre, and a significance-level/power pair of scales on the right (SIG LEVEL 0.0-0.05 and Power 0.05-0.995) — a straight line through a chosen effect size and power reads off the required sample size at the chosen significance level.",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 28
           }
         }
       ],

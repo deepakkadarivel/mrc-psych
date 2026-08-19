@@ -14,6 +14,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/study-designs-classification-tree.png",
+          "caption": "Classification tree: Descriptive studies (case reports/series, cross-sectional studies), Analytical studies (case-control, cohort, ecological studies), and Experimental studies (controlled trials, uncontrolled trials).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Case-control studies are retrospective: both exposure and disease have already occurred at the time subjects are recruited. They are easy to carry out, less time-consuming, less expensive, and most useful for diseases where exposure is common but the disease occurs in only a small proportion of those exposed (rare diseases) — with no attrition problems since there is no follow-up.",
           "source": {
@@ -22,11 +31,29 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/case-control-study-flow-diagram.png",
+          "caption": "Case-control study flow diagram: people who have the disease (cases) and people who do not have the disease (controls) are each split into 'were exposed' / 'were not exposed' groups, with a calendar-time arrow showing the retrospective look-back from disease status to exposure status.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 4
+          }
+        },
+        {
           "type": "paragraph",
           "text": "In cohort studies, relative risk (**RR**) can be calculated as the ratio of disease (outcome) in the exposed to disease in the non-exposed; the odds ratio can also be calculated from cohort studies. Case-control studies, by contrast, cannot directly measure incidence (no longitudinal observation), so a cross-product ratio called the odds ratio is used instead of **RR**.",
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 1
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/cohort-study-flow-diagram.png",
+          "caption": "Cohort study flow diagram: a defined population is split into exposed / not exposed groups, each of which is further split into disease / no disease outcomes, with parallel timeline arrows on either side labelled 'prospective cohort' (running from an earlier year to now) and 'retrospective cohort' (running from now back to an earlier year).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 6
           }
         },
         {
@@ -45,6 +72,15 @@
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 1
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/cross-sectional-study-diagram.png",
+          "caption": "Cross-sectional study diagram: a defined population is split into four simultaneous groups — exposed and diseased, exposed but no disease, not exposed but diseased, and not exposed with no disease.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 2
           }
         },
         {
@@ -200,6 +236,15 @@
           "highYield": true
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/four-study-types-connector-diagram.png",
+          "caption": "Four connected study-type boxes: Cross-sectional study ('How common is a condition? What is the nature of this sample?') and Case-Control study ('What are the causes of this outcome?') on the left, linked to Interventional study ('What is the effect of this intervention?') and Cohort study ('What are the effects of this risk factor/exposure?') on the right.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 3
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Case-control studies gain power by increasing the control:case ratio up to 4:1; beyond that ratio, power does not increase further. If disease prevalence is <==5%== (the rare-disease assumption), the odds ratio approximates relative risk.",
           "source": {
@@ -218,6 +263,15 @@
         {
           "type": "paragraph",
           "text": "A nested case-control study draws both cases and controls from within an existing cohort rather than studying the whole cohort — cheaper, with similar precision.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/nested-case-control-study-flow-diagram.png",
+          "caption": "Nested case-control study flow diagram: a defined cohort (initial data e.g. serum obtained) splits into 'developed disease' and 'have not developed disease currently'; cases (subgroup) and controls (subgroup) are then drawn from within this cohort to form the case-control study, with a calendar-time arrow alongside.",
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 7
@@ -332,11 +386,29 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/parallel-rct-flow-diagram.png",
+          "caption": "Parallel RCT flow diagram: a study sample is randomised into an active arm and a placebo/comparator arm, each of which splits into improved / not improved outcome groups.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 13
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Crossover-design RCT: an interchange of study and control groups after a washout period, so all subjects receive both placebo and treatment, only in a different order. This is an economical design, needing fewer subjects — but it cannot be used for diseases that are cured by the medication under study (no reversible baseline to cross back to).",
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/crossover-rct-flow-diagram.png",
+          "caption": "Crossover RCT flow diagram: randomisation assigns Group A to the active arm and Group B to the placebo arm; after the first measurement, the arms cross over so Group A moves to the placebo arm and Group B moves to the active arm for a second measurement.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 13
           }
         },
         {
@@ -435,6 +507,15 @@
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/before-and-after-trial-schematic.png",
+          "caption": "Before-and-after trial schematic: a single group's DSH (deliberate self-harm) rates before CRHT (Crisis Resolution Home Treatment) is formed are compared with the same group's DSH rates after CRHT is formed, with the whole group acting as its own historical control.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 12
           }
         },
         {
@@ -835,6 +916,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/randomisation-process-flowchart.png",
+          "caption": "Randomisation-process flowchart with four stages — Generation ('a sequence/random list is generated'), Assignment ('allocation to placebo/active arms according to the sequence'), Maintenance ('treatment starts, fidelity maintained till outcome is measured'), and Measurement of final outcome — with Generation+Assignment bracketed as 'Allocation Concealment' (keeping the random sequence secret from investigator, clinician and patient until assignment is completed) and Maintenance+Measurement bracketed as 'Blinding' (keeping the allocation secret from the investigator, clinician and/or patient until measurement is completed).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 15
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Blinding levels: open-label (all parties aware of treatment), single-blind (the patient, usually, is unaware of their treatment assignment), double-blind (both patient and investigator are unaware — the most common form), triple-blind (patient, investigator(s), and the assessor who adjudicates outcomes are all unaware). Unblinding is the planned or unintended disclosure of a participant's allocation.",
           "source": {
@@ -1212,6 +1302,15 @@
             "file": "books/15-1-statistics.pdf",
             "page": 17
           }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/n-of-1-trial-cycle-diagram.png",
+          "caption": "N-of-1 trial cycle diagram: three repeating cycles, each showing Control / washout / active drug periods (or active drug / washout / Control, alternating) with a 'Measure' arrow after each washout period, labelled Cycle 1, Cycle 2, Cycle 3 (up to n cycles).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 21
+          }
         }
       ],
       "concise": {
@@ -1247,6 +1346,15 @@
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 22
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/confounding-triangle-diagram.png",
+          "caption": "Confounding triangle diagram: a confounder (e.g. age) sits above exposure (e.g. length of antipsychotic use) and outcome (e.g. hip fracture), connected to both by double-headed arrows, with exposure connected to outcome by a single arrow; annotated with 'older patients may be using antipsychotics for a longer time than younger patients', 'irrespective of antipsychotic exposure, age increases risk of fracture', and 'a study found relationship between antipsychotics and hip fractures'.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 24
           }
         },
         {
@@ -1479,6 +1587,15 @@
         {
           "type": "paragraph",
           "text": "Internal validity = how close a study's result is to the truth (threatened by bias); external validity/generalisability = how applicable the result is to the clinician's own population. Bias is a systematic, predictable error from poor design/collection/analysis — unlike random error it does **NOT** shrink with repetition and cannot be fixed at the analysis stage.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/error-classification-tree.png",
+          "caption": "Error classification tree: Error branches into Random error and Systematic error (Bias); Systematic error (Bias) branches further into Measurement bias, Selection bias, and Analysis bias.",
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 26
@@ -2452,6 +2569,24 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/labbe-plot.png",
+          "caption": "L'Abbé plot for treatment: proportion improved with treatment (y-axis) plotted against proportion improved with control (x-axis), with a diagonal 'equality' line; points in the upper-left region ('treatment better than control') vs the lower-right region ('control better than treatment') are marked.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 38
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/galbraith-plot.png",
+          "caption": "Galbraith plot: standardised effect (y-axis) plotted against precision (x-axis, 1/SE) for numbered individual studies (1-12), with two diagonal reference lines forming a band; studies 1, 9 and 11 are marked as lying outside the ±2SD band and so contributing to heterogeneity.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 38
+          }
+        },
+        {
           "type": "comparison",
           "title": "Fixed-Effects vs Random-Effects Meta-Analysis Model",
           "columns": [
@@ -2521,6 +2656,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/funnel-plot-diagram.png",
+          "caption": "Funnel plot diagram: two scatter plots of sample size (y-axis) against effect size (x-axis) around a 'line of true effect size' — a symmetric funnel-shaped plot (large studies closer to the true effect size, small studies scattered further from it) versus an asymmetric plot with a circled region labelled 'missing studies'.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 39
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Effect-size measures: for dichotomous outcomes, **OR**/**RR** are preferred (less dependent on baseline risk than absolute risk); **OR** overestimates **RR** increasingly as event rates rise above ~==20%==, so **RR** is preferred in Cochrane reviews when events are common. For continuous outcomes: simple mean difference (**DM**) or standardised mean difference (**SMD** = DM / pooled SD), calculated as Cohen's d or Hedges' g (the latter corrects Cohen's d's small-sample bias).",
           "source": {
@@ -2534,6 +2678,24 @@
           "source": {
             "file": "books/15-1-statistics.pdf",
             "page": 35
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/annotated-forest-plot-blobbogram.png",
+          "caption": "Annotated forest plot for a meta-analysis (Review: Supplementation with M in condition X; Comparison: Supplement M versus placebo; Outcome: Adverse effects), with callout labels identifying Study IDs, details of review, intervention/control group n/N columns, the relative-risk-with-95%-CI column and plot (each study as a square sized by weight, with the pooled effect as a diamond), the weight (%) column, heterogeneity (I²) and p-value statistics, and the 'favours intervention'/'favours control' scale, for three studies (Study A, B, C) and a pooled total (95% CI 0.87 [0.41, 1.87]).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 41
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/donepezil-forest-plot-example.png",
+          "caption": "Forest plot example (Figure 1, Freemantle et al., Evid Based Ment Health 1998): 'Effects of donepezil on quality of life (standardised effect size)' showing five individual study rows (Rogers 1996 5mg, A301 Unpublished 5mg, A302 Unpublished 5mg, A302 Unpublished 10mg, A301 Unpublished 10mg) each as a box-and-diamond with 95% CI, plus pooled fixed-effects and pooled random-effects diamonds, against a 'line of no effect' axis from -0.6 to 0.9, with labels for line of no effect, 95% CI, point estimate of effect, and size of diamond = sample size.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 42
           }
         },
         {
@@ -2813,6 +2975,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/research-methods/cost-effectiveness-acceptability-curve.png",
+          "caption": "Cost-effectiveness acceptability curve (Figure 1): probability of cost-effectiveness (y-axis, 0-100) plotted against willingness to pay (λ, x-axis, log scale from 1 to 200), showing the curve rising steeply from about 25% at λ=1 to about 95% by λ=50 and then plateauing.",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 47
+          }
+        },
+        {
           "type": "table",
           "title": "Cost-effectiveness plane quadrants",
           "columns": [
@@ -2858,6 +3029,15 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/research-methods/ice-plane-diagram.png",
+          "caption": "Incremental cost-effectiveness (ICE) plane: a four-quadrant diagram with COST on the vertical axis and EFFECT on the horizontal axis, labelling the upper-left quadrant 'Cost Wastage Zone' (intervention dominated by control: high costs & negative effects), upper-right 'Trade Off Zone' (high costs & positive effects), lower-left 'Trade Off Zone' (low costs & negative effects), and lower-right 'Cost Effective Zone' (intervention dominates control: low costs & positive effects).",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 47
+          }
         },
         {
           "type": "paragraph",

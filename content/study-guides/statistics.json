@@ -205,6 +205,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/skewed-distribution-curves.png",
+          "caption": "Two bell-shaped frequency curves labelled 'positive skew' and 'negative skew', each annotated with the relative positions of mode, median, and mean along the x-axis.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 5
+          }
+        },
+        {
           "type": "trap",
           "text": "In a positively skewed distribution, most **VALUES** fall to the **LEFT** of the mean (the mean itself is pulled right by a few extreme high values) — a commonly reversed detail; the 'tail', not the bulk of the data, is on the right.",
           "format": "SBA",
@@ -290,6 +299,60 @@
               "page": 1
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/bar-chart-example.png",
+          "caption": "Example bar chart displaying frequency counts across discrete categories.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/histogram-with-normal-curve.png",
+          "caption": "Example histogram of a continuous variable with a smooth normal (bell-shaped) curve overlaid on the bars.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/scatter-diagram-example.png",
+          "caption": "Example scatter diagram plotting individual data points for two variables against each other.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/pie-chart-example.png",
+          "caption": "Example pie chart dividing a whole into proportional coloured segments by category.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/box-whisker-plot-example.png",
+          "caption": "Example box-and-whisker plot (carnosinase activity) showing the median line, box (interquartile range), and whisker lines extending to the data range.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/stem-and-leaf-plot-example.png",
+          "caption": "Example stem-and-leaf plot (ISV/SPAQ data) displaying each data value split into a 'stem' and 'leaf' digit.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 8
+          }
         }
       ],
       "concise": {
@@ -341,6 +404,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/normal-distribution-sd-bands.png",
+          "caption": "Bell-shaped normal distribution curve with vertical lines marking standard deviation intervals from -4SD to +4SD and the percentage of the distribution falling within each band.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 9
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Importance of the normal distribution: (1) many statistical tests assume it; (2) mean and **SD** are independent of each other in a normal population — ==68%== of data lie within ±1 **SD**, ==95%== within ±2 **SD**, ==99%== within ±3 **SD**, irrespective of the mean's value; (3) many natural/biological measures approximate it in large samples; (4) the Central Limit Theorem: for a sufficiently large sample (rule of thumb: n≥30 for most purposes), the distribution of sample **MEANS** drawn from any population — even a non-normal one — approaches normal.",
           "source": {
@@ -354,6 +426,15 @@
           "source": {
             "file": "books/15-2-statistics.pdf",
             "page": 10
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/standard-error-of-mean-diagram.png",
+          "caption": "Diagram showing a population circle with multiple samples (S1...Sα) drawn from it, each feeding into a 'mean of means' box, with the standard error of the mean formula shown alongside.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 11
           }
         }
       ],
@@ -534,6 +615,24 @@
           "source": {
             "file": "books/15-2-statistics.pdf",
             "page": 10
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/population-sample-concentric-circles.png",
+          "caption": "Concentric circle diagram showing, from outermost to innermost: target population, source population, eligible population, study entrants, and study participants.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 14
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/sampling-methods-tree.png",
+          "caption": "Tree diagram of sampling methods branching into random (simple, stratified, cluster, systematic, multistage) and non-random (quota, convenience, volunteer, snowball, consecutive, purposive) categories.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 15
           }
         },
         {
@@ -743,6 +842,15 @@
           "source": {
             "file": "books/15-2-statistics.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/altman-nomogram-sample-size.png",
+          "caption": "Altman's nomogram: a graphical tool with scales for standardised difference, sample size (per group), significance level, and power, connected by a reference line for calculating sample size or power.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 20
           }
         },
         {
@@ -957,6 +1065,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/effect-size-overlapping-curves.png",
+          "caption": "Two overlapping bell-shaped normal distribution curves (Group A and Group B) illustrating the degree of separation between group means used to derive effect size.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
           "type": "table",
           "title": "Cohen's d — Effect Size Bands",
           "columns": [
@@ -1159,11 +1276,29 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/accuracy-precision-dartboard.png",
+          "caption": "Four dartboard diagrams illustrating the combinations of accurate/inaccurate and precise/imprecise shot groupings.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 28
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Simple percent agreement overestimates true agreement because it ignores chance. Kappa = (observed agreement − chance-expected agreement) / (==100%== − chance-expected agreement). Kappa is used for nominal (categorical) agreement, weighted kappa for ordinal data, and Bland-Altman plots for continuous measures. Kappa is prevalence-dependent (very rare or very common conditions distort it — e.g. good kappa is easy for rare Capgras syndrome even with a few notable disagreements, but hard for common conditions like depression), and statistical significance cannot be tested directly from a kappa value — so raw percent agreement should still be inspected alongside kappa. Phi is an alternative measure allowing direct significance testing and small samples, but is less widely used than kappa.",
           "source": {
             "file": "books/15-2-statistics.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/kappa-agreement-by-chance-diagram.png",
+          "caption": "Annotated bar diagram comparing the proportion of 'agreement expected by chance' against the 'possible agreement above chance', used to derive the kappa statistic.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 29
           }
         },
         {
@@ -1321,6 +1456,15 @@
           "source": {
             "file": "books/15-2-statistics.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/choosing-statistical-test-mindmap.png",
+          "caption": "Hand-drawn, colour-coded mind-map for choosing a statistical test: branching first by type of data (frequency/counts vs interval-ratio-ordinal), then by comparing means, exploring association, or frequency counts, down to named parametric and non-parametric tests.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 36
           }
         },
         {
@@ -1722,6 +1866,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/least-squares-regression-line.png",
+          "caption": "Scatterplot of data points with a fitted straight regression line and vertical residual lines connecting each point to the line, illustrating the least-squares method.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 42
+          }
+        },
+        {
           "type": "trap",
           "text": "Given y (female twin weight) = 1200 + 0.4x (male twin weight), you can predict female weight from male weight but **CANNOT** reverse the equation to predict male from female — regression is directional (y is the dependent variable defined by the equation), unlike correlation which is symmetric.",
           "format": "SBA",
@@ -1755,6 +1908,15 @@
           "source": {
             "file": "books/15-2-statistics.pdf",
             "page": 37
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/regression-equation-annotated.png",
+          "caption": "The regression equation y = a + bX + e with callout boxes labelling Y as the dependent variable, X as the independent variable, e as the error term, and a note that a and b are constants (b being the slope/regression coefficient).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 44
           }
         }
       ],
@@ -1890,6 +2052,15 @@
           "highYield": true
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/multivariate-test-decision-tree.png",
+          "caption": "Decision tree for choosing a multivariate test, branching from 'dependent variable' into categorical (nominal: log-linear analysis; dichotomous: Cox proportional hazards or logistic regression) and continuous (ANOVA, multiple regression, ANCOVA) paths.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 46
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Path analysis extends multiple regression to model 'chains of influence' among several dependent variables (e.g. A→B→C). Independent (X) variables are exogenous, dependent (Y) variables endogenous; a single-headed arrow = presumed causal path, a double-headed curved arrow = mere correlation. A recursive path model has unidirectional causal flow (no loops). Despite its older name 'causal modelling', path analysis cannot itself establish causality or prove a model correct — it can only show the data are consistent with the model.",
           "source": {
@@ -1905,6 +2076,15 @@
             "file": "question_bank/Advanced Statstics/Multivariate Techniques_ Attempt review.pdf",
             "page": 8,
             "questionNumber": 3
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/path-analysis-diagram.png",
+          "caption": "Path analysis diagram showing four numbered boxes (1-4) connected by directional single- and double-headed arrows, with error terms e2, e3, and e4 feeding into boxes 2, 3, and 4 respectively.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
           }
         },
         {
@@ -1929,6 +2109,15 @@
           "source": {
             "file": "books/15-2-statistics.pdf",
             "page": 48
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/scree-plot-factor-retention.png",
+          "caption": "Scree plot with component number on the x-axis and eigenvalue on the y-axis, showing a declining curve with the elbow/bend annotated at 4 and 5 principal components (PCs).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 47
           }
         },
         {
@@ -2033,6 +2222,24 @@
         },
         {
           "type": "image",
+          "src": "/diagrams/statistics/hierarchy-of-evidence-pyramid.png",
+          "caption": "Inverted pyramid titled 'Hierarchy of evidence base', ranking evidence from top (widest) to bottom (narrowest): systematic review/meta-analysis, RCT, cohort, case control, cross-sectional survey, case reports.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 51
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/ebm-five-steps-roadmap.png",
+          "caption": "Curved arrow roadmap with five numbered circular markers labelling the essential steps in EBM: identify clinical problem, define structured question (PICO), find the best evidence (literature search), examine the validity of evidence, and assess the results and apply to patient care.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 51
+          }
+        },
+        {
+          "type": "image",
           "src": "/diagrams/statistics/categorisation-of-evidence.png",
           "caption": "Categorisation of evidence (Shekelle, Woolf, Eccles & Grimshaw, BMJ 1999): Ia meta-analysis, Ib randomised controlled trial, IIa non-randomised trial, IIb quasi-experimental study, III descriptive study, IV consensus reports.",
           "source": {
@@ -2081,6 +2288,15 @@
               "page": 52
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/pico-framework-chevron.png",
+          "caption": "Chevron-arrow diagram of the PICO framework: P (Patients), I or E (Intervention or Exposure), C (Comparison), O (Outcomes), each with a short description of what it represents.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 53
+          }
         },
         {
           "type": "table",
@@ -2175,6 +2391,15 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/diagrams/statistics/internal-external-validity-flowchart.png",
+          "caption": "Flowchart titled 'Internal & External Validity': a general target population (varied clinical settings/outcomes/interventions/demographics) narrows to a selected sample, which undergoes a specific intervention and specific observation; boxes note that high external validity aids generalisation while high internal validity reduces alternative causes/bias, and an 'applying results' arrow loops back to the target population.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 55
+          }
+        },
+        {
           "type": "table",
           "title": "Reporting-Standard Checklists",
           "columns": [
@@ -2217,6 +2442,42 @@
               "page": 52
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/consort-flow-diagram.png",
+          "caption": "CONSORT flow diagram with four stages (Enrollment, Allocation, Follow-up, Analysis): assessed for eligibility and excluded, randomised into two arms, allocated to intervention with received/not-received counts, lost to follow-up and discontinued intervention, and analysed with exclusions.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 56
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/quorom-flowchart.png",
+          "caption": "QUOROM flowchart for meta-analysis reporting, tracking potentially relevant RCTs identified and screened, through RCTs excluded (with reasons) at each stage, to RCTs retrieved, potentially appropriate, included in meta-analysis, withdrawn, and RCTs with usable information by outcome.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 57
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/prisma-flow-diagram.png",
+          "caption": "PRISMA flow diagram with four stages (Identification, Screening, Eligibility, Included): records identified through database searching and other sources, records after duplicates removed, records screened with exclusions, full-text articles assessed for eligibility with exclusions, studies included in qualitative synthesis, and studies included in quantitative synthesis (meta-analysis).",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 58
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/statistics/stard-flowchart.png",
+          "caption": "STARD flowchart for diagnostic accuracy studies: eligible patients (with excluded patients and reasons) undergo an index test yielding abnormal, normal, or inconclusive results, each branch passing through a reference standard (noting cases with no reference standard or inconclusive reference results) down to target condition present/absent counts.",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 61
+          }
         }
       ],
       "concise": {

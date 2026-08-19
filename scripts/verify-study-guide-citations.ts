@@ -1,13 +1,48 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import type { NoteBlock, Question, Source, StudyGuide } from "@/lib/types";
 
 const root = process.cwd();
 const guidesDir = path.join(root, "content/study-guides");
+const resourcesDir = path.join(root, "resources/paper-b");
 
 function loadJson<T>(file: string): T | null {
   if (!fs.existsSync(file)) return null;
   return JSON.parse(fs.readFileSync(file, "utf-8")) as T;
+}
+
+interface Manifest {
+  topics: { id: string; bookFiles?: string[] }[];
+}
+const manifest = loadJson<Manifest>(path.join(root, "content/manifest.json"));
+
+// An image block's citation is self-verifying — the crop *is* the extraction, unlike a text
+// fact — so it only needs to check against the real PDF (source.file is one of this topic's
+// book files, source.page exists in that PDF), not that the notes segmenter happened to place a
+// NoteBlock heading on that exact page (most pages of a book never get their own heading).
+const pageCountCache = new Map<string, number>();
+function pdfPageCount(relFile: string): number | null {
+  if (pageCountCache.has(relFile)) return pageCountCache.get(relFile)!;
+  const abs = path.join(resourcesDir, relFile);
+  if (!fs.existsSync(abs)) return null;
+  try {
+    const out = execFileSync("pdfinfo", [abs], { encoding: "utf-8" });
+    const match = out.match(/^Pages:\s+(\d+)/m);
+    const count = match ? parseInt(match[1], 10) : null;
+    if (count !== null) pageCountCache.set(relFile, count);
+    return count;
+  } catch {
+    return null;
+  }
+}
+
+function isValidImageSource(source: Source, topic: string): boolean {
+  const bookFiles = manifest?.topics.find((t) => t.id === topic)?.bookFiles ?? [];
+  if (!bookFiles.includes(source.file)) return false;
+  const pageCount = pdfPageCount(source.file);
+  if (pageCount === null) return false;
+  return source.page >= 1 && source.page <= pageCount;
 }
 
 function buildValidSets(topic: string) {
@@ -79,7 +114,11 @@ for (const file of files) {
           }
           break;
         case "image":
-          checkSources([block.source], `[${section.title}] image[${block.caption.slice(0, 40)}...]`, sets, invalid);
+          if (!isValidImageSource(block.source, topic)) {
+            invalid.push(
+              `[${section.title}] image[${block.caption.slice(0, 40)}...]: ${JSON.stringify(block.source)}`
+            );
+          }
           break;
         case "gap":
           if (block.source) {

@@ -555,8 +555,35 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/epidemiology/infant-mortality-by-race.png",
+          "caption": "Bar chart: 'Underlying cause of infant mortality among racial/ethnic groups, United States, 1983'. Deaths per 1,000 live births (y-axis) grouped by race/ethnicity (Black, American Indian, Hispanic, Asian, White, Total; x-axis), with four bars per group for Birth Defects, Low Birth Weight/Prematurity/Respiratory Distress Syndrome, Sudden Infant Death Syndrome, and Others.",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 6
+          }
+        },
+        {
           "type": "paragraph",
           "text": "A population pyramid portrays age and sex structure and reveals cohort trends over time. Three prototypical shapes (demographers): constrictive (fewer people in younger age bands, typical of countries like the **US** as birth rates fall after a baby boom), expansive (more people in younger age bands, typical of developing countries with high birth rates and short life expectancy from harsh conditions), and stationary (roughly equal numbers across age bands with tapering only at older ages, e.g. Sweden, from low constant birth rates and high quality of life).",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/epidemiology/histogram-frequency-polygon.png",
+          "caption": "Annotated graph, 'Number of reported cases of influenza-like illness by week of onset' (cases on y-axis, week of onset 1-9 on x-axis), showing a dashed-line histogram and a solid-line frequency polygon overlaid, with callouts explaining that the frequency polygon connects the midpoints of each histogram interval, and that its first and last data points connect to the midpoints of the adjacent (empty) intervals on the x-axis.",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/epidemiology/population-pyramids.png",
+          "caption": "Three population pyramids side by side, each plotting age bands (0-4 up to 85+) against percent of population by sex (Female left, Male right): 'Constrictive' (narrower at the youngest bands), 'Expansive' (widest at the youngest bands, tapering steadily with age), and 'Stationary' (roughly similar width across most bands, tapering only at the oldest ages).",
           "source": {
             "file": "books/14-epidemiology.pdf",
             "page": 7

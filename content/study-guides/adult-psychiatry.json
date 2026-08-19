@@ -79,6 +79,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/adult-psychiatry/kupfer-curve.png",
+          "caption": "The Kupfer curve: symptom severity over time as a patient progresses from normalcy through syndrome/disorder, then through the treatment phases (acute, continuation, maintenance), with response, remission, relapse, recovery and recurrence marked at their respective points on the curve.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 3
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Major depression carries up to a 5-fold increased risk of **MI**; suicide among mood-disorder patients overall is ~14x more frequent than in the general population.",
           "source": {
@@ -193,6 +202,15 @@
           "source": {
             "file": "books/7-1-adult-psychiatry-1.pdf",
             "page": 2
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/adult-psychiatry/stepped-care-depression.png",
+          "caption": "NICE stepped-care model for depression: primary care/general hospital recognition (assessment & screening) → treatment of mild depression in primary care (watchful wait, self-help, computerised CBT, exercise, brief psychological therapies) → treatment of moderate-severe depression (medication, psychosocial support) → specialist treatment (medication, complex psychotherapies, combined treatments) → inpatient treatment (risk management, ECT/combined treatments).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 5
           }
         },
         {
@@ -348,9 +366,9 @@
           }
         ],
         "highlightBlockIndices": [
-          1,
-          7,
-          10
+          2,
+          8,
+          11
         ]
       }
     },
@@ -372,7 +390,7 @@
           "caption": "Treatment-resistant depression algorithm: confirm true resistance (rule out the 5 A's), then switch drug, augment (lithium/antipsychotic/psychotherapy/another antidepressant), and move to neurostimulation (TMS or ECT) or novel agents after 2–3 adequate trials fail.",
           "source": {
             "file": "books/7-1-adult-psychiatry-1.pdf",
-            "page": 2
+            "page": 8
           }
         },
         {
@@ -1395,6 +1413,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/adult-psychiatry/ipap-algorithm.png",
+          "caption": "IPAP Schizophrenia Algorithm (12-step flowchart, from www.ipap.org/schiz): diagnosis of schizophrenia/schizoaffective disorder → consider critical initial/emergent issues → 4–6 week monotherapy trial of an atypical (or typical if unavailable) → if adequate trial fails, switch drug; if adequate but psychosis persists → second 4–6 week monotherapy trial of a different atypical/typical → if psychosis or moderate-severe TD/tardive dystonia persists after an adequate second trial, six-month trial of clozapine up to 900mg/day → if symptoms persist, optimise clozapine and/or augment with ECT or adjuvant medication; otherwise enter maintenance phase. A side panel lists issues (A–H: suicide risk, metabolic issues, agitation/violence, non-compliance, depression/mood symptoms, substance abuse, prodromal/first episode, catatonia/NMS) to consider at each stage.",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-1.pdf",
+            "page": 33
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Maintenance: ~==20%== relapse within a year on treatment vs ~==60%== off it; stopping medication raises relapse risk ~5-fold. Multi-episode patients: maintenance for ≥5 years, possibly indefinite.",
           "source": {
@@ -1588,9 +1615,9 @@
         ],
         "highlightBlockIndices": [
           2,
-          6,
           7,
-          9
+          8,
+          10
         ]
       }
     },
@@ -2341,6 +2368,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/adult-psychiatry/anxiety-age-of-onset.png",
+          "caption": "Age-of-onset chain for anxiety disorders: specific phobia (age 10) → social phobia (age 15) → OCD (age 20) → agoraphobia (age 25) → GAD (age 30), labelled by theme (natural events → 'people' → 'sex, violence, religion' → 'shelter' → 'vague').",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 2
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Blood-injection-injury phobia: lifetime prevalence ~==3.5%==, median onset age 5–6y; strongly associated with a personal history of fainting/seizures. Prevalence is lower in the elderly and higher in females and those with less education.",
           "source": {
@@ -2390,7 +2426,7 @@
           }
         ],
         "highlightBlockIndices": [
-          3
+          4
         ]
       }
     },
@@ -2460,6 +2496,15 @@
           "source": {
             "file": "books/7-1-adult-psychiatry-2.pdf",
             "page": 3
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/adult-psychiatry/ocd-stepped-care.png",
+          "caption": "NICE OCD treatment flowchart: assess severity → mild-to-moderate branch (step 1 self-help → step 2 CBT with ERP → step 3 SSRIs ± CBT) or severe branch (step 1 SSRIs ± CBT, then responders continue SSRI for 1–2 years ± booster CBT, or non-responders switch to a different SRI or clomipramine).",
+          "source": {
+            "file": "books/7-1-adult-psychiatry-2.pdf",
+            "page": 4
           }
         },
         {
@@ -2578,8 +2623,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          5,
-          8
+          6,
+          9
         ]
       }
     },
