@@ -49,6 +49,20 @@ for (const topic of TOPICS) {
       await expect(page.getByTestId("pdf-section")).toHaveCount(0);
     });
 
+    test("jump-to-section select scrolls the Full Guide to the chosen section", async ({ page }) => {
+      await page.goto(`/topics/${topic}`);
+      const select = page.getByLabel("Jump to section");
+      const lastOption = select.locator("option").last();
+      const [lastValue, lastSectionTitle] = await Promise.all([
+        lastOption.getAttribute("value"),
+        lastOption.textContent(),
+      ]);
+
+      await select.selectOption(lastValue!);
+
+      await expect(page.getByRole("heading", { name: lastSectionTitle!, exact: true })).toBeInViewport();
+    });
+
     test("clicking a citation opens the PDF drawer", async ({ page }) => {
       await page.goto(`/topics/${topic}`);
       await expect(page.getByTestId("pdf-section")).toHaveCount(0);

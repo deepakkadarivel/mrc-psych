@@ -774,6 +774,35 @@ export function StudyGuideView({
       {tabsAnchorSlot &&
         createPortal(
           <>
+            {/* Full Guide is one long continuous scroll of every section — the only tab without
+                its own per-section nav (Notes/Concise already have SectionListDetail's left-panel
+                list). A native <select> lives in the sticky header rather than inside the
+                TabsContent panel: Base UI's Tabs.Panel wraps content in an animated/transformed
+                element, which already broke a plain `sticky` nav once before (see the Notes-tab
+                history above) — putting the jump control in the header sidesteps that bug
+                entirely, since the header is a real, always-sticky element outside any tab panel.
+                A native select (not a custom dropdown) needs no new component, opens the OS's own
+                picker on mobile, and there's no shadcn Select/DropdownMenu in this project yet to
+                reach for instead. */}
+            {tab === "full" && (
+              <select
+                aria-label="Jump to section"
+                defaultValue=""
+                onChange={(e) => {
+                  document.getElementById(e.target.value)?.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+                className="h-7 max-w-24 shrink truncate rounded-md border bg-background px-1.5 text-xs sm:max-w-40"
+              >
+                <option value="" disabled>
+                  Jump to section…
+                </option>
+                {guide.sections.map((s) => (
+                  <option key={s.id} value={s.id}>
+                    {s.title}
+                  </option>
+                ))}
+              </select>
+            )}
             <DownloadTabButton tab={tab} guide={guide} questions={questions} topicId={topicId} />
             <TabsList className="mx-0 overflow-x-auto">
               <IconTabTrigger value="full" icon={<BookOpenText className="size-4" />} label="Full Guide" />
@@ -802,7 +831,7 @@ export function StudyGuideView({
         <Paper>
           <div className="space-y-10">
             {guide.sections.map((section) => (
-              <div key={section.id}>
+              <div key={section.id} id={section.id} className="scroll-mt-16">
                 <SectionHeading section={section} />
                 <div className="mt-4 space-y-6">
                   {section.intro && (

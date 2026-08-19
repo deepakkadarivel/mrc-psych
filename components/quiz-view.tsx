@@ -70,7 +70,7 @@ function QuizReview({
 
   return (
     <div className="h-full overflow-y-auto">
-      <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-6 pb-3">
+      <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-4 pb-3 sm:p-6 sm:pb-3">
         <div className="flex items-center justify-between">
           <h1 className="text-lg font-semibold">Review — {topicTitle}</h1>
           <Button variant="outline" size="sm" onClick={onExit}>
@@ -86,7 +86,7 @@ function QuizReview({
           <Badge variant="outline">{q.format}</Badge>
         </div>
 
-        <div className="flex gap-1 overflow-x-auto pb-1">
+        <div className="flex gap-1.5 overflow-x-auto pb-1 sm:gap-1">
           {questions.map((qq, i) => {
             const qCorrect = isCorrect(qq, answers[i]);
             return (
@@ -95,7 +95,7 @@ function QuizReview({
                 onClick={() => goTo(i)}
                 aria-label={`Go to question ${i + 1}`}
                 className={cn(
-                  "flex size-7 shrink-0 items-center justify-center rounded-md border text-xs font-medium text-white",
+                  "flex size-8 shrink-0 items-center justify-center rounded-md border text-xs font-medium text-white sm:size-7",
                   i === index && "ring-2 ring-primary ring-offset-1",
                   qCorrect ? "border-green-600 bg-green-600" : "border-red-600 bg-red-600"
                 )}
@@ -107,7 +107,7 @@ function QuizReview({
         </div>
       </div>
 
-      <div className="mx-auto max-w-2xl space-y-4 p-6 pt-0">
+      <div className="mx-auto max-w-2xl space-y-4 p-4 pt-0 sm:p-6 sm:pt-0">
         <p className="whitespace-pre-line text-base">{q.stem}</p>
 
         {isSba ? (
@@ -271,7 +271,7 @@ export function QuizView({
       );
     }
     return (
-      <div className="mx-auto max-w-lg p-6 text-center space-y-4">
+      <div className="mx-auto max-w-lg space-y-4 p-4 text-center sm:p-6">
         <h1 className="text-2xl font-semibold">Done</h1>
         <p className="text-lg">
           {finalScore} / {questions.length} correct
@@ -290,7 +290,7 @@ export function QuizView({
 
   return (
     <div className="h-full overflow-y-auto">
-      <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-6 pb-3">
+      <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-4 pb-3 sm:p-6 sm:pb-3">
         <Progress value={((progress.index + 1) / questions.length) * 100} />
         <div className="flex items-center justify-between text-sm text-muted-foreground">
           <span>
@@ -299,7 +299,7 @@ export function QuizView({
           <Badge variant="outline">{q.format}</Badge>
         </div>
 
-        <div className="flex gap-1 overflow-x-auto pb-1">
+        <div className="flex gap-1.5 overflow-x-auto pb-1 sm:gap-1">
           {questions.map((qq, i) => {
             const a = progress.answers[i];
             const answered = isAnswered(qq, a);
@@ -314,7 +314,7 @@ export function QuizView({
                 onClick={() => goTo(i)}
                 aria-label={`Go to question ${i + 1}`}
                 className={cn(
-                  "flex size-7 shrink-0 items-center justify-center rounded-md border text-xs font-medium",
+                  "flex size-8 shrink-0 items-center justify-center rounded-md border text-xs font-medium sm:size-7",
                   i === progress.index && "ring-2 ring-primary",
                   evaluated
                     ? correct
@@ -332,7 +332,7 @@ export function QuizView({
         </div>
       </div>
 
-      <div className="mx-auto max-w-2xl space-y-4 p-6 pt-0">
+      <div className="mx-auto max-w-2xl space-y-4 p-4 pt-0 sm:p-6 sm:pt-0">
         <p className="whitespace-pre-line text-base">{q.stem}</p>
 
         {isSba ? (

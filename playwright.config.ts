@@ -15,7 +15,12 @@ export default defineConfig({
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },
-  projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
+  projects: [
+    { name: "chromium", use: { ...devices["Desktop Chrome"] } },
+    // Runs the same suite at a real mobile viewport — this app is mobile-first, so "no horizontal
+    // scroll" / drawer / tab assertions need to hold there too, not just on desktop.
+    { name: "mobile-chrome", use: { ...devices["Pixel 5"] } },
+  ],
   webServer: {
     command: `pnpm run predev && next dev --port ${PORT}`,
     url: `http://localhost:${PORT}`,
