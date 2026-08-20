@@ -282,7 +282,12 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
 function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Cite }) {
   return (
     <div className="overflow-hidden rounded-lg border border-[#7D3C98] shadow-sm">
-      <div className="flex flex-wrap items-center justify-between gap-2 bg-[#7D3C98] px-4 py-2.5">
+      {/* Mobile-first stack: a long mnemonic phrase used to compete with the citation/badge in one
+          `justify-between` row, and when it wrapped, `flex-wrap` left the badge stranded alone on
+          its own line at the start edge instead of staying tidy next to the title. Stacking by
+          default and only going side-by-side at sm: (where there's room) is deliberate, not
+          incidental wrap behavior. */}
+      <div className="flex flex-col items-start gap-2 bg-[#7D3C98] px-4 py-2.5 sm:flex-row sm:items-center sm:justify-between">
         <span className="flex items-center gap-2 text-base font-bold text-white">
           <Lightbulb className="size-4 shrink-0" />
           {block.mnemonic}
