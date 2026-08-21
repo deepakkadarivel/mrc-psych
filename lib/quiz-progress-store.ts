@@ -1,3 +1,5 @@
+import { supabase } from "@/lib/supabase-client";
+
 export interface QuizAnswer {
   selected: string | null;
   revealed: boolean;
@@ -10,8 +12,6 @@ export interface QuizProgress {
   answers: QuizAnswer[];
 }
 
-const keyFor = (quizId: string) => `mrcpsych-quiz-progress-${quizId}`;
-
 function freshProgress(questionCount: number): QuizProgress {
   return {
     index: 0,
@@ -19,28 +19,31 @@ function freshProgress(questionCount: number): QuizProgress {
   };
 }
 
-/** questionCount guards against stale progress from a previous version of this quiz's content. */
-export function loadQuizProgress(quizId: string, questionCount: number): QuizProgress {
-  if (typeof window !== "undefined") {
-    try {
-      const raw = localStorage.getItem(keyFor(quizId));
-      if (raw) {
-        const parsed = JSON.parse(raw) as QuizProgress;
-        if (parsed.answers?.length === questionCount) return parsed;
-      }
-    } catch {
-      // fall through to a fresh progress below
-    }
+/** Callers are gated behind sign-in by components/app-shell.tsx. */
+export async function loadQuizProgress(quizId: string, questionCount: number): Promise<QuizProgress> {
+  const { data, error } = await supabase
+    .from("quiz_progress")
+    .select("index, answers")
+    .eq("quiz_id", quizId)
+    .maybeSingle();
+  if (error) throw error;
+  if (data && (data.answers as QuizAnswer[]).length === questionCount) {
+    return { index: data.index, answers: data.answers as QuizAnswer[] };
   }
   return freshProgress(questionCount);
 }
 
-export function saveQuizProgress(quizId: string, progress: QuizProgress): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(keyFor(quizId), JSON.stringify(progress));
+export async function saveQuizProgress(quizId: string, progress: QuizProgress): Promise<void> {
+  const { data: userData } = await supabase.auth.getUser();
+  const userId = userData.user?.id;
+  if (!userId) throw new Error("Not signed in");
+  const { error } = await supabase
+    .from("quiz_progress")
+    .upsert({ user_id: userId, quiz_id: quizId, index: progress.index, answers: progress.answers });
+  if (error) throw error;
 }
 
-export function clearQuizProgress(quizId: string): void {
-  if (typeof window === "undefined") return;
-  localStorage.removeItem(keyFor(quizId));
+export async function clearQuizProgress(quizId: string): Promise<void> {
+  const { error } = await supabase.from("quiz_progress").delete().eq("quiz_id", quizId);
+  if (error) throw error;
 }

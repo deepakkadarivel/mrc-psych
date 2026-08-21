@@ -8,7 +8,7 @@ export default function TrackerPage() {
   const [entries, setEntries] = useState<TrackerEntry[]>([]);
 
   useEffect(() => {
-    setEntries(trackerStore.getEntries());
+    trackerStore.getEntries().then(setEntries);
   }, []);
 
   const byTopic = new Map<string, { attempts: number; lastTwoPct: number[] }>();

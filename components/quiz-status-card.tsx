@@ -80,7 +80,7 @@ export function QuizStatusCard({
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    setStatus(getQuizStatus(quizId, total));
+    getQuizStatus(quizId, total).then(setStatus);
   }, [quizId, total]);
 
   const hasAttempts = status.attempts.length > 0;

@@ -1,3 +1,5 @@
+import { supabase } from "@/lib/supabase-client";
+
 export interface TrackerEntry {
   id: string;
   date: string; // ISO
@@ -8,30 +10,48 @@ export interface TrackerEntry {
   missedQuestionIds: string[];
 }
 
-export interface TrackerStore {
-  addEntry(entry: TrackerEntry): void;
-  getEntries(): TrackerEntry[];
+interface TrackerRow {
+  id: string;
+  date: string;
+  topic: string;
+  score: number;
+  total: number;
+  missed_question_ids: string[];
 }
 
-const STORAGE_KEY = "mrcpsych-tracker-entries";
+const fromRow = (r: TrackerRow): TrackerEntry => ({
+  id: r.id,
+  date: r.date,
+  topic: r.topic,
+  score: r.score,
+  total: r.total,
+  missedQuestionIds: r.missed_question_ids,
+});
 
-/** localStorage now; swap for a SupabaseTrackerStore behind this same interface once
- * credentials are provided — see CLAUDE.md. Don't build the Supabase side speculatively. */
-class LocalTrackerStore implements TrackerStore {
-  getEntries(): TrackerEntry[] {
-    if (typeof window === "undefined") return [];
-    try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
-    } catch {
-      return [];
-    }
-  }
+/** Callers are gated behind sign-in by components/app-shell.tsx. */
+export const trackerStore = {
+  async getEntries(): Promise<TrackerEntry[]> {
+    const { data, error } = await supabase
+      .from("tracker_entries")
+      .select("id, date, topic, score, total, missed_question_ids")
+      .order("date", { ascending: true });
+    if (error) throw error;
+    return (data as TrackerRow[]).map(fromRow);
+  },
 
-  addEntry(entry: TrackerEntry): void {
-    const entries = this.getEntries();
-    entries.push(entry);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
-  }
-}
-
-export const trackerStore: TrackerStore = new LocalTrackerStore();
+  async addEntry(entry: TrackerEntry): Promise<void> {
+    const { data: userData } = await supabase.auth.getUser();
+    const userId = userData.user?.id;
+    if (!userId) throw new Error("Not signed in");
+    const { error } = await supabase.from("tracker_entries").insert({
+      id: entry.id,
+      user_id: userId,
+      date: entry.date,
+      topic: entry.topic,
+      score: entry.score,
+      total: entry.total,
+      missed_question_ids: entry.missedQuestionIds,
+    });
+    if (error) throw error;
+  },
+};

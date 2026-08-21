@@ -211,13 +211,30 @@ export function QuizView({
   const [finished, setFinished] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
   const [reviewing, setReviewing] = useState(false);
+  const [finishing, setFinishing] = useState(false);
+  const [finishError, setFinishError] = useState<string | null>(null);
 
   // Resume saved progress client-side only, after the deterministic first paint, to avoid a
   // hydration mismatch against the static-exported HTML (see CLAUDE.md's usePortalSlot note for
   // the same pattern elsewhere in this app).
+  //
+  // `cancelled` guards against React Strict Mode's dev-only double effect invocation (mount →
+  // cleanup → remount): both invocations kick off a real loadQuizProgress() fetch, and without
+  // this guard whichever one resolves *last* unconditionally wins via setProgress(p), even if
+  // that's the stale first invocation resolving after the user already answered a question under
+  // the second, real one. Confirmed via a Playwright trace as the actual cause of an intermittent
+  // e2e failure: a clicked, visually-checked radio silently reverting because a late duplicate
+  // load overwrote the fresh answer with the empty progress it had fetched moments earlier.
   useEffect(() => {
-    setProgress(loadQuizProgress(topicId, questions.length));
-    setLoaded(true);
+    let cancelled = false;
+    loadQuizProgress(topicId, questions.length).then((p) => {
+      if (cancelled) return;
+      setProgress(p);
+      setLoaded(true);
+    });
+    return () => {
+      cancelled = true;
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [topicId]);
 
@@ -241,20 +258,37 @@ export function QuizView({
     setProgress((p) => ({ ...p, index: Math.max(0, Math.min(questions.length - 1, index)) }));
   }
 
-  function finish() {
+  async function finish() {
+    setFinishing(true);
+    setFinishError(null);
     const correctCount = progress.answers.filter((a, i) => isCorrect(questions[i], a)).length;
     const missedQuestionIds = questions.filter((qq, i) => !isCorrect(qq, progress.answers[i])).map((qq) => qq.id);
-    trackerStore.addEntry({
-      id: `${topicId}-${Date.now()}`,
-      date: new Date().toISOString(),
-      topic: topicId,
-      score: correctCount,
-      total: questions.length,
-      missedQuestionIds,
-    });
-    clearQuizProgress(topicId);
+    try {
+      await trackerStore.addEntry({
+        id: `${topicId}-${Date.now()}`,
+        date: new Date().toISOString(),
+        topic: topicId,
+        score: correctCount,
+        total: questions.length,
+        missedQuestionIds,
+      });
+      await clearQuizProgress(topicId);
+    } catch {
+      setFinishing(false);
+      setFinishError("Couldn't save this attempt — check your connection and try again.");
+      return;
+    }
+    setFinishing(false);
     setFinalScore(correctCount);
     setFinished(true);
+  }
+
+  // Gate interaction until the saved progress fetch resolves — loadQuizProgress is a real
+  // network round-trip now (Supabase, not localStorage), so answering during that window would
+  // race with it: the fetch's setProgress(freshProgress) below would silently overwrite an
+  // answer the user had already picked.
+  if (!loaded) {
+    return <div className="p-4 text-sm text-muted-foreground sm:p-6">Loading…</div>;
   }
 
   if (finished) {
@@ -340,14 +374,16 @@ export function QuizView({
           // (see quiz-status-card.tsx / lib/quiz-status.ts, which key off the current selection,
           // not whether it was ever locked in).
           //
-          // key={loaded}: Base UI's RadioGroup decides controlled-vs-uncontrolled from its very
-          // first render. Before saved progress loads, `value` is undefined, so the group locks
-          // into "uncontrolled" and then ignores the resume effect's later value push — the
-          // radio's data-checked attribute never updates on its own, only after a real click
-          // re-syncs it (confirmed via the DOM: aria-checked stays correct, data-checked doesn't
-          // update, until interacted with). Remounting once `loaded` flips true gives the group a
-          // fresh first render with the correct value already in place.
-          <RadioGroup key={String(loaded)} value={answer.selected ?? undefined} onValueChange={(v) => updateAnswer({ selected: v })}>
+          // value uses "" rather than undefined for "unanswered": Base UI's RadioGroup decides
+          // controlled-vs-uncontrolled from its very first render and logs a console error if
+          // that ever flips later ("changing the uncontrolled value state... to be controlled").
+          // An unanswered question's first render passed `undefined` (uncontrolled), then the
+          // first click passed a real string (controlled) — confirmed via a Playwright trace as
+          // the actual cause of an intermittent bug where a clicked-and-visually-checked radio
+          // never updated `answer.selected`, leaving "Reveal answer" permanently disabled. "" is
+          // never a real option value, so it's controlled from the first render onward and never
+          // matches a RadioGroupItem (nothing shows selected), while staying properly reactive.
+          <RadioGroup value={answer.selected ?? ""} onValueChange={(v) => updateAnswer({ selected: v })}>
             {q.options.map((opt) => (
               <label key={opt} className="flex items-center gap-2 rounded-md border p-2 text-sm">
                 <RadioGroupItem value={opt} />
@@ -405,13 +441,15 @@ export function QuizView({
           </div>
         )}
 
+        {finishError && <p className="text-sm text-destructive">{finishError}</p>}
+
         <div className="flex items-center justify-between pt-2">
           <Button variant="outline" size="sm" disabled={progress.index === 0} onClick={() => goTo(progress.index - 1)}>
             <ChevronLeftIcon className="size-4" />
             Prev
           </Button>
-          <Button size="sm" variant="secondary" onClick={finish}>
-            Finish quiz
+          <Button size="sm" variant="secondary" onClick={finish} disabled={finishing}>
+            {finishing ? "Saving…" : "Finish quiz"}
           </Button>
           <Button
             variant="outline"

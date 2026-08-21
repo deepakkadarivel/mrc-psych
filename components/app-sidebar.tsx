@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/sidebar";
 import { StatMcqNav } from "@/components/stat-mcq-nav";
 import { TopicSidebarSearch } from "@/components/topic-sidebar-search";
+import { AuthStatus } from "@/components/auth-status";
 import { getManifest, getStatMcqTopics } from "@/lib/content";
 
 export function AppSidebar() {
@@ -82,6 +83,7 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
+      <AuthStatus />
     </Sidebar>
   );
 }
