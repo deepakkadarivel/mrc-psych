@@ -7,7 +7,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Between 2000-2050 the proportion of the world's population over 60 will double from ~==11%== to ~==22%==. In the **UK**, 10 million people are over 65 (one sixth of the population), projected to reach 19 million (one quarter) by 2050; 3 million are over 80.",
+          "text": "Between 2000-2050 the proportion of the world's population over 60 will double from ~==11%== to ~==22%==, with the absolute number rising from **605 million to 2 billion**. In the **UK**, 10 million people are over 65 (one sixth of the population), projected to reach 19 million (one quarter) by 2050; 3 million are over 80. Average spending for retired households is **nearly double** that of non-retired households.",
           "source": {
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 2
@@ -20,6 +20,30 @@
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 2
           }
+        },
+        {
+          "type": "table",
+          "title": "RCPsych Needs-Based Criteria for Older People's Mental Health Services",
+          "columns": [
+            "Criterion"
+          ],
+          "rows": [
+            [
+              "People of any age with a primary dementia"
+            ],
+            [
+              "People with mental disorder **and** physical illness/frailty that contributes to or complicates management of their mental illness (may include people under 65)"
+            ],
+            [
+              "People with psychological/social difficulties related to the ageing process or end-of-life issues, or who feel their needs may be best met by an older people's service — **this would normally include people over the age of 70**"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 2
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -129,6 +153,14 @@
         {
           "type": "paragraph",
           "text": "Charles Bonnet syndrome (visual hallucinations without psychotic symptoms) is most commonly associated with macular degeneration, also cataracts and diabetic retinopathy. Auditory impairment has been associated with psychotic symptoms in the elderly.",
+          "source": {
+            "file": "books/8-1-old-age-psychiatry.pdf",
+            "page": 4
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Emotional reaction to illness**: reaction to physical illness depends on premorbid personality, perceived threat of the illness, treatment required and treatment experience. Anxious individuals may develop pathological anxiety due to an increased focus on and morbid interpretation of physical sensations. **Metabolic changes** during illness — dehydration, electrolyte imbalance, endocrine changes and infection — can all accentuate or produce affective symptoms. Adjustment disorders are common following physical illness and, by their nature, are transient.",
           "source": {
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 4
@@ -1326,6 +1358,15 @@
           "highYield": true
         },
         {
+          "type": "trap",
+          "text": "**Hachinski score discrepancy**: the source book marks only Abrupt onset, Fluctuating course, Focal neurological symptoms and Focal neurological signs with \"(2)\" and states \"unless marked, each item scores one point\" — by that literal wording, **History of strokes scores 1**, not the 2 shown in the table above (which follows the standard, widely-published Hachinski Ischaemic Score that does weight prior stroke at 2). A question drawn directly from this book's wording could expect 1 point; one drawn from the general scale could expect 2 — know both.",
+          "format": "Both",
+          "source": {
+            "file": "books/8-1-old-age-psychiatry.pdf",
+            "page": 5
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Three clinical subtypes: cognitive deficits after a single stroke (more often midbrain/thalamic, may remain fixed or recover); multi-infarct dementia (stepwise deterioration, minor ischaemic episodes, periods of stability); progressive small vessel disease/Binswanger's disease (subcortical dementia, slow decline, generalised slowing, gait disturbance/dysarthria; **MRI** shows lacunae or leukoaraiosis).",
           "source": {
@@ -1687,6 +1728,14 @@
           "source": {
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "People with early **LBD**/**PD** dementia generally have **less severe** visual and verbal memory deficits but **more marked executive dysfunction** (planning, reasoning, sequencing) than people with **AD**; apraxia, dysphasia, alexia, agraphia, anomia and acalculia are also less pronounced than in **AD**. Even **non-demented** **PD** patients show neuropsychological impairment, mainly in visuospatial tasks and shifting cognitive sets, as measured by the **Wisconsin Card Sorting Test** or the **Stroop Test**. **PD** dementia impairs quality of life, worsens carer distress, increases the likelihood of residential care and **doubles mortality** (Burn & McKeith 2003).",
+          "source": {
+            "file": "books/8-1-old-age-psychiatry.pdf",
+            "page": 17
           }
         },
         {
@@ -2162,6 +2211,50 @@
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 24
           }
+        },
+        {
+          "type": "table",
+          "title": "Summary of Depression Scales",
+          "columns": [
+            "Scale",
+            "Key feature"
+          ],
+          "rows": [
+            [
+              "Geriatric Depression Scale",
+              "15 items, ~4-5 min, avoids somatic questions (good for older patients); score >5 suggests depressive illness"
+            ],
+            [
+              "BASDEC (Brief Assessment Schedule Depression Cards)",
+              "Card-based statements answered true/false; designed for liaison psychiatry, particularly useful for deaf patients"
+            ],
+            [
+              "Hamilton Rating Scale",
+              "General adult scale with somatic items, less appropriate for older subjects; quantifies but does not diagnose depression"
+            ],
+            [
+              "MADRS (Montgomery-Åsberg Depression Rating Scale)",
+              "Sensitive to change in depressive illness; not reliably answered by patients with dementia"
+            ],
+            [
+              "Depressive Sign Scale",
+              "9 items, helps detect depression in people with dementia"
+            ],
+            [
+              "CSDD (Cornell Scale for Depression in Dementia)",
+              "**Best-validated scale for depression in dementia** (better in mild/moderate than severe); interviewer-administered using patient + informant information"
+            ],
+            [
+              "PHQ-9 (Patient Health Questionnaire)",
+              "9-item self-report, widely used in UK primary care, sensitive to change; probably less validated in older subjects"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/8-1-old-age-psychiatry.pdf",
+              "page": 24
+            }
+          ]
         }
       ],
       "concise": {
@@ -2784,7 +2877,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Neurotic disorder prevalence is 1-==10%== with female predominance. Anxiety disorders are the most prevalent psychiatric disorders excluding dementia, but prevalence decreases with age; phobic disorder is the most prevalent anxiety disorder (fear of falling is common), while panic disorder is the least common. Non-specific anxiety, hypochondriacal and depressive symptoms predominate; obsessional, phobic, dissociative and conversion disorders are less common. **Fluoxetine** (**GAD**, **PTSD**), **citalopram** (panic), **paroxetine** (**GAD**, **PTSD**) and **venlafaxine** (**GAD**) are **UK**-licensed for anxiety disorders in this context, with a warning of transient anxiety increase in the first 1-2 weeks.",
+          "text": "Neurotic disorder prevalence is 1-==10%== with female predominance. Anxiety disorders are the most prevalent psychiatric disorders excluding dementia, but prevalence decreases with age; phobic disorder is the most prevalent anxiety disorder (fear of falling is common), while panic disorder is the least common. Non-specific anxiety, hypochondriacal and depressive symptoms predominate; obsessional, phobic, dissociative and conversion disorders are less common. **Fluoxetine** (**GAD**, **PTSD**), **citalopram** (panic), **paroxetine** (**GAD**, **PTSD**) and **venlafaxine** (**GAD**) are **UK**-licensed for anxiety disorders in this context, with a warning of transient anxiety increase in the first 1-2 weeks. Most cases of agoraphobia developing after age 65 are **not** panic-induced, but arise following an alarming experience of physical ill health.",
           "source": {
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 24
@@ -2792,7 +2885,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Older people encounter alcohol problems at lower intake levels than the general population owing to physical/cognitive ageing, pharmacokinetic change and comorbidity/medication interactions; most guidelines recommend no more than one drink/day. Men are >2x as likely as women to exceed weekly safe-drinking limits, but women report more late-onset problems; widowed/divorced men are more likely to drink heavily, while among women it is those who are married who have the highest consumption.",
+          "text": "Older people encounter alcohol problems at lower intake levels than the general population owing to physical/cognitive ageing, pharmacokinetic change and comorbidity/medication interactions; the general-population 'safe-drinking' levels (**21 units/week for men, 14 for women**) may be inappropriately high for older people, and most guidelines recommend no more than one drink/day instead. Men are >2x as likely as women to exceed weekly safe-drinking limits, but women report more late-onset problems; widowed/divorced men are more likely to drink heavily, while among women it is those who are married who have the highest consumption.",
           "source": {
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 24
@@ -2827,7 +2920,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Late-onset alcohol problems are more receptive to treatment and more likely to remit spontaneously than early-onset problems. **Disulfiram** should generally be avoided in the elderly (risk of acute confusional state) and is contraindicated with hypertension, cardiac failure, stroke or ischaemic heart disease; **acamprosate** and **naltrexone** are the other relapse-prevention options, and **thiamine** should be given to prevent Wernicke-Korsakoff syndrome.",
+          "text": "**Chlordiazepoxide** can be used to treat withdrawal symptoms. Late-onset alcohol problems are more receptive to treatment and more likely to remit spontaneously than early-onset problems. **Disulfiram** should generally be avoided in the elderly (risk of acute confusional state) and is contraindicated with hypertension, cardiac failure, stroke or ischaemic heart disease; **acamprosate** and **naltrexone** are the other relapse-prevention options, and **thiamine** should be given to prevent Wernicke-Korsakoff syndrome.",
           "source": {
             "file": "books/8-1-old-age-psychiatry.pdf",
             "page": 24
@@ -2984,10 +3077,10 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Overall prevalence of personality disorder in older people is 5-==10%==; cautiousness, obsessionality and introversion tend to increase with age (Howard & Bergmann 1993). Abrams et al's (1999) meta-analytic review of 30 studies found little difference in **PD** prevalence/cluster distribution between <50 and >50 age groups, though a British community study (Cohen 1994) found older subjects significantly less likely to have any **PD** (==6.6%== vs ==10.5%==, **OR** 0.42), almost entirely due to a threefold higher Cluster B prevalence (especially antisocial and histrionic) in younger cohorts — the highest single elderly **PD** prevalence was obsessive-compulsive **PD** at ==3.3%==. Diagnostic criteria are age-biased, requiring evidence of dysfunction from younger ages that may not be available.",
+          "text": "Overall prevalence of personality disorder in older people is 5-==10%==; cautiousness, obsessionality and introversion tend to increase with age (Howard & Bergmann 1993). Abrams et al's (1999) meta-analytic review of 30 studies found little difference in **PD** prevalence/cluster distribution between <50 and >50 age groups, though a British community study (Cohen 1994) found older subjects significantly less likely to have any **PD** (==6.6%== vs ==10.5%==, **OR** 0.42), almost entirely due to a threefold higher Cluster B prevalence (especially antisocial and histrionic) in younger cohorts — the highest single elderly **PD** prevalence was obsessive-compulsive **PD** at ==3.3%==. Diagnostic criteria are age-biased, requiring evidence of dysfunction from younger ages that may not be available. Psychopathy is said to burn out with advancing age, and criminal behaviour is rare in the elderly (~1% of male offenders are >60 years).",
           "source": {
             "file": "books/8-1-old-age-psychiatry.pdf",
-            "page": 24
+            "page": 35
           }
         },
         {
