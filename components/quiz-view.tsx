@@ -385,7 +385,13 @@ export function QuizView({
           // matches a RadioGroupItem (nothing shows selected), while staying properly reactive.
           <RadioGroup value={answer.selected ?? ""} onValueChange={(v) => updateAnswer({ selected: v })}>
             {q.options.map((opt) => (
-              <label key={opt} className="flex items-center gap-2 rounded-md border p-2 text-sm">
+              <label
+                key={opt}
+                className={cn(
+                  "flex items-center gap-2 rounded-md border p-2 text-sm",
+                  answer.revealed && opt === q.correctAnswer && "border-[#1F7A6C] bg-[#E9F3F0] text-[#123D35]"
+                )}
+              >
                 <RadioGroupItem value={opt} />
                 {opt}
               </label>
