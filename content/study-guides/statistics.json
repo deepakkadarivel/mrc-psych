@@ -1,5 +1,1245 @@
 {
   "topic": "statistics",
+  "mindMap": [
+    {
+      "label": "Variables & Data",
+      "children": [
+        {
+          "label": "Qualitative: nominal (named, no order) / ordinal (ordered, unequal intervals); Quantitative: discrete (counts) / continuous",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "label": "Interval data: meaningful difference, no true zero (e.g. °C)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "label": "Ratio data: true zero → ratios meaningful (e.g. height, weight)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "label": "Levels of Measurement — What Each Permits",
+          "children": [
+            {
+              "label": "Nominal → frequency/mode only",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Ordinal → adds median",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Interval → adds sum/mean",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Ratio → adds ratio-based measures (e.g. **RR**)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Mediator (C): statistically explains part (partial) or all (complete) of A's effect on B — but cannot cause outcome B directly on its own",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "label": "**SPMM** rule of thumb: nominal/ordinal → non-parametric tests; interval/ratio → parametric tests",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 1
+          }
+        }
+      ]
+    },
+    {
+      "label": "Describing Data — Central Tendency & Dispersion",
+      "children": [
+        {
+          "label": "Measures of Central Tendency",
+          "children": [
+            {
+              "label": "Mean — uses all data, most sensitive to outliers/skew",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Median — 50th percentile, less influenced by extremes",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Mode — most frequent value, most stable against outliers",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Skew & Central-Tendency Ordering",
+          "children": [
+            {
+              "label": "Symmetric distribution: mean = median = mode",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Positive (right) skew: mean > median > mode",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Negative (left) skew: mean < median < mode",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "**Trap**: in positive skew most VALUES sit to the LEFT of the mean — the mean is pulled right by a few extreme high values",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Describing Data_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "Measures of Dispersion",
+          "children": [
+            {
+              "label": "Interquartile range = 75th − 25th percentile (middle ==50%==)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "**SD** = √variance, same units as original data",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "**SEM** = **SD**/√n — precision of the sample mean, always < **SD**",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Coefficient of variation = **SD**/mean (×==100%==) — compares relative spread of differently-scaled variables",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Describing Data — Normal Distribution, SEM & CLT",
+      "children": [
+        {
+          "label": "Normal distribution: bell-shaped, symmetric (skew=0), mean=median=mode, kurtosis=0, tails never touch the x-axis",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "SD Bands (irrespective of the mean's value)",
+          "children": [
+            {
+              "label": "±1 **SD** contains ==68%== of data",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "±2 **SD** contains ==95%== of data",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "±3 **SD** contains ==99%== of data",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            }
+          ]
+        },
+        {
+          "label": "z-score: z = (x − mean)/**SD**",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Central Limit Theorem: for n≥30 (rule of thumb), the distribution of sample **MEANS** from any population approaches normal",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "**SEM** = **SD** of the distribution of sample means; formula **SD**/√n",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Larger sample size → smaller **SEM** → sample mean closer to the true population mean",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        }
+      ]
+    },
+    {
+      "label": "Describing Data — Odds & Probabilities",
+      "children": [
+        {
+          "label": "Probability = frequency of event / total trials; ranges 0 to 1 (0–==100%==)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Odds = frequency of event occurring / frequency of NOT occurring",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Odds ↔ Probability",
+          "children": [
+            {
+              "label": "P = O/(1+O)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "O = P/(1−P)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            }
+          ]
+        },
+        {
+          "label": "**Trap**: odds for a ==90%== event rate = 0.9/0.1 = 9 — NOT 0.9 or 0.1",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Odds & Probabilities_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "label": "Probability Combination Rules",
+          "children": [
+            {
+              "label": "Addition (mutually exclusive): P(X or Y) = P(X) + P(Y)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Addition (non-mutually-exclusive): P(X or Y) = P(X) + P(Y) − P(X and Y)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Multiplication (independent events): P(X and Y) = P(X) × P(Y)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Describing Data — Population & Sample",
+      "children": [
+        {
+          "label": "Population-to-sample chain: target population → source population/sampling frame → eligible population → study entrants → study participants/completers",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Sampling error = measurable gap between sample estimate and true population value — distinct from bias",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Random (Probability) Sampling",
+          "children": [
+            {
+              "label": "Simple random — numbered list + random draw",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Stratified random — divided into strata then randomly sampled; ensures small subgroups represented",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Cluster random — whole pre-existing groups randomly selected, ALL members included",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Multi-stage — clusters selected randomly, THEN individuals randomly sub-sampled within each",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            }
+          ]
+        },
+        {
+          "label": "Non-Random ('Non-Probability') Sampling",
+          "children": [
+            {
+              "label": "Quota sampling — stratify then non-randomly pick a set number per stratum",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Convenience sampling — whoever is accessible",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Volunteer sampling — self-selected, may differ systematically",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Snowball sampling — for hard-to-reach groups, one participant recruits the next",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "Purposive sampling — deliberately selected for qualitative research objectives",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 10
+              }
+            }
+          ]
+        },
+        {
+          "label": "Sampling with replacement can re-select the same unit; without replacement removes it after selection",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 10
+          }
+        }
+      ]
+    },
+    {
+      "label": "Inferential Statistics — Hypothesis Testing, Errors & Power",
+      "children": [
+        {
+          "label": "**H0** = no difference/effect (tests try to reject it); one-tailed **H1** specifies direction, two-tailed only that a difference exists (more rigorous, preferred in clinical trials)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Type 1 vs Type 2 Error & Power",
+          "children": [
+            {
+              "label": "Type 1 error (α): incorrectly rejecting a true **H0** — capped at 0.05",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Type 2 error (β): incorrectly accepting a false **H0** — conventionally 0.2",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Power (1−β): ability to detect a true difference — conventional target ==80%==",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "Lowering type 1 error generally raises type 2 error, and vice versa",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "'Power calculation' = a sample-size calculation from α, power, effect size, and variance; standardised difference = (target mean difference)/**SD**",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "MCQ Traps — Remember These!",
+          "children": [
+            {
+              "label": "One-tailed test justified for in-utero famine → schizophrenia specifically because direction was already predicted — not sample size or distribution shape",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 9
+              }
+            },
+            {
+              "label": "Recruiting fewer patients than the pre-calculated sample size raises the chance of a **TYPE** 2 error — NOT type 1 error",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 13
+              }
+            },
+            {
+              "label": "p-value does NOT indicate the probability **H0** is false — it is the probability of the observed (or more extreme) data IF **H0** is true",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 15
+              }
+            }
+          ]
+        },
+        {
+          "label": "Bonferroni correction: new α = usual α / number of tests — rigorous but prone to false negatives; **FDR** controls the expected PROPORTION of false positives instead",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "**EMI trap**: a null **RCT** contradicting strong prior belief is best labelled a **TYPE** 2 error possibility; sibling controls in a bonding study cause **SELECTION** bias that UNDERESTIMATES the true association",
+          "source": {
+            "file": "question_bank/Advanced Statstics/EMIs Statistics_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 8
+          }
+        }
+      ]
+    },
+    {
+      "label": "Inferential Statistics — Confidence Intervals & Effect Size",
+      "children": [
+        {
+          "label": "A ==95%== **CI** is the range within which we are ==95%== confident the TRUE population value lies — NOT that ==95%== of the population falls in it",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "**Trap**: **OR** 2.00, ==95%== **CI** 1.48–2.70 — cannot estimate degree of bias, but the **CI** DOES show effect size (~2-fold); 'none of the listed inferences' was correct",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Making Inferences_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 18
+          }
+        },
+        {
+          "label": "CI — 'Value of No Difference' by Measure",
+          "children": [
+            {
+              "label": "**OR** / Relative risk: 1",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Absolute risk reduction / Relative risk reduction: 0",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "**NNT**: infinity",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "If the **CI** crosses the value of no difference, the result is not statistically significant",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Effect size (**ES**) = standardised difference, independent of sample size; Cohen's d = (**M1**−**M2**)/**SD**",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "**ES** of 1 → average experimental-group subject exceeds ~==84%== of controls (**CLES**)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Cohen's d — Effect Size Bands",
+          "children": [
+            {
+              "label": "Small: d = 0.2",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Medium: d = 0.5",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Large: d = 0.8",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reliability & Validity — Kappa Statistics",
+      "children": [
+        {
+          "label": "Reliability Types",
+          "children": [
+            {
+              "label": "Test-retest — same instrument/people, 2–14 days apart in psychiatry",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Cronbach's alpha — internal consistency, conventional cut-off ≥0.70",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "**ICC** — 0.6 fair, 0.8 very good, 0.9 excellent; relative **ICC** always ≥ absolute **ICC**",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "Validity Types",
+          "children": [
+            {
+              "label": "Content validity — expert judgement of domain coverage, not usually statistically testable",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Predictive validity — predicts a FUTURE outcome (incremental validity = explains variance ABOVE other measures)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Convergent validity — agrees with a DIFFERENT test of the SAME construct",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Discriminant validity — disagrees with a test of a DIFFERENT construct",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "Precision (repeatability, ~reliability) vs. accuracy (closeness to true value, ~validity); bias compromises accuracy/validity",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Kappa = (observed agreement − chance-expected agreement) / (==100%== − chance-expected agreement); prevalence-dependent, significance not directly testable",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Kappa — Interpretation Bands",
+          "children": [
+            {
+              "label": "0–0.2: Slight",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "0.4–0.6: Moderate",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "0.6–0.8: Substantial",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "0.8–1.0: Almost perfect",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "MCQ Traps — Remember These!",
+          "children": [
+            {
+              "label": "Weighted kappa suits ORDINAL data (accounts for degree of disagreement) — not just 'categorical, non-binary'",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+                "page": 33,
+                "questionNumber": 31
+              }
+            },
+            {
+              "label": "Paper A vs Paper B score correlation tests **CONVERGENT** validity (same construct), not predictive validity",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 14
+              }
+            },
+            {
+              "label": "==70%== percent agreement ≠ kappa of 0.4 — must subtract chance-expected agreement (==50%== here)",
+              "source": {
+                "file": "question_bank/Advanced Statstics/EMIs Statistics_ Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 11
+              }
+            }
+          ]
+        },
+        {
+          "label": "**Trap**: excluding cardiovascular disease from controls but not cases threatens **INTERNAL** validity via selection bias — not external validity or reliability",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "label": "**Trap**: a properly randomised **RCT** with a concurrent control group is the one scenario NOT affected by regression to the mean — both arms regress equally",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Validity & Reliability_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        }
+      ]
+    },
+    {
+      "label": "Reliability & Validity — Choosing a Statistical Test",
+      "children": [
+        {
+          "label": "4 questions before picking a test: (a) mean/median/proportion; (b) how many groups; (c) paired or unpaired; (d) parametric assumable?",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Category 1 — Comparing a Mean/Median/Proportion",
+          "children": [
+            {
+              "label": "Means, 2 groups unpaired → unpaired (two-sample) t-test",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            },
+            {
+              "label": "Means, 2 groups paired → paired t-test",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            },
+            {
+              "label": "Means, >2 groups unpaired → one-way **ANOVA**",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            },
+            {
+              "label": "Medians (non-parametric), 2 groups unpaired → Mann-Whitney U test",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            },
+            {
+              "label": "Proportions, 2 groups unpaired → Chi-square test",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            }
+          ]
+        },
+        {
+          "label": "Category 2 — Testing an Association",
+          "children": [
+            {
+              "label": "1 DV/1 IV, continuous parametric → Pearson's correlation / simple linear regression",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "1 DV/1 IV, non-parametric or ordinal → Spearman's / Kendall's tau",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "1 DV (categorical)/1 IV → simple logistic regression",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 35
+              }
+            }
+          ]
+        },
+        {
+          "label": "Chi-Square (χ²) and Its Variants",
+          "children": [
+            {
+              "label": "Fisher's exact test — replaces χ² when >==20%== of expected cells <5 (Cochran's criteria)",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            },
+            {
+              "label": "Yates' correction — applies if total N<100 or any cell <10",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            },
+            {
+              "label": "McNemar's test — χ² for paired data",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            },
+            {
+              "label": "Mantel-Haenszel test — χ² variant for 2 dichotomous variables' influence on one outcome",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 32
+              }
+            }
+          ]
+        },
+        {
+          "label": "t-test assumes equal variance (testable via Levene's test); unpaired = independent samples, paired = repeated pre/post observations",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "**ANOVA** only tells you SOME group differs, not which — post-hoc tests needed to locate the difference",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "MCQ Traps — Remember These!",
+          "children": [
+            {
+              "label": "2×2 table df = (rows−1)×(columns−1) = 1 — NOT 4 (counting cells directly is wrong)",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 10
+              }
+            },
+            {
+              "label": "FALSE statement about parametric stats: 'best used for small sample sizes' — they need normal distribution, harder to confirm in small samples",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 33
+              }
+            },
+            {
+              "label": "A significant two-way interaction in a 3-variable **ANOVA** means TWO of the three variables jointly affect the outcome — not all three",
+              "source": {
+                "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+                "page": 20,
+                "questionNumber": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comparing Means — Degrees of Freedom",
+      "children": [
+        {
+          "label": "One-sample t: df = n−1",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "Two-sample t: df = (n1+n2)−2",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "Chi-square: df = (rows−1)×(columns−1) — a plain 2×2 table has 1 df",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "One-way **ANOVA** total: df = N−1",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "One-way **ANOVA** between-groups: df = number of groups − 1",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "One-way **ANOVA** within-groups: df = N − number of groups",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        }
+      ]
+    },
+    {
+      "label": "Regression & Correlation — Regression Equation",
+      "children": [
+        {
+          "label": "Correlation r ranges −1 to +1; Pearson's r for parametric continuous data, Spearman's rho if ordinal/non-normal/small n (assumes equidistant ranks — else Kendall's tau)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "**Trap**: if r(A,B)=−0.50 and r(B,C)=+0.50, the A–C relationship CANNOT be determined — correlation is not transitive",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 8
+          }
+        },
+        {
+          "label": "Simple linear regression: y = a + bx (b = slope, a = y-intercept); correlation is a prerequisite for regression but not sufficient alone",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "**Trap**: y (female weight) = 1200+0.4x (male weight) — cannot reverse the equation to predict male from female; regression is directional, unlike correlation",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Correlation & Regression_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 9
+          }
+        },
+        {
+          "label": "R² = proportion of **DV** variance explained by the **IV**(s), 0–1; individual R² values in multiple regression won't sum to more than 1",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "**Trap**: logistic regression does NOT require normal distribution of residuals (unlike **ANCOVA**/**ANOVA**/t-tests) since the **DV** is categorical",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Choosing Statistical Tests_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
+          "label": "Multiple regression: '==1 in 10==' rule — variables entered ≤ ~==10%== of sample size (or events, for logistic regression)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "Model building: stepwise (most-to-least significant), forward selection (retains if it changes another's coefficient — signals confounding), backward elimination (removes from full model)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        }
+      ]
+    },
+    {
+      "label": "Multivariate Analyses — Factor Analysis & Stratification",
+      "children": [
+        {
+          "label": "Multivariable = 1 **DV**, >1 **IV**; multivariate = >1 **DV** AND >1 **IV**",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "Multivariable/Multivariate Technique by Variable Type",
+          "children": [
+            {
+              "label": "Continuous **DV**, continuous **IV** → multiple regression",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 37
+              }
+            },
+            {
+              "label": "Continuous **DV**, categorical **IV** → **ANOVA**",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 37
+              }
+            },
+            {
+              "label": "Continuous **DV**, mixed **IV** → **ANCOVA**",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 37
+              }
+            },
+            {
+              "label": "Dichotomous categorical **DV** → logistic regression",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 37
+              }
+            },
+            {
+              "label": "Time-to-event **DV** → Cox proportional hazards model",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 37
+              }
+            }
+          ]
+        },
+        {
+          "label": "Path analysis cannot itself establish causality — only shows data are consistent with the model; a recursive path model has unidirectional flow (no loops)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
+        },
+        {
+          "label": "**Trap**: numbers on path-diagram arrows are standardised **PATH COEFFICIENTS** (like regression coefficients) — NOT correlation coefficients, df, or significance levels",
+          "source": {
+            "file": "question_bank/Advanced Statstics/Multivariate Techniques_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 3
+          }
+        },
+        {
+          "label": "Cluster analysis groups variables via a similarity matrix into a dendrogram; canonical correlation relates two SETS of variables; discriminant function analysis finds which variables best discriminate ≥2 groups",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 37
+          }
+        },
+        {
+          "label": "Exploratory factor analysis: no prior structure assumed (data reduction, symptom classification); confirmatory factor analysis: tests a pre-specified structure in a NEW dataset (construct validity)",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 46
+          }
+        },
+        {
+          "label": "Kaiser rule (retain eigenvalue >1), scree plot elbow, factor loading ≥0.40 (conventional) mark retained factors",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
+        },
+        {
+          "label": "Stratification pools an adjusted estimate across KNOWN confounder strata (e.g. Mantel-Haenszel); standardisation (direct/indirect) uses a standard population; **SMR** = observed/expected",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
+        }
+      ]
+    },
+    {
+      "label": "EBM Framework (from the Advanced Statistics book's closing chapter)",
+      "children": [
+        {
+          "label": "**EBM** process: define question (**PICO**) → search literature → appraise validity/results → apply to patient care; hierarchy of evidence alone never suffices",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
+        },
+        {
+          "label": "**PICO** = Patient, Intervention/exposure, Comparison, Outcome",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 48
+          }
+        },
+        {
+          "label": "5 Fundamental Clinical Question Types (Guyatt)",
+          "children": [
+            {
+              "label": "Therapy → **RCT** / meta-analysis",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "Harm → **RCT** / meta-analysis",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "Diagnosis → cross-sectional studies",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "Prognosis → cohort studies",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "Causation → case-control or cohort designs",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            }
+          ]
+        },
+        {
+          "label": "Even using multiple databases, only ~60–==70%== of the literature is typically covered by a search",
+          "source": {
+            "file": "books/15-2-statistics.pdf",
+            "page": 52
+          }
+        },
+        {
+          "label": "Literature Search & Reporting Bias Types",
+          "children": [
+            {
+              "label": "Publication bias — significant/large-sample results published more",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "Time-lag bias — significant results published sooner",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "Language bias — significant results go to English-language journals",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            }
+          ]
+        },
+        {
+          "label": "Reporting-Standard Checklists",
+          "children": [
+            {
+              "label": "**CONSORT** → RCTs",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "**PRISMA** (2009) → systematic reviews / meta-analyses",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "**STROBE** → 22-item checklist for observational studies",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            },
+            {
+              "label": "**STARD** → diagnostic accuracy studies",
+              "source": {
+                "file": "books/15-2-statistics.pdf",
+                "page": 52
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "variables-levels-measurement",

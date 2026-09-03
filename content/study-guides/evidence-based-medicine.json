@@ -2497,5 +2497,587 @@
         ]
       }
     }
+  ],
+  "mindMap": [
+    {
+      "label": "EBM Principles — Literature Search & Question Formulation",
+      "children": [
+        {
+          "label": "'Apples and oranges' — don't mix widely different study designs in one meta-analysis",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 21
+          }
+        },
+        {
+          "label": "**PECO(t)**: Patient, Exposure/intervention, Comparison, Outcome, (Time)",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 40
+          }
+        },
+        {
+          "label": "**PICO**: Population, Intervention, Comparator, Outcome (treatment questions)",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 13
+          }
+        },
+        {
+          "label": "4 steps of EBP: Ask -> Acquire -> Appraise -> Apply",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "label": "Impact factor = journal-level, 3-year rolling citation average",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "label": "Cochrane Library = **CDSR** + **DARE** + **CENTRAL** — not a substitute for Medline",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 14
+          }
+        },
+        {
+          "label": "**PICO** side-effect comparator trap — correct comparator is 'not taking the drug', not an alternative drug",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        }
+      ]
+    },
+    {
+      "label": "Key Questions for Appraisal",
+      "children": [
+        {
+          "label": "Key appraisal questions by study type",
+          "children": [
+            {
+              "label": "RCT: was allocation truly random, blinding used, all participants analysed by allocation (ITT)?",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Cohort: prospective or retrospective, confounders identified, losses to follow-up?",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Systematic review/meta-analysis: comprehensive search, independent dual review, quality of primary studies assessed?",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Diagnostic accuracy: compared to gold standard, blinded assessors, clear cut-offs?",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Named evidence-hierarchy schemes vary — watch for a scheme other than the Oxford one",
+          "source": {
+            "file": "question_bank/EBM/EBM Principles_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "label": "Reporting-guideline map: **CONSORT** (RCTs), **PRISMA** (systematic reviews), **STROBE** (observational), **STARD** (diagnostic accuracy), **MOOSE** (observational meta-analyses), **COREQ** (qualitative)",
+          "source": {
+            "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 15
+          }
+        },
+        {
+          "label": "Guidelines are evidence-based **AND** value/resource-based — the same evidence can yield different guidance in different settings",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
+          "label": "Delphi method — iterative expert-consensus technique for developing guidelines",
+          "source": {
+            "file": "question_bank/EBM/Recommendations & Guidelines_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "label": "Oxford Centre for EBM — Hierarchy of Evidence",
+          "children": [
+            {
+              "label": "I: Systematic review of all relevant RCTs",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 25
+              }
+            },
+            {
+              "label": "II: At least one properly designed RCT",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 25
+              }
+            },
+            {
+              "label": "V: Expert opinion without critical appraisal",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Evaluating Diagnosis",
+      "children": [
+        {
+          "label": "Diagnostic accuracy — core formulas",
+          "children": [
+            {
+              "label": "Sensitivity = **TP**/(**TP**+**FN**)",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 4
+              }
+            },
+            {
+              "label": "Specificity = **TN**/(**TN**+**FP**)",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 4
+              }
+            },
+            {
+              "label": "**PPV** = **TP**/(**TP**+**FP**) — rises with prevalence",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "**LR**+ = Sensitivity/(1-Specificity) — unaffected by prevalence",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 6
+              }
+            }
+          ]
+        },
+        {
+          "label": "**EMI** trap: **PPV** (prevalence among test-positives) vs likelihood ratio (Sens/(1-Spec)) — easily confused fractions from the same 2x2 table",
+          "source": {
+            "file": "question_bank/EBM/EMIs Evidence Based Medicine_ Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "Lowering a cut-off raises sensitivity/lowers specificity (more false positives); may be shifted deliberately by the relative cost of false positives vs false negatives",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Raising the **CAGE** cut-off from 3 to 4 reduces sensitivity but leaves specificity **UNCHANGED** in the sourced worked example",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 49,
+            "questionNumber": 31
+          }
+        },
+        {
+          "label": "Post-test odds = **LR** x pre-test odds; post-test probability = odds/(odds+1)",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "**ROC** curve plots sensitivity vs 1-specificity; **AUC** of 0.5 = no better than chance (the diagonal line)",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Serial testing raises specificity/lowers sensitivity of a test battery; simultaneous (parallel) testing does the opposite",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Diagnosis_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        }
+      ]
+    },
+    {
+      "label": "Evaluating Causation",
+      "children": [
+        {
+          "label": "Odds ratio = (a x d)/(b x c) cross-product; ranges 0 to infinity, so **CI**s need log transformation",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Relative risk cannot be calculated from a case-control study — only a cohort design gives incidence",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Case-control studies cannot establish temporal association between exposure and outcome",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 20
+          }
+        },
+        {
+          "label": "What each observational design can/cannot calculate",
+          "children": [
+            {
+              "label": "Case-control: can get **OR**, dose-response, **CI** for **OR**; cannot get **RR**, incidence, temporal association",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 9
+              }
+            },
+            {
+              "label": "Cross-sectional/convenience-sampled diagnostic study: can get sensitivity/specificity/**PPV**/**NPV** for the sample; cannot get true population prevalence unless representative",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 7
+              }
+            }
+          ]
+        },
+        {
+          "label": "Nested case-control study **CAN** support temporal-association claims — the underlying register data were recorded prospectively",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 48,
+            "questionNumber": 29
+          }
+        },
+        {
+          "label": "Multicollinearity trap: two highly correlated predictors in a regression can appear falsely non-significant — not a sign the whole model is invalid",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Attributable risk formulas (cohort studies)",
+          "children": [
+            {
+              "label": "**AR** = **EER** - **CER**; example 25/200 vs 10/200 over 8 years -> **AR** = 0.075",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 10
+              }
+            },
+            {
+              "label": "**PAR** = **AR** x proportion of population exposed; example **AR**=20/100, ==25%== exposed -> **PAR** = 1/20",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 10
+              }
+            }
+          ]
+        },
+        {
+          "label": "**PAF** (Levin's formula) = Pe(**RR**-1)/[1+Pe(**RR**-1)]; example **RR**=10, prevalence ==5%== -> **PAF** approx ==31%==",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Causation_ Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 19
+          }
+        }
+      ]
+    },
+    {
+      "label": "Evaluating Prognosis",
+      "children": [
+        {
+          "label": "Survival analysis handles 'time to event' without needing near-normal distributions (unlike t-test/**ANOVA**) and avoids dichotomising time (unlike chi-square)",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Prognosis_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "label": "Kaplan-Meier plot: y-axis = proportion **NOT** yet reaching the outcome ('surviving'); the curve is stepped at each observed event",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Log-rank test assesses one categorical variable's effect on survival; Cox regression is needed for continuous/multiple variables (assumes a constant hazard ratio)",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Cox regression estimates a variable's independent effect on survival, adjusting for others",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Median survival time = point where the curve reaches ==50%==; cannot be determined if right-censored before that point",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Appraising a prognostic study: representative sample, sufficient/complete follow-up, objective outcome criteria with blinded assessors",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 14
+          }
+        }
+      ]
+    },
+    {
+      "label": "Evaluating Therapy",
+      "children": [
+        {
+          "label": "Treatment-effect measures",
+          "children": [
+            {
+              "label": "**ARR** (book: **ABI**) = |**CER** - **EER**|",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "**NNT** = 1/**ARR**",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "**RR** = **EER**/**CER**",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "**RRR** (book: **RBI**) = 1 - **RR** (equivalently **ARR**/**CER**)",
+              "source": {
+                "file": "books/15-3-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "Intention-to-treat: all randomly allocated participants analysed in the group they were allocated to, regardless of adherence",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "label": "Cluster-randomised trials need **MORE** participants than individual randomisation of the same total N — intracluster correlation shrinks the effective sample size",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 41
+          }
+        },
+        {
+          "label": "Equivalence trials require the **LARGEST** sample sizes of all **RCT** types — a near-zero difference is the hardest target to prove",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 55,
+            "questionNumber": 46
+          }
+        },
+        {
+          "label": "**RRR** looks far more impressive than the corresponding **ARR** (e.g. ==50%== **RRR** can hide a ==2%==->==1%== absolute change) — always convert back to **ARR**/**NNT**",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 16
+          }
+        },
+        {
+          "label": "A 'negative' trial (p>0.05) is not proof of no effect — check whether the upper **CI** bound still contains an important benefit",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 20
+          }
+        },
+        {
+          "label": "Null value = 0 for difference statistics (e.g. **RRR**); null value = 1 for ratio statistics (**RR**, **OR**)",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Therapy_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 8
+          }
+        },
+        {
+          "label": "**NNT** interpretation: close to 1 = highly effective; 2-5 = effective for a common outcome; ≥20 = marginal/preventive benefit",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 18
+          }
+        }
+      ]
+    },
+    {
+      "label": "Evaluating Meta-analysis",
+      "children": [
+        {
+          "label": "Statistical heterogeneity tested with Cochran's Q and the I-squared statistic; explored visually via forest, Galbraith and L'Abbe plots",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "label": "A significant Cochran's Q is sensitive to study size — may miss true heterogeneity in small studies, flag trivial heterogeneity in very large ones",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "Fixed-effect model assumes one true effect across studies; random-effects model accepts heterogeneity — the choice is about this assumption, not study quality",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 9
+          }
+        },
+        {
+          "label": "Random-effects model is used when heterogeneity exists between studies and generally widens the pooled **CI**",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 8
+          }
+        },
+        {
+          "label": "Funnel plot (precision vs effect size) detects publication bias via asymmetry — a void on one side signals missing (unpublished) studies",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 29
+          }
+        },
+        {
+          "label": "Failsafe N (Rosenthal) = number of additional null 'file-drawer' studies needed to reduce a significant result to non-significance",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "label": "The **CI** of a pooled effect size is **NOT** a valid method for detecting publication bias — that needs a funnel plot or failsafe N",
+          "source": {
+            "file": "question_bank/EBM/Evaluating Meta-Analysis_ Attempt review.pdf",
+            "page": 73,
+            "questionNumber": 38
+          }
+        },
+        {
+          "label": "Forest plot ('blobbogram'): each study is a block at its point estimate (size = weight) with a **CI** line; the diamond shows the pooled result",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 22
+          }
+        }
+      ]
+    },
+    {
+      "label": "Recommendations & Guidelines",
+      "children": [
+        {
+          "label": "The single most important component of guideline development is a systematically reviewed evidence base",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
+          "label": "Guidance is evidence-based **AND** value-based, dependent on local resource availability (cost)",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
+          "label": "Steps: define the decision -> specify outcomes -> link options to outcomes via evidence -> incorporate values -> adjust for local resources",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
+          "label": "The single most effective measure for guideline uptake is a patient-specific reminder at the point of clinical contact",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 25
+          }
+        },
+        {
+          "label": "Protocols mandate strict procedure; guidelines inform (not mandate) decisions — deviation isn't automatically a breach of care",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        },
+        {
+          "label": "Decision analysis tree: decision nodes (squares) branch into options, chance nodes (circles) branch into probability-weighted outcomes, each end-point given a utility value",
+          "source": {
+            "file": "books/15-3-statistics.pdf",
+            "page": 24
+          }
+        }
+      ]
+    }
   ]
 }

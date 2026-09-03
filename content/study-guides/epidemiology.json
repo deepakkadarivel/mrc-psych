@@ -1360,5 +1360,579 @@
         ]
       }
     }
+  ],
+  "mindMap": [
+    {
+      "label": "Scope & Definitions of Psychiatric Epidemiology",
+      "children": [
+        {
+          "label": "Descriptive epidemiology (Time/Place/Person) vs analytical epidemiology (hypothesis-driven inference from observed associations)",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Genetic epidemiology: inherited disease causes in families/populations, incl. gene-gene & gene-environment interaction (Morton's definition)",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "label": "Incidence, Prevalence & the Incidence-Duration-Prevalence Relationship",
+      "children": [
+        {
+          "label": "Incidence = new cases / mid-interval at-risk population — a ratio against time",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Cohort denominator trap: subtract baseline-ill from the at-risk denominator (1200-200=1000)",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 13
+          }
+        },
+        {
+          "label": "Cumulative incidence is biased by attrition (dropouts excluded from numerator, still in denominator)",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Incidence density (per person-year) avoids attrition; compare groups via incidence rate ratios",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Point prevalence (one cross-sectional point) vs period prevalence (mid-period population)",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "**P = I x D** (Prevalence = Incidence x Duration)",
+          "children": [
+            {
+              "label": "Vaccine lowers both incidence & prevalence; a cure lowers prevalence only; reduced mortality in chronic illness can raise prevalence via longevity",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "Migrant schizophrenia: incidence 3x natives, prevalence only 1.8x -> tested (unsettled) explanation is shorter illness duration",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 3
+              }
+            },
+            {
+              "label": "A stated mortality rate in P=IxD questions is often a red herring — discard it, don't subtract it",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 33,
+                "questionNumber": 32
+              }
+            },
+            {
+              "label": "Equal incidence, differing prevalence -> tested explanation is **CHRONICITY**/duration, not stigma or sex distribution",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 32,
+                "questionNumber": 31
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Lifetime Prevalence vs Lifetime Morbid Risk",
+      "children": [
+        {
+          "label": "Lifetime prevalence = proportion ever having had the disorder, alive on a given day, via cross-sectional recall — prone to recall bias",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Lifetime morbid risk (**LMR**) = probability of developing the disorder across the whole birth cohort, incl. those already deceased; for low-incidence disorders (e.g. schizophrenia) approx. = sum of age-specific incidence rates (Saha 2004)",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "label": "Epidemic, Endemic and Pandemic Terminology",
+      "children": [
+        {
+          "label": "Baseline occurrence ladder",
+          "children": [
+            {
+              "label": "Endemic: usual low-to-moderate baseline, no big fluctuation",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 4
+              }
+            },
+            {
+              "label": "Hyperendemic: usual baseline but persistently **HIGH**",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 4
+              }
+            },
+            {
+              "label": "Sporadic: irregular fluctuation from baseline",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 4
+              }
+            },
+            {
+              "label": "Epidemic: occurrence clearly **EXCEEDS** the expected level",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 4
+              }
+            },
+            {
+              "label": "Pandemic: an epidemic with wide geographical spread (e.g. **HIV**)",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 4
+              }
+            }
+          ]
+        },
+        {
+          "label": "'Pandemic' is defined by wide **GEOGRAPHICAL** spread — not case numbers, level above baseline, or fluctuation pattern",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 1
+          }
+        }
+      ]
+    },
+    {
+      "label": "Mortality Rates & Burden-of-Disease Measures",
+      "children": [
+        {
+          "label": "Crude rate = whole population; specific rate = subgroup (age-/disease-/cause-specific); standardized rate = adjusted to a hypothetical population for comparability",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Case-fatality rate = deaths from a disease / persons **AFFECTED** by it (fatal severity); cause-specific mortality rate = deaths from a cause / total population",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Proportionate mortality rate = deaths from a cause / total deaths — that cause's share of overall mortality burden",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "**YPLL** sums (endpoint - age at death) for deaths before that endpoint (usually 65 or life expectancy) — weights earlier deaths more heavily",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "**DALY** = **YLL** + **YLD** (**YLL**=deaths x life expectancy; **YLD**=incident cases x disability weight x duration)",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "**DALY** calculation applies ==3%== time discounting plus non-uniform age weighting",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Perinatal/neonatal mortality windows",
+          "children": [
+            {
+              "label": "Neonatal death: liveborn dies within 28 days",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 6
+              }
+            },
+            {
+              "label": "Early neonatal death: liveborn dies within 7 days",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 6
+              }
+            },
+            {
+              "label": "Late neonatal death: liveborn dies between 7 and 28 days",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 6
+              }
+            },
+            {
+              "label": "Stillbirth: fetus dies before birth, after 24 weeks gestation",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 6
+              }
+            },
+            {
+              "label": "Perinatal death = stillbirths + early neonatal deaths",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 6
+              }
+            }
+          ]
+        },
+        {
+          "label": "MCQ Traps — mortality measures",
+          "children": [
+            {
+              "label": "Infant death rate is **NOT** a standardized rate — restricting to age <1 is just a specific rate",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 9
+              }
+            },
+            {
+              "label": "Population **SIZE** does NOT distort crude mortality-rate comparisons (unlike age/sex/ethnic/socioeconomic mix)",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 11
+              }
+            },
+            {
+              "label": "**WHO** perinatal mortality = stillbirths + deaths in the **FIRST WEEK** of life per 1,000 live births",
+              "source": {
+                "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+                "page": 23,
+                "questionNumber": 22
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Graphical Displays in Epidemiology",
+      "children": [
+        {
+          "label": "Bar chart: bar length proportional to category frequency; frequency polygon: point at each interval's midpoint, joined by straight lines",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Population pyramid shapes",
+          "children": [
+            {
+              "label": "Constrictive: fewer young (e.g. **US** post-baby-boom)",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Expansive: more young, high birth rate (developing countries)",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Stationary: roughly equal across bands, tapering only at old age (e.g. Sweden)",
+              "source": {
+                "file": "books/14-epidemiology.pdf",
+                "page": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "History & Generations of Psychiatric Epidemiological Studies",
+      "children": [
+        {
+          "label": "1st generation (~16 studies, pre-**WWII**, e.g. Midtown Manhattan): health-care-registered prevalence vs community characteristics",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "2nd generation (post-**WWII**, ~60 studies): diagnostic criteria focus, but unstructured interviews -> low reliability",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "3rd generation (from ~1970): raised diagnostic reliability to estimate **SPECIFIC** disorder prevalence/incidence",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Claimed 4th generation adds biologic markers (imaging, **CSF**, blood) to large surveys, e.g. the **H70** study (Skoog 2004)",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 8
+          }
+        }
+      ]
+    },
+    {
+      "label": "Disorder Burden & Sex Ratios (ESEMED / SPMM Epidemiological Data)",
+      "children": [
+        {
+          "label": "**ESEMED**: ==1 in 4== adults have a lifetime mental disorder; ==1 in 10== in the last year",
+          "source": {
+            "file": "books/7-0-epidemiological-data.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Lifetime mood disorder ==14.7%== (**MDD** ==13%==); lifetime anxiety ==14%== (specific phobia ==8%==); lifetime alcohol use disorder ==5.2%==",
+          "source": {
+            "file": "books/7-0-epidemiological-data.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Sex-ratio caveats: social phobia/**OCD** equalise in treatment-seekers; Alzheimer's female excess may reflect longevity; pre-pubertal **MDD** marginally more common in boys",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Schizophrenia's 1.4:1 male excess (Saha 2004) is **INCIDENCE**-only — prevalence roughly equal between sexes",
+          "source": {
+            "file": "books/14-epidemiology.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Higher female preponderance — examples",
+          "children": [
+            {
+              "label": "Anorexia & bulimia nervosa: 10:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 2
+              }
+            },
+            {
+              "label": "Borderline personality, agoraphobia, specific phobias: 3:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 2
+              }
+            },
+            {
+              "label": "**PTSD**, dysthymia, **GAD**, major depression (post-puberty): 2:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Higher male preponderance — examples",
+          "children": [
+            {
+              "label": "Antisocial personality disorder & alcohol dependence: 5:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "**ADHD** & autism: 3:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "Tourette's syndrome & Asperger's syndrome: 4:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Equal sex distribution — examples",
+          "children": [
+            {
+              "label": "Bipolar disorder type 1: 1:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "Huntington's disease, schizoid PD, anankastic PD: 1:1",
+              "source": {
+                "file": "books/7-0-epidemiological-data.pdf",
+                "page": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Schizophrenia: 1-yr prevalence ==0.33%==, point ==0.46%==, lifetime morbid risk ==0.72%==, all-cause mortality SMR 2.6",
+          "source": {
+            "file": "books/7-0-epidemiological-data.pdf",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "label": "Levels of Prevention (question-bank only — not covered in the book notes for this topic)",
+      "children": [
+        {
+          "label": "Primary prevention: avert illness/epidemic before onset (public health measures, vaccination)",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Secondary prevention: target high-risk groups for early detection/treatment (e.g. early intervention in psychosis)",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Tertiary prevention: reduce disability/progression once a disorder is established (rehabilitation) — the level most commonly used in current psychiatric practice",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Trap: 'continuous treatment for best attainable quality of life' sounds secondary but is classified **TERTIARY** prevention",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 17
+          }
+        },
+        {
+          "label": "Day-centre attendance to reduce negative-symptom disability in schizophrenia = tertiary prevention",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 27
+          }
+        }
+      ]
+    },
+    {
+      "label": "Pathways to Care, Ecological Fallacy & Deprivation Indices (question-bank only — not covered in the book notes for this topic)",
+      "children": [
+        {
+          "label": "Goldberg's pathways-of-care (filter) model explains prevalence differences across settings via sequential filters",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 21
+          }
+        },
+        {
+          "label": "**FIRST** filter = patient self-recognition of symptoms (illness behaviour) — not **GP** recognition or bed availability",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 19
+          }
+        },
+        {
+          "label": "Ecological fallacy: attributing an individual-level cause to an individual from aggregate/group-level data (e.g. psychiatrists 'driving' suicide from catchment-level rates)",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 18
+          }
+        },
+        {
+          "label": "Trap: consultant-psychiatrist/suicide-rate inference = **ECOLOGICAL FALLACY**, not selection bias or a type 2 error",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 18
+          }
+        },
+        {
+          "label": "Jarman index: census-derived social deprivation score (Brian Jarman) — valid but not accepted outside the **UK**",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 14
+          }
+        },
+        {
+          "label": "Attack rate = an incidence rate after acute exposure: cases developed / number exposed",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 16
+          }
+        },
+        {
+          "label": "Trap: attack rate denominator = the **ORIGINAL** number exposed, not survivors at follow-up",
+          "source": {
+            "file": "question_bank/Research Methods/Epidemiology_ Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 16
+          }
+        }
+      ]
+    }
   ]
 }

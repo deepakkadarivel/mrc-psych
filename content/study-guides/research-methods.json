@@ -3376,5 +3376,931 @@
         ]
       }
     }
+  ],
+  "mindMap": [
+    {
+      "label": "Study Designs — Observational & Interventional",
+      "children": [
+        {
+          "label": "Case-Control vs Cohort",
+          "children": [
+            {
+              "label": "Case-control: retrospective, cheap, fast, best for rare diseases — no attrition problems (no follow-up)",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Cohort: incidence & RR measurable, better temporality, less recall/selection bias — but costly and attrition-prone",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "A retrospective cohort study still counts as a cohort design (e.g. 1940 recruits traced forward to 1998 for PTSD)",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Case-control power gains plateau beyond a 4:1 control:case ratio; if prevalence <==5%==, odds ratio approximates RR",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Cross-sectional (prevalence) study = single-point-in-time 'snapshot' — estimates prevalence only, never incidence",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 1
+          }
+        },
+        {
+          "label": "Attributable risk (AR) is an absolute risk *difference* and CAN be negative — unlike RR (a ratio), which never can",
+          "source": {
+            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "Nested case-control study draws both cases and controls from within an existing cohort — cheaper, similar precision",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "Ecological Studies",
+          "children": [
+            {
+              "label": "Use group/population-level exposure data, assuming all members are equally exposed",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Ecological fallacy = drawing subject-level conclusions from group-level (ecological) observations",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Best Study Design by Clinical Question",
+          "children": [
+            {
+              "label": "Prevalence / nature of a sample → Cross-sectional study",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Causation / aetiology → Cohort or case-control study",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Prognosis → Cohort study",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Types of RCT Design",
+          "children": [
+            {
+              "label": "Parallel — control and intervention proceed in parallel, not serially; the most common form",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Crossover — interchange of groups after a washout period; economical but unusable for diseases the medication cures",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Factorial — two+ interventions tested separately AND in combination (e.g. 2x2 = 4 combinations)",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            }
+          ]
+        },
+        {
+          "label": "Randomisation Methods & Key Traps",
+          "children": [
+            {
+              "label": "Pragmatic RCTs give HIGHER external validity/generalisability than explanatory (efficacy) trials, not lower",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Cluster randomisation (whole centres/zones) loses statistical power via intracluster correlation — power calculated via effective sample size (ESS)",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Minimisation balances prognostic factors when a trial is too small for stratification — inferior to true randomisation since only the first allocation is truly random",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Odd/even birth-date or day-of-week 'randomisation' is quasi-randomisation, NOT true randomisation",
+              "source": {
+                "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 7
+              }
+            },
+            {
+              "label": "Stopping a trial early after an interim analysis showing large benefit tends to OVERESTIMATE the true treatment effect",
+              "source": {
+                "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 24
+              }
+            },
+            {
+              "label": "A survey's response/completion rate is NOT the same statistic as a study's statistical power",
+              "source": {
+                "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Blinding — Allocation Concealment",
+      "children": [
+        {
+          "label": "Allocation concealment keeps the NEXT allocation secret before assignment; blinding keeps the allocation secret AFTER assignment through to outcome measurement",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "Allocation concealment (unpredictable next allocation, usually via an independent third party) is distinct from blinding — don't conflate the two",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 9
+          }
+        },
+        {
+          "label": "Blinding Levels",
+          "children": [
+            {
+              "label": "Open-label — no one is blind to treatment allocation",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Single-blind — patient only (usually) is blind",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Double-blind — patient + investigator blind (most common)",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            },
+            {
+              "label": "Triple-blind — patient + investigator(s) + outcome assessor all blind",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 7
+              }
+            }
+          ]
+        },
+        {
+          "label": "Blinding is chiefly a safeguard against measurement/observer bias — NOT selection bias",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
+        }
+      ]
+    },
+    {
+      "label": "Intention to Treat Analysis",
+      "children": [
+        {
+          "label": "ITT counts every participant in the group they were originally randomised to, regardless of adherence or crossover — the preferred default for reporting RCT results",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "Per-protocol (PP, 'on-treatment') analysis includes only fully-compliant participants — the intentional antithesis of ITT",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "PP is not simply 'a stricter ITT' — it deliberately answers a different question (biological efficacy), not real-world effectiveness",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 15
+          }
+        },
+        {
+          "label": "Dealing with Missing/Dropout Data",
+          "children": [
+            {
+              "label": "Last observation carried forward (LOCF) — only suits longitudinal continuous-scale data; 'too good' for controls, 'too stringent' for remitting-course patients",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Worst-case scenario — assumes lost-to-follow-up subjects did not improve ('treatment failure'); used in sensitivity analyses",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Mean imputation — replaces a missing value with the mean of the subject's own treatment group",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Multiple imputation — sophisticated maximum-likelihood/Monte Carlo based method",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "Treatment-received (TR) analysis groups by treatment actually received, not allocation — compromises randomisation's benefit via contamination",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "If a positive result still holds after worst-case-scenario imputation, this strengthens confidence it isn't an artefact of drop-outs",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 29
+          }
+        }
+      ]
+    },
+    {
+      "label": "N of 1 Trial",
+      "children": [
+        {
+          "label": "A single participant receives placebo and active intervention in tandem, double-blind, allocation randomised each cycle by a third party — optimises that individual's regimen but is NOT generalisable",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "When an N-of-1 Trial Is Indicated / Feasible",
+          "children": [
+            {
+              "label": "Indicated when clinician/patient are uncertain a treatment will work, uncertain of optimal dose, or suspect (not certain) adverse effects",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 17
+              }
+            },
+            {
+              "label": "Feasible when the treatment has rapid onset/termination of action, the condition isn't modified by treatment (symptom control only), and outcomes/stopping criteria are measurable",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 17
+              }
+            }
+          ]
+        },
+        {
+          "label": "Both patient and doctor remain blind throughout; a pharmacist delivers control and active drug in identical form; stopping is agreed in advance, often after a strong pattern emerges",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 17
+          }
+        }
+      ]
+    },
+    {
+      "label": "Causality & Confounding",
+      "children": [
+        {
+          "label": "What Makes a Confounder",
+          "children": [
+            {
+              "label": "Must be related to BOTH the exposure and the outcome",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 22
+              }
+            },
+            {
+              "label": "Must NOT lie on the causal pathway between exposure and outcome",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 22
+              }
+            },
+            {
+              "label": "Must be differently (unevenly) distributed between the groups being compared",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 22
+              }
+            }
+          ]
+        },
+        {
+          "label": "Design-stage control: restriction, matching, randomisation. Analysis-stage control: stratification, multivariate/regression adjustment",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
+        },
+        {
+          "label": "Regression/multivariate adjustment is the ONLY confounder-control method that can be applied at the analysis stage, after data collection",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Bradford Hill's 7 criteria: temporality, dose-response, specificity, consistency, plausibility, strength of association, absence of reverse causality — 'Sensitivity' is NOT one of them",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
+        },
+        {
+          "label": "Stratification is the one analysis method that can evaluate BOTH confounders (crude vs adjusted) and effect modifiers (does the association vary by stratum) together",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
+        },
+        {
+          "label": "Worked example: crude RR=5.0, strata RRs of 7.0/3.0/1.5 differ materially (effect modification present) while the Mantel-Haenszel-adjusted RR (3.0) stays close to crude — report the adjusted RR, not an average",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 13
+          }
+        },
+        {
+          "label": "Temporal association is the one Hill criterion a retrospective case-control design cannot itself establish",
+          "source": {
+            "file": "question_bank/Research Methods/Causality & Confounders_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "label": "Restriction avoids including the group carrying the confounding influence (e.g. excluding older patients from an antipsychotic/hip-fracture study) — controls confounding but shrinks the sample",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 22
+          }
+        }
+      ]
+    },
+    {
+      "label": "Bias",
+      "children": [
+        {
+          "label": "Bias is a systematic, predictable error from poor design/collection/analysis — unlike random error it does NOT shrink with repetition and cannot be fixed at the analysis stage",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
+        },
+        {
+          "label": "Selection Bias",
+          "children": [
+            {
+              "label": "Berkson's (admission-rate) bias — hospital cases/controls admitted at different rates because of the exposure itself, weakening the true association",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            },
+            {
+              "label": "Neyman (incidence-prevalence) bias — a 'late look' misses fatal, short-episode, or mild/silent cases; look for incidence, not prevalence",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            },
+            {
+              "label": "Response bias — the 'healthy volunteer' effect: responders differ systematically from non-responders",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            },
+            {
+              "label": "Unmasking bias — a risk factor unmasks (rather than causes) the event it's suspected of causing",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            }
+          ]
+        },
+        {
+          "label": "Measurement Bias",
+          "children": [
+            {
+              "label": "Recall bias — cases/controls recall past exposure differently depending on disease status; case-control studies are particularly vulnerable",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            },
+            {
+              "label": "Observer bias — a researcher rates/evaluates a subject differently depending on their known treatment status",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            },
+            {
+              "label": "Work-up (verification) bias — the gold-standard reference test is performed inconsistently depending on the new test's result",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            },
+            {
+              "label": "Hawthorne effect — observed respondents minimise their perceived deviation from the norm",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 26
+              }
+            }
+          ]
+        },
+        {
+          "label": "Analysis bias = contamination (participants change group) or attrition (lost to follow-up) — minimised by intention-to-treat analysis",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
+        },
+        {
+          "label": "Bias direction: 'toward the null' narrows the estimate; 'away from the null' exaggerates it; an extreme case can flip the direction entirely (switch-over bias)",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 26
+          }
+        },
+        {
+          "label": "A hospital-based case-control study is vulnerable to Berkson's, Neyman's, recall, and family-information bias — but NOT typically to verification/work-up bias, which is specific to diagnostic-test-accuracy studies",
+          "source": {
+            "file": "question_bank/Research Methods/Analytical Studies_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "label": "Cointervention (performance) bias — a clinician giving extra care to one arm only — is reduced specifically by blinding the CLINICIAN, not just the outcome assessor",
+          "source": {
+            "file": "question_bank/Research Methods/Interventional Studies_ Attempt review.pdf",
+            "page": 39,
+            "questionNumber": 28
+          }
+        }
+      ]
+    },
+    {
+      "label": "Qualitative Studies",
+      "children": [
+        {
+          "label": "Purposeful sampling has no predetermined sample size — data collection continues until theoretical saturation, unlike quantitative research's power-calculated samples",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
+        },
+        {
+          "label": "Interviews: structured (fixed schedule) / semi-structured ('focused', open-ended on set topics) / unstructured ('in-depth', framed off the interviewee's own prior response)",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
+        },
+        {
+          "label": "Named Qualitative Research Designs",
+          "children": [
+            {
+              "label": "Phenomenology — characterising an everyday but poorly-defined experience (e.g. 'what is it like to be a carer')",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 30
+              }
+            },
+            {
+              "label": "Ethnography — 'portrait of the people'; emic = insider view, etic = outsider view",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 30
+              }
+            },
+            {
+              "label": "Grounded theory (Glaser & Strauss) — constant comparison generates categories until theoretical saturation, then theoretical sampling tests them",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 30
+              }
+            },
+            {
+              "label": "Case study — a single unit studied in depth, sitting between qualitative and quantitative approaches",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 30
+              }
+            },
+            {
+              "label": "Participatory action research — researcher and researched collaborate; the usual demarcation between them is blurred",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 30
+              }
+            }
+          ]
+        },
+        {
+          "label": "Triangulation vs Reflexivity",
+          "children": [
+            {
+              "label": "Triangulation compares results from 2+ methods/sources of data collection, looking for convergence",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 30
+              }
+            },
+            {
+              "label": "Reflexivity = sensitivity to how the researcher and research process have shaped the collected data",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 30
+              }
+            },
+            {
+              "label": "Interviewing both students AND teachers achieves triangulation; the interviewer's awareness of her own effect on responses is reflexivity",
+              "source": {
+                "file": "question_bank/Research Methods/Qualitative Studies_ Attempt review.pdf",
+                "page": 32,
+                "questionNumber": 27
+              }
+            }
+          ]
+        },
+        {
+          "label": "Focus groups: 6-10 members; run many small groups rather than just one for a whole piece of research",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
+        },
+        {
+          "label": "Census is NOT a qualitative method — it is a cross-sectional (quantitative) design",
+          "source": {
+            "file": "question_bank/Research Methods/Qualitative Studies_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Purposive sampling (deliberately broad, e.g. satisfied + non-compliant + discontinuing users) is easily confused with intensity/key-informant sampling (a small number of topic EXPERTS, for depth)",
+          "source": {
+            "file": "question_bank/Research Methods/EMIs Research Methods_ Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 13
+          }
+        }
+      ]
+    },
+    {
+      "label": "Secondary Research",
+      "children": [
+        {
+          "label": "Narrative reviews are searched 'in a random manner to suit one's flow of argument' — not methodically — unlike a systematic review's rigorous, reproducible search/appraisal/synthesis",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 30
+          }
+        },
+        {
+          "label": "Meta-analysis/systematic-review quality depends on a comprehensive search, clear eligibility criteria, a strict protocol, and predetermined trial-quality criteria — poor primary studies still produce a meaningless result (GIGO)",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "label": "Study weighting in a meta-analysis is based on sample size, precision, external validity, and methodological quality — NEVER on the study's own outcome",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "label": "Fixed-Effects vs Random-Effects Model",
+          "children": [
+            {
+              "label": "Fixed-effects — assumes one common true effect across studies; valid only if significant heterogeneity is excluded; narrower CIs",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "Random-effects — assumes each study has its own true effect, normally distributed; gives smaller studies proportionally more weight; wider (less precise) CIs",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            }
+          ]
+        },
+        {
+          "label": "Heterogeneity has 3 flavours: clinical & methodological (describable, not measurable) and statistical (testable via chi-square/Cochran's Q or I²) — low test power means a non-significant result does NOT prove homogeneity",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "label": "Publication Bias",
+          "children": [
+            {
+              "label": "Detected mainly via asymmetry in an (inverted) funnel plot — small non-significant studies are more likely to remain unpublished",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "Driven mainly by authors failing to SUBMIT null/unimportant findings (the 'file drawer problem'), not primarily by editorial rejection",
+              "source": {
+                "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 13
+              }
+            }
+          ]
+        },
+        {
+          "label": "For dichotomous outcomes, OR/RR are preferred (OR overestimates RR increasingly above ~==20%== event rates, so RR is preferred when events are common); for continuous outcomes, SMD (Cohen's d or Hedges' g) is scale-free, enabling pooling across instruments",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "label": "When primary studies differ substantially in methodology, analyse them as TWO separate meta-analyses rather than forcing a single pooled estimate",
+          "source": {
+            "file": "question_bank/Research Methods/Secondary Research_ Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 8
+          }
+        }
+      ]
+    },
+    {
+      "label": "Economic Studies",
+      "children": [
+        {
+          "label": "Types of Economic Evaluation",
+          "children": [
+            {
+              "label": "Cost-minimisation — used when outcomes are assumed equal; compares cost only (e.g. Clozaril vs Zaponex per tablet)",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "Cost-effectiveness — output measured in a clinical scale unit",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "Cost-utility — output measured in life-utility units (QALY/DALY)",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "Cost-benefit — ALL outcomes translated into monetary terms",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            },
+            {
+              "label": "Cost-consequences — costs and natural-unit outcomes shown disaggregated, not combined into one ratio",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 35
+              }
+            }
+          ]
+        },
+        {
+          "label": "ICER = (cost of proposed intervention − cost of control) / (effect of proposed − effect of control) — the additional cost per unit of additional health gained",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
+        },
+        {
+          "label": "Cost dimensions: direct (hospital/drugs/salaries), indirect (productivity loss, caretaker costs), intangible (pain/stigma), and opportunity cost (value of the next-best foregone option)",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 35
+          }
+        },
+        {
+          "label": "Cost-Effectiveness Plane Quadrants",
+          "children": [
+            {
+              "label": "Southeast (lower cost, better effect) — intervention preferred",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 45
+              }
+            },
+            {
+              "label": "Northwest (higher cost, worse effect) — no use of the intervention",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 45
+              }
+            },
+            {
+              "label": "Northeast (higher cost, better effect) — needs further consideration before acceptance",
+              "source": {
+                "file": "books/15-1-statistics.pdf",
+                "page": 45
+              }
+            }
+          ]
+        },
+        {
+          "label": "Sensitivity-analysis subtypes: one-way, extreme-scenario (over-estimates uncertainty), two-way, Monte-Carlo (for 3+ variables), and bootstrapping (resamples the original dataset)",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
+        },
+        {
+          "label": "A Cost-Effectiveness Acceptability Curve (CEAC) indicates the probability an intervention is cost-effective across a range of willingness-to-pay (λ) values",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 46
+          }
+        },
+        {
+          "label": "Time trade-off is a health-state PREFERENCE/utility-elicitation technique, not a sensitivity-analysis method",
+          "source": {
+            "file": "question_bank/Research Methods/Economic Studies_ Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 12
+          }
+        },
+        {
+          "label": "ACER (average cost-effectiveness ratio) = cost/effect for a single intervention alone — distinct from ICER, which compares incremental cost/effect against a specific comparator",
+          "source": {
+            "file": "books/15-1-statistics.pdf",
+            "page": 45
+          }
+        }
+      ]
+    },
+    {
+      "label": "Quality Improvement (a separate SPMM chapter, kept here for this app's topic grouping)",
+      "children": [
+        {
+          "label": "QI = a scientific approach combining systematic analysis of current performance with interventions to improve it, aimed at quality/safety of health service provision",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "label": "QI shares research's logical structure (hypothesis, measured test of change, impact assessment) but interventions stay WITHIN established standards of care — they are not novel",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "PDSA (Plan-Do-Study-Act) cycles structure iterative testing of a change, integrating top-down ideas with bottom-up observation — originates from Shewhart and Deming",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 3
+          }
+        },
+        {
+          "label": "Root Cause Analysis (RCA) is retrospective-only, triggered after a sentinel/adverse event — event-specific and prone to hindsight bias, so findings may not generalise",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 4
+          }
+        },
+        {
+          "label": "A Pareto chart re-orders a bar chart from most- to least-frequent category, applying the 80/20 rule to identify the small number of high-yield causes",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 5
+          }
+        },
+        {
+          "label": "Genuine QI activity focuses on SYSTEMS (e.g. team culture around error reporting), avoiding blame attribution to individual staff",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
+          "label": "PDCA (Plan-Do-Check-Act) is sometimes used interchangeably with PDSA but is better reserved for error-correction/fault-detection, not quality improvement proper",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "SQUIRE is the consensus 19-item checklist for reporting formal healthcare QI studies — distinct from PRISMA, STARD, or MOOSE used for other study types",
+          "source": {
+            "file": "question_bank/Research Methods/Quality Improvement_ Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 9
+          }
+        }
+      ]
+    }
   ]
 }

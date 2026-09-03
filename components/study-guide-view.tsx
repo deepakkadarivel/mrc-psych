@@ -12,6 +12,7 @@ import {
   Lightbulb,
   ListChecks,
   MoreHorizontal,
+  Network,
   NotebookText,
   Table2,
   Zap,
@@ -24,6 +25,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CitationBadge } from "@/components/citation-badge";
+import { MindMapView } from "@/components/mind-map-view";
 import { QuizView } from "@/components/quiz-view";
 import { RichText } from "@/components/rich-text";
 import { usePortalSlot } from "@/hooks/use-portal-slot";
@@ -677,12 +679,23 @@ function IconTabTrigger({
   );
 }
 
-const TAB_VALUES = ["full", "concise", "notes", "tables", "mnemonics", "traps", "gaps", "quiz"] as const;
+const TAB_VALUES = [
+  "full",
+  "concise",
+  "notes",
+  "mindmap",
+  "tables",
+  "mnemonics",
+  "traps",
+  "gaps",
+  "quiz",
+] as const;
 
 const TAB_LABELS: Record<(typeof TAB_VALUES)[number], string> = {
   full: "Full Guide",
   concise: "Concise Guide",
   notes: "Notes",
+  mindmap: "Mind Map",
   tables: "Tables",
   mnemonics: "Mnemonics",
   traps: "Traps",
@@ -717,6 +730,8 @@ function buildTabExport(tab: string, guide: StudyGuide, questions: Question[]): 
       };
     case "notes":
       return blocksByType(guide, "paragraph");
+    case "mindmap":
+      return { topic: guide.topic, mindMap: guide.mindMap ?? [] };
     case "tables":
       return blocksByType(guide, "table", "comparison");
     case "mnemonics":
@@ -934,6 +949,12 @@ function MoreSheet({
             onClick={() => selectAndClose("notes")}
           />
           <MoreRow
+            icon={<Network className="size-4" />}
+            label="Mind Map"
+            active={tab === "mindmap"}
+            onClick={() => selectAndClose("mindmap")}
+          />
+          <MoreRow
             icon={<Table2 className="size-4" />}
             label={`Tables (${counts.tableCount})`}
             active={tab === "tables"}
@@ -1033,7 +1054,7 @@ export function StudyGuideView({
   // The bottom bar's own tabs (full/concise/quiz) — everything else (notes/tables/mnemonics/
   // traps/gaps) lives behind "More" and counts as that tab being "active" for the bar's own
   // highlight state.
-  const moreTabs = ["notes", "tables", "mnemonics", "traps", "gaps"];
+  const moreTabs = ["notes", "mindmap", "tables", "mnemonics", "traps", "gaps"];
 
   return (
     <>
@@ -1075,6 +1096,7 @@ export function StudyGuideView({
               <IconTabTrigger value="full" icon={<BookOpenText className="size-4" />} label="Full Guide" />
               <IconTabTrigger value="concise" icon={<ListChecks className="size-4" />} label="Concise Guide" />
               <IconTabTrigger value="notes" icon={<NotebookText className="size-4" />} label="Notes" />
+              <IconTabTrigger value="mindmap" icon={<Network className="size-4" />} label="Mind Map" />
               <IconTabTrigger value="tables" icon={<Table2 className="size-4" />} label={`Tables (${tableCount})`} />
               <IconTabTrigger
                 value="mnemonics"
@@ -1122,6 +1144,10 @@ export function StudyGuideView({
 
       <TabsContent value="notes">
         <NotesTabView guide={guide} onCite={onCite} />
+      </TabsContent>
+
+      <TabsContent value="mindmap">
+        <MindMapView guide={guide} topicTitle={topicTitle} onCite={onCite} />
       </TabsContent>
 
       <TabsContent value="tables">

@@ -140,9 +140,28 @@ export interface Section {
   concise?: ConciseSection;
 }
 
+// One node of the "Mind Map" tab's per-topic overview tree. A LEAF (no `children`) states a fact
+// and must carry the exact same `source` as the block/concise-fact it was compressed from — same
+// extraction-framing discipline as ConciseBullet, just arranged as a tree instead of a flat list.
+// A node WITH `children` is a pure grouping/organisational label (e.g. a section title, or a
+// sub-cluster like "CJD subtypes") and may omit `source`, the same way TableBlock's own
+// `category.label` carries no citation of its own while its cells do. Never invent a `source` —
+// skip content with no real citable fact (an unsourced mnemonic, an uncited gap) rather than
+// forcing it into the tree.
+export interface MindMapNode {
+  label: string;
+  source?: Source;
+  children?: MindMapNode[];
+}
+
 export interface StudyGuide {
   topic: string;
   sections: Section[];
+  // One top-level branch per Section, in the same order, rendered under a single implicit root
+  // node (the topic title, already available to the UI via `topicTitle`) — see components/
+  // mind-map-view.tsx and CLAUDE.md "Mind Map tab". Rolled out topic by topic; absent/empty means
+  // not yet authored for this topic, not a bug.
+  mindMap?: MindMapNode[];
 }
 
 export interface TopicManifestEntry {

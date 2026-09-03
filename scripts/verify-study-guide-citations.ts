@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import type { NoteBlock, Question, Source, StudyGuide } from "@/lib/types";
+import type { MindMapNode, NoteBlock, Question, Source, StudyGuide } from "@/lib/types";
 
 const root = process.cwd();
 const guidesDir = path.join(root, "content/study-guides");
@@ -63,6 +63,29 @@ function isValid(source: Source, sets: { pageKeys: Set<string>; questionKeys: Se
     return sets.questionKeys.has(`${source.file}|${source.page}|${source.questionNumber}`);
   }
   return sets.pageKeys.has(`${source.file}|${source.page}`);
+}
+
+// mindMap nodes live outside the sections[] tree (one flat array of top-level branches on the
+// guide itself), so they get their own walk rather than fitting into the per-section loop below.
+// A leaf (no children) must carry a source — it's stating a fact, same as a paragraph/trap;
+// a grouping node (has children) may omit one, same as a TableBlock's own `category.label`.
+function checkMindMap(
+  nodes: MindMapNode[],
+  sets: { pageKeys: Set<string>; questionKeys: Set<string> },
+  invalid: string[],
+  pathLabel: string
+) {
+  for (const node of nodes) {
+    const label = pathLabel ? `${pathLabel} > ${node.label}` : node.label;
+    if (node.source) {
+      checkSources([node.source], `mindMap[${label}]`, sets, invalid);
+    }
+    if (node.children?.length) {
+      checkMindMap(node.children, sets, invalid, label);
+    } else if (!node.source) {
+      invalid.push(`mindMap[${label}]: leaf node has no source`);
+    }
+  }
 }
 
 function checkSources(
@@ -141,6 +164,10 @@ for (const file of files) {
         }
       }
     }
+  }
+
+  if (guide.mindMap) {
+    checkMindMap(guide.mindMap, sets, invalid, "");
   }
 
   if (invalid.length) {

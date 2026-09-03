@@ -69,6 +69,12 @@ for (const topic of TOPICS) {
 
       await switchToTab(page, "Traps");
       await expect(page.getByText("EXAM TRAP").first()).toBeVisible();
+
+      // Neither representative topic has Mind Map content authored yet (rolling out topic by
+      // topic — see old-age-psychiatry's dedicated test below), so this only checks the tab
+      // switches and renders its empty-state message rather than staying on the previous tab.
+      await switchToTab(page, "Mind Map");
+      await expect(page.getByText("Mind map not yet available for this topic.")).toBeVisible();
     });
 
     test("PDF section is hidden by default and opens via the header toggle", async ({ page }) => {
@@ -121,3 +127,58 @@ for (const topic of TOPICS) {
     });
   });
 }
+
+// old-age-psychiatry is one representative topic with authored Mind Map content (all 15 topics
+// now have one — see each content/study-guides/*.json's `mindMap` field and CLAUDE.md's "Mind Map
+// tab" section). Kept as its own describe block rather than folded into the generic TOPICS loop
+// above, since neither of those two topics is used to exercise real Mind Map content there.
+test.describe("mind map: old-age-psychiatry", () => {
+  test("tree rows expand, show cited facts, and jump to the PDF drawer", async ({ page }) => {
+    await page.goto("/topics/old-age-psychiatry");
+    await switchToTab(page, "Mind Map");
+
+    // Rendered as a connector-line tree (<ul>/<li>, styled after a Mermaid/org-chart diagram) —
+    // see components/mind-map-view.tsx — so branch rows are <li> elements, not cards.
+    const branches = page.getByTestId("mindmap-branches");
+    await expect(branches).toBeVisible();
+    await expect(branches.locator("> li").first()).toBeVisible();
+
+    await page.getByTestId("mindmap-expand-all").click();
+    const citation = branches.locator("button").filter({ hasText: /p\.\d+/ }).first();
+    await expect(citation).toBeVisible();
+    await citation.scrollIntoViewIfNeeded();
+    await citation.click();
+
+    const pdfSection = page.getByTestId("pdf-section");
+    await expect(pdfSection).toBeVisible();
+  });
+
+  test("hide references toggle persists across a reload", async ({ page }) => {
+    await page.goto("/topics/old-age-psychiatry");
+    await switchToTab(page, "Mind Map");
+    await page.getByTestId("mindmap-expand-all").click();
+
+    const branches = page.getByTestId("mindmap-branches");
+    const citations = branches.locator("button").filter({ hasText: /p\.\d+/ });
+    await expect(citations.first()).toBeVisible();
+
+    const toggle = page.getByTestId("mindmap-toggle-references");
+    await expect(toggle).toHaveText(/Hide references/);
+    await toggle.click();
+    await expect(toggle).toHaveText(/Show references/);
+    await expect(citations).toHaveCount(0);
+
+    // Reload and re-expand — the citation-visibility preference itself (localStorage, shared
+    // across every topic per CLAUDE.md's "Mind Map tab" note) should survive the reload even
+    // though expand/collapse state (plain component state) does not.
+    await page.reload();
+    await switchToTab(page, "Mind Map");
+    await expect(page.getByTestId("mindmap-toggle-references")).toHaveText(/Show references/);
+    await page.getByTestId("mindmap-expand-all").click();
+    await expect(branches.locator("button").filter({ hasText: /p\.\d+/ })).toHaveCount(0);
+
+    // Restore the default (visible) state so this doesn't leak into other tests/topics that share
+    // the same localStorage key within this browser context.
+    await page.getByTestId("mindmap-toggle-references").click();
+  });
+});
