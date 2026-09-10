@@ -15,7 +15,7 @@
         },
         {
           "type": "paragraph",
-          "text": "MacArthur study (Monahan & Applebaum 2000): violence in first 20 weeks post-discharge was ==9%== for schizophrenia vs ==19%== depression, ==15%== bipolar, ==17.2%== other psychosis, ==29%== substance misuse, ==25%== personality disorder alone. In the community, ==10%== with schizophrenia committed violence over 12 months vs ==2%== without mental disorder (5x); comorbid substance misuse raised this to ==30%==. Men with schizophrenia are up to 5x more likely convicted of serious violence (Wallace 1998); annual homicide risk with schizophrenia is ~1:3000 (men) and 1:33,000 (women).",
+          "text": "MacArthur study (Monahan & Applebaum 2000): violence in first 20 weeks post-discharge was ==9%== for schizophrenia vs ==19%== depression, ==15%== bipolar, ==17.2%== other psychosis, ==29%== substance misuse, ==25%== personality disorder alone. In the community, ==10%== with schizophrenia committed violence over 12 months vs ==2%== without mental disorder (5x); comorbid substance misuse raised this to ==30%==. Men with schizophrenia are up to 5x more likely convicted of serious violence (Wallace 1998). Note that ==99.97%== of those with schizophrenia would **NOT** be convicted of serious violence in any given year; annual homicide risk with schizophrenia is ~1:3000 (men) and 1:33,000 (women).",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
             "page": 2
@@ -129,6 +129,14 @@
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 2
             }
+          },
+          {
+            "label": "Schizophrenia patients NOT convicted of serious violence in a given year",
+            "value": "==99.97%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 2
+            }
           }
         ],
         "bullets": [
@@ -165,7 +173,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Homicide is rare (1.2/100,000 **UK**). Homicides by mentally disordered offenders (MDOs) fell from 120/year (1980) to 20/year (2004), levelling at ~50/year recently. ==10%== of homicide convicts have an abnormal mental state (2/3 of these psychotic); annual risk of a person with schizophrenia committing homicide is 1:10,000 vs 1:150 for a violence conviction. Victims of **MDO** homicide are more often acquaintances/family than strangers.",
+          "text": "Homicide is rare (1.2/100,000 **UK**). Homicides by mentally disordered offenders (MDOs) fell from 120/year (1980) to 20/year (2004), levelling at ~50/year recently. ==10%== of homicide convicts have an abnormal mental state (2/3 of these psychotic); annual risk of a person with schizophrenia committing homicide is 1:10,000 vs 1:150 for a violence conviction. The **UK** annual homicide rate is ~1:100,000, so even a tenfold increase in schizophrenia-related risk would not perceptibly affect individual clinical risk when individual cases are considered — a key base-rate-insensitivity teaching point. Victims of **MDO** homicide are more often acquaintances/family than strangers.",
+          "source": {
+            "file": "books/12-1-forensic-psychiatry-1.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Among homicide offenders with an abnormal mental state (Swedish studies): ==9%== schizophrenia, ==12%== other psychotic disorders, ==54%== secondary personality-disorder diagnoses. Only ==10%== of homicide **MDOs** had contact with mental health services within the past year (contrast: suicide has a much higher rate of recent contact).",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
             "page": 3
@@ -334,6 +350,14 @@
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 3
             }
+          },
+          {
+            "label": "Homicide offenders (abnormal mental state) — schizophrenia / other psychosis / secondary PD",
+            "value": "==9%== / ==12%== / ==54%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
           }
         ],
         "bullets": [
@@ -379,11 +403,18 @@
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "Only ==10%== of homicide **MDOs** had contact with mental health services in the past year (unlike suicide, which has a much higher recent-contact rate). The **UK**'s ~1:100,000 annual homicide rate means even a tenfold rise in schizophrenia-related risk wouldn't perceptibly change individual clinical risk.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
           }
         ],
         "highlightBlockIndices": [
-          2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -535,6 +566,59 @@
           ]
         },
         {
+          "type": "table",
+          "title": "Motives for firesetting (Burton et al. 2012)",
+          "columns": [
+            "Primary gain",
+            "Secondary gain",
+            "Other motives"
+          ],
+          "rows": [
+            [
+              "Sense of relief (from boredom/tension) or excitement (incl. sexual pleasure)",
+              "Financial (e.g. insurance claim, housing)",
+              "Accidents"
+            ],
+            [
+              "Delusional motive",
+              "Extortion",
+              "Carelessness"
+            ],
+            [
+              "Revenge",
+              "To conceal or facilitate a crime",
+              "Curiosity (esp. in children)"
+            ],
+            [
+              "Jealousy",
+              "Vandalism",
+              ""
+            ],
+            [
+              "Self-destruction/suicide",
+              "Political protest",
+              ""
+            ],
+            [
+              "Heroism/recognition",
+              "",
+              ""
+            ],
+            [
+              "Seek attention",
+              "",
+              ""
+            ]
+          ],
+          "sources": [
+            {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          ],
+          "highYield": true
+        },
+        {
           "type": "paragraph",
           "text": "Juvenile firesetters make up >==50%== of all arrests; under-10s are usually motivated by curiosity. Fire-setting is commoner in girls among those detained in secure hospitals, often carrying an expressive/communicative meaning (revenge, jealousy, displaced aggression) related to property and relationships.",
           "source": {
@@ -625,7 +709,8 @@
           }
         ],
         "highlightBlockIndices": [
-          3
+          3,
+          4
         ]
       }
     },
@@ -766,7 +851,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Most sex offenders lack a major mental illness (Grubin & Gunn 1991); <==10%== have a mental illness. Sexual offences constitute only ==1%== of all offences (likely an underrepresentation); perpetrators are almost exclusively male, and most have more than one category of deviant sexual behaviour.",
+          "text": "There are various types of offending in this group: frotteurism, fetishism, exhibitionism, paedophilia, sadomasochism and voyeurism, among others. The offenders are widely heterogeneous, and no consistent or absolute correlation is seen between a sexual offence and a sexual disorder. Most sex offenders lack a major mental illness (Grubin & Gunn 1991); <==10%== have a mental illness. Sexual offences constitute only ==1%== of all offences (likely an underrepresentation); perpetrators are almost exclusively male, and most have more than one category of deviant sexual behaviour.",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
             "page": 3
@@ -904,6 +989,13 @@
               "page": 7,
               "questionNumber": 6
             }
+          },
+          {
+            "text": "Sexual offence types: frotteurism, fetishism, exhibitionism, paedophilia, sadomasochism, voyeurism, among others — heterogeneous, with **NO** consistent or absolute correlation between offence type and a specific sexual disorder.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
           }
         ],
         "highlightBlockIndices": []
@@ -931,6 +1023,14 @@
         },
         {
           "type": "paragraph",
+          "text": "Becker (1994): 'the key question in measuring recidivism is whether the once-convicted offender commits a second sexual offence when returned to the community.' Grubin & Wingate (1996): studies suggest **less than one in five** sex offenders released from prison go on to commit a further sexual offence — a frequently-quoted headline reoffending figure.",
+          "source": {
+            "file": "books/12-1-forensic-psychiatry-1.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Lowest reconviction risk: index offence against a child within one's own family (incest, <==10%== untreated recidivism). Highest: index offence against a child outside the family — those who molest boys reoffend more (13–==40%==) than those who molest girls (10–==29%==). Rapists are more criminally versatile than child molesters and more likely to reoffend non-sexually than sexually.",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
@@ -940,6 +1040,14 @@
         {
           "type": "paragraph",
           "text": "Lievore (2004) predictors of sexual reoffending: sexual deviancy/multiple offence types, diverse offending history, offences against boys (higher risk than girls), phallometric response to paedophile or nonsexual-violence stimuli, elevated Hare **PCL-R** score (Rice 1990), reduced self-esteem/impaired victim empathy or increased anger at index offence, own history of childhood sexual abuse, violent sexual fantasies, longstanding social isolation, occupational access to victims, sadomasochistic/paedophilic pornography use, and non-completion of treatment (associated with dissocial traits).",
+          "source": {
+            "file": "books/12-1-forensic-psychiatry-1.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Thornton (2002) dynamic risk domains for sexual offending — a separate framework from Lievore's predictor list, also directly tested: sexual interests (including sexual preoccupation and preference for children); distorted attitudes and beliefs (cognitive distortions, beliefs supportive of rape); socio-affective management (emotional regulation, intimacy difficulties); self-management (poor problem-solving abilities, lifestyle impulsiveness).",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
             "page": 3
@@ -997,6 +1105,14 @@
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 3
             }
+          },
+          {
+            "label": "Sex offenders reconvicted of a further sexual offence (Grubin & Wingate 1996)",
+            "value": "<==1 in 5==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
           }
         ],
         "bullets": [
@@ -1028,9 +1144,19 @@
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "Thornton (2002) dynamic risk domains (distinct from Lievore's list): sexual interests, distorted attitudes/beliefs, socio-affective management, self-management.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
           }
         ],
-        "highlightBlockIndices": []
+        "highlightBlockIndices": [
+          2,
+          5
+        ]
       }
     },
     {
@@ -1210,6 +1336,14 @@
         },
         {
           "type": "paragraph",
+          "text": "Fazel & Grann (2006): the population attributable risk (**PAR**) fraction of schizophrenia in causing violence is just ==2.3%==, rising to ==5%== if psychosis is considered broadly; this attributable-risk fraction is higher in **women** than men across all age bands, and lowest in the 15-24y age band (==2.5%==). Wallace et al. (2004): schizophrenia is attributable to ==6-11%== of all violent convictions; even in countries with more liberal gun laws (lower psychosis-attributable homicide risk), schizophrenia is still argued to account for ==5-10%== of homicides irrespective of the baseline homicide rate.",
+          "source": {
+            "file": "books/12-1-forensic-psychiatry-1.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
           "text": ">==50%== of prison inmates misuse substances and >==40%== misuse alcohol (vs ==2%==/==4%== in the general population); acute intoxication is linked with disinhibition/disorganisation and is associated with ~==50%== of non-fatal assaults and ==66%== of murders. Comorbid substance misuse raises the violence risk ratio in schizophrenia from 3.6x to 25x the general population.",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
@@ -1270,6 +1404,14 @@
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 3
             }
+          },
+          {
+            "label": "Schizophrenia PAR fraction for violence (Fazel & Grann 2006)",
+            "value": "==2.3%== (==5%== if psychosis is broad)",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
           }
         ],
         "bullets": [
@@ -1301,6 +1443,13 @@
               "file": "question_bank/Clinical Parts_ Paper B/MCQs Forensics Part 2_ Attempt review.pdf",
               "page": 21,
               "questionNumber": 21
+            }
+          },
+          {
+            "text": "Fazel & Grann (2006): schizophrenia's population attributable risk for violence is only ==2.3%== (==5%== for psychosis broadly) — higher in women than men across all ages, lowest at 15-24y (==2.5%==). Wallace (2004): schizophrenia accounts for ==6-11%== of violent convictions and ==5-10%== of homicides regardless of baseline rate.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
             }
           }
         ],
@@ -1474,7 +1623,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "West: ==20%== of those with **IQ**<90 become delinquent vs ==9%== (**IQ** 91–98) vs ==2%== (**IQ**>110). Lyall: only ==2%== of 358 adults with **LD** in residential/day services had police contact in a year, with marked underreporting. Harris: aggressive behaviour prevalence ==17.6%== overall (==9.7%== day hospital, ==38.2%== inpatient). Prison **LD** prevalence varies 2–==40%== across studies; **LD** offenders in high-secure care have the longest stays and are hardest to discharge.",
+          "text": "Poor abstract concepts may lead to recurrent law-breaking. West identified **IQ** as **one of 5 factors** associated with the development of offending behaviour. West: ==20%== of those with **IQ**<90 become delinquent vs ==9%== (**IQ** 91–98) vs ==2%== (**IQ**>110). Lyall: only ==2%== of 358 adults with **LD** in residential/day services had police contact in a year, with marked underreporting. Harris: aggressive behaviour prevalence ==17.6%== overall (==9.7%== day hospital, ==38.2%== inpatient). Prison **LD** prevalence varies 2–==40%== across studies; **LD** offenders in high-secure care have the longest stays and are hardest to discharge.",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
             "page": 3
@@ -1557,6 +1706,13 @@
           },
           {
             "text": "Recidivism risk is highest in the year immediately post-discharge; managed with group Sex Offender Treatment Programmes plus SSRI/anti-libidinal pharmacotherapy.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "West identified **IQ** as **one of 5 factors** linked to offending behaviour (not the sole determinant); poor abstract concepts specifically may lead to recurrent law-breaking.",
             "source": {
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 3
@@ -1762,7 +1918,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Only ==1 in 5== offenders is a woman (male:female conviction ratio ~5:1); women's peak offending age is 2–3 years earlier than men's (14 vs 17–18). Women's index offence is more often 'romantic'/domestic; ==68%== of imprisoned women are there for non-violent offences (vs ==47%== of men); women steal fewer/lower-value items and receive more psychiatric pleas and disposals than men.",
+          "text": "In a cohort followed from 1953 birth, ==1/3== of men and ==9%== of women were convicted at least once by age 46; ==8%== of men were responsible for ==2/3== of all crimes. Only ==1 in 5== offenders is a woman (male:female conviction ratio ~5:1); women's peak offending age is 2–3 years earlier than men's (14 vs 17–18). Women's index offence is more often 'romantic'/domestic; ==68%== of imprisoned women are there for non-violent offences (vs ==47%== of men); women steal fewer/lower-value items and receive more psychiatric pleas and disposals than men.",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
             "page": 21
@@ -1770,7 +1926,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Women in custody are 5x more likely to have mental health problems than women in the general population; up to ==80%== have diagnosable mental health problems, and ==1 in 5== remand women (2003) had psychosis. **HMIP** (2006/07): ==19%== of women had attempted suicide in the year before custody (~3x the male rate); ==33%== had an accommodation need; ==31%== had an alcohol misuse problem (vs ==42%== of men); ==60%== had emotional wellbeing problems recorded (vs ==36%== of men).",
+          "text": "Reoffending rates (2006 cohort) are similar between the sexes at ==46.6== (men) vs ==45.0== (women) per 100 discharged offenders, but among those who *do* reoffend, women are more prolific: ==485.8== vs ==445.0== offences per 100 reoffenders. Women in custody are 5x more likely to have mental health problems than women in the general population; up to ==80%== have diagnosable mental health problems, and ==1 in 5== remand women (2003) had psychosis. **HMIP** (2006/07): ==19%== of women had attempted suicide in the year before custody (~3x the male rate); ==33%== had an accommodation need; ==31%== had an alcohol misuse problem (vs ==42%== of men); ==60%== had emotional wellbeing problems recorded (vs ==36%== of men).",
           "source": {
             "file": "books/12-1-forensic-psychiatry-1.pdf",
             "page": 21
@@ -1858,6 +2014,22 @@
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 21
             }
+          },
+          {
+            "label": "1953 birth-cohort — convicted at least once by 46 (men vs women)",
+            "value": "==1/3== vs ==9%==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "Reoffending rate per 100 discharged (2006 cohort, men vs women)",
+            "value": "==46.6== vs ==45.0==",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
           }
         ],
         "bullets": [
@@ -1891,6 +2063,13 @@
           },
           {
             "text": "Deaf offenders have higher mental-disorder prevalence and communication barriers to services; deafness may affect fitness to plead. UK has 3 general psychiatric deaf-service hospitals plus 1 high-secure deaf service.",
+            "source": {
+              "file": "books/12-1-forensic-psychiatry-1.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Among those who *do* reoffend, women are more prolific than men: ==485.8== vs ==445.0== offences per 100 reoffenders, despite similar overall reoffending rates.",
             "source": {
               "file": "books/12-1-forensic-psychiatry-1.pdf",
               "page": 21
