@@ -4,7 +4,9 @@ import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { AppShell } from "@/components/app-shell";
 import { AppSidebar } from "@/components/app-sidebar";
+import { HighlighterToolbar } from "@/components/highlighter-toolbar";
 import { AuthProvider } from "@/lib/auth-context";
+import { HighlightProvider } from "@/lib/highlight-context";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,9 +40,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="h-full overflow-hidden">
         <AuthProvider>
-          <TooltipProvider>
-            <AppShell sidebar={<AppSidebar />}>{children}</AppShell>
-          </TooltipProvider>
+          <HighlightProvider>
+            <TooltipProvider>
+              <AppShell sidebar={<AppSidebar />}>{children}</AppShell>
+              <HighlighterToolbar />
+            </TooltipProvider>
+          </HighlightProvider>
         </AuthProvider>
       </body>
     </html>

@@ -59,3 +59,38 @@ create policy "delete own quiz progress"
 on quiz_progress for delete
 to authenticated
 using ( (select auth.uid()) = user_id );
+
+-- One row per user-created text highlight, anywhere RichText renders content in the app.
+-- `anchor_id` identifies the exact text field (see lib/highlight-context.tsx's scope/anchor
+-- scheme); start/end are character offsets into that field's plain (markdown-stripped) text.
+-- No update policy: a changed or overlapping highlight is a delete + insert, never a partial
+-- edit in place (see addHighlight in lib/highlight-context.tsx).
+create table highlights (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users on delete cascade,
+  anchor_id text not null,
+  start_offset int not null,
+  end_offset int not null,
+  color text not null,
+  snippet text not null,
+  created_at timestamptz not null default now()
+);
+
+alter table highlights enable row level security;
+revoke all on table highlights from anon, authenticated;
+grant select, insert, delete on table highlights to authenticated;
+
+create policy "select own highlights"
+on highlights for select
+to authenticated
+using ( (select auth.uid()) = user_id );
+
+create policy "insert own highlights"
+on highlights for insert
+to authenticated
+with check ( (select auth.uid()) = user_id );
+
+create policy "delete own highlights"
+on highlights for delete
+to authenticated
+using ( (select auth.uid()) = user_id );

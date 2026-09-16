@@ -113,7 +113,7 @@ function splitEnumeratedClauses(text: string): { lead: string; items: string[] }
 // the far right of the row. Pinning it to the row's end made every bullet look like two columns
 // (text on the left, a "reference column" of badges running down the right) instead of one
 // flowing line of text with a small reference mark at the end, like a footnote.
-function ParagraphBlockView({ block, onCite }: { block: ParagraphBlock; onCite: Cite }) {
+function ParagraphBlockView({ block, onCite, hlId }: { block: ParagraphBlock; onCite: Cite; hlId?: string }) {
   const split = splitEnumeratedClauses(block.text);
   const citation = <CitationBadge source={block.source} onClick={onCite} className="align-middle" />;
 
@@ -125,7 +125,7 @@ function ParagraphBlockView({ block, onCite }: { block: ParagraphBlock; onCite: 
           <>
             {split.lead && (
               <p>
-                <RichText text={split.lead} />
+                <RichText text={split.lead} highlightId={hlId && `${hlId}:lead`} />
               </p>
             )}
             <ul className="mt-1.5 space-y-1">
@@ -133,7 +133,7 @@ function ParagraphBlockView({ block, onCite }: { block: ParagraphBlock; onCite: 
                 <li key={i} className="flex gap-2">
                   <span className="shrink-0 text-[#1B3A5C]/60">–</span>
                   <span>
-                    <RichText text={item} />
+                    <RichText text={item} highlightId={hlId && `${hlId}:item${i}`} />
                     {i === split.items.length - 1 && <> {citation}</>}
                   </span>
                 </li>
@@ -142,7 +142,7 @@ function ParagraphBlockView({ block, onCite }: { block: ParagraphBlock; onCite: 
           </>
         ) : (
           <p>
-            <RichText text={block.text} /> {citation}
+            <RichText text={block.text} highlightId={hlId} /> {citation}
           </p>
         )}
       </div>
@@ -171,11 +171,14 @@ function DataTableGrid({
   columns,
   rows,
   colors,
+  hlId,
 }: {
   columns: string[];
   rows: string[][];
   colors: { header: string; rowTint: string; border: string; text: string };
+  hlId?: string;
 }) {
+  const cellHlId = (ri: number, ci: number) => hlId && `${hlId}:r${ri}c${ci}`;
   return (
     <>
       <div className="divide-y divide-[#E4E1D9] sm:hidden" data-testid="table-mobile-view">
@@ -184,10 +187,10 @@ function DataTableGrid({
             {columns.length === 2 ? (
               <>
                 <p className="text-[14.5px] font-bold text-[#101826]">
-                  <RichText text={row[0]} />
+                  <RichText text={row[0]} highlightId={cellHlId(ri, 0)} />
                 </p>
                 <p className="mt-1 text-[13.5px] leading-6 text-[#101826]">
-                  <RichText text={row[1]} />
+                  <RichText text={row[1]} highlightId={cellHlId(ri, 1)} />
                 </p>
               </>
             ) : (
@@ -196,7 +199,7 @@ function DataTableGrid({
                   <div key={ci}>
                     <p className="text-[10.5px] font-semibold tracking-wide text-[#5B6472] uppercase">{columns[ci]}</p>
                     <p className="text-[13.5px] leading-6 text-[#101826]">
-                      <RichText text={cell} />
+                      <RichText text={cell} highlightId={cellHlId(ri, ci)} />
                     </p>
                   </div>
                 ))}
@@ -221,7 +224,7 @@ function DataTableGrid({
               <TableRow key={ri} className={ri % 2 === 0 ? colors.rowTint : "bg-[#FAF8F4]"}>
                 {row.map((cell, ci) => (
                   <TableCell key={ci} className={TABLE_CELL_CLASS}>
-                    <RichText text={cell} />
+                    <RichText text={cell} highlightId={cellHlId(ri, ci)} />
                   </TableCell>
                 ))}
               </TableRow>
@@ -233,7 +236,7 @@ function DataTableGrid({
   );
 }
 
-function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) {
+function TableBlockView({ block, onCite, hlId }: { block: TableBlock; onCite: Cite; hlId?: string }) {
   const colors = block.category ? CATEGORY_COLOR_CLASSES[block.category.color] : DEFAULT_TABLE_COLORS;
   return (
     <div>
@@ -249,7 +252,7 @@ function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) 
         )}
       </div>
       <div className={`mt-2 overflow-hidden rounded-lg border shadow-sm ${colors.border}`}>
-        <DataTableGrid columns={block.columns} rows={block.rows} colors={colors} />
+        <DataTableGrid columns={block.columns} rows={block.rows} colors={colors} hlId={hlId} />
         {block.sources.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5 border-t border-[#E4E1D9] bg-[#F3F1EC] px-3 py-2">
             {block.sources.map((s, si) => (
@@ -262,13 +265,13 @@ function TableBlockView({ block, onCite }: { block: TableBlock; onCite: Cite }) 
   );
 }
 
-function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite: Cite }) {
+function ComparisonBlockView({ block, onCite, hlId }: { block: ComparisonBlock; onCite: Cite; hlId?: string }) {
   const colors = COMPARISON_TABLE_COLORS;
   return (
     <div>
       <h3 className={`text-sm font-bold uppercase tracking-wide ${colors.text}`}>{block.title}</h3>
       <div className={`mt-2 overflow-hidden rounded-lg border shadow-sm ${colors.border}`}>
-        <DataTableGrid columns={block.columns} rows={block.rows} colors={colors} />
+        <DataTableGrid columns={block.columns} rows={block.rows} colors={colors} hlId={hlId} />
         {block.sources.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5 border-t border-[#E4E1D9] bg-[#F3F1EC] px-3 py-2">
             {block.sources.map((s, si) => (
@@ -281,7 +284,7 @@ function ComparisonBlockView({ block, onCite }: { block: ComparisonBlock; onCite
   );
 }
 
-function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Cite }) {
+function MnemonicBlockView({ block, onCite, hlId }: { block: MnemonicBlock; onCite: Cite; hlId?: string }) {
   return (
     <div className="overflow-hidden rounded-lg border border-[#7D3C98] shadow-sm">
       {/* Mobile-first stack: a long mnemonic phrase used to compete with the citation/badge in one
@@ -309,7 +312,7 @@ function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Ci
         <ul className="mt-2 space-y-1.5">
           {block.expansion.map((e, ei) => (
             <li key={ei} className="text-[15px] leading-7 text-[#101826] md:text-[16px]">
-              <span className="font-bold text-[#7D3C98]">–</span> <RichText text={e} />
+              <span className="font-bold text-[#7D3C98]">–</span> <RichText text={e} highlightId={hlId && `${hlId}:exp${ei}`} />
             </li>
           ))}
         </ul>
@@ -318,7 +321,7 @@ function MnemonicBlockView({ block, onCite }: { block: MnemonicBlock; onCite: Ci
   );
 }
 
-function TrapBlockView({ block, onCite }: { block: TrapBlock; onCite: Cite }) {
+function TrapBlockView({ block, onCite, hlId }: { block: TrapBlock; onCite: Cite; hlId?: string }) {
   return (
     <div className="overflow-hidden rounded-lg border-2 border-[#B71C1C] shadow-sm">
       <div className="flex items-center gap-2 bg-[#B71C1C] px-4 py-2.5">
@@ -328,7 +331,7 @@ function TrapBlockView({ block, onCite }: { block: TrapBlock; onCite: Cite }) {
       </div>
       <div className="bg-[#FBE3E1] px-4 py-3.5">
         <p className="text-[15px] leading-7 font-semibold text-[#7B241C] md:text-[16px]">
-          <RichText text={block.text} />
+          <RichText text={block.text} highlightId={hlId} />
         </p>
       </div>
       <div className="flex items-center justify-end border-t border-[#B71C1C]/25 bg-[#FBE3E1] px-4 py-1.5">
@@ -345,7 +348,7 @@ function TrapBlockView({ block, onCite }: { block: TrapBlock; onCite: Cite }) {
 // Deliberately NOT a bordered/backgrounded box — verified against every page of the reference
 // that "MCQ Traps — Remember These!" lists render as a plain heading + bullet list with no box
 // at all. Visual weight instead comes from a bigger heading, an icon, and a colored rule.
-function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Cite }) {
+function TrapListBlockView({ block, onCite, hlId }: { block: TrapListBlock; onCite: Cite; hlId?: string }) {
   return (
     <div>
       <div className="flex items-center gap-2 border-b-2 border-[#C0392B] pb-2">
@@ -357,7 +360,7 @@ function TrapListBlockView({ block, onCite }: { block: TrapListBlock; onCite: Ci
           <li key={i} className="flex items-start gap-2.5">
             <span className="mt-2.5 size-1.5 shrink-0 rounded-full bg-[#C0392B]" />
             <span className="flex-1 text-[15px] leading-7 text-[#101826] md:text-[16px]">
-              <RichText text={item.text} />{" "}
+              <RichText text={item.text} highlightId={hlId && `${hlId}:item${i}`} />{" "}
               <CitationBadge source={item.source} onClick={onCite} className="align-middle" />
             </span>
           </li>
@@ -386,7 +389,7 @@ function ImageBlockView({ block, onCite }: { block: ImageBlock; onCite: Cite }) 
   );
 }
 
-function GapBlockView({ block, onCite }: { block: GapBlock; onCite: Cite }) {
+function GapBlockView({ block, onCite, hlId }: { block: GapBlock; onCite: Cite; hlId?: string }) {
   return (
     <div className="overflow-hidden rounded-lg border border-[#C2607D] shadow-sm">
       <div className="flex items-center gap-2 bg-[#9C3E5C] px-4 py-2.5">
@@ -395,7 +398,7 @@ function GapBlockView({ block, onCite }: { block: GapBlock; onCite: Cite }) {
       </div>
       <div className="bg-[#FBEEF1] px-4 py-3.5">
         <p className="text-[15px] leading-7 text-[#7A2F45] md:text-[16px]">
-          <RichText text={block.note} />
+          <RichText text={block.note} highlightId={hlId} />
           {block.source && (
             <>
               {" "}
@@ -497,13 +500,18 @@ function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
       activeId={activeId}
       onSelect={setActiveId}
       renderDetail={(section) => {
-        const paragraphs = section.blocks.filter((b): b is ParagraphBlock => b.type === "paragraph");
+        // Original block index (not the filtered array's index) so a paragraph highlighted here
+        // shares the exact same anchor as the identical block in the Full Guide tab, instead of
+        // the two tabs silently diverging into independent highlight state for the same text.
+        const paragraphs = section.blocks
+          .map((b, i) => ({ b, i }))
+          .filter((x): x is { b: ParagraphBlock; i: number } => x.b.type === "paragraph");
         return (
           <>
             <h2 className="font-serif text-lg font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
             <ul className="mt-4 space-y-4">
-              {paragraphs.map((b, i) => (
-                <ParagraphBlockView key={i} block={b} onCite={onCite} />
+              {paragraphs.map(({ b, i }) => (
+                <ParagraphBlockView key={i} block={b} onCite={onCite} hlId={`${section.id}:${i}`} />
               ))}
             </ul>
           </>
@@ -518,14 +526,24 @@ function NotesTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) {
 // box; a whole list of individually-boxed one-liners was busier than the "quick to read" goal
 // this tab exists for. `bullet.text` is a compression of (never independent of) the exact block
 // `bullet.source` points at — see lib/types.ts's `ConciseBullet` and CLAUDE.md.
-function ConciseBulletView({ bullet, index, onCite }: { bullet: ConciseBullet; index: number; onCite: Cite }) {
+function ConciseBulletView({
+  bullet,
+  index,
+  onCite,
+  hlId,
+}: {
+  bullet: ConciseBullet;
+  index: number;
+  onCite: Cite;
+  hlId?: string;
+}) {
   return (
     <li className="flex items-start gap-3">
       <span className="mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-[#1B3A5C] text-[11px] font-bold text-white">
         {index + 1}
       </span>
       <p className="flex-1 text-[16px] font-medium leading-7 text-[#101826] md:text-[17px] md:leading-8">
-        <RichText text={bullet.text} />{" "}
+        <RichText text={bullet.text} highlightId={hlId} />{" "}
         <CitationBadge source={bullet.source} onClick={onCite} className="align-middle" />
       </p>
     </li>
@@ -538,14 +556,14 @@ function ConciseBulletView({ bullet, index, onCite }: { bullet: ConciseBullet; i
 // hairline divider between rows, since a full table header/footer would be heavier chrome than
 // this content needs. See ConciseFact in lib/types.ts for why this is a distinct authored shape
 // rather than something auto-detected from bullet text.
-function ConciseFactList({ facts, onCite }: { facts: ConciseFact[]; onCite: Cite }) {
+function ConciseFactList({ facts, onCite, hlId }: { facts: ConciseFact[]; onCite: Cite; hlId?: string }) {
   return (
     <dl className="divide-y divide-[#E4E1D9] rounded-md border border-[#E4E1D9]">
       {facts.map((fact, i) => (
         <div key={i} className="flex items-baseline justify-between gap-4 px-3 py-2">
           <dt className="text-[15px] text-[#5B6472]">{fact.label}</dt>
           <dd className="flex items-baseline gap-1.5 text-right text-[16px] font-semibold text-[#1B3A5C]">
-            <RichText text={fact.value} />
+            <RichText text={fact.value} highlightId={hlId && `${hlId}:fact${i}`} />
             <CitationBadge source={fact.source} onClick={onCite} className="align-middle" />
           </dd>
         </div>
@@ -588,20 +606,26 @@ function ConciseTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) 
             <h2 className="font-serif text-lg font-bold text-[#1B3A5C] md:text-2xl">{section.title}</h2>
             {(concise.facts ?? []).length > 0 && (
               <div className="mt-4">
-                <ConciseFactList facts={concise.facts!} onCite={onCite} />
+                <ConciseFactList facts={concise.facts!} onCite={onCite} hlId={`concise:${section.id}`} />
               </div>
             )}
             {concise.bullets.length > 0 && (
               <ul className="mt-4 space-y-3.5">
                 {concise.bullets.map((b, i) => (
-                  <ConciseBulletView key={i} bullet={b} index={i} onCite={onCite} />
+                  <ConciseBulletView
+                    key={i}
+                    bullet={b}
+                    index={i}
+                    onCite={onCite}
+                    hlId={`concise:${section.id}:bullet${i}`}
+                  />
                 ))}
               </ul>
             )}
             {(concise.highlightBlockIndices ?? []).length > 0 && (
               <div className="mt-6 space-y-6">
                 {concise.highlightBlockIndices!.map((idx) => (
-                  <BlockView key={idx} block={section.blocks[idx]} onCite={onCite} />
+                  <BlockView key={idx} block={section.blocks[idx]} onCite={onCite} hlId={`${section.id}:${idx}`} />
                 ))}
               </div>
             )}
@@ -612,28 +636,28 @@ function ConciseTabView({ guide, onCite }: { guide: StudyGuide; onCite: Cite }) 
   );
 }
 
-function BlockView({ block, onCite }: { block: Block; onCite: Cite }) {
+function BlockView({ block, onCite, hlId }: { block: Block; onCite: Cite; hlId?: string }) {
   switch (block.type) {
     case "paragraph":
       return (
         <ul>
-          <ParagraphBlockView block={block} onCite={onCite} />
+          <ParagraphBlockView block={block} onCite={onCite} hlId={hlId} />
         </ul>
       );
     case "table":
-      return <TableBlockView block={block} onCite={onCite} />;
+      return <TableBlockView block={block} onCite={onCite} hlId={hlId} />;
     case "comparison":
-      return <ComparisonBlockView block={block} onCite={onCite} />;
+      return <ComparisonBlockView block={block} onCite={onCite} hlId={hlId} />;
     case "mnemonic":
-      return <MnemonicBlockView block={block} onCite={onCite} />;
+      return <MnemonicBlockView block={block} onCite={onCite} hlId={hlId} />;
     case "trap":
-      return <TrapBlockView block={block} onCite={onCite} />;
+      return <TrapBlockView block={block} onCite={onCite} hlId={hlId} />;
     case "trap-list":
-      return <TrapListBlockView block={block} onCite={onCite} />;
+      return <TrapListBlockView block={block} onCite={onCite} hlId={hlId} />;
     case "image":
       return <ImageBlockView block={block} onCite={onCite} />;
     case "gap":
-      return <GapBlockView block={block} onCite={onCite} />;
+      return <GapBlockView block={block} onCite={onCite} hlId={hlId} />;
   }
 }
 
@@ -1125,11 +1149,11 @@ export function StudyGuideView({
                 <div className="mt-4 space-y-6">
                   {section.intro && (
                     <p className="text-[16px] leading-7 md:text-[17px] md:leading-8">
-                      <RichText text={section.intro} />
+                      <RichText text={section.intro} highlightId={`${section.id}:intro`} />
                     </p>
                   )}
                   {section.blocks.map((block, i) => (
-                    <BlockView key={i} block={block} onCite={onCite} />
+                    <BlockView key={i} block={block} onCite={onCite} hlId={`${section.id}:${i}`} />
                   ))}
                 </div>
               </div>
@@ -1155,17 +1179,18 @@ export function StudyGuideView({
           <div className="space-y-8">
             {guide.sections.flatMap((section) =>
               section.blocks
-                .filter((b): b is TableBlock | ComparisonBlock => b.type === "table" || b.type === "comparison")
-                .map((block, i) => (
+                .map((b, i) => ({ b, i }))
+                .filter((x): x is { b: TableBlock | ComparisonBlock; i: number } => x.b.type === "table" || x.b.type === "comparison")
+                .map(({ b: block, i }) => (
                   <div key={`${section.id}-${i}`}>
                     <p className="text-xs font-bold tracking-wide text-[#5B6472] uppercase">
                       {section.title}
                     </p>
                     <div className="mt-1.5">
                       {block.type === "table" ? (
-                        <TableBlockView block={block} onCite={onCite} />
+                        <TableBlockView block={block} onCite={onCite} hlId={`${section.id}:${i}`} />
                       ) : (
-                        <ComparisonBlockView block={block} onCite={onCite} />
+                        <ComparisonBlockView block={block} onCite={onCite} hlId={`${section.id}:${i}`} />
                       )}
                     </div>
                   </div>
@@ -1180,8 +1205,11 @@ export function StudyGuideView({
           <div className="space-y-4">
             {guide.sections.flatMap((section) =>
               section.blocks
-                .filter((b): b is MnemonicBlock => b.type === "mnemonic")
-                .map((block, i) => <MnemonicBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} />)
+                .map((b, i) => ({ b, i }))
+                .filter((x): x is { b: MnemonicBlock; i: number } => x.b.type === "mnemonic")
+                .map(({ b: block, i }) => (
+                  <MnemonicBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} hlId={`${section.id}:${i}`} />
+                ))
             )}
           </div>
         </Paper>
@@ -1192,12 +1220,13 @@ export function StudyGuideView({
           <div className="space-y-5">
             {guide.sections.flatMap((section) =>
               section.blocks
-                .filter((b): b is TrapBlock | TrapListBlock => b.type === "trap" || b.type === "trap-list")
-                .map((block, i) =>
+                .map((b, i) => ({ b, i }))
+                .filter((x): x is { b: TrapBlock | TrapListBlock; i: number } => x.b.type === "trap" || x.b.type === "trap-list")
+                .map(({ b: block, i }) =>
                   block.type === "trap" ? (
-                    <TrapBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} />
+                    <TrapBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} hlId={`${section.id}:${i}`} />
                   ) : (
-                    <TrapListBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} />
+                    <TrapListBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} hlId={`${section.id}:${i}`} />
                   )
                 )
             )}
@@ -1210,8 +1239,11 @@ export function StudyGuideView({
           <div className="space-y-4">
             {guide.sections.flatMap((section) =>
               section.blocks
-                .filter((b): b is GapBlock => b.type === "gap")
-                .map((block, i) => <GapBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} />)
+                .map((b, i) => ({ b, i }))
+                .filter((x): x is { b: GapBlock; i: number } => x.b.type === "gap")
+                .map(({ b: block, i }) => (
+                  <GapBlockView key={`${section.id}-${i}`} block={block} onCite={onCite} hlId={`${section.id}:${i}`} />
+                ))
             )}
           </div>
         </Paper>

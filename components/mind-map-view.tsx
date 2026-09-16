@@ -110,7 +110,7 @@ function MindMapTreeNode({
     return (
       <li className={TREE_LI_CLASS} style={style}>
         <span className="text-[14px] leading-6 text-[#101826] md:text-[15px]">
-          <RichText text={node.label} />
+          <RichText text={node.label} highlightId={`mindmap:${path}`} />
           {node.source && !hideReferences && (
             <>
               {" "}

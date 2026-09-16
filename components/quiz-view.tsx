@@ -9,6 +9,7 @@ import { Progress } from "@/components/ui/progress";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { RichText } from "@/components/rich-text";
+import { HighlightScopeProvider } from "@/lib/highlight-context";
 import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 
@@ -69,6 +70,7 @@ function QuizReview({
   }
 
   return (
+    <HighlightScopeProvider scope={`quiz:${topicId}`}>
     <div className="h-full overflow-y-auto">
       <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-4 pb-3 sm:p-6 sm:pb-3">
         <div className="flex items-center justify-between">
@@ -152,7 +154,7 @@ function QuizReview({
           )}
           {q.explanation && (
             <p className="text-sm">
-              <RichText text={q.explanation} />
+              <RichText text={q.explanation} highlightId={`question:${q.id}:explanation`} />
             </p>
           )}
           {q.reference && <p className="text-xs text-muted-foreground">Ref: {q.reference}</p>}
@@ -191,6 +193,7 @@ function QuizReview({
         </SheetContent>
       </Sheet>
     </div>
+    </HighlightScopeProvider>
   );
 }
 
@@ -323,6 +326,7 @@ export function QuizView({
   }
 
   return (
+    <HighlightScopeProvider scope={`quiz:${topicId}`}>
     <div className="h-full overflow-y-auto">
       <div className="sticky top-0 z-10 mx-auto max-w-2xl space-y-2 bg-background p-4 pb-3 sm:p-6 sm:pb-3">
         <Progress value={((progress.index + 1) / questions.length) * 100} />
@@ -418,7 +422,7 @@ export function QuizView({
             <p className="text-sm font-medium">Correct answer: {q.correctAnswer || "(not extractable from source — see explanation)"}</p>
             {q.explanation && (
               <p className="text-sm">
-                <RichText text={q.explanation} />
+                <RichText text={q.explanation} highlightId={`question:${q.id}:explanation`} />
               </p>
             )}
             {q.reference && <p className="text-xs text-muted-foreground">Ref: {q.reference}</p>}
@@ -479,5 +483,6 @@ export function QuizView({
         </SheetContent>
       </Sheet>
     </div>
+    </HighlightScopeProvider>
   );
 }

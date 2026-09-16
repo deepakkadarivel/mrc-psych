@@ -19,6 +19,7 @@ import {
 import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { CitationBadge } from "@/components/citation-badge";
 import { RichText } from "@/components/rich-text";
+import { HighlightScopeProvider } from "@/lib/highlight-context";
 import { cn } from "@/lib/utils";
 import type {
   CitedPoint,
@@ -291,7 +292,7 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
     );
 
   return (
-    <>
+    <HighlightScopeProvider scope="trends">
       <div className="md:hidden">
         <div className="max-h-64 overflow-y-auto border-b">
           <h1 className="px-3 pt-3 font-serif text-lg font-semibold">Exam Trend Analysis</h1>
@@ -321,7 +322,7 @@ export function ExamTrendsView({ data }: { data: ExamTrendsData }) {
           <PdfViewer source={activeSource} />
         </SheetContent>
       </Sheet>
-    </>
+    </HighlightScopeProvider>
   );
 }
 
@@ -409,12 +410,20 @@ function OverviewDetail({
   );
 }
 
-function PriorityFactList({ facts, onCite }: { facts: PriorityFact[]; onCite: (source: Source) => void }) {
+function PriorityFactList({
+  facts,
+  onCite,
+  hlPrefix,
+}: {
+  facts: PriorityFact[];
+  onCite: (source: Source) => void;
+  hlPrefix: string;
+}) {
   return (
     <ul className="space-y-3 text-sm">
       {facts.map((f, i) => (
         <li key={i}>
-          <RichText text={f.text} />{" "}
+          <RichText text={f.text} highlightId={`${hlPrefix}:${i}`} />{" "}
           <CitationBadge source={f.source} onClick={onCite} className="align-middle" />
         </li>
       ))}
@@ -441,7 +450,7 @@ function GoldenRulesDetail({
       <div>
         <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">Golden rules</p>
         <div className="mt-2">
-          <PriorityFactList facts={priorityAnalysis.goldenRules} onCite={onCite} />
+          <PriorityFactList facts={priorityAnalysis.goldenRules} onCite={onCite} hlPrefix="golden" />
         </div>
       </div>
     </div>
@@ -481,7 +490,7 @@ function PriorityDomainDetail({
           Repeated facts (flagged as recurring by the source documents)
         </p>
         <div className="mt-2">
-          <PriorityFactList facts={domain.repeatedFacts} onCite={onCite} />
+          <PriorityFactList facts={domain.repeatedFacts} onCite={onCite} hlPrefix={`domain:${domain.id}:repeated`} />
         </div>
       </div>
 
@@ -489,7 +498,7 @@ function PriorityDomainDetail({
         <div>
           <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">Expected going forward</p>
           <p className="mt-2 text-sm">
-            <RichText text={domain.expectedNote.text} />{" "}
+            <RichText text={domain.expectedNote.text} highlightId={`domain:${domain.id}:expected`} />{" "}
             <CitationBadge source={domain.expectedNote.source} onClick={onCite} className="align-middle" />
           </p>
         </div>
@@ -501,12 +510,20 @@ function PriorityDomainDetail({
 // Renders a CitedPoint list — each point is grounded either in this app's own corpus (`source`,
 // opens the PDF drawer like everywhere else) or in a genuine web source (`url`, opens in a new
 // tab) — see CitedPoint in lib/types.ts. Never both, never neither.
-function CitedPointList({ points, onCite }: { points: CitedPoint[]; onCite: (source: Source) => void }) {
+function CitedPointList({
+  points,
+  onCite,
+  hlPrefix,
+}: {
+  points: CitedPoint[];
+  onCite: (source: Source) => void;
+  hlPrefix: string;
+}) {
   return (
     <ul className="space-y-3 text-sm">
       {points.map((p, i) => (
         <li key={i}>
-          <RichText text={p.text} />{" "}
+          <RichText text={p.text} highlightId={`${hlPrefix}:${i}`} />{" "}
           {p.source ? (
             <CitationBadge source={p.source} onClick={onCite} className="align-middle" />
           ) : p.url ? (
@@ -546,7 +563,7 @@ function IndependentSummaryDetail({
           Repeated topics — confirmed recurring across independent sources
         </p>
         <div className="mt-2">
-          <CitedPointList points={independentAnalysis.repeatedTopics} onCite={onCite} />
+          <CitedPointList points={independentAnalysis.repeatedTopics} onCite={onCite} hlPrefix="independent:repeated" />
         </div>
       </div>
 
@@ -555,14 +572,14 @@ function IndependentSummaryDetail({
           Where to concentrate — ranked by this app&apos;s own topics
         </p>
         <div className="mt-2">
-          <CitedPointList points={independentAnalysis.concentrationTopics} onCite={onCite} />
+          <CitedPointList points={independentAnalysis.concentrationTopics} onCite={onCite} hlPrefix="independent:concentration" />
         </div>
       </div>
 
       <div>
         <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">Expected going forward</p>
         <div className="mt-2">
-          <CitedPointList points={independentAnalysis.expectedTopics} onCite={onCite} />
+          <CitedPointList points={independentAnalysis.expectedTopics} onCite={onCite} hlPrefix="independent:expected" />
         </div>
       </div>
     </div>
@@ -583,7 +600,7 @@ function IndependentGroupDetail({
         <p className="text-sm text-muted-foreground">Independent Corpus Analysis</p>
         <h2 className="font-serif text-xl font-bold">{group.topic}</h2>
       </div>
-      <CitedPointList points={group.points} onCite={onCite} />
+      <CitedPointList points={group.points} onCite={onCite} hlPrefix={`group:${group.topic}`} />
     </div>
   );
 }
@@ -637,7 +654,7 @@ function TopicDetail({
             <ul className="mt-2 space-y-3 text-sm">
               {signal.recurringTraps.map((trap, i) => (
                 <li key={i}>
-                  <RichText text={trap.text} />{" "}
+                  <RichText text={trap.text} highlightId={`topic:${signal.topicId}:trap:${i}`} />{" "}
                   <CitationBadge source={trap.source} onClick={onCite} className="align-middle" />
                 </li>
               ))}

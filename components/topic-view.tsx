@@ -13,6 +13,7 @@ import { CitationBadge } from "@/components/citation-badge";
 import { StudyGuideView } from "@/components/study-guide-view";
 import { RichText } from "@/components/rich-text";
 import { usePortalSlot } from "@/hooks/use-portal-slot";
+import { HighlightScopeProvider } from "@/lib/highlight-context";
 import type { NoteBlock, Question, Source, StudyGuide, TopicManifestEntry } from "@/lib/types";
 
 const PdfViewer = dynamic(() => import("@/components/pdf-viewer").then((m) => m.PdfViewer), {
@@ -61,6 +62,7 @@ export function TopicView({
   }
 
   return (
+    <HighlightScopeProvider scope={`topic:${topic.id}`}>
     <div className={studyGuide ? "pb-16 md:pb-0" : undefined}>
       {titleSlot &&
         createPortal(
@@ -159,7 +161,7 @@ export function TopicView({
                       <CitationBadge source={note.source} onClick={handleCite} />
                     </div>
                     <p className="mt-3 text-sm leading-relaxed">
-                      <RichText text={note.text} />
+                      <RichText text={note.text} highlightId={`note:${note.id}`} />
                     </p>
                   </div>
                   <div className="flex shrink-0 items-center justify-between border-t p-3">
@@ -185,5 +187,6 @@ export function TopicView({
         </SheetContent>
       </Sheet>
     </div>
+    </HighlightScopeProvider>
   );
 }
