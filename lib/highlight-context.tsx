@@ -141,6 +141,47 @@ export function HighlightProvider({ children }: { children: React.ReactNode }) {
     [user, color, byAnchor]
   );
 
+  // One global listener, not a per-RichText-instance `onMouseUp` (an earlier version did that) —
+  // confirmed necessary for the highlighter to work with touch and Apple Pencil input on iPad:
+  // a mouse-drag text selection ends with a real `mouseup`, but a touch/Pencil-drawn selection
+  // (long-press, then drag the native selection handles) has no mouse drag to release at all, so
+  // `mouseup` never fires for it. `pointerup` is the one event the Pointer Events spec — and
+  // Safari/iPadOS specifically — dispatches uniformly once the gesture ends, regardless of
+  // whether it came from a mouse, a finger, or an Apple Pencil (`pointerType` "mouse"/"touch"/
+  // "pen"). Reads whichever RichText the finished selection landed in via the nearest
+  // `[data-hl-anchor]` ancestor of the selection's actual common ancestor — if the selection
+  // spans out of one RichText into another element (e.g. into a sibling citation badge, or across
+  // two table cells), that common ancestor won't itself carry `data-hl-anchor` and `.closest()`
+  // (which only checks the element and its ancestors, never descendants) correctly finds nothing,
+  // so the selection is left alone rather than highlighted against the wrong/no anchor.
+  useEffect(() => {
+    if (!mode) return;
+    function handlePointerUp() {
+      const sel = window.getSelection();
+      if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return;
+      const range = sel.getRangeAt(0);
+      const container = range.commonAncestorContainer;
+      const containerEl = container.nodeType === Node.ELEMENT_NODE ? (container as Element) : container.parentElement;
+      const anchorEl = containerEl?.closest<HTMLElement>("[data-hl-anchor]");
+      const anchorId = anchorEl?.dataset.hlAnchor;
+      if (!anchorEl || !anchorId) return;
+      const text = range.toString();
+      if (!text.trim()) return;
+      // Same "plain text" coordinate space RichText's own emphasis parser produces — measuring a
+      // Range from the start of anchorEl up to the selection start works because every rendered
+      // node under it is plain text (no characters added/removed by the `<strong>`/`<em>`/`<mark>`
+      // wrappers), so DOM text offsets and plain-text offsets coincide.
+      const pre = document.createRange();
+      pre.selectNodeContents(anchorEl);
+      pre.setEnd(range.startContainer, range.startOffset);
+      const start = pre.toString().length;
+      addHighlight(anchorId, start, start + text.length, text);
+      sel.removeAllRanges();
+    }
+    document.addEventListener("pointerup", handlePointerUp);
+    return () => document.removeEventListener("pointerup", handlePointerUp);
+  }, [mode, addHighlight]);
+
   const removeHighlight = useCallback((anchorId: string, highlightId: string) => {
     setByAnchor((prev) => {
       const existing = prev.get(anchorId);

@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useRef } from "react";
+import { Fragment } from "react";
 import { useHighlightScope, useHighlights } from "@/lib/highlight-context";
 import { highlightTextColor } from "@/lib/highlight-colors";
 import type { Highlight } from "@/lib/highlight-store";
@@ -90,33 +90,14 @@ function splitPieceByHighlights(piece: Piece, ranges: Highlight[]): Segment[] {
   return segments;
 }
 
-/** Computes selection offsets in the same "plain text" coordinate space `parseEmphasis` produces,
- * by measuring a Range from the start of `root` up to the selection start/end — this only works
- * because every rendered node under `root` is plain text (no characters added/removed by the
- * `<strong>`/`<em>`/`<mark>` wrappers), so DOM text offsets and plain-text offsets coincide. */
-function getSelectionOffsetsWithin(root: HTMLElement): { start: number; end: number; text: string } | null {
-  const sel = window.getSelection();
-  if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return null;
-  const range = sel.getRangeAt(0);
-  if (!root.contains(range.startContainer) || !root.contains(range.endContainer)) return null;
-  const text = range.toString();
-  if (!text.trim()) return null;
-  const pre = document.createRange();
-  pre.selectNodeContents(root);
-  pre.setEnd(range.startContainer, range.startOffset);
-  const start = pre.toString().length;
-  return { start, end: start + text.length, text };
-}
-
 /** Renders `**bold**` / `*italic*` / `==highlight==` markdown-lite markup, plus (when `highlightId`
  * is given, and a highlight scope is set above via HighlightScopeProvider) user-drawn highlights:
  * selecting text while the highlighter is active saves a highlight over that span; clicking an
  * existing highlight removes it. Deliberately minimal markdown — no nested emphasis, no
  * lists/links — this is for short study-guide bullets/cells, not general markdown. */
 export function RichText({ text, highlightId }: { text: string; highlightId?: string }) {
-  const rootRef = useRef<HTMLSpanElement>(null);
   const scope = useHighlightScope();
-  const { mode, addHighlight, removeHighlight, getRanges } = useHighlights();
+  const { removeHighlight, getRanges } = useHighlights();
   const anchorId = highlightId && scope ? `${scope}:${highlightId}` : undefined;
 
   const { pieces, plainText } = parseEmphasis(text);
@@ -172,21 +153,15 @@ export function RichText({ text, highlightId }: { text: string; highlightId?: st
     }
   });
 
-  function handleMouseUp() {
-    if (!mode || !anchorId || !rootRef.current) return;
-    const sel = getSelectionOffsetsWithin(rootRef.current);
-    if (!sel) return;
-    addHighlight(anchorId, sel.start, sel.end, sel.text);
-    window.getSelection()?.removeAllRanges();
-  }
-
   // A single wrapping element, not a Fragment — a Fragment's children get flattened directly
   // into whatever parent renders <RichText/>, so if that parent is `display:flex`/`grid`, each
   // word-chunk becomes its own flex/grid item instead of flowing as one block of inline text.
   // This bit the Notes accordion badly (see CLAUDE.md "RichText must not return a Fragment").
-  return (
-    <span ref={rootRef} onMouseUp={mode && anchorId ? handleMouseUp : undefined}>
-      {nodes}
-    </span>
-  );
+  //
+  // `data-hl-anchor` is read by a single global pointerup listener in lib/highlight-context.tsx,
+  // not handled here per-instance — see that file's comment for why: a per-span `onMouseUp`
+  // never fires for a touch/Apple-Pencil-drawn text selection on iPad (there's no mouse drag to
+  // release), while `pointerup` is the one event Safari/iPadOS dispatches uniformly for mouse,
+  // touch, AND Apple Pencil input.
+  return <span data-hl-anchor={anchorId}>{nodes}</span>;
 }
