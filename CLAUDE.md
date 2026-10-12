@@ -810,7 +810,17 @@ standalone sets, mocks, skipped files); `extract.ts` writes everything incl. `ma
   PDF boxes (p16 Descriptive caption, adverse-effects chart "Hypothyroidism: Li"), cut-off table tops. The adverse-effects
   chart's boxes also clip their last lines visually while the text layer still holds them ("U. Incontinence/hesitancy:
   reboxetine"); that row is kept in both the Adverse Drug Effects and Syndromes tables. The detect script needs
-  `python3` with numpy/scipy/Pillow (not used by the app).
+  `python3` with numpy/scipy/Pillow (not used by the app). Crop maintenance tools: `scripts/paper-a/trim-bleed.py` (strips thin
+  neighbouring-prose fragments at crop edges; idempotent, `--dry` first) and `scripts/paper-a/extend-crop.py` (re-crops an
+  existing PNG with +/- pixel margins by locating it on its page render). Every crop was eyeballed on contact sheets once.
+- **Guide fidelity audit** (`scripts/paper-a/audit-guides.ts [topic…] [--fix]`): for every cited claim (paragraph, table
+  row, trap, gap, trap-list item, concise bullet/fact, mind-map leaf) it checks the claim's content words and numbers occur in
+  the cited source (PDF page, layout+raw text, or the question's stem/options/answer/explanation) and, for flagged ones, searches
+  the topic's other pages/questions for a better home; `--fix` repoints a single-page citation only when the text is clearly
+  (>=0.75, +0.2 better) on another page of the same PDF. A first run repointed 16 off-by-one page citations. Claims that
+  contrast "the notes" with a question are skipped (they quote two sources). ~50 of ~12,300 claims stay flagged, almost all
+  compressed or mixed-source bullets; a flag means *look*, not *wrong*. Output goes to the gitignored `.audit-flagged.txt`.
+  Mnemonic checks: an invented mnemonic's phrase/acronym should spell the initials of (or key words of) its expansion items.
 - `e2e/paper-a.spec.ts` covers the switch, notes + citation → real PDF load (trailing-space paths), and quiz/mock
   rendering. **Port 3001 may be held by an unrelated project's dev server**: Playwright's
   `reuseExistingServer` then silently tests the wrong app (everything 404s). Start this app yourself on a free port

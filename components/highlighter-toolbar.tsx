@@ -20,7 +20,7 @@ export function HighlighterToolbar() {
   if (!user) return null;
 
   return (
-    <div className="fixed right-4 bottom-4 z-40 flex flex-col items-end gap-2">
+    <div className="fixed right-4 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-40 flex flex-col items-end gap-2 md:bottom-4">
       {mode && (
         <div className="flex items-center gap-1.5 rounded-full border bg-background/95 p-1.5 shadow-lg backdrop-blur">
           {HIGHLIGHT_COLORS.map((c) => (

@@ -70,11 +70,11 @@ for (const topic of TOPICS) {
       await switchToTab(page, "Traps");
       await expect(page.getByText("EXAM TRAP").first()).toBeVisible();
 
-      // Neither representative topic has Mind Map content authored yet (rolling out topic by
-      // topic — see old-age-psychiatry's dedicated test below), so this only checks the tab
-      // switches and renders its empty-state message rather than staying on the previous tab.
+      // Every topic now has Mind Map content (see the dedicated old-age-psychiatry tests below for
+      // the tree's behaviour), so this only checks the tab switches and renders the branch tree
+      // rather than staying on the previous tab.
       await switchToTab(page, "Mind Map");
-      await expect(page.getByText("Mind map not yet available for this topic.")).toBeVisible();
+      await expect(page.getByTestId("mindmap-branches")).toBeVisible();
     });
 
     test("PDF section is hidden by default and opens via the header toggle", async ({ page }) => {
