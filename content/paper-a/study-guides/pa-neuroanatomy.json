@@ -83,37 +83,48 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Cortical localisation questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q16**: the structure dividing frontal from temporal lobe is the lateral sulcus (Sylvian fissure); the central sulcus divides frontal from parietal.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 16
-              }
-            },
-            {
-              "text": "**Q26**: primary sensory cortex = postcentral gyrus (Brodmann areas 3, 1, 2); precentral gyrus is the distractor.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 26
-              }
-            },
-            {
-              "text": "**Q46**: the motor cortex occupies the precentral gyrus (Brodmann area 4); the supplementary motor area (area 6) lies immediately anterior to the motor strip.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 21,
-                "questionNumber": 46
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "The lateral sulcus (Sylvian fissure) is what divides the frontal lobe from the temporal lobe - the central sulcus is the tempting distractor (it divides frontal from parietal). The explanation adds that the lateral sulcus divides the frontal **AND** parietal lobes from the temporal lobe.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Primary sensory cortex = postcentral gyrus (Brodmann areas 3, 1, 2); the precentral gyrus (primary motor cortex) is the distractor offered beside it. Lesions of the primary somatosensory cortex give agraphesthesia, astereognosis, and loss of vibration, proprioception and fine touch.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Motor cortex = precentral gyrus (Brodmann area 4, Penfield's homunculus); the supplementary motor area (area 6) lies immediately anterior to the motor strip, and the postcentral gyrus is the distractor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 46
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Taste sensation is served by the anterior insula (with the frontal operculum on the inferior frontal gyrus) - amygdala, hippocampus, prefrontal cortex and entorhinal cortex are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 54
+          }
         },
         {
           "type": "gap",
@@ -123,6 +134,16 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 2,
             "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Nominal aphasia (cannot name objects despite plenty of words, can usually copy written material) localises to the angular gyrus - not Broca area or the inferior frontal gyrus, which are among the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 24
           }
         },
         {
@@ -146,6 +167,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The prefrontal cortex is the last brain region to mature (amygdala, midbrain, parahippocampal cortex and thalamus are the distractors); its lesions present with disinhibition, apathy, loss of initiative and personality change.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 13
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Frontal lobe damage: forced utilisation and personality change",
           "note": "**Q19** explanation: damage to the orbitofrontal region can give forced utilisation behaviour. **Q34** (personality change, disinhibition, poor judgement, irritability) is answered frontal lobe. **Q31**: orbitofrontal cortex has a prominent role in social valuation and damage can cause a pseudopsychopathic syndrome. The notes only give orbitofrontal = associative learning and decision-making.",
@@ -153,6 +184,26 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 9,
             "questionNumber": 19
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Social valuation' = orbitofrontal cortex; the explanation says other regions (temporoparietal junction, anterior cingulate cortex, fusiform gyrus) also play a part, but anterior cingulate gyrus is the distractor here. Damage to the orbitofrontal cortex can cause a pseudopsychopathic syndrome.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A vignette of personality change, social disinhibition, poor judgement and irritability points to the frontal lobe (explanation: apathetic indifference that can suddenly explode into impulsive disinhibition) - not temporal or parietal lobe.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 34
           }
         },
         {
@@ -164,6 +215,86 @@
             "page": 10,
             "questionNumber": 22
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Cerebral blood flow and hallucinations/delusions",
+          "note": "Mock explanation (keyed: left medial temporal cortex): patients with schizophrenia and frequent auditory hallucinations show reduced grey matter density and neuronal activation; fMRI shows reduced activation in the left temporal lobe and anterior cingulate cortex, and the abnormalities converge in the superior gyrus of the left temporal lobe. The distractors include the right medial temporal cortex, caudate nucleus and prefrontal cortex. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 14,
+            "questionNumber": 56
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "The prefrontal cortex occupies nearly ==30%== of the brain (20, 70, 50 and 10 are the other options).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 20,
+                "questionNumber": 43
+              }
+            },
+            {
+              "text": "The last part of the brain to mature is the anterior frontal pole (pre-frontal cortex); the frontal lobe is the last area to develop and development continues into the twenties.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 13,
+                "questionNumber": 55
+              }
+            },
+            {
+              "text": "Forced utilisation behaviour = frontal lobe (orbitofrontal) damage: the patient picks up and uses objects placed in front of them even when told not to.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 19
+              }
+            },
+            {
+              "text": "Epileptic aura = temporal lobe; the olfactory aura arises from the uncus (medial-inferior surface of the temporal lobe).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 22
+              }
+            },
+            {
+              "text": "Disgust: functional imaging shows consistent change in the anterior insular region (supplementary motor area, dorsomedial thalamus, posterior hippocampus and anterior cingulate cortex are the distractors).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 10,
+                "questionNumber": 25
+              }
+            },
+            {
+              "text": "Disengagement of attention is mediated by the medial parietal cortex - the explanation notes it is affected early in Alzheimer disease, with attentional deficits before language and visuospatial deficits.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 14,
+                "questionNumber": 58
+              }
+            },
+            {
+              "text": "Mirror neurons are in the inferior frontal (and superior parietal) cortex, active both when performing and when observing an action - the inferior parietal lobe and lateral frontal cortex are near-miss distractors.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 24,
+                "questionNumber": 52
+              }
+            },
+            {
+              "text": "The temporal lobe is the lobe first affected in Alzheimer disease (via the entorhinal cortex) - prefrontal, frontal, parietal and occipital lobes are the distractors.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 20
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -202,10 +333,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 2
             }
+          },
+          {
+            "text": "Lateral sulcus (Sylvian fissure) divides frontal and parietal lobes from the temporal lobe; the central sulcus is the distractor.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 8,
+              "questionNumber": 16
+            }
+          },
+          {
+            "text": "Taste: primary gustatory cortex = anterior insula plus frontal operculum.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 13,
+              "questionNumber": 54
+            }
+          },
+          {
+            "text": "Prefrontal cortex is the last region to mature; lesions give disinhibition, apathy, loss of initiative, personality change.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 13
+            }
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2,
+          5,
+          10,
+          12
         ]
       }
     },
@@ -257,7 +416,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Dominance question: 'Most left-handed individuals have left cerebral dominance' is the true statement; 'right-handed individuals **ALWAYS** have right...' is an absolute-language distractor. Explanation figures: ==90%== right-handed, ==99%== of right-handers left-dominant, ==67%== of left-handers left-dominant (the other ==33%== mixed or right) - this differs from the notes' ==64%== left / ==20%== right / ==16%== bilateral.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 8
+          }
         },
         {
           "type": "gap",
@@ -275,6 +445,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In healthy right-handed people it is Heschl's gyrus (primary auditory cortex) as well as the planum temporale that is larger on the left - frontal lobe, hippocampus, inferior temporal gyrus and caudate are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 7,
+            "questionNumber": 29
           }
         },
         {
@@ -319,7 +499,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Left-hemisphere lesion effect keyed as alexia with agraphia (acquired dyslexia with right-sided motor deficits) - even though 'apraxia' is also an option and the notes list limb apraxia under left lesions, so the bank answer is not in the notes' left-lesion list.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 7
+          }
         },
         {
           "type": "paragraph",
@@ -330,6 +521,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Face recognition: the fusiform gyrus (temporal lobe), which causes prosopagnosia when damaged bilaterally - amygdala, nucleus accumbens, prefrontal cortex and left inferior frontal area are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 11,
+            "questionNumber": 28
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Alexia with agraphia (Q7) and non-dominant hemisphere function (Q29)",
           "note": "**Q7** (left hemisphere lesion effect) is keyed 'alexia with agraphia': explanation says dominant (usually left) hemisphere lesions impair reading (acquired dyslexia), with right-sided motor deficits and agraphia. The notes' left-lesion list does not contain this. **Q29** is keyed 'pictorial memory' as a key function of the non-dominant hemisphere (picture memory predominantly affected by right brain injury) - also not in the notes.",
@@ -337,6 +538,16 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 3,
             "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Key function of the non-dominant hemisphere = pictorial memory (picture memory predominantly affected by right brain injury; verbal memory by left); logical reasoning, analytical capacity, verbal learning and language are the dominant-hemisphere distractors. The explanation notes this is disputed.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 29
           }
         }
       ],
@@ -376,6 +587,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "Left-handers: bank explanation gives 67% left-hemisphere language dominance (notes: 64%).",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 8
+            }
+          },
+          {
+            "text": "Left > right asymmetry in right-handers: planum temporale AND Heschl's gyrus.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 7,
+              "questionNumber": 29
+            }
+          },
+          {
+            "text": "Face recognition = fusiform gyrus; bilateral damage gives prosopagnosia.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 11,
+              "questionNumber": 28
+            }
           }
         ],
         "facts": [
@@ -406,7 +641,10 @@
         ],
         "highlightBlockIndices": [
           2,
-          5
+          3,
+          6,
+          7,
+          10
         ]
       }
     },
@@ -480,7 +718,42 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Hippocampus is the Papez-circuit answer; temporal pole, medullary centre, trapezoid body and red nucleus are the distractors. Papez circuit per the explanation: hippocampus, fornix, mammillary bodies, anterior thalamic nucleus, cingulate gyrus, parahippocampal gyrus.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**NOT** part of the Papez circuit: Heschl's gyrus (mammillary body, parahippocampal gyrus, cingulate gyrus and hippocampus are). The explanation adds that the limbic boundaries were later expanded to include amygdala, septum, basal forebrain, nucleus accumbens and orbitofrontal cortex.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 28
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Papez circuit core structures in order",
+          "mnemonic": "Hungry Frogs Munch Ants, Chewing Pebbles",
+          "expansion": [
+            "Hippocampus",
+            "Fornix",
+            "Mammillary bodies",
+            "Anterior thalamic nucleus",
+            "Cingulate gyrus",
+            "Parahippocampal gyrus"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -524,37 +797,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Papez / amygdala questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q6**: hippocampus is in the Papez circuit; the explanation lists hippocampus, fornix, mammillary bodies, anterior thalamic nucleus, cingulate gyrus, parahippocampal gyrus (distractors: temporal pole, medullary centre, trapezoid body, red nucleus).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 6
-              }
-            },
-            {
-              "text": "**Q28**: Heschl's gyrus is **NOT** part of the Papez circuit (mammillary body, parahippocampal gyrus, cingulate gyrus and hippocampus are).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 28
-              }
-            },
-            {
-              "text": "**Q5**: the false statement is 'learning does not occur without amygdala-mediated consolidation' - the explanation says learning and consolidation can occur despite amygdalar damage, while damage does cause loss of fear conditioning and (in monkeys) loss of maternal behaviour; the amygdala rates emotional importance and sets the level of hippocampal response.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 5
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Amygdala '**NOT** correct' statement = 'learning does not occur without amygdala-mediated consolidation' (absolute-style distractor): learning and consolidation can occur despite amygdalar damage, especially without emotional valence; damage does cause loss of fear conditioning and, in monkeys, loss of maternal behaviour.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Kluver-Bucy syndrome",
+          "note": "Mock explanation (keyed: amygdala): the syndrome results from temporal lobe lesions involving parts of the amygdala; lesions of the hypothalamus, cingulate cortex or septal area do not produce it. Distractors: medial dorsal thalamus, lateral hypothalamus, globus pallidus, subthalamic nucleus. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 13,
+            "questionNumber": 54
+          }
         },
         {
           "type": "gap",
@@ -564,6 +828,46 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 8,
             "questionNumber": 17
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The dentate gyrus is in the hippocampus (not hypothalamus, **DLPFC**, amygdala or red nucleus); it is the hippocampal input region and one of the few regions with adult neurogenesis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Early Alzheimer disease: prominent change in the entorhinal cortex (main input to, and target of, the hippocampus; one of the earliest affected regions) - prefrontal cortex, superior temporal gyrus and caudate are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 54
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Hippocampus blood supply = posterior cerebral artery (with the anterior choroidal artery) - not the middle or anterior cerebral artery or **PICA**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 48
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Posterior cerebral artery occlusion affects the dentate gyrus (hippocampus) - cingulate gyrus, corpus callosum, uncinate gyrus and arcuate fasciculus are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 45
           }
         }
       ],
@@ -603,6 +907,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "Heschl's gyrus is NOT in the Papez circuit.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 28
+            }
+          },
+          {
+            "text": "Early Alzheimer disease: entorhinal cortex is one of the earliest affected regions.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 54
+            }
+          },
+          {
+            "text": "Kluver-Bucy syndrome = amygdala (temporal lobe) lesions (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 13,
+              "questionNumber": 54
+            }
           }
         ],
         "facts": [
@@ -617,7 +945,10 @@
         ],
         "highlightBlockIndices": [
           1,
-          4
+          3,
+          4,
+          7,
+          12
         ]
       }
     },
@@ -663,7 +994,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**OCD** links to the lentiform nucleus (putamen plus globus pallidus); **PET** shows caudate and lentiform dysfunction. Inferior olivary nucleus, medial temporal lobe, dentate nucleus and red nucleus are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
         },
         {
           "type": "paragraph",
@@ -708,6 +1050,19 @@
               "page": 4
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Alexander's five basal ganglia circuits",
+          "mnemonic": "Many Owls Dance, Always Late",
+          "expansion": [
+            "Motor circuit",
+            "Oculomotor circuit",
+            "Dorsolateral prefrontal circuit",
+            "Anterior cingulate circuit",
+            "Lateral orbitofrontal circuit"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -755,37 +1110,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Basal ganglia questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q2**: **OCD** is keyed to the lentiform nucleus - the explanation says caudate and lentiform nuclei dysfunction on **PET**; putamen + globus pallidus together form the lenticular/lentiform nuclei.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 2
-              }
-            },
-            {
-              "text": "**Q44**: Huntington disease = degeneration of the striatum; the caudate shrinks dramatically, with rigidity and superimposed choreiform movements.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 44
-              }
-            },
-            {
-              "text": "**Q51**: lesions of the subthalamic nucleus give hemiballismus (involuntary flailing, ballistic limb movements).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 24,
-                "questionNumber": 51
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Huntington disease = degeneration of the striatum (caudate shrinks dramatically; rigidity with superimposed choreiform movements). Subthalamic nucleus is the distractor - its lesion gives hemiballismus instead.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 44
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Subthalamic lesion = hemiballismus (flailing ballistic limb movements) - Huntington chorea, dystonia, athetosis and Parkinson disease are the movement-disorder distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 51
+          }
         },
         {
           "type": "gap",
@@ -795,6 +1141,36 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 11,
             "questionNumber": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The basal ganglia nucleus with melanin pigment is the substantia nigra (the 'black substance'; one part is functionally equivalent to globus pallidus interna, the other degenerates in Parkinson disease) - not globus pallidus, caudate, subthalamic nuclei or putamen.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Nucleus accumbens forms the main part of the ventral striatum - not hypothalamus, pineal gland, dorsal thalamus or orbitofrontal cortex.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 58
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Reward processing = nucleus accumbens. The explanation says amygdala also has a role in stimulus-reward learning, but the NAcc codes expected positive incentive value, and is the keyed answer.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 15,
+            "questionNumber": 55
           }
         }
       ],
@@ -834,12 +1210,40 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 4
             }
+          },
+          {
+            "text": "OCD: caudate and lentiform nucleus dysfunction on PET.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 1,
+              "questionNumber": 2
+            }
+          },
+          {
+            "text": "Huntington disease: striatum degeneration (caudate shrinks).",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 44
+            }
+          },
+          {
+            "text": "Reward processing = nucleus accumbens (NAcc codes expected positive incentive value).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 15,
+              "questionNumber": 55
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
-          3,
-          4
+          2,
+          4,
+          5,
+          6,
+          7,
+          12
         ]
       }
     },
@@ -892,6 +1296,26 @@
             "page": 19,
             "questionNumber": 41
           }
+        },
+        {
+          "type": "trap",
+          "text": "Visual pathway structure = lateral geniculate body (optic radiations run from it to the occipital visual cortex); medial geniculate body, Heschl's gyrus and inferior colliculus are the auditory-side distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 32
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Homonymous **SUPERIOR** quadrantanopsia localises to the temporal lobe (Meyer's loop), not the lateral geniculate body or occipital lobe: fibres detour through the anterior temporal lobe and carry the contralateral superior quadrant.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 41
+          }
         }
       ],
       "concise": {
@@ -916,10 +1340,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 4
             }
+          },
+          {
+            "text": "Meyer's loop (anterior temporal lobe) lesion = contralateral superior quadrantanopsia.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 41
+            }
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          4
         ]
       }
     },
@@ -957,7 +1390,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1003,6 +1437,26 @@
             "page": 20,
             "questionNumber": 42
           }
+        },
+        {
+          "type": "trap",
+          "text": "Prolactin regulation: the arcuate nucleus (not suprachiasmatic, preoptic or subthalamic nucleus) holds the prolactin-releasing factor; dopamine via the tuberoinfundibular system regulates prolactin secretion through direct projection to the pituitary.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 14,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Hypothalamus in depression",
+          "note": "Mock explanation (keyed: hypothalamus): a vignette of depressed mood, anhedonia, initial and terminal insomnia, appetite and weight loss and reduced sexual arousal suggests hypothalamic dysfunction; the explanation says an intrinsic regulatory defect involving the hypothalamus (and monoamine pathways) underlies major depression. Hippocampus, corpus callosum, frontal lobes and pituitary are the distractors. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 7,
+            "questionNumber": 30
+          }
         }
       ],
       "concise": {
@@ -1033,6 +1487,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 5
+            }
+          },
+          {
+            "text": "Depression with vegetative features: hypothalamic regulatory defect (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 7,
+              "questionNumber": 30
             }
           }
         ],
@@ -1085,6 +1547,29 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Ataxia with nystagmus and a cerebellar infarct = flocculonodular (vestibular) lobe: loss of equilibrium and a wide-stance gait. The lateral zone (cerebrocerebellum) instead gives hypotonia, dysarthria, dysdiadochokinesia and tremor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Cerebellar lesion signs",
+          "mnemonic": "A Cat Has Paw Prints",
+          "expansion": [
+            "Ataxia",
+            "Coarse intentional tremors",
+            "Hypotonia",
+            "Past pointing",
+            "Pendular knee jerk"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "The role of the cerebellum in cognitive processes is increasingly appreciated. Cognitive dysmetria (Andreasen) refers to difficulty in coordinating and monitoring the receiving, processing and expressing of information, which could result from disrupted cortico-cerebellar circuitry in schizophrenia.",
           "source": {
@@ -1096,6 +1581,16 @@
           "type": "gap",
           "subtopic": "Cerebellar damage and dysarthria",
           "note": "**Q30** (keyed cerebellum): extensive cerebellar damage causes 'scanning speech', a dysarthria with poor modulation, irregular cadence and inability to separate adjacent sounds. Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 30
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Dysarthria localises to the cerebellum: extensive damage gives 'scanning speech' (poor modulation, irregular cadence, inability to separate adjacent sounds) - homunculus, parietal and temporal lobe, spinal cord are the distractors.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 14,
@@ -1125,10 +1620,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 5
             }
+          },
+          {
+            "text": "Flocculonodular lobe damage: loss of equilibrium and wide-based gait.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 10,
+              "questionNumber": 27
+            }
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2,
+          3
         ]
       }
     },
@@ -1256,7 +1761,58 @@
               "page": 9,
               "questionNumber": 18
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Purely motor cranial nerve (of the options): abducens - each option set offers only **ONE** of the three purely motor nerves (**III**, **IV**, **VI**) beside sensory/mixed ones (vestibulocochlear, glossopharyngeal, olfactory, optic). Abducens impairment gives inward deviation with no ptosis or pupil change.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Same question, different option set: here oculomotor (**III**) is the only purely motor nerve (facial, vagus, glossopharyngeal, vestibulocochlear are mixed or sensory). Its impairment gives dilated pupil, ptosis and outward deviation, and impairs the efferent limb of the light and accommodation reflexes.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 62
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Loss of taste from the anterior tongue = 7th (facial) nerve palsy via the chorda tympani, which crosses the middle ear and can be damaged by severe infection - not 5th, 6th, 8th or 9th.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 13,
+            "questionNumber": 53
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Olfactory is the only cranial nerve without a thalamic relay (the notes say the optic nerve relays via the thalamus) - trigeminal, optic, abducens and oculomotor are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 15,
+            "questionNumber": 56
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Structure spared in normal ageing",
+          "note": "Mock explanation (keyed: cranial nerve nuclei): cranial nerve nuclei are spared during normal ageing; cerebellum, motor neurons, cerebral cortex and subthalamic nuclei could all be affected. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 13,
+            "questionNumber": 52
+          }
         },
         {
           "type": "gap",
@@ -1284,31 +1840,19 @@
           "sourced": false
         },
         {
-          "type": "trap-list",
-          "title": "Cranial nerve questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q18**: abducens (**VI**) is the only purely motor nerve among the options (vestibulocochlear, glossopharyngeal, olfactory, optic); it originates in the pons and innervates only the ipsilateral lateral rectus; impairment gives inward deviation without ptosis or pupil change.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 18
-              }
-            },
-            {
-              "text": "**Q62**: oculomotor (**III**) is the purely motor cranial nerve (originates in the midbrain); impairment gives dilated pupil, ptosis and outward deviation, and impairs the efferent limb of the light and accommodation reflexes. Facial, vagus, glossopharyngeal and vestibulocochlear are the distractors.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 62
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "Midbrain structures from embryology questions",
           "note": "**Q61** (keyed red nucleus): the mesencephalon (midbrain) includes the red nucleus. **Q60**: the ventral tegmental area is in the midbrain. Neither the red nucleus nor the **VTA**'s midbrain location is stated in the notes' brain stem paragraph.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 61
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Constituent of the mesencephalon = red nucleus; the subthalamus (diencephalon) and cerebellum (metencephalon, with the pons) are distractors from other embryonic divisions; the explanation places the red nucleus in the midbrain.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 28,
@@ -1352,6 +1896,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 6
             }
+          },
+          {
+            "text": "Oculomotor palsy: dilated pupil, ptosis, outward deviation.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 62
+            }
+          },
+          {
+            "text": "Olfactory nerve is the only cranial nerve with no thalamic relay.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 15,
+              "questionNumber": 56
+            }
+          },
+          {
+            "text": "Cranial nerve nuclei are spared in normal ageing (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 13,
+              "questionNumber": 52
+            }
           }
         ],
         "facts": [
@@ -1373,7 +1941,9 @@
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          4,
+          6
         ]
       }
     },
@@ -1485,7 +2055,40 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Foramen of Monro = lateral ventricle to third ventricle (not fourth ventricle or spinal canal). If blocked, **CSF** flow from the lateral ventricles falls even though choroid plexus production is unchanged.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**CSF** enters the subarachnoid space via recesses of the fourth ventricle (foramina of Magendie and Luschka) - not the third ventricle or aqueduct of Sylvius.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 47
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "CSF route and its connecting channels",
+          "mnemonic": "Many Sailors Miss Land",
+          "expansion": [
+            "Foramen of Monro",
+            "Aqueduct of Sylvius",
+            "Foramen of Magendie",
+            "Foramina of Luschka"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1493,6 +2096,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The septum pellucidum separates the two lateral ventricles (the aqueduct of Sylvius links third and fourth ventricles; the corpus callosum lies above the lateral ventricle body).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 10
           }
         },
         {
@@ -1518,42 +2131,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "CSF questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q10**: the septum pellucidum separates the two lateral ventricles (the body of the lateral ventricle lies immediately below the corpus callosum; the aqueduct of Sylvius is a distractor).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 10
-              }
-            },
-            {
-              "text": "**Q12** and **Q57**: the foramen of Monro (interventricular foramen) connects the lateral ventricle(s) to the third ventricle.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 12
-              }
-            },
-            {
-              "text": "**Q47**: **CSF** passes into the subarachnoid space via recesses in the fourth ventricle - foramina of Magendie and Luschka.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 47
-              }
-            },
-            {
-              "text": "**Q53**: obstruction after basal brain trauma is most likely at the foramen of Monro - the explanation says it is the commonest site of block in non-communicating hydrocephalus, while the non-obstructive (communicating) form implicates arachnoid villi.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 53
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "After basal brain trauma, an obstruction is most likely at the foramen of Monro (commonest site of block in non-communicating hydrocephalus); the non-obstructive (communicating) form implicates arachnoid villi.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 53
+          }
         },
         {
           "type": "gap",
@@ -1595,6 +2180,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 6
             }
+          },
+          {
+            "text": "Foramen of Monro: lateral to third ventricle; blockage reduces flow, not production.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 12
+            }
+          },
+          {
+            "text": "Post-traumatic obstruction: foramen of Monro; non-obstructive form: arachnoid villi.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 53
+            }
           }
         ],
         "facts": [
@@ -1617,7 +2218,10 @@
         ],
         "highlightBlockIndices": [
           1,
-          3
+          2,
+          4,
+          7,
+          8
         ]
       }
     },
@@ -1667,7 +2271,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Territory trap: the genu (and three-quarters) of the corpus callosum is supplied by the **ACA**; the cuneus, inferior temporal gyrus and lingual gyrus are **PCA**; the planum temporale, Heschl's gyrus and angular gyrus are **MCA** territory.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 13,
+            "questionNumber": 55
+          }
         },
         {
           "type": "comparison",
@@ -1712,6 +2327,52 @@
             "page": 1,
             "questionNumber": 1
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Broca's area lies anteriorly and is supplied by the middle cerebral artery (as is Wernicke's area); **ACA**, **PCA**, vertebral and lenticulostriate arteries are the distractors.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 15,
+                "questionNumber": 54
+              }
+            },
+            {
+              "text": "Communication between the frontal lobes of each side runs through the genu of the corpus callosum (splenium, fornix, parahippocampal gyrus and arcuate fasciculus are the distractors).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 7,
+                "questionNumber": 28
+              }
+            },
+            {
+              "text": "**ACA** occlusion: contralateral lower limb (foot and leg) weakness, not sensory aphasia, unilateral sensory loss, ipsilateral facial palsy or bulbar palsy.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 10,
+                "questionNumber": 26
+              }
+            },
+            {
+              "text": "Most of the corpus callosum is supplied by the anterior cerebral artery (rich supply also from anterior communicating and posterior cerebral arteries).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "Internal capsule supply is keyed 'Circle of Willis' - the distractors name single arteries (**ACA**, **MCA**, **PICA**, basilar); the **ICA** enters the circle of Willis and divides into **ACA** and **MCA**.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -1750,11 +2411,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 7
             }
+          },
+          {
+            "text": "Genu and 3/4 of corpus callosum = ACA; cuneus, inferior temporal and lingual gyri = PCA.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 13,
+              "questionNumber": 55
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
-          2
+          2,
+          3
         ]
       }
     },
@@ -1802,7 +2472,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**ACA** occlusion = weakness and sensory loss of the contralateral foot and leg; with bilateral damage also gait apraxia and urinary incontinence (resembles the **NPH** triad); left-sided lesions may give transcortical motor aphasia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Akinetic mutism after stroke = bilateral anterior cerebral artery occlusion (the cingulate gyri are supplied bilaterally by the **ACA**) - basilar, subclavian, **PICA** and **MCA** are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 7,
+            "questionNumber": 27
+          }
         }
       ],
       "concise": {
@@ -1841,10 +2532,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 7
             }
+          },
+          {
+            "text": "ACA occlusion: contralateral leg weakness; bilateral: gait apraxia and incontinence.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 10,
+              "questionNumber": 26
+            }
+          },
+          {
+            "text": "Akinetic mutism = bilateral ACA occlusion (cingulate gyri).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 7,
+              "questionNumber": 27
+            }
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1,
+          2
         ]
       }
     },
@@ -1914,7 +2623,31 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Frontal-to-frontal communication runs through the **GENU** of the corpus callosum (the splenium is the tempting distractor, as are fornix, parahippocampal gyrus and arcuate fasciculus).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 11,
+            "questionNumber": 29
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Commissures",
+          "mnemonic": "Cats Always Purr, Hissing Harshly",
+          "expansion": [
+            "Corpus callosum",
+            "Anterior commissure",
+            "Posterior commissure",
+            "Hippocampal commissure",
+            "Habenular commissure"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1962,7 +2695,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The tract linking Wernicke's and Broca's areas is the arcuate fasciculus (dominant hemisphere); anterior and habenular commissures, cingulate gyrus and planum temporale are the distractors. Dominant arcuate lesions can cause conduction aphasia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 56
+          }
         },
         {
           "type": "trap",
@@ -2011,12 +2755,31 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 8
             }
+          },
+          {
+            "text": "Genu of corpus callosum links the two frontal lobes.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 11,
+              "questionNumber": 29
+            }
+          },
+          {
+            "text": "Arcuate fasciculus (dominant hemisphere) links Wernicke and Broca areas; lesion = conduction aphasia.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 13,
+              "questionNumber": 56
+            }
           }
         ],
         "highlightBlockIndices": [
           0,
           1,
-          4
+          2,
+          3,
+          6,
+          7
         ]
       }
     },
@@ -2093,7 +2856,42 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Layer 4 (thalamic input) is keyed as **STELLATE** cells (the explanation puts stellate and fusiform cells there) although the notes' layer table lists granule cells for layer 4 - know both.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 63
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Most common cortical neuron = pyramidal cell (about ==75%==); stellate cells (==25%==) occur in all layers except layer 1 - granule, spindle, Purkinje and stellate are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Six neocortical layers, 1 to 6",
+          "mnemonic": "My Elephants Eat Ice In Mud",
+          "expansion": [
+            "Molecular / agranular",
+            "External granular layer",
+            "External pyramidal layer",
+            "Internal granular layer",
+            "Internal pyramidal layer",
+            "Multiform layer"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -2120,28 +2918,6 @@
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 9
-            }
-          ]
-        },
-        {
-          "type": "trap-list",
-          "title": "Cortical cell questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q21**: the most common neuron in the cerebral cortex is the pyramidal cell (about ==75%==; stellate ==25%==, in all layers except layer 1).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 21
-              }
-            },
-            {
-              "text": "**Q63**: the most common cells of layer 4 (which receives thalamic input) are keyed as stellate cells; the explanation says stellate and fusiform cells lie in layer 4 and receive ascending thalamic fibres. The notes' layer table lists layer 4 as mostly granule cells - the bank keys stellate cells.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 63
-              }
             }
           ]
         }
@@ -2182,6 +2958,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 9
             }
+          },
+          {
+            "text": "Layer 4 cells: bank keys stellate cells; notes list granule cells.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 63
+            }
           }
         ],
         "facts": [
@@ -2204,7 +2988,9 @@
         ],
         "highlightBlockIndices": [
           3,
-          4
+          4,
+          6,
+          7
         ]
       }
     },
@@ -2246,34 +3032,43 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Cell-type questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q11**: Purkinje cells are uniquely found in the cerebellum (GABAergic, inhibitory projections to the deep cerebellar nuclei, sole output of cerebellar motor coordination).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 11
-              }
-            },
-            {
-              "text": "**Q27**: Betz cells are the largest neurons in the human brain (layer V of the primary motor cortex, up to 100 micrometres, ~==10%== of layer V pyramidal cells).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 27
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "'Uniquely cerebellar' = Purkinje cells (GABAergic, sole output of cerebellar cortical motor coordination); granule and stellate cells are distractors because they also occur elsewhere (notes: granule cells in cerebral layer 4).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Largest neuron in the human brain = Betz cell (layer V of primary motor cortex, up to 100 micrometres, about ==10%== of layer V pyramidal cells); Purkinje, basket, Golgi and stellate cells are distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 27
+          }
         },
         {
           "type": "gap",
           "subtopic": "Neuron classification, electrical synapses, endosome, synaptogenesis",
           "note": "**Q4** (keyed amacrine neurons): neurons are classed by size as Golgi type 1 (long axon), Golgi type 2 (short axon) and amacrine neurons (no axon). **Q64** (keyed retina): electrical synapses (gap junctions) are abundant in the retina and cerebral cortex. **Q55**: an endosome recycles cell membrane. **Q59**: synaptogenesis peaks in the first two postnatal years. None of these is in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Neuron with **NO** axon = amacrine neuron; Golgi type 1 has a long axon and Golgi type 2 a short axon ending near the parent cell.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 2,
@@ -2320,6 +3115,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 10
             }
+          },
+          {
+            "text": "Purkinje cells are found only in the cerebellar cortex (GABAergic, sole output).",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 11
+            }
+          },
+          {
+            "text": "Golgi type 1 = long axon; type 2 = short axon; amacrine = no axon.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 4
+            }
           }
         ],
         "facts": [
@@ -2341,7 +3152,9 @@
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1,
+          4
         ]
       }
     },
@@ -2395,45 +3208,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Glial cell questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q9**: microglia are the descendants of macrophages clearing neuronal debris (astrocytes: nutrition, deactivating neurotransmitters, blood-brain barrier; oligodendrocytes in **CNS** and Schwann cells in **PNS** myelinate).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 9
-              }
-            },
-            {
-              "text": "**Q35**: forming the **CNS** myelin sheath is **NOT** an astrocyte function (that is the oligodendrocyte).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 35
-              }
-            },
-            {
-              "text": "**Q38**: Schwann cells are the neuroglia present in the peripheral nervous system.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 38
-              }
-            },
-            {
-              "text": "**Q56**: myelination is the oligodendrocyte function (not metabolic clearance of transmitters, gliosis, structural support or blood-brain barrier contribution).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 56
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "**NOT** an astrocyte function: forming the **CNS** myelin sheath (that is the oligodendrocyte). Astrocytes nourish neurons, deactivate some neurotransmitters and contribute to the blood-brain barrier.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 35
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "The four glial cell types in the notes",
+          "mnemonic": "All Owls Make Eggs",
+          "expansion": [
+            "Astrocytes",
+            "Oligodendrocytes",
+            "Microglia",
+            "Ependymal cells"
+          ],
+          "sourced": false
         },
         {
           "type": "gap",
@@ -2444,6 +3242,86 @@
             "page": 15,
             "questionNumber": 33
           }
+        },
+        {
+          "type": "trap",
+          "text": "Microglia statement that is correct = mesodermal origin (so they share features with myeloid cells); the distractors (myelination, ==70%== of glia, sodium-channel sensitivity, present outside brain and spinal cord) are all wrong.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Descendants of macrophages clearing neuronal debris = microglial cells.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 9
+              }
+            },
+            {
+              "text": "Schwann cells are the neuroglia of the peripheral nervous system (oligodendrocytes do this in the **CNS**).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 38
+              }
+            },
+            {
+              "text": "Myelination is the oligodendrocyte function - not metabolic transmitter clearance, gliosis, structural support or blood-brain barrier contribution.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 26,
+                "questionNumber": 56
+              }
+            },
+            {
+              "text": "Scavenger cells at **CNS** injury sites = microglia (ependymal cells aid **CSF** flow; Schwann cells form **PNS** myelin; satellite cells support ganglion neurons).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 14,
+                "questionNumber": 59
+              }
+            },
+            {
+              "text": "Macrophages of the **CNS** = microglia (non-neuronal, mesoderm-derived).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 14,
+                "questionNumber": 53
+              }
+            },
+            {
+              "text": "Ependymal cells line the ventricular walls and enable **CSF** circulation.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 14,
+                "questionNumber": 57
+              }
+            },
+            {
+              "text": "Glutamate dehydrogenase is seen only in astrocytes - **COMT**, **MAO-B**, tyrosine hydroxylase and acetylcholinesterase are the distractors.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+                "page": 23,
+                "questionNumber": 49
+              }
+            },
+            {
+              "text": "Regulating extracellular potassium around neuronal cell bodies = astrocytes (they also insulate and separate neurons).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 14,
+                "questionNumber": 58
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -2475,10 +3353,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 10
             }
+          },
+          {
+            "text": "CNS myelination is an oligodendrocyte, not astrocyte, function.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+              "page": 16,
+              "questionNumber": 35
+            }
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2,
+          3
         ]
       }
     },
@@ -2520,7 +3408,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2536,6 +3425,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 10
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Anterior pituitary has a blood-brain barrier",
+          "note": "Mock explanation (keyed: anterior pituitary is the area that does **NOT** lack the barrier): circumventricular organs such as subfornical organ, area postrema (chemoreceptor trigger zone), median eminence and posterior pituitary lack it, with fenestrated capillaries as in peripheral tissue. Keep the contrast: anterior pituitary has the barrier, posterior pituitary does not.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 55
           }
         },
         {
@@ -2577,6 +3476,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 10
+            }
+          },
+          {
+            "text": "Anterior pituitary has the barrier; posterior pituitary, median eminence, area postrema, subfornical organ lack it.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 13,
+              "questionNumber": 55
             }
           }
         ],
@@ -2672,6 +3579,19 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Dopamine pathways",
+          "mnemonic": "Nine Mice Munch Tiny Icecreams",
+          "expansion": [
+            "Nigrostriatal",
+            "Mesolimbic",
+            "Mesocortical",
+            "Tuberoinfundibular",
+            "Incertohypothalamic"
+          ],
+          "sourced": false
+        },
+        {
           "type": "gap",
           "subtopic": "Location of the ventral tegmental area",
           "note": "**Q60** (keyed midbrain): the **VTA** lies medial to the substantia nigra in the midbrain, and its dopaminergic neurons give rise to the mesocorticolimbic system (mesoaccumbens pathway = reward). The notes name the **VTA** as the origin of the mesolimbic/mesocortical tracts but do not state its location.",
@@ -2679,6 +3599,26 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
             "page": 28,
             "questionNumber": 60
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**VTA** location = midbrain (medial to the substantia nigra), origin of the mesocorticolimbic system - not pons, medulla, occipital or temporal lobe.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 60
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Addictive behaviour involves the ventral tegmental area, nucleus accumbens and septal nucleus (dopamine in **VTA** and **NA**); suprachiasmatic nucleus, nucleus tractus solitarius, substantia nigra and preoptic nucleus are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 12,
+            "questionNumber": 51
           }
         }
       ],
@@ -2718,10 +3658,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
               "page": 11
             }
+          },
+          {
+            "text": "Addiction circuitry: VTA, nucleus accumbens, septal nucleus (dopaminergic).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 12,
+              "questionNumber": 51
+            }
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          3,
+          6
         ]
       }
     },
@@ -2978,6 +3928,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 2
           }
+        },
+        {
+          "label": "Lateral sulcus (Sylvian fissure) divides frontal and parietal lobes from the temporal lobe; the central sulcus is the distractor.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 16
+          }
+        },
+        {
+          "label": "Taste: primary gustatory cortex = anterior insula plus frontal operculum.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 54
+          }
+        },
+        {
+          "label": "Prefrontal cortex is the last region to mature; lesions give disinhibition, apathy, loss of initiative, personality change.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 13
+          }
         }
       ]
     },
@@ -3018,6 +3992,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 3
           }
+        },
+        {
+          "label": "Left-handers: bank explanation gives 67% left-hemisphere language dominance (notes: 64%).",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 8
+          }
+        },
+        {
+          "label": "Left > right asymmetry in right-handers: planum temporale AND Heschl's gyrus.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 7,
+            "questionNumber": 29
+          }
+        },
+        {
+          "label": "Face recognition = fusiform gyrus; bilateral damage gives prosopagnosia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 11,
+            "questionNumber": 28
+          }
         }
       ]
     },
@@ -3050,6 +4048,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 3
+          }
+        },
+        {
+          "label": "Heschl's gyrus is NOT in the Papez circuit.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 28
+          }
+        },
+        {
+          "label": "Early Alzheimer disease: entorhinal cortex is one of the earliest affected regions.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 54
+          }
+        },
+        {
+          "label": "Kluver-Bucy syndrome = amygdala (temporal lobe) lesions (not in notes).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 13,
+            "questionNumber": 54
           }
         }
       ]
@@ -3091,6 +4113,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 4
           }
+        },
+        {
+          "label": "OCD: caudate and lentiform nucleus dysfunction on PET.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Huntington disease: striatum degeneration (caudate shrinks).",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 44
+          }
+        },
+        {
+          "label": "Reward processing = nucleus accumbens (NAcc codes expected positive incentive value).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 15,
+            "questionNumber": 55
+          }
         }
       ]
     },
@@ -3123,6 +4169,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 4
+          }
+        },
+        {
+          "label": "Meyer's loop (anterior temporal lobe) lesion = contralateral superior quadrantanopsia.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 41
           }
         }
       ]
@@ -3157,6 +4211,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 5
           }
+        },
+        {
+          "label": "Depression with vegetative features: hypothalamic regulatory defect (not in notes).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 7,
+            "questionNumber": 30
+          }
         }
       ]
     },
@@ -3182,6 +4244,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 5
+          }
+        },
+        {
+          "label": "Flocculonodular lobe damage: loss of equilibrium and wide-based gait.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 27
           }
         }
       ]
@@ -3222,6 +4292,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 6
+          }
+        },
+        {
+          "label": "Oculomotor palsy: dilated pupil, ptosis, outward deviation.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 62
+          }
+        },
+        {
+          "label": "Olfactory nerve is the only cranial nerve with no thalamic relay.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 15,
+            "questionNumber": 56
+          }
+        },
+        {
+          "label": "Cranial nerve nuclei are spared in normal ageing (not in notes).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 13,
+            "questionNumber": 52
           }
         }
       ]
@@ -3282,6 +4376,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 6
           }
+        },
+        {
+          "label": "Foramen of Monro: lateral to third ventricle; blockage reduces flow, not production.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 12
+          }
+        },
+        {
+          "label": "Post-traumatic obstruction: foramen of Monro; non-obstructive form: arachnoid villi.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 53
+          }
         }
       ]
     },
@@ -3321,6 +4431,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 7
+          }
+        },
+        {
+          "label": "Genu and 3/4 of corpus callosum = ACA; cuneus, inferior temporal and lingual gyri = PCA.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 13,
+            "questionNumber": 55
           }
         }
       ]
@@ -3362,6 +4480,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 7
           }
+        },
+        {
+          "label": "ACA occlusion: contralateral leg weakness; bilateral: gait apraxia and incontinence.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 26
+          }
+        },
+        {
+          "label": "Akinetic mutism = bilateral ACA occlusion (cingulate gyri).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 7,
+            "questionNumber": 27
+          }
         }
       ]
     },
@@ -3402,6 +4536,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 8
           }
+        },
+        {
+          "label": "Genu of corpus callosum links the two frontal lobes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 11,
+            "questionNumber": 29
+          }
+        },
+        {
+          "label": "Arcuate fasciculus (dominant hemisphere) links Wernicke and Broca areas; lesion = conduction aphasia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 56
+          }
         }
       ]
     },
@@ -3434,6 +4584,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 9
+          }
+        },
+        {
+          "label": "Layer 4 cells: bank keys stellate cells; notes list granule cells.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 63
           }
         }
       ]
@@ -3468,6 +4626,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 10
           }
+        },
+        {
+          "label": "Purkinje cells are found only in the cerebellar cortex (GABAergic, sole output).",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 11
+          }
+        },
+        {
+          "label": "Golgi type 1 = long axon; type 2 = short axon; amacrine = no axon.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
         }
       ]
     },
@@ -3501,6 +4675,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 10
           }
+        },
+        {
+          "label": "CNS myelination is an oligodendrocyte, not astrocyte, function.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuroanatomy Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 35
+          }
         }
       ]
     },
@@ -3533,6 +4715,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 10
+          }
+        },
+        {
+          "label": "Anterior pituitary has the barrier; posterior pituitary, median eminence, area postrema, subfornical organ lack it.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 55
           }
         }
       ]
@@ -3573,6 +4763,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 11
+          }
+        },
+        {
+          "label": "Addiction circuitry: VTA, nucleus accumbens, septal nucleus (dopaminergic).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 12,
+            "questionNumber": 51
           }
         }
       ]

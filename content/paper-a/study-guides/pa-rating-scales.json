@@ -179,22 +179,25 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The **GHQ-28** maximum score is 84 (0-3 per item): the options include 28 and 12, which are the item count and the shortest version, plus 42 and 72 - do not answer with the number of items.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
         },
         {
           "type": "trap-list",
-          "title": "GHQ traps",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "The maximum possible score on the **GHQ** 28-item version is 84 (versions with 12, 28, 30, 60 items).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 6
-              }
-            },
-            {
-              "text": "The **GHQ** is the self-rated screening instrument for the presence of psychiatric illness (not **GAF**, **SCID** or **DIS**).",
+              "text": "The **GHQ** is the self-rated screening instrument for the presence of psychiatric illness (not **GAF**, Quality of Life Interview, Structured Clinical Interview or Diagnostic Interview Schedule).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
                 "page": 5,
@@ -202,7 +205,7 @@
               }
             },
             {
-              "text": "The **GHQ** is the questionnaire for identifying psychiatric caseness in the general population.",
+              "text": "The **GHQ** is the questionnaire for identifying psychiatric caseness in the general population (not **BDI**, **HAM-D**, **SCID-5** or **SCAN**).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
                 "page": 14,
@@ -210,7 +213,7 @@
               }
             },
             {
-              "text": "The **GHQ** is usable by primary care physicians, general medical professionals and in community studies.",
+              "text": "The **GHQ** is the scale usable by primary care physicians, general medical professionals and in community studies (not **SAPS**, **SANS**, Simpson-Angus or **BPRS**).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
                 "page": 17,
@@ -286,8 +289,7 @@
         ],
         "highlightBlockIndices": [
           3,
-          8,
-          9
+          8
         ]
       }
     },
@@ -359,7 +361,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -394,42 +397,44 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Diagnostic schedule traps",
-          "items": [
-            {
-              "text": "**SCID** (not **SCAN**, **AIMS**, **HAMD** or **MMPI**) is the most reliable instrument for a clinical diagnosis according to **DSM** criteria.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 19
-              }
-            },
-            {
-              "text": "**SCAN** has replaced the Present State Examination in contemporary epidemiological studies (it evolved from **PSE**).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 28
-              }
-            },
-            {
-              "text": "Of the options **PSE**/**CATEGO**/HoNOS/**SANS**/**BPRS**, the **PSE** is the one that retains the aspects of a mental state examination during the consultation.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 22
-              }
-            },
-            {
-              "text": "**SCID** is correct as: primarily used in research (a clinician-administered semi-structured interview with trained interviewers) - not dimensional, not **ICD-10**, not Axis V, not for untrained lay interviewers.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 33
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "**SCID** is the most reliable instrument for a clinical diagnosis according to **DSM** criteria - the distractors are **AIMS** (a movement scale), **SCAN**, **HAMD** (a rating scale) and **MMPI**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**SCID** is primarily used in research with trained interviewers (clinician-administered, semi-structured) - **NOT** for untrained lay interviewers, **NOT** dimensional, **NOT** tied to **ICD-10** and it does not provide the **DSM-IV** Axis V diagnosis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**SCAN** is the schedule that has replaced the Present State Examination (it evolved from the **PSE**); **PANSS**, **SSPI**, **CASH** and **SANS** are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 28
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**PSE** is the scale that retains the aspects of a mental state examination during the consultation - the distractors HoNOS, **CATEGO**, **SANS** and **BPRS** do not (**CATEGO** is only the computerised **PSE**).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 22
+          }
         }
       ],
       "concise": {
@@ -568,7 +573,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -652,7 +658,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**BDI** is the adult depression scale the question keys as validated in children aged 14 and older - but the explanation itself says it can screen from age 13 (a number to hold loosely); Cornell, Edinburgh, Clifton and Wechsler are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "For screening depression in adolescents aged 14-18 the answer is the **BDI** (a self-report measure) - not the clinician-completed Hamilton or **SCID**, nor the Child Behaviour Checklist or **CAFAS**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 11
+          }
         },
         {
           "type": "paragraph",
@@ -660,6 +687,56 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
             "page": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The **BDI** has more cognitive items than Hamilton, Montgomery-Asberg, **GHQ** or Young - the explanation says it focuses on behavioural and cognitive dimensions of depression.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**BDI** true statement is 21 items; the distractors are symptoms over the last five days (the explanation says the last 2 weeks), maximum score 42, no item on suicidal ideas, and strictly clinician-rated (it is self-rated).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Montgomery-Asberg is the depression scale most sensitive to change - the distractors **VAS**, **BDI**, Zung and **HADS** are not; like Hamilton its 10-item version needs a clinical interview.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Simpson-Angus is the odd one out among mood scales: Beck, Hamilton, Montgomery-Asberg and Young rate mood, whereas Simpson-Angus detects and monitors extrapyramidal symptoms.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 30
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**BDI** is the self-report measure; Abbreviated Mental Test, Glasgow Coma Scale, Hamilton and Clinical Global Improvement are not self-report.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 32
           }
         },
         {
@@ -703,60 +780,6 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Depression scale traps",
-          "items": [
-            {
-              "text": "The Beck Depression Inventory is the adult depression scale validated in children aged 14 and older, and the best screening tool for depression in adolescents aged 14-18.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 3
-              }
-            },
-            {
-              "text": "The **BDI** has more cognitive items than the Hamilton, Montgomery-Asberg, **GHQ** or Young scales.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 18
-              }
-            },
-            {
-              "text": "**BDI** facts: 21 items (true), self-rated (not strictly clinician-rated).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 26
-              }
-            },
-            {
-              "text": "The Montgomery-Asberg scale (10-item version, needs clinical interview like Hamilton) is the depression scale most sensitive to change; **BDI**, Zung, **VAS** are not.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 23
-              }
-            },
-            {
-              "text": "Beck inventory, Hamilton and Montgomery-Asberg and Young are mood scales; the Simpson-Angus scale is not (it detects and monitors extrapyramidal symptoms).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 30
-              }
-            },
-            {
-              "text": "The **BDI** is the self-report measure among **AMT**, **GCS**, Hamilton and **CGI**.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 32
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "BDI cognitive emphasis wording",
           "note": "The notes say the **BDI** includes \"more psychological than somatic factors\"; the question explanation adds that it focuses on behavioural and cognitive dimensions and that the current version added coverage of somatic symptoms. The notes do not mention the added somatic coverage.",
@@ -764,6 +787,16 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
             "page": 9,
             "questionNumber": 18
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "BDI cut-offs and age in the question explanation",
+          "note": "The notes give **BDI** bands of 20-28 moderate and >28 severe and an age appropriateness of 14 and older. The explanation to this question instead says a score of >17 indicates moderate and >30 severe depression, and that the **BDI** can screen from age 13 and older. Check which figures a question uses.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
           }
         }
       ],
@@ -824,6 +857,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 8
             }
+          },
+          {
+            "text": "Question explanation gives BDI moderate >17 and severe >30 and screening from age 13 (notes: 20-28, >28, age 14+).",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 3
+            }
           }
         ],
         "facts": [
@@ -871,8 +912,7 @@
         "highlightBlockIndices": [
           1,
           2,
-          4,
-          11
+          4
         ]
       }
     },
@@ -914,7 +954,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -965,6 +1006,18 @@
         },
         {
           "type": "mnemonic",
+          "forTopic": "The four alcohol scales (CAGE, AUDIT, MAST, CIWA)",
+          "mnemonic": "CAMC - Cats Always Make Cuddles",
+          "expansion": [
+            "**CAGE**",
+            "**AUDIT**",
+            "**MAST**",
+            "**CIWA**"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "mnemonic",
           "forTopic": "CAGE questions",
           "mnemonic": "C-A-G-E",
           "expansion": [
@@ -987,6 +1040,16 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
             "page": 2,
             "questionNumber": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**SCOFF** is the answer for early detection of an eating disorder - the distractors Prochaska, **AUDIT**, **CAMCOG** and **CAGE** are alcohol or other tools (**CAGE** is the alcohol analogue of the **SCOFF** mnemonic).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 9
           }
         },
         {
@@ -1069,7 +1132,8 @@
           0,
           1,
           2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -1202,7 +1266,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -1238,29 +1303,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Old age scale traps",
-          "items": [
-            {
-              "text": "**MMSE** is the most commonly used screening tool for dementia in older people; its explanation gives a cut-off of 24/30 and 5-10 minutes, whereas the notes give a cut-off of 23 and 10 minutes - check which figure a question uses.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 21
-              }
-            },
-            {
-              "text": "**CAPE** (Clifton Assessment Procedure) is used in residential care for the elderly.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 14
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "**MMSE** is the most commonly used screening tool for dementia in older people - its explanation gives a cut-off of 24/30 and 5-10 minutes, whereas the notes give a cut-off of 23 and 10 minutes; check which figure a question uses.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The Clifton Assessment Procedure (**CAPE**) is used in residential care for the elderly - the distractors are schizophrenia rehabilitation, foster care, learning disability care homes and prisons; it assesses disability and need for care.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 14
+          }
         }
       ],
       "concise": {
@@ -1423,7 +1487,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 14
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -1459,7 +1524,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 13
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "mnemonic",
@@ -1487,39 +1553,101 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**BPRS** correct statement is global psychiatric symptomatology - the distractors are a 6-point item rating, a negative-symptom focus, a 30-item scale and self-administration; the explanation says 18 or 24 items rated on 7-8 points, clinician-rated (the notes state 18 items, 7 points each).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**BPRS**: the options 'cannot be used to detect treatment response' and 'requires no clinical training' are false - it is an outcome measure in treatment studies and reliability needs substantial rater training; 20 and 8 items are wrong (18 or 24).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 37
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A young man with voices discussing him and thought control needs a symptom-severity scale - **BPRS** is the key; **SANS** is negative-symptom only and **GHQ** is a screen, so they are distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Delusions of cameras spying, withdrawal and voices - **PANSS** (clinician-administered, severity and change in schizophrenia) is the answer; **MADRS**, **MMSE**, **HAS** and **GHQ** are distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**HAM-D** is the exception among projective tests - Rorschach, Sentence Completion, Draw-a-Person and **TAT** are projective but **HAM-D** is not (the notes add that **MMPI** is not projective either).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**AIMS** is the scale for drug-induced movement abnormalities in general and tardive dyskinesia in particular (12 items, clinician-administered) - not Barnes Akathisia, Simpson-Angus, Lane or **LUNSERS**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Lane scale is the scale that is **NOT** for drug-induced movement abnormalities (it is for minor physical anomalies); **LUNSERS**, Barnes Akathisia, Simpson-Angus and **AIMS** are.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 43
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Other scale traps",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**SCOFF** is the useful screening tool for early detection of an eating disorder (not **AUDIT**, **CAGE**, **CAMCOG** or Prochaska).",
+              "text": "**BPRS**, a clinician-rated observation scale, is most commonly used in schizophrenia (not alcohol use disorder, personality disorder, bipolar disorder or somatisation disorder).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 9
+                "page": 18,
+                "questionNumber": 39
               }
             },
             {
-              "text": "**BPRS** is a clinician-rated global symptom scale used to monitor/measure severity and change in psychotic symptoms in schizophrenia; not self-administered, not negative-symptom-focused, not a 30-item scale (explanation: 18 or 24 items, each rated on 7-8 points).",
+              "text": "For measuring severity and change in psychotic symptoms the answer is **BPRS** (not **NPI**, **CATEGO**, Young mania or **SCAN**).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 7
+                "page": 19,
+                "questionNumber": 42
               }
             },
             {
-              "text": "For a patient with delusions of spying cameras, withdrawal and voices, **PANSS** (clinician-administered, for severity and change in schizophrenia) is the answer.",
+              "text": "Young Mania Rating Scale: 'it is self-rated' is the least likely statement - it has 11 items and combines the patient's report over the previous 48 hours with clinical observation.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 34
-              }
-            },
-            {
-              "text": "**HAM-D** is not a projective test (projective tests include Rorschach, **TAT**, Sentence Completion, Draw-a-Person); the notes also say the **MMPI** is not a projective test.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 24
+                "page": 10,
+                "questionNumber": 20
               }
             }
           ]
@@ -1608,6 +1736,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 14
             }
+          },
+          {
+            "text": "BPRS: global symptomatology, clinician-rated, 18 or 24 items on 7-8 points; not negative-symptom, 30-item or self-administered.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 7
+            }
           }
         ],
         "facts": [
@@ -1664,7 +1800,8 @@
           0,
           1,
           2,
-          4
+          4,
+          5
         ]
       }
     },
@@ -1759,6 +1896,19 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Five criteria for a useful outcome measure",
+          "mnemonic": "ARRRA - a pirate's 'Arrr, A!'",
+          "expansion": [
+            "Appropriate",
+            "Reliable & valid",
+            "Responsive",
+            "Readily interpretable",
+            "Acceptable & feasible"
+          ],
+          "sourced": false
+        },
+        {
           "type": "table",
           "title": "Examples of outcome scales",
           "columns": [
@@ -1792,7 +1942,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 16
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -1840,29 +1991,44 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 16
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Outcome scale traps",
-          "items": [
-            {
-              "text": "**SF-36** measures health-related quality of life (not occupational functioning or social readjustment).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 5
-              }
-            },
-            {
-              "text": "HoNOS (12 scales, developed by RCPsych) is the scale used for monitoring clinical recovery, among **SCAN**, **CAGE**, **MMPI**, **AUDIT**.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 35
-              }
-            }
-          ]
+          "type": "mnemonic",
+          "forTopic": "The eight SF-36 health concepts",
+          "mnemonic": "Pigs Sing, Rabbits Bark, Monkeys Run, Vultures Growl",
+          "expansion": [
+            "Physical activity limitations",
+            "Social activity limitations",
+            "Role limitations (physical health)",
+            "Bodily pain",
+            "Mental distress and well-being",
+            "Role limitations (emotional problems)",
+            "Vitality",
+            "General health perceptions"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**SF-36** measures health-related quality of life (eight scales) - not occupational functioning, work stress, developmental psychopathology or social readjustment.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "HoNOS is the clinician-rated, 12-scale outcome measure developed by the Royal College of Psychiatrists for adults aged 18-65 in secondary services - the explanation says it detects improvement, deterioration or no change over time.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 35
+          }
         }
       ],
       "concise": {
@@ -1941,7 +2107,9 @@
           1,
           2,
           3,
-          5
+          4,
+          5,
+          7
         ]
       }
     },
@@ -1996,7 +2164,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 17
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Four types of reliability",
+          "mnemonic": "TISI - Tim Is Super Intelligent",
+          "expansion": [
+            "Test-retest",
+            "Internal consistency (Cronbach's alpha)",
+            "Split-half",
+            "Interrater"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -2080,7 +2261,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 19
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -2116,30 +2298,55 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
               "page": 19
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "paragraph",
-          "text": "Precision is how much a calculated central value (e.g. mean) varies with repeated sampling; narrower variation means more precision, and random errors cause imprecision. Factors reducing precision include wider interval limits and expecting a higher confidence interval (==99.7%== vs ==95%==). Accuracy is how close the mean is to the true population value. Precision is comparable to reliability, accuracy to validity; bias compromises validity/accuracy.",
+          "type": "trap",
+          "text": "'Interrater validity' is the false option among types of validity (face, construct, ecological, content): inter-rater agreement is a reliability, not a validity.",
+          "format": "SBA",
           "source": {
-            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
-            "page": 19
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Construct validity is tested by whether the constituent parts of the questionnaire are suitable and related to the phenomenon; predicting the future, covering most symptoms, same results on retest by one rater or by two raters are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A cognitive test whose subtests measure cognitive abilities well has good construct validity - not concurrent, predictive, face or incremental validity.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Concurrent validity is also known as criterion validity - face, construct, incremental and predictive are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 38
           }
         },
         {
           "type": "trap-list",
-          "title": "Psychometry traps",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "\"Interrater validity\" is the false option among types of validity (face, construct, ecological, content): inter-rater reliability (not validity) is agreement between observers.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 2
-              }
-            },
-            {
-              "text": "Test-retest reliability = correlation between the 1st and 2nd test in the same subject (not between raters or before/after treatment).",
+              "text": "Test-retest reliability = correlation between the 1st and 2nd test in the same subject (not between raters, or before and after treatment).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
                 "page": 8,
@@ -2155,7 +2362,7 @@
               }
             },
             {
-              "text": "Internal consistency = degree of correlation of one test item with other items (indexed by Cronbach's alpha, Kuder-Richardson or split-half).",
+              "text": "Internal consistency = degree of correlation of one test item with other items (Cronbach's alpha, Kuder-Richardson or split-half).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
                 "page": 19,
@@ -2163,22 +2370,30 @@
               }
             },
             {
-              "text": "Concurrent validity is also known as criterion validity.",
+              "text": "Construct validity for a dementia cognition test: the key aspect is that it includes most of the components of cognition commonly affected by dementia.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 38
+                "page": 4,
+                "questionNumber": 8
               }
             },
             {
-              "text": "Construct validity: a test with subtests that measure cognitive abilities well, or that includes most components of cognition affected by dementia, has good construct validity.",
+              "text": "Construct validity = extent to which performance on a test fits with theoretical schema about the test attributes (not criterion, convergent, face or concurrent).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 13
+                "page": 12,
+                "questionNumber": 25
               }
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Precision is how much a calculated central value (e.g. mean) varies with repeated sampling; narrower variation means more precision, and random errors cause imprecision. Factors reducing precision include wider interval limits and expecting a higher confidence interval (==99.7%== vs ==95%==). Accuracy is how close the mean is to the true population value. Precision is comparable to reliability, accuracy to validity; bias compromises validity/accuracy.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 19
+          }
         }
       ],
       "concise": {
@@ -2256,7 +2471,8 @@
           1,
           2,
           3,
-          5
+          4,
+          6
         ]
       }
     },
@@ -2530,6 +2746,17 @@
               "page": 22
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "HCR-20 item groups",
+          "mnemonic": "HCR - Historical, Clinical, Risk management",
+          "expansion": [
+            "Historical (10)",
+            "Clinical (5)",
+            "Risk management (5)"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -2905,12 +3132,13 @@
           5,
           7,
           8,
-          10,
+          9,
           11,
           12,
-          14,
+          13,
           15,
-          16
+          16,
+          17
         ]
       }
     }
@@ -3074,6 +3302,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
             "page": 8
+          }
+        },
+        {
+          "text": "Exam note: question explanation gives BDI moderate >17, severe >30, age 13+ (differs from notes)",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
           }
         }
       ]
@@ -3256,6 +3492,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
             "page": 14
           }
+        },
+        {
+          "text": "Lane scale is for minor physical anomalies, not drug-induced movement",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 43
+          }
         }
       ]
     },
@@ -3303,6 +3547,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
             "page": 16
           }
+        },
+        {
+          "text": "HoNOS: 12-scale clinician-rated, adults 18-65, secondary services",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 35
+          }
         }
       ]
     },
@@ -3349,6 +3601,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
             "page": 19
+          }
+        },
+        {
+          "text": "Concurrent validity is also called criterion validity",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 38
           }
         }
       ]

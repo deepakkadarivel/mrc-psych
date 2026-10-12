@@ -39,7 +39,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -119,7 +120,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Types of classical conditioning (pairing procedure)",
+          "mnemonic": "Dogs Beg, Sit, Then drool",
+          "expansion": [
+            "Delayed (forward) conditioning",
+            "Backward conditioning",
+            "Simultaneous conditioning",
+            "Trace conditioning"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -191,61 +205,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Classical conditioning traps from the question bank",
-          "items": [
-            {
-              "text": "**Q6** (Pavlov's dogs): the bell is the conditioned stimulus; the food is the unconditioned stimulus and salivation to the bell is the conditioned response (food, saliva, hunger and dog were wrong options).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 6
-              }
-            },
-            {
-              "text": "**Q7**: **CS** ends before the **UCS** is applied = trace conditioning (not forward/delayed, backward or higher-order). The explanation adds that trace and higher-order conditioning tend to be weaker than delayed conditioning.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 7
-              }
-            },
-            {
-              "text": "**Q12**: bell rung before the food and continuing until salivation appears = forward (delayed) conditioning, the usual method of classical conditioning; pseudoconditioning, backward, trace and simultaneous were distractors.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 12
-              }
-            },
-            {
-              "text": "**Q98**: the true statement is that in classical conditioning the responses are often autonomic. 'Classical conditioning is a slow process depending on repeated presentations' and 'takes place irrespective of the nature of the **UCS**' were among the wrong options, and classical conditioning was first described by Pavlov, not Skinner.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 44,
-                "questionNumber": 98
-              }
-            },
-            {
-              "text": "**Q99**: fear of spiders extending to other insects = stimulus generalisation (the explanation defines it as a learned response being elicited by other stimuli that resemble the original one).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 45,
-                "questionNumber": 99
-              }
-            },
-            {
-              "text": "**Q72**: a medical student growing comfortable in the anatomy laboratory with repeated exposure = habituation (not classical conditioning or negative reinforcement).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 33,
-                "questionNumber": 72
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Deliberately ignoring a child's misbehaviour is **EXTINCTION**: the attention that was positively reinforcing the behaviour is withdrawn. The explanation contrasts negative reinforcement, which is the removal of an undesirable effect so that a target behaviour becomes more likely - so 'ignoring' is not negative reinforcement.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Trace conditioning is the tempting-wrong label whenever the **CS** **ENDS** before the **UCS** is applied (the options were forward, delayed, trace, backward and higher-order). The explanation also says trace and higher-order conditioning tend to be weaker than delayed (forward) conditioning, where the **CS** stays on until the response appears.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Growing comfortable in the anatomy laboratory after several weeks of exposure is habituation - **NOT** classical conditioning, positive or negative reinforcement, or modelling, which were the distractors. Habituation is a diminution of an unconditioned response to the stimulus that evokes it.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 33,
+            "questionNumber": 72
+          }
         },
         {
           "type": "gap",
@@ -311,7 +302,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -375,7 +367,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -410,23 +403,51 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The **TRUE** statement is that intermittent reinforcement gives behaviours more resistant to extinction than continuous reinforcement. The wrong options reverse this ('partial reinforcement leads to rapid acquisition and slower extinction') or mislabel reinforcement ('positive reinforcement reduces the likelihood of a behaviour', 'negative reinforcement reduces the likelihood of a behaviour') - reinforcement of either kind increases behaviour.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 28
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Operant conditioning is a form of **ASSOCIATIVE** learning (as is classical conditioning); habituation and sensitisation are non-associative. The wrong options to spot: 'punishment is the most effective form of operant learning' (the explanation says punishment is not an effective technique - it teaches how not to behave and only suppresses a response), 'cannot be used in learning disability', and 'first described by Albert Bandura'.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 4,
+            "questionNumber": 15
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Operant conditioning traps from the question bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q28**: the true statement is that intermittent reinforcement schedules give behaviours more resistant to extinction than continuous reinforcement. 'Partial reinforcement leads to rapid acquisition and slower extinction' was a wrong option, as were 'positive reinforcement reduces the likelihood of a behaviour' and 'negative reinforcement reduces the likelihood of a behaviour'.",
+              "text": "**Q6** (Pavlov's dogs): the bell is the conditioned stimulus; the food is the unconditioned stimulus and salivation to the bell is the conditioned response (food, saliva, hunger and dog were wrong options).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 28
+                "page": 3,
+                "questionNumber": 6
               }
             },
             {
-              "text": "**Q18**: compulsions giving short-term relief of obsessional anxiety = negative reinforcement (cessation of the aversive anxiety), not positive reinforcement or punishment.",
+              "text": "**Q12**: bell rung before the food and continuing until salivation appears = forward (delayed) conditioning, the usual method of classical conditioning; pseudoconditioning, backward, trace and simultaneous were distractors.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 18
+                "page": 6,
+                "questionNumber": 12
+              }
+            },
+            {
+              "text": "**Q99**: fear of spiders extending to other insects = stimulus generalisation (the explanation defines it as a learned response being elicited by other stimuli that resemble the original one).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 45,
+                "questionNumber": 99
               }
             },
             {
@@ -446,6 +467,14 @@
               }
             },
             {
+              "text": "**Q18**: compulsions giving short-term relief of obsessional anxiety = negative reinforcement (cessation of the aversive anxiety), not positive reinforcement or punishment.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 18
+              }
+            },
+            {
               "text": "**Q67**: a parrot that received a shock on touching a lever and never touched it again = punishment (not negative reinforcement).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
@@ -454,11 +483,19 @@
               }
             },
             {
-              "text": "**Q66**: Skinner's operant conditioning pairs a response with a consequence.",
+              "text": "**Q54**: increase in response strength after brief but repeated exposure = incubation (habituation is the decrease; stimulus generalisation and extinction are different concepts).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 30,
-                "questionNumber": 66
+                "page": 24,
+                "questionNumber": 54
+              }
+            },
+            {
+              "text": "**Q31**: a reinforced operant response that weakens when the reinforcement ceases = extinction (stimulus decoupling, sensitisation, discrimination and incubation were distractors).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 31
               }
             }
           ]
@@ -497,7 +534,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Agoraphobia and obsessional rituals share **AVOIDANCE** conditioning (not classical, backward or 'forced' conditioning): behaviour motivated by the threat of an unpleasant stimulus, where avoidance and escape behaviour are negatively reinforced.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 16
+          }
         },
         {
           "type": "gap",
@@ -531,7 +579,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -541,6 +590,16 @@
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 10,
             "questionNumber": 22
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Exposure and response prevention for contamination fears: the therapist asks her to **TOUCH** the dirty linen and prevents her washing her hands. The wrong options are limiting washing to four times, washing without touching the dirt, and saying '**STOP**' aloud - none of these is exposure with response prevention. **ERP** is a form of **CBT** (psychoeducation, exposure, resisting compulsions); not covered in the notes.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 61
           }
         },
         {
@@ -574,6 +633,16 @@
               "page": 6
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "'Reinforcing gradually closer approximations to the desired behaviour' = **SHAPING**. Do not pick chaining: the explanation describes chaining as breaking a complex behaviour into steps that are each learnt and then linked (used to teach behavioural skills to the learning disabled; forward chaining for toilet training).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 11,
+            "questionNumber": 43
+          }
         },
         {
           "type": "table",
@@ -613,53 +682,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 7
             }
-          ]
-        },
-        {
-          "type": "trap-list",
-          "title": "Learning-theory traps from the question bank",
-          "items": [
-            {
-              "text": "**Q54**: increase in response strength after brief but repeated exposure = incubation (habituation is the decrease; stimulus generalisation and extinction are different concepts).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 24,
-                "questionNumber": 54
-              }
-            },
-            {
-              "text": "**Q1**: learned helplessness has been invoked to explain depressive disorders (the explanation uses dogs unable to escape electric shock).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 1
-              }
-            },
-            {
-              "text": "**Q10** and **Q69**: 'a person cannot be relaxed and anxious at the same time' and a child tolerating a dog while on his mother's lap eating ice cream = reciprocal inhibition (Wolpe).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 10
-              }
-            },
-            {
-              "text": "**Q73**: deep muscle relaxation paired with a graded hierarchy of imagined scenes = systematic desensitization, whose explanation again cites reciprocal inhibition and three steps (relaxation training, hierarchy of anxieties, desensitisation).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 33,
-                "questionNumber": 73
-              }
-            },
-            {
-              "text": "**Q16**: the conditioning involved in both agoraphobia and obsessional rituals = avoidance conditioning (explanation: behaviour motivated by threat of an unpleasant stimulus; avoidance and escape behaviour are negatively reinforced).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 16
-              }
-            }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -703,7 +727,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Bandura's five cognitive processes in social learning",
+          "mnemonic": "All Elephants Remember Many Memories",
+          "expansion": [
+            "Attention",
+            "Encoding (visual image and semantic)",
+            "Retention and rehearsal",
+            "Motor copying",
+            "Motivation"
+          ],
+          "sourced": false
         },
         {
           "type": "trap",
@@ -737,6 +775,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A preformed mental representation without reinforcement = **LATENT** learning (an animal that has wandered the maze unreinforced later learns it faster); modelling, insight and observational learning were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 5,
+            "questionNumber": 18
           }
         },
         {
@@ -788,6 +836,22 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Gagne's learning hierarchy (8 stages)",
+          "mnemonic": "Cute Otters Carry Very Delicate Cups, Rarely Panicking",
+          "expansion": [
+            "Classical conditioning (signal learning)",
+            "Operant conditioning",
+            "Chaining",
+            "Verbal association",
+            "Discrimination learning",
+            "Concept learning",
+            "Rule learning",
+            "Problem solving"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "Gagne's hierarchy: this pattern of learning is also seen during human development and in the hierarchy of evolution.",
           "source": {
@@ -814,6 +878,124 @@
             "page": 5,
             "questionNumber": 11
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Biofeedback",
+          "note": "**Q76**: biofeedback mainly modifies cardiovascular function (explanation: it transmits information about biological functions, can modify cardiovascular function, and is useful for reducing muscle tension - heart rate, blood pressure and muscle tension are monitored and fed back). The notes do not cover biofeedback.",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 76
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Applied tension for blood/injury phobia",
+          "note": "Mock 1 Test 2 **Q36**: applied tension is needed when doing exposure therapy for blood-injury type phobias. Explanation: these phobias are unique in that a paradoxical drop in blood pressure occurs during exposure, leading to fainting; applied tension (contracting large muscle groups to maintain normal blood pressure) is contrary to the progressive muscle relaxation used for other anxiety forms. Not covered in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 14,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Safety behaviours",
+          "note": "Mock 1 Test 6 **Q55**: the subtle behaviours a patient engages in during a fearful situation that maintain the fear are 'safety behaviours' (Salkovskis); the explanation says they are intended to prevent the feared outcome (e.g. a panic patient bowing his head and leaning sideways to 'increase the heart's circulation'). Not covered in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 20,
+            "questionNumber": 55
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Counterphobic behaviour",
+          "note": "Mock 1 Test 1 **Q48**: a person with a fear of heights who takes up parachute jumping shows counterphobic behaviour - behaviour that seeks out consciously or unconsciously feared experiences in an attempt to master the fear (reciprocal inhibition, desensitisation, reaction formation and projection were the distractors). Not covered in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 17,
+            "questionNumber": 48
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "**Q1**: learned helplessness has been invoked to explain depressive disorders (the explanation uses dogs unable to escape electric shock).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "**Q10**: 'a person cannot be relaxed and anxious at the same time' = reciprocal inhibition (Wolpe); stimulus preparedness, learned helplessness, cognitive dissonance and participant modelling were distractors.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 10
+              }
+            },
+            {
+              "text": "**Q69**: a 3-year-old tolerating a dog only on his mother's lap with his favourite ice cream = reciprocal inhibition (anxiety and relaxation cannot coexist), not classical conditioning, operant conditioning, extinction or avoidance learning.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 31,
+                "questionNumber": 69
+              }
+            },
+            {
+              "text": "**Q73**: deep muscle relaxation paired with a hierarchy of imagined scenes = systematic desensitisation; the explanation again cites reciprocal inhibition and its three steps.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 33,
+                "questionNumber": 73
+              }
+            },
+            {
+              "text": "**Q32**: actual exposure to a feared stimulus for a substantial time = flooding (aversive conditioning, covert reinforcement, covert sensitisation and implosion were distractors).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 32
+              }
+            },
+            {
+              "text": "**Q52**: a fear of driving after a trivial collision, avoiding cars even as a passenger and with no **PTSD** symptoms = behaviour therapy (the explanation: simple phobia, not **PTSD**).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 23,
+                "questionNumber": 52
+              }
+            },
+            {
+              "text": "Mock 1 Test 1 **Q44**: smoking many cigarettes in a small booth over a short period (exposure to an aversive stimulus) = aversive conditioning, not stimulus control, systematic desensitisation or habituation.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 16,
+                "questionNumber": 44
+              }
+            },
+            {
+              "text": "Mock 1 Test 1 **Q45**: a rat that now stays in the shock-free area of its cage = avoidance conditioning (the response prevents the aversive stimulus); classical conditioning, reciprocal inhibition, shaping and higher-order conditioning were distractors.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 16,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "Mock 1 Test 4 **Q13**: taking a patient with fear of heights to the top of a 21-storey building = flooding (actual exposure); implosion is the imagined version (the explanation) and 'in vitro flooding' was a distractor.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 3,
+                "questionNumber": 13
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -873,6 +1055,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 6
             }
+          },
+          {
+            "text": "Biofeedback (not in notes): mainly modifies cardiovascular function and helps reduce muscle tension.",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+              "page": 34,
+              "questionNumber": 76
+            }
+          },
+          {
+            "text": "Safety behaviours (not in notes): subtle in-situation behaviours (Salkovskis) that maintain fear in fearful situations.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+              "page": 20,
+              "questionNumber": 55
+            }
           }
         ],
         "facts": [
@@ -905,8 +1103,20 @@
           1,
           2,
           5,
-          11,
-          29
+          6,
+          12,
+          13,
+          14,
+          15,
+          27,
+          28,
+          31,
+          35,
+          36,
+          37,
+          41,
+          46,
+          48
         ]
       }
     },
@@ -972,7 +1182,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "mnemonic",
@@ -1067,7 +1278,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1197,34 +1409,44 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Perception traps from the question bank",
-          "items": [
-            {
-              "text": "**Q57**: the incorrect statement is that perceptual set predisposes the perceiver to notice **ALL** aspects of a stimulus simultaneously. It is a temporary readiness to perceive in a particular way, influenced by factors in the perceiver and the stimulus (past experience, emotions, values, current drive state, environment).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 57
-              }
-            },
-            {
-              "text": "**Q21**: of all sensory systems the least developed at birth is vision (touch, smell, taste and balance were distractors).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 21
-              }
-            },
-            {
-              "text": "**Q40**: 'Familiarity' is the option that is not a Gestalt principle.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 40
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "The **INCORRECT** statement is that perceptual set predisposes the perceiver to notice **ALL** aspects of a stimulus simultaneously. Perceptual set is a temporary readiness to perceive in a particular way, influenced by factors in both the perceiver (e.g. emotions) and the stimulus.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Of all the sensory systems, **VISION** is the least developed at birth (the distractors were smell, taste, touch and balance); the explanation gives newborn visual acuity as about 20/300.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'The whole is more than the sum of the parts' = **GESTALT** (Kohut, Mahler, Freud and Adler were distractors). The explanation notes that Koffka preferred 'the whole is **OTHER** than the sum of its parts' - a percept has a reality of its own, independent of its parts.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 16,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Perceptual constancy is shown for size, shape, colour, location **AND** brightness - a question listing size, brightness, colour and location keyed 'All of the above', so do not pick a single constancy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 42
+          }
         },
         {
           "type": "gap",
@@ -1335,7 +1557,11 @@
           4,
           7,
           12,
-          14
+          14,
+          17,
+          18,
+          19,
+          20
         ]
       }
     },
@@ -1405,7 +1631,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -1415,6 +1642,16 @@
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 23,
             "questionNumber": 51
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In the 'all correct **EXCEPT**' attention question, the false statement is 'alternating attention is the highest form of attention'. The Sohlberg-Mateer hierarchy has focused attention as the most primitive and **DIVIDED** attention as the highest; shadowing (a different input to each ear, following one) is a test of selective attention.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 14,
+            "questionNumber": 38
           }
         },
         {
@@ -1453,6 +1690,16 @@
               "page": 12
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "In Shiffrin and Schneider's theory, **AUTOMATIC** processing is unconscious, not limited, automatic through extensive training and resistant to change once learnt; it is **CONTROLLED** (attentional) processing that needs more mental effort and has limited capacity. The keyed 'needs more mental effort' is the controlled-processing feature - every other option describes automatic processing.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 6,
+            "questionNumber": 22
+          }
         },
         {
           "type": "paragraph",
@@ -1500,7 +1747,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Sohlberg and Mateer hierarchy of attention (lowest to highest)",
+          "mnemonic": "Five Sleepy Sheep Ate Doughnuts",
+          "expansion": [
+            "Focused",
+            "Sustained",
+            "Selective",
+            "Alternating",
+            "Divided"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1519,6 +1780,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "An abnormal Stroop test suggests **ATTENTIONAL** **BIAS** (not cortical blindness, optic chiasm lesion, short-term memory disturbance or occipital damage). The explanation: a loss of inhibitory control on the Stroop is seen in frontal lobe lesions, and abnormal emotional-Stroop interference (e.g. threat words in anxious subjects) is read as mood-congruent attentional bias.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 11,
+            "questionNumber": 45
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Delirium and attention",
           "note": "**Q90** (cognitive deficit characteristic of delirium) keys 'Poor attention span' (explanation: impaired attention is the cardinal feature of delirium). The notes do not discuss delirium.",
@@ -1526,6 +1797,16 @@
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 40,
             "questionNumber": 90
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Continuous performance test",
+          "note": "Mock 1 Test 1 **Q47**: the test that primarily measures **SUSTAINED** attention is the continuous performance test (Tower of London, Wisconsin card sorting, Rey verbal learning and Trail making B were distractors). The explanation says it measures sustained and selective attention and impulsivity, and that sustained attention is associated with impulsivity while selective attention is associated with distractibility. The notes do not name this test.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 17,
+            "questionNumber": 47
           }
         }
       ],
@@ -1586,13 +1867,25 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 12
             }
+          },
+          {
+            "text": "Sustained attention is primarily measured by the continuous performance test (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 17,
+              "questionNumber": 47
+            }
           }
         ],
         "highlightBlockIndices": [
           3,
           4,
           5,
-          7
+          6,
+          7,
+          9,
+          10,
+          13
         ]
       }
     },
@@ -1656,7 +1949,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 13
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The **FALSE** statement about short-term memory is that it is 'mainly stored in the visual modality' - the explanation says **STM** is mainly auditory (acoustic encoding). The other options were true: held 15 to 30 seconds, extended by rehearsal, capacity increased by chunking, and retrieval is error-free.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 4,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The inaccurate statement about **SENSORY** memory is that information is processed in it: no processing is involved; attended information moves to **STM** and unselected information is rapidly lost.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 32,
+            "questionNumber": 71
+          }
         },
         {
           "type": "paragraph",
@@ -1808,6 +2122,18 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Baddeley and Hitch working memory model",
+          "mnemonic": "Clever Parrots Voice Everything",
+          "expansion": [
+            "Central executive",
+            "Phonological loop",
+            "Visuospatial sketchpad",
+            "Episodic buffer"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "Working memory is important for executive functions, decision-making, error detection and correction, new learning (anterograde memory formation) and judgement.",
           "source": {
@@ -1821,6 +2147,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Primacy is due to initial items receiving the most consolidation; recency is because the latest items are still in **STM**. Wrong options to avoid: 'primacy is stronger than recency in immediate recall', 'elaborative rehearsal helps to store information in **STM**', and 'retroactive inhibition is prior learning interfering with later learning' (the explanation gives that definition to **PROACTIVE** inhibition).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 4,
+            "questionNumber": 16
           }
         },
         {
@@ -1857,7 +2193,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1865,6 +2202,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Flashbulb memories = vivid memories of personal events associated with intense emotional arousal (e.g. 9/11). They are recalled with seeming accuracy due to rehearsal, but the explanation says their accuracy cannot be assumed.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 23
           }
         },
         {
@@ -1917,7 +2264,40 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 16
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Theories of forgetting",
+          "mnemonic": "Dull Days Reduce Ideas",
+          "expansion": [
+            "Decay",
+            "Displacement",
+            "Retrieval failure",
+            "Interference"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'Which theory is **NOT** associated with encoding failure?' keyed 'All of the above': state-dependent memory, blocking, failure of prospective memory and context-dependent memory are **ALL** retrieval failures, not encoding failures. The explanation calls retrieval failure the commonest cause of failure to access long-term memory (the trace is there, the route to it is blocked).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 44
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Which psychological theory is **NOT** concerned with memory and forgetting?' keyed **HIERARCHY** theory: the explanation says Maslow's need-hierarchy theory is not a theory of memory. Trace decay, interference, repression and state-dependent learning were the memory-related options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 47,
+            "questionNumber": 105
+          }
         },
         {
           "type": "paragraph",
@@ -1941,6 +2321,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Ribot's law: in organic amnesia **RECENT** memory content is lost before remote content. The trap option reverses it ('remote memory content is lost before recent content'); the explanation says the oldest memories are the most resistant to disruption.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 75
           }
         },
         {
@@ -2065,7 +2455,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 17
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2073,6 +2464,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A heavy drinker with severe anterograde amnesia, extensive retrograde loss and unimpaired working and procedural memory = **KORSAKOFF** syndrome, not Wernicke encephalopathy or a psychogenic or transient amnesia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 9
           }
         },
         {
@@ -2084,11 +2485,31 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Post-traumatic amnesia grading",
+          "note": "Mock 1 Test 4 **Q14**: in moderate head injury **PTA** usually lasts from 1 to 24 hours (distractors: less than 1 hour, 1 day to 1 week, 1 week to 1 month, less than 1 minute). The explanation grades **PTA** under 1 hour as mild, 1 to 24 hours as moderate and over 24 hours as severe head injury. The notes say only that longer **PTA** means more severe damage and poorer prognosis.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 4,
+            "questionNumber": 14
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Memory loss after **ECT** is usually temporary, with both anterograde and retrograde amnesia reducing rapidly in most patients; a third report persistent memory loss (Rose et al. 2003); impairment is less pronounced with unilateral **ECT**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "On memory loss after **ECT** the **INCORRECT** statement is that impairment is more pronounced with **UNILATERAL** **ECT** - it is **LESS** pronounced. The true options: no lasting impairment is usual, both anterograde and retrograde amnesia occur and shrink rapidly, a third report persistent memory loss.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 5,
+            "questionNumber": 19
           }
         },
         {
@@ -2125,7 +2546,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 18
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "'All of the following are tests of **RECENT** memory **EXCEPT**' keyed **DIGIT** **SPAN**: it is the commonest test of auditory verbal working memory (immediate memory), whereas name and address recall is the commonest test of recent memory and a three-word learning task tests anterograde memory and learning.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 11,
+            "questionNumber": 48
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Neuropsychological test of semantic memory",
+          "note": "Mock 1 Test 5 **Q11**: the best neuropsychological test of semantic memory is naming objects and describing their meanings (address recall, the Rivermead behavioural memory test, a vocabulary test and Wechsler's Memory Scale were the distractors). The explanation lists object naming, generating definitions for spoken words, word-picture and picture-picture matching and category fluency as semantic-memory tasks. The notes' list of memory tests has no semantic-memory test.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
         },
         {
           "type": "gap",
@@ -2167,7 +2609,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 18
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2187,7 +2630,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Memory traps from the question bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "**Q4**: the memory that cannot be consciously inspected is non-declarative memory (autobiographical, semantic, episodic and declarative memory were the distractors).",
@@ -2222,14 +2665,6 @@
               }
             },
             {
-              "text": "**Q9**: severe anterograde amnesia plus extensive retrograde loss with working and procedural memory unimpaired in a heavy drinker = Korsakoff syndrome (Wernicke encephalopathy and psychogenic or transient amnesia were distractors).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 9
-              }
-            },
-            {
               "text": "**Q29**: inability to recall experiences in the days and weeks before a head injury = retrograde amnesia (post-traumatic amnesia, transient global amnesia and anterograde amnesia were distractors).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
@@ -2237,6 +2672,44 @@
                 "questionNumber": 29
               }
             },
+            {
+              "text": "**Q5**: 'storage of information in pure form without specification of time and place' = semantic memory (what is known rather than when and how it was learnt; e.g. the capital of Scotland); episodic memory, 'absolute memory', schemas and declarative memory were the options.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 5
+              }
+            },
+            {
+              "text": "Mock 1 Test 5 **Q17**: the non-declarative memory type among the options = procedural memory (semantic, autobiographical and episodic are declarative).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 4,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "Mock 1 Test 6 **Q56**: correctly stating that bicycles have two wheels tests semantic memory (factual recall, not tagged to the time of learning), not episodic or procedural.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+                "page": 21,
+                "questionNumber": 56
+              }
+            },
+            {
+              "text": "Mock 1 Test 6 **Q52**: the impairment **LEAST** likely with lesions causing predominantly working memory impairment = procedural memory impairment (it is spontaneously retrieved without conscious effort and not usually affected in amnesia).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+                "page": 19,
+                "questionNumber": 52
+              }
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
             {
               "text": "**Q27**: remembering the first few things told better than later information = primacy effect.",
               "source": {
@@ -2251,30 +2724,6 @@
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 16,
                 "questionNumber": 35
-              }
-            },
-            {
-              "text": "**Q71**: the inaccurate statement about sensory memory is that information is processed in it; no processing is involved, and attended information moves to **STM** while unselected information is rapidly lost.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 32,
-                "questionNumber": 71
-              }
-            },
-            {
-              "text": "**Q41**: attention allows sensory memory to enter the short-term store.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 41
-              }
-            },
-            {
-              "text": "**Q65**: a dysthymic patient who recalls events from depressed periods better than happy times = state-dependent memory.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 65
               }
             },
             {
@@ -2294,11 +2743,73 @@
               }
             },
             {
-              "text": "**Q93** and **Q23**: vivid memories of where you were on hearing of the twin towers attack = flashbulb memory.",
+              "text": "**Q64**: the formation of initial memory traces = encoding (retention, forgetting, retrieval and storage were distractors).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 42,
-                "questionNumber": 93
+                "page": 29,
+                "questionNumber": 64
+              }
+            },
+            {
+              "text": "**Q96**: combining separate pieces of information into one meaningful combination = chunking (recoding smaller units into larger, familiar units; Miller).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 43,
+                "questionNumber": 96
+              }
+            },
+            {
+              "text": "Mock 1 Test 3 **Q43**: the span of immediate memory = 7 plus or minus 2 (Miller's 'magical number seven').",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 10,
+                "questionNumber": 43
+              }
+            },
+            {
+              "text": "Mock 1 Test 3 **Q47**: the transfer from short-term to long-term memory = consolidation (rehearsal, encoding, displacement and interference were distractors).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 11,
+                "questionNumber": 47
+              }
+            },
+            {
+              "text": "**Q33**: a sense of familiarity as stored memories are brought back into consciousness (visiting a church) = recognition, not jamais vu, deja vu, retrospective falsification or false memory syndrome; the explanation says recognition is generally easier than recall.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 33
+              }
+            },
+            {
+              "text": "Mock 1 Test 2 **Q34**: a mode of retrieval from long-term memory - keyed 'All of the above' (recall, re-learning, recognition and reintegration; the explanation also lists confabulation).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 13,
+                "questionNumber": 34
+              }
+            },
+            {
+              "text": "Mock 1 Test 1 **Q46**: reconstructing a crime scene and revisiting it with witnesses = context-dependent memory (Godden and Baddeley), not blocking, failure of prospective memory, encoding failure or state-dependent memory.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 17,
+                "questionNumber": 46
+              }
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "**Q65**: a dysthymic patient who recalls events from depressed periods better than happy times = state-dependent memory.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 29,
+                "questionNumber": 65
               }
             },
             {
@@ -2326,14 +2837,6 @@
               }
             },
             {
-              "text": "**Q39**: asking what a patient had for the last meal tests recent memory.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 39
-              }
-            },
-            {
               "text": "**Q80**: knowledge of the capitals of countries is declarative memory; how to drive, ride a bike, swim or write a letter are not.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
@@ -2347,6 +2850,30 @@
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 6,
                 "questionNumber": 14
+              }
+            },
+            {
+              "text": "**Q56**: 'the memories closest to a disruptive event are most vulnerable to loss' = Ribot's hypothesis (senile, dwarf, moral and glutamate hypotheses were distractors).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 25,
+                "questionNumber": 56
+              }
+            },
+            {
+              "text": "**Q95**: situation-specific amnesia is **NOT** reported in adjustment disorder (it can occur in **PTSD**, in victims of an offence or of childhood sexual abuse, and in offenders - 25-==45%== of homicides).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 43,
+                "questionNumber": 95
+              }
+            },
+            {
+              "text": "Mock 1 Test 7 **Q38**: no processing is involved in **SENSORY** memory (not recent, short-term, remote or long-term memory).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 10,
+                "questionNumber": 38
               }
             }
           ]
@@ -2499,6 +3026,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 17
             }
+          },
+          {
+            "text": "Post-traumatic amnesia grading (not in notes): under 1 h mild, 1-24 h moderate, over 24 h severe head injury.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+              "page": 4,
+              "questionNumber": 14
+            }
           }
         ],
         "facts": [
@@ -2569,10 +3104,22 @@
         ],
         "highlightBlockIndices": [
           2,
-          5,
-          10,
-          11,
-          24
+          3,
+          4,
+          7,
+          12,
+          13,
+          14,
+          17,
+          21,
+          25,
+          26,
+          27,
+          31,
+          33,
+          42,
+          46,
+          48
         ]
       }
     },
@@ -2618,7 +3165,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2731,7 +3279,31 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 21
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Heuristics and biases in decision-making",
+          "mnemonic": "A Real Gambler Bets Stupidly",
+          "expansion": [
+            "Availability heuristic",
+            "Representativeness bias",
+            "Gambler's fallacy",
+            "Base rate fallacy",
+            "Sunk cost bias (entrapment)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "A newspaper reports that drug addicts commit muggings, and the public concludes an 83-year-old lady's mugger was a drug addict = **AVAILABILITY** heuristic (framing, simulation, representation and anchoring were the distractors). The explanation calls it a heuristic for judging frequency and probability based on how readily a schema comes to mind.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 16,
+            "questionNumber": 43
+          }
         },
         {
           "type": "trap",
@@ -2751,6 +3323,46 @@
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 37,
             "questionNumber": 81
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Framing",
+          "note": "Mock 1 Test 2 **Q41**: two antidepressants of similar efficacy, one described as a '==50%== failure rate' and the other as a '==50%== success rate', with the second selling better = **FRAMING**. Explanation: people reach conclusions based on the 'framework' within which a situation is presented. The notes' heuristics list (availability, representativeness, gambler's fallacy, base rate, sunk cost) does not include framing; the language table mentions only that choices differ by how something is framed (prospect theory).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 16,
+            "questionNumber": 41
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Watson's peripheralism",
+          "note": "Mock 1 Test 3 **Q52**: John Watson postulated that thinking occurs peripherally in the speech apparatus (Sternberg, Whorf, Spearman and Maslow were distractors). The explanation contrasts this with the Whorfian linguistic relativity hypothesis, which places language as primary and thought as secondary. Peripheralism is not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 52
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Catastrophising in anxiety",
+          "note": "Mock 1 Test 1 **Q39**: cognitive theory suggests catastrophisation as the underlying factor for anxiety disorders (somatisation, nihilism, depersonalisation and personalisation were distractors). Explanation: the term was used by Albert Ellis; anxiety is associated with overestimating the probability of a catastrophic outcome and its consequences, and cognitive models of panic disorder emphasise it. The notes use 'catastrophes' only as a category of stress.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 14,
+            "questionNumber": 39
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Beck: distorted negative thoughts in depression",
+          "note": "Mock 1 Test 2 **Q39**: according to Aaron Beck, depression results from distorted negative thoughts (high or low expressed emotion, aggression turned inwards and genetic risk were distractors); the explanation says Beck first proposed the cognitive distortions associated with depression. The notes mention cognitive distortions only in passing (challenged in **CBT**).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 39
           }
         }
       ],
@@ -2790,6 +3402,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 21
             }
+          },
+          {
+            "text": "Framing (not in notes): conclusions depend on how a situation is presented, e.g. a 50% success rate sells better than a 50% failure rate.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 16,
+              "questionNumber": 41
+            }
+          },
+          {
+            "text": "Catastrophising (not in notes): overestimating the probability and consequences of a catastrophic outcome, linked to anxiety and panic.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 14,
+              "questionNumber": 39
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -2797,7 +3425,9 @@
           2,
           3,
           4,
-          5
+          5,
+          6,
+          7
         ]
       }
     },
@@ -2939,6 +3569,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Eysenck's biology: **INTROVERTS** have the more reactive (over-aroused) ascending reticular activating system and extraverts are under-aroused - the explanation reverses the common intuition. 'Extraversion is related to cortisol levels' and 'autonomic lability' options were distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 18,
+            "questionNumber": 47
+          }
+        },
+        {
           "type": "table",
           "title": "Cloninger's psychobiological model",
           "columns": [
@@ -2979,6 +3619,18 @@
               "page": 23
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Cloninger's four temperament dimensions",
+          "mnemonic": "Never Hurry, Rest Properly",
+          "expansion": [
+            "Novelty-seeking",
+            "Harm-avoidance",
+            "Reward-dependence",
+            "Persistence"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -3031,6 +3683,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In the 'Big Five - all **EXCEPT**' question the intruder is **PSYCHOTICISM**, which is an Eysenck dimension (P-E-N), not a Big Five trait. The explanation lists the Big Five as Openness, Conscientiousness, Extraversion, Agreeableness and Neuroticism (**OCEAN**).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 58
           }
         },
         {
@@ -3114,7 +3776,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 24
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "comparison",
@@ -3137,6 +3800,16 @@
               "page": 24
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "Type B people are relaxed and easy-going **BUT** cope poorly when under stress - the keyed option. The other options ('high achievers and workaholics', 'high competitiveness, hostility and aggression', 'impatience and incapable of relaxation') all describe Type A, as does 'All of the listed options', which is therefore wrong.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
         },
         {
           "type": "paragraph",
@@ -3192,7 +3865,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 25
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -3220,7 +3894,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 25
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "'Which is an objective personality test?' = the **MMPI** (Rorschach, sentence completion, draw-a-person and **TAT** are projective). The explanation adds that the **MMPI** was devised from a clinical population and Cattell's 16 **PF** from a non-clinical one, both with lie, frequency and correction scales.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 5,
+            "questionNumber": 21
+          }
         },
         {
           "type": "paragraph",
@@ -3288,7 +3973,36 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 26
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "MMPI clinical scales (1-10)",
+          "mnemonic": "Hungry Dogs Hide Pork; Many Puppies Plan Sneaky Hunts, Silently",
+          "expansion": [
+            "Hypochondriasis",
+            "Depression",
+            "Hysteria",
+            "Psychopathic deviance",
+            "Masculinity-femininity",
+            "Paranoia",
+            "Psychasthenia",
+            "Schizophrenia",
+            "Hypomania",
+            "Social introversion"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "gap",
+          "subtopic": "MMPI: nine vs ten scales",
+          "note": "Mock 1 Test 4 **Q20**: the instrument assessing personality across 'nine psychopathological domains' is keyed as the **MMPI**, and the explanation says it uses more than 500 questions. The notes list **TEN** clinical scales (and another mock explanation also says ten scales), so the source does not reconcile 'nine' with 'ten'.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 5,
+            "questionNumber": 20
+          }
         },
         {
           "type": "paragraph",
@@ -3307,8 +4021,18 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Jung and introversion",
+          "note": "Mock 1 Test 3 **Q53**: Jung is correctly paired with introversion (the other pairs - Freud: negative and positive symptoms, Eugen Bleuler or Manfred Bleuler: dementia praecox, Charcot: dissociation - were wrong). Explanation: Jung's typology distinguished introversion and extroversion (introverts prefer their internal world, extroverts the external world). The notes credit Jung only with the Word Association Test.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 53
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Personality traps from the question bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "**Q2**: the projective test of personality is the Thematic Apperception Test (Cattell's 16 **PF**, Eysenck's inventory, **MMPI** and the **IPDE** are not projective).",
@@ -3324,14 +4048,6 @@
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 40,
                 "questionNumber": 88
-              }
-            },
-            {
-              "text": "**Q20**, **Q25**, **Q58**: Big Five = Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism. 'Carefulness', 'Capacity' and 'Psychoticism' were the intruders (psychoticism is an Eysenck dimension).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 20
               }
             },
             {
@@ -3351,11 +4067,43 @@
               }
             },
             {
-              "text": "**Q3** and **Q17**: Type B people are relaxed and easy-going but cope poorly under stress; Type A shows high competitiveness, impatience, hostility and aggression.",
+              "text": "**Q17**: the feature of Type A personality = high competitiveness (being relaxed, patient, evading stress or easy-going without time pressure are Type B features); Type A is associated with the **AHA** triad of anger, hostility and aggression and was introduced by Friedman and Rosenman.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 3
+                "page": 8,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "**Q25**: the option that is **NOT** a Big Five component is 'Capacity'.",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 25
+              }
+            },
+            {
+              "text": "**Q20**: the option that is **NOT** a Big Five trait is 'Carefulness' (Costa and McCrae's five: **OCEAN**).",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 20
+              }
+            },
+            {
+              "text": "Mock 1 Test 5 **Q12**: the scale built on the Big Five is the **NEO** Inventory (**NEO** **PI**: 240 items), not the **EPI**, **IPDE**, **TAT** or **MMPI**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 3,
+                "questionNumber": 12
+              }
+            },
+            {
+              "text": "Mock 1 Test 4 **Q17**: classifying personality by body build = Kretschmer (pyknic, asthenic and athletic types).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 4,
+                "questionNumber": 17
               }
             }
           ]
@@ -3417,6 +4165,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 25
+            }
+          },
+          {
+            "text": "MMPI: notes list ten clinical scales; one mock describes 'nine psychopathological domains' - unreconciled in the source.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+              "page": 5,
+              "questionNumber": 20
             }
           }
         ],
@@ -3490,8 +4246,14 @@
           0,
           3,
           4,
-          10,
-          16
+          7,
+          9,
+          12,
+          13,
+          19,
+          20,
+          25,
+          28
         ]
       }
     },
@@ -3521,6 +4283,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 27
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Which statement is **INCORRECT**?' keyed 'In Maslow's hierarchy of needs, cognitive needs **PRECEDE** esteem needs'. The other options were true: Yerkes-Dodson's inverted U between arousal and performance, Cannon's homeostatic theory (changes trigger processes restoring the system), Maslow's lower levels as prerequisites, and drive reduction (decreasing arousal tied to basic drives).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 60
           }
         },
         {
@@ -3698,34 +4470,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Motivation traps from the question bank",
-          "items": [
-            {
-              "text": "**Q48**: the need for personal worth, competence and recognition by others = esteem needs (Maslow).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 48
-              }
-            },
-            {
-              "text": "**Q60**: the **INCORRECT** statement is that in Maslow's hierarchy cognitive needs precede esteem needs; the Yerkes-Dodson inverted U, Cannon's homeostatic theory, Maslow's prerequisite levels and drive reduction (decrease arousal tied to basic drives) were correct.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 60
-              }
-            },
-            {
-              "text": "**Q77**: all are deficiency needs **EXCEPT** aesthetic needs (safety, physiological, love and belonging and esteem needs are deficiency needs).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 35,
-                "questionNumber": 77
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "'All are secondary drives **EXCEPT**' keyed **SEX**: sex is a primary drive (like eating and drinking). Affection, comfort, achievement, dominance and socialisation are secondary drives, whose value is acquired through association with primary drives and social learning.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 10,
+            "questionNumber": 39
+          }
         },
         {
           "type": "gap",
@@ -3735,6 +4487,26 @@
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 41,
             "questionNumber": 91
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Homeostatic vs non-homeostatic motives",
+          "note": "Mock 1 Test 1 **Q41**: **ACHIEVEMENT** is the example of a non-homeostatic motive (temperature control, hunger and thirst are homeostatic). Explanation: homeostatic motives arise from physiological needs and basic survival; non-homeostatic motives are psychological drives such as curiosity, adventure and achievement. The notes do not use this homeostatic/non-homeostatic split.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 41
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Motivational interviewing and cognitive dissonance",
+          "note": "Mock 1 Test 2 **Q44**: motivational interviewing is associated with increasing cognitive dissonance (inventiveness, negative reinforcement, Premack's principle and learned resourcefulness were distractors). Explanation: **MI** encourages people to take responsibility for their own lives and its techniques relate to the principles of cognitive dissonance. The notes cover cognitive consistency theory but not motivational interviewing.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 17,
+            "questionNumber": 44
           }
         }
       ],
@@ -3795,13 +4567,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 28
             }
+          },
+          {
+            "text": "Non-homeostatic motives (not in notes) are psychological drives such as curiosity, adventure and achievement.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 15,
+              "questionNumber": 41
+            }
           }
         ],
         "highlightBlockIndices": [
           3,
-          8,
-          11,
-          12
+          4,
+          9,
+          12,
+          13
         ]
       }
     },
@@ -3859,7 +4640,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 30
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Theories of emotion",
+          "mnemonic": "Just Cats Sit Lazily",
+          "expansion": [
+            "James-Lange",
+            "Cannon-Bard",
+            "Schachter-Singer",
+            "Lazarus cognitive appraisal"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -3878,26 +4672,34 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Emotion traps from the question bank",
-          "items": [
-            {
-              "text": "**Q45**: the theorist who proposed six basic emotions = Ekman (not Lorenz, Cannon and Bard, James and Lange, or Ainsworth).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 45
-              }
-            },
-            {
-              "text": "**Q46**: the emotion with the maximum rise in temperature = anger (fear and disgust give a drop in temperature).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 21,
-                "questionNumber": 46
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "James-Lange = emotion is **SECONDARY** to physiological changes, with a distinct pattern of changes for each emotion. Do not confuse with Cannon-Bard (the explanation's contrast: the subjective experience is independent of physiological changes; the thalamus sends impulses to the cortex and the hypothalamus). Cognitive appraisal and schema theory were distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 51
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Of the emotions, **ANGER** gives the maximum rise in temperature; fear and disgust give a **DROP** in temperature (sadness, disgust, love and fear were the other options).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 46
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Six basic emotions' = **EKMAN** (Lorenz, Cannon and Bard, James and Lange, and Ainsworth were distractors). The explanation lists Ekman's six as anger, disgust, fear, joy, sadness and surprise, combining to form other emotions.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 45
+          }
         },
         {
           "type": "gap",
@@ -3957,7 +4759,10 @@
         ],
         "highlightBlockIndices": [
           2,
-          5
+          3,
+          6,
+          7,
+          8
         ]
       }
     },
@@ -4012,6 +4817,18 @@
               "page": 31
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Four categories of stress",
+          "mnemonic": "Cats Make Daily Appearances",
+          "expansion": [
+            "Crises / catastrophes",
+            "Major life events",
+            "Daily hassles or microstressors",
+            "Ambient stressors"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -4083,7 +4900,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 32
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "comparison",
@@ -4231,9 +5049,10 @@
         "highlightBlockIndices": [
           2,
           3,
-          6,
+          4,
           7,
-          9
+          8,
+          10
         ]
       }
     },
@@ -4337,6 +5156,18 @@
               "page": 35
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Biorhythm types",
+          "mnemonic": "Cats Usually Idle Calmly",
+          "expansion": [
+            "Circadian",
+            "Ultradian",
+            "Infradian",
+            "Circannual"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -4501,7 +5332,8 @@
         "highlightBlockIndices": [
           1,
           5,
-          9
+          6,
+          10
         ]
       }
     },
@@ -4703,7 +5535,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 38
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "gap",
@@ -4716,34 +5549,34 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Intelligence traps from the question bank",
-          "items": [
-            {
-              "text": "**Q68**: the Flynn effect = increasing **IQ** with successive generations.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 68
-              }
-            },
-            {
-              "text": "**Q104**: intelligent behaviour from a balance of analytical, creative and practical abilities = Sternberg's theory (the stem says 'physical', the explanation 'practical').",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 47,
-                "questionNumber": 104
-              }
-            },
-            {
-              "text": "**Q37**: the nonverbal intelligence measure is Raven's progressive matrices (explanation: a non-verbal test of general cognitive ability).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 37
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Spot 'physical' for 'practical': the stem says intelligence is a balance of analytical, creative and **PHYSICAL** abilities and still keys Sternberg's theory (Spearman, Cyril Burt, Cattell and Horn, and Stanford-Binet were the distractors). The explanation gives analytical, creative and **PRACTICAL** abilities.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 47,
+            "questionNumber": 104
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The **TWO**-factor theory of intelligence = **SPEARMAN** (a general factor g and specific factors s; individual differences due to g); Lazarus, James-Lange, Sternberg and Maslow were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 11,
+            "questionNumber": 44
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The test of **NONVERBAL** intelligence = Raven's progressive matrices (Sternberg triarchic abilities test, General aptitude test battery, Stanford-Binet and Wechsler were distractors); the explanation calls it a non-verbal test widely used to assess general cognitive ability.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 37
+          }
         },
         {
           "type": "gap",
@@ -4871,7 +5704,10 @@
           4,
           5,
           6,
-          7
+          7,
+          9,
+          10,
+          11
         ]
       }
     }
@@ -5013,6 +5849,67 @@
               }
             }
           ]
+        },
+        {
+          "label": "Exam traps and tested gaps",
+          "children": [
+            {
+              "label": "Trace conditioning: CS ends before UCS; weaker than delayed",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 7
+              }
+            },
+            {
+              "label": "Ignoring misbehaviour = extinction, not negative reinforcement",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 12,
+                "questionNumber": 50
+              }
+            },
+            {
+              "label": "Intermittent reinforcement is more resistant to extinction",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 28
+              }
+            },
+            {
+              "label": "Shaping (approximations) vs chaining (linked steps)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 11,
+                "questionNumber": 43
+              }
+            },
+            {
+              "label": "ERP: touch dirty linen, washing prevented",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 28,
+                "questionNumber": 61
+              }
+            },
+            {
+              "label": "Biofeedback modifies cardiovascular function (gap)",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 34,
+                "questionNumber": 76
+              }
+            },
+            {
+              "label": "Safety behaviours maintain fear (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+                "page": 20,
+                "questionNumber": 55
+              }
+            }
+          ]
         }
       ]
     },
@@ -5067,6 +5964,35 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 10
           }
+        },
+        {
+          "label": "Exam traps",
+          "children": [
+            {
+              "label": "Perceptual set is not all-aspects-at-once",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 25,
+                "questionNumber": 57
+              }
+            },
+            {
+              "label": "Vision is the least developed sense at birth",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 21
+              }
+            },
+            {
+              "label": "Perceptual constancy: size, shape, colour, location, brightness",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 15,
+                "questionNumber": 42
+              }
+            }
+          ]
         }
       ]
     },
@@ -5121,6 +6047,43 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 12
           }
+        },
+        {
+          "label": "Exam traps and tested gaps",
+          "children": [
+            {
+              "label": "Divided (not alternating) is the highest attention level",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 14,
+                "questionNumber": 38
+              }
+            },
+            {
+              "label": "Automatic processing: unconscious, not limited; controlled needs effort",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 6,
+                "questionNumber": 22
+              }
+            },
+            {
+              "label": "Abnormal Stroop suggests attentional bias",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 11,
+                "questionNumber": 45
+              }
+            },
+            {
+              "label": "Continuous performance test = sustained attention (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 17,
+                "questionNumber": 47
+              }
+            }
+          ]
         }
       ]
     },
@@ -5246,6 +6209,67 @@
               }
             }
           ]
+        },
+        {
+          "label": "Exam traps and tested gaps",
+          "children": [
+            {
+              "label": "STM is mainly acoustic, not visual",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 4,
+                "questionNumber": 16
+              }
+            },
+            {
+              "label": "Ribot: recent memory lost before remote",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 34,
+                "questionNumber": 75
+              }
+            },
+            {
+              "label": "State/context-dependent, blocking, prospective = retrieval failure",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 10,
+                "questionNumber": 44
+              }
+            },
+            {
+              "label": "Unilateral ECT causes LESS memory impairment",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 5,
+                "questionNumber": 19
+              }
+            },
+            {
+              "label": "Digit span is not a recent-memory test",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 11,
+                "questionNumber": 48
+              }
+            },
+            {
+              "label": "PTA: <1 h mild, 1-24 h moderate, >24 h severe (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 4,
+                "questionNumber": 14
+              }
+            },
+            {
+              "label": "Semantic memory test: naming objects and describing meanings (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 3,
+                "questionNumber": 11
+              }
+            }
+          ]
         }
       ]
     },
@@ -5293,6 +6317,51 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 21
           }
+        },
+        {
+          "label": "Exam traps and tested gaps",
+          "children": [
+            {
+              "label": "Availability heuristic: readily recalled examples",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 16,
+                "questionNumber": 43
+              }
+            },
+            {
+              "label": "Framing (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 16,
+                "questionNumber": 41
+              }
+            },
+            {
+              "label": "Watson's peripheralism (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 12,
+                "questionNumber": 52
+              }
+            },
+            {
+              "label": "Catastrophising in anxiety (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 14,
+                "questionNumber": 39
+              }
+            },
+            {
+              "label": "Beck: distorted negative thoughts in depression (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 15,
+                "questionNumber": 39
+              }
+            }
+          ]
         }
       ]
     },
@@ -5390,6 +6459,59 @@
               }
             }
           ]
+        },
+        {
+          "label": "Exam traps and tested gaps",
+          "children": [
+            {
+              "label": "Psychoticism is not a Big Five trait",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 26,
+                "questionNumber": 58
+              }
+            },
+            {
+              "label": "Introverts have the more reactive reticular activating system",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 18,
+                "questionNumber": 47
+              }
+            },
+            {
+              "label": "Type B copes poorly under stress",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 3
+              }
+            },
+            {
+              "label": "MMPI = objective test; TAT/Rorschach projective",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 5,
+                "questionNumber": 21
+              }
+            },
+            {
+              "label": "MMPI nine vs ten scales (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 5,
+                "questionNumber": 20
+              }
+            },
+            {
+              "label": "Jung: introversion (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 13,
+                "questionNumber": 53
+              }
+            }
+          ]
         }
       ]
     },
@@ -5444,6 +6566,43 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 28
           }
+        },
+        {
+          "label": "Exam traps and tested gaps",
+          "children": [
+            {
+              "label": "Cognitive needs do NOT precede esteem needs",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 27,
+                "questionNumber": 60
+              }
+            },
+            {
+              "label": "Sex is a primary (not secondary) drive",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 10,
+                "questionNumber": 39
+              }
+            },
+            {
+              "label": "Achievement is a non-homeostatic motive (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 15,
+                "questionNumber": 41
+              }
+            },
+            {
+              "label": "Motivational interviewing and cognitive dissonance (gap)",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 17,
+                "questionNumber": 44
+              }
+            }
+          ]
         }
       ]
     },
@@ -5491,6 +6650,35 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 30
           }
+        },
+        {
+          "label": "Exam traps",
+          "children": [
+            {
+              "label": "James-Lange: emotion secondary to physiological change",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 12,
+                "questionNumber": 51
+              }
+            },
+            {
+              "label": "Anger gives the maximum rise in temperature",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 46
+              }
+            },
+            {
+              "label": "Ekman: six basic emotions",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 20,
+                "questionNumber": 45
+              }
+            }
+          ]
         }
       ]
     },
@@ -5646,6 +6834,35 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 38
           }
+        },
+        {
+          "label": "Exam traps",
+          "children": [
+            {
+              "label": "Two-factor theory = Spearman",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 11,
+                "questionNumber": 44
+              }
+            },
+            {
+              "label": "Sternberg: analytical, creative, practical (stem said 'physical')",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 47,
+                "questionNumber": 104
+              }
+            },
+            {
+              "label": "Raven = nonverbal test of general cognitive ability",
+              "source": {
+                "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 37
+              }
+            }
+          ]
         }
       ]
     }

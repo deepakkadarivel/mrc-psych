@@ -22,6 +22,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**EMI** matches for interview techniques: 'I'd like to hear more about your parents, but first let me get a picture of what's happening to you of late' (after the patient changes topic) is **REDIRECTION**; 'Sometimes when people are very depressed, they think of hurting themselves. Has this been true for you?' is **NORMALISATION** (the interviewer phrases the question so the patient realises they are not the only person with such thoughts, making a taboo topic easier to explore); 'What sorts of drugs do you usually use when you're drinking?' is **SYMPTOM** **EXPECTATION**; 'I can see that you look anxious when talking about those voices' is **ACKNOWLEDGEMENT**; the clinician describing their own **fluoxetine** side effects is **SELF-REVELATION**, which can powerfully backfire and is not recommended unless necessary for engagement.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 28,
+            "questionNumber": 34
+          }
+        },
+        {
           "type": "table",
           "title": "Non-directive techniques",
           "columns": [
@@ -73,37 +83,62 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Non-directive technique questions seen in the bank",
-          "items": [
-            {
-              "text": "A doctor summarising 'your sleep is poor, you have excessive disturbing thoughts and you have lost weight in last 2 months. Is that right?' is using summation (the explanation: used periodically to summarise a topic, giving the patient a chance to clarify or modify the psychiatrist's understanding and add new material).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 66
-              }
-            },
-            {
-              "text": "Open questions do not suggest the possible answer and give more informative answers; begin an interview with open questions before turning to closed ones to clarify details or facts.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 3
-              }
-            },
-            {
-              "text": "Suggestive questions are the odd one out among techniques that facilitate disclosure (silence, positive reinforcement, acknowledgement of affect and validation do facilitate).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 5
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Open questions are **MORE** **INFORMATIVE** - not time-saving, doctor-directed, reliable or less precise: an open question does not suggest the possible answer while a closed question expects a limited range of replies, so begin with open questions and turn to closed ones only to clarify details or factual points.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**SUGGESTIVE** questions are the odd one out among techniques that facilitate disclosure (silence, positive reinforcement, acknowledgement of affect and validation do facilitate): the answer is contained in the question itself, which misleads both patient and doctor and leaves the patient little choice but to agree.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** named-technique matches: 'What brings you to the clinic today?' is an **OPEN-ENDED** question (cannot be answered yes/no); asking when the patient feels most depressed after 'low mood ever since you can remember' is **CLARIFICATION**; 'So, you are getting disturbed by the dreams you have' is **RESTATEMENT** (phrases rearranged); 'So, you were having bad dreams last night' is **REPETITION** (the patient's exact words); 'So from what you told so far, you are anxious... Right?' is **SUMMATION**, which lets the patient clarify or modify the doctor's understanding.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 8,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Non-directive interview techniques",
+          "mnemonic": "Only Real Rapport Starts Conversations Flowing",
+          "expansion": [
+            "Open-ended questions",
+            "Repetition",
+            "Restatement",
+            "Summation",
+            "Clarification",
+            "Facilitation"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "gap",
+          "subtopic": "Linking statements",
+          "note": "Not in the notes: a linking statement is a type of reflective statement, a helpful non-directive approach, in which the interviewer links feelings to experiences and behaviours ('you feel [feeling] because [experience or behaviour that gave rise to the feeling]'); the question keys it over restricted affect, frequent interpretations, long pauses and polythematic questions.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 5,
+            "questionNumber": 14
+          }
         }
       ],
       "concise": {
@@ -152,8 +187,8 @@
           }
         ],
         "highlightBlockIndices": [
-          2,
-          3
+          3,
+          7
         ]
       }
     },
@@ -175,6 +210,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**REFERRED** transition = referring back to something the patient said **EARLIER** in the interview to move to a new topic (keyed over sudden, smooth, introduced transition and distraction technique); the explanation says it is often used to 'come back' to a topic of importance.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 2,
+            "questionNumber": 7
           }
         },
         {
@@ -231,7 +276,7 @@
         },
         {
           "type": "trap",
-          "text": "**Q4** asks when closed questioning is useful (distracted patient, over-talkative patient, later part of interview, to rule out less likely symptoms); the keyed answer is 'All of the listed options'. The explanation repeats that closed questions are better avoided early and in highly suggestible patients, and that start-open-then-closed is the good technique.",
+          "text": "Closed questions are useful when the patient is distracted or over-talkative, in the later part of the interview and to rule out less likely symptoms - the keyed answer is 'All of the listed options'. The explanation still warns that closed questions are better avoided early and in highly suggestible patients: start open, then go closed.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
@@ -286,8 +331,8 @@
           }
         ],
         "highlightBlockIndices": [
-          2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -347,21 +392,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Technique-recognition questions seen in the bank",
-          "items": [
-            {
-              "text": "Confrontation is used to help the patient face a difficult aspect of their problems (not to clarify associations the patient may not see, which is the description given for interpretation).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 40
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Confrontation is used to help the patient **FACE** a difficult aspect of their problems - pointing out something the doctor thinks the patient is missing or denying, done respectfully rather than dismissing the patient by pointing out a negative aspect. 'Clarify certain associations that patients may not see' is a distractor (the notes give that description to interpretation).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 40
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** named-technique matches: 'You seem not to have gained any weight in the last three months. Is it possible that your eating has been poor again?' is **CONFRONTATION**; 'I am going to interrupt you as there are few important things we need to cover today' is **LIMIT** **SETTING**; 'Did you sleep well last night?' is a **CLOSED** question; 'Do you like Sir Cliff Richards? I was a mad fan while at school' is **SELF-REVELATION**; 'You mentioned that your mother is a receptionist. What about yourself?' is a **TRANSITION**.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 9,
+            "questionNumber": 10
+          }
         }
       ],
       "concise": {
@@ -410,8 +462,7 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          1
+          0
         ]
       }
     },
@@ -474,7 +525,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -524,50 +576,48 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Supportive/obstructive technique questions seen in the bank",
-          "items": [
-            {
-              "text": "'I am impressed by what you have achieved' is a statement of respect (genuine affirmative statements indicating respect and dignity, giving positive reinforcement).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 13
-              }
-            },
-            {
-              "text": "Validation is the supportive technique (not aimed at eliciting information) among clarification, redirection, interpretation and symptom expectation; it decreases embarrassment by showing a feeling or behaviour is normal.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 35,
-                "questionNumber": 79
-              }
-            },
-            {
-              "text": "Praising a patient who stopped mid-narration for doing well despite difficulty is keyed as reinforcement (not validation or acknowledgement of affect).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 48,
-                "questionNumber": 109
-              }
-            },
-            {
-              "text": "A compound question adds two or more questions in one statement ('Do you go on holidays and are you able to relax then?'), confusing the patient and giving a vague response or none.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 33
-              }
-            },
-            {
-              "text": "Suggestive questions contain the answer, mislead both patient and doctor, and leave the patient little choice but to agree.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 5
-              }
-            }
-          ]
+          "type": "mnemonic",
+          "forTopic": "Obstructive interview techniques",
+          "mnemonic": "Silly Wise Clinicians Never Deliver Success",
+          "expansion": [
+            "Suggestive questions",
+            "Why questions",
+            "Compound questions",
+            "Negative nonverbal gestures",
+            "Disapproval",
+            "Setting traps"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**VALIDATION** is the supportive technique that is not aimed at eliciting information (keyed over clarification, redirection, interpretation and symptom expectation): it decreases a patient's sense of embarrassment about a feeling or behaviour, often by quoting how it is normal for people to have different emotions, reactions and behaviours.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 79
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'I am impressed by what you have achieved despite all these difficulties' is a **RESPECTFUL** **STATEMENT** (keyed over summation, inquiry, facilitation and reflection): it conveys the mutual respect maintained by the therapist after an emotionally important disclosure and can facilitate further conversation.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Praising a patient who stopped part-way through narrating her job problems for doing well despite a difficult time is keyed **REINFORCEMENT** (not validation, acknowledgment of affect, setting traps or a suggestive lead): the explanation stresses that without reinforcement the interview becomes less productive.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 48,
+            "questionNumber": 109
+          }
         }
       ],
       "concise": {
@@ -727,10 +777,10 @@
         },
         {
           "type": "trap-list",
-          "title": "Historian, observation and interpreter questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Not a good practice with interpreters: encouraging interpretation (rather than literal translation) of the mental status examination; a 'summarised translation' or 'interpretations' can miss salient aspects.",
+              "text": "Not a good practice with interpreters: encouraging interpretation, then translation, of the mental status examination - a literal translation is needed because a 'summarised translation' or 'interpretations' can miss salient aspects.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
                 "page": 1,
@@ -738,7 +788,7 @@
               }
             },
             {
-              "text": "Multiple-choice questions are the **NOT**-a-good-technique answer for a poor historian (open-ended questions, continuation techniques and shifting to neutral ground are good).",
+              "text": "Multiple-choice questions are the **NOT**-a-good-technique answer for a poor historian; open-ended questions, continuation techniques (verbal and nonverbal facilitation) and shifting to neutral ground are useful.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
                 "page": 13,
@@ -746,14 +796,84 @@
               }
             },
             {
-              "text": "Observing a secluded patient every 5th minute is time sampling (event sampling codes every fifth or tenth event).",
+              "text": "A secluded patient observed every 5th minute through a glass window = time sampling (event sampling codes, e.g., every fifth or tenth event in detail).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
                 "page": 43,
                 "questionNumber": 98
               }
+            },
+            {
+              "text": "'I am impressed by what you have achieved' = statement of respect (genuine, appropriate affirmative statements indicating respect and dignity).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "A compound question puts two or more questions in one statement ('Do you go on holidays and are you able to relax then?'), which confuses the patient and may give a vague response or none.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 33
+              }
+            },
+            {
+              "text": "Opening question on compliance: 'Is there any difficulty with your tablets?' - the least judgmental and least confrontational of the options offered.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 12,
+                "questionNumber": 51
+              }
+            },
+            {
+              "text": "Objective measures of adherence are pill counting or measuring serum or urine drug levels; sensitive questions about problems, missed doses and plans for continuation are the less direct route.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+                "page": 5,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "First alcohol-screening question: 'Do you enjoy a drink now and then?' - not a **CAGE** item but sensitive-interview technique: a sensitive topic is introduced gradually in a non-judgemental tone.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 6,
+                "questionNumber": 24
+              }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Body language during the interview",
+          "note": "Not in the notes: the **NOT**-correct statement is 'non-invasive but direct eye contact suggests aggressiveness' - reduced eye contact may suggest passive behaviour with a lack of assertiveness, but direct eye contact does not mean aggressiveness if non-invasive, and eye contact is subject to the cultural background of therapist and patient.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 61
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Objective versus subjective mood",
+          "note": "Not in the notes: objective evidence of mood can be inferred from psychomotor activity, behaviour during the interview, facial reactivity and speech (tone, rate, rhythm); subjective mood can only be discerned by asking the patient how he or she feels, so the patient's stated feeling is the 'except' answer.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 6,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Timing of the mental state examination",
+          "note": "Not in the notes: the mental state examination takes place throughout the clinical interview (keyed over immediately before discussing diagnosis, during follow-up contact, immediately after presenting complaints or immediately after physical examination).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 4,
+            "questionNumber": 14
+          }
         }
       ],
       "concise": {
@@ -802,8 +922,7 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          6
+          0
         ]
       }
     },
@@ -881,7 +1000,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**TSH** assay is the best **SCREENING** test for subclinical hypothyroidism in a depressed woman not responding to antidepressants who is constipated and has gained weight - keyed over **T4** measurement, **T3** measurement, thyroid antibody test and thyroid scan.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 4,
+            "questionNumber": 15
+          }
         },
         {
           "type": "paragraph",
@@ -972,6 +1102,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "On long-term **lithium**, a **TSH** of 6.4 with a normal **T4** is subclinical thyroid disease: the keyed step is to **REPEAT** **TSH** in a month, not to add levothyroxine, reduce or stop **lithium**, or add carbimazole - the explanation says that in patients on **lithium** **TSH** must be monitored in addition to symptoms.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 25
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Baseline tests before lithium",
           "note": "The notes mention **lithium** only as a cause of **T4** reduction; they do not list pre-**lithium** baseline investigations. **Q50** (answer: **TSH**) explains that before **lithium** one should do physical examination, full blood count, urea and electrolytes, thyroid function tests, renal function, baseline weight/height (**BMI**), and if indicated **ECG** and pregnancy test.",
@@ -979,6 +1119,26 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 22,
             "questionNumber": 50
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Addison disease presentation",
+          "note": "Not in the notes (they list the **ACTH** stimulation test: Addison's disease can also mimic depression): weight loss, fatigue, hyperkalaemia and hyponatraemia point to Addison's disease; the explanation adds muscle weakness, fever, darkening (hyperpigmentation) of the skin including areas not exposed to the sun, and orthostatic hypotension.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 8,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Risk factor for depression identifiable at interview",
+          "note": "Not in the notes: the most prominent risk factor for depression identifiable in a clinical interview is a past history of depression (keyed over sub-average education, lack of positive life events, anxious personality traits and family history); the explanation adds that neuroticism could be a risk factor if measured with validated scales, but cross-sectional interviews are not reliable for enduring personality traits.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 16,
+            "questionNumber": 67
           }
         }
       ],
@@ -1062,8 +1222,9 @@
         ],
         "highlightBlockIndices": [
           2,
-          4,
-          6
+          5,
+          7,
+          8
         ]
       }
     },
@@ -1088,11 +1249,31 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Poor response to anxiolytic agents is the cue to look for a **MEDICAL** cause of recurrent anxiety; the explanation lists organic clues as onset after age 35, lack of anticipatory anxiety, lack of avoidance behaviour, no personal or family history of anxiety disorders, and poor response to short-term anxiolytics - so avoidance, family history, significant anticipatory anxiety and onset before 25 are the options that argue **AGAINST** an organic cause.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 19
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Lactate infusion: nearly ==72%== of patients with panic disorder have a panic attack when given **IV** sodium lactate, so lactate provocation is used to confirm a diagnosis of panic disorder. Hyperventilation and **CO2** inhalation have been used. Panic attacks triggered by sodium lactate are not inhibited by peripherally acting beta-blockers but are inhibited by benzodiazepines and tricyclic drugs.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** biochemical matches: panic disorder = **LACTATE** provocation (nearly ==72%== have a panic attack on **IV** sodium lactate); differentiating pseudoseizures from true epileptic attacks = **SERUM** **PROLACTIN** (elevated within 15-20 minutes of a true seizure, not in pseudoseizures); neuroleptic malignant syndrome = serum **CREATININE** **PHOSPHOKINASE** (raised); **SIADH** induced by antidepressants = **URINE** **ANALYSIS** (urine osmolality high despite hyponatraemia); depression = **DEXAMETHASONE** suppression test (failure of feedback suppression of cortisol).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 17,
+            "questionNumber": 19
           }
         },
         {
@@ -1104,26 +1285,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Lactate and narcoanalysis questions seen in the bank",
-          "items": [
-            {
-              "text": "A lactate infusion that provokes acute anxiety, palpitations, sweating, fear of loss of control and dizziness points to panic disorder.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 31
-              }
-            },
-            {
-              "text": "The **NOT**-true narcoanalysis statement is that organic muteness gets better with amobarbital: organic conditions worsen, psychogenic muteness improves; it is useful for repression and dissociation; benzodiazepines can be used.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 23
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "The **NOT**-true narcoanalysis statement is that **ORGANIC** muteness gets better with amobarbital infusion: organic conditions tend to worsen with amobarbital, whereas non-organic (psychogenic) conditions improve, which is how it helps separate catatonia, stupor and muteness; it is useful when repression and dissociation are suspected, and benzodiazepines can be used.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 23
+          }
         }
       ],
       "concise": {
@@ -1168,7 +1337,7 @@
           }
         ],
         "highlightBlockIndices": [
-          4
+          2
         ]
       }
     },
@@ -1182,6 +1351,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Chronic **SUBDURAL** haematoma, not subarachnoid haemorrhage, fits a middle-aged man with headache, poor concentration, fluctuating memory loss, unequal pupils and mild papilloedema: subarachnoid haemorrhage presents more acutely with raised intracranial tension signs and focal deficits, whereas chronic subdural haematoma is commonly seen in the elderly and alcoholics, usually after a mild head injury, with about 4-5 weeks between the trauma and diagnosis and an insidious presentation.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 3,
+            "questionNumber": 11
           }
         },
         {
@@ -1314,7 +1493,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Memory loss and personality change with **WING-BEATING** tremor is Wilson's disease, so the biochemical abnormality to identify is **LOW** **SERUM** **CERULOPLASMIN** (copper deposits in the lenticular nuclei) - not low albumin, calcium, thyroxine or serotonin.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 12,
+            "questionNumber": 52
+          }
         },
         {
           "type": "paragraph",
@@ -1333,42 +1523,24 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Psychosis work-up questions seen in the bank",
-          "items": [
-            {
-              "text": "Constipation and acute abdominal pain, leg weakness after hypnotics and diclofenac, hallucinations and intense anxiety = acute intermittent porphyria; the indicated test is urine porphyrins.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 23,
-                "questionNumber": 53
-              }
-            },
-            {
-              "text": "**Chlorpromazine** is the odd one out among drugs that raise urine porphyrins in susceptible individuals; the explanation names oestrogens, barbiturates, benzodiazepines and diclofenac as triggers.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 36,
-                "questionNumber": 82
-              }
-            },
-            {
-              "text": "Weight gain, excessive thirst and fatigue on antipsychotics suggest impaired glucose tolerance; the most appropriate investigation is fasting glucose (to diagnose antipsychotic-related diabetes).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 19
-              }
-            },
-            {
-              "text": "Jaundice work-up with personality change, disinhibition, tremor and dysarthria: Wilson disease, so look for Kayser-Fleischer rings (golden-brown pigmentation around the cornea).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 20
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Constipation and acute abdominal pain, leg weakness after hypnotics and diclofenac, with visual and tactile hallucinations and intense anxiety = **ACUTE** **INTERMITTENT** **PORPHYRIA**: the test is **URINE** **PORPHYRINS** (not serum folate, lipids, ceruloplasmin or urine glucose); **AIP** shows neurological and psychiatric manifestations without obvious cutaneous markers.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 53
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**CHLORPROMAZINE** is the odd one out among drugs that increase urine porphyrins in a susceptible person: the explanation names oestrogens, barbiturates and benzodiazepines as triggers and says diclofenac can precipitate an episode.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 36,
+            "questionNumber": 82
+          }
         }
       ],
       "concise": {
@@ -1431,9 +1603,9 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
           4,
-          7
+          5,
+          6
         ]
       }
     },
@@ -1535,6 +1707,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 14
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Herpes simplex encephalitis findings",
+          "note": "Not in the notes (they cover autoimmune encephalitis): lymphocytic pleocytosis with many red cells in the **CSF**, hyperintensity of the left temporal lobe on **T2**-weighted **MRI** and lateralised periodic discharges on **EEG** in a semi-conscious patient point to herpes encephalitis (keyed over pneumococcal meningitis, Creutzfeldt-Jakob disease, temporal lobe malignancy and subdural haemorrhage); the explanation adds that early **MRI** may be negative, which does not rule out **HSV** encephalitis, and that **T2** hyperintensity favours the medial temporal lobes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 14,
+            "questionNumber": 60
           }
         }
       ],
@@ -1711,12 +1893,72 @@
         },
         {
           "type": "gap",
-          "subtopic": "Lewy body dementia pathology and Huntington's gene testing",
-          "note": "**Q32** (answer: Lewy body dementia) states that intracytoplasmic inclusion bodies are the microscopic finding of dementia with Lewy bodies (alpha-synuclein aggregates and ubiquitin); **Q101** states gene testing is essential for Huntington's disease in a patient without a family history, but does not itself give a clinical diagnosis. Neither fact is in the notes.",
+          "subtopic": "Lewy body dementia pathology",
+          "note": "Not in the notes: **Q32** (answer: Lewy body dementia) states that intracytoplasmic inclusion bodies are the microscopic finding of dementia with Lewy bodies (alpha-synuclein aggregates and ubiquitin).",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 14,
             "questionNumber": 32
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Gene testing in Huntington's disease",
+          "note": "Not in the notes: **Q101** (answer: gene testing) states that gene testing is essential for Huntington's disease in a patient **WITHOUT** a family history but does not itself give a clinical diagnosis and must be combined with clinical history and physical examination; it is not required if the Huntington gene is already laboratory-confirmed in the family.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 101
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Huntington's disease: genetic confirmation",
+          "note": "Not in the notes: jerky movements, clumsiness and a year of memory decline without a family history of similar illness point to Huntington's disease, which genetic testing confirms by detecting the inherited **CAG** triplet expansion.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 13,
+            "questionNumber": 54
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Management of an MMSE of 23/30",
+          "note": "Not in the notes: in a memory-clinic patient with an **MMSE** of 23/30 (possible dementia) the keyed step is to arrange a dementia screen work-up - blood tests, urine tests, **ECG** and **CT** scan - rather than waiting, repeating the test in 3 months, prescribing an antidepressant or discharging.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 6,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Mild cognitive impairment versus dementia",
+          "note": "Not in the notes: the most important discriminating feature between mild cognitive impairment and dementia is preservation of activities of daily living (not education, symptom duration, family history or **MMSE** score); **MCI** is a borderline state between age-associated cognitive decline and mild dementia, separated from mild dementia by absence of global intellectual deterioration and preserved **ADL**.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Homocysteine and dementia",
+          "note": "Not in the notes (they list homocysteine only under homocystinuria testing): hyperhomocysteinaemia is associated with increased risk of dementia - an increased plasma homocysteine level is a strong, independent risk factor for dementia and Alzheimer's disease.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Nicotinic acid deficiency",
+          "note": "Not in the notes: acute nicotinic acid deficiency causes pellagra (the 3 Ds - diarrhoea, dermatitis and disturbed mental functions); dementia occurs only in an extreme form, so 'dementia' is the answer to 'not commonly seen'.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 22
           }
         }
       ],
@@ -1809,7 +2051,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1833,6 +2076,36 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Repeated **VOMITING** in anorexia gives hypokalaemic, hypochloraemic metabolic **ALKALOSIS** (loss of gastric acid); metabolic **ACIDOSIS** results from **LAXATIVE** abuse - metabolic acidosis, hyponatraemia and hyperkalaemia are the tempting options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The endocrine change keyed in anorexia nervosa is **RAISED** **GROWTH** **HORMONE** (increased basal secretion, more secretory bursts and higher concentration); the distractors run against the notes' table: **LH** is low (not increased), cortisol is mildly raised (not decreased) and carotene is raised (not decreased), while **T4** is only low normal.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 100
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** refeeding matches: sudden death when a very underweight girl is given parenteral nutrition = **HYPOPHOSPHATAEMIA** (refeeding syndrome: the switch to carbohydrate-induced insulin release drives potassium, phosphate and magnesium into cells); coma during fluid resuscitation of an anorexic girl with severe dehydration = **HYPONATRAEMIA** (uncontrolled correction of dehydration and electrolytes can cause hyponatraemia and cerebral oedema).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 30,
+            "questionNumber": 37
           }
         },
         {
@@ -1876,34 +2149,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Anorexia questions seen in the bank",
-          "items": [
-            {
-              "text": "Repeated vomiting: metabolic alkalosis (hypokalaemic/hypochloraemic, from loss of gastric acid); metabolic acidosis results from laxative abuse. Hyperkalaemia and acidosis are the distractors.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 7
-              }
-            },
-            {
-              "text": "A girl 165 cm and 50 kg has **BMI** 18 to 19 (50 / 1.65^2).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 42
-              }
-            },
-            {
-              "text": "Endocrine change in anorexia: raised growth hormone (increased basal **GH** secretion and higher **GH** concentration). Distractors contradict the notes: **LH** is low (not increased), cortisol is mildly increased (not decreased), **T4** is low normal, and carotene is raised (not decreased).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 44,
-                "questionNumber": 100
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Growth restriction in anorexia",
+          "note": "Not in the notes: growth restriction is the complication of anorexia nervosa unlikely to correct itself on weight restoration - impaired linear growth with possible permanent short stature in adolescents, and reports of failure to gain any height or incomplete catch-up growth after weight restoration (only very rare complete catch-up).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 14,
+            "questionNumber": 57
+          }
         }
       ],
       "concise": {
@@ -1963,8 +2216,8 @@
         ],
         "highlightBlockIndices": [
           0,
-          5,
-          6
+          4,
+          8
         ]
       }
     },
@@ -2034,16 +2287,77 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 17
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** alcohol-test matches: **GGT** = the **SENSITIVE** marker (levels normalise 2-4 weeks after abstinence); carbohydrate-deficient transferrin = accurately predicts **RECENT** alcohol abuse and detects relapse; mean corpuscular volume = the more **SPECIFIC** test, less useful for relapse; **AUDIT** = best screening tool in primary care. Note the notes call **CDT** the single most specific and sensitive test for heavy drinking over the last 10 days - match on the question's own wording.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 10,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Post-operative confusion in a malnourished alcoholic (**EMI**): bacterial septicaemia = **PETECHIAL** rash; Wernicke syndrome = **NYSTAGMUS** (the classic triad of ophthalmoplegia, ataxia and confusion is present in only ==10%== and ==80%== are not diagnosed before postmortem; gait ataxia may not be demonstrable after femoral surgery); acute hepatic failure = **FLAPPING** tremor (asterixis; jaundice is also a feature).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 29,
+            "questionNumber": 36
+          }
         },
         {
           "type": "gap",
-          "subtopic": "Wernicke encephalopathy: cause, triad and treatment response",
-          "note": "The notes list Wernicke's encephalopathy only as a neurological complication of alcohol (and mention **thiamine** malnutrition/deficiency elsewhere). **Q9** (answer: **thiamine**) gives the cause and the triad of confusion, ataxia and ophthalmoplegia/nystagmus (seen in only about ==10%== of cases; confusion in ==80%==); **Q36** states ophthalmoplegia responds within hours of **thiamine** replacement while cognitive impairment takes longer.",
+          "subtopic": "Wernicke encephalopathy: cause and triad",
+          "note": "The notes list Wernicke's encephalopathy only as a neurological complication of alcohol (and mention **thiamine** malnutrition/deficiency elsewhere). **Q9** (answer: **thiamine**) gives the cause and the triad of confusion, ataxia and ophthalmoplegia/nystagmus (seen in only about ==10%== of cases; confusion in ==80%==).",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 4,
             "questionNumber": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In Wernicke's encephalopathy **OPHTHALMOPLEGIA** responds earliest to **thiamine** replacement - within hours - whereas cognitive impairment takes longer; apathy, confusion, ataxia and amnesia are the tempting alternatives.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Transketolase and alcohol-related brain injury",
+          "note": "Not in the notes: **thiamine** (as **thiamine** pyrophosphate) is a co-enzyme for transketolase, the enzyme implicated in Wernicke-Korsakoff syndrome and other alcohol-related brain injuries where **thiamine** availability is low (keyed over alcohol dehydrogenase, lactate dehydrogenase, aldehyde dehydrogenase and alpha-ketoglutarate).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 6,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Korsakoff syndrome: bedside memory test",
+          "note": "Not in the notes: after Wernicke's encephalopathy the bedside test most likely to be impaired is the address test - episodic memory is severely affected in Korsakoff syndrome, learning of new semantic memories variably, and implicit memory is preserved.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 8,
+            "questionNumber": 22
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Glucose refeeding and thiamine deficiency",
+          "note": "Not in the notes: in a malnourished patient with long-standing alcohol use, immediate refeeding with a glucose-rich infusion can worsen **thiamine** deficiency (glucose metabolism rapidly depletes **thiamine** reserves), so **thiamine** should always be given before glucose.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 4,
+            "questionNumber": 13
           }
         }
       ],
@@ -2093,7 +2407,8 @@
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2
         ]
       }
     },
@@ -2187,45 +2502,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 18
             }
-          ]
-        },
-        {
-          "type": "trap-list",
-          "title": "ECG and urine drug questions seen in the bank",
-          "items": [
-            {
-              "text": "Hypokalaemia is the listed risk factor for **QT** prolongation (also hypomagnesaemia, hypocalcaemia, arrhythmias, bradycardia, extremes of age, female gender).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 28
-              }
-            },
-            {
-              "text": "Occasional cannabis use: detectable in urine up to 3 days.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 16
-              }
-            },
-            {
-              "text": "Chronic heavy cannabis use: detectable up to 4 weeks.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 34,
-                "questionNumber": 77
-              }
-            },
-            {
-              "text": "Amphetamines: detectable in urine up to 48 hours.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 41
-              }
-            }
-          ]
+          ],
+          "highYield": true
         }
       ],
       "concise": {
@@ -2308,8 +2586,7 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
-          5
+          4
         ]
       }
     },
@@ -2412,6 +2689,26 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "A puffy face, weight gain despite normal appetite and **BP** 150/100 in a young African-American intravenous heroin user = **NEPHROPATHY** ('heroin-associated nephropathy' = focal segmental glomerulosclerosis, with proteinuria that may be nephrotic range, more common among Black heroin users) - not hypothyroidism, opiate withdrawal, hepatitis B or **HIV** seroconversion.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 67
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A diabetic on antidepressants with polyuria and polydipsia and **BOTH** urine and plasma osmolality low = **PSYCHOGENIC** **POLYDIPSIA** (water overload; excessive fluid intake without an organic cause), not diabetes insipidus, **SIADH**, hyponatraemia or hyperglycaemia - the explanation says a high-normal plasma value with urine osmolality below plasma points the other way, to diabetes insipidus.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 65
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Polydipsia and polyuria are not features of **SIADH** or hyponatraemia per se. The clinical features of **SIADH** are attributed to water retention, hyponatraemia and hypo-osmolality of the serum.",
           "source": {
@@ -2429,33 +2726,83 @@
         },
         {
           "type": "trap-list",
-          "title": "Renal and sodium questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "A heroin user with a puffy face, weight gain and **BP** 150/100 mmHg: nephropathy (heroin-associated nephropathy = focal segmental glomerulosclerosis, more common among Black heroin users).",
+              "text": "Hypokalaemia is the listed risk factor for **QT** prolongation (also hypomagnesaemia, hypocalcaemia, arrhythmias, bradycardia, extremes of age and female gender); hypercalcaemia, male sex and tachycardia are distractors.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 67
+                "page": 12,
+                "questionNumber": 28
               }
             },
             {
-              "text": "Diabetic on antidepressants with polyuria, polydipsia and both urine and plasma osmolality low: psychogenic polydipsia (a high-normal plasma value with urine osmolality below plasma points to diabetes insipidus).",
+              "text": "Occasional cannabis use: detectable in urine for up to 3 days.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 65
+                "page": 7,
+                "questionNumber": 16
               }
             },
             {
-              "text": "Drug-induced hyponatraemia can cause muscle cramps (also nausea, weakness, malaise, lethargy, confusion; seizures and coma if severe).",
+              "text": "Chronic heavy cannabis use: detectable in urine for up to 4 weeks (up to 3 days after a single use).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 34,
+                "questionNumber": 77
+              }
+            },
+            {
+              "text": "Amphetamines: detectable in urine for up to 48 hours.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 41
+              }
+            },
+            {
+              "text": "Drug-induced hyponatraemia: nausea, muscle cramps and weakness, malaise, lethargy and confusion; seizures and coma if severe.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
                 "page": 32,
                 "questionNumber": 72
               }
+            },
+            {
+              "text": "Weight gain, excessive thirst and fatigue on an antipsychotic suggest impaired glucose tolerance: fasting glucose is the investigation to diagnose antipsychotic-related diabetes.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 19
+              }
+            },
+            {
+              "text": "**BMI** = weight in kg / height in m squared: 50 kg at 165 cm gives a **BMI** of 18 to 19.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 42
+              }
+            },
+            {
+              "text": "A lactate infusion producing acute anxiety, palpitations, sweating, fear of loss of control and dizziness points to panic disorder.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 31
+              }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Water intoxication in a psychotic inpatient",
+          "note": "Not in the notes: tremor, ataxia, restlessness, vomiting, diarrhoea and frequent urination in a psychotic inpatient describe water intoxication, so ask 'Have you been drinking a lot of water recently?'; symptoms include tremor, ataxia, restlessness, diarrhoea, vomiting, polyuria and eventual stupor, reported in up to ==20%== of some cohorts of patients with chronic schizophrenia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 14,
+            "questionNumber": 58
+          }
         }
       ],
       "concise": {
@@ -2539,8 +2886,7 @@
         ],
         "highlightBlockIndices": [
           2,
-          3,
-          6
+          3
         ]
       }
     },
@@ -2642,7 +2988,48 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Multiple abdominal scars from different surgeries ('checker-board abdomen') in a young man point to **FACTITIOUS** disorder - patients intentionally falsify symptoms and past history to obtain medical attention and treatment - not conversion, delusional, hypochondriacal or dissociative disorder.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 22
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Jaundice work-up with gradual personality change (disinhibition, recklessness), tremor and dysarthria = Wilson disease, so the sign is golden-brown pigmentation around the cornea (Kayser-Fleischer ring) - not xanthomas, port-wine stain, ash-leaf macules or cafe-au-lait spots.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** physical-sign matches: **LANUGO** hair = anorexia nervosa; **RUSSELL** sign (abrasions and calluses over the knuckles from the incisors during self-induced vomiting) = bulimia; **PILOERECTION** (gooseflesh, 'cold turkey') = opioid withdrawal; **SIALORRHOEA** (hypersalivation, which can contribute to aspiration pneumonia) = **clozapine**.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** general-examination matches: generalised lymph node enlargement = **HIV** illness (mania and weight loss in a drug abuser); Argyll-Robertson pupil = long-standing diabetes with depression; **XANTHELASMA** = long-term **olanzapine**; **CHECKERBOARD** abdomen = repeated A&E attendance with chronic abdominal pain and self-inflicted injury; **JAUNDICE** = heavy alcohol use.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 8,
+            "questionNumber": 8
+          }
         },
         {
           "type": "paragraph",
@@ -2650,6 +3037,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Hyperventilation (often in a panic attack) causes **PARAESTHESIA** - not nystagmus, hyper-reflexia, vertigo or ataxia: usually in the upper extremity and bilateral (unilateral ones are left-sided in about ==80%==), with perioral numbness very common; the explanation also lists agitation, tachypnoea, chest pain, carpopedal spasm, weakness and syncope.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 16,
+            "questionNumber": 66
           }
         },
         {
@@ -2677,44 +3074,6 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "General-examination questions seen in the bank",
-          "items": [
-            {
-              "text": "Multiple abdominal scars ('checker board abdomen') in a 29-year-old: factitious disorder (patient intentionally falsifies symptoms/history to obtain medical attention and treatment).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 22
-              }
-            },
-            {
-              "text": "Generalised lymph node enlargement with muscle wasting and social withdrawal: **HIV** illness.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 38,
-                "questionNumber": 87
-              }
-            },
-            {
-              "text": "Golden-brown pigmentation around the cornea (Kayser-Fleischer ring) in a young man with jaundice, personality change, tremor and dysarthria: Wilson disease.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 20
-              }
-            },
-            {
-              "text": "Normal accommodation reflex but no light reflex = Argyll-Robertson pupil (neurosyphilis historically; diabetes now leads the list of causes).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 23,
-                "questionNumber": 52
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "Senile miosis (pupil changes with ageing)",
           "note": "**Q24** (answer: sluggish light and accommodation reaction) states the pupil becomes smaller with age (senile miosis) and sluggish to light and accommodation. The notes do not cover age-related pupil changes.",
@@ -2722,6 +3081,56 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 11,
             "questionNumber": 24
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Opioid dependence and pupils",
+          "note": "Not in the notes (they list constricted pupils under opiate intoxication): tolerance develops to the miotic effect of mu-opioid agonists, so patients on large long-term doses do not have miotic pupils unless measured in bright light, and dark pupillography can be used to study opioid dependence - the question keys opioids as the dependence revealed when an eye-drop test fails to dilate the pupils.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 16,
+            "questionNumber": 65
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Hepatic failure presentation",
+          "note": "Not in the notes beyond hepatic complications of alcohol: episodic irritability, altered sleep-wake cycle, personality change, poor memory, palmar erythema, subcutaneous bleeds and bilateral plantar extensor reflexes point to hepatic failure - which can produce asterixis, tremors, exaggerated deep tendon reflexes and altered consciousness after a history of personality change, abrupt mood swings and cognitive deterioration; peripheral signs include subcutaneous bleeds, pedal oedema, ascites and palmar erythema.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 14,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Stimulant intoxication signs",
+          "note": "Not in the notes (they list dilated pupils under stimulant abuse): high blood pressure, rapid pulse, warm moist skin, pressured speech, fine tremor and hyperreflexia point to a stimulant; stimulants induce alertness, euphoria, insomnia and anorexia, may cause psychotic symptoms, and raise blood pressure and heart rate.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 3,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Myasthenia gravis presenting with depression",
+          "note": "Not in the notes (myasthenia gravis appears only under dysarthria): a man with severe depression, bilateral ptosis and reduced muscle tone most likely has myasthenia gravis - weakness that varies over minutes or days and fatigability (worse with repeated use, better with rest); 15-==20%== of people diagnosed with myasthenia develop depression.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 14,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Neurodevelopmental hypothesis of schizophrenia",
+          "note": "Not in the notes beyond minor physical anomalies supporting a neurodevelopmental aetiology: the statement that does **NOT** support the neurodevelopmental hypothesis is an excess of **PROGRESSIVE** structural brain abnormalities - patients exhibit non-progressive abnormalities (more cranio-facial and dermatoglyphic minor physical anomalies, lower average **IQ**, subtle psychomotor, behavioural and social abnormalities), and progressive change would imply an ongoing disease process.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 6,
+            "questionNumber": 16
           }
         }
       ],
@@ -2772,7 +3181,7 @@
         ],
         "highlightBlockIndices": [
           0,
-          5
+          4
         ]
       }
     },
@@ -2867,6 +3276,36 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Cranial nerves I-XII in order",
+          "mnemonic": "Oh Oh Oh To Touch And Feel Very Good Velvet Ah Heaven",
+          "expansion": [
+            "Olfactory (I)",
+            "Optic (**II**)",
+            "Oculomotor (**III**)",
+            "Trochlear (**IV**)",
+            "Trigeminal (V)",
+            "Abducens (**VI**)",
+            "Facial (**VII**)",
+            "Vestibular and cochlear (**VIII**)",
+            "Glossopharyngeal (**IX**)",
+            "Vagus (X)",
+            "Accessory (**XI**)",
+            "Hypoglossal (**XII**)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "The **CONFRONTATION** test in the physical examination assesses visual fields (wiggling finger or red pin), so it is useful for lesions of the optic tract - not astigmatism, myopia, cerebellar lesions or lens dislocation.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 91
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Auditory function is tested using a 512 Hz fork (Weber's and Rinne's tests); vibration sense is tested for peripheral neuropathy using a 128 Hz fork.",
           "source": {
@@ -2935,18 +3374,44 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Examination questions seen in the bank",
-          "items": [
-            {
-              "text": "The confrontation test during physical examination assesses visual fields (wiggling finger or red pin), so it is useful for lesions of the optic tract.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 40,
-                "questionNumber": 91
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Internuclear ophthalmoplegia and multiple sclerosis",
+          "note": "Not in the notes: bilateral internuclear ophthalmoplegia is the eye sign pathognomonic of multiple sclerosis (in young patients it is often the underlying cause; in older patients with one-sided ophthalmoplegia stroke is more common); it arises from dysfunction of the medial longitudinal fasciculus, with impaired adduction and abducting nystagmus on conjugate gaze, causing horizontal diplopia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Occipital lobe damage: cortical blindness",
+          "note": "Not in the notes: left occipital lobe damage after a stroke produces cortical blindness - total or partial loss of vision in a normal-appearing eye from occipital cortex damage, most often from unilateral or bilateral posterior cerebral artery blockage; some vision may recover.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Parietal lesion: lower quadrantanopia",
+          "note": "Not in the notes: a parietal lobe vascular lesion produces a lower homonymous quadrantanopia (damage to the optic radiation as it passes through the parietal lobes) - keyed over bitemporal hemianopia, homonymous hemianopia, one-sided blindness and upper quadrantanopia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 13,
+            "questionNumber": 53
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Visual defects (EMI)",
+          "note": "Not in the notes (**EMI**): keyhole vision after a major stroke = cortical blindness (usually posterior cerebral artery occlusion; in effect a bilateral homonymous hemianopia with macular sparing); sudden blindness with patchy spirals of field loss = tunnel vision (seen in hysteria or malingering; conversion disorder); the field larger at 2 m than at 1 m = funnel vision (glaucoma among organic causes); a blind patient who denies the defect = Anton's syndrome; one-quarter of the field affected on one side = quadrantanopia.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 24,
+            "questionNumber": 29
+          }
         }
       ],
       "concise": {
@@ -3003,9 +3468,9 @@
         ],
         "highlightBlockIndices": [
           0,
-          2,
-          5,
-          6
+          1,
+          4,
+          7
         ]
       }
     },
@@ -3087,7 +3552,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 23
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -3115,7 +3581,44 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 24
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Cerebellar signs in the order of the tables",
+          "mnemonic": "A Hungry Intern Dislikes Dreary Dull Daily Duties",
+          "expansion": [
+            "Ataxia",
+            "Hypotonia",
+            "Intention tremor",
+            "Dyssynergia (incoordination)",
+            "Dysmetria (past pointing)",
+            "Dysdiadochokinesis",
+            "Dysrhythmia",
+            "Dysarthria"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**ANKLE** **CLONUS** is the odd one out when localising a lesion to the cerebellum: ataxia, hypotonia, dyssynergia, dysmetria (past pointing), dysdiadochokinesis, dysrhythmia and dysarthria are the cerebellar signs.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In a long-term heavy drinker **PUPILLARY** **MYDRIASIS** is **NOT** a cerebellar sign (hypotonia, dysarthria, positional nystagmus and impaired arm coordination are): the explanation places autonomic disturbances such as diaphoresis, hypertension and mydriasis in severe alcohol withdrawal (DTs).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 8,
+            "questionNumber": 22
+          }
         },
         {
           "type": "paragraph",
@@ -3124,20 +3627,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 24
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Cerebellar sign question seen in the bank",
-          "items": [
-            {
-              "text": "Signs that localise to the cerebellum: ataxia, hypotonia, dyssynergia, dysmetria (past pointing), dysdiadochokinesis, dysrhythmia, dysarthria; ankle clonus is the odd one out.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 14
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -3188,7 +3677,7 @@
         "highlightBlockIndices": [
           5,
           6,
-          8
+          7
         ]
       }
     },
@@ -3299,37 +3788,53 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 25
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Meningeal and movement questions seen in the bank",
-          "items": [
-            {
-              "text": "Extending the knee with the hip flexed gives a 'catch' and the other hip flexes: positive Kernig's sign.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 48,
-                "questionNumber": 110
-              }
-            },
-            {
-              "text": "Arms extended with wrists dorsiflexed, palms forward, eyes closed - brief jerky downward wrist movements: asterixis.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 46
-              }
-            },
-            {
-              "text": "Arms outstretched palms up with eyes closed and the left arm drifting down indicates a right cerebral hemisphere lesion (pronator drift).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 70
-              }
-            }
-          ]
+          "type": "mnemonic",
+          "forTopic": "Movement abnormalities in the order of the table",
+          "mnemonic": "Funny Animals Prefer Munching Apples, Carrots, Hay",
+          "expansion": [
+            "Fasciculations",
+            "Asterixis",
+            "Pronator drift",
+            "Myoclonus",
+            "Athetosis",
+            "Chorea",
+            "Hemiballismus"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Arms outstretched, palms up, eyes closed, with the **LEFT** arm slowly drifting down = pronator drift indicating a **RIGHT** cerebral hemisphere lesion (slow unequal drift towards pronation indicates hemiparetic weakness) - not a left hemisphere, cranial nerve X nuclei, cerebellar vermis or **T12** cord lesion.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 70
+          }
+        },
+        {
+          "type": "trap",
+          "text": "To find which drug is causing tremor in a patient on **lithium** plus **risperidone**, examine the **TONE** of the joints: **risperidone** **EPSE** gives a parkinsonian tremor **AND** rigidity, whereas **lithium** tremor is not accompanied by rigidity (keyed over finger-nose test, visual fields, frontal release signs and tendon reflexes).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 6,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Parkinson's disease: rigidity",
+          "note": "Not in the notes: the clinical finding most consistent with Parkinson's disease is raised limb rigidity, usually more marked on one side - in the early stages rigidity may be present in one arm, later progressing to the leg on the same side, then the trunk and the other side (not action tremor, increased spontaneous blinking, wide-based gait or vertical gaze palsy).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 9,
+            "questionNumber": 23
+          }
         }
       ],
       "concise": {
@@ -3402,6 +3907,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 25
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The **CREMASTERIC** reflex is the option that is **NOT** a frontal release sign (rooting, glabellar tap, snout and grasp are): primitive reflexes, generally absent in adults, signify diffuse cerebral damage - particularly of the frontal lobes - when present, whereas the cremasteric reflex is a superficial reflex.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 71
           }
         },
         {
@@ -3557,20 +4072,6 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Reflex questions seen in the bank",
-          "items": [
-            {
-              "text": "Rooting, glabellar tap, snout and grasp reflexes are frontal-release signs; the cremasteric reflex is a superficial reflex and the odd one out.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 71
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "Contralateral spastic hemiplegia from frontal lobe damage",
           "note": "**Q43** (answer: contralateral spastic hemiplegia) states that damage to upper motor neurons from the frontal motor strip can cause contralateral spastic hemiparesis. The notes cover **UMN** signs generally but not this localisation.",
@@ -3634,7 +4135,6 @@
           }
         ],
         "highlightBlockIndices": [
-          5,
           6,
           7,
           8
@@ -3755,7 +4255,42 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 28
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Gait patterns in the order of the table",
+          "mnemonic": "Happy Ants Sing Sweet Waltz Songs",
+          "expansion": [
+            "Hemiparetic gait",
+            "Ataxic gait",
+            "Shuffling gait",
+            "Steppage gait",
+            "Waddling gait",
+            "Scissoring gait"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** gait matches: Huntington disease = **LURCHING** chaotic gait; pregnancy = **WADDLING** (myopathic) gait - broad-based with a duck-like waddle, also seen in proximal myopathy; hip dysplasia = **PIGEON** gait (torsional difficulties); Friedreich ataxia = **STOMPING** gait (dorsal column sensory disturbance, as in subacute combined cord degeneration).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 19,
+            "questionNumber": 22
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Normal pressure hydrocephalus and Charles Bonnet syndrome",
+          "note": "Not in the notes beyond 'gait apraxia - hydrocephalus (magnetic gait)': normal pressure hydrocephalus is dilatation of the cerebral ventricles (especially the third) with normal **CSF** pressure at lumbar puncture, typically the triad of dementia, gait disorder and urinary incontinence, with a broad-based, bradykinetic, shuffling gait and enlarged lateral ventricles with thinning of the cortex on **CT**; in the same **EMI**, Charles Bonnet syndrome is complex visual hallucinations in clear consciousness with reduced vision, no other psychopathology and retained insight.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 26,
+            "questionNumber": 32
+          }
         }
       ],
       "concise": {
@@ -3805,7 +4340,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          2
+          2,
+          3
         ]
       }
     },
@@ -3847,7 +4383,44 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 28
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Normal accommodation but **NO** light reflex = **ARGYLL-ROBERTSON** pupil (keyed over Marcus Gunn, Holmes-Adie, Hutchison and Horner pupils): the pupil constricts on focusing on a near finger but not to light, a sign of damage to the midbrain relays of the oculomotor nerve.",
+          "format": "Both",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 52
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** eye-sign matches: sluggish light and accommodation reflexes with persistently small pupils = **SENILE** pupil; small irregular pupil with no light response but accommodation preserved = **ARGYLL-ROBERTSON** (seen in neurosyphilis); swinging-flashlight dilatation with no anisocoria = **MARCUS** **GUNN** (afferent defect from optic nerve damage); one pupil constricting then widely dilating, then the other = **HUTCHINSON** pupil (rapidly rising unilateral intracranial pressure); ptosis, anhidrosis and enophthalmos with normal light and accommodation reflexes = **HORNER**'S syndrome.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 18,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Argyll-Robertson pupil",
+          "mnemonic": "A-R-P: Accommodation Reflex Present",
+          "expansion": [
+            "Accommodation",
+            "Reflex",
+            "Present"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 18,
+            "questionNumber": 21
+          }
         },
         {
           "type": "paragraph",
@@ -3936,6 +4509,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "**EMI** neurological-sign matches: difficulty turning in bed with rest tremor and forearm stiffness = **SHUFFLING** gait (parkinsonism); wing-beating tremor with abnormal liver function and a suspected genetic disease = **KAYSER-FLEISCHER** ring (Wilson disease); poor motor development, bulky muscles and a brother who died of cardiomyopathy at 16 = **GOWER**'S sign; continued blinking to repeated glabellar taps with rest tremor and cogwheel rigidity = **MYERSON** sign.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
+        },
+        {
           "type": "mnemonic",
           "forTopic": "Horner's syndrome signs",
           "mnemonic": "PAMELA",
@@ -3993,27 +4576,33 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Pupil and sign questions seen in the bank",
-          "items": [
-            {
-              "text": "Normal accommodation but no light reflex = Argyll-Robertson pupil; the explanation notes it reacts poorly to light with a normal near response, with tertiary syphilis the original cause and diabetes now leading.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 23,
-                "questionNumber": 52
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
-          "subtopic": "Hoover's test, resting tremor, pulvinar sign",
-          "note": "Not in the notes: **Q44** (answer: conversion disorder) - Hoover's test shows the patient unable to raise the affected limb voluntarily but pressing down the heel of that side when raising the unaffected limb against resistance; **Q92** (answer: resting tremor) - occurs in a relaxed, supported body part, enhanced by mental stress, diminished by voluntary movement, most commonly parkinsonism; **Q105** (answer: prion disease) - the pulvinar sign on **FLAIR** **MRI** is diagnostic of variant **CJD**.",
+          "subtopic": "Hoover's test",
+          "note": "Not in the notes: **Q44** (answer: conversion disorder) - Hoover's test shows the patient unable to raise the affected limb voluntarily but pressing down the heel of that side when raising the unaffected limb against resistance.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 19,
             "questionNumber": 44
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Resting tremor",
+          "note": "Not in the notes: **Q92** (answer: resting tremor) - occurs in a relaxed, completely supported body part, is enhanced by mental stress or movement of another body part, diminished by voluntary movement, and is most commonly caused by parkinsonism (though may also occur in severe essential tremor).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 92
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Pulvinar sign on MRI",
+          "note": "Not in the notes: **Q105** (answer: prion disease) - the pulvinar sign on **FLAIR** **MRI** (symmetric high signal in the pulvinar and medial thalamus and tectal plate) is diagnostic of variant **CJD**.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 46,
+            "questionNumber": 105
           }
         }
       ],
@@ -4071,11 +4660,13 @@
         ],
         "highlightBlockIndices": [
           0,
+          1,
+          2,
           3,
-          4,
-          5,
           6,
-          7
+          7,
+          9,
+          10
         ]
       }
     },
@@ -4173,18 +4764,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "UMN question seen in the bank",
-          "items": [
-            {
-              "text": "Muscular atrophy is the odd one out among **UMN** signs (spasticity, rigidity, extensor plantar and weakness are **UMN**; **LMN** lesions are characterised by muscle atrophy and weakness).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 37,
-                "questionNumber": 85
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "**MUSCULAR** **ATROPHY** is the odd one out among upper motor neuron signs (spasticity, rigidity, extensor plantar and weakness are options that fit a **UMN** lesion): the explanation says atrophy is seen in **LMN** lesions, not **UMN** lesions - **LMN** lesions are characterised by muscle atrophy, weakness (like **UMN** lesions) and hyporeflexia without sensory involvement, whereas **UMN** positive features are hyperreflexia, spasticity and a positive Babinski reflex.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 37,
+            "questionNumber": 85
+          }
         }
       ],
       "concise": {
@@ -4220,8 +4807,7 @@
         ],
         "highlightBlockIndices": [
           0,
-          1,
-          2
+          1
         ]
       }
     },
@@ -4295,7 +4881,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 32
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -4306,11 +4893,31 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The single most useful tool for **DIAGNOSING** dementia is the clinical interview of the patient **AND** the carer - not **MMSE**, **MRI**, neuropsychological testing or **CT**: nothing can replace a careful clinical interview for diagnostic evaluation of most disorders.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 22
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Clock drawing test: requires verbal understanding (comprehension), short-term working memory to process the instruction, and spatially coded knowledge in addition to constructive skills and planning (executive function). It does not test orientation to time.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 32
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**ORIENTATION** **TO** **TIME** is the domain **NOT** needed for the clock-drawing test (executive function, constructional praxis, comprehension and visuospatial ability are): the explanation states the clock-drawing test does not assess orientation to time.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 10
           }
         },
         {
@@ -4346,50 +4953,104 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Cognitive tool questions seen in the bank",
-          "items": [
-            {
-              "text": "Orientation to time is the cognitive domain **NOT** needed for the clock drawing test (executive function, constructional praxis, comprehension and visuospatial ability are).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 10
-              }
-            },
-            {
-              "text": "Being aware of the current time when the test is administered is **NOT** a component of the clock drawing test.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 60
-              }
-            },
-            {
-              "text": "Intersecting pentagons in the **MMSE** assess constructional praxis (copying), which depends mainly on the parietal lobe.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 29
-              }
-            },
-            {
-              "text": "Serial 7s (part of the **MMSE**) is the quick test of concentration/attention.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 34
-              }
-            },
-            {
-              "text": "A man losing all orientation-to-time and recall points on the **MMSE** loses 8 points (5 for orientation to time + 3 for recall).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 39,
-                "questionNumber": 89
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "For **GLOBAL** cognitive functioning the keyed instrument is the **ADDENBROOKE**'S cognitive examination (not Mini-Cog, clock drawing, **MMSE** or Montreal cognitive assessment): it tests orientation, attention, memory, verbal fluency, language and visuospatial ability, incorporating the **MMSE** questions and expanding memory, language and visuospatial concepts while adding verbal fluency.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "For the **ACE-R**, a score below 82 gives a high **SPECIFICITY** for dementia (1.0, with sensitivity 0.84; likelihood ratio 100:1), whereas below 88 gives sensitivity 0.94 and specificity 0.89 - do not swap sensitivity and specificity; the language domain (not visuospatial) carries the major share of the score and frontal tests such as verbal fluency are included.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 11,
+            "questionNumber": 28
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Bedside test of frontal lobe function",
+          "note": "Not in the notes: in suspected frontal lobe dementia the appropriate bedside cognitive test of frontal function is the category fluency test; the Wisconsin card sorting test is not a bedside test but a more detailed neuropsychological assessment (keyed over Rey-Osterrieth test, visual field test and **MMSE**).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Cognitive Estimates Test",
+          "note": "Not in the notes: the Cognitive Estimates Test (for example 'What is the average height of a British woman?') is part of the frontal assessment battery and is the frontal lobe test among repertory grid, line bisection, star cancellation and bar chart.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 4,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Go/No-Go test",
+          "note": "Not in the notes: tapping once to the examiner's single tap and withholding the response to two taps is the Go/No-Go test of response inhibition (impulsivity is thought to reflect failure of response inhibition, seen in inferior frontal pathology); it can be made harder by changing the rule after several trials.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 13,
+            "questionNumber": 55
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Testing abstract reasoning",
+          "note": "Not in the notes: Goldstein's card sorting test (the Goldstein-Scheerer Color Form Sorting Test) tests abstract reasoning (concept formation rather than simple identification of abstract rules); the Wisconsin card sorting test descends from it and tests concept identification rather than formation.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 13,
+            "questionNumber": 56
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Vocabulary test and premorbid intelligence",
+          "note": "Not in the notes: a vocabulary test, a type of reading test, assesses premorbid intelligence because reading ability is generally resistant to the effects of brain damage.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 8,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Rey-Osterrieth Complex Figure Test",
+          "note": "Not in the notes: the Rey-Osterrieth Complex Figure Test is a standard measure of perceptual organisation and visual memory in brain-injured individuals, so it tests visual memory and constructional ability.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Clock drawing is not part of the MMSE",
+          "note": "Not in the notes: clock drawing provides complementary information but is **NOT** part of the **MMSE** (repeating a phrase, motor sequence, testing attention and copying polygons are).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 4,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Serial sevens",
+          "note": "Not in the notes: subtracting 7 from 100 repeatedly (serial sevens) is most useful for testing concentration, also known as sustained attention (keyed over attention, alertness, working memory and motivation).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 18
+          }
         }
       ],
       "concise": {
@@ -4465,7 +5126,7 @@
         ],
         "highlightBlockIndices": [
           2,
-          9
+          12
         ]
       }
     },
@@ -4675,34 +5336,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "CT/MRI questions seen in the bank",
-          "items": [
-            {
-              "text": "Haemorrhage (blood) appears bright white on **CT**; **CSF** appears black and brain tissue grey.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 61
-              }
-            },
-            {
-              "text": "Advantage of **CT** over **MRI**: calcified lesions are better visualised (**CT** is poor at grey/white discrimination and obscures structures next to bone).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 28,
-                "questionNumber": 64
-              }
-            },
-            {
-              "text": "**T1** images are most useful for assessing normal brain structure (and the only sequence enhanced by gadolinium-**DTPA**).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 39,
-                "questionNumber": 88
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "A boxer who deteriorates 12 hours after a knock-out blow (severe headache, vomiting, reduced consciousness) needs a **CT** scan of the brain - not skull X-ray, **SPECT**, **EEG** or **MRI**: **CT** is more useful than plain X-ray for suspected bony fracture and fresh haemorrhage, which X-ray cannot pick up, and **MRI** is slower to obtain and may miss fresh bleeding.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 20
+          }
         }
       ],
       "concise": {
@@ -4753,8 +5394,7 @@
         "highlightBlockIndices": [
           3,
           4,
-          6,
-          7
+          6
         ]
       }
     },
@@ -4863,51 +5503,23 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "MRS and fMRI questions seen in the bank",
-          "items": [
-            {
-              "text": "P-31 is the **MRS** nucleus used for in vivo measurement of phosphocreatinine (P-31 **MRS** measures phosphorus-containing compounds such as **ATP**, **GTP**, phosphocreatinine); H-1 best measures **NAA**, creatine and choline.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 51
-              }
-            },
-            {
-              "text": "Magnetic resonance spectroscopy measures concentrations of different metabolites in the brain.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 24,
-                "questionNumber": 54
-              }
-            },
-            {
-              "text": "**BOLD** is the phenomenon used in functional **MRI** (a proxy of neuronal activity from the oxygenated vs deoxygenated blood signal).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 1
-              }
-            },
-            {
-              "text": "**Q73** asks which modality **BOLD** belongs to: functional **MRI**.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 32,
-                "questionNumber": 73
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
-          "subtopic": "fMRI region highlighted and arterial spin labelling",
-          "note": "Not in the notes: **Q86** (answer: primary motor cortex) says the region often highlighted in tasks during fMRI is the primary motor cortex; **Q56** (answer: arterial spin labelling) describes a non-invasive **MRI** perfusion technique that quantifies cerebral blood flow without gadolinium.",
+          "subtopic": "Arterial spin labelling",
+          "note": "Not in the notes: **Q56** (answer: arterial spin labelling) describes a non-invasive **MRI** perfusion technique that quantifies cerebral blood flow without gadolinium.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 25,
             "questionNumber": 56
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "fMRI region highlighted",
+          "note": "Not in the notes: **Q86** (answer: primary motor cortex) says the region often highlighted in tasks during fMRI is the primary motor cortex.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 38,
+            "questionNumber": 86
           }
         }
       ],
@@ -4957,8 +5569,7 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
-          8
+          3
         ]
       }
     },
@@ -5020,7 +5631,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 37
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -5091,6 +5703,26 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "For **METABOLIC** change in the brain the keyed modality is **PET** (it can measure glucose metabolism and blood flow as indices of neuronal activity), whereas **SPECT** gives blood flow only - highly correlated with glucose metabolism but not a direct measure of neuronal metabolism - and structural **MRI**, ultrasound and **CT** show structure.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 47,
+            "questionNumber": 107
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** investigations of choice: fever with abrupt-onset confusion and behavioural change (herpes simplex encephalitis) = **MRI**, the most sensitive method for early lesions (**CSF** **PCR** is the in vivo gold standard, about ==95%== sensitive and specific); late-onset psychosis on **olanzapine** who develops parkinsonism (possible Lewy body dementia or Parkinson's disease rather than drug-induced) = **SPECT** **DAT** scan (I-123-**FP-CIT**, abnormal in ==86%== of **DLB** cases and helps separate idiopathic from drug-induced parkinsonism).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 25,
+            "questionNumber": 30
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Diffusion tensor imaging (**DTI**) combines nuclear magnetic resonance and molecular diffusion (random Brownian motion). The predominant direction of molecular movement helps determine the integrity and trace white matter tracts. Traditional diffusion weighted images apply only 3 gradient directions; **DTI** allows multiple (e.g. 16).",
           "source": {
@@ -5107,55 +5739,9 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "SPECT/PET/DTI questions seen in the bank",
-          "items": [
-            {
-              "text": "Iomazenil (I-123) in **SPECT** labels **GABA-A** receptors.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 47,
-                "questionNumber": 108
-              }
-            },
-            {
-              "text": "**PET** and **SPECT** both introduce a radiopharmaceutical tracer (a synthetic radionuclide); **PET** is the answer to which investigation involves introducing one.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 35,
-                "questionNumber": 81
-              }
-            },
-            {
-              "text": "**PET** gives metabolic information (glucose metabolism and blood flow); **SPECT** gives blood flow only (not neuronal metabolism directly); structural **MRI** and **CT** show structure.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 47,
-                "questionNumber": 107
-              }
-            },
-            {
-              "text": "In Alzheimer disease **SPECT** shows temporal (and posterior parietal) hypoperfusion.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 8
-              }
-            },
-            {
-              "text": "Diffusion tensor imaging is the technique that maps white matter fibre organisation and orientation.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 42,
-                "questionNumber": 95
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "DAT scan in dementia with Lewy bodies",
-          "note": "Not in the notes: **Q55** and **Q93** (answer: **DAT** scan) say reduced dopamine transporter uptake in the basal ganglia on **SPECT** or **PET** is a biomarker of dementia with Lewy bodies, distinguishing it from Alzheimer dementia (sensitivity ==78%==, specificity ==90%==). The notes list nor-beta-**CIT** as the **SPECT** ligand for dopamine and serotonin transporters but do not link it to **DLB**.",
+          "note": "Not in the notes: **Q93** (answer: **DAT** scan) says reduced dopamine transporter uptake in the basal ganglia on **SPECT** or **PET** is a biomarker of dementia with Lewy bodies, distinguishing it from Alzheimer dementia (sensitivity ==78%==, specificity ==90%==). The notes list nor-beta-**CIT** as the **SPECT** ligand for dopamine and serotonin transporters but do not link it to **DLB**.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 41,
@@ -5170,6 +5756,86 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 30,
             "questionNumber": 69
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "**BOLD** (blood oxygen level dependent) contrast is the phenomenon used in functional **MRI**: it is an indirect index of neuronal activity, because fMRI cannot directly measure the neuronal signal.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "Magnetic resonance spectroscopy measures the concentration of different metabolites in the brain and can detect biochemical differences that may precede structural change on **MRI**.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 24,
+                "questionNumber": 54
+              }
+            },
+            {
+              "text": "P-31 is the **MRS** nucleus used for in vivo measurement of phosphocreatinine; H-1 is best at measuring N-acetyl aspartate, creatine and choline.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 22,
+                "questionNumber": 51
+              }
+            },
+            {
+              "text": "Iomazenil (I-123) in **SPECT** imaging labels **GABA-A** receptors.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 47,
+                "questionNumber": 108
+              }
+            },
+            {
+              "text": "**PET** is the investigation that involves introducing a synthetic radionuclide tracer to obtain brain images (**SPECT** does too; **T1**, **T2**, fMRI and diffusion imaging do not).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 35,
+                "questionNumber": 81
+              }
+            },
+            {
+              "text": "Diffusion tensor imaging images the organisation and orientation of white matter fibres from the movement of water molecules - the only method that visualises white matter anatomy.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 42,
+                "questionNumber": 95
+              }
+            },
+            {
+              "text": "In Alzheimer disease **SPECT** shows temporal and posterior parietal hypoperfusion (decreased temporal perfusion).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 8
+              }
+            },
+            {
+              "text": "The earliest and most marked atrophy in Alzheimer disease is in the medial temporal lobe, particularly the entorhinal cortex and hippocampus.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+                "page": 33,
+                "questionNumber": 75
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Imaging for cognitive impairment with visual hallucinations",
+          "note": "Not in the notes: **Q55** (answer: **DAT** scan) - an elderly woman with cognitive impairment and visual hallucinations is best imaged with a **DAT** scan (keyed over **CT**, **PET**, fMRI and **MRI**), since reduced dopamine transporter uptake in the basal ganglia on **SPECT** or **PET** is an indicative biomarker of dementia with Lewy bodies.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 55
           }
         }
       ],
@@ -5228,7 +5894,7 @@
         "highlightBlockIndices": [
           3,
           6,
-          9
+          8
         ]
       }
     },
@@ -5276,7 +5942,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -5309,7 +5976,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**INSULA** (a part of the paralimbic cortex) is the keyed structure with unequivocal volumetric abnormality in schizophrenia, while the explanation says the hippocampus has repeatedly been shown reduced but not in all studies - the explanation notes that most listed structures show some abnormality and also names the anterior cingulate cortex, dorsolateral prefrontal cortex and thalamus as consistently affected.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 49
+          }
         },
         {
           "type": "table",
@@ -5345,7 +6023,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "For the **SEVERITY** of Alzheimer's dementia the question keys the number of plaques, yet its explanation adds that the burden of neurofibrillary tangles is a much better correlate of severity than plaque burden - know both sides if the options change.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 64
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** neuroimaging matches: persecutory delusions with third-person auditory hallucinations = ventricular enlargement and poor dorsolateral prefrontal activation in executive tasks on fMRI (schizophrenia); low mood, anhedonia and poor sleep = periventricular and deep white matter hyperintensities and decreased prefrontal and anterior cingulate metabolism (depression); short-term memory loss and poor concentration at 77 = ventricular enlargement and loss of temporal lobe volume, especially hippocampus.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 13,
+            "questionNumber": 14
+          }
         },
         {
           "type": "paragraph",
@@ -5356,43 +6055,33 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Imaging-finding questions seen in the bank",
-          "items": [
-            {
-              "text": "The most well established anatomical change in schizophrenia is enlargement of the lateral ventricle (smaller hippocampus, amygdala, thalamus and larger pallidum are also reported).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 35
-              }
-            },
-            {
-              "text": "Insula (a paralimbic cortex part) shows unequivocal volumetric abnormalities in schizophrenia, alongside anterior cingulate, **DLPFC** and thalamus; hippocampal reduction is repeated but not in all studies.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 21,
-                "questionNumber": 49
-              }
-            },
-            {
-              "text": "Earliest atrophy in Alzheimer disease: medial temporal lobe, particularly entorhinal cortex and hippocampus.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-                "page": 33,
-                "questionNumber": 75
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
-          "subtopic": "Grey matter changes at transition to psychosis and ADHD imaging",
-          "note": "Not in the notes: **Q62** (answer: prefrontal cortex) says ultra-high-risk patients who transition to psychosis show greater longitudinal volume reduction/cortical thinning in frontal areas (orbitofrontal, superior, middle frontal, prefrontal), temporal areas, medial and superior parietal lobes, precuneus and insular cortex; **Q97** (answer: frontal cortex) says **ADHD** imaging repeatedly shows underfunctioning of frontostriatal pathways and underactivation of prefrontal areas.",
+          "subtopic": "Grey matter changes at transition to psychosis",
+          "note": "Not in the notes: **Q62** (answer: prefrontal cortex) says ultra-high-risk patients who transition to psychosis show greater longitudinal volume reduction/cortical thinning in frontal areas (orbitofrontal, superior, middle frontal, prefrontal), temporal areas, medial and superior parietal lobes, precuneus and insular cortex.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 27,
             "questionNumber": 62
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ADHD imaging",
+          "note": "Not in the notes: **Q97** (answer: frontal cortex) says **ADHD** imaging repeatedly shows underfunctioning of frontostriatal pathways and underactivation of several prefrontal cortical areas, consistent with reduced cognitive executive functioning.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 97
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Planum temporale asymmetry in schizophrenia",
+          "note": "Not in the notes: loss (reversal) of the normal left-larger-than-right asymmetry of the planum temporale - the posterior superior surface of the superior temporal gyrus, a highly lateralised language structure - is implicated in schizophrenia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 18
           }
         }
       ],
@@ -5454,8 +6143,7 @@
         "highlightBlockIndices": [
           0,
           1,
-          2,
-          4
+          3
         ]
       }
     },
@@ -5465,8 +6153,8 @@
       "blocks": [
         {
           "type": "gap",
-          "subtopic": "Aphasias and language testing",
-          "note": "Not in the notes. **Q15** (answer: copying) says reading, writing, repetition, fluency, comprehension and naming are tested to localise aphasia; **Q84** says Broca (non-fluent, expressive) aphasia has non-fluent speech and impaired repetition with intact auditory comprehension; **Q74** says preserved repetition in Broca aphasia = transcortical motor aphasia (lesion anterior to Broca area) and in Wernicke aphasia = transcortical sensory aphasia (lesion posterior to Wernicke area); **Q90** says anomic dysphasia (affected confrontation naming) is from small left temporo-parietal junction lesions.",
+          "subtopic": "Aphasia: functions tested",
+          "note": "Not in the notes. **Q15** (answer: copying) says reading, writing, repetition, fluency, comprehension and naming are tested to localise aphasia.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 7,
@@ -5475,8 +6163,38 @@
         },
         {
           "type": "gap",
-          "subtopic": "Agnosias, Balint syndrome and visuospatial/neglect testing",
-          "note": "Not in the notes. **Q48** defines anosognosia, visual agnosia, prosopagnosia, astereognosis and neglect; **Q18** simultanagnosia (impaired integration of simultaneous visual stimuli); **Q104** Balint syndrome = simultanagnosia, optic ataxia and oculomotor apraxia (diplopia is not a feature); **Q58** visual neglect is assessed with cancellation and line bisection tasks; **Q102** constructional apraxia is typically from right hemisphere lesions; **Q27** describes right vs left hemisphere errors in complex figure copying; **Q12** pure alexia (alexia without agraphia) arises from posterior cerebral territory lesions.",
+          "subtopic": "Broca aphasia",
+          "note": "Not in the notes. **Q84** says Broca (non-fluent, expressive) aphasia has non-fluent speech and impaired repetition with intact auditory comprehension.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 37,
+            "questionNumber": 84
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Transcortical aphasias",
+          "note": "Not in the notes. **Q74** says preserved repetition in Broca aphasia = transcortical motor aphasia (lesion anterior to Broca area) and in Wernicke aphasia = transcortical sensory aphasia (lesion posterior to Wernicke area).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 33,
+            "questionNumber": 74
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Anomic dysphasia",
+          "note": "Not in the notes. **Q90** says anomic dysphasia (affected confrontation naming) is from small left temporo-parietal junction lesions.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 90
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Agnosia and neglect definitions",
+          "note": "Not in the notes. **Q48** defines anosognosia, visual agnosia, prosopagnosia, astereognosis and neglect.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 21,
@@ -5485,8 +6203,108 @@
         },
         {
           "type": "gap",
-          "subtopic": "Frontal and parietal lobe tests, executive function and neuropsychological tests",
-          "note": "Not in the notes. **Q11** frontal lobe tumour with personality change (irritable, profane, irresponsible); **Q103** error correction and categorisation test frontal functioning; **Q26** Wisconsin card sorting tests planning, set shifting; **Q106** line orientation is a visuospatial (not executive) test (executive tests include **WCST**, Category Test, Trail Making, Stroop); **Q21** executive function = accomplishing goal-directed behaviour; **Q25** parietal tests (finger agnosia, astereognosis, dysgraphaesthesia, two-point discrimination, right-left orientation); **Q45** schizophrenia patients perform poorly on category test, **WCST**, speech sounds perception and Trail B but **MMSE** is usually intact; **Q17** and **Q37** vascular territories (anterior cerebral - akinesia and mutism; middle cerebral - **DLPFC**).",
+          "subtopic": "Simultanagnosia",
+          "note": "Not in the notes. **Q18** (answer: simultanagnosia) - inability to attend to the parts and the whole of an object at the same time; impairment in the perception or integration of visual stimuli appearing simultaneously.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 18
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Balint syndrome",
+          "note": "Not in the notes. **Q104** - Balint syndrome is the triad of simultanagnosia, optic ataxia and oculomotor apraxia (diplopia is not a feature; oculocephalic reflexes are intact), from bilateral damage including the superior parieto-occipital region (e.g. carbon monoxide poisoning, watershed infarction).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 45,
+            "questionNumber": 104
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Prosopagnosia",
+          "note": "Not in the notes. **Q78** (answer: prosopagnosia) - inability to recognise familiar faces that is not due to impaired visual acuity or level of consciousness.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 78
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Testing visual neglect",
+          "note": "Not in the notes. **Q58** - visual neglect is assessed with letter or star cancellation and line bisection tasks, with the paper at the patient's midline.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 58
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Constructional apraxia and hemisphere",
+          "note": "Not in the notes. **Q102** - constructional apraxia (inability to construct elements into a meaningful whole, e.g. to copy simple figures) is typically caused by a right cerebral hemisphere lesion, so construction of polygons is abnormal more often with right than left damage.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 45,
+            "questionNumber": 102
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Complex figure copying: right versus left hemisphere",
+          "note": "Not in the notes. **Q27** - with right hemisphere damage patients reproduce the details but miss the Gestalt (global features); with left hemisphere damage they reproduce the global features but make inaccurate internal details, so a patient who manages the global features but misses the finer details most likely has left hemisphere damage.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Pure alexia",
+          "note": "Not in the notes. **Q12** - alexia without agraphia (pure alexia) is seen in lesions of the posterior cerebral territory: patients can write but not read, often with right homonymous hemianopia, from loss of visual input to the dominant angular gyrus language area (inferior splenium of the corpus callosum).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Thalamoparietal projections",
+          "note": "Not in the notes. **Q76** - contralateral face, arm and leg sensory loss with failed two-point discrimination and stereognosis points to thalamocortical (thalamoparietal) projections.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 76
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Frontal lobe tumour",
+          "note": "Not in the notes. **Q11** - a previously reliable man who becomes irritable, profane and irresponsible over months most likely has a frontal lobe tumour (frontal lobe syndrome: slow thinking, poor judgement, decreased curiosity, social withdrawal, irritability, apathy that can explode into impulsive disinhibition).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Error correction and categorisation",
+          "note": "Not in the notes. **Q103** - problems with error correction and categorisation of objects are tests of frontal lobe functioning.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 45,
+            "questionNumber": 103
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Wisconsin card sorting",
+          "note": "Not in the notes. **Q26** - the Wisconsin card sorting test tests planning and set shifting.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 11,
@@ -5495,8 +6313,68 @@
         },
         {
           "type": "gap",
-          "subtopic": "Orientation, memory and ageing",
-          "note": "Not in the notes. **Q39** and **Q80** describe orientation testing (time most helpful; person orientation lost only late in confusional states); **Q57** immediate recall tested by digit span; **Q94** anterograde amnesia; **Q111** implicit (procedural) memory; **Q99** reduced working memory is a feature of dementia rather than healthy ageing, whereas reduced motor speed, visuospatial skill, attention span and new learning efficiency occur in healthy ageing; **Q96** intellectual insight; **Q68** la belle indifference (inappropriate lack of concern about a functional deficit).",
+          "subtopic": "Tests of executive function",
+          "note": "Not in the notes. **Q106** - the line orientation test is a visuospatial (not executive function) test; executive tests include the Wisconsin Card Sorting Test, Category Test, Trail Making Test and Stroop test.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 46,
+            "questionNumber": 106
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Defining executive function",
+          "note": "Not in the notes. **Q21** - executive function is the capacity of accomplishing goal-directed behaviour (volition, planning, purposive action and execution, including self-monitoring and self-correction).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Parietal lobe tests",
+          "note": "Not in the notes. **Q25** - parietal tests include finger agnosia, astereognosis, dysgraphaesthesia, two-point discrimination and right-left orientation (lexical fluency is not one); Gerstmann syndrome is right-left disorientation, finger agnosia, dysgraphia and dyscalculia from a dominant parietal lesion.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Neuropsychological tests in schizophrenia",
+          "note": "Not in the notes. **Q45** - patients with schizophrenia perform far worse than controls on the category test, Wisconsin card sort, speech sounds perception test and Trail B of the Halstead-Reitan battery, but overall cognitive ability tests such as the **MMSE** are usually intact.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 45
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Anterior cerebral artery: akinetic mutism",
+          "note": "Not in the notes. **Q17** - acute leg weakness progressing to arms and legs with no spontaneous speech or movement implicates the anterior cerebral artery: damage to the anterior cingulate cortex, especially bilateral, causes akinesia and mutism.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Middle cerebral artery and dorsolateral prefrontal cortex",
+          "note": "Not in the notes. **Q37** - the dorsolateral prefrontal cortex (lateral Brodmann areas 9-12, 45, 46 and the upper area 47) is supplied by the middle cerebral artery, so its occlusion causes dorsolateral prefrontal dysfunction.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 37
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Orientation testing",
+          "note": "Not in the notes. **Q39** describes orientation testing (time orientation is the most helpful).",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 17,
@@ -5505,12 +6383,252 @@
         },
         {
           "type": "gap",
-          "subtopic": "EEG, sleep and other items",
-          "note": "Not in the notes. **Q47** **EEG** frequency bands (beta greater than 13 Hz; alpha 8-13 Hz; theta 4-7.5 Hz; delta 3.5 Hz or less); **Q63** diffuse delta/theta slowing in metabolic encephalopathy; **Q59** daytime **REM** in narcolepsy, sleep deprivation or stimulant withdrawal; **Q83** the sleep deprivation test is not helpful in diagnosing narcolepsy; **Q76** thalamocortical (thalamoparietal) projection lesions cause contralateral sensory loss with failed two-point discrimination and stereognosis; **Q6** toxoplasmosis is the most common opportunistic infection in **AIDS**.",
+          "subtopic": "Orientation to person",
+          "note": "Not in the notes. **Q80** - orientation to person is a stable domain that is generally lost only late in the course of a confusional state, so identifying the doctor is the keyed bedside test in a hospitalised patient.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 80
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Immediate recall",
+          "note": "Not in the notes. **Q57** - immediate memory (the amount of information held in mind, like a phone number or digit span) is tested by asking the patient to repeat a series of numbers.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Anterograde amnesia",
+          "note": "Not in the notes. **Q94** - anterograde amnesia is the period of amnesia between an event (e.g. head injury) and the resumption of continuous memory; its length correlates with the extent of brain injury.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 41,
+            "questionNumber": 94
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Implicit memory",
+          "note": "Not in the notes. **Q111** - implicit (procedural, skills) memory covers skills, habits and non-associative learning without conscious awareness, usually remains intact after brain injury, and is thought to reside in the limbic system, amygdala and cerebellum, whereas declarative memory depends on the hippocampus.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 48,
+            "questionNumber": 111
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Cognition in healthy ageing",
+          "note": "Not in the notes. **Q99** - reduced working memory is a feature of dementia rather than healthy ageing, whereas reduced motor speed, visuospatial skill, attentional span and new learning efficiency are seen in healthy ageing.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 99
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Intellectual insight",
+          "note": "Not in the notes. **Q96** - intellectual insight is admission that the patient is ill and that symptoms are caused by his own disturbances without applying this knowledge to future experience (agrees there is a problem, but takes no active steps).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 42,
+            "questionNumber": 96
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "La belle indifference",
+          "note": "Not in the notes. **Q68** - la belle indifference is an inappropriate lack of concern about a functional deficit or disability; part of classical descriptions of hysteria and conversion disorder, but also seen in medical illness (e.g. after a stroke) and of no diagnostic value.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 30,
+            "questionNumber": 68
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Ideomotor apraxia",
+          "note": "Not in the notes: ideomotor apraxia is difficulty copying skilled movements - the patient knows what to do but not how, being unable to mimic a learned motor task such as combing hair - from damage to the dominant parietal lobe; abnormalities include abnormal amplitude, body-part-as-object substitution and abnormal orientation of body parts.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 6,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Frontotemporal dementia: family history",
+          "note": "Not in the notes: personality change, sexual disinhibition and tremors suggest frontal lobe dementia, so the crucial history to elicit is the family history (strong family history in ==50%== of cases).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Frontal-type dementia: first language deficit",
+          "note": "Not in the notes: in frontal-type dementia with disinhibition, lack of concern for others and recklessness, the language deficit expected first is non-fluent expressive dysphasia; the explanation lists reduced speech output, mutism, echolalia and perseveration among the language abnormalities.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 14,
+            "questionNumber": 60
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Appropriate test of orientation",
+          "note": "Not in the notes: orientation is usually assessed to time, place and person; knowing today's date is the keyed test - time orientation is the most helpful (include the time of day), it is not particularly sensitive and intact orientation does not exclude a significant memory disorder, and being out by two days or less is considered normal when scoring formally.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 3,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Huntington's disease: family history and motor disturbance",
+          "note": "Not in the notes: motor clumsiness, poor coordination and unsteady gait with apathy, slowed thinking and a strong family history of similar presentations is Huntington's disease (keyed over **CJD**, Lewy body dementia, Alzheimer's dementia and Wilson's disease).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "EEG frequency bands",
+          "note": "Not in the notes. **Q47** **EEG** frequency bands (beta greater than 13 Hz; alpha 8-13 Hz; theta 4-7.5 Hz; delta 3.5 Hz or less).",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 20,
             "questionNumber": 47
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "EEG waveforms (EMI)",
+          "note": "Not in the notes (**EMI**): alpha 8-13 Hz (dominant when eyes are closed; disappears with anxiety, arousal, eye opening or focused attention); beta more than 13 Hz (frontal and central in the normal waking **EEG**); theta 4-8 Hz (prominent in drowsy or sleep **EEG**; excessive theta in the awake **EEG** is a sign of pathology); mu 7-11 Hz (over the motor cortex, arch-like); delta less than 4 Hz (not seen in the waking **EEG**; common in deeper sleep).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 14,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Diffuse slowing on EEG",
+          "note": "Not in the notes. **Q63** - generalised diffuse delta and theta waves are seen in metabolic encephalopathy (diffuse slowing of background rhythms is the most common but non-specific **EEG** abnormality, beginning with increased theta activity).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 63
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Daytime REM",
+          "note": "Not in the notes. **Q59** - **REM** sleep recorded during the daytime can be seen in narcolepsy, sleep deprivation or withdrawal from stimulants.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Narcolepsy investigations",
+          "note": "Not in the notes. **Q83** - the sleep deprivation test has no helpful role in diagnosing narcolepsy (**CSF** analysis, **HLA** typing, the multiple sleep latency test and polysomnography do).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 36,
+            "questionNumber": 83
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Opportunistic infection in AIDS",
+          "note": "Not in the notes. **Q6** - toxoplasmosis is the most common opportunistic infection in **AIDS**, with multiple ring-enhancing lesions on brain imaging (**MRI** superior to **CT** with contrast).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ECG: Mobitz type I",
+          "note": "Not in the notes (they cover QTc only): Mobitz type I **AV** block shows the **PR** interval lengthening progressively until one P wave fails to be conducted and produces no **QRS** complex, after which the **PR** interval resets and the cycle repeats.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 13,
+            "questionNumber": 56
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ECG: Mobitz type II",
+          "note": "Not in the notes: Mobitz type **II** block has a fixed, normal **PR** interval with an occasional P wave that fails to produce a **QRS** complex.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 14,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ECG: complete heart block",
+          "note": "Not in the notes: in complete heart block there is complete interruption of conduction between atria and ventricles, so the P waves bear no relationship to the **QRS** complexes, which usually arise from a ventricular escape rhythm.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Agnosias and apraxias (EMI)",
+          "note": "Not in the notes (**EMI**): difficulty recognising complex pictures though able to describe the parts = simultanagnosia; difficulty copying a wire cube = visuospatial agnosia; denial of left hemiplegia and gait disturbance after a stroke = anosognosia; failing to recognise the faces of children and close friends while recognising their voices = prosopagnosia; feeling that the limbs on one side of the body are missing = hemisomatognosia (a unilateral lack of body image that can occur in migraine or an epileptic aura).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 15,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Localising signs (EMI)",
+          "note": "Not in the notes (**EMI**): a malnourished alcoholic = ataxia and 6th nerve palsy (Wernicke's encephalopathy; the commonest ophthalmoplegia is a bilateral 6th nerve lesion); a right parietal lesion in a right-handed person = anosognosia and constructional apraxia; a frontal meningioma = ipsilateral optic atrophy and anosmia (with contralateral papilloedema this is the Kennedy-Foster syndrome).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 16,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Psychiatric syndromes after stroke (EMI)",
+          "note": "Not in the notes beyond pathological emotionalism under pseudobulbar palsy (**EMI**): becoming anxious and tearful when attempting a task beyond ability after a stroke = catastrophic reaction (agitation, anger or even violence when a cognitively impaired patient is asked to undertake tasks beyond their ability); impaired control of crying = emotionalism (15-==35%== prevalence after stroke); unconcern about memory loss with low motivation and no other depressive symptoms = apathy without depression (about ==20%== of stroke patients).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 22,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Eponymous syndromes (EMI)",
+          "note": "Not in the notes beyond 'damage to corpus callosum (Marchiafava syndrome)' (**EMI**): demyelination and necrosis of the corpus callosum associated with red wine consumption = Marchiafava-Bignami disease; occipital lobe lesion with cortical blindness = Anton syndrome (patients deny the loss of vision); lesion of the dominant parietal lobe = Gerstmann syndrome (left-right disorientation, agraphia, acalculia, finger agnosia).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 27,
+            "questionNumber": 33
           }
         }
       ],
@@ -5605,6 +6723,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 2
           }
+        },
+        {
+          "label": "'Sometimes when people are very depressed, they think of hurting themselves' = normalisation; asking 'what sorts of drugs do you usually use' = symptom expectation; self-revelation can powerfully backfire.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 28,
+            "questionNumber": 34
+          }
+        },
+        {
+          "label": "Open questions give more informative answers than closed ones; begin open, then close to clarify details.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
+          "label": "Suggestive questions are the odd one out among techniques that facilitate disclosure.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
+        },
+        {
+          "label": "Repetition = the patient's exact words; restatement = rearranged phrases; summation = periodic summary that lets the patient clarify.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 8,
+            "questionNumber": 9
+          }
         }
       ]
     },
@@ -5652,6 +6802,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 3
           }
+        },
+        {
+          "label": "Referred transition = referring back to something said earlier in the interview.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 2,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "Closed questions suit a distracted or over-talkative patient and ruling out symptoms, but are better avoided early and in suggestible patients.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
         }
       ]
     },
@@ -5698,6 +6864,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 5
+          }
+        },
+        {
+          "label": "Confrontation helps the patient face a difficult aspect of their problems.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 40
+          }
+        },
+        {
+          "label": "Interrupting 'there are few important things we need to cover' = limit setting; mentioning the doctor's own fandom = self-revelation.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 9,
+            "questionNumber": 10
           }
         }
       ]
@@ -5752,6 +6934,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 7
+          }
+        },
+        {
+          "label": "Validation is the supportive technique not aimed at eliciting information.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 79
+          }
+        },
+        {
+          "label": "'I am impressed by what you have achieved despite all these difficulties' = respectful statement.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 26
+          }
+        },
+        {
+          "label": "Praising a patient who stopped mid-narration for doing well despite difficulty = reinforcement.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 48,
+            "questionNumber": 109
           }
         }
       ]
@@ -5854,6 +7060,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 11
           }
+        },
+        {
+          "label": "TSH assay is the best screening test for subclinical hypothyroidism.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 4,
+            "questionNumber": 15
+          }
+        },
+        {
+          "label": "On lithium with TSH 6.4 and normal T4 (subclinical thyroid disease): repeat TSH in a month.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 25
+          }
         }
       ]
     },
@@ -5886,6 +7108,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 11
+          }
+        },
+        {
+          "label": "Poor response to anxiolytic agents prompts a search for a medical cause of recurrent anxiety.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 19
+          }
+        },
+        {
+          "label": "EMI: lactate = panic disorder; prolactin = pseudoseizure versus seizure; CPK = NMS; urinalysis = SIADH; DST = depression.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 17,
+            "questionNumber": 19
+          }
+        },
+        {
+          "label": "In narcoanalysis organic muteness does NOT improve with amobarbital; psychogenic muteness does.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 23
           }
         }
       ]
@@ -5948,6 +7194,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 13
           }
+        },
+        {
+          "label": "Chronic subdural haematoma, not subarachnoid haemorrhage, fits insidious headache, fluctuating memory loss and unequal pupils.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
+        },
+        {
+          "label": "Wing-beating tremor with memory loss and personality change = Wilson's disease: low serum ceruloplasmin.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 12,
+            "questionNumber": 52
+          }
+        },
+        {
+          "label": "Constipation, abdominal pain and hallucinations after hypnotics and diclofenac = acute intermittent porphyria: urine porphyrins.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 53
+          }
+        },
+        {
+          "label": "Chlorpromazine is the odd one out among drugs that increase urine porphyrins.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 36,
+            "questionNumber": 82
+          }
         }
       ]
     },
@@ -6002,6 +7280,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 14
           }
+        },
+        {
+          "label": "Herpes encephalitis: lymphocytic CSF with red cells, temporal T2 hyperintensity and lateralised periodic EEG discharges.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 14,
+            "questionNumber": 60
+          }
         }
       ]
     },
@@ -6048,6 +7334,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 15
+          }
+        },
+        {
+          "label": "Gene testing for Huntington's is essential without a family history but does not itself give a clinical diagnosis.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 101
+          }
+        },
+        {
+          "label": "Mild cognitive impairment differs from dementia by preserved activities of daily living.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 19
           }
         }
       ]
@@ -6096,6 +7398,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
           }
+        },
+        {
+          "label": "Vomiting in anorexia gives metabolic alkalosis; laxative abuse gives metabolic acidosis.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "Raised growth hormone is the endocrine change keyed in anorexia nervosa.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 100
+          }
+        },
+        {
+          "label": "Refeeding syndrome = hypophosphataemia; uncontrolled correction of dehydration can cause hyponatraemia and cerebral oedema.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 30,
+            "questionNumber": 37
+          }
         }
       ]
     },
@@ -6142,6 +7468,38 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
+          }
+        },
+        {
+          "label": "EMI: GGT = sensitive marker; CDT = recent abuse and relapse; MCV = more specific; AUDIT = best primary-care screen.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 10,
+            "questionNumber": 11
+          }
+        },
+        {
+          "label": "Confused alcoholic after surgery: petechial rash = septicaemia; nystagmus = Wernicke; flapping tremor = hepatic failure.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 29,
+            "questionNumber": 36
+          }
+        },
+        {
+          "label": "Ophthalmoplegia is the Wernicke sign that responds first (within hours) to thiamine.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 36
+          }
+        },
+        {
+          "label": "Give thiamine before glucose in a malnourished alcohol user.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 4,
+            "questionNumber": 13
           }
         }
       ]
@@ -6237,6 +7595,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 19
           }
+        },
+        {
+          "label": "Puffy face, weight gain and hypertension in an intravenous heroin user = heroin-associated nephropathy.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 67
+          }
+        },
+        {
+          "label": "Low urine and plasma osmolality with polyuria and polydipsia = psychogenic polydipsia.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 65
+          }
+        },
+        {
+          "label": "Water intoxication: tremor, ataxia, vomiting, diarrhoea and polyuria - ask about water drinking.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 14,
+            "questionNumber": 58
+          }
         }
       ]
     },
@@ -6283,6 +7665,46 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 20
+          }
+        },
+        {
+          "label": "Multiple abdominal scars ('checker-board abdomen') = factitious disorder.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 22
+          }
+        },
+        {
+          "label": "Jaundice with personality change, tremor and dysarthria = Wilson disease: Kayser-Fleischer ring.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 20
+          }
+        },
+        {
+          "label": "EMI: lanugo = anorexia; Russell sign = bulimia; piloerection = opioid withdrawal; sialorrhoea = clozapine.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 7,
+            "questionNumber": 7
+          }
+        },
+        {
+          "label": "EMI: lymph node enlargement = HIV; xanthelasma = olanzapine; checkerboard abdomen = repeated A&E self-injury.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 8,
+            "questionNumber": 8
+          }
+        },
+        {
+          "label": "Hyperventilation causes paraesthesia, with perioral numbness very common.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 16,
+            "questionNumber": 66
           }
         }
       ]
@@ -6338,6 +7760,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 22
           }
+        },
+        {
+          "label": "The confrontation test assesses visual fields (optic tract lesions).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 91
+          }
+        },
+        {
+          "label": "Bilateral internuclear ophthalmoplegia is the eye sign pathognomonic of multiple sclerosis.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 19
+          }
         }
       ]
     },
@@ -6385,6 +7823,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 24
           }
+        },
+        {
+          "label": "Ankle clonus is the odd one out among cerebellar signs.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 14
+          }
+        },
+        {
+          "label": "Pupillary mydriasis is not cerebellar; it occurs in severe alcohol withdrawal (DTs).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 8,
+            "questionNumber": 22
+          }
         }
       ]
     },
@@ -6431,6 +7885,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 25
+          }
+        },
+        {
+          "label": "Left arm drifting down on the palms-up arms-outstretched test = right cerebral hemisphere lesion.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 70
+          }
+        },
+        {
+          "label": "To tell lithium from risperidone tremor, examine tone: EPSE gives tremor and rigidity, lithium tremor does not.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 6,
+            "questionNumber": 25
           }
         }
       ]
@@ -6486,6 +7956,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 27
           }
+        },
+        {
+          "label": "The cremasteric reflex is a superficial reflex, not a frontal release sign.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 71
+          }
         }
       ]
     },
@@ -6532,6 +8010,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 28
+          }
+        },
+        {
+          "label": "EMI gaits: Huntington = lurching; pregnancy = waddling; hip dysplasia = pigeon; Friedreich ataxia = stomping.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 19,
+            "questionNumber": 22
           }
         }
       ]
@@ -6587,6 +8073,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 30
           }
+        },
+        {
+          "label": "Normal accommodation but no light reflex = Argyll-Robertson pupil.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 52
+          }
+        },
+        {
+          "label": "Marcus Gunn pupil = afferent defect on swinging flashlight; Hutchinson pupil = rapidly rising unilateral intracranial pressure.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 18,
+            "questionNumber": 21
+          }
+        },
+        {
+          "label": "EMI: Kayser-Fleischer ring = Wilson's disease; Gower sign = myopathy picture; Myerson sign = blinking to repeated glabellar taps.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 6,
+            "questionNumber": 6
+          }
         }
       ]
     },
@@ -6619,6 +8129,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 31
+          }
+        },
+        {
+          "label": "Muscle atrophy is seen in LMN lesions, not UMN lesions.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 37,
+            "questionNumber": 85
           }
         }
       ]
@@ -6667,6 +8185,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 32
           }
+        },
+        {
+          "label": "The clinical interview of patient and carer is the most useful tool for diagnosing dementia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 22
+          }
+        },
+        {
+          "label": "The clock-drawing test does not assess orientation to time.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 10
+          }
+        },
+        {
+          "label": "The Addenbrooke's cognitive examination is the tool for global cognitive functioning.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 20
+          }
+        },
+        {
+          "label": "ACE-R below 82 has high specificity (1.0) with sensitivity 0.84.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 11,
+            "questionNumber": 28
+          }
         }
       ]
     },
@@ -6713,6 +8263,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 36
+          }
+        },
+        {
+          "label": "Delayed deterioration after a blow to the head: CT, not X-ray or MRI, for fresh haemorrhage.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 20
           }
         }
       ]
@@ -6815,6 +8373,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 38
           }
+        },
+        {
+          "label": "PET gives metabolic information; SPECT gives blood flow only.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 47,
+            "questionNumber": 107
+          }
+        },
+        {
+          "label": "Herpes simplex encephalitis: MRI; possible DLB versus drug-induced parkinsonism: DAT SPECT.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 25,
+            "questionNumber": 30
+          }
         }
       ]
     },
@@ -6861,6 +8435,38 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 39
+          }
+        },
+        {
+          "label": "Insula shows unequivocal volumetric abnormality in schizophrenia.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 49
+          }
+        },
+        {
+          "label": "Neurofibrillary tangle burden correlates with Alzheimer severity better than plaque number.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 64
+          }
+        },
+        {
+          "label": "EMI: schizophrenia = ventricular enlargement and poor DLPFC activation; depression = white matter hyperintensities.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
+            "page": 13,
+            "questionNumber": 14
+          }
+        },
+        {
+          "label": "ADHD imaging shows underactivation of prefrontal areas and frontostriatal pathways.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 97
           }
         }
       ]

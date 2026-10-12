@@ -781,7 +781,19 @@ standalone sets, mocks, skipped files); `extract.ts` writes everything incl. `ma
   note blocks that were interleaved/mislabelled/missing list items **without** a `multiColumn` flag, so the flag is a
   hint, not a guarantee; where notes and question bank disagree the guides show both (trap/gap blocks), and obvious
   source errors (e.g. "Achilles S4", cranial nerve VIII labels, a swapped Addison/Cushing cortisol table) are
-  reproduced as printed and flagged, never silently corrected. Topics without a guide render their notes inline with a "Take the quiz" button (`NotesFallback` in
+  reproduced as printed and flagged, never silently corrected. **Guide pass v2 (Paper B pattern)**: the first v1 guides had far fewer traps/mnemonics and no `highYield` flags than
+  Paper B (~8 vs ~16 traps, ~1.6 vs ~5 mnemonics, 0% vs ~60% flagged tables, traps as "Questions seen in the bank" lists
+  instead of insight statements), so every guide was revised in place: single `trap` blocks in the Paper B voice (the
+  tempting wrong answer and why, citing one question), "MCQ Traps — Remember These!" lists, invented mnemonics
+  (`sourced:false`) for every source-listed group, `highYield` on tables a pool question tests, and per-question gaps.
+  Guides may now cite a topic's **extra pool** (`content/paper-a/questions-extra/<topic>.json`, built by
+  `scripts/paper-a/build-extra-pools.ts`): mock questions whose course-printed label names the topic ("MoK Classification
+  046") plus name-matched EMI banks; `verify-study-guide-citations.ts --paper-a` accepts them.
+  `scripts/paper-a/guide-report.ts <topic> [--uncited]` prints the block mix and uncited pool questions. Known
+  trade-offs: trap counts run 29-94 per guide (well above the ~40 target) and a few guides keep many lists, because
+  coverage of the question pools was prioritised; every trap is `SBA` except where the cited question is an EMI.
+  Agents' working files had stray `**` markup mid-revision — always strip `**`/`==` before the single emphasize pass.
+  Topics without a guide render their notes inline with a "Take the quiz" button (`NotesFallback` in
   `topic-view.tsx`). No `image` blocks for Paper A (no figure-crop pipeline).
 - `e2e/paper-a.spec.ts` covers the switch, notes + citation → real PDF load (trailing-space paths), and quiz/mock
   rendering. **Port 3001 may be held by an unrelated project's dev server**: Playwright's

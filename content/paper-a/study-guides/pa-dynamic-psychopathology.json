@@ -38,26 +38,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Defence-mechanism questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q6** asks which statement about ego defences is correct: repression is considered the primary defence. The wrong options were that defences operate only in pathological situations, that all defences lead to complete resolution of anxiety, that acting out is a mature defence, and that immature defences are characteristic of psychosis.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 6
-              }
-            },
-            {
-              "text": "**Q10** asks which structure defence mechanisms are a function of: the ego. Explanation: defence mechanisms reside in the unconscious domain of the ego.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 10
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Repression is the primary defence is the correct statement to spot. The wrong options all overreach: defences operate only in pathological situations, all defences lead to complete resolution of anxiety, acting out is a mature defence, immature defences are characteristic of psychosis. The explanation says defences develop in the course of normal maturation.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
         },
         {
           "type": "gap",
@@ -107,11 +95,17 @@
               "page": 3,
               "questionNumber": 6
             }
+          },
+          {
+            "text": "Repression is the primary defence; defences also develop in normal maturation, not only in pathology.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 6
+            }
           }
         ],
-        "highlightBlockIndices": [
-          4
-        ]
+        "highlightBlockIndices": []
       }
     },
     {
@@ -225,29 +219,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Mature-defence questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q7** asks which is a mature defence: sublimation. The explanation lists denial, projection and regression as primitive defences and repression as a neurotic defence (the notes themselves class projection and denial as narcissistic, or immature by some authors).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 7
-              }
-            },
-            {
-              "text": "**Q28** (Mark plays tennis all evening after poor feedback from his boss): sublimation, a mature defence expressing unacceptable internal impulses in socially acceptable ways.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 28
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Sublimation is the mature defence in a list of otherwise lower-level options: the explanation names denial, projection and regression as primitive and repression as neurotic. Each distractor is a defence from a different level.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Realistic planning for future discomfort means anticipation (the explanation: a mature defence mechanism). Depreciation, altruism, reaction formation and denial were the other options, so key on the stem's 'planning' wording.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 40
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Poor feedback from the boss followed by an evening of tennis is sublimation: unacceptable internal impulses expressed in socially acceptable ways. Displacement and altruism were among the wrong options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 28
+          }
         }
       ],
       "concise": {
@@ -471,7 +474,78 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Excessive insistence that the next patient stop smoking after an argument with her daughter is displacement (emotion shifted from one object onto a less threatening one), not reaction formation, projection, denial or acting out.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A detained patient who shouts at the new cleaner but not at the doctor or social worker who committed him is displacement (redirecting feelings from an object that gives rise to anxiety to a safer one). Reaction formation, denial, projection and splitting were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 9,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Phobia is explained by displacement: Freud invoked it for Little Hans, whose fear of his father was displaced on to horses. Denial, intellectualisation, reaction formation and splitting were the wrong options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 42
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Tom taking over the family business he used to detest after his father's sudden death is reaction formation (attitudes and behaviours opposite to the unacceptable internal impulse). Displacement, repression, altruism and regression were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 22
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A girlfriend vacantly staring at the wall and not responding after a serious argument is dissociation (temporary but drastic modification of character or sense of personal identity), not repression, displacement, projection or acting out.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Repression is the active process that pushes painful thoughts and memories to inaccessible corners of the mind. Regression is the look-alike spelling distractor; retrieval failure, false memory syndrome and re-integration were also listed.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 35
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Intellectualisation is the neurotic defence in a list that also holds acting out, sublimation, projection and splitting. The explanation lists the neurotic defences as intellectualisation, repression, displacement, reaction formation and dissociation.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 9,
+            "questionNumber": 35
+          }
         },
         {
           "type": "comparison",
@@ -589,50 +663,21 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Neurotic-defence scenarios seen in the bank",
-          "items": [
-            {
-              "text": "**Q11**: a 19-year-old who vacantly stares at the wall and does not respond after a serious argument - dissociation (temporary but drastic modification of personal identity to avoid emotional distress; includes fugue states and conversion reactions).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 11
-              }
-            },
-            {
-              "text": "**Q29**: the predominant defence in amnesic fugue reactions is dissociation.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 29
-              }
-            },
-            {
-              "text": "**Q25**: a **GP** who argued with her teenage daughter insists excessively that her next patient stop smoking - displacement (emotion shifted onto a less threatening object).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 25
-              }
-            },
-            {
-              "text": "**Q22**: Tom takes over the family business he used to detest after his father's death - reaction formation (expressing attitudes and behaviours opposite to the unacceptable internal impulse).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 22
-              }
-            },
-            {
-              "text": "**Q35**: the active process in which painful thoughts and memories are pushed to the inaccessible corners of the mind is repression.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 35
-              }
-            }
-          ]
+          "type": "mnemonic",
+          "forTopic": "Neurotic defences",
+          "mnemonic": "Dad's Dog Is Really Ready, Rather Intelligent: It Understands",
+          "expansion": [
+            "Displacement",
+            "Dissociation",
+            "Isolation",
+            "Rationalisation",
+            "Reaction formation",
+            "Repression",
+            "Intellectualisation",
+            "Identification with the aggressor",
+            "Undoing"
+          ],
+          "sourced": false
         }
       ],
       "concise": {
@@ -696,9 +741,10 @@
         ],
         "highlightBlockIndices": [
           10,
-          11,
-          12,
-          13
+          18,
+          19,
+          20,
+          21
         ]
       }
     },
@@ -758,21 +804,58 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Narcissistic-defence questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q3**: the defence most often used by people with narcissistic personality is projection (the explanation calls it a primitive or immature defence: attributing one's own unacceptable ideas and impulses to an external target; includes severe prejudice, suspiciousness, hypervigilance and injustice collecting).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 3
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Narcissistic personality maps to projection, not projective identification, which is the tempting neighbouring option; the explanation defines projection as attributing one's own unacceptable ideas and impulses to an external target.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Paranoia is linked to projection: Freud linked it to the paranoid personality, defending against unacceptable impulses, especially hate and aggression. Undoing, denial, reaction formation and isolation were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Same unconscious thought, two defences. 'I hate him' (unconscious) with 'He hates me' (conscious) is projection: the impulse is denied and attributed to someone else.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 10,
+            "questionNumber": 37
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'I hate him' (unconscious) with 'I don't hate him' (conscious) is denial, not projection, reaction formation or sublimation: the forbidden thought is actively denied.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 8,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Denial in severe physical illness",
+          "note": "Not in the notes. Mock 7 explanation: denial is a refusal to accept external reality because it is too threatening, and is commonly used by people with severe physical illnesses (a man with bilateral below-knee amputation who talks about the weather instead of his illness).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 8,
+            "questionNumber": 32
+          }
         }
       ],
       "concise": {
@@ -811,6 +894,22 @@
               "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
               "page": 2,
               "questionNumber": 3
+            }
+          },
+          {
+            "text": "Projection = 'He hates me'; denial = 'I don't hate him' (same unconscious 'I hate him').",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+              "page": 10,
+              "questionNumber": 37
+            }
+          },
+          {
+            "text": "Denial is commonly used by people with severe physical illnesses (mock 7).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+              "page": 8,
+              "questionNumber": 32
             }
           }
         ],
@@ -998,50 +1097,64 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Kleinian-defence questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q13** and **Q15**: projective identification (not projection) is the answer when person A projects impulses onto B and B unconsciously behaves as if the projection were true. The explanation stresses it should not be confused with projection: in projection one perceives someone else as feeling the same way, whereas in projective identification the individual causes the other to feel that emotion.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 13
-              }
-            },
-            {
-              "text": "**Q19**: idealisation and denigration are products of splitting.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 19
-              }
-            },
-            {
-              "text": "**Q20**: splitting, omnipotence, projection and grandiosity are each Kleinian defences (answer: all of the listed options); the explanation repeats the **SIPDOG** mnemonic.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 20
-              }
-            },
-            {
-              "text": "**Q31**: sublimation is **NOT** a Kleinian defence (it is a mature defence); denial, grandiosity, introjection and projective identification are.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 31
-              }
-            },
-            {
-              "text": "**Q23**: identification (becoming more like an ideal, admired person) differs from introjection as projective identification differs from projection: in introjection one perceives oneself as like someone else, in identification one may actually feel the same way and become more like the other person.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 23
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Projective identification, not projection, is the answer when A projects impulses onto B and B unconsciously behaves as if the projection were true. In projection one perceives someone else as feeling the same way; in projective identification one causes the other to feel that emotion.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A man with longstanding suspiciousness of police acts strangely at the sight of two policemen and gets arrested: projective identification, because his behaviour causes the police to take on his suspicion. Projection and acting out were the lookalike options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Sublimation is the **NOT**-a-Kleinian-defence answer: the explanation says Klein emphasised projection/projective identification, introjection and splitting, while sublimation is mature. Denial, grandiosity, introjection and projective identification were the Kleinian distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "trap",
+          "text": "When the options list splitting, omnipotence, projection and grandiosity, the key is 'All of the listed options': the explanation says Klein emphasised projection/projective identification, introjection and splitting, and that denial, omnipotence and grandiosity are also Kleinian (**SIPDOG**).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Identification is distinct from introjection in the same way projective identification differs from projection: in introjection one perceives oneself as like someone else, in identification one actually feels the same way as the other and becomes more like the admired person.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Idealisation and denigration are products of splitting, not of projective identification, projection, repression or regression.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 19
+          }
         },
         {
           "type": "trap",
@@ -1122,6 +1235,14 @@
               "page": 6,
               "questionNumber": 13
             }
+          },
+          {
+            "text": "Projective identification (cause the other to feel it), not projection, when B behaves as if the projection were true.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 13
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -1184,6 +1305,19 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Immature defences",
+          "mnemonic": "A Pale Soldier Rests Slowly",
+          "expansion": [
+            "Acting out",
+            "Passive aggression",
+            "Somatisation",
+            "Regression",
+            "Somatosensory amplification"
+          ],
+          "sourced": false
+        },
+        {
           "type": "table",
           "title": "Immature defences: conflict, result and process",
           "columns": [
@@ -1229,29 +1363,92 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "A group member who makes advances to women whenever his self-esteem is low, with no sustained interest once he feels better, is acting out: direct expression of unconscious wishes through action to avoid the accompanying idea or affect. Reaction formation, isolation, sublimation and displacement were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 30
+          }
         },
         {
           "type": "trap-list",
-          "title": "Immature-defence questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q30**: a group member who makes advances to women whenever his self-esteem is low, with no sustained interest once he feels better - acting out (direct expression of unconscious wishes through action to avoid the accompanying idea or affect; tantrums, apparently motiveless assaults and pleasureless promiscuity are typical).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 30
-              }
-            },
-            {
-              "text": "**Q6**: acting out is **NOT** a mature defence (one of the wrong options).",
+              "text": "Acting out is **NOT** a mature defence; repression is the primary defence.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
                 "page": 3,
                 "questionNumber": 6
               }
+            },
+            {
+              "text": "The predominant defence in amnesic fugue reactions is dissociation.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 29
+              }
+            },
+            {
+              "text": "Narcissism: projection is the defence most prominent (mock-exam wording also lists idealisation, acting out and anticipation as wrong options).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 9,
+                "questionNumber": 37
+              }
+            },
+            {
+              "text": "Phobia: displacement (the same Little Hans question recurs in mock 7).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 9,
+                "questionNumber": 33
+              }
+            },
+            {
+              "text": "Sublimation is **NOT** Kleinian (it is mature); idealisation and denigration come from splitting.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 31
+              }
+            },
+            {
+              "text": "Catharsis is the answer for expression of suppressed ideas with emotional response producing relief.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 10,
+                "questionNumber": 41
+              }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Catharsis",
+          "note": "Not defined in the notes (they mention only that Freud abandoned abreaction/catharsis for free association). Mock 3 explanation: catharsis is the expression of ideas, thoughts and suppressed material accompanied by an emotional response that produces a state of relief in the patient.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 41
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Little Hans: displacement explaining phobia",
+          "note": "The notes list displacement as a defence in phobia but give no example. Mock 3 and mock 7 explanation: Freud invoked displacement for the fear of horses in Little Hans, whose fear of his father was displaced on to horses.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 42
+          }
         }
       ],
       "concise": {
@@ -1297,10 +1494,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 10
             }
+          },
+          {
+            "text": "Catharsis: expression of suppressed ideas with emotional response that produces relief.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 10,
+              "questionNumber": 41
+            }
           }
         ],
         "highlightBlockIndices": [
-          6
+          6,
+          7
         ]
       }
     },
@@ -1374,7 +1580,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Avoidance as a defence is most commonly used in agoraphobia (explanation: a cognitive and behavioural strategy acting as a negative reinforcer to reduce anxiety), not **OCD**, hypochondriasis, somatoform disorder or depression. The explanation adds that defence-mechanism questions rest on psychotherapeutic theory, not on frequency or prevalence evidence.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 9,
+            "questionNumber": 38
+          }
         }
       ],
       "concise": {
@@ -1466,7 +1683,59 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The repressive barrier that censors unacceptable wishes is maintained by the preconscious system (it interfaces with both unconscious and conscious regions), not by the unconscious system, conscious system, id or superego.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Conscious, subconscious and preconscious are **NOT** the structural model; they are topographical regions. The true statement in that question is that the id functions through primary process thinking.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The ego is governed by the reality principle, not the pleasure principle. The ego is not the most primitive part of the personality and spans conscious, preconscious and unconscious.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Superego, id and ego terms belong to the structural model, not the topographical, dream work, cathartic or hysterical models.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 18
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Topographical theory systems",
+          "mnemonic": "Cats Prefer Unusual",
+          "expansion": [
+            "Conscious",
+            "Preconscious",
+            "Unconscious"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1475,36 +1744,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
             "page": 12
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Mind-model questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q34**: the 'repressive barrier' that censors unacceptable wishes and desires is maintained by the preconscious system.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 34
-              }
-            },
-            {
-              "text": "**Q12**: id functions through primary process thinking is the true statement; 'conscious, subconscious and preconscious form the structural model' was a wrong option (these are the topographical regions).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 12
-              }
-            },
-            {
-              "text": "**Q26**: the ego is governed by the reality principle; the explanation says it spans conscious, preconscious and unconscious and substitutes the reality principle for the pleasure principle.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 26
-              }
-            }
-          ]
         },
         {
           "type": "gap",
@@ -1584,7 +1823,8 @@
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          7
         ]
       }
     },
@@ -1631,6 +1871,18 @@
               "page": 13
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Characteristics of an instinct",
+          "mnemonic": "Sing It, All Out",
+          "expansion": [
+            "Source",
+            "Impetus",
+            "Aim",
+            "Object"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1690,7 +1942,23 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 13
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Hierarchy of anxiety",
+          "mnemonic": "Some Dogs Sit Still, Obeying Commands, Sweetly",
+          "expansion": [
+            "Signal anxiety",
+            "Disintegration / annihilation anxiety",
+            "Stranger anxiety",
+            "Separation anxiety",
+            "Fear of object loss / loss of love",
+            "Castration anxiety",
+            "Superego anxiety"
+          ],
+          "sourced": false
         },
         {
           "type": "trap",
@@ -1700,6 +1968,26 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
             "page": 10,
             "questionNumber": 21
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Superego is formed at the latency stage (resolution of the Oedipus complex until pubescence), with phallic, oral, genital and anal stages as distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Jean Piaget is the one not considered a neo-Freudian; Horney, Sullivan, Fromm and Adler were the valid neo-Freudians in the options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 36
           }
         },
         {
@@ -1751,6 +2039,52 @@
             "page": 17,
             "questionNumber": 36
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Major source of superego values: parental ideals (children internalise parental values at about age 5 or 6).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "Oedipus complex and castration anxiety belong to the phallic stage.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "Object relations theory: the primary motivational drive is to seek relationships.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 9
+              }
+            },
+            {
+              "text": "Most mature anxiety is superego anxiety (not castration or separation anxiety).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 21
+              }
+            },
+            {
+              "text": "Klein's depressive position relates to coping with ambivalence.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 4
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -1808,8 +2142,10 @@
         ],
         "highlightBlockIndices": [
           1,
-          4,
-          5
+          2,
+          5,
+          6,
+          7
         ]
       }
     },
@@ -1879,14 +2215,41 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 14
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Introversion and extroversion belong to Jung; the incorrectly linked pair was 'Introversion and Extroversion - Donald Winnicott' (Winnicott described the transitional object and the good-enough mother).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Jungian concepts",
+          "mnemonic": "A Cat Plays, Annoying Animals Sleep In Eden",
+          "expansion": [
+            "Archetypes",
+            "Complexes",
+            "Persona",
+            "Anima",
+            "Animus",
+            "Shadow",
+            "Individuation",
+            "Extraversion and introversion"
+          ],
+          "sourced": false
         },
         {
           "type": "trap-list",
-          "title": "Jung questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q2**: Jung is associated with the personal unconscious (also collective unconscious, introvert, extrovert, archetypes, persona, anima and animus); free association, neurasthenia, dementia praecox and moral insanity were wrong options.",
+              "text": "Jung is associated with personal unconscious, collective unconscious, introvert, extrovert, archetypes, persona, anima and animus.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
                 "page": 1,
@@ -1894,7 +2257,7 @@
               }
             },
             {
-              "text": "**Q16**: Jung coined the term 'collective unconscious'.",
+              "text": "Jung coined the term collective unconscious.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
                 "page": 8,
@@ -1902,7 +2265,7 @@
               }
             },
             {
-              "text": "**Q33**: Jung described the unconscious as composed of both the collective and personal unconscious.",
+              "text": "Jung described the unconscious as both collective and personal.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
                 "page": 16,
@@ -1910,19 +2273,11 @@
               }
             },
             {
-              "text": "**Q37**: archetypes are the contents of the collective unconscious expressing pan-cultural human experience through images and symbols (not animus, shadow, anima or persona).",
+              "text": "Archetypes are the contents of the collective unconscious (not animus, shadow, anima or persona).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
                 "page": 18,
                 "questionNumber": 37
-              }
-            },
-            {
-              "text": "**Q27**: introversion and extroversion belong to Jung, not Donald Winnicott (who described the transitional object and the 'good-enough mother'); this was the incorrectly linked pair.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 27
               }
             }
           ]
@@ -1982,7 +2337,8 @@
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          4
         ]
       }
     },
@@ -2053,26 +2409,24 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Dream and technique questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q24**: the true statement is that the dream work involves a conversion of latent content into manifest content (not manifest into latent).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 24
-              }
-            },
-            {
-              "text": "**Q32**: free association was the technique Freud employed to uncover the unconscious; the patient is encouraged to say whatever comes to mind.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 32
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Dream work converts **LATENT** content into **MANIFEST** content; the reversed option (manifest converted into latent) is the distractor. Primary process thinking does occur in dreaming and dreams are not always interpreted.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Free association is the technique Freud used to uncover the unconscious (patient says whatever comes to mind). Empathy, narco-analysis, cognitive restructuring and introspection were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 32
+          }
         }
       ],
       "concise": {
@@ -2148,7 +2502,29 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Condensation is combining various unconscious impulses into a single image. The other options describe symbolic representation (abstract concepts by recognisable images) and displacement (transfer of energy to a symbolic representation).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Mechanisms of the dream work",
+          "mnemonic": "CID",
+          "expansion": [
+            "Condensation",
+            "Irradiation or diffusion",
+            "Displacement"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -2233,20 +2609,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
             "page": 16
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Dream-work questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q8**: condensation is combining various unconscious impulses into a single image while dreaming (not representing abstract concepts by recognisable images, which is symbolic representation, nor transfer of energy to a symbolic representation, which is displacement). Explanation: in a child's nightmare an attacking monster may represent the father, some aspect of the mother and primitive hostile impulses.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 8
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -2303,7 +2665,8 @@
         ],
         "highlightBlockIndices": [
           0,
-          5
+          2,
+          7
         ]
       }
     }
@@ -2342,6 +2705,14 @@
         },
         {
           "label": "Repression is the primary defence (Q6)",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
+          "label": "Q6: repression is the primary defence; defences develop in normal maturation",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
             "page": 3,
@@ -2464,6 +2835,14 @@
             "page": 6,
             "questionNumber": 11
           }
+        },
+        {
+          "label": "Phobia: displacement (Little Hans: fear of father displaced to horses)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 42
+          }
         }
       ]
     },
@@ -2497,6 +2876,22 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
             "page": 2,
             "questionNumber": 3
+          }
+        },
+        {
+          "label": "Projection 'He hates me' vs denial 'I don't hate him'",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 10,
+            "questionNumber": 37
+          }
+        },
+        {
+          "label": "Denial common in severe physical illness",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 8,
+            "questionNumber": 32
           }
         }
       ]
@@ -2560,6 +2955,14 @@
             "page": 15,
             "questionNumber": 31
           }
+        },
+        {
+          "label": "Projective identification vs projection (Q13, Q15)",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 13
+          }
         }
       ]
     },
@@ -2606,6 +3009,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
             "page": 10
+          }
+        },
+        {
+          "label": "Catharsis: expression of suppressed material with relief",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 10,
+            "questionNumber": 41
           }
         }
       ]
@@ -2654,6 +3065,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
             "page": 11
           }
+        },
+        {
+          "label": "Avoidance: agoraphobia",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 9,
+            "questionNumber": 38
+          }
         }
       ]
     },
@@ -2700,6 +3119,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
             "page": 12
+          }
+        },
+        {
+          "label": "Preconscious maintains the repressive barrier",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 34
           }
         }
       ]
@@ -2756,6 +3183,14 @@
             "page": 10,
             "questionNumber": 21
           }
+        },
+        {
+          "label": "Piaget is not a neo-Freudian",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 36
+          }
         }
       ]
     },
@@ -2811,6 +3246,14 @@
             "page": 16,
             "questionNumber": 33
           }
+        },
+        {
+          "label": "Introversion/extroversion are Jung (not Winnicott)",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 27
+          }
         }
       ]
     },
@@ -2850,6 +3293,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/DYNAMIC PSYCHOPATHOLOGY.pdf",
             "page": 15
+          }
+        },
+        {
+          "label": "Dream work: latent into manifest",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 24
           }
         }
       ]
@@ -2901,6 +3352,14 @@
         },
         {
           "label": "Q8: condensation = merged impulses in one image",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 8
+          }
+        },
+        {
+          "label": "Condensation: several impulses into one image",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/6) Dynamic Psychopathology Attempt review.pdf",
             "page": 4,

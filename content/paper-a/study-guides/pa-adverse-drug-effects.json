@@ -374,7 +374,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Sedation on **trazodone** is keyed to alpha-adrenergic blockade, **NOT** histaminic blockade: the explanation says **trazodone**'s antihistamine activity is relatively weak and probably clinically insignificant. Its potent alpha-1 blockade (with 5-**HT2A** antagonism) may cause sedation and orthostatic hypotension, and may also underlie its efficacy as a hypnotic.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
         },
         {
           "type": "paragraph",
@@ -390,6 +401,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Clozapine**-induced weight gain is keyed to 5-**HT2C** antagonism: **clozapine** is a potent 5HT2C antagonist, 5HT2C antagonists increase feeding in rats, and 5HT2C knockout mice are overweight (receptors sit in the hypothalamic satiety centres). The options hypoprolactinaemia, leptin sensitisation, **M4** blockade and **H2** antagonism are the wrong answers.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 2,
+            "questionNumber": 7
           }
         },
         {
@@ -469,6 +490,36 @@
             "page": 37,
             "questionNumber": 70
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Antidepressant patient with morning dizziness and palpitations that ease on reclining = alpha-1 adrenergic blockade (also causes postural hypotension, ejaculatory disturbance, dependent oedema).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 3,
+                "questionNumber": 10
+              }
+            },
+            {
+              "text": "**Clozapine**'s orthostatic hypotension is the effect mediated by alpha-1 blockade (postural drop in **BP**); sedation, weight gain, constipation and sialorrhoea are not the alpha-blockade answer.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 4,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "Constipation and dry mouth on **amitriptyline** = muscarinic blockade, especially **M3** (not **M1**, **M2** or alpha-1).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 3,
+                "questionNumber": 11
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -514,6 +565,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 5
             }
+          },
+          {
+            "text": "Trazodone sedation = alpha-1 blockade (its antihistamine action is weak), not H1.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 3,
+              "questionNumber": 11
+            }
           }
         ],
         "facts": [
@@ -552,7 +611,7 @@
         ],
         "highlightBlockIndices": [
           0,
-          4
+          6
         ]
       }
     },
@@ -646,7 +705,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Acute extrapyramidal syndromes (first three)",
+          "mnemonic": "Dancers Always Prance",
+          "expansion": [
+            "D: Dystonia (acute)",
+            "A: Akathisia",
+            "P: Parkinsonism (drug-induced)"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -681,11 +752,51 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Restless pacing, foot stamping when seated, rocking back and forth and fidgeting on **risperidone** 4 mg = akathisia (subjectively unpleasant inner restlessness, seen in 20-==25%== of antipsychotic-treated patients), not tardive dyskinesia, **NMS**, restless leg syndrome or pseudo-parkinsonism. It may become prominent as the dose rises, can be mistaken for psychotic agitation, and has been linked with suicide and aggression towards others.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Propranolol** for akathisia is contraindicated in asthma - the explanation notes that beta-receptor blockade causes bronchospasm; hypertension, obesity and elevated eosinophils are the distractor options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 12
+          }
+        },
+        {
           "type": "paragraph",
           "text": "In serious cases of **TD** the breathing and swallowing muscles are involved, leading to aerophagia and grunting. **TD** is exacerbated by stress but absent during sleep; the lack of insight into the movement disorder is striking.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Annual **TD** incidence on any antipsychotic is keyed at ==3%== (the **SOHO** study of 9298 patients), but the explanation gives several other figures: about ==4%== per year of exposure with first-generation drugs as a class, ==0.8%== (adults) and ==5.3%== (age 54 and older) with second-generation drugs, and ==5.4%== with **haloperidol**. Know which population each number belongs to.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**TD** is attributed to postsynaptic **D2** receptor upregulation/supersensitivity after chronic blockade (high D-2 receptor sensitivity) - **NOT** high D-2 occupancy or low D-1/D-2 sensitivity. The explanation also lists dopaminergic/cholinergic imbalance and **GABA** hypofunction as theories.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 1,
+            "questionNumber": 4
           }
         },
         {
@@ -731,7 +842,31 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The '**EXCEPT**' answer for **TD** risk factors is continuous use without drug holidays: drug holidays are associated with more frequent relapses, hence higher cumulative antipsychotic doses and a higher **TD** risk. High-potency drugs, affective diagnosis, Afro-Caribbean origin and neurological damage are the genuine risk factors in the options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 10,
+            "questionNumber": 44
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Tardive dyskinesia risk factors (first five of the ten listed)",
+          "mnemonic": "Fat Elderly Diabetics Break Away",
+          "expansion": [
+            "F: Female gender",
+            "E: Elderly",
+            "D: Diabetics",
+            "B: Previous brain damage",
+            "A: Affective illness rather than pure psychotic disorder"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -792,17 +927,29 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**TD** figures that differ between notes and bank: the notes give **TD** as a late side effect in nearly ==25%== of patients (usually after 6 months to 1-2 years); the bank's incidence question gives ==5%== of patients per year of antipsychotic exposure (answer key 2-==5%==). Different measures - do not mix them up.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 49
+          }
+        },
+        {
+          "type": "trap",
+          "text": "First-line adjuvant for **TD** in the **UK** is tetrabenazine (a **VMAT2** inhibitor) - this is **NOT** in the notes, which list **clozapine**, dose reduction, withdrawal, switch to newer atypicals or adding **clonazepam**. The bank also says **clozapine** is the antipsychotic most likely to give resolution, benzodiazepines have mixed evidence, and vitamin E, ginkgo biloba and anticholinergics have some (mixed) evidence.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 40
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Tardive dyskinesia - figures that differ between the notes and the question bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
-            {
-              "text": "Notes: **TD** is a late side effect in nearly ==25%== of patients, usually after at least 6 months to 1-2 years. **Q49**: **TD** develops in ==5%== of patients per year of antipsychotic exposure (answer key 2-==5%==; explanation says ==5%== per year). Different measures - do not mix them up.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 49
-              }
-            },
             {
               "text": "Notes: most cases of **TD** remit spontaneously. **Q68**: approximately ==50%== of **TD** cases are reversible (answer key approximately 50-==55%== recovery within a year with antipsychotic reduction).",
               "source": {
@@ -812,19 +959,59 @@
               }
             },
             {
-              "text": "Notes: **TD** management = **clozapine**, dose reduction, withdrawal, switch to newer atypicals or add **clonazepam**. **Q40**: in the **UK**, first-line adjuvant for **TD** is tetrabenazine (a **VMAT2** inhibitor); **clozapine** is the antipsychotic most likely to give resolution; benzodiazepines have mixed evidence; vitamin E, ginkgo biloba and anticholinergics have some (mixed) evidence. Tetrabenazine is not in the notes.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
-                "page": 21,
-                "questionNumber": 40
-              }
-            },
-            {
               "text": "**Q76**: risk factors for **TD** include chronic antipsychotic use, change/cessation of chronic treatment, concomitant anticholinergics, age over 60, female, organic disorder (dementia, intellectual disability, epilepsy), head injury, alcoholism, comorbid mood disorder, negative symptoms, diabetes mellitus; being on atypical antipsychotics is the option that is **NOT** an associated group.",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
                 "page": 40,
                 "questionNumber": 76
+              }
+            },
+            {
+              "text": "Female gender (and older age) is a risk factor for neuroleptic-induced akathisia - not younger age, non-affective psychosis, Afro-Caribbean ethnicity or lipid abnormalities.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 1,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "**Clonazepam** is the drug used for akathisia among the options (**propranolol**, **clonazepam**, **mirtazapine**, **trazodone**, **mianserin** and cyproheptadine can reduce it); procyclidine, atropine, trihexyphenidyl and benperidol are not the key.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 18,
+                "questionNumber": 47
+              }
+            },
+            {
+              "text": "Motor tic is **NOT** a dystonia - writer's cramp, oculogyric crisis, torticollis and blepharospasm are.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 4,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "Rabbit syndrome (perioral/mouth tremor, late in antipsychotic treatment) is a **D2** blockade effect - not **D1**, **D4**, 5HT2A or 5HT2C.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 11,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "Increasing age is the best-established risk factor for **TD** (the majority of those affected are over 55) - ahead of brain pathology, mood disorder, Afro-Caribbean ethnicity and female gender in the options.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 1,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "Increasing the neuroleptic dose gives acute **TD** relief but worsens **TD** in the long run; stopping all neuroleptics suddenly can worsen **TD** acutely.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 1,
+                "questionNumber": 3
               }
             }
           ]
@@ -890,6 +1077,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 7
             }
+          },
+          {
+            "text": "Akathisia: inner restlessness, 20-25% on antipsychotics; mistaken for agitation, linked to suicide/aggression.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 1,
+              "questionNumber": 4
+            }
+          },
+          {
+            "text": "Propranolol for akathisia is contraindicated in asthma (bronchospasm).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 3,
+              "questionNumber": 12
+            }
+          },
+          {
+            "text": "TD mechanism: D2 receptor supersensitivity/upregulation after chronic blockade.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 1,
+              "questionNumber": 4
+            }
+          },
+          {
+            "text": "UK first-line adjuvant for TD is tetrabenazine (VMAT2 inhibitor) - not in the notes.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 40
+            }
           }
         ],
         "facts": [
@@ -928,8 +1147,13 @@
         ],
         "highlightBlockIndices": [
           4,
+          5,
           10,
-          17
+          15,
+          17,
+          24,
+          25,
+          26
         ]
       }
     },
@@ -954,11 +1178,43 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "NMS tetrad",
+          "mnemonic": "Hot Rods Cause Alarm",
+          "expansion": [
+            "H: Extreme hyperthermia",
+            "R: Severe muscular rigidity",
+            "C: Confusion",
+            "A: Autonomic fluctuations (**BP** and pulse rate)"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "Increased **WBC** count, creatinine phosphokinase, liver enzymes, plasma myoglobin and myoglobinuria are noted.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 8
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Bradycardia is the '**NOT** a feature of **NMS**' answer; the explanation gives the tetrad (extreme hyperthermia, severe muscular rigidity and confusion, autonomic fluctuations in **BP** and pulse rate) and also lists diaphoresis, dysphagia, tremor, shuffling gait, tachycardia, dyspnoea, incontinence and delirium progressing to lethargy, stupor and coma - so incontinence, tremor, rigidity and diaphoresis in the options are genuine **NMS** features.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 4,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Myoclonus is the least likely **NMS** feature: it can be seen in serotonin syndrome and not in **NMS** - the same hyperreflexia/myoclonus contrast that separates serotonin syndrome from **NMS**. Muscle rigidity, hyperthermia, autonomic lability and raised **CPK** are the genuine **NMS** features in the options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 8
           }
         },
         {
@@ -999,7 +1255,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**NMS** mortality is keyed at 15-==20%==, with the explanation stating 5-==20%== of patients on oral medication and up to ==30%== on depot formulations die if untreated; the notes give around 20-==30%== if untreated and higher with depot. Know both ranges (the other bands offered were 5-==10%==, 25-==50%==, 1-==2%==, 2-==5%==).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Low serum iron and NMS",
+          "note": "A question states that low serum iron is associated with neuroleptic malignant syndrome (and extrapyramidal reactions) and that correcting with supplemental iron may reduce the risk. The notes do not mention serum iron in relation to **NMS**.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 3,
+            "questionNumber": 12
+          }
         },
         {
           "type": "trap",
@@ -1078,6 +1355,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 8
             }
+          },
+          {
+            "text": "NMS mortality: bank key 15-20% (5-20% oral, up to 30% depot) vs notes 20-30% untreated.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 1,
+              "questionNumber": 2
+            }
+          },
+          {
+            "text": "Gap: low serum iron is associated with NMS and extrapyramidal reactions; iron supplementation may reduce the risk (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 3,
+              "questionNumber": 12
+            }
           }
         ],
         "facts": [
@@ -1107,7 +1400,9 @@
           }
         ],
         "highlightBlockIndices": [
-          3
+          2,
+          6,
+          7
         ]
       }
     },
@@ -1121,6 +1416,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 8
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Agranulocytosis on **clozapine** in the first year is keyed at ==1%== (consistent with the notes' 'around 1 per 100'); the explanation adds **UK** registry figures - neutropenia in ==1.5%== to ==2.9%== of patients over a year, progressing to agranulocytosis in ==0.8%==. Do not confuse the neutropenia and agranulocytosis rates.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 1,
+            "questionNumber": 1
           }
         },
         {
@@ -1153,7 +1458,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1161,6 +1467,26 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 8
+          }
+        },
+        {
+          "type": "trap",
+          "text": "New-onset seizure on **clozapine** 600 mg/day: the next step is to decrease the **clozapine** dose (**clozapine** seizures are dose- or dose-increase-related), not to add **carbamazepine**, **valproate** to the same dose, **amisulpride**, or stop for 6 weeks. The explanation: after a seizure withhold **clozapine** for one day, restart at a reduced dose and give sodium **valproate**; prophylactic **valproate** can be considered at high dose or plasma level above 500 ng/l; **EEG** abnormalities alone do not warrant altering treatment.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 11,
+            "questionNumber": 46
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Clozapine seizure risk by dose",
+          "note": "The notes say **clozapine** lowers seizure threshold dose-relatedly but give no figures. A question states: dose under 300 mg/day 1-==2%==; 300-600 mg/day 3-==4%==; over 600 mg/day ==5%==.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 1,
+            "questionNumber": 1
           }
         },
         {
@@ -1180,6 +1506,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The main risk of combining **clozapine** with **carbamazepine** is leucopenia: **clozapine** can cause neutropenia and **carbamazepine** causes a chronic low white blood cell count (**NOT** seizures, **NMS**, diabetes or weight gain, which were the other options).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 2,
+            "questionNumber": 7
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Transient leucopenia can occur with typical neuroleptics, but agranulocytosis is rare.",
           "source": {
@@ -1188,17 +1524,69 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Risk factors for clozapine agranulocytosis",
+          "note": "A question keys male gender as the exception. Its explanation lists the risk factors as Jewish descent, female gender (male-to-female ratio 1:2), increasing age, first 6 months of treatment, and a low baseline white blood count. The notes give only the 4-18 week peak and benign ethnic neutropenia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Clozapine thromboembolism timing",
+          "note": "The notes' chart lists pulmonary embolism under **clozapine** but give no timing. A question keys the first 3 months of treatment for thromboembolism (possibly related to antiphospholipid antibodies; rare).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 17,
+            "questionNumber": 71
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Clomipramine** is the '**NOT** an option' answer for **clozapine** hypersalivation. The options listed: **amitriptyline** (limited literature support), benzatropine with terazosin, trihexyphenidyl/benzhexol (some centres), hyoscine (very widely used but only one double-blind **RCT**), pirenzepine (widely used, no **UK** licence); **clonidine** has also been used. Anticholinergics can worsen **clozapine**-related gastrointestinal hypomotility.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Clozapine** hypersalivation is keyed to muscarinic receptors, but the explanation says its pharmacological basis remains unclear: suggested mechanisms are muscarinic **M4** agonism, adrenergic alpha-2 antagonism and inhibition of the swallowing reflex.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 43,
+            "questionNumber": 82
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Risk of **FATAL** agranulocytosis with **clozapine** is estimated at ==1 in 4250== treated (likely overall rate without monitoring) and less than ==1 in 8000== during standard monitoring. The notes' 'around 1 per 100' is the risk of agranulocytosis, not fatal agranulocytosis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Rechallenge after a red alert: the notes say **clozapine** must be stopped and never tried again; **Q52**'s explanation says a re-challenge may be possible later with haematologist input, while **Q54** (red alert 10 years ago, all else failed) is keyed 'No **clozapine** should be given' (re-introduction must be avoided unless under specialist supervision). The exam-keyed answer is 'no **clozapine**'.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 54
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Clozapine questions in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
-            {
-              "text": "**Q33**: risk of **FATAL** agranulocytosis with **clozapine** is estimated at ==1 in 4250== treated (likely overall rate without monitoring); less than ==1 in 8000== during standard monitoring. The notes' 'around 1 per 100' is the risk of agranulocytosis, not fatal agranulocytosis.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 33
-              }
-            },
             {
               "text": "**Q78**: over ==80%== of **clozapine** agranulocytosis cases develop within the first 18 weeks (notes: maximum risk 4 to 18 weeks).",
               "source": {
@@ -1221,14 +1609,6 @@
                 "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
                 "page": 28,
                 "questionNumber": 52
-              }
-            },
-            {
-              "text": "Notes vs bank on rechallenge after red alert: notes say **clozapine** must be stopped and never tried again. **Q52** explanation says a re-challenge may be possible later, requiring haematologist input after discontinuation; **Q54** (red alert 10 years ago, all else failed) is keyed 'No **clozapine** should be given', with explanation that re-introduction must be avoided unless under specialist supervision. Exam keyed answer is 'no **clozapine**'.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 54
               }
             }
           ]
@@ -1280,6 +1660,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 8
             }
+          },
+          {
+            "text": "Seizure on clozapine: reduce the dose (withhold one day, restart lower, add valproate).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 11,
+              "questionNumber": 46
+            }
+          },
+          {
+            "text": "Gap: clozapine seizure risk 1-2% (<300 mg), 3-4% (300-600 mg), 5% (>600 mg).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 1,
+              "questionNumber": 1
+            }
+          },
+          {
+            "text": "Gap: agranulocytosis risk factors - Jewish descent, female, older age, first 6 months, low baseline WBC; male gender is not.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 2,
+              "questionNumber": 7
+            }
           }
         ],
         "facts": [
@@ -1310,7 +1714,10 @@
         ],
         "highlightBlockIndices": [
           1,
-          6
+          2,
+          4,
+          14,
+          16
         ]
       }
     },
@@ -1332,6 +1739,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Amisulpiride is the keyed antipsychotic with a significant prolactin-elevating effect (**ziprasidone**, **clozapine**, **quetiapine** and **aripiprazole** were the other options); the explanation simply cites the Maudsley Prescribing Guidelines.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 2,
+            "questionNumber": 5
           }
         },
         {
@@ -1392,7 +1809,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -1480,7 +1898,7 @@
           }
         ],
         "highlightBlockIndices": [
-          5
+          6
         ]
       }
     },
@@ -1564,11 +1982,31 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Whitish-brown granular deposits in the cornea and lens point to **chlorpromazine**, while irreversible pigmentation (similar to retinitis pigmentosa) points to thioridazine; **quetiapine** rarely gives glaucoma and other eye changes (**amisulpride** and **olanzapine** were the other options).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 10,
+            "questionNumber": 43
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Allergic dermatitis and photosensitivity can occur with low-potency agents.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 10
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Photosensitivity is keyed to **chlorpromazine** (allergic dermatitis and photosensitivity occur with low-potency agents; long-term **chlorpromazine** can cause reversible blue-gray discoloration of sun-exposed skin). Irreversible retinal pigmentation belongs to high-dose thioridazine (above 1000 mg a day) - do not mix the skin and retinal effects.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 17,
+            "questionNumber": 45
           }
         },
         {
@@ -1585,6 +2023,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 10
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In an elderly man with prostatic hypertrophy and high cholesterol, **haloperidol** is the preferred antipsychotic: high-potency neuroleptics have lower anticholinergic effects and are less likely to cause urinary retention than low-potency ones such as **chlorpromazine**. The explanation rejects thioridazine (powerful anticholinergic action, hypotension, agranulocytosis risk, fatal **QT**-prolongation arrhythmia), **clozapine** (not recommended) and **olanzapine** (cholesterol-related issues).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 1,
+            "questionNumber": 2
           }
         },
         {
@@ -1612,6 +2060,44 @@
             "page": 19,
             "questionNumber": 35
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Phenothiazines with pigment deposits in the anterior lens capsule = **chlorpromazine** and thioridazine (the aliphatic phenothiazines, also linked with pigmentary retinopathy).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "Upper normal QTc is 440 ms in men and 470 ms in women; risk of arrhythmia is clearly increased above 500 ms.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 2,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "Female gender is a predisposing factor for **QT** prolongation (60-==70%== of long **QT** syndrome cases are diagnosed in women); the options hyperkalaemia, hypermagnesaemia and hypercalcaemia are not the answer, whereas hypokalaemia and hypomagnesaemia are associated.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 13,
+                "questionNumber": 55
+              }
+            },
+            {
+              "text": "**Aripiprazole** is currently thought to cause the least **QT** prolongation of all antipsychotics (**olanzapine**, **quetiapine**, **haloperidol** and **clozapine** were the other options); the explanation says this may be revised as more data arrive.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 1,
+                "questionNumber": 4
+              }
+            }
+          ]
         },
         {
           "type": "gap",
@@ -1730,7 +2216,8 @@
           }
         ],
         "highlightBlockIndices": [
-          6
+          6,
+          7
         ]
       }
     },
@@ -1816,7 +2303,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Metabolic risk of antipsychotics, most to least (order in the notes' chart)",
+          "mnemonic": "Obese Quokkas Rarely Zoom Away",
+          "expansion": [
+            "O: **Olanzapine** / **clozapine** (most)",
+            "Q: **Quetiapine**",
+            "R: **Risperidone**",
+            "Z: **Ziprasidone**",
+            "A: **Aripiprazole** / **lurasidone** (least)"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -1863,6 +2364,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "An obese (**BMI** 38) schizophrenia patient on **olanzapine** with drowsiness and erectile dysfunction: the answer is diabetes mellitus - erectile dysfunction affects 35-==75%== of male diabetics and can be induced by **olanzapine**, whose other effects are drowsiness and weight gain (weight gain may also reduce sexual desire).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 11,
+            "questionNumber": 48
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Schizophrenia patients have 3 times greater intra-abdominal fat than controls. In the pre-antipsychotic era over ==15%== of drug-naive first-episode patients had impaired fasting glucose, hyperinsulinaemia and high cortisol.",
           "source": {
@@ -1884,6 +2395,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**CATIE** metabolic syndrome prevalence is keyed as a range of 41-==50%==, which sits between the two figures the explanation (and the notes) give: ==51.6%== of females and ==36.0%== of males. Remember the sex-specific figures rather than one range.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 2,
+            "questionNumber": 5
           }
         },
         {
@@ -1997,7 +2518,8 @@
         "highlightBlockIndices": [
           1,
           2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -2051,7 +2573,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "In **CATIE**, **olanzapine** had the lowest discontinuation rate (==64%==, versus **perphenazine** ==75%==, **quetiapine** ==82%==, **risperidone** ==74%==, **ziprasidone** ==79%==; ==74%== overall at 18 months, median time to stop 4.6 months) but the highest side-effect burden. **Amisulpride**, one of the options, is not among the trial drugs the explanation lists.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 4,
+            "questionNumber": 14
+          }
         },
         {
           "type": "paragraph",
@@ -2209,7 +2742,7 @@
         ],
         "highlightBlockIndices": [
           0,
-          4
+          5
         ]
       }
     },
@@ -2223,6 +2756,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "New prostatism and recurrent **UTI** in an older man on an antidepressant, with a normal prostate on examination, points to **amitriptyline**: drugs with significant anticholinergic properties are notorious for causing signs of prostatism in elderly men, with urinary retention and sometimes bladder distension (**nefazodone**, **reboxetine**, **trazodone** and **mirtazapine** were the distractors).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 9
           }
         },
         {
@@ -2263,7 +2806,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 14
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2271,6 +2815,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Amitriptyline** is the antidepressant most associated with QTc prolongation (tricyclics as a class). **Moclobemide**, **citalopram** and **venlafaxine** have a low effect on QTc; **mirtazapine** and the SSRIs (except **citalopram**) have no effect on QTc prolongation.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 2,
+            "questionNumber": 6
           }
         },
         {
@@ -2299,6 +2853,26 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Flushed, dry mouth, dry skin, feeling hot and confused on an antipsychotic plus antidepressant combination = anticholinergic syndrome (additive muscarinic blockade from phenothiazines, tricyclics and antiparkinsonian agents), not **NMS**, serotonin syndrome, **SSRI** discontinuation or idiopathic parkinsonism. The explanation adds mild organic brain syndrome (disorientation, poor concentration, short-term memory impairment, worse at night), mydriasis with loss of accommodation and fever.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Agitated, hallucinating inpatient who is flushed with hot dry skin, mydriasis, rapid pulse and diminished bowel sounds: the best step is to discontinue anticholinergic drugs (review need and appropriateness of all medicines; withdraw or switch anything anticholinergic) - **NOT** to give atropine or sedate with **olanzapine**, **diazepam** or **haloperidol**. Delirium is a medical emergency with significant mortality if not recognised early.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 11
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Amoxapine can cause hyperprolactinaemia as it has dopamine antagonistic effects. **SIADH** and hyponatraemia can occur with TCAs. Fine rapid tremor and dysarthria are sometimes reported.",
           "source": {
@@ -2320,6 +2894,36 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 14
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Antidepressants in pregnancy",
+          "note": "The notes do not discuss pregnancy. A question keys **amitriptyline** as the treatment of choice in a pregnant woman with severe depression: the explanation says the antidepressants recommended in pregnancy are **amitriptyline**, **nortriptyline**, **imipramine** and **fluoxetine** (**venlafaxine**, **reboxetine**, **paroxetine** and **fluvoxamine** were the other options).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 2,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Fluoxetine and malformation risk",
+          "note": "The notes do not cover **fluoxetine** in pregnancy. A question keys that **fluoxetine** does not appear to significantly increase the risk of major foetal malformations; the explanation adds that tricyclics and **fluoxetine** have no known teratogenic effect in humans and miscarriages do not seem to be increased by **fluoxetine**.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Antidepressant for depression in lithium-treated bipolar disorder",
+          "note": "A question keys **citalopram** (an **SSRI**) for depression in a man with bipolar disorder on **lithium** maintenance, because the risk of inducing a switch to mania is less with SSRIs and more with TCAs, MAOIs and SNRIs. The notes do not cover switch risk by antidepressant class.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 17,
+            "questionNumber": 46
           }
         },
         {
@@ -2371,6 +2975,36 @@
             "page": 42,
             "questionNumber": 79
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Repeat stem: new prostatism and recurrent **UTI** in an older man on an antidepressant = **amitriptyline** (anticholinergic properties).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 16,
+                "questionNumber": 42
+              }
+            },
+            {
+              "text": "Repeat stem: flushed, dry, hot, confused patient on antipsychotic plus antidepressant = anticholinergic syndrome.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 16,
+                "questionNumber": 43
+              }
+            },
+            {
+              "text": "**Amitriptyline**'s atropine-like anticholinergic action can slow **GI** transit and so slow oral absorption, although nearly ==95%== of the oral dose is still absorbed.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 2,
+                "questionNumber": 7
+              }
+            }
+          ]
         },
         {
           "type": "gap",
@@ -2436,11 +3070,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 14
             }
+          },
+          {
+            "text": "QTc: tricyclics (amitriptyline) most; moclobemide, citalopram, venlafaxine low; mirtazapine and SSRIs (except citalopram) none.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 2,
+              "questionNumber": 6
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
-          4
+          2,
+          6,
+          7
         ]
       }
     },
@@ -2463,6 +3107,29 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 15
           }
+        },
+        {
+          "type": "trap",
+          "text": "Electric shock-like sensations are the **NOT**-a-feature answer for serotonin syndrome: they belong to **SSRI** discontinuation syndrome. Serotonin syndrome features are confusion, pyrexia, sweating, myoclonic jerks, hyperreflexia, autonomic instability, gastrointestinal symptoms, mood changes and mania.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 12,
+            "questionNumber": 53
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Serotonin syndrome features (first five listed)",
+          "mnemonic": "Don't Mix Drugs - Heed Alerts",
+          "expansion": [
+            "D: Diarrhoea",
+            "M: Myoclonus",
+            "D: Diaphoresis",
+            "H: Hyperactive reflexes",
+            "A: Ataxia"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -2494,7 +3161,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2680,7 +3348,9 @@
         ],
         "highlightBlockIndices": [
           2,
-          4
+          3,
+          4,
+          6
         ]
       }
     },
@@ -2702,6 +3372,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "For a patient who does not want to gain weight, TCAs are the antidepressant class to avoid: all tricyclics can cause weight gain; among SSRIs **paroxetine** and possibly **citalopram** may cause weight gain, while SNRIs have minimal impact on weight.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 32
           }
         },
         {
@@ -2737,6 +3417,36 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Obesity is the '**NOT** a high-risk factor' answer for drug-induced hyponatraemia. Risk factors: older age (most important), female gender, major surgery, history of hyponatraemia or low baseline sodium, co-therapy with diuretics, NSAIDs, antipsychotics, **carbamazepine** and others, and reduced renal function; reduced renal function, old age, diuretics and medical co-morbidity were the genuine risk options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 51
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A 67-year-old on antidepressant treatment, sunbathing on a summer afternoon, with nausea, dizziness and leg cramps = hyponatraemia. Most antidepressants are strongly linked with it; its features are nausea, dizziness, lethargy, confusion, cramps and seizures, and old age, warm weather and diuretics add to the risk.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 2,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A woman treated for depression with lethargy, cramps, poor memory and weight loss on a hot afternoon, recently started on 'water tablets', = hyponatraemia induced by diuretics plus antidepressants. Compare the near-identical stem keyed **lithium** toxicity (nausea and diarrhoea with weight loss, long-term unknown psychotropic, new 'water tablets').",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 2,
+            "questionNumber": 6
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Severe sweating, especially nocturnal, is seen in some patients; terazosin is effective in counteracting sweating.",
           "source": {
@@ -2750,6 +3460,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Dopamine agonist is the keyed drug of choice for restless legs syndrome (**ropinirole**, **pramipexole**, carbidopa/**levodopa** or pergolide are commonly used; **clonazepam** may also be beneficial) - not an antidepressant, baclofen or an antipsychotic.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 12,
+            "questionNumber": 51
           }
         },
         {
@@ -2802,7 +3522,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 17
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2829,6 +3550,16 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Aspirin and SSRI bleeding risk",
+          "note": "The notes link SSRIs to upper **GI** bleeding (platelet effects, **NSAID** users). A question keys aspirin as the drug that increases bleeding risk with SSRIs: the risk is increased with antiplatelets (low-dose aspirin, clopidogrel) and NSAIDs but is particularly high with aspirin; a large Canadian study found a ==42%== increased bleeding risk with aspirin plus an **SSRI** versus aspirin alone.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Antidepressants with low inhibition of serotonin reuptake (**nortriptyline**, **doxepin**, **trazodone**) are safer for **GI** bleeding than those with high inhibition (**clomipramine**, **paroxetine**, **sertraline**, **fluoxetine**).",
           "source": {
@@ -2842,6 +3573,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Agomelatine and sexual dysfunction",
+          "note": "The notes' list of antidepressants with lower sexual dysfunction (**bupropion**, **mirtazapine**, **moclobemide**, **nefazodone**, **reboxetine**) does not include **agomelatine**. A question keys **agomelatine** as the antidepressant least likely to cause sexual dysfunction (explanation: relatively mild side-effect profile, no discontinuation syndrome, generally weight neutral); **trazodone**, **venlafaxine**, **fluoxetine** and **amitriptyline** were the other options.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 3,
+            "questionNumber": 9
           }
         },
         {
@@ -2874,7 +3615,7 @@
         },
         {
           "type": "trap-list",
-          "title": "SSRI questions where the bank adds to the notes",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "**Q14** and **Q51**: **SSRI**/antidepressant hyponatraemia - main risk factor older age; also female sex, major surgery, low baseline Na, diuretics, NSAIDs, antipsychotics, **carbamazepine**, reduced renal function, comorbidity and low body weight; obesity is **NOT** a high-risk factor.",
@@ -2890,6 +3631,22 @@
                 "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
                 "page": 29,
                 "questionNumber": 53
+              }
+            },
+            {
+              "text": "Myoclonic jerks are the **NOT**-a-feature answer for **SSRI** discontinuation syndrome (they belong to serotonin syndrome); electric shock-like sensations, dizziness, insomnia, increased dreams, headache, lethargy and **GI** symptoms are discontinuation features.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 4,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "The most common **sildenafil** side effect among the options is nasal stuffiness (explanation: headache ==16%==, facial flushing ==10%==, indigestion ==7%==, nasal congestion ==4%==, **UTI** ==3%==, vision problems ==3%==); the notes call headache the most common, but it was not offered as an option.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 3,
+                "questionNumber": 9
               }
             }
           ]
@@ -2982,6 +3739,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 18
             }
+          },
+          {
+            "text": "Gap: aspirin carries the highest bleeding risk with SSRIs (42% higher than aspirin alone in a Canadian study).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 3,
+              "questionNumber": 11
+            }
           }
         ],
         "facts": [
@@ -3019,7 +3784,8 @@
           }
         ],
         "highlightBlockIndices": [
-          11
+          8,
+          16
         ]
       }
     },
@@ -3081,7 +3847,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 19
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Nefazodone** is the antidepressant with high hepatotoxic potential (its sale was discontinued by the manufacturer in 2003 because of hepatotoxicity); **trazodone**, **amitriptyline**, dothiepin and **imipramine** were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Mirtazapine** is the antidepressant with a significant agranulocytosis risk (all drugs ending -zapine can cause it - **mirtazapine**, **olanzapine**, **clozapine**; **carbamazepine** too - and **mianserin** as well); **bupropion**, **escitalopram**, **fluoxetine** and **venlafaxine** are not.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 3,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Mirtazapine and cholesterol",
+          "note": "The notes do not mention raised lipids with **mirtazapine**. A question keys **mirtazapine** as the antidepressant with raised cholesterol: similar to **olanzapine**, it is associated with blood dyscrasias and hyperlipidaemia (**fluoxetine**, **imipramine**, **venlafaxine** and **paroxetine** were the other options).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 3,
+            "questionNumber": 13
+          }
         },
         {
           "type": "paragraph",
@@ -3133,7 +3930,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The cheese reaction is the **MAOI** side effect: MAOIs inactivate **GI** metabolism of dietary tyramine, so intact tyramine enters the circulation and its powerful pressor effect can cause a hypertensive crisis - not a **TCA**, **SNRI**, **SSRI** or atypical antipsychotic effect.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 62
+          }
         },
         {
           "type": "trap",
@@ -3204,6 +4012,44 @@
             "page": 10,
             "questionNumber": 18
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Patient on **tranylcypromine** should not take an excess of cheese (tyramine reaction) - not swede, banana, potatoes or salt.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 4,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "Repeat stem: **tranylcypromine** - avoid excess cheese (tyramine-related reaction on MAOIs).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 17,
+                "questionNumber": 44
+              }
+            },
+            {
+              "text": "On **tranylcypromine**, nifedipine is the safe option; pethidine, pseudoephedrine, **buprenorphine** and salbutamol were the unsafe distractors. MAOIs should not be combined with other psychoactive substances; potentially fatal combinations include SSRIs, tricyclics, **MDMA**, meperidine, tramadol and dextromethorphan.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 4,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "Nomifensine (noradrenaline, dopamine and serotonin reuptake inhibitor) was withdrawn because of haemolytic anaemia in a small number of patients.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -3302,7 +4148,7 @@
         ],
         "highlightBlockIndices": [
           0,
-          2
+          5
         ]
       }
     },
@@ -3336,7 +4182,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 21
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3347,11 +4194,41 @@
           }
         },
         {
+          "type": "trap",
+          "text": "For severe **lithium** toxicity the best immediate treatment is haemodialysis: initial antipoisoning measures such as gastric lavage may help, but success ultimately depends on eliminating **lithium** from the body, which haemodialysis does rapidly (peritoneal dialysis, forced alkaline diuresis, volume repletion and **AV** haemofiltration were the other options).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 1,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Nausea, diarrhoea, lethargy and weight loss on a hot afternoon in a patient on long-term unknown psychotropic medication who has just started 'water tablets' = **lithium** toxicity (not hyponatraemia, hypokalaemia, **NMS** or serotonin syndrome) - contrast the near-identical stem keyed hyponatraemia, which features cramps and poor memory in a patient being treated for depression.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 6
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Cardiac: **ECG** effects of a therapeutic dose resemble hypokalaemia - flat or inverted T waves. **Lithium** can depress sinus node activity and is contraindicated in sick sinus syndrome.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 21
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The most likely **lithium** **ECG** change is T-wave flattening or inversion (changes in T wave morphology): in the cited study heart rate decreased and the P-Q interval increased slightly, with no change in the S-T segment or the corrected Q-T interval. A prolonged QTc, **ST** elevation or prolonged **QRS** is therefore **NOT** the answer. Routine **ECG** monitoring is not necessary without symptoms or signs of heart disease at serum levels of about 0.6 mmol/l.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 4,
+            "questionNumber": 14
           }
         },
         {
@@ -3388,7 +4265,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 22
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3407,11 +4285,41 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The '**NOT** true' **lithium** statement is 'coarse tremor is a common side effect' - fine hand tremor is the common one, coarse tremor indicates toxicity. Also true in the options: oral preparations differ in bioavailability, **ECG** changes occur even at therapeutic doses, peripheral oedema is recognised, and hypothyroidism is more common in middle-aged women (contrast the bank's hypothyroidism question keyed 'young females').",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 19,
+            "questionNumber": 50
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Teratogenic: the most common effect involves the cardiac valves, especially Ebstein's anomaly of the tricuspid valve; risk in **lithium**-exposed fetuses is 1 of 1,000 (20 times the general population). **Lithium**'s teratogenic effects are somewhat lower than those of **valproate** or **carbamazepine**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Ebstein's anomaly points to **lithium** (not **valproate**, **lamotrigine**, **carbamazepine** or **gabapentin**): the explanation gives a relative risk of 10-20 times control but a low absolute risk of 1:1000, with maximum risk on exposure 2-6 weeks after conception. The notes say 20 times; the bank's **Q56** estimates only 2-3 times.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Lithium and ECT",
+          "note": "A question keys **lithium** as the drug that may require a lower than normal **ECT** current, because **lithium** can reduce the seizure threshold even at normal therapeutic doses. The notes do not link **lithium** to **ECT**.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 2,
+            "questionNumber": 8
           }
         },
         {
@@ -3431,8 +4339,38 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Lithium and hyperparathyroidism",
+          "note": "A question keys **lithium** as associated with hyperparathyroidism: hypocalcaemia and hyperparathyroidism are uncommon **lithium** side effects (common medical symptoms are nausea, polydipsia and constipation). The notes do not mention parathyroid effects.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 3,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Lithium** hypothyroidism: the notes say it is especially in middle-aged women (3-4:1 in women, first 2 years), but the bank keys it as much more common in **YOUNG** **FEMALES** (explanation: especially younger women). Disagreement - know both.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 75
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Lithium** and Ebstein anomaly: the notes say ==1 in 1==,000 (20 times the general population), but the bank says more recent data suggest the effect is much smaller - best estimate 2-3 times (not 20-400 times as first suggested); general population risk 7:100,000; keyed true statement: maternal mental illness in general may increase the risk (cardiac malformations ==2.41%== vs ==1.15%==, **RR** 1.65, dose-dependent).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 30,
+            "questionNumber": 56
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Lithium - where the bank differs from or adds to the notes",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Polyuria: notes say nearly 1/3rd of patients; **Q67** says polyuria from impaired urinary concentrating ability occurs in up to ==20%== of chronically treated patients. Both agree amiloride (K+-sparing) is the diuretic to use - thiazides can dramatically raise plasma **lithium** levels.",
@@ -3440,22 +4378,6 @@
                 "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
                 "page": 36,
                 "questionNumber": 67
-              }
-            },
-            {
-              "text": "Hypothyroidism: notes say especially middle-aged women (3-4:1 in women, first 2 years). **Q75**: **lithium**-induced hypothyroidism is keyed as much more common in **YOUNG** **FEMALES** (explanation: especially younger women). Disagreement - know both.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
-                "page": 40,
-                "questionNumber": 75
-              }
-            },
-            {
-              "text": "Ebstein anomaly: notes say ==1 in 1==,000 (20 times the general population). **Q56**: more recent data suggest the effect is much smaller - best estimate 2-3 times (not 20-400 times as first suggested); general population risk 7:100,000; keyed true statement is that maternal mental illness in general may increase the risk; cardiac malformations ==2.41%== vs ==1.15%== (**RR** 1.65), dose-dependent.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
-                "page": 30,
-                "questionNumber": 56
               }
             },
             {
@@ -3472,6 +4394,22 @@
                 "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
                 "page": 44,
                 "questionNumber": 83
+              }
+            },
+            {
+              "text": "**ECG** changes (reversible T-wave flattening and inversion) can be seen even at normal therapeutic **lithium** doses, usually with no clinical consequences; coarse tremors, bradycardia, pulmonary oedema and ataxia were the other options.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 12,
+                "questionNumber": 52
+              }
+            },
+            {
+              "text": "Tricuspid valve defect in a newborn points to **lithium**; **valproate**-induced neural tube defects are predominantly lumbosacral, with anencephaly occasionally seen (**paroxetine**, **zopiclone** and **naltrexone** were the other options).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 3,
+                "questionNumber": 9
               }
             }
           ]
@@ -3584,7 +4522,9 @@
         "highlightBlockIndices": [
           0,
           3,
-          9
+          6,
+          9,
+          18
         ]
       }
     },
@@ -3617,7 +4557,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 24
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3664,6 +4605,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Agranulocytosis is the **NOT**-a-**valproate**-side-effect answer: common **valproate** effects include weight gain, nausea, vomiting, diarrhoea, sedation, tremor and hair loss with curly regrowth (thrombocytopenia is also a recognised **valproate** effect, as in the notes' haematological table).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 1,
+            "questionNumber": 3
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Neurological: **lamotrigine** is generally well tolerated but can cause dizziness, ataxia, headache, sedation, tremor and nausea. **Topiramate** can produce word-finding difficulties (anomia) and poor concentration. **Vigabatrin** (no significant antimanic efficacy) has the peculiar side effect of visual field defects.",
           "source": {
@@ -3685,6 +4636,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 23
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Fatal valproate hepatotoxicity incidence",
+          "note": "The notes describe **valproate** liver failure and its risk factors but give no incidence. A question keys ==1 in 100==,000 for fatal hepatotoxicity in those taking **valproate** alone (risk factors: age under ten, first few months of treatment, severe epilepsy, multiple drugs).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 15,
+            "questionNumber": 41
           }
         },
         {
@@ -3748,6 +4709,16 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Valproate foetal malformation risk",
+          "note": "The notes give neural tube defects in 1-==4%== of mothers. A question keys about ==7%== for foetal malformation with **valproate** (explanation: ==7.2%==; neural tube defect incidence 1-==2%==, rising with dose above 1 g/day; epilepsy itself raises malformation risk two- to three-fold).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 1,
+            "questionNumber": 3
+          }
+        },
+        {
           "type": "paragraph",
           "text": "**Valproate** can cause obesity, hyperandrogenism and **PCOD** associated with hirsutism.",
           "source": {
@@ -3789,7 +4760,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 24
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -3993,8 +4965,8 @@
         ],
         "highlightBlockIndices": [
           0,
-          9,
-          12
+          11,
+          15
         ]
       }
     },
@@ -4048,7 +5020,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 25
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -4080,6 +5053,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 25
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In a 10-year-old with Tourette's syndrome whose tic treatment has caused significant weight gain, **clonidine** is the keyed alternative: weight gain with antipsychotics may be more pronounced in children and limit their use, while **clonidine** reduces tic severity and frequency in open studies. Note the notes call **clonidine** unpopular for tics/**ADHD** because of high rates of hypotension.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 18,
+            "questionNumber": 49
           }
         },
         {
@@ -4123,6 +5106,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Benzodiazepine withdrawal is associated with decreased brain **GABA** function: tolerance arises because **GABA**/benzodiazepine receptors down-regulate and become less responsive, so on withdrawal inhibitory **GABA** action is reduced (not increased **GABA** function, nor dopamine/serotonin changes).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 11,
+            "questionNumber": 47
+          }
+        },
+        {
           "type": "table",
           "title": "Benzodiazepine withdrawal and dependence by duration of use (Law et al. 2004, as cited in the notes)",
           "columns": [
@@ -4163,23 +5156,41 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Cholinesterase inhibitors - urinary retention: the notes list urinary retention among their effects, but the bank keys urinary retention as the option that is **NOT** a recognised side effect (explanation: they cause urinary incontinence, not retention; also nausea ==11%==-==47%==, vomiting ==10%==-==31%==, diarrhoea ==5%==-==19%==, anorexia ==4%==-==17%==, cramps, and bradycardia with **donepezil**). Direct disagreement with the notes - flag to check.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 58
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Notes vs question bank - cholinesterase inhibitors",
+          "title": "MCQ Traps — Remember These!",
           "items": [
-            {
-              "text": "Notes list urinary retention among the effects of cholinesterase inhibitors. **Q58** is keyed with urinary retention as the option that is **NOT** a recognised side effect (explanation: they cause urinary incontinence, not retention; also nausea ==11%==-==47%==, vomiting ==10%==-==31%==, diarrhoea ==5%==-==19%==, anorexia ==4%==-==17%==, cramps, bradycardia with **donepezil**). Direct disagreement - flag to check.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 58
-              }
-            },
             {
               "text": "**Q21**: constipation is **NOT** a common **rivastigmine** side effect (very rare).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
                 "page": 11,
                 "questionNumber": 21
+              }
+            },
+            {
+              "text": "Tacrine's potentially serious adverse effect is elevated liver enzymes (also anorexia, nausea, rash, myalgia, weight loss, sweating); **donepezil** is specific for central cholinesterase inhibition whereas tacrine is not, so **donepezil** has fewer peripheral adverse effects.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 13,
+                "questionNumber": 54
+              }
+            },
+            {
+              "text": "Acetylcholine question: the keyed true statement is that cholinergic projections are more predominant than serotonergic projections in the cortex (the cortex shows dense cholinergic innervation in all regions and layers).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 2,
+                "questionNumber": 8
               }
             }
           ]
@@ -4192,6 +5203,36 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
             "page": 21,
             "questionNumber": 39
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Rebound hypertension on stopping clonidine",
+          "note": "A question keys **clonidine** as the drug that can cause severe rebound hypertension when stopped (an alpha-2 agonist whose presynaptic effect reduces adrenergic release). The notes mention only its hypotension and sedation.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 18,
+            "questionNumber": 48
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Acamprosate side effects",
+          "note": "A question keys nausea as a common **acamprosate** side effect (also diarrhoea, abdominal pain, vomiting, pruritus); **acamprosate** should start as soon as abstinence is achieved and continue up to 6 months with regular monthly supervision. The notes do not cover **acamprosate**.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 3,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Disulfiram and acetaldehyde",
+          "note": "A question keys **disulfiram** as the drug that markedly raises blood acetaldehyde: it inhibits aldehyde dehydrogenase, so acetaldehyde is not converted to acetate and accumulates, causing most of the **disulfiram**-ethanol reaction symptoms. The notes do not cover **disulfiram**.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 12,
+            "questionNumber": 49
           }
         },
         {
@@ -4304,8 +5345,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          11,
-          13
+          13,
+          16
         ]
       }
     },
@@ -5318,6 +6359,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 5
           }
+        },
+        {
+          "label": "Trazodone sedation: alpha-1 blockade, not histaminic",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
         }
       ]
     },
@@ -5372,6 +6421,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 7
           }
+        },
+        {
+          "label": "Akathisia 20-25%; can be mistaken for agitation, linked to suicide/aggression",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
+          "label": "Propranolol for akathisia: contraindicated in asthma",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 12
+          }
+        },
+        {
+          "label": "TD = D2 supersensitivity after chronic blockade",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
+          "label": "TD adjuvant: tetrabenazine first line (not in notes)",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 40
+          }
         }
       ]
     },
@@ -5411,6 +6492,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 8
+          }
+        },
+        {
+          "label": "NMS mortality: 15-20% (bank) vs 20-30% untreated (notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Low serum iron associated with NMS/EPS (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 3,
+            "questionNumber": 12
           }
         }
       ]
@@ -5458,6 +6555,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 8
+          }
+        },
+        {
+          "label": "Clozapine seizure: reduce dose; valproate cover",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 11,
+            "questionNumber": 46
+          }
+        },
+        {
+          "label": "Clozapine seizure risk by dose: 1-2%, 3-4%, 5% (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "label": "Clozapine agranulocytosis risk factors (not in notes); male gender is NOT one",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 7
           }
         }
       ]
@@ -5694,6 +6815,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 14
           }
+        },
+        {
+          "label": "Antidepressant QTc: TCAs most; SSRIs (except citalopram), mirtazapine none",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 2,
+            "questionNumber": 6
+          }
         }
       ]
     },
@@ -5787,6 +6916,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 17
+          }
+        },
+        {
+          "label": "SSRI + aspirin: highest bleeding risk (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 11
           }
         }
       ]

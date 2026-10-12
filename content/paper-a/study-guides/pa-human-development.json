@@ -342,7 +342,58 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "gap",
+          "subtopic": "Reading the clock by age",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: the explanation gives ages 4-5 (reception class) as beginning to read the time to the hour, ages 5-6 as able to read the hour or half hour, and ages 6-7 as able to read the hour, half hour or quarter hour on analogue clocks.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 25,
+            "questionNumber": 65
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Copying a circle is keyed to 2-3 years here (explanation: a child can copy a straight line at this age and by 30 months tries to copy a circle and a plus sign), whereas the maturational table above places 'copies circle' at 3 years — match to the question's age range, not the table's single age.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 24,
+            "questionNumber": 63
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** age-matching works on milestone clusters: 3 months = localises sound and discriminates the smile; 2 years = tower of six cubes and two-word sentences without propositions; 3 years = copies a circle, tower of nine cubes, speaks in sentences; 4 years = copies a cross and a circle but not a triangle or diamond, and is toilet trained for bladder and bowel. The 4-year cluster includes a circle, which the maturational table places at 3 years.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Perceptual development by age",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: at birth the infant tracks and scans objects, discriminates levels of brightness, fixes objects, has fixed focus at about 20 cm and figure-ground discrimination (newborn acuity about 20/300); at 1 month differentiates faces with preference for complex face-like stimuli; at 2 months has depth perception and prefers three-dimensional to two-dimensional face representations; at 4 months colour vision and accommodation develop; at 6 months accurate acuity (6:6) is achieved.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Colour vision and accommodation develop at 4 months — **NOT** at 2 months (depth perception, preference for 3-D faces), 1 month (face differentiation), 6 months (accurate acuity 6:6) or birth (tracking and scanning, fixed focus about 20 cm), which are the neighbouring-age distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 16,
+            "questionNumber": 66
+          }
         },
         {
           "type": "table",
@@ -419,6 +470,16 @@
               "page": 5
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** answer keys can use age bands that differ from the notes: symbiosis is keyed 2-6 months (explanation and notes say 2-5 months); concrete operations keyed 7-12 years (explanation says 7-11); Kohlberg's pre-conventional level keyed 0-10 years (explanation: up to age 10); Intimacy vs isolation = young adulthood; phallic = 3-5 years. Pick the nearest band rather than hunting for the notes' exact figure.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
         }
       ],
       "concise": {
@@ -463,6 +524,22 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 5
+            }
+          },
+          {
+            "text": "Clock reading: age 4-5 beginning to read the hour, 5-6 hour or half hour, 6-7 quarter hour (mock explanation).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 25,
+              "questionNumber": 65
+            }
+          },
+          {
+            "text": "Perceptual ladder: birth tracking/scanning; 1 month faces; 2 months depth and 3-D faces; 4 months colour vision and accommodation; 6 months accurate acuity (EMI).",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 4,
+              "questionNumber": 6
             }
           }
         ],
@@ -518,7 +595,10 @@
         ],
         "highlightBlockIndices": [
           3,
-          4
+          6,
+          7,
+          9,
+          10
         ]
       }
     },
@@ -584,7 +664,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Freud's psychosexual stages in order",
+          "mnemonic": "OAPLG — Old Aunts Pour Lovely Gin",
+          "expansion": [
+            "Oral",
+            "Anal",
+            "Phallic",
+            "Latency",
+            "Genital"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -600,6 +694,36 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A 4-year-old girl who now recognises she is a girl and wants more time with her father is in the **PHALLIC** phase (3-5 years) — the explanation ties it to penis envy, a wish to receive the penis and bear a child (the Electra complex), resolved by identification with the mother; genital, oral, anal and latency are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 3,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Freud matching: establishment of trust = oral; strive for control = anal; castration anxiety and resolution of the oedipal complex = phallic; socialisation and interest in peers = latency; establishment of mature object relationships **AND** true self-identity = genital (one phase can be keyed to two descriptions).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Fixation vignettes: repeated obsessive thoughts about dirt with only partial relief from washing and checking = anal stage (explanation: orderliness, obstinacy, stubbornness, willfulness, frugality and parsimony; typical of obsessive-compulsive neuroses); excessive drinking for pleasure = oral stage (substance abuse as oral regression/dependency). Projection of good and bad impulses onto the mother followed by splitting is **NOT** a Freudian stage — it is Klein's paranoid-schizoid position.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 23
           }
         }
       ],
@@ -642,7 +766,9 @@
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2,
+          5
         ]
       }
     },
@@ -842,6 +968,16 @@
           }
         },
         {
+          "type": "gap",
+          "subtopic": "Polytropy (more than one attachment figure)",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: a child who has more than one attachment figure is described as showing polytropy, e.g. a 20-month-old who cries whenever mother, father or childminder says goodbye. (The notes give monotropy and state that multiple attachments are the rule, but do not name polytropy.)",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 18
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Bowlby: attachment is innate and adaptive (an inherited need that helps survival; the helpless newborn relies on the caregiver for food and warmth). Attachment behaviour peaks between 12-18 months.",
           "source": {
@@ -896,7 +1032,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Phases of attachment by vignette: a 10-week-old who orients to her mother = pre-attachment; a 5-month-old who allows strangers to handle her and is attached to mother, sister and grandmother = indiscriminate attachment; a 2-year-old with preferential attachment to mother who also attaches to father = clear-cut attachment (a 4th phase from 25 months sees the mother as independent).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Finer age ladder of attachment behaviour",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: visual orientation without discrimination = first few months; preferential orientation towards selected persons = 5-7 months; onset of preferential attachment and stranger anxiety = 7-9 months; goal-directed partnership between child and caregiver = 9-36 months; lessening of attachment behaviour with substitutable attachment figures = school age; peak of attachment behaviour = 12-18 months. The phase table puts clear-cut attachment (separation and stranger anxiety) at 6-24 months and the maturational table puts stranger anxiety at 9-10 months.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Proximity seeking, secure base effect and separation anxiety",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: proximity seeking = a 12-month-old following and staying in close contact with her mother; secure base effect (Ainsworth) = a child with mother present moving about, exploring and interacting with others; separation anxiety = distress when separated from the mother, most common at 10-18 months and generally gone by the end of the third year. The notes name the secure base effect but do not define proximity seeking or give the age span of separation anxiety.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 20
+          }
         },
         {
           "type": "paragraph",
@@ -972,7 +1139,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "gap",
+          "subtopic": "Age at which the Strange Situation is used",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: the Strange Situation study of attachment was carried out on children aged 12-24 months; the infant's reactions are noted in three phases: reaction to a stranger with the mother present, reaction when left alone with a stranger, and reaction on re-union with the mother. The notes give the seven situations but no age.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 23,
+            "questionNumber": 64
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The Strange Situation contains 2 separation and 2 re-union episodes within seven combinations of mother/stranger presence, and the infant is classified A anxious avoidant, B secure or C anxious resistant; the distractors vary the counts (1 and 3, 2 and 3, 3 and 1, 1 and 2).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 23,
+            "questionNumber": 61
+          }
         },
         {
           "type": "paragraph",
@@ -1020,7 +1208,58 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "A 2-year-old who keeps playing when her mother leaves and shows no response when she returns = **ANXIOUS** **AVOIDANT** attachment (explanation: indifferent to mother leaving or entering; distress when left alone is comforted by a stranger rather easily) — not secure, resistant, disorganised or absent attachment.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 16,
+            "questionNumber": 67
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Showing no distress at the mother's leaving and ignoring her on return is keyed to insecurely attached **ANXIOUS** **AVOIDANT** behaviour; this explanation quotes about ==20%== for avoidant children whereas the types table gives ==15%==, and the 'anxious ambivalent' and 'anxious resistant' distractors both describe the type C pattern (distress, resisting comfort) rather than indifference.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 2,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Strange Situation vignettes: strong initial proximity seeking followed by high avoidance, with the child frightened, distressed and frozen on the mother's return = **DISORGANISED**; busy exploring, minimal distress at separation and ignoring the caregiver on reunion = **AVOIDANT**; high distress on separation, angry approach, resisting comfort and slow to settle = **RESISTANT**/**AMBIVALENT**. The explanation states the procedure was devised with 12- to 18-month infants.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Parenting associated with each attachment pattern",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: disorganised attachment is often associated with maltreatment or parental trauma; insecure-avoidant with unresponsive parenting; insecure-ambivalent with inconsistent parenting; secure with attuned parenting. (The notes link classification to maternal responsiveness, sensitivity and stimulation but do not pair each type with a parenting description.)",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**DISORGANISED** attachment is the pattern commonly reported in abused children — Main and Solomon (1990) added it as a fourth category for children who did not fit Ainsworth's three; about ==15%== of children in middle-class non-clinical groups show it, it is more frequent in maltreated or maternally deprived children, and the mother may herself have been abused. Avoidant, secure, multiple and ambivalent are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
         },
         {
           "type": "paragraph",
@@ -1085,7 +1324,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Adult Attachment Interview vignettes: spontaneous, coherent, non-defensive answers able to discuss negative experiences = **AUTONOMOUS** (secure); minimising, brief answers, 'I don't remember', no colourful metaphors = **DISMISSING** (explanation adds idealising caregivers); outpouring of emotion, lengthy childhood memories, angry/tearful or overwhelmed = **ENTANGLED** (the explanation also calls it preoccupied).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 10
+          }
         },
         {
           "type": "paragraph",
@@ -1101,6 +1351,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Short separation from the primary caregiver when hospitalised for a physical problem = **ANACLITIC** depression (Spitz, hospitalism; object loss) — **NOT** privation (non-formation of attachment), deprivation (Rutter), pathological separation anxiety or a childhood grief reaction; recovery is good if maternal deprivation is kept to less than three months.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 25,
+            "questionNumber": 66
           }
         }
       ],
@@ -1161,6 +1421,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 11
             }
+          },
+          {
+            "text": "Polytropy = more than one attachment figure (EMI); notes give monotropy and multiple attachments.",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 18
+            }
+          },
+          {
+            "text": "EMI ladder: 5-7 months preferential orientation; 7-9 months preferential attachment and stranger anxiety; 9-36 months goal-directed partnership; school age lessening; peak 12-18 months.",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 2
+            }
+          },
+          {
+            "text": "Strange Situation: children aged 12-24 months (mock key); reactions noted to stranger, to being left, and to reunion.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 23,
+              "questionNumber": 64
+            }
+          },
+          {
+            "text": "Parenting links (EMI): disorganised = maltreatment/parental trauma; avoidant = unresponsive; ambivalent = inconsistent; secure = attuned.",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 9
+            }
           }
         ],
         "facts": [
@@ -1206,9 +1498,15 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
+          5,
           6,
-          8
+          7,
+          10,
+          11,
+          14,
+          15,
+          19,
+          26
         ]
       }
     },
@@ -1282,7 +1580,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "mnemonic",
@@ -1298,6 +1597,36 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The newborn phase in Mahler's theory is **NORMAL** **AUTISM** (0-2 months: mostly sleep, as if intrauterine aloofness continues) — not symbiosis (2-5 months), rapprochement, object constancy or the umbrella separation-individuation phase.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 25,
+            "questionNumber": 67
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Mahler vignettes: a 1-month-old sleeping most of the time = normal autism; an 18-month-old with alternating drives to be autonomous and dependent who explores alone but needs comfort on the mother's return = rapprochement sub-phase; a 3-year-old who understands the mother will not be lost if temporarily away and so functions independently = object constancy sub-phase.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Mahler later discarded the term \"normal autistic phase\"",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: the first few weeks of infancy are termed the 'normal autistic phase' (Mahler later discarded this designation): the newborn is blissfully unaware of anything but its own needs and the mother needs to be available to meet them.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 22,
+            "questionNumber": 62
           }
         },
         {
@@ -1326,7 +1655,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1351,6 +1681,68 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 13
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Mahler is the theorist associated with the autistic phase (normal autism) and with separation-individuation (distractors: conventional morality, anal phase, operational stage, individuality vs inferiority).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 26,
+                "questionNumber": 68
+              }
+            },
+            {
+              "text": "The theory of identity development in children independent of their mothers = Margaret Mahler (distractors Freud, Rutter, Spitz, Winnicott).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 2,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "'Inner and outer world studied via the senses but mother and self perceived as one unit' = **SYMBIOSIS** (2-5 months), not normal autism (0-2 months, mostly sleeping).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 15,
+                "questionNumber": 57
+              }
+            },
+            {
+              "text": "A 28-month-old who can stay alone for long but runs to hug her mother on return from work is keyed to **RAPPROCHEMENT** (anxious about loss of the caregiver's love despite new skills).",
+              "source": {
+                "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 18
+              }
+            },
+            {
+              "text": "Infants who do not interact with the mother when she is present and are not upset when left with the stranger are **ANXIOUS**/**AVOIDANT** (not resistant or disorganised; 'all of the above' is a distractor).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 1,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "A securely attached child shows discomfort when the mother leaves but **NOT** for being alone (the reverse pattern, upset when alone but not at her absence, is avoidant).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 14,
+                "questionNumber": 53
+              }
+            },
+            {
+              "text": "The most common attachment type in the Western world is **SECURE** (most children are securely attached), even though the types table notes avoidant is greater in the West than elsewhere.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+                "page": 26,
+                "questionNumber": 69
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -1396,6 +1788,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 13
             }
+          },
+          {
+            "text": "Mahler's 0-2 month 'normal autistic phase': newborn aware only of its own needs; she later discarded the label.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 22,
+              "questionNumber": 62
+            }
           }
         ],
         "facts": [
@@ -1435,7 +1835,9 @@
         "highlightBlockIndices": [
           1,
           2,
-          3
+          3,
+          6,
+          10
         ]
       }
     },
@@ -1563,7 +1965,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 14
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -1762,7 +2165,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Four parenting styles",
+          "mnemonic": "AAPN — Ask And Pay Nothing",
+          "expansion": [
+            "Authoritative",
+            "Authoritarian",
+            "Permissive",
+            "Neglectful"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1770,6 +2186,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Parents who set **NO** limits, with poor impulse control and aggression when boundaries are violated = **PERMISSIVE**. The explanation contrasts authoritarian (strict rules; low self-esteem, social withdrawal), neglectful (poor self-esteem, impaired self-control, increased aggression) and authoritative (firm rules with shared decision-making; self-reliance, positive self-esteem); 'good enough parent' is a distractor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 2,
+            "questionNumber": 8
           }
         },
         {
@@ -1814,6 +2240,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Family instability: **HYPERACTIVE** children are more affected than easy-going ones is the correct statement; the explanation also says boys are affected more than girls and younger children more than older children (so 'boys less affected' and 'younger less affected' are wrong), cognitive achievement is affected, and the most common psychopathology is behavioural difficulty — not psychosis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 6
           }
         },
         {
@@ -1898,7 +2334,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 16
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "'Increased motivation for academic performance' is the **NOT**-an-effect of parental separation — the explanation says academic and social aptitude suffers; guilt/accepting responsibility, suicidal ideas, physical aggression and changes in bowel habits are the options treated as effects (infants may change eating, sleeping and bowel patterns).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 7
+          }
         },
         {
           "type": "paragraph",
@@ -1925,6 +2372,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Day care is detrimental only in a specific dose: at least 20 hours per week for 4 months or more before the first birthday increases insecure attachment (Belsky and Rovine, 1988) — the distractors (day care reduces attachment behaviour, induces neurotic clinging, affects cognitive development, increases maternal bonding) are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 24,
+            "questionNumber": 67
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Adoption: the earlier the age of adoption the better the outcome; children adopted before age 4 or 5 generally do well. Late adoption after age 8 does not necessarily lead to adjustment problems, but such children are more vulnerable to behavioural problems at home and school (Tizard and Hodges 1978). Adopted children usually become aware of their status between 2 and 4 years; parental disclosure reduces later psychological trauma.",
           "source": {
@@ -1946,6 +2403,26 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Protective factors against child abuse",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: emotionally satisfying relationships with a network of relatives or friends protect against child abuse; parents who were abused as children are less likely to abuse their own children if they have resolved internal conflicts and pain about their history and have an intact, stable, supportive, non-abusive relationship with their partner. Parental personality disorder, history of maltreatment, high parental expectations and young parental age were the distractors.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 24,
+            "questionNumber": 66
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Single-parent households and child abuse",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: the rate of child abuse in single-parent households is 27.3 per 1,000 children, nearly twice that in two-parent households (15.5 per 1,000) (Goldman et al., 2003). The notes link single parenthood to behavioural issues but give no abuse rates.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 14,
+            "questionNumber": 54
           }
         }
       ],
@@ -2006,6 +2483,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 17
             }
+          },
+          {
+            "text": "Child-abuse protective factors: network of relatives/friends; resolved parental history with stable supportive partner (mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+              "page": 24,
+              "questionNumber": 66
+            }
           }
         ],
         "facts": [
@@ -2045,7 +2530,11 @@
         "highlightBlockIndices": [
           1,
           2,
-          4
+          3,
+          5,
+          6,
+          12,
+          20
         ]
       }
     },
@@ -2154,6 +2643,23 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Thomas and Chess's nine temperamental dimensions",
+          "mnemonic": "ARAAITMDA — Active Rabbits Approach Armadillos Inquisitively, Treading Mostly Dainty Aisles",
+          "expansion": [
+            "Activity",
+            "Rhythmicity",
+            "Approach/withdrawal",
+            "Adaptability",
+            "Intensity",
+            "Threshold",
+            "Mood",
+            "Distractibility",
+            "Attention span / persistence"
+          ],
+          "sourced": false
+        },
+        {
           "type": "table",
           "title": "Three behavioural styles identified",
           "columns": [
@@ -2200,7 +2706,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 18
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**EMI**: each behavioural style is matched to three dimensions — **EASY** = high physical energy, readily adapts to changes, regular biorhythms; **SLOW** **TO** **WARM** **UP** = slow changes in mood, low activity, gradual adaptation; **DIFFICULT** = irregular biorhythms, negative emotional display, fiery response to changes.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Dimension profile of each behavioural style (Thomas and Chess)",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: easy children (==40%==) show biorhythm regularity, positive approach to new stimuli, rapid adaptability and mild-to-moderate, mostly positive mood intensity; slow-to-warm-up children (==15%==) show initial withdrawal to new situations, slow adaptability and mild intensity; difficult children (==10%==) show predominantly negative withdrawal to new stimuli, slow adaptability, intense expression of predominantly negative mood and irregular biological functions.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 8
+          }
         },
         {
           "type": "paragraph",
@@ -2321,6 +2848,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 19
             }
+          },
+          {
+            "text": "Profiles (EMI): easy = regular rhythm, positive approach, rapid adaptation; slow to warm up = initial withdrawal, slow adaptation, mild intensity; difficult = negative withdrawal, intense negative mood, irregular.",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 8
+            }
           }
         ],
         "facts": [
@@ -2368,7 +2903,9 @@
         "highlightBlockIndices": [
           2,
           3,
-          8
+          4,
+          5,
+          11
         ]
       }
     },
@@ -2458,7 +2995,50 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Erikson's eight crises in order",
+          "mnemonic": "TAIIIIGI — Tiny Ants In Industrial Iron Imprisoned Giant Insects",
+          "expansion": [
+            "Basic trust vs mistrust",
+            "Autonomy vs shame",
+            "Initiative vs guilt",
+            "Industry vs inferiority",
+            "Identity vs role confusion",
+            "Intimacy vs isolation",
+            "Generativity vs stagnation",
+            "Ego integrity vs despair"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "gap",
+          "subtopic": "Erikson's virtue for each stage",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: the virtues associated with the eight stages are hope, will, purpose, competence, fidelity, love, care and wisdom; the matching key pairs Trust vs mistrust = hope, Autonomy vs shame and doubt = will, Identity vs role confusion = fidelity, Intimacy vs isolation = love, Generativity vs stagnation = care, Integrity vs despair = wisdom.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Erikson's virtues in stage order",
+          "mnemonic": "HWPC-FLCW — Happy Wombats Plan Carefully; Foxes Love Caring Wisely",
+          "expansion": [
+            "Hope",
+            "Will",
+            "Purpose",
+            "Competence",
+            "Fidelity",
+            "Love",
+            "Care",
+            "Wisdom"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -2499,6 +3079,56 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 21
           }
+        },
+        {
+          "type": "trap",
+          "text": "Between ages 6 and 11 the Erikson crisis is **INDUSTRY** vs **INFERIORITY** (not autonomy vs shame, initiative vs guilt, trust vs mistrust or identity vs role confusion); this question quotes 6-11 and its explanation 6-12, whereas the stage table says 6 to 12.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Intimacy vs isolation: age window and link to identity",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: the intimacy vs isolation conflict is placed at ages 20 to 40 (emphasised around age 30); at its start identity vs role confusion is coming to an end though it still lingers at the foundation of the stage (Erikson, 1950). The notes say only young adulthood.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 24,
+            "questionNumber": 66
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A 22-year-old man = **INTIMACY** vs **ISOLATION** (young adulthood, 20-40 years; outcomes love and commitment vs superficial relationships) — not identity vs role confusion, the adolescent crisis that sits next to it as a distractor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 17,
+            "questionNumber": 66
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The **LAST** Erikson stage is **INTEGRITY** vs despair (old age); every wrong option also begins with 'I' (initiative vs guilt, identity vs identity confusion, industry vs inferiority, intimacy vs isolation), so read the whole label rather than the initial.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 24,
+            "questionNumber": 65
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Erikson vignettes: a 3-year-old insisting on opening the door himself and crying when helped = **AUTONOMY** vs **SHAME** and doubt (18 months-3 years); a 50-year-old saving to help her children leave home = **GENERATIVITY** vs **STAGNATION** (about 40-60 years); a 72-year-old retired psychiatrist travelling, reading and doing limited private work = **INTEGRITY** vs **DESPAIR**.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 12
+          }
         }
       ],
       "concise": {
@@ -2537,6 +3167,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 20
             }
+          },
+          {
+            "text": "Erikson virtues: hope, will, purpose, competence, fidelity, love, care, wisdom (EMI).",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 11,
+              "questionNumber": 16
+            }
           }
         ],
         "facts": [
@@ -2566,7 +3204,12 @@
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2,
+          3,
+          4,
+          10,
+          13
         ]
       }
     },
@@ -2645,7 +3288,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 22
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Piaget's four stages in order",
+          "mnemonic": "SPCF — Silly Penguins Chase Foxes",
+          "expansion": [
+            "Sensorimotor",
+            "Pre-operational",
+            "Concrete operational",
+            "Formal operational"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -2678,6 +3334,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 22
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Peek-a-boo is characteristic of the **SENSORIMOTOR** stage: object permanence arrives at about nine months, so the child understands an object that disappears has not ceased to exist (informal/formal operations, preoperational and concrete operations are the distractors).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 26,
+            "questionNumber": 70
           }
         },
         {
@@ -2778,7 +3444,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 23
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "mnemonic",
@@ -2801,6 +3468,36 @@
           }
         },
         {
+          "type": "trap",
+          "text": "A 4-year-old who 'hides' an object on his head, assuming others cannot see it because he cannot, shows **EGOCENTRISM** (pre-operational, demonstrated with the mountains task) — not artificialism, propositional thought, precausal reasoning or circular reaction.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The mismatched pairing is 'Conservation tasks — sensorimotor stage': the explanation uses the mountain and conservation tasks to show the deficiencies of **PRE**-operational thinking; hiding objects = sensorimotor, classification by rules = concrete operational, pendulum = formal operational and mountain tasks = pre-operational are the correct pairs.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Piaget's experiments by stage",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: sensorimotor stage = peek-a-boo (object permanence); pre-operational stage = the three-mountains task (egocentrism: the child describes the doll's view as the same as their own) and conservation failures; concrete operational stage = classification of objects according to rules (serialising, ordering, grouping into classes); formal operational stage = the pendulum experiment (systematically examining length, weight, force and height of drop = hypothetico-deductive reasoning).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 13
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Concrete operational stage: conservation of liquid develops around 6 years, followed by length, count, weight and volume (around 11 to 12 years) in a vertical decalage fashion (one by one, not in parallel).",
           "source": {
@@ -2815,6 +3512,100 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 23
           }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** cross-theory matching by age: a 9-month-old = Trust vs mistrust + Sensorimotor + Oral; a 4-year-old = Pre-operational + Initiative vs guilt + Phallic; a 17-year-old = Deductive reasoning + Genital stage. The explanation gives sensorimotor 0-2 years, pre-operational 2-7, concrete operational 7-11, formal operational over 11, with hypothetico-deductive reasoning in a proportion after age 12.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 22
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** cross-theory matching by age band: 0-1 year = Oral phase; 4-7 years = Initiative vs guilt + Pre-operational stage; 7-12 years = Concrete operational stage + Industry vs inferiority. The key states 7-12 years although the explanation (like the notes) gives concrete operations as 7-11 years.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Theory of mind: age of onset",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: theory of mind develops at about age 4: children begin to understand that what people think, believe and desire affects how they behave, and 4-year-olds pass the false belief task because they understand that beliefs interpret the world rather than being direct copies. (The notes mention Theory of Mind only in the moral-development section, with no age.)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Earliest retrievable memory and infantile amnesia",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: the average age of the earliest retrieved memory is 3.5 years; there is a total lack of memories for events in the first few years of life and amnesia for events in the first 2 to 5 years (infantile amnesia).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 15,
+            "questionNumber": 65
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Piaget is the theorist of cognitive development (distractors Sullivan, Ainsworth, Munroe, Fromm); assimilation, accommodation, equilibration and schemas are his key concepts.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 22,
+                "questionNumber": 60
+              }
+            },
+            {
+              "text": "Object permanence develops in the **SENSORIMOTOR** stage (birth to 2): the baby differentiates self from objects and begins to act intentionally.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 13,
+                "questionNumber": 52
+              }
+            },
+            {
+              "text": "Deductive (hypothetico-deductive) reasoning = **FORMAL** operational stage, achieved in a proportion of children only after age 12 — the generic option 'operational stage' is a distractor.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 1,
+                "questionNumber": 3
+              }
+            },
+            {
+              "text": "A 4-year-old asking 'When do clouds sleep, papa?' shows **ANIMISM** (life and consciousness attributed to inanimate objects), not semiotic thinking, lack of conservation or egocentricity.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 26,
+                "questionNumber": 67
+              }
+            },
+            {
+              "text": "Recognising two balls as the same size despite a distance illusion = **CONCRETE** operational (conservation); this explanation says conservation of number, quantity and volume is achieved by 7-8 years, whereas the notes place liquid conservation at about 6 years.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 16,
+                "questionNumber": 68
+              }
+            },
+            {
+              "text": "**EMI** theorist matching: Kohlberg = good boy-good girl and authority orientation; Freud = anal and genital stages; Erikson = autonomy-shame and integrity-despair; Mahler = symbiotic and autistic stages.",
+              "source": {
+                "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 17
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -2874,6 +3665,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 23
             }
+          },
+          {
+            "text": "Piaget's experiments: peek-a-boo (sensorimotor), mountains (pre-operational), classification (concrete), pendulum (formal) (EMI).",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 9,
+              "questionNumber": 13
+            }
+          },
+          {
+            "text": "Theory of mind develops at about 4 years (false belief task) (mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+              "page": 1,
+              "questionNumber": 1
+            }
+          },
+          {
+            "text": "Earliest memory averages 3.5 years; infantile amnesia for the first 2-5 years (mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 15,
+              "questionNumber": 65
+            }
           }
         ],
         "facts": [
@@ -2920,8 +3735,14 @@
         ],
         "highlightBlockIndices": [
           3,
-          5,
-          7
+          4,
+          6,
+          9,
+          11,
+          13,
+          16,
+          18,
+          20
         ]
       }
     },
@@ -3051,7 +3872,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 25
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The **INCORRECT** statement is 'a 5-year-old can tell time by quarter of an hour' (that comes at 6-7 years); the options treated as correct are a 2-year-old speaking more than 50 words, a 12-month-old speaking up to 3 words, babbling from 3 months and correct grammar at 4 years — matching the language table, not the 'one or two words' at 1 year in the maturational table.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 25,
+            "questionNumber": 65
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** language matching: 18 months = 18-40 words; first social smile = six weeks; repetitive babbling = 9 months; correct use of grammar = 48 months; 'mama' and 'dada' = 12 months; differentiating familiar from unfamiliar faces = 3 months (although the explanation itself places recognising mum's face at 4-6 weeks).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** language matching: telegraphic speech with grammatical word pairs and vocabulary above 240 words = 24 months; early comprehension of syntax = 36 months; language akin to adult speech = 60 months. The explanation describes three-word telegraphic utterances and up to 270 words at 24 months, whereas the notes describe two-word sentences / telegraphic speech without mentioning three-word utterances.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
         },
         {
           "type": "table",
@@ -3147,6 +3999,16 @@
               "page": 25
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Makaton",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: Makaton is a vocabulary/sign system devised in the 1970s by Margaret Walker (speech and language therapist) and two colleagues (the name is from Ma-Ka-Ton); it provides a core vocabulary of selected concepts for children and adults with communication and learning difficulties, with basic ideas introduced first and more complex concepts in later stages, plus a resource vocabulary grouped by topic; it is used in learning disability, autism spectrum disorder and multisensory impairment.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 9
+          }
         }
       ],
       "concise": {
@@ -3199,6 +4061,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 25
             }
+          },
+          {
+            "text": "Makaton: signing/vocabulary system for communication and learning difficulties (learning disability, ASD, multisensory impairment).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+              "page": 3,
+              "questionNumber": 9
+            }
           }
         ],
         "facts": [
@@ -3246,7 +4116,9 @@
         "highlightBlockIndices": [
           6,
           7,
-          8
+          10,
+          11,
+          12
         ]
       }
     },
@@ -3581,7 +4453,32 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 29
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Kohlberg's six stages in order",
+          "mnemonic": "PRCSSU — Please Remember Courtesy; Show Some Understanding",
+          "expansion": [
+            "Punishment and obedience orientation",
+            "Reward orientation (instrumental relativism)",
+            "Concordance orientation (good boy/good girl)",
+            "Social order or authority orientation",
+            "Social contract or legalistic orientation",
+            "Universal ethical orientation"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** proponent matching: Mahler = autistic phase; Erikson = isolation (intimacy vs isolation, 21-40 years); Kohlberg = social contract (Level 5 of the third, post-conventional morality; Level 6 is genuine ethical principles).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 24
+          }
         },
         {
           "type": "paragraph",
@@ -3704,7 +4601,8 @@
         ],
         "highlightBlockIndices": [
           2,
-          4
+          4,
+          5
         ]
       }
     },
@@ -3830,7 +4728,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 32
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Developmental fears matching: imaginary creatures = age 5 and above; animals = age 3; the dark = age 4-5; illness and death = teenage onwards; loud noises and falling = infancy.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Fears at 5-8 years and fears with no age trend",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: fear of animals appears at age 3, the dark at 4 or 5, imaginary creatures and supernatural things at 5 plus, bodily injury and disasters at 5 to 8 years, sex and open spaces in late childhood or adult life, and failure, illness and death from the teenage years; snakes and storms show no particular age trend. (The fears table lacks the 5-8 year group.)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
         },
         {
           "type": "paragraph",
@@ -3847,6 +4766,60 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 32
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Developmental anxieties",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: stranger anxiety appears at about 8 months (infants cry and cling at a stranger's approach); separation anxiety is the response of an infant isolated or separated from its mother, most common at 10-18 months and generally gone by the end of the third year; at the oedipal stage girls fear loss of the mother's love while boys fear bodily injury or castration; after the oedipal conflict a more mature form, superego anxiety (fear that internalised parental representations will cease to love or will punish), appears in latency.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Anxiety matching: onset 7-9 months = **STRANGER** anxiety; mother recognised as an independent object = **SEPARATION** anxiety; girls in the phallic stage = fear of **OBJECT** **LOSS**; the most mature form (prohibitive conflicts) = **SUPEREGO** anxiety.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Types of play and their ages",
+          "note": "Not covered in the Human Development notes — tested via an **EMI**: sensorimotor play from 1-2 years (exploring objects, e.g. shaking a rattle); between 1 and 2 pretend play replaces it (direct imitation of ordinary activities), extending to symbolic play (one object for another, e.g. a toy phone); parallel play at 2-3 years; associative play by 3 (same toys in pairs or groups without real interaction); cooperative play by 4 (sharing, turn-taking); rule-governed play (structure, rules, competition) in middle childhood.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Play matching: shaking a rattle = sensorimotor play; speaking to grandpa on a toy phone = symbolic play; a 7-year-old enjoying board games = rule-governed play; inviting another child to share a toy = co-operative play. The explanation puts parallel play at 2-3 years and cooperative play by age 4, whereas the maturational table places cooperative play at 3 years.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Types of play in developmental order",
+          "mnemonic": "SSPACR — Stripy Squirrels Paint Awful Cat Rugs",
+          "expansion": [
+            "Sensorimotor play",
+            "Symbolic play",
+            "Parallel play",
+            "Associative play",
+            "Cooperative play",
+            "Rule-governed play"
+          ],
+          "sourced": false
         }
       ],
       "concise": {
@@ -3884,6 +4857,30 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 32
+            }
+          },
+          {
+            "text": "Fears: bodily injury and disasters at 5-8 years; supernatural things at 5 plus (mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+              "page": 1,
+              "questionNumber": 2
+            }
+          },
+          {
+            "text": "Anxieties: stranger anxiety ~8 months; separation anxiety 10-18 months; superego anxiety = most mature, latency (EMI).",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 15,
+              "questionNumber": 21
+            }
+          },
+          {
+            "text": "Play: sensorimotor 1-2 y; symbolic; parallel 2-3 y; associative 3 y; cooperative by 4 y; rule-governed in middle childhood (EMI).",
+            "source": {
+              "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 14
             }
           }
         ],
@@ -3923,7 +4920,10 @@
         ],
         "highlightBlockIndices": [
           2,
-          4
+          4,
+          5,
+          11,
+          13
         ]
       }
     },
@@ -3976,6 +4976,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Buying dolls for girls and cars for boys is **SOCIAL** **LEARNING** (reinforcement and modelling, first through parents; e.g. parents discourage sons from dolls more than daughters from trucks) — not gender schema, imprinting, self-realisation or cognitive mapping.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 14,
+            "questionNumber": 56
+          }
+        },
+        {
           "type": "table",
           "title": "Cognitive developmental stages of gender",
           "columns": [
@@ -4013,7 +5023,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 33
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Gender identity is keyed to about 2 years (the explanation: begins around 18 months and is fixed by 24-30 months) — earlier than the notes' 'around age 3-4' / 'around 3 years' for gender labelling; the other options are puberty, early schooling, 4 years and 1 year.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 24,
+            "questionNumber": 62
+          }
         },
         {
           "type": "paragraph",
@@ -4126,8 +5147,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          2,
-          4
+          3,
+          6
         ]
       }
     },
@@ -4276,7 +5297,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 36
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "gap",
+          "subtopic": "Duration of puberty",
+          "note": "Not covered in the Human Development notes — tested via the mock exams: the pubertal period lasts about 2-3 years (a large cohort estimated about 2.4 years in boys and 1.9 years in girls; boys enter puberty about a year later than girls, at an average 11-12, and consistently have the longer duration). The notes give onset ages but not duration.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 24,
+            "questionNumber": 64
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Risk-taking behaviour (and negative identity) is **LESS** common in societies that mark the transition to adulthood by initiation ceremonies; delinquency peaks in the late teens (about 17) and declines afterwards — **NOT** in the early teens, which is the wrong-peak distractor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 25,
+            "questionNumber": 68
+          }
         },
         {
           "type": "table",
@@ -4452,7 +5494,31 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 37
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Parkes's five stages of bereavement",
+          "mnemonic": "ANPDR — All Nurses Pour Decaf, Rarely",
+          "expansion": [
+            "Alarm",
+            "Numbness",
+            "Pining for the deceased",
+            "Depression",
+            "Reorganisation (recovery)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'Protest' is the stage in Lindemann's sequence (shock for 10-14 days, then intense sadness with possible withdrawal, then anger as the bereaved 'protests', then resolution within about a year); mourning, acting out, ambivalence and bargaining are distractors not in that pattern.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 22,
+            "questionNumber": 61
+          }
         },
         {
           "type": "paragraph",
@@ -4469,6 +5535,76 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 37
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Average age of puberty in boys = 11-12 years (**UK** onset 11.2 years in males, 11 in females, menarche 12.5).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 23,
+                "questionNumber": 63
+              }
+            },
+            {
+              "text": "A child builds a tower of 6 cubes at 2 years; at 3 years a tower of 9-10 cubes.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 23,
+                "questionNumber": 65
+              }
+            },
+            {
+              "text": "An 8-year-old (6-11 years) is in **INDUSTRY** vs **INFERIORITY**; the outcome is a sense of achievement or inadequacy.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 1,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "Social learning theory explains how boys 'learn to become boys' and girls 'girls' (rewarding sex-typed behaviour, e.g. a boy told boys don't cry) — not insight, rule, concept or latent learning.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 15,
+                "questionNumber": 60
+              }
+            },
+            {
+              "text": "The fear present at birth is fear of **LOUD** **NOISES** (also a reflex to a sense of falling), not fear of strangers, animals, the dark or supernatural things.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 2,
+                "questionNumber": 5
+              }
+            },
+            {
+              "text": "Fears with no particular age trend include fear of **SNAKES** (and storms); animals, the dark, sex and open spaces all have typical ages.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 1,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Makaton is the communication system designed for people with a learning disability (distractors **COPE**, **BASDEC**, Jarmen, Barthel).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 2,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "All of these are targetable risks for delayed language **EXCEPT** small family size — a large, overcrowded family is associated with more delay.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 14,
+                "questionNumber": 55
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -4528,6 +5664,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
               "page": 37
             }
+          },
+          {
+            "text": "Puberty lasts 2-3 years; boys about 2.4 y, girls about 1.9 y (mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 24,
+              "questionNumber": 64
+            }
           }
         ],
         "facts": [
@@ -4583,7 +5727,10 @@
         "highlightBlockIndices": [
           3,
           4,
-          5
+          5,
+          15,
+          16,
+          19
         ]
       }
     },
@@ -5252,6 +6399,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 5
           }
+        },
+        {
+          "label": "Clock reading: age 4-5 beginning to read the hour, 5-6 hour or half hour, 6-7 quarter hour (mock explanation).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 25,
+            "questionNumber": 65
+          }
+        },
+        {
+          "label": "Perceptual ladder: birth tracking/scanning; 1 month faces; 2 months depth and 3-D faces; 4 months colour vision and accommodation; 6 months accurate acuity (EMI).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 6
+          }
         }
       ]
     },
@@ -5400,6 +6563,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 11
           }
+        },
+        {
+          "label": "Polytropy = more than one attachment figure (EMI); notes give monotropy and multiple attachments.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 18
+          }
+        },
+        {
+          "label": "EMI ladder: 5-7 months preferential orientation; 7-9 months preferential attachment and stranger anxiety; 9-36 months goal-directed partnership; school age lessening; peak 12-18 months.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Strange Situation: children aged 12-24 months (mock key); reactions noted to stranger, to being left, and to reunion.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 23,
+            "questionNumber": 64
+          }
+        },
+        {
+          "label": "Parenting links (EMI): disorganised = maltreatment/parental trauma; avoidant = unresponsive; ambivalent = inconsistent; secure = attuned.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 9
+          }
         }
       ]
     },
@@ -5446,6 +6641,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 13
+          }
+        },
+        {
+          "label": "Mahler's 0-2 month 'normal autistic phase': newborn aware only of its own needs; she later discarded the label.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 22,
+            "questionNumber": 62
           }
         }
       ]
@@ -5548,6 +6751,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 17
           }
+        },
+        {
+          "label": "Child-abuse protective factors: network of relatives/friends; resolved parental history with stable supportive partner (mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 24,
+            "questionNumber": 66
+          }
         }
       ]
     },
@@ -5602,6 +6813,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 19
           }
+        },
+        {
+          "label": "Profiles (EMI): easy = regular rhythm, positive approach, rapid adaptation; slow to warm up = initial withdrawal, slow adaptation, mild intensity; difficult = negative withdrawal, intense negative mood, irregular.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 8
+          }
         }
       ]
     },
@@ -5641,6 +6860,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 20
+          }
+        },
+        {
+          "label": "Erikson virtues: hope, will, purpose, competence, fidelity, love, care, wisdom (EMI).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 16
           }
         }
       ]
@@ -5696,6 +6923,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 22
           }
+        },
+        {
+          "label": "Piaget's experiments: peek-a-boo (sensorimotor), mountains (pre-operational), classification (concrete), pendulum (formal) (EMI).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 13
+          }
+        },
+        {
+          "label": "Theory of mind develops at about 4 years (false belief task) (mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "label": "Earliest memory averages 3.5 years; infantile amnesia for the first 2-5 years (mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 15,
+            "questionNumber": 65
+          }
         }
       ]
     },
@@ -5749,6 +7000,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 25
+          }
+        },
+        {
+          "label": "Makaton: signing/vocabulary system for communication and learning difficulties (learning disability, ASD, multisensory impairment).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 9
           }
         }
       ]
@@ -5877,6 +7136,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 32
           }
+        },
+        {
+          "label": "Fears: bodily injury and disasters at 5-8 years; supernatural things at 5 plus (mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "label": "Anxieties: stranger anxiety ~8 months; separation anxiety 10-18 months; superego anxiety = most mature, latency (EMI).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 21
+          }
+        },
+        {
+          "label": "Play: sensorimotor 1-2 y; symbolic; parallel 2-3 y; associative 3 y; cooperative by 4 y; rule-governed in middle childhood (EMI).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Development Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 14
+          }
         }
       ]
     },
@@ -5970,6 +7253,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/HUMAN DEVELOPMENT.pdf",
             "page": 37
+          }
+        },
+        {
+          "label": "Puberty lasts 2-3 years; boys about 2.4 y, girls about 1.9 y (mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 24,
+            "questionNumber": 64
           }
         }
       ]

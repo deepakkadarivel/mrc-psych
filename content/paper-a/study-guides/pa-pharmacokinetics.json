@@ -30,6 +30,22 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "The processes of pharmacokinetics (ADME)",
+          "mnemonic": "ADME",
+          "expansion": [
+            "Absorption",
+            "Distribution",
+            "Metabolism",
+            "Elimination"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 2
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Tolerance vs sensitisation",
           "note": "**Q52**: the enhancement of drug effects after repeated administration of the same dose is sensitisation (explanation: the physiological opposite of tolerance, seen in drug addiction; tolerance is diminished response after repeated exposure). Not covered in the notes.",
@@ -47,6 +63,16 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
             "page": 4,
             "questionNumber": 8
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Cross tolerance",
+          "note": "Tested in a mock question but not defined in the notes: a barbiturate-dependent patient who shows little response to benzodiazepines is showing cross tolerance. The explanation defines it as decreased response to one medication due to exposure to a different medication (here barbiturates produced cross-tolerance to benzodiazepines). The other options offered were tolerance, dependence, down regulation and sensitisation.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 24,
+            "questionNumber": 64
           }
         }
       ],
@@ -72,7 +98,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 2
             }
+          },
+          {
+            "text": "Cross tolerance (not in notes): reduced response to one drug after exposure to another, e.g. barbiturate-dependent patient responding poorly to benzodiazepines.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 24,
+              "questionNumber": 64
+            }
           }
+        ],
+        "highlightBlockIndices": [
+          3
         ]
       }
     },
@@ -102,6 +139,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Subject to renal first pass metabolism' is the **INCORRECT** statement about oral administration: the explanation says orally taken drugs are subject to **HEPATIC** first-pass metabolism, which is avoided if the drug is given intravenously.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 64
           }
         },
         {
@@ -181,6 +228,21 @@
           "title": "Factors influencing absorption from the GI tract"
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Factors influencing absorption from the GI tract (the table's seven factors, in order)",
+          "mnemonic": "Mum Gets Pasta Making A Big Feast",
+          "expansion": [
+            "Motility (intestinal)",
+            "Gastric emptying",
+            "pH (gastric and intestinal)",
+            "Microflora / wall enzymes",
+            "Area available for absorption",
+            "Blood flow (integrity of)",
+            "Food (presence or absence)"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "Poor oral absorption leads to lower bioavailability in plasma compared with intravenous administration. This is mainly due to lack of absorption from the intestine, related to inhibitory factors such as food or gastric acid, or to changes in intestinal motility.",
           "source": {
@@ -194,6 +256,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The stomach is the answer when asked where most psychotropics are **POORLY** absorbed (ileum, jejunum, colon and rectum were the other options): the explanation says gastric absorption is minor next to the intestine (gastric epithelial barrier, small surface area), and the small intestine (duodenum, jejunum, upper ileum) is the major, most efficient site.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 49
           }
         },
         {
@@ -294,45 +366,18 @@
               "page": 4
             }
           ],
-          "title": "Routes of administration compared"
+          "title": "Routes of administration compared",
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Absorption questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q49**: asked in which part of the **GI** tract most psychotropics are poorly absorbed, the answer is the stomach. The explanation says gastric absorption is minor compared with the intestine (epithelial barrier, small surface area); the small intestine (duodenum, jejunum, upper ileum) is the major, most efficient site.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 23,
-                "questionNumber": 49
-              }
-            },
-            {
-              "text": "**Q64**: the incorrect statement about oral administration is 'subject to renal first pass metabolism'. The explanation: orally taken drugs are subject to hepatic first-pass metabolism, avoided if given intravenously.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 64
-              }
-            },
-            {
-              "text": "**Q69**: the correct answer to 'what improves oral absorption' is none of the listed options (high hydrophilicity, fast intestinal motility, P-glycoprotein, larger particle size). The explanation cites inhibitory factors (food, gastric acid, diarrhoea/vomiting) and the fact that highly hydrophilic drugs cannot cross lipid membranes.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 32,
-                "questionNumber": 69
-              }
-            },
-            {
-              "text": "**Q46**: the most efficiently absorbed molecule is small, lipid soluble and electrically neutral. The explanation says crossing a lipid membrane depends on size and shape, lipid solubility and ionic charge.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 21,
-                "questionNumber": 46
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Fastest route to the brain: nicotine",
+          "note": "Tested in a mock question but not stated in the notes: asked which route lets nicotine reach the brain fast (sublingual, inhalational, intravenous, cutaneous, oral), the keyed answer is inhalational; the explanation only says drugs given by the inhalational route reach the brain quickly. Do not let the notes' '**IV** is the most rapid route of absorption' pull you to intravenous here. (The notes separately say there is no evidence that inhaled medications bypass the blood-brain barrier.)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 27
+          }
         },
         {
           "type": "gap",
@@ -388,10 +433,27 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 4
             }
+          },
+          {
+            "text": "Orally taken drugs undergo HEPATIC (not renal) first-pass metabolism, avoided by the IV route.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 29,
+              "questionNumber": 64
+            }
+          },
+          {
+            "text": "Most psychotropics are poorly absorbed in the stomach; the small intestine is the major absorption site.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 23,
+              "questionNumber": 49
+            }
           }
         ],
         "highlightBlockIndices": [
-          14
+          6,
+          17
         ]
       }
     },
@@ -504,7 +566,8 @@
               "page": 5
             }
           ],
-          "title": "Urine pH manipulation in overdose"
+          "title": "Urine pH manipulation in overdose",
+          "highYield": true
         },
         {
           "type": "trap",
@@ -651,6 +714,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "'Distribution is uniform across the body tissues' is the 'least correct' statement to spot: the explanation says drugs are not evenly distributed (vascular, extracellular and intracellular compartments), and names **phenytoin**, **diazepam**, **chlorpromazine** and **amitriptyline** as highly protein bound, very lipophilic drugs that go into fat stores.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Protein binding: the unbound (free) fraction is the active fraction (binds receptors, crosses the blood-brain barrier). Reduced protein binding increases the free fraction and therefore the effect of the drug.",
           "source": {
@@ -724,7 +797,18 @@
               "page": 7
             }
           ],
-          "title": "Plasma proteins and binding percentages"
+          "title": "Plasma proteins and binding percentages",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Diazepam** being around ==95%== protein bound is the correct statement; the tempting distractors are wrong because the explanation says protein binding is reduced in the elderly but free (unbound) **diazepam** does not significantly exceed levels in young adults (so not '10 times greater plasma level'), the elimination half-life is **INCREASED** by about ==100%== in the elderly (about 90 h versus about 46 h, not reduced), and duration of action depends on rate and extent of distribution as well as half-life (not 'primarily elimination half-life'). Desmethyldiazepam is an **ACTIVE** metabolite (t1/2 71 h).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 6,
+            "questionNumber": 24
+          }
         },
         {
           "type": "paragraph",
@@ -760,6 +844,16 @@
         },
         {
           "type": "trap",
+          "text": "High protein binding does not guarantee a small Vd: the keyed answer is that **haloperidol**'s apparent Vd is more than 2 l/kg even though the explanation says it is about ==90%== protein bound (reported 9.5 to 21.7 l/kg). The explanation contrasts acidic, highly protein-bound drugs (e.g. warfarin: small Vd) with basic drugs (e.g. amphetamine) that are extensively taken up by tissues, giving a Vd larger than the whole body volume.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 8,
+            "questionNumber": 29
+          }
+        },
+        {
+          "type": "trap",
           "text": "**Q55**: Vd calculation. **IV** 10 mg giving a plasma concentration of 0.01 mg/mL immediately after administration; the answer is 1000 mL, by Vd = Q/Cp as given in the explanation.",
           "format": "SBA",
           "source": {
@@ -767,28 +861,6 @@
             "page": 26,
             "questionNumber": 55
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Distribution questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q6**: the 'least correct' statement is 'distribution is uniform across the body tissues'; the explanation says drugs are not evenly distributed (vascular, extracellular and intracellular compartments), and lists **phenytoin**, **diazepam**, **chlorpromazine** and **amitriptyline** as highly protein bound and very lipophilic, going into fat stores.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 6
-              }
-            },
-            {
-              "text": "**Q12**: drug interactions that alter protein binding become important in renal disease (proteinuria).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 12
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -834,6 +906,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 7
             }
+          },
+          {
+            "text": "Drugs are not uniformly distributed: phenytoin, diazepam, chlorpromazine and amitriptyline are highly protein bound, lipophilic and go to fat stores.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 6
+            }
+          },
+          {
+            "text": "Haloperidol is about 90% protein bound yet has a Vd above 2 l/kg: high binding does not imply small Vd.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 8,
+              "questionNumber": 29
+            }
           }
         ],
         "facts": [
@@ -863,8 +951,8 @@
           }
         ],
         "highlightBlockIndices": [
-          7,
-          12
+          8,
+          15
         ]
       }
     },
@@ -1106,10 +1194,6 @@
             [
               "**Fluphenazine**",
               "Only ==10%=="
-            ],
-            [
-              "**Chlorpromazine** (permeation example)",
-              "Only ==40%== reaches the systemic circulation"
             ]
           ],
           "sources": [
@@ -1120,10 +1204,6 @@
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 9
-            },
-            {
-              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
-              "page": 5
             }
           ],
           "title": "Examples of high first-pass metabolism"
@@ -1137,50 +1217,22 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Extensive first-pass metabolism **REDUCES** bioavailability (it does not increase it) and has no influence on passage across the blood-brain barrier; the correct statement is that most orally administered antipsychotics undergo first-pass metabolism. The same explanation says **chlorpromazine** inhibits **TCA** metabolism and so **INCREASES** **TCA** levels (not decreases them).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 33
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Bioequivalence: comparability of plasma levels of two formulations of the same active compound at the same dose and route. Two products are bioequivalent when their plasma level-time plots are superimposable, which needs the same bioavailability and rate of absorption. It matters when changing brand, e.g. camcolit vs priadel (**lithium** carbonate) or Clozaril vs zaponex (**clozapine**).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 9
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Bioavailability questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q16**: bioavailability of an **IV** dose is 10 mg of 10 mg, i.e. ==100%==; the explanation states availability of an **IV** drug is ==100%==.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 16
-              }
-            },
-            {
-              "text": "**Q27**: the area under the curve after a single dose allows determination of bioavailability (not t1/2, metabolism, elimination or distribution); the explanation adds that low bioavailability usually means high first-pass metabolism.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 27
-              }
-            },
-            {
-              "text": "**Q23**: bioavailability is least likely to be influenced by gender (not metabolism, absorption, distribution or excretion).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 23
-              }
-            },
-            {
-              "text": "**Q56**: when switching brands consider bioequivalence.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 56
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -1226,6 +1278,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 9
             }
+          },
+          {
+            "text": "Extensive first-pass metabolism reduces bioavailability and does not affect BBB entry.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 8,
+              "questionNumber": 33
+            }
           }
         ],
         "facts": [
@@ -1263,8 +1323,7 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
-          7
+          4
         ]
       }
     },
@@ -1330,6 +1389,37 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Benzodiazepines that go straight to phase 2 (glucuronidation, bypass phase 1)",
+          "mnemonic": "LOT",
+          "expansion": [
+            "**Lorazepam**",
+            "**Oxazepam**",
+            "**Temazepam**"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**Lorazepam** is the benzodiazepine that undergoes phase 2 metabolism directly (not **chlordiazepoxide** or **diazepam**): the explanation says **lorazepam**, **oxazepam** and **temazepam** are conjugated directly by glucuronidation, while most benzodiazepines are first oxidised by **CYP3A4** and **CYP2C19**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Hydrolysis is the odd one out when asked which is **NOT** a phase 2 reaction: the explanation says conjugation, N-acetylation, methylation and glucuronidation are phase 2, whereas oxidation and hydrolysis are phase 1.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 16,
+            "questionNumber": 70
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Because **oxazepam** bypasses phase 1, in alcoholic liver disease **oxazepam** is favoured for alcohol detoxification instead of **chlordiazepoxide**, which requires intact liver enzymes for phase 1 clearance. Metabolism usually yields inactive, more polar metabolites but can convert inactive pro-drugs into active metabolites.",
           "source": {
@@ -1390,7 +1480,8 @@
               "page": 11
             }
           ],
-          "title": "CYP enzymes, substrates and modifiers"
+          "title": "CYP enzymes, substrates and modifiers",
+          "highYield": true
         },
         {
           "type": "table",
@@ -1442,7 +1533,31 @@
               "page": 11
             }
           ],
-          "title": "Important pharmacokinetic interactions listed in the notes"
+          "title": "Important pharmacokinetic interactions listed in the notes",
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "CYP inducers named in the guide",
+          "mnemonic": "CBASS",
+          "expansion": [
+            "**Carbamazepine**",
+            "Barbiturates",
+            "Alcohol",
+            "Smoking",
+            "Sprouts (brussel sprouts)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Smoking is the enzyme inducer in this question (tobacco smoke PAHs induce **CYP1A2**); caffeine, grapefruit juice and **paroxetine** are the tempting distractors that are not inducers here.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 41
+          }
         },
         {
           "type": "paragraph",
@@ -1453,11 +1568,41 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**Carbamazepine** is the drug whose plasma levels keep falling even after 2 weeks of the same dose (**lithium**, **clozapine**, chlormethiazole and **valproate** were the other options): the explanation says it induces its own metabolism, so time to steady state is at least 2 weeks.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 10
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Smoking and caffeine affect glucuronidation (via **UGT**) and **CYP1A2**. Drugs not dependent on **CYP1A2** or **UGT** are unaffected: **risperidone** and **aripiprazole** (**CYP2D6** and **CYP3A**), **quetiapine** (mainly **CYP3A**), **ziprasidone** (mainly aldehyde oxidase and **CYP3A**).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Smoking **INCREASES** caffeine metabolism (the explanation says smokers metabolise caffeine twice as fast as non-smokers) and substantially increases **CYP1A2** activity; the tempting distractors are wrong because smoking **REDUCES** **clozapine** levels (and is linked to poor **clozapine** response) and does not inhibit **CYP1A2**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 17,
+            "questionNumber": 73
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Caffeine is metabolised by **CYP1A2** and so can interact with other drugs sharing that route; 'caffeine reduces renal clearance of **lithium**' is the trap: the explanation says caffeine has a natriuretic effect and **INCREASES** **lithium** clearance (consistent with the notes listing caffeine among agents decreasing **lithium** levels).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 31
           }
         },
         {
@@ -1485,58 +1630,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Metabolism questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q5**: the drug undergoing phase 2 metabolism directly is **lorazepam** (not **chlordiazepoxide** or **diazepam**). The explanation: **lorazepam**, **oxazepam** and **temazepam** are conjugated directly by glucuronidation, while most benzodiazepines are first oxidised by **CYP3A4** and **CYP2C19**.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 5
-              }
-            },
-            {
-              "text": "**Q9**: polymerisation is not a hepatic metabolic reaction (oxidation, reduction, dealkylation, hydroxylation are).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 9
-              }
-            },
-            {
-              "text": "**Q10**: **carbamazepine**'s plasma levels fall even after 2 weeks of the same dose because it induces its own metabolism; the explanation says time to steady state is at least 2 weeks.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 10
-              }
-            },
-            {
-              "text": "**Q41**: smoking is an enzyme inducer (tobacco smoke PAHs induce **CYP1A2**); caffeine, grapefruit juice and **paroxetine** are not inducers in this question.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 41
-              }
-            },
-            {
-              "text": "**Q44**: **carbamazepine** is a potent hepatic enzyme inducer.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 44
-              }
-            },
-            {
-              "text": "**Q50**: the oxidative metabolism of most psychotropics is by the cytochrome **P450** family.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 23,
-                "questionNumber": 50
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Alcohol dehydrogenase (not aldehyde dehydrogenase) is the rate-limiting enzyme in alcohol metabolism; the explanation says the major site is the liver and that this rate limit makes it impossible to speed up alcohol metabolism.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 28
+          }
         },
         {
           "type": "gap",
@@ -1546,6 +1647,26 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
             "page": 19,
             "questionNumber": 40
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Acetylator status and MAO inhibitors",
+          "note": "Tested in a mock question but not in the notes: of the options (phenothiazines, **lithium**, tricyclics, acetylcholinesterase inhibitors, **MAO** inhibitors), **MAO** inhibitors are the psychotropics potentially affected by acetylator status; the explanation adds that in practical use this is not usually a problem.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Reboxetine and the cytochrome P450 enzymes",
+          "note": "**Reboxetine** is not covered in the notes. A mock question keys 'it does not affect hepatic cytochrome **P450** enzymes' as correct; the explanation says it is rapidly absorbed, mainly metabolised in the liver, has an elimination half-life of about 13 hours and, unlike the SSRIs, does not inhibit any of the hepatic cytochrome **P450** enzymes (so not an enzyme inhibitor or inducer).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 28
           }
         }
       ],
@@ -1606,6 +1727,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 12
             }
+          },
+          {
+            "text": "Lorazepam, oxazepam, temazepam are conjugated directly (phase 2); hydrolysis is a phase 1 reaction.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 2,
+              "questionNumber": 5
+            }
+          },
+          {
+            "text": "Carbamazepine induces its own metabolism: levels fall and steady state takes at least 2 weeks.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 5,
+              "questionNumber": 10
+            }
+          },
+          {
+            "text": "Smokers metabolise caffeine twice as fast; smoking lowers clozapine levels and raises CYP1A2 activity.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 17,
+              "questionNumber": 73
+            }
+          },
+          {
+            "text": "Alcohol dehydrogenase is the rate-limiting enzyme of alcohol metabolism.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 7,
+              "questionNumber": 28
+            }
           }
         ],
         "facts": [
@@ -1644,8 +1797,10 @@
         ],
         "highlightBlockIndices": [
           1,
-          6,
-          13
+          2,
+          3,
+          9,
+          11
         ]
       }
     },
@@ -1711,7 +1866,8 @@
               "page": 13
             }
           ],
-          "title": "Factors influencing excretion"
+          "title": "Factors influencing excretion",
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1743,6 +1899,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Lithium** (not **amisulpride**) is the drug excreted unchanged almost completely by the kidney: the explanation gives ==95%== of **lithium** unchanged in urine, whereas **amisulpride** is primarily renally excreted but only about ==50%== unchanged. (The notes say **amisulpride** and **sulpiride** have up to ==90%== elimination via the renal route - route of elimination, not unchanged drug.)",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 28
           }
         },
         {
@@ -1802,44 +1968,6 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Excretion and clearance questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q28**: the drug excreted unchanged almost completely via the renal route is **lithium**. The explanation gives ==95%== of **lithium** unchanged in urine, whereas **amisulpride** is primarily renally excreted but only ==50%== unchanged. (The notes say **amisulpride** and **sulpiride** have up to ==90%== elimination via the renal route - route of elimination, not unchanged drug.)",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 28
-              }
-            },
-            {
-              "text": "**Q3**: **gabapentin** is excreted unchanged in urine (**gabapentin**, **sulpiride**, **amisulpride** and **lithium** all undergo no or minimal hepatic metabolism).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 3
-              }
-            },
-            {
-              "text": "**Q57**: clearance rate determines the half-life of a drug; the explanation repeats that clearance does not depend on plasma concentration and is constant at first order regardless of dose.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 57
-              }
-            },
-            {
-              "text": "**Q20**: NSAIDs decrease **lithium** excretion and precipitate toxicity; the explanation says they inhibit renal prostaglandins, reduce renal blood flow and possibly increase renal reabsorption of sodium and **lithium**.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 20
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "Time to complete elimination after withdrawal",
           "note": "**Q65**: after sudden withdrawal, a drug is effectively eliminated after about 5 half-lives (explanation: 4-5 half-lives assuming first order kinetics). The notes only give 4-5 t1/2 for reaching steady state, not for elimination.",
@@ -1893,6 +2021,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 14
             }
+          },
+          {
+            "text": "Lithium: about 95% excreted unchanged in urine; amisulpride is renally excreted but only about 50% unchanged.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 13,
+              "questionNumber": 28
+            }
           }
         ],
         "facts": [
@@ -1914,7 +2050,7 @@
           }
         ],
         "highlightBlockIndices": [
-          8
+          9
         ]
       }
     },
@@ -1990,6 +2126,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "A drug cleared at 30 units/hour at **BOTH** 300 and 600 units follows zero order kinetics (a constant amount, not a fraction, is cleared); 'zero order at low doses and first order at high doses' is a distractor with the transition the wrong way round.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 21
+          }
+        },
+        {
           "type": "paragraph",
           "text": "First order worked example in the notes: if t1/2 is 2 hours for drug A, plasma concentration goes 100 mg/ml, then 50 mg/ml after 2 hours, 25 mg/ml after 2 more hours, then 12.5 mg/ml.",
           "source": {
@@ -2047,7 +2193,39 @@
               "page": 14
             }
           ],
-          "title": "Examples of zero order behaviour"
+          "title": "Examples of zero order behaviour",
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Zero order (saturable) elimination examples in the guide's table",
+          "mnemonic": "A Plateau Forms",
+          "expansion": [
+            "Alcohol",
+            "**Phenytoin**",
+            "**Fluoxetine** (very high supratherapeutic doses)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Oral antipsychotic metabolism is the one that follows first order kinetics; alcohol, depot antipsychotics, absorption of controlled-release drugs and **phenytoin** were the distractors (not first order).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 47
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Alcohol is the zero order drug in this question (sodium **valproate**, **lorazepam**, **haloperidol** and **amitriptyline** are not): the explanation says a zero order drug is **MORE** likely to reach toxic levels than a first order drug because its rate of elimination cannot increase beyond a certain level.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 29
+          }
         },
         {
           "type": "paragraph",
@@ -2066,58 +2244,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Kinetics questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q21**: a drug cleared at 30 units/hour at both 300 and 600 units follows zero order kinetics (constant amount cleared).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 21
-              }
-            },
-            {
-              "text": "**Q18**: for **fluoxetine** moving from first to zero order at supratherapeutic doses, t1/2 becomes dependent on dose.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 18
-              }
-            },
-            {
-              "text": "**Q17**: steady state is usually achieved after 4-5 half-lives.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 17
-              }
-            },
-            {
-              "text": "**Q37**: a first order drug with t1/2 of 4 hours reaches steady state in 20 hours (4-5 t1/2, i.e. 5 x 4).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 37
-              }
-            },
-            {
-              "text": "**Q39**: thioridazine is metabolised mainly by first order kinetics; the explanation says ==95%== of drugs at therapeutic concentrations are first order, with zero order examples ethanol, **phenytoin**, high dose salicylates, high dose **fluoxetine** and high dose omeprazole, and that depot antipsychotics show 'flip-flop' kinetics.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 39
-              }
-            },
-            {
-              "text": "**Q47**: oral antipsychotic metabolism follows first order kinetics (alcohol, depot antipsychotics, controlled-release absorption and **phenytoin** do not).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 47
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "A drug needing five half-lives to reach steady state is a **FIRST** order drug; the explanation says this holds for first-order kinetics with rapid even distribution and no loading dose, whereas zero order drugs show concentration-independent elimination ('rate of metabolism independent of concentration' is therefore the zero order distractor).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 29
+          }
         },
         {
           "type": "gap",
@@ -2128,6 +2262,76 @@
             "page": 14,
             "questionNumber": 30
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Most efficiently absorbed molecule: small, lipid soluble and electrically neutral.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 46
+              }
+            },
+            {
+              "text": "'None of the listed options' improves oral absorption: high hydrophilicity, fast intestinal motility, P-glycoprotein and larger particle size were all wrong.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 32,
+                "questionNumber": 69
+              }
+            },
+            {
+              "text": "Protein-binding interactions become important in renal disease (proteinuria).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 12
+              }
+            },
+            {
+              "text": "Bioavailability of an **IV** dose is ==100%== (10 mg of 10 mg).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 16
+              }
+            },
+            {
+              "text": "Bioavailability is least likely to be influenced by gender (not metabolism, absorption, distribution or excretion).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 23
+              }
+            },
+            {
+              "text": "Switching brands of the same compound: consider bioequivalence.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 26,
+                "questionNumber": 56
+              }
+            },
+            {
+              "text": "Polymerisation is **NOT** a hepatic metabolic reaction (oxidation, reduction, dealkylation, hydroxylation are).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 9
+              }
+            },
+            {
+              "text": "Not altered much in the elderly: the amount of **GI** absorption (versus total body fat, renal clearance, plasma protein binding, gastric pH).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 31
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -2173,6 +2377,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 15
             }
+          },
+          {
+            "text": "A constant amount cleared at different doses means zero order; zero order drugs (e.g. alcohol) are more likely to reach toxic levels.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 21
+            }
+          },
+          {
+            "text": "Five half-lives to steady state implies first order kinetics (4-5 half-lives).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 7,
+              "questionNumber": 29
+            }
           }
         ],
         "facts": [
@@ -2203,8 +2423,9 @@
         ],
         "highlightBlockIndices": [
           0,
-          4,
-          7
+          5,
+          6,
+          8
         ]
       }
     },
@@ -2261,6 +2482,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The ratio of the minimum toxic plasma level to the minimum therapeutic plasma level is the therapeutic index (not toxic dose, Vd, affinity or potency). The explanation lists narrow therapeutic index drugs as digoxin, warfarin, theophylline, **phenytoin** and **lithium** (the notes name **lithium**, **carbamazepine** and **phenytoin**).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 43
+          }
+        },
+        {
           "type": "comparison",
           "title": "Therapeutic index range vs therapeutic window",
           "columns": [
@@ -2300,36 +2531,6 @@
             "page": 12,
             "questionNumber": 26
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Therapeutic index questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q43**: the ratio of minimum toxic plasma level to minimum therapeutic plasma level is the therapeutic index; the explanation lists narrow therapeutic index drugs: digoxin, warfarin, theophylline, **phenytoin** and **lithium**.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 43
-              }
-            },
-            {
-              "text": "**Q13**: paracetamol has a higher therapeutic index than **lithium**, **phenytoin**, type 1 anti-arrhythmics and tricyclics. The explanation says over-the-counter drugs usually have a better (higher) index, which does not mean they are absolutely safe.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 13
-              }
-            },
-            {
-              "text": "**Q36**: **lithium** has a narrow (not wide) therapeutic range; explanation gives 0.4 mmol/L minimum and 1.5 mmol/L maximum before toxicity.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 36
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -2375,11 +2576,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 16
             }
+          },
+          {
+            "text": "Narrow therapeutic index drugs in the bank: digoxin, warfarin, theophylline, phenytoin, lithium; paracetamol has a higher index.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 20,
+              "questionNumber": 43
+            }
           }
         ],
         "highlightBlockIndices": [
-          6,
-          7
+          7,
+          8
         ]
       }
     },
@@ -2452,7 +2661,8 @@
               "page": 17
             }
           ],
-          "title": "Pharmacokinetic changes in the elderly"
+          "title": "Pharmacokinetic changes in the elderly",
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2480,26 +2690,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Elderly questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q31**: the item not altered much in the elderly is the amount of **GI** absorption (versus total body fat, renal clearance, plasma protein binding, gastric pH). The question has no explanation text; this matches the notes statement that absorption is not greatly affected.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 31
-              }
-            },
-            {
-              "text": "**Q45**: **lofepramine** is preferable to other tricyclics in the elderly; explanation: **lofepramine** and **nortriptyline** are the least sedative TCAs and **lofepramine** is least likely to cause postural hypotension or cardiac conduction disturbance (not in the notes).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 21,
-                "questionNumber": 45
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Lofepramine preferred TCA in the elderly",
+          "note": "Not covered in the notes. Asked which tricyclic is preferable in the elderly, the answer is **lofepramine** (**imipramine**, dothiepin, trimipramine and **amitriptyline** were the options): the explanation says **lofepramine** and **nortriptyline** are the least sedative TCAs, and **lofepramine** is the **TCA** least likely to cause postural hypotension or cardiac conduction disturbance.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 45
+          }
         }
       ],
       "concise": {
@@ -2551,6 +2749,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 18
+            }
+          },
+          {
+            "text": "Lofepramine is the preferred TCA in the elderly (not in notes).",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 21,
+              "questionNumber": 45
             }
           }
         ],
@@ -2823,7 +3029,8 @@
               "page": 19
             }
           ],
-          "title": "Renal impairment: psychotropic drug notes"
+          "title": "Renal impairment: psychotropic drug notes",
+          "highYield": true
         },
         {
           "type": "trap",
@@ -2833,6 +3040,16 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
             "page": 9,
             "questionNumber": 19
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Amisulpride** flips between questions: it is the antipsychotic of choice in severe liver disease (above) **BUT** also the one primarily renally excreted, so renal failure is the problem - the explanation says there is limited experience of any antipsychotic in renal disease and it is best to avoid them if possible in well established renal failure.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 30
           }
         }
       ],
@@ -2879,6 +3096,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 19
             }
+          },
+          {
+            "text": "Amisulpride: preferred in liver disease but primarily renally excreted, so avoid in established renal failure.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 7,
+              "questionNumber": 30
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -2913,6 +3138,26 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Imipramine** is the antidepressant whose plasma level correlates with response (**mirtazapine**, amoxapine, **sertraline** and **duloxetine** do not): the explanation says levels below 180 ng/ml gave a low probability of recovery and levels above 180 ng/ml a high probability, and unlike **nortriptyline** there is no tight therapeutic window for **imipramine**'s efficacy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 17,
+            "questionNumber": 72
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Adolescents clear more tricyclics than adults' is the keyed true statement; the bank's explanation says adolescents and young people need higher mg/kg doses, whereas the notes (p20) say children clear more and the elderly less - know both wordings.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 54
           }
         },
         {
@@ -2965,7 +3210,18 @@
               "page": 20
             }
           ],
-          "title": "Active metabolites"
+          "title": "Active metabolites",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Imipramine**'s active metabolite is desipramine; the confusable pairs are **amitriptyline** giving **nortriptyline** and mCPP, which belongs to **trazodone**/**nefazodone**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 35
+          }
         },
         {
           "type": "paragraph",
@@ -3058,37 +3314,28 @@
               "page": 21
             }
           ],
-          "title": "TCA drug interactions"
+          "title": "TCA drug interactions",
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Tricyclic questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q15**: the least likely **TCA** pharmacokinetic property is 'metabolism being reduced by smoking'; the explanation says smoking facilitates metabolism and reduces **TCA** plasma levels by 25-==50%==, TCAs cross lipid barriers, are extensively protein bound, and (anticholinergic) may delay their own absorption.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 15
-              }
-            },
-            {
-              "text": "**Q35**: the active metabolite of **imipramine** is desipramine (**amitriptyline** gives **nortriptyline**; mCPP belongs to **trazodone**/**nefazodone**).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 35
-              }
-            },
-            {
-              "text": "**Q54**: 'adolescents clear more tricyclics than adults' is the true statement. The notes (p20) say children clear more and the elderly less - the bank's explanation refers to adolescents and young people needing higher mg/kg doses.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 54
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "'Metabolism being reduced by smoking' is the least likely **TCA** pharmacokinetic property: the explanation says smoking **FACILITATES** metabolism and reduces **TCA** plasma levels by 25-==50%==; the true properties are that TCAs cross lipid barriers, are extensively protein bound and (being anticholinergic) may delay their own absorption.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Cigarette smoking is the one that does **NOT** increase **TCA** concentrations (it lowers them through **CYP1A2**); the explanation says antipsychotics (**haloperidol**, **quetiapine**, **risperidone** options), **methylphenidate**, acetazolamide, aspirin, cimetidine, thiazides, **fluoxetine** and sodium bicarbonate **DO** increase **TCA** concentrations.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 23,
+            "questionNumber": 61
+          }
         }
       ],
       "concise": {
@@ -3134,6 +3381,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 21
             }
+          },
+          {
+            "text": "Imipramine plasma levels above 180 ng/ml predict recovery; no tight window unlike nortriptyline.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 17,
+              "questionNumber": 72
+            }
+          },
+          {
+            "text": "Smoking lowers TCA levels (CYP1A2); antipsychotics, methylphenidate, cimetidine, fluoxetine raise them.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 23,
+              "questionNumber": 61
+            }
           }
         ],
         "facts": [
@@ -3163,8 +3426,8 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
-          5
+          5,
+          8
         ]
       }
     },
@@ -3282,7 +3545,28 @@
               "page": 24
             }
           ],
-          "title": "SSRIs: CYP450 profile and interacting drugs"
+          "title": "SSRIs: CYP450 profile and interacting drugs",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "In a renal-transplant patient on cyclosporine with depression, **fluoxetine** is the antidepressant to **AVOID** first line (**amitriptyline**, **venlafaxine**, **citalopram** and **phenelzine** were the options): the explanation names **fluoxetine**, **fluvoxamine** and **nefazodone** as potent **CYP3A4** inhibitors that can significantly affect cyclosporine levels. Note the notes' **CYP** table lists **fluoxetine** as a 2C19/2D6 inhibitor and **fluvoxamine** as the 3A4 inhibitor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 15,
+            "questionNumber": 64
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Fluoxetine** enhances the effects of oral anticoagulants; the explanation adds that **fluoxetine** inhibits **CYP** 2D6 and 3A4 and increases **haloperidol**, **carbamazepine** and **phenytoin** concentrations (these last details are not in the notes).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 53
+          }
         },
         {
           "type": "paragraph",
@@ -3290,6 +3574,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Enzyme autoinhibition is most likely with **paroxetine**: the explanation says it inhibits its own metabolism so dosing is not linear (plasma concentrations can double when the oral dose rises by ==50%==).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 11
           }
         },
         {
@@ -3354,7 +3648,41 @@
               "page": 24
             }
           ],
-          "title": "SSRI half-lives and linearity"
+          "title": "SSRI half-lives and linearity",
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "SSRIs in order of single-dose half-life, shortest to longest (the half-life table's order)",
+          "mnemonic": "Pigs Fly Slowly, Cows Float",
+          "expansion": [
+            "**Paroxetine** (10 h)",
+            "**Fluvoxamine** (11 h)",
+            "**Sertraline** (26 h)",
+            "**Citalopram** (33 h)",
+            "**Fluoxetine** (1.9 days)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**Fluoxetine** is the **SSRI** with the longest total half-life: the explanation gives **fluoxetine** 2-3 days and its active metabolite norfluoxetine an even longer half-life of 2 weeks. The figures differ between sources (the notes give 1.9 days single dose / 5.6 days multiple dose, metabolite 7-15 days) but the ranking is constant.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Fluoxetine** is the best choice for someone likely to miss a tablet or two: the explanation says its longer half-life means missing a day or two will not usually cause acute withdrawal symptoms (**escitalopram**, **paroxetine**, **citalopram** and **venlafaxine** were the distractors).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 25,
+            "questionNumber": 68
+          }
         },
         {
           "type": "paragraph",
@@ -3374,58 +3702,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "SSRI questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q7**: **fluvoxamine** requires caution with theophylline (potent **CYP1A2** inhibition raises theophylline levels).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 7
-              }
-            },
-            {
-              "text": "**Q11**: enzyme autoinhibition is most likely with **paroxetine**; the explanation says it inhibits its own metabolism so dosing is not linear (plasma concentrations can double when oral dose rises by ==50%==).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 11
-              }
-            },
-            {
-              "text": "**Q34**: the **SSRI** most selective for serotonin reuptake is **citalopram** (with **escitalopram**).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 34
-              }
-            },
-            {
-              "text": "**Q42** and **Q59**: **fluoxetine** has the metabolite with the longest half-life and the longest total half-life among SSRIs. The bank's explanation gives **fluoxetine** 2-3 days and norfluoxetine about 2 weeks; the notes give **fluoxetine** 4-6 days (p22) or 1.9 days single / 5.6 days multiple dose (p24) and norfluoxetine 4-16 days (p22) or 7-15 days (p24). Sources disagree on the numbers but agree on **fluoxetine** being longest.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 42
-              }
-            },
-            {
-              "text": "**Q53**: **fluoxetine** enhances the effects of oral anticoagulants. The explanation adds that **fluoxetine** inhibits **CYP** 2D6 and 3A4 and increases **haloperidol**, **carbamazepine** and **phenytoin** concentrations (not in the notes).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 53
-              }
-            },
-            {
-              "text": "**Q67**: wait 5 weeks between **fluoxetine** and **phenelzine** when switching (explanation: stop **fluoxetine**, wait 5-6 weeks); the notes do not give this interval.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 67
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Fluoxetine to phenelzine washout",
+          "note": "Not given in the notes. When switching from **fluoxetine** to **phenelzine** the bank answer is to wait 5 weeks (explanation: stop **fluoxetine**, wait 5-6 weeks), reflecting **fluoxetine**'s long-lasting active metabolite.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 67
+          }
         }
       ],
       "concise": {
@@ -3477,6 +3761,22 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 24
+            }
+          },
+          {
+            "text": "Fluoxetine (plus norfluoxetine) has the longest total SSRI half-life, so missed doses rarely cause acute withdrawal.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+              "page": 27,
+              "questionNumber": 59
+            }
+          },
+          {
+            "text": "Avoid fluoxetine first line with cyclosporine (CYP3A4 inhibition per the bank explanation).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 15,
+              "questionNumber": 64
             }
           }
         ],
@@ -3532,8 +3832,9 @@
         ],
         "highlightBlockIndices": [
           6,
-          8,
-          11
+          11,
+          12,
+          14
         ]
       }
     },
@@ -3547,6 +3848,26 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 25
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**MAO** inhibitors are the group whose effect is **LEAST** influenced by pharmacokinetics: the explanation says their short half-life of one to two hours is not particularly relevant because they bind irreversibly, so activity depends on synthesis of new **MAO**, which takes approximately two weeks (the notes give a minimum of 5 to 7 days).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Grapefruit juice is the one item acceptable with an **MAO** inhibitor (mature cheese, broad bean pods, red wine and pickled herring were the distractors): the explanation says the others are rich in tyramine and produce the cheese reaction, whereas grapefruit juice is not.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 26
           }
         },
         {
@@ -3591,7 +3912,8 @@
               "page": 25
             }
           ],
-          "title": "Venlafaxine and duloxetine"
+          "title": "Venlafaxine and duloxetine",
+          "highYield": true
         },
         {
           "type": "table",
@@ -3643,7 +3965,8 @@
               "page": 25
             }
           ],
-          "title": "Trazodone / nefazodone and buspirone"
+          "title": "Trazodone / nefazodone and buspirone",
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3738,58 +4061,44 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q24**: the fatal serotonin-syndrome combination is pethidine and **tranylcypromine**; the explanation says deaths have followed meperidine (pethidine) given to patients on an **MAOI** such as **phenelzine** or **tranylcypromine**.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 24
-              }
-            },
-            {
-              "text": "**Q29**: **buspirone** cannot be 'given once daily' (it is dosed three times daily because of its 2-11 hour half-life); it causes no dependence or withdrawal.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 29
-              }
-            },
-            {
-              "text": "**Q62**: **buspirone** has the least propensity to cause a withdrawal effect; it does not act on the **GABA**-chloride ion channel complex.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 62
-              }
-            },
-            {
-              "text": "**Q48**: **venlafaxine** has the least protein binding of the options; the explanation gives **venlafaxine** ==27%== and **ODV** ==30%==.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 48
-              }
-            },
-            {
-              "text": "**Q14**: St John's wort in a patient on warfarin; the explanation says it is a potent inducer of **CYP3A4**, **CYP2C9**, **CYP2E1** and intestinal P-glycoprotein and reduces warfarin, hormonal contraceptives, digoxin and indinavir levels.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 14
-              }
-            },
-            {
-              "text": "**Q38**: all listed drugs reduce contraceptive efficacy except **venlafaxine**; **carbamazepine**, St John's wort, **phenytoin** and **topiramate** are **CYP3A4** inducers (effect up to 28 days after stopping).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 38
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "MAOI / SSRI / TCA washout periods",
+          "note": "Not given in the notes beyond 'wait 2 weeks'. The mock explanation states: **MAOI** to **SSRI** 2 weeks; **SSRI** to **MAOI** 2 weeks for all, 5 weeks for **fluoxetine**; **TCA** to **MAOI** 2 weeks; **MAOI** to **TCA** 1-2 weeks. The keyed answer for swapping MAOIs to SSRIs is a minimum of 2 weeks.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 8,
+            "questionNumber": 28
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Venlafaxine to duloxetine gap",
+          "note": "Not in the notes. The keyed answer is a minimum gap of 2 weeks between stopping **venlafaxine** and starting **duloxetine**: the explanation says the product information recommends 2 weeks, while popular prescribing guidelines suggest 2 weeks of tapering **venlafaxine** and then alternate-day **duloxetine**.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Duloxetine doses by indication",
+          "note": "Not in the notes (they give only t1/2 about 12 hours). The mock explanation gives **duloxetine** 60 mg once daily for major depressive disorder, 60-120 mg for generalized anxiety disorder, and 60-120 mg in divided doses for diabetic neuropathy (keyed answer 60-120 mg).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Mianserin",
+          "note": "Not in the notes. Keyed true statement: **mianserin** has a plasma half-life that allows once daily dosing. The explanation says it is rapidly absorbed (peak plasma under 3 hours), plasma half-life 10-20 hours, is a potent noradrenaline uptake inhibitor with little effect on 5-**HT**, an alpha 2 antagonist with weak alpha 1 antagonism, mildly sedative with weak antimuscarinic effects.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 16,
+            "questionNumber": 69
+          }
         }
       ],
       "concise": {
@@ -3841,6 +4150,22 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 26
+            }
+          },
+          {
+            "text": "MAOI effect depends on new MAO synthesis, not half-life; grapefruit juice is not tyramine-rich.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 7,
+              "questionNumber": 24
+            }
+          },
+          {
+            "text": "MAOI to SSRI washout is 2 weeks; SSRI to MAOI 2 weeks, 5 weeks for fluoxetine (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 8,
+              "questionNumber": 28
             }
           }
         ],
@@ -3895,7 +4220,7 @@
           }
         ],
         "highlightBlockIndices": [
-          6
+          8
         ]
       }
     },
@@ -3909,6 +4234,26 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 27
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Wide therapeutic range' is the untrue **lithium** statement: per the explanation **lithium** has a narrow range (0.4 to 1.5 mmol/L). The other options (not protein bound, clearance reduced when sodium depleted, t1/2 between 10 and 24 hours) are true.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Lithium** is contraindicated in sick sinus syndrome (it can shift intracellular potassium) - not in the notes. The distractors are wrong: the explanation says **lithium** is safe and effective in the elderly, is excreted in breast milk, **BMI** does not affect its clearance if renal function is normal, and cardiotoxicity is more common on a **LOW** salt diet and in renal insufficiency (not high salt).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 34
           }
         },
         {
@@ -3975,7 +4320,61 @@
               "page": 27
             }
           ],
-          "title": "Lithium interactions"
+          "title": "Lithium interactions",
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Agents increasing lithium levels (the table's first column, in order)",
+          "mnemonic": "A Little Fluid Neglect Triggers",
+          "expansion": [
+            "**ACE** inhibitors",
+            "Loop diuretics",
+            "**Fluoxetine**",
+            "NSAIDs",
+            "Thiazides"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "NSAIDs decrease **lithium** excretion and precipitate toxicity: the explanation says they inhibit renal prostaglandins, reduce renal blood flow and possibly increase renal reabsorption of sodium and **lithium**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Calcium channel blockers are the drug that does **NOT** raise **lithium** levels per se but still increases neurotoxicity (**ACE** inhibitors, **fluoxetine**, frusemide and NSAIDs all raise levels); the explanation adds that **haloperidol** and **clozapine** can also produce increased neurotoxic effects without altering plasma levels - this is the notes' 'toxicity with normal levels' column.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 32
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Furosemide is the safest diuretic with **lithium**: the explanation says thiazides (bendroflumethiazide, chlorthalidone, indapamide, metolazone, xipamide) can reduce renal clearance of **lithium** and precipitate toxicity, whereas loop diuretics are 'somewhat safer'. Note the notes' table lists loop diuretics among the agents increasing **lithium** levels, so the safety is relative; the explanation adds that **ACE** inhibitors decrease **lithium** excretion and can precipitate renal failure.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 15,
+            "questionNumber": 66
+          }
+        },
+        {
+          "type": "trap",
+          "text": "NSAIDs can raise plasma **lithium** by more than 10 to more than ==40%== (inhibit renal prostaglandins, reduce renal blood flow, raise sodium and **lithium** reabsorption) is the correct statement. The distractors each carry a wrong number or direction: levels **INCREASE** (usually within ten days) after a thiazide, **ACE** inhibitors **RAISE** (not reduce) **lithium**, about ==20%== (not ==70%==) of middle-aged women develop hypothyroidism after 6-12 months, and approximately two-thirds (not a third) of patients have at least one side effect.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 9,
+            "questionNumber": 32
+          }
         },
         {
           "type": "paragraph",
@@ -4059,7 +4458,38 @@
               "page": 28
             }
           ],
-          "title": "Carbamazepine interactions"
+          "title": "Carbamazepine interactions",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Carbamazepine** is the augmenting agent to **AVOID** in a patient on **clozapine**: the explanation says the combination is generally contraindicated because both cause haematologic side effects at higher frequencies than most other drugs and **carbamazepine** lowers **clozapine** levels, possibly more than traditional neuroleptics.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 22,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Sodium **valproate** **INCREASES** **carbamazepine** levels (it appears to inhibit glucuronidation of **carbamazepine**, raising its peak levels and causing dose-related effects such as ataxia); 'no significant interactions with other mood stabilisers' is wrong, and the explanation also notes interactions with **lamotrigine**. Note the notes' table gives a different mechanism (epoxide hydrolase inhibition raising **CBZ**-epoxide, with protein displacement).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 30
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Direction matters: **valproate** levels are **DECREASED** by **carbamazepine** (a potent inducer) - the reverse of the previous point, where **valproate** raises **carbamazepine**. The notes only say **carbamazepine** decreases several drugs' levels, not **valproate** specifically.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 51
+          }
         },
         {
           "type": "paragraph",
@@ -4127,34 +4557,85 @@
               "page": 27
             }
           ],
-          "title": "Lithium vs carbamazepine vs valproate (key numbers)"
+          "title": "Lithium vs carbamazepine vs valproate (key numbers)",
+          "highYield": true
+        },
+        {
+          "type": "gap",
+          "subtopic": "Lithium blood levels and toxicity thresholds",
+          "note": "Not given in the notes. The mock explanation says therapeutic blood levels for antimanic or antidepressant effect range between 0.8 and 1.2 mEq/L (keyed answer for an acute manic episode), prophylactic levels vary from 0.6 to 1.2 mEq/L, a level above 2 mEq/L may be associated with toxicity and above 2.5 may be lethal, because the difference between therapeutic and lethal levels is not wide.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 6,
+            "questionNumber": 25
+          }
         },
         {
           "type": "trap-list",
-          "title": "Mood stabiliser questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q36**: the untrue **lithium** statement is 'wide therapeutic range'; per the explanation **lithium** has a narrow range (0.4 to 1.5 mmol/L). Other options (not protein bound, clearance reduced when sodium depleted, t1/2 between 10 and 24 hours) are true.",
+              "text": "**SSRI** most selective for serotonin reuptake: **citalopram** (with **escitalopram**).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 36
+                "page": 16,
+                "questionNumber": 34
               }
             },
             {
-              "text": "**Q51**: **valproate** levels are decreased by **carbamazepine** (a potent inducer); the notes only say **carbamazepine** decreases several drugs' levels, not **valproate** specifically.",
+              "text": "Least protein binding among the options: **venlafaxine** (==27%==; **ODV** ==30%==).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 24,
-                "questionNumber": 51
+                "page": 22,
+                "questionNumber": 48
               }
             },
             {
-              "text": "**Q20**: NSAIDs raise **lithium** (prostaglandin inhibition, reduced renal blood flow, increased sodium and **lithium** reabsorption); the notes list NSAIDs among agents increasing **lithium** levels.",
+              "text": "**Buspirone** cannot be 'given once daily': it is dosed three times daily (t1/2 2-11 hours).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 20
+                "page": 13,
+                "questionNumber": 29
+              }
+            },
+            {
+              "text": "**Buspirone** has the least propensity to cause withdrawal; it does not act on the **GABA**-chloride ion channel complex.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 29,
+                "questionNumber": 62
+              }
+            },
+            {
+              "text": "Fatal serotonin-syndrome combination: pethidine (meperidine) with an **MAOI** such as **tranylcypromine** or **phenelzine**.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 24
+              }
+            },
+            {
+              "text": "St John's wort (potent **CYP3A4**, 2C9, 2E1 and P-gp inducer) lowers warfarin, hormonal contraceptives, digoxin and indinavir levels.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "All of these reduce contraceptive efficacy **EXCEPT** **venlafaxine** (**carbamazepine**, St John's wort, **phenytoin** and **topiramate** are **CYP3A4** inducers, effect up to 28 days after stopping).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 38
+              }
+            },
+            {
+              "text": "Potent hepatic enzyme inducer: **carbamazepine** (not **gabapentin**, **lamotrigine**, **valproate** or **lithium**).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 20,
+                "questionNumber": 44
               }
             }
           ]
@@ -4217,6 +4698,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 28
             }
+          },
+          {
+            "text": "Calcium channel blockers, haloperidol and clozapine raise lithium neurotoxicity without raising levels; thiazides are worst for lithium levels, loop diuretics somewhat safer.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 8,
+              "questionNumber": 32
+            }
+          },
+          {
+            "text": "Carbamazepine plus clozapine is generally contraindicated; valproate raises carbamazepine, carbamazepine lowers valproate.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 22,
+              "questionNumber": 59
+            }
+          },
+          {
+            "text": "Lithium: therapeutic 0.8-1.2 mEq/L for mania, prophylaxis 0.6-1.2, toxic above 2 (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 6,
+              "questionNumber": 25
+            }
           }
         ],
         "facts": [
@@ -4262,8 +4767,10 @@
           }
         ],
         "highlightBlockIndices": [
-          2,
-          7
+          4,
+          5,
+          8,
+          14
         ]
       }
     },
@@ -4388,7 +4895,18 @@
               "page": 29
             }
           ],
-          "title": "Depot antipsychotics (typical)"
+          "title": "Depot antipsychotics (typical)",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "When switching a stabilised oral patient to a depot (here **olanzapine** to fortnightly **flupentixol**), oral cover must continue for about 3-6 months (keyed answer) - not 1-2 weeks: the explanation says depot attainment of peak levels, therapeutic effect and steady state are all delayed and relapse after stopping depot occurs about six months later, the time needed to clear steady state levels. (The notes' **LAI** box, p30, says steady state is often delayed for 2-3 months.)",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 6,
+            "questionNumber": 25
+          }
         },
         {
           "type": "trap",
@@ -4443,6 +4961,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 29
+            }
+          },
+          {
+            "text": "Oral cover continues until depot steady state (3-6 months in the bank answer).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 6,
+              "questionNumber": 25
             }
           }
         ],
@@ -4553,7 +5079,28 @@
               "page": 30
             }
           ],
-          "title": "Half-life and chlorpromazine equivalents (100mg/day CPZ or 2mg haloperidol)"
+          "title": "Half-life and chlorpromazine equivalents (100mg/day CPZ or 2mg haloperidol)",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Quetiapine** has the **SHORTEST** half-life of the atypicals offered (**aripiprazole**, **olanzapine**, **clozapine**, **risperidone**) - consistent with the notes' table (6 hrs).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 58
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Aripiprazole**'s half-life is the long one among atypicals but the figure varies by source: the mock key is 75 hours (explanation: mean terminal half-life 60 hours, up to 76 hours after 14 days; dehydroaripiprazole 96 hours), the notes' table says 90 hrs, and another mock asks 'half-life of 3 days' (**aripiprazole**). Pick **aripiprazole** as the long half-life drug whichever figure is offered.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 27
+          }
         },
         {
           "type": "paragraph",
@@ -4650,28 +5197,6 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Atypical antipsychotic questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q58**: **quetiapine** has the shortest half-life of the atypicals listed (**aripiprazole**, **olanzapine**, **clozapine**, **risperidone**).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 58
-              }
-            },
-            {
-              "text": "**Q60**: **aripiprazole** is the drug with a half-life of 3 days.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 28,
-                "questionNumber": 60
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "Clozapine receptor pharmacology",
           "note": "**Q22** asks about **clozapine** pharmacology (the false statement is 'slow release from **D2** receptors'; explanation: **clozapine** binds loosely with fast dissociation, occupies only 40-==50%== of striatal **D2**). That is pharmacodynamics, not covered in the pharmacokinetics notes.",
@@ -4679,6 +5204,26 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
             "page": 10,
             "questionNumber": 22
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Therapeutic blood level of clozapine",
+          "note": "Not in the notes. A mock question keys 'above 350 ng/mL' as the therapeutic blood level of **clozapine** (options ran from above 150 to above 550); the explanation says levels above 350 ng/mL are believed to correlate with therapeutic response.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 28
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Aripiprazole minimum effective dose",
+          "note": "Not in the notes. A mock question keys 10 mg as the minimum effective dose for an acute psychotic episode: the explanation says **aripiprazole** was superior to placebo at 10, 15, 20 and 30 mg/day, trials at 2 and 5 mg/day failed to show superiority over placebo, and 5 mg/day may lack efficacy for acute psychosis.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 26
           }
         }
       ],
@@ -4732,6 +5277,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 30
             }
+          },
+          {
+            "text": "Clozapine therapeutic level above 350 ng/mL; aripiprazole minimum effective dose 10 mg (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 7,
+              "questionNumber": 28
+            }
           }
         ],
         "facts": [
@@ -4762,7 +5315,7 @@
         ],
         "highlightBlockIndices": [
           1,
-          6
+          8
         ]
       }
     },
@@ -4820,7 +5373,18 @@
               "page": 31
             }
           ],
-          "title": "Antidementia drugs: pharmacokinetics"
+          "title": "Antidementia drugs: pharmacokinetics",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Memantine** is the antidementia drug keyed as 'mainly renally excreted' (tacrine, **donepezil**, **rivastigmine**, **galantamine** were the other options): the explanation says dose should be reduced in mild to moderate renal impairment and it is not recommended in severe renal impairment. The notes say about half the dose is excreted unchanged in urine (and also describe **rivastigmine**'s metabolite as excreted almost entirely in urine), so read the option set.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 26
+          }
         }
       ],
       "concise": {
@@ -4858,6 +5422,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 31
+            }
+          },
+          {
+            "text": "Memantine is the antidementia drug keyed as mainly renally excreted; reduce dose in renal impairment.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 7,
+              "questionNumber": 26
             }
           }
         ],
@@ -4986,7 +5558,18 @@
               "page": 32
             }
           ],
-          "title": "Benzodiazepines by duration of action"
+          "title": "Benzodiazepines by duration of action",
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Oxazepam** is the drug of choice for alcohol detoxification in liver disease (no hepatic oxidation, entirely glucuronidated). **Q1** gives **lorazepam** for severe liver damage from a different option set, so check which of **oxazepam** / **lorazepam** is offered; the notes name **oxazepam** over **chlordiazepoxide**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 32
+          }
         },
         {
           "type": "paragraph",
@@ -4994,6 +5577,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 32
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A **diazepam** protein binding of 30-==40%== is the **INCORRECT** statement (the notes give 95-==99%==; the explanation says benzodiazepine binding ranges from 70 to 99 percent).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 33
           }
         },
         {
@@ -5042,61 +5635,8 @@
               "page": 32
             }
           ],
-          "title": "Z hypnotics"
-        },
-        {
-          "type": "trap-list",
-          "title": "Benzodiazepine and hypnotic questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q1**: best choice to treat alcohol withdrawal in severe liver damage is **lorazepam** in this question; the explanation says a short-acting benzodiazepine such as **oxazepam** or **lorazepam** may be used in impaired liver function.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 1
-              }
-            },
-            {
-              "text": "**Q32**: the drug of choice for alcohol detoxification in liver disease is **oxazepam** (no hepatic oxidation, entirely glucuronidated). **Q1** and **Q32** give different answers (**lorazepam** vs **oxazepam**) depending on options offered; the notes name **oxazepam** over **chlordiazepoxide**.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 32
-              }
-            },
-            {
-              "text": "**Q2**: night sedation for someone driving at 6:30 **AM** - **zolpidem**; the explanation gives **zolpidem** half-life 2.6 hours (peak 1.6 hours) and no active metabolites, whereas the notes give 1 to 4 hours.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 2
-              }
-            },
-            {
-              "text": "**Q63**: zaleplon half-life approximately 1 hour (explanation); notes give 1 to 2 hours.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 63
-              }
-            },
-            {
-              "text": "**Q25**: longest-acting hypnotic among the options is **nitrazepam** (half-life about 24 hours, 40 hours in the elderly); not covered in the notes.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 25
-              }
-            },
-            {
-              "text": "**Q33**: the incorrect **diazepam** statement is a protein binding of 30-==40%== (notes: 95-==99%==; the explanation says benzodiazepine binding ranges 70 to 99 percent).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 33
-              }
-            }
-          ]
+          "title": "Z hypnotics",
+          "highYield": true
         },
         {
           "type": "gap",
@@ -5107,6 +5647,106 @@
             "page": 1,
             "questionNumber": 2
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Nitrazepam as the longest-acting hypnotic",
+          "note": "Not in the notes. Longest-acting hypnotic among the options is **nitrazepam** (half-life about 24 hours, about 40 hours in the elderly).",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Flumazenil pharmacokinetics and properties",
+          "note": "Not in the notes. Keyed true statement: **flumazenil** is an epileptogenic drug. The explanation says it is a competitive antagonist of benzodiazepines at **GABA-A** sites (no agonist activity in humans), can induce panic attacks by blocking **GABA-A** neurotransmission, has a very short elimination half-life so is given as a continuous infusion, is 40 to 50 percent protein bound and is metabolised by the liver with t1/2 of 40-80 minutes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Methadone",
+          "note": "Not in the notes. Keyed answer to 'full agonist at the mu receptor with a long half-life' is **methadone** (**buprenorphine**, **buspirone**, **disulfiram** and **acamprosate** were distractors): the explanation says it is a full mu-opioid agonist with a half-life of approximately 24 hours with regular use.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Shortest half-life among the atypicals offered: **quetiapine**.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 27,
+                "questionNumber": 58
+              }
+            },
+            {
+              "text": "The drug with a half-life of 3 days: **aripiprazole**.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 28,
+                "questionNumber": 60
+              }
+            },
+            {
+              "text": "Antipsychotic least dependent on hepatic metabolism: **amisulpride** (renal elimination without significant liver breakdown, as with **sulpiride**; ==90%== via the renal route).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 7,
+                "questionNumber": 29
+              }
+            },
+            {
+              "text": "Alcohol withdrawal in severe liver damage: **lorazepam** was the best choice in this question (short-acting **oxazepam** or **lorazepam** are suitable in impaired liver function).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "Night sedation for someone driving at 6:30 **AM**: **zolpidem** (t1/2 2.6 hours, no active metabolites).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Zaleplon half-life is approximately 1 hour in the explanation (the notes say 1 to 2 hours).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+                "page": 29,
+                "questionNumber": 63
+              }
+            },
+            {
+              "text": "Longest benzodiazepine half-life in a young adult: **diazepam** (20-100 hours; active metabolite 36-200 hours), which is why withdrawal is not very common.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 24,
+                "questionNumber": 65
+              }
+            },
+            {
+              "text": "Fastest onset of action among orally administered benzodiazepines: **diazepam**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 24,
+                "questionNumber": 66
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -5151,6 +5791,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 32
+            }
+          },
+          {
+            "text": "Flumazenil is an epileptogenic competitive benzodiazepine antagonist with a very short half-life (not in notes).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 8,
+              "questionNumber": 31
             }
           }
         ],
@@ -5198,7 +5846,7 @@
         ],
         "highlightBlockIndices": [
           1,
-          4
+          6
         ]
       }
     }
@@ -5226,6 +5874,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 2
+          }
+        },
+        {
+          "label": "Cross tolerance: reduced response to one drug after another (mock)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 24,
+            "questionNumber": 64
           }
         }
       ]
@@ -5273,6 +5929,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 4
+          }
+        },
+        {
+          "label": "Orally taken drugs: hepatic (not renal) first pass",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 64
+          }
+        },
+        {
+          "label": "Stomach = poor absorption; small intestine = major site",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 49
           }
         }
       ]
@@ -5368,6 +6040,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 7
           }
+        },
+        {
+          "label": "Haloperidol: 90% bound yet Vd > 2 l/kg",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 8,
+            "questionNumber": 29
+          }
+        },
+        {
+          "label": "Drugs not uniformly distributed",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
         }
       ]
     },
@@ -5462,6 +6150,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 9
           }
+        },
+        {
+          "label": "AUC after one dose gives bioavailability",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 27
+          }
+        },
+        {
+          "label": "First pass lowers bioavailability",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 33
+          }
         }
       ]
     },
@@ -5516,6 +6220,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 12
           }
+        },
+        {
+          "label": "Hydrolysis = phase 1; lorazepam/oxazepam/temazepam direct phase 2",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 16,
+            "questionNumber": 70
+          }
+        },
+        {
+          "label": "Smoking speeds caffeine metabolism, lowers clozapine",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 17,
+            "questionNumber": 73
+          }
+        },
+        {
+          "label": "ADH is rate-limiting enzyme for alcohol",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 28
+          }
+        },
+        {
+          "label": "Reboxetine: no CYP450 effect (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 28
+          }
         }
       ]
     },
@@ -5562,6 +6298,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 14
+          }
+        },
+        {
+          "label": "Lithium 95% unchanged in urine; amisulpride about 50%",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 28
           }
         }
       ]
@@ -5610,6 +6354,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 15
           }
+        },
+        {
+          "label": "Alcohol zero order: more likely to reach toxic levels",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 29
+          }
+        },
+        {
+          "label": "5 half-lives to steady state = first order",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 29
+          }
         }
       ]
     },
@@ -5656,6 +6416,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 16
+          }
+        },
+        {
+          "label": "Narrow index: digoxin, warfarin, theophylline, phenytoin, lithium",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 43
           }
         }
       ]
@@ -5711,6 +6479,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 18
           }
+        },
+        {
+          "label": "Lofepramine preferred TCA in elderly (not in notes)",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 45
+          }
         }
       ]
     },
@@ -5758,6 +6534,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 19
           }
+        },
+        {
+          "label": "Amisulpride: renal excretion, avoid in established renal failure",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 30
+          }
         }
       ]
     },
@@ -5804,6 +6588,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 21
+          }
+        },
+        {
+          "label": "Imipramine level > 180 ng/ml predicts recovery",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 17,
+            "questionNumber": 72
+          }
+        },
+        {
+          "label": "Smoking lowers TCA levels",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 23,
+            "questionNumber": 61
           }
         }
       ]
@@ -5859,6 +6659,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 24
           }
+        },
+        {
+          "label": "Fluoxetine longest total half-life; missed doses tolerated",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 25,
+            "questionNumber": 68
+          }
+        },
+        {
+          "label": "Avoid fluoxetine with cyclosporine (bank: CYP3A4)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 15,
+            "questionNumber": 64
+          }
+        },
+        {
+          "label": "Fluoxetine to phenelzine: wait 5 weeks (not in notes)",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 67
+          }
         }
       ]
     },
@@ -5912,6 +6736,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 26
+          }
+        },
+        {
+          "label": "MAOI effect = new MAO synthesis, not half-life",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 24
+          }
+        },
+        {
+          "label": "Grapefruit juice acceptable with MAOI (not tyramine rich)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 26
+          }
+        },
+        {
+          "label": "Washout: 2 weeks MAOI/SSRI, 5 weeks fluoxetine to MAOI (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 8,
+            "questionNumber": 28
           }
         }
       ]
@@ -5967,6 +6815,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 28
           }
+        },
+        {
+          "label": "Thiazides worst, loop diuretics safer with lithium",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 15,
+            "questionNumber": 66
+          }
+        },
+        {
+          "label": "CCBs, haloperidol, clozapine: neurotoxicity with normal levels",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 32
+          }
+        },
+        {
+          "label": "Carbamazepine plus clozapine contraindicated",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 22,
+            "questionNumber": 59
+          }
+        },
+        {
+          "label": "Lithium 0.8-1.2 mEq/L acute mania (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 6,
+            "questionNumber": 25
+          }
         }
       ]
     },
@@ -6013,6 +6893,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 29
+          }
+        },
+        {
+          "label": "Oral cover until depot steady state (3-6 months)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 6,
+            "questionNumber": 25
           }
         }
       ]
@@ -6068,6 +6956,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 30
           }
+        },
+        {
+          "label": "Clozapine level > 350 ng/mL (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 7,
+            "questionNumber": 28
+          }
+        },
+        {
+          "label": "Aripiprazole minimum effective dose 10 mg (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 7,
+            "questionNumber": 26
+          }
         }
       ]
     },
@@ -6107,6 +7011,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 31
+          }
+        },
+        {
+          "label": "Memantine mainly renal: dose reduce in renal impairment",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 26
           }
         }
       ]
@@ -6154,6 +7066,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 32
+          }
+        },
+        {
+          "label": "Flumazenil epileptogenic; short t1/2 (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 31
+          }
+        },
+        {
+          "label": "Methadone: full mu agonist, t1/2 about 24 h (not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 7,
+            "questionNumber": 27
           }
         }
       ]

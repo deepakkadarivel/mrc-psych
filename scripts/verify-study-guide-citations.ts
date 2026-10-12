@@ -53,6 +53,10 @@ function isValidImageSource(source: Source, topic: string): boolean {
 function buildValidSets(topic: string) {
   const notes = loadJson<NoteBlock[]>(path.join(contentDir, `notes/${topic}.json`)) ?? [];
   const questions = loadJson<Question[]>(path.join(contentDir, `questions/${topic}.json`)) ?? [];
+  // Paper A: a guide may also cite its topic's extra pool (course-labelled mock questions, name-matched EMI
+  // banks) — see scripts/paper-a/build-extra-pools.ts.
+  const extra = paperA ? (loadJson<Question[]>(path.join(contentDir, `questions-extra/${topic}.json`)) ?? []) : [];
+  questions.push(...extra);
   const pageKeys = new Set<string>();
   const questionKeys = new Set<string>();
   for (const n of notes) pageKeys.add(`${n.source.file}|${n.source.page}`);

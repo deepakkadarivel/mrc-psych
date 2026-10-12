@@ -67,7 +67,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "At the neuromuscular junction the transmitter is removed mainly by enzymatic degradation (acetylcholine) - not reuptake, diffusion, immune complex formation or renal clearance; the explanation lists the three general routes as enzymatic degradation, reuptake and diffusion.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 32
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Noradrenaline removal from the cleft is by all three routes - enzymatic degradation, diffusion and reuptake; 'reuptake only', 'diffusion only' and 'enzymatic degradation only' are absolute-language distractors, although the explanation says reuptake (high-affinity transmitter-specific transporters) is the most common mechanism.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 33
+          }
         },
         {
           "type": "table",
@@ -104,6 +125,19 @@
               "page": 2
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Five points of feedback control of a neurotransmitter",
+          "mnemonic": "SRRAI - Silly Rats Run Around Inside (Synthesis, Release, Reuptake, Autoreceptor, Independent postsynaptic inhibition)",
+          "expansion": [
+            "Synthesis (control of presynaptic synthesis)",
+            "Release (regulation of release)",
+            "Reuptake regulation",
+            "Autoreceptor-mediated presynaptic inhibition",
+            "Independent postsynaptic inhibition via a different neuronal network"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -150,11 +184,26 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Monoamines column of the neurotransmitter classes table",
+          "mnemonic": "Doctors Never Eat Soggy Apple Hotdogs",
+          "expansion": [
+            "Dopamine",
+            "Norepinephrine",
+            "Epinephrine",
+            "Serotonin",
+            "Acetylcholine",
+            "Histamine"
+          ],
+          "sourced": false
         },
         {
           "type": "trap",
-          "text": "**Q15** asks which listed neurotransmitter is an amino acid: glycine is the answer (the others - acetylcholine, neurotensin, dopamine, endorphins - are not), and the explanation notes glycine acts both as a glutamate co-transmitter and as an independent inhibitory neurotransmitter at its own receptors.",
+          "text": "Glycine is the amino-acid neurotransmitter in the list (acetylcholine, neurotensin, dopamine and endorphins are not); the explanation adds that glycine acts both as a glutamate co-transmitter and as an independent inhibitory neurotransmitter at its own receptors.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
@@ -170,6 +219,56 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
             "page": 1,
             "questionNumber": 1
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Calcium influx triggers transmitter release",
+          "note": "**Q63**: release of **CNS** transmitters is directly regulated by calcium influx - action potentials at the presynaptic terminal open calcium channels, calcium enters, synaptic vesicles move and stored transmitter is released. The notes mention exocytotic release but not the role of calcium.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 63
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Cholecystokinin (CCK) and bulimia",
+          "note": "**Q60**: cholecystokinin (listed in the notes only as a peptide transmitter) has been studied in bulimia - the explanation says **CCK** can produce a sense of satiation, bringing binges to a conclusion earlier than usual.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 60
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Mu receptors and supraspinal analgesia",
+          "note": "**Q3**: supraspinal analgesia related to opioid release is mediated by mu receptors (nicotine receptor subunits, kappa, sigma and delta were the distractors); the explanation says endogenous opioids regulate pain (supraspinal and spinal analgesia), anxiety and memory. The notes list endorphins and say opioid receptors are G-protein coupled but give no subtype roles.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Dynorphin as the most potent endogenous opioid",
+          "note": "**Q34**: dynorphin is the most powerful endogenous opioid peptide - far more potent than morphine or any other known endorphin (beta-endorphin, enkephalin and neoendorphin were distractors); the explanation adds that dynorphins, endorphins and enkephalins arise from different biosynthetic pathways. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Mu-opioid agonist: methadone",
+          "note": "**Q59**: **methadone** is the mu-opioid agonist among **disulfiram**, **naltrexone**, **buprenorphine** and **naloxone**; the explanation notes **buprenorphine** is a partial opioid agonist. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 16,
+            "questionNumber": 59
           }
         }
       ],
@@ -216,13 +315,24 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 2
             }
+          },
+          {
+            "text": "Neuromuscular junction transmitter is removed mainly by enzymatic degradation; noradrenaline is removed by degradation, diffusion AND reuptake (reuptake most common) - 'only' options are wrong.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 8,
+              "questionNumber": 33
+            }
           }
         ],
         "highlightBlockIndices": [
           4,
           5,
           6,
-          7
+          8,
+          9,
+          10,
+          11
         ]
       }
     },
@@ -281,11 +391,52 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Ionotropic receptor examples (GABA-A, NMDA, 5HT3)",
+          "mnemonic": "G-N-3 - GABA-A, NMDA and 5HT3 are the ionotropic 'gates'",
+          "expansion": [
+            "**GABA-A**",
+            "**NMDA**",
+            "5HT3"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "**GABA-A** receptor structure: each subunit is a string of amino acids passing in and out of the membrane four times; a large extracellular N-terminal is thought to mediate **GABA**-channel interactions, and a large intracellular loop in the middle has four phosphorylation sites.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 3
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**GABA-A** best fits 'ionotropic' - the distractors are G protein coupled, metabotropic, ligand-dependent regulator of nuclear transcription and receptor with intrinsic enzyme activity; the explanation calls **GABA-A** a pentameric ionotropic receptor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 28
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Rosette shaped' was keyed to **NMDA** receptors in this bank; the explanation draws it from the **GABA-A** ionotropic structure (five subunits in a circle, each crossing the membrane four times).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "trap",
+          "text": "5-**HT3** is the ligand-gated cation channel among the serotonin receptors offered (5-**HT7**, 5-**HT1B** and 5-**HT1A** and noradrenaline are the distractors); the explanation treats ligand-gated ion channel, ionotropic receptor and ion-channel-linked receptor as the same thing and calls 5-**HT3** a pentameric ionotropic receptor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 22
           }
         },
         {
@@ -305,8 +456,18 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Metabotropic receptors are coupled to G proteins; the other options come from the explanation's four-way scheme - ionotropic (ligand-gated channels), metabotropic, intrinsic enzymes (e.g. tyrosine kinase activity, which some authors classify with metabotropic) and ligand-dependent regulators of nuclear transcription.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 34
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Receptor-class questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Ionotropic = ligand-gated ion channel (**GABA-A** is pentameric ionotropic); 5-**HT3** is the ligand-gated cation channel among the 5-**HT** receptors; **GABA-B**, 5HT2A and **D2** are not ionotropic.",
@@ -330,14 +491,6 @@
                 "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
                 "page": 3,
                 "questionNumber": 5
-              }
-            },
-            {
-              "text": "'Rosette shaped' was keyed to **NMDA** receptors in this bank; the explanation draws it from the **GABA-A** ionotropic structure (five subunits in a circle, each crossing the membrane four times).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 31
               }
             }
           ]
@@ -386,11 +539,23 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "Metabotropic = G protein coupled; GABA-A = ionotropic (pentameric); 5-HT3 is the ligand-gated cation channel among 5-HT receptors.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 8,
+              "questionNumber": 34
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
-          5
+          2,
+          4,
+          6,
+          9,
+          10
         ]
       }
     },
@@ -440,7 +605,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -470,7 +636,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Dopamine receptor families and their effect on adenylate cyclase",
+          "mnemonic": "D1 and D5 are the 'uppers' (stimulate); D2, D3 and D4 are the 'downers' (inhibit)",
+          "expansion": [
+            "**D1**-like (**D1**, **D5**): increase (stimulatory) adenylate cyclase",
+            "**D2**-like (**D2**, **D3**, **D4**): decrease (inhibitory) adenylate cyclase"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -481,31 +658,81 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The rate-limiting step in dopamine synthesis is tyrosine hydroxylase - not dopamine beta hydroxylase, **PNMT**, **COMT** or choline acetyltransferase; **DOPA** is then converted to dopamine by **DOPA** decarboxylase.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 37
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Dopamine - Alzheimer dementia' is the **INCORRECT** pairing: Alzheimer's is linked to acetylcholine deficiency (the explanation says the pairings are over-simplifications).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**D2**-like receptors are inhibitory (negatively linked to adenylate cyclase) and **D2** and **D3** can also sit presynaptically as autoreceptors - 'presynaptic inhibitory receptor' was the best description of **D2**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**D2** is the receptor with both presynaptic and postsynaptic presence: the explanation says **D2**-like receptors (**D2**, **D3**, **D4**) act at both sites whereas **D1**-like (**D1**, **D5**) are postsynaptic only; 5-**HT2C**, **D1**, **D5** and 5-**HT1A** were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Amphetamine releasing dopamine into the synapse and causing positive symptoms is the statement favouring the dopamine hypothesis; the distractors are wrong because **disulfiram** **INHIBITS** dopamine metabolism (and may exacerbate schizophrenia), **PET** shows **INCREASED** dopamine receptor binding in drug-naive patients, phencyclidine acts via **NMDA** antagonism and causes both positive and negative symptoms, and only the **ALPHA** isomer of **flupentixol** is an effective dopamine-antagonist antipsychotic.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 62
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Dopamine traps from the question bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Rate-limiting step in dopamine synthesis is tyrosine hydroxylase (not dopamine beta hydroxylase, **PNMT**, **COMT** or choline acetyltransferase); **DOPA** is then converted to dopamine by **DOPA** decarboxylase.",
+              "text": "**D1** and **D2** are predominant in the caudate-putamen (**D3** nucleus accumbens, **D4** prefrontal cortex, **D5** hippocampus); **D1** and **D2** have wide striatal, mesolimbic and hypothalamic distribution while **D3** and **D4** are more localised.",
               "source": {
                 "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 37
+                "page": 15,
+                "questionNumber": 32
               }
             },
             {
-              "text": "Pairing 'dopamine - Alzheimer dementia' is the incorrect one: Alzheimer's is linked to acetylcholine deficiency (the pairings are over-simplifications).",
+              "text": "Dopamine deficiency in schizophrenia is in the mesocortical projections (tuberoinfundibular, nigrostriatal and mesolimbic were distractors); excess dopamine in the mesolimbic pathway is postulated to cause positive symptoms.",
               "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 7
-              }
-            },
-            {
-              "text": "**D2**-like receptors are inhibitory (negatively linked to adenylate cyclase); **D2** and **D3** can also sit presynaptically as autoreceptors - 'presynaptic inhibitory receptor' was the best description of **D2**.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
                 "page": 16,
-                "questionNumber": 34
+                "questionNumber": 58
+              }
+            },
+            {
+              "text": "Hyperprolactinaemia on a depot antipsychotic: the tuberoinfundibular pathway (hypothalamus to anterior pituitary) tonically inhibits prolactin release; mesolimbic, incertohypothalamic, mesocortical and nigrostriatal were distractors.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 6
               }
             }
           ]
@@ -574,6 +801,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 4
             }
+          },
+          {
+            "text": "Dopamine hypothesis question: amphetamine releasing dopamine favours it; disulfiram inhibits dopamine metabolism, PET shows increased receptor binding, only alpha-flupentixol is an effective antipsychotic.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 15,
+              "questionNumber": 62
+            }
           }
         ],
         "facts": [
@@ -613,7 +848,11 @@
         "highlightBlockIndices": [
           0,
           1,
-          3
+          2,
+          4,
+          7,
+          8,
+          9
         ]
       }
     },
@@ -667,7 +906,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Catecholamine synthesis chain",
+          "mnemonic": "The Lazy Dog Naps Everywhere (Tyrosine, L-dopa, Dopamine, Norepinephrine, Epinephrine)",
+          "expansion": [
+            "Tyrosine",
+            "L-dopa",
+            "Dopamine",
+            "Norepinephrine",
+            "Epinephrine"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -704,16 +957,48 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Adrenergic receptor coupling",
+          "mnemonic": "Alpha-one Phones the Lab (phospholipase C), Alpha-two is Inhibited (Gi), Beta Stimulates (Gs)",
+          "expansion": [
+            "Alpha-1: phospholipase C coupled",
+            "Alpha-2: Gi coupled",
+            "Beta: Gs coupled"
+          ],
+          "sourced": false
         },
         {
           "type": "trap",
-          "text": "Predominant **CNS** metabolite of noradrenaline is **MHPG** (3-methoxy-4-hydroxyphenylglycol); **VMA**, 5-**HIAA** and **COMT** were distractors.",
+          "text": "**MHPG** (3-methoxy-4-hydroxyphenylglycol) is the predominant **CNS** metabolite of noradrenaline; **VMA**, 5-**HIAA** and **COMT** were the distractors.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
             "page": 5,
             "questionNumber": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**COMT** is the keyed degradation enzyme for noradrenaline (acetylcholinesterase, choline acetyltransferase, tryptophan hydroxylase and tyrosine hydroxylase are the distractors); the explanation says **COMT** and **MAO** are both critical for the metabolic degradation of catecholamines.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 11,
+            "questionNumber": 30
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Degradation of noradrenaline in presynaptic neurons is by monoamine oxidase (the explanation names **MAO-A** and **COMT** as the breakdown enzymes); **GABA** transaminase is the wrong enzyme and homovanillic acid, vanillyl mandelic acid and 3-methoxy-4-hydroxyphenylglycol are listed options but are products, not enzymes.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 16,
+            "questionNumber": 60
           }
         },
         {
@@ -734,6 +1019,26 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
             "page": 8,
             "questionNumber": 16
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "MAO-A tissue distribution",
+          "note": "**Q61**: **MAO-A** is found primarily in the gut - the explanation says the brain predominantly has **MAO-B** while the liver/**GI** tract predominantly has **MAO-A**. The notes give substrate selectivity (**MAO-A** norepinephrine and serotonin; **MAO-B** dopamine) but not tissue distribution.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 61
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Monoamine oxidase location",
+          "note": "**Q35**: the enzyme family that catalyses oxidation of monoamines (answer: oxidase - monoamine oxidases) sits on the outer membrane of mitochondria. The notes name **MAO** but not where it is located.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 35
           }
         }
       ],
@@ -780,6 +1085,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 5
             }
+          },
+          {
+            "text": "Presynaptic noradrenaline degradation is by MAO (MAO-A and COMT are the breakdown enzymes); MHPG is the main CNS metabolite.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 16,
+              "questionNumber": 60
+            }
           }
         ],
         "facts": [
@@ -811,7 +1124,10 @@
         "highlightBlockIndices": [
           0,
           1,
-          2
+          2,
+          3,
+          4,
+          6
         ]
       }
     },
@@ -865,7 +1181,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -920,7 +1237,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -989,6 +1307,18 @@
           "sourced": false
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Consequences of low serotonin",
+          "mnemonic": "DASI - Depression, Aggression, Suicide, Impulsivity",
+          "expansion": [
+            "Depression",
+            "Aggression",
+            "Suicide",
+            "Impulsivity"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "**DOPA** decarboxylase (**DDC**) is implicated in two pathways: after tyrosine hydroxylase makes L-**DOPA**, **DDC** decarboxylates it to dopamine (abundant in basal ganglia; precursor of noradrenaline and adrenaline in the adrenal medulla); in the nervous system tryptophan hydroxylase produces 5-**OH** tryptophan, which **DDC** decarboxylates to serotonin. **DDC** is a homodimeric, pyridoxal phosphate-dependent enzyme (**OMIM** excerpt).",
           "source": {
@@ -1004,6 +1334,66 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
             "page": 1,
             "questionNumber": 1
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Tryptophan is the precursor of serotonin (not noradrenaline, dopamine, adrenaline or acetylcholine); the explanation gives the route - tryptophan hydroxylase converts tryptophan to 5-hydroxytryptophan, then aromatic amino acid decarboxylase converts that to 5HT.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "5-Hydroxytryptophan is the serotonin precursor; 5-hydroxytryptamine is serotonin itself (the explanation stresses this), so it is not a precursor, and 5-hydroxy indole acetic acid, 5-hydroxy dopamine and anandamide are the other distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 14,
+            "questionNumber": 56
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Two framings of 'rate-limiting' for serotonin synthesis: the notes say availability of tryptophan, while this question keys the enzyme L-tryptophan hydroxylase (L-tryptophan to 5-hydroxytryptophan), explicitly parallel to tyrosine hydroxylase for norepinephrine and dopamine; **MAO-A**, tyrosine hydroxylase, amino acid decarboxylase and acetyl CoA synthetase were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 15,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Somatodendritic inhibition of 5-**HT** release is regulated by 5-**HT1A** receptors: somatodendritic 5-**HT1A** receptors in the dorsal and median raphe are autoreceptors regulating firing, while postsynaptic 5-**HT1A** receptors (hippocampus, periaqueductal grey) regulate resilience, impulsivity and restraint of excessive response to stress; the notes' coupling table lists 5-**HT1A** only as postsynaptic.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 14,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Low **CSF** 5-**HIAA** is associated with impulsivity - the explanation says central serotonin inhibits impulsive behaviour; cheese reaction, serotonin syndrome, visual hallucinations and coronary artery disease were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 63
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Cathinone, not cathine, is the keyed active ingredient of khat (Catha edulis): the stimulant effect was first attributed to cathine, but fresh leaves contain the more active cathinone, which is unstable and breaks down to cathine and norephedrine - hence fresh leaves are more stimulating.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 31
           }
         },
         {
@@ -1087,6 +1477,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 6
             }
+          },
+          {
+            "text": "Low CSF 5-HIAA is associated with impulsivity; serotonin precursor is 5-hydroxytryptophan (5-hydroxytryptamine is serotonin itself).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 15,
+              "questionNumber": 63
+            }
           }
         ],
         "facts": [
@@ -1136,7 +1534,10 @@
           2,
           3,
           4,
-          6
+          5,
+          7,
+          10,
+          11
         ]
       }
     },
@@ -1190,7 +1591,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Enzyme involved in acetylcholine synthesis is choline acetyltransferase (not acetylcholinesterase or butyrylcholinesterase, which degrade it).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Acetylcholine is a substrate of acetylcholinesterase; choline acetyltransferase **SYNTHESISES** it from acetyl CoA and choline, so ChAT, acetyl CoA and choline are the tempting wrong answers (monoamine oxidase was another distractor).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 14,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The enzyme that metabolises the transmitter at the neuromuscular junction is acetylcholinesterase (it breaks ACh into acetate and choline, which the presynaptic terminal takes up); choline acetyltransferase is the synthetic, not metabolic, enzyme.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 14,
+            "questionNumber": 60
+          }
         },
         {
           "type": "table",
@@ -1218,22 +1650,32 @@
         },
         {
           "type": "trap",
-          "text": "Enzyme involved in acetylcholine synthesis is choline acetyltransferase (not acetylcholinesterase or butyrylcholinesterase, which degrade it).",
-          "format": "SBA",
-          "source": {
-            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-            "page": 2,
-            "questionNumber": 2
-          }
-        },
-        {
-          "type": "trap",
           "text": "Alzheimer's: cholinergic neurons fall, with reduced acetylcholinesterase and choline acetyltransferase (the rate-limiting synthetic enzyme) and reduced ACh; 'decreased levels of acetylcholinesterase' was the keyed answer, not increased ChAT or AChE.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
             "page": 11,
             "questionNumber": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Parkinson's disease with progressive cognitive decline and visual hallucinations: the transmitter deficient is acetylcholine, **NOT** dopamine - the explanation says brain ACh is reduced in both Lewy body dementia and Parkinson's disease dementia, as in Alzheimer's disease, so anti-dementia acetylcholinesterase drugs can be used.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 14,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The nucleus basalis of Meynert is the predominantly cholinergic region (dorsal raphe, median raphe, substantia nigra and locus coeruleus were the distractors); the explanation says most **CNS** ACh tracts originate there and in adjacent basal forebrain nuclei, projecting to cortex, hippocampus and amygdala.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 38
           }
         },
         {
@@ -1293,6 +1735,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 8
             }
+          },
+          {
+            "text": "Parkinson's disease dementia / Lewy body dementia: brain acetylcholine is reduced (as in Alzheimer's) - acetylcholinesterase drugs can be used.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 14,
+              "questionNumber": 59
+            }
           }
         ],
         "facts": [
@@ -1332,8 +1782,10 @@
         "highlightBlockIndices": [
           0,
           1,
-          2,
-          3
+          3,
+          4,
+          5,
+          6
         ]
       }
     },
@@ -1383,7 +1835,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**GABA** is made from glutamate (glutamic acid) by glutamic acid decarboxylase - glutamate is the **GABA** precursor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 17
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The enzyme that catabolises **GABA** is **GABA** transaminase (alongside presynaptic reuptake).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 25
+          }
         },
         {
           "type": "table",
@@ -1407,37 +1880,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "GABA points from questions",
-          "items": [
-            {
-              "text": "**GABA** is produced from glutamate (glutamic acid) by glutamic acid decarboxylase; glutamate is the precursor of **GABA**.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 17
-              }
-            },
-            {
-              "text": "The enzyme that catabolises **GABA** is **GABA** transaminase (transaminase), alongside presynaptic reuptake.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 25
-              }
-            },
-            {
-              "text": "Huntington's disease: disrupted GABAergic circuits - **GABA** was the keyed neurotransmitter.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 13
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Huntington's disease: disrupted GABAergic circuits - **GABA** was the keyed neurotransmitter.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Glutamic acid decarboxylase (**GAD**) is neuron-specific and not found in glial cells (so **GAD** antibodies can identify **GABA**-releasing neurons), whereas glutamine synthase is a glial enzyme that converts glutamate to glutamine; monoamine oxidase, dopa decarboxylase and cholinesterase were the other options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 14,
+            "questionNumber": 60
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Hyperpolarization of the neuron is influenced by chloride and potassium: in **CNS** neurons inhibitory transmitters open chloride channels and second messengers mediating inhibition act on potassium channels; combinations including sodium or calcium are the distractors (the notes cover only the chloride/**GABA-A** side).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 32
+          }
         }
       ],
       "concise": {
@@ -1475,6 +1949,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 9
+            }
+          },
+          {
+            "text": "GAD is a neuron-specific enzyme (not in glia); glutamine synthase is the glial enzyme converting glutamate to glutamine.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 14,
+              "questionNumber": 60
             }
           }
         ],
@@ -1515,7 +1997,9 @@
         "highlightBlockIndices": [
           0,
           1,
-          2
+          3,
+          5,
+          6
         ]
       }
     },
@@ -1569,7 +2053,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -1601,11 +2086,55 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "NMDA receptor binding sites",
+          "mnemonic": "Get Good Pay Make Zillions (Glutamate, Glycine, PCP, Magnesium, Zinc)",
+          "expansion": [
+            "Glutamate",
+            "Glycine",
+            "Phencyclidine (**PCP**)",
+            "Magnesium",
+            "Zinc"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Glutamate is the neurotransmitter of long-term potentiation of memory (noradrenaline, dopamine, acetylcholine and serotonin were the distractors); the explanation says its **NMDA** receptors mediate **LTP**, a major cellular mechanism underlying learning and memory.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 35
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Glutamate is the most widely distributed neurotransmitter in the brain (dopamine, acetylcholine, norepinephrine and serotonin were the distractors): the explanation calls it the most prevalent, major excitatory transmitter with wide distribution in cerebral cortex, hippocampus and neocortical projections.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**NMDA** is the receptor that needs simultaneous binding of two different agonists - glutamate and glycine (co-activation molecules); **GABA-B**, muscarinic **M3**, **GABA-A** and mu opiate were the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 16,
+            "questionNumber": 61
+          }
         },
         {
           "type": "trap-list",
-          "title": "Glutamate points from questions",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "**LTP** is mediated by the **NMDA** receptor.",
@@ -1629,14 +2158,6 @@
                 "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
                 "page": 13,
                 "questionNumber": 27
-              }
-            },
-            {
-              "text": "Glycine and D-serine are co-agonists at **NMDA** receptors.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 20
               }
             }
           ]
@@ -1705,6 +2226,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 10
             }
+          },
+          {
+            "text": "NMDA receptors need both glutamate and glycine to activate; glutamate is the most widely distributed transmitter and mediates LTP via NMDA.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 16,
+              "questionNumber": 61
+            }
           }
         ],
         "facts": [
@@ -1744,7 +2273,9 @@
         "highlightBlockIndices": [
           0,
           1,
-          2
+          2,
+          5,
+          6
         ]
       }
     },
@@ -2124,7 +2655,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2140,6 +2672,56 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 12
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Nitric oxide synthesis",
+          "note": "**Q64**: nitric oxide is synthesised from L-arginine (stimulated by nitric oxide synthase); toluene, benzene, phosphokinase and L-tryptophan were distractors. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 64
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Sildenafil side effect",
+          "note": "**Q62**: the most common side effect of **sildenafil** is headache; the explanation says it is an indirect vasodilator. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 62
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Rate-limiting enzyme of alcohol metabolism",
+          "note": "**Q61**: alcohol dehydrogenase is the rate-limiting enzyme in alcohol metabolism - it oxidises ethanol to acetaldehyde with the coenzyme **NAD**+, and acetaldehyde is further oxidised to acetic acid and finally **CO2** and water. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 14,
+            "questionNumber": 61
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Smooth endoplasmic reticulum and phospholipids",
+          "note": "**Q29**: phospholipids are produced in the smooth endoplasmic reticulum, which also makes steroid hormones, breaks down lipid-soluble toxins in liver cells and controls calcium release in muscle contraction. Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 29
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Rosenthal fibres",
+          "note": "**Q36**: carrot-shaped eosinophilic inclusions on haematoxylin and eosin are Rosenthal fibres (densely eosinophilic astrocytic processes containing glial intermediate filaments and alpha-B-crystallin), particularly numerous in Alexander disease. Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 36
           }
         }
       ],
@@ -2265,6 +2847,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 2
           }
+        },
+        {
+          "label": "Transmitter release is directly regulated by calcium influx (question-based, not in notes)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 63
+          }
+        },
+        {
+          "label": "Neuromuscular junction: removal mainly by enzymatic degradation",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 32
+          }
         }
       ]
     },
@@ -2311,6 +2909,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 3
+          }
+        },
+        {
+          "label": "Metabotropic receptors are coupled to G proteins",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 34
           }
         }
       ]
@@ -2366,6 +2972,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 4
           }
+        },
+        {
+          "label": "Dopamine hypothesis: amphetamine releases dopamine and causes positive symptoms; PET shows increased receptor binding in drug-naive patients",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 62
+          }
+        },
+        {
+          "label": "D2-like receptors are both presynaptic and postsynaptic; D1-like postsynaptic only",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 33
+          }
         }
       ]
     },
@@ -2412,6 +3034,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 5
+          }
+        },
+        {
+          "label": "Presynaptic degradation by MAO (MAO-A and COMT); MAO-A mainly in gut/liver, brain mainly MAO-B",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 61
           }
         }
       ]
@@ -2467,6 +3097,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 6
           }
+        },
+        {
+          "label": "Low CSF 5-HIAA associated with impulsivity",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 15,
+            "questionNumber": 63
+          }
+        },
+        {
+          "label": "Rate-limiting enzyme keyed as L-tryptophan hydroxylase (notes: tryptophan availability)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 15,
+            "questionNumber": 57
+          }
         }
       ]
     },
@@ -2506,6 +3152,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 8
+          }
+        },
+        {
+          "label": "Parkinson's disease dementia: acetylcholine reduced, as in Alzheimer's",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 14,
+            "questionNumber": 59
           }
         }
       ]
@@ -2554,6 +3208,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 9
           }
+        },
+        {
+          "label": "GAD is neuron-specific, not in glia",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 14,
+            "questionNumber": 60
+          }
+        },
+        {
+          "label": "Hyperpolarization: chloride and potassium",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 12,
+            "questionNumber": 32
+          }
         }
       ]
     },
@@ -2600,6 +3270,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
             "page": 10
+          }
+        },
+        {
+          "label": "NMDA needs glutamate plus glycine; glutamate most widely distributed; LTP via NMDA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 16,
+            "questionNumber": 61
           }
         }
       ]

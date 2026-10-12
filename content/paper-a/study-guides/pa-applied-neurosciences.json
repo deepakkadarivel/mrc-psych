@@ -47,7 +47,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Bedside frontal lobe tests (table above)",
+          "mnemonic": "Some Lazy Lions Grab Cold Tea",
+          "expansion": [
+            "Similarities",
+            "Lexical fluency",
+            "Luria motor test",
+            "Go/no-go test",
+            "Cognitive estimates test",
+            "Trail making test"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -95,7 +110,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Copying intersecting pentagons is the task a non-dominant parietal lesion makes hardest - it tests constructional praxis. The explanation lists visuospatial dysfunction, topographical memory loss and constructional/dressing apraxia as non-dominant parietal effects (seen with either hemisphere, but more often and more severe on the non-dominant side); reading, writing a sentence, serial 7s and stating location are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 38
+          }
         },
         {
           "type": "trap",
@@ -138,6 +164,26 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The California Verbal Learning Test is the '**NOT** a frontal lobe test' answer: the explanation lists the frontal tests (Stroop, Halstead trail making, cognitive estimates, Tower of London, **WCST**, verbal fluency, Luria's motor tests, multiple errands) and says the **CVLT** assesses verbal memory - it may be affected in frontal lesions but is not a specific frontal test.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Naming as many animals as possible in one minute is category fluency, a frontal lobe test of lexical fluency - it tests speed, accuracy and the ability to shift from a narrow set to the next; temporal, parietal, occipital and cerebellar are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Temporal-lobe test list from the question bank",
           "note": "Notes do not classify Benton visual retention, speech sound perception, Seashore rhythms or **WMS-R** as temporal lobe tests (notes describe Benton as a short-term visual memory test, Halstead-Reitan includes speech-sounds and rhythm tests). **Q12**'s explanation assigns them to the temporal lobe - not stated in the notes.",
@@ -145,6 +191,26 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
             "page": 5,
             "questionNumber": 12
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Animal models of depression: forced swim test",
+          "note": "Not in the notes. **Q2**: the forced swim (behavioural despair/Porsolt) test measures the effect of antidepressants in laboratory animals: after an initial 15 minutes of swimming and a repeat 5-minute session a day later, the time with no effort to escape (immobility time) indexes helplessness and is decreased by antidepressants.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Raclopride and D2 imaging",
+          "note": "Not in the notes. Raclopride is a **D2** antagonist that can be radiolabelled with carbon-11 for **PET** to assess the distribution of **D2** receptors and the degree of endogenous dopamine binding (keyed answer: **D2** receptors).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 38
           }
         }
       ],
@@ -191,6 +257,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 2
             }
+          },
+          {
+            "text": "CVLT is not a frontal test (verbal memory); animal-naming = frontal category fluency.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 8,
+              "questionNumber": 34
+            }
+          },
+          {
+            "text": "Intersecting-pentagon copying fails in non-dominant parietal lesions (constructional praxis).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 10,
+              "questionNumber": 38
+            }
           }
         ],
         "facts": [
@@ -213,7 +295,8 @@
         ],
         "highlightBlockIndices": [
           0,
-          1
+          1,
+          2
         ]
       }
     },
@@ -259,7 +342,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -288,11 +372,41 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Dorsolateral prefrontal syndrome = poor planning ability (dysexecutive syndrome: diminished judgement, planning and insight, concrete inflexible attitude, reduced spontaneous behaviour) - **NOT** poor impulse control or psychopathic dyscontrol, which the explanation assigns to orbitofrontal lesions (pseudopsychopathic syndrome).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 46
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Olfactory disturbance is keyed as a localising sign for frontal lesions, but the explanation warns that anosmia is itself not a good localising sign because the cause is often peripheral (nostrils); the classic frontal presentation it names is olfactory groove meningioma - anosmia, loss of inhibition, memory impairment, headaches and visual symptoms.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 8,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Reduced verbal fluency, loss of insight and a silly jocular affect (with mild aphasia, wandering and preserved motor function) point to frontal lesions - the keyed scan finding is bilateral frontal atrophy, not occipito-parietal or diffuse atrophy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 9,
+            "questionNumber": 38
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Frontal lesion questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Lesion of ventromedial frontal cortex is associated with apathy (**Q8**; the explanation says this results in pseudodepressive syndrome).",
+              "text": "Lesion of ventromedial frontal cortex is associated with apathy; the explanation says this results in pseudodepressive syndrome.",
               "source": {
                 "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
                 "page": 4,
@@ -300,7 +414,7 @@
               }
             },
             {
-              "text": "Loss of verbal fluency = left frontal lesion; motor speech disorder is a feature of left frontal lesions due to damage to Broca's area (**Q27**).",
+              "text": "Loss of verbal fluency = left frontal lesion; motor speech disorder is a feature of left frontal lesions due to damage to Broca's area.",
               "source": {
                 "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
                 "page": 11,
@@ -308,15 +422,7 @@
               }
             },
             {
-              "text": "Dorsolateral prefrontal syndrome = poor planning ability; poor impulse control and psychopathic dyscontrol are orbitofrontal (pseudopsychopathic) (**Q46**).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 46
-              }
-            },
-            {
-              "text": "Forced utilization behaviour is keyed to the orbitofrontal lobe (damage to orbital frontal structures and caudate nuclei) (**Q28**).",
+              "text": "Forced utilization behaviour is keyed to the orbitofrontal lobe (damage to orbital frontal structures and caudate nuclei).",
               "source": {
                 "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
                 "page": 12,
@@ -324,11 +430,19 @@
               }
             },
             {
-              "text": "Bilateral orbito-frontal contre-coup injury is the **MRI** finding for behaviour change, violent outbursts, impulsivity and reduced fluency after head injury; pseudopsychopathy is a result of orbitofrontal damage (**Q11**).",
+              "text": "Bilateral orbito-frontal contre-coup injury is the **MRI** finding for behaviour change, violent outbursts, impulsivity and reduced fluency after head injury; pseudopsychopathy is a result of orbitofrontal damage.",
               "source": {
                 "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
                 "page": 5,
                 "questionNumber": 11
+              }
+            },
+            {
+              "text": "Anosmia is not a good localising sign for frontal lesions - the cause is often peripheral (nostrils).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 8,
+                "questionNumber": 31
               }
             }
           ]
@@ -367,7 +481,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "mnemonic",
@@ -380,6 +495,26 @@
             "Agraphia / dysgraphia"
           ],
           "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Hemi-neglect is the '**NOT** a feature of Gerstmann syndrome' answer - the dominant parietal tetrad is finger agnosia, right-left disorientation, dysgraphia/agraphia and dyscalculia/acalculia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 3,
+            "questionNumber": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Gerstmann syndrome = dominant parietal lobe signs (damage to the inferior parietal lobule of the dominant hemisphere); aphasia, hemineglect, cortical blindness and dressing apraxia are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 10,
+            "questionNumber": 41
+          }
         },
         {
           "type": "table",
@@ -423,7 +558,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -479,7 +615,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Aura is keyed to complex partial seizures (particularly temporal lobe complex partial epilepsy), not grand mal, petit mal or myoclonic seizures; auras are brief (seconds) and stereotyped - e.g. autonomic/visceral (epigastric), depersonalisation, derealisation, affective change, illusions and hallucinations.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 35
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Epileptic automatisms last a few seconds to minutes (stereotyped gesturing, grasping, lip-smacking, chewing), with subsequent amnesia; only very occasionally are they prolonged (fugue states) - not hours, days or months.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 10,
+            "questionNumber": 42
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A sensory aura of tingling, numbness, vague pain, body-image distortion, vertigo and visual illusions localises the focus to the parietal lobe; pain is rare as an epileptic phenomenon overall, but one-quarter of parietal lobe seizures have pain as a prominent symptom.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 10
+          }
         },
         {
           "type": "paragraph",
@@ -626,6 +793,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 5
             }
+          },
+          {
+            "text": "DLPFC = poor planning (dysexecutive); orbitofrontal = poor impulse control (pseudopsychopathic).",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 46
+            }
+          },
+          {
+            "text": "Auras are most common in temporal lobe complex partial seizures; automatisms last seconds to minutes.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 9,
+              "questionNumber": 35
+            }
           }
         ],
         "facts": [
@@ -648,11 +831,11 @@
         ],
         "highlightBlockIndices": [
           0,
-          5,
-          6,
-          7,
           8,
-          12
+          9,
+          12,
+          13,
+          20
         ]
       }
     },
@@ -706,7 +889,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "'All but' trap: digit span is a **VERBAL** **WAIS** subtest, so it is the answer to 'performance subtests include all but'. Performance = picture arrangement, block design, picture completion, digit symbol, matrix reasoning; verbal = similarities, arithmetic, digit span, vocabulary, information, comprehension.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 39
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Digit symbol is the non-verbal (performance) **WAIS** test; digit span, vocabulary, arithmetic and information are all verbal subtests.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 10,
+            "questionNumber": 40
+          }
         },
         {
           "type": "table",
@@ -738,7 +942,40 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "WAIS hold tests (table above)",
+          "mnemonic": "VIOP = Very Intelligent Old People",
+          "expansion": [
+            "Vocabulary",
+            "Information",
+            "Object assembly",
+            "Picture completion"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Information is the **WAIS** test resistant to brain damage - hold tests are vocabulary, information, object assembly and picture completion; non-hold tests are block design, digit span, similarities and digit symbol. The explanation adds that the hold/non-hold resistance idea is 'disputed'.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Picture completion is keyed as the **WAIS** part most resistant to brain damage: hold tests reflect old knowledge, whereas no-hold tests (digit symbol, digit span, similarities, block design) need speed, working memory or new relations and decline early with ageing and impairment. The explanation concludes that this is why **WAIS** is not the best test of premorbid intelligence.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 35
+          }
         },
         {
           "type": "paragraph",
@@ -767,11 +1004,41 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Raven's progressive matrices = general intellectual ability (multiple-choice tests of abstract reasoning giving culturally unbiased **IQ** estimates) - **NOT** premorbid intelligence (**NART**) and not a frontal, visuospatial or attentional-bias test.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 2,
+            "questionNumber": 5
+          }
+        },
+        {
           "type": "paragraph",
           "text": "**NART** (National Adult Reading Test): reading is seemingly resistant to organic brain damage, so **NART** taps previous word knowledge and is used to estimate premorbid **IQ**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "To check whether a hospitalised patient's **IQ** has deteriorated, the best test of premorbid **IQ** is the National Adult Reading Test - not Rey-Osterrieth, Luria motor, paired associate learning or Beck's inventory; it is used to estimate premorbid intelligence in English-speaking patients with dementia and other organic brain lesions.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**NART** assesses premorbid intelligence (not visuospatial ability, nonverbal intelligence or frontal function): its validity rests on reading of irregular words being relatively independent of brain damage and a strong predictor of intelligence.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 8,
+            "questionNumber": 32
           }
         },
         {
@@ -783,6 +1050,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "An abnormal Stroop test is keyed to 'attentional bias': the explanation says an abnormal Stroop effect with loss of inhibitory control is seen in frontal lobe lesions, while abnormal modified emotional Stroop interference (e.g. threat words in anxious subjects) is read as mood-congruent attentional bias.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Wisconsin Card Sorting Test (**WCST**): stimulus cards differ in colour, form and number and are sorted by a single principle (e.g. colour, ignoring form and number). Persons with damage to the frontal lobes or the caudate, and some persons with schizophrenia, give abnormal responses.",
           "source": {
@@ -791,11 +1068,41 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**WCST** assesses flexibility in problem solving (set shifting in the face of changing reinforcement schedules) - not category fluency, personality traits, visuomotor performance or attention and concentration.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Executive function (planning, initiation, sequencing, coordinating, error detection and correction, set shifting, termination) is tested formally with the Wisconsin Card Sorting Test - not **NART**, Raven's, a vocabulary test or Rey-Osterrieth.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 11,
+            "questionNumber": 39
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Frontal test deficits: Trail Making Test B, **WCST**, Hayling test (sentence completion), Brixton task, and Trail B of the Halstead-Reitan battery all test set-shifting ability, part of executive functioning.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Alcohol dependence with no memory problems or neurological signs but disorganisation in day-to-day tasks = executive (frontal) decrement, so the trail making test is the impaired performance expected - not orientation, clock drawing, digit span or picture completion.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 10,
+            "questionNumber": 42
           }
         },
         {
@@ -887,7 +1194,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Reading a short story with 25 elements and testing immediate and delayed recall (30 minutes) is the Wechsler Memory Scale - one of its verbal subtests - not Rivermead, Rey-Osterrieth, Halstead-Reitan or **WAIS**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Rivermead Behavioural Memory Test is the one for impairment of everyday memory functioning and for monitoring change after treatment of memory difficulties (task analogues of everyday memory problems; acquired brain injury, dementia, **MS**) - not **WMS**, Halstead-Reitan, Raven's or **TAT**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 10,
+            "questionNumber": 41
+          }
         },
         {
           "type": "paragraph",
@@ -895,6 +1223,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Bender-Gestalt is the instrument keyed for screening cognitive deficits after head injury: it evaluates maturity of the visual-motor system and is also used to assess brain damage and neurological deficits (e.g. as part of a **TBI** battery) - not **NART**, Glasgow Coma Scale, **WAIS** or Raven's.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 9,
+            "questionNumber": 37
           }
         },
         {
@@ -906,6 +1244,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "'Wrongly linked' **EMI**-style pairing trap: Rey-Osterrieth is a test of visual memory (recall of learned material), **NOT** of prefrontal pathology - the Wisconsin card sorting test detects prefrontal pathology; Benton = visual memory and paired associates = verbal memory are correct links.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 37
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Hayling test details",
           "note": "Notes list Hayling (sentence completion) only among set-shifting frontal tests. **Q22**'s explanation adds that two sets of 15 sentences with the last word missing are used, measuring response initiation (part 1) and response suppression (part 2) - not in the notes.",
@@ -914,6 +1262,82 @@
             "page": 9,
             "questionNumber": 22
           }
+        },
+        {
+          "type": "trap",
+          "text": "A sentence with the last word missing ('The captain wanted to stay with the sinking ...') = Hayling's test (two sets of 15 sentences; response initiation speed first) - not Brixton, Wisconsin, Stroop or Goldstein.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Hayling is keyed as testing 'verbal fluency and executive function': Part A looks at preprogrammed organising (concentrated attention, verbal initiation, processing speed) and Part B at verbal inhibition and planning.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 9,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Poor Brixton performance = a deficit in visuospatial sequencing (rule learning from sequences of stimuli, no verbal response, relatively free from educational and sociocultural bias); often used for executive functioning in stroke, dementia and schizophrenia - contrast with the verbal Hayling.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 35
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "**WAIS** test that resists ageing decline = picture completion (hold test).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 9,
+                "questionNumber": 33
+              }
+            },
+            {
+              "text": "**WCST** = the test of set shifting.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 10,
+                "questionNumber": 37
+              }
+            },
+            {
+              "text": "Digit span tests working memory (immediate) and attention - not semantic or procedural memory, premorbid **IQ** or calculation.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 11,
+                "questionNumber": 41
+              }
+            },
+            {
+              "text": "Block design is the **WAIS** subtest that declines with ageing (non-hold test); hold tests include vocabulary and information.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "**NART** = reading 50 irregular words to estimate premorbid **IQ**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 8,
+                "questionNumber": 32
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -959,6 +1383,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 6
             }
+          },
+          {
+            "text": "WAIS hold tests (vocabulary, information, object assembly, picture completion) resist brain damage and ageing.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 9,
+              "questionNumber": 35
+            }
+          },
+          {
+            "text": "Raven's = general intellectual ability; NART = premorbid IQ; WCST = set shifting.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 2,
+              "questionNumber": 5
+            }
           }
         ],
         "facts": [
@@ -997,7 +1437,9 @@
         ],
         "highlightBlockIndices": [
           1,
-          2
+          4,
+          5,
+          26
         ]
       }
     },
@@ -1065,6 +1507,18 @@
               "page": 7
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "States related to coma (table above)",
+          "mnemonic": "SAVL = Sleepy Animals Visit Lakes",
+          "expansion": [
+            "Stupor",
+            "Akinetic mutism",
+            "Vegetative state",
+            "Locked-in syndrome"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1167,7 +1621,8 @@
           }
         ],
         "highlightBlockIndices": [
-          3
+          3,
+          4
         ]
       }
     },
@@ -1229,7 +1684,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -1249,6 +1705,26 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
             "page": 15,
             "questionNumber": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Immediate repetition of 3 items in the **MMSE** tests registration; recall is tested by asking for the items again after a distraction (delayed recall) - not recognition, digit span or fluency.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 4,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Digit span is a test of working memory (immediate) and attention - not semantic memory, procedural memory, premorbid **IQ** or calculation ability.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 11,
+            "questionNumber": 41
           }
         }
       ],
@@ -1333,6 +1809,22 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Components of executive function",
+          "mnemonic": "PISCEEST = Plan, Initiate, Sequence, Coordinate, Err-detect, Err-correct, Set-shift, Terminate",
+          "expansion": [
+            "Planning",
+            "Initiation",
+            "Sequencing",
+            "Coordinating",
+            "Error detection",
+            "Error correction",
+            "Set shifting",
+            "Termination"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "Impulsivity reflects failure of response inhibition and is seen in inferior frontal pathology; it can be assessed with the Go-No-Go task (tap once for a single tap, withhold for two taps). It can be made harder by changing the rule after several trials (e.g. 'tap once when I tap twice, and not at all when I tap once').",
           "source": {
@@ -1373,6 +1865,26 @@
             "page": 13,
             "questionNumber": 30
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Negative symptoms of schizophrenia and the DLPFC",
+          "note": "Not in these notes. The negative symptoms are keyed to hypoactivation of the dorsolateral prefrontal cortex: the explanation says positive symptoms may relate to excessive subcortical **DA** transmission and negative symptoms to a concomitant deficit in cortical **DA** transmission, with fMRI showing reduced prefrontal activation (**VLPFC**, **DLPFC**, anterior cingulate) in unmedicated patients.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Neuropsychological theory of ADHD",
+          "note": "Not in these notes. The keyed neuropsychological theory is orbitofrontal striatal executive dysfunction: the explanation describes **ADHD** as impaired behavioural inhibition leading to executive function deficits, with dysfunction of reward circuitry including orbitofrontal systems.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 8
+          }
         }
       ],
       "concise": {
@@ -1412,6 +1924,9 @@
               "page": 9
             }
           }
+        ],
+        "highlightBlockIndices": [
+          1
         ]
       }
     },
@@ -1588,7 +2103,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1644,7 +2160,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1670,6 +2187,16 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
             "page": 9,
             "questionNumber": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Anterograde amnesia with preserved insight is keyed to hippocampal amnesia (not psychogenic amnesia, orbitofrontal lesions or Pick's disease); the explanation says anterograde amnesia is seen most frequently after injury to the medial temporal lobes (amygdala, hippocampal formation) or the diencephalon.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 4,
+            "questionNumber": 9
           }
         },
         {
@@ -1713,6 +2240,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Being unable to recall any events of a head-injury admission even two years later, with no other memory problem, is anterograde amnesia - no memory trace was formed for that period; it is not retrograde amnesia, confabulation, episodic memory loss or dissociative loss.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 8,
+            "questionNumber": 33
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Confabulation (e.g. in Korsakoff's syndrome) might be grandiose or delusional, but more often involves the misordering and fusion of real memories that end up being retrieved out of context.",
           "source": {
@@ -1726,6 +2263,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Transient global amnesia: complete, reversible anterograde and retrograde memory loss lasting up to 24 hours, patient bewildered but alert and repeatedly asking questions, persistent loss of memory for the attack - not **CJD**, Alzheimer's, **NPH** or Parkinson's.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 11,
+            "questionNumber": 43
           }
         },
         {
@@ -1748,6 +2295,16 @@
         },
         {
           "type": "trap",
+          "text": "Ribot's law = temporally graded retrograde amnesia: newly formed memories (just before the brain injury) are lost more than older ones - not interference theory, decay theory, law of effect or Yerkes-Dodson.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 38
+          }
+        },
+        {
+          "type": "trap",
           "text": "**Q42**: when the temporal order of memory is disturbed leading to out-of-context retrieval, the term is confabulation (seen in Korsakoff's syndrome and also in dementias).",
           "format": "SBA",
           "source": {
@@ -1762,6 +2319,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Semantic memory (word meaning and general knowledge; anterior temporal lobe) is checked at the bedside with object naming and defining word meanings - not copying pentagons, category fluency with digit-symbol, serial subtraction or letter fluency; semantic breakdown shows loss of words, diminished vocabulary and stock words such as 'thing'.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 7
           }
         },
         {
@@ -1816,6 +2383,26 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
             "page": 19,
             "questionNumber": 47
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Vascular dementia = patchy/uneven cognitive impairment with insight, judgement and personality relatively well preserved - so a patient who retains full insight into progressive cognitive decline is keyed to vascular dementia over frontotemporal dementia, **CJD** or Huntington's.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 40
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Early Alzheimer's disease = forgetting trivial details, names and faces while day-to-day functional abilities stay largely preserved - the keyed answer over **CJD**, Pick's, vascular dementia and Binswanger's.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 44
           }
         }
       ],
@@ -1876,6 +2463,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 13
             }
+          },
+          {
+            "text": "Vascular dementia: patchy impairment, insight preserved; early Alzheimer's: names forgotten, function preserved.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+              "page": 16,
+              "questionNumber": 40
+            }
           }
         ],
         "facts": [
@@ -1907,7 +2502,7 @@
         "highlightBlockIndices": [
           0,
           3,
-          8
+          9
         ]
       }
     },
@@ -2011,7 +2606,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 14
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -2059,6 +2655,36 @@
               "page": 14
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "Broca's aphasia is 'non-fluent aphasia' (also non-fluent expressive dysphasia): fluency and repetition are affected while comprehension is preserved - not fluent, conduction, nominal or jargon aphasia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In a Broca's area lesion, comprehension is the preserved feature (the 'which is seen' option); speech is slow, halting and rarely grammatical, with inflections (-ed) and function words (the, and) dropped - naming, inflection, repetition and fluency are not preserved.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Nominal (anomic) aphasia is keyed to the parietal lobe: the explanation says that although many believed damage to Broca's or Wernicke's area was the main cause of anomia, current studies show damage in the left parietal lobe is the epicentre.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 9
+          }
         },
         {
           "type": "trap",
@@ -2115,14 +2741,45 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Pure word deafness spares reading and writing: the patient speaks, reads and writes fluently, with comprehension impaired only for spoken language (bilateral superior temporal pole damage suspected) - in Wernicke's aphasia comprehension is impaired for both spoken and written language.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Speaks, comprehends, writes spontaneously and to dictation but cannot comprehend reading = pure word blindness (alexia without agraphia), not pure word deafness, jargon, Broca's or Wernicke's aphasia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 4,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Alexia **WITH** agraphia: right visual field defect is the expected feature (right homonymous hemianopia is commonly associated; colour recognition and auditory comprehension often intact); alexia without agraphia occurs in occipitotemporal lesions, whereas alexia with agraphia often results from a left angular gyral lesion.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 31
+          }
         },
         {
           "type": "trap-list",
-          "title": "Alexia questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Alexia without agraphia most commonly involves the corpus callosum (splenium) with left posterior cerebral artery infarct; the person sees with the right visual cortex but cannot read, yet writes normally (**Q13**).",
+              "text": "Alexia without agraphia most commonly involves the corpus callosum (splenium) with a left posterior cerebral artery infarct; the person sees with the right visual cortex but cannot read, yet writes normally.",
               "source": {
                 "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
                 "page": 6,
@@ -2130,19 +2787,43 @@
               }
             },
             {
-              "text": "Alexia without agraphia is seen in posterior cerebral territory lesions (**Q32**).",
+              "text": "Alexia without agraphia (pure alexia) is seen in posterior cerebral territory lesions - not middle meningeal, anterior or middle cerebral territory or **PICA**.",
               "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 32
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 3,
+                "questionNumber": 12
               }
             },
             {
-              "text": "Alexia with agraphia: right visual field defect is expected; alexia without agraphia occurs in occipitotemporal lesions, while alexia with agraphia often results from a left angular gyral lesion (**Q31**).",
+              "text": "Non-fluent aphasia is associated with lesions in or near Broca's area (not insula, parietal operculum, anterior cingulate or superior temporal gyrus); temporal and parietal lobes are usually not impaired.",
               "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 31
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 10,
+                "questionNumber": 39
+              }
+            },
+            {
+              "text": "Non-fluent expressive dysphasia is commonly seen in frontotemporal dementia (Pick's disease) - not Lewy body dementia, **PSP**, Parkinson's or **CJD**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 11,
+                "questionNumber": 40
+              }
+            },
+            {
+              "text": "Sudden right arm weakness with inability to understand speech = (receptive) aphasia from Wernicke's area damage - not aphemia, alexia or agraphia.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 8,
+                "questionNumber": 34
+              }
+            },
+            {
+              "text": "Deaf patients' language cortex is organised like that of hearing people: left temporal lesions cause comprehension deficits in sign language users, and Broca's area serves production.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 1,
+                "questionNumber": 3
               }
             }
           ]
@@ -2198,6 +2879,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 15
             }
+          },
+          {
+            "text": "Broca's: fluency/repetition lost, comprehension preserved; pure word deafness spares reading and writing.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 9,
+              "questionNumber": 36
+            }
           }
         ],
         "facts": [
@@ -2229,7 +2918,7 @@
         "highlightBlockIndices": [
           3,
           5,
-          8
+          11
         ]
       }
     },
@@ -2291,7 +2980,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 16
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Unable to mimic hammering a nail on request = ideomotor apraxia (disorder of goal-directed movement: the patient knows what to do but not how; tool use more affected than spontaneous gestures; pantomime impaired) - not constructional or dressing apraxia, finger agnosia or visual object agnosia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
         },
         {
           "type": "table",
@@ -2373,11 +3073,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 17
             }
+          },
+          {
+            "text": "Cannot mimic hammering a nail = ideomotor apraxia.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 1,
+              "questionNumber": 1
+            }
           }
         ],
         "highlightBlockIndices": [
           3,
-          4
+          5
         ]
       }
     },
@@ -2576,7 +3284,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 19
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Balint's syndrome triad (table above)",
+          "mnemonic": "SOO = Sees Only One",
+          "expansion": [
+            "Simultanagnosia",
+            "Optic ataxia",
+            "Oculomotor apraxia"
+          ],
+          "sourced": false
         },
         {
           "type": "trap",
@@ -2669,7 +3389,8 @@
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          3
         ]
       }
     },
@@ -2739,7 +3460,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Upper quadrantanopia from a unilateral cortical lesion = the lower bank of the calcarine fissure (primary visual cortex; its lower-bank neurons carry the upper visual fields via the lateral geniculate nucleus) - not frontal, parietal-operculum, inferior parietal or medial temporal sites.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Bitemporal hemianopia is keyed to a pituitary tumour: the explanation says most adults present with visual failure and optic atrophy and bitemporal hemianopia is found in about one-third at diagnosis, though usually asymmetrical and unpredictable in evolution.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
         },
         {
           "type": "trap",
@@ -2853,6 +3595,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Small irregular pupils with absent light reflexes but present accommodation = Argyll Robertson pupils (not Marcus Gunn or senile pupil); the explanation says they came to be considered pathognomonic of tabes dorsalis, general paresis and neurovascular syphilis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 9,
+            "questionNumber": 35
+          }
+        },
+        {
           "type": "table",
           "title": "Cranial nerves III-VI",
           "columns": [
@@ -2891,7 +3643,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 22
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -3029,7 +3782,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 24
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**UMN** lesion of **CN** **IX-XII** -> swallowing problems (**IX** and X); chewing and facial sensation belong to V and facial muscle tone to **VII**, and fasciculations are a **LMN** sign, not **UMN**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 10,
+            "questionNumber": 40
+          }
         },
         {
           "type": "gap",
@@ -3049,6 +3813,86 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
             "page": 4,
             "questionNumber": 10
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Finger-nose ataxia = inferior olivary nucleus lesion (it supplies climbing fibres to the cerebellum; appendicular ataxia tested by the finger-nose test) - not inferior or superior colliculus, thalamus or pyramidal decussation.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 41
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A small focal lesion of one inferior olivary nucleus gives finger-nose ataxia (not right-left disorientation, visual inattention, anosognosia or oculomotor apraxia); the explanation stresses the incoordination is of the **CONTRALATERAL** arm and leg, unlike other cerebellar lesions, which cause ipsilateral dysfunction.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Absent ankle jerks **WITH** upgoing plantars = subacute combined degeneration of the cord (also seen in syphilitic taboparesis, Friedreich's ataxia and **MND**): the afferent limb of the spinal reflex is affected while **UMN** damage still gives a Babinski - a pure corticospinal/internal capsule **UMN** lesion gives exaggerated ankle reflexes/clonus instead.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Spared eye movements is the '**NOT** associated' option for progressive supranuclear palsy: early unsteady gait and falls, vertical gaze palsy (supranuclear ophthalmoplegia), dementia, brainstem (midbrain) degeneration and tau tangles are associated.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 29
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A carotid bruit with thromboembolism -> amaurosis (fugax): temporary loss of vision in one eye from reduced retinal blood flow, possibly a sign of impending stroke - not nystagmus, ataxia, transient global amnesia or diplopia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Involuntary flinging movements of the extremities = hemiballismus (unilateral, rapid, violent flinging of the proximal arm from a lesion, usually infarct, near the contralateral subthalamic nucleus; self-limited over 6-8 weeks) - not chorea, athetosis or writer's cramp.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 3,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In normal pressure hydrocephalus, gait impairment is the symptom most likely to improve after shunting - not executive function, visuospatial deficits, cognitive impairment or urinary incontinence.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Early features of Creutzfeldt-Jakob disease",
+          "note": "Not in these notes. Mock item: diplopia/blurred vision, withdrawal from family, paucity of thought and expression, unsteady gait and startle (whole body appears to jump) = **CJD**; the explanation says early complaints are often cerebellar or visual (ataxia, clumsiness, dysarthria, diplopia, field defects, visual agnosia) and cortical blindness may occur ultimately.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 37
           }
         }
       ],
@@ -3116,6 +3960,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 23
             }
+          },
+          {
+            "text": "Finger-nose ataxia = inferior olivary nucleus; absent ankle jerks with upgoing plantars = subacute combined degeneration.",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+              "page": 17,
+              "questionNumber": 41
+            }
           }
         ],
         "facts": [
@@ -3138,13 +3990,13 @@
         ],
         "highlightBlockIndices": [
           2,
-          5,
-          11,
+          7,
           13,
-          15,
           16,
           18,
-          19
+          19,
+          21,
+          22
         ]
       }
     },
@@ -3249,6 +4101,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "The major use of the Glasgow Coma Scale is to predict mortality (used for triage after **TBI**; **GCS** below 8 can mean a mortality rate as high as ==70%==) - its ability to predict functional outcome is not well established.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 13
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Poor prognostic factors for psychiatric morbidity after head injury: long duration of loss of consciousness, long **PTA**, elderly, chronic alcohol use, diffuse brain damage, new-onset seizures and focal damage to the dominant lobe.",
           "source": {
@@ -3336,6 +4198,26 @@
               "page": 25
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "Post-concussion syndrome: processing speed is the most obviously affected neuropsychological measure - not procedural memory, block design, verbal fluency or picture matching.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 10,
+            "questionNumber": 39
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Medical conditions associated with autism",
+          "note": "Not in these notes. Mock item: the **NOT**-associated answer is Huntington's disease; the explanation lists Fragile X, tuberous sclerosis, neurofibromatosis, hypomelanosis of Ito, Moebius syndrome, Rett syndrome and Down syndrome as associated.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 4,
+            "questionNumber": 10
+          }
         }
       ],
       "concise": {
@@ -3394,6 +4276,14 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
               "page": 25
+            }
+          },
+          {
+            "text": "GCS mainly predicts mortality; post-concussion syndrome most affects processing speed.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 3,
+              "questionNumber": 13
             }
           }
         ],
@@ -3465,8 +4355,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          8,
-          9
+          9,
+          10
         ]
       }
     }
@@ -3508,6 +4398,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 2
+          }
+        },
+        {
+          "label": "CVLT is not a frontal test (verbal memory); animal-naming = frontal category fluency.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 8,
+            "questionNumber": 34
+          }
+        },
+        {
+          "label": "Intersecting-pentagon copying fails in non-dominant parietal lesions (constructional praxis).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 10,
+            "questionNumber": 38
           }
         }
       ]
@@ -3556,6 +4462,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 5
           }
+        },
+        {
+          "label": "DLPFC = poor planning (dysexecutive); orbitofrontal = poor impulse control (pseudopsychopathic).",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 46
+          }
+        },
+        {
+          "label": "Auras are most common in temporal lobe complex partial seizures; automatisms last seconds to minutes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 35
+          }
         }
       ]
     },
@@ -3602,6 +4524,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 6
+          }
+        },
+        {
+          "label": "WAIS hold tests (vocabulary, information, object assembly, picture completion) resist brain damage and ageing.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 35
+          }
+        },
+        {
+          "label": "Raven's = general intellectual ability; NART = premorbid IQ; WCST = set shifting.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 2,
+            "questionNumber": 5
           }
         }
       ]
@@ -3690,6 +4628,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 8
           }
+        },
+        {
+          "label": "MMSE immediate repetition of 3 items = registration; digit span = working memory and attention.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 4,
+            "questionNumber": 15
+          }
         }
       ]
     },
@@ -3729,6 +4675,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 9
+          }
+        },
+        {
+          "label": "Negative symptoms of schizophrenia are keyed to DLPFC hypoactivation (mock explanation).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 11
+          }
+        },
+        {
+          "label": "ADHD neuropsychological theory: orbitofrontal striatal executive dysfunction (mock explanation).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 2,
+            "questionNumber": 8
           }
         }
       ]
@@ -3831,6 +4793,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 13
           }
+        },
+        {
+          "label": "Vascular dementia: patchy impairment, insight preserved; early Alzheimer's: names forgotten, function preserved.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 40
+          }
+        },
+        {
+          "label": "Ribot's law = temporally graded retrograde amnesia (recent memories lost most).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 38
+          }
         }
       ]
     },
@@ -3878,6 +4856,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 15
           }
+        },
+        {
+          "label": "Broca's: fluency/repetition lost, comprehension preserved; pure word deafness spares reading and writing.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
         }
       ]
     },
@@ -3924,6 +4910,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 17
+          }
+        },
+        {
+          "label": "Cannot mimic hammering a nail = ideomotor apraxia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 1,
+            "questionNumber": 1
           }
         }
       ]
@@ -4066,6 +5060,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 24
           }
+        },
+        {
+          "label": "Finger-nose ataxia = inferior olivary nucleus; absent ankle jerks with upgoing plantars = subacute combined degeneration.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 41
+          }
+        },
+        {
+          "label": "Bitemporal hemianopia: pituitary tumour keyed (chiasmal lesion); upper quadrantanopia: lower bank of calcarine fissure.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
         }
       ]
     },
@@ -4112,6 +5122,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 25
+          }
+        },
+        {
+          "label": "GCS mainly predicts mortality; post-concussion syndrome most affects processing speed.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 3,
+            "questionNumber": 13
           }
         }
       ]

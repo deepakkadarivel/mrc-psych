@@ -55,7 +55,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -99,7 +100,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -110,47 +112,79 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Who discovered what: six name-drug pairs",
+          "mnemonic": "Dogs Kiss Cats; Jackals Kill Bats",
+          "expansion": [
+            "Delay and Deniker - **chlorpromazine**",
+            "Kuhn - **imipramine**",
+            "Cade - **lithium**",
+            "Janssen - **haloperidol**",
+            "Kane - **clozapine** (1988 trial)",
+            "Bowden - **valproate** (**divalproex**) in mania"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'Major tranquilliser' = antipsychotic (**chlorpromazine**) - **NOT** **chlordiazepoxide** or secobarbital: the explanation says benzodiazepines and barbiturates were the **MINOR** tranquillisers. **Risperidone** and propofol are the other tempting options and are not the answer.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'**Clozapine**-Bowden' is the **INCORRECT** pair to spot. Kane et al. (1988) is the **clozapine** trial; Bowden led the first randomised study of **valproate** (**divalproex**) in acute mania (published 1994). The other four pairs - **Chlorpromazine**-Delay and Deniker, **Imipramine**-Kuhn, **Lithium**-John Cade, **Haloperidol**-Janssen - are correct.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Kane led the trial that proved **clozapine**'s effectiveness in resistant schizophrenia (Kane et al. 1988), which led to its strictly-limited reintroduction after it had been withdrawn for fatal agranulocytosis. Kretschmer, Cade, Kraepelin and Bleuler are distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 38
+          }
+        },
+        {
+          "type": "trap",
+          "text": "First antidepressant introduced = iproniazid, an **MAO** inhibitor (chosen for its euphoric effects in tuberculosis patients) - **NOT** a tricyclic, **SSRI**, **SNRI** or tetracyclic. The explanation has TCAs arising later from **imipramine** and SSRIs later still, once serotonin was linked to depression.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Delay and Deniker = the tranquilising properties of **chlorpromazine** (Rhone-Poulenc, under Paul Charpentier); Cade, Kane and Bleuler are distractors. Spelling trap: the question writes 'Sen and Ghose' where the notes write 'Sen & Bose' (Rauwolfia, 1931).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 10
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Name-and-discovery questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q1**: the term 'major tranquilliser' is the historical name for antipsychotics (**chlorpromazine** is the answer); benzodiazepines (**chlordiazepoxide**) and barbiturates (secobarbital) were minor tranquillisers.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 1
-              }
-            },
-            {
-              "text": "**Q10**: discovery of the tranquilising properties of **chlorpromazine** = Delay and Deniker (Rhone-Poulenc, under Paul Charpentier). The option is spelt 'Sen and Ghose' in the question, whereas the notes write 'Sen & Bose' for the Rauwolfia discovery.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 10
-              }
-            },
-            {
-              "text": "**Q14**: psychotropic use of **lithium** = Cade, credited with reintroducing **lithium** to psychiatry for mania in 1949 (the explanation adds that use of **lithium** in psychiatry goes back to the mid-19th century).",
+              "text": "**Q14**: psychotropic use of **lithium** = Cade (credited with reintroducing **lithium** to psychiatry for mania in 1949); the explanation adds that psychiatric use of **lithium** goes back to the mid-19th century.",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 7,
                 "questionNumber": 14
-              }
-            },
-            {
-              "text": "**Q20**: '**Clozapine**-Bowden' is the wrongly paired option (the question explanation says the Kane et al. 1988 trial supported **clozapine**; Bowden led the first randomised **valproate** study in acute mania, published 1994). **Chlorpromazine**-Delay and Deniker, **Imipramine**-Kuhn, **Lithium**-Cade and **Haloperidol**-Janssen are correctly paired.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 20
-              }
-            },
-            {
-              "text": "**Q38** / **Q37**: Kane led the trial proving **clozapine** effective in resistant schizophrenia; Bowden is associated with **valproate** in mania.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 38
               }
             },
             {
@@ -162,19 +196,19 @@
               }
             },
             {
-              "text": "**Q24**: the first antidepressant introduced was iproniazid, an **MAO** inhibitor (not **TCA**/**SSRI**/**SNRI**/tetracyclic).",
+              "text": "**Q3**: **clozapine** was withdrawn because of fatal agranulocytosis (not cost, efficacy, dosing or sedation) before Kane's landmark trial.",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 24
+                "page": 2,
+                "questionNumber": 3
               }
             },
             {
-              "text": "**Q49**: zimeldine belongs to the SSRIs. The notes say it was withdrawn for hypersensitivity syndrome and demyelinating disease; the question explanation says it was launched by Astra in 1982 and withdrawn the next year for adverse neurological effects (both stated).",
+              "text": "**Q37**: Bowden is the name tied to **valproate** in mania (first randomised **divalproex** study, 1994).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 49
+                "page": 20,
+                "questionNumber": 37
               }
             }
           ]
@@ -197,6 +231,16 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 20,
             "questionNumber": 37
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Carlsson and dopamine",
+          "note": "Extra-pool question: Carlsson is associated with the dopamine hypothesis of schizophrenia. The explanation states that Arvid Carlsson made the seminal discovery in the late 1950s that dopamine is a transmitter in the mammalian brain. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 14
           }
         }
       ],
@@ -257,6 +301,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "Pair trap: Clozapine-Kane (1988); Bowden = valproate in mania (1994) - 'Clozapine-Bowden' is the wrong pairing.",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 20
+            }
+          },
+          {
+            "text": "Carlsson: late-1950s discovery that dopamine is a transmitter in the mammalian brain (dopamine hypothesis of schizophrenia).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 4,
+              "questionNumber": 14
+            }
           }
         ],
         "facts": [
@@ -295,7 +355,9 @@
         ],
         "highlightBlockIndices": [
           0,
-          1
+          1,
+          3,
+          5
         ]
       }
     },
@@ -377,7 +439,39 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Risperidone** is the benzisoxazole; **ziprasidone** is a benzisothiazole - the explanation itself says 'rather confusingly' - so the near-identical names are the trap. **Sulpiride** and **amisulpride** are substituted benzamides and **clozapine** is a dibenzodiazepine.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 35
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In 'choose the correct match', only droperidol: butyrophenone is right (**haloperidol**, droperidol and benperidol are the high-potency butyrophenones with troublesome extra-pyramidal side effects). The other four pairs (**risperidone**: dibenzoxapine, **aripiprazole**: benzisothiazole, thioridazine: diphenyl butyl piperidine, **flupentixol**: dihydroindole) are wrong.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Butyrophenones (Q8 explanation)",
+          "mnemonic": "HDB - \"Hi, Dr Ben\"",
+          "expansion": [
+            "**Haloperidol**",
+            "Droperidol",
+            "Benperidol"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -422,7 +516,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The secondary amine is amoxapine; **clomipramine**, dothiepin, **amitriptyline** and **imipramine** are tertiary amines. Secondary amines (desipramine, amoxapine, **nortriptyline**, protriptyline) are more potent, less sedating, more noradrenergic and less antihistaminic/anticholinergic than tertiary.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 52
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Secondary-amine antidepressants",
+          "mnemonic": "DANP - \"Dogs Are Nice Pets\"",
+          "expansion": [
+            "Desipramine",
+            "Amoxapine",
+            "**Nortriptyline**",
+            "Protriptyline"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -462,7 +579,39 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**Buspirone**'s chemical structure = azaspirone-decanedione (azapirone/azaspirone), chemically distinct from other psychotropics; imidazopyridine, benzisoxazole, thienobenzodiazepine and aminoketone are the other (wrong) classes offered. It is a 5-**HT1A** partial agonist.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 42
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Z-drug classes are matched by name: **zopiclone** = cyclopyrrolone, **zolpidem** = imidazopyridine, zaleplon = pyrazolopyrimidine. Butyrophenone and azaspirones are the distractor classes offered.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Z-drug chemical classes",
+          "mnemonic": "CIP - \"Zop-C, Zol-I, Zal-P\"",
+          "expansion": [
+            "**Zopiclone** - Cyclopyrrolone",
+            "**Zolpidem** - Imidazopyridine",
+            "Zaleplon - Pyrazolopyrimidine"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -510,7 +659,51 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "SNRIs per the explanation: **duloxetine**, **venlafaxine**, desvenlafaxine, milnacipran and levomilnacipran. The notes' **SNRI** list (**venlafaxine**, milnacipran, **duloxetine**, sibutramine) differs - the question adds desvenlafaxine and levomilnacipran. **Reboxetine**, **bupropion**, **galantamine** and **aripiprazole** are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 22
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "SNRIs (Q22 explanation)",
+          "mnemonic": "DVD ML - \"Dull Vets Dream Mostly Lazily\"",
+          "expansion": [
+            "**Duloxetine**",
+            "**Venlafaxine**",
+            "Desvenlafaxine",
+            "Milnacipran",
+            "Levomilnacipran"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Term trap: the question calls **bupropion** a norepinephrine and dopamine re-uptake inhibitor, whereas the notes label it **DARI** (dopamine reuptake inhibitor) - both are stated. It is indicated for depression but licensed in the **UK** only for nicotine dependence.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Risperidone** - **paliperidone** is the correct drug-metabolite pair (**paliperidone** is the major active metabolite of **risperidone**). **Citalopram** - **escitalopram** is **NOT** a metabolite pair: **escitalopram** is the pure S enantiomer. **Naloxone**-**naltrexone**, **imipramine**-nomifensine and **fluoxetine**-**duloxetine** are also wrong.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 9
+          }
         },
         {
           "type": "paragraph",
@@ -538,22 +731,14 @@
         },
         {
           "type": "trap-list",
-          "title": "Drug-class questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q2**: **olanzapine** is the thienobenzodiazepine (explanation: multi-receptor antagonism; structurally related to **clozapine**).",
+              "text": "**Q2**: **olanzapine** is the thienobenzodiazepine (multi-receptor antagonism; structurally related to **clozapine**).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 1,
                 "questionNumber": 2
-              }
-            },
-            {
-              "text": "**Q8**: droperidol is the correctly matched butyrophenone (**haloperidol**, droperidol, benperidol are high-potency butyrophenones with troublesome **EPSE** risk); **risperidone** is not a dibenzoxapine, **aripiprazole** not benzisothiazole, thioridazine not diphenylbutylpiperidine, **flupentixol** not dihydroindole.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 8
               }
             },
             {
@@ -562,22 +747,6 @@
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 7,
                 "questionNumber": 13
-              }
-            },
-            {
-              "text": "**Q15**: **zopiclone** cyclopyrrolone, **zolpidem** imidazopyridine, zaleplon pyrazolopyrimidine.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 15
-              }
-            },
-            {
-              "text": "**Q35**: **risperidone** is the benzisoxazole; **ziprasidone** is a benzisothiazole 'rather confusingly', **clozapine** a dibenzodiazepine, **sulpiride**/**amisulpride** benzamides.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 35
               }
             },
             {
@@ -597,7 +766,7 @@
               }
             },
             {
-              "text": "**Q45**: **escitalopram** is the enantiomer of another antidepressant (pure S enantiomer of **citalopram**); it is not a metabolite of **citalopram** (**Q9**).",
+              "text": "**Q45**: **escitalopram** is the enantiomer of another antidepressant (pure S enantiomer of **citalopram**) - not a metabolite of it.",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 23,
@@ -605,31 +774,7 @@
               }
             },
             {
-              "text": "**Q9**: **risperidone** - **paliperidone** is the correct drug-metabolite pair (**paliperidone** is the major active metabolite of **risperidone**).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 9
-              }
-            },
-            {
-              "text": "**Q52**: amoxapine is the secondary amine (**clomipramine**, dothiepin, **amitriptyline**, **imipramine** are tertiary).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 52
-              }
-            },
-            {
-              "text": "**Q22** / **Q26** / **Q29**: **duloxetine**, **venlafaxine**, desvenlafaxine, milnacipran and levomilnacipran are SNRIs.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 29
-              }
-            },
-            {
-              "text": "**Q53**: **moclobemide** is the reversible **MAOI** (**RIMA**); the 'cheese reaction' is less likely with RIMAs than traditional MAOIs.",
+              "text": "**Q53**: **moclobemide** is the reversible **MAOI** (**RIMA**); the 'cheese reaction' is less likely with RIMAs than with traditional MAOIs.",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 28,
@@ -637,19 +782,11 @@
               }
             },
             {
-              "text": "**Q18**: **bupropion** is called a norepinephrine and dopamine reuptake inhibitor (the notes label it **DARI** - dopamine reuptake inhibitor; both given); licensed in the **UK** only for nicotine dependence although indicated for depression.",
+              "text": "**Q29**: **duloxetine** and milnacipran are SNRIs (serotonergic and noradrenergic reuptake inhibitors).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 18
-              }
-            },
-            {
-              "text": "**Q17** / **Q34** / **Q42**: **buspirone** is an azaspirone (azaspirone-decanedione), chemically distinct from other psychotropics.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 42
+                "page": 15,
+                "questionNumber": 29
               }
             }
           ]
@@ -765,6 +902,26 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Mixed affective episode, bank answer = sodium **valproate** (**carbamazepine**, **gabapentin**, **clonazepam** and **lamotrigine** are the other options). **NICE** recommends mixed episodes be treated as manic episodes; antipsychotics, **lithium** and **valproate** are first-line, and **lamotrigine** is **NOT** offered for mania. The extra-pool version of this question keys **olanzapine** instead (see gap below).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Olanzapine in mixed affective states",
+          "note": "Extra-pool question: **olanzapine** is the antipsychotic keyed for mixed affective states in bipolar disorder. The explanation cites a Cochrane review and British Association of Psychopharmacology guidelines: **olanzapine** may prevent further mood episodes in patients who responded to it during an index manic or mixed episode and who did not previously respond satisfactorily to **lithium** or **valproate**. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 16
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Thyroid hormone in depression",
           "note": "**Q40**: thyroid hormone is used in depression (tri-iodothyronine as second-line augmentation in treatment-resistant depression). Not in the notes.",
@@ -862,6 +1019,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
             }
+          },
+          {
+            "text": "Risperidone = benzisoxazole; ziprasidone = benzisothiazole (confusable names).",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 35
+            }
+          },
+          {
+            "text": "Mixed affective episodes: bank keys sodium valproate (NICE treats as mania); extra pool keys olanzapine.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 4,
+              "questionNumber": 16
+            }
           }
         ],
         "facts": [
@@ -924,8 +1097,13 @@
         ],
         "highlightBlockIndices": [
           0,
-          2,
-          4
+          1,
+          3,
+          5,
+          7,
+          11,
+          12,
+          14
         ]
       }
     },
@@ -982,6 +1160,22 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Principles of rational prescribing (8)",
+          "mnemonic": "Wise Students Treat Many Real Adults In Practice",
+          "expansion": [
+            "Watchful waiting",
+            "Start low, go slow",
+            "Therapeutic monitoring",
+            "Metabolic monitoring",
+            "Response assessment",
+            "Avoiding polypharmacy",
+            "Informed consent",
+            "Patient choice"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "Off-label use: not recommended for uncommon, non-specific indications, but not illegal per se in most countries; such practice often has flimsy or no evidence base. The prescriber must explain that the drug is being used outside its licensed indications and provide the available evidence of effectiveness.",
           "source": {
@@ -1032,9 +1226,29 @@
           }
         },
         {
+          "type": "trap",
+          "text": "'All of the listed options' is correct - don't stop at the first true statement. Ethnic differences are noted for **haloperidol** blood levels (higher peak plasma level in Asians after rapid tranquillisation), hydroxylation of tricyclics (slow hydroxylation more common in Asians), alcohol metabolism (aldehyde dehydrogenase lack) and prolactin response to antipsychotics (greater in Asians).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 12
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Aldehyde dehydrogenase and alcohol",
           "note": "**Q54**: lack of aldehyde dehydrogenase creates natural alcohol deterrence (majority of north Asian origin are poor metabolisers via this enzyme). Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 54
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Natural alcohol deterrence = **LACK** of aldehyde dehydrogenase (it converts acetaldehyde to acetic acid); the explanation notes the majority of people of north Asian origin are poor metabolisers via aldehyde dehydrogenase. High aldehyde dehydrogenase, high alcohol dehydrogenase, low cholinesterase and high **CYP3A4** are the wrong options.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 28,
@@ -1052,9 +1266,39 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**Lithium** is the psychotropic with the **SAME** pharmacokinetics in Asians and White Europeans: about ==95%== is excreted unchanged in the urine and excretion does not differ between the groups. **Alprazolam**, **haloperidol**, **diazepam** and **chlorpromazine** are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Predictors of poor response to lithium prophylaxis",
+          "note": "Extra-pool question: predictors of poor response to **lithium** in bipolar prophylaxis include a high number of previous hospitalisations (the keyed answer), stress, high expressed emotion, a high number of life events, an episodic depression-mania interval pattern, continuous cycling, unemployment and neurotic personality. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 15
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "First-episode psychosis in an adolescent",
           "note": "**Q11**: antipsychotic medication is first-line for first-episode psychosis (**olanzapine**, **amisulpride**, **risperidone** may be marginally better), choice made together with the patient considering adverse effects; the answer was low-dose **risperidone**. The notes discuss patient choice but not this scenario.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "First-episode psychosis in a 15-year-old: antipsychotic medication is first-line, so low-dose **risperidone** - **NOT** parental training, family therapy, **fluoxetine** or **CBT** for anxiety. **Olanzapine**, **amisulpride** and **risperidone** may be marginally better than other options; the choice is made with the patient, considering the adverse effect profile.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 6,
@@ -1069,6 +1313,36 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 17,
             "questionNumber": 32
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Agitated, combative elderly patient with dementia: use temporary physical or pharmacological restraint with regular re-evaluation - only a **MINIMAL** amount of restraint, re-evaluated frequently - not heavy sedation. Verbal de-escalation has already failed, discharge is wrong, and transfer to a psychiatric ward is not practical; involving a carer may help.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 32
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Cannabis",
+          "note": "Extra-pool question: the most accurate statement is that 9-delta-tetrahydrocannabinol (**THC**) is the active substance (the most important of 60 psychoactive cannabinoids). Anandamide is a naturally occurring agonist at the cannabinoid receptor; cannabis is not usually associated with physical dependence; urine tests stay positive up to 4 weeks after regular use stops; there are no reports of fatal overdose. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 3,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Tolerance",
+          "note": "Extra-pool question: tolerance is the pharmacological adaptation because of which a larger dose of a drug becomes necessary over time to achieve the same effect (cocaine-user stem). Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 17
           }
         }
       ],
@@ -1129,6 +1403,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 6
             }
+          },
+          {
+            "text": "Ethnic differences: all of haloperidol levels, TCA hydroxylation, alcohol metabolism (ALDH lack) and prolactin response; lithium is the same in Asians and Whites (95% excreted unchanged).",
+            "source": {
+              "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+              "page": 6,
+              "questionNumber": 12
+            }
           }
         ],
         "facts": [
@@ -1142,7 +1424,9 @@
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1,
+          6
         ]
       }
     },
@@ -1188,7 +1472,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Active placebo = has some activity inherently, but **NOT** against the treated condition (the option 'activity against the treated illness' is the trap). In trials, active placebos contain ingredients that cause some of the active intervention's adverse effects, so blinding is better. Nocebo (placebo producing prominent side-effects) and placebo sag (decrease with repeated use) are separate terms.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 27
+          }
         },
         {
           "type": "table",
@@ -1332,7 +1627,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -1364,7 +1660,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 10
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "'**NOT** mediated via' = nocebo response. Mediators named in the question are natural remission, classical conditioning, expectancy and operant conditioning; the explanation says expectancies, learning and classical conditioning underlie both placebo and nocebo effects.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 31
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Proposed explanations of placebo effect (4)",
+          "mnemonic": "No Mistakes Come Easy",
+          "expansion": [
+            "Natural remission",
+            "Measurement regression",
+            "Conditioning",
+            "Endogenous opioids"
+          ],
+          "sourced": false
         },
         {
           "type": "comparison",
@@ -1403,19 +1722,11 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "The **ACC** is an important anatomical component of both the dopaminergic and the opioid system and has been activated during placebo analgesia.",
-          "source": {
-            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
-            "page": 11
-          }
-        },
-        {
           "type": "trap-list",
-          "title": "Placebo questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q19**: a placebo is a dummy preparation of inactive compound. The notes say Beecher coined the term in 1955; the question explanation says 'placebo' entered Hooper's Medical Dictionary in 1811 and that Beecher began modern study of the placebo effect, finding about ==30%== of clinical effect attributable to placebo (both given, not reconciled).",
+              "text": "**Q19**: a placebo is a dummy preparation of inactive compound. The notes say Beecher coined the term in 1955; the explanation says 'placebo' entered Hooper's Medical Dictionary in 1811 and that Beecher began the modern study of the placebo effect (both given, not reconciled).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 10,
@@ -1423,38 +1734,30 @@
               }
             },
             {
-              "text": "**Q27**: 'active placebo' = has some activity inherently, but not against the treated condition (not 'active against the illness'); also nocebo and placebo sag are defined in the same explanation.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 27
-              }
-            },
-            {
-              "text": "**Q25**: true statement = prior therapeutic experiences can drive nocebo effects. Wrong options: tablets better than capsules (capsules and larger pills are stronger), placebo effects not operating on active drugs (they do), severely depressed respond better (not per the notes), oral better than injections (injections stronger).",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 25
-              }
-            },
-            {
-              "text": "**Q31**: placebo effect is **NOT** mediated via 'nocebo response'; natural remission, classical conditioning, expectancy and operant conditioning are proposed mediators.",
-              "source": {
-                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 31
-              }
-            },
-            {
-              "text": "**Q6**: opioids may have a role in placebo response (true); wrong options include 'no placebo response in personality disorders', 'identifiable placebo reactors', 'similar response irrespective of treatment' and 'depression placebo response gradual but persistent' (notes: abrupt, early, less likely to persist).",
+              "text": "**Q6**: opioids may have a role in placebo response (true). Wrong options: no placebo response in personality disorders, identifiable 'placebo reactors', similar response irrespective of treatment, and 'depression placebo response gradual but persistent' (notes: abrupt, early, less likely to persist).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 3,
                 "questionNumber": 6
               }
+            },
+            {
+              "text": "**Q25**: true statement = prior therapeutic experiences can drive nocebo effects. Wrong: tablets better than capsules (capsules and larger pills are stronger), placebo not operating on active drugs (it does), severely depressed respond better, oral stronger than injections.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 25
+              }
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The **ACC** is an important anatomical component of both the dopaminergic and the opioid system and has been activated during placebo analgesia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+            "page": 11
+          }
         },
         {
           "type": "gap",
@@ -1555,9 +1858,11 @@
         ],
         "highlightBlockIndices": [
           0,
-          1,
-          11,
-          12
+          2,
+          12,
+          13,
+          14,
+          15
         ]
       }
     },
@@ -1599,7 +1904,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Steps before drug approval",
+          "mnemonic": "Please Start Every Study Properly",
+          "expansion": [
+            "Preclinical animal studies",
+            "Phase 1 - safety",
+            "Phase 2 - effectiveness",
+            "Phase 3 - superiority or equivalence",
+            "Phase 4 - post-marketing surveillance"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1667,7 +1986,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -1687,6 +2007,38 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 16,
             "questionNumber": 30
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Thioridazine is the high-**QT**-c answer: the explanation puts thioridazine, pimozide, sertindole and any intravenous antipsychotic at **HIGH** **QT**-c effect, while **chlorpromazine**, **quetiapine**, **ziprasidone** and tricyclics are only **MODERATE**. **Clozapine**, **olanzapine**, **haloperidol** and **chlorpromazine** are the other options offered.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 4,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "High QT-c prolongation risk",
+          "mnemonic": "TPS-I - \"TPS reports, Intravenous\"",
+          "expansion": [
+            "Thioridazine",
+            "Pimozide",
+            "Sertindole",
+            "Any intravenous antipsychotic"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Zimeldine = an **SSRI** (the first **SSRI** to reach the market: synthesised 1971, launched by Astra 1982, withdrawn the next year for adverse neurological effects / demyelination). The notes' surveillance table records hypersensitivity reactions and Guillain-Barre syndrome. MAOIs, tricyclics, benzodiazepines and antipsychotics are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 49
           }
         },
         {
@@ -1743,6 +2095,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
             }
+          },
+          {
+            "text": "QT-c: thioridazine, pimozide, sertindole and any IV antipsychotic = high effect; chlorpromazine, quetiapine, ziprasidone, TCAs = moderate.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 4,
+              "questionNumber": 16
+            }
           }
         ],
         "facts": [
@@ -1797,7 +2157,10 @@
         ],
         "highlightBlockIndices": [
           0,
-          2
+          1,
+          3,
+          6,
+          7
         ]
       }
     },
@@ -1868,6 +2231,19 @@
               "page": 13
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Adherence measurement tools (5)",
+          "mnemonic": "Sam's Pet Elephant Prefers Spaghetti",
+          "expansion": [
+            "Self-report",
+            "Pill counts",
+            "Electronic methods",
+            "Prescription monitoring",
+            "Saliva, plasma and urine assays"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -1941,6 +2317,20 @@
             "label": "No influence",
             "color": "gray"
           }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Factors with no influence on adherence (6)",
+          "mnemonic": "Ants Approach Sweet Syrup, Munching Eagerly",
+          "expansion": [
+            "Age at illness onset",
+            "Age at first hospitalization",
+            "Sex",
+            "Socioeconomic status",
+            "Marital status",
+            "Ethnicity"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -2086,6 +2476,18 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Health belief model (4 categories)",
+          "mnemonic": "Bring Cash, Seek Savings",
+          "expansion": [
+            "Benefits",
+            "Costs",
+            "Susceptibility",
+            "Secondary benefits of medication and adherence"
+          ],
+          "sourced": false
+        },
+        {
           "type": "trap",
           "text": "**Q16**: intentional non-adherence is linked with a low degree of self-efficacy (high self-efficacy and internal health locus of control consistently promote adherence). The explanation repeats the notes' points: lack of insight is the most common cause of poor adherence, and dose strength is probably curvilinearly related to adherence.",
           "format": "SBA",
@@ -2192,7 +2594,10 @@
         "highlightBlockIndices": [
           0,
           1,
-          2
+          2,
+          3,
+          6,
+          12
         ]
       }
     },
@@ -2242,7 +2647,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Mr Z (non-adherent schizophrenia, repeated relapses): cognitive motivational intervention is keyed - the explanation says psychoeducation alone and family therapy alone were ineffective, programmes focusing on attitudinal and behavioural aspects of taking medication do better, and there is no evidence base for supportive or insight-oriented psychotherapy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 13
+          }
         },
         {
           "type": "gap",
@@ -2297,10 +2713,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 15
             }
+          },
+          {
+            "text": "Mr Z question: cognitive motivational intervention; psychoeducation alone and family therapy alone ineffective.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 4,
+              "questionNumber": 13
+            }
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2
         ]
       }
     }
@@ -2357,6 +2782,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 3
           }
+        },
+        {
+          "label": "Carlsson: dopamine as a brain transmitter (late 1950s); Bowden: valproate in mania (1994)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 14
+          }
         }
       ]
     },
@@ -2411,6 +2844,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 5
           }
+        },
+        {
+          "label": "Mixed episodes: valproate (bank) / olanzapine (extra pool); NICE treats as mania",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 21
+          }
+        },
+        {
+          "label": "Bupropion: dose-related seizure risk (instant-release); avoid in epilepsy",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 28
+          }
         }
       ]
     },
@@ -2464,6 +2913,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 6
+          }
+        },
+        {
+          "label": "Ethnic differences: haloperidol levels, TCA hydroxylation, ALDH lack, prolactin; lithium same",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 12
+          }
+        },
+        {
+          "label": "Poor lithium response predictors: many hospitalisations, stress, high EE, continuous cycling",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 15
           }
         }
       ]
@@ -2573,6 +3038,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 12
           }
+        },
+        {
+          "label": "QT-c: thioridazine, pimozide, sertindole, IV antipsychotics high; chlorpromazine etc moderate",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 4,
+            "questionNumber": 16
+          }
+        },
+        {
+          "label": "Zimeldine = first SSRI to market, withdrawn for neurological adverse effects",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 49
+          }
         }
       ]
     },
@@ -2673,6 +3154,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 15
+          }
+        },
+        {
+          "label": "Cognitive motivational intervention beats psychoeducation alone or family therapy alone",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 13
           }
         }
       ]

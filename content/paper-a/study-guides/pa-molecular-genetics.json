@@ -55,7 +55,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Phases of the cell cycle (G1, S, G2, M)",
+          "mnemonic": "Great Scientists Get Medals",
+          "expansion": [
+            "**G1** = growth phase 1",
+            "S = synthetic phase",
+            "**G2** = second gap/growth phase",
+            "M = mitosis"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -128,7 +141,8 @@
           }
         ],
         "highlightBlockIndices": [
-          2
+          2,
+          3
         ]
       }
     },
@@ -174,7 +188,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Stages of mitosis",
+          "mnemonic": "Please Make Another Tea",
+          "expansion": [
+            "Prophase",
+            "Metaphase",
+            "Anaphase",
+            "Telophase"
+          ],
+          "sourced": false
         },
         {
           "type": "comparison",
@@ -219,7 +246,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Cell-division traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Equatorial alignment of chromosomes = metaphase (the metaphase plate is equidistant from the two spindle poles).",
@@ -251,6 +278,30 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 49,
                 "questionNumber": 113
+              }
+            },
+            {
+              "text": "Meiosis produces four genetically unique haploid germ cells (not diploid somatic, tetraploid, triploid or aneuploid cells); mitosis gives two genetically identical diploid cells.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 7,
+                "questionNumber": 18
+              }
+            },
+            {
+              "text": "Interphase is the 'holding' stage between two successive cell divisions in which the cell replicates its genetic material.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 9,
+                "questionNumber": 24
+              }
+            },
+            {
+              "text": "Recombination (crossover) occurs in prophase 1 of meiosis, during synapsis.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 13,
+                "questionNumber": 52
               }
             }
           ]
@@ -290,7 +341,8 @@
         "highlightBlockIndices": [
           1,
           2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -376,6 +428,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Chimerism versus mosaicism: two or more cell lines from **DIFFERENT** zygotes in one individual is chimerism; in mosaicism the distinct cell lineages all originate from the **SAME** zygote (the explanation's contrast).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
+        },
+        {
           "type": "table",
           "title": "Important trisomies / monosomies",
           "columns": [
@@ -419,7 +481,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Webbed neck (with low hairline, retrognathism, short stature, broad chest) is the Turner feature; not narrow chest, prognathism, receding hairline or tall stature.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 64
+          }
         },
         {
           "type": "paragraph",
@@ -467,7 +540,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -475,6 +549,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Nondisjunction in an early mitotic division soon after fertilisation (chromosome 21) gives a 21 trisomy **MOSAIC** foetus - not full 21 trisomy, triploidy, 21 monosomy or euploidy; explanation: both normal and trisomic cells are present, in approximately 2-==5%== of people with Down syndrome.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 102
           }
         },
         {
@@ -527,7 +611,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -565,7 +650,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Chromosome-number traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Rocker bottom feet, low-set ears, micrognathia, clenched hands, severe intellectual disability = trisomy 18 (Edwards).",
@@ -581,14 +666,6 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 30,
                 "questionNumber": 69
-              }
-            },
-            {
-              "text": "Webbed neck (with low hairline, retrognathism, short stature, broad chest) is the Turner feature; not narrow chest, prognathism, receding hairline or tall stature.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 28,
-                "questionNumber": 64
               }
             },
             {
@@ -630,6 +707,14 @@
                 "page": 30,
                 "questionNumber": 70
               }
+            },
+            {
+              "text": "Aneuploidy example = Down syndrome (trisomy 21, the most frequently survivable autosomal aneuploidy); thalassaemia, Huntington disease, absence seizures and phenylketonuria are not the answer.",
+              "source": {
+                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+                "page": 16,
+                "questionNumber": 35
+              }
             }
           ]
         },
@@ -651,6 +736,16 @@
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 15,
             "questionNumber": 34
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Polyploidy",
+          "note": "**Q50**: polyploidy = presence of one or more extra sets of chromosomes (explanation: triploidy is 3n, tetraploidy 4n; fusion of gametes giving 2n is the normal diploid state). The notes cover aneuploidy but not polyploidy.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 12,
+            "questionNumber": 50
           }
         }
       ],
@@ -697,6 +792,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 4
             }
+          },
+          {
+            "text": "Chimerism = 2+ cell lines from different zygotes; mosaicism = distinct lineages from the same zygote.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 12,
+              "questionNumber": 50
+            }
+          },
+          {
+            "text": "Polyploidy = extra sets of chromosomes (triploidy 3n, tetraploidy 4n).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 12,
+              "questionNumber": 50
+            }
           }
         ],
         "facts": [
@@ -734,10 +845,10 @@
           }
         ],
         "highlightBlockIndices": [
-          6,
-          9,
-          12,
-          17
+          7,
+          11,
+          15,
+          20
         ]
       }
     },
@@ -790,6 +901,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "The pairing that does **NOT** occur in human **DNA** is **TG** (A pairs only with T, C only with G).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 43
+          }
+        },
+        {
           "type": "paragraph",
           "text": "The two **DNA** strands twist into a double helix. **RNA** is single stranded in human cells.",
           "source": {
@@ -815,7 +936,7 @@
         },
         {
           "type": "trap-list",
-          "title": "DNA traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Nucleoside = pentose sugar + nitrogenous base (nucleotide = phosphorylated nucleoside).",
@@ -823,14 +944,6 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 3,
                 "questionNumber": 6
-              }
-            },
-            {
-              "text": "The pairing that does **NOT** occur in human **DNA** is **TG** (A pairs only with T, C only with G).",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 43
               }
             },
             {
@@ -855,6 +968,14 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 15,
                 "questionNumber": 33
+              }
+            },
+            {
+              "text": "The component of transcribed **RNA** removed before translation is the introns (spliced out before protein translation begins).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 5,
+                "questionNumber": 18
               }
             }
           ]
@@ -903,7 +1024,7 @@
         ],
         "highlightBlockIndices": [
           1,
-          5
+          6
         ]
       }
     },
@@ -950,7 +1071,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Replication, transcription, translation, modification",
+          "mnemonic": "Real Tigers Taste Meat",
+          "expansion": [
+            "Replication",
+            "Transcription",
+            "Translation",
+            "Modification (posttranslational)"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1049,24 +1183,8 @@
         },
         {
           "type": "trap-list",
-          "title": "Synthesis traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
-            {
-              "text": "Transcription = production of new copies of **RNA** from **DNA**.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 36
-              }
-            },
-            {
-              "text": "**RNA** polymerase synthesises **RNA** from a **DNA** template.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 38
-              }
-            },
             {
               "text": "The enzyme that binds tRNA to amino acids is aminoacyl (tRNA) synthetase.",
               "source": {
@@ -1096,6 +1214,38 @@
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 20,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "Transcriptome = collection of expressed mRNA (less than 5 percent of the human genome is transcribed) - not a statistical test, plasmid type, positional cloning or stretch of **DNA**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 12,
+                "questionNumber": 51
+              }
+            },
+            {
+              "text": "Transcription takes place in the nucleus (in transcription factories / euchromatin).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 11,
+                "questionNumber": 46
+              }
+            },
+            {
+              "text": "Ribosome is the site of protein synthesis (translation) - not posttranslational modification, **DNA** storage, **DNA** synthesis or energy production.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 13,
+                "questionNumber": 53
+              }
+            },
+            {
+              "text": "Translation takes place in ribosomes; the keyed answer is rough endoplasmic reticulum (explanation: 'not precise, but best of the rest' - rough ER harbours the ribosomes).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 12,
                 "questionNumber": 45
               }
             }
@@ -1159,8 +1309,9 @@
         ],
         "highlightBlockIndices": [
           0,
-          6,
-          8
+          1,
+          7,
+          9
         ]
       }
     },
@@ -1235,7 +1386,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -1267,6 +1419,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 8
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The form of Down syndrome as likely to come from the father as from the mother is the Robertsonian translocation (not mosaicism, duplication, deletion or full trisomy 21): two acrocentric chromosomes break at their centromeres and the long arms fuse, with the short arms lost after a few cell divisions.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 12,
+            "questionNumber": 44
           }
         },
         {
@@ -1314,11 +1476,12 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap-list",
-          "title": "Mutation traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Deletions/insertions in multiples of three codons = in-frame mutations (not frame shift).",
@@ -1326,22 +1489,6 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 11,
                 "questionNumber": 25
-              }
-            },
-            {
-              "text": "Mutant codon specifying a stop signal = nonsense mutation.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 34,
-                "questionNumber": 78
-              }
-            },
-            {
-              "text": "In Robertsonian translocation, chromosomes break at their centromeres and the long arms fuse (short arms are lost over a few cell divisions).",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 41,
-                "questionNumber": 95
               }
             },
             {
@@ -1358,6 +1505,46 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 2,
                 "questionNumber": 3
+              }
+            },
+            {
+              "text": "Robertsonian translocation involves **ACROCENTRIC** chromosomes (non-reciprocal fusion of two acrocentric, non-homologous chromosomes).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 11,
+                "questionNumber": 46
+              }
+            },
+            {
+              "text": "After a Robertsonian translocation in a phenotypically normal person the product is a metacentric fusion chromosome (the small p arms are discarded).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 6,
+                "questionNumber": 23
+              }
+            },
+            {
+              "text": "Nonsense mutation = creation of a premature stop codon in the mRNA, giving an incomplete, often nonfunctional protein.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 12,
+                "questionNumber": 52
+              }
+            },
+            {
+              "text": "A point mutation leading to failure of allele expression = loss of function (amorphic when complete; phenotypes usually recessive).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 5,
+                "questionNumber": 22
+              }
+            },
+            {
+              "text": "Mutations in body (somatic) cells may not be transmitted via gametes - somatic mutations - unlike germ-cell mutations.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 13,
+                "questionNumber": 49
               }
             }
           ]
@@ -1464,8 +1651,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          6,
-          7
+          7,
+          8
         ]
       }
     },
@@ -1692,7 +1879,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 13
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "If **BOTH** parents have an autosomal recessive disorder, every child is affected (probability 1:1, i.e. ==100%==) - not 1:4; ==1 in 4== homozygous, ==1 in 2== carrier and ==1 in 4== normal applies when two **CARRIERS** marry.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 59
+          }
         },
         {
           "type": "paragraph",
@@ -1814,34 +2012,19 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap-list",
-          "title": "Single-gene traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
-            {
-              "text": "Skipping one generation and reappearing the next is typical of autosomal recessive inheritance.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 40
-              }
-            },
             {
               "text": "Autosomal recessive: if both parents are carriers the risk to each child is ==1 in 4== (==25%==); if both parents are affected (homozygous) every child is affected (==100%==, 1:1).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 37,
                 "questionNumber": 86
-              }
-            },
-            {
-              "text": "A woman with an autosomal recessive disorder and a genotypically normal husband: none of her children will have the phenotype (all are carriers).",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 47,
-                "questionNumber": 109
               }
             },
             {
@@ -1877,35 +2060,27 @@
               }
             },
             {
-              "text": "Father diseased, mother non-carrier, one daughter mildly affected and one a silent carrier: unfavourable Lyonisation.",
+              "text": "Sex-linked recessive: all daughters of an affected father are carriers (phenotypically normal, transmit to their sons); females need two identical mutations for disease expression.",
               "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 45,
-                "questionNumber": 105
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 12,
+                "questionNumber": 47
               }
             },
             {
-              "text": "Trisomy X: two Barr bodies in somatic cells (all X chromosomes but one are inactivated).",
+              "text": "Autosomal recessive transmission: risk is high with consanguinity ('hidden relatives' carry the gene) - not pure maternal transmission, not male-to-male, not sex-limited.",
               "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 28
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 8,
+                "questionNumber": 20
               }
             },
             {
-              "text": "A man with Huntington's disease: ==50%== chance of transmitting to a child (**AD**).",
+              "text": "==25%== of children affected although both parents are apparently healthy = autosomal recessive (the less common the allele, the likelier the parents of a homozygote are consanguineous).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 42
-              }
-            },
-            {
-              "text": "Two people who both **HAVE** an autosomal recessive disorder (homozygous, not mere carriers) have children who are all affected: ==100%== (the 'somatomania' example).",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 66
+                "page": 27,
+                "questionNumber": 63
               }
             }
           ]
@@ -1928,6 +2103,16 @@
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 48,
             "questionNumber": 112
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Tay-Sachs disease",
+          "note": "**Q19**: Tay-Sachs disease is caused by deficiency of hexosaminidase A (explanation: autosomal recessive; clinical features apparent by about six months, usually death by the age of four). Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 7,
+            "questionNumber": 19
           }
         }
       ],
@@ -1981,6 +2166,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 13
             }
+          },
+          {
+            "text": "Both parents affected by an AR disorder: all children affected (100%); two carriers: 1 in 4.",
+            "source": {
+              "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+              "page": 26,
+              "questionNumber": 59
+            }
+          },
+          {
+            "text": "Tay-Sachs: hexosaminidase A deficiency, autosomal recessive.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 7,
+              "questionNumber": 19
+            }
           }
         ],
         "facts": [
@@ -2027,8 +2228,8 @@
         ],
         "highlightBlockIndices": [
           5,
-          11,
-          12
+          12,
+          13
         ]
       }
     },
@@ -2117,6 +2318,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Anticipation = earlier onset and more severity with successive generations; the 'least likely' statement is that onset age and severity **REDUCE**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 39,
+            "questionNumber": 92
+          }
+        },
+        {
           "type": "table",
           "title": "Trinucleotide repeat disorders (source figure and text)",
           "columns": [
@@ -2159,7 +2370,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "mnemonic",
@@ -2218,11 +2430,31 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Fragile X, 'most likely' statement: intelligence is correlated with the load of chromosomal damage (**CGG** repeats at q27, with macrocephaly and mental retardation in childhood); the distractors are a q25 deletion, microcephaly, adolescent-only onset and **CTG** repeats.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 9,
+            "questionNumber": 23
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Clinical features: affected males have enlarged testes, prominent ear lobes and a protracting jaw, a high-pitched voice and mental retardation. Heterozygous women, with a compensating second X, show no physical signs other than early menopause, mild learning difficulties and rarely frank retardation.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Learning disability with expressive language disorder, social anxiety, impulsivity and marked inattention points to fragile X syndrome - molecular testing shows an expansion of **CGG** repeats (Xq27.3), not **CAG**, **CTG**, **CCCG** or **GCC**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 12,
+            "questionNumber": 49
           }
         },
         {
@@ -2247,6 +2479,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 15
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Huntington's **NOT** true statement: 'maternal inheritance results in more severe and earlier onset' - the explanation is that spermatogenesis induces more instability in **HD** (paternal expansion).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 11
           }
         },
         {
@@ -2288,6 +2530,16 @@
               "page": 15
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "Anticipation in **PATERNAL** transmission: Huntington's disease is the keyed condition (not Noonan, Hurler, Lesch-Nyhan or tuberous sclerosis); the explanation defines anticipation as earlier onset or greater severity in recent generations, mostly from gradual trinucleotide repeat expansion (dynamic mutation).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 8,
+            "questionNumber": 21
+          }
         },
         {
           "type": "paragraph",
@@ -2339,6 +2591,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Prader-Willi syndrome, correct statement: associated with short stature (explanation: often short statured and obese with learning disabilities); the distractors are 'occurs only in males', social anxiety as a common feature, normal **IQ** and a life expectancy of 6 to 8 years.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 60
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Multifactorial inheritance: multiple genes together with environmental influences. Common psychiatric disorders such as schizophrenia are not Mendelian; they are defined as present or absent but treated as quasi-continuous (the affected can be graded by severity). The liability/threshold model assumes an underlying liability, continuously (normally) distributed, with those past a threshold manifesting the condition; relatives of affected individuals have a liability distribution shifted to the right.",
           "source": {
@@ -2388,7 +2650,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Non-Mendelian traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Maternal transmission only, no paternal transmission, affecting both sexes = mitochondrial inheritance (mtDNA from the ovum only; 37 genes in the explanation).",
@@ -2396,38 +2658,6 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 32,
                 "questionNumber": 75
-              }
-            },
-            {
-              "text": "Huntington's **NOT** true statement: 'maternal inheritance results in more severe and earlier onset' - the explanation is that spermatogenesis induces more instability in **HD** (paternal expansion).",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 11
-              }
-            },
-            {
-              "text": "Anticipation = earlier onset and more severity with successive generations; the 'least likely' statement is that onset age and severity **REDUCE**.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 39,
-                "questionNumber": 92
-              }
-            },
-            {
-              "text": "A 45-year-old with cognitive impairment and a family history of earlier and more severe psychiatric disturbance in recent generations = Huntington (anticipation).",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 46,
-                "questionNumber": 108
-              }
-            },
-            {
-              "text": "Macroorchidism, large ears, prominent jaw, high-pitched voice, mental retardation = Fragile X, **CGG** repeat.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 41,
-                "questionNumber": 96
               }
             },
             {
@@ -2447,27 +2677,43 @@
               }
             },
             {
-              "text": "Prader-Willi: short stature (also obese, learning disabled); the 'most common feature' answer is short stature.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 42,
-                "questionNumber": 99
-              }
-            },
-            {
-              "text": "Methylation can inactivate a gene (**DNA** methylation is a source of epigenetic modification).",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 61
-              }
-            },
-            {
               "text": "Abnormal trinucleotide expansions are detected by **PCR**.",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 15,
                 "questionNumber": 32
+              }
+            },
+            {
+              "text": "Social anxiety and gaze avoidance among trinucleotide expansion syndromes = fragile X syndrome (eye-gaze avoidance is a striking feature).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 6,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "Recurrence risk higher in a family with three affected children than one with two = multifactorial inheritance; Mendelian recurrence risks are unaffected by the number of offspring already affected.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 6,
+                "questionNumber": 24
+              }
+            },
+            {
+              "text": "Huntington's 'least likely' statement: normal gene has 35-45 **CAG** repeats - explanation: normal is about 7-28 triplets, 29-35 will not develop **HD** but may pass an expanded allele, 40 or more develop **HD**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 11,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "Huntington's disease: **IT-15** gene ('interesting transcript 15') on chromosome 4, with an unstable expanded trinucleotide repeat - not presenilin-1 (chr 14) or **APO** **E4** (chr 19).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 5,
+                "questionNumber": 19
               }
             }
           ]
@@ -2577,13 +2823,13 @@
         ],
         "highlightBlockIndices": [
           3,
-          6,
           7,
-          9,
-          15,
-          17,
-          20,
-          21
+          8,
+          10,
+          19,
+          22,
+          26,
+          27
         ]
       }
     },
@@ -2637,7 +2883,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 17
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Types of polymorphism",
+          "mnemonic": "Really Smooth Vegetable Soup, Mmm",
+          "expansion": [
+            "**RFLP** (restriction fragment length polymorphism)",
+            "**SNP** (single nucleotide polymorphism)",
+            "**VNTR** (variable number of tandem repeats)",
+            "**STRP** (short tandem repeat polymorphism / microsatellite)",
+            "Minisatellite"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -2645,6 +2905,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Statement true of polymorphisms: maintained by evolutionary processes (the explanation: must occur in at least ==1%== of the population; evolutionary selection is assumed to maintain them) - **NOT** 'above ==6%==', not functional defect, not exon-only.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 94
           }
         },
         {
@@ -2665,7 +2935,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Polymorphism traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Genetic variation across the population without overt phenotypic change = polymorphism (not mutation).",
@@ -2673,14 +2943,6 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 14,
                 "questionNumber": 31
-              }
-            },
-            {
-              "text": "Statement true of polymorphisms: maintained by evolutionary processes (the explanation: must occur in at least ==1%== of the population; evolutionary selection is assumed to maintain them) - **NOT** 'above ==6%==', not functional defect, not exon-only.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 40,
-                "questionNumber": 94
               }
             },
             {
@@ -2778,7 +3040,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          5
+          2,
+          7
         ]
       }
     },
@@ -2816,7 +3079,29 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 17
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Which blot detects what (Southern, Northern, Western)",
+          "mnemonic": "SNOW DROP: Southern = DNA, Northern = RNA, Western = Protein",
+          "expansion": [
+            "Southern blotting = a specific **DNA** sequence",
+            "Northern blotting = a specific **RNA**",
+            "Western blotting = a specific protein"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Trinucleotide repeat expansions are **DNA** abnormalities, so Southern blot is the keyed detection method (not Northern blot, **ELISA** or Western blot; **PCR** is among the options but is not the key here).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 14,
+            "questionNumber": 50
+          }
         },
         {
           "type": "paragraph",
@@ -2852,7 +3137,29 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 18
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "The three PCR steps",
+          "mnemonic": "Dogs Always Eat",
+          "expansion": [
+            "Denature the **DNA** (heat)",
+            "Anneal (cool; primers bind)",
+            "Extend the primers (**DNA** polymerase)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**NOT** a **PCR** step: vector-based replication of **DNA** (that is cloning); also **NOT** a **PCR** step: gel electrophoresis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 49
+          }
         },
         {
           "type": "paragraph",
@@ -2872,7 +3179,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Technique traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "The best technique for detecting a large sequence of **DNA**: Southern blotting (it locates a particular **DNA** sequence within a complex mixture); **FISH** locates a sequence on a given chromosome.",
@@ -2891,19 +3198,19 @@
               }
             },
             {
-              "text": "**NOT** a **PCR** step: vector-based replication of **DNA** (that is cloning); also **NOT** a **PCR** step: gel electrophoresis.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 49
-              }
-            },
-            {
               "text": "Abnormal trinucleotide expansions are detected with **PCR** (relatively simple **PCR**-based assays); karyotyping shows large missing/extra material, **FISH** shows known sequences.",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 15,
                 "questionNumber": 32
+              }
+            },
+            {
+              "text": "**NOT** a step in **PCR**: gel electrophoresis (the steps are denaturing the **DNA** by heat, annealing the primers on cooling, and extending the primers with **DNA** polymerase over repeated cycles).",
+              "source": {
+                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+                "page": 22,
+                "questionNumber": 50
               }
             }
           ]
@@ -2916,6 +3223,26 @@
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 15,
             "questionNumber": 34
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Thymidine deprivation and fragile X",
+          "note": "**Q14**: culturing cells under thymidine deprivation aids diagnosis of fragile X syndrome (explanation: it makes the fragile sites of the chromosome obvious for detection). The notes name fragile sites but not this detection method.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 6,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Best test for Huntington disease",
+          "note": "**Q43**: the best test for diagnosing Huntington's disease is **PCR** (explanation: serum **PCR** counts trinucleotide repeats - more than 35 in adults and more than 50 in children; the gene is at 4p16.3; a karyotype reveals only macroscopic defects such as deletions, translocations or trisomies). Not in the notes' **PCR** section.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 12,
+            "questionNumber": 43
           }
         }
       ],
@@ -2955,12 +3282,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 18
             }
+          },
+          {
+            "text": "Thymidine-deprived cell culture makes fragile sites visible for diagnosing fragile X.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 6,
+              "questionNumber": 14
+            }
+          },
+          {
+            "text": "Huntington's disease is diagnosed by PCR repeat counting (more than 35 repeats in adults, more than 50 in children); karyotype shows only macroscopic defects.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 12,
+              "questionNumber": 43
+            }
           }
         ],
         "highlightBlockIndices": [
           0,
-          2,
-          5
+          1,
+          4,
+          5,
+          9
         ]
       }
     },
@@ -3022,7 +3367,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 19
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3078,7 +3424,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3136,7 +3483,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Heritability traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Heritability is a measure of the genetic contribution to phenotypic variation in a population (not of an individual's disease, nor of penetrance or **MZ** concordance).",
@@ -3310,7 +3657,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3389,6 +3737,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Schizophrenia genes kept at a low level because affected people marry less and have fewer children = natural selection (not assortative mating, genetic drift, pleiotropy or negative eugenics); the explanation cites impaired fertility and onset at reproductive age.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 6,
+            "questionNumber": 26
+          }
+        },
+        {
           "type": "table",
           "title": "Epistasis, heterogeneity and pleiotropy",
           "columns": [
@@ -3423,11 +3781,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 21
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Two parents **BOTH** affected by the same autosomal recessive disorder have a clinically normal child = locus heterogeneity (not incomplete penetrance, variable expressivity, pleiotropy or allelic heterogeneity): each parent may carry a mutation at a different locus, so the child is a heterozygous carrier at both (explanation example: presenilin 1, 2 and beta-**APP** mutations all causing similar presenile Alzheimer's).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 5,
+            "questionNumber": 21
+          }
         },
         {
           "type": "trap-list",
-          "title": "Hardy-Weinberg and heterogeneity traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Same phenotype from mutations at different loci = locus heterogeneity (not allelic heterogeneity, epistasis or pleiotropy).",
@@ -3501,6 +3870,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 21
             }
+          },
+          {
+            "text": "Two affected AR parents with a normal child = locus heterogeneity (different loci in each parent).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 5,
+              "questionNumber": 21
+            }
           }
         ],
         "facts": [
@@ -3532,7 +3909,7 @@
         "highlightBlockIndices": [
           1,
           6,
-          7
+          8
         ]
       }
     },
@@ -3580,6 +3957,18 @@
               "page": 22
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Four paradigms of genetic methods",
+          "mnemonic": "Big Apples Grow Magnificently",
+          "expansion": [
+            "Basic genetic epidemiology",
+            "Advanced genetic epidemiology",
+            "Gene finding",
+            "Molecular genetics"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -3636,6 +4025,16 @@
               "page": 22
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "Monozygotes share **MORE** uterine environment than dizygotes (about ==70%== of **MZ** twins are monochorionic; **DZ** almost always separate chorions); anatomical similarity is not enough to establish zygosity.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 27
+          }
         },
         {
           "type": "table",
@@ -3790,7 +4189,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 23
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3842,16 +4242,8 @@
         },
         {
           "type": "trap-list",
-          "title": "Classical-study traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
-            {
-              "text": "Monozygotes share **MORE** uterine environment than dizygotes (about ==70%== of **MZ** twins are monochorionic; **DZ** almost always separate chorions); anatomical similarity is not enough to establish zygosity.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 27
-              }
-            },
             {
               "text": "Interviewing all first-degree relatives of consecutive patients to see if a trait is genetic = family study.",
               "source": {
@@ -3882,6 +4274,14 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 26,
                 "questionNumber": 58
+              }
+            },
+            {
+              "text": "Probandwise concordance = affected twins / total co-twins (systematic ascertainment); pairwise = twin pairs both affected / total pairs.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 11,
+                "questionNumber": 47
               }
             }
           ]
@@ -3985,12 +4385,13 @@
         ],
         "highlightBlockIndices": [
           0,
-          4,
+          1,
           5,
           7,
           9,
           11,
-          13
+          13,
+          15
         ]
       }
     },
@@ -4044,7 +4445,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 25
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -4180,7 +4582,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Molecular-study traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "The traditionally accepted **LOD** score threshold of significance in linkage studies is more than 3.",
@@ -4228,6 +4630,22 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 44,
                 "questionNumber": 103
+              }
+            },
+            {
+              "text": "Locating a gene by how far it co-segregates with a marker gene = linkage analysis (coarse chromosomal location) - not mutagenesis, physical mapping, association studies or **PCR**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 5,
+                "questionNumber": 20
+              }
+            },
+            {
+              "text": "Assembling **DNA** fragments from a gene library into a continuous overlapping stretch = physical mapping (base-pair distances between landmarks via overlapping ends).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 12,
+                "questionNumber": 49
               }
             }
           ]
@@ -4403,7 +4821,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 27
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -4411,6 +4830,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 27
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**NOT** a reliable endophenotype for schizophrenia: negative symptoms - the explanation says clinical symptom clusters do not fit the criteria (associated with illness in the population, heritable, state-independent, co-segregating in families, higher rate in unaffected relatives); working memory defects, prepulse inhibition, smooth pursuit defects and glial cell changes are acceptable.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 11,
+            "questionNumber": 44
           }
         },
         {
@@ -4447,7 +4876,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Alternative-approach traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Epigenetic variation is explained mostly by **DNA** methylation and histone modification.",
@@ -4471,6 +4900,30 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 37,
                 "questionNumber": 87
+              }
+            },
+            {
+              "text": "Gottesman and Shields re-introduced the endophenotype concept (not Freud, Kraepelin, Fromm-Reichmann or Kendler).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+                "page": 7,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "Neurological soft signs are observable intermediate phenotypes, unlike impaired attention, working memory deficits, eye movement dysfunction and impaired **P50** suppression, which are endophenotypes.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 11,
+                "questionNumber": 42
+              }
+            },
+            {
+              "text": "Smooth pursuit eye-tracking dysfunction is a strong endophenotype marker for schizophrenia (present in many patients and their non-schizophrenic relatives).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 12,
+                "questionNumber": 46
               }
             }
           ]
@@ -4512,12 +4965,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 27
             }
+          },
+          {
+            "text": "Clinical symptom clusters such as negative symptoms do not fit the endophenotype criteria.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 11,
+              "questionNumber": 44
+            }
           }
         ],
         "highlightBlockIndices": [
           4,
-          6,
-          7
+          7,
+          8
         ]
       }
     },
@@ -4674,7 +5135,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Causal-model traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Molecular findings in psychiatric disorders fit the 'multiple genes of small effect' model (not single genes of large effect).",
@@ -4813,7 +5274,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 30
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Gene **NOT** implicated in schizophrenia from the options: monoamine oxidase (**MAO** is implicated in neuroticism and anxiety disorders); D amino acid oxidase, dysbindin, neuregulin and **COMT** are implicated.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 33,
+            "questionNumber": 76
+          }
         },
         {
           "type": "table",
@@ -4846,6 +5318,16 @@
               "page": 30
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "A mother with schizophrenia, one child: lifetime morbid risk is 10 to ==15%== (explanation: Copenhagen High-Risk Study - ==16.2%== of 207 high-risk children versus ==1.9%== of 104 controls developed schizophrenia, and another ==4.6%== a related illness). The notes' ==13%== for a child of one affected parent sits inside this band.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 10,
+            "questionNumber": 43
+          }
         },
         {
           "type": "gap",
@@ -4886,7 +5368,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 30
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**MZ** concordance in schizophrenia: the keyed answer is 0.48 - the explanation says most studies give 44-==50%== for **MZ** twins and 10-==15%== for **DZ** twins, about three times higher in **MZ** than **DZ**. The notes' own range (41-==65%==) is wider, so the narrower 44-==50%== band decides between 0.22, 0.48, 0.18, 0.14 and 0.08.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 10,
+            "questionNumber": 40
+          }
         },
         {
           "type": "paragraph",
@@ -4906,7 +5399,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Schizophrenia genetics traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "**COMT** is encoded at chromosome 22q11.",
@@ -4914,14 +5407,6 @@
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 2,
                 "questionNumber": 3
-              }
-            },
-            {
-              "text": "Gene **NOT** implicated in schizophrenia from the options: monoamine oxidase (**MAO** is implicated in neuroticism and anxiety disorders); D amino acid oxidase, dysbindin, neuregulin and **COMT** are implicated.",
-              "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 33,
-                "questionNumber": 76
               }
             },
             {
@@ -4988,6 +5473,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 31
             }
+          },
+          {
+            "text": "Question key: MZ schizophrenia concordance 44-50% (0.48), DZ 10-15%, about three times higher in MZ.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 10,
+              "questionNumber": 40
+            }
           }
         ],
         "facts": [
@@ -5042,9 +5535,9 @@
         ],
         "highlightBlockIndices": [
           1,
-          2,
-          4,
-          7
+          3,
+          6,
+          10
         ]
       }
     },
@@ -5098,7 +5591,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 31
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Bipolar disorder, first-degree relatives: the question keys a prevalence of 15-==20%== (explanation also quotes **MZ** concordance up to ==79%== and **DZ** ==19%==), whereas the notes' lifetime-risk table gives 5-==10%== for bipolar illness in first-degree relatives - the two figures differ, and this question keys 15-==20%==.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 11,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Twin **BROTHER** of a woman with bipolar disorder: the keyed risk is 5-==15%== because a twin brother must be dizygotic (a twin sister could have been **MZ** or **DZ**); the high **MZ** figures are the tempting wrong options (above ==90%==, 65-==70%==, 40-==50%==).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 11,
+            "questionNumber": 46
+          }
         },
         {
           "type": "paragraph",
@@ -5270,7 +5784,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Mood-disorder genetics traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Risk of unipolar depression in a first-degree relative of a bipolar proband = 2-3 times higher (10-==20%== vs 5-==10%== in the general population; **MZ** co-twin 3-5 times).",
@@ -5289,6 +5803,16 @@
               }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "MAO isoforms A and B",
+          "note": "**Q48**: both isoforms of monoamine oxidase (A and B) are encoded on chromosome X. The notes discuss **MAOA** among bipolar-linked genes but give no chromosomal location.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 12,
+            "questionNumber": 48
+          }
         }
       ],
       "concise": {
@@ -5341,6 +5865,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 33
             }
+          },
+          {
+            "text": "Question key: 15-20% prevalence in first-degree relatives of bipolar patients (MZ concordance up to 79%, DZ 19%).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 11,
+              "questionNumber": 43
+            }
+          },
+          {
+            "text": "A twin brother of an affected woman is dizygotic: bipolar risk 5-15%.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 11,
+              "questionNumber": 46
+            }
+          },
+          {
+            "text": "Both MAO-A and MAO-B are encoded on chromosome X.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 12,
+              "questionNumber": 48
+            }
           }
         ],
         "facts": [
@@ -5387,10 +5935,10 @@
         ],
         "highlightBlockIndices": [
           2,
-          4,
           6,
-          9,
-          15
+          8,
+          11,
+          17
         ]
       }
     },
@@ -5466,7 +6014,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 34
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "ApoE4 and Alzheimer's: the question keys 'five fold' (explanation: a single **E4** allele gives up to a three- to fivefold increase in **AD** risk), while the notes' table gives 3.2 times for heterozygotes (up to 5 times in some studies) and 14.9 times for homozygotes - note both figures and the allele count in the stem.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 5,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "ApoE4 '**EXCEPT**' question: **E4** is implicated in Alzheimer disease, Parkinson disease, susceptibility to herpes simplex virus infection, poor recovery from head injury, intracerebral haemorrhage and elective cardiac bypass surgery - but **NOT** sporadic **CJD** (the answer).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 14,
+            "questionNumber": 51
+          }
         },
         {
           "type": "trap",
@@ -5572,7 +6141,7 @@
         },
         {
           "type": "trap-list",
-          "title": "Dementia genetics traps (question bank)",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "Late-onset senile Alzheimer's = chromosome 19 ApoE; the others (chr 1 presenilin 2, chr 14 presenilin 1, chr 21 beta amyloid) are associated with the presenile, early-onset type.",
@@ -5607,11 +6176,35 @@
               }
             },
             {
-              "text": "Dementia in adults with Down's is due to extra genetic material on chromosome 21.",
+              "text": "Down syndrome and Alzheimer's: the implicated gene is the amyloid precursor protein (**APP**, chromosome 21) - not presenilin 1/2, tau or ApoE4.",
               "source": {
-                "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
-                "page": 21,
-                "questionNumber": 48
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 11,
+                "questionNumber": 47
+              }
+            },
+            {
+              "text": "Alzheimer's strongly associated with **APO** **E4** on chromosome 19 (not presenilin-1 on chr 1, presenilin-2 on chr 2, **COMT** on chr 21 or **CAG** repeats on chr 4).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+                "page": 4,
+                "questionNumber": 16
+              }
+            },
+            {
+              "text": "48-year-old with dementia: presenilin - the commonest cause of early-onset (<65 years) dementia is Alzheimer's via presenilin 1, presenilin 2 or amyloid precursor protein mutations.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 12,
+                "questionNumber": 49
+              }
+            },
+            {
+              "text": "53-year-old with gradual memory loss and **MMSE** 17/30: **PSEN-1** - **PSEN1** mutations are the commonest cause of early-onset **AD** (up to ==70%== of cases).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 13,
+                "questionNumber": 54
               }
             }
           ]
@@ -5713,8 +6306,8 @@
         ],
         "highlightBlockIndices": [
           3,
-          10,
-          12
+          12,
+          14
         ]
       }
     },
@@ -5736,6 +6329,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 35
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Autism epidemiology: the true statement is heritability above ==90%== (explanation: **MZ** concordance ==60%== for classic autism vs 0 in **DZ**; ==92%== vs ==10%== for the broader phenotype, translating to ==90%== heritability) - the '**MZ** concordance above ==95%==' option is false.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 14,
+            "questionNumber": 52
           }
         },
         {
@@ -5792,6 +6395,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Personality disorder with the strongest genetic support: schizotypal disorder is keyed (explanation: familial risk is seen in schizotypal, antisocial, dependent and avoidant, but molecular and twin evidence most strongly implicate genetics for schizotypal); the notes separately give antisocial **PD** the highest heritability (60-==70%==) among personality disorders.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 13,
+            "questionNumber": 47
           }
         },
         {
@@ -5898,7 +6511,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 37
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "gap",
@@ -5929,6 +6543,106 @@
             "page": 37,
             "questionNumber": 85
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Narcolepsy: HLA-DR2, cataplexy",
+          "note": "**Q42**: narcolepsy is associated with **HLA-DR2** (answer). The explanation contrasts cataplexy (narcolepsy: sudden loss of muscle tone) with catalepsy/waxy flexibility (catatonic features), and says loss of hypothalamic hypocretin-producing neurons causes it and that more than ==90%== of patients have the **HLA** **DQB1*0602** allele. Narcolepsy is not covered in the Molecular Genetics notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 10,
+            "questionNumber": 42
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "HLA-DQB1*0602 and narcolepsy",
+          "note": "**Q25**: **HLA-DQB1*0602** is associated with narcolepsy (explanation: **HLA-DR2** haplotypes on chromosome 6; **HLA-DQB1*0602** and **DQA*0102** found in 85-==95%== of patients versus 12-==38%== of the general population). Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 6,
+            "questionNumber": 25
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Orexin (hypocretin) knockout and narcolepsy",
+          "note": "**Q48**: the gene that, when knocked out, gives mice resembling narcolepsy is orexin (explanation: hypocretin-1 and -2, also called orexin-A and -B, processed from preprohypocretin and made only in lateral hypothalamic cells). Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 12,
+            "questionNumber": 48
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Callous-unemotional traits: heritability",
+          "note": "**Q44**: heritability of callous-unemotional traits is 30-==40%== (explanation: a meta-analysis of behaviour genetic studies in children with callous-unemotional traits and antisocial behaviour estimated ==41%== of variance genetic, ==16%== shared environment, ==43%== non-shared environment). The notes do not give this.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 11,
+            "questionNumber": 44
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Blood-injury-injection phobia",
+          "note": "**Q50**: the specific phobia with a strongly genetic aetiology is blood injury injection phobia (explanation: its response to exposure is fainting with low blood pressure and bradycardia rather than tachycardia). The notes' specific-phobia figures (3-4 times in relatives) do not name it.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ADHD: DRD4 gene",
+          "note": "**Q53**: the gene most strongly implicated in **ADHD** is the dopamine 4 receptor gene (**DRD4**), whose brain mRNA distribution suggests a role in cognitive and executive functions. The notes' **ADHD** table gives risks and heritability but names no gene.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 53
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Right homonymous hemianopia",
+          "note": "**Q97**: right homonymous hemianopia is caused by a lesion of the left optic radiation (explanation: left optic tract, lateral geniculate body, optic radiations and striate cortex - any retrochiasmatic structure - can cause it). Neuro-ophthalmology, not in the Molecular Genetics notes.",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 42,
+            "questionNumber": 97
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "Reduced 5-**HIAA** is found in high impulsive suicidality (decreased 5-**HIAA** is associated with suicidal, antisocial and violent behaviours; reduced serotonin may increase impulsivity).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+                "page": 11,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "Adopted child of alcohol-dependent parents: alcoholism risk about 4 times (adoptees' risk tracks the biological family, 1.6-3.6 times; close family members 4-fold).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 11,
+                "questionNumber": 44
+              }
+            },
+            {
+              "text": "Panic disorder in first-degree relatives: odds 4-8 times higher (relatives' prevalence 6-==17%==; up to 17 times if the index case's onset is below 20).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+                "page": 11,
+                "questionNumber": 45
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -5981,6 +6695,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 37
             }
+          },
+          {
+            "text": "Autism heritability is about 90% (MZ concordance 60% classic, 92% broad vs DZ 0 and 10%).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 14,
+              "questionNumber": 52
+            }
+          },
+          {
+            "text": "Narcolepsy: HLA-DR2 association; cataplexy (not catalepsy/waxy flexibility), more than 90% carry HLA DQB1*0602.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 10,
+              "questionNumber": 42
+            }
+          },
+          {
+            "text": "Callous-unemotional traits: heritability 30-40% (meta-analysis 41% genetic, 16% shared, 43% non-shared environment).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+              "page": 11,
+              "questionNumber": 44
+            }
+          },
+          {
+            "text": "ADHD: the gene most strongly implicated is the dopamine 4 receptor gene (DRD4).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 13,
+              "questionNumber": 53
+            }
           }
         ],
         "facts": [
@@ -6026,8 +6772,8 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
-          11
+          5,
+          13
         ]
       }
     },
@@ -6255,6 +7001,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 4
           }
+        },
+        {
+          "label": "Chimerism = 2+ cell lines from different zygotes; mosaicism = distinct lineages from the same zygote.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
+        },
+        {
+          "label": "Polyploidy = extra sets of chromosomes (triploidy 3n, tetraploidy 4n).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 12,
+            "questionNumber": 50
+          }
         }
       ]
     },
@@ -6469,6 +7231,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 13
           }
+        },
+        {
+          "label": "Both parents affected by an AR disorder: all children affected (100%); two carriers: 1 in 4.",
+          "source": {
+            "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 59
+          }
+        },
+        {
+          "label": "Tay-Sachs: hexosaminidase A deficiency, autosomal recessive.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 7,
+            "questionNumber": 19
+          }
         }
       ]
     },
@@ -6603,6 +7381,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 18
           }
+        },
+        {
+          "label": "Thymidine-deprived cell culture makes fragile sites visible for diagnosing fragile X.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 6,
+            "questionNumber": 14
+          }
+        },
+        {
+          "label": "Huntington's disease is diagnosed by PCR repeat counting (more than 35 repeats in adults, more than 50 in children); karyotype shows only macroscopic defects.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 12,
+            "questionNumber": 43
+          }
         }
       ]
     },
@@ -6689,6 +7483,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 21
+          }
+        },
+        {
+          "label": "Two affected AR parents with a normal child = locus heterogeneity (different loci in each parent).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 5,
+            "questionNumber": 21
           }
         }
       ]
@@ -6831,6 +7633,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 27
           }
+        },
+        {
+          "label": "Clinical symptom clusters such as negative symptoms do not fit the endophenotype criteria.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 11,
+            "questionNumber": 44
+          }
         }
       ]
     },
@@ -6918,6 +7728,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 31
           }
+        },
+        {
+          "label": "Question key: MZ schizophrenia concordance 44-50% (0.48), DZ 10-15%, about three times higher in MZ.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 10,
+            "questionNumber": 40
+          }
         }
       ]
     },
@@ -6971,6 +7789,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
+          }
+        },
+        {
+          "label": "Question key: 15-20% prevalence in first-degree relatives of bipolar patients (MZ concordance up to 79%, DZ 19%).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 11,
+            "questionNumber": 43
+          }
+        },
+        {
+          "label": "A twin brother of an affected woman is dizygotic: bipolar risk 5-15%.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 11,
+            "questionNumber": 46
+          }
+        },
+        {
+          "label": "Both MAO-A and MAO-B are encoded on chromosome X.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 12,
+            "questionNumber": 48
           }
         }
       ]
@@ -7079,6 +7921,38 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 37
+          }
+        },
+        {
+          "label": "Autism heritability is about 90% (MZ concordance 60% classic, 92% broad vs DZ 0 and 10%).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 14,
+            "questionNumber": 52
+          }
+        },
+        {
+          "label": "Narcolepsy: HLA-DR2 association; cataplexy (not catalepsy/waxy flexibility), more than 90% carry HLA DQB1*0602.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 10,
+            "questionNumber": 42
+          }
+        },
+        {
+          "label": "Callous-unemotional traits: heritability 30-40% (meta-analysis 41% genetic, 16% shared, 43% non-shared environment).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 11,
+            "questionNumber": 44
+          }
+        },
+        {
+          "label": "ADHD: the gene most strongly implicated is the dopamine 4 receptor gene (DRD4).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 13,
+            "questionNumber": 53
           }
         }
       ]

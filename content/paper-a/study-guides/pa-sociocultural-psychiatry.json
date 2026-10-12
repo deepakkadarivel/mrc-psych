@@ -51,7 +51,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -78,6 +79,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "In a clinical psychiatric population anorexia nervosa is the keyed disorder that is more common in the higher social classes (autism, bulimia nervosa, **ADHD** and schizophrenia are the distractors). The explanation says the clinical social-class distribution is consistently weighted toward classes 1/2 and that whether this reflects help-seeking/referral patterns or true prevalence is debated; community studies show no association with social class.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 55
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Community studies show the degree of urbanization has a significant impact on the prevalence of anorexia, bulimia and binge eating disorder (Favaro et al., 2003); social class, professional status and education are not associated with an increased risk of reporting an eating disorder in such community samples.",
           "source": {
@@ -91,6 +102,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Bipolar disorder is the keyed answer for over-representation of the higher social class among probands' brothers and children (Tsuchiya et al. 2004, Danish registers) - anorexia nervosa, alcoholism, depressive disorder and antisocial personality are not keyed. The explanation adds that the probands' family of origin is of higher class even though the patients themselves may be in a lower class.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 35
           }
         },
         {
@@ -155,37 +176,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Social class questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q55**: in a clinical psychiatric population, anorexia nervosa is the disorder more common in higher social classes (explanation: social class distribution consistently weighted toward classes 1/2; community samples show no association with class).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 55
-              }
-            },
-            {
-              "text": "**Q35**: overrepresentation of higher social class in the brothers and children of patients is seen in bipolar disorder (Tsuchiya et al. 2004 Danish registers).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 35
-              }
-            },
-            {
-              "text": "**Q68**: the Jarman index (not Barthel/Jasper/Haschinski) is the scoring system for social deprivation.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 33,
-                "questionNumber": 68
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Relative deprivation is explained by the Jarman index, a census-based score of community social deprivation devised by the **GP** Brian Jarman - not the Barthel, Brian, Jasper or Haschinski indices. The explanation notes it is a valid indicator but not generally accepted outside the United Kingdom.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 33,
+            "questionNumber": 68
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The basis of official social classification in Britain is occupational status - not residence, land ownership, financial status or education. The explanation says social class is shaped by occupation, financial status, education, type of residence and leisure activities, but occupational classification is the main mode in Britain.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Alzheimer's disease and social disadvantage",
+          "note": "A course mock question (labelled Sociocultural Psychiatry): social deprivation has no role in the aetiology of Alzheimer's disease (bipolar disorder, **ADHD**, depression and schizophrenia were the other options). Explanation: there is no significant causal association between Alzheimer's risk and socioeconomic status; low education is associated with increased Alzheimer's risk, but this is not mediated by adult **SES** or socioeconomic mobility. A second mock question keys Alzheimer's disease as the condition **NOT** strongly associated with social disadvantage (early-life socioeconomic level relates to late-life cognition but not to rate of cognitive decline or Alzheimer's risk). Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 20,
+            "questionNumber": 53
+          }
         }
       ],
       "concise": {
@@ -231,6 +253,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 3
             }
+          },
+          {
+            "text": "Anorexia nervosa is the keyed disorder commoner in higher social classes in clinical samples; community samples show no class association.",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+              "page": 27,
+              "questionNumber": 55
+            }
+          },
+          {
+            "text": "Bipolar: higher social class over-represented in probands' brothers and children (Tsuchiya 2004).",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+              "page": 17,
+              "questionNumber": 35
+            }
+          },
+          {
+            "text": "Alzheimer's disease is the keyed exception: no causal association with socioeconomic status (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 20,
+              "questionNumber": 53
+            }
           }
         ],
         "facts": [
@@ -253,8 +299,7 @@
         ],
         "highlightBlockIndices": [
           1,
-          11,
-          12
+          13
         ]
       }
     },
@@ -292,7 +337,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Parsons' four sick-role characteristics",
+          "mnemonic": "Every Blameless Body Heals",
+          "expansion": [
+            "Every = Exempted from normal social roles",
+            "Blameless = Not directly responsible for the disease",
+            "Body = Better: must try to get well",
+            "Heals = Help: must seek competent help and cooperate with care"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -300,6 +358,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Under Parsons, **TAKING** **SELF-BLAME** for the illness is the behaviour regarded as abnormal - extending absence while still ill, complying with the doctor's treatment, not carrying out normal social roles and seeking help all fit the sick role. The sick role exempts the person from blame, so self-blame is the odd one out.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 24
           }
         },
         {
@@ -328,7 +396,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "A man at work with headache, abdominal pain, dizziness, tiredness and fever is keyed as 'Illness' - the explanation says the description fits the illness itself rather than the patient's response or any social change. The distractors (health behaviour, sick role, abnormal illness behaviour, illness behaviour) all describe responses to illness, not the illness.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 32
+          }
         },
         {
           "type": "paragraph",
@@ -352,6 +431,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 4
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Chest pain and dizziness with normal bloods and **ECG** is keyed as **ILLNESS** **BEHAVIOUR** - patients need not have a disease or disorder to show it and it can be abnormal; sick role, illness, depression and worried well are the distractors. A mock repeats the scenario with advice on medication, diet and exercise and keys illness behaviour again (behaviour by someone who feels ill to relieve or define the experience).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 72
           }
         },
         {
@@ -433,36 +522,6 @@
               "page": 5
             }
           ]
-        },
-        {
-          "type": "trap-list",
-          "title": "Sick role questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q24**: under Parsons, taking self-blame for the illness is the behaviour regarded as abnormal (the other options - extending absence while ill, complying with treatment, not carrying out normal roles, seeking help - fit the sick role).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 24
-              }
-            },
-            {
-              "text": "**Q53**: refusing medical help and not accepting the diagnosis is least consistent with the sick role (expected: seek help, comply, give up the sick role once well).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 53
-              }
-            },
-            {
-              "text": "**Q72**: chest pain and dizziness with normal bloods and **ECG** is 'illness behaviour' (patients need not have a disease or disorder to show it; it can be abnormal).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 35,
-                "questionNumber": 72
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -501,6 +560,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 4
             }
+          },
+          {
+            "text": "Parsons: self-blame is the abnormal behaviour; the sick person is not held responsible and is exempt from roles.",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+              "page": 12,
+              "questionNumber": 24
+            }
+          },
+          {
+            "text": "Symptoms with normal investigations = illness behaviour (no disease needed; may be abnormal).",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+              "page": 35,
+              "questionNumber": 72
+            }
           }
         ],
         "facts": [
@@ -531,8 +606,8 @@
         ],
         "highlightBlockIndices": [
           0,
-          2,
-          8
+          1,
+          4
         ]
       }
     },
@@ -571,6 +646,17 @@
               "page": 5
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "ICIDH consequences of illness",
+          "mnemonic": "Ice Does Harm",
+          "expansion": [
+            "Ice = Impairment",
+            "Does = Disability",
+            "Harm = Handicap"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -716,7 +802,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "a man two weeks out of inpatient detoxification and abstaining was keyed 'Maintenance'. Notes vs bank: the notes define maintenance as change sustained 'for a significant period of time', and the **Q10** explanation defines it as 'maintaining gains made'. Both are shown because the notes' 'significant period' wording and the two-week stem do not obviously line up.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A patient willing to stop alcohol and accepting the need for change but who has taken no steps is keyed 'Ready for Action' in this mock; the explanation describes deciding and preparing to make a change (the preparation stage). The notes call this stage Preparation (decided to change and planning a strategy, not yet acted) - match the stem to the description, because the mock's label ('Ready for Action') is not the notes' stage name and Action means a plan already implemented.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 19,
+            "questionNumber": 53
+          }
         },
         {
           "type": "paragraph",
@@ -747,28 +854,6 @@
             "Relapse = Relapse"
           ],
           "sourced": false
-        },
-        {
-          "type": "trap-list",
-          "title": "Stages-of-change questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q6**: a man who does not think drinking is a problem and does not want to quit is in precontemplation.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 6
-              }
-            },
-            {
-              "text": "**Q10**: a man two weeks out of inpatient detoxification and abstaining was keyed 'Maintenance'. Notes vs bank: the notes define maintenance as change sustained 'for a significant period of time', and the **Q10** explanation defines it as 'maintaining gains made'. Both are shown because the notes' 'significant period' wording and the two-week stem do not obviously line up.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 10
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -837,9 +922,9 @@
         ],
         "highlightBlockIndices": [
           0,
-          6,
-          9,
-          10
+          1,
+          7,
+          12
         ]
       }
     },
@@ -1049,7 +1134,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 9
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "When a patient repeatedly demands a **CT** scan the clinician judges unnecessary, the keyed answer is do not order it but offer a second opinion - ordering unnecessary tests is inappropriate use of resources and needlessly expensive, while discharging her is **NOT** warranted and may be construed as patient abandonment (ordering to avoid a complaint, or telling her to pay privately, are the distractors).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 14,
+            "questionNumber": 61
+          }
         },
         {
           "type": "paragraph",
@@ -1088,6 +1184,26 @@
             "page": 9,
             "questionNumber": 18
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Boundary violations in therapy",
+          "note": "A course mock question: all of the following are potential boundary violations between a therapist and patient **EXCEPT** a private therapist expecting payment for each session (the violations offered were colluding with a patient against a third party, accepting gifts from one patient but not others, influencing the patient for political causes, and often impressing the patient by disclosing personal details). Explanation: if the therapist expects all patients to pay for each session, he may not be violating any boundary. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 20,
+            "questionNumber": 56
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Negligence and doctors in court",
+          "note": "A course mock question: the most common reason for doctors to be taken to court is negligence (other options: problems in the doctor-patient relationship, misuse and abuse, not obtaining informed consent, breaking confidentiality). Explanation: negligence requires the plaintiff to prove that the doctor owed a duty of care, breached the appropriate standard of care, and that the breach caused harm meriting compensation. Not in the notes (the notes' Torts material comes only from the bank question).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 31
+          }
         }
       ],
       "concise": {
@@ -1125,6 +1241,30 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 9
+            }
+          },
+          {
+            "text": "Unnecessary scan demanded: decline it, offer a second opinion; do not discharge (patient abandonment).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 14,
+              "questionNumber": 61
+            }
+          },
+          {
+            "text": "Expecting payment from all patients for each session is not a boundary violation (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 20,
+              "questionNumber": 56
+            }
+          },
+          {
+            "text": "Negligence is the commonest reason doctors are sued: duty of care, breach, causation of harm (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+              "page": 8,
+              "questionNumber": 31
             }
           }
         ],
@@ -1259,7 +1399,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The schizophrenogenic mother was coined by Fromm-Reichmann - not Lidz, Rutter, Bateson or Wynne (the options that sound like the other family theorists). The explanation describes these mothers as rejecting, impervious to others' feelings, rigid about sex and fearful of intimacy, and adds that schizophrenogenic mother, marital skew and schism are now of historical interest only.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 24,
+            "questionNumber": 50
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Contradictory parental demands that confuse the child and raise risk of emotional difficulty are keyed as the **DOUBLE** **BIND** (Bateson) - not marital schism (a Lidz term), learned helplessness, rapprochement or projective identification. The explanation describes a communication matrix in which messages contradict each other (primary, secondary and tertiary negative injunctions).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 15,
+            "questionNumber": 62
+          }
         },
         {
           "type": "paragraph",
@@ -1276,28 +1437,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 11
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Family theory questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q50**: the schizophrenogenic mother was coined by Fromm-Reichmann (not Lidz, Rutter, Bateson or Wynne); the explanation adds that these theories, with marital skew and schism, are of historical interest only.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 24,
-                "questionNumber": 50
-              }
-            },
-            {
-              "text": "**Q4**: the 'refrigerator mother' is associated with autism (Leo Kanner), not schizophrenia - do not confuse with the schizophrenogenic mother.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 4
-              }
-            }
-          ]
         },
         {
           "type": "gap",
@@ -1370,8 +1509,7 @@
         ],
         "highlightBlockIndices": [
           1,
-          3,
-          6
+          3
         ]
       }
     },
@@ -1421,7 +1559,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Five EE measures",
+          "mnemonic": "Can Pets Eat Healthy Wafers",
+          "expansion": [
+            "Can = Critical comments",
+            "Pets = Positive remarks",
+            "Eat = Emotional over-involvement",
+            "Healthy = Hostility",
+            "Wafers = Warmth (emotional warmth)"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1437,6 +1589,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**CFI** statement that is **NOT** true is 'carried out with the patient'. Notes vs bank disagree: the notes (p11) say individual family members are interviewed 'including the patient', while the **Q8** explanation says **CFI** involves interviewing family members 'not the patient'. The keyed answer follows the explanation's version.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 8
           }
         },
         {
@@ -1488,50 +1650,32 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Reducing face-to-face contact with a high-**EE** family may reduce relapse is the **TRUE** statement: more than 35 hours per week of contact with a high-**EE** relative raises relapse risk, but with low-**EE** households high contact appeared protective. High **EE** is not claimed as the cause of schizophrenia, does not cause poor insight, is **NOT** measured by the Camberwell Assessment of Needs, and predicts relapse in both genders (the distractors).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 41
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The notes and the explanation put the high-**EE** contact threshold at more than 35 hours per week (Brown et al.), but this mock's keyed option is '33 hours per week' (other options 55, 15, 24, 45 hours) - the numbers do not match, so learn the notes' 35 hours and treat 33 as the bank's keying. The explanation also says relapse is less likely in low-**EE** families that express warmth and positive remarks.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 20,
+            "questionNumber": 55
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Pakistani families in the **UK** were more likely than White families to be rated high **EE**, indicating that components such as emotional over-involvement may be cultural rather than pathogenic traits (Hashemi and Cochrane, 1999).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 12
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Expressed emotion questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q2**: 'Social isolation' is **NOT** a measure of **EE** (critical comments, positive comments/warmth, emotional over-involvement, hostility are).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 2
-              }
-            },
-            {
-              "text": "**Q12**: the Camberwell Family Interview is the semi-structured interview for **EE** in relatives of a patient with psychosis (not **LEDS** or Holmes and Rahe).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 12
-              }
-            },
-            {
-              "text": "**Q8**: **CFI** statement that is **NOT** true is 'carried out with the patient'. Notes vs bank disagree: the notes (p11) say individual family members are interviewed 'including the patient', while the **Q8** explanation says **CFI** involves interviewing family members 'not the patient'. The keyed answer follows the explanation's version.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 8
-              }
-            },
-            {
-              "text": "**Q41**: reducing face-to-face time with a high **EE** family may reduce relapse (more than 35 hours/week contact with a high **EE** relative raises risk); high **EE** does not cause schizophrenia, is not measured by **CANE**, and predicts relapse in both genders.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 41
-              }
-            }
-          ]
         },
         {
           "type": "gap",
@@ -1625,8 +1769,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          5,
-          9
+          2,
+          7
         ]
       }
     },
@@ -1700,7 +1844,29 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 13
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Brown and Harris life event types",
+          "mnemonic": "Lazy Hippos Eat",
+          "expansion": [
+            "Lazy = Loss",
+            "Hippos = Humiliation",
+            "Eat = Entrapment"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Losing a new job within two weeks after a year of unemployment, leaving a depressed woman 'stuck in her life', is keyed as **ENTRAPMENT** (not loss, threat, danger or humiliation): the explanation defines perceived entrapment as the usual motivation to escape stress being blocked because there is little or no prospect of agency or rescue.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 31
+          }
         },
         {
           "type": "paragraph",
@@ -1742,6 +1908,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Humiliation is the keyed life-event type that predicts onset of **PURE** depressive illness (Kendler et al. 2003) - not loss, threat, danger or entrapment. The explanation: humiliation predicted pure major depression but not pure generalised anxiety, danger predicted pure generalised anxiety but not pure major depression, and combined loss and humiliation events are more depressogenic than threat; the results had only moderate predictive strength.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 29
+          }
+        },
+        {
           "type": "paragraph",
           "text": "The results of the Kendler 2003 study had only moderate strength in prediction.",
           "source": {
@@ -1755,6 +1931,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 14
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'His depression is probably due to absence of positive life events' is the **INCORRECT** explanation - the explanation says desirable (entrance) events were comparable in controls and the depressed, so absence of positive events cannot be the simple explanation. The other options are valid: depressed patients may recall more stressful events because of cognitive bias, and recurrent episodes have fewer preceding life events than a first episode.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 32
           }
         },
         {
@@ -1787,53 +1973,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 14
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Life event questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q19**: on Holmes and Rahe, divorce had the highest value among the options (explanation: death of spouse is highest at 100 LCUs, then divorce 73, marital separation 65, marriage 50). Notes vs bank: the notes' wording 'divorce tops the rest of the list of stressors list with 73 units' sits oddly beside 'death of spouse generates 100 units'.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 19
-              }
-            },
-            {
-              "text": "**Q29**: humiliation predicts onset of pure depressive illness.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 29
-              }
-            },
-            {
-              "text": "**Q31**: losing a new job within two weeks of starting it after a year of unemployment ('stuck in her life') is entrapment.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 31
-              }
-            },
-            {
-              "text": "**Q32**: 'depression is probably due to absence of positive life events' is **NOT** a correct explanation; recurrent episodes have fewer preceding events, and cognitive bias can inflate recall.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 32
-              }
-            },
-            {
-              "text": "**Q60**: the Life Events and Difficulties Schedule uses contextual rating of social adversity (not Holmes and Rahe, which ranks events).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 60
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Contextual rating of social adversity (judging an event in light of the person's current social context and self-perspective) is the method of the Life Events and Difficulties Schedule - not Holmes and Rahe, the life cycle chart, the Impact of Events Scale or the sociogram. The explanation calls **LEDS** the gold standard: a **UK**-developed semi-structured interview in which the researcher, not the participant, elicits the description, as an alternative to self-reported checklists.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 60
+          }
+        },
+        {
+          "type": "trap",
+          "text": "on Holmes and Rahe, divorce had the highest value among the options (explanation: death of spouse is highest at 100 LCUs, then divorce 73, marital separation 65, marriage 50). Notes vs bank: the notes' wording 'divorce tops the rest of the list of stressors list with 73 units' sits oddly beside 'death of spouse generates 100 units'.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 19
+          }
         },
         {
           "type": "gap",
@@ -1889,6 +2050,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 14
             }
+          },
+          {
+            "text": "Humiliation predicts pure depression; danger predicts pure generalised anxiety (Kendler 2003, moderate strength).",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 29
+            }
           }
         ],
         "facts": [
@@ -1920,8 +2089,9 @@
         "highlightBlockIndices": [
           1,
           2,
-          4,
-          9
+          3,
+          6,
+          12
         ]
       }
     },
@@ -2002,6 +2172,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Food additives are keyed as **NOT** a risk factor for **ADHD** - the explanation says there is no proven link; **ADHD** and its common complications are associated with low social class, large family size, paternal antisocial personality and maternal mental disorder (large family size, family history, low birth weight and low parental education are the other options).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 15,
+            "questionNumber": 63
+          }
+        },
+        {
           "type": "table",
           "title": "Rutter: six inter-related family risk factors for childhood mental disturbance",
           "columns": [
@@ -2039,7 +2219,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 16
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Rutter's six family risk factors",
+          "mnemonic": "Some Lazy Lions Mostly Prowl Free",
+          "expansion": [
+            "Some = Severe marital discord",
+            "Lazy = Low social class",
+            "Lions = Large family size",
+            "Mostly = Maternal mental health disorder",
+            "Prowl = Paternal criminality",
+            "Free = Foster placement"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -2056,20 +2251,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 16
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Question seen in the bank",
-          "items": [
-            {
-              "text": "**Q30**: the biopsychosocial model (proposed by George Engel, based on systems theory) is **NOT** similar to the biomedical model.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 30
-              }
-            }
-          ]
         },
         {
           "type": "gap",
@@ -2122,7 +2303,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          6
+          7,
+          8
         ]
       }
     },
@@ -2168,6 +2350,16 @@
               "page": 16
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "Suspiciousness that worsens after colleagues avoid a man following a schizophrenia diagnosis is **SECONDARY** deviance (a response to the label), not primary deviance - the explanation reserves primary deviance for the symptoms themselves (hallucinations, thought disorder); partial, formal and spiral deviance are distractors. Labelling theory is Lemert's, developed by Scheff, and a label can function as a self-fulfilling prophecy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 14
+          }
         },
         {
           "type": "paragraph",
@@ -2276,20 +2468,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 18
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Question seen in the bank",
-          "items": [
-            {
-              "text": "**Q14**: a man whose suspiciousness worsens after colleagues avoid him following a schizophrenia diagnosis illustrates secondary deviance (the explanation notes the theory is Lemert's, developed by Scheff).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 14
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -2332,9 +2510,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          3,
-          6,
-          11
+          4,
+          7
         ]
       }
     },
@@ -2380,7 +2557,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 18
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "mnemonic",
@@ -2436,7 +2614,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 19
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Brown and Harris vulnerability factors",
+          "mnemonic": "A Lovely Lamb Hides",
+          "expansion": [
+            "A = Absence of a close confiding relationship",
+            "Lovely = Loss of mother before age 11",
+            "Lamb = Lack of employment outside home",
+            "Hides = Having 3 or more children under 15 at home"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'having a long standing physical illness' is **NOT** a Brown and Harris vulnerability factor. Notes vs bank: the notes list 3 or more children under 15 at home; the **Q39** explanation words it as 'greater than three children under the age of 14'.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 39
+          }
         },
         {
           "type": "table",
@@ -2468,29 +2669,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 19
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q39**: 'having a long standing physical illness' is **NOT** a Brown and Harris vulnerability factor. Notes vs bank: the notes list 3 or more children under 15 at home; the **Q39** explanation words it as 'greater than three children under the age of 14'.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 39
-              }
-            },
-            {
-              "text": "**Q1**: Durkheim (not Parsons, Sartre, Kierkegaard or Tuke) was the keyed 'Father of Sociology'; the notes also call him the father of sociology.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 1
-              }
-            }
-          ]
+          "type": "mnemonic",
+          "forTopic": "Brown et al. further factors for depression",
+          "mnemonic": "Please Place My Rug",
+          "expansion": [
+            "Please = Predisposing",
+            "Place = Precipitating",
+            "My = Maintaining",
+            "Rug = Relieving"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Poor coping style (self-blame and helplessness, denial, poor problem-solving, blaming others) is keyed as a **MAINTAINING** factor for depression - not predisposing, precipitating, modifying or protective. The explanation lists the maintaining factors as further negative life events, persistent poor-quality social support, poor coping style, inability to obtain support through fear of intimacy and low educational level.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
         },
         {
           "type": "gap",
@@ -2500,6 +2702,16 @@
             "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
             "page": 1,
             "questionNumber": 1
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Stress-diathesis model of suicide",
+          "note": "A course mock question keyed 'Durkheim proposed social models of suicide' as the true aetiological statement about suicide. Its explanation adds, not in the notes: in the stress-diathesis model a typical stressor is an acute worsening of a psychiatric disorder or an acute psychosocial crisis; pessimism and aggression/impulsivity are components of the diathesis, which sex, religion, familial/genetic factors and childhood experiences also influence; in the prefrontal cortex of people who died by suicide, serotonin transporter binding was decreased but serotonin receptor binding was increased (Mann 2003).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 19,
+            "questionNumber": 52
           }
         }
       ],
@@ -2532,13 +2744,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 19
             }
+          },
+          {
+            "text": "Stress-diathesis: stressor = acute crisis/worsening illness; diathesis = pessimism, aggression/impulsivity; 5HT transporter binding decreased, receptor binding increased (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 19,
+              "questionNumber": 52
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
           4,
           5,
-          6
+          7,
+          8
         ]
       }
     },
@@ -2612,7 +2833,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Being born in an urban area is the keyed factor most associated with increased schizophrenia risk - not frequently being placed in a double-bind situation, high expressed emotion in the family home, or maternal cannabis or alcohol use in pregnancy. The explanation calls the evidence robust and consistent (McGrath 2006), matching the notes' dose-response urban-birth findings.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 21,
+            "questionNumber": 59
+          }
         },
         {
           "type": "paragraph",
@@ -2652,7 +2884,38 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 21
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "for a young Jamaican immigrant with schizophrenia, the keyed statement is that the risk in his parents is similar to the risk in native patients' parents (prepsychotic segregation does not explain it; social adversity is the more acceptable notion).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Being a migrant is keyed as the risk factor most highly associated with schizophrenia in a young man - over early loss of the mother, living alone, alcohol use and **HLA-DR2**. The explanation: rates are increased in first- and second-generation migrants, this cannot be attributed to high incidence in their countries of origin, and host-country stress factors (exclusion, discrimination, defeat) contribute.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 70
+          }
+        },
+        {
+          "type": "trap",
+          "text": "significant social disadvantage may explain the immigrant-schizophrenia association; distractors (pre-psychotic segregation, higher Caribbean incidence, lower minority admission rates, risk specific to African/Caribbean immigrants) are all contradicted.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 30,
+            "questionNumber": 61
+          }
         },
         {
           "type": "paragraph",
@@ -2685,36 +2948,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 22
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Migration questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q23**: for a young Jamaican immigrant with schizophrenia, the keyed statement is that the risk in his parents is similar to the risk in native patients' parents (prepsychotic segregation does not explain it; social adversity is the more acceptable notion).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 23
-              }
-            },
-            {
-              "text": "**Q61**: significant social disadvantage may explain the immigrant-schizophrenia association; distractors (pre-psychotic segregation, higher Caribbean incidence, lower minority admission rates, risk specific to African/Caribbean immigrants) are all contradicted.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 30,
-                "questionNumber": 61
-              }
-            },
-            {
-              "text": "**Q70**: being a migrant is the risk factor most highly associated with schizophrenia among the options (over early maternal loss, living alone, alcohol use, **HLA-DR2**).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 34,
-                "questionNumber": 70
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -2759,6 +2992,22 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 22
+            }
+          },
+          {
+            "text": "Urban birth is the keyed risk factor most associated with schizophrenia (robust, consistent evidence).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 21,
+              "questionNumber": 59
+            }
+          },
+          {
+            "text": "Migrant status is the keyed risk factor most associated with schizophrenia; excess is not explained by countries of origin.",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+              "page": 34,
+              "questionNumber": 70
             }
           }
         ],
@@ -2806,8 +3055,7 @@
         ],
         "highlightBlockIndices": [
           3,
-          5,
-          10
+          6
         ]
       }
     },
@@ -2879,18 +3127,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Question seen in the bank",
-          "items": [
-            {
-              "text": "**Q62**: increasing the price of alcohol (not public education, drinking-environment interventions, longer sales hours or media advocacy) has the best evidence base for decreasing alcohol harm; minimum pricing per gram can be as effective as across-the-board tax.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 30,
-                "questionNumber": 62
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Increasing the price of alcohol is keyed as the best evidence base for reducing alcohol harm - not public education about harm, interventions in drinking environments, longer sales hours or media advocacy. The explanation says price rises reduce harm, delay initiation of drinking, slow young people's progress to heavier drinking and reduce heavy drinking.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 30,
+            "questionNumber": 62
+          }
         }
       ],
       "concise": {
@@ -2932,8 +3176,7 @@
           }
         ],
         "highlightBlockIndices": [
-          1,
-          3
+          1
         ]
       }
     },
@@ -2979,7 +3222,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 23
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3024,7 +3268,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 24
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Goffman's moral career steps",
+          "mnemonic": "Big Red Mice Pounce",
+          "expansion": [
+            "Big = Betrayal funnel",
+            "Red = Role stripping",
+            "Mice = Mortification",
+            "Pounce = Privilege system"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Family and friends reporting a patient's actions to professionals to get him admitted is Goffman's **BETRAYAL** **FUNNEL**, the first step of the moral career - not role stripping, batch living, mortification or institutional neurosis (the later steps/other terms). A mock repeats this item and its explanation says that at each stage of admission family and friends may give the impression the patient will not lose any more of his rights.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 11
+          }
         },
         {
           "type": "paragraph",
@@ -3075,6 +3342,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Institutional neurosis was described by Russell Barton (1976) - not Goffman, Parsons, Pavlov or Pilowsky (Goffman is one of the options but is not keyed). Barton's features: apathy, lack of initiative, loss of interest and submissiveness, attributed to loss of contact with the outside world, enforced idleness and staff bossiness.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 57
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Social reactivity and schizophrenia: Wing and Brown surveyed asylums (Mapperley, Netherne, Severalls) in the late fifties and concluded social poverty and lack of stimulation were related to the severity of blunted affect, poverty of speech and social withdrawal ('clinical poverty'); the relationship was weak in a 1990 reappraisal (Curson et al., 1992). Too much stimulation could provoke positive symptoms.",
           "source": {
@@ -3091,34 +3368,14 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q11**: Goffman's term for family and friends reporting a patient's actions to professionals is the betrayal funnel (not role stripping, batch living, mortification or institutional neurosis).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 11
-              }
-            },
-            {
-              "text": "**Q57**: institutional neurosis was described by Barton (not Goffman, Parsons or Pilowsky).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 28,
-                "questionNumber": 57
-              }
-            },
-            {
-              "text": "**Q71**: the term total institution is associated with Erving Goffman.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 35,
-                "questionNumber": 71
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Nurses angry that a newly admitted patient 'splits them' with conflicting messages at ward rounds are describing **MALIGNANT** **ALIENATION** (Morgan 1979) - not introjection, identification, elimination or transference. The explanation: progressive deterioration in the relationship between staff and patient with loss of sympathy and support, behaviour construed as provocative, unreasonable or overdependent, sometimes preceding suicide or attempted suicide.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 29
+          }
         },
         {
           "type": "gap",
@@ -3179,7 +3436,7 @@
         "highlightBlockIndices": [
           1,
           3,
-          10
+          4
         ]
       }
     },
@@ -3367,7 +3624,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 27
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Types of stigma",
+          "mnemonic": "Every Fox Prefers Slow Chickens",
+          "expansion": [
+            "Every = Enacted",
+            "Fox = Felt",
+            "Prefers = Public",
+            "Slow = Self",
+            "Chickens = Courtesy"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -3407,7 +3678,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 27
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Hayward and Bright stigma themes",
+          "mnemonic": "Dogs Always Pee Dirty",
+          "expansion": [
+            "Dogs = Dangerousness",
+            "Always = Attribution of responsibility",
+            "Pee = Poor prognosis",
+            "Dirty = Disruption of social interaction"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'Cost of treatment required' is the item that is **NOT** a Hayward and Bright theme behind stigma against mental illness - the four are dangerousness, attribution of responsibility (blaming), poor prognosis and disruption of social interaction; blaming, poor prognosis, disruption and dangerousness appear as the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 45
+          }
         },
         {
           "type": "paragraph",
@@ -3623,7 +3917,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 30
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The stigma-reduction model that demands equal rights and equal criminal responsibility for the mentally ill is the **LIBERTARIAN** model - not the brain-disease/no-fault model, individual growth model or disability inclusion model. The explanation says it advocates equal rights without discrimination, positive or negative, with the risk of serial losses for the mentally ill at work or in court.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 7,
+            "questionNumber": 27
+          }
         },
         {
           "type": "paragraph",
@@ -3651,18 +3956,10 @@
         },
         {
           "type": "trap-list",
-          "title": "Stigma questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q5**: stigma increases when a disease disrupts social interactions (disruptiveness); the notes add that less concealable, irreversible, self-inflicted and disgust-eliciting conditions are more stigmatised.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 5
-              }
-            },
-            {
-              "text": "**Q9**: a girl teased after her father's psychiatric admission is courtesy (associative/family) stigma - not self-stigma or **NIMBY**.",
+              "text": "A girl teased after her father's psychiatric admission is courtesy (associative/family) stigma - not self-stigma, **NIMBY** opposition, nosophobia or stereotyping.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
                 "page": 5,
@@ -3670,19 +3967,35 @@
               }
             },
             {
-              "text": "**Q45**: 'cost of treatment required' is **NOT** one of Hayward and Bright's four themes (dangerousness, attribution of responsibility, poor prognosis, disruption of social interaction).",
+              "text": "Stigma increases when a disease disrupts social interactions (disruptiveness); the explanation says stigma is directly proportional to the disruption produced, and a well-concealable, reversible disease that elicits pity is not the answer.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 45
+                "page": 3,
+                "questionNumber": 5
               }
             },
             {
-              "text": "**Q65**: Changing Minds was a 5-year (1998-2003) RCPsych campaign; it is not part of the Care Programme Approach, not a legal clause, not a **WHO** initiative and not an ongoing programme.",
+              "text": "Changing Minds was a 5-year (1998-2003) Royal College of Psychiatrists campaign; the keyed true statement is that it is **NOT** part of the Care Programme Approach (it is not a legal clause, not a **WHO** initiative, not for geriatric issues, not ongoing). A mock repeats this item.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
                 "page": 32,
                 "questionNumber": 65
+              }
+            },
+            {
+              "text": "Health professionals rate antidepressants (depression) and antipsychotics/admission (schizophrenia) as more helpful than the public does; the public rates vitamins/minerals, special diets and self-help books more favourably and is keyed as perceiving psychotropics as more harmful than helpful (Jorm et al. 1997).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+                "page": 24,
+                "questionNumber": 64
+              }
+            },
+            {
+              "text": "Social role valorisation (Wolfensberger 1983) is the successor to normalisation: social acceptance of people with disabilities without devaluation; it is not an illness behaviour or the opposite of normalisation.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 12,
+                "questionNumber": 47
               }
             }
           ]
@@ -3695,6 +4008,26 @@
             "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
             "page": 4,
             "questionNumber": 7
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Community Attitudes to Mental Illness (CAMI) scale",
+          "note": "A course mock question: the instrument used to measure discriminatory attitudes and level of stigma in a community is the Community Attitudes to Mental Illness (**CAMI**) scale. Explanation: developed by Taylor and Dear in 1981 for community use (as asylums emptied), it quantifies attitudes on four scales - authoritarianism, benevolence, social destructiveness and community mental health ideology. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 22,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Discrimination figures in UK service users",
+          "note": "A course mock question: the majority of service users experience discrimination at the workplace. Explanation: a report from 556 **UK** service users found ==70%== had experienced discrimination in some form - ==47%== in the workplace, ==44%== from general practitioners and ==32%== from other health professionals (Mental Health Foundation, 2000). Not in the notes (the notes' ==70%== figure is the separate Changing Minds survey belief that people with schizophrenia are violent).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 37
           }
         }
       ],
@@ -3741,14 +4074,31 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 30
             }
+          },
+          {
+            "text": "CAMI (Taylor and Dear 1981) measures community attitudes: authoritarianism, benevolence, social destructiveness, community mental health ideology (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 22,
+              "questionNumber": 57
+            }
+          },
+          {
+            "text": "70% of 556 UK service users reported discrimination: 47% workplace, 44% GPs, 32% other health professionals (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+              "page": 9,
+              "questionNumber": 37
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
-          3,
-          9,
-          14,
-          18
+          2,
+          4,
+          5,
+          12,
+          17
         ]
       }
     },
@@ -3861,7 +4211,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 33
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3896,7 +4247,20 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 33
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Berry's acculturation types",
+          "mnemonic": "I Ate Sweet Mangoes",
+          "expansion": [
+            "I = Integration",
+            "Ate = Assimilation",
+            "Sweet = Separation",
+            "Mangoes = Marginalisation"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -3904,6 +4268,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 33
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'Partial adaptation of a new culture without giving up one's culture of origin completely' is keyed as **ASSIMILATION** (enculturation is culture learnt from family, teachers and media irrespective of migration; acculturation, sojourning and accommodation are the distractors). Notes vs bank: Berry's grid puts assimilation at **LOW** retention of the culture of origin, while the bank's wording stresses not giving the culture up completely - take the bank's wording for this stem.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
           }
         },
         {
@@ -3920,6 +4294,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Among a migrating family (doctor father, teacher mother, pre-school children, grandparents), the **CHILDREN** are most likely to develop biculturalism - children adapt more easily than adults and the elderly. The bank's companion item keys the grandparents as having the most difficulty adjusting; do not answer 'the husband' or 'the wife' for either.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 13,
+            "questionNumber": 49
           }
         },
         {
@@ -4125,7 +4509,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 35
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The therapist's view of the patient's cultural identity is the keyed **EXCEPTION** in cultural formulation - the patient's own view of his cultural identity matters more. The other options are included: cultural elements in the patient-therapist relationship, cultural explanations of distress, influence of the psychosocial environment, and diagnosis in the context of the patient's cultural background.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 15,
+            "questionNumber": 58
+          }
         },
         {
           "type": "paragraph",
@@ -4133,6 +4528,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 35
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Age, gender, cultural background, time and context of assessment and educational status all influence a patient's explanatory (health belief) model - 'a history of good physical health' is the keyed **EXCEPTION**. The explanation credits Kleinman's work with showing the importance of the patient's understanding of the cause of illness when treating it.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 15,
+            "questionNumber": 64
           }
         },
         {
@@ -4173,53 +4578,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 36
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Culture questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q3**: partial adaptation of a new culture without giving up the culture of origin completely is assimilation (enculturation is culture learnt via family, teachers, media irrespective of migration).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 3
-              }
-            },
-            {
-              "text": "**Q40**: in a migrating family the grandparents will have the greatest difficulty adjusting (the elderly find it harder to acculturate).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 40
-              }
-            },
-            {
-              "text": "**Q56**: ethnicity is best described by group identification (notes' table: ethnicity = group identity; race = physical appearance).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 56
-              }
-            },
-            {
-              "text": "**Q66**: melting pot describes countries with increasing immigration (the explanation names **US**, Brazil, France).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 32,
-                "questionNumber": 66
-              }
-            },
-            {
-              "text": "**Q67**: practising religion and traditions at home but adapting well at work is biculturalism (notes: bicultural pattern in working-age adults).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 33,
-                "questionNumber": 67
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "The melting pot model describes countries with an **INCREASING** immigration trend (not countries with no immigration, zero or negative population growth, or high emigration): cultures melt together into a hybrid sociocultural unit with new strengths. Note the notes' own 'melting pot' entry is a model of care in cultural psychiatry.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 32,
+            "questionNumber": 66
+          }
         },
         {
           "type": "gap",
@@ -4239,6 +4609,16 @@
             "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
             "page": 22,
             "questionNumber": 44
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Cultural analysis",
+          "note": "A course mock question: with respect to population studies, cultural analysis refers to the norms in a group (not racial profile, beliefs among members, lingual diversity or geographical clusters). Explanation: it studies norms or behaviour patterns typical of specific cultural groups, passed down by observational learning from gatekeepers (parents, teachers, religious leaders, peers), e.g. how people choose marriage partners and attitudes to alcohol or spanking. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 32
           }
         }
       ],
@@ -4292,16 +4672,25 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 35
             }
+          },
+          {
+            "text": "Cultural analysis = study of norms typical of cultural groups, passed on by gatekeepers (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+              "page": 8,
+              "questionNumber": 32
+            }
           }
         ],
         "highlightBlockIndices": [
           2,
           4,
           6,
-          10,
+          7,
           13,
           16,
-          20
+          19,
+          24
         ]
       }
     },
@@ -4389,7 +4778,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 38
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -4450,7 +4840,50 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 39
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Fears in culture-bound syndromes",
+          "mnemonic": "Please Keep Safe, Warm",
+          "expansion": [
+            "Please = Pa-leng (fear of cold/wind)",
+            "Keep = Koro (fear of genitals retracting)",
+            "Safe = Susto (soul leaves the body)",
+            "Warm = Windigo (fear of turning into a cannibal)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "A Chinese man afraid of going out because cold wind will destroy his soul is keyed **PA-LENG** (fear of cold and wind, believed to produce fatigue, impotence and death) - the explanation draws out that the 'soul' in the stem is a trap: fear of the soul leaving the body is **SUSTO**, a different syndrome ('fright sickness'). Koro, Piblokto and Windigo are the other distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 47
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A West African student with poor concentration, insomnia, anxiety and head pressure is **BRAIN** **FAG** (distress from 'thinking too much', poor memory, blurred vision, head/neck tightness) - not Windigo, Dhat, Latah or Piblokto. The explanation notes the symptoms resemble anxiety, depressive or somatoform disorders, so the regional clue (West Africa, student) decides it.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 46
+          }
+        },
+        {
+          "type": "trap",
+          "text": "An exaggerated startle response points to **LATAH** (startle-triggered trance with echopraxia/echolalia and repetitive speech or movements) - not Amok, Koro, Dhat or Windigo. Latah and Amok are both Malaysian/South-East Asian, so do not choose Amok: Amok is the sullen period followed by violent outburst, not a startle reaction.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 35
+          }
         },
         {
           "type": "table",
@@ -4482,22 +4915,15 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 39
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap-list",
-          "title": "Culture-bound syndrome questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q27** and **Q47**: a Chinese man's fear of cold/wind is pa-leng (**Q47**'s distractor susto is soul leaving the body after fright; Koro, Piblokto, Windigo are other syndromes).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 14,
-                "questionNumber": 27
-              }
-            },
-            {
-              "text": "**Q28**: a young Inuit woman excitedly undressing and throwing herself into icy water is piblokto (dissociative episode, seizures/coma up to 12 hours in the notes).",
+              "text": "A young Inuit woman suddenly excited, undressing and throwing herself into icy water is Piblokto (dissociative episode with screaming, crying and running naked in the snow; seizures and coma up to 12 hours) - not Amok, Tstsumu, Koro or Latah.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
                 "page": 14,
@@ -4505,27 +4931,43 @@
               }
             },
             {
-              "text": "**Q36**: a Japanese man fearful of going out because of bad body odour is jikoshu-kyofu (a taijin-kyofu subtype).",
+              "text": "Piblokto again: an Inuit woman with sudden shouting, fright and impulsive running away, dissociated with total amnesia for the episode; Windigo, Dhat, Latah and Fag are the distractors (the explanation adds removal of clothing and seeming possession by a bird or animal spirit).",
               "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 36
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+                "page": 23,
+                "questionNumber": 61
               }
             },
             {
-              "text": "**Q46**: a West African student with poor concentration, insomnia, anxiety and head pressure is brain fag.",
+              "text": "A Malaysian man with sudden excitement and marked violence after withdrawal, returning to premorbid state, is Amok (mostly dissociative; rarely psychotic) - not Latah, Cathard, Windigo or Piblokto.",
               "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 46
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 21,
+                "questionNumber": 58
               }
             },
             {
-              "text": "**Q51**: fear that the penis is shrinking into the abdomen with possible death is koro.",
+              "text": "A Sri Lankan man with depression and fatigue who blames masturbation and semen loss in urine has Dhat (India and South East Asia) - not Koro, Susto, Latah or Piblokto; guilt over masturbation can be present.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 23,
+                "questionNumber": 60
+              }
+            },
+            {
+              "text": "Fear of turning into a cannibal (or a demon) is Windigo - not Latah, Amok, Dhat or Koro.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 16,
+                "questionNumber": 63
+              }
+            },
+            {
+              "text": "Fear of cold in a Chinese man is Pa-leng (frigophobia and fear of wind), not Koro, Piblokto, Shenkui or Amok.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 51
+                "page": 14,
+                "questionNumber": 27
               }
             }
           ]
@@ -4548,6 +4990,26 @@
             "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
             "page": 25,
             "questionNumber": 51
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Koro as a desomatisation phenomenon",
+          "note": "A course mock question: koro can be classified phenomenologically as a desomatisation phenomenon (not a somatisation, autoscopic, heautoscopic or derealisation phenomenon). Explanation: the fear of shrinking genitalia seen in koro is a desomatisation phenomenon. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 23,
+            "questionNumber": 59
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Shenjing shuairuo",
+          "note": "A course mock question: the culture-bound syndrome that literally means 'nerve weakness' is shenjing shuairuo (seen in China). Explanation: symptoms include chronic fatigue, dizziness, headaches, sleep difficulties and multiple non-specific somatic complaints, likely related to depression, anxiety, fibromyalgia, chronic fatigue and irritable bowel syndromes. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 12,
+            "questionNumber": 46
           }
         }
       ],
@@ -4587,13 +5049,29 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 39
             }
+          },
+          {
+            "text": "Koro = fear of shrinking genitalia; phenomenologically a desomatisation phenomenon (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 23,
+              "questionNumber": 59
+            }
+          },
+          {
+            "text": "Shenjing shuairuo (China) = 'nerve weakness': fatigue, dizziness, headaches, sleep difficulty, somatic complaints (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+              "page": 12,
+              "questionNumber": 46
+            }
           }
         ],
         "highlightBlockIndices": [
           2,
           3,
           4,
-          5
+          8
         ]
       }
     },
@@ -4876,7 +5354,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 43
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -4904,7 +5383,39 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 43
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "'Insanity sometimes is the sane response to an insane society' is R.D. Laing - not Szasz, Foucault or Cleare. The explanation adds that Laing and the South African psychiatrist David Cooper popularised anti-psychiatry; Laing wrote The Divided Self.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 38
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Three anti-psychiatry pioneers",
+          "mnemonic": "Lazy Students Fail",
+          "expansion": [
+            "Lazy = Laing",
+            "Students = Szasz",
+            "Fail = Foucault"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'Mind is a bodily organ and can be diseased' is the keyed statement that is **NOT** a central anti-psychiatry belief - anti-psychiatry holds that medication and hospitalisation are harmful, the scientific method cannot explain subjective abnormality, mental disorder is explained by social factors, and labelling someone 'ill' is an artificial device. Szasz wrote The Myth of Mental Illness (his question: 'Is there such a thing as mental illness?').",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 30
+          }
         },
         {
           "type": "paragraph",
@@ -5040,28 +5551,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 44
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Anti-psychiatry questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q38**: 'insanity sometimes is the sane response to an insane society' is R.D. Laing (not Szasz, Foucault or Cleare); the explanation adds David Cooper popularised anti-psychiatry with Laing.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 38
-              }
-            },
-            {
-              "text": "**Q64**: 'The Myth of Mental Illness' was written by Szasz (Laing wrote The Divided Self; Foucault wrote Madness and Civilization).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 64
-              }
-            }
-          ]
         }
       ],
       "concise": {
@@ -5106,9 +5595,9 @@
           1,
           3,
           4,
-          7,
-          11,
-          13
+          6,
+          10,
+          14
         ]
       }
     },
@@ -5162,7 +5651,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 45
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -5170,6 +5660,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 45
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Charaka and confidentiality, **CPD**, sympathy/compassion are associated; 'maintaining medical records' is not. Notes vs bank: the notes list friendship, sympathy, interest in cases by capability and no attachment after recovery; the **Q58** explanation lists '4 Cs' (confidentiality, caring practice, continuous professional development, compassion) plus six qualities (learning, rationality, scientific knowledge, memory, devotion, regular practice).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 58
           }
         },
         {
@@ -5259,7 +5759,40 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 46
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Doctor-patient interaction models",
+          "mnemonic": "Pandas Inspect Ice Daily",
+          "expansion": [
+            "Pandas = Paternalistic",
+            "Inspect = Informative",
+            "Ice = Interpretive",
+            "Daily = Deliberative"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "'best interests' is the higher-level principle among the options (teleology: practice based on best interests/outcomes); maleficence/non-maleficence, justice, beneficence and autonomy are lower-level prima facie principles.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "trap",
+          "text": "autonomy, beneficence and justice are among the widely implemented principles; the keyed option omits non-maleficence even though the explanation lists all four.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 29,
+            "questionNumber": 59
+          }
         },
         {
           "type": "paragraph",
@@ -5315,7 +5848,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 47
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "A forensic psychiatrist's patient sentenced to prison despite needing treatment illustrates **UTILITARIANISM** (greatest good for the greatest number; legislated public-safety responsibilities are utilitarian) - not non-maleficence, distributive justice, confidentiality or paternalism. The explanation says utilitarianism approximates beneficence and fits public policy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 21
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A psychotherapist who refuses to displace the next patient on the **CBT** waiting list because it would be against his sense of duty and responsibility is upholding **DEONTOLOGY** (Greek 'deon' = duty; rules, rights and duties govern action, also called absolutism) - not teleology (purpose/outcomes), beneficence, non-maleficence or autonomy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 6,
+            "questionNumber": 23
+          }
         },
         {
           "type": "table",
@@ -5359,10 +5913,10 @@
         },
         {
           "type": "trap-list",
-          "title": "Ethics questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q16**: the right action being the one with the best foreseeable consequences is utilitarian moral theory (teleology).",
+              "text": "The right action being the one with the best foreseeable consequences is utilitarian moral theory (teleology): Engel's model, the paternalistic model, the Hammurabi code and the Hippocratic oath are distractors. A mock repeats this item.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
                 "page": 8,
@@ -5370,15 +5924,7 @@
               }
             },
             {
-              "text": "**Q21**: a forensic psychiatrist's patient sentenced to prison despite needing treatment illustrates utilitarianism ('greatest good for the greatest number', public safety).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 21
-              }
-            },
-            {
-              "text": "**Q25**: a doctor doing what he thinks best regardless of the patient's wishes is paternalism.",
+              "text": "A doctor doing what he thinks best regardless of the patient's wishes is paternalism (not utilitarianism, maternalism, deontology or consequentialism).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
                 "page": 13,
@@ -5386,7 +5932,7 @@
               }
             },
             {
-              "text": "**Q26**: refusing **clozapine** after earlier neutropenia maintains non-maleficence (avoiding harm, primum non nocere).",
+              "text": "Refusing **clozapine** after earlier neutropenia maintains non-maleficence (avoiding harm, primum non nocere), not autonomy, beneficence, justice or teleology.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
                 "page": 13,
@@ -5394,15 +5940,7 @@
               }
             },
             {
-              "text": "**Q34**: 'best interests' is the higher-level principle among the options (teleology: practice based on best interests/outcomes); maleficence/non-maleficence, justice, beneficence and autonomy are lower-level prima facie principles.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 34
-              }
-            },
-            {
-              "text": "**Q37**: the four prima facie principles were promulgated by Beauchamp and Childress.",
+              "text": "The four prima facie principles were promulgated by Beauchamp and Childress (not Charaka, Hippocrates, Galen or Aristotle).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
                 "page": 18,
@@ -5410,19 +5948,35 @@
               }
             },
             {
-              "text": "**Q59**: autonomy, beneficence and justice are among the widely implemented principles; the keyed option omits non-maleficence even though the explanation lists all four.",
+              "text": "Capacity to make treatment decisions upholds **AUTONOMY** (not non-maleficence, justice, confidentiality or beneficence).",
               "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 59
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 13,
+                "questionNumber": 56
               }
             },
             {
-              "text": "**Q58**: Charaka and confidentiality, **CPD**, sympathy/compassion are associated; 'maintaining medical records' is not. Notes vs bank: the notes list friendship, sympathy, interest in cases by capability and no attachment after recovery; the **Q58** explanation lists '4 Cs' (confidentiality, caring practice, continuous professional development, compassion) plus six qualities (learning, rationality, scientific knowledge, memory, devotion, regular practice).",
+              "text": "Compulsory treatment cannot be justified under autonomy: a deontologist could justify detention as a duty and a teleologist by intended outcome, but detention is against the principle of autonomy.",
               "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 28,
-                "questionNumber": 58
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 7,
+                "questionNumber": 28
+              }
+            },
+            {
+              "text": "The first written book on medical ethics is Adab al-Tabib (Conduct of a Physician) by Ishaq bin Ali al-Ruhawi, 9th century - not Hippocrates, Charaka, Burton or Childress.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+                "page": 7,
+                "questionNumber": 26
+              }
+            },
+            {
+              "text": "Resuscitating premature infants irrespective of parental wishes: a mock again keys 24 weeks, with the explanation stating that children at or beyond 25 weeks are treated according to best interests even against parental wishes - the same keying/explanation mismatch as the bank item.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 20,
+                "questionNumber": 52
               }
             }
           ]
@@ -5445,6 +5999,46 @@
             "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
             "page": 34,
             "questionNumber": 69
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Principlism",
+          "note": "A course mock question: autonomy, beneficence, non-maleficence (and justice) in medical ethics are described as **PRINCIPLISM** (the other options: utilitarianism, teleology, enshrinement, deontology). Explanation: principlism refers to Childress and Beauchamp's four prima facie principles. The notes give the four principles but not the name 'principlism'.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 19,
+            "questionNumber": 51
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Consent: necessity and implied consent",
+          "note": "Course mock questions: under the principle of necessity a blood sample to confirm a suspected myocardial infarction in a patient with schizophrenia may be taken without consent (emergency life-saving interventions are covered by common law or necessity; irreversible or long-term procedures need formal legal procedures; covert medication, sterilisation, transplantation and overnight detention were the rejected options). A man holding out his arm for blood pressure measurement shows **IMPLIED** **CONSENT**, which is not a necessity or best-interests situation. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 57
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Tarasoff case",
+          "note": "A course mock question: the Tarasoff case relates to confidentiality (the duty to warn third parties who may be directly harmed by a patient, in addition to the doctor's duty of care). Explanation: Tatiana Tarasoff was killed by Prasanjit Poddar, who had told his therapist his intentions before the killing; the therapist arranged admission but no one directly warned Tarasoff. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 14,
+            "questionNumber": 58
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Hippocratic Oath",
+          "note": "A course mock question: the true statement about the Hippocratic Oath is that it prohibits adultery with patients (it does not allow breach of confidentiality, abortion or therapeutic euthanasia, and did not originate from the Helsinki declaration). Explanation: it prohibits adultery with patients and prohibits abortion and euthanasia in any form. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 23,
+            "questionNumber": 63
           }
         }
       ],
@@ -5491,15 +6085,47 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 47
             }
+          },
+          {
+            "text": "Principlism = Beauchamp and Childress's four prima facie principles (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 19,
+              "questionNumber": 51
+            }
+          },
+          {
+            "text": "Necessity covers emergency life-saving interventions only; routine procedures like BP measurement rely on implied consent (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 13,
+              "questionNumber": 57
+            }
+          },
+          {
+            "text": "Tarasoff: duty to warn third parties - the confidentiality exception (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 14,
+              "questionNumber": 58
+            }
+          },
+          {
+            "text": "Hippocratic Oath prohibits adultery with patients, abortion and euthanasia (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+              "page": 23,
+              "questionNumber": 63
+            }
           }
         ],
         "highlightBlockIndices": [
           2,
-          5,
-          7,
+          6,
+          8,
           9,
-          10,
-          13
+          13,
+          14
         ]
       }
     },
@@ -5545,7 +6171,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 47
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -5554,6 +6181,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 47
           }
+        },
+        {
+          "type": "trap",
+          "text": "'Tried Japanese doctors for unfair treatment of patients' is the **FALSE** statement about the Nuremberg Code - the explanation says it was the first ethical code for research, arising from Nazi research atrocities brought to light in the post-World War **II** Nuremberg Trials in Germany, and that its first and most important principle is the voluntary, competent, informed and understanding consent of the subject. The other options (a place in Germany, voluntary consent upheld, human research ethics, World War **II**) are all true.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 26,
+            "questionNumber": 54
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Nuremberg Code conditions",
+          "mnemonic": "Very Cool Aliens Wear Quirky Tops",
+          "expansion": [
+            "Very = Voluntary consent",
+            "Cool = Common good of society",
+            "Aliens = Avoidance of unnecessary pain and suffering",
+            "Wear = Withdraw: subject has liberty to withdraw",
+            "Quirky = Qualified researchers",
+            "Tops = Terminate the study if more harm than expected"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -5569,6 +6220,26 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 48
+          }
+        },
+        {
+          "type": "trap",
+          "text": "the Declaration of Helsinki (not Nuremberg, Tuskegee or Mt Sinai) is the code currently guiding clinical research worldwide. Notes vs bank: the notes say last amended in 2000 with the 2004 version official; the **Q63** explanation says its latest revision was in 2013.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 63
+          }
+        },
+        {
+          "type": "trap",
+          "text": "'A subject is ethically bound to complete a study after giving written informed consent' is the keyed **NOT**-true statement: signing a consent form does not stop a subject discontinuing, and participants may withdraw at any time. Recruiting through medical colleagues, advertisements, financial incentives and written ethics-committee approval are the other (not keyed) options. A mock repeats this item.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 20
           }
         },
         {
@@ -5601,7 +6272,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 48
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -5633,53 +6305,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 49
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Research ethics questions seen in the bank",
-          "items": [
-            {
-              "text": "**Q54**: the **FALSE** statement about the Nuremberg Code is that it tried Japanese doctors; it arose from the post-**WWII** Nuremberg Trials of Nazi research atrocities, upheld voluntary consent and concerns human research.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 54
-              }
-            },
-            {
-              "text": "**Q73**: under the Nuremberg Code, human experimentation is allowed only if voluntary consent is given.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 36,
-                "questionNumber": 73
-              }
-            },
-            {
-              "text": "**Q20**: a subject is **NOT** ethically bound to complete a study after consenting; participants may withdraw at any time.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 20
-              }
-            },
-            {
-              "text": "**Q63**: the Declaration of Helsinki (not Nuremberg, Tuskegee or Mt Sinai) is the code currently guiding clinical research worldwide. Notes vs bank: the notes say last amended in 2000 with the 2004 version official; the **Q63** explanation says its latest revision was in 2013.",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 63
-              }
-            },
-            {
-              "text": "**Q52**: the Willowbrook study deliberately infected children with hepatitis. Notes vs bank: the notes date it 1963-1966; the **Q52** explanation places it in the 1950s (Krugman, Staten Island).",
-              "source": {
-                "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 52
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "the Willowbrook study deliberately infected children with hepatitis. Notes vs bank: the notes date it 1963-1966; the **Q52** explanation places it in the 1950s (Krugman, Staten Island).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 52
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Scope of the Declaration of Helsinki",
+          "note": "A course mock question: the Declaration of Helsinki covers identifiable human data (the other options - anonymised human data, animal data, environmental data, non-clinical digital data - were not keyed). Explanation: the **WMA**'s statement of ethical principles for medical research involving human subjects includes research on identifiable human material and data. Not in the notes.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 31
+          }
         }
       ],
       "concise": {
@@ -5718,13 +6365,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
               "page": 49
             }
+          },
+          {
+            "text": "Helsinki covers research on identifiable human material and data (course mock).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+              "page": 8,
+              "questionNumber": 31
+            }
           }
         ],
         "highlightBlockIndices": [
           0,
-          4,
-          5,
-          6
+          3,
+          8,
+          9
         ]
       }
     }
@@ -5774,6 +6429,30 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 3
           }
+        },
+        {
+          "label": "Anorexia nervosa is the keyed disorder commoner in higher social classes in clinical samples; community samples show no class association.",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 55
+          }
+        },
+        {
+          "label": "Bipolar: higher social class over-represented in probands' brothers and children (Tsuchiya 2004).",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 35
+          }
+        },
+        {
+          "label": "Alzheimer's disease is the keyed exception: no causal association with socioeconomic status (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 20,
+            "questionNumber": 53
+          }
         }
       ]
     },
@@ -5813,6 +6492,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 4
+          }
+        },
+        {
+          "label": "Parsons: self-blame is the abnormal behaviour; the sick person is not held responsible and is exempt from roles.",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 24
+          }
+        },
+        {
+          "label": "Symptoms with normal investigations = illness behaviour (no disease needed; may be abnormal).",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 35,
+            "questionNumber": 72
           }
         }
       ]
@@ -5893,6 +6588,30 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 9
+          }
+        },
+        {
+          "label": "Unnecessary scan demanded: decline it, offer a second opinion; do not discharge (patient abandonment).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 14,
+            "questionNumber": 61
+          }
+        },
+        {
+          "label": "Expecting payment from all patients for each session is not a boundary violation (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 20,
+            "questionNumber": 56
+          }
+        },
+        {
+          "label": "Negligence is the commonest reason doctors are sued: duty of care, breach, causation of harm (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 31
           }
         }
       ]
@@ -6014,6 +6733,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 14
           }
+        },
+        {
+          "label": "Humiliation predicts pure depression; danger predicts pure generalised anxiety (Kendler 2003, moderate strength).",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 29
+          }
         }
       ]
     },
@@ -6134,6 +6861,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 19
           }
+        },
+        {
+          "label": "Stress-diathesis: stressor = acute crisis/worsening illness; diathesis = pessimism, aggression/impulsivity; 5HT transporter binding decreased, receptor binding increased (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 19,
+            "questionNumber": 52
+          }
         }
       ]
     },
@@ -6180,6 +6915,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 22
+          }
+        },
+        {
+          "label": "Urban birth is the keyed risk factor most associated with schizophrenia (robust, consistent evidence).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 21,
+            "questionNumber": 59
+          }
+        },
+        {
+          "label": "Migrant status is the keyed risk factor most associated with schizophrenia; excess is not explained by countries of origin.",
+          "source": {
+            "file": "paper-a/High yields/PSYCHOLOGY/9) Sociocultural Psychiatry Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 70
           }
         }
       ]
@@ -6341,6 +7092,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 30
           }
+        },
+        {
+          "label": "CAMI (Taylor and Dear 1981) measures community attitudes: authoritarianism, benevolence, social destructiveness, community mental health ideology (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 22,
+            "questionNumber": 57
+          }
+        },
+        {
+          "label": "70% of 556 UK service users reported discrimination: 47% workplace, 44% GPs, 32% other health professionals (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 37
+          }
         }
       ]
     },
@@ -6395,6 +7162,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 36
           }
+        },
+        {
+          "label": "Cultural analysis = study of norms typical of cultural groups, passed on by gatekeepers (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 8,
+            "questionNumber": 32
+          }
         }
       ]
     },
@@ -6434,6 +7209,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 39
+          }
+        },
+        {
+          "label": "Koro = fear of shrinking genitalia; phenomenologically a desomatisation phenomenon (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 23,
+            "questionNumber": 59
+          }
+        },
+        {
+          "label": "Shenjing shuairuo (China) = 'nerve weakness': fatigue, dizziness, headaches, sleep difficulty, somatic complaints (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 12,
+            "questionNumber": 46
           }
         }
       ]
@@ -6555,6 +7346,38 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 47
           }
+        },
+        {
+          "label": "Principlism = Beauchamp and Childress's four prima facie principles (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 19,
+            "questionNumber": 51
+          }
+        },
+        {
+          "label": "Necessity covers emergency life-saving interventions only; routine procedures like BP measurement rely on implied consent (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 57
+          }
+        },
+        {
+          "label": "Tarasoff: duty to warn third parties - the confidentiality exception (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 14,
+            "questionNumber": 58
+          }
+        },
+        {
+          "label": "Hippocratic Oath prohibits adultery with patients, abortion and euthanasia (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 23,
+            "questionNumber": 63
+          }
         }
       ]
     },
@@ -6594,6 +7417,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIOCULTURAL PSYCHIATRY.pdf",
             "page": 49
+          }
+        },
+        {
+          "label": "Helsinki covers research on identifiable human material and data (course mock).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 8,
+            "questionNumber": 31
           }
         }
       ]

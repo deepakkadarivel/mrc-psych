@@ -46,6 +46,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Inclusion and exclusion criteria with an explicit number and duration of symptoms = the **OPERATIONALISED** approach. The explanation defines it as clear clinical descriptions plus explicit inclusion/exclusion criteria and the number and duration of symptoms required; the other options offered (atheoretical, multiaxial, aetiological, descriptive) are **NOT** what supplies those criteria.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 67,
+            "questionNumber": 132
+          }
+        },
+        {
           "type": "table",
           "title": "Types of symptom used in diagnosis",
           "columns": [
@@ -75,7 +85,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -91,6 +102,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Both **ICD** and **DSM** are **ATHEORETICAL**, so '**ICD-10** is theoretical' and '**DSM-IV** is theoretical' are the wrong options. Most diagnoses rest on a few core symptoms plus some ancillary symptoms, and not every listed symptom can be reliably diagnosed (loss of libido more reliably than anhedonia); theoretical assumptions such as psychodynamic theory do not make a classification reliable.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 6,
+            "questionNumber": 15
           }
         },
         {
@@ -181,6 +202,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "A working diagnosis of depressive relapse in a woman with a past depressive episode who now fears panic attacks outside the home is keyed to the **HIERARCHICAL** principle - not the atheoretical, descriptive, multiaxial or operationalised principle. The explanation adds that the ideal system would label diseases by aetiology, but as aetiology is mostly unknown, classification groups diseases by common clinical features, shared natural history and treatment response within a hierarchy.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 22
+          }
+        },
+        {
           "type": "table",
           "title": "Multi-axial systems (DSM-IV vs ICD-10)",
           "columns": [
@@ -220,7 +251,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 4
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The Global Assessment of Functioning is Axis V of **DSM-IV**; the question asks which axis it forms and the keyed answer is five. **DSM-IV** used 5 axes: I clinical disorders, **II** personality disorders/mental retardation, **III** general medical conditions, **IV** psychosocial and environmental problems, V Global Assessment of Functioning.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 25,
+            "questionNumber": 48
+          }
         },
         {
           "type": "paragraph",
@@ -229,60 +271,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 4
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Classification-principle questions in the bank",
-          "items": [
-            {
-              "text": "Inclusion/exclusion criteria with explicit number and duration of symptoms = the operationalised approach (not atheoretical, multiaxial, aetiological or descriptive).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 67,
-                "questionNumber": 132
-              }
-            },
-            {
-              "text": "A depressive-relapse working diagnosis reached after excluding other differentials (agoraphobic fears of panic in a patient with prior depression) was keyed to the hierarchical principle; the explanation adds that the ideal system would label diseases by aetiology but, as aetiology is mostly unknown, systems group by clinical features, natural history and treatment response.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 22
-              }
-            },
-            {
-              "text": "Same scenario, asked as a diagnosis: depressive relapse (not agoraphobia, **GAD**, dysthymia or panic disorder).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 71,
-                "questionNumber": 139
-              }
-            },
-            {
-              "text": "Thought withdrawal is a first rank symptom and the example of a discriminating symptom in the bank.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 32
-              }
-            },
-            {
-              "text": "**ICD-10** multi-axial version (before **ICD-11**) = three axes.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 2
-              }
-            },
-            {
-              "text": "**DSM-IV** multi-axial system used 5 axes; the Global Assessment of Functioning is Axis V.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 48
-              }
-            }
-          ]
         },
         {
           "type": "gap",
@@ -302,6 +290,26 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
             "page": 25,
             "questionNumber": 48
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "GAF scale range",
+          "note": "The notes do not mention the Global Assessment of Functioning. A mock explanation: the **GAF** describes functioning in social, occupational and psychological areas, ranges from 100 (highest functioning) down to 0 and is recorded on Axis V; the maximum score is 100.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Essentialist vs phenetic models of classification",
+          "note": "Not in the notes. A mock explanation contrasts the essentialist strategy (diseases as natural entities forming natural groups) with the phenetic approach (numerical taxonomy: systematic description of observed presentations, all characters weighted equally), and says **ICD** and **DSM** are atheoretical about aetiology but not entirely atheoretical in their descriptions (dissociative disorder and conversion employ psychodynamic concepts).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 4,
+            "questionNumber": 15
           }
         }
       ],
@@ -355,13 +363,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 4
             }
+          },
+          {
+            "text": "Explicit inclusion/exclusion criteria with number and duration of symptoms = the operationalised approach.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 67,
+              "questionNumber": 132
+            }
+          },
+          {
+            "text": "ICD and DSM are both atheoretical; most diagnoses rest on a few core symptoms plus ancillary ones.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 6,
+              "questionNumber": 15
+            }
           }
         ],
         "highlightBlockIndices": [
           5,
-          10,
-          14,
-          16
+          6,
+          9,
+          12,
+          17
         ]
       }
     },
@@ -588,6 +613,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**DSM-IV** Axis 4 = psychosocial and environmental factors contributing to a psychiatric disorder - not the psychiatric disorder itself, general medical health, personality traits or intellectual ability. The explanation adds that **DSM-5** has abolished the multiaxial system.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 10,
+            "questionNumber": 40
+          }
+        },
+        {
           "type": "table",
           "title": "Summary of major DSM-5 changes",
           "columns": [
@@ -653,7 +688,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "gap",
@@ -776,6 +812,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 6
             }
+          },
+          {
+            "text": "DSM-IV Axis 4 = psychosocial and environmental problems; DSM-5 abolished the multiaxial system.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+              "page": 10,
+              "questionNumber": 40
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -783,7 +827,8 @@
           5,
           6,
           8,
-          11
+          11,
+          12
         ]
       }
     },
@@ -845,7 +890,49 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 7
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Wernicke's encephalopathy: the classic triad is confusion, ataxia and ophthalmoplegia/nystagmus (the full triad is seen in only ==10%== of cases; confusion in ==80%==), secondary to **thiamine** (vitamin **B1**) deficiency - **HYPERTHERMIA** is the option that is **NOT** a feature.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 86
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Wernicke's encephalopathy triad",
+          "mnemonic": "C-A-O: 'Cannot Always Orient'",
+          "expansion": [
+            "Confusion",
+            "Ataxia",
+            "Ophthalmoplegia/nystagmus"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "A 16-year-old who feels his legs are being pulled and moved after using cannabis for the first time has an **ACUTE** **CANNABIS** **EFFECT**: kinaesthetic hallucinations and passivity can occur under acute intoxication-related effects of cannabis, so dyskinesia, complex seizure, schizophrenia and delusional disorder are the tempting wrong answers.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 60
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** matching of substance presentations: diarrhoea, running nose, goose flesh, dilated pupils and tachycardia after missed controlled-drug doses = opiate withdrawal; rapid-onset paranoid delusions with prominent visual hallucinations, tachycardia, hypertension and pupillary dilatation after a street drug = amphetamine intoxication; agitation, anxiety, insomnia, tachycardia and tremor = benzodiazepine withdrawal.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 31,
+            "questionNumber": 41
+          }
         },
         {
           "type": "comparison",
@@ -916,7 +1003,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -1012,7 +1100,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 8
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Edwards and Gross (1976) describe **INCREASED** tolerance - 'decreased tolerance' is the feature that is **NOT** defined. The seven features are narrowing of the drinking repertoire, salience/primacy of alcohol-seeking, increased tolerance, repeated withdrawal symptoms, relief or avoidance of withdrawal by further drinking, subjective awareness of compulsion to drink, and reinstatement after abstinence.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 47,
+            "questionNumber": 92
+          }
         },
         {
           "type": "mnemonic",
@@ -1028,68 +1127,6 @@
             "Reinstatement after abstinence"
           ],
           "sourced": false
-        },
-        {
-          "type": "trap-list",
-          "title": "Substance-related questions seen in the bank",
-          "items": [
-            {
-              "text": "Edwards and Gross lists increased tolerance; 'decreased tolerance' is the feature **NOT** defined. Reinstatement after abstinence, repeated withdrawals, narrowed repertoire and subjective awareness of compulsion are all included.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 47,
-                "questionNumber": 92
-              }
-            },
-            {
-              "text": "Salience (primacy of alcohol-seeking) = neglect of all leisure and alternate pleasures apart from alcohol; alcohol becomes more important than job, relationships, finances or health, and may diminish moral sense (criminal activity, fraud).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 72,
-                "questionNumber": 141
-              }
-            },
-            {
-              "text": "Delirium tremens: clouding of consciousness, disorientation, recent-memory amnesia, marked agitation, visual/auditory/tactile (Lilliputian) hallucinations, hour-to-hour fluctuation. Diarrhoea is the keyed 'except' (not a listed feature).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 35,
-                "questionNumber": 69
-              }
-            },
-            {
-              "text": "Alcoholic blackouts = discrete episodes of anterograde amnesia during intoxication (not in **DSM-5**/**ICD-11**), with global or partial gap lasting hours; immediate and remote memory intact.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 20,
-                "questionNumber": 39
-              }
-            },
-            {
-              "text": "Wernicke's encephalopathy is the triad confusion, ataxia, ophthalmoplegia/nystagmus (full triad in only ==10%==; confusion in ==80%==) due to **thiamine** deficiency. Hyperthermia is not a feature.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 44,
-                "questionNumber": 86
-              }
-            },
-            {
-              "text": "Kinaesthetic hallucinations (limbs felt twisted, pulled or moved) with nausea, agitation and insomnia in an anxious patient whose medication was changed = benzodiazepine withdrawal; they can also occur in schizophrenia and organic states such as alcohol intoxication.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 19,
-                "questionNumber": 37
-              }
-            },
-            {
-              "text": "Acute cannabis intoxication can produce kinaesthetic hallucinations and passivity (16-year-old first-time user: acute cannabis effect, not schizophrenia).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 60
-              }
-            }
-          ]
         },
         {
           "type": "gap",
@@ -1185,6 +1222,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 7
             }
+          },
+          {
+            "text": "Wernicke's triad: confusion, ataxia, ophthalmoplegia/nystagmus (thiamine deficiency); hyperthermia is not a feature.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 44,
+              "questionNumber": 86
+            }
+          },
+          {
+            "text": "Kinaesthetic hallucinations/passivity after a first cannabis use = acute cannabis effect.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 31,
+              "questionNumber": 60
+            }
           }
         ],
         "facts": [
@@ -1226,9 +1279,11 @@
           2,
           3,
           4,
-          5,
           6,
-          7
+          7,
+          8,
+          9,
+          11
         ]
       }
     },
@@ -1316,6 +1371,16 @@
               "page": 9
             }
           ]
+        },
+        {
+          "type": "trap",
+          "text": "The best test to differentiate delirium from dementia is **ALTERED** **CONSCIOUSNESS**: in delirium attention and level of consciousness are reduced and fluctuating, whereas in dementia these domains typically stay intact until the advanced stages. Poor recall, neurological localising signs, visual hallucinations and delusions are the tempting distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 55
+          }
         },
         {
           "type": "table",
@@ -1452,7 +1517,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Fluctuating consciousness with visual hallucinations and inability to turn properly in bed = **LEWY** **BODY** dementia (the explanation reads the difficulty turning in bed as axial rigidity related to Parkinsonism), not vascular dementia, Huntington's disease, Wilson disease or Alzheimer's dementia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 2,
+            "questionNumber": 7
+          }
         },
         {
           "type": "table",
@@ -1492,29 +1568,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 11
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Notable features in other organic disorders",
-          "items": [
-            {
-              "text": "Most cases of delirium recover in 4 weeks; in chronic lung disease, subacute bacterial endocarditis and carcinoma delirium may last up to 6 months.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 50,
-                "questionNumber": 98
-              }
-            },
-            {
-              "text": "Encephalitis (post-encephalitic states) is the keyed neurological cause of catatonia.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 38,
-                "questionNumber": 74
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "**EMI** matching of salient dementia features: Lewy body dementia = visual hallucinations; frontotemporal dementia = personality change; vascular dementia = stepwise cognitive deterioration; **CJD** = myoclonus.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 19,
+            "questionNumber": 26
+          }
         },
         {
           "type": "paragraph",
@@ -1523,44 +1588,6 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 11
           }
-        },
-        {
-          "type": "trap-list",
-          "title": "Organic-disorder questions seen in the bank",
-          "items": [
-            {
-              "text": "Best discriminator of delirium from dementia = altered consciousness: attention and level of consciousness are reduced and fluctuating in delirium but typically intact in dementia until advanced stages.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 28,
-                "questionNumber": 55
-              }
-            },
-            {
-              "text": "Amnestic **MCI** is often a precursor to Alzheimer disease (about 10-==15%== progress each year); the keyed answer for a 55-year-old with short-term memory and concentration problems and intact daily activities is Alzheimer dementia.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 72,
-                "questionNumber": 140
-              }
-            },
-            {
-              "text": "Oneiroid (dream-like) states with visual hallucinations are typically accompanied by motor and especially catatonic disturbances.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 25,
-                "questionNumber": 47
-              }
-            },
-            {
-              "text": "Stroke psychiatric sequelae include cognitive disorders and post-stroke depression (elderly man with low mood, forgetfulness and a sudden limp).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 24
-              }
-            }
-          ]
         },
         {
           "type": "gap",
@@ -1610,6 +1637,46 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
             "page": 30,
             "questionNumber": 59
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Post-stroke depression",
+          "note": "Not covered in the notes. **Q24** (an elderly man whose low mood began 18 months ago with forgetfulness) is keyed to stroke: psychiatric sequelae of stroke include cognitive disorders and post-stroke depression.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Huntington's disease presentation",
+          "note": "A mock vignette: 2-year history of abnormal limb movements and memory problems, father died at 50 with similar 'limb shakes' = Huntington's disease; the explanation says onset is defined by the beginning of motor symptoms (clumsiness, tremor, balance trouble, jerkiness) and that chorea or choreoathetosis is often the earliest symptom, most prominent in the limbs and trunk.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 5,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Olfactory hallucinations and complex partial seizures",
+          "note": "A mock vignette: olfactory hallucinations with flushing = complex partial seizures; the explanation says fewer than ==1%== of patients with partial-onset seizures have olfactory symptoms and that most patients with olfactory auras have clear complex partial or secondary generalised seizures as well.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 6,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Grief reaction: mummification",
+          "note": "Not in the notes. A mock explanation: signs of difficulty assimilating a loss range from the slight (expecting the person to return home and setting two places for dinner) to the extreme of mummification (keeping a child's room exactly as it was for years); these signs may be harbingers of depression if they persist.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 2,
+            "questionNumber": 5
           }
         }
       ],
@@ -1663,6 +1730,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 11
             }
+          },
+          {
+            "text": "Altered (fluctuating) consciousness is the best test to tell delirium from dementia.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 28,
+              "questionNumber": 55
+            }
+          },
+          {
+            "text": "Fluctuating consciousness + visual hallucinations + difficulty turning in bed (axial rigidity) = Lewy body dementia.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 2,
+              "questionNumber": 7
+            }
           }
         ],
         "facts": [
@@ -1703,11 +1786,11 @@
           3,
           4,
           5,
-          7,
+          6,
           8,
           9,
           10,
-          12
+          11
         ]
       }
     },
@@ -1721,6 +1804,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 12
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Social withdrawal after delusions of persecution is a **SECONDARY** negative symptom: primary negative symptoms are intrinsic to the underlying pathophysiology, whereas secondary ones are related to other factors (positive or affective symptoms, medication side effects, environmental deprivation) and can respond to treatment.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 71,
+            "questionNumber": 138
           }
         },
         {
@@ -1777,7 +1870,40 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 12
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "First-rank symptoms are **NOT** specific to schizophrenia: in the International Pilot Study ==58%== of acute schizophrenia patients had at least one, yet almost ==10%== of non-schizophrenic patients (up to ==19%== in studies specifically examining them) exhibit them and at least ==20%== of people with schizophrenia never do. The keyed answer for non-schizophrenic psychosis is 10-==20%==.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Waxy flexibility is the option that is **NOT** a Schneiderian first-rank symptom. The explanation groups first-rank symptoms as auditory hallucinations (voices arguing, thought echo, running commentary), delusions of thought interference (insertion, withdrawal, broadcasting), delusions of control (passivity) and delusional perception.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 53,
+            "questionNumber": 105
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Schneiderian first-rank symptom groups",
+          "mnemonic": "A Thought Controls Perception",
+          "expansion": [
+            "Auditory hallucinations (voices arguing, thought echo, running commentary)",
+            "Delusions of thought interference (thought insertion, withdrawal, broadcasting)",
+            "Delusions of control (passivity of affect, impulse, volition, somatic passivity)",
+            "Delusional perception"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -1785,6 +1911,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**MALE** **SEX** is a poor prognostic factor in schizophrenia, along with poor premorbid adjustment, insidious onset, young onset, cognitive impairment, enlarged ventricles and negative symptoms; mood (affective) symptoms are a **POSITIVE** prognostic factor, so 'presence of affective symptoms' is the tempting wrong option.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 16,
+            "questionNumber": 31
           }
         },
         {
@@ -1821,7 +1957,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 13
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "The criteria that consider age of onset and family history but can diagnose schizophrenia even in the **ABSENCE** of delusions and hallucinations are the St Louis criteria; the explanation notes that this set is also called Feighner's criteria.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 4,
+            "questionNumber": 9
+          }
         },
         {
           "type": "table",
@@ -1861,6 +2008,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 13
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**ICD-10** is the **MORE** **LENIENT** system for schizophrenia: one month of symptoms is enough, whereas **DSM-IV** requires six months - so 'requires 6 months criteria for schizophrenia' is the option that is **NOT** a feature of **ICD-10** in this **EXCEPT** question (the other options **ICD-10** does have: schizotypal disorders under schizophrenia, acute polymorphic psychosis, post-psychotic depression under schizophrenia, dissocial personality disorder).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 10,
+            "questionNumber": 42
           }
         },
         {
@@ -1917,7 +2074,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 14
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Of the old **ICD-10**/**DSM-IV** subtypes, **HEBEPHRENIC** schizophrenia carries the worst prognosis: insidious onset in the early second decade, a progressively downhill course, rapid development of negative symptoms and disorganised behaviour, and severe deterioration without remission. The explanation adds that the validity of the subtypes was increasingly questioned, leading to their drop from **DSM-5** and **ICD-11**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
         },
         {
           "type": "table",
@@ -1957,7 +2125,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 15
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** matching of **ICD-10** schizophrenia subtypes: prominent delusions and auditory hallucinations = paranoid; delusions and hallucinations at a lesser intensity than the acute phase = residual; marked social withdrawal, loss of initiative and drive with poorly formed delusions = simple; poor social functioning, affective blunting and marked thought disorder = hebephrenic; marked acute-onset psychomotor disturbance = catatonic.",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 28,
+            "questionNumber": 37
+          }
         },
         {
           "type": "comparison",
@@ -1997,6 +2176,26 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Discharged seven months ago after an acute schizophrenic episode and now two weeks of social isolation, poor eating and poor sleep = **POST-SCHIZOPHRENIC** **DEPRESSION**, an **ICD-10** diagnosis for a depressive episode arising less than 12 months after an acute episode - not major depressive disorder, residual, undifferentiated or hebephrenic schizophrenia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 11,
+            "questionNumber": 47
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Visual but **NOT** auditory hallucinations is the **ATYPICAL** feature of schizophrenia: almost all the other options (bizarre, mood-congruent, mood-incongruent and systematised delusions) have been recognised in schizophrenia, whereas visual hallucinations without auditory ones are rare and should prompt evaluation to rule out organic causes.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
           "type": "table",
           "title": "DSM-5 and schizophrenia",
           "columns": [
@@ -2021,54 +2220,15 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 16
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap-list",
-          "title": "Schizophrenia questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Hebephrenic schizophrenia = worst prognosis of the historical subtypes (insidious early second-decade onset, progressive downhill course, rapid negative symptoms and disorganised behaviour).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 3
-              }
-            },
-            {
-              "text": "Lack of insight is the most frequent symptom in schizophrenia (hallmark; up to ==80%== poor insight in the **IPSS** per the explanation).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 42,
-                "questionNumber": 82
-              }
-            },
-            {
-              "text": "Waxy flexibility is **NOT** a Schneiderian first-rank symptom. **FRS** categories: auditory hallucinations (voices arguing, thought echo, running commentary); thought interference (insertion, withdrawal, broadcasting); delusions of control/passivity; delusional perception.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 53,
-                "questionNumber": 105
-              }
-            },
-            {
-              "text": "Thought withdrawal is a first-rank symptom and a 'discriminating symptom'.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 32
-              }
-            },
-            {
-              "text": "About 10-==20%== of non-schizophrenic psychotic patients show first-rank symptoms (almost ==10%== per the explanation; higher, ==19%==, in studies that specifically examine **FRS**).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 33
-              }
-            },
-            {
-              "text": "Negative symptoms: flattened affect, alogia, anhedonia, social withdrawal, avolition, lethargy, attentional impairment.. Hallucinations, delusions, bizarre behaviour and formal thought disorder are not negative.",
+              "text": "**AFFECTIVE** **FLATTENING** is a negative symptom of schizophrenia (with alogia, anhedonia, social withdrawal, avolition, lethargy and attentional impairment).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 49,
@@ -2076,23 +2236,7 @@
               }
             },
             {
-              "text": "Social withdrawal that follows delusions of persecution = secondary negative symptom (primary negative symptoms are intrinsic to the underlying pathophysiology).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 71,
-                "questionNumber": 138
-              }
-            },
-            {
-              "text": "Poor prognostic factors: poor premorbid adjustment, insidious onset, young onset, cognitive impairment, enlarged ventricles, male sex, negative symptoms; mood symptoms are a positive prognostic factor.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 16,
-                "questionNumber": 31
-              }
-            },
-            {
-              "text": "Inappropriate laughter with thought disorder and mood-incongruent delusions points to schizophrenia; mood incongruity was added in **DSM-III** and dropped in **DSM-IV**.",
+              "text": "Mood incongruity (inappropriate laughter, smiling, 'buffoonery', weeping) is an important sign in schizophrenia, though not specifically included in current diagnostic systems; it was added in **DSM-III** and dropped in **DSM-IV**.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 4,
@@ -2100,11 +2244,51 @@
               }
             },
             {
-              "text": "Disorganised thinking includes tangentiality, loose associations, irrelevant speech, neologisms and word salad.",
+              "text": "Tangentiality/loose associations, irrelevant speech and neologisms all indicate disorganised thinking in schizophrenia ('all of the listed options' was keyed); when severe, speech is incomprehensible 'word salad'.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 75,
                 "questionNumber": 146
+              }
+            },
+            {
+              "text": "Depression in schizophrenia often coexists with negative symptoms and can occur in the acute or the post-psychotic phase.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 1,
+                "questionNumber": 1
+              }
+            },
+            {
+              "text": "Simple schizophrenia: one of Bleuler's traditional subtypes, later accepted by Kraepelin; removed from the official American nosology but retained in **ICD**.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 1,
+                "questionNumber": 3
+              }
+            },
+            {
+              "text": "Bleuler discarded 'dementia praecox' mainly because not all cases began in adolescence - the term rested on age of onset and course, for which convincing evidence was lacking.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+                "page": 3,
+                "questionNumber": 12
+              }
+            },
+            {
+              "text": "**HECKER** coined 'hebephrenia', which predates the **DSM** concept of the disorganised type.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+                "page": 2,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "Phencyclidine (**PCP**) can produce **BOTH** positive and negative schizophrenic symptoms in non-schizophrenic people; amphetamine and **levodopa** produce positive symptoms only.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 10,
+                "questionNumber": 43
               }
             }
           ]
@@ -2188,6 +2372,56 @@
             "page": 42,
             "questionNumber": 82
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ICD-11 'Schizophrenia, continuous' specifier",
+          "note": "Not in the notes. **Q119** (persecutory delusions and auditory hallucinations for most of 5 years with only brief remissions) is keyed to 'Schizophrenia, continuous': symptoms fulfilling schizophrenia present for almost all of the illness course over at least one year, subthreshold periods being very brief; if the first episode lasts more than 1 year the 'continuous' specifier is used instead.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 61,
+            "questionNumber": 119
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ICD-11 qualifiers apply to primary psychotic disorders, not bipolar disorder",
+          "note": "Not in the notes. **Q78**: the **ICD-11** symptom qualifiers (positive, negative, depressive mood, manic mood, psychomotor, cognitive) may be used for any diagnosis in 'Schizophrenia or other primary psychotic disorders' (schizophrenia, schizoaffective, schizotypal, acute and transient psychotic, delusional disorder) - but **NOT** bipolar disorder.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 40,
+            "questionNumber": 78
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ICD-11 depressive mood symptoms in schizophrenia",
+          "note": "Not in the notes. **Q67**: a patient with schizophrenia, last relapse 8 months ago, now with low mood, anhedonia, flat affect, apathy and tearfulness, is keyed to 'depressive mood symptoms in schizophrenia'; the explanation says depressive features are relatively common in schizophrenia, with shame/loss appraisals more prominent in post-psychotic depression and perceived threat from persecutors/malevolent hallucinations more related in acute psychosis.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 34,
+            "questionNumber": 67
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "NICE: explore non-adherence before changing treatment",
+          "note": "Not in the notes. **Q133**: after 3 weeks on an antipsychotic with no improvement the most sensible next step is to explore potential non-adherence - non-adherence is high in schizophrenia, often without the prescriber's knowledge, and **NICE** recommends asking non-judgementally whether any doses were missed over a specific period such as the previous week.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 68,
+            "questionNumber": 133
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Phencyclidine produces positive and negative symptoms",
+          "note": "Not in the notes. A mock explanation: amphetamines and **levodopa** (dopamine release) cause positive symptoms but not negative ones; **LSD** and psilocybin (5HT-2A/2C agonists) cause positive symptoms (**LSD** also visual hallucinations); a single dose of phencyclidine (non-competitive **NMDA** antagonist) can produce **BOTH** positive and negative symptoms in non-schizophrenic people.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+            "page": 10,
+            "questionNumber": 43
+          }
         }
       ],
       "concise": {
@@ -2247,6 +2481,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 16
             }
+          },
+          {
+            "text": "Social withdrawal after persecutory delusions = a secondary (treatable) negative symptom.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 71,
+              "questionNumber": 138
+            }
+          },
+          {
+            "text": "First-rank symptoms: 58% of acute schizophrenia, but about 10-20% of non-schizophrenic psychoses.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 17,
+              "questionNumber": 33
+            }
           }
         ],
         "facts": [
@@ -2293,13 +2543,16 @@
         ],
         "highlightBlockIndices": [
           1,
+          2,
           3,
-          4,
-          6,
-          7,
+          5,
           8,
-          9,
-          10
+          10,
+          13,
+          15,
+          17,
+          20,
+          21
         ]
       }
     },
@@ -2329,6 +2582,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 16
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Schizotypal is **NOT** an **ICD-10** personality disorder: it is classified with **F20** (schizophrenia) - the odd one out in a 'which is not an **ICD-10** personality disorder' question whose other options are anankastic, paranoid, schizoid and emotionally unstable borderline.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 3
           }
         },
         {
@@ -2380,11 +2643,31 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "**BIZARRE** delusions are the least likely to accompany delusional disorder: it presents with circumscribed **NON**-bizarre delusions without prominent hallucinations, thought disorder, mood disorder or significant flattening of affect (**DSM-5** allows 'with bizarre content'; **ICD-11** does not specify). Erotomanic, jealous, hypochondriacal and persecutory delusions are all compatible.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Duration: symptoms should have been present for at least 1 month (**DSM-IV**); **ICD-10** specifies at least 3 months for delusional disorder. **DSM-IV** wording: apart from the impact of the delusion(s) or its ramifications, functioning is not markedly impaired and behaviour is not obviously odd or bizarre - this criterion is not explicit in **ICD-10**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**ICD-10** persistent delusional disorder needs delusions present for at least 3 months (long-standing means more than three months); delusional disorders that have lasted less than three months are classified, at least temporarily, under schizophreniform illnesses - so 3 days, 1 month, 2 weeks and 6 months are the wrong options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 3,
+            "questionNumber": 6
           }
         },
         {
@@ -2449,7 +2732,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 17
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2457,6 +2741,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 17
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Induced delusional disorder is most common between **COUPLES**: most cases occur within the nuclear family, usually between married or common-law couples (==52%==) or sisters (==24%==) - not 'family blood relations' in general, children and adolescents, or groups of men or women.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
           }
         },
         {
@@ -2565,74 +2859,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Other psychosis questions seen in the bank",
-          "items": [
-            {
-              "text": "Induced delusional disorder is most common in couples (==52%== married or common-law couples, ==24%== sisters) within the nuclear family.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 1,
-                "questionNumber": 1
-              }
-            },
-            {
-              "text": "Bizarre delusions are the least likely type in delusional disorder; **DSM-5** subtypes: erotomanic, grandiose, jealous, persecutory, somatic.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 3,
-                "questionNumber": 6
-              }
-            },
-            {
-              "text": "Delusions without hallucinations or thought disorder and preserved family/work function after bereavement (erotomanic content) = delusional disorder, not acute reactive psychosis or schizophreniform disorder.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 48,
-                "questionNumber": 94
-              }
-            },
-            {
-              "text": "Persecutory delusions for 6 months with no functional impairment, no past psychiatric history = delusional disorder.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 60,
-                "questionNumber": 117
-              }
-            },
-            {
-              "text": "Eponyms: Capgras = person replaced by an identical double (l'illusion des sosies); Othello = delusional jealousy; Fregoli = strangers replaced with familiar people (**NOT** delusional dysmorphophobia); Ekbom = delusion of infestation; de Clerambault = erotomania (higher-status person in love, usually female patient).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 68,
-                "questionNumber": 134
-              }
-            },
-            {
-              "text": "Hundreds of emails to a famous footballer and a belief of secret marriage = de Clerambault syndrome.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 73,
-                "questionNumber": 142
-              }
-            },
-            {
-              "text": "Schizoaffective disorder has features of both illnesses in roughly equal proportion; its status is uncertain (variant of schizophrenia, of bipolar disorder, or a point on a unitary-psychosis continuum).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 28,
-                "questionNumber": 54
-              }
-            },
-            {
-              "text": "**ICD-10** classified schizotypal disorder with schizophrenia and related disorders; **DSM-5** places it with Cluster A personality disorders.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 58,
-                "questionNumber": 113
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "**EMI** **ICD-11** diagnostic features: mania = persecutory delusion (common in psychotic mania, next only to grandiose) and affective changes; delirium = transient delusion and visual hallucinations (visual outnumber auditory); delusional disorder = systematised delusion and persecutory delusion (usually single, well systematised, often persecutory, without hallucinations).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 32,
+            "questionNumber": 42
+          }
         },
         {
           "type": "gap",
@@ -2662,6 +2896,16 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
             "page": 21,
             "questionNumber": 40
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Eponymous delusional syndromes (Capgras, Fregoli, Othello, Ekbom, De Clerambault)",
+          "note": "Not in the notes. **Q134** asks which eponym is mismatched: Fregoli syndrome is **NOT** 'delusional dysmorphophobia' - it is a delusional misidentification in which the patient believes strangers have been replaced with familiar people. Capgras (l'illusion des sosies) = a known person replaced by an identical 'double'; Othello = delusional jealousy (fixed belief that the partner is unfaithful); Ekbom = delusion of infestation; De Clerambault = erotomania.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 68,
+            "questionNumber": 134
           }
         }
       ],
@@ -2722,14 +2966,31 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 18
             }
+          },
+          {
+            "text": "Schizotypal disorder is not an ICD-10 personality disorder; it is classified with F20 (schizophrenia).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+              "page": 2,
+              "questionNumber": 3
+            }
+          },
+          {
+            "text": "Delusional disorder: circumscribed non-bizarre delusions; bizarre delusions are least likely.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 3,
+              "questionNumber": 6
+            }
           }
         ],
         "highlightBlockIndices": [
-          5,
-          8,
-          12,
-          14,
-          15
+          3,
+          6,
+          7,
+          11,
+          16,
+          18
         ]
       }
     },
@@ -2804,7 +3065,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 20
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**ICD-10** grades depression severity by symptom counts, but **PSYCHOTIC** **FEATURES** override the count: irrespective of the total symptom count, psychotic symptoms contribute towards classifying a depressive episode as severe - the keyed answer over psychomotor retardation, somatic symptoms, suicidal ideas or a history of mania.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 37
+          }
         },
         {
           "type": "paragraph",
@@ -2873,7 +3145,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 21
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -2937,6 +3210,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "**DSM-5** mania lists **REDUCED** **NEED** **FOR** **SLEEP**, not insomnia: 'insomnia/hypersomnia' is the option **NOT** included in the manic-episode criteria, while increased energy, flight of ideas, being much more talkative and inflated self-esteem/grandiosity are.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 6,
+            "questionNumber": 14
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Psychotic symptoms in mania: mood symptoms are prominent but severe mania may have psychotic symptoms (usually mood-congruent, may be incongruent). Delusions and hallucinations are often 'changeable'. Grandiose and persecutory delusions are common; auditory hallucinations are usually second person and consistent with mood (e.g. religious revelations).",
           "source": {
@@ -2950,6 +3233,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 22
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Hypomanic episode is the one **NOT** known to carry psychotic features: by definition hypomania is not severe enough to interfere with social or occupational functioning, require hospital admission or include psychotic features. Manic episode, psychotic depression, acute and transient psychotic disorder and schizoaffective disorder are the options where psychotic features occur.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 47,
+            "questionNumber": 93
           }
         },
         {
@@ -2990,7 +3283,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 23
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Rapid cycling (four or more mood episodes a year) is **ASSOCIATED** **WITH** **ANTIDEPRESSANT** **USE** - but the explanation says the relationship may be associative rather than causal, because depressive episodes that precede rapid cycling trigger the prescription. Hyperthyroidism, alcohol abuse, menopause and stressful life events are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 64,
+            "questionNumber": 125
+          }
         },
         {
           "type": "paragraph",
@@ -3006,6 +3310,26 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 23
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Hypomania precipitated by antidepressants in a patient with dysthymia = 'bipolar **III**' (hypomania or mania precipitated by antidepressant drugs); the explanation warns that **DSM-5** files this as 'substance/medication-induced bipolar and related disorder' and does not call it 'Bipolar **III** disorder'. Bipolar **II**, double depression, cyclothymia and bipolar I are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 62,
+            "questionNumber": 122
+          }
+        },
+        {
+          "type": "trap",
+          "text": "A first depressive episode on an **SSRI** followed by about 5 days of overactivity, distractibility, irritability and sleeplessness: **SSRI**-induced mood switch is not a recognised **ICD** or **DSM** category, but a hypomanic period plus a depressive history = **BIPOLAR** **II**, not unipolar mania, mixed affective disorder, bipolar I or substance-induced mood disorder.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 11
           }
         },
         {
@@ -3027,85 +3351,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 23
             }
-          ]
-        },
-        {
-          "type": "trap-list",
-          "title": "Mood-disorder questions seen in the bank",
-          "items": [
-            {
-              "text": "Not a feature of mania: memory impairment. Mania = elevated mood, increased energy/reduced sleep, pressured speech/flight of ideas, grandiosity and reduced inhibition, distractibility, risky behaviour, irritability, marked disruption of functioning.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 13
-              }
-            },
-            {
-              "text": "Hypomania cannot include psychotic features (mania, psychotic depression, schizoaffective and acute transient psychotic disorder can).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 47,
-                "questionNumber": 93
-              }
-            },
-            {
-              "text": "Hypomania plus a past depressive episode = bipolar **II** (bipolar I needs at least one manic or mixed episode; bipolar **II** needs a hypomanic and a depressive episode).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 37,
-                "questionNumber": 73
-              }
-            },
-            {
-              "text": "Untreated mania lasts about 4 months (depression 6 months) except in the elderly.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 61,
-                "questionNumber": 120
-              }
-            },
-            {
-              "text": "Rapid cycling (4+ episodes per year) is associated with antidepressant use; the link may be associative rather than causal because depressive episodes that precede rapid cycling trigger antidepressant prescription.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 64,
-                "questionNumber": 125
-              }
-            },
-            {
-              "text": "Hypomania triggered by antidepressants in a patient with long-running dysthymia = 'bipolar **III**' (**DSM-5** 'substance/medication-induced bipolar and related disorder').",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 62,
-                "questionNumber": 122
-              }
-            },
-            {
-              "text": "Two weeks of elation, reduced sleep, pressured speech, racing thoughts and grandiose delusions = mania with psychosis.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 62,
-                "questionNumber": 121
-              }
-            },
-            {
-              "text": "Two weeks of insomnia, grandiosity, increased energy, distractibility and elated mood in a 27-year-old with **MMSE** 23/30 and no previous history = bipolar affective disorder (not delirium or encephalitis).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 69,
-                "questionNumber": 136
-              }
-            },
-            {
-              "text": "Two weeks of low mood, anhedonia, fatigue, early waking and negative cognitions after flu, no past mood history = depressive episode.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 57,
-                "questionNumber": 112
-              }
-            }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "gap",
@@ -3145,6 +3392,16 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
             "page": 14,
             "questionNumber": 27
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ICD-11 psychotic symptoms in moderate or severe depressive episode",
+          "note": "Not in the notes. **Q108** (a woman with 4 weeks of poor sleep and appetite who says her bowels are dead): in **ICD-11** delusions or hallucinations can be present in either a moderate or a severe depressive episode, so 'moderate or severe' is keyed.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 55,
+            "questionNumber": 108
           }
         }
       ],
@@ -3204,6 +3461,22 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 23
+            }
+          },
+          {
+            "text": "ICD-10: psychotic features make a depressive episode severe regardless of the symptom count.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+              "page": 9,
+              "questionNumber": 37
+            }
+          },
+          {
+            "text": "DSM-5 mania lists reduced need for sleep, not insomnia/hypersomnia.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 6,
+              "questionNumber": 14
             }
           }
         ],
@@ -3276,12 +3549,13 @@
         "highlightBlockIndices": [
           0,
           1,
-          3,
-          5,
-          9,
-          13,
+          2,
+          4,
+          6,
+          10,
+          11,
           16,
-          17
+          22
         ]
       }
     },
@@ -3367,7 +3641,7 @@
         },
         {
           "type": "trap",
-          "text": "**Q5**: cyclothymia frequently fails to come to medical attention because its mood swings are mild and mood elevation may be enjoyable; people present because of depressive episodes affecting social/work life or comorbid drug/alcohol misuse, and if drugs are contemplated it is a trial of a mood stabiliser.",
+          "text": "Cyclothymia frequently fails to come to medical attention: its mood swings are mild and mood elevation may be enjoyable (increased activity, productivity, self-confidence and sociability), so people present because of depressive episodes affecting social/work life or comorbid drug/alcohol misuse, and if drugs are contemplated it is a trial of a mood stabiliser.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
@@ -3582,7 +3856,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 26
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -3626,7 +3901,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 26
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -3710,7 +3986,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 28
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -3746,7 +4023,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 28
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Social phobia vs agoraphobia: both can present as house-bound behaviour and avoidance of public places, but in social phobia the underlying fear is of embarrassing oneself ('doing something stupid') while others are watching - so a fear of being under continuous scrutiny from others points to social phobia, not agoraphobia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 10
+          }
         },
         {
           "type": "table",
@@ -3798,45 +4086,28 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 29
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Anxiety and phobia questions seen in the bank",
-          "items": [
-            {
-              "text": "Anxious disposition with worsening breathlessness, chest pain and nausea over 6 months = generalised anxiety disorder (anxiety persisting for at least several months, more days than not, with apprehension or worry about multiple everyday events plus tension, autonomic overactivity, irritability, sleep disturbance).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 41,
-                "questionNumber": 81
-              }
-            },
-            {
-              "text": "Panic attacks cannot be unilateral; they involve generalised autonomic activity, not cortical seizure-type activity. Recognised types include nocturnal, situationally predisposed, situational and out-of-the-blue attacks.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 46,
-                "questionNumber": 90
-              }
-            },
-            {
-              "text": "Irrational fear of darkness without distress or avoidance is **NOT** a specific phobia: phobias of all kinds involve avoidance of the feared situation.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 17,
-                "questionNumber": 34
-              }
-            },
-            {
-              "text": "Distress and sweating at parties, silence with visitors, in a 13-year-old = social anxiety disorder (comorbid substance misuse is common).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 60,
-                "questionNumber": 118
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "**NO** **AVOIDANCE** = **NO** **PHOBIA**: in phobias of all kinds the feared situation is avoided, so a man with a childhood fear of darkness who is not distressed and takes no special measures to avoid dark spaces has **NO** specific phobia - not 'a specific phobia because the fear is irrational' or 'because it began in childhood'.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 34
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Separation anxiety and later panic/agoraphobia",
+          "note": "Not in the notes. A mock explanation: women (less so men) with agoraphobia report significantly more childhood separation anxiety than those with other anxiety disorders, so separation anxiety disorder is keyed as increasing the later risk of panic disorder and agoraphobia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
         }
       ],
       "concise": {
@@ -3895,6 +4166,22 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 28
+            }
+          },
+          {
+            "text": "Social phobia vs agoraphobia: both may be house-bound, but social phobia's underlying fear is embarrassing oneself while watched.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+              "page": 4,
+              "questionNumber": 10
+            }
+          },
+          {
+            "text": "A phobia requires avoidance of the feared situation; no avoidance = no specific phobia.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 17,
+              "questionNumber": 34
             }
           }
         ],
@@ -3972,7 +4259,8 @@
           9,
           10,
           11,
-          12
+          12,
+          13
         ]
       }
     },
@@ -4042,7 +4330,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 29
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -4129,6 +4418,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Three weeks after a collision with insomnia, poor concentration, nightmares and emotional outbursts = **ACUTE** **STRESS** **DISORDER**: **PTSD**-like symptoms (intrusion, avoidance, negative mood, hyperarousal) lasting no more than 4 weeks - so post-traumatic stress disorder is the tempting wrong answer at 3 weeks, alongside adjustment disorder, dysthymia and depressive episode.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 73,
+            "questionNumber": 143
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Adjustment disorder is a diagnosis in both **ICD-10** and **DSM-IV** (in **DSM-IV** a residual category for clinically significant distress not meeting criteria for a more discrete disorder such as depression or **PTSD**). It refers to psychological reactions in adapting to new circumstances after a non-catastrophic psychosocial stressor such as divorce or separation.",
           "source": {
@@ -4170,7 +4469,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 31
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Adjustment disorder (depressive reaction) vs major depressive disorder: the symptoms are phenomenologically the **SAME** and both can follow a stressful life event - what distinguishes adjustment disorder is resolution of symptoms within 6 months of the end of the stressor.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 11,
+            "questionNumber": 44
+          }
         },
         {
           "type": "paragraph",
@@ -4266,7 +4576,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 32
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Delusional guilt or intense suicidal ideas nine months after a bereavement point to a major depressive episode rather than bereavement: a widow who still attends her usual social groups but now has pervasive guilt and suicidal thoughts has **DEPRESSION**, not bereavement, paraphrenia, delusional disorder or dementia.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 1,
+            "questionNumber": 3
+          }
         },
         {
           "type": "paragraph",
@@ -4306,7 +4627,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 33
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -4370,68 +4692,6 @@
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 33
-            }
-          ]
-        },
-        {
-          "type": "trap-list",
-          "title": "Stress-related questions seen in the bank",
-          "items": [
-            {
-              "text": "Three weeks of insomnia, poor concentration, nightmares and emotional outbursts after witnessing her husband's death = acute stress disorder (**PTSD**-like symptoms lasting no more than 4 weeks).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 73,
-                "questionNumber": 143
-              }
-            },
-            {
-              "text": "Adjustment disorder symptoms should not persist longer than 6 months after the stressor (or its consequences) is removed.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 35,
-                "questionNumber": 68
-              }
-            },
-            {
-              "text": "Adjustment disorder after moving city (uneasiness, difficulty concentrating, inability to cope) is keyed over **GAD**, neurasthenia, social phobia and acute stress reaction.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 57,
-                "questionNumber": 111
-              }
-            },
-            {
-              "text": "**PTSD** symptoms usually occur within 6 months of trauma (delayed onset in about ==10%==); essential features are autonomic hyperarousal, re-experiencing and active avoidance; insomnia is common; vulnerability includes low self-esteem/neurotic traits and previous psychiatric history.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 49,
-                "questionNumber": 96
-              }
-            },
-            {
-              "text": "**PTSD** course fluctuates over time and is not static (resilient, recovery, delayed-reaction and chronic-distress classes).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 17
-              }
-            },
-            {
-              "text": "Sense of numbing is associated with poor prognosis in **PTSD** (chronic distress, impaired interpersonal functioning, lower quality of life).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 51,
-                "questionNumber": 100
-              }
-            },
-            {
-              "text": "Checking is the most common **OCD** symptom (boys report more checking, girls more cleaning in some adolescent samples).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 50,
-                "questionNumber": 99
-              }
             }
           ]
         },
@@ -4503,6 +4763,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 33
             }
+          },
+          {
+            "text": "Acute stress disorder = PTSD-like symptoms lasting no more than 4 weeks.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 73,
+              "questionNumber": 143
+            }
+          },
+          {
+            "text": "Adjustment disorder vs MDD: same symptoms, but adjustment resolves within 6 months of the stressor ending.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+              "page": 11,
+              "questionNumber": 44
+            }
           }
         ],
         "facts": [
@@ -4567,13 +4843,14 @@
           2,
           4,
           7,
-          10,
-          13,
+          8,
+          11,
+          12,
           15,
           17,
-          19,
           20,
-          21
+          22,
+          23
         ]
       }
     },
@@ -4627,7 +4904,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 34
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -4659,7 +4937,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 34
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "comparison",
@@ -4754,6 +5033,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Sudden aphonia with normal examination and investigations, shortly after a partner's mother moved in = **DISSOCIATIVE** **MOTOR** **DISORDER**: functional weakness (inconsistent with a neurological disease) is called motor conversion disorder in **DSM-IV** and dissociative motor disorder in **ICD-10**. Adjustment disorder, Munchausen syndrome, hypochondriasis and somatisation disorder are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
           "type": "table",
           "title": "DSM-5 and dissociative disorders",
           "columns": [
@@ -4829,7 +5118,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 35
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Deliberate self-harm, left-sided somatosensory symptoms, affective disorder and a family history of psychiatric disorder are more often found in non-epileptic than in true epileptic seizures - the **EXCEPTION** in this question is a **STEREOTYPED** pattern of motor symptoms.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 4,
+            "questionNumber": 10
+          }
         },
         {
           "type": "paragraph",
@@ -4845,6 +5145,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 36
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Nausea, abdominal pain and dysmenorrhoea with no cause found despite investigation = **SOMATISATION** **DISORDER**: physical symptoms involving more than one part of the body with no physical cause, which are real and not created or faked on purpose - the distinction from Munchausen/factitious disorder, hypochondriasis and conversion disorder, the other options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 3,
+            "questionNumber": 6
           }
         },
         {
@@ -4877,6 +5187,16 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 37
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Sweating, tremor, palpitation and persistent precordial pain for 10 months despite a negative cardiac work-up = **SOMATOFORM** **AUTONOMIC** **DYSFUNCTION**: autonomic arousal symptoms attributed by the patient to a physical disorder of an organ system (cardiovascular, gastrointestinal, respiratory, genitourinary) with no underlying physical disorder - not generalised anxiety disorder, somatisation disorder or conversion disorder.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 3,
+            "questionNumber": 8
           }
         },
         {
@@ -5073,11 +5393,29 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "A man who admits to faking symptoms (abdominal pain, seventh **GP** visit) and says he does not know why = **FACTITIOUS** **DISORDER**: patients intentionally falsify symptoms and fabricate signs with the primary aim of obtaining medical attention and treatment - not malingering, conversion disorder, somatisation disorder or hypochondriasis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 44
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Dissociative, somatoform and factitious questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Fugue is recognised as a type of dissociative amnesia (loss of personal identity and sudden travel away for days or weeks; a new identity may be assumed).",
+              "text": "LA **BELLE** **INDIFFERENCE**: surprising lack of concern for, or denial of, apparently severe functional disability (e.g. loss of function of one arm in suspected multiple sclerosis); part of classical descriptions of hysteria and still linked to conversion.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+                "page": 56,
+                "questionNumber": 109
+              }
+            },
+            {
+              "text": "**FUGUE** **STATE** is a type of dissociative amnesia (dissociative amnesia with dissociative fugue: loss of personal identity and sudden travel away from home or work for days or weeks; a new identity may be assumed).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 24,
@@ -5085,15 +5423,7 @@
               }
             },
             {
-              "text": "Loss of personal identity is the memory feature of dissociative disorders not seen in organic amnesia; dissociative memory loss is patchy and selective, for recent events, with procedural memory retained.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 43,
-                "questionNumber": 85
-              }
-            },
-            {
-              "text": "Leg weakness after witnessing a colleague's death with no consistent neurological signs = conversion disorder (not somatoform, somatisation, malingering or **PTSD**).",
+              "text": "Weakness of both legs with inability to balance after witnessing a colleague's death = **CONVERSION** (dissociative) disorder: loss or disturbance of motor, sensory or cognitive function that appears neurological but is attributed to a psychological cause.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 32,
@@ -5101,31 +5431,7 @@
               }
             },
             {
-              "text": "Sudden bilateral blindness with patchy tunnel vision and lack of concern = la belle indifference, which also occurs in medical illness (e.g. after stroke) and is rare and non-specific.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 37,
-                "questionNumber": 71
-              }
-            },
-            {
-              "text": "Preoccupation with a feared serious disease despite negative cardiac investigations, spending hours reading = hypochondriasis (not somatisation or conversion).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 5,
-                "questionNumber": 10
-              }
-            },
-            {
-              "text": "A man presenting a seventh time with abdominal pain who admits faking symptoms = factitious disorder (intentional falsification with the primary aim of obtaining medical attention).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 23,
-                "questionNumber": 44
-              }
-            },
-            {
-              "text": "A former nurse admitting she injected faeces into her blood to produce septic cultures = Munchausen syndrome (factitious disorder).",
+              "text": "Injecting faeces to produce a septic blood culture 'for no apparent reason' = **MUNCHAUSEN** syndrome (factitious disorder).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 42,
@@ -5133,11 +5439,35 @@
               }
             },
             {
-              "text": "Chronic fatigue syndrome / **ME** needs unexplained fatigue lasting at least 6 months that is **NOT** alleviated by rest (**CDC** 1994); 'fatigue alleviated by prolonged rest' is the exception.",
+              "text": "Myalgic encephalomyelitis/**CFS**: persistent or relapsing unexplained fatigue lasting at least 6 months that is **NOT** alleviated by rest - 'fatigue alleviated by prolonged rest' is the **EXCEPT** option.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 23,
                 "questionNumber": 45
+              }
+            },
+            {
+              "text": "**ASTASIA-ABASIA** is described in **ICD-10** under dissociative (motor) disorders.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 3,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "Pain on one side of the body for 4 years with no pathological evidence = **PERSISTENT** **SOMATOFORM** **PAIN** **DISORDER** (unexplained, usually isolated pain symptom of the musculoskeletal system).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
+                "page": 11,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "Eyes 'set wide apart', hours in front of the mirror and surgery sought for trivial or non-existent abnormality = **BODY** **DYSMORPHIC** **DISORDER** (overvalued idea).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 5,
+                "questionNumber": 12
               }
             }
           ]
@@ -5170,6 +5500,46 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
             "page": 6,
             "questionNumber": 11
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Windigo (Witiko psychosis)",
+          "note": "Culture-bound syndromes are not covered in the notes. **Q36** asks which culture-bound syndrome refers to fear of turning into a cannibal: Windigo (Witiko psychosis) is the delusion of transforming into a cannibalistic monster and craving human flesh under the threat of starvation in severely cold weather.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Amok and Susto (culture-bound syndromes)",
+          "note": "Not in the notes. An **EMI** explanation describes Amok as a dissociative episode of depression followed by an outburst of violent, aggressive or homicidal behaviour (perceived insult, persecutory ideas, automatism, amnesia, exhaustion; males; originated in Malaysia) and Susto as a syndrome of Peru/Latin America in which a frightening experience is believed to have made the soul depart the body (agitation, anorexia, sleep disturbance, nightmares, depressed mood, somatic complaints).",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 33,
+            "questionNumber": 44
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Brain fag, Koro and Pa-leng (culture-bound syndromes)",
+          "note": "Not described in the notes beyond Koro being listed among culture-bound syndromes. An **EMI** explanation: Brain fag (West African students) = distress from 'thinking too much', reduced concentration, poor memory, blurred vision, head/neck pain; Koro = fear or delusion that the genitals are retracting into the abdomen with death to follow (young single males in Asia and the Middle East); Pa-leng = pathological fear of cold and wind in China and southeast Asia.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 32,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "ICD-11 dissociative neurological symptom disorder with paresis",
+          "note": "The notes do not cover **ICD-11** dissociative neurological symptom disorder. **Q137** (paralysis of the left arm after a motorcycle accident in which a passenger died) is keyed to it: difficulty or inability to intentionally move parts of the body that is not consistent with a recognised disease of the nervous system; usually in close relationship to psychological stress, with sudden onset and termination; commonest varieties are loss of ability to move all or part of a limb.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 70,
+            "questionNumber": 137
           }
         }
       ],
@@ -5230,6 +5600,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 38
             }
+          },
+          {
+            "text": "Sudden aphonia with normal examination = dissociative motor disorder (ICD-10).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 1,
+              "questionNumber": 4
+            }
+          },
+          {
+            "text": "A stereotyped pattern of motor symptoms is NOT more typical of non-epileptic seizures.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+              "page": 4,
+              "questionNumber": 10
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -5239,12 +5625,14 @@
           5,
           6,
           7,
-          14,
-          19,
-          20,
-          21,
-          22,
-          23
+          8,
+          9,
+          18,
+          23,
+          24,
+          25,
+          26,
+          28
         ]
       }
     },
@@ -5294,7 +5682,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 39
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -5364,7 +5753,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 40
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Atypical anorexia nervosa = absence of one or more core symptoms (**BMI** criterion, body-image criterion or amenorrhoea), so **NORMAL** **MENSTRUATION** is the feature of atypical anorexia; depressed mood, binge eating, purging and restricting are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 3,
+            "questionNumber": 11
+          }
         },
         {
           "type": "table",
@@ -5469,36 +5869,6 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Eating disorder questions seen in the bank",
-          "items": [
-            {
-              "text": "Anorexia: monozygotic:dizygotic concordance ==65%==:==32%==; no excess of childhood physical or sexual abuse compared with psychiatric controls; body-image distortion (dread of fatness, overvalued ideas, imposed low weight threshold) is characteristic.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 4
-              }
-            },
-            {
-              "text": "Anorexia has the highest mortality of all mental disorders; no association with social class or ethnicity (more prevalent in some Western societies promoting thinness).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 15
-              }
-            },
-            {
-              "text": "Avoiding knowing the calorie content of food is **NOT** indicative of preoccupation with weight/shape; constantly monitoring calories, checking mirrors, refusing mirrors, avoiding tight clothes and refusing to know one's weight are.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 8,
-                "questionNumber": 16
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "ICD-11 anorexia nervosa specifiers not in the notes",
           "note": "**Q114**: **ICD-11** 'significantly low body weight' = **BMI** between 18.5 and 14 for adults; 'dangerously low' = **BMI** under 14; 'restricting pattern' = weight loss by restricting food intake or fasting, alone or with increased energy expenditure (e.g. excessive exercise), without binge eating or purging. Notes give **ICD-10** **BMI** 17.5 or less.",
@@ -5506,6 +5876,16 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
             "page": 58,
             "questionNumber": 114
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Anorexia nervosa: mortality and social class",
+          "note": "Not in the notes. **Q15**: anorexia nervosa has the highest rate of mortality among all mental disorders; it is found globally but considered more prevalent in some Western societies, yet there is no evidence that ethnicity or socioeconomic status makes it more likely - so 'no association with social class' is keyed. Genetic concordance **MZ**:**DZ** = ==65%==:==32%==.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 15
           }
         }
       ],
@@ -5559,6 +5939,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 39
             }
+          },
+          {
+            "text": "Atypical anorexia: absence of one or more core features, so normal menstruation fits.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 3,
+              "questionNumber": 11
+            }
           }
         ],
         "facts": [
@@ -5609,7 +5997,7 @@
           4,
           5,
           6,
-          10,
+          7,
           11
         ]
       }
@@ -5660,7 +6048,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 41
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -5679,12 +6068,44 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Kleine-Levin syndrome = periodic episodes of hypersomnolence and hyperphagia, with lack of concentration, mood changes, sometimes hypersexuality and anxiety - **DROP** **ATTACKS** are the option that is **NOT** part of it.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 8
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Narcolepsy: excessive daytime drowsiness with sudden onset of **REM** sleep (sleep attacks) and sudden loss of muscle tone provoked by strong emotions (cataplexy). Sleep paralysis (inability to move between wakefulness and sleep) and hypnagogic hallucinations (usually auditory, may be visual or tactile; about ==25%== of patients) also occur but less commonly. Attacks usually begin in adolescence and persist for life. Virtually always familial; ==99.5%== of patients have **HLA** antigen **DR-2** (**DR15**/**DQ6**); usually no structural brain lesion.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 41
           }
+        },
+        {
+          "type": "trap",
+          "text": "Excessive daytime sleepiness with auditory hallucinations on waking and episodes of feeling 'pinned down' after waking = **NARCOLEPSY**: hypnopompic hallucinations and sleep paralysis are its characteristic symptoms, so schizophrenia, **REM** behavioural disorder, sleep terror and primary hypersomnia are the wrong options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 3,
+            "questionNumber": 10
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Classic symptoms of narcolepsy",
+          "mnemonic": "Every Cat Sleeps Happily",
+          "expansion": [
+            "Excessive daytime sleepiness",
+            "Cataplexy",
+            "Sleep paralysis",
+            "Hypnagogic/hypnopompic hallucinations"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -5720,7 +6141,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 42
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -5812,28 +6234,6 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Sleep questions seen in the bank",
-          "items": [
-            {
-              "text": "Narcolepsy: excessive daytime sleepiness, cataplexy (sudden muscle tone loss triggered by strong, mainly positive emotion such as laughing), sleep paralysis (up to 10 minutes) and hypnagogic/hypnopompic hallucinations; sleep paralysis is the keyed characteristic feature (not catalepsy, sleepwalking, apnoea).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 12
-              }
-            },
-            {
-              "text": "A young woman falling asleep in the day with undisturbed night sleep and a fall while laughing = narcolepsy.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 39,
-                "questionNumber": 76
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "ICD-11 postpartum psychosis term not in the notes",
           "note": "**Q18**: **ICD-11** 'mental disorder associated with the puerperium, with psychotic symptoms' applies to significant disorders commencing within about 6 weeks of delivery with delusions, hallucinations or other psychotic symptoms, not to postpartum blues; postpartum psychosis presents as affective psychosis, schizophreniform disorder or acute organic psychosis.",
@@ -5841,6 +6241,36 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
             "page": 9,
             "questionNumber": 18
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "REM sleep behaviour disorder",
+          "note": "Not in the notes. A mock explanation: in **RBD** there is no loss of muscle tone and dreams are acted out as complex behaviours, in the middle to latter third of the night; it is associated with Parkinson's disease, diffuse Lewy body disease, multiple system atrophy and Guillain-Barre syndrome and may be a prodrome of neurodegenerative disease; **clonazepam** (not **carbamazepine**) has been shown to be effective.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 1,
+            "questionNumber": 3
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Restless legs syndrome",
+          "note": "Not in the notes. A mock explanation: restless legs syndrome = tingling, burning, itching (paraesthesia) or cramping of the calf muscles, often relieved by moving or rubbing the legs; keyed over akathisia, periodic limb movement disorder and dyskinesia for poor sleep due to paraesthesia in the legs.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 11,
+            "questionNumber": 45
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Other sleep disorders: rhythmic movement, non-24-hour, hypnic jerks",
+          "note": "An **EMI** explanation: sleep-related rhythmic movement disorder = stereotyped repetitive movements of large muscles (usually head and neck) just before sleep, sustained into light sleep; non-24-hour sleep-wake disorder = a >24-hour sleep-wake period with 1-2 hour daily delays (common in totally blind individuals); hypnic jerks (sleep starts) = sudden abrupt muscle contractions, usually legs, at sleep onset.",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 4,
+            "questionNumber": 5
           }
         }
       ],
@@ -5901,6 +6331,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 43
             }
+          },
+          {
+            "text": "Kleine-Levin syndrome = periodic hypersomnolence and hyperphagia; drop attacks are not part of it.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+              "page": 3,
+              "questionNumber": 8
+            }
+          },
+          {
+            "text": "Daytime sleepiness + hypnopompic hallucinations + sleep paralysis = narcolepsy.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+              "page": 3,
+              "questionNumber": 10
+            }
           }
         ],
         "facts": [
@@ -5947,11 +6393,13 @@
         ],
         "highlightBlockIndices": [
           1,
-          5,
+          4,
+          6,
           7,
           8,
-          9,
-          10
+          10,
+          11,
+          12
         ]
       }
     },
@@ -6055,7 +6503,19 @@
           "category": {
             "label": "Cluster A: odd, eccentric",
             "color": "gray"
-          }
+          },
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Cluster A (odd, eccentric) personality disorders",
+          "mnemonic": "PSS: 'Pssst - odd one out'",
+          "expansion": [
+            "Paranoid",
+            "Schizoid",
+            "Schizotypal"
+          ],
+          "sourced": false
         },
         {
           "type": "table",
@@ -6091,6 +6551,49 @@
           "category": {
             "label": "Cluster B: dramatic, erratic",
             "color": "orange"
+          },
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Cluster B (dramatic, erratic) personality disorders",
+          "mnemonic": "A Bad Hair Night",
+          "expansion": [
+            "Antisocial",
+            "Borderline",
+            "Histrionic",
+            "Narcissistic"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "In borderline **PD** the core affective features (chronic dysphoria, anger, feelings of emptiness) and the interpersonal fear of abandonment persist throughout adulthood - it is **IMPULSIVITY**, self-injury and suicidal behaviour that decrease during adulthood.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 52
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**BORDERLINE** (and schizotypal) personality disorder carries significantly more occupational impairment than obsessive-compulsive **PD** (Skodol 2002), so borderline is the keyed most vocationally disabling personality disorder over schizoid, antisocial, paranoid or obsessive-compulsive.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 66,
+            "questionNumber": 130
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Narcissistic **PD** is **NOT** in **ICD-10** or **ICD-11** - it is a **DSM-5** Cluster B disorder, rarely diagnosed outside North America - so 'included in both **ICD-10** and **ICD-11**' and 'a common diagnosis in Europe' are wrong. Egocentricity alone is not diagnostic because it occurs in many personality disorders; the true statement is the preoccupation with fantasies of success, power and brilliance.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 52,
+            "questionNumber": 103
           }
         },
         {
@@ -6123,6 +6626,28 @@
           "category": {
             "label": "Cluster C: anxious, inhibited",
             "color": "blue"
+          },
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Cluster C (anxious, inhibited) personality disorders",
+          "mnemonic": "ADO: 'much ADO about being anxious'",
+          "expansion": [
+            "Avoidant",
+            "Dependent",
+            "Obsessive-compulsive"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**EMI** matching of personality-disorder traits: excessively emotional with temperamental instability = borderline; increased self-referential tendency = paranoid; excessive sense of entitlement = narcissistic; chronic feelings of emptiness = borderline (the same disorder is the answer twice).",
+          "format": "EMI",
+          "source": {
+            "file": "paper-a/High yields/EMIS all chapters/EMIs Classification.pdf",
+            "page": 30,
+            "questionNumber": 40
           }
         },
         {
@@ -6179,14 +6704,25 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 47
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "**SADISTIC** personality disorder is the one **NOT** included in both **ICD-10** and **DSM-5**: it is described only in the **DSM** research manual (a pervasive pattern of cruel, demeaning and aggressive behaviour beginning by early adulthood), not in **DSM**'s clinical manual or in **ICD**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 11,
+            "questionNumber": 47
+          }
         },
         {
           "type": "trap-list",
-          "title": "Personality disorder questions seen in the bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Schizotypal personality disorder is the Cluster A option; **DSM-5** clusters: A paranoid, schizoid, schizotypal; B antisocial, histrionic, narcissistic, borderline; C avoidant, dependent, obsessive-compulsive.",
+              "text": "Cluster A (odd/eccentric) = paranoid, schizoid, schizotypal; Cluster B (emotional/dramatic) = antisocial, histrionic, narcissistic, borderline - **SCHIZOTYPAL** is the Cluster A answer.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 13,
@@ -6194,23 +6730,7 @@
               }
             },
             {
-              "text": "Rigid, unable to delegate, hoards old newspapers = obsessive-compulsive personality disorder (reluctance to delegate, perfectionism, hoarding, inability to discard, preoccupation with rules, rigidity).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 29
-              }
-            },
-            {
-              "text": "Fear of being judged negatively, preoccupation with criticism/rejection = avoidant personality disorder.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 18,
-                "questionNumber": 35
-              }
-            },
-            {
-              "text": "Flamboyant, dramatic, attention-drawing = histrionic; likely feature: considering relationships more intimate than they are (also shallow shifting emotions, suggestibility, sexual provocativeness).",
+              "text": "Flamboyant, dramatic behaviour drawing attention to oneself = **HISTRIONIC** **PD** (considers relationships more intimate than they are; uses appearance to draw attention).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 32,
@@ -6218,7 +6738,7 @@
               }
             },
             {
-              "text": "Tearful when husband travels, feels unable to function without him = dependent personality disorder.",
+              "text": "Tearful when her husband travels because she thinks she cannot function without him = **DEPENDENT** **PD** (needs others to assume responsibility, lacks self-confidence).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 44,
@@ -6226,15 +6746,7 @@
               }
             },
             {
-              "text": "Narcissistic **PD** is not in **ICD-10** or **ICD-11** but is in **DSM-5** Cluster B; grandiose self-importance, fantasies of success, power and brilliance; narcissists believe others admire them (antisocial: malevolent feeling towards others).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 52,
-                "questionNumber": 103
-              }
-            },
-            {
-              "text": "Borderline: chronic feelings of emptiness is a common feature (with unstable self-image and relationships, impulsivity, self-harm, micro-psychosis, fear of abandonment, inappropriate anger).",
+              "text": "**CHRONIC** **FEELINGS** **OF** **EMPTINESS** are commonly seen in borderline **PD**, with unstable self-image and relationships, impulsivity, self-harm and frantic efforts to avoid abandonment.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 65,
@@ -6242,7 +6754,7 @@
               }
             },
             {
-              "text": "High rates of physical, sexual and emotional abuse are reported in borderline **PD** (sexual abuse keyed as the risk factor).",
+              "text": "High rates of physical, sexual and emotional abuse are reported in borderline **PD** - **SEXUAL** **ABUSE** is the keyed risk factor.",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 63,
@@ -6250,35 +6762,27 @@
               }
             },
             {
-              "text": "Borderline (like schizotypal) **PD** is more occupationally impairing than obsessive-compulsive **PD** - 'most vocationally disabling' (Skodol 2002).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 66,
-                "questionNumber": 130
-              }
-            },
-            {
-              "text": "Borderline course: affective and interpersonal (abandonment) symptoms persist, while impulsivity, self-injury and suicidal behaviour decrease over adulthood (impulsivity keyed as what improves with time).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 27,
-                "questionNumber": 52
-              }
-            },
-            {
-              "text": "Self-harm is the borderline trait most likely to decrease at least partially over 2 years; the **CLPS** (Gundersen et al.) reported self-harm improving over more than 2 years.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 56,
-                "questionNumber": 110
-              }
-            },
-            {
-              "text": "Paranoid **PD**: suspicion of exploitation, hidden demeaning meanings, grudges, distrust, recurrent infidelity suspicions, increased sensitivity to criticism.",
+              "text": "**INCREASED** **SENSITIVITY** to criticism and setbacks is the paranoid **PD** trait (combative, highly suspicious, great difficulty handling even minor criticism).",
               "source": {
                 "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
                 "page": 69,
                 "questionNumber": 135
+              }
+            },
+            {
+              "text": "Unstable affect and impulsive behaviour = Cluster B (antisocial, borderline, narcissistic, histrionic: dramatic, emotional or erratic).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+                "page": 5,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "**SCHIZOID** **PD**: pleasure in few activities, indifference to social norms and conventions, preoccupation with fantasy and introspection.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+                "page": 5,
+                "questionNumber": 13
               }
             }
           ]
@@ -6337,6 +6841,22 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 47
             }
+          },
+          {
+            "text": "Borderline PD: impulsivity, self-injury and suicidal behaviour decrease with age; affective and abandonment features persist.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 27,
+              "questionNumber": 52
+            }
+          },
+          {
+            "text": "Borderline (and schizotypal) PD are more vocationally disabling than obsessive-compulsive PD.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 66,
+              "questionNumber": 130
+            }
           }
         ],
         "highlightBlockIndices": [
@@ -6345,7 +6865,12 @@
           5,
           6,
           7,
-          8
+          8,
+          9,
+          11,
+          12,
+          14,
+          16
         ]
       }
     },
@@ -6405,7 +6930,18 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 48
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "A man who wants an operation to look like a woman has **TRANSSEXUALISM**: in transvestism cross-dressing is episodic and occurs **WITHOUT** a desire for surgery or other extreme measures, and fetishistic transvestites experience sexual arousal - so dual-role and fetishistic transvestism are the distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 1,
+            "questionNumber": 2
+          }
         },
         {
           "type": "paragraph",
@@ -6497,7 +7033,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 50
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "table",
@@ -6561,6 +7098,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 49
             }
+          },
+          {
+            "text": "Transsexualism seeks surgery; transvestism is episodic cross-dressing without a wish for surgery.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+              "page": 1,
+              "questionNumber": 2
+            }
           }
         ],
         "facts": [
@@ -6599,8 +7144,9 @@
         ],
         "highlightBlockIndices": [
           3,
-          8,
-          9
+          4,
+          9,
+          10
         ]
       }
     },
@@ -6651,7 +7197,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 51
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -6717,26 +7264,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Intellectual disability questions in the bank (answer key only; no explanation given)",
-          "items": [
-            {
-              "text": "A 35-year-old man with intellectual disability who works part-time cleaning, lives alone with family visits and has basic but comprehensible language: keyed answer Mild.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 42
-              }
-            },
-            {
-              "text": "A 42-year-old man in sheltered accommodation who cannot read or write, speaks in restricted phrases, needs supervision for daily activities, cannot be trained easily and has finances managed: keyed answer Severe.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 36,
-                "questionNumber": 70
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Conduct disorder commonest in mild learning disability",
+          "note": "A mock explanation: disruptive and conduct-disorder behaviours are more common in the mildly disabled group (about 85 percent of persons with learning disability); **ADHD** is often prominent in children with **LD** (up to ==20%==); those with severe mental retardation have a particularly high rate of autistic and pervasive developmental disorders.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
         }
       ],
       "concise": {
@@ -6821,8 +7356,7 @@
         ],
         "highlightBlockIndices": [
           1,
-          4,
-          5
+          4
         ]
       }
     },
@@ -6885,6 +7419,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "Asperger syndrome: **IQ** and language are normal (in some cases superior), so 'poor speech development till age 3' is the option **NOT** consistent with it; restricted interests, clumsy motor coordination, abnormal reciprocal social interaction and stereotyped motor activities are consistent (mild motor clumsiness and a family history of autism may be present).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 48,
+            "questionNumber": 95
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Persistent gaze avoidance is not a diagnostic criterion but is strongly suggestive of a pervasive developmental disorder such as autism or Asperger's.",
           "source": {
@@ -6914,7 +7458,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 53
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -6946,77 +7491,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 53
             }
-          ]
-        },
-        {
-          "type": "trap-list",
-          "title": "Neurodevelopmental questions seen in the bank",
-          "items": [
-            {
-              "text": "**ADHD** is **NOT** an autism spectrum disorder in **DSM-5**; Autistic Disorder, Asperger's, **PDD-NOS** and childhood disintegrative disorder were replaced by **ASD**, with social communication impairment and restricted/repetitive behaviours.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 15,
-                "questionNumber": 30
-              }
-            },
-            {
-              "text": "Social difficulty and poor non-verbal skills with normal speech and language in a 5-year-old = autism spectrum disorder (full range of intellectual and language abilities along the spectrum).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 49
-              }
-            },
-            {
-              "text": "Asperger's: severe persistent reciprocal social impairment, repetitive behaviours, restricted interests; **IQ** and language normal or superior, mild motor clumsiness, family history of autism; 'mind blindness'. 'Impaired intellectual ability and syntactical speech' is the keyed exception.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 26,
-                "questionNumber": 50
-              }
-            },
-            {
-              "text": "Asperger's: poor speech development until age 3 is the inconsistent feature.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 48,
-                "questionNumber": 95
-              }
-            },
-            {
-              "text": "Asperger's is the disorder characterised by normal language development.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 38,
-                "questionNumber": 75
-              }
-            },
-            {
-              "text": "**ASD** is typically evident in the second year of life (<2 years; severe cases may show it in the first year; milder cases may not be identified for years).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 29,
-                "questionNumber": 57
-              }
-            },
-            {
-              "text": "Rett syndrome: progressive loss of acquired abilities; almost exclusively females; dominant X-linked gene believed; hand-wringing, ataxia, irregular respiration, scoliosis, seizures, sleep disturbance.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 66,
-                "questionNumber": 131
-              }
-            },
-            {
-              "text": "Autistic features: few sustained relationships, monotonous or odd voice, stilted/pedantic language, impassive appearance, few gestures, abnormal gaze, focus on rules - monotonous voice and no eye contact support **ASD**.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 74,
-                "questionNumber": 145
-              }
-            }
-          ]
+          ],
+          "highYield": true
         }
       ],
       "concise": {
@@ -7069,6 +7545,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 53
             }
+          },
+          {
+            "text": "Asperger syndrome: normal IQ and language, so poor speech development to age 3 is inconsistent.",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 48,
+              "questionNumber": 95
+            }
           }
         ],
         "facts": [
@@ -7107,8 +7591,8 @@
         ],
         "highlightBlockIndices": [
           3,
-          5,
-          7,
+          4,
+          6,
           8
         ]
       }
@@ -7174,6 +7658,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**DSM-5** **ADHD**: core symptoms must have onset **BEFORE** 12 years of age (**DSM-IV**: some symptoms before age 7); **DSM-5** also requires several symptoms in more than one setting and only 5 symptoms (not the usual 6) for individuals aged 17 or older.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 43
+          }
+        },
+        {
           "type": "table",
           "title": "DSM-5 and ADHD",
           "columns": [
@@ -7198,7 +7692,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 57
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -7286,50 +7781,14 @@
           ]
         },
         {
-          "type": "trap-list",
-          "title": "Childhood-onset questions seen in the bank",
-          "items": [
-            {
-              "text": "**DSM-5** **ADHD** onset: before 12 years (**DSM-IV**: before 7); several symptoms in more than one setting; 5 symptoms suffice for those aged 17 or older (6 in children).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 22,
-                "questionNumber": 43
-              }
-            },
-            {
-              "text": "Core **ADHD** features are inattention, hyperactivity and impulsiveness; language dysfunction is **NOT** a core feature.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 31,
-                "questionNumber": 61
-              }
-            },
-            {
-              "text": "Most common comorbidity in **ADHD** (of options): oppositional defiant disorder (30-==50%==); others include specific learning disorders (==70%==), **ASD** (==59%==), tic disorders (==55%==), depression (12-==50%==), anxiety disorders (15-==35%==), conduct disorder (3.5-==10%==).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 55,
-                "questionNumber": 107
-              }
-            },
-            {
-              "text": "A 12-year-old repeatedly skipping school and using drugs with friends = conduct disorder (antisocial, aggressive pattern that defies age-appropriate norms; truancy, running away, theft, fire setting).",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 13,
-                "questionNumber": 26
-              }
-            },
-            {
-              "text": "Selective mutism: most children also have social anxiety disorder (social anxiety almost always present); begins after normal speech acquired; may whisper at school.",
-              "source": {
-                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
-                "page": 10,
-                "questionNumber": 19
-              }
-            }
-          ]
+          "type": "gap",
+          "subtopic": "Tics and obsessions",
+          "note": "A mock explanation: obsessions commonly accompany tics, especially in children, particularly if the diagnosis is Tourette's syndrome - so presence of obsessions must be explored in the mental state examination of a child with multiple tics.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 36
+          }
         }
       ],
       "concise": {
@@ -7389,6 +7848,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
               "page": 57
             }
+          },
+          {
+            "text": "DSM-5 ADHD: onset before age 12 (DSM-IV: before 7).",
+            "source": {
+              "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+              "page": 22,
+              "questionNumber": 43
+            }
           }
         ],
         "facts": [
@@ -7436,7 +7903,7 @@
         "highlightBlockIndices": [
           0,
           3,
-          7,
+          4,
           8,
           9
         ]
@@ -7495,6 +7962,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 4
           }
+        },
+        {
+          "label": "Explicit inclusion/exclusion criteria with number and duration of symptoms = the operationalised approach.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 67,
+            "questionNumber": 132
+          }
+        },
+        {
+          "label": "ICD and DSM are both atheoretical; most diagnoses rest on a few core symptoms plus ancillary ones.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 6,
+            "questionNumber": 15
+          }
         }
       ]
     },
@@ -7549,6 +8032,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 6
           }
+        },
+        {
+          "label": "DSM-IV Axis 4 = psychosocial and environmental problems; DSM-5 abolished the multiaxial system.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 10,
+            "questionNumber": 40
+          }
         }
       ]
     },
@@ -7595,6 +8086,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 7
+          }
+        },
+        {
+          "label": "Wernicke's triad: confusion, ataxia, ophthalmoplegia/nystagmus (thiamine deficiency); hyperthermia is not a feature.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 44,
+            "questionNumber": 86
+          }
+        },
+        {
+          "label": "Kinaesthetic hallucinations/passivity after a first cannabis use = acute cannabis effect.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 31,
+            "questionNumber": 60
           }
         }
       ]
@@ -7649,6 +8156,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 11
+          }
+        },
+        {
+          "label": "Altered (fluctuating) consciousness is the best test to tell delirium from dementia.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 28,
+            "questionNumber": 55
+          }
+        },
+        {
+          "label": "Fluctuating consciousness + visual hallucinations + difficulty turning in bed (axial rigidity) = Lewy body dementia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 2,
+            "questionNumber": 7
           }
         }
       ]
@@ -7711,6 +8234,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 16
           }
+        },
+        {
+          "label": "Social withdrawal after persecutory delusions = a secondary (treatable) negative symptom.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 71,
+            "questionNumber": 138
+          }
+        },
+        {
+          "label": "First-rank symptoms: 58% of acute schizophrenia, but about 10-20% of non-schizophrenic psychoses.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 33
+          }
         }
       ]
     },
@@ -7765,6 +8304,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 18
           }
+        },
+        {
+          "label": "Schizotypal disorder is not an ICD-10 personality disorder; it is classified with F20 (schizophrenia).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 2,
+            "questionNumber": 3
+          }
+        },
+        {
+          "label": "Delusional disorder: circumscribed non-bizarre delusions; bizarre delusions are least likely.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
         }
       ]
     },
@@ -7818,6 +8373,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 23
+          }
+        },
+        {
+          "label": "ICD-10: psychotic features make a depressive episode severe regardless of the symptom count.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 9,
+            "questionNumber": 37
+          }
+        },
+        {
+          "label": "DSM-5 mania lists reduced need for sleep, not insomnia/hypersomnia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 6,
+            "questionNumber": 14
           }
         }
       ]
@@ -7927,6 +8498,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 28
           }
+        },
+        {
+          "label": "Social phobia vs agoraphobia: both may be house-bound, but social phobia's underlying fear is embarrassing oneself while watched.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 1.pdf",
+            "page": 4,
+            "questionNumber": 10
+          }
+        },
+        {
+          "label": "A phobia requires avoidance of the feared situation; no avoidance = no specific phobia.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 17,
+            "questionNumber": 34
+          }
         }
       ]
     },
@@ -7987,6 +8574,22 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 33
+          }
+        },
+        {
+          "label": "Acute stress disorder = PTSD-like symptoms lasting no more than 4 weeks.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 73,
+            "questionNumber": 143
+          }
+        },
+        {
+          "label": "Adjustment disorder vs MDD: same symptoms, but adjustment resolves within 6 months of the stressor ending.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
+            "page": 11,
+            "questionNumber": 44
           }
         }
       ]
@@ -8049,6 +8652,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 38
           }
+        },
+        {
+          "label": "Sudden aphonia with normal examination = dissociative motor disorder (ICD-10).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 1,
+            "questionNumber": 4
+          }
+        },
+        {
+          "label": "A stereotyped pattern of motor symptoms is NOT more typical of non-epileptic seizures.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
+            "page": 4,
+            "questionNumber": 10
+          }
         }
       ]
     },
@@ -8102,6 +8721,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 39
+          }
+        },
+        {
+          "label": "Atypical anorexia: absence of one or more core features, so normal menstruation fits.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 3,
+            "questionNumber": 11
           }
         }
       ]
@@ -8164,6 +8791,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 43
           }
+        },
+        {
+          "label": "Kleine-Levin syndrome = periodic hypersomnolence and hyperphagia; drop attacks are not part of it.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
+            "page": 3,
+            "questionNumber": 8
+          }
+        },
+        {
+          "label": "Daytime sleepiness + hypnopompic hallucinations + sleep paralysis = narcolepsy.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
+            "page": 3,
+            "questionNumber": 10
+          }
         }
       ]
     },
@@ -8211,6 +8854,22 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 47
           }
+        },
+        {
+          "label": "Borderline PD: impulsivity, self-injury and suicidal behaviour decrease with age; affective and abandonment features persist.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 27,
+            "questionNumber": 52
+          }
+        },
+        {
+          "label": "Borderline (and schizotypal) PD are more vocationally disabling than obsessive-compulsive PD.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 66,
+            "questionNumber": 130
+          }
         }
       ]
     },
@@ -8257,6 +8916,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 49
+          }
+        },
+        {
+          "label": "Transsexualism seeks surgery; transvestism is episodic cross-dressing without a wish for surgery.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
+            "page": 1,
+            "questionNumber": 2
           }
         }
       ]
@@ -8345,6 +9012,14 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 53
           }
+        },
+        {
+          "label": "Asperger syndrome: normal IQ and language, so poor speech development to age 3 is inconsistent.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 48,
+            "questionNumber": 95
+          }
         }
       ]
     },
@@ -8398,6 +9073,14 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLASSIFICATION.pdf",
             "page": 57
+          }
+        },
+        {
+          "label": "DSM-5 ADHD: onset before age 12 (DSM-IV: before 7).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Classification Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 43
           }
         }
       ]

@@ -470,6 +470,42 @@
               "page": 2
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Gelineau syndrome (narcolepsy) - features listed in the notes",
+          "mnemonic": "SCPH - Sleepy Cats Pounce Happily",
+          "expansion": [
+            "Sleepiness (daytime)",
+            "Cataplexy",
+            "Paralysis (sleep)",
+            "Hypnagogic hallucinations"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Gerstmann syndrome (dominant parietal lesions) - four features",
+          "mnemonic": "FARD",
+          "expansion": [
+            "Finger agnosia",
+            "Agraphia",
+            "Right-left disorientation",
+            "Dyscalculia"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Geschwind syndrome (interictal, chronic temporal lobe epilepsy) - four behaviours",
+          "mnemonic": "HHHV - Holy Hypo-Hypergraphic Viscous",
+          "expansion": [
+            "Hyposexuality",
+            "Hyperreligiosity",
+            "Hypergraphia",
+            "Viscosity"
+          ],
+          "sourced": false
         }
       ],
       "concise": {
@@ -532,7 +568,10 @@
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1,
+          2,
+          3
         ]
       }
     },
@@ -1051,6 +1090,17 @@
               "page": 5
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Wernicke encephalopathy (thiamin deficiency) - triad",
+          "mnemonic": "DAE - Dad's Ataxic Eyes",
+          "expansion": [
+            "Delirium",
+            "Ataxia",
+            "Eye movements (abnormal)"
+          ],
+          "sourced": false
         }
       ],
       "concise": {
@@ -1106,7 +1156,8 @@
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1
         ]
       }
     },
@@ -1816,6 +1867,17 @@
               "page": 3
             }
           ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Congenital mental retardation syndromes with a stated chromosome deletion",
+          "mnemonic": "PSW - Pass, Sir, Well",
+          "expansion": [
+            "Prader-Willi syndrome (chromosome 15 deletion)",
+            "Sanfilippo syndrome (chromosome 12 deletion)",
+            "Williams syndrome (chromosome 7 deletion)"
+          ],
+          "sourced": false
         }
       ],
       "concise": {
@@ -1878,7 +1940,638 @@
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "eponyms-by-feature",
+      "title": "12. Quick lookup: eponyms regrouped by feature",
+      "intro": "The notes list eponyms alphabetically; these tables regroup the same notes entries by the feature each description states (no new facts).",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Eponyms whose description involves dementia",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Binswanger disease",
+              "A type of multi-infarct dementia (a subtype of **DSM-IV** Vascular Dementia) in which infarcts selectively affect the white matter."
+            ],
+            [
+              "Creutzfeldt-Jakob disease",
+              "Rapidly progressive dementia caused by transmissible prions (proteinaceous infectious particles); distinctive for ataxia, myoclonus, **EEG** triphasic waves and diffuse spongiform appearance of the brain after death."
+            ],
+            [
+              "Fahr disease",
+              "Idiopathic calcification of basal ganglia causing dementia and abnormal extra movements, often comorbid with obsessive-compulsive and mood symptoms."
+            ],
+            [
+              "Gerstmann-Straussler-Scheinker disease",
+              "Transmissible prion disease causing dementia; affects only individuals with particular autosomal-dominant defects of a chromosome."
+            ],
+            [
+              "Hakim-Adams syndrome",
+              "Normal pressure hydrocephalus: **CSF** accumulates in the ventricles without a significant rise in intracranial pressure; often causes dementia, gait apraxia and incontinence; shunting reverses the dementia if identified in time."
+            ],
+            [
+              "Marchiafava-Bignami disease",
+              "Dementia due to callosal degeneration, associated with chronic alcohol (particularly wine) abuse."
+            ],
+            [
+              "Pick disease",
+              "Dementia with frontal and temporal atrophy, early personality change and Pick bodies found postmortem."
+            ],
+            [
+              "Steele-Richardson-Olszewski disease",
+              "Dementia with ataxia, loss of ability to look up or down, and parkinsonism."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Dementia eponyms in this list",
+          "mnemonic": "BCFGHMPS - Big Cats Find Grey Hares; Many Pounce Swiftly",
+          "expansion": [
+            "Binswanger disease",
+            "Creutzfeldt-Jakob disease",
+            "Fahr disease",
+            "Gerstmann-Straussler-Scheinker disease",
+            "Hakim-Adams syndrome",
+            "Marchiafava-Bignami disease",
+            "Pick disease",
+            "Steele-Richardson-Olszewski disease"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "table",
+          "title": "Delusions of identity, existence and love; thought insertion",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Capgras syndrome",
+              "Belief that strangers in disguise have replaced persons known to the patient."
+            ],
+            [
+              "Fregoli delusion",
+              "Belief that strangers are actually persons well known to the patient, in disguise."
+            ],
+            [
+              "Cotard syndrome",
+              "Patient's belief that he does not exist, that part of him (e.g. his organs) is not there, or that he is dead."
+            ],
+            [
+              "De Clerambault syndrome",
+              "Erotomania; more specifically a female patient's belief that a wealthier older man, whom she does not know, loves her."
+            ],
+            [
+              "Clerambault-Kandinsky syndrome",
+              "Any paranoid psychosis in which thought insertions predominate, regardless of etiology."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Eponyms whose description involves epilepsy",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Angelman syndrome",
+              "Congenital mental retardation and epilepsy; distinctive puppetlike movements, compulsive laughter, heritability."
+            ],
+            [
+              "Geschwind syndrome",
+              "Interictal behaviour of hyposexuality, hyperreligiosity, hypergraphia and 'viscosity' (not observing appropriate social boundaries in conversation), seen in some patients with chronic temporal lobe epilepsy."
+            ],
+            [
+              "Kozhevnikov syndrome",
+              "Continuous partial epilepsy leading to progressive cognitive deterioration."
+            ],
+            [
+              "Landau-Kleffner syndrome",
+              "Continuous partial simple epilepsy selectively causing loss of language development in children."
+            ],
+            [
+              "Rasmussen syndrome",
+              "Unilateral brain atrophy and continuous epilepsy resulting in cognitive decline until the affected portion of the brain is removed."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Eponyms linked to obsessive-compulsive symptoms",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Fahr disease",
+              "Idiopathic calcification of basal ganglia causing dementia and abnormal extra movements, often comorbid with obsessive-compulsive and mood symptoms."
+            ],
+            [
+              "Sydenham chorea",
+              "Movement disorder following rheumatic fever; often preceded by obsessive-compulsive symptoms (first described by Osler), characterized recently as '**PANDAS**' when they occur alone."
+            ],
+            [
+              "Tourette syndrome",
+              "Both motor and vocal tics (sometimes coprolalia); often comorbid with obsessive-compulsive symptoms."
+            ],
+            [
+              "Von Economo disease",
+              "Encephalitis lethargica: syndrome that afflicted many victims of a viral epidemic in the early 20th century; distinctive for parkinsonism, lethargy and obsessive-compulsive symptoms."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Eponyms linked to thiamin deficiency",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Korsakoff syndrome",
+              "Chronic amnesia with difficulty learning new information (anterograde amnesia), manifesting as confabulation; caused by thiamin deficiency; wholly or partially reversible in some cases."
+            ],
+            [
+              "Wernicke encephalopathy",
+              "Triad of delirium, ataxia and abnormal eye movements associated with thiamin deficiency, particularly in alcohol abusers."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Eponyms linked to antipsychotics, antipsychotic-like states or other drugs",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Brueghel syndrome",
+              "Trigeminal dystonia affecting the mouth, sometimes provoked by antipsychotics."
+            ],
+            [
+              "Meige syndrome",
+              "Dystonic blepharospasm: recurrent involuntary blinking caused by a hypodopaminergic state such as that induced by antipsychotics."
+            ],
+            [
+              "Hoigne syndrome",
+              "Acute psychosis due to intravenous injection of penicillin."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Catatonia, mania and fluctuating motor states",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Bell mania",
+              "Disorganized hyperactivity (as opposed to waxy flexibility and rigidity in lethal catatonia); can be fatal if untreated; rare, probably because of widespread antipsychotic use; the eponym is antiquated."
+            ],
+            [
+              "Kahlbaum syndrome",
+              "Catatonia; waxy posturing or purposeless agitation or speech, treated with benzodiazepines and **ECT**."
+            ],
+            [
+              "Gjessing syndrome",
+              "'Periodic catatonia'; a disorganized state of withdrawal or agitation that fluctuates on and off."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Developmental disorders of childhood",
+          "columns": [
+            "Eponym",
+            "Description (as given in the notes)"
+          ],
+          "rows": [
+            [
+              "Heller syndrome",
+              "Childhood Disintegrative Disorder; loss of milestones in multiple domains."
+            ],
+            [
+              "Kanner syndrome",
+              "Autism; developmental disorder with abnormal communication, impaired social interaction and repetitive behaviour, with symptoms before the age of 3 years."
+            ],
+            [
+              "Rett syndrome",
+              "Developmental disorder caused by an X-linked dominant mutation, found mostly in girls: acquired microcephaly, reversal of cognitive and social development, ataxia and hand-wringing (stereotypic hand movements and manual dyspraxia)."
+            ],
+            [
+              "Strauss syndrome",
+              "Attention-Deficit/Hyperactivity Disorder: inattention and/or hyperactivity, once known as 'minimal brain damage syndrome'."
+            ],
+            [
+              "Landau-Kleffner syndrome",
+              "Continuous partial simple epilepsy selectively causing loss of language development in children."
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 4
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Eponyms whose description involves dementia: Binswanger disease - A type of multi-infarct dementia (a subtype of DSM-IV Vascular Dementia) in which infarcts selectively affect the white matter.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Delusions of identity, existence and love; thought insertion: Capgras syndrome - Belief that strangers in disguise have replaced persons known to the patient.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Eponyms whose description involves epilepsy: Angelman syndrome - Congenital mental retardation and epilepsy; distinctive puppetlike movements, compulsive laughter, heritability.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Eponyms linked to obsessive-compulsive symptoms: Fahr disease - Idiopathic calcification of basal ganglia causing dementia and abnormal extra movements, often comorbid with obsessive-compulsive and mood symptoms.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Eponyms linked to thiamin deficiency: Korsakoff syndrome - Chronic amnesia with difficulty learning new information (anterograde amnesia), manifesting as confabulation; caused by thiamin deficiency; wholly or partially reversible in some cases.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Eponyms linked to antipsychotics, antipsychotic-like states or other drugs: Brueghel syndrome - Trigeminal dystonia affecting the mouth, sometimes provoked by antipsychotics.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Catatonia, mania and fluctuating motor states: Bell mania - Disorganized hyperactivity (as opposed to waxy flexibility and rigidity in lethal catatonia); can be fatal if untreated; rare, probably because of widespread antipsychotic use; the eponym is antiquated.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 1
+            }
+          },
+          {
+            "text": "Developmental disorders of childhood: Heller syndrome - Childhood Disintegrative Disorder; loss of milestones in multiple domains.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "id": "adverse-effects-by-drug",
+      "title": "13. Quick lookup: adverse effects regrouped by drug",
+      "intro": "Same entries as the chart in section 9, read by drug instead of by effect (no new facts).",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Adverse effects regrouped by drug (from the chart in section 9)",
+          "columns": [
+            "Drug / class",
+            "Adverse effects the chart lists for it"
+          ],
+          "rows": [
+            [
+              "**Lithium** (Li)",
+              "Weight gain; Renal damage; Hypothyroidism; Fine tremor (therapeutic dose); Coarse tremor (toxic **lithium**); Acne, psoriasis"
+            ],
+            [
+              "**Clozapine**",
+              "Seizures; P. ileus; Hypersalivation; Myocarditis / pulmonary embolism; **WBC** suppression (listed under the '-zapines'); Weight gain and **QT** prolongation (as one of all antipsychotics)"
+            ],
+            [
+              "**Valproate** (**VPA**)",
+              "Hepatic damage; Acute pancreatitis; Weight gain; Coarse tremor; **PCOD**; Thrombocytopenia"
+            ],
+            [
+              "**Carbamazepine** (**CBZ**)",
+              "Enzyme induction; Weight gain; **WBC** suppression (listed under the '-zapines'); Rashes, **SJS**"
+            ],
+            [
+              "SSRIs",
+              "**GI** bleed; Delayed ejaculation or anorgasmia; Sweating; Worsening of glaucoma (**paroxetine**)"
+            ],
+            [
+              "TCAs",
+              "Delirium (anticholinergic TCAs); Weight gain; Worsening of glaucoma; Arrhythmias (high-dose TCAs); High **BP**; Fine tremor; Erectile dysfunction; Sweating; Orthostatic hypotension"
+            ],
+            [
+              "All antipsychotics (as listed in the chart)",
+              "EPSEs (all neuroleptics); Weight gain (less for **APZ**, **ZPD**); **QT** prolongation (especially thioridazine, pimozide, droperidol); Erectile dysfunction; Orthostatic hypotension; Osteoporosis (hyperprolactinaemic antipsychotics)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Lithium adverse effects in the chart",
+          "mnemonic": "WRHFA - We Really Hate Fine Acne",
+          "expansion": [
+            "Weight gain",
+            "Renal damage",
+            "Hypothyroidism",
+            "Fine tremor",
+            "Acne, psoriasis"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Clozapine adverse effects in the chart",
+          "mnemonic": "SPHMW - Sad Pigs Hate Making Wallows",
+          "expansion": [
+            "Seizures",
+            "P. ileus",
+            "Hypersalivation",
+            "Myocarditis / pulmonary embolism",
+            "**WBC** suppression"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Valproate adverse effects in the chart",
+          "mnemonic": "HAWCPT - Happy Ants Walk, Carrying Pink Twigs",
+          "expansion": [
+            "Hepatic damage",
+            "Acute pancreatitis",
+            "Weight gain",
+            "Coarse tremor",
+            "**PCOD**",
+            "Thrombocytopenia"
+          ],
+          "sourced": false
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Lithium (Li): Weight gain; Renal damage; Hypothyroidism; Fine tremor (therapeutic dose); Coarse tremor (toxic lithium); Acne, psoriasis.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Clozapine: Seizures; P. ileus; Hypersalivation; Myocarditis / pulmonary embolism; WBC suppression (listed under the '-zapines'); Weight gain and QT prolongation (as one of all antipsychotics).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Valproate (VPA): Hepatic damage; Acute pancreatitis; Weight gain; Coarse tremor; PCOD; Thrombocytopenia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Carbamazepine (CBZ): Enzyme induction; Weight gain; WBC suppression (listed under the '-zapines'); Rashes, SJS.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "SSRIs: GI bleed; Delayed ejaculation or anorgasmia; Sweating; Worsening of glaucoma (paroxetine).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+              "page": 6
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          3
         ]
       }
     }
@@ -2397,6 +3090,266 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
             "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "label": "12. Quick lookup: eponyms regrouped by feature",
+      "children": [
+        {
+          "label": "Eponyms whose description involves dementia",
+          "children": [
+            {
+              "label": "Binswanger disease: A type of multi-infarct dementia (a subtype of DSM-IV Vascular Dementia) in which infarcts selectively affect the white matter.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Creutzfeldt-Jakob disease: Rapidly progressive dementia caused by transmissible prions (proteinaceous infectious particles); distinctive for ataxia, myoclonus, EEG triphasic waves and diffuse spongiform appearance of the brain after death.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            },
+            {
+              "label": "Fahr disease: Idiopathic calcification of basal ganglia causing dementia and abnormal extra movements, often comorbid with obsessive-compulsive and mood symptoms.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Delusions of identity, existence and love; thought insertion",
+          "children": [
+            {
+              "label": "Capgras syndrome: Belief that strangers in disguise have replaced persons known to the patient.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Fregoli delusion: Belief that strangers are actually persons well known to the patient, in disguise.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            },
+            {
+              "label": "Cotard syndrome: Patient's belief that he does not exist, that part of him (e.g. his organs) is not there, or that he is dead.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Eponyms whose description involves epilepsy",
+          "children": [
+            {
+              "label": "Angelman syndrome: Congenital mental retardation and epilepsy; distinctive puppetlike movements, compulsive laughter, heritability.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Geschwind syndrome: Interictal behaviour of hyposexuality, hyperreligiosity, hypergraphia and 'viscosity' (not observing appropriate social boundaries in conversation), seen in some patients with chronic temporal lobe epilepsy.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            },
+            {
+              "label": "Kozhevnikov syndrome: Continuous partial epilepsy leading to progressive cognitive deterioration.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Eponyms linked to obsessive-compulsive symptoms",
+          "children": [
+            {
+              "label": "Fahr disease: Idiopathic calcification of basal ganglia causing dementia and abnormal extra movements, often comorbid with obsessive-compulsive and mood symptoms.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            },
+            {
+              "label": "Sydenham chorea: Movement disorder following rheumatic fever; often preceded by obsessive-compulsive symptoms (first described by Osler), characterized recently as 'PANDAS' when they occur alone.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 4
+              }
+            },
+            {
+              "label": "Tourette syndrome: Both motor and vocal tics (sometimes coprolalia); often comorbid with obsessive-compulsive symptoms.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 4
+              }
+            }
+          ]
+        },
+        {
+          "label": "Eponyms linked to thiamin deficiency",
+          "children": [
+            {
+              "label": "Korsakoff syndrome: Chronic amnesia with difficulty learning new information (anterograde amnesia), manifesting as confabulation; caused by thiamin deficiency; wholly or partially reversible in some cases.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "Wernicke encephalopathy: Triad of delirium, ataxia and abnormal eye movements associated with thiamin deficiency, particularly in alcohol abusers.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 4
+              }
+            }
+          ]
+        },
+        {
+          "label": "Eponyms linked to antipsychotics, antipsychotic-like states or other drugs",
+          "children": [
+            {
+              "label": "Brueghel syndrome: Trigeminal dystonia affecting the mouth, sometimes provoked by antipsychotics.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Meige syndrome: Dystonic blepharospasm: recurrent involuntary blinking caused by a hypodopaminergic state such as that induced by antipsychotics.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "Hoigne syndrome: Acute psychosis due to intravenous injection of penicillin.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Catatonia, mania and fluctuating motor states",
+          "children": [
+            {
+              "label": "Bell mania: Disorganized hyperactivity (as opposed to waxy flexibility and rigidity in lethal catatonia); can be fatal if untreated; rare, probably because of widespread antipsychotic use; the eponym is antiquated.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 1
+              }
+            },
+            {
+              "label": "Kahlbaum syndrome: Catatonia; waxy posturing or purposeless agitation or speech, treated with benzodiazepines and ECT.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "Gjessing syndrome: 'Periodic catatonia'; a disorganized state of withdrawal or agitation that fluctuates on and off.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Developmental disorders of childhood",
+          "children": [
+            {
+              "label": "Heller syndrome: Childhood Disintegrative Disorder; loss of milestones in multiple domains.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 2
+              }
+            },
+            {
+              "label": "Kanner syndrome: Autism; developmental disorder with abnormal communication, impaired social interaction and repetitive behaviour, with symptoms before the age of 3 years.",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 3
+              }
+            },
+            {
+              "label": "Rett syndrome: Developmental disorder caused by an X-linked dominant mutation, found mostly in girls: acquired microcephaly, reversal of cognitive and social development, ataxia and hand-wringing (stereotypic hand movements and manual dyspraxia).",
+              "source": {
+                "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+                "page": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "13. Quick lookup: adverse effects regrouped by drug",
+      "children": [
+        {
+          "label": "Lithium (Li): Weight gain; Renal damage; Hypothyroidism; Fine tremor (therapeutic dose); Coarse tremor (toxic lithium); Acne, psoriasis.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Clozapine: Seizures; P. ileus; Hypersalivation; Myocarditis / pulmonary embolism; WBC suppression (listed under the '-zapines'); Weight gain and QT prolongation (as one of all antipsychotics).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Valproate (VPA): Hepatic damage; Acute pancreatitis; Weight gain; Coarse tremor; PCOD; Thrombocytopenia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Carbamazepine (CBZ): Enzyme induction; Weight gain; WBC suppression (listed under the '-zapines'); Rashes, SJS.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "SSRIs: GI bleed; Delayed ejaculation or anorgasmia; Sweating; Worsening of glaucoma (paroxetine).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "TCAs: Delirium (anticholinergic TCAs); Weight gain; Worsening of glaucoma; Arrhythmias (high-dose TCAs); High BP; Fine tremor; Erectile dysfunction; Sweating; Orthostatic hypotension.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "All antipsychotics (as listed in the chart): EPSEs (all neuroleptics); Weight gain (less for APZ, ZPD); QT prolongation (especially thioridazine, pimozide, droperidol); Erectile dysfunction; Orthostatic hypotension; Osteoporosis (hyperprolactinaemic antipsychotics).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
           }
         }
       ]

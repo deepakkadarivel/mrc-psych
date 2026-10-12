@@ -47,7 +47,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 2
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "trap",
@@ -78,6 +79,36 @@
             "page": 8,
             "questionNumber": 20
           }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "**Q25**: apolipoprotein e2 allele is the protective factor (options offered Down's syndrome, head injury, post menopausal estrogen decline and age instead); the explanation lists other possible protective factors as smoking, NSAIDs, oestrogen, premorbid intelligence and education.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 25
+              }
+            },
+            {
+              "text": "**Q20**: in mild cognitive impairment the biomarker that detects worsening is an **INCREASED** tau-to-amyloid ratio in **CSF** (early **AD**: reduced **CSF** beta-amyloid, increased **CSF** tau and phosphorylated tau).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 20
+              }
+            },
+            {
+              "text": "Medial temporal atrophy on structural **MRI** is the neuroimaging finding most suggestive of **AD** (grey matter atrophy of hippocampus, entorhinal cortex and amygdala); bilateral pulvinar signal was one of the distractors.",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+                "page": 16,
+                "questionNumber": 67
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -298,7 +329,21 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Disorders (besides AD) with neurofibrillary tangles",
+          "mnemonic": "Dogs Don't Pee Here Now",
+          "expansion": [
+            "Down syndrome",
+            "Dementia pugilistica (punch-drunk syndrome)",
+            "Parkinson-dementia complex of Guam",
+            "Hallervorden-Spatz disease",
+            "The normal elderly"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -334,7 +379,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 3
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -440,8 +486,10 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
-          6
+          2,
+          3,
+          5,
+          7
         ]
       }
     },
@@ -520,6 +568,16 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Hirano bodies in a mock-exam stem: Alzheimer's is keyed (not vascular, Lewy body type, Pick's or frontotemporal). The explanation describes them as intracellular eosinophilic rod-shaped structures in neurons, seen in Alzheimer's and some forms of **CJD**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 61
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Balloon cells with Hirano bodies",
           "note": "Notes do not mention balloon cells. **Q28** (keyed: Pick's disease) states both Hirano bodies and balloon cells are seen together in Pick's disease; Hirano bodies are fusiform or spheroidal eosinophilic bodies commonly seen in the hippocampi of the elderly and numerous in various dementias or degenerative diseases.",
@@ -530,9 +588,29 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**Q28**: when a stem asks for **BOTH** balloon cells and Hirano bodies, Pick's disease is keyed - not Alzheimer's, even though Hirano bodies alone point to **AD** (**Q24**). The explanation says Hirano bodies are numerous in various dementias or degenerative diseases and that both are seen together in Pick's.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 28
+          }
+        },
+        {
           "type": "gap",
           "subtopic": "Multi-infarct dementia and arteriosclerosis",
           "note": "Notes cover Binswanger's disease only. **Q6** (keyed: multi-infarct dementia) says arteriosclerotic changes in major arteries are most commonly found in multi-infarct dementia, where multiple cerebral infarcts lead to local or general brain atrophy and ventricular enlargement.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Q6**: arteriosclerotic changes in major arteries are most commonly found in multi-infarct dementia (not Lewy body dementia, Alzheimer's, Parkinson's disease dementia or normal pressure hydrocephalus); the explanation adds local or general brain atrophy and ventricular enlargement from multiple infarcts.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 3,
@@ -588,7 +666,9 @@
         ],
         "highlightBlockIndices": [
           4,
-          5
+          5,
+          6,
+          8
         ]
       }
     },
@@ -666,7 +746,8 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
         },
         {
           "type": "paragraph",
@@ -777,6 +858,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "A 5-year Parkinson's disease history with cognitive decline, visual hallucinations and alpha-synuclein deposits points to Lewy bodies (not Pick cells, tau proteins, Hirano bodies or Pick bodies). The explanation says Lewy bodies are confined to the substantia nigra in Parkinson's disease, and that Parkinson's disease and Lewy body dementia are classed as synucleinopathies.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 16,
+            "questionNumber": 66
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Cortical Lewy bodies are less conspicuous, less eosinophilic and lack a clear halo compared with those in the substantia nigra; they take up a homogeneous eosinophilic staining in the cytoplasm with peripheral displacement of the nucleus.",
           "source": {
@@ -842,7 +933,32 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 5
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Tauopathies (tau deposits)",
+          "mnemonic": "All Pickers Prefer Crisp Fruit",
+          "expansion": [
+            "Alzheimer's dementia",
+            "Pick's disease",
+            "Progressive supranuclear palsy",
+            "Corticobasal degenerations",
+            "Frontotemporal dementia with parkinsonism (**FTDP-17**)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Synucleopathies (alpha-synuclein deposits)",
+          "mnemonic": "PDM: Please Don't Mind",
+          "expansion": [
+            "Parkinson's",
+            "**DLB**",
+            "Multisystem atrophy"
+          ],
+          "sourced": false
         },
         {
           "type": "paragraph",
@@ -869,8 +985,18 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**Q30**: an elderly man with marked tremor, progressive cognitive decline and tau-**NEGATIVE** cells at autopsy is Lewy body dementia (not Alzheimer's dementia, frontal lobe degeneration, vascular dementia or **CJD**). The explanation says Lewy bodies rarely have tau deposits and are primarily alpha synuclein and ubiquitin.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 30
+          }
+        },
+        {
           "type": "trap-list",
-          "title": "Lewy body points from the question bank",
+          "title": "MCQ Traps — Remember These!",
           "items": [
             {
               "text": "**Q7**: alpha-synuclein is a major constituent of Lewy bodies (not neurofibrillary tangles, Pick's bodies, prion particles or neuritic plaques).",
@@ -881,7 +1007,7 @@
               }
             },
             {
-              "text": "**Q16**: Lewy bodies contain alpha-synuclein; the explanation adds ubiquitin, protein neurofilaments, granular material, dense core vesicles and microtubule assembly protein, and says Lewy body density is much higher in the cingulate gyrus, parahippocampal gyrus and temporal cortex in Lewy body dementia.",
+              "text": "**Q16**: Lewy bodies contain alpha-synuclein; the explanation adds ubiquitin, protein neurofilaments, granular material, dense core vesicles and microtubule assembly protein, and says density is much higher in the cingulate gyrus, parahippocampal gyrus and temporal cortex in Lewy body dementia.",
               "source": {
                 "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
                 "page": 7,
@@ -889,11 +1015,11 @@
               }
             },
             {
-              "text": "**Q30**: an elderly man with marked tremor and progressive cognitive decline whose autopsy shows tau-negative cells = Lewy body dementia; the explanation says Lewy bodies rarely have tau deposits and are primarily alpha-synuclein and ubiquitin.",
+              "text": "The body made of ubiquitin and alpha synuclein, associated with loss of dopaminergic neurons in the basal ganglia, is the Lewy body (not Hirano bodies, neurofibrillary tangles, Barr bodies or prion bodies).",
               "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 30
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 17,
+                "questionNumber": 62
               }
             }
           ]
@@ -902,6 +1028,16 @@
           "type": "gap",
           "subtopic": "Parkinson's disease macroscopic and histological changes",
           "note": "Not in the notes beyond Lewy body location. **Q26** (keyed: Parkinson's disease) says macroscopic changes include depigmentation of the substantia nigra (particularly the zona compacta) and locus coeruleus and diffuse cortical atrophy; histology includes reactive astrocytosis, neuronal loss and Lewy bodies in the substantia nigra, locus coeruleus, dorsal motor nucleus of the vagus, hypothalamus, nucleus basalis of Meynert, Edinger-Westphal nucleus and raphe nuclei.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Q26**: depigmentation of the substantia nigra = Parkinson's disease (not **CJD**, Huntington's, Dandy-Walker malformation or Alzheimer's). The explanation specifies the zona compacta, adds depigmentation of the locus coeruleus and diffuse cortical atrophy, and lists Lewy bodies in the substantia nigra, locus coeruleus, dorsal motor nucleus of the vagus, hypothalamus, nucleus basalis of Meynert, Edinger-Westphal nucleus and raphe nuclei.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 11,
@@ -982,8 +1118,11 @@
         ],
         "highlightBlockIndices": [
           1,
-          6,
-          10
+          2,
+          7,
+          8,
+          9,
+          13
         ]
       }
     },
@@ -1025,7 +1164,29 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Three pathological types of FTD",
+          "mnemonic": "Few Pick Mushrooms",
+          "expansion": [
+            "Frontal lobe degeneration type",
+            "Pick's type",
+            "Motor neurone disease (**MND**) type"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "**FTD** vignette (75-year-old, memory problems, disinhibition, lack of insight): the keyed microscopic finding is cytoplasmic inclusions - not spongiform encephalopathy, intraneuronal inclusions or beta amyloid peptides. The explanation says tau-positive inclusions account for most cases, while the other main finding is ubiquitin-only pathology with cytoplasmic and nuclear inclusions (negative for tau or alpha-synuclein), suggesting a link with **ALS**.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 64
+          }
         },
         {
           "type": "paragraph",
@@ -1069,37 +1230,30 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 6
             }
-          ]
+          ],
+          "highYield": true
         },
         {
-          "type": "trap-list",
-          "title": "Pick's / Huntington's points from the question bank",
-          "items": [
-            {
-              "text": "**Q29**: the immunological staining used to detect Pick's disease is anti-tau antibodies; the explanation says anti-tau and anti-ubiquitin immunohistochemistry is the most efficient and highly specific method.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 12,
-                "questionNumber": 29
-              }
-            },
-            {
-              "text": "**Q17**: knife blade gyri are more likely in Pick's disease than other dementias; the explanation adds selective asymmetrical atrophy of the frontal and anterior temporal lobes, ventricular enlargement, Pick bodies (round argyrophilic intraneuronal inclusions), neuronal loss and reactive astrocytosis, and Pick cells as swollen cortical pyramidal cells.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 7,
-                "questionNumber": 17
-              }
-            },
-            {
-              "text": "**Q15**: marked atrophy of the caudate nucleus = Huntington's disease; the explanation adds marked atrophy of the corpus striatum, small brain, cortical (frontal) atrophy and ventricular dilatation.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 6,
-                "questionNumber": 15
-              }
-            }
-          ]
+          "type": "mnemonic",
+          "forTopic": "Huntington's macroscopic changes",
+          "mnemonic": "Some Cats Chase Dogs",
+          "expansion": [
+            "Small brain with reduced mass",
+            "Marked atrophy of the corpus striatum, particularly the caudate nucleus",
+            "Marked atrophy of the cerebral cortex, particularly the frontal lobe gyri",
+            "Dilatation of the lateral and third ventricles"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "trap",
+          "text": "Atrophy of the head of the caudate on **CT** = Huntington's disease (not Alzheimer's, Wilson's, Fahr's or Pick's). The explanation says this is characteristic especially in late stages, and that in Fahr's disease calcified basal ganglia are noted instead.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 37
+          }
         },
         {
           "type": "gap",
@@ -1110,6 +1264,46 @@
             "page": 5,
             "questionNumber": 12
           }
+        },
+        {
+          "type": "trap",
+          "text": "**Q12**: knife-blade atrophy = Pick's disease (not Alzheimer's, Lewy body dementia, **CJD** or progressive supranuclear palsy): marked atrophy of the frontal and temporal lobes with relative sparing of the parietal and occipital lobes.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 12
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "**Q29**: the immunological staining for Pick's disease is anti-tau antibodies; the explanation says anti-tau and anti-ubiquitin immunohistochemistry is the most efficient and highly specific method, whereas the tangles of Alzheimer's stain with antibodies to basic fibroblast growth factor, amyloid P and heparan sulfate glycosaminoglycan.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 29
+              }
+            },
+            {
+              "text": "**Q15**: marked atrophy of the caudate nucleus = Huntington's disease (not punch drunk syndrome, alcoholic dementia, **CJD** or Lewy body dementia); the explanation adds marked atrophy of the corpus striatum, small brain, frontal cortical atrophy and dilatation of the lateral and third ventricles.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 15
+              }
+            },
+            {
+              "text": "**Q17**: knife blade gyri are more likely in Pick's than other dementias (ventricular **SHRINKAGE** is wrong - ventricles enlarge); Pick bodies are round argyrophilic intraneuronal inclusions and Pick cells are swollen cortical pyramidal cells.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 17
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -1156,12 +1350,23 @@
               "page": 12,
               "questionNumber": 29
             }
+          },
+          {
+            "text": "FTD microscopy: tau-positive inclusions in most cases; otherwise ubiquitin-only cytoplasmic and nuclear inclusions (linked to ALS).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 15,
+              "questionNumber": 64
+            }
           }
         ],
         "highlightBlockIndices": [
           1,
-          4,
-          5
+          2,
+          3,
+          6,
+          7,
+          8
         ]
       }
     },
@@ -1262,6 +1467,16 @@
           ]
         },
         {
+          "type": "trap",
+          "text": "**Q23**: the keyed difference between **CJD** and vCJD is **EARLIER** **AGE** **OF** **ONSET** (average age of death 29 years; death on average within 14 months). Earlier onset of ataxia, negative tonsillar biopsy, absence of florid plaques and typical **EEG** changes were the wrong options.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 23
+          }
+        },
+        {
           "type": "paragraph",
           "text": "In variant **CJD** there is a marked accumulation of prion protein and the plaques are florid.",
           "source": {
@@ -1314,34 +1529,24 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "CJD points from the question bank",
-          "items": [
-            {
-              "text": "**Q4**: a 33-year-old with anxiety/depression then rapidly progressive cognitive impairment, myoclonus, ataxia and akinetic mutism = **CJD**; characteristic autopsy change is extensive vacuole formation.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 4
-              }
-            },
-            {
-              "text": "**Q27**: the spongiform appearance is due to neuropil vacuolation (not apoptosis, glial proliferation, demyelination or fibrosis).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 11,
-                "questionNumber": 27
-              }
-            },
-            {
-              "text": "**Q23**: the difference between **CJD** and vCJD that was keyed is earlier age of onset; typical **EEG** changes, negative tonsillar biopsy and absence of florid plaques are wrong for vCJD.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 9,
-                "questionNumber": 23
-              }
-            }
-          ]
+          "type": "trap",
+          "text": "Increased signal in the pulvinar nucleus of the thalamus bilaterally is the neuroimaging finding most suggestive of new variant **CJD** (not medial temporal atrophy on structural **MRI**, occipital hypoperfusion on **HMPAO-SPECT** or impaired dorsolateral cortex function). The explanation says **MRI** is the most useful supportive test and the pulvinar sign is highly sensitive and specific for vCJD.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 38
+          }
+        },
+        {
+          "type": "trap",
+          "text": "In **CJD** amyloid plaques are prominent in the cerebellum (not raphe nuclei, corpus callosum, occipital cortex or hippocampus); the explanation calls **CJD** a multifocal dementia involving cerebellar structures.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 63
+          }
         },
         {
           "type": "gap",
@@ -1362,6 +1567,46 @@
             "page": 5,
             "questionNumber": 13
           }
+        },
+        {
+          "type": "trap",
+          "text": "**Q13**: selective cerebellar atrophy points to **CJD** (not Lewy body dementia, Alzheimer's, normal pressure hydrocephalus or Parkinson's disease dementia). The explanation: generalised cerebral atrophy, sometimes selective cerebellar atrophy and ventricular enlargement; histology of status spongiosus, neuronal degeneration **WITHOUT** inflammation, astrocytic proliferation, nerve cell loss and gliosis.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 13
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "MCQ Traps — Remember These!",
+          "items": [
+            {
+              "text": "**Q4**: a 33-year-old with anxiety/depression, then rapidly progressive cognitive impairment, myoclonus, ataxia and akinetic mutism = **CJD**; characteristic autopsy change is extensive vacuole formation (not Lewy bodies or lack of gliosis).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "**Q27**: spongiform change = neuropil vacuolation.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 27
+              }
+            },
+            {
+              "text": "Mock stem 'what accounts for the spongiform appearance in **CJD**': neuronal vacuolation is keyed (not accumulation of prion proteins, trapped air, neuronal loss or neuropil loss).",
+              "source": {
+                "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+                "page": 17,
+                "questionNumber": 64
+              }
+            }
+          ]
         }
       ],
       "concise": {
@@ -1414,6 +1659,14 @@
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 7
             }
+          },
+          {
+            "text": "vCJD: pulvinar sign (bilateral pulvinar signal on MRI) is highly sensitive and specific.",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 9,
+              "questionNumber": 38
+            }
           }
         ],
         "facts": [
@@ -1460,8 +1713,9 @@
         ],
         "highlightBlockIndices": [
           5,
-          8,
-          10
+          6,
+          9,
+          11
         ]
       }
     },
@@ -1590,6 +1844,19 @@
           ]
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Neurotoxic factors in HIV",
+          "mnemonic": "Pat Quietly Nibbles Apple Tarts",
+          "expansion": [
+            "Platelet activating factor",
+            "Quinolinic acid",
+            "Nitric oxide",
+            "Some metabolites of arachidonic acid",
+            "Tumour necrosis factor"
+          ],
+          "sourced": false
+        },
+        {
           "type": "table",
           "title": "Biopsy findings in HIV-infected brain tissue",
           "columns": [
@@ -1661,6 +1928,16 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 7,
             "questionNumber": 18
+          }
+        },
+        {
+          "type": "trap",
+          "text": "An **IV** heroin user with significant slowing of cognition, fatuous affect and impaired concentration of insidious onset: **HIV** dementia is keyed (not opioid intoxication, heroin withdrawal, bacterial encephalitis or depression).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 14,
+            "questionNumber": 37
           }
         },
         {
@@ -1748,7 +2025,9 @@
           2,
           8,
           9,
-          12
+          10,
+          13,
+          14
         ]
       }
     },
@@ -1817,11 +2096,31 @@
           }
         },
         {
+          "type": "trap",
+          "text": "**Q9**: the planum temporale is normally larger on the **LEFT**. The distractor 'in schizophrenia left more than right asymmetry is noted' is wrong: schizophrenia shows a consistent **REVERSAL** of the normal left-larger-than-right asymmetry.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 9
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Histology: no evidence for astrogliosis. Reduced cell numbers or size has been described, especially of neurons in the hippocampus and **DLPFC**; increased neuronal density, possibly relating to decreased neuronal size (decreased dendritic arborization and neuropil), has been reported.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Least likely in schizophrenia = gliosis: no evidence for astrogliosis has been reported. Increased neuronal density (possibly relating to smaller neurons), cytoarchitectural anomalies, reduced cell size and reduced cell number (hippocampus, **DLPFC**) **ARE** described.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 36
           }
         },
         {
@@ -1849,31 +2148,19 @@
           }
         },
         {
-          "type": "trap-list",
-          "title": "Planum temporale questions",
-          "items": [
-            {
-              "text": "**Q9**: the planum temporale is normally larger on the left side; the distractor 'in schizophrenia left more than right asymmetry' is wrong because schizophrenia shows reversal of the normal left-larger-than-right asymmetry.",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 4,
-                "questionNumber": 9
-              }
-            },
-            {
-              "text": "**Q5**: in healthy right-handed subjects the planum temporale is larger on the left (cingulate cortex, superior colliculus, thalamus and amygdala were distractors).",
-              "source": {
-                "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-                "page": 2,
-                "questionNumber": 5
-              }
-            }
-          ]
-        },
-        {
           "type": "gap",
           "subtopic": "Handedness and sex effect on planum temporale asymmetry",
           "note": "Not in the notes. **Q5** explanation: the leftward volume asymmetry is related to the degree of right-handedness and is more marked in males (nearly ten times asymmetrical on the left in males).",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Q5**: in healthy right-handed subjects the planum temporale is larger on the left (not cingulate cortex, superior colliculus, thalamus or amygdala); the leftward asymmetry relates to the degree of right-handedness and is more marked in males.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 2,
@@ -1925,11 +2212,20 @@
               "page": 4,
               "questionNumber": 9
             }
+          },
+          {
+            "text": "Gliosis is the finding least likely in schizophrenia (no astrogliosis reported).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 13,
+              "questionNumber": 36
+            }
           }
         ],
         "highlightBlockIndices": [
           0,
-          8
+          4,
+          6
         ]
       }
     },
@@ -2055,6 +2351,19 @@
           }
         },
         {
+          "type": "mnemonic",
+          "forTopic": "Structures hit in Wernicke's encephalopathy",
+          "mnemonic": "My Hungry Mouse Chews Marshmallows",
+          "expansion": [
+            "Mamillary bodies",
+            "Hypothalamus",
+            "Mediodorsal thalamic nucleus",
+            "Colliculi",
+            "Midbrain tegmentum"
+          ],
+          "sourced": false
+        },
+        {
           "type": "paragraph",
           "text": "Brain shrinkage can be found in uncomplicated alcoholism, largely accounted for by loss of white matter; some of this damage appears reversible.",
           "source": {
@@ -2114,7 +2423,8 @@
           }
         ],
         "highlightBlockIndices": [
-          3
+          1,
+          4
         ]
       }
     },
@@ -2155,6 +2465,16 @@
             "page": 2,
             "questionNumber": 3
           }
+        },
+        {
+          "type": "trap",
+          "text": "Autism vignette (12-year-old, reduced social interaction, poor communication, repetitive stereotyped behaviour): hypoplasia of the **CEREBELLAR** **VERMIS** is keyed (not hippocampus, fusiform gyrus, amygdala or angular gyrus); the hemispheres are involved only 'to some extent' and Purkinje cell count is lower.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 62
+          }
         }
       ],
       "concise": {
@@ -2190,7 +2510,8 @@
           }
         ],
         "highlightBlockIndices": [
-          3
+          3,
+          4
         ]
       }
     },
@@ -2217,6 +2538,78 @@
             "page": 9,
             "questionNumber": 21
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Multiple sclerosis: pathological change",
+          "note": "Not in the notes. A 37-year-old with waxing and waning neurological deficits has multiple sclerosis; the keyed pathological change is demyelination (gradual demyelination delays and inhibits signal conduction). Gliosis, Lewy bodies, neuritic plaques and amyloid plaques were distractors.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 65
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Agenesis of corpus callosum",
+          "note": "Not in the notes. Newborn with seizures, hydrocephalus, midline facial anomaly, spasticity and agenesis of the corpus callosum: the keyed underlying pathology is a disorder of neuronal migration (not obstetric tissue loss, congenital infection, excessive synaptic pruning or neurodegeneration).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 16,
+            "questionNumber": 66
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Intrauterine infections and learning difficulty",
+          "note": "Not in the notes. The exception keyed was Epstein Barr virus: **EBV** (infectious mononucleosis) has not been implicated in learning disability syndromes; **CMV**, toxoplasmosis, Treponema pallidum and rubella were the other options. Measles (rubeola), unlike German measles (rubella), does not cause congenital anomalies/learning disabilities.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 35
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Kluver-Bucy syndrome",
+          "note": "Not in the notes. Viral encephalitis with increased oral exploratory behaviour and inappropriate sexuality = Kluver-Bucy syndrome: hypermetamorphopsia (compulsion to attend to all visual stimuli), hyperorality, hypersexuality and blunted emotional reactivity. The full syndrome is rarely seen in man, but a partial syndrome can occur with viral encephalitis affecting the temporal lobe.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 39
+          }
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "Kluver-Bucy syndrome features",
+          "mnemonic": "Three Hs and a B",
+          "expansion": [
+            "Hypermetamorphopsia",
+            "Hyperorality",
+            "Hypersexuality",
+            "Blunted emotional reactivity"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "gap",
+          "subtopic": "Kuru: slowest human spongiform encephalopathy",
+          "note": "Not in the notes. Kuru has the slowest course among the options (sporadic, variant and iatrogenic **CJD**, Gerstmann-Straussler-Scheinker syndrome): incubation up to 40 years before onset, then rapid and fatal; thought to be transmitted by ritual cannibalism; symptoms include personality and behavioural disturbances, progressive cerebellar ataxia, dementia and death.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 16,
+            "questionNumber": 65
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Amyotrophic lateral sclerosis: primary pathology",
+          "note": "Not in the notes. In a 55-year-old with leg and hand weakness, tongue fasciculations and memory deficits diagnosed as **ALS**, the primary pathological change is in motor neurons (not neuromuscular junction, myocytes, spinal autonomic ganglion or sensory neurons); the explanation says upper motor neurons are specifically damaged, with loss of cells in anterior horns of cord and brainstem nuclei.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 17,
+            "questionNumber": 63
+          }
         }
       ],
       "concise": {
@@ -2236,7 +2629,58 @@
               "page": 9,
               "questionNumber": 21
             }
+          },
+          {
+            "text": "Waxing/waning neurological deficits = MS; pathology is demyelination (mock-exam stem).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 15,
+              "questionNumber": 65
+            }
+          },
+          {
+            "text": "Agenesis of corpus callosum = disorder of neuronal migration (mock-exam stem).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+              "page": 16,
+              "questionNumber": 66
+            }
+          },
+          {
+            "text": "EBV is not implicated in learning disability; measles unlike rubella causes no congenital anomalies (mock-exam stem).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+              "page": 13,
+              "questionNumber": 35
+            }
+          },
+          {
+            "text": "Kluver-Bucy: hypermetamorphopsia, hyperorality, hypersexuality, blunted emotion; partial form in temporal-lobe viral encephalitis (mock-exam stem).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+              "page": 9,
+              "questionNumber": 39
+            }
+          },
+          {
+            "text": "Kuru: slowest prion course (incubation up to 40 years), ritual cannibalism, cerebellar ataxia, dementia (mock-exam stem).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+              "page": 16,
+              "questionNumber": 65
+            }
+          },
+          {
+            "text": "ALS: primary pathology in motor neurons (anterior horn cells, brainstem nuclei) (mock-exam stem).",
+            "source": {
+              "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+              "page": 17,
+              "questionNumber": 63
+            }
           }
+        ],
+        "highlightBlockIndices": [
+          6
         ]
       },
       "intro": "Two questions in the bank test material that is not in the Neuropathology notes; recorded as gaps with their question citations."
@@ -2522,6 +2966,14 @@
             "page": 3,
             "questionNumber": 7
           }
+        },
+        {
+          "label": "Tau-negative cells at autopsy = DLB (Q30)",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 12,
+            "questionNumber": 30
+          }
         }
       ]
     },
@@ -2569,6 +3021,14 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 7,
             "questionNumber": 17
+          }
+        },
+        {
+          "label": "FTD: tau-positive or ubiquitin-only cytoplasmic/nuclear inclusions",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 64
           }
         }
       ]
@@ -2631,6 +3091,22 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 2,
             "questionNumber": 4
+          }
+        },
+        {
+          "label": "vCJD: bilateral pulvinar sign on MRI",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 38
+          }
+        },
+        {
+          "label": "Plaques prominent in cerebellum; selective cerebellar atrophy",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 63
           }
         }
       ]
@@ -2748,6 +3224,14 @@
             "page": 4,
             "questionNumber": 9
           }
+        },
+        {
+          "label": "Gliosis least likely (no astrogliosis)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 36
+          }
         }
       ]
     },
@@ -2864,6 +3348,14 @@
             "page": 2,
             "questionNumber": 3
           }
+        },
+        {
+          "label": "Cerebellar vermis hypoplasia (mock stem)",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
+            "page": 15,
+            "questionNumber": 62
+          }
         }
       ]
     },
@@ -2884,6 +3376,54 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 9,
             "questionNumber": 21
+          }
+        },
+        {
+          "label": "Waxing/waning neurological deficits = MS; pathology is demyelination.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 15,
+            "questionNumber": 65
+          }
+        },
+        {
+          "label": "Agenesis of corpus callosum = disorder of neuronal migration.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
+            "page": 16,
+            "questionNumber": 66
+          }
+        },
+        {
+          "label": "EBV is not implicated in learning disability; measles unlike rubella causes no congenital anomalies.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
+            "page": 13,
+            "questionNumber": 35
+          }
+        },
+        {
+          "label": "Kluver-Bucy: hypermetamorphopsia, hyperorality, hypersexuality, blunted emotion; partial form in temporal-lobe viral encephalitis.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
+            "page": 9,
+            "questionNumber": 39
+          }
+        },
+        {
+          "label": "Kuru: slowest prion course (incubation up to 40 years), ritual cannibalism, cerebellar ataxia, dementia.",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
+            "page": 16,
+            "questionNumber": 65
+          }
+        },
+        {
+          "label": "ALS: primary pathology in motor neurons (anterior horn cells, brainstem nuclei).",
+          "source": {
+            "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
+            "page": 17,
+            "questionNumber": 63
           }
         }
       ]
