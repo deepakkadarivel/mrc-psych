@@ -1,0 +1,4519 @@
+{
+  "topic": "pa-neurophysiology",
+  "sections": [
+    {
+      "id": "action-potentials",
+      "title": "1. Action potentials",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An action potential is initiated at the axonal hillock when synaptic signals received by the dendrites and soma are enough to raise the intracellular resting membrane potential from -70 mV to the threshold potential of -55 mV.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At -55 mV the Na+ channels at the axon initial segment open; the Na+ influx rapidly reverses the membrane potential from negative values to +40 mV.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At +40 mV the Na+ channels close and voltage-gated K+ channels open; K+ moving out of the axon repolarises the cell membrane.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "table",
+          "title": "Action potential sequence (as given in the notes)",
+          "columns": [
+            "Membrane potential",
+            "Event"
+          ],
+          "rows": [
+            [
+              "-70 mV",
+              "Resting membrane potential"
+            ],
+            [
+              "-55 mV",
+              "Threshold: Na+ channels at the initial segment open; Na+ influx"
+            ],
+            [
+              "+40 mV",
+              "Na+ channels close; voltage-gated K+ channels open; K+ efflux repolarises the membrane"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Membrane potential questions seen in the bank",
+          "items": [
+            {
+              "text": "Resting membrane potential of a neuron is about -70 mV (intracellular side relative to extracellular), set by relative concentration and permeability of sodium, potassium and chloride ions plus the sodium-potassium pump.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "Repolarisation is by movement of potassium out of the cell (delayed opening of voltage-gated K+ channels and closing of Na+ channels); depolarisation to threshold (about -55 mV) opens voltage-gated sodium channels.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Ion distribution at rest",
+          "note": "Notes do not state which ion is highest inside the cell. **Q20**: potassium is greatest inside the cell (more K+ inside, more Na+ outside; the Na-K pump moves Na out and K in).",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Ion permeability",
+          "note": "Notes give no ion permeabilities. **Q38** explanation: K+ relatively permeable, Na+ relatively impermeable, Cl- freely permeable, organic ions relatively impermeable.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 18,
+            "questionNumber": 38
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Resting potential -70 mV; threshold -55 mV; initiated at the axonal hillock.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Threshold: Na+ channels at the initial segment open; influx drives potential to +40 mV.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "At +40 mV Na+ channels close and voltage-gated K+ channels open; K+ efflux repolarises.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Exam: repolarisation = K+ moving out (Q30); resting potential about -70 mV (Q6).",
+            "source": {
+              "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+              "page": 14,
+              "questionNumber": 30
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Resting membrane potential",
+            "value": "-70 mV",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Threshold potential",
+            "value": "-55 mV",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "label": "Peak of depolarisation",
+            "value": "+40 mV",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "synaptic-activity",
+      "title": "2. Synaptic activity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A synapse is a junction between 2 nerve cells. Three types of synapses are noted in the nervous system: chemical, electrical and conjoint.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "table",
+          "title": "Types of synapse",
+          "columns": [
+            "Type",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Chemical",
+              "Presynaptic neuron releases a chemical molecule on stimulation; it acts on the next neuron to bring on a molecular effect or propagate the impulse downstream"
+            ],
+            [
+              "Electrical",
+              "Bring on the response by electrical communication without chemical exchange"
+            ],
+            [
+              "Conjoint",
+              "Have both electrical and chemical properties"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chemical synapses are excitatory or inhibitory according to their effect on the postsynaptic neuron: excitatory synaptic activity depolarises postsynaptic neurons; inhibitory activity hyperpolarises them.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Postsynaptic changes from an excitatory synapse may not be enough to induce an action potential but can facilitate the likelihood of one with further stimulation (facilitation). Input from several other presynaptic cells can give spatial summation leading to an action potential; recurrent stimulation by the same synapse can give temporal summation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "3 synapse types: chemical, electrical (no chemical exchange), conjoint (both).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Excitatory synapse = depolarises; inhibitory = hyperpolarises.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Facilitation: sub-threshold excitatory change makes a later action potential more likely.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Spatial summation = input from several presynaptic cells; temporal summation = repeated stimulation by the same synapse.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "eating",
+      "title": "3. Neural basis of eating",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Hypothalamic feeding centres",
+          "columns": [
+            "Region",
+            "Role"
+          ],
+          "rows": [
+            [
+              "Ventromedial hypothalamus",
+              "Satiety centre"
+            ],
+            [
+              "Lateral hypothalamus",
+              "Feeding centre"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Neurochemical mediators of appetite",
+          "columns": [
+            "Orexigenic (increase appetite)",
+            "Anorexigenic (satiety)"
+          ],
+          "rows": [
+            [
+              "Ghrelin",
+              "Leptin"
+            ],
+            [
+              "Neuropeptide Y",
+              "Cholecystokinin"
+            ],
+            [
+              "",
+              "Serotonin"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ghrelin is the only orexigenic substance produced outside the **CNS** - it is synthesised in the gastric mucosa; adipose cells synthesise leptin.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Food and food cues increase dopaminergic activity in the nucleus accumbens (reward centre). Destruction of dopamine pathways reduces eating behaviour. In obesity, **D2** receptors are reduced in the striatum.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Ventromedial hypothalamus = satiety centre; lateral hypothalamus = feeding centre.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Orexigenic: ghrelin, neuropeptide Y. Anorexigenic: leptin, CCK, serotonin.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Ghrelin: only orexigenic substance made outside CNS (gastric mucosa); leptin from adipose cells.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Food cues raise nucleus accumbens dopamine; obesity has reduced striatal D2 receptors.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "temperature",
+      "title": "4. Neural basis of temperature regulation",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Hypothalamic temperature centres",
+          "columns": [
+            "Feature",
+            "Preoptic anterior hypothalamus",
+            "Posterior hypothalamus"
+          ],
+          "rows": [
+            [
+              "Role",
+              "Hypothermic centre",
+              "Hyperthermic centre"
+            ],
+            [
+              "Effect of stimulation",
+              "Parasympathetic-mediated sweating and vasodilation, resulting in hypothermia",
+              "Sympathetic drive, shivering and vasoconstriction, leading to hyperthermia"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Body temperature varies diurnally; lesions in the median eminence reduce the diurnal temperature variation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Certain drugs can induce malignant hyperthermia, but not through a hypothalamic mechanism - an abnormal excitation-contraction coupling in skeletal muscles is responsible.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Hyperthermia is also seen in Neuroleptic Malignant Syndrome (**NMS**), induced by neuroleptic use or **levodopa** withdrawal.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Preoptic anterior hypothalamus = hypothermic centre (sweating, vasodilation).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Posterior hypothalamus = hyperthermic centre (shivering, vasoconstriction, sympathetic drive).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Median eminence lesions reduce diurnal temperature variation.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Malignant hyperthermia: skeletal muscle excitation-contraction coupling defect, not hypothalamic.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "NMS hyperthermia: neuroleptics or levodopa withdrawal.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "pain",
+      "title": "5. Neural basis of pain",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Thalamus plays a crucial role in pain perception; higher cortical centres are central to localisation and interpretation of the pain signal.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "table",
+          "title": "Pain pathways",
+          "columns": [
+            "Element",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Fibres",
+              "Thin unmyelinated C fibres or sparsely myelinated A-delta fibres carry pain to the dorsal horn of the spinal cord"
+            ],
+            [
+              "Fast transmission",
+              "Lateral spinothalamic route - aids localisation"
+            ],
+            [
+              "Slow transmission",
+              "Reticulothalamic tract - aids subjective sensation"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Opioid receptors in the dorsal horn and possibly the brain stem (periaqueductal grey matter) modulate pain intensity. Descending fibres from serotonergic raphe nuclei also modulate pain perception; this may explain the role of tricyclic drugs in reducing chronic pain.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Thalamic pain syndrome can occur in stroke involving thalamoperforating branches of the posterior cerebral artery: contralateral loss of sensation with burning or aching pain triggered by light cutaneous stimulation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Thalamus: pain perception; cortex: localisation and interpretation.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "C fibres and A-delta fibres carry pain to the dorsal horn.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Fast = lateral spinothalamic (localisation); slow = reticulothalamic (subjective sensation).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Dorsal horn and periaqueductal grey opioid receptors modulate pain; serotonergic raphe descending fibres may explain tricyclic effect in chronic pain.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Thalamic pain syndrome: PCA thalamoperforating stroke; contralateral sensory loss with burning pain on light touch.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "thirst",
+      "title": "6. Neural basis of thirst and ADH",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The subfornical organ (**SFO**) and organum vasculosum of the lamina terminalis (**OVLT**) are circumventricular organs playing a crucial role in the perception of thirst; the hypothalamic paraventricular nucleus is also involved.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Angiotensin **II** acts as a neurotransmitter to propagate thirst signals to the hypothalamus. Hypotension also stimulates thirst through pathways from baroreceptors on the aorta and carotid.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**ADH** increases water reabsorption at renal tubules and so helps maintain fluid balance.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "type": "table",
+          "title": "SIADH",
+          "columns": [
+            "Aspect",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Causes",
+              "Damage to paraventricular and supraoptic hypothalamic nuclei; drugs such as **carbamazepine** or **chlorpromazine**; tumours such as carcinoma of lung"
+            ],
+            [
+              "Findings",
+              "Low sodium and reduced osmolarity with normal renal sodium excretion and high urine osmolality"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Thirst: SFO and OVLT (circumventricular organs) plus paraventricular nucleus.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Angiotensin II propagates thirst signals; hypotension stimulates thirst via aortic/carotid baroreceptors.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "ADH raises renal water reabsorption.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "SIADH: hypothalamic nuclei damage, carbamazepine, chlorpromazine, lung carcinoma; low Na and osmolarity with high urine osmolality.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "abnormal-drives",
+      "title": "7. Abnormalities in physiological drives",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Disorders of physiological drives",
+          "columns": [
+            "Disorder",
+            "Clinical features"
+          ],
+          "rows": [
+            [
+              "Kluver-Bucy syndrome",
+              "Bilateral lesions of amygdala and hippocampus: placidity with decreased aggressive behaviour; prominent oral exploratory behaviour and hypersexuality; hypermetamorphosis (objects repeatedly examined as if novel)"
+            ],
+            [
+              "Laurence-Moon-Biedl syndrome",
+              "Obesity and hypogonadism with low **IQ**, retinitis pigmentosa and polydactyly; diabetes insipidus also seen; autosomal recessive, locus 11q13 in most cases; no hypothalamic lesions found"
+            ],
+            [
+              "Prader-Willi syndrome",
+              "Hypotonia, obesity with hyperphagia, hypogenitalism, mental retardation, short stature, impaired glucose tolerance; abnormal temperature control and daytime hypersomnolence related to hypothalamic disturbance; reduced oxytocin neurons and satiety neurons; paternal deletion (genomic imprinting) at 15q11-q13"
+            ],
+            [
+              "Kleine-Levin syndrome",
+              "Compulsive eating with hyperphagia, hypersomnolence, hyperactivity, hypersexuality and exhibitionism; a hypothalamic abnormality sometimes preceded by a viral illness; often resolves by the third decade of life"
+            ],
+            [
+              "Psychogenic polydipsia",
+              "Excessive water consumption in the absence of hypovolemia or hypernatremia; may lead to water intoxication and serious electrolyte imbalance"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "**Q50** asks which is **NOT** a feature of Kleine-Levin syndrome: hypertension is the answer (episodic nature, hypersomnia, male predominance and hyperphagia are all features).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 50
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Kleine-Levin: male predominance and episodic course",
+          "note": "Notes do not mention episodic nature or male predominance. **Q50** explanation: a rare syndrome of periodic somnolence and morbid hunger, almost exclusively in male adolescents, with attacks lasting days to weeks.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 23,
+            "questionNumber": 50
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Kluver-Bucy: bilateral amygdala/hippocampus lesions; placidity, oral exploration, hypersexuality, hypermetamorphosis.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Laurence-Moon-Biedl: obesity, hypogonadism, low IQ, retinitis pigmentosa, polydactyly; AR, 11q13.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Prader-Willi: hypotonia, hyperphagia/obesity; paternal deletion 15q11-q13; reduced oxytocin and satiety neurons.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Kleine-Levin: hyperphagia, hypersomnolence, hypersexuality; often resolves by third decade.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Psychogenic polydipsia: excess water without hypovolemia/hypernatremia; water intoxication risk.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "neurogenesis-migration",
+      "title": "8. Neurogenesis, neuronal migration and myelination",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Early fetal life is a prolific period of neurogenesis; an active zone of nerve cell production (the subventricular zone) lies immediately around the ventricles of the neural tube. Neurons produced here migrate outwards to the cortical plate.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Thalamic axons projecting to the cortical plate first synapse on transient subplate neurons; normally they then detach, proceed superficially to the true cortical cells, and the subplate neurons degenerate. In some patients with schizophrenia abnormal persistence of subplate neurons has been noted, suggesting failure of axonal path-finding.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuous neurogenesis occurs in adults in certain regions (particularly the dentate gyrus of the hippocampus and the olfactory bulb). Stress reduces hippocampal neurogenesis; enriched environments, exercise and antidepressants promote it. Whether adult neurogenesis occurs in other regions is controversial.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Neuronal migration takes place in the first 6 months of gestation. Radial migration is the primary mechanism by which excitatory neurons reach the cortex; radial glial cells form scaffolding through their foot processes. Successive populations travel past earlier ones (inside-out pattern) to form radial stacks (Rakic cortical columns).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Most inhibitory interneurons in the external and internal granular layers are tangentially migrated neurons. Abnormal migration leaves neurons in ectopic positions (heterotopia).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Myelination begins prenatally at about the 4th gestational month; it is largely complete in early childhood (by 2 years) but does not reach full extent, especially in association cortices, until late in the third decade of life.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "table",
+          "title": "Hippocampal neurogenesis in adults",
+          "columns": [
+            "Reduces",
+            "Promotes"
+          ],
+          "rows": [
+            [
+              "Stress",
+              "Enriched environments"
+            ],
+            [
+              "",
+              "Exercise"
+            ],
+            [
+              "",
+              "Antidepressants"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Neurogenesis starts in the subventricular zone; neurons migrate to the cortical plate.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Persistent subplate neurons seen in some schizophrenia - failure of axonal path-finding.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Adult neurogenesis: dentate gyrus and olfactory bulb; stress reduces, exercise/enrichment/antidepressants promote.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Migration in first 6 months of gestation; radial (excitatory, inside-out) vs tangential (most inhibitory interneurons).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Failed migration = heterotopia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Myelination from about 4th gestational month; largely complete by 2 years; association cortex into third decade.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "pruning-plasticity",
+      "title": "9. Synaptic pruning and cerebral plasticity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Synaptogenesis occurs very rapidly from the second trimester through the first ten years of life, peaking within the first 2 postnatal years. By mid-childhood more neurons and cellular processes exist than the adult brain requires; synaptic pruning then selects and preserves the most useful connections and continues through the early teen years.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Before 5 years of age **D2** receptor density is greater than adult levels, regressing during the second decade.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Dopamine receptors continue to decrease in adult years at a slower rate (==2.2%== reduction per decade), faster in males than females. In schizophrenia the rate of **D2** receptor loss is faster (==6.0%== per decade) than in healthy men.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Pruning abnormalities",
+          "columns": [
+            "Condition",
+            "Pruning"
+          ],
+          "rows": [
+            [
+              "Schizophrenia",
+              "Excessive or prolonged pruning"
+            ],
+            [
+              "Autism",
+              "Relative under-pruning; size of certain brain regions may be larger than in healthy controls"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cerebral plasticity is the capability of the brain to be moulded. Cortical sensory maps change with variations in sensory input; in phantom limb, the amputated limb representation may occur on the cortical face area. Repeated practice reorganises functional regions (e.g. musicians, jugglers).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 6
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Synaptogenesis peaks in first 2 postnatal years; pruning from mid-childhood through early teens.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "D2 density above adult levels before age 5, regressing in the second decade.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Adult D2 loss 2.2% per decade (faster in males); schizophrenia 6.0% per decade.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Excessive pruning = schizophrenia; under-pruning = autism.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Plasticity: sensory maps change with input; phantom limb maps onto cortical face area; practice reorganises regions.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 6
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "D2 loss per decade (adult)",
+            "value": "2.2%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "label": "D2 loss per decade (schizophrenia)",
+            "value": "6.0%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 6
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "pituitary",
+      "title": "10. Neuroendocrinology: pituitary gland",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The anterior pituitary lobe secretes hormones regulated by neurohormones from parvocellular hypothalamic neurons. The posterior lobe releases 2 hormones synthesised in magnocellular cells of the supraoptic and paraventricular nuclei.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "table",
+          "title": "Hormonal output by region",
+          "columns": [
+            "Region",
+            "Hormones"
+          ],
+          "rows": [
+            [
+              "Anterior pituitary",
+              "**GH**; **LH** (gonadotrophin); **FSH** (gonadotrophin); **ACTH** (corticotrophin); **TSH** (thyrotropin); prolactin"
+            ],
+            [
+              "Posterior pituitary",
+              "Vasopressin (**ADH**); oxytocin"
+            ],
+            [
+              "Hypothalamus",
+              "**CRH**; **GHRH**; GnRH; **TRH**; **SST** (somatostatin, inhibits **GH**); **PIF** (prolactin inhibitory factor = dopamine)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 7
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Growth hormone excess causes acromegaly in adults or gigantism in children; low levels are associated with dwarfism. Exercise, sleep and stress increase **GH** release. **GH** response to **GHRH** and sleep-associated **GH** release are altered in depression and anorexia nervosa.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Prolactin release is inhibited by hypothalamic dopamine; **TRH** may facilitate it. Levels rise in pregnancy, nursing, sleep and exercise. Antipsychotics block **D2** receptors in the tuberoinfundibular tract, removing dopamine inhibition: hyperprolactinaemia, gynaecomastia in males, galactorrhoea in females; long-standing increase may lead to osteoporosis.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Vasopressin (**ADH**) and oxytocin are peptides differing in only two amino acids. Vasopressin is thought to play a role in attention, memory and learning; its release is increased by pain, stress, exercise, morphine, nicotine and barbiturates and decreased by alcohol. Oxytocin is implicated in mammalian bonding, maternal behaviour, social bonding and sexual receptivity.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Pituitary questions seen in the bank",
+          "items": [
+            {
+              "text": "Oxytocin is a posterior pituitary hormone (**OT** and **AVP** made in magnocellular neurons of the paraventricular and supraoptic nuclei, released to the bloodstream).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 24
+              }
+            },
+            {
+              "text": "Vasopressin is the answer for a substance that is both a **CNS** neurotransmitter and a hormone (explanation notes **OT**/**AVP** act like hormones on peripheral targets).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 39
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Amenorrhoea in bipolar disorder",
+          "note": "Notes do not cover the work-up of secondary amenorrhoea. **Q26**: the most common cause is pregnancy (pregnancy test is the investigation of choice); anticonvulsants used in bipolar disorder can reduce oral contraceptive efficacy.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 26
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Posterior pituitary: vasopressin and oxytocin (made in supraoptic/paraventricular magnocellular cells).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Anterior pituitary: GH, LH, FSH, ACTH, TSH, prolactin.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Prolactin inhibited by dopamine; antipsychotic D2 blockade in tuberoinfundibular tract causes hyperprolactinaemia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "GH excess: acromegaly (adults) / gigantism (children).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Vasopressin and oxytocin differ by two amino acids; vasopressin released by pain, stress, nicotine, barbiturates, reduced by alcohol.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "thyroid",
+      "title": "11. Neuroendocrinology: thyroid gland",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**TRH** from the hypothalamus stimulates **TSH** secretion from the pituitary; **TSH** stimulates the thyroid to synthesise and release **T4** and **T3**. **T4** is the predominant form but **T3** is biologically more potent; **T4** is converted into **T3** by target organs and the brain.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Exogenous **TRH** normally produces a brisk **TSH** rise. A blunted **TRH** response is seen in depression, and also in mania, alcohol withdrawal and anorexia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**T3** and **T4** supplements added to antidepressant treatment have accelerated response in some patients, particularly women; exogenous thyroid hormone (e.g. in resistant depression) increases serotonergic transmission with decreased 5-**HT1A** and increased 5-**HT2A** sensitivity. Nerve growth factor genes are activated by **T3** in early development but not in the adult brain.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Lithium** produces hypothyroidism, especially in middle-aged women predisposed by antithyroid autoantibodies. Hypothyroidism is sometimes implicated in rapid cycling in previously stable bipolar patients; hyperthyroidism is associated with generalised anxiety symptoms.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Hyperthyroidism vs hypothyroidism",
+          "columns": [
+            "Feature",
+            "Hyperthyroidism",
+            "Hypothyroidism"
+          ],
+          "rows": [
+            [
+              "Physical",
+              "Tachycardia, weight loss, heat intolerance, sweating",
+              "Fatigue, weight gain, cold intolerance, dry skin"
+            ],
+            [
+              "Mental",
+              "Anxiety, irritability, poor concentration, agitation, emotional lability",
+              "Depression, reduced activity (psychomotor retardation), reduced libido, poor memory"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "**Q46**: tachycardia is inconsistent with hypothyroidism (cold intolerance, weight gain and decreased libido fit; the notes place tachycardia under hyperthyroidism).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 46
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Hypothyroidism: bradycardia and raised TSH",
+          "note": "Notes do not list bradycardia or raised **TSH**. **Q46** explanation: signs may include bradycardia; primary hypothyroidism is defined by **TSH** above the reference range; common symptoms also include lethargy, constipation, voice change.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 21,
+            "questionNumber": 46
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "HPT axis: TRH -> TSH -> T4/T3; T4 predominant, T3 more potent.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Blunted TRH response: depression, mania, alcohol withdrawal, anorexia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "T3/T4 augmentation of antidepressants can speed response (esp. women).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Lithium causes hypothyroidism (middle-aged women, antithyroid antibodies); hypothyroidism linked to rapid cycling.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Hyperthyroid: tachycardia, weight loss, anxiety; hypothyroid: fatigue, weight gain, cold intolerance, depression.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "hpa-axis",
+      "title": "12. Neuroendocrinology: adrenal cortex and the HPA axis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CRH** from the hypothalamus stimulates **ACTH** release from the anterior pituitary; **ACTH** stimulates cortisol release from the adrenal cortex; cortisol inhibits both **CRH** and **ACTH** by negative feedback (the **HPA** axis).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The **HPA** axis regulates the stress response. In chronic stress feedback fails and excess cortisol harms the hippocampus (glucocorticoid receptors abundant): decreased neurogenesis and dendritic atrophy shrink the hippocampus, disrupting long-term potentiation and impairing memory. A compensatory rise in dendritic arborisation in the basolateral amygdala may contribute to memory bias towards negative events.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Cortisol shows diurnal variation with peak levels around 6:00-7:00 **AM**.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Hypercortisolaemia with loss of diurnal variation is reported in depression (especially melancholic with somatic syndrome), some patients with mania (especially psychotic), **OCD** and schizoaffective disorder. Hypocortisolaemia is seen in a subgroup of **PTSD** (possibly aberrant pituitary feedback from excessive glucocorticoid receptors - probably a genetic vulnerability); low cortisol is also seen in chronic fatigue and fibromyalgia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "table",
+          "title": "Cortisol state tables as printed in the notes",
+          "columns": [
+            "Heading as printed",
+            "Physical symptoms listed",
+            "Mental symptoms listed"
+          ],
+          "rows": [
+            [
+              "Hypercortisolism (Addison's disease)",
+              "Apathy, fatigue, and depression",
+              "Anxiety, irritability, poor concentration, agitation, emotional lability"
+            ],
+            [
+              "Hypocortisolism (Cushing's syndrome)",
+              "Fatigue, weight gain, cold intolerance, dry skin",
+              "Depression, mania, confusion, and psychotic symptoms"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Printed Addison/Cushing labels appear swapped",
+          "note": "The source table pairs hypercortisolism with Addison disease and hypocortisolism with Cushing syndrome, but the same notes (p9, **DST** section) call Cushing syndrome an organic hypercortisolaemic state, and **Q48** explanation describes Addison disease as glucocorticoid and/or mineralocorticoid deficiency. Treat the printed labels as a likely error and verify before relying on it.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Addison disease features",
+          "note": "Notes give no electrolytes. **Q48**: apathy, weight loss, hyponatraemia, hyperkalaemia suggest Addison disease; explanation adds dehydration, hypotension, hyperpigmentation, and psychiatric symptoms apathy, anhedonia, fatigue, depressed mood.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 22,
+            "questionNumber": 48
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Cortisol questions seen in the bank",
+          "items": [
+            {
+              "text": "**PTSD** is the answer for low cortisol (despite chronic stress usually raising it); lower cortisol soon after trauma predicts later **PTSD** severity.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "Depression is the answer where **ACTH** and **CRF** are raised; chronic **HPA** hyperactivity causes excess glucocorticoid release.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 29
+              }
+            },
+            {
+              "text": "Peak cortisol is about 6 **AM** (6:00-7:00 **AM**) - asked twice.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 44
+              }
+            },
+            {
+              "text": "About ==50%== of depressed patients show raised cortisol.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 22,
+                "questionNumber": 47
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "HPA axis: CRH -> ACTH -> cortisol, with cortisol negative feedback on CRH and ACTH.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Chronic stress: feedback fails; hippocampal atrophy, impaired LTP and memory; amygdala dendritic growth biases to negative events.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Cortisol peaks around 6-7 AM.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Hypercortisolaemia: depression (melancholic), psychotic mania, OCD, schizoaffective.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Hypocortisolaemia: subgroup of PTSD, chronic fatigue, fibromyalgia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Peak cortisol",
+            "value": "6:00-7:00 AM",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "id": "dst",
+      "title": "13. Dexamethasone suppression test",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Exogenous corticosteroids such as dexamethasone suppress endogenous cortisol production if the **HPA** axis is intact.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "table",
+          "title": "DST protocol as given",
+          "columns": [
+            "Step",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Dose",
+              "1 mg dexamethasone at 11 **PM**, with baseline cortisol sampling"
+            ],
+            [
+              "Sampling",
+              "Next day at 8 **AM**, 4 **PM** and 11 **PM**"
+            ],
+            [
+              "Non-suppression",
+              "Any one sample with cortisol >5 mcg/L; shows failed feedback suppression of **ACTH**/**CRH** with continued endogenous cortisol production"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**DST** non-suppression is seen in depression and other psychiatric hypercortisolaemic states, and in organic ones such as Cushing syndrome.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Sensitivity for detecting major depression is modest (about 40-==50%==) but higher (about 60-==70%==) in very severe depression with psychotic and melancholic features.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**DST** non-suppression is non-specific: also seen in mania, schizoaffective disorder, major medical conditions, pregnancy, severe weight loss, alcohol, and hepatic enzyme inducers that reduce dexamethasone availability (barbiturates, anticonvulsants and others).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite depression, the **DST** may suppress cortisol if the patient has Addison disease or hypopituitarism or takes steroids, high-dose benzodiazepines or indomethacin.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**DST** non-suppression does not increase the likelihood of antidepressant response; a negative test is not a reason to withhold antidepressants. Patients with non-suppression may be less likely to respond to placebo.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Continued failure to suppress cortisol despite apparent recovery from depression suggests increased risk of relapse, poor prognosis and possibly later suicidal behaviour.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Q5**: after dexamethasone at 11 **PM** in a normal **HPA** axis, **ACTH** levels are suppressed (the test shows feedback suppression of **ACTH**/**CRH**; failure of suppression is the abnormal finding).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Dexamethasone dose wording",
+          "note": "**Q5** stem says 1 g of dexamethasone while the notes (p9) state 1 mg; the notes figure is the one the explanation matches. Treat the stem as a typo.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "DST: 1 mg dexamethasone at 11 PM; cortisol at 8 AM, 4 PM, 11 PM; any >5 mcg/L = non-suppression.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Non-suppression = failed feedback suppression of ACTH/CRH.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Sensitivity for depression about 40-50%; 60-70% in severe psychotic/melancholic depression.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Non-specific: mania, schizoaffective, Cushing, pregnancy, weight loss, alcohol, enzyme inducers.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Does not predict antidepressant response; negative test does not withhold treatment.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Persisting non-suppression after recovery: relapse risk, poor prognosis, later suicidal behaviour.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Dose",
+            "value": "1 mg at 11 PM",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Non-suppression threshold",
+            "value": ">5 mcg/L",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Sensitivity in major depression",
+            "value": "40-50%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Sensitivity in very severe psychotic/melancholic depression",
+            "value": "60-70%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "pineal",
+      "title": "14. Pineal gland and endocrine changes with sleep",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The pineal gland (epiphysis) contains pinealocytes that secrete serotonin (in the day) and **melatonin** (at night); it also contains calcium deposits (corpora arenacea, brain sand) that become more prominent with age.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The pineal gland contains the highest concentration of serotonin in the body. **Melatonin** is synthesised from serotonin by serotonin-N-acetylase and 5-hydroxyindole-O-methyltransferase.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The light-dark cycle is the major regulator of **melatonin** synthesis (increased in darkness). The pineal is regulated by a major beta-adrenergic mechanism, and beta-antagonists such as **propranolol** decrease **melatonin** synthesis.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Melatonin** regulates circadian rhythms, with both synchronising and phase-shifting properties.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "table",
+          "title": "Endocrine changes and sleep",
+          "columns": [
+            "Sleep stage",
+            "Change"
+          ],
+          "rows": [
+            [
+              "Start of sleep",
+              "Increased testosterone"
+            ],
+            [
+              "Slow wave sleep",
+              "Increased **GH** and **SST**; reduced cortisol"
+            ],
+            [
+              "**REM** sleep",
+              "Reduced **melatonin**"
+            ],
+            [
+              "Early morning sleep",
+              "Increased prolactin"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Circadian rhythm development: in the first month the 24-hour core body temperature cycle emerges; by 2 months nocturnal sleeping progresses; by 3 months **melatonin** and cortisol rhythms are established.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Neuroendocrine sleep questions seen in the bank",
+          "items": [
+            {
+              "text": "**Melatonin** decreases during **REM** sleep (the other options - testosterone falling at sleep onset, **GH** falling, cortisol rising in **SWS**, prolactin falling - are wrong).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 23
+              }
+            },
+            {
+              "text": "Nocturnal growth hormone surge is in slow wave sleep.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 31
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Pineal: serotonin by day, melatonin at night; highest body serotonin; melatonin made from serotonin.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Light-dark cycle regulates melatonin; beta-blockers such as propranolol reduce it.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Sleep: testosterone up at onset; SWS GH and SST up, cortisol down; REM melatonin down; early morning prolactin up.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Circadian development: temperature 1 month; sleep 2 months; melatonin/cortisol rhythms 3 months.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "id": "sleep-measurement",
+      "title": "15. Physiology of sleep: measurement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Actigraphy uses a motion sensor to quantify circadian sleep-wake patterns and detect movement disorders during sleep.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Polysomnography (**PSG**) includes **EEG**, **EMG** and **EOG**, and can add **ECG**, oximetry and respiratory monitoring; it helps diagnose and monitor sleep apnoea, narcolepsy, restless legs and **REM** behavioural disorder.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "table",
+          "title": "Sleep terms used in PSG",
+          "columns": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Sleep latency",
+              "Time from 'lights out' to sleep onset"
+            ],
+            [
+              "**REM** latency",
+              "Time from sleep onset to first **REM** episode; normally about 90 minutes in adults"
+            ],
+            [
+              "Non-**REM** latency",
+              "Time from sleep onset to first non-**REM** episode"
+            ],
+            [
+              "Sleep efficiency",
+              "(Total sleep time / total time in bed) x 100"
+            ],
+            [
+              "Multiple sleep latency test",
+              "Assesses daytime somnolence and daytime **REM** onset in narcolepsy"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dreaming occurs at all stages of sleep but content varies: in non-**REM** sleep dreams are thought-like (as if solving a problem); in **REM** sleep they may be illogical and bizarre.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Q43**: in a polysomnogram, the time from sleep onset to the first **REM** episode is about 90 minutes (explanation: sleep cycles of 90-110 min; first **REM** period may last 5-10 min, the last up to 40 min).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Normal sleep latency",
+          "note": "Notes define sleep latency but give no normal value. **Q40** explanation: normally about 15-20 minutes; more than 30 minutes can indicate insomnia.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 19,
+            "questionNumber": 40
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Actigraphy = motion sensor for sleep-wake patterns; PSG = EEG + EMG + EOG (+ECG, oximetry, respiration).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "PSG diagnoses sleep apnoea, narcolepsy, restless legs, REM behavioural disorder.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "REM latency normally about 90 min in adults.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Sleep efficiency = total sleep time / time in bed x 100.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "MSLT assesses daytime somnolence and sleep-onset REM in narcolepsy.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Non-REM dreams thought-like; REM dreams bizarre.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Normal adult REM latency",
+            "value": "about 90 minutes",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "sleep-architecture",
+      "title": "16. Physiology of sleep: architecture",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Average sleep length is about 7.5 hours per night, made up of **NREM** and **REM** phases.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "table",
+          "title": "NREM stages",
+          "columns": [
+            "Stage",
+            "Share of sleep",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Stage 1",
+              "==5%==",
+              "Drowsy; when awoken, one denies being asleep; low-voltage theta activity, sharp V waves"
+            ],
+            [
+              "Stage 2",
+              "==45%==",
+              "Sleep spindles and K complexes"
+            ],
+            [
+              "Stage 3",
+              "==12%==",
+              "<==50%== delta waves"
+            ],
+            [
+              "Stage 4",
+              "==13%==",
+              ">==50%== delta waves"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "==75%== of adult sleep is **NREM**. Physiological functions are markedly lower than in wakefulness (decreased muscle tone, respiration, temperature and heart rate). Stages 3 and 4 together constitute slow wave sleep (**SWS**), which dominates the initial part of sleep.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**NREM** features: increased parasympathetic activity (decreased heart rate, systolic blood pressure, respiratory rate, cerebral blood flow); abolition of tendon reflexes; upward ocular deviation with few or no movements.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**NREM** gives reduced recall of dreams if awoken. Sleep terror is an **NREM** disorder: afterwards children appear confused and do not recall what terrified them.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "==25%== of adult sleep is **REM**. Darting eye movements occur despite paralysis of other muscles; brain activity and physiological activity resemble wakefulness. **EEG**: low-voltage mixed-frequency (theta and slow alpha) activity, with sawtooth waves.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A typical night has five **NREM**/**REM** cycles; **REM** episodes lengthen as the night goes on.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**REM** features: increased sympathetic activity (increased heart rate, systolic blood pressure, respiratory rate, cerebral blood flow); active autonomic functions with penile erection or increased vaginal blood flow; increased protein synthesis; maximal loss of muscle tone with occasional myoclonic jerks; vivid dream recall (nightmares occur in **REM** and are well recollected).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In **REM** sleep behavioural disorder muscular paralysis does not occur, producing violent movements coinciding with brain activity.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "NREM vs REM sleep",
+          "columns": [
+            "Feature",
+            "NREM",
+            "REM"
+          ],
+          "rows": [
+            [
+              "Share of adult sleep",
+              "==75%==",
+              "==25%=="
+            ],
+            [
+              "Autonomic activity",
+              "Increased parasympathetic; **HR**, **BP**, respiration, cerebral blood flow decreased",
+              "Increased sympathetic; **HR**, **BP**, respiration, cerebral blood flow increased"
+            ],
+            [
+              "Muscle tone / reflexes",
+              "Decreased muscle tone; abolition of tendon reflexes",
+              "Maximal loss of muscle tone (atonia), occasional myoclonic jerks"
+            ],
+            [
+              "Dream recall",
+              "Reduced",
+              "Vivid"
+            ],
+            [
+              "Disorders named",
+              "Sleep terror",
+              "Nightmares; **REM** behavioural disorder"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "REM versus NREM questions seen in the bank",
+          "items": [
+            {
+              "text": "Increased dream recall is a **REM** feature; abolition of tendon reflexes, increased parasympathetic activity, reduced heart rate and reduced cerebral blood flow are **NREM** features.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 3
+              }
+            },
+            {
+              "text": "Slow wave sleep = stages 3 and 4 **NREM** (slow delta waves predominate).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "The **INCORRECT** **REM** statement is muscle tone similar to wake - **REM** has atonia (**EEG** like wake, rapid eye movements, penile erection, cardiac activity like wake are correct).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 32
+              }
+            },
+            {
+              "text": "Atonia is the characteristic of **REM** sleep; reduced dream recall, decreased heart rate, abolition of tendon reflexes and upward ocular deviation are not.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 20,
+                "questionNumber": 42
+              }
+            },
+            {
+              "text": "**REM** sleep predominates in neonates (about ==50%== of 16-20 hours of sleep).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 16,
+                "questionNumber": 33
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "REM = 25% of adult sleep; about 5 NREM/REM cycles per night, REM episodes lengthen.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "NREM = 75% of adult sleep: Stage 1 5%, Stage 2 45%, Stage 3 12%, Stage 4 13%; SWS = stages 3 and 4.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Stage 2: spindles and K complexes; Stage 3 <50% delta; Stage 4 >50% delta.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "NREM: parasympathetic, low HR/BP/RR/cerebral flow, tendon reflexes abolished, poor dream recall; sleep terror.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "REM: sympathetic, high HR/BP/cerebral flow, erection, atonia with myoclonic jerks, vivid dreams, nightmares.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "REM behavioural disorder: no paralysis, violent movements.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Stage 1",
+            "value": "5% of sleep",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "Stage 2",
+            "value": "45% of sleep",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "Stage 3",
+            "value": "12% of sleep",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "Stage 4",
+            "value": "13% of sleep",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "NREM share of adult sleep",
+            "value": "75%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "REM share of adult sleep",
+            "value": "25%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          9
+        ]
+      }
+    },
+    {
+      "id": "sleep-waveforms",
+      "title": "17. Physiology of sleep: brain activity patterns",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Sleep-specific waveforms",
+          "columns": [
+            "Pattern",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Sleep spindles",
+              "Upper alpha or lower beta frequency, seen in many stages but especially stage 2; initial rise in amplitude that decreases slowly; usually <1 second; symmetric; most obvious in parasagittal regions"
+            ],
+            [
+              "K complex",
+              "Large-amplitude delta frequency waves, sometimes with a sharp apex; throughout the brain but more prominent bifrontally; may be mediated by thalamocortical circuitry; usually symmetric; occur each time the patient is partially aroused; runs of generalised rhythmic theta sometimes follow (arousal burst)"
+            ],
+            [
+              "V waves",
+              "Sharp waves largest at the vertex bilaterally, usually symmetrical; multiple V waves especially in stage 2; often follow sleep disturbances such as brief sounds and, like K complexes, may occur in brief semiarousals"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "**Q27**: K complexes are seen in stage 2 sleep (K-complex and spindle are the hallmarks of **NREM** stage 2).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 27
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Spindles: upper alpha/lower beta, mainly stage 2, <1 s, parasagittal.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "K complexes: large delta waves, bifrontal, follow partial arousals; arousal burst = theta run after K complex.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "V waves: vertex sharp waves, mainly stage 2, may follow brief sounds.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Spindles and K complexes are stage 2 hallmarks.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "sleep-regulation",
+      "title": "18. Physiology of sleep: regulation and ageing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The master clock of the brain is the suprachiasmatic nucleus (**SCN**) in the anterior hypothalamus, orchestrating circadian rhythms and synchronised by retinal signals.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The **SCN** is reset daily by light: melanopsin-containing retinal ganglion cells project via the retinohypothalamic tract to the **SCN**, giving light input independent of vision. Without solar guidance the 24-hour cycle lengthens to about 26 hours (free-running).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Pineal **melatonin** secreted in darkness can also reset the **SCN**, so **melatonin** promotes sleep in delayed sleep onset or jet lag.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The ventrolateral preoptic nucleus (**VLPO**) is the sleep switch nucleus; it induces sleep by inhibiting the arousal nuclei, and **VLPO** damage causes chronic insomnia. **VLPO** must be inhibited for waking, through negative feedback from the monoaminergic system; the switch to arousal is stabilised by orexin (hypocretin) neurons in the hypothalamus, active mainly in wakefulness. Narcolepsy involves reduced orexin neurons and repeated daytime somnolence.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "type": "table",
+          "title": "Ascending reticular activating system neurotransmitters",
+          "columns": [
+            "Neurotransmitter",
+            "Cell bodies",
+            "Function"
+          ],
+          "rows": [
+            [
+              "Cholinergic",
+              "Midbrain-pons nuclei",
+              "**REM**-on neurons; activation brings on **REM** sleep"
+            ],
+            [
+              "Noradrenergic",
+              "Locus coeruleus",
+              "**REM**-off neurons; activation reduces **REM** sleep"
+            ],
+            [
+              "Dopaminergic",
+              "Periaqueductal gray matter",
+              "**D2** possibly enhances **REM** sleep"
+            ],
+            [
+              "Serotoninergic",
+              "Raphe nuclei",
+              "5HT2 stimulation possibly maintains arousal"
+            ],
+            [
+              "Histaminergic",
+              "Tuberomammillary nucleus",
+              "**H1** stimulation possibly maintains arousal"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Sleep and ageing",
+          "columns": [
+            "Age",
+            "Sleep pattern"
+          ],
+          "rows": [
+            [
+              "Newborns",
+              "About 16 hours a day; >==50%== in **REM**; sleep-onset **REM** seen"
+            ],
+            [
+              "3-4 months",
+              "**REM** falls to less than ==40%== of sleep; sleep entered through initial **NREM**"
+            ],
+            [
+              "Late teens",
+              "Adult pattern established; relatively constant until old age"
+            ],
+            [
+              "Old age",
+              "Absolute reduction in slow wave sleep and **REM**; more awakenings after sleep onset"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Regulation questions seen in the bank",
+          "items": [
+            {
+              "text": "The suprachiasmatic nucleus of the hypothalamus is the key regulator of the circadian sleep system.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 28
+              }
+            },
+            {
+              "text": "Orexin (hypocretin) neurons are dysfunctional in narcolepsy (loss of orexin neurons in the lateral hypothalamus).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 21
+              }
+            },
+            {
+              "text": "**Q51**: cholinergic stimulation is the answer for sleep onset (cholinergic **REM-ON** neurons in the tegmentum vs noradrenergic **REM-OFF** neurons in locus coeruleus firing reciprocally).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 23,
+                "questionNumber": 51
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "SCN (anterior hypothalamus) = master clock, reset by light via melanopsin retinal ganglion cells and retinohypothalamic tract; free-running about 26 hours.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Melatonin can reset SCN; helps delayed sleep onset and jet lag.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "VLPO = sleep switch; damage causes chronic insomnia; orexin neurons stabilise arousal; reduced in narcolepsy.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Cholinergic = REM-on; noradrenergic (locus coeruleus) = REM-off; 5HT2 and H1 maintain arousal.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Newborn 16 h/day with >50% REM; REM <40% by 3-4 months; adult pattern by late teens; elderly lose SWS and REM.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Newborn sleep",
+            "value": "about 16 hours/day, >50% REM",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          },
+          {
+            "label": "Free-running cycle",
+            "value": "about 26 hours",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 13
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "sleep-drugs",
+      "title": "19. Drugs and disorders affecting sleep",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Effects on sleep architecture",
+          "columns": [
+            "Disorder / drug",
+            "Changes"
+          ],
+          "rows": [
+            [
+              "Alcohol",
+              "Increases **SWS** (chronic use: loss of **SWS**); reduces initial **REM** but increases second-half **REM**"
+            ],
+            [
+              "Alcohol withdrawal",
+              "Loss of **SWS**; increased **REM**; intense **REM** rebound"
+            ],
+            [
+              "Anxiety disorders",
+              "Increased stage 1 sleep; reduced **REM** with normal **REM** latency; reduced slow wave sleep"
+            ],
+            [
+              "Benzodiazepines",
+              "Decrease sleep latency; increase sleep time; reduce stage 1; increase stage 2; reduce **REM** and **SWS**; **REM** rebound on cessation; prevent transition from stage 2 into deep stages 3 and 4"
+            ],
+            [
+              "Cannabis",
+              "Increases **SWS**; suppresses **REM**"
+            ],
+            [
+              "**Carbamazepine**",
+              "Suppresses **REM** and increases **REM** latency; increases **SWS**"
+            ],
+            [
+              "Dementia",
+              "Increased sleep latency and fragmentation; reduced sleep time"
+            ],
+            [
+              "Depression",
+              "Loss of **SWS** (first half); increased **REM** (leading to early awakening); reduced **REM** latency"
+            ],
+            [
+              "**Lithium**",
+              "Suppresses **REM** and increases **REM** latency; increases **SWS**"
+            ],
+            [
+              "Opiates",
+              "Decrease **SWS** and **REM**; **REM** rebound on withdrawal"
+            ],
+            [
+              "Schizophrenia",
+              "Inconsistent reduction in **REM** latency and slow wave sleep; antipsychotics have variable effects"
+            ],
+            [
+              "SSRIs",
+              "Alerting due to 5HT2 stimulation; may reduce **REM** latency; variable **REM** suppression"
+            ],
+            [
+              "Stimulants",
+              "Reduce sleep time by decreasing both **REM** and **SWS**; **REM** rebound on cessation (except **modafinil**)"
+            ],
+            [
+              "Tricyclics",
+              "**REM** suppression (especially **clomipramine**); increased **SWS** and stage 1 sleep"
+            ],
+            [
+              "Z hypnotics",
+              "Less effect on sleep architecture; **zopiclone** may increase **SWS**"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Drug-sleep questions seen in the bank",
+          "items": [
+            {
+              "text": "Benzodiazepines for insomnia: reduced stage 1 sleep (not increased **SWS**, not reduced stage 2, not increased **REM**, not reduced **REM** latency).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "**REM** rebound on cessation: **methylphenidate** (stimulant; **modafinil** is the exception).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 37
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Benzodiazepines: shorter latency, less stage 1, more stage 2, less REM and SWS, REM rebound on stopping.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Depression: reduced REM latency, increased REM, loss of first-half SWS.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Lithium and carbamazepine: suppress REM, raise REM latency, increase SWS.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Stimulants: reduce REM and SWS; REM rebound on cessation except modafinil.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Tricyclics suppress REM (esp. clomipramine); SSRIs alerting via 5HT2.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Alcohol withdrawal: intense REM rebound; loss of SWS.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 14
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "eeg-basics",
+      "title": "20. Neurophysiological measurements: EEG basics and waveforms",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**EEG** records brain electrical activity. In psychiatric practice it is primarily used to rule out seizures, monitor **ECT** and in polysomnography for sleep disorders.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Standard **EEG** uses 21 scalp electrodes placed by the 10/20 International System: distances between landmarks on the head are measured and electrodes placed at 10 or 20 percent of that distance in an anterior-posterior or transverse direction.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "table",
+          "title": "Activation procedures",
+          "columns": [
+            "Procedure",
+            "Note"
+          ],
+          "rows": [
+            [
+              "Strenuous hyperventilation",
+              "Most common, safe"
+            ],
+            [
+              "Photic stimulation",
+              "Intense strobe light"
+            ],
+            [
+              "24 hours sleep deprivation",
+              "Can activate paroxysmal discharges in some cases"
+            ],
+            [
+              "**EEG** during sleep (natural or sedative induced)",
+              "Can be used when the wake tracing is normal"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "EEG wave forms",
+          "columns": [
+            "Wave",
+            "Frequency",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Beta",
+              ">13 Hz",
+              "Some seen frontal/central in normal waking **EEG**"
+            ],
+            [
+              "Alpha",
+              "8 to 13 Hz",
+              "Dominant frequency with eyes closed and relaxed; occipitoparietal; disappears with anxiety, arousal, eye opening or focused attention; dominance reduces with age"
+            ],
+            [
+              "Theta",
+              "4 to 8 Hz",
+              "Small sporadic amount in waking **EEG** at frontotemporal area; prominent in drowsy or sleep **EEG**; excessive theta awake is pathological"
+            ],
+            [
+              "Delta",
+              "<4 Hz",
+              "Not seen in waking **EEG**; common in deeper sleep; focal/generalised delta awake is pathological"
+            ],
+            [
+              "Mu",
+              "7-11 Hz",
+              "Over the motor cortex; arch-like waves; attenuated by movement of the contralateral limb"
+            ],
+            [
+              "Lambda",
+              "Single waves",
+              "Single occipital triangular symmetrical sharp wave from visual scanning when awake or in light sleep"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "EEG waves in ascending frequency",
+          "mnemonic": "Don't Throw Away Bananas",
+          "expansion": [
+            "D - Delta (<4 Hz)",
+            "T - Theta (4 to 8 Hz)",
+            "A - Alpha (8 to 13 Hz)",
+            "B - Beta (>13 Hz)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
+          "text": "Beta and alpha are fast waves; theta and delta are slow waves.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "table",
+          "title": "EEG across development",
+          "columns": [
+            "Age",
+            "EEG"
+          ],
+          "rows": [
+            [
+              "Newborns",
+              "Dominant delta and theta waves"
+            ],
+            [
+              "Infants",
+              "Irregular medium- to high-voltage delta activity"
+            ],
+            [
+              "Early childhood",
+              "Alpha range develops in posterior areas"
+            ],
+            [
+              "Mid-adolescence",
+              "Adult appearance by 12-14 years"
+            ],
+            [
+              "Adults",
+              "Normal dominant alpha rhythm"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "EEG wave questions seen in the bank",
+          "items": [
+            {
+              "text": "Theta = 4 to 8 Hz (explanation also gives alpha 8-13 Hz, beta faster than 13 Hz, delta 3.5 Hz or less).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "Alpha is the trace expected with eyes closed during relaxation.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 18
+              }
+            },
+            {
+              "text": "Ongoing delta activity when awake is almost always abnormal in an awake adult; beta activity is not abnormal in adults.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 12
+              }
+            },
+            {
+              "text": "Infants have a dominant rhythm of about 3 Hz (delta).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 35
+              }
+            },
+            {
+              "text": "A 3-month-old with a normal awake **EEG** shows prominent delta and theta waves.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 22
+              }
+            },
+            {
+              "text": "Beta waves are more than 13 Hz (question has no explanation text).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "EEG yield in epilepsy and activation",
+          "note": "Notes do not give **EEG** yield in epilepsy. **Q1** explanation: outpatient **EEG** detects epileptiform abnormalities in only 29-==55%== of patients with focal epilepsy (answer 30-==50%== normal between attacks). **Q36** explanation: hyperventilation and photic stimulation are the two most commonly used activation techniques.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "EEG uses: rule out seizures, monitor ECT, polysomnography; 21 electrodes, 10/20 system.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Activation: hyperventilation (most common), photic stimulation, sleep deprivation, sleep recording.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Beta >13 Hz; alpha 8-13 Hz; theta 4-8 Hz; delta <4 Hz.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Alpha: eyes closed, relaxed, occipitoparietal; abolished by arousal/eye opening.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Awake delta or excess theta = pathology.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Adult EEG appearance by 12-14 years.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Beta",
+            "value": ">13 Hz",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "Alpha",
+            "value": "8 to 13 Hz",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "Theta",
+            "value": "4 to 8 Hz",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "Delta",
+            "value": "<4 Hz",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "Mu",
+            "value": "7-11 Hz",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 15
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "eeg-disorders",
+      "title": "21. EEG abnormalities in disorders",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "EEG in various disorders",
+          "columns": [
+            "Disorder",
+            "EEG finding"
+          ],
+          "rows": [
+            [
+              "Absence seizures (petit mal)",
+              "Regular 3 Hz complexes"
+            ],
+            [
+              "Alzheimer's dementia",
+              "Rarely normal in advanced dementia; may help differentiate pseudodementia from dementia"
+            ],
+            [
+              "Angelman's syndrome",
+              "Changes notable by age 2; prolonged runs of high-amplitude 2-3 Hz frontal activity with superimposed interictal epileptiform discharges at all ages; occipital high-amplitude rhythmic 4-6 Hz activity facilitated by eye closure under age 12; no difference with or without seizures"
+            ],
+            [
+              "Antisocial personality disorder",
+              "Increased incidence of **EEG** abnormalities in those with aggressive behaviour"
+            ],
+            [
+              "**ADHD**",
+              "Up to ==60%== have **EEG** abnormalities (spike/spike-waves)"
+            ],
+            [
+              "Borderline personality disorder",
+              "Positive spikes (14 and 6 per second) in ==25%== of patients"
+            ],
+            [
+              "**CJD**",
+              "Generalised periodic 1-2 Hz sharp waves in nearly ==90%== of sporadic **CJD**; less often in familial/hormonal transplant-related forms; **NOT** seen in variant form"
+            ],
+            [
+              "Closed head injuries",
+              "Focal slowing (sharply focal trauma); focal delta slowing (subdural haematomas)"
+            ],
+            [
+              "Diffuse atherosclerosis",
+              "Slowed alpha frequency and increased generalised theta slowing"
+            ],
+            [
+              "Herpes simplex encephalitis",
+              "Episodic discharges recurring every 1-3 seconds with variable focal waves over the temporal areas"
+            ],
+            [
+              "Huntington's dementia",
+              "Initial loss of alpha; later flattened trace"
+            ],
+            [
+              "Infantile spasms (tuberous sclerosis)",
+              "Hypsarrhythmia (diffuse high-voltage >400 microvolt giant waves with chaotic background of irregular asynchronous multifocal spikes and sharp waves); seizures associated with marked background suppression (electrodecremental response)"
+            ],
+            [
+              "Infectious disorders",
+              "Diffuse, often synchronous, high-voltage slowing (acute encephalitis)"
+            ],
+            [
+              "Metabolic and endocrine disorders",
+              "Diffuse generalised slowing; triphasic waves 1.5-3.0 per second high-voltage slow waves especially in hepatic encephalopathy"
+            ],
+            [
+              "Neurosyphilis",
+              "Non-specific diffuse increase in slow waves"
+            ],
+            [
+              "Panic disorder",
+              "Paroxysmal changes consistent with partial seizure activity in one-third; focal slowing in about ==25%=="
+            ],
+            [
+              "Seizures",
+              "Generalised, hemispheric or focal spike / spike-wave discharge"
+            ],
+            [
+              "Stroke",
+              "Focal or regional delta activity"
+            ],
+            [
+              "Structural lesions",
+              "Focal slowing / focal spike activity"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 16
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Diffuse slowing of background is the most common **EEG** abnormality; it is nonspecific and signifies encephalopathy. Focal slowing suggests local mass lesions (oedema, haematoma, focal seizure).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Interictal epileptiform discharges are a hallmark of seizure disorder but not a common finding; if lateralised and periodic they may suggest an acute destructive brain lesion.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "EEG disorder questions seen in the bank",
+          "items": [
+            {
+              "text": "Flattened trace = Huntington disease.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Regular 3 Hz complexes = absence seizures.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 11
+              }
+            },
+            {
+              "text": "1-2 Hz sharp wave pattern = **CJD**.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 19
+              }
+            },
+            {
+              "text": "Triphasic waves = hepatic encephalopathy (about half of triphasic wave patients; the rest other toxic-metabolic encephalopathies).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 25
+              }
+            },
+            {
+              "text": "Angelman syndrome **EEG** changes notable by age 2.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Subacute sclerosing panencephalitis EEG",
+          "note": "Not in the notes. **Q14**: high-amplitude repetitive bilaterally synchronous polyphasic sharp and slow wave complexes every 4-15 seconds indicate **SSPE** (periodic sharp-wave complexes or burst-suppression); distinguished from **CJD**, which also shows periodic discharges.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 14
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Absence: regular 3 Hz; CJD: generalised periodic 1-2 Hz (sporadic; not variant).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Hepatic/metabolic: triphasic waves 1.5-3 per second.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Huntington: loss of alpha then flat trace; infantile spasms: hypsarrhythmia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Angelman: changes by age 2; frontal 2-3 Hz runs; occipital 4-6 Hz under 12.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Herpes simplex encephalitis: temporal discharges every 1-3 s.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "Diffuse slowing is the commonest abnormality; focal slowing suggests mass lesion.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "eeg-drugs",
+      "title": "22. Effect of drugs on EEG",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Psychotropics",
+          "columns": [
+            "Drug",
+            "EEG effect"
+          ],
+          "rows": [
+            [
+              "Antipsychotics",
+              "Slowing of beta activity with increase in alpha, theta and delta activity"
+            ],
+            [
+              "Antidepressants",
+              "Slowing of beta activity with increase in alpha, theta and delta activity"
+            ],
+            [
+              "**Lithium**",
+              "Slowing of alpha or paroxysmal activity"
+            ],
+            [
+              "Anticonvulsants",
+              "No effect on awake **EEG**"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Primarily sedating drugs (decrease alpha)",
+          "columns": [
+            "Drug",
+            "EEG effect"
+          ],
+          "rows": [
+            [
+              "Barbiturates",
+              "Opposite to alcohol; increased beta on intoxication; generalised paroxysmal activity and spike discharges in withdrawal even without overt fits"
+            ],
+            [
+              "Benzodiazepines",
+              "Increased beta; decreased alpha; overdose gives diffuse slowing"
+            ],
+            [
+              "Opioids",
+              "Decreased alpha; increased voltage of theta and delta; slow waves in overdose"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Primarily recreational drugs (increase alpha)",
+          "columns": [
+            "Drug",
+            "EEG effect"
+          ],
+          "rows": [
+            [
+              "Alcohol",
+              "Increased alpha and theta; withdrawal increases beta; delirium tremens has fast beta activity, other deliria have increased slow waves"
+            ],
+            [
+              "Marijuana",
+              "Increased frontal alpha; overall slow alpha"
+            ],
+            [
+              "Cocaine",
+              "Same as marijuana; longer lasting"
+            ],
+            [
+              "Nicotine",
+              "Increased alpha; marked alpha decrease in withdrawal"
+            ],
+            [
+              "Caffeine",
+              "Withdrawal: increased theta amplitude"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "EEG drug questions seen in the bank",
+          "items": [
+            {
+              "text": "Benzodiazepines (and barbiturates) increase beta activity.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 19,
+                "questionNumber": 41
+              }
+            },
+            {
+              "text": "Antipsychotics (**sulpiride**): slowing of beta activity with increase in alpha, theta and delta.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+                "page": 21,
+                "questionNumber": 45
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "ECT and receptor changes",
+          "note": "Not in the notes. **Q10** explanation: after **ECT** series, post-synaptic beta-adrenergic receptors are downregulated (as with virtually all antidepressant treatments); effects on serotonergic neurons controversial.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 10
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Antipsychotics/antidepressants: slow beta, more alpha/theta/delta.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Anticonvulsants: no effect on awake EEG; lithium slows alpha or paroxysmal activity.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Benzodiazepines: more beta, less alpha; barbiturates: beta in intoxication, spikes in withdrawal.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Opioids: less alpha, more theta/delta.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Alcohol/marijuana/cocaine/nicotine raise alpha; alcohol withdrawal raises beta; DTs fast beta.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "meg-erp",
+      "title": "23. MEG and event-related potentials",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Magnetoencephalography (**MEG**) measures magnetic fields produced by brain electrical activity; magnetic fields are less distorted by the skull and scalp than electric fields.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Scalp **EEG** is sensitive to tangential and radial components of a current source; **MEG** detects only the tangential component, so it may selectively measure activity in the sulci, whereas **EEG** measures sulci and the tops of gyri.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "An **ERP** is a stereotyped change in electrical brain activity time-locked to an event (e.g. a stimulus; it can also occur for omission of an expected stimulus). ERPs are small relative to background **EEG** (low signal-to-noise ratio), so **ERP** averaging is often used.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "ERPs have polarity (P or N) and latency (moment of peak after the stimulus, often the number in the label). **EEG**, **MEG** and **ERP** have much higher temporal resolution than fMRI, **SPECT** and **PET** but lack the high spatial resolution of **MR** techniques.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "type": "table",
+          "title": "ERP classes by time of occurrence",
+          "columns": [
+            "Class",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Early ERPs",
+              "Study basic sensory pathways; also called evoked potentials (EPs) or brain stem evoked responses (**BAER**); to sounds (**AEP**), flashes (**VEP**) or electrical stimulation (**SEP**)"
+            ],
+            [
+              "Midlatency ERPs",
+              "Occur after **BAER**; **N100**, **P50** and **P200**; amplitudes reduce with repetition (habituation / sensory gating)"
+            ],
+            [
+              "Late ERPs",
+              "Study cognitive pathways (attention, emotion, memory tasks); **P300** and **MMN** are late ERPs"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**P300** is a positive late **ERP** around 300 ms after stimulus, generated when a rare target is embedded among frequent stimuli (auditory oddball); it relates to maintenance of working memory. Reduced **P300** amplitude is a well-established biological trait marker in schizophrenia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Mismatch negativity (**MMN**) is a negative **ERP** at 100-200 ms to low-probability deviant sounds in a standard sequence when the participant is not attending; best seen in the difference wave. It reflects involuntary auditory information processing - comparison with a memory trace; decreased **MMN** amplitude is noted in schizophrenia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Contingent negative variation (**CNV**) is a slow negative shift between two paired stimuli (**S1** cue, **S2** imperative stimulus). **CNV** reduction at central midline electrodes is noted in schizophrenia, especially with long illness duration and positive symptoms.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "type": "table",
+          "title": "ERP findings in schizophrenia",
+          "columns": [
+            "ERP",
+            "Finding"
+          ],
+          "rows": [
+            [
+              "**P300**",
+              "Decreased amplitude (trait marker)"
+            ],
+            [
+              "**MMN**",
+              "Decreased amplitude"
+            ],
+            [
+              "**CNV**",
+              "Reduced at central midline electrodes, esp. long illness with positive symptoms"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Magnetic stimulation (rTMS)",
+          "note": "Not in the notes. **Q16**: rTMS for depression uses coil placement over the left dorsolateral prefrontal cortex. **Q34** explanation: rTMS or tDCS may modulate abnormal sensorimotor networks in dystonia.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurophysiology Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 16
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "MEG: magnetic fields less distorted by skull; detects tangential sources only (sulci).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "ERP: time-locked, small, needs averaging; polarity and latency.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "EEG/MEG/ERP have high temporal but low spatial resolution vs fMRI/PET/SPECT.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Early (BAER/EPs), midlatency (N100, P50, P200; sensory gating), late (P300, MMN) ERPs.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "P300 (about 300 ms, oddball, working memory) reduced in schizophrenia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "MMN (100-200 ms, deviant sounds) decreased in schizophrenia; CNV reduced at central midline.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "P300 latency",
+            "value": "about 300 ms",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          },
+          {
+            "label": "MMN latency",
+            "value": "100-200 ms",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+              "page": 18
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          8
+        ]
+      }
+    }
+  ],
+  "mindMap": [
+    {
+      "label": "1. Action potentials",
+      "children": [
+        {
+          "label": "Initiated at axonal hillock when signals raise -70 mV to -55 mV threshold",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Na+ channels open at initial segment; potential reverses to +40 mV",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Na+ channels close, voltage-gated K+ channels open",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "K+ efflux repolarises the membrane",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "label": "2. Synaptic activity",
+      "children": [
+        {
+          "label": "Types: chemical, electrical, conjoint",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Excitatory depolarises; inhibitory hyperpolarises",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Facilitation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Spatial vs temporal summation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "label": "3. Neural basis of eating",
+      "children": [
+        {
+          "label": "Ventromedial = satiety; lateral = feeding",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Orexigenic: ghrelin, NPY",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Anorexigenic: leptin, CCK, serotonin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Ghrelin gastric; leptin adipose",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Accumbens dopamine; reduced striatal D2 in obesity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        }
+      ]
+    },
+    {
+      "label": "4. Neural basis of temperature regulation",
+      "children": [
+        {
+          "label": "Preoptic anterior = cooling centre",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Posterior = heating centre",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Malignant hyperthermia is muscle, not hypothalamic",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "NMS: neuroleptics / levodopa withdrawal",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        }
+      ]
+    },
+    {
+      "label": "5. Neural basis of pain",
+      "children": [
+        {
+          "label": "Thalamus perceives; cortex localises/interprets",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "C and A-delta fibres to dorsal horn",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Fast lateral spinothalamic vs slow reticulothalamic",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Opioid receptors and raphe serotonin modulate pain",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Thalamic pain syndrome (PCA)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "label": "6. Neural basis of thirst and ADH",
+      "children": [
+        {
+          "label": "SFO and OVLT",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Angiotensin II; baroreceptors",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "ADH water reabsorption",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "SIADH causes and findings",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "label": "7. Abnormalities in physiological drives",
+      "children": [
+        {
+          "label": "Kluver-Bucy",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Laurence-Moon-Biedl",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Prader-Willi",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Kleine-Levin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Psychogenic polydipsia",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "label": "8. Neurogenesis, neuronal migration and myelination",
+      "children": [
+        {
+          "label": "Subventricular zone neurogenesis",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Subplate neurons persist in some schizophrenia",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Adult neurogenesis: dentate gyrus, olfactory bulb",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Radial vs tangential migration",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Heterotopia",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Myelination timeline",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        }
+      ]
+    },
+    {
+      "label": "9. Synaptic pruning and cerebral plasticity",
+      "children": [
+        {
+          "label": "Synaptogenesis peak first 2 years",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "D2 density before age 5",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "D2 loss 2.2% vs 6.0% per decade",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Over-pruning schizophrenia; under-pruning autism",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Plasticity examples",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 6
+          }
+        }
+      ]
+    },
+    {
+      "label": "10. Neuroendocrinology: pituitary gland",
+      "children": [
+        {
+          "label": "Anterior and posterior hormone lists",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "GH excess/deficiency",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "Prolactin and antipsychotics",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "Vasopressin vs oxytocin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "Hypothalamic releasing hormones incl. PIF = dopamine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        }
+      ]
+    },
+    {
+      "label": "11. Neuroendocrinology: thyroid gland",
+      "children": [
+        {
+          "label": "HPT axis",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Blunted TRH response",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Thyroid augmentation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Lithium and hypothyroidism",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Hyper vs hypothyroid symptoms",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        }
+      ]
+    },
+    {
+      "label": "12. Neuroendocrinology: adrenal cortex and the HPA axis",
+      "children": [
+        {
+          "label": "CRH -> ACTH -> cortisol feedback loop",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Chronic stress and hippocampus",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Amygdala memory bias",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Peak cortisol 6-7 AM",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "High cortisol disorders vs low cortisol disorders",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        }
+      ]
+    },
+    {
+      "label": "13. Dexamethasone suppression test",
+      "children": [
+        {
+          "label": "Protocol",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Interpretation: failed feedback",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Sensitivity 40-50% / 60-70%",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Non-specific causes of non-suppression",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "False suppression: Addison, hypopituitarism, steroids, BZDs, indomethacin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "No antidepressant-response prediction",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Persistent non-suppression after recovery",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        }
+      ]
+    },
+    {
+      "label": "14. Pineal gland and endocrine changes with sleep",
+      "children": [
+        {
+          "label": "Pineal secretions",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Melatonin synthesis and regulation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Endocrine changes by sleep stage",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Circadian development",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        }
+      ]
+    },
+    {
+      "label": "15. Physiology of sleep: measurement",
+      "children": [
+        {
+          "label": "Actigraphy",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "PSG components and uses",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "REM latency about 90 min",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Sleep efficiency formula",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "MSLT",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Dream content by stage",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        }
+      ]
+    },
+    {
+      "label": "16. Physiology of sleep: architecture",
+      "children": [
+        {
+          "label": "Average sleep 7.5 hours",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "NREM stages and percentages",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "NREM features",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Sleep terror in NREM",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "REM features",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "REM behavioural disorder",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        }
+      ]
+    },
+    {
+      "label": "17. Physiology of sleep: brain activity patterns",
+      "children": [
+        {
+          "label": "Sleep spindles",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "K complex and arousal burst",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "V waves",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        }
+      ]
+    },
+    {
+      "label": "18. Physiology of sleep: regulation and ageing",
+      "children": [
+        {
+          "label": "SCN master clock",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Free-running about 26 h",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "VLPO and orexin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "REM-on/REM-off neurotransmitters",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Sleep across lifespan",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        }
+      ]
+    },
+    {
+      "label": "19. Drugs and disorders affecting sleep",
+      "children": [
+        {
+          "label": "Benzodiazepines",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Depression",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Lithium and carbamazepine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Stimulants",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Antidepressants",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Alcohol and opiates",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 14
+          }
+        }
+      ]
+    },
+    {
+      "label": "20. Neurophysiological measurements: EEG basics and waveforms",
+      "children": [
+        {
+          "label": "Uses and 10/20 system",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Activation procedures",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Waveform frequencies",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Mu and lambda",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Fast vs slow waves",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Development of EEG",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        }
+      ]
+    },
+    {
+      "label": "21. EEG abnormalities in disorders",
+      "children": [
+        {
+          "label": "Seizure and epilepsy patterns",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 16
+          }
+        },
+        {
+          "label": "CJD",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 16
+          }
+        },
+        {
+          "label": "Metabolic/hepatic triphasic waves",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 16
+          }
+        },
+        {
+          "label": "Dementias",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 16
+          }
+        },
+        {
+          "label": "Psychiatric disorders",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 16
+          }
+        },
+        {
+          "label": "General interpretation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        }
+      ]
+    },
+    {
+      "label": "22. Effect of drugs on EEG",
+      "children": [
+        {
+          "label": "Psychotropics",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Sedatives",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Recreational drugs",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Withdrawal effects",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        }
+      ]
+    },
+    {
+      "label": "23. MEG and event-related potentials",
+      "children": [
+        {
+          "label": "MEG",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "ERP basics",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "ERP classes",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "P300",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "MMN",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "CNV",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        }
+      ]
+    }
+  ]
+}

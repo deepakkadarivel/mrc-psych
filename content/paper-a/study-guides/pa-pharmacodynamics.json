@@ -1,0 +1,3386 @@
+{
+  "topic": "pa-pharmacodynamics",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "1. Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pharmacodynamics is the study of the mechanism of action of drugs (the effect of drugs on the body). Most psychotropics affect brain neurotransmitters, and this can occur at various levels of the neurotransmission cycle.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "table",
+          "title": "Level of action in the neurotransmission cycle",
+          "columns": [
+            "Level of action",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Synthesis",
+              "L-tryptophan, l-dopa"
+            ],
+            [
+              "Storage",
+              "Reserpine depletes **NA** and **DA**"
+            ],
+            [
+              "Release from storage",
+              "Amphetamine stimulates release of **NA** and **DA**"
+            ],
+            [
+              "Reuptake",
+              "**SSRI**, **TCA**, cocaine (dopamine reuptake); **bupropion** (dopamine and noradrenaline reuptake)"
+            ],
+            [
+              "Degradation",
+              "**MAO** inhibitors; acetylcholinesterase inhibitors e.g. **donepezil**"
+            ],
+            [
+              "Presynaptic receptors",
+              "**Clonidine**, lofexidine at alpha2"
+            ],
+            [
+              "Postsynaptic receptors",
+              "Most antipsychotics at **D2**"
+            ],
+            [
+              "Partial agonism",
+              "**Aripiprazole** - **D2**; **buspirone** - 5HT1A; **clonazepam** - **BDZ** receptor; **buprenorphine** - opioid receptor mu"
+            ],
+            [
+              "Antagonism",
+              "**Flumazenil** for benzodiazepines; antipsychotics at **D2**"
+            ],
+            [
+              "Full agonism",
+              "Benzodiazepines at **GABA-A** complex; bromocriptine for dopamine"
+            ],
+            [
+              "Second messengers",
+              "**Lithium** at inositol level"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The notes direct the reader to the Neurochemistry **SPMM** notes for more detail on the different neurotransmitters, their structure and receptor actions.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Enzymes that degrade dopamine and MAO substrates",
+          "note": "The notes list **MAO** inhibitors as acting at degradation but do not state which enzymes metabolise dopamine or the **MAO-A**/**MAO-B** substrates. **Q7** answers **MAO-B** and **COMT** for most body dopamine; its explanation says **MAO-A** preferentially deaminates serotonin and norepinephrine and **MAO-B** deaminates dopamine, histamine and phenylethylamines. **Q9** (answer: epinephrine, dopamine and serotonin) rests on the same explanation.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 4,
+            "questionNumber": 7
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Pharmacodynamics = mechanism of action of drugs (effect of drugs on the body).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Psychotropics act at different levels: synthesis, storage, release, reuptake, degradation, pre/postsynaptic receptors, second messengers.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Reserpine depletes NA and DA stores; amphetamine stimulates NA and DA release.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Reuptake: SSRI, TCA, cocaine; bupropion blocks dopamine and noradrenaline reuptake.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Degradation: MAO inhibitors and acetylcholinesterase inhibitors (e.g. donepezil).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Partial agonists: aripiprazole (D2), buspirone (5HT1A), clonazepam (BDZ receptor), buprenorphine (mu). Lithium acts at the inositol second messenger level.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "receptor-mechanisms",
+      "title": "2. Receptor mechanisms",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A drug receptor is the cellular component to which the drug binds and through which it initiates its pharmacodynamic effects. There are 2 major superfamilies: ionotropic and metabotropic receptors.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Ionotropic vs metabotropic receptors",
+          "columns": [
+            "Feature",
+            "Ionotropic",
+            "Metabotropic"
+          ],
+          "rows": [
+            [
+              "Nature",
+              "Ligand-gated ionic channels",
+              "Act through G-proteins that bind the intracellular portion of the receptor and activate a second messenger"
+            ],
+            [
+              "Effect",
+              "Rapid transient increase in membrane permeability to cations (sodium, calcium) or anions (chloride); excitation or inhibition of the postsynaptic membrane",
+              "Slower response; altered second messenger levels change the phosphorylation state of key proteins, making them active or inactive"
+            ],
+            [
+              "Examples",
+              "Nicotinic acetylcholine, **GABA-A**, glutamate receptors, serotonin 5HT3",
+              "Dopamine (**D1-5**), noradrenaline, serotonin 5HT1-7 except 5HT3, muscarinic acetylcholine, opioid (mu)"
+            ],
+            [
+              "Speed",
+              "Quick response (**GABA-A**, a benzodiazepine)",
+              "Comparatively slower (most antipsychotics, antidepressants)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A drug can be an agonist, which stimulates the biological activity of a receptor, or an antagonist, which inhibits it.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Full agonists produce a maximal response, measured against physiological neurotransmitter efficiency for the receptor. Partial agonists cannot elicit a maximal response and are less effective than full agonists (examples: **aripiprazole**, **buspirone**, **buprenorphine**); they have a ceiling effect.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The response to a partial agonist depends on availability of physiological neurotransmitter: when maximal dopamine is available, **aripiprazole** can inhibit dopaminergic transmission because a less efficient molecule competes with a more efficient one; in dopamine-deficient states the same partial agonist can enhance dopaminergic effects.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "An inverse agonist binds the same receptor but produces the opposite pharmacological effect. No clinical drug acts via this mechanism, but several have been researched, especially at the **GABA** complex. Antagonists interfere with receptor activation by neurotransmitter or other agonists.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "table",
+          "title": "Types of antagonism",
+          "columns": [
+            "Type",
+            "What the notes say",
+            "Example given"
+          ],
+          "rows": [
+            [
+              "Competitive",
+              "Can be reversed completely by increasing the agonist dose; reduces potency (minimal dose needed for an effect) but not efficacy (maximal response)",
+              "Atropine at muscarinic receptors; **propranolol** at beta-adrenergic receptors"
+            ],
+            [
+              "Noncompetitive",
+              "Alters the receptor site, so increasing the agonist dose reverses the effect only partially; reduces both potency and efficacy (shifts the curve right and reduces the maximum effect)",
+              "**Ketamine** and phencyclidine at **NMDA**"
+            ],
+            [
+              "Irreversible",
+              "Bind irreversibly to the target site",
+              "Most traditional MAOIs"
+            ],
+            [
+              "Pharmacological",
+              "Opposing action of two molecules acting via the same receptors",
+              "Not stated"
+            ],
+            [
+              "Physiological",
+              "Opposing action of two molecules acting via different receptors",
+              "Acetylcholine vs adrenergic actions"
+            ],
+            [
+              "Chemical",
+              "Opposing action of two molecules via chemical reactions; not seen in psychotropics",
+              "Heparin and protamine"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Most drugs bind reversibly and the response is proportional to the fraction of receptors occupied (law of mass action); as concentration rises the response rises until all receptors are occupied, giving a dose-response curve.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 4
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "With therapeutic use, agonists may cause down-regulation (desensitivity: reduced receptor numbers) while antagonists may have the opposite effect, up-regulation (hypersensitivity: increased receptor numbers).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 4
+          }
+        },
+        {
+          "type": "table",
+          "title": "Potency, affinity and efficacy",
+          "columns": [
+            "Term",
+            "Definition in the notes"
+          ],
+          "rows": [
+            [
+              "Potency ('vigor')",
+              "Amount of drug needed to produce a particular effect compared with a standard drug with a similar receptor profile. Determined by: (a) proportion of drug reaching the receptor, (b) affinity for the receptor, (c) efficacy"
+            ],
+            [
+              "Affinity ('affection')",
+              "Ability of the drug to bind its appropriate receptor; the higher the affinity and the more receptors occupied, the more potent the drug generally is"
+            ],
+            [
+              "Efficacy ('productivity')",
+              "How well the drug produces the expected response, i.e. the maximum clinical response; depends on affinity, potency, duration of receptor action in some cases and kinetic properties such as half-life"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 4
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Haloperidol** is more potent than **chlorpromazine**: about 5 mg of **haloperidol** achieves the same effect as 100 mg of **chlorpromazine**. They are comparable in maximal clinical response, i.e. equally efficacious but not equipotent.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Q27** describes drug X giving improvement at 10 mg and drug Y giving the same improvement at 20 mg; the correct answer is that X and Y are equally efficacious (same maximal response), the explanation defining efficacy as how well the drug produces the expected response. The dose difference is a potency difference, not an efficacy one.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 14,
+            "questionNumber": 27
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**Q46** gives a non-competitive **NMDA** antagonist (drug A) and asks what happens if glutamate availability is raised: the effect of drug A is only partially reversed, because noncompetitive antagonism reduces both potency and efficacy of agonists. Do not choose full reversal (that is competitive antagonism).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 22,
+            "questionNumber": 46
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Agonists mimic endogenous transmission",
+          "note": "**Q24** (answer: agonists) explanation states that an agonist binds a specific receptor producing an effect identical to the neurotransmitter, and drugs are often designed as agonists when the original neurotransmitter is missing or diminished. The notes define agonists only as stimulating receptor activity.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 12,
+            "questionNumber": 24
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Two receptor superfamilies: ionotropic (ligand-gated channels, quick) and metabotropic (G-protein, slower).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Ionotropic examples: nicotinic ACh, GABA-A, glutamate, 5HT3. Metabotropic: D1-5, noradrenaline, 5HT1-7 except 5HT3, muscarinic, mu opioid.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Partial agonist: submaximal response, ceiling effect; acts as inhibitor when full neurotransmitter is plentiful and as enhancer in deficiency (aripiprazole).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Inverse agonist: opposite effect; no clinical drug uses it.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Competitive antagonism: reversed fully by more agonist; lowers potency, not efficacy. Non-competitive: only partial reversal; lowers potency and efficacy.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Chronic agonist use may down-regulate receptors; antagonists may up-regulate them.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Haloperidol 5 mg = chlorpromazine 100 mg: more potent but equally efficacious.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Haloperidol equivalent to chlorpromazine 100 mg",
+            "value": "5 mg",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          6,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "id": "antipsychotics",
+      "title": "3. Modes of therapeutic action for psychotropics: antipsychotic drugs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In general all antipsychotics act via varying degrees of **D2** blockade. Atypical drugs show selectivity for **D2** receptors and a high 5HT2:**D2** blocking ratio.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 6
+          }
+        },
+        {
+          "type": "table",
+          "title": "Antipsychotic mechanisms by drug",
+          "columns": [
+            "Drug",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "**Amisulpride**",
+              "**D2** and **D3** antagonism; dose-dependent pre- and postsynaptic profile similar to **sulpiride**; some limbic selectivity; 5HT7 activity also noted"
+            ],
+            [
+              "**Aripiprazole**",
+              "Partial dopamine agonist at **D2**; also 5HT2A antagonist. 'Goldilocks' stabilising action: antagonises **DA** where it is excessive (mesolimbic) and mimics **DA** at deficient sites (mesocortical, linked to negative symptoms); little change in tuberoinfundibulum. Acts on postsynaptic **D2** receptors and presynaptic autoreceptors"
+            ],
+            [
+              "**Asenapine**",
+              "**D2** antagonist and 5HT2A blocker (similar to **olanzapine**); potent alpha-2 blockade; sublingual; allegedly weight and prolactin-neutral; licensed for mania"
+            ],
+            [
+              "**Chlorpromazine**, promazine",
+              "Moderate antimuscarinic effect in addition to **D2** blockade; highly sedative phenothiazines"
+            ],
+            [
+              "**Clozapine**",
+              "High 5HT2 to **D2** blockade ratio; also blocks **D4** and 5HT6; notable alpha 1 antagonism, anticholinergic and antihistaminic properties; weak **D1** and **D2** affinity; also binds 5HT3; proposed faster dissociation rate (like **quetiapine**), a 'hit and run' profile"
+            ],
+            [
+              "**Lurasidone**",
+              "**D2** antagonist and 5HT2A blocker (similar to **risperidone**); high affinity for 5HT7; partial agonist at 5HT1A; minimal affinity for alpha-1 (less orthostatic effect) and histamine receptors (thus may be weight neutral)"
+            ],
+            [
+              "**Olanzapine**",
+              "Atypical; high 5HT2/**D2** blockade ratio; potent **D4** and 5HT6 blockade; significant anticholinergic and some antihistaminic effects"
+            ],
+            [
+              "**Paliperidone**",
+              "A metabolite of **risperidone**; similar mechanism"
+            ],
+            [
+              "**Quetiapine**",
+              "Similar to **clozapine** - hit and run profile on **D2**; somewhat lesser 5HT2A blockade than other atypicals; significant anticholinergic effects similar to **olanzapine**"
+            ],
+            [
+              "**Risperidone**",
+              "Serotonin-dopamine antagonist; high 5HT2A antagonism; at higher therapeutic doses binds **D2** like typicals, leading to extrapyramidal and prolactin-related side effects"
+            ],
+            [
+              "**Sulpiride**",
+              "Pure **D2** antagonist; at low doses presynaptic receptors blocked (helps negative symptoms?); above 800 mg/day affects postsynaptic **D2**, reducing positive symptoms"
+            ],
+            [
+              "Thioridazine, pericyazine, **pipotiazine**",
+              "**D2** antagonists; marked antimuscarinic effect; fewer EPSEs than other typicals"
+            ],
+            [
+              "Thioxanthenes",
+              "Exhibit stereoisomerism; **D2** antagonists - typical antipsychotics"
+            ],
+            [
+              "**Ziprasidone**",
+              "Atypical with 5HT2A and **D2** blockade; antagonises 5HT1D, 5HT2C, **D3**, **D4**; poor muscarinic affinity; some antihistaminic property; agonistic at 5HT1A; some serotonin and norepinephrine reuptake inhibition"
+            ],
+            [
+              "Zotepine",
+              "Atypical with 5HT2A, 5HT2C, **D1**, **D2**, **D3**, **D4** antagonism; potent noradrenaline reuptake inhibitor; potent antihistaminic activity; some **NMDA** antagonism"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Receptor-profile statements: notes vs question bank",
+          "columns": [
+            "Point",
+            "Notes",
+            "Question bank"
+          ],
+          "rows": [
+            [
+              "**Quetiapine** 5HT2/**D2** profile",
+              "Hit and run profile on **D2**; somewhat lesser 5HT2A blockade than other atypicals",
+              "**Q32** explanation: some argue **quetiapine** has low **D2**/low 5HT2 activity"
+            ],
+            [
+              "**Clozapine** ratio",
+              "High 5HT2 to **D2** blockade ratio; weak **D1** and **D2** affinity",
+              "**Q32** explanation: low **D2**/high 5HT2 is specific to **clozapine**"
+            ],
+            [
+              "**Risperidone** / **haloperidol**",
+              "**Risperidone** has high 5HT2A antagonism and binds **D2** like typicals at higher doses",
+              "**Q32** (answer **risperidone**): **haloperidol** is high **D2**/low 5HT2; high **D2**/high 5HT2 is characteristic of **olanzapine**, **risperidone** and loxapine"
+            ],
+            [
+              "**Sulpiride** vs **amisulpride**",
+              "**Sulpiride**: pure **D2** antagonist; **amisulpride**: **D2** and **D3** antagonism",
+              "**Q47** (answer **sulpiride**): **sulpiride** is a predominant **D2** antagonist with minimal **D3** antagonist/partial agonist actions; **amisulpride** is **D2**/**D3**"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            },
+            {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+              "page": 16,
+              "questionNumber": 32
+            },
+            {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+              "page": 23,
+              "questionNumber": 47
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Antipsychotic questions seen in the bank",
+          "items": [
+            {
+              "text": "**Q4**: the therapeutic effect of conventional antipsychotics is mainly mesolimbic **D2** blockade. Mesocortical blockade produces or worsens negative symptoms, nigrostriatal blockade causes EPSEs, and tuberoinfundibular blockade (see **Q30**) raises prolactin.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 2,
+                "questionNumber": 4
+              }
+            },
+            {
+              "text": "**Q18**: **amisulpride** is the atypical antipsychotic among **fluphenazine**, promazine, **chlorpromazine**, amoxapine and **amisulpride**; its explanation gives selective, equipotent **D2**/**D3** antagonism with dose-dependent EPSEs and prolactinaemia at higher doses.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 9,
+                "questionNumber": 18
+              }
+            },
+            {
+              "text": "**Q28** and **Q17** pair: **aripiprazole** is the partial **D2** agonist (also a 5-**HT1A** partial agonist and 5-**HT2A** antagonist), whereas **buspirone** is the 5HT1A partial agonist.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 14,
+                "questionNumber": 28
+              }
+            },
+            {
+              "text": "**Q30**: tuberoinfundibular dopamine neurons inhibit prolactin release, so blocking this pathway raises prolactin.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 15,
+                "questionNumber": 30
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "All antipsychotics act via varying degrees of D2 blockade; atypicals have a high 5HT2:D2 blocking ratio.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Aripiprazole: partial D2 agonist plus 5HT2A antagonist; Goldilocks stabilising action (antagonist in mesolimbic, agonist in mesocortical).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Clozapine and quetiapine: faster dissociation, 'hit and run' profile; clozapine has high 5HT2:D2 ratio and weak D1/D2 affinity.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Sulpiride: pure D2 antagonist; low doses presynaptic (negative symptoms?), above 800 mg/day postsynaptic (positive symptoms). Amisulpride: D2 and D3 antagonist.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Risperidone at higher doses binds D2 like typicals, giving EPSEs and prolactin effects.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Thioridazine, pericyazine, pipotiazine: marked antimuscarinic effect, fewer EPSEs than other typicals; chlorpromazine and promazine are highly sedative.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Zotepine: potent noradrenaline reuptake inhibitor and antihistaminic; ziprasidone agonistic at 5HT1A with some SNRI action.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "antidepressants",
+      "title": "4. Modes of therapeutic action for psychotropics: antidepressant drugs and lithium",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Antidepressant mechanisms by drug",
+          "columns": [
+            "Drug",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "**Agomelatine**",
+              "Enhances norepinephrine and dopamine neurotransmission through 5HT2C antagonism (a norepinephrine and dopamine disinhibitor, **NDDI**); also a direct agonist at **melatonin** **MT1** and **MT2** receptors; antidepressant with possible sedative effects"
+            ],
+            [
+              "Amoxapine",
+              "Tetracyclic (dibenzoxazepine); dopamine antagonism plus serotonin-noradrenaline reuptake inhibition, so claimed to have antipsychotic properties; extrapyramidal side effects more often than other tricyclics"
+            ],
+            [
+              "**Bupropion**",
+              "Dopamine and noradrenaline reuptake inhibitor; used for smoking cessation and depression; no antimuscarinic activity; some competitive nicotinic antagonism"
+            ],
+            [
+              "**Buspirone**",
+              "Partial agonist at 5HT1A; presynaptically mostly a full agonist inhibiting serotonin release (antianxiety effect); postsynaptic partial agonism appears to account for antidepressant activity"
+            ],
+            [
+              "**Citalopram**",
+              "**SSRI**, most selective of all SSRIs for serotonin reuptake; racemic mixture of which the s isomer is active but the r enantiomer inhibits it, so a lesser dose of **escitalopram** (s) is sufficient"
+            ],
+            [
+              "**Clomipramine**",
+              "Tricyclic regarded as most potent; higher **SRI** selectivity than other TCAs but lesser than SSRIs"
+            ],
+            [
+              "Desipramine",
+              "Tricyclic with least anticholinergic action but lethal on overdose"
+            ],
+            [
+              "**Duloxetine**",
+              "**SNRI** similar to **venlafaxine**; said to have a better profile for psychosomatic and neuropathic pain"
+            ],
+            [
+              "Levothyroxine and liothyronine",
+              "Levothyroxine is **T4**, liothyronine is **T3**; thyroid hormones that suppress **TSH** and act as adjuvant in resistant depression; exact antidepressant mechanism unknown, possibly neuroendocrine"
+            ],
+            [
+              "Milnacipran",
+              "**SNRI** similar to **venlafaxine**; levomilnacipran acts similarly"
+            ],
+            [
+              "**Mirtazapine**",
+              "5HT2A antagonism, alpha 2 antagonism, antihistaminic and anti-5HT3 properties; **mianserin** has a similar profile but is not antihistaminic and has anticholinergic properties instead"
+            ],
+            [
+              "**Moclobemide**",
+              "Reversible inhibitor of **MAO-A**, selectively"
+            ],
+            [
+              "**Nefazodone**",
+              "5HT2 antagonist with some serotonin and mild norepinephrine reuptake inhibition; some alpha 1 antagonism; produces mCPP as a metabolite"
+            ],
+            [
+              "**Paroxetine**",
+              "**SSRI**, most potent in serotonin reuptake blockade but not specific; significant antimuscarinic action"
+            ],
+            [
+              "**Phenelzine**",
+              "**MAOI**; increased availability of monoamines including serotonin and noradrenaline may explain antidepressant action, though disputed"
+            ],
+            [
+              "Pindolol",
+              "Beta blocker with intrinsic sympathomimetic activity; also 5HT1A antagonism, tipped to enhance the onset of action of SSRIs"
+            ],
+            [
+              "**Reboxetine**",
+              "Noradrenergic specific reuptake inhibitor (**NARI**)"
+            ],
+            [
+              "Selegiline",
+              "**MAOI** selective for B at normal therapeutic doses; selectivity lost when a patch is applied at higher doses, giving some antidepressant action"
+            ],
+            [
+              "SSRIs",
+              "Reuptake inhibition at somatodendritic areas soon after administration down-regulates somatic autoreceptors for serotonin, so inhibitory tone is lost and serotonergic output is facilitated"
+            ],
+            [
+              "**Tranylcypromine**",
+              "**MAOI**; irreversible, non-selective; positive enantiomer is the better **MAOI**, negative enantiomer the better reuptake inhibitor"
+            ],
+            [
+              "**Trazodone**",
+              "5HT2A/2C antagonism and some alpha 2 blockade; alpha 1 blockade and antihistaminic properties; feeble reuptake inhibition at serotonin transporters"
+            ],
+            [
+              "Tricyclics",
+              "Monoamine reuptake inhibition with varying degrees of noradrenaline and serotonin reuptake inhibition; negligible effect on dopamine; **clomipramine** is the most serotonin specific; secondary amines are more noradrenergic"
+            ],
+            [
+              "**Venlafaxine**",
+              "**SNRI**; acts as an **SSRI** at lower (<150 mg) doses"
+            ],
+            [
+              "Vilazodone",
+              "Mechanism not fully understood: selective serotonin reuptake inhibition plus partial agonist action at 5HT1A (structure close to **trazodone** and **nefazodone**)"
+            ],
+            [
+              "**Vortioxetine**",
+              "Structure similar to **reboxetine** but predominantly **SSRI**-like; also 5HT3 antagonism and 5HT1A agonism"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 8
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Lithium** is thought to act via the second messenger system. It putatively enhances serotonin transmission by (1) increasing tryptophan uptake into neurons, (2) enhancing serotonin release and (3) downregulation of 5HT1A, 1B and 2 receptor subtypes on chronic administration.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Lithium** also (4) directly inhibits glycogen synthase kinase-3 (**GSK-3**) and (5) competes with magnesium directly at regulatory enzymes such as inositol-monophosphatase (IMPase), which catalyses the inositol second messenger system.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Inositol depletion hypothesis: inhibition of IMPase by **lithium** reduces myoinositol and phosphoinositide phosphate (**PIP-2**), leading to therapeutic efficacy. Through an increase in intracellular sodium it may also affect the Na+K+ pump and reduce dopamine synthesis in a dose-dependent fashion.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "table",
+          "title": "Selectivity of antidepressants (concentration ratio for equivalent inhibition of serotonin to noradrenaline)",
+          "columns": [
+            "Drug",
+            "Ratio"
+          ],
+          "rows": [
+            [
+              "**Amitriptyline**",
+              "1:1"
+            ],
+            [
+              "**Clomipramine**",
+              "1:7"
+            ],
+            [
+              "**Fluoxetine**",
+              "150:1"
+            ],
+            [
+              "**Citalopram**",
+              ">2000:1"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Mechanism of TCA action vs SSRI action (step order as given in the notes' flow diagrams)",
+          "columns": [
+            "Step",
+            "TCA (noradrenaline)",
+            "SSRI (serotonin)"
+          ],
+          "rows": [
+            [
+              "1",
+              "Inhibition of nerve terminal **NE** neuronal uptake system",
+              "5HT reuptake inhibition at somatodendritic areas"
+            ],
+            [
+              "2",
+              "Increase in synaptic concentrations of **NE**",
+              "Increase in local concentrations of 5HT"
+            ],
+            [
+              "3",
+              "Desensitization of inhibitory alpha2-adrenoceptors in the terminal",
+              "Desensitisation of inhibitory 5HT1A autoreceptors in the soma"
+            ],
+            [
+              "4",
+              "Increase in neuronal **NE** release",
+              "Increase in neuronal 5HT release"
+            ],
+            [
+              "5",
+              "Further increase in synaptic concentrations of **NE**",
+              "Increase in synaptic concentrations of 5HT"
+            ],
+            [
+              "6",
+              "Desensitization of postsynaptic beta adrenoceptors without affecting postsynaptic alpha1 sensitivity",
+              "Desensitization of presynaptic 5HT1B receptors without affecting postsynaptic 5HT1A sensitivity"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Antidepressant questions seen in the bank",
+          "items": [
+            {
+              "text": "**Q6**: chronic (2-4 weeks) tricyclic/antidepressant administration down-regulates beta-adrenergic receptors; this is not seen after acute or single doses.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 3,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "**Q12**: **reboxetine** is the noradrenaline reuptake inhibitor in the option list.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 6,
+                "questionNumber": 12
+              }
+            },
+            {
+              "text": "**Q14**: **buspirone** acts on the 5HT1A receptor (partial agonist, pre- and postsynaptic).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 7,
+                "questionNumber": 14
+              }
+            },
+            {
+              "text": "**Q22**: **trazodone** is classified as a **SARI** (blocks 5HT2A/2C receptors and the serotonin transporter); the correct option describes it as a mixed serotonin antagonist/agonist, as it acts like two different drugs depending on dose and formulation.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 11,
+                "questionNumber": 22
+              }
+            },
+            {
+              "text": "**Q44**: sedation of **mirtazapine** at a low dose (7.5 mg) is most likely via histamine type 1 receptors, because at lower plasma concentrations **mirtazapine** has higher affinity for histamine than serotonergic receptors.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 21,
+                "questionNumber": 44
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Sedative tricyclics",
+          "note": "Not in the notes. **Q1** (answer dothiepin): **amitriptyline** and dothiepin are more sedative TCAs; **clomipramine**, **imipramine**, **nortriptyline** and **lofepramine** are less sedative.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Stimulant tricyclic",
+          "note": "The notes say only that desipramine has least anticholinergic action but is lethal in overdose. **Q23** (answer desipramine): it has a stimulant effect and is the **TCA** with most evidence for use in **ADHD**.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 12,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Antidepressant combinations",
+          "note": "Not in the notes. **Q16** (answer **amitriptyline**): comparatively safe adjunct to MAOIs per the question; **Q39** (answer add **mirtazapine**): the alpha-2 antagonist **mirtazapine** is often combined with SNRIs such as **venlafaxine** ('California rocket fuel').",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 8,
+            "questionNumber": 16
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "CYP450 inhibition by SSRIs",
+          "note": "Not in the notes. **Q48** (answer **citalopram**): **citalopram** and **escitalopram** are very weak inhibitors of **CYP** 1A2 and 2D6, while **fluoxetine**, **fluvoxamine** and **paroxetine** are potent inhibitors of several hepatic cytochrome enzymes.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 23,
+            "questionNumber": 48
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Reboxetine = NARI; moclobemide = reversible MAO-A inhibitor; tranylcypromine = irreversible non-selective MAOI; selegiline = MAO-B selective at normal doses.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Citalopram most selective SSRI (s isomer active, so escitalopram needs lower dose).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Paroxetine is the most potent SSRI at serotonin reuptake blockade but not specific, with significant antimuscarinic action.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Agomelatine: 5HT2C antagonist (NDDI) plus MT1/MT2 melatonin agonist.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Mirtazapine: 5HT2A antagonism, alpha 2 antagonism, antihistaminic and anti-5HT3 properties.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Lithium: second messenger action; increases tryptophan uptake and serotonin release, down-regulates 5HT1A/1B/2, inhibits GSK-3 and IMPase (inositol depletion hypothesis).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Chronic TCA effect: desensitization of postsynaptic beta adrenoceptors without altering alpha1; SSRI: desensitization of somatodendritic 5HT1A autoreceptors and presynaptic 5HT1B.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Venlafaxine acts as an SSRI below 150 mg; clomipramine is the most serotonin-specific TCA; TCAs have negligible dopamine effect.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Amitriptyline 5-HT:NE inhibition ratio",
+            "value": "1:1",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Clomipramine",
+            "value": "1:7",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Fluoxetine",
+            "value": "150:1",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Citalopram",
+            "value": ">2000:1",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "mood-stabilisers",
+      "title": "5. Modes of therapeutic action for psychotropics: mood stabilisers",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Mood stabiliser and anticonvulsant mechanisms by drug",
+          "columns": [
+            "Drug",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "**Carbamazepine**",
+              "Prolongs sodium channel inactivation (and so calcium channel inactivation); reduces glutamate neurotransmission; adenosine **A1** antagonism; increases brain catecholamine activity; inhibits peripheral benzodiazepine receptors; reduces limbic kindling; interferes with glial cell steroidogenesis"
+            ],
+            [
+              "**Gabapentin**",
+              "**GABA** analogue structurally; binds the alpha2delta subunit of the voltage-dependent calcium channel; acts on l-amino acid transport and can increase **GABA** availability; crosses **BBB** via l-**AA** transport; high-affinity site in **GABA-A** complex but no benzodiazepine-like actions"
+            ],
+            [
+              "**Lamotrigine**",
+              "Blocks voltage-sensitive sodium channels, modulating glutamate and aspartate release; some effect on calcium channels; some inhibition of serotonin reuptake and weak inhibition of 5HT3"
+            ],
+            [
+              "Levetiracetam",
+              "Indirectly enhances the **GABA** system; anticonvulsant with weak evidence against mania"
+            ],
+            [
+              "**Oxcarbazepine**",
+              "A metabolite of **carbamazepine**; similar mechanisms proposed"
+            ],
+            [
+              "**Pregabalin**",
+              "**GABA** analogue (similar to **gabapentin**); binds alpha2delta subunit of the voltage-dependent calcium channel; may influence GABAergic neurotransmission; anti-epileptic, analgesic (neuropathic pain) and anxiolytic effects; more potent than **gabapentin**, hence higher therapeutic index and fewer dose-related side effects"
+            ],
+            [
+              "**Tiagabine**",
+              "Potent and selective reuptake inhibitor of **GABA**; mild antihistaminic effects"
+            ],
+            [
+              "**Topiramate**",
+              "Fructose derivative; selective inhibitor of glutamate **AMPA** receptors; blocks Na+ receptors; indirect GABAergic activity by potentiating **GABA-A**"
+            ],
+            [
+              "Valproic acid",
+              "Unknown - speculated: increased **GABA** release, decreased **GABA** metabolism, increased neuronal responsiveness to **GABA**, increased **GABA** receptor density, inhibition of phosphokinase C like **lithium**, functional dopamine antagonism"
+            ],
+            [
+              "**Vigabatrin**",
+              "Vi-**GABA-TR**: **GABA**-transaminase inhibitor; the name explains the mode of action"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Valproate mechanism: notes vs question bank",
+          "columns": [
+            "Source",
+            "Statement"
+          ],
+          "rows": [
+            [
+              "Notes",
+              "Unknown - speculated to act via increased **GABA** release, decreased **GABA** metabolism, increased neuronal responsiveness to **GABA**, increased **GABA** receptor density, inhibition of phosphokinase C similar to **lithium** and functional dopamine antagonism"
+            ],
+            [
+              "Question bank (**Q3**, answer **GABA** potentiation)",
+              "Mechanism complex and not fully understood: inhibits catabolism of **GABA** (enhancing **GABA** activity), reduces turnover of arachidonic acid, activates the extracellular signal-regulated kinase pathway, interferes with intracellular signalling, promotes **BDNF** expression and reduces protein kinase C levels"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            },
+            {
+              "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+              "page": 2,
+              "questionNumber": 3
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Drugs not suitable for acute mania",
+          "note": "The notes give only mechanisms (and say levetiracetam has weak evidence against mania). **Q15** (answer **topiramate**): meta-analysis does not support **lamotrigine**, **gabapentin** or **topiramate** for acute mania.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 8,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Predictors of lithium response",
+          "note": "Not in the notes. **Q26** (answer rapid cycling): rapid cycling (four or more episodes in 12 months) is generally less responsive to drug treatment; **lithium** is gold standard for classical course.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 13,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Gabapentin as antiepileptic",
+          "note": "The notes call **gabapentin** a **GABA** analogue acting on the alpha2delta subunit without naming its antiepileptic use. **Q31** (answer **gabapentin**): it was first introduced as an antiepileptic and also has sedative effects and benefit in neuropathic pain.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 15,
+            "questionNumber": 31
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Carbamazepine prolongs sodium (and calcium) channel inactivation, reduces glutamate transmission, reduces limbic kindling; oxcarbazepine is its metabolite.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Gabapentin and pregabalin: GABA analogues binding the alpha2delta subunit of voltage-dependent calcium channels; pregabalin more potent with higher therapeutic index.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Lamotrigine blocks voltage-sensitive sodium channels, modulating glutamate/aspartate release.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Tiagabine = GABA reuptake inhibitor; vigabatrin = GABA-transaminase inhibitor; levetiracetam indirectly enhances GABA with weak evidence against mania.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Topiramate: inhibits glutamate AMPA receptors, blocks sodium channels, potentiates GABA-A.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Valproate mechanism unknown; speculated GABA effects, PKC inhibition like lithium, functional dopamine antagonism.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "sedatives-hypnotics",
+      "title": "6. Modes of therapeutic action for psychotropics: sedatives and hypnotics",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Sedative and hypnotic mechanisms by drug",
+          "columns": [
+            "Drug",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Benzodiazepines",
+              "Act at the omega site on the **GABA-A** complex; all agonists except **clonazepam** (partial agonist); facilitate **GABA** action (inhibition via chloride ions); no direct agonist action without **GABA**; increase the frequency and duration of chloride channel opening, not the number"
+            ],
+            [
+              "Chloral hydrate, paraldehyde, meprobamate",
+              "Barbiturate-like agents, probably potentiate GABAergic neurotransmission; paraldehyde is a cyclic ether; poor safety profile, none in clinical use"
+            ],
+            [
+              "**Flumazenil**",
+              "Benzodiazepine antagonist"
+            ],
+            [
+              "Ramelteon",
+              "**Melatonin** receptor full agonist, high affinity and selectivity for **MT1** and **MT2** over **MT3**; decreases sleep latency, increases sleep time; flat dose-response curve (no difference between 16 mg and 64 mg); may have lower abuse potential than other hypnotics"
+            ],
+            [
+              "Thiopental (barbiturates)",
+              "Act directly on **GABA-A**, opening chloride channels and enhancing hyperpolarisation; at lower doses decrease the rate of **GABA** dissociation and increase the duration (not number) of **GABA**-activated chloride channel opening; at slightly higher concentrations directly open chloride channels even without **GABA**, which benzodiazepines do not"
+            ],
+            [
+              "**Zolpidem**, zaleplon, **zopiclone**, eszopiclone (Z-drugs)",
+              "Act via **GABA-A** but differently from benzodiazepines: benzodiazepines occupy all 3 subunits of the omega receptor, Z-drugs only certain subunits; **zolpidem** and **zopiclone** act on omega1 receptors, so no muscle relaxant, anxiolytic or anticonvulsant effects and slow wave sleep unaffected; zaleplon occupies all 3 omega receptors; **zopiclone** is a racemic mixture with only the s-isomer active (eszopiclone)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Given their selectivity on **BDZ**-receptor subunits, Z-drugs are less likely to affect sleep stages and have a lower risk of tolerance and dependence than benzodiazepine hypnotics. **Zopiclone** is the least selective of all Z-drugs.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Benzodiazepines vs barbiturates at the GABA-A chloride channel",
+          "columns": [
+            "Feature",
+            "Benzodiazepines",
+            "Barbiturates"
+          ],
+          "rows": [
+            [
+              "Effect on channel opening",
+              "Increase frequency and duration of chloride channel opening; not the number of channels",
+              "Increase duration (not number) of **GABA**-activated chloride channel opening at lower doses"
+            ],
+            [
+              "Action without **GABA**",
+              "No direct agonistic action in the absence of **GABA**",
+              "At slightly higher concentrations directly activate chloride channel opening even without **GABA**"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "**Q38** asks the mechanism of barbiturates: the answer is increasing the duration of chloride channel opening. Distractors are increasing the frequency of opening (in the notes, a benzodiazepine action alongside lengthened opening) and increasing the number of channels (neither drug does this).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 18,
+            "questionNumber": 38
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Benzodiazepine questions seen in the bank",
+          "items": [
+            {
+              "text": "**Q20** and **Q21**: **alprazolam** and benzodiazepines act via the **GABA-A** receptor complex (benzodiazepine receptors modulating **GABA** activity), not **GABA-B**.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 11,
+                "questionNumber": 21
+              }
+            },
+            {
+              "text": "**Q10**: withdrawal reactions are more likely with a drug having anticholinergic properties (explanation: potent anticholinergic psychotropics may be associated with discontinuation effects).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 5,
+                "questionNumber": 10
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Benzodiazepines act at the omega site of GABA-A; all agonists except clonazepam (partial); no action without GABA.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Benzodiazepines increase frequency and duration of chloride channel opening, not number.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Barbiturates increase duration of opening and at higher concentrations open channels without GABA.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Flumazenil = benzodiazepine antagonist; ramelteon = MT1/MT2 melatonin agonist with flat dose-response.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Z-drugs occupy only some omega subunits (zolpidem/zopiclone omega1; zaleplon all 3), so lower dependence risk; zopiclone least selective.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "addiction-pharmacology",
+      "title": "7. Modes of therapeutic action for psychotropics: addiction pharmacology",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Addiction pharmacology by drug",
+          "columns": [
+            "Drug",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Alcohol",
+              "Intercalates into the fluid cell membrane; decreases **NMDA** sensitivity; increases **GABA** sensitivity; down-regulates calcium channels; up-regulates nicotine receptor gated sodium channels"
+            ],
+            [
+              "Amphetamine",
+              "Releases stored monoamines, especially noradrenaline and dopamine; a central sympathomimetic"
+            ],
+            [
+              "**Buprenorphine**",
+              "Partial opioid agonist; mild agonism at lower doses, antagonistic effects at higher doses"
+            ],
+            [
+              "Cannabis",
+              "Acts via cannabinoid receptors; **CB1** central, activated by 11OH tetrahydrocannabinoid, inhibits **GABA** tone in substantia nigra and other areas (may relate to increased dopamine activity at reward centres); **CB2** peripheral, immune-related (spleen, thymus); endogenous cannabinoids (anandamides) derive from arachidonic acid, function unclear"
+            ],
+            [
+              "**Clonidine**, lofexidine",
+              "Presynaptic alpha 2 agonists reducing central sympathetic tone; sudden opioid withdrawal increases adrenergic firing (after compensatory up-regulation of adenylate cyclase), so alpha 2 autoreceptor stimulation helps in opioid withdrawal"
+            ],
+            [
+              "Dexfenfluramine, fenfluramine",
+              "Massive serotonin release from nerve endings; fenfluramine (Fen-Phen with phentermine, off-label for weight loss) was withdrawn due to irreversible serotonergic damage, valvular regurgitation and pulmonary fibrosis"
+            ],
+            [
+              "**Disulfiram**",
+              "Inhibits aldehyde dehydrogenase; acetaldehyde accumulates if alcohol is consumed, causing unpleasant reactions"
+            ],
+            [
+              "Levomethadyl acetate (**LAAM**)",
+              "Long-acting pure mu opioid agonist, potentially similar use to **methadone**; withdrawn due to prolonged **QT** and torsades de pointes"
+            ],
+            [
+              "**LSD**",
+              "5HT2A partial agonism producing hallucinogenic effect"
+            ],
+            [
+              "**MDMA**",
+              "Two isomers: R(-) produces **LSD**-like effects (via serotonin release from presynaptic neurons) and S(+) has amphetamine-like properties; long term can irreversibly damage serotonergic tracts"
+            ],
+            [
+              "**Methadone**",
+              "Opioid receptor agonist; longer acting than heroin and orally available; pure mu agonist"
+            ],
+            [
+              "**Naloxone**",
+              "Short-acting opioid mu antagonist"
+            ],
+            [
+              "**Naltrexone**",
+              "Longer acting opioid mu antagonist"
+            ],
+            [
+              "Phencyclidine",
+              "Noncompetitive **NMDA** antagonist similar to **ketamine**; also binds sigma receptors"
+            ],
+            [
+              "**Varenicline** (Champix)",
+              "Partial agonist at the alpha4beta2 unit of the nicotinic acetylcholine receptor; assists smoking cessation by relieving nicotine withdrawal symptoms and reducing nicotine's rewarding properties"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Addiction questions seen in the bank",
+          "items": [
+            {
+              "text": "**Q2**: **methadone** is the full mu agonist with a long half-life (24 hours).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 1,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "**Q45**: **buprenorphine** acts via partial agonism at mu-opioid receptors (low intrinsic activity, high affinity).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 22,
+                "questionNumber": 45
+              }
+            },
+            {
+              "text": "**Q33**: **disulfiram** acts on aldehyde dehydrogenase (irreversible inhibition, acetaldehyde accumulation), not alcohol dehydrogenase.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 16,
+                "questionNumber": 33
+              }
+            },
+            {
+              "text": "**Q40**: **varenicline** is a partial nicotinic agonist (selective alpha4beta2), reducing dopaminergic reward and withdrawal symptoms.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 19,
+                "questionNumber": 40
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Acamprosate",
+          "note": "Not in the notes. **Q19** (answer glutamate antagonism): **acamprosate** is a synthetic taurine analogue acting as a functional glutaminergic **NMDA** antagonist and also increases **GABA**-ergic function.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 10,
+            "questionNumber": 19
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Ketamine as dissociative anaesthetic",
+          "note": "The notes say only that phencyclidine is similar to **ketamine**. **Q49** (answer **ketamine**): **ketamine**, structurally similar to **PCP**, is a dissociative anaesthetic that prevents cortical awareness of painful stimuli.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 24,
+            "questionNumber": 49
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Bruxism",
+          "note": "Not in the notes. **Q34** (answer stimulants): bruxism may occur secondary to psychostimulants.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 17,
+            "questionNumber": 34
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Alcohol: decreases NMDA sensitivity, increases GABA sensitivity, down-regulates calcium channels.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Methadone = pure mu agonist, longer acting than heroin; LAAM withdrawn for QT prolongation; buprenorphine = partial mu agonist.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Naloxone short-acting and naltrexone longer-acting mu antagonists; clonidine/lofexidine alpha 2 agonists help opioid withdrawal.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Disulfiram inhibits aldehyde dehydrogenase (acetaldehyde accumulation).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Cannabis: CB1 central, CB2 peripheral immune; LSD = 5HT2A partial agonist; MDMA releases serotonin; PCP = noncompetitive NMDA antagonist.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Varenicline: partial agonist at alpha4beta2 nicotinic receptor.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "Fenfluramine withdrawn for irreversible serotonergic damage, valvular regurgitation and pulmonary fibrosis.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 13
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "anti-dementia",
+      "title": "8. Modes of therapeutic action for psychotropics: anti-dementia drugs",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Anti-dementia drug mechanisms",
+          "columns": [
+            "Drug",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "**Donepezil**, **galantamine**, **rivastigmine**",
+              "Cholinesterase inhibitors: inhibit acetylcholinesterase, which breaks down acetylcholine centrally. **Rivastigmine** inhibits both acetyl- and butyrylcholinesterase; **donepezil** and **galantamine** are acetyl specific. **Galantamine** also has nicotinic agonistic properties"
+            ],
+            [
+              "**Memantine**",
+              "Blocks **NMDA** glutamate receptors; unlike **ketamine** (high-affinity noncompetitive blocker) it is a low-affinity non-competitive blocker binding only to actively open **NMDA** channels; fast dissociation, so it does not accumulate or interfere with normal **NMDA** activity"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Cholinesterase inhibitor details",
+          "columns": [
+            "Point",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Acetylcholine inactivation",
+              "By both acetylcholinesterase (AChE) and butyrylcholinesterase (BChE); cholinesterase inhibitors raise ACh by inhibiting these enzymes"
+            ],
+            [
+              "Site on AChE",
+              "Ionic subsite: tacrine and **donepezil**. Catalytic esteratic subsite: physostigmine and **rivastigmine**"
+            ],
+            [
+              "Selectivity",
+              "Tacrine, and to some extent **rivastigmine**, are non-selective inhibitors of AChE and BChE; **CNS**-specific AChE inhibition can occur with **donepezil**"
+            ],
+            [
+              "Binding",
+              "Reversible or irreversible, competitive or noncompetitive with ACh; **galantamine** competitive, tacrine non-competitive"
+            ],
+            [
+              "AChE forms",
+              "Tetramer **G4** on presynaptic membranes (decreased with neuronal loss in **AD**); monomer **G1** on postsynaptic membranes (not significantly decreased in **AD** or aging). **Rivastigmine** and to some extent **galantamine** are highly selective for **G1**; **donepezil** is not selective"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Riluzole",
+          "columns": [
+            "Point",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Use",
+              "Approved for Motor Neuron Disorder; unclear whether it helps fronto-temporal dementia features associated with **MND**; prolongs survival by nearly ==10%== for more than a year of treatment"
+            ],
+            [
+              "Mechanism",
+              "Sodium channel blockade; high-voltage calcium channel blockade; **NMDA**-glutamate receptor antagonism"
+            ],
+            [
+              "Selectivity",
+              "Preferentially blocks sodium channels in damaged neurons, reducing calcium flow and indirectly preventing excitotoxic damage"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Anti-dementia questions seen in the bank",
+          "items": [
+            {
+              "text": "**Q13**: **galantamine**, unlike the other anticholinesterases, is also an agonist at nicotinic receptor sites (reversible competitive AChE inhibitor).",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 7,
+                "questionNumber": 13
+              }
+            },
+            {
+              "text": "**Q5**: **memantine**, a non-competitive **NMDA** antagonist, may be neuroprotective against glutamate excitotoxicity; licensed for moderate to severe Alzheimer dementia.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 3,
+                "questionNumber": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Donepezil evidence base",
+          "note": "Not in the notes. **Q50** (answer: reverses progression of neuropathological degeneration has no support): **donepezil** may improve symptoms and slow progression but does not reverse the degenerative process; it can delay behavioural problems and nursing home placement, preserve activities of daily living and reduce caregiver burden.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 24,
+            "questionNumber": 50
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Cholinesterase inhibitors (donepezil, galantamine, rivastigmine) block acetylcholinesterase; rivastigmine also blocks butyrylcholinesterase.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Galantamine also has nicotinic agonist properties and is a competitive inhibitor.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Memantine: low-affinity non-competitive NMDA blocker, fast dissociation, binds only open channels (unlike ketamine).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Tacrine and donepezil act at the ionic subsite; physostigmine and rivastigmine at the catalytic esteratic subsite.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Rivastigmine and to some extent galantamine are selective for postsynaptic G1 AChE; donepezil is not.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          },
+          {
+            "text": "Riluzole (MND): sodium and high-voltage calcium channel blockade, NMDA antagonism; prolongs survival by nearly 10%.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 14
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "miscellaneous-drugs",
+      "title": "9. Modes of therapeutic action for psychotropics: miscellaneous drugs and anti-obesity agents",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Miscellaneous drug mechanisms",
+          "columns": [
+            "Drug",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Amantadine",
+              "Used in Parkinsonism; augments dopaminergic neurotransmission through an unknown mechanism"
+            ],
+            [
+              "**Methylphenidate**, dextroamphetamine, amphetamine",
+              "Indirectly acting sympathomimetics inducing release of dopamine and noradrenaline from presynaptic neurons; dextroamphetamine and **methylphenidate** are also weak inhibitors of catecholamine reuptake and of **MAO**"
+            ],
+            [
+              "**Atomoxetine**",
+              "Tricyclic-like phenylpropanolamine derivative; selective presynaptic noradrenaline reuptake inhibitor (**NARI**), like **reboxetine**"
+            ],
+            [
+              "Benztropine, biperiden, orphenadrine, procyclidine",
+              "Anticholinergics used for EPSEs induced by antipsychotics"
+            ],
+            [
+              "Carbidopa",
+              "Inhibits **DOPA** decarboxylase; given with l-dopa (Sinemet) to reduce peripheral conversion of dopa to dopamine; cannot cross the blood-brain barrier"
+            ],
+            [
+              "Dantrolene",
+              "Affects actin-myosin complex formation in skeletal muscle through ryanodine calcium channel inhibition"
+            ],
+            [
+              "Diphenhydramine, **hydroxyzine**, **promethazine**, cyproheptadine",
+              "Antihistamines at central **H1** receptor, all with some antimuscarinic properties; cyproheptadine also a potent 5-**HT2** antagonist, used as anti-anorexic and for delayed ejaculation with **SSRI** use"
+            ],
+            [
+              "**Levodopa**",
+              "Dopamine precursor used in parkinsonism; combined with carbidopa"
+            ],
+            [
+              "**Modafinil**",
+              "Activates hypocretin-producing neurons, possibly via alpha 2 and/or alpha-1 adrenergic agonism or some noradrenaline reuptake blocking; its stimulating effect can be attenuated by prazosin"
+            ],
+            [
+              "Pemoline",
+              "Indirectly stimulates dopaminergic activity with little sympathomimetic activity; a stimulant withdrawn due to hepatotoxicity"
+            ],
+            [
+              "Reserpine",
+              "Depletes stored dopamine and other monoamines from vesicles; can lead to depression and suicide"
+            ],
+            [
+              "**Sildenafil**",
+              "Phosphodiesterase-5 inhibitor"
+            ],
+            [
+              "**Propranolol**",
+              "Beta-adrenergic antagonist; lipophilic, crosses the blood brain barrier with central actions; reduces akathisia and peripheral sympathetic overdrive signs in anxiety"
+            ],
+            [
+              "**Pramipexole**, **ropinirole**, apomorphine",
+              "Dopamine agonists binding about 20 times more selectively to **D3** than **D2**; bromocriptine less selective (2:1), pergolide most selective (5:1); bromocriptine and pergolide are ergotamine derivatives; **pramipexole** is nonergot; apomorphine is structurally related to morphine"
+            ],
+            [
+              "Sumatriptan",
+              "5HT1D and 1F agonist"
+            ],
+            [
+              "Yohimbine",
+              "Alpha 2 antagonist sometimes used for erectile dysfunction"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorcaserin, phentermine-**topiramate** and **naltrexone**-**bupropion** are novel **FDA** approved anti-obesity approaches, promoted as anorectic agents like the fenfluramine-phentermine combination (fen-phen), rimonabant and sibutramine (the latter three fell out of favour due to adverse effects).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 16
+          }
+        },
+        {
+          "type": "table",
+          "title": "Anti-obesity drugs",
+          "columns": [
+            "Drug",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Lorcaserin",
+              "Serotonin 2C receptor agonist; given twice daily and discontinued if ==5%== weight loss is not achieved by 12 weeks; commonest side effect headache; can induce hypoglycaemia in diabetic patients"
+            ],
+            [
+              "Phentermine-**topiramate**",
+              "Phentermine is a sympathomimetic amine, **topiramate** an antiepileptic; extended-release preparation; side effects paraesthesia, dysgeusia and dizziness"
+            ],
+            [
+              "**Naltrexone**-**bupropion**",
+              "**Naltrexone** is an opioid antagonist, **bupropion** an aminoketone antidepressant that promotes weight loss alone; **bupropion** not advised in those with a history of eating disorders"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Questions on drugs in this section",
+          "items": [
+            {
+              "text": "**Q35**: cyproheptadine blocks histamine **H1** receptors (also a 5-**HT2** antagonist); used for **SSRI**-induced sexual dysfunction such as anorgasmia and has some evidence in antipsychotic akathisia.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 17,
+                "questionNumber": 35
+              }
+            },
+            {
+              "text": "**Q25**: for Parkinson disease with hallucinations on **levodopa**/carbidopa, low-dose **quetiapine** is best tolerated; **risperidone** and typical antipsychotics should be avoided completely.",
+              "source": {
+                "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+                "page": 13,
+                "questionNumber": 25
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Tyramine uptake",
+          "note": "Not in the notes. **Q29**: tyramine enters the presynaptic neuron through amine uptake pumps (channels blocked by TCAs) and releases stored catecholamines.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 14,
+            "questionNumber": 29
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Clozapine weight gain",
+          "note": "Not in the notes. **Q36** (answer 5HT2C antagonism): suggested mechanisms for antipsychotic weight gain include 5-**HT2C** antagonism, **H1** antagonism, **D2** antagonism and increased serum leptin.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 18,
+            "questionNumber": 36
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Clozapine hypersalivation",
+          "note": "Not in the notes. **Q8**: mechanism unclear; suggested mechanisms include muscarinic **M4** agonism, adrenergic alpha-2 antagonism and inhibition of the swallowing reflex.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 4,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Alpha 1 antagonism and sexual dysfunction",
+          "note": "Not in the notes. **Q37** (answer alpha 1 antagonism): inhibition of orgasm may follow increased serotonin activity, raised prolactin and alpha-1 blockade. **Q42** (answer **fluoxetine**): the anorgasmic effects of SSRIs make them useful for premature ejaculation.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 18,
+            "questionNumber": 37
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Endocrine effects of antipsychotics",
+          "note": "Not in the notes. **Q41** (answer primary amenorrhoea is not an effect): antipsychotic hyperprolactinaemia causes secondary (not primary) amenorrhoea, breast enlargement and galactorrhoea.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 20,
+            "questionNumber": 41
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Mirtazapine and blood dyscrasia",
+          "note": "Not in the notes. **Q43** (answer differential count): **mirtazapine** has been associated with leucopenia and rarely agranulocytosis.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 21,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Depot antipsychotic equivalence",
+          "note": "Not in the notes. **Q11**: per the **POMH** depot conversion chart, zuclopentixol 200 mg every 2 weeks or 400 mg every 4 weeks is equivalent to **haloperidol** depot 50 mg every 4 weeks.",
+          "source": {
+            "file": "paper-a/High yields/PHARMACOLOGY/Pharmadynamics Attempt review (1).pdf",
+            "page": 6,
+            "questionNumber": 11
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Amphetamine-type stimulants (methylphenidate, dextroamphetamine) release dopamine and noradrenaline; atomoxetine is a NARI.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Carbidopa blocks DOPA decarboxylase peripherally (cannot cross the BBB); given with levodopa as Sinemet.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Reserpine depletes monoamine stores and can cause depression and suicide; pemoline withdrawn for hepatotoxicity.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Cyproheptadine: antihistamine plus 5-HT2 antagonist; used for delayed ejaculation with SSRIs. Propranolol: lipophilic, central actions, reduces akathisia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Pramipexole, ropinirole, apomorphine: about 20 times more selective for D3 than D2; bromocriptine 2:1, pergolide 5:1.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Sumatriptan = 5HT1D/1F agonist; yohimbine = alpha 2 antagonist.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Lorcaserin = 5HT2C agonist (stop if under 5% weight loss at 12 weeks); naltrexone-bupropion avoided with eating disorder history.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Dopamine agonists D3:D2 selectivity (pramipexole, ropinirole, apomorphine)",
+            "value": "about 20 times",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "Bromocriptine D3:D2",
+            "value": "2:1",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "Pergolide D3:D2",
+            "value": "5:1",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "Lorcaserin stop rule",
+            "value": "<5% weight loss by 12 weeks",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "ect",
+      "title": "10. Neurochemical effects of ECT",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Repeated subconvulsive electrical stimulation in animals reduces seizure threshold (kindling). **ECT** does not produce a kindling effect and protects against kindling in animal studies, so it can be termed an anti-kindling agent; dosing may need to increase over the course of treatment to achieve the same seizure-inducing effect.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Hippocampal neuronal loss occurs in kindling, but **ECT** results in neurogenesis in the rat, possibly via increased expression of brain-derived neurotrophic factor and its receptor.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood-brain barrier permeability increases acutely after **ECT** but returns to baseline within 24 hours.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Imaging studies show **ECT** is not associated with markers of cell loss or damage: no change in myelin basic protein immunoreactivity or serum neuron-specific enolase; tau, neurofilament and S-100 beta (markers of neuronal and glial damage) are also unchanged.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**EEG** shows delta and theta activity after **ECT**; this pattern returns to normal 3 months after the end of treatment.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "table",
+          "title": "Variables affected by ECT",
+          "columns": [
+            "Variable",
+            "Change"
+          ],
+          "rows": [
+            [
+              "Neurotrophic factors",
+              "Increase in **NGF**, **BDNF**, **NF3**"
+            ],
+            [
+              "Cell growth and synaptic connectivity",
+              "Increased, especially in hippocampus"
+            ],
+            [
+              "Hormones",
+              "Increased cortisol, prolactin and **TSH** coincide with good response; **TRH** gene expression increased in animals; vasopressin, **ACTH**, oxytocin and opioid endorphins also increase consistently"
+            ],
+            [
+              "Neurotransmitters and their receptors",
+              "5-**HT**-, **NA**-, cholinergic-, glutaminergic- and GABAergic systems, adenosine **A1** receptor and 5-**HT2A** all decrease in sensitivity"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**ECT** activates **DA** transmission and stimulates 5-**HT** in hippocampus and amygdala. 5HT2 receptors increase in rodents after electrical stimulation, opposite to antidepressant drugs; however Yatham et al. (2010), using [18F] setoperone **PET**, showed that in depressed people **ECT** reduces brain 5-**HT2** receptors, similar to antidepressants.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**ECT** also reduces beta noradrenergic receptors and increases noradrenaline turnover; alpha 2 receptors are reduced after **ECT**, similar to antidepressants.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "ECT is anti-kindling (protects against kindling); dose may need to rise during the course.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "ECT causes neurogenesis in the rat, possibly via BDNF; no markers of cell loss or damage (MBP, NSE, tau, neurofilament, S-100 beta unchanged).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "BBB permeability rises acutely and returns to baseline within 24 hours; EEG delta/theta normalises 3 months after treatment.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Neurotrophic factors rise (NGF, BDNF, NF3); increased cortisol, prolactin and TSH coincide with good response.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Human PET (Yatham 2010): ECT reduces 5-HT2 receptors, unlike rodents, similar to antidepressants.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "ECT reduces beta and alpha 2 receptors and increases noradrenaline turnover.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "psychopharmacogenetics",
+      "title": "11. Psychopharmacogenetics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Psychopharmacogenetics focuses on how polymorphisms in genes affecting a drug's mechanism of action and/or metabolism (peripheral and central) influence clinical response, in terms of both therapeutic efficacy and adverse effects.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 18
+          }
+        },
+        {
+          "type": "table",
+          "title": "Drug, effect and biological substrate",
+          "columns": [
+            "Drug",
+            "Effect",
+            "Biological substrate"
+          ],
+          "rows": [
+            [
+              "Nicotine replacement",
+              "Response to nicotine replacement (esp. in women)",
+              "Dopamine receptor **DRD2** variant"
+            ],
+            [
+              "**Clozapine**",
+              "Drug response",
+              "No association with **DRD2** variants; **DRD3** Ser9Gly polymorphism - controversial; **DRD4** polymorphisms - no correlation; 5HT2A receptor polymorphism - associated; 5HT2C receptor polymorphism - associated; 5HTTLPR - associated; **CYP2D6** variations - overall efficacy not affected"
+            ],
+            [
+              "**Methylphenidate**",
+              "Poor response of **ADHD** symptoms",
+              "Homozygosity for the 10-repeat allele at **DAT1**"
+            ],
+            [
+              "**Clozapine**",
+              "Agranulocytosis",
+              "**HLA** loci variants"
+            ],
+            [
+              "Typical antipsychotics",
+              "(Drug response)",
+              "No association with **DRD2** variants; **DRD3** Ser9Gly polymorphism - associated; **DRD4** polymorphisms - no correlation; 5HT2A receptor polymorphism - associated"
+            ],
+            [
+              "Typical antipsychotics",
+              "Extrapyramidal symptoms, postural hypotension and excess sedation",
+              "Poor metabolizers of **CYP2D6**"
+            ],
+            [
+              "Typical antipsychotics",
+              "Acute akathisia",
+              "Polymorphisms in **DRD3** and **DRD2**"
+            ],
+            [
+              "Typical antipsychotics",
+              "Tardive dyskinesia",
+              "**DAT** polymorphism, 5-**HTTLPR** and tryptophan hydroxylase (**TPH**) polymorphism, and to some extent **CYP1A2** polymorphisms"
+            ],
+            [
+              "Typical antipsychotics",
+              "Hyperprolactinaemia and **NMS**",
+              "**DRD2** polymorphism"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The serotonin transporter (5-**HTT**) protein is the primary mechanism for removing 5-**HT** from the synaptic cleft. Two polymorphisms have been identified: an insertion/deletion polymorphism in the promoter region (5-**HTTLPR**) giving a short (s) and a long (l) variant, and a **VNTR** polymorphism in intron.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 19
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Psychopharmacogenetics: gene polymorphisms affecting drug action or metabolism influence efficacy and adverse effects.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Clozapine agranulocytosis: HLA loci variants; clozapine response: 5HT2A, 5HT2C, 5HTTLPR associated, but not DRD2/DRD4.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Typical antipsychotic EPS, postural hypotension and sedation: CYP2D6 poor metabolizers.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Acute akathisia: DRD3 and DRD2; tardive dyskinesia: DAT, 5-HTTLPR, TPH (some CYP1A2); hyperprolactinaemia and NMS: DRD2.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Methylphenidate poor ADHD response: homozygosity for DAT1 10-repeat allele; nicotine replacement response: DRD2 variant.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "5-HTT removes 5-HT from the cleft; 5-HTTLPR is an insertion/deletion promoter polymorphism (short and long variants).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 19
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "ethnopharmacology",
+      "title": "12. Ethnopharmacology",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ethnicity is a self-ascribed belongingness to a group with common geographical origins, race, language, religion etc.; ethnic categories retain a strong racial component. Race is largely perceived by appearance and attributed to biological and genetic traits. Culture is a shared system of concepts or mental representations established by convention and transmitted traditionally.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Differences exist in placebo response, compliance, doctor-patient relationship, social stress and health beliefs, in addition to differences in the pharmacology of drugs.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Absorption: Caucasians appear to have lower plasma levels of tricyclics and attain peaks later than Asians, attributed to a greater incidence of slow hydroxylation among Asians. Maximal plasma **haloperidol** after rapid tranquillisation is significantly higher in Asians than Caucasians.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**CYP2D6** variation is largely genetically determined (it metabolises many antidepressants, antipsychotics, beta-blockers and antiarrhythmics) and is called debrisoquine/sparteine polymorphism, with 4 groups.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "table",
+          "title": "CYP2D6 metabolizer groups",
+          "columns": [
+            "Group",
+            "Details from the notes"
+          ],
+          "rows": [
+            [
+              "1. Poor metabolizers",
+              "Develop side effects quickly; lack the enzyme, so poor metabolizers of **risperidone** and tricyclics. Caucasians highest (nearly ==7%==), East Asians lowest (==1%==)"
+            ],
+            [
+              "2. Intermediate metabolizers",
+              "Higher in Asians (most Asians fall here, hence more side effects though good efficacy)"
+            ],
+            [
+              "3. Extensive metabolizers",
+              "Listed as a group; no detail given on that page"
+            ],
+            [
+              "4. Ultrarapid metabolizers",
+              "Need high doses; ==33%== of North Africans have multiple copies of **CYP2D6** and need higher **risperidone** doses; only ==5%== of Caucasians and ==1%== of East Asians; ==25%== of Indians may have this variant"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**CYP2C19** metabolises omeprazole, **propranolol** and psychotropics such as hexobarbital, **diazepam**, **citalopram**, **imipramine**, **clomipramine**, **sertraline** and **amitriptyline**.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Poor metabolizers of **CYP2C19** substrates are much more frequent in Asians (15-==30%==) than in Caucasians (3-==6%==); the polymorphism is mephenytoin related.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike **CYP2D6**, variations in **CYP3A4** are often influenced by environmental (e.g. diet) factors.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Nearly ==40%== of Asians and around ==60%== of South American Native Indians lack sufficient aldehyde dehydrogenase to metabolise alcohol, a natural deterrent in these communities.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Pharmacodynamics: the long form serotonin transporter polymorphism in Caucasians is associated with better **SSRI** response and tolerance, the opposite being true in South East Asians. Low **COMT** variant is seen in under ==20%== of Asians and Africans but nearly ==50%== of Caucasians.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Adverse effects: East Asians are most likely to be rapid acetylators of isoniazid and suffer hepatotoxicity, with less peripheral neuropathy (seen in slow acetylators). Chinese people had higher extrapyramidal side effects with **haloperidol** and comparably high blood levels at equivalent doses.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Asian subjects produced greater serum prolactin than Caucasians on antipsychotics, still significant after controlling for **haloperidol** concentration, suggesting a difference in dopamine receptor-mediated response.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Summary of ethnic effects in the notes",
+          "columns": [
+            "African Americans",
+            "Asians"
+          ],
+          "rows": [
+            [
+              "Increased diagnosis of schizophrenia but decreased diagnosis of depression",
+              "Best to start at half the standard dosage of all psychiatric medications"
+            ],
+            [
+              "More side effects with **lithium**, tricyclics",
+              "**Clozapine** better effect at lower serum range, but higher incidence of agranulocytosis"
+            ],
+            [
+              "Higher tardive dyskinesia with antipsychotics",
+              "Taiwanese have lower required therapeutic level of **lithium**"
+            ],
+            [
+              "Better, rapid response to tricyclics and **lorazepam**, but poor response to **fluoxetine**",
+              "Metabolise TCAs slowly"
+            ],
+            [
+              "More depot medications received",
+              "Use herbal remedies more often than others"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "CYP2D6 groups: poor, intermediate, extensive, ultrarapid; poor metabolizers highest in Caucasians (nearly 7%), lowest in East Asians (1%).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Most Asians are intermediate CYP2D6 metabolizers (more side effects, good efficacy); 33% of North Africans are ultrarapid and need higher risperidone doses.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "CYP2C19 poor metabolizers: Asians 15-30% vs Caucasians 3-6%; CYP3A4 variation is environmentally influenced.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "About 40% of Asians and 60% of South American Native Indians lack enough aldehyde dehydrogenase to metabolise alcohol.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Long form 5-HTT polymorphism: better SSRI response in Caucasians, opposite in South East Asians; low COMT variant under 20% Asians/Africans, nearly 50% Caucasians.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Asians: start at half the standard dose; slow TCA metabolism; higher prolactin on antipsychotics; Chinese more EPSE on haloperidol.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "African Americans: more lithium/TCA side effects, higher TD, poor fluoxetine response.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "CYP2D6 poor metabolizers, Caucasians",
+            "value": "nearly 7%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 20
+            }
+          },
+          {
+            "label": "CYP2D6 poor metabolizers, East Asians",
+            "value": "1%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 20
+            }
+          },
+          {
+            "label": "CYP2D6 ultrarapid, North Africans",
+            "value": "33%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 20
+            }
+          },
+          {
+            "label": "CYP2D6 ultrarapid, Caucasians",
+            "value": "5%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 20
+            }
+          },
+          {
+            "label": "CYP2C19 poor metabolizers, Asians",
+            "value": "15-30%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "CYP2C19 poor metabolizers, Caucasians",
+            "value": "3-6%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          },
+          {
+            "label": "ALDH-deficient, Asians",
+            "value": "nearly 40%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 21
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          12
+        ]
+      }
+    },
+    {
+      "id": "gender-differences",
+      "title": "13. Gender differences in psychopharmacology",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Antipsychotic response is shown to be superior in women. In chronically ill populations men require twice as high a dose as women for effective maintenance, and women have higher antipsychotic plasma levels than men at the same dose.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**CYP1A2** appears less active in women than men, giving relatively higher blood concentrations of **olanzapine** and **clozapine** in women. The volume of distribution of lipophilic drugs such as antipsychotics is greater in women.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In women blood volume is smaller but lipid compartments larger, which prolongs antipsychotic half-life and leads to accumulation over time, important with depot injections; after steady state, dosing intervals for women should be longer than for men.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Acute dystonia, long thought commoner in men, is now shown to be more frequent in females at equivalent doses (earlier studies did not account for young men commonly receiving higher doses). Pulmonary embolism (rare, with drugs having affinity for 5-**HT2A**) and tardive dyskinesia appear more common in women.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Antipsychotic response superior in women; women have higher plasma levels at the same dose.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "Chronically ill men need twice the maintenance dose of women.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "CYP1A2 less active in women: higher olanzapine and clozapine levels.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "Women: greater volume of distribution of lipophilic drugs, prolonged half-life; longer depot intervals after steady state.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "Acute dystonia, pulmonary embolism (5-HT2A affinity drugs) and tardive dyskinesia appear more common in women.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+              "page": 22
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mindMap": [
+    {
+      "label": "1. Introduction",
+      "children": [
+        {
+          "label": "Levels of action: synthesis (L-tryptophan, l-dopa), storage (reserpine), release (amphetamine)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Reuptake: SSRI, TCA, cocaine, bupropion",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Degradation: MAOI, donepezil",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Presynaptic alpha2: clonidine, lofexidine; postsynaptic D2: most antipsychotics",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Partial agonism: aripiprazole, buspirone, clonazepam, buprenorphine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Full agonism: benzodiazepines at GABA-A, bromocriptine; antagonism: flumazenil",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Second messengers: lithium at inositol level",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "label": "2. Receptor mechanisms",
+      "children": [
+        {
+          "label": "Ionotropic: ligand-gated channels, rapid; GABA-A, nicotinic, glutamate, 5HT3",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Metabotropic: G-protein/second messenger, slower; D1-5, 5HT1-7 except 5HT3, mu opioid",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Partial agonists (aripiprazole, buspirone, buprenorphine): ceiling effect, response depends on neurotransmitter availability",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Competitive antagonism: fully reversible by more agonist; lowers potency only",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Non-competitive antagonism (ketamine, PCP): partial reversal; lowers potency and efficacy",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Down-regulation with agonists, up-regulation with antagonists",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Potency = dose needed; affinity = binding ability; efficacy = maximal response",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Haloperidol vs chlorpromazine: 5 mg vs 100 mg, equally efficacious not equipotent",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 5
+          }
+        }
+      ]
+    },
+    {
+      "label": "3. Modes of therapeutic action for psychotropics: antipsychotic drugs",
+      "children": [
+        {
+          "label": "All antipsychotics: varying degrees of D2 blockade; atypicals high 5HT2:D2 ratio",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Aripiprazole: partial D2 agonist, 5HT2A antagonist, Goldilocks effect",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Clozapine/quetiapine: hit and run (fast dissociation)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Sulpiride: pure D2 antagonist; amisulpride D2/D3",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Risperidone: high 5HT2A; D2 binding at higher doses causes EPSE/prolactin effects",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Thioridazine group: marked antimuscarinic, fewer EPSEs",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Zotepine: NA reuptake inhibitor, antihistaminic; ziprasidone: 5HT1A agonist",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 7
+          }
+        }
+      ]
+    },
+    {
+      "label": "4. Modes of therapeutic action for psychotropics: antidepressant drugs and lithium",
+      "children": [
+        {
+          "label": "SSRIs: citalopram most selective; paroxetine most potent but antimuscarinic",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "SNRIs/NARI/NDRI: venlafaxine, duloxetine, milnacipran, reboxetine, bupropion",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "5HT2 antagonists/others: mirtazapine, trazodone, nefazodone, agomelatine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "MAOIs: moclobemide (reversible MAO-A), tranylcypromine (irreversible), selegiline (B)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Lithium: inositol depletion, GSK-3 inhibition, serotonin enhancement",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Lithium second messenger: IMPase inhibition reduces myoinositol and PIP-2",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "TCA/SSRI adaptive changes: beta receptor / autoreceptor desensitisation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Selectivity ratios: amitriptyline 1:1, clomipramine 1:7, fluoxetine 150:1, citalopram >2000:1",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 10
+          }
+        }
+      ]
+    },
+    {
+      "label": "5. Modes of therapeutic action for psychotropics: mood stabilisers",
+      "children": [
+        {
+          "label": "Sodium channel: carbamazepine (prolongs inactivation), lamotrigine (blockade)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "alpha2delta calcium channel: gabapentin, pregabalin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "GABA: tiagabine (reuptake inhibitor), vigabatrin (transaminase inhibitor), levetiracetam (indirect)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Topiramate: AMPA inhibitor, Na+ block, GABA-A potentiation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Valproate: mechanism unknown; speculated GABA, PKC and dopamine-antagonism effects",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 11
+          }
+        }
+      ]
+    },
+    {
+      "label": "6. Modes of therapeutic action for psychotropics: sedatives and hypnotics",
+      "children": [
+        {
+          "label": "Benzodiazepines: omega site on GABA-A, frequency and duration of chloride opening",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Barbiturates (thiopental): duration of opening; direct opening at higher doses",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Flumazenil: benzodiazepine antagonist",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Ramelteon: MT1/MT2 agonist, flat dose-response",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Z-drugs: selective omega subunits, lower tolerance and dependence; zopiclone least selective",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 12
+          }
+        }
+      ]
+    },
+    {
+      "label": "7. Modes of therapeutic action for psychotropics: addiction pharmacology",
+      "children": [
+        {
+          "label": "Opioid: methadone/LAAM pure mu agonists, buprenorphine partial, naloxone/naltrexone antagonists",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Opioid withdrawal: clonidine and lofexidine alpha 2 agonists",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Alcohol: NMDA down, GABA up; disulfiram blocks aldehyde dehydrogenase",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Cannabis: CB1 central, CB2 peripheral",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Serotonergic: LSD 5HT2A partial agonist, MDMA and fenfluramine release serotonin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "PCP: noncompetitive NMDA antagonist (like ketamine)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 13
+          }
+        },
+        {
+          "label": "Varenicline: partial alpha4beta2 nicotinic agonist",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 13
+          }
+        }
+      ]
+    },
+    {
+      "label": "8. Modes of therapeutic action for psychotropics: anti-dementia drugs",
+      "children": [
+        {
+          "label": "Cholinesterase inhibitors: donepezil, galantamine, rivastigmine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Rivastigmine inhibits AChE and BChE; others AChE specific",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Galantamine: competitive, nicotinic agonist",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Memantine: low-affinity non-competitive NMDA blocker",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "AChE G4 (presynaptic) vs G1 (postsynaptic) selectivity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 14
+          }
+        },
+        {
+          "label": "Riluzole: Na+ channel, Ca2+ channel blockade, NMDA antagonism",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 14
+          }
+        }
+      ]
+    },
+    {
+      "label": "9. Modes of therapeutic action for psychotropics: miscellaneous drugs and anti-obesity agents",
+      "children": [
+        {
+          "label": "Dopaminergic: amantadine, levodopa + carbidopa, D3-selective agonists",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Stimulants: amphetamine-type release DA/NA; atomoxetine NARI; modafinil hypocretin",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Reserpine depletes vesicular monoamines; pemoline hepatotoxic",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Antihistamine/anticholinergic: cyproheptadine, benztropine group for EPSEs",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Propranolol: central beta antagonist reducing akathisia",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Sumatriptan 5HT1D/1F; yohimbine alpha 2 antagonist",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 15
+          }
+        },
+        {
+          "label": "Anti-obesity: lorcaserin, phentermine-topiramate, naltrexone-bupropion",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 16
+          }
+        }
+      ]
+    },
+    {
+      "label": "10. Neurochemical effects of ECT",
+      "children": [
+        {
+          "label": "Anti-kindling effect; dosing may need to increase",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Neurogenesis (BDNF); no cell damage markers changed",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "BBB permeability up for under 24 hours; EEG normal by 3 months",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Neurotrophic factors up; cortisol/prolactin/TSH rise with good response",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Receptor sensitivity decreases in 5-HT, NA, cholinergic, glutamatergic, GABAergic systems",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "label": "Humans: reduced 5-HT2 (PET), reduced beta and alpha 2 receptors",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 17
+          }
+        }
+      ]
+    },
+    {
+      "label": "11. Psychopharmacogenetics",
+      "children": [
+        {
+          "label": "Clozapine: HLA variants (agranulocytosis); 5HT2A/2C/5HTTLPR (response)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "Typical antipsychotics: CYP2D6 poor metabolizers (EPS, hypotension, sedation)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "Akathisia: DRD3/DRD2; hyperprolactinaemia and NMS: DRD2",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "Tardive dyskinesia: DAT, 5-HTTLPR, TPH, some CYP1A2",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "Methylphenidate poor response: DAT1 10-repeat homozygosity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 18
+          }
+        },
+        {
+          "label": "5-HTTLPR: short/long promoter variants of the serotonin transporter",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 19
+          }
+        }
+      ]
+    },
+    {
+      "label": "12. Ethnopharmacology",
+      "children": [
+        {
+          "label": "Ethnicity vs race vs culture definitions",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "label": "Absorption: Caucasians lower TCA plasma levels than Asians; Asians higher haloperidol peaks",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "label": "CYP2D6: poor metabolizers ~7% Caucasians, 1% East Asians; ultrarapid 33% North Africans",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "label": "CYP2C19 poor metabolizers 15-30% Asians vs 3-6% Caucasians",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "label": "Alcohol: ~40% Asians lack ALDH",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "label": "Pharmacodynamics: 5-HTT long form and COMT variation by ethnicity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
+          "label": "Adverse effects: isoniazid acetylation, haloperidol EPSE and prolactin in Asians",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        }
+      ]
+    },
+    {
+      "label": "13. Gender differences in psychopharmacology",
+      "children": [
+        {
+          "label": "Superior antipsychotic response and higher plasma levels in women",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        },
+        {
+          "label": "Men need twice the maintenance dose",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        },
+        {
+          "label": "CYP1A2 less active in women (olanzapine, clozapine)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        },
+        {
+          "label": "Larger volume of distribution; longer half-life; longer depot intervals",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        },
+        {
+          "label": "Acute dystonia, PE, TD more frequent in women",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 22
+          }
+        }
+      ]
+    }
+  ]
+}

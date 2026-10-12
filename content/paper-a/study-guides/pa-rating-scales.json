@@ -1,0 +1,3411 @@
+{
+  "topic": "pa-rating-scales",
+  "sections": [
+    {
+      "id": "general-principles",
+      "title": "1. General principles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rating scales give clinicians an objective benchmark to support critical treatment decisions; regular use can aid diagnosis, prognosis and therapeutic monitoring. With self-report scales, item-by-item analysis can identify the exact symptoms the patient finds most troublesome so they can be targeted in consultation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Rating scales can be used for (1) screening for a psychiatric condition, (2) diagnosis of a psychiatric illness (such scales are often termed diagnostic schedules), (3) estimating severity of conditions and their response to treatment, and (4) assessing functional capacity and well-being.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Rating scales can be self-rated or observer rated. Some observer-rated scales need clinical experience (clinician-rated); trained non-clinical personnel can use others.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Self-rated vs observer-rated scales",
+          "columns": [
+            "Self-rated",
+            "Observer rated"
+          ],
+          "rows": [
+            [
+              "Beck's Depression Inventory",
+              "Dementia scales"
+            ],
+            [
+              "Zung Depression Inventory",
+              "**PANSS**"
+            ],
+            [
+              "Symptoms checklist **SCL**",
+              "**BPRS**"
+            ],
+            [
+              "**GHQ**",
+              "**HAMD**"
+            ],
+            [
+              "Lunser's (extrapyramidal)",
+              "**MADRS**"
+            ],
+            [
+              "Edinburgh postnatal depression scale",
+              "**YBOCS**"
+            ],
+            [
+              "",
+              "**SCID**"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Scales are based on psychometric properties and aim to measure dimensions of psychopathology (symptoms), often at the present state. Schedules are based on clinical expectations and deal with categories of disorders (syndromes) based on known classification systems; a schedule may focus on past or present status or both.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Two procedures are used to select scale items. The first is based on the previous clinical literature. The second is calibration: a large number of questions are tested to find the most discriminating items between a known ill and a presumed well group, and the statistically most significant items are chosen.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "table",
+          "title": "Considerations when selecting a screening measure",
+          "columns": [
+            "#",
+            "Consideration"
+          ],
+          "rows": [
+            [
+              "1",
+              "Characteristics of the population to be screened"
+            ],
+            [
+              "2",
+              "Psychometric properties of the instrument"
+            ],
+            [
+              "3",
+              "Time required to complete the measure"
+            ],
+            [
+              "4",
+              "Ease of use"
+            ],
+            [
+              "5",
+              "Cost of obtaining the measure"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The General Health Questionnaire (**GHQ**) is an all-purpose screening tool, often used as a first-level assessment instrument in epidemiological studies before detailed diagnostic schedules are employed. It was introduced by Goldberg to detect those likely to have, or be at risk of developing, psychiatric disorders.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "table",
+          "title": "General Health Questionnaire (GHQ) key facts",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Versions",
+              "12, 28, 30 or 60 items; the 28-item version is used most widely"
+            ],
+            [
+              "Likert scoring",
+              "Each item scored 0-3, so **GHQ-28** total is 0 to 84"
+            ],
+            [
+              "Binary scoring",
+              "Least symptomatic items 0, most symptomatic 1; 28- and 30-item versions: score exceeding 4 = psychiatric caseness"
+            ],
+            [
+              "12-item caseness threshold",
+              "3"
+            ],
+            [
+              "Caseness",
+              "A probabilistic term: such respondents presenting in general practice would likely receive further attention"
+            ],
+            [
+              "Reliability coefficients",
+              "0.78 to 0.95 in various studies"
+            ],
+            [
+              "Use",
+              "Not usually used for predictive purposes"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "GHQ traps",
+          "items": [
+            {
+              "text": "The maximum possible score on the **GHQ** 28-item version is 84 (versions with 12, 28, 30, 60 items).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 6
+              }
+            },
+            {
+              "text": "The **GHQ** is the self-rated screening instrument for the presence of psychiatric illness (not **GAF**, **SCID** or **DIS**).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 10
+              }
+            },
+            {
+              "text": "The **GHQ** is the questionnaire for identifying psychiatric caseness in the general population.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 29
+              }
+            },
+            {
+              "text": "The **GHQ** is usable by primary care physicians, general medical professionals and in community studies.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 36
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Rating scales: screening, diagnosis (diagnostic schedules), severity/treatment response, functional capacity and well-being.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Self-rated: BDI, Zung, SCL, GHQ, Lunser, EPDS. Observer rated: dementia scales, PANSS, BPRS, HAMD, MADRS, YBOCS, SCID.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Item selection: from clinical literature, or by calibration (most discriminating items between known ill and presumed well).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "GHQ (Goldberg): first-level screening in epidemiological studies; versions 12/28/30/60, GHQ-28 most used.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "GHQ-28 Likert 0-3 gives max 84; binary scoring caseness is a score above 4 (3 for GHQ-12).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "GHQ-28 maximum score",
+            "value": "84",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "GHQ caseness threshold (28/30-item; 12-item)",
+            "value": ">4; 3",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 3
+            }
+          },
+          {
+            "label": "GHQ reliability coefficients",
+            "value": "0.78 to 0.95",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          3,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "id": "diagnostic-schedules",
+      "title": "2. Diagnostic schedules",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Diagnostic schedules",
+          "columns": [
+            "Scale",
+            "Mode of administration",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Clinical Interview Schedule (**CIS**)",
+              "Clinician administered, fully structured",
+              "Revised version for lay interviewers (**CIS-R**). Used in National Psychiatric Morbidity Surveys of Great Britain. Developed by Goldberg et al. Identifies common disorders in primary care and community settings (focus on neurotic conditions)"
+            ],
+            [
+              "Composite International Diagnostic Interview (**CIDI**)",
+              "Clinician administered",
+              "Incorporates principles of both **PSE** and **DIS**. Produced by **WHO** for use with both **ICD** and **DSM** diagnoses"
+            ],
+            [
+              "Diagnostic Interview Schedule (**DIS**)",
+              "Non-clinician-administered; fully structured interview",
+              "Used in **ECA** study. Lifetime **DSM** diagnoses made initially; a time period can later be specified for current diagnoses"
+            ],
+            [
+              "Hopkins Symptom Check List (**HSCL**)",
+              "Trained primary care workers (**HSCL-25**) or self-reported (original)",
+              "58-item self-report version measures neurotic symptom distress in outpatients; 25-item version measures anxiety (10 items) and depression (15 items). **SCL-90R** and Brief Symptom Inventory (**BSI**) are derivatives"
+            ],
+            [
+              "Patient Health Questionnaire (**PHQ**)",
+              "Self-report",
+              "Self-report version of **PRIME-MD** (Spitzer et al., based on **DSM-III**); diagnoses common neurotic conditions in primary care. **PHQ-9** focuses on the 9 **DSM-IV** depression criteria; **GAD-7** on anxiety; **PHQ-15** on depression with somatic features"
+            ],
+            [
+              "Present State Examination (**PSE**)",
+              "Clinician-administered semi-structured clinical interview",
+              "Provides clinical diagnoses along the lines of the **ICD** system. **CATEGO** is the computerised version of **PSE**"
+            ],
+            [
+              "Schedule for Affective Disorders and Schizophrenia (**SADS**)",
+              "Clinician-administered semi-structured",
+              "Covers depression, bipolar disorder, schizophrenia and anxiety disorders. Regular, lifetime and change versions; children version is Kiddie-**SADS**"
+            ],
+            [
+              "Schedule for Assessment in Neuropsychiatry (**SCAN**)",
+              "Semi-structured interview for trained clinicians",
+              "Developed by Wing et al. on the basis of **PSE** and has replaced **PSE** at present. Focused on adult psychopathology; 28 sections and 1872 items (many can be skipped)"
+            ],
+            [
+              "Structured Clinical Interview for **DSM-IV** (**SCID**)",
+              "Clinician-administered semi-structured",
+              "For patients in whom a psychiatric diagnosis is suspected. Non-patient version for epidemiological studies. **SCID-II** is for axis 2 disorders"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "General observations on diagnostic schedules",
+          "columns": [
+            "#",
+            "Observation"
+          ],
+          "rows": [
+            [
+              "1",
+              "Most schedules are either **DSM** or **ICD** based; only a few cater to both"
+            ],
+            [
+              "2",
+              "A number of primary-care oriented schedules focus largely on nonpsychotic disorders"
+            ],
+            [
+              "3",
+              "Many have computerised forms, but a number are time-consuming to complete routinely or at initial clinical contact"
+            ],
+            [
+              "4",
+              "Almost all are clinician-administered, though self-report forms have evolved recently"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Diagnostic schedule traps",
+          "items": [
+            {
+              "text": "**SCID** (not **SCAN**, **AIMS**, **HAMD** or **MMPI**) is the most reliable instrument for a clinical diagnosis according to **DSM** criteria.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 19
+              }
+            },
+            {
+              "text": "**SCAN** has replaced the Present State Examination in contemporary epidemiological studies (it evolved from **PSE**).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 28
+              }
+            },
+            {
+              "text": "Of the options **PSE**/**CATEGO**/HoNOS/**SANS**/**BPRS**, the **PSE** is the one that retains the aspects of a mental state examination during the consultation.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 22
+              }
+            },
+            {
+              "text": "**SCID** is correct as: primarily used in research (a clinician-administered semi-structured interview with trained interviewers) - not dimensional, not **ICD-10**, not Axis V, not for untrained lay interviewers.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 33
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "CIS: fully structured, clinician-administered, neurotic conditions in primary care/community; CIS-R for lay interviewers; used in UK Psychiatric Morbidity Surveys.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "CIDI: WHO schedule combining PSE and DIS principles, for ICD and DSM. DIS: non-clinician-administered, fully structured, used in ECA study.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "HSCL: 58-item self-report; HSCL-25 = anxiety (10) + depression (15); SCL-90R and BSI derive from it.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "PHQ is the self-report version of PRIME-MD; PHQ-9 = 9 DSM-IV depression criteria, GAD-7 anxiety, PHQ-15 somatic depression.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "PSE: clinician semi-structured, ICD-style diagnoses (CATEGO = computerised). SCAN (Wing) replaced PSE; 28 sections, 1872 items.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "SADS: major mental illnesses with regular/lifetime/change versions; Kiddie-SADS for children. SCID: DSM-IV, SCID-II for axis 2.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Most schedules are DSM- or ICD-based, many focus on nonpsychotic disorders, almost all clinician-administered.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "HSCL-25 items (anxiety / depression)",
+            "value": "10 / 15",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "SCAN size",
+            "value": "28 sections, 1872 items",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "HSCL self-report version",
+            "value": "58 items",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "depression-scales",
+      "title": "3. Depression rating scales",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The 2 Questions scale (**PHQ-2**): an affirmative response to (1) \"Over the past two weeks, have you ever felt down, depressed, or hopeless?\" and (2) \"Have you felt little interest or pleasure in doing things?\" may be as effective as longer screening measures or may indicate the need for in-depth diagnostic tools.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "type": "table",
+          "title": "Adult depression scales",
+          "columns": [
+            "Scale",
+            "Rater / format",
+            "Key features"
+          ],
+          "rows": [
+            [
+              "**HAMD** / **HDRS** (Hamilton)",
+              "Observer rated",
+              "17-21 items (2 versions); refers to last 1-2 weeks; more items for biological features; remains a reference standard"
+            ],
+            [
+              "**MADRS** (Montgomery-Asberg)",
+              "Clinical interview, like **HDRS**",
+              "10-item version; most sensitive to change"
+            ],
+            [
+              "**BDI** (Beck)",
+              "Self-rating, 21 items",
+              "Max score 63; last 2 weeks; 0-13 minimal, 14-19 mild, 20-28 moderate, >28 severe; lacks discriminatory power among very severely ill; more psychological than somatic factors; can be repeated at short intervals"
+            ],
+            [
+              "Zung Depression Inventory",
+              "Self-rated, 20 items",
+              "Avoids imbalance towards psychological factors seen in Beck; poor correlation with observer rating; insensitive to change"
+            ],
+            [
+              "Visual Analogue Scale (**VAS**)",
+              "10 cm line",
+              "Easiest way to quantify depression severity; patient indicates state of mood on the line"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "BDI severity bands (max score 63)",
+          "columns": [
+            "Score",
+            "Severity"
+          ],
+          "rows": [
+            [
+              "0-13",
+              "Minimal"
+            ],
+            [
+              "14-19",
+              "Mild"
+            ],
+            [
+              "20-28",
+              "Moderate"
+            ],
+            [
+              ">28",
+              "Severe"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Children: depression screening is generally appropriate in children at least seven years of age. The Reynolds Child Depression Scale and the Children's Depression Inventory (full version 27 items; screening version 10 items) were developed specifically for children and are written at lower reading levels.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "table",
+          "title": "Depression measures by age appropriateness",
+          "columns": [
+            "Measure",
+            "Age appropriateness (years)"
+          ],
+          "rows": [
+            [
+              "Children's Depression Inventory (**CDI**)",
+              "7 to 17"
+            ],
+            [
+              "**CES-D** for Children (**CES-DC**)",
+              "12 to 18"
+            ],
+            [
+              "**CES-D**",
+              "14 and older"
+            ],
+            [
+              "Reynolds Child Depression Scale",
+              "8 to 12"
+            ],
+            [
+              "Reynolds Adolescent Depression Scale",
+              "13 to 18"
+            ],
+            [
+              "Beck Depression Inventory (**BDI**)",
+              "14 and older"
+            ],
+            [
+              "Mood and Feelings Questionnaire (**MFQ**)",
+              "8 to 18"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Advantages of the **BDI** and **CES-D** include ease of scoring, low cost and comparable psychometric properties. The **MFQ** is endorsed by **NICE** and has self and parent-rated versions.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Perinatal depression: the **BDI**, **CES-D** and Edinburgh Postnatal Depression Scale (**EPDS**) have been used to screen in antepartum and postpartum periods. The **BDI** and **CES-D** tend to produce higher scores and more false-positive results in symptomatic pregnant women.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The **EPDS** was specifically developed for postpartum depression and relies much less on somatic questions. It has 10 items (self or clinician-rated), framed within the \"past seven days\" with a frequency-based response format. Routine use of **EPDS** postpartum has been shown to increase detection compared with usual care.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Geriatric depression: the Geriatric Depression Scale (**GDS**) was developed for geriatric patients and has fewer somatic items; questions pertain to the past week and responses are only \"yes\" or \"no\". With cognitive deficits, interviewer-administered instruments such as the Cornell Scale for Depression in Dementia or the Hamilton scale are preferred.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The Cornell measure should be administered to the patient's primary caregiver. **BASDEC** (Brief Assessment Schedule Depression Cards) is designed for general hospital use and stops questions being overheard on geriatric wards; patients choose answers from a deck of 19 cards presented one at a time.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Depression in schizophrenia: most depression scales are tuned to non-psychotic patients and contain items that do not distinguish depressed from non-depressed psychotic patients (e.g. delusions of nihilism). The Calgary Depression Scale for Schizophrenia (**CDSS**) focuses on depressive symptoms in the presence of schizophrenia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Depression scale traps",
+          "items": [
+            {
+              "text": "The Beck Depression Inventory is the adult depression scale validated in children aged 14 and older, and the best screening tool for depression in adolescents aged 14-18.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 2,
+                "questionNumber": 3
+              }
+            },
+            {
+              "text": "The **BDI** has more cognitive items than the Hamilton, Montgomery-Asberg, **GHQ** or Young scales.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 18
+              }
+            },
+            {
+              "text": "**BDI** facts: 21 items (true), self-rated (not strictly clinician-rated).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 26
+              }
+            },
+            {
+              "text": "The Montgomery-Asberg scale (10-item version, needs clinical interview like Hamilton) is the depression scale most sensitive to change; **BDI**, Zung, **VAS** are not.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 23
+              }
+            },
+            {
+              "text": "Beck inventory, Hamilton and Montgomery-Asberg and Young are mood scales; the Simpson-Angus scale is not (it detects and monitors extrapyramidal symptoms).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 14,
+                "questionNumber": 30
+              }
+            },
+            {
+              "text": "The **BDI** is the self-report measure among **AMT**, **GCS**, Hamilton and **CGI**.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "BDI cognitive emphasis wording",
+          "note": "The notes say the **BDI** includes \"more psychological than somatic factors\"; the question explanation adds that it focuses on behavioural and cognitive dimensions and that the current version added coverage of somatic symptoms. The notes do not mention the added somatic coverage.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 9,
+            "questionNumber": 18
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "PHQ-2: two questions (down/depressed/hopeless; little interest or pleasure) over the past two weeks.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "HAMD: observer rated, 17-21 items, last 1-2 weeks, reference standard. MADRS: 10 items, most sensitive to change.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "BDI: self-rated 21 items, max 63, bands 0-13/14-19/20-28/>28; more psychological than somatic; Zung: 20 items, self-rated, insensitive to change.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "VAS: 10 cm line, easiest way to quantify depression severity.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Child/adolescent: screening from age 7; CDI 7-17, MFQ 8-18 (NICE-endorsed), Reynolds Child 8-12, Reynolds Adolescent 13-18, BDI and CES-D 14+.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "EPDS: 10 items, past 7 days, little reliance on somatic items; BDI and CES-D give more false positives in pregnancy.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Elderly: GDS (yes/no, past week, fewer somatic items); Cornell or Hamilton preferred in cognitive deficit.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Cornell given to the primary caregiver; BASDEC 19 cards for general hospital use. Schizophrenia: CDSS.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 8
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "BDI maximum score",
+            "value": "63",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "label": "Zung items",
+            "value": "20",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "label": "MADRS items",
+            "value": "10",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 6
+            }
+          },
+          {
+            "label": "EPDS items",
+            "value": "10",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "BASDEC cards",
+            "value": "19",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 8
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          4,
+          11
+        ]
+      }
+    },
+    {
+      "id": "alcohol-scales",
+      "title": "4. Alcohol rating scales",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Alcohol rating scales",
+          "columns": [
+            "Scale",
+            "Features"
+          ],
+          "rows": [
+            [
+              "**CAGE**",
+              "4 questions: cutting down; annoyed/criticised; bad or guilty; eye-opener. A positive answer should raise suspicion of an alcohol problem, a score of 2 is highly suggestive. Takes under a minute"
+            ],
+            [
+              "**AUDIT** (Saunders et al., 1993)",
+              "10 items: quantity, frequency, inability to control drinking, withdrawal relief, loss of memory, injury, concern by others. Score 8+ = harmful/hazardous drinking; 13+ in women and 15+ in men = dependent drinking. Widely used; recommended by **WHO** for primary care"
+            ],
+            [
+              "**MAST** (Selzer, 1971)",
+              "Simple self-report 25-item yes/no test. Score 3-5 early indicator of problem drinker; 6+ highly likely problem drinker. Brief **MAST** uses 10 items; G-**MAST** and Brief G-**MAST** for older people"
+            ],
+            [
+              "**CIWA** (Sullivan et al., 1989)",
+              "Rates severity of alcohol withdrawal; 10 items, 9 scored 0-7 and one 0-4 (total 67). Can be used regularly day and night to assess withdrawal and treatment impact. Covers nausea, tremor, paroxysmal sweating, anxiety, agitation, auditory/visual/tactile disturbances, headache, orientation"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Alcohol scale cut-offs",
+          "columns": [
+            "Scale",
+            "Cut-off",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "**CAGE**",
+              "1 positive",
+              "Raises suspicion of alcohol problem"
+            ],
+            [
+              "**CAGE**",
+              "2",
+              "Highly suggestive"
+            ],
+            [
+              "**AUDIT**",
+              "8 or more",
+              "Harmful or hazardous drinking"
+            ],
+            [
+              "**AUDIT**",
+              "13+ women / 15+ men",
+              "Dependent drinking"
+            ],
+            [
+              "**MAST**",
+              "3-5",
+              "Early indicator of problem drinker"
+            ],
+            [
+              "**MAST**",
+              "6 or more",
+              "Highly likely problem drinker"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "CAGE questions",
+          "mnemonic": "C-A-G-E",
+          "expansion": [
+            "Cutting down on drinking",
+            "Annoyed or criticised for drinking",
+            "Guilty or bad about drinking",
+            "Eye-opener: first drink in the morning to steady nerves or hangover"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**SCOFF** is the odd one out among **MAST**, **AUDIT**, **CAGE** and **CIWA**: **SCOFF** is a screening tool for eating disorders, not an alcohol assessment tool.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Short Alcohol Withdrawal Scale (SAWS)",
+          "note": "A question asks the **SAWS** cut-off for pharmacotherapy; the explanation says mild withdrawal is under 12 and moderate to severe withdrawal (requiring intervention) is 12 or more. **SAWS** is not described in the notes (only **CIWA** is).",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 6,
+            "questionNumber": 12
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "CAGE: 4 questions, under a minute; positive answer raises suspicion, score of 2 highly suggestive.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "AUDIT: 10 items; 8+ harmful/hazardous; 13+ women and 15+ men dependent; WHO-recommended for primary care.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "MAST: 25 yes/no items; 3-5 early problem drinker, 6+ highly likely; Brief MAST 10 items; G-MAST for older people.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "CIWA: rates withdrawal severity, 10 items (9 scored 0-7, one 0-4, total 67), repeatable day and night.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "AUDIT items",
+            "value": "10",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "MAST items",
+            "value": "25",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "CIWA total",
+            "value": "67",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "AUDIT dependent drinking",
+            "value": "13+ women, 15+ men",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "child-scales",
+      "title": "5. Scales used in child psychiatry",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Child psychiatry scales",
+          "columns": [
+            "Scale",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Child & Adolescent Functional Assessment Scale",
+              "Assesses degree of impairment in functioning due to emotional, behavioural or psychiatric problems. Completed by clinical staff in about 10 minutes. Useful for outcome over time and directing case management. Measures aggression and conduct problems, especially ages 7 to 17"
+            ],
+            [
+              "Child Behavior Checklist (**CBCL**)",
+              "Records behavioural problems and competencies of children aged 4 through 16 as reported by parents or others who know the child well. 113 items, Likert scale. Gives a total score plus internalizing (fearful, shy, anxious, inhibited) and externalizing (aggressive, antisocial, undercontrolled) scores. Self-administered or by interview; can measure change over time or after treatment. Teacher Report Forms, Youth Self-Reports and Direct Observation Forms exist. Two versions: ages 1 1/2 - 5 and 6 - 18"
+            ],
+            [
+              "Diagnostic Interview Schedule for Children (**DISC**)",
+              "Originally developed in the early 1990s; fully structured diagnostic interview for **DSM**-based diagnoses in children"
+            ],
+            [
+              "Conners Rating Scales",
+              "Family of instruments measuring a range of childhood psychopathology; most commonly used in assessment of **ADHD**. Teacher, parent and self-report (adolescents) versions; short and long (up to 80 items) forms"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 10
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "CAFAS: clinician-completed (~10 min) impairment scale, aggression and conduct problems, ages 7 to 17; tracks outcome.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "CBCL: 113 items, ages 4-16 (versions 1 1/2-5 and 6-18), parent/other reported; total, internalizing and externalizing scores.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "DISC: fully structured DSM-based diagnostic interview for children.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Conners: family of scales, most used for ADHD; teacher, parent and self-report versions.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "CBCL items",
+            "value": "113",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Conners long form",
+            "value": "up to 80 items",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "old-age-scales",
+      "title": "6. Scales used in old age psychiatry",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Cognitive and dementia scales in old age",
+          "columns": [
+            "Scale",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Geriatric Mental State Schedule (**GMSS**)",
+              "Widely used to measure psychopathology in community surveys of the elderly. **AGECAT** is a computerised algorithm based on **GMSS**"
+            ],
+            [
+              "Mini-Mental State Examination (**MMSE**)",
+              "Popular cognitive screening instrument; 10 minutes by a trained interviewer; suggested cut-off 23 for cognitive impairment; educational status affects scores; does not pick up frontal lobe deficits; moderate to minimal sensitivity to change in mild cognitive impairment"
+            ],
+            [
+              "Abbreviated Mental Test Score (Hodkinson, 1972)",
+              "10-point questionnaire of memory and orientation in 3 minutes; origins in Blessed Dementia Scale; cut-off 7/8 out of 10 suggests cognitive impairment"
+            ],
+            [
+              "Alzheimer's Disease Assessment Scale (**ADAS**)",
+              "Cognitive and non-cognitive assessment, 45 minutes by trained professional; cognitive section is **ADAS**-Cog; gold standard for measuring change in cognitive function in anti-dementia drug trials; a fall of about ==10%== per year is expected in Alzheimer's disease"
+            ],
+            [
+              "Neuropsychiatric Inventory (**NPI**)",
+              "Severity of behavioural symptoms of dementia over ten domains (delusions, hallucinations, dysphoria, anxiety, agitation/aggression, euphoria, disinhibition, irritability/lability, apathy, aberrant motor behaviour); scored 1 to 144; severity and frequency independently assessed"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Behavioural, carer-rated and disability scales in old age",
+          "columns": [
+            "Scale",
+            "Features"
+          ],
+          "rows": [
+            [
+              "**BEHAVE-AD**",
+              "Clinician-administered; documents behavioural symptoms in Alzheimer's disease: paranoid and delusional ideation, hallucinations, activity disturbances, aggression, diurnal variation, mood, anxieties and phobias"
+            ],
+            [
+              "**MOUSEPAD**",
+              "Manchester and Oxford Universities Scale for the Psychopathological Assessment of Dementia; administered to carers by an experienced clinician to measure **BPSD**"
+            ],
+            [
+              "Clifton Assessment Procedure for the Elderly (**CAPE**; Pattie & Gilleard, 1979)",
+              "Assesses level of disability and estimates need for care. Short cognitive scale plus behavioural rating scale with four sub-scales: physical disability, apathy, communication difficulties, social disturbance. Quick and easy to administer"
+            ],
+            [
+              "Bristol Activities of Daily Living Scale",
+              "Assesses 20 daily living abilities in dementia; caregiver-rated; designed for community use by trained health professionals"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Old age scale traps",
+          "items": [
+            {
+              "text": "**MMSE** is the most commonly used screening tool for dementia in older people; its explanation gives a cut-off of 24/30 and 5-10 minutes, whereas the notes give a cut-off of 23 and 10 minutes - check which figure a question uses.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 21
+              }
+            },
+            {
+              "text": "**CAPE** (Clifton Assessment Procedure) is used in residential care for the elderly.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 14
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "GMSS: community surveys of elderly; AGECAT is its computerised algorithm.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "MMSE: 10 min, cut-off 23, education-dependent, misses frontal deficits, poor sensitivity to change in mild impairment.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "AMTS: 10 points, 3 minutes, cut-off 7/8 (Hodkinson 1972).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "ADAS-Cog: gold standard for change in cognition in anti-dementia trials; about 10% fall per year expected in Alzheimer's.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "NPI: ten behavioural domains, scored 1-144. BEHAVE-AD: clinician-administered behavioural symptoms. MOUSEPAD: carer-administered BPSD scale.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "CAPE: disability and need for care; cognitive scale plus four-sub-scale behaviour rating.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Bristol ADL: 20 daily living abilities in dementia, caregiver-rated.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "MMSE cut-off",
+            "value": "23",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "AMTS cut-off",
+            "value": "7/8 of 10",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "NPI score range",
+            "value": "1 to 144",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "Bristol ADL abilities",
+            "value": "20",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "other-scales",
+      "title": "7. Other clinical rating scales",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Other clinical rating scales",
+          "columns": [
+            "Scale",
+            "Mode of administration",
+            "Features"
+          ],
+          "rows": [
+            [
+              "**PANSS**",
+              "Clinician-administered rating scale",
+              "Severity and monitoring of change in schizophrenia; 30 items covering positive symptoms, negative symptoms and general psychopathology"
+            ],
+            [
+              "Y-**BOCS**",
+              "Clinician-administered semi-structured interview",
+              "Rates severity in patients with a pre-existing diagnosis of **OCD**"
+            ],
+            [
+              "**MMPI**",
+              "Self-report questionnaire",
+              "567 questions covering 8 areas of psychopathology, 2 additional personality-type areas and 3 scales assessing truthfulness; compared with normative non-clinical data. Not a projective test"
+            ],
+            [
+              "**IPDE**",
+              "Semi-structured clinical interview for clinicians",
+              "67 standardised probe questions; 57-item true/false screening questionnaire also included; produces **ICD-10** personality disorder diagnosis"
+            ],
+            [
+              "Clinical Global Improvement (**CGI**)",
+              "Clinician rated on clinical judgment",
+              "Two items: **CGI-S** (severity, current condition, 1-7) and **CGI-I** (improvement since start of treatment, 1-7); any psychiatric disorder in clinic or ward"
+            ],
+            [
+              "Brief Psychiatric Rating Scale (**BPRS**)",
+              "Rated by physician on semi-structured interview (18 items, 7 points each, max 108)",
+              "Developed by Overall, 1960; one of the most widely used clinical rating scales; originally for controlled trials of new psychotropics; includes observations and patient reports. Factor analysis yields five factors: hostility-suspiciousness, withdrawal-retardation, thinking disturbance, depression-anxiety, activation"
+            ],
+            [
+              "**SAPS** and **SANS**",
+              "Clinician rated on clinical interview",
+              "Not diagnostic devices; used in studies of neurobiological correlates of symptom groupings. **SAPS** 34 items (hallucinations, delusions, bizarre behaviour, formal thought disorder); **SANS** 25 items (affective flattening/blunting, alogia, apathy, asociality, inattention)"
+            ],
+            [
+              "Personality Diagnostic Questionnaire-4+ (**PDQ-4**+)",
+              "Self-report assessing 12 personality disorders in **DSM-IV**",
+              "99 true-false items; follow-up Clinical Significance Scale interview checks the trait is enduring (criterion D), present without other disorders (criteria E and F) and causes distress/impairment (criterion C)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "SCOFF questions (eating disorder screen)",
+          "columns": [
+            "Letter",
+            "Question"
+          ],
+          "rows": [
+            [
+              "S",
+              "Do you make yourself **SICK** when you feel uncomfortably full?"
+            ],
+            [
+              "C",
+              "Do you worry you have lost **CONTROL** over how much you eat?"
+            ],
+            [
+              "O",
+              "Have you recently lost more than 14 pounds (**ONE** stone) within three months?"
+            ],
+            [
+              "F",
+              "Do you believe you are **FAT** when others say you are too thin?"
+            ],
+            [
+              "F",
+              "Would you say that **FOOD** dominates your life?"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "SCOFF",
+          "mnemonic": "S-C-O-F-F",
+          "expansion": [
+            "Sick",
+            "Control",
+            "One stone (14 pounds in 3 months)",
+            "Fat",
+            "Food"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**SCOFF** is a mnemonic for eating disorder screening (similar to **CAGE** for alcohol); it has high sensitivity (2 or more questions positive).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Other scale traps",
+          "items": [
+            {
+              "text": "**SCOFF** is the useful screening tool for early detection of an eating disorder (not **AUDIT**, **CAGE**, **CAMCOG** or Prochaska).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 9
+              }
+            },
+            {
+              "text": "**BPRS** is a clinician-rated global symptom scale used to monitor/measure severity and change in psychotic symptoms in schizophrenia; not self-administered, not negative-symptom-focused, not a 30-item scale (explanation: 18 or 24 items, each rated on 7-8 points).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "For a patient with delusions of spying cameras, withdrawal and voices, **PANSS** (clinician-administered, for severity and change in schizophrenia) is the answer.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 16,
+                "questionNumber": 34
+              }
+            },
+            {
+              "text": "**HAM-D** is not a projective test (projective tests include Rorschach, **TAT**, Sentence Completion, Draw-a-Person); the notes also say the **MMPI** is not a projective test.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 11,
+                "questionNumber": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Young Mania Rating Scale (YMRS)",
+          "note": "Not in the notes. A question's explanation says **YMRS** has 11 items, is based on the patient's subjective report over the previous 48 hours plus clinical observation, so it is not purely self-rated.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 20
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Movement-disorder scales (AIMS, Simpson-Angus, Barnes, LUNSERS, Lane)",
+          "note": "Only Lunsers (extrapyramidal, self-rated) appears in the notes. Questions state **AIMS** is a 12-item clinician-administered scale for antipsychotic side effects including tardive dyskinesia; Simpson-Angus rates 10 items 0-4 for extrapyramidal symptoms; the Lane scale is for minor physical anomalies, so it is not a drug-induced movement scale.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 20,
+            "questionNumber": 43
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Wechsler Adult Intelligence Scale (WAIS)",
+          "note": "Intelligence testing is not covered in the notes; a question explanation says the Wechsler Adult Intelligence Scales are the traditional gold standard of intellectual assessment.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Structured questionnaires in suggestible patients",
+          "note": "Not in the notes. Explanation: structured interviews have high reliability, validity and legal defensibility, but in highly suggestible patients rigid questions induce responses agreeing with the tone of the question, so should be used minimally.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 16
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "PANSS: clinician-administered, 30 items (positive, negative, general psychopathology) for schizophrenia severity/change. Y-BOCS: severity in known OCD.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "SCOFF: eating disorder screen (like CAGE); sick, control, one stone, fat, food; 2+ positive = high sensitivity.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "MMPI: 567 self-report questions, 8 psychopathology areas, 2 personality areas, 3 truthfulness scales; NOT a projective test.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "IPDE: semi-structured, 67 probe questions, ICD-10 personality diagnoses. CGI: CGI-S and CGI-I, both scored 1-7.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "BPRS (Overall, 1960): 18 items, 7 points each, max 108; five factors incl. hostility-suspiciousness and thinking disturbance.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "text": "SAPS 34 items / SANS 25 items: not diagnostic, used for neurobiological correlates. PDQ-4+: 99 true-false items for 12 DSM-IV personality disorders.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 14
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "PANSS items",
+            "value": "30",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "label": "MMPI questions",
+            "value": "567",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "label": "BPRS maximum score",
+            "value": "108 (18 items x 7)",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          },
+          {
+            "label": "SAPS / SANS items",
+            "value": "34 / 25",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 14
+            }
+          },
+          {
+            "label": "PDQ-4+ items",
+            "value": "99",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 14
+            }
+          },
+          {
+            "label": "IPDE probe questions",
+            "value": "67",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 13
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "outcome-scales",
+      "title": "8. Outcome scales in psychiatry",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Treatment outcomes are multidimensional rather than single constructs. Outcome measures are classified broadly into five types.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "table",
+          "title": "Types of outcome measure",
+          "columns": [
+            "Type",
+            "What it measures",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Psychopathological rating scale",
+              "Individual symptom severity; can also give relapse/remission measures",
+              "**PANSS**, **BPRS**"
+            ],
+            [
+              "Global outcome measure",
+              "Overall appraisal of disease severity and impact on overall functioning",
+              "**GAF**, Global Assessment Scale (**GAS**)"
+            ],
+            [
+              "Generic patient-based outcome measure",
+              "Several domains of health-related quality of life, applicable irrespective of illness",
+              "**SF-36**"
+            ],
+            [
+              "Disease-specific patient-based outcome measure",
+              "Several domains of health-related quality of life for specific patient groups",
+              "(none named)"
+            ],
+            [
+              "Domain-specific patient-based outcome measure",
+              "A specific domain, e.g. social function, interpersonal relationships, cognitive capacity or service satisfaction",
+              "(none named)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Criteria for a useful outcome measure",
+          "columns": [
+            "Criterion",
+            "Question"
+          ],
+          "rows": [
+            [
+              "Appropriate",
+              "Is it appropriate to the question addressed by the trial or the benefit desired by the service?"
+            ],
+            [
+              "Reliable & valid",
+              "Reproducible, internally consistent, precise and accurately reflecting the construct?"
+            ],
+            [
+              "Responsive",
+              "Sensitive to change over time?"
+            ],
+            [
+              "Readily interpretable",
+              "Scores intuitively meaningful and comparable to real-life states?"
+            ],
+            [
+              "Acceptable & feasible",
+              "Readily applicable in clinical settings and not too onerous on clinicians and patients?"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Examples of outcome scales",
+          "columns": [
+            "Scale",
+            "Features"
+          ],
+          "rows": [
+            [
+              "**GAF**",
+              "Appendix to **DSM-IV**; overall psychosocial functioning on a 10-item (100-point) scale from self-report and clinical interview; used in axis V of **DSM-IV** multiaxial system; combines symptom severity and functional impairment, based on clinician appraisal of functional limitation"
+            ],
+            [
+              "**SOFAS**",
+              "Proposed as new axis in Appendix B of **DSM-IV**; related to **GAF** but focuses only on functioning, not symptoms; does not discriminate psychiatric from non-psychiatric causes; clinician-rated on a 100-point scale with descriptors per 10-point interval; guided tools include the Personal and Social Performance scale (**PSP**)"
+            ],
+            [
+              "**SF-36**",
+              "Clinical practice, research, policy evaluation, community surveys; self-administered from age 14 up or by trained interviewer; eight health concepts"
+            ],
+            [
+              "HoNOS",
+              "Most widely used psychiatric outcome scale in the **NHS**; developed by RCPsych, commissioned by Department of Health in 1993; 12 items measuring behaviour, impairment, symptoms and social functioning, from routine clinical assessments"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 15
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "The eight SF-36 health concepts",
+          "columns": [
+            "#",
+            "Concept"
+          ],
+          "rows": [
+            [
+              "1",
+              "Limitations in physical activities because of ill health"
+            ],
+            [
+              "2",
+              "Limitations in social activities because of physical or emotional problems"
+            ],
+            [
+              "3",
+              "Limitations in role performance due to physical health problems"
+            ],
+            [
+              "4",
+              "Bodily pain"
+            ],
+            [
+              "5",
+              "General mental distress and well-being"
+            ],
+            [
+              "6",
+              "Limitations in role performance because of emotional problems"
+            ],
+            [
+              "7",
+              "Vitality (energy and fatigue)"
+            ],
+            [
+              "8",
+              "General health perceptions"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Outcome scale traps",
+          "items": [
+            {
+              "text": "**SF-36** measures health-related quality of life (not occupational functioning or social readjustment).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 5
+              }
+            },
+            {
+              "text": "HoNOS (12 scales, developed by RCPsych) is the scale used for monitoring clinical recovery, among **SCAN**, **CAGE**, **MMPI**, **AUDIT**.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 16,
+                "questionNumber": 35
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Five outcome measure types: psychopathological rating scale, global, generic patient-based, disease-specific, domain-specific.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "Useful outcome measure: appropriate, reliable and valid, responsive, readily interpretable, acceptable and feasible.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 15
+            }
+          },
+          {
+            "text": "GAF: DSM-IV axis V, combines symptoms and function. SOFAS: function only, not symptoms, 100 points, PSP is a guided tool.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "SF-36: generic quality-of-life measure, 8 concepts, self-administered from age 14.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          },
+          {
+            "text": "HoNOS: most widely used NHS outcome scale; RCPsych 1993; 12 items.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "GAF range",
+            "value": "100 points",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 15
+            }
+          },
+          {
+            "label": "HoNOS items",
+            "value": "12",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "SF-36 health concepts",
+            "value": "8",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          },
+          {
+            "label": "SF-36 minimum age (self-administered)",
+            "value": "14",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 16
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "id": "psychometry",
+      "title": "9. Psychometry of rating scales",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two properties matter when developing scales: validity (does the scale measure the actual phenomenon?) and reliability (does it give consistent results?). Reliability is the replicable nature of tools; high reliability guarantees consistency but not scientific validity.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "table",
+          "title": "Types of reliability",
+          "columns": [
+            "Type",
+            "Meaning / measure",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Test-retest",
+              "Instrument administered twice to the same population",
+              "Interval long enough to avoid practice effect but short enough that the state does not change; 2 to 14 days often used in psychiatry"
+            ],
+            [
+              "Internal consistency (Cronbach's alpha)",
+              "Correlates each item with the total score and averages the correlations",
+              "Values from negative infinity to 1 but only positive values make sense; arbitrary cut-off 0.70"
+            ],
+            [
+              "Split-half",
+              "Scale split into two parts and correlation examined",
+              ""
+            ],
+            [
+              "Interrater",
+              "Two or more raters rate the same population with the same scale",
+              "Intraclass correlation coefficient (**ICC**) for continuous variables: 0 (unreliable) to 1 (perfect); 0.6 fair, 0.8 very good, 0.9 excellent; relative **ICC** always higher than absolute **ICC**; **ANOVA** **ICC** for >2 raters/groups. Kappa or weighted kappa for nominal data with more than two categories"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Types of validity",
+          "columns": [
+            "Type",
+            "Meaning",
+            "Example given"
+          ],
+          "rows": [
+            [
+              "Face",
+              "Subjective judgment whether the test measures the construct on its face",
+              "Hamilton depression scale has face value for depression, not for obsessions"
+            ],
+            [
+              "Construct",
+              "Whether the test really measures the theoretical construct of interest; unified construct validity = content + criterion validity",
+              ""
+            ],
+            [
+              "Content",
+              "Whether each subscale/item fits what the test was designed to measure; good coverage of all domains; cannot often be statistically tested, experts comment",
+              ""
+            ],
+            [
+              "Criterion",
+              "Performance against an external criterion (concurrent or predictive)",
+              ""
+            ],
+            [
+              "Concurrent (criterion)",
+              "Distinguishes subjects who differ concurrently on other measures",
+              "High on insomnia scale may score high on fatigue scale"
+            ],
+            [
+              "Predictive (criterion)",
+              "Predicts future group differences from current score differences",
+              "High childhood aggression score and adult criminal incidents"
+            ],
+            [
+              "Incremental",
+              "Predicts or explains variance over and above other measures",
+              ""
+            ],
+            [
+              "Convergent",
+              "Agreement between instruments measuring the same construct",
+              "**BDI** and **HAMD** for depression"
+            ],
+            [
+              "Discriminant",
+              "Disagreement between scales measuring different constructs",
+              "Poor correlation between **HAMD** and Hamilton Anxiety scale"
+            ],
+            [
+              "Experimental / interventional",
+              "Sensitivity to change: must show a difference when an intervention modifies the domain",
+              ""
+            ],
+            [
+              "Factorial",
+              "Form of construct validity established via factor analysis of items",
+              ""
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 18
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 18
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Validity: the question each type answers",
+          "columns": [
+            "Validity",
+            "Question it answers"
+          ],
+          "rows": [
+            [
+              "Face",
+              "Does this scale appear fit for the purpose of measuring the variable of interest?"
+            ],
+            [
+              "Content",
+              "Does this scale appear to include all the important domains of the measured attribute?"
+            ],
+            [
+              "Criterion",
+              "Is the scale consistent with what we already know (concurrent) and what we expect (predictive)?"
+            ],
+            [
+              "Convergent",
+              "Does this new scale associate with a different scale measuring a similar construct?"
+            ],
+            [
+              "Discriminant",
+              "Does the new scale disagree with scales measuring unrelated constructs?"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Precision is how much a calculated central value (e.g. mean) varies with repeated sampling; narrower variation means more precision, and random errors cause imprecision. Factors reducing precision include wider interval limits and expecting a higher confidence interval (==99.7%== vs ==95%==). Accuracy is how close the mean is to the true population value. Precision is comparable to reliability, accuracy to validity; bias compromises validity/accuracy.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 19
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Psychometry traps",
+          "items": [
+            {
+              "text": "\"Interrater validity\" is the false option among types of validity (face, construct, ecological, content): inter-rater reliability (not validity) is agreement between observers.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 1,
+                "questionNumber": 2
+              }
+            },
+            {
+              "text": "Test-retest reliability = correlation between the 1st and 2nd test in the same subject (not between raters or before/after treatment).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "Inter-rater reliability = same results when used by two different raters on the same patient.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 19,
+                "questionNumber": 40
+              }
+            },
+            {
+              "text": "Internal consistency = degree of correlation of one test item with other items (indexed by Cronbach's alpha, Kuder-Richardson or split-half).",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 19,
+                "questionNumber": 41
+              }
+            },
+            {
+              "text": "Concurrent validity is also known as criterion validity.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 18,
+                "questionNumber": 38
+              }
+            },
+            {
+              "text": "Construct validity: a test with subtests that measure cognitive abilities well, or that includes most components of cognition affected by dementia, has good construct validity.",
+              "source": {
+                "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Rating Scales Attempt review.pdf",
+                "page": 7,
+                "questionNumber": 13
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Reliability = consistency (high reliability does not guarantee validity); validity = measures what it proposes to measure.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Test-retest interval 2-14 days; Cronbach's alpha internal consistency cut-off 0.70; split-half; interrater (ICC, kappa).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "ICC: 0 to 1; 0.6 fair, 0.8 very good, 0.9 excellent; kappa or weighted kappa for nominal data.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            }
+          },
+          {
+            "text": "Face (subjective), content (domain coverage, expert judgment), criterion (concurrent/predictive), construct (unified = content + criterion).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Convergent: same construct agrees (BDI-HAMD); discriminant: different constructs disagree (HAMD vs Hamilton Anxiety); experimental: sensitivity to change.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 18
+            }
+          },
+          {
+            "text": "Precision ~ reliability (random error); accuracy ~ validity (bias).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 19
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Test-retest interval used in psychiatry",
+            "value": "2 to 14 days",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            }
+          },
+          {
+            "label": "Cronbach's alpha cut-off",
+            "value": "0.70",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            }
+          },
+          {
+            "label": "ICC fair / very good / excellent",
+            "value": "0.6 / 0.8 / 0.9",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 17
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "id": "risk-assessment",
+      "title": "10. Risk assessment",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Risk is the likelihood that harm will occur. Risk assessment is a process of scientific (statistical/clinical) calculation of the likelihood of an adverse event. Risk management is integral to assessment; assessment is not for labelling people but is dynamic and specific to the event of importance. Risk cannot be eliminated, only reduced.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "table",
+          "title": "Problems with predicting risk",
+          "columns": [
+            "Problem",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Low base rate",
+              "Events of interest are rare, so predictive value is low; serious violence among the severely mentally disordered is under ==1%== (Wallace 1998); false positive rate of even a very good instrument compromises predictive utility"
+            ],
+            [
+              "Multifactorial",
+              "Risk depends on several factors that change over time"
+            ],
+            [
+              "Unknown interactions",
+              "Comprehensive evaluations are time-consuming; interaction among factors is often unknown"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Static, stable and dynamic risk factors (Bouch & Marshall, 2003)",
+          "columns": [
+            "Type",
+            "Features",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Static",
+              "Fixed and historical; cannot be modified",
+              "Family history of suicide"
+            ],
+            [
+              "Stable",
+              "Long-term, enduring but modifiable to some extent",
+              "Diagnosis of personality disorder"
+            ],
+            [
+              "Dynamic",
+              "Fluctuate markedly in duration and intensity; can act synergistically and multiply effect of static and stable factors if not addressed promptly",
+              "Acute anxiety symptoms or akathisia"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 20
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A comprehensive risk assessment considers static, stable, dynamic and future risk factors (certain dynamic factors may occur only in future, e.g. feeling helpless on discharge) and includes them in risk management strategies.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "table",
+          "title": "Approaches to risk assessment",
+          "columns": [
+            "Approach",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Clinical",
+              "Subjective, intuitive judgment informed by experience; opinions highly variable with poor predictive value; most risk assessment currently done this way; only 1/3 of pure clinical judgments estimated correct in retrospective studies"
+            ],
+            [
+              "Actuarial",
+              "Formal, algorithmic, objective; numerical probability of future outcome; very popular in forensic services; superior for violence and sexual offending; does not inform which risk factors to target; hardly any tools for self-harm/suicide, many for violence"
+            ],
+            [
+              "Structured professional judgment",
+              "Combines evidence base for risk factors with individual clinical assessment; structured scales-based assessment when formulating risk management plan; e.g. **HCR-20** for violence in forensic settings"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 21
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Problems of actuarial tools",
+          "columns": [
+            "#",
+            "Problem"
+          ],
+          "rows": [
+            [
+              "1",
+              "Historical aspects given more importance, so a pessimistic view of risk, insensitive to change"
+            ],
+            [
+              "2",
+              "High false positive rates"
+            ],
+            [
+              "3",
+              "Hard to generalise tools developed in one setting to another"
+            ],
+            [
+              "4",
+              "Too focused on static and stable rather than dynamic, modifiable factors"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 21
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 21
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Actuarial instruments identify at-risk groups more accurately, but structured risk instruments may be more clinically useful for clinical decision-making. Neither actuarial nor structured judgments should replace conventional clinical assessment; they are additional aids to systematically identify and address relevant risk factors.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 21
+          }
+        },
+        {
+          "type": "table",
+          "title": "Stages in risk assessment and management (Bouch & Marshall)",
+          "columns": [
+            "Stage",
+            "Step"
+          ],
+          "rows": [
+            [
+              "A",
+              "Identify need for a full structured risk assessment (not everyone needs this)"
+            ],
+            [
+              "B",
+              "Assess static, stable, dynamic and future risk factors and consider protective factors"
+            ],
+            [
+              "C",
+              "Individual formulation of risk applied to the current presentation"
+            ],
+            [
+              "D",
+              "Consider possible interventions and the level of support required"
+            ],
+            [
+              "E",
+              "Anticipate the impact of possible interventions"
+            ],
+            [
+              "F",
+              "Develop a management plan with specified short and long-term implementations"
+            ],
+            [
+              "G",
+              "Review and revise the management plan as risk factors vary"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 22
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "HCR-20 items (Webster)",
+          "columns": [
+            "Historical (10)",
+            "Clinical (5)",
+            "Risk management (5)"
+          ],
+          "rows": [
+            [
+              "Previous violence history",
+              "Negative attitudes to health services",
+              "Management plan lacks feasibility"
+            ],
+            [
+              "Young age at first incident",
+              "Active symptoms",
+              "Exposure to destabilisers (e.g. alcohol)"
+            ],
+            [
+              "Unstable relationships",
+              "Impulsivity",
+              "Non-compliance"
+            ],
+            [
+              "Major mental illness",
+              "Treatment unresponsiveness",
+              "Stress"
+            ],
+            [
+              "Substance use",
+              "Lack of insight",
+              "Lack of personal support"
+            ],
+            [
+              "Psychopathy",
+              "",
+              ""
+            ],
+            [
+              "Employment issues",
+              "",
+              ""
+            ],
+            [
+              "Personality disorder",
+              "",
+              ""
+            ],
+            [
+              "Early maladjustment",
+              "",
+              ""
+            ],
+            [
+              "Previous supervision failure",
+              "",
+              ""
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**HCR-20** is a popular structured clinical tool for violence risk with good inter-rater reliability; it has been useful in predicting inpatient violence and community violence in discharged patients.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 22
+          }
+        },
+        {
+          "type": "table",
+          "title": "Other structured risk tools",
+          "columns": [
+            "Tool",
+            "Features"
+          ],
+          "rows": [
+            [
+              "**SARA**",
+              "Spousal assault risk assessment guide; 20 risk factors; gauges future violence risk in men arrested for spousal assault"
+            ],
+            [
+              "**SVR-20**",
+              "Sexual violence risk scale; 20 items for assessing violence risk in sex offenders"
+            ],
+            [
+              "**SAD** **PERSONS**",
+              "10 major demographic risk factors in a mnemonic to assess immediate suicide risk, often in acute general hospital; scores guide admit/discharge"
+            ],
+            [
+              "Beck Hopelessness Scale",
+              "20 true-false statements on pessimism about the future; scores 0-3 minimal, 4-8 mild, 9-14 moderate, 15-20 severe risk"
+            ],
+            [
+              "Beck Scale for Suicidal Ideation",
+              "Self-report, 24 items (5 screening items); thoughts, plans and intent; total 0-48 (each item 0-2); higher scores = greater risk; no defined cut-offs"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "SAD PERSONS score",
+          "columns": [
+            "Letter",
+            "Factor",
+            "Scores 1 if"
+          ],
+          "rows": [
+            [
+              "S",
+              "Sex",
+              "Male (0 if female)"
+            ],
+            [
+              "A",
+              "Age",
+              "Under 20 or over 44"
+            ],
+            [
+              "D",
+              "Depression",
+              "Present"
+            ],
+            [
+              "P",
+              "Previous attempt",
+              "Present"
+            ],
+            [
+              "E",
+              "Ethanol abuse",
+              "Present"
+            ],
+            [
+              "R",
+              "Rational thinking loss",
+              "Present"
+            ],
+            [
+              "S",
+              "Social supports lacking",
+              "Present"
+            ],
+            [
+              "O",
+              "Organized plan",
+              "Plan made and lethal"
+            ],
+            [
+              "N",
+              "No spouse",
+              "Divorced, widowed, separated or single"
+            ],
+            [
+              "S",
+              "Sickness",
+              "Chronic, debilitating and severe"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Beck Hopelessness Scale bands (20 items)",
+          "columns": [
+            "Score",
+            "Risk"
+          ],
+          "rows": [
+            [
+              "0-3",
+              "Minimal"
+            ],
+            [
+              "4-8",
+              "Mild"
+            ],
+            [
+              "9-14",
+              "Moderate"
+            ],
+            [
+              "15-20",
+              "Severe"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 23
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Actuarial instruments: group data from high-risk individuals is applied to the patient, giving a group risk that should be applied with caution.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 23
+          }
+        },
+        {
+          "type": "table",
+          "title": "Actuarial instruments",
+          "columns": [
+            "Tool",
+            "Features"
+          ],
+          "rows": [
+            [
+              "**VRAG** (Quinsey 1995)",
+              "Entirely reliant on historical factors; validated at Canadian prisons; 12 items including **PCL-R** as a subscale"
+            ],
+            [
+              "Violence Risk Scale",
+              "23 dynamic and 6 static variables"
+            ],
+            [
+              "**PCL-R** (Hare)",
+              "Diagnoses psychopathy and informs risk assessment/treatment; 0-40 range, 0-2 per item, 20 items; cut-off 25 diagnoses psychopathy; not designed as a stand-alone actuarial risk tool"
+            ],
+            [
+              "Static-99",
+              "Ten-item actuarial instrument (Hanson and Thornton) for adult male sexual offenders aged 18+ at release"
+            ],
+            [
+              "**SORA**",
+              "14-item actuarial instrument incorporating **PCL-R**"
+            ],
+            [
+              "Manchester Self Harm Rule (Cooper et al. 2006)",
+              "Actuarial instrument for self-harm risk; high sensitivity, low specificity"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 23
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "VRAG items",
+          "columns": [
+            "Item",
+            "Item"
+          ],
+          "rows": [
+            [
+              "**PCL-R**",
+              "Absence of schizophrenia (presence counted to decrease risk)"
+            ],
+            [
+              "Elementary school difficulties",
+              "Victim injury (minimal or none)"
+            ],
+            [
+              "Personality disorder",
+              "Alcohol abuse"
+            ],
+            [
+              "Younger age",
+              "Female victim"
+            ],
+            [
+              "Separated from parents before age 16",
+              "Failed conditional release/supervision order"
+            ],
+            [
+              "Never married",
+              "History of non-violent offence"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "SAD PERSONS",
+          "mnemonic": "SAD PERSONS",
+          "expansion": [
+            "Sex",
+            "Age",
+            "Depression",
+            "Previous attempt",
+            "Ethanol abuse",
+            "Rational thinking loss",
+            "Social supports lacking",
+            "Organized plan",
+            "No spouse",
+            "Sickness"
+          ],
+          "sourced": true,
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 23
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Risk = likelihood of harm; cannot be eliminated, only reduced; assessment is dynamic and event-specific.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Problems predicting risk: low base rate (<1% serious violence), multifactorial, unknown interactions.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Static (fixed, historical), stable (enduring, modifiable), dynamic (fluctuating) risk factors; consider future factors too.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 20
+            }
+          },
+          {
+            "text": "Clinical (subjective, only 1/3 correct), actuarial (numerical, forensic, superior for violence/sex offending), structured professional judgment (e.g. HCR-20).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "Actuarial problems: historical emphasis, false positives, poor generalisation, static/stable focus; neither replaces clinical assessment.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 21
+            }
+          },
+          {
+            "text": "HCR-20: 10 historical, 5 clinical, 5 risk management items; good inter-rater reliability; predicts inpatient and community violence.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 22
+            }
+          },
+          {
+            "text": "SARA 20 items spousal assault; SVR-20 sexual violence; SAD PERSONS 10 factors; Beck Hopelessness 20 items; Beck SSI 24 items, 0-48.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 23
+            }
+          },
+          {
+            "text": "VRAG 12 items, historical; PCL-R 20 items, 0-40, cut-off 25; Static-99 10 items; SORA 14 items; Manchester Self Harm Rule: high sensitivity, low specificity.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 24
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "HCR-20 items",
+            "value": "10 + 5 + 5 = 20",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 22
+            }
+          },
+          {
+            "label": "PCL-R psychopathy cut-off",
+            "value": "25 (range 0-40)",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "VRAG items",
+            "value": "12",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 23
+            }
+          },
+          {
+            "label": "Static-99 items",
+            "value": "10",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "SORA items",
+            "value": "14",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 24
+            }
+          },
+          {
+            "label": "Beck Hopelessness severe band",
+            "value": "15-20",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+              "page": 23
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "mindMap": [
+    {
+      "text": "1. General principles",
+      "children": [
+        {
+          "text": "Four uses: screening, diagnosis, severity/response, functioning and well-being",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "text": "Self-rated (BDI, Zung, SCL, GHQ, Lunser, EPDS) vs observer rated (PANSS, BPRS, HAMD, MADRS, YBOCS, SCID)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "text": "Items selected from clinical literature or by calibration (known ill vs presumed well)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
+          "text": "GHQ: Goldberg screening tool, versions of 12/28/30/60 items",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 3
+          }
+        },
+        {
+          "text": "GHQ-28 Likert 0-3, maximum 84",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 3
+          }
+        },
+        {
+          "text": "Binary scoring: caseness above 4 (28/30 items), 3 for 12 items",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 3
+          }
+        },
+        {
+          "text": "GHQ reliability 0.78 to 0.95; not usually used for prediction",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 3
+          }
+        }
+      ]
+    },
+    {
+      "text": "2. Diagnostic schedules",
+      "children": [
+        {
+          "text": "CIS (Goldberg): fully structured, neurotic conditions, UK Morbidity Surveys",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 4
+          }
+        },
+        {
+          "text": "CIDI (WHO) combines PSE and DIS; DIS used in ECA study",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 4
+          }
+        },
+        {
+          "text": "HSCL-25: anxiety 10 + depression 15 items; SCL-90R and BSI derivatives",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 4
+          }
+        },
+        {
+          "text": "PHQ self-report of PRIME-MD; PHQ-9, GAD-7, PHQ-15",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 4
+          }
+        },
+        {
+          "text": "PSE with CATEGO; SCAN (28 sections, 1872 items) has replaced PSE",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 4
+          }
+        },
+        {
+          "text": "SADS (Kiddie-SADS for children); SCID (SCID-II axis 2)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 4
+          }
+        },
+        {
+          "text": "Most schedules clinician-administered; DSM or ICD based",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 5
+          }
+        }
+      ]
+    },
+    {
+      "text": "3. Depression rating scales",
+      "children": [
+        {
+          "text": "PHQ-2: two questions over past two weeks",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "text": "HAMD observer rated 17-21 items; MADRS 10 items most sensitive to change",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "text": "BDI 21 items, max 63, bands 0-13/14-19/20-28/>28",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "text": "Zung 20 items, self-rated, insensitive to change; VAS 10 cm line",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 6
+          }
+        },
+        {
+          "text": "Children: CDI 7-17, Reynolds Child 8-12, MFQ 8-18 (NICE)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "text": "EPDS: 10 items, past seven days, fewer somatic questions",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "text": "GDS yes/no past week; Cornell via caregiver; BASDEC 19 cards; CDSS for schizophrenia",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 8
+          }
+        }
+      ]
+    },
+    {
+      "text": "4. Alcohol rating scales",
+      "children": [
+        {
+          "text": "CAGE: 4 questions, score 2 highly suggestive",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 9
+          }
+        },
+        {
+          "text": "AUDIT: 10 items; 8+ harmful; 13+ women / 15+ men dependent",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 9
+          }
+        },
+        {
+          "text": "MAST: 25 yes/no items; 3-5 early, 6+ highly likely problem drinker",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 9
+          }
+        },
+        {
+          "text": "CIWA: withdrawal severity, 10 items, total 67",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 9
+          }
+        }
+      ]
+    },
+    {
+      "text": "5. Scales used in child psychiatry",
+      "children": [
+        {
+          "text": "CAFAS: functional impairment, ~10 minutes, ages 7-17",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 10
+          }
+        },
+        {
+          "text": "CBCL: 113 items, internalizing and externalizing scores, ages 4-16",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 10
+          }
+        },
+        {
+          "text": "CBCL has teacher, youth and direct observation forms; two age versions",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 10
+          }
+        },
+        {
+          "text": "DISC: fully structured DSM-based diagnostic interview",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 10
+          }
+        },
+        {
+          "text": "Conners: most commonly used in ADHD; parent, teacher, self-report",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 10
+          }
+        }
+      ]
+    },
+    {
+      "text": "6. Scales used in old age psychiatry",
+      "children": [
+        {
+          "text": "GMSS with computerised AGECAT",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 11
+          }
+        },
+        {
+          "text": "MMSE: 10 min, cut-off 23, misses frontal deficits",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 11
+          }
+        },
+        {
+          "text": "AMTS: 10 points, 3 min, cut-off 7/8",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 11
+          }
+        },
+        {
+          "text": "ADAS-Cog gold standard in anti-dementia drug trials",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 11
+          }
+        },
+        {
+          "text": "NPI: ten domains, scored 1-144; BEHAVE-AD; MOUSEPAD",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 11
+          }
+        },
+        {
+          "text": "CAPE: disability and need for care, four behavioural sub-scales",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 11
+          }
+        },
+        {
+          "text": "Bristol ADL: 20 abilities, caregiver-rated",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 12
+          }
+        }
+      ]
+    },
+    {
+      "text": "7. Other clinical rating scales",
+      "children": [
+        {
+          "text": "PANSS: 30 items, clinician-administered, schizophrenia",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "text": "Y-BOCS: clinician semi-structured severity in OCD",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "text": "SCOFF: eating disorder screen, 2+ positive",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "text": "MMPI: 567 questions, not projective",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "text": "CGI-S and CGI-I each 1-7; IPDE gives ICD-10 PD diagnosis",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "text": "BPRS: 18 items, 7 points, max 108, five factors",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "text": "SAPS 34 / SANS 25 items; PDQ-4+ 99 items",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 14
+          }
+        }
+      ]
+    },
+    {
+      "text": "8. Outcome scales in psychiatry",
+      "children": [
+        {
+          "text": "Five outcome measure types from symptom scales to domain-specific",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 15
+          }
+        },
+        {
+          "text": "Criteria: appropriate, reliable and valid, responsive, interpretable, acceptable and feasible",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 15
+          }
+        },
+        {
+          "text": "GAF: 100-point DSM-IV axis V combining symptoms and function",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 16
+          }
+        },
+        {
+          "text": "SOFAS: functioning only; PSP guided tool",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 16
+          }
+        },
+        {
+          "text": "SF-36: generic quality of life, 8 concepts, age 14 and over",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 16
+          }
+        },
+        {
+          "text": "HoNOS: 12 items, most used NHS outcome scale, RCPsych/DoH 1993",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 16
+          }
+        }
+      ]
+    },
+    {
+      "text": "9. Psychometry of rating scales",
+      "children": [
+        {
+          "text": "Reliability = consistency; validity = measuring the right thing",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 17
+          }
+        },
+        {
+          "text": "Test-retest 2-14 days; Cronbach's alpha cut-off 0.70",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 17
+          }
+        },
+        {
+          "text": "Interrater: ICC (0.6 fair, 0.8 very good, 0.9 excellent); kappa for nominal data",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 17
+          }
+        },
+        {
+          "text": "Face, content, criterion (concurrent, predictive), construct validity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 18
+          }
+        },
+        {
+          "text": "Convergent, discriminant and experimental validity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 18
+          }
+        },
+        {
+          "text": "Precision comparable to reliability; accuracy to validity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 19
+          }
+        }
+      ]
+    },
+    {
+      "text": "10. Risk assessment",
+      "children": [
+        {
+          "text": "Risk can be reduced not eliminated; low base rate undermines prediction",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 20
+          }
+        },
+        {
+          "text": "Static, stable, dynamic (and future) risk factors",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 20
+          }
+        },
+        {
+          "text": "Clinical, actuarial and structured professional judgment approaches",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 21
+          }
+        },
+        {
+          "text": "Actuarial tools: historical focus, false positives, poor generalisation",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 21
+          }
+        },
+        {
+          "text": "HCR-20: 10 historical, 5 clinical, 5 risk management items",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 22
+          }
+        },
+        {
+          "text": "SAD PERSONS, Beck Hopelessness, Beck SSI for suicide risk",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 23
+          }
+        },
+        {
+          "text": "VRAG, Violence Risk Scale, PCL-R (cut-off 25), Static-99, SORA, Manchester Self Harm Rule",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 24
+          }
+        }
+      ]
+    }
+  ]
+}

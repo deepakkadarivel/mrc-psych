@@ -1,0 +1,2768 @@
+{
+  "topic": "pa-neurochemistry",
+  "sections": [
+    {
+      "id": "synaptic-transmission",
+      "title": "1. Synaptic transmission",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The presynaptic neuron synthesises, transports and stores the chemical messenger (neurotransmitter). Synthesis takes place in the cell body/soma, which holds the protein-synthesis machinery; axonal transport then carries the neurotransmitter to the synaptic terminal, where it is stored in the synaptic vesicle until release by membrane fusion and exocytosis.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Released neurotransmitter occupies receptors on the postsynaptic membrane; some also acts on autoreceptors in the presynaptic membrane, which are crucial for feedback inhibition of neurotransmitter synthesis and release.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Neurotransmitters show specificity in receptor interaction (lock and key): one neurotransmitter can have more than one receptor type, but a given receptor site accepts only a particular chemical conformation. Receptors are finite in number and become saturated if neurotransmitter is over-secreted.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Receptor binding is often competitive - the relative synaptic concentrations of competing molecules decide the degree of receptor activity. Most receptors bind reversibly (the receptor returns to its physiological status quo after dissociation); some molecules act irreversibly, structurally altering the protein of the receptor complex.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "type": "table",
+          "title": "How neurotransmitter action ends",
+          "columns": [
+            "Mechanism",
+            "Example given"
+          ],
+          "rows": [
+            [
+              "Reuptake back into the presynaptic neuron via special transporters",
+              "Monoamine transporters"
+            ],
+            [
+              "Enzymatic breakdown at the cleft",
+              "**COMT** / **MAO-A**"
+            ],
+            [
+              "Removed by glia or plasma circulation",
+              "Glutamate shuttle"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Points of feedback control of a neurotransmitter",
+          "columns": [
+            "#",
+            "Control point"
+          ],
+          "rows": [
+            [
+              "1",
+              "Control of presynaptic synthesis"
+            ],
+            [
+              "2",
+              "Regulation of release"
+            ],
+            [
+              "3",
+              "Reuptake regulation"
+            ],
+            [
+              "4",
+              "Autoreceptor-mediated presynaptic inhibition"
+            ],
+            [
+              "5",
+              "Independent postsynaptic inhibition via a different neuronal network"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Neurotransmitter classes",
+          "columns": [
+            "Monoamines",
+            "Amino acids",
+            "Peptides"
+          ],
+          "rows": [
+            [
+              "Dopamine",
+              "**GABA**",
+              "Endorphins"
+            ],
+            [
+              "Norepinephrine",
+              "Glycine",
+              "Cholecystokinin"
+            ],
+            [
+              "Epinephrine",
+              "Glutamate",
+              "Neurotensin"
+            ],
+            [
+              "Serotonin",
+              "",
+              "Neuropeptide Y"
+            ],
+            [
+              "Acetylcholine",
+              "",
+              "Leptin"
+            ],
+            [
+              "Histamine",
+              "",
+              "Ghrelin"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "**Q15** asks which listed neurotransmitter is an amino acid: glycine is the answer (the others - acetylcholine, neurotensin, dopamine, endorphins - are not), and the explanation notes glycine acts both as a glutamate co-transmitter and as an independent inhibitory neurotransmitter at its own receptors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 15
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Histamine synthesis and precursor pairings",
+          "note": "Notes list histamine as a monoamine but give no precursor. **Q1** (serotonin-histidine is the wrongly matched pair) explains serotonin comes from tryptophan, and histamine is produced from histidine - not covered in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Presynaptic neuron synthesises (soma), transports (axonal transport) and stores (vesicle) the transmitter; release is by membrane fusion/exocytosis.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Autoreceptors on the presynaptic membrane give feedback inhibition of synthesis and release.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Receptor binding is lock-and-key, saturable, often competitive and mostly reversible (some molecules act irreversibly).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Action ends by reuptake via transporters, enzymatic breakdown at the cleft (COMT/MAO-A), or removal by glia/plasma (glutamate shuttle).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Five feedback-control points: synthesis, release, reuptake, autoreceptor presynaptic inhibition, independent postsynaptic inhibition via another network.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Classes: monoamines (DA, NE, epinephrine, 5HT, ACh, histamine); amino acids (GABA, glycine, glutamate); peptides (endorphins, CCK, neurotensin, NPY, leptin, ghrelin).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 2
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "classification-of-receptors",
+      "title": "2. Classification of receptors",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Receptors fall into three categories: ligand-gated channels (ionotropic), receptors coupled to intracellular G proteins as transducers (metabotropic), and ligand-dependent regulators of nuclear transcription (nuclear receptors).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Ionotropic vs metabotropic receptors",
+          "columns": [
+            "Feature",
+            "Ionotropic (ion channel)",
+            "Metabotropic (G-protein coupled)"
+          ],
+          "rows": [
+            [
+              "Speed of response",
+              "Fast (e.g. **GABA-A** benzodiazepine)",
+              "Comparatively slower (most antipsychotics, antidepressants)"
+            ],
+            [
+              "Structure",
+              "Four or five protein subunits forming a pore ('doughnut with a hole'/'rosette'); **GABA-A** is the typical example",
+              "Proteins spanning the membrane seven times (serpentine receptors)"
+            ],
+            [
+              "Mechanism",
+              "Inhibitory action: Cl- entry; excitatory action: Ca2+ or other cation entry",
+              "Cyclase-mediated second messenger activation (**GTP**, **ATP** etc.); Gs stimulatory, Gi inhibits adenylate cyclase; third variant acts via phospholipase C"
+            ],
+            [
+              "Duration of effect",
+              "Not stated",
+              "Influence protein synthesis eventually, producing longer lasting effects"
+            ],
+            [
+              "Examples",
+              "**GABA-A**, **NMDA**, 5HT3",
+              "**DA** receptors, most 5HT receptors except 5HT3, norepinephrine and neuropeptide (incl. opioid) receptors"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 3
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**GABA-A** receptor structure: each subunit is a string of amino acids passing in and out of the membrane four times; a large extracellular N-terminal is thought to mediate **GABA**-channel interactions, and a large intracellular loop in the middle has four phosphorylation sites.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuclear receptors (e.g. glucocorticoid receptors) belong to a superfamily with a cysteine-rich **DNA**-binding domain, a ligand-binding domain and a variable amino terminal region. On ligand binding the receptor becomes a transcription factor and binds **DNA** via zinc fingers. Others: progesterone, androgen and 1,25-dihydroxycholecalciferol (vitamin D) receptors; many are orphan receptors with unidentified ligands.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The glucocorticoid receptor sits mainly in the cytoplasm and migrates to the nucleus as soon as it binds its ligand; by contrast the estrogen and triiodothyronine (**T3**) receptors are retained in the nucleus and bind hormones there directly.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Receptor-class questions seen in the bank",
+          "items": [
+            {
+              "text": "Ionotropic = ligand-gated ion channel (**GABA-A** is pentameric ionotropic); 5-**HT3** is the ligand-gated cation channel among the 5-**HT** receptors; **GABA-B**, 5HT2A and **D2** are not ionotropic.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 5,
+                "questionNumber": 11
+              }
+            },
+            {
+              "text": "Glucocorticoid receptor = ligand-dependent regulator of nuclear transcription (translocates to nucleus to modulate gene expression), not ionotropic/metabotropic.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 26
+              }
+            },
+            {
+              "text": "Beta receptors are Gs coupled and so increase adenylate cyclase; alpha1 is phospholipase C coupled and alpha2 is Gi coupled.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 3,
+                "questionNumber": 5
+              }
+            },
+            {
+              "text": "'Rosette shaped' was keyed to **NMDA** receptors in this bank; the explanation draws it from the **GABA-A** ionotropic structure (five subunits in a circle, each crossing the membrane four times).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 15,
+                "questionNumber": 31
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Three receptor classes: ionotropic (ligand-gated channels), metabotropic (G-protein coupled), nuclear (ligand-dependent regulators of transcription).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Ionotropic = fast; metabotropic = slower but longer lasting (influences protein synthesis).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Ionotropic: GABA-A, NMDA, 5HT3; subunit pore ('rosette'); Cl- entry inhibitory, Ca2+/cations excitatory.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Metabotropic: seven-transmembrane; Gs stimulatory, Gi inhibits adenylate cyclase, third variant via phospholipase C; includes DA receptors and all 5HT except 5HT3.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Nuclear receptors become transcription factors after ligand binding and bind DNA via zinc fingers.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Glucocorticoid receptor: cytoplasmic, migrates to nucleus on binding; estrogen and T3 receptors are nuclear already.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 3
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          1,
+          5
+        ]
+      }
+    },
+    {
+      "id": "dopamine",
+      "title": "3. Dopamine",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Dopamine at a glance",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Source",
+              "Tyrosine -> L-dopa -> dopamine"
+            ],
+            [
+              "Rate-limiting step",
+              "Tyrosine hydroxylase"
+            ],
+            [
+              "Breakdown enzymes",
+              "**MAO** and **COMT** (**MAO-A** more selective for norepinephrine and serotonin; **MAO-B** more selective for dopamine)"
+            ],
+            [
+              "Breakdown product",
+              "Homovanillic acid"
+            ],
+            [
+              "Reuptake",
+              "Dopamine transporter (cocaine inhibits it)"
+            ],
+            [
+              "Function",
+              "Motivation, novelty seeking, reward circuitry (addictions), arousal and motor movement gating in basal ganglia"
+            ],
+            [
+              "Disorders",
+              "Low in Parkinson's; high in psychosis (especially mesolimbic); may be low in anhedonia/negative symptoms (mesocortical)"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Dopamine receptors",
+          "columns": [
+            "Family",
+            "Receptors",
+            "Effect on adenylate cyclase",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "**D1**-like",
+              "**D1**, **D5**",
+              "Increase (stimulatory)",
+              "**D1** exclusively postsynaptic, resistant to antagonism; **D5** more limbic, 10 times higher dopamine affinity"
+            ],
+            [
+              "**D2**-like",
+              "**D2**, **D3**, **D4**",
+              "Decrease (inhibitory)",
+              "**D4** mainly frontal cortex, high **clozapine** affinity; **D4**-selective antagonists have no antipsychotic efficacy"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "All five dopamine receptors (**D1** to **D5**) are G-protein coupled.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "type": "trap-list",
+          "title": "Dopamine traps from the question bank",
+          "items": [
+            {
+              "text": "Rate-limiting step in dopamine synthesis is tyrosine hydroxylase (not dopamine beta hydroxylase, **PNMT**, **COMT** or choline acetyltransferase); **DOPA** is then converted to dopamine by **DOPA** decarboxylase.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 17,
+                "questionNumber": 37
+              }
+            },
+            {
+              "text": "Pairing 'dopamine - Alzheimer dementia' is the incorrect one: Alzheimer's is linked to acetylcholine deficiency (the pairings are over-simplifications).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 4,
+                "questionNumber": 7
+              }
+            },
+            {
+              "text": "**D2**-like receptors are inhibitory (negatively linked to adenylate cyclase); **D2** and **D3** can also sit presynaptically as autoreceptors - 'presynaptic inhibitory receptor' was the best description of **D2**.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 16,
+                "questionNumber": 34
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "Dopamine pathways and receptor distribution",
+          "note": "**Q6** (hyperprolactinaemia on depot antipsychotic): tuberoinfundibular pathway (hypothalamus to anterior pituitary) normally tonically inhibits prolactin release. **Q32**: **D1** and **D2** predominate in caudate-putamen; **D3** nucleus accumbens, **D4** prefrontal cortex, **D5** hippocampus. Neither is in the notes (notes only name mesolimbic/mesocortical).",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 6
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Nicotinic receptors and dopamine release",
+          "note": "**Q10**: nicotinic stimulation (alpha-4-beta-2 subtype) regulates dopamine release in nucleus accumbens, a target of nicotine in tobacco. Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 10
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Tyrosine -> L-dopa -> dopamine; rate-limiting step tyrosine hydroxylase.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Broken down by MAO (MAO-B more selective for dopamine) and COMT to homovanillic acid; reuptake by the dopamine transporter (blocked by cocaine).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Functions: motivation, novelty seeking, reward (addiction), arousal, basal ganglia motor gating.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "All five DA receptors are G-protein coupled: D1-like (D1, D5) stimulate adenylate cyclase; D2-like (D2, D3, D4) inhibit it.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "D4 is frontal-cortical with high clozapine affinity, but D4-selective antagonists are not antipsychotic.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Low in Parkinson's; high mesolimbic in psychosis; possibly low mesocortical in negative symptoms/anhedonia.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Rate-limiting enzyme",
+            "value": "Tyrosine hydroxylase",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "Breakdown product",
+            "value": "Homovanillic acid",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "D1-like receptors",
+            "value": "D1, D5 (stimulatory)",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "label": "D2-like receptors",
+            "value": "D2, D3, D4 (inhibitory)",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 4
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "noradrenaline",
+      "title": "4. Noradrenaline",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Noradrenaline (norepinephrine) at a glance",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Source",
+              "Tyrosine -> L-dopa -> dopamine -> norepinephrine -> epinephrine"
+            ],
+            [
+              "Rate-limiting step",
+              "Tyrosine hydroxylase"
+            ],
+            [
+              "Synthetic enzymes",
+              "Dopamine-beta-hydroxylase modulates norepinephrine production; phenylethanolamine-N-methyltransferase modulates conversion to epinephrine"
+            ],
+            [
+              "Breakdown enzymes",
+              "**MAO** (**MAO-A** especially) and **COMT**"
+            ],
+            [
+              "Breakdown products",
+              "**MHPG** (major **CNS** metabolite) and **VMA** (vanillyl mandelic acid; major metabolite from peripheral nervous/endocrine system)"
+            ],
+            [
+              "Reuptake",
+              "Noradrenaline reuptake channel (tricyclics, **reboxetine** inhibit)"
+            ],
+            [
+              "Function",
+              "Arousal, anxiety, mood regulation, autonomic mediation"
+            ],
+            [
+              "Disorders",
+              "Low in depression; abnormal in panic/anxiety disorders"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Adrenergic receptors",
+          "columns": [
+            "Receptor",
+            "Coupling / location",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Alpha-1",
+              "Phospholipase C coupled; mostly postsynaptic",
+              ""
+            ],
+            [
+              "Alpha-2",
+              "Gi coupled; mostly presynaptic autoreceptors",
+              ""
+            ],
+            [
+              "Beta",
+              "Gs coupled",
+              "Predominate in locus ceruleus"
+            ],
+            [
+              "Beta-1 / Beta-2",
+              "",
+              "Beta-1 high affinity for norepinephrine; beta-2 high affinity for epinephrine"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "Predominant **CNS** metabolite of noradrenaline is **MHPG** (3-methoxy-4-hydroxyphenylglycol); **VMA**, 5-**HIAA** and **COMT** were distractors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 5,
+            "questionNumber": 9
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Locus coeruleus as noradrenergic cell-body site",
+          "note": "**Q8**: principal **CNS** location of noradrenergic cell bodies is the locus coeruleus (pons/medulla clusters, with the lateral tegmental nuclei). The notes mention locus ceruleus only for beta-receptor predominance.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 4,
+            "questionNumber": 8
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Catecholamine definition",
+          "note": "**Q16**: catecholamines are L-dopa, dopamine, norepinephrine and epinephrine (synthesised from tyrosine). The notes do not use the term.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 8,
+            "questionNumber": 16
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Tyrosine -> L-dopa -> dopamine -> norepinephrine -> epinephrine; rate-limiting step tyrosine hydroxylase.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "MAO (esp. MAO-A) and COMT break it down; MHPG is the major CNS metabolite, VMA the major peripheral/endocrine one.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Reuptake channel is inhibited by tricyclics and reboxetine.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Functions: arousal, anxiety, mood regulation, autonomic mediation; low in depression, abnormal in panic/anxiety.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Alpha-1 is phospholipase C coupled (postsynaptic); alpha-2 is Gi coupled (presynaptic autoreceptor); beta is Gs coupled.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "text": "Beta-1 has high affinity for norepinephrine; beta-2 for epinephrine.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Major CNS metabolite",
+            "value": "MHPG",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Major peripheral/endocrine metabolite",
+            "value": "VMA",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          },
+          {
+            "label": "Rate-limiting enzyme",
+            "value": "Tyrosine hydroxylase",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 5
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "serotonin",
+      "title": "5. Serotonin",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Serotonin (5HT) at a glance",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Source",
+              "Tryptophan -> 5-hydroxy-L-tryptophan -> serotonin"
+            ],
+            [
+              "Rate-limiting step",
+              "Availability of tryptophan (so tryptophan depletion studies can manipulate the 5HT system)"
+            ],
+            [
+              "Synthetic enzyme",
+              "Tryptophan hydroxylase"
+            ],
+            [
+              "Breakdown enzymes",
+              "**MAO** (preferentially **MAO-A**)"
+            ],
+            [
+              "Breakdown product",
+              "5-hydroxyindoleacetic acid (5-**HIAA**)"
+            ],
+            [
+              "Reuptake",
+              "Serotonin reuptake channel (tricyclics, SSRIs inhibit)"
+            ],
+            [
+              "Function",
+              "Mood, perception of pain, feeding, sleep-wake cycle, motor activity, sexual behaviour, temperature regulation"
+            ],
+            [
+              "Disorders",
+              "Low serotonin -> increased depression, aggression, suicide, impulsivity; regulates dopamine system - role in psychosis"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "There are 14 known serotonin receptor subtypes (5-**HT1A**, 1B, 1D, 1E, 1F, 2A, 2B, 2C, 3, 4, 5A, 5B, 6, 7). All except 5-**HT3** are G-protein coupled; 5HT3 is predominant in gut and associated with motility.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "type": "table",
+          "title": "Serotonin receptor coupling and location",
+          "columns": [
+            "Receptor",
+            "Coupling / location",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "5-**HT1A**",
+              "Gi coupled; postsynaptic",
+              "Antidepressant response; sexual behaviour"
+            ],
+            [
+              "5-**HT1B**",
+              "Gi coupled; presynaptic",
+              ""
+            ],
+            [
+              "5-**HT1D**",
+              "Gi coupled; presynaptic and postsynaptic",
+              ""
+            ],
+            [
+              "5-**HT2**",
+              "Phospholipase C coupled; postsynaptic",
+              "Antagonism -> antipsychotic response (atypicals) and sedation; **LSD** causes 5-**HT2** stimulation; down-regulated after antidepressant treatment/**ECT**"
+            ],
+            [
+              "5-**HT6**",
+              "",
+              "May be involved in antidepressant action"
+            ],
+            [
+              "5-**HT7**",
+              "",
+              "Regulation of circadian rhythm"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Serotonin receptor subtype and clinical action",
+          "columns": [
+            "Receptor",
+            "Action"
+          ],
+          "rows": [
+            [
+              "5HT1A",
+              "Antidepressant (agonist), anxiolytics (partial agonist)"
+            ],
+            [
+              "5HT1B",
+              "Aggression"
+            ],
+            [
+              "5HT1D",
+              "Antimigraine (antagonist)"
+            ],
+            [
+              "5HT2A",
+              "Antipsychotic (antagonist); hallucinogens (agonist/partial agonist); implicated in working memory; also in platelets and smooth muscles"
+            ],
+            [
+              "5HT2B",
+              "Stimulation may produce cardiac valvular fibrosis (dexfenfluramine)"
+            ],
+            [
+              "5HT2C",
+              "Anxiogenic and anorexic effect (agonists)"
+            ],
+            [
+              "5HT3",
+              "Antiemetic (antagonist)"
+            ],
+            [
+              "5HT6",
+              "Possible antipsychotic/antidepressant action (antagonism)"
+            ],
+            [
+              "5HT7",
+              "Regulation of circadian rhythm"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "forTopic": "5HT receptor subtypes and actions",
+          "mnemonic": "1A-Anti, 1B-Bite, 1D-Dull head, 2A-Antipsychotic, 2C-Chomp, 3-Throw up",
+          "expansion": [
+            "5HT1A: antidepressant (agonist) / anxiolytic (partial agonist)",
+            "5HT1B: aggression",
+            "5HT1D: antimigraine (antagonist)",
+            "5HT2A: antipsychotic (antagonist); hallucinogens (agonist)",
+            "5HT2C: anxiogenic and anorexic effect (agonists)",
+            "5HT3: antiemetic (antagonist)"
+          ],
+          "sourced": false
+        },
+        {
+          "type": "paragraph",
+          "text": "**DOPA** decarboxylase (**DDC**) is implicated in two pathways: after tyrosine hydroxylase makes L-**DOPA**, **DDC** decarboxylates it to dopamine (abundant in basal ganglia; precursor of noradrenaline and adrenaline in the adrenal medulla); in the nervous system tryptophan hydroxylase produces 5-**OH** tryptophan, which **DDC** decarboxylates to serotonin. **DDC** is a homodimeric, pyridoxal phosphate-dependent enzyme (**OMIM** excerpt).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Serotonin-histidine is the **INCORRECT** precursor pairing: serotonin comes from tryptophan (tryptophan hydroxylase then aromatic amino acid decarboxylase); histidine is the histamine precursor. Adrenaline-noradrenaline, dopamine-tyrosine, noradrenaline-dopamine and **GABA**-glutamate are correct.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 1,
+            "questionNumber": 1
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Raphe nuclei as serotonin source",
+          "note": "**Q4**: serotonin is the most abundant transmitter in the median raphe nuclei; ascending projections from the raphe regulate mood, anxiety and sleep, descending projections may regulate pain. Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 4
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Psilocybin / magic mushrooms",
+          "note": "**Q33**: magic mushroom effects are very similar to **LSD** (psilocybin has a structure similar to **LSD** and is a prodrug for psilocin). The notes give no content on this.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 15,
+            "questionNumber": 33
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Khat",
+          "note": "**Q21**: khat (Catha edulis) has effects comparable to amphetamines (releases stimulants cathinone and cathine). Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 21
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Tryptophan -> 5-hydroxytryptophan -> serotonin; rate-limiting step is tryptophan availability (hence tryptophan depletion studies).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Broken down by MAO (preferentially MAO-A) to 5-HIAA; reuptake channel inhibited by tricyclics and SSRIs.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "Functions: mood, pain, feeding, sleep-wake, motor activity, sexual behaviour, temperature.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "14 receptor subtypes; all G-protein coupled except ionotropic 5-HT3 (gut, motility).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "text": "5HT1A agonist antidepressant, partial agonist anxiolytic; 5HT1B aggression; 5HT1D antimigraine antagonist.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "5HT2A antagonism antipsychotic (atypicals) and sedating, agonism hallucinogenic (LSD); 5HT2B valvular fibrosis (dexfenfluramine); 5HT2C anxiogenic/anorexic; 5HT3 antagonist antiemetic.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 7
+            }
+          },
+          {
+            "text": "Low serotonin: depression, aggression, suicide, impulsivity; modulates dopamine (psychosis).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Rate-limiting step",
+            "value": "Tryptophan availability",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "label": "Breakdown product",
+            "value": "5-HIAA",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "label": "Receptor that is ionotropic",
+            "value": "5-HT3",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 6
+            }
+          },
+          {
+            "label": "5HT2B stimulation",
+            "value": "Cardiac valvular fibrosis (dexfenfluramine)",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 7
+            }
+          },
+          {
+            "label": "5HT7",
+            "value": "Circadian rhythm",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 7
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          2,
+          3,
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "id": "acetylcholine",
+      "title": "6. Acetylcholine",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Acetylcholine at a glance",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Source",
+              "Choline and acetyl-coenzyme A"
+            ],
+            [
+              "Rate-limiting step",
+              "Availability of choline"
+            ],
+            [
+              "Synthetic enzyme",
+              "Choline acetyltransferase"
+            ],
+            [
+              "Breakdown enzyme",
+              "Acetylcholinesterase (rapid metabolism)"
+            ],
+            [
+              "Breakdown product",
+              "Choline"
+            ],
+            [
+              "Reuptake",
+              "None; degraded choline is re-uptaken and recycled"
+            ],
+            [
+              "Function",
+              "Modulates arousal, learning, memory, **REM** sleep, pain perception, thirst and parasympathetic mediation"
+            ],
+            [
+              "Disorders",
+              "Reduced cholinergic function in Alzheimer's dementia; dopamine balance affected in Parkinson's"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Cholinergic receptors",
+          "columns": [
+            "Receptor",
+            "Properties"
+          ],
+          "rows": [
+            [
+              "Muscarinic",
+              "G-protein coupled; five subtypes (**M1-M5**); more common than nicotinic in the **CNS**"
+            ],
+            [
+              "Nicotinic",
+              "Ion channels; more in peripheral parasympathetic system; less common than M receptors in **CNS**, where it mediates attention"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          ]
+        },
+        {
+          "type": "trap",
+          "text": "Enzyme involved in acetylcholine synthesis is choline acetyltransferase (not acetylcholinesterase or butyrylcholinesterase, which degrade it).",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 2,
+            "questionNumber": 2
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Alzheimer's: cholinergic neurons fall, with reduced acetylcholinesterase and choline acetyltransferase (the rate-limiting synthetic enzyme) and reduced ACh; 'decreased levels of acetylcholinesterase' was the keyed answer, not increased ChAT or AChE.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 24
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Nicotinic receptor pharmacology and cholinergic sites",
+          "note": "**Q14**: tobacco nicotine stimulates nicotinic receptors (ligand-gated, rapid, excitatory, blocked by curare). Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 7,
+            "questionNumber": 14
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Nucleus basalis of Meynert",
+          "note": "**Q30** and **Q38**: most **CNS** cholinergic tracts originate in the nucleus basalis of Meynert (basal forebrain), projecting to cortex, hippocampus and amygdala. Not in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 14,
+            "questionNumber": 30
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Made from choline and acetyl-CoA by choline acetyltransferase; rate-limiting step is choline availability.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Broken down by acetylcholinesterase to choline; no reuptake as such, but choline is re-uptaken and recycled.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Functions: arousal, learning, memory, REM sleep, pain, thirst, parasympathetic mediation.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Muscarinic receptors: G-protein coupled, M1-M5; nicotinic: ion channels, mediate attention in CNS.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "Reduced cholinergic function in Alzheimer's dementia; dopamine balance affected in Parkinson's.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Rate-limiting step",
+            "value": "Choline availability",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "label": "Synthetic enzyme",
+            "value": "Choline acetyltransferase",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "label": "Breakdown enzyme",
+            "value": "Acetylcholinesterase",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "label": "Muscarinic subtypes",
+            "value": "M1-M5 (G-protein coupled)",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 8
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "gaba",
+      "title": "7. GABA",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "GABA at a glance",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Source",
+              "Glutamic acid (glutamate)"
+            ],
+            [
+              "Rate-limiting step / synthetic enzyme",
+              "Glutamic acid decarboxylase (**GAD**)"
+            ],
+            [
+              "Breakdown enzyme",
+              "**GABA** transaminase"
+            ],
+            [
+              "Breakdown product",
+              "Glutamate, then eventually succinic acid"
+            ],
+            [
+              "Reuptake",
+              "Into presynaptic terminals and surrounding glia; bidirectional, temperature- and ion-dependent; inhibited by **tiagabine**"
+            ],
+            [
+              "Function",
+              "Mediates anxiety, seizure cessation, and actions of benzodiazepines, barbiturates and alcohol"
+            ],
+            [
+              "Disorders",
+              "Role in anxiety disorders and alcoholism; may be involved in epilepsy and Huntington's"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "GABA receptors",
+          "columns": [
+            "Receptor",
+            "Properties"
+          ],
+          "rows": [
+            [
+              "**GABA-A**",
+              "Opens chloride channel; inhibitory, causing hyperpolarization; five subunits, at least 14 subunit subtypes"
+            ],
+            [
+              "**GABA-B**",
+              "G-protein coupled; baclofen is the selective agonist"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "GABA points from questions",
+          "items": [
+            {
+              "text": "**GABA** is produced from glutamate (glutamic acid) by glutamic acid decarboxylase; glutamate is the precursor of **GABA**.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 8,
+                "questionNumber": 17
+              }
+            },
+            {
+              "text": "The enzyme that catabolises **GABA** is **GABA** transaminase (transaminase), alongside presynaptic reuptake.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 12,
+                "questionNumber": 25
+              }
+            },
+            {
+              "text": "Huntington's disease: disrupted GABAergic circuits - **GABA** was the keyed neurotransmitter.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 13
+              }
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "GABA is synthesised from glutamate by glutamic acid decarboxylase (rate-limiting).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Broken down by GABA transaminase to glutamate, then succinic acid; reuptake into neurons and glia, inhibited by tiagabine.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Mediates anxiety, seizure cessation and the actions of benzodiazepines, barbiturates and alcohol.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "GABA-A: chloride channel, inhibitory (hyperpolarization), five subunits; GABA-B: G-protein coupled, baclofen agonist.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Role in anxiety disorders and alcoholism; possibly epilepsy and Huntington's.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Synthetic enzyme",
+            "value": "Glutamic acid decarboxylase (GAD)",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Catabolic enzyme",
+            "value": "GABA transaminase",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "GABA-B agonist",
+            "value": "Baclofen",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "label": "Reuptake inhibitor",
+            "value": "Tiagabine",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 9
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "glutamate",
+      "title": "8. Glutamate",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Glutamate at a glance",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Source",
+              "(1) 2-oxoglutarate + aspartate via aspartate aminotransferase; (2) glutamine via glutaminase; (3) 2-oxoglutarate via ornithine aminotransferase"
+            ],
+            [
+              "Regulation",
+              "Accumulation of precursors such as glutamine, or end-product inhibition"
+            ],
+            [
+              "Synthetic enzyme",
+              "Glutaminase"
+            ],
+            [
+              "Breakdown enzymes",
+              "Glutamate dehydrogenase, glutamine synthetase"
+            ],
+            [
+              "Breakdown product",
+              "Glutamine or alpha-ketoglutarate"
+            ],
+            [
+              "Reuptake",
+              "Largely glial uptake with conversion to glutamine"
+            ],
+            [
+              "Function",
+              "Metabolic intermediary (oxidation/malate shuttle, ammonia cycle); immediate precursor of all **CNS** **GABA**; **NMDA**: memory acquisition, developmental plasticity, epilepsy, ischaemic brain injury; **NMDA** receptor mediates long-term potentiation"
+            ],
+            [
+              "Disorders",
+              "Excitotoxic glutamate toxicity suspected in stroke/schizophrenia/seizures; **NMDA** antagonists (**PCP**, **ketamine**) can cause hallucinations"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Glutamate receptors",
+          "columns": [
+            "Type",
+            "Receptors",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Metabotropic",
+              "8 in total, 3 groups",
+              "Group I (mGluR1, mGluR5) linked to phospholipase C"
+            ],
+            [
+              "Ionotropic - **NMDA**",
+              "Subunits with distinct binding sites",
+              "Binding sites for glutamate, glycine, phencyclidine (**PCP**), magnesium and zinc"
+            ],
+            [
+              "Ionotropic - non-**NMDA**",
+              "Kainate or **AMPA** type",
+              ""
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "type": "trap-list",
+          "title": "Glutamate points from questions",
+          "items": [
+            {
+              "text": "**LTP** is mediated by the **NMDA** receptor.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 6,
+                "questionNumber": 12
+              }
+            },
+            {
+              "text": "**Ketamine** is an antagonist (not selective agonist) at the **NMDA** receptor, binding the **PCP** site within the calcium channel - the incorrect statement about excitatory amino acids.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 9,
+                "questionNumber": 19
+              }
+            },
+            {
+              "text": "Glutamate was the keyed fast-acting excitatory neurotransmitter (major **CNS** excitatory transmitter, sometimes called the 'master switch' of the brain).",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 13,
+                "questionNumber": 27
+              }
+            },
+            {
+              "text": "Glycine and D-serine are co-agonists at **NMDA** receptors.",
+              "source": {
+                "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+                "page": 10,
+                "questionNumber": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "NMDA receptors on inhibitory interneurons",
+          "note": "**Q23**: **NMDA** receptors are predominantly located on **GABA** interneurons (inhibitory interneurons are about ==20%== of cortical neurons); this is not stated in the notes.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 23
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Glutamate as fast excitatory transmitter",
+          "note": "**Q27**: glutamate is the major excitatory **CNS** neurotransmitter ('master switch'); the notes do not state this directly.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 13,
+            "questionNumber": 27
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Glutamate is synthesised by glutaminase (and from 2-oxoglutarate routes); broken down to glutamine or alpha-ketoglutarate; reuptake is largely glial.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "It is the immediate precursor of all CNS GABA and has a metabolic role (malate shuttle, ammonia cycle).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "NMDA receptor: memory acquisition, plasticity, epilepsy, ischaemic injury; mediates long-term potentiation.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Metabotropic: 8 receptors in 3 groups (Group I mGluR1/5 via phospholipase C); ionotropic: NMDA and non-NMDA (kainate, AMPA).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "NMDA has binding sites for glutamate, glycine, PCP, magnesium and zinc.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "text": "Excitotoxicity suspected in stroke, schizophrenia, seizures; NMDA antagonists (PCP, ketamine) cause hallucinations.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Synthetic enzyme",
+            "value": "Glutaminase",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Ionotropic subtypes",
+            "value": "NMDA; kainate; AMPA",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "Metabotropic receptors",
+            "value": "8 in 3 groups",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          },
+          {
+            "label": "NMDA antagonists causing hallucinations",
+            "value": "PCP, ketamine",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 10
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "glycine",
+      "title": "9. Glycine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Glycine is the primary inhibitory neurotransmitter in the spinal cord and has the simplest structure of all amino acids.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "It is synthesised mainly from serine by serine trans-hydroxymethylase and glycerate dehydrogenase, both rate-limiting steps.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "comparison",
+          "title": "Two glycine receptor sites",
+          "columns": [
+            "Site",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Excitatory glycine site on the **NMDA** receptor (non-strychnine-sensitive glycine receptor)",
+              "Glycine acts as a 'mandatory adjunctive neurotransmitter' for glutamate receptors"
+            ],
+            [
+              "Strychnine-sensitive glycine receptor (spinal cord)",
+              "Inhibitory; glycine acts independently"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Facilitating glycine transmission can help reduce negative symptoms of schizophrenia; bitopertin, an experimental glycine reuptake inhibitor, showed early promise.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Glycine and D-serine both act as co-agonists at **NMDA** receptors; the same explanation also notes glycine is an independent inhibitory neurotransmitter at its own receptors.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neurochemistry Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 20
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Primary inhibitory neurotransmitter in the spinal cord; simplest amino acid.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Synthesised from serine (serine trans-hydroxymethylase, glycerate dehydrogenase - both rate-limiting).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Mandatory adjunctive transmitter at the NMDA receptor (non-strychnine-sensitive site); strychnine-sensitive receptor is inhibitory in the spinal cord.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Facilitating glycine transmission may reduce negative symptoms; bitopertin (glycine reuptake inhibitor) is experimental.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "endocannabinoids",
+      "title": "10. Endocannabinoids",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Endogenous cannabinoids",
+          "columns": [
+            "Substance",
+            "Ligand strength"
+          ],
+          "rows": [
+            [
+              "Anandamide",
+              "Weak ligand"
+            ],
+            [
+              "2-arachidonylglycerol",
+              "Strong ligand"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Both endocannabinoids are formed from arachidonic acid and ethanolamine.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "There are two cannabinoid receptor types, central (**CB1**) and peripheral (**CB2**); both bind tetrahydrocannabinol (**THC**), the active ingredient of marijuana.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Anandamide lowers intraocular pressure, decreases activity level and relieves pain.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Two endocannabinoids: anandamide (weak ligand) and 2-arachidonylglycerol (strong ligand), formed from arachidonic acid and ethanolamine.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "CB1 central, CB2 peripheral; both bind THC.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Anandamide lowers intraocular pressure, reduces activity and relieves pain.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Anandamide",
+            "value": "Weak ligand",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "2-arachidonylglycerol",
+            "value": "Strong ligand",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "CB1 / CB2",
+            "value": "Central / peripheral",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "neurotrophins",
+      "title": "11. Neurotrophins",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Neurotrophins are polypeptide growth factors influencing proliferation and differentiation of neurons and glial cells. Best characterised: nerve growth factor (**NGF**), brain derived neurotrophic factor (**BDNF**), neurotrophin 3 and neurotrophin 4.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Neurotrophin hypothesis: neurons compete during development for the limited growth factors in the target region; highly responsive neurons (e.g. high-affinity binding sites) survive while others undergo programmed cell death. Incorrect axon targeting may also cause apoptosis.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**BDNF** may have a role in long-term potentiation (**LTP**) of memory. In animals, chronic stress down-regulates **BDNF**; **BDNF** has trophic effects on serotonergic and noradrenergic neurons.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "SSRIs and other antidepressants including **ECT** up-regulate **BDNF**, and the time course of this up-regulation coincides with the therapeutic actions of antidepressant interventions.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "table",
+          "title": "BDNF Val66Met polymorphism",
+          "columns": [
+            "Feature",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Gene change",
+              "Single nucleotide polymorphism in **BDNF** gene on chromosome 11p13: valine -> methionine at codon 66 (Val66Met)"
+            ],
+            [
+              "Effect",
+              "Reduces **BDNF** activity"
+            ],
+            [
+              "Animal data",
+              "**BDNF** met/met mice show increased anxiety"
+            ],
+            [
+              "Human data",
+              "Val66Met allele carriers: impaired hippocampal activation and performance"
+            ],
+            [
+              "Disease risk",
+              "Controversial whether the polymorphism increases risk of clinical disorders"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          ]
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Neurotrophins are polypeptide growth factors: NGF, BDNF, neurotrophin 3 and 4.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Neurotrophin hypothesis: neurons compete for limited growth factor; poor responders undergo programmed cell death.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "BDNF: role in LTP of memory; down-regulated by chronic stress (animals); trophic to serotonergic and noradrenergic neurons.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "SSRIs, other antidepressants and ECT up-regulate BDNF, with a time course matching therapeutic response.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "text": "Val66Met (11p13, codon 66) reduces BDNF activity; met/met mice more anxious; human carriers have impaired hippocampal activation; disease risk controversial.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "BDNF polymorphism",
+            "value": "Val66Met, chromosome 11p13, codon 66",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          },
+          {
+            "label": "Best-characterised neurotrophins",
+            "value": "NGF, BDNF, NT-3, NT-4",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 11
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "clinical-implications",
+      "title": "12. Some clinical implications",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Clinical implications of neurochemistry",
+          "columns": [
+            "Topic",
+            "Finding"
+          ],
+          "rows": [
+            [
+              "Beta adrenoceptor",
+              "Chronic antidepressant treatment reduces beta adrenoceptor density about 2 weeks after starting, correlating with therapeutic effect; unmedicated suicide victims show higher beta adrenoceptor density; beta blockade can reduce peripheral features of anxiety driven by sympathetic overdrive"
+            ],
+            [
+              "5HT and depression",
+              "Post-mortem studies of depressed/suicidal patients show increased 5HT2 binding sites (increase in 5HT2A most prominent in dorsolateral prefrontal cortex and in platelets of medication-naive patients) and reduced 5HT1A receptors in cortex"
+            ],
+            [
+              "Antidepressant effect on 5HT receptors",
+              "Long-term antidepressants reduce 5HT2 receptors and increase 5HT1A function, but these changes may not cause the antidepressant action since they predate clinical response; most directly acting 5HT1A agonists have poor antidepressant activity"
+            ],
+            [
+              "ACh and Lewy body dementia",
+              "Brain ACh reduced in **DLB**, similar to Alzheimer's; cortical ChAT reduced more (==85%==) in **DLB** patients with hallucinations than those without (==50%==); may partly explain altered sleep-wake patterns and response of hallucinations to acetylcholinesterase inhibitors"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Aberrant salience (Kapur, 2003): in the normal individual mesolimbic dopamine attaches significance (salience) to an external stimulus or internal thought, turning neutral information into attention-grabbing information.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In acute psychosis the hyperdopaminergic mesolimbic state gives insignificant events and perceptions inappropriate salience, leading to delusional elaborations. Antipsychotics are claimed to 'dampen the salience' of these experiences - they do not erase symptoms but provide the platform for psychological resolution.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        }
+      ],
+      "concise": {
+        "bullets": [
+          {
+            "text": "Beta adrenoceptor density falls ~2 weeks into antidepressant treatment, correlating with response; higher in unmedicated suicide victims.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Beta blockade reduces peripheral features of sympathetically driven anxiety.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Depressed/suicidal patients: raised 5HT2 binding (5HT2A, DLPFC and platelets) and reduced cortical 5HT1A.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Long-term antidepressants reduce 5HT2 and increase 5HT1A function, but this predates clinical response; direct 5HT1A agonists are poor antidepressants.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "DLB: reduced ACh; cortical ChAT down 85% with hallucinations vs 50% without; hallucinations respond to acetylcholinesterase inhibitors.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "text": "Aberrant salience (Kapur): hyperdopaminergic mesolimbic state gives inappropriate salience -> delusions; antipsychotics dampen salience.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "facts": [
+          {
+            "label": "Beta receptor down-regulation",
+            "value": "About 2 weeks after starting antidepressants",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "label": "ChAT reduction in DLB with hallucinations",
+            "value": "85%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          },
+          {
+            "label": "ChAT reduction in DLB without hallucinations",
+            "value": "50%",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+              "page": 12
+            }
+          }
+        ],
+        "highlightBlockIndices": [
+          0
+        ]
+      }
+    }
+  ],
+  "mindMap": [
+    {
+      "label": "Synaptic transmission",
+      "children": [
+        {
+          "label": "Soma synthesis, axonal transport, vesicle storage, exocytotic release",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Autoreceptors: presynaptic feedback inhibition of synthesis and release",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Receptors: lock-and-key, finite/saturable, competitive, mostly reversible",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Termination: reuptake, enzymatic breakdown (COMT/MAO-A), glial/plasma removal",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Five feedback-control points incl. autoreceptor-mediated presynaptic inhibition",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
+          "label": "Three classes: monoamines, amino acids, peptides",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        }
+      ]
+    },
+    {
+      "label": "Classification of receptors",
+      "children": [
+        {
+          "label": "Three classes: ionotropic, metabotropic, nuclear",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Ionotropic: fast; GABA-A, NMDA, 5HT3; Cl- (inhibitory) vs Ca2+/cation (excitatory) entry",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Metabotropic: slower, longer lasting; Gs stimulates / Gi inhibits adenylate cyclase; phospholipase C variant",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "GABA-A subunit structure: N-terminal, four phosphorylation sites",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Nuclear receptors act as transcription factors via zinc fingers (glucocorticoid, progesterone, androgen, vitamin D)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        },
+        {
+          "label": "Glucocorticoid receptor cytoplasmic to nuclear; estrogen/T3 receptors nuclear",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 3
+          }
+        }
+      ]
+    },
+    {
+      "label": "Dopamine",
+      "children": [
+        {
+          "label": "Synthesis: tyrosine -> L-dopa -> dopamine; rate-limiting tyrosine hydroxylase",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Breakdown: MAO (MAO-B selective) and COMT -> homovanillic acid",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Reuptake via dopamine transporter (cocaine inhibits)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Function: motivation, reward, novelty seeking, motor gating",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "D1-like (D1, D5) stimulatory; D2-like (D2-4) inhibitory; all G-protein coupled",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "D4: frontal cortex, clozapine affinity, no antipsychotic efficacy if selectively blocked",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
+        {
+          "label": "Disorders: low in Parkinson's, high in psychosis (mesolimbic)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        }
+      ]
+    },
+    {
+      "label": "Noradrenaline",
+      "children": [
+        {
+          "label": "Synthesis: dopamine -> norepinephrine (DBH) -> epinephrine (PNMT); rate-limiting tyrosine hydroxylase",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Breakdown: MAO-A and COMT -> MHPG (CNS) / VMA (peripheral)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Reuptake blocked by tricyclics and reboxetine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Function: arousal, anxiety, mood, autonomic",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Alpha-1 (PLC), alpha-2 (Gi, presynaptic), beta (Gs)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "label": "Disorders: low in depression; abnormal in panic/anxiety",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 5
+          }
+        }
+      ]
+    },
+    {
+      "label": "Serotonin",
+      "children": [
+        {
+          "label": "Synthesis: tryptophan -> 5-HTP -> serotonin; rate-limiting tryptophan availability",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Breakdown by MAO-A -> 5-HIAA; reuptake blocked by tricyclics/SSRIs",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "Function: mood, pain, feeding, sleep, sexual behaviour, temperature",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "14 subtypes; all G-protein coupled except 5-HT3",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "label": "5HT1A/1B/1D: antidepressant-anxiolytic, aggression, antimigraine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "5HT2A/2B/2C/3: antipsychotic-hallucinogen, valvular fibrosis, anxiogenic-anorexic, antiemetic",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 7
+          }
+        },
+        {
+          "label": "Low serotonin -> depression, aggression, suicide, impulsivity",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 6
+          }
+        }
+      ]
+    },
+    {
+      "label": "Acetylcholine",
+      "children": [
+        {
+          "label": "Synthesis: choline + acetyl-CoA via choline acetyltransferase; rate-limiting choline",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Breakdown: acetylcholinesterase (rapid) -> choline recycled, no true reuptake",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Function: arousal, learning, memory, REM sleep, pain, parasympathetic",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Muscarinic (M1-M5, G-protein coupled) vs nicotinic (ion channel, attention)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "label": "Reduced in Alzheimer's dementia; Parkinson's dopamine balance affected",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 8
+          }
+        }
+      ]
+    },
+    {
+      "label": "GABA",
+      "children": [
+        {
+          "label": "Synthesis: glutamate -> GABA via GAD (rate-limiting)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Breakdown: GABA transaminase -> glutamate -> succinic acid",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Reuptake into neurons and glia; tiagabine inhibits",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Function: anxiety, seizure cessation, benzodiazepine/barbiturate/alcohol actions",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "GABA-A (Cl- channel, inhibitory) vs GABA-B (G-protein, baclofen)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "label": "Disorders: anxiety, alcoholism, epilepsy, Huntington's",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 9
+          }
+        }
+      ]
+    },
+    {
+      "label": "Glutamate",
+      "children": [
+        {
+          "label": "Synthesis: glutaminase; breakdown to glutamine / alpha-ketoglutarate; glial reuptake",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Immediate precursor of all CNS GABA; metabolic roles",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "NMDA: memory, plasticity, epilepsy, ischaemic injury; mediates LTP",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Receptors: metabotropic (8, group I via PLC); ionotropic NMDA and kainate/AMPA",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "NMDA binding sites: glutamate, glycine, PCP, Mg, Zn",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 10
+          }
+        },
+        {
+          "label": "Excitotoxicity; NMDA antagonists (PCP, ketamine) cause hallucinations",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 10
+          }
+        }
+      ]
+    },
+    {
+      "label": "Glycine",
+      "children": [
+        {
+          "label": "Primary inhibitory transmitter of the spinal cord; simplest amino acid",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Synthesised from serine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "NMDA glycine site: mandatory adjunct (non-strychnine-sensitive)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Strychnine-sensitive receptor: inhibitory, spinal cord",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Glycine facilitation may help negative symptoms (bitopertin)",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        }
+      ]
+    },
+    {
+      "label": "Endocannabinoids",
+      "children": [
+        {
+          "label": "Anandamide (weak) and 2-arachidonylglycerol (strong) ligands",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Formed from arachidonic acid and ethanolamine",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "CB1 central, CB2 peripheral; both bind THC",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Anandamide: lowers intraocular pressure, activity; relieves pain",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        }
+      ]
+    },
+    {
+      "label": "Neurotrophins",
+      "children": [
+        {
+          "label": "Polypeptide growth factors: NGF, BDNF, NT-3, NT-4",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Neurotrophin hypothesis: competition for limited growth factor, apoptosis of losers",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "BDNF: LTP of memory; down-regulated by chronic stress",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Antidepressants and ECT up-regulate BDNF, time course matches response",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "label": "Val66Met (11p13) reduces BDNF activity; disease risk controversial",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 11
+          }
+        }
+      ]
+    },
+    {
+      "label": "Some clinical implications",
+      "children": [
+        {
+          "label": "Beta adrenoceptors: down-regulated by antidepressants (~2 weeks); higher in suicide victims",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Beta blockade reduces peripheral anxiety features",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "5HT2 binding raised, 5HT1A reduced in depression/suicide",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Antidepressants reduce 5HT2, raise 5HT1A - predates clinical response",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "DLB: ChAT reduced 85% (hallucinations) vs 50%; AChI response",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        },
+        {
+          "label": "Aberrant salience: mesolimbic DA -> delusions; antipsychotics dampen salience",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        }
+      ]
+    }
+  ]
+}
