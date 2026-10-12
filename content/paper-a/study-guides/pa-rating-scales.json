@@ -30,6 +30,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p2-self-vs-observer-table.png",
+          "caption": "Table: Self-rated (Beck's Depression Inventory, Zung Depression Inventory, Symptoms checklist SCL, GHQ, Lunser's (extrapyramidal), Edinburgh postnatal depression scale) versus Observer rated (Dementia scales, PANSS, BPRS, HAMD, MADRS, YBOCS, SCID).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 2
+          }
+        },
+        {
           "type": "comparison",
           "title": "Self-rated vs observer-rated scales",
           "columns": [
@@ -288,8 +297,8 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
-          8
+          4,
+          9
         ]
       }
     },
@@ -297,6 +306,15 @@
       "id": "diagnostic-schedules",
       "title": "2. Diagnostic schedules",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p4-diagnostic-schedules-table.png",
+          "caption": "Table: Scale / Mode of administration / Features for CIS, CIDI, DIS, HSCL, PHQ, PSE, SADS, SCAN and SCID, as printed in the source.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 4
+          }
+        },
         {
           "type": "table",
           "title": "Diagnostic schedules",
@@ -516,8 +534,8 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          2
+          1,
+          3
         ]
       }
     },
@@ -611,6 +629,15 @@
         {
           "type": "paragraph",
           "text": "Children: depression screening is generally appropriate in children at least seven years of age. The Reynolds Child Depression Scale and the Children's Depression Inventory (full version 27 items; screening version 10 items) were developed specifically for children and are written at lower reading levels.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p7-depression-age-table.png",
+          "caption": "Table: Measure and age appropriateness (years) for CDI, CES-DC, CES-D, Reynolds Child Depression Scale, Reynolds Adolescent Depression Scale, BDI and MFQ; adapted from an online version at www.aafp.org/afp/20020915/contents.html.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
             "page": 7
@@ -912,7 +939,7 @@
         "highlightBlockIndices": [
           1,
           2,
-          4
+          5
         ]
       }
     },
@@ -1425,6 +1452,24 @@
       "title": "7. Other clinical rating scales",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p13-other-scales-table.png",
+          "caption": "Table: Scale / Mode of administration / Features for PANSS, Y-BOCS, SCOFF (with its five questions), MMPI, IPDE, CGI and BPRS.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 13
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p14-other-scales-table-cont.png",
+          "caption": "Table (continued): Scale / Mode of administration / Features for SAPS and SANS, and the Personality Diagnostic Questionnaire-4+ (PDQ-4+).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 14
+          }
+        },
+        {
           "type": "table",
           "title": "Other clinical rating scales",
           "columns": [
@@ -1797,11 +1842,11 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          1,
           2,
+          3,
           4,
-          5
+          6,
+          7
         ]
       }
     },
@@ -1858,6 +1903,15 @@
               "page": 15
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p15-outcome-criteria-boxes.png",
+          "caption": "Boxed list of criteria for a useful outcome measure: Appropriate; Reliable & valid; Responsive; Readily Interpretable; Acceptable & feasible, each with its question.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 15
+          }
         },
         {
           "type": "table",
@@ -2109,7 +2163,8 @@
           3,
           4,
           5,
-          7
+          6,
+          8
         ]
       }
     },
@@ -2265,6 +2320,15 @@
           "highYield": true
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p19-validity-questions-table.png",
+          "caption": "Table: VALIDITY / QUESTION IT ANSWERS for Face, Content, Criterion, Convergent and Discriminant validity.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 19
+          }
+        },
+        {
           "type": "table",
           "title": "Validity: the question each type answers",
           "columns": [
@@ -2394,6 +2458,15 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
             "page": 19
           }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p19-precision-accuracy-targets.png",
+          "caption": "Four bullseye target diagrams: Not Accurate / Not Precise; Accurate / Not Precise; Not Accurate / Precise; Accurate / Precise.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 19
+          }
         }
       ],
       "concise": {
@@ -2471,8 +2544,9 @@
           1,
           2,
           3,
-          4,
-          6
+          5,
+          7,
+          12
         ]
       }
     },
@@ -2681,6 +2755,15 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p22-hcr20-table.png",
+          "caption": "Table: HCR-20 items in three columns: Historical items, Clinical items, Risk items.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 22
+          }
+        },
+        {
           "type": "table",
           "title": "HCR-20 items (Webster)",
           "columns": [
@@ -2801,6 +2884,15 @@
               "page": 23
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p23-sad-persons-table.png",
+          "caption": "Table: SAD PERSONS score, ten lines S-A-D-P-E-R-S-O-N-S (Sex, Age, Depression, Previous attempt, Ethanol abuse, Rational thinking loss, Social Supports lacking, Organized Plan, No Spouse, Sickness) with the scoring criteria printed for each.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 23
+          }
         },
         {
           "type": "table",
@@ -2952,6 +3044,15 @@
               "page": 24
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-rating-scales/p24-vrag-table.png",
+          "caption": "Table titled Violence risk appraisal guide: two columns of items (PCL-R; Elementary school difficulties; Personality disorder; Younger age; Separated from parents before age 16; Never married; Absence of schizophrenia; Victim injury; Alcohol abuse; Female victim; Failed conditional release/supervision order; History of non violent offence).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/RATING SCALES.pdf",
+            "page": 24
+          }
         },
         {
           "type": "table",
@@ -3133,12 +3234,13 @@
           7,
           8,
           9,
-          11,
+          10,
           12,
-          13,
+          14,
           15,
-          16,
-          17
+          17,
+          19,
+          20
         ]
       }
     }

@@ -1159,6 +1159,15 @@
           "sourced": false
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacodynamics/p10-tca-ssri-flow.png",
+          "caption": "Flowchart on page 10, two vertical arrow-linked flows. First flow: Inhibition of nerve terminal NE neuronal uptake system; Increase in synaptic concentrations of NE; Desensitization of inhibitory Alpha2-adrenoceptors in the terminal; Increase in neuronal NE release; Further increase in synaptic concentrations of NE; Desensitization of postsynaptic Beta adrenoceptors without affecting postsynaptic Alpha1-adrenoceptor sensitivity; followed by a box labelled 'Mechanism of TCA Action'. Second flow: 5HT Reuptake inhibition at somatodendritic areas; Increase in local concentrations of 5HT; Desensitisation of inhibitory 5HT1A autoreceptors in the soma; Increase in neuronal 5HT release; Increase in synaptic concentrations of 5HT; Desensitization of presynaptic 5HT1B receptors without affecting postsynaptic 5HT1A sensitivity; followed by a box labelled 'Mechanism of SSRI Action'. In the page layout each labelled box sits directly beneath the flow above it.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 10
+          }
+        },
+        {
           "type": "table",
           "title": "Mechanism of TCA action vs SSRI action (step order as given in the notes' flow diagrams)",
           "columns": [
@@ -1525,7 +1534,8 @@
           8,
           9,
           10,
-          21
+          11,
+          22
         ]
       }
     },
@@ -1809,6 +1819,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacodynamics/p12-z-hypnotics-box.png",
+          "caption": "Shaded box titled 'Z HYPNOTICS' on page 12: Given their selectivity on BDZ-receptor subunits, Z-drugs are less likely to impact sleep stages and have a lower risk of tolerance and dependence compared with benzodiazepine hypnotics; Zopiclone is the least selective of all Z-drugs.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 12
+          }
+        },
+        {
           "type": "comparison",
           "title": "Benzodiazepines vs barbiturates at the GABA-A chloride channel",
           "columns": [
@@ -1947,7 +1966,8 @@
           1,
           3,
           4,
-          6
+          5,
+          7
         ]
       }
     },
@@ -2386,6 +2406,15 @@
           "sourced": false
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacodynamics/p14-riluzole-box.png",
+          "caption": "Shaded box titled 'RILUZOLE' on page 14: approved for use in Motor Neuron Disorder; unclear whether it would help features of fronto-temporal dementia associated with MND; prolongs survival by nearly 10% for more than a year of treatment. Mechanism of action via 1. Sodium channel blockade 2. High-voltage calcium channel blockade 3. NMDA-glutamate receptor antagonism. It preferentially blocks the sodium channels in damaged neurons, reducing calcium flow and indirectly preventing excitotoxic damage.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 14
+          }
+        },
+        {
           "type": "table",
           "title": "Riluzole",
           "columns": [
@@ -2524,7 +2553,8 @@
           2,
           3,
           4,
-          5
+          5,
+          6
         ]
       }
     },
@@ -3360,6 +3390,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacodynamics/p21-ethnic-effects-table.png",
+          "caption": "Two-column table on page 21 with bulleted lists, headed 'African Americans' and 'Asians' (summary of some relevant ethnic effects).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACODYNAMICS.pdf",
+            "page": 21
+          }
+        },
+        {
           "type": "comparison",
           "title": "Summary of ethnic effects in the notes",
           "columns": [
@@ -3509,7 +3548,8 @@
         "highlightBlockIndices": [
           4,
           5,
-          13
+          13,
+          14
         ]
       }
     },

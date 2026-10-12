@@ -458,6 +458,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p3-lateralisation-table.png",
+          "caption": "Table: Left Hemisphere lesions vs Right Hemisphere lesions. Left: Aphasia; Right-left disorientation; Finger agnosia; Dysgraphia (aphasic); Dyscalculia (number alexia); Limb apraxia. Right: Visuospatial deficits; Anosognosia; Neglect; Dysgraphia (spatial, neglect); Dyscalculia (spatial); Constructional apraxia, Dressing apraxia. Bottom row spanning both columns: Face recognition (bilateral).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 3
+          }
+        },
+        {
           "type": "table",
           "title": "Effects of left vs right hemisphere lesions (lists as printed in the notes)",
           "columns": [
@@ -644,7 +653,8 @@
           3,
           6,
           7,
-          10
+          8,
+          11
         ]
       }
     },
@@ -1065,6 +1075,15 @@
           "sourced": false
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p4-basal-ganglia-disorders-table.png",
+          "caption": "Table: Disorder vs Nature of basal ganglia dysfunction (OCD, Tourette's syndrome, Huntington chorea, Wilson disease, CO poisoning, Hemiballismus, Parkinsonism, Fahr's disease).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 4
+          }
+        },
+        {
           "type": "table",
           "title": "Basal ganglia dysfunction in disorders",
           "columns": [
@@ -1243,7 +1262,8 @@
           5,
           6,
           7,
-          12
+          8,
+          13
         ]
       }
     },
@@ -1402,6 +1422,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p5-inferior-olivary-box.png",
+          "caption": "Boxed text: INFERIOR OLIVARY NUCLEUS - location and function (climbing fibres to the contralateral cerebellar cortex via the inferior cerebellar peduncle), and the effects of inferior olivary lesions as printed.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 5
+          }
+        },
+        {
           "type": "comparison",
           "title": "Cerebellar lesion vs inferior olivary lesion",
           "columns": [
@@ -1500,7 +1529,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          3
+          3,
+          4
         ]
       }
     },
@@ -1676,6 +1706,24 @@
               "page": 5
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p5-cranial-nerves-table-i-vi.png",
+          "caption": "Table (page 5): Cranial nerves, columns No. / Name / Anatomical features, rows I Olfactory to VI Abducens.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p6-cranial-nerves-table-vii-xii.png",
+          "caption": "Table (page 6, continued): Cranial nerves, rows VII Facial, VIII Vestibular, Cochlear, IX Glossopharyngeal, X Vagus, XI Accessory, XII Hypoglossal, with their anatomical features as printed.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 6
+          }
         },
         {
           "type": "table",
@@ -1941,9 +1989,9 @@
           }
         ],
         "highlightBlockIndices": [
-          2,
           4,
-          6
+          6,
+          8
         ]
       }
     },
@@ -2285,6 +2333,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p7-tia-boxes.png",
+          "caption": "Two side-by-side boxes: Carotid system TIA (Amaurosis fugax due to blockade of retinal arteries; Aphasia; Hemiparesis; Hemisensory loss; Hemianopic visual loss) and Vertebrobasilar TIA (Diplopia, vertigo, vomiting; Choking and dysarthria; Ataxia; Alexia without agraphia; Hemisensory loss; Hemianopic visual loss; Transient global amnesia; Tetraparesis; Loss of consciousness (rare)).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 7
+          }
+        },
+        {
           "type": "comparison",
           "title": "TIA symptoms: carotid vs vertebrobasilar system",
           "columns": [
@@ -2424,7 +2481,8 @@
         "highlightBlockIndices": [
           1,
           2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -2432,6 +2490,15 @@
       "id": "arterial-lesions",
       "title": "12. Blood supply: effect of lesions",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p7-arterial-lesions-table.png",
+          "caption": "Table: Artery / Supply / Lesion effects (Anterior Cerebral Artery; Recurrent artery of Huebner; Anterior branches of the upper division of the Middle Cerebral Artery; Anterior communicating artery; Posterior inferior cerebellar artery thrombosis).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 7
+          }
+        },
         {
           "type": "table",
           "title": "Arterial lesion syndromes",
@@ -2553,7 +2620,8 @@
         "highlightBlockIndices": [
           0,
           1,
-          2
+          2,
+          3
         ]
       }
     },
@@ -2812,6 +2880,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p9-cortical-layers-table.png",
+          "caption": "Table: Layer / Name / Predominant cells for the six neocortical layers (1 Molecular/agranular to 6 Multiform layer).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 9
+          }
+        },
+        {
           "type": "table",
           "title": "Neocortical layers",
           "columns": [
@@ -2989,8 +3066,9 @@
         "highlightBlockIndices": [
           3,
           4,
-          6,
-          7
+          5,
+          7,
+          8
         ]
       }
     },
@@ -3383,6 +3461,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p10-blood-brain-barrier-box.png",
+          "caption": "Boxed text: BLOOD BRAIN BARRIER - endothelial cells with tight junctions, astrocyte foot processes, lipid-soluble vs water-soluble molecules, inflammation, circumventricular organs.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 10
+          }
+        },
+        {
           "type": "table",
           "title": "What crosses the barrier",
           "columns": [
@@ -3488,7 +3575,8 @@
           }
         ],
         "highlightBlockIndices": [
-          1
+          1,
+          2
         ]
       }
     },
@@ -3531,6 +3619,15 @@
         {
           "type": "paragraph",
           "text": "The nigrostriatal pathway is the extrapyramidal pathway crucial for motor control and accounts for most of the brain's dopamine.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuroanatomy/p11-dopamine-pathways-table.png",
+          "caption": "Table: Pathway / Origin and destination / Effect of dopamine (DA) blockade (Nigrostriatal, Mesolimbic, Mesocortical, Tuberoinfundibular, Incertohypothalamic).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROANATOMY.pdf",
             "page": 11
@@ -3671,7 +3768,8 @@
         "highlightBlockIndices": [
           2,
           3,
-          6
+          4,
+          7
         ]
       }
     },

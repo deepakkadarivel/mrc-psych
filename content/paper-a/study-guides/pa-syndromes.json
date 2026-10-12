@@ -1166,6 +1166,15 @@
       "title": "9. Psychotropics adverse-effects chart",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-syndromes/p6-adverse-effects-chart.png",
+          "caption": "Chart: 'Psychotropics Adverse Effects Chart (c) SPMM Course' - a human-body figure with arrows to boxes listing adverse effects and the drugs named for each (EPSEs, Delirium, Seizures, Tics, Amnesia; Hepatic damage, Enz induction, Ac. Pancreatitis, P. ileus, GI bleed; Wt gain, Wt loss; Renal damage, Nephrolithiasis; Priapism, PCOD, Erectile dysfunction, Delayed ejacln or anorgasmia; Rashes, Thrombocytopenia, Sweating, Acne/psoriasis; Worsening of glaucoma, Retinal pigmn, Corneal deposits, Visual field defects; Hypersalivation, Bruxism, Hypothyroidism; Myocarditis/Pul Embolism, QT prolong, Arrythmias, High BP; Fine tremors, Coarse tremors; Osteoporosis, WBC suppression, Haemolytic anaemia; Guillian Barre, Pedal oedema, Cramps, Orthostatic hypotension), with a key of abbreviations (AchEs, BDZ, CBZ, CPZ, VFX, VPA, SJS).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SYNDROMES.pdf",
+            "page": 6
+          }
+        },
+        {
           "type": "table",
           "title": "Psychotropics adverse-effects chart: effect to drugs",
           "columns": [
@@ -1590,7 +1599,8 @@
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1
         ]
       }
     },

@@ -794,7 +794,23 @@ standalone sets, mocks, skipped files); `extract.ts` writes everything incl. `ma
   coverage of the question pools was prioritised; every trap is `SBA` except where the cited question is an EMI.
   Agents' working files had stray `**` markup mid-revision — always strip `**`/`==` before the single emphasize pass.
   Topics without a guide render their notes inline with a "Take the quiz" button (`NotesFallback` in
-  `topic-view.tsx`). No `image` blocks for Paper A (no figure-crop pipeline).
+  `topic-view.tsx`). **Figures, diagrams, flowcharts and complex tables** (added after the user noticed guides omitted them): every
+  page of every section PDF was audited by an agent with vision, and 267 `image` blocks were added (cropped PNGs in
+  `public/diagrams/paper-a/<topic>/`, committed like Paper B's). Pipeline: `scripts/paper-a/detect-figures.py` masks the
+  text layer out of a page render and merges the remaining ink into candidate regions (`content/paper-a/figure-candidates/`,
+  suggestions only; the PDFs' figures are vector, so `pdfimages` finds almost nothing); `scripts/paper-a/crop-figure.py`
+  renders a page with numbered candidate boxes (`--render`) and writes the actual crop (`--candidate N` or page-fraction
+  coordinates). The crop is the source, cited as `{file, page}`; captions are strictly descriptive (printed labels only).
+  Per-page audits live in `content/paper-a/figure-audit/<topic>.json` (every page listed: element kinds and where each
+  went, or why it was skipped as decorative). Coloured/boxed/side-by-side tables got an image *beside* the existing text
+  table (the image is the fidelity guarantee); text tables were only changed where the audit found them incomplete
+  (Applied Neurosciences' missing last row, Basic Psychology's shortened reinforcement-schedules cells, Descriptive
+  Psychopathology's missing mannerisms table). The verifier checks image blocks (`--paper-a`: crop exists under the
+  topic's own diagrams dir, cites a real page). Known source quirks reproduced as printed, not fixed: text clipped inside
+  PDF boxes (p16 Descriptive caption, adverse-effects chart "Hypothyroidism: Li"), cut-off table tops. The adverse-effects
+  chart's boxes also clip their last lines visually while the text layer still holds them ("U. Incontinence/hesitancy:
+  reboxetine"); that row is kept in both the Adverse Drug Effects and Syndromes tables. The detect script needs
+  `python3` with numpy/scipy/Pillow (not used by the app).
 - `e2e/paper-a.spec.ts` covers the switch, notes + citation → real PDF load (trailing-space paths), and quiz/mock
   rendering. **Port 3001 may be held by an unrelated project's dev server**: Playwright's
   `reuseExistingServer` then silently tests the wrong app (everything 404s). Start this app yourself on a free port

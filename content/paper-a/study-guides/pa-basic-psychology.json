@@ -330,35 +330,31 @@
           ],
           "rows": [
             [
-              "Continuous (contingency reinforcement)",
-              "Reinforcement every time the positive response occurs - e.g. food pellet every time a rat presses a lever"
+              "Continuous (aka contingency reinforcement)",
+              "Reinforcement every time the positive response occurs - e.g. food pellet every time a rat presses a lever in an experiment"
             ],
             [
               "Partial",
-              "Only some positive responses are reinforced - determined by number of responses (ratio) or time (interval)"
+              "Only some of the positive responses result in positive reinforcement - the reinforcement is determined by number of responses (ratio) or time (interval)"
             ],
             [
-              "Fixed interval",
-              "Reward after a specific period of time regardless of number of responses - e.g. a monthly salary"
+              "Fixed Interval",
+              "Reward occurs after a specific period of time regardless of number of responses e.g. a monthly salary irrespective of your level of performance!"
             ],
             [
-              "Variable interval",
-              "Reward after a variable (unpredictable) period of time regardless of number of responses - e.g. an angler catching a fish"
+              "Variable Interval",
+              "Reward occurs after a variable (unpredictable) period of time, regardless of the number of responses e.g. an angler catching a fish - the first may be after 10 minutes, the next after 45, then 5 minutes etc."
             ],
             [
-              "Fixed ratio",
-              "Reward after a specific number of responses - e.g. a coffee break after completing 20 MCQs"
+              "Fixed Ratio",
+              "Reward occurs after a specific number of responses e.g. after completing 20 MCQs, you give yourself a coffee (or chocolate) break."
             ],
             [
-              "Variable ratio",
-              "Reward after a random number of responses - e.g. gambling slot machines"
+              "Variable Ratio",
+              "Reward occurs after a random number of responses e.g. gambling slot machines. Your first win of £20 on a gamble may occur after 3 tries; then the next win may not occur even if you play 30 times, while the third win may follow in quick succession after the second."
             ]
           ],
           "sources": [
-            {
-              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
-              "page": 4
-            },
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 4
@@ -600,6 +596,15 @@
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 28,
             "questionNumber": 61
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p6-shaping-sequence.png",
+          "caption": "Table diagram of shaping: Dog runs towards a wheel but doesn't jump / Runs and makes a jump close to the wheel / Runs, jumps through the wheel / Runs, jumps through the wheel on fire / Circus on show; each step is followed by 'Gets a bone'; final cell 'Behaviour is shaped'.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 6
           }
         },
         {
@@ -1114,9 +1119,10 @@
           35,
           36,
           37,
-          41,
-          46,
-          48
+          38,
+          42,
+          47,
+          49
         ]
       }
     },
@@ -1143,6 +1149,15 @@
         {
           "type": "paragraph",
           "text": "Figure-ground differentiation is also crucial for auditory perception: at a crowded party we can filter our friend's voice from the noisy background (cocktail party phenomenon). Shadowing is an experimental extension: two different messages are given to the right and left ear and the subject follows one and suppresses the other (dichotic listening tests).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p8-gestalt-laws-boxes.png",
+          "caption": "Diagram of five red label boxes each over a bordered text box: Proximity - objects close to each other are perceived as one figure; Closure - incompletely closed figures are perceived as fully closed; Continuity - continuous items are perceived as one object; Similarity - similar items are grouped together based on colour or shape etc.; Common fate - things moving together are perceived as one object.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 8
@@ -1555,13 +1570,14 @@
         "highlightBlockIndices": [
           3,
           4,
-          7,
-          12,
-          14,
-          17,
+          5,
+          8,
+          13,
+          15,
           18,
           19,
-          20
+          20,
+          21
         ]
       }
     },
@@ -1588,6 +1604,15 @@
         {
           "type": "paragraph",
           "text": "Cocktail party effect: a concept related to selective attention - the ability to switch attention rapidly to a non-processed message. Certain stimuli elicit switching between messages, e.g. the physical location of the speaker, the pitch of the voice, or familiar stimuli such as the listener's name (lunch-queue effect).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p11-broadbent-filter-diagram.png",
+          "caption": "Diagram for Broadbent's early selection filter theory: circles labelled sight, sound, smell (Senses) -> short term memory (STM) -> Selected stimulus (Selective Filter).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 11
@@ -1883,9 +1908,10 @@
           5,
           6,
           7,
-          9,
+          8,
           10,
-          13
+          11,
+          14
         ]
       }
     },
@@ -2053,6 +2079,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p14-declarative-memory-boxes.png",
+          "caption": "Three ruled text boxes: Procedural or Implicit memory (cannot be consciously inspected; not affected by an organic amnesia of hippocampal origin; made of procedural memory for skills and habits, priming, classical conditioning and non-associative learning); Episodic memory (autobiographical, self-focused, spatio-temporal memory); Semantic memory (factual knowledge of the world; proposed to be made of multiple episodic memory components).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 14
+          }
+        },
+        {
           "type": "comparison",
           "title": "Declarative vs non-declarative (Tulving's elaboration of LTM)",
           "columns": [
@@ -2205,6 +2240,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p15-flashbulb-memories-box.png",
+          "caption": "Shaded box titled FLASHBULB MEMORIES: distinctly vivid long-lasting memories of a personal circumstance surrounding a person's discovery of shocking events; not as accurate or permanent as photographic memories but the forgetting curve for flashbulb memories is far less affected by time; often associated with important historical or autobiographical events, e.g. 9/11 or 7/7.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
           "type": "trap",
           "text": "Flashbulb memories = vivid memories of personal events associated with intense emotional arousal (e.g. 9/11). They are recalled with seeming accuracy due to rehearsal, but the explanation says their accuracy cannot be assumed.",
           "format": "SBA",
@@ -2318,6 +2362,15 @@
         {
           "type": "paragraph",
           "text": "Ribot's gradient (1881): recent memories are more vulnerable to brain damage than remote ones. After hippocampal damage patients lose more recent than remote memories; this pattern, unique to organic amnesia, is the Ribot gradient. It may reflect retrieval's dependence on hippocampal systems while consolidation gradually pushes stored memories to the neocortex, making them independent of the hippocampus.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 16
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p16-ribot-gradient-box.png",
+          "caption": "Shaded box titled RIBOT'S GRADIENT: Theodule Ribot first suggested in 1881 that recent memories might be more vulnerable to brain damage than remote memories; after damage to the hippocampal memory system patients lose more of their recent than remote memories - unique to organic amnesia; may relate to dependence of retrieval on hippocampal systems while consolidation gradually pushes stored memories to the neocortex.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 16
@@ -3107,19 +3160,19 @@
           3,
           4,
           7,
-          12,
           13,
           14,
-          17,
-          21,
-          25,
-          26,
+          15,
+          18,
+          23,
           27,
-          31,
-          33,
-          42,
-          46,
-          48
+          28,
+          29,
+          34,
+          36,
+          45,
+          49,
+          51
         ]
       }
     },
@@ -3175,6 +3228,51 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 20
           }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p20-apple-banana-features.png",
+          "caption": "Table with columns Apple and Banana: Edible/Edible; Red/Yellow; Sweet/Sweet; Crunchy/Soft; Rounded/Elongated.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "table",
+          "title": "Prototype theory example: features of apple and banana (FRUIT concept)",
+          "columns": [
+            "Apple",
+            "Banana"
+          ],
+          "rows": [
+            [
+              "Edible",
+              "Edible"
+            ],
+            [
+              "Red",
+              "Yellow"
+            ],
+            [
+              "Sweet",
+              "Sweet"
+            ],
+            [
+              "Crunchy",
+              "Soft"
+            ],
+            [
+              "Rounded",
+              "Elongated"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+              "page": 20
+            }
+          ]
         },
         {
           "type": "comparison",
@@ -3422,12 +3520,12 @@
         ],
         "highlightBlockIndices": [
           0,
-          2,
-          3,
           4,
           5,
           6,
-          7
+          7,
+          8,
+          9
         ]
       }
     },
@@ -3458,6 +3556,15 @@
               "page": 22
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p22-personality-theories-quadrant.png",
+          "caption": "Quadrant circle diagram (adapted from Gross Psychology 9e p731): top-left Eysenck's factors / Cattell's traits - shared features (nomothetic), consistent/enduring (dispositional); top-right Psychoanalytic theories - variable and situational, shared features; bottom-left Kelly's personal construct theory - unique features (idiographic), consistent and enduring; bottom-right Situationlism / Humanistic school - unique features, variable and situational.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 22
+          }
         },
         {
           "type": "paragraph",
@@ -4244,16 +4351,17 @@
         ],
         "highlightBlockIndices": [
           0,
-          3,
+          1,
           4,
-          7,
-          9,
-          12,
+          5,
+          8,
+          10,
           13,
-          19,
+          14,
           20,
-          25,
-          28
+          21,
+          26,
+          29
         ]
       }
     },
@@ -4272,6 +4380,15 @@
         {
           "type": "paragraph",
           "text": "Maslow identified deficiency needs (D motives) and growth or 'being' needs (B motives), in a hierarchy of human needs with phylogenic and ontogenic evolution; needs become less biological as one ascends. Higher needs come into focus only when lower needs are satisfied at least to some extent; if lower needs are no longer met, the individual temporarily re-prioritises them but does not permanently regress.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 27
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p27-maslow-pyramid.png",
+          "caption": "Pyramid of Needs (after Abraham Maslow), five tiers from base to apex: Physiological (Food, Water, Warmth); Safety (Security, Shelter); Belonging (Friends, Family, Community); Self-Esteem (Achievement, Mastery, Recognition); Self-Actualization (Pursue talent, creativity, fulfillment).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 27
@@ -4578,11 +4695,12 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
+          2,
           4,
-          9,
-          12,
-          13
+          5,
+          10,
+          13,
+          14
         ]
       }
     },
@@ -4867,8 +4985,26 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p32-stress-vulnerability-graph.png",
+          "caption": "Graph titled The Stress Vulnerability Model: y-axis STRESS, x-axis VULNERABILITY; a falling curve separates the region labelled Well (below/left) from the region labelled Ill (above/right); points a (high on the curve, low vulnerability), b (middle) and c (low on the curve, high vulnerability) are marked.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 32
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Gene-environment interaction (Caspi et al, 2003): individuals with one or two copies of the short allele of the 5-**HT** transporter promoter polymorphism showed more depressive symptoms, diagnosable depression and suicidality in relation to stressful life events than individuals homozygous for the long allele.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 32
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p32-serotonin-transporter-box.png",
+          "caption": "Shaded box titled SEROTONIN TRANSPORTER & LIFE EVENTS: Caspi et al (2003) - individuals with one or two copies of the short allele of the 5-HT T promoter polymorphism showed more depressive symptoms, diagnosable depression and suicidality in relation to stressful life events than individuals homozygous for the long allele.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 32
@@ -4931,6 +5067,15 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 32
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-basic-psychology/p33-locus-of-control-table.png",
+          "caption": "2x2 table: ABILITY (Internal & stable); EFFORT (Internal unstable); TASK DIFFICULTY (External stable); LUCK (External unstable).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 33
           }
         },
         {
@@ -5050,9 +5195,11 @@
           2,
           3,
           4,
-          7,
-          8,
-          10
+          6,
+          9,
+          10,
+          12,
+          13
         ]
       }
     },

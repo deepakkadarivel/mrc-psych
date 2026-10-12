@@ -72,4 +72,24 @@ test.describe("paper A", () => {
       for (const o of tables) expect(o, `${t} table overflow`).toBeLessThanOrEqual(1);
     }
   });
+
+  test("every figure image in every Paper A guide loads", async ({ page }) => {
+    test.setTimeout(180_000);
+    const topics = [
+      "classification", "clinical-examination", "descriptive-psychopathology", "dynamic-psychopathology",
+      "rating-scales", "syndromes", "applied-neurosciences", "neuroanatomy", "neurochemistry", "neuropathology",
+      "neurophysiology", "basic-pharmacology", "pharmacokinetics", "pharmacodynamics", "adverse-drug-effects",
+      "basic-psychology", "social-psychology", "sociocultural-psychiatry", "human-development", "molecular-genetics",
+    ];
+    for (const t of topics) {
+      await page.goto(`/paper-a/topics/pa-${t}`);
+      await expect(page.getByTestId("pdf-toggle")).toBeVisible();
+      // Images are plain <img> tags (no lazy loading): wait for them, then check none is broken.
+      await page.waitForLoadState("networkidle");
+      const broken = await page.$$eval('img[src^="/diagrams/paper-a/"]', (imgs) =>
+        imgs.filter((i) => !(i as HTMLImageElement).complete || (i as HTMLImageElement).naturalWidth === 0).map((i) => i.getAttribute("src"))
+      );
+      expect(broken, `${t} broken images`).toEqual([]);
+    }
+  });
 });

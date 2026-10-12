@@ -293,6 +293,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacokinetics/p3-pglycoprotein-box.png",
+          "caption": "Boxed text headed P-GLYCOPROTEIN (page 3): reverse transporters such as P-glycoprotein pump certain drug molecules out into the gut lumen; inhibition (e.g. by grapefruit juice: bergamottin, 6,7-dihydroxybergamottin, naringenin) down-regulates intestinal CYP3A4 and to a lesser extent CYP1A2; effect greatest for drugs with high first-pass metabolism, named in the box.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 3
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Special preparations: with oral dosing, rate and sometimes extent of absorption are largely determined by disintegration and dissolution of the dosage form. Tablets and capsules must disintegrate to expose a greater surface area; enteric coating slows disintegration, which is also prolonged by hard compaction or wax in a drug matrix.",
           "source": {
@@ -453,7 +462,7 @@
         ],
         "highlightBlockIndices": [
           6,
-          17
+          18
         ]
       }
     },
@@ -1624,6 +1633,15 @@
         {
           "type": "paragraph",
           "text": "The nonoxidative pathway for ethanol is less well characterized and produces fatty acid ethyl esters (FAEEs) as primary end products.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 12
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacokinetics/p12-alcohol-breakdown-box.png",
+          "caption": "Boxed text headed ALCOHOL BREAKDOWN (page 12): four ethanol pathways, 3 oxidative (cytoplasmic alcohol dehydrogenase, >90% in Caucasians; MEOS / CYP450 2E1; peroxisomal catalase) and 1 non-oxidative (primary end products fatty acid ethyl esters, FAEEs).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 12
@@ -3436,6 +3454,15 @@
       "title": "14. SSRIs (B)",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacokinetics/p22-ssri-pyramid.png",
+          "caption": "Pyramid graphic under the heading SSRIs (page 22): stacked labels from top to bottom Fluvoxamine, Sertraline, Escitalopram, Citalopram, Fluoxetine, Paroxetine; legend beneath: Lower end: Greatest nonlinearity of kinetics; Unpredictable side effects.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 22
+          }
+        },
+        {
           "type": "paragraph",
           "text": "SSRIs are rapidly absorbed; **sertraline** availability may be increased by the presence of food. Most are highly protein bound except **escitalopram** (==56%== bound).",
           "source": {
@@ -3587,6 +3614,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacokinetics/p24-ssri-half-life-table.png",
+          "caption": "Table image (page 24): SSRI plasma elimination half-life (single dose; multiple dose [active metabolite]) and linearity of pharmacokinetics for Paroxetine, Fluvoxamine, Sertraline, Citalopram, Fluoxetine.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 24
+          }
+        },
+        {
           "type": "table",
           "columns": [
             "SSRI",
@@ -3695,7 +3731,7 @@
         {
           "type": "gap",
           "subtopic": "SSRI ranking chart (page 22)",
-          "note": "Page 22 carries a graphic ranking the six SSRIs (**fluvoxamine**, **sertraline**, **escitalopram**, **citalopram**, **fluoxetine**, **paroxetine**) with captions such as 'Lower end: Greatest nonlinearity of kinetics', 'Longest t1/2 of primary drug'. The extracted text does not preserve which caption belongs to which drug, so it is not used here.",
+          "note": "Page 22 carries a graphic ranking the six SSRIs (**fluvoxamine**, **sertraline**, **escitalopram**, **citalopram**, **fluoxetine**, **paroxetine**) with captions such as 'Lower end: Greatest nonlinearity of kinetics', 'Longest t1/2 of primary drug'. It is reproduced as the image in this section; the extracted text does not preserve which caption belongs to which drug, so no caption-to-drug pairing is stated in words here.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 22
@@ -3831,10 +3867,12 @@
           }
         ],
         "highlightBlockIndices": [
-          6,
-          11,
+          0,
+          7,
           12,
-          14
+          13,
+          14,
+          16
         ]
       }
     },
@@ -3971,6 +4009,15 @@
         {
           "type": "paragraph",
           "text": "St John's wort acts via multiple monoamine reuptake inhibition. It is a **CYP** inducer and can interact with warfarin, OCPs and antiepileptics, decreasing their efficacy.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 26
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacokinetics/p26-antidepressant-terms.png",
+          "caption": "Graphic titled Terms used to describe therapeutic effects of antidepressants (page 26): seven coloured labels (non-response, partial response, partial remission, remission, relapse, recovery, recurrence), each with its printed definition.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 26
@@ -4220,7 +4267,8 @@
           }
         ],
         "highlightBlockIndices": [
-          8
+          8,
+          9
         ]
       }
     },
@@ -5181,6 +5229,15 @@
         {
           "type": "paragraph",
           "text": "Depot kinetics (box on page 30): some long-acting injections (such as **risperidone**, **pipotiazine**) show delayed as well as prolonged release and need adequate oral antipsychotic cover after the first dose. Steady-state plasma levels are often delayed for 2-3 months, during which levels may rise substantially even without dose increases, producing dose-dependent side effects. Dose-response relationships are not clearly understood for most LAIs; test doses are often used but may not be enough to assess long-term tolerability.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 30
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-pharmacokinetics/p30-depot-kinetics-box.png",
+          "caption": "Boxed text headed DEPOT KINETICS (page 30): delayed as well as prolonged release of some long-acting injections, steady state often delayed for 2-3 months, dose-response relationships not clearly understood for most LAIs.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 30

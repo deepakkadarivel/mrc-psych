@@ -5,11 +5,11 @@ import type { MindMapNode, NoteBlock, Question, Source, StudyGuide } from "@/lib
 
 const root = process.cwd();
 // `--paper-a` switches every content path to content/paper-a/ (ids "pa-*", Source.file "paper-a/...").
-// Paper A has no image blocks (no figure-crop pipeline), so image sources are always rejected there.
+// Paper A image blocks are crops made by scripts/paper-a/crop-figure.py into public/diagrams/paper-a/<topic>/.
 const paperA = process.argv.includes("--paper-a");
 const contentDir = path.join(root, paperA ? "content/paper-a" : "content");
 const guidesDir = path.join(contentDir, "study-guides");
-const resourcesDir = path.join(root, "resources/paper-b");
+const resourcesDir = path.join(root, paperA ? "resources/paper-a" : "resources/paper-b");
 
 function loadJson<T>(file: string): T | null {
   if (!fs.existsSync(file)) return null;
@@ -41,11 +41,15 @@ function pdfPageCount(relFile: string): number | null {
   }
 }
 
+// Paper A: the crop must be one of this topic's own files and must exist on disk (a dangling src renders a broken image).
+function imageFileOk(src: string, topic: string): boolean {
+  return src.startsWith(`/diagrams/paper-a/${topic}/`) && fs.existsSync(path.join(root, "public", src));
+}
+
 function isValidImageSource(source: Source, topic: string): boolean {
-  if (paperA) return false;
   const bookFiles = manifest?.topics.find((t) => t.id === topic)?.bookFiles ?? [];
   if (!bookFiles.includes(source.file)) return false;
-  const pageCount = pdfPageCount(source.file);
+  const pageCount = pdfPageCount(paperA ? source.file.replace(/^paper-a\//, "") : source.file);
   if (pageCount === null) return false;
   return source.page >= 1 && source.page <= pageCount;
 }
@@ -146,7 +150,7 @@ for (const file of files) {
           }
           break;
         case "image":
-          if (!isValidImageSource(block.source, topic)) {
+          if (!isValidImageSource(block.source, topic) || (paperA && !imageFileOk(block.src, topic))) {
             invalid.push(
               `[${section.title}] image[${block.caption.slice(0, 40)}...]: ${JSON.stringify(block.source)}`
             );

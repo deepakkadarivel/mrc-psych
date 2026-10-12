@@ -305,6 +305,15 @@
       "title": "2. Lobar lesions",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p3-frontal-lesions-table.png",
+          "caption": "Table: Frontal lobe lesions, two columns (Unilateral lesions | Bilateral lesions), with a final full-width row 'Specific frontal syndromes (pseudo depressive, dysexecutive and pseudo psychopathic)'.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 3
+          }
+        },
+        {
           "type": "table",
           "title": "Frontal lobe lesions",
           "columns": [
@@ -334,6 +343,10 @@
             ],
             [
               "Loss of verbal fluency with perseveration (left)",
+              ""
+            ],
+            [
+              "Specific frontal syndromes (pseudo depressive, dysexecutive and pseudo psychopathic)",
               ""
             ]
           ],
@@ -448,6 +461,15 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p3-parietal-lesions-table.png",
+          "caption": "Table: Parietal lobe lesions, two columns (Unilateral lesions | Bilateral lesions).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 3
+          }
+        },
+        {
           "type": "table",
           "title": "Parietal lobe lesions",
           "columns": [
@@ -517,6 +539,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p4-temporal-lesions-table.png",
+          "caption": "Table: Temporal lobe lesions, two columns (Unilateral lesions | Bilateral lesions).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 4
+          }
+        },
+        {
           "type": "table",
           "title": "Temporal lobe lesions",
           "columns": [
@@ -560,6 +591,15 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p4-temporal-aura-diagram.png",
+          "caption": "Diagram: 'Psychopathology of the auras of Temporal lobe epilepsy' - ten headed boxes (Autonomic sensations; Forced thinking; Evocation of thought; Sudden obstruction to thought flow; Panoramic memory; Psychic seizures; Uncinate crises; Transient dysphasia; Strong affective experiences; Dostoevsky's epilepsy), each with a one-line description.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 4
+          }
         },
         {
           "type": "table",
@@ -674,6 +714,15 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
             "page": 7,
             "questionNumber": 17
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p5-occipital-lesions-table.png",
+          "caption": "Table: Occipital lobe lesions, two columns (Unilateral lesions | Bilateral lesions).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 5
           }
         },
         {
@@ -830,12 +879,13 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          8,
-          9,
-          12,
-          13,
-          20
+          1,
+          10,
+          11,
+          15,
+          16,
+          17,
+          25
         ]
       }
     },
@@ -2208,6 +2258,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p12-amnesia-table.png",
+          "caption": "Table: Anterograde amnesia (forgetting newly encountered information from the time of a lesion; presentation) and Retrograde amnesia (loss of memory of past events before the lesion; presentation).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 12
+          }
+        },
+        {
           "type": "comparison",
           "title": "Anterograde vs retrograde amnesia",
           "columns": [
@@ -2502,7 +2561,7 @@
         "highlightBlockIndices": [
           0,
           3,
-          9
+          10
         ]
       }
     },
@@ -2553,6 +2612,15 @@
               "page": 14
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p14-aphasia-table.png",
+          "caption": "Table: Type of aphasia against Fluency, Repetition, Comprehension and Naming (Intact/Lost) for Wernicke's sensory, Broca's motor, Conduction, Transcortical sensory and Transcortical motor aphasia; 'Adapted from Harrison's Textbook of internal medicine; 15 e'.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 14
+          }
         },
         {
           "type": "table",
@@ -2917,8 +2985,9 @@
         ],
         "highlightBlockIndices": [
           3,
-          5,
-          11
+          4,
+          6,
+          12
         ]
       }
     },
@@ -2945,6 +3014,15 @@
         {
           "type": "paragraph",
           "text": "Apraxia has limited localising ability, but the left parietal and frontal lobes appear most important. Progressive, isolated limb apraxia is virtually diagnostic of corticobasal degeneration.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 16
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p16-apraxia-functional-table.png",
+          "caption": "Table: Functional classification of apraxia (Apraxia type | Definition | Localization): Constructional, Ideational/conceptual, Ideomotor (most common type among all apraxias).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 16
@@ -2991,6 +3069,24 @@
             "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
             "page": 1,
             "questionNumber": 1
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p16-apraxia-regional-table.png",
+          "caption": "Table: Regional classification of apraxia (Apraxia type | Definition | Localization), start: Buccofacial apraxia and Limb-kinetic apraxia (table continues on next page).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 16
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p17-apraxia-regional-table-cont.png",
+          "caption": "Table (continued): Regional classification of apraxia - end of Limb-kinetic apraxia row and 'Other variants' row.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 17
           }
         },
         {
@@ -3084,8 +3180,8 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
-          5
+          4,
+          8
         ]
       }
     },
@@ -3157,6 +3253,15 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Applied Neurosciences Attempt review.pdf",
             "page": 2,
             "questionNumber": 4
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p18-colour-deficits-table.png",
+          "caption": "Table: Colour deficits - Achromatopsia, Colour agnosia, Colour anomia, each with a definition and a lesion row.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 18
           }
         },
         {
@@ -3234,7 +3339,7 @@
         ],
         "highlightBlockIndices": [
           0,
-          5
+          6
         ]
       }
     },
@@ -3253,6 +3358,15 @@
         {
           "type": "paragraph",
           "text": "Balint's syndrome results from bilateral superior parieto-occipital damage (disruption of the dorsal 'where' stream linking visual and parietal association areas). Possible causes include carbon monoxide poisoning, infarction and Alzheimer's disease.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 19
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p19-balint-triad-diagram.png",
+          "caption": "Diagram: three headed boxes - simultanagnosia, optic ataxia, oculomotor apraxia - each with a one-line description.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 19
@@ -3390,7 +3504,8 @@
         ],
         "highlightBlockIndices": [
           2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -3409,6 +3524,15 @@
         {
           "type": "paragraph",
           "text": "Frontal meningiomas can cause unilateral anosmia; head injury is probably the most common cause of disruption of the olfactory fibres. Hyposmia is an early feature of Parkinson's disease and Alzheimer's dementia and may precede motor and cognitive signs respectively; impaired sense of smell is seen in some patients at ==50%== risk of Parkinsonism.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p20-optic-nerve-table.png",
+          "caption": "Table: Optic nerve CN II - Syndrome | Lesion (unilateral one eye blindness, bitemporal hemianopia, homonymous hemianopia left/right, enlargement of the blind spot, superior/inferior quadrantanopia, cortical blindness).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 20
@@ -3990,13 +4114,14 @@
         ],
         "highlightBlockIndices": [
           2,
-          7,
-          13,
-          16,
-          18,
+          3,
+          8,
+          14,
+          17,
           19,
-          21,
-          22
+          20,
+          22,
+          23
         ]
       }
     },
@@ -4116,6 +4241,15 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
             "page": 24
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-applied-neurosciences/p25-pta-table.png",
+          "caption": "Table: Duration of PTA | Classification | Functional outcome (PTA less than 60 minutes to PTA greater than 7 days).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/APPLIED NEUROSCIENCES.pdf",
+            "page": 25
           }
         },
         {
@@ -4356,7 +4490,8 @@
         "highlightBlockIndices": [
           1,
           9,
-          10
+          10,
+          11
         ]
       }
     }

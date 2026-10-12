@@ -1,0 +1,426 @@
+{
+  "topic": "pa-molecular-genetics",
+  "pages": [
+    {
+      "page": 1,
+      "elements": [
+        {
+          "kind": "decorative",
+          "where": "skipped:cover banner, SPMM Smart Revise logo and title block"
+        },
+        {
+          "kind": "decorative",
+          "where": "skipped:copyright footer"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "elements": []
+    },
+    {
+      "page": 3,
+      "elements": []
+    },
+    {
+      "page": 4,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p4-parental-origin-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Parental origin of the meiotic error leading to aneuploidy"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "elements": [
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p5-dna-structure-diagram.png"
+        },
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p5-exon-intron-diagram.png"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "elements": []
+    },
+    {
+      "page": 7,
+      "elements": [
+        {
+          "kind": "flowchart",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p7-dna-sequence-classification.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Classification of DNA sequences (diagram)"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "elements": []
+    },
+    {
+      "page": 9,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p9-deletion-syndromes-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Some deletion syndromes of psychiatric relevance"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p10-mendel-laws-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Mendel's laws (aide memoire)"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "elements": []
+    },
+    {
+      "page": 12,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p12-single-gene-disorders-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Single-gene disorders of psychiatric relevance (McGuffin et al., 2002)"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "elements": [
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p13-xlmr-box.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:X-linked mental retardation (XLMR)"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "elements": [
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p14-trinucleotide-repeat-boxes.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Trinucleotide repeat disorders (source figure and text)"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "elements": []
+    },
+    {
+      "page": 16,
+      "elements": []
+    },
+    {
+      "page": 17,
+      "elements": []
+    },
+    {
+      "page": 18,
+      "elements": []
+    },
+    {
+      "page": 19,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p19-heritability-interpretation-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Interpretation of heritability (Visscher et al., 2008)"
+        },
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p19-heritability-estimates-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Heritability estimates by disorder (approximations, DSM-IIR based)"
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p19-heritability-estimates-table.png (continuation)"
+        },
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p20-genotype-frequency-box.png"
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "elements": [
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p21-epistasis-heterogeneity-pleiotropy-box.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Epistasis, heterogeneity and pleiotropy"
+        }
+      ]
+    },
+    {
+      "page": 22,
+      "elements": []
+    },
+    {
+      "page": 23,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p23-mz-dz-concordance-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p23-family-history-vs-study-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p23-relative-risk-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:MZ and DZ concordance (McGue and Bouchard, 1998)"
+        },
+        {
+          "kind": "table",
+          "where": "table:Family history vs family study method"
+        },
+        {
+          "kind": "table",
+          "where": "table:Relative risk of common psychiatric conditions (family studies)"
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "elements": [
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p24-pedigree-symbols-key.png"
+        },
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p24-adoption-types-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Types of adoption study"
+        }
+      ]
+    },
+    {
+      "page": 25,
+      "elements": []
+    },
+    {
+      "page": 26,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p26-which-study-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Which study answers which question"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p27-linkage-vs-association-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Linkage vs association studies (McGuffin et al., 2002)"
+        }
+      ]
+    },
+    {
+      "page": 28,
+      "elements": []
+    },
+    {
+      "page": 29,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p29-mendelian-vs-psychiatric-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Mendelian disorders vs most psychiatric disorders"
+        }
+      ]
+    },
+    {
+      "page": 30,
+      "elements": [
+        {
+          "kind": "chart",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p30-risk-to-family-members-chart.png"
+        },
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p30-schizophrenia-genes-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Genes suspected in schizophrenia"
+        },
+        {
+          "kind": "table",
+          "where": "table:Risk to family members (figures given in the text)"
+        }
+      ]
+    },
+    {
+      "page": 31,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p31-bipolar-genes-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Genes suspected in bipolar disorder"
+        },
+        {
+          "kind": "table",
+          "where": "table:Lifetime risk in relatives of a bipolar proband (Craddock et al., 2005)"
+        }
+      ]
+    },
+    {
+      "page": 32,
+      "elements": [
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p32-other-implicated-chromosomes-box.png"
+        },
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p32-shared-genes-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Shared genes across psychoses and mood disorders"
+        }
+      ]
+    },
+    {
+      "page": 33,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p33-apoe-table.png (header row)"
+        }
+      ]
+    },
+    {
+      "page": 34,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p33-apoe-table.png (rows)"
+        },
+        {
+          "kind": "table",
+          "where": "table:ApoE status and Alzheimer's risk (McGuffin et al., 2002)"
+        },
+        {
+          "kind": "diagram",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p34-cadasil-box.png"
+        }
+      ]
+    },
+    {
+      "page": 35,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p35-parkinson-loci-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Parkinson's disease loci"
+        }
+      ]
+    },
+    {
+      "page": 36,
+      "elements": []
+    },
+    {
+      "page": 37,
+      "elements": [
+        {
+          "kind": "table",
+          "where": "image:/diagrams/paper-a/pa-molecular-genetics/p37-offspring-risk-table.png"
+        },
+        {
+          "kind": "table",
+          "where": "table:Offspring risk by parental disorder (Tsuang et al., 1995)"
+        }
+      ]
+    },
+    {
+      "page": 38,
+      "elements": []
+    },
+    {
+      "page": 39,
+      "elements": [
+        {
+          "kind": "decorative",
+          "where": "skipped:shaded reference-list box (bibliography text, no figure)"
+        }
+      ]
+    }
+  ]
+}

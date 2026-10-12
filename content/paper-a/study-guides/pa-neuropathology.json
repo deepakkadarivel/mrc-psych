@@ -506,6 +506,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuropathology/p3-caa-box.png",
+          "caption": "Boxed note: Cerebral amyloid angiopathy (CAA) - accumulation of A-beta in the walls of blood vessels (arteries and arterioles) of the cerebral cortex and overlying leptomeninges; about 30% of normal elderly people but over 90% of patients with AD; important cause of (mostly haemorrhagic) strokes in the elderly, superficial lobar haemorrhages that may extend into the subarachnoid space.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 3
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Cerebral amyloid angiopathy (**CAA**) is the accumulation of Abeta in the walls of blood vessels (particularly arteries and arterioles) in the cerebral cortex and overlying leptomeninges.",
           "source": {
@@ -527,6 +536,15 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 3
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuropathology/p4-binswanger-box.png",
+          "caption": "Boxed note: Binswanger's disease - also known as subcortical vascular dementia or subcortical arteriosclerotic encephalopathy; characterized by many small infarctions of the white matter that spare the cortical regions; often coexists with AD-type changes.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 4
           }
         },
         {
@@ -665,10 +683,12 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
+          1,
           5,
           6,
-          8
+          7,
+          8,
+          10
         ]
       }
     },
@@ -900,6 +920,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuropathology/p5-tauopathies-synucleopathies.png",
+          "caption": "Two-column coloured table: Tauopathies (tau deposits) - Alzheimer's dementia, Pick's disease, Progressive supranuclear palsy, Corticobasal degenerations, Frontotemporal dementia with parkinsonism (FTDP-17); Synucleopathies (alpha synuclein deposits) - Parkinson's, DLB, Multisystem atrophy.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 5
+          }
+        },
+        {
           "type": "table",
           "title": "Tauopathies vs synucleopathies",
           "columns": [
@@ -1122,7 +1151,7 @@
           7,
           8,
           9,
-          13
+          14
         ]
       }
     },
@@ -1199,6 +1228,15 @@
         {
           "type": "paragraph",
           "text": "Pick's bodies are seen in some postmortem specimens but are not necessary for the diagnosis. They are argentophilic, tau and ubiquitin reactive filamentous inclusions. Hirano bodies may also be seen, with lesser frequency than in Alzheimer's.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 6
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuropathology/p6-huntington-box.png",
+          "caption": "Boxed note: Huntington's dementia - severe loss of small neurons in the caudate and putamen with subsequent astrocytosis; characteristic protein deposits form nuclear inclusions in neurons of HD patients; head of the caudate becomes shrunken with 'ex vacuo' dilatation of the anterior horns of the lateral ventricles.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 6
@@ -1366,7 +1404,7 @@
           3,
           6,
           7,
-          8
+          9
         ]
       }
     },
@@ -1412,6 +1450,15 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuropathology/p8-cjd-vs-vcjd-table.png",
+          "caption": "Table: Feature / Classic CJD / Variant CJD, rows Age, Course, Symptoms, EEG, MRI, Biopsy, Tonsils (coloured header).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 8
           }
         },
         {
@@ -1714,8 +1761,9 @@
         "highlightBlockIndices": [
           5,
           6,
-          9,
-          11
+          7,
+          10,
+          12
         ]
       }
     },
@@ -1905,6 +1953,15 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neuropathology/p10-viral-load-box.png",
+          "caption": "Boxed note: VIRAL LOAD - current method used to predict stage of disease, monitor progression and formulate treatment is viral load (viral particles per cubic millimetre of blood); HIV-1 can also be detected in the cerebrospinal fluid (CSF), but CSF viral load is not established as an accurate indicator of CNS disease related to HIV.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Viral load (the actual number of viral particles in a cubic millimeter of blood) is the current method used to predict stage of disease, monitor progression and formulate treatment strategies. **HIV-1** can also be detected in **CSF**, but **CSF** viral load is not established as an accurate indicator of **CNS** disease related to **HIV**.",
           "source": {
@@ -2026,8 +2083,9 @@
           8,
           9,
           10,
-          13,
-          14
+          11,
+          14,
+          15
         ]
       }
     },

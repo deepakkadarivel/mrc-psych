@@ -140,6 +140,15 @@
           "sourced": false
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p2-neurotransmitter-table.png",
+          "caption": "Table: Neurotransmitters in three columns - Monoamines (Dopamine, Norepinephrine, Epinephrine, Serotonin, Acetylcholine, Histamine), Amino acids (GABA, Glycine, Glutamate), Peptides (Endorphins, Cholecystokinin, Neurotensin, Neuropeptide Y, Leptin, Ghrelin).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 2
+          }
+        },
+        {
           "type": "table",
           "title": "Neurotransmitter classes",
           "columns": [
@@ -332,7 +341,8 @@
           8,
           9,
           10,
-          11
+          11,
+          12
         ]
       }
     },
@@ -563,6 +573,15 @@
       "id": "dopamine",
       "title": "3. Dopamine",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p4-dopamine-boxes.png",
+          "caption": "Dopamine: Coloured boxed table with header tabs: Source; Rate limiting step; Breakdown enzymes; Breakdown product; Reuptake; Function; Receptors; Disorders.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 4
+          }
+        },
         {
           "type": "table",
           "title": "Dopamine at a glance",
@@ -849,10 +868,11 @@
           0,
           1,
           2,
-          4,
-          7,
+          3,
+          5,
           8,
-          9
+          9,
+          10
         ]
       }
     },
@@ -860,6 +880,15 @@
       "id": "noradrenaline",
       "title": "4. Noradrenaline",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p5-noradrenaline-boxes.png",
+          "caption": "Noradrenaline: Coloured boxed table with header tabs: Source; Rate limiting step; Synthetic enzymes; Breakdown enzymes; Breakdown product; Reuptake; Function; Receptors; Disorders.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 5
+          }
+        },
         {
           "type": "table",
           "title": "Noradrenaline (norepinephrine) at a glance",
@@ -1127,7 +1156,8 @@
           2,
           3,
           4,
-          6
+          5,
+          7
         ]
       }
     },
@@ -1135,6 +1165,15 @@
       "id": "serotonin",
       "title": "5. Serotonin",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p6-serotonin-boxes.png",
+          "caption": "Serotonin: Coloured boxed table with header tabs: Source; Rate limiting step; Synthetic enzymes; Breakdown enzymes; Breakdown product; Reuptake; Function; Receptors; Disorders. One line in the Receptors box (All except 5-HT3 are G-protein-coupled...) is highlighted yellow.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 6
+          }
+        },
         {
           "type": "table",
           "title": "Serotonin (5HT) at a glance",
@@ -1239,6 +1278,15 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p7-5ht-receptor-actions.png",
+          "caption": "Table: Receptor and Action for 5HT1A, 5HT1B, 5HT1D, 5HT2A, 5HT2B, 5HT2C, 5HT3, 5HT6, 5HT7.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 7
+          }
         },
         {
           "type": "table",
@@ -1531,13 +1579,15 @@
         ],
         "highlightBlockIndices": [
           0,
-          2,
+          1,
           3,
           4,
           5,
+          6,
           7,
-          10,
-          11
+          9,
+          12,
+          13
         ]
       }
     },
@@ -1545,6 +1595,15 @@
       "id": "acetylcholine",
       "title": "6. Acetylcholine",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p8-acetylcholine-boxes.png",
+          "caption": "Acetylcholine: Coloured boxed table with header tabs: Source; Rate limiting step; Synthetic enzymes; Breakdown enzymes; Breakdown product; Reuptake; Function; Receptors; Disorders.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 8
+          }
+        },
         {
           "type": "table",
           "title": "Acetylcholine at a glance",
@@ -1782,10 +1841,11 @@
         "highlightBlockIndices": [
           0,
           1,
-          3,
+          2,
           4,
           5,
-          6
+          6,
+          7
         ]
       }
     },
@@ -1793,6 +1853,15 @@
       "id": "gaba",
       "title": "7. GABA",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p9-gaba-boxes.png",
+          "caption": "GABA: Coloured boxed table with header tabs: Source; Rate limiting step; Synthetic enzymes; Breakdown enzymes; Breakdown product; Reuptake; Function; Receptors; Disorders.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 9
+          }
+        },
         {
           "type": "table",
           "title": "GABA at a glance",
@@ -1997,9 +2066,10 @@
         "highlightBlockIndices": [
           0,
           1,
-          3,
-          5,
-          6
+          2,
+          4,
+          6,
+          7
         ]
       }
     },
@@ -2007,6 +2077,15 @@
       "id": "glutamate",
       "title": "8. Glutamate",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p10-glutamate-boxes.png",
+          "caption": "Glutamate: coloured boxed table with header tabs: Source; Regulation; Synthetic enzymes; Breakdown enzymes; Breakdown product; Reuptake; Function; Receptors; Disorders.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 10
+          }
+        },
         {
           "type": "table",
           "title": "Glutamate at a glance",
@@ -2274,8 +2353,9 @@
           0,
           1,
           2,
-          5,
-          6
+          3,
+          6,
+          7
         ]
       }
     },
@@ -2626,6 +2706,15 @@
       "title": "12. Some clinical implications",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurochemistry/p12-clinical-implications-boxes.png",
+          "caption": "Four shaded boxes: Ach & Lewy body dementia; beta adrenoceptor; Aberrant salience; 5HT & depression.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROCHEMISTRY.pdf",
+            "page": 12
+          }
+        },
+        {
           "type": "table",
           "title": "Clinical implications of neurochemistry",
           "columns": [
@@ -2797,7 +2886,8 @@
           }
         ],
         "highlightBlockIndices": [
-          0
+          0,
+          1
         ]
       }
     }

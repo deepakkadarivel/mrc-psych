@@ -6,6 +6,15 @@
       "title": "1. Types of adverse reactions",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p2-types-table.png",
+          "caption": "Table: Type of reaction (A dose-related, B non-dose related, C dose and time related, D delayed effect, E Withdrawal) with Mnemonics column (Augmented, Bizarre, Continuous use, Delayed, End of use) and Features column.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 2
+          }
+        },
+        {
           "type": "table",
           "title": "Types of adverse reaction (A-E)",
           "columns": [
@@ -144,8 +153,8 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          1
+          1,
+          2
         ]
       }
     },
@@ -167,6 +176,15 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 2
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p3-withdrawal-variables.png",
+          "caption": "Table of seven variables influencing withdrawal symptoms: 1 Half life, 2 Range of action, 3 Enzyme interference, 4 Active metabolites, 5 Rate of withdrawal, 6 Co-prescribed drug effects, 7 Receptor profile, each with its explanation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 3
           }
         },
         {
@@ -268,7 +286,7 @@
           }
         ],
         "highlightBlockIndices": [
-          2
+          3
         ]
       }
     },
@@ -276,6 +294,15 @@
       "id": "mechanism-of-adverse-effects",
       "title": "2. Mechanism of adverse effects",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p4-receptor-mechanism-table.png",
+          "caption": "Table: Side effect (Agitation through Pathological gambling) against Receptor mechanism, with a dark red header row.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 4
+          }
+        },
         {
           "type": "table",
           "title": "Side effect and the receptor mechanism given",
@@ -610,8 +637,8 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          6
+          1,
+          7
         ]
       }
     },
@@ -797,6 +824,15 @@
             "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
             "page": 1,
             "questionNumber": 4
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p7-td-risk-factors.png",
+          "caption": "Shaded box: RISK FACTORS FOR TARDIVE DYSKINESIA - Female gender, Elderly, Diabetics, Previous brain damage, Affective illness rather than pure psychotic disorder, Children, Learning disabled, Afro-Caribbean race, Long term co-prescription of anticholinergics, Frequent drug holidays - will lead to high dose prescription with each relapse.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 7
           }
         },
         {
@@ -1150,10 +1186,11 @@
           5,
           10,
           15,
-          17,
-          24,
+          16,
+          18,
           25,
-          26
+          26,
+          27
         ]
       }
     },
@@ -1426,6 +1463,15 @@
             "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
             "page": 1,
             "questionNumber": 1
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p8-clozapine-dose-note.png",
+          "caption": "Shaded note box: Many side effects of clozapine such as salivation, sedation, and weight gain, fatigue and lowering of seizure threshold are dose related. But agranulocytosis and myocarditis can occur at any dose.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 8
           }
         },
         {
@@ -1714,10 +1760,10 @@
         ],
         "highlightBlockIndices": [
           1,
-          2,
-          4,
-          14,
-          16
+          3,
+          5,
+          15,
+          17
         ]
       }
     },
@@ -2234,6 +2280,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p11-who-metabolic-criteria.png",
+          "caption": "Boxed table: World Health Organization criteria for metabolic syndrome - insulin resistance and/or impaired fasting glucose and/or impaired glucose tolerance AND two or more of: waist-hip ratio or BMI, triglyceride or HDL, blood pressure, microalbuminuria.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 11
+          }
+        },
+        {
           "type": "table",
           "title": "WHO criteria for metabolic syndrome (as printed in the notes)",
           "columns": [
@@ -2268,6 +2323,15 @@
               "page": 11
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p11-metabolic-risk-chain.png",
+          "caption": "Arrow chain, left to right: MOST - Olanzapine / clozapine - quetiapine - risperidone - ziprasidone - aripiprazole / lurasidone - LEAST.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 11
+          }
         },
         {
           "type": "table",
@@ -2516,10 +2580,11 @@
           }
         ],
         "highlightBlockIndices": [
-          1,
           2,
           3,
-          4
+          4,
+          5,
+          6
         ]
       }
     },
@@ -3132,6 +3197,15 @@
           "sourced": false
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p15-serotonin-syndrome-boxes.png",
+          "caption": "Four boxed panels: Mechanism of Serotonin Syndrome; Features of serotonin syndrome; Drugs with high risk of serotonin syndrome; Treatment of Serotonin syndrome (bullet lists as printed).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 15
+          }
+        },
+        {
           "type": "table",
           "title": "Drugs with a high risk of serotonin syndrome (notes)",
           "columns": [
@@ -3167,6 +3241,15 @@
         {
           "type": "paragraph",
           "text": "Treatment of serotonin syndrome: withdraw the offending agent; supportive care (correct vital signs); benzodiazepines; 5HT2A antagonists - cyproheptadine, atypical antipsychotics, **chlorpromazine** (**mirtazapine** controversial); in severe cases neuromuscular paralysis and intubation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p15-nms-vs-ss-table.png",
+          "caption": "Two-column table NMS vs Serotonin syndrome (page 15 part): mechanism, onset, resolution, myoclonus, hypomania, reflexes, rhabdomyolysis.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 15
@@ -3232,6 +3315,15 @@
               "page": 16
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p16-nms-vs-ss-table-cont.png",
+          "caption": "Continuation of the NMS vs Serotonin syndrome table (page 16): CPK elevation common; WBC also elevated / these laboratory abnormalities are less frequent in serotonin syndrome.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 16
+          }
         },
         {
           "type": "trap",
@@ -3350,7 +3442,9 @@
           2,
           3,
           4,
-          6
+          5,
+          7,
+          8
         ]
       }
     },
@@ -3491,6 +3585,15 @@
         {
           "type": "paragraph",
           "text": "**Fluoxetine** is the **SSRI** least likely to cause withdrawal because its metabolite has a half-life of more than 1 week, giving slow self-tapering; it can even be used to treat or prevent discontinuation syndrome when stopping another **SSRI**, though a delayed withdrawal syndrome has been reported with **fluoxetine**.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 17
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p17-ssri-discontinuation-criteria.png",
+          "caption": "Table: SSRI discontinuation syndrome - Criterion A (discontinuation or reduction of dose of SSRI after at least 1 month use) and Criterion B (2 or more listed symptoms within 1-7 days).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 17
@@ -3785,7 +3888,7 @@
         ],
         "highlightBlockIndices": [
           8,
-          16
+          17
         ]
       }
     },
@@ -4533,6 +4636,15 @@
       "title": "5b. Antimanic agents - valproate, carbamazepine, lamotrigine and other anticonvulsants",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p24-cbz-vpa-table.png",
+          "caption": "Table: Drug (Carbamazepine, Valproate) against Dose-related effects and Idiosyncratic reactions.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 24
+          }
+        },
+        {
           "type": "table",
           "title": "Carbamazepine vs valproate - dose-related and idiosyncratic effects",
           "columns": [
@@ -4964,9 +5076,9 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          11,
-          15
+          1,
+          12,
+          16
         ]
       }
     },
@@ -5355,6 +5467,24 @@
       "title": "7. Psychiatric effects of non-psychiatric drugs",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p27-nonpsych-drugs-table.png",
+          "caption": "Table (page 27): Non-psychiatric drugs and their Psychiatric side effects, from Beta-blockers to Antihistamines and decongestants.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 27
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p28-nonpsych-drugs-table-cont.png",
+          "caption": "Continuation of the table (page 28): decongestants, Proton pump inhibitors & H2-antagonists, Ondansetron, Isotretinoin, Aminophylline and salbutamol.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 28
+          }
+        },
+        {
           "type": "table",
           "title": "Non-psychiatric drugs and their psychiatric side effects",
           "columns": [
@@ -5597,8 +5727,8 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
-          1
+          2,
+          3
         ]
       }
     },
@@ -5606,6 +5736,15 @@
       "id": "prescribing-controlled-drugs",
       "title": "8. Prescribing controlled drugs",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p29-misuse-of-drugs-tables.png",
+          "caption": "Two tables: 1971 MISUSE OF DRUGS ACT UK (Class A, B, C drugs with penalties) and 2001 MISUSE OF DRUGS REGULATIONS (Schedule, Examples, Regulations; Schedules 1-4 Part 1 shown).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 29
+          }
+        },
         {
           "type": "table",
           "title": "1971 Misuse of Drugs Act (UK) - classes",
@@ -5696,6 +5835,15 @@
               "page": 30
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p30-misuse-schedules-cont.png",
+          "caption": "Continuation of the 2001 Misuse of Drugs Regulations table (page 30): Schedule 4 Part 2 and Schedule 5.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 30
+          }
         },
         {
           "type": "table",
@@ -5845,9 +5993,9 @@
           }
         ],
         "highlightBlockIndices": [
-          0,
           1,
-          2
+          2,
+          4
         ]
       }
     },
@@ -5874,6 +6022,15 @@
         {
           "type": "paragraph",
           "text": "The black triangle symbol indicates a newly licensed preparation requiring additional monitoring by the European Medicines Agency; for these the **MHRA** requires all suspected reactions (including non-serious) to be reported. For other drugs, Yellow Cards are for side effects that are serious, medically significant or result in harm. ADRs resulting from a medication error are also reportable.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 31
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p31-frequency-terms.png",
+          "caption": "Table: Term used to describe frequency against Rates observed (Very common greater than 1 in 10; Common 1 in 100 to 1 in 10; Uncommon 1 in 1000 to 1 in 100; Rare 1 in 10 000 to 1 in 1000; Very rare less than 1 in 10 000).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 31
@@ -5921,6 +6078,15 @@
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 31
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-adverse-drug-effects/p32-adverse-effects-chart.png",
+          "caption": "Labelled body diagram: Psychotropics Adverse Effects Chart (c) SPMM Course - a human anatomy figure with arrows to twelve text boxes listing adverse effects and the drugs associated with them, plus an abbreviation key (AchEs, BDZ, CBZ, CPZ, VFX, VPA, SJS).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 32
           }
         },
         {
@@ -6112,6 +6278,10 @@
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 32
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+              "page": 32
             }
           ]
         },
@@ -6221,8 +6391,9 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
-          5
+          4,
+          6,
+          7
         ]
       }
     }

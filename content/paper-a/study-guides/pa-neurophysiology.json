@@ -712,6 +712,15 @@
       "title": "7. Abnormalities in physiological drives",
       "blocks": [
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p4-abnormal-drives-table.png",
+          "caption": "Table (page 4, \"E. Abnormalities in physiological drives\"): columns Disorder / Clinical features; rows Kluver-Bucy syndrome, Laurence-Moon-Biedl Syndrome, Prader-Willi Syndrome, Kleine-Levin Syndrome, Psychogenic polydipsia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 4
+          }
+        },
+        {
           "type": "table",
           "title": "Disorders of physiological drives",
           "columns": [
@@ -809,7 +818,8 @@
         ],
         "highlightBlockIndices": [
           0,
-          1
+          1,
+          2
         ]
       }
     },
@@ -1079,6 +1089,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p7-pituitary-hormones-table.png",
+          "caption": "Table (page 7): Region / Hormonal output. Anterior pituitary: GH, LH, FSH, ACTH, TSH, Prolactin. Posterior pituitary: Vasopressin (ADH), Oxytocin. Hypothalamus: CRH, GHRH, GnRH, TRH, SST (inhibits GH), PIF (prolactin inhibitory factor, dopamine).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
           "type": "table",
           "title": "Hormonal output by region",
           "columns": [
@@ -1220,7 +1239,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          2
+          2,
+          3
         ]
       }
     },
@@ -1255,6 +1275,15 @@
         {
           "type": "paragraph",
           "text": "**Lithium** produces hypothyroidism, especially in middle-aged women predisposed by antithyroid autoantibodies. Hypothyroidism is sometimes implicated in rapid cycling in previously stable bipolar patients; hyperthyroidism is associated with generalised anxiety symptoms.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 8
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p8-thyroid-table.png",
+          "caption": "Two-column table (page 8): Hyperthyroidism vs Hypothyroidism, each with a Physical symptoms row and a Mental symptoms row.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
             "page": 8
@@ -1348,8 +1377,8 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
-          5
+          5,
+          6
         ]
       }
     },
@@ -1384,6 +1413,15 @@
         {
           "type": "paragraph",
           "text": "Hypercortisolaemia with loss of diurnal variation is reported in depression (especially melancholic with somatic syndrome), some patients with mania (especially psychotic), **OCD** and schizoaffective disorder. Hypocortisolaemia is seen in a subgroup of **PTSD** (possibly aberrant pituitary feedback from excessive glucocorticoid receptors - probably a genetic vulnerability); low cortisol is also seen in chronic fatigue and fibromyalgia.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p9-cortisol-table.png",
+          "caption": "Two-column table (page 9): Hypercortisolism (Addison's disease) vs Hypocortisolism (Cushing's syndrome), each with Physical symptoms and Mental symptoms rows, as printed.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
             "page": 9
@@ -1583,9 +1621,9 @@
           }
         ],
         "highlightBlockIndices": [
-          4,
-          7,
-          11
+          5,
+          8,
+          12
         ]
       }
     },
@@ -1821,6 +1859,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p10-endocrine-sleep-box.png",
+          "caption": "Shaded box titled \"ENDOCRINE CHANGES & SLEEP\" (page 10): start of sleep, slow wave sleep, REM sleep, early morning sleep changes, plus the circadian rhythm development note.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 10
+          }
+        },
+        {
           "type": "table",
           "title": "Endocrine changes and sleep",
           "columns": [
@@ -1928,7 +1975,8 @@
         "highlightBlockIndices": [
           4,
           5,
-          7
+          6,
+          8
         ]
       }
     },
@@ -1988,6 +2036,15 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p11-dreams-box.png",
+          "caption": "Shaded box titled \"DREAMS\" (page 11): dreaming occurs at all stages of sleep; non-REM dreams are thought-like, REM dreams may be illogical and bizarre.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
         },
         {
           "type": "paragraph",
@@ -2075,7 +2132,7 @@
         ],
         "highlightBlockIndices": [
           2,
-          4
+          5
         ]
       }
     },
@@ -2086,6 +2143,15 @@
         {
           "type": "paragraph",
           "text": "Average sleep length is about 7.5 hours per night, made up of **NREM** and **REM** phases.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p11-nrem-stages.png",
+          "caption": "Four labelled boxes (page 11): Stage 1 NREM sleep (5%), Stage 2 NREM sleep (45%), Stage 3 NREM sleep (12%), Stage 4 NREM sleep (13%), each with the features printed in the box.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
             "page": 11
@@ -2350,9 +2416,10 @@
         ],
         "highlightBlockIndices": [
           1,
-          9,
+          2,
           10,
-          11
+          11,
+          12
         ]
       }
     },
@@ -2478,6 +2545,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p13-aras-table.png",
+          "caption": "Table \"Ascending Reticular Activating System - Neurotransmitters\" (page 13): columns Neurotransmitter / Cell Bodies / Function; rows Cholinergic, Noradrenergic, Dopaminergic, Serotoninergic, Histaminergic.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
+        },
+        {
           "type": "table",
           "title": "Ascending reticular activating system neurotransmitters",
           "columns": [
@@ -2532,6 +2608,15 @@
             "H - Histaminergic"
           ],
           "sourced": false
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p13-sleep-ageing-box.png",
+          "caption": "Shaded box titled \"SLEEP & AGEING\" (page 13): newborn sleep, shift by 3-4 months, adult pattern by late teens, and changes in older persons.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 13
+          }
         },
         {
           "type": "table",
@@ -2695,7 +2780,8 @@
           4,
           5,
           6,
-          9
+          8,
+          11
         ]
       }
     },
@@ -2703,6 +2789,15 @@
       "id": "sleep-drugs",
       "title": "19. Drugs and disorders affecting sleep",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p14-drugs-sleep-table.png",
+          "caption": "Table (page 14, \"E. Drugs and Disorders\"): columns Disorder / drugs and Changes; rows Alcohol through Z hypnotics, each with bulleted changes.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 14
+          }
+        },
         {
           "type": "table",
           "title": "Effects on sleep architecture",
@@ -2918,7 +3013,8 @@
         "highlightBlockIndices": [
           0,
           1,
-          2
+          2,
+          3
         ]
       }
     },
@@ -2973,6 +3069,15 @@
               "page": 15
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p15-eeg-waves-table.png",
+          "caption": "Table \"Wave forms noted in EEG\" (page 15): Waves / Frequency / Notes for Beta, Alpha, Theta, Delta, Mu, Lambda.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
         },
         {
           "type": "table",
@@ -3037,6 +3142,15 @@
         {
           "type": "paragraph",
           "text": "Beta and alpha are fast waves; theta and delta are slow waves.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 15
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p15-eeg-development.png",
+          "caption": "Five-box row (page 15): Newborns, Infants, Early childhood, Mid-adolescence, Adults, each with the EEG description printed in its box.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
             "page": 15
@@ -3230,8 +3344,9 @@
         "highlightBlockIndices": [
           3,
           4,
-          7,
-          9
+          5,
+          9,
+          11
         ]
       }
     },
@@ -3239,6 +3354,15 @@
       "id": "eeg-disorders",
       "title": "21. EEG abnormalities in disorders",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p16-eeg-disorders-table.png",
+          "caption": "Table \"EEG in various disorders\" (page 16): Disorder / EEG finding, rows from Absence seizures (petit-mal) to Structural lesions.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 16
+          }
+        },
         {
           "type": "table",
           "title": "EEG in various disorders",
@@ -3530,7 +3654,8 @@
         ],
         "highlightBlockIndices": [
           0,
-          3
+          1,
+          4
         ]
       }
     },
@@ -3538,6 +3663,15 @@
       "id": "eeg-drugs",
       "title": "22. Effect of drugs on EEG",
       "blocks": [
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p17-eeg-drugs-table.png",
+          "caption": "Three grouped tables \"Effect of drugs on EEG\" (page 17): Psychotropics; Primarily sedating drugs - decrease alpha; Primarily recreational drugs - increase alpha.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 17
+          }
+        },
         {
           "type": "table",
           "title": "Psychotropics",
@@ -3717,7 +3851,8 @@
           0,
           1,
           2,
-          3
+          3,
+          4
         ]
       }
     },
@@ -3752,6 +3887,15 @@
         {
           "type": "paragraph",
           "text": "ERPs have polarity (P or N) and latency (moment of peak after the stimulus, often the number in the label). **EEG**, **MEG** and **ERP** have much higher temporal resolution than fMRI, **SPECT** and **PET** but lack the high spatial resolution of **MR** techniques.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
+            "page": 18
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-neurophysiology/p18-erp-classes.png",
+          "caption": "Three labelled boxes (page 18): Early ERPs, Midlatency ERPs, Late ERPs, each with the bullet points printed in the box.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPHYSIOLOGY.pdf",
             "page": 18
@@ -3957,7 +4101,8 @@
         ],
         "highlightBlockIndices": [
           4,
-          8
+          5,
+          9
         ]
       }
     }

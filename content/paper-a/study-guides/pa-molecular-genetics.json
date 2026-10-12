@@ -572,6 +572,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p4-parental-origin-table.png",
+          "caption": "Table (page 4), \"Parental origin of meiotic error leading to aneuploidy\": columns Aneuploidy / Paternal % / Maternal %; rows Patau 13 (15/85), Edward's 18 (10/90), Down's 21 (5/95), Turner's 45X (80/20), Klinefelter's 47 XXY (45/55).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 4
+          }
+        },
+        {
           "type": "table",
           "title": "Parental origin of the meiotic error leading to aneuploidy",
           "columns": [
@@ -847,8 +856,8 @@
         "highlightBlockIndices": [
           7,
           11,
-          15,
-          20
+          16,
+          21
         ]
       }
     },
@@ -919,8 +928,26 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p5-dna-structure-diagram.png",
+          "caption": "Figure (page 5), three panels: (a) double helix with key to nitrogenous bases Adenine, Thymine, Guanine, Cytosine and labels Base pair and Sugar phosphate backbone; (b) chemical drawing of Thymine-Adenine and Guanine-Cytosine base pairs with hydrogen bonds and 5' / 3' ends; (c) space-filling helix model labelled Major groove and Minor groove.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 5
+          }
+        },
+        {
           "type": "paragraph",
           "text": "A gene is a sub-portion of **DNA** coding for a polypeptide sequence. A set of three adjacent nucleotides is a codon, coding for a specific amino acid. There are 20 amino acids but 64 possible codons, so most amino acids are encoded by more than one triplet; other codons signal initiating or terminating polypeptide-chain synthesis.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 5
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p5-exon-intron-diagram.png",
+          "caption": "Diagram (page 5): a DNA strand running 5' to 3' with three darker blocks, with arrows from a box labelled EXON pointing to the blocks and arrows from a box labelled INTRON pointing to the stretches between them.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 5
@@ -1024,7 +1051,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          6
+          4,
+          8
         ]
       }
     },
@@ -1121,6 +1149,15 @@
         {
           "type": "paragraph",
           "text": "Study of mRNAs using microchip arrays is called transcriptomics.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 7
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p7-dna-sequence-classification.png",
+          "caption": "Flowchart (page 7): DNA Sequences -> EXONS (coding) and INTRONS (non-coding); INTRONS -> Tandem Repeats and Interspersed. Tandem Repeats -> Satellite (10-15%, large series of simple repeats), Minisatellite, Microsatellite (single, di or tri nucleotide repeats). Minisatellite -> Telomeric repeats (necessary for integrity of chromosomes) and Hypervariable repeats (used in DNA fingerprinting). Interspersed -> Long Interspersed Nuclear Elements and Short Interspersed Nuclear Elements.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 7
@@ -1311,7 +1348,8 @@
           0,
           1,
           7,
-          9
+          8,
+          10
         ]
       }
     },
@@ -1429,6 +1467,15 @@
             "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
             "page": 12,
             "questionNumber": 44
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p9-deletion-syndromes-table.png",
+          "caption": "Table (page 9), \"Some deletion syndromes of psychiatric relevance\": columns Disorder / Location and mode of transmission / Features; rows DiGeorge (Velocardiofacial), Williams syndrome, Smith Magenis syndrome, Angelman syndrome, Prader-Willi syndrome, Cri-du-chat syndrome.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 9
           }
         },
         {
@@ -1651,8 +1698,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          7,
-          8
+          8,
+          9
         ]
       }
     },
@@ -1679,6 +1726,15 @@
         {
           "type": "paragraph",
           "text": "Third law, independent assortment: different pairs of alleles are passed to offspring independently, so new combinations present in neither parent are possible (blue eyes do not take brown hair 'with it'). The notes add that segregation was later proved true by studying chromosomes during cell division.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 10
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p10-mendel-laws-table.png",
+          "caption": "Table (page 10), \"Mendel's Laws (aide memoire)\": columns Mendel's Laws / Explanations; rows Law of uniformity (DD X dd -> Dd), Law of segregation (Dd X Dd -> DD | Dd Dd | dd), Law of independent assortment (DdHh X ddhh -> DdHh | ddHh | Ddhh | ddhh); adapted from McGuffin et al., p37.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 10
@@ -1777,7 +1833,7 @@
           }
         ],
         "highlightBlockIndices": [
-          3
+          4
         ]
       }
     },
@@ -1925,6 +1981,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p13-xlmr-box.png",
+          "caption": "Shaded text box (page 13), \"X-linked mental retardation (XLMR)\": four short paragraphs on learning disability being commoner in males, XLMR heterogeneity (syndromic 1/3rd, non-syndromic 2/3rd), Fragile X as the most common form, and MECP2 mutations.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 13
+          }
+        },
+        {
           "type": "table",
           "title": "X-linked mental retardation (XLMR)",
           "columns": [
@@ -1955,6 +2020,15 @@
               "page": 13
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p12-single-gene-disorders-table.png",
+          "caption": "Table (page 12): columns Disorder / Location and mode of transmission / Features; rows Tuberous sclerosis, Treacher Collins syndrome, Apert syndrome, Noonan syndrome, Hurler syndrome, Lesch-Nyhan syndrome; from McGuffin et al. (ed) Psychiatric genetics and genomics, Oxford Press 2002.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 12
+          }
         },
         {
           "type": "table",
@@ -2228,8 +2302,8 @@
         ],
         "highlightBlockIndices": [
           5,
-          12,
-          13
+          14,
+          15
         ]
       }
     },
@@ -2325,6 +2399,15 @@
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 39,
             "questionNumber": 92
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p14-trinucleotide-repeat-boxes.png",
+          "caption": "Four boxed headings (page 14): Frag(g)ile X syndrome - cGG; Friedreich AtaxiA - gAA; Huntington ChoreA - CAg; MyoTonic dysTrophy - cTg.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 14
           }
         },
         {
@@ -2823,13 +2906,13 @@
         ],
         "highlightBlockIndices": [
           3,
-          7,
           8,
-          10,
-          19,
-          22,
-          26,
-          27
+          9,
+          11,
+          20,
+          23,
+          27,
+          28
         ]
       }
     },
@@ -3330,6 +3413,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p19-heritability-interpretation-table.png",
+          "caption": "Table (page 19), \"Interpretation of heritability\" (Visscher et al., 2008): columns STATEMENT / ACCURACY; six statements each marked CORRECT or FALSE with an explanation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 19
+          }
+        },
+        {
           "type": "table",
           "title": "Interpretation of heritability (Visscher et al., 2008)",
           "columns": [
@@ -3373,6 +3465,15 @@
         {
           "type": "paragraph",
           "text": "Obesity (regarded as environmental) shows high familial loading: ==80%== of offspring with both parents obese, ==40%== with one parent obese, versus ==10%== with both parents lean. Heritability estimates for **IQ** from twin studies are consistent at 0.5-0.8.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 19
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p19-heritability-estimates-table.png",
+          "caption": "Table (pages 19-20): columns Disorder / Heritability estimate*; rows Schizophrenia 80, Bipolar disorder >80, Major depression 40, Generalized anxiety 30, Panic disorder 40, Phobia 35, Alcohol dependence 60 (the table continues from page 19 onto page 20).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 19
@@ -3601,9 +3702,9 @@
           }
         ],
         "highlightBlockIndices": [
-          2,
-          4,
-          8
+          3,
+          6,
+          10
         ]
       }
     },
@@ -3663,6 +3764,15 @@
         {
           "type": "paragraph",
           "text": "Worked example in the notes: disease incidence ==1 in 3600== live births, so q squared = 1/3600 and q = 1/60; p = 1 - q = 59/60; carrier frequency 2pq = 1/30, i.e. ==1 in 30== of the whole population are heterozygous carriers.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 20
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p20-genotype-frequency-box.png",
+          "caption": "Shaded text box (page 20), \"Genotype frequency\": definition of genotype frequency and gene frequency with the worked example of 100 individuals (33 AA, 45 AB, 22 BB).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 20
@@ -3744,6 +3854,15 @@
             "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
             "page": 6,
             "questionNumber": 26
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p21-epistasis-heterogeneity-pleiotropy-box.png",
+          "caption": "Shaded text box (page 21), \"Epistasis, heterogeneity & pleiotropy\": definitions of epistasis, locus heterogeneity, allelic heterogeneity and pleiotropy with the printed examples.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 21
           }
         },
         {
@@ -3908,8 +4027,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          6,
-          8
+          7,
+          10
         ]
       }
     },
@@ -4037,6 +4156,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p23-mz-dz-concordance-table.png",
+          "caption": "Table (page 23): columns Disorder / MZ Concordance / DZ concordance; rows Male alcoholism, Female alcoholism, Panic disorder, Bulimia, ADHD, Autism, Tourette's.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 23
+          }
+        },
+        {
           "type": "table",
           "title": "MZ and DZ concordance (McGue and Bouchard, 1998)",
           "columns": [
@@ -4097,6 +4225,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p23-family-history-vs-study-table.png",
+          "caption": "Table (page 23): columns Advantages / Disadvantages; rows Family History Method and Family Study.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 23
+          }
+        },
+        {
           "type": "table",
           "title": "Family history vs family study method",
           "columns": [
@@ -4126,6 +4263,15 @@
         {
           "type": "paragraph",
           "text": "Complete case ascertainment (identifying all affected individuals in a population) is rarely possible. With multiple incomplete ascertainments consecutive referrals are identified, so more than one proband may come from the same family. Most genetic studies concern lifetime prevalence, so age correction is important (Weinberg's shorter method is often used because it is simpler); standard age correction methods do not exist for twin studies.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 23
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p23-relative-risk-table.png",
+          "caption": "Table (page 23), relative risk of common psychiatric conditions derived from family studies: columns Disorder / Relative risk; rows ADHD, Autism, Schizophrenia, Bipolar disorder, Alcoholism, Anorexia, Somatisation, Unipolar depression, Generalised anxiety disorder, Alzheimer's (late onset), Panic disorder.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 23
@@ -4195,6 +4341,24 @@
         {
           "type": "paragraph",
           "text": "Adoption studies separate the effects of genes and environment by comparing disorder rates in biological and adoptive relatives.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p24-pedigree-symbols-key.png",
+          "caption": "Key to pedigree symbols (page 24): Male, Female, Sex unspecified, Deceased individuals, Affected individuals, Proband, Individuals and generations, Mating, Divorce, Consanguineous mating, Dizygotic twins, Monozygotic twins, Abortus (female).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 24
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p24-adoption-types-table.png",
+          "caption": "Table (page 24), adoption studies: columns Types / Compared groups (Group1, Group2); rows Parent as proband (1 and 2), Adoptee as proband (3), Cross-fostering (4).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 24
@@ -4387,11 +4551,12 @@
           0,
           1,
           5,
-          7,
-          9,
+          8,
           11,
-          13,
-          15
+          14,
+          16,
+          18,
+          20
         ]
       }
     },
@@ -4513,6 +4678,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p26-which-study-table.png",
+          "caption": "Table (page 26): columns Questions / Most appropriate method; five rows from \"Is the phenotype familial?\" to \"What are the actual genes responsible?\".",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 26
+          }
+        },
+        {
           "type": "table",
           "title": "Which study answers which question",
           "columns": [
@@ -4547,6 +4721,15 @@
               "page": 26
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p27-linkage-vs-association-table.png",
+          "caption": "Table (page 27), \"Linkage vs. association\": columns Linkage studies / Association studies; three rows; from McGuffin et al. (ed) Psychiatric genetics and genomics, Oxford Press 2002.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 27
+          }
         },
         {
           "type": "comparison",
@@ -4733,9 +4916,9 @@
         "highlightBlockIndices": [
           3,
           5,
-          10,
           11,
-          12
+          13,
+          14
         ]
       }
     },
@@ -5078,6 +5261,15 @@
           ]
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p29-mendelian-vs-psychiatric-table.png",
+          "caption": "Table (page 29): columns Characteristics / Mendelian disorders / Most psychiatric disorders; rows Diagnostic boundaries, Phenocopies, Penetrance, Association, Modelling familial risk, MZ concordance, Locus heterogeneity.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 29
+          }
+        },
+        {
           "type": "table",
           "title": "Mendelian disorders vs most psychiatric disorders",
           "columns": [
@@ -5215,8 +5407,8 @@
         "highlightBlockIndices": [
           0,
           2,
-          3,
-          4
+          4,
+          5
         ]
       }
     },
@@ -5227,6 +5419,15 @@
         {
           "type": "paragraph",
           "text": "Relative risks for first-degree relatives and twins of probands are higher than relative risks from any individual environmental factor; without a genetic contribution schizophrenia cannot be explained.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 30
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p30-schizophrenia-genes-table.png",
+          "caption": "Table (page 30): columns Gene suspected in schizophrenia / Locus; rows NRG1, DTNBP1, G72, DAAO, RGS4, COMT, DISC1.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 30
@@ -5288,6 +5489,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p30-risk-to-family-members-chart.png",
+          "caption": "Bar chart (page 30), \"Risk to family members\" (Source: Gottesman 1991): horizontal bars of risk of developing schizophrenia by relationship to the person with schizophrenia, with genes shared (12.5% 3rd-degree, 25% 2nd-degree, 50% 1st-degree, 100% relatives). Printed values: general population 1%, first cousins 2%, uncles/aunts 2%, nephews/nieces 4%, grandchildren 5%, half siblings 6%, parents 6%, siblings 9%, children 13%, fraternal twins 17%, identical twins 48%.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 30
+          }
+        },
+        {
           "type": "table",
           "title": "Risk to family members (figures given in the text)",
           "columns": [
@@ -5332,7 +5542,7 @@
         {
           "type": "gap",
           "subtopic": "Risk-to-family-members chart",
-          "note": "The notes' 'Risk to family members' chart on p30 is an image and cannot be read as text; only the figures quoted in the surrounding text (==13%==, ==46%==, ==4%==, ~10-fold) are used above.",
+          "note": "The notes' 'Risk to family members' chart on p30 is a bar chart (an image in the PDF, not extractable as text); it is reproduced as the image above. In the text, only the figures quoted around it (==13%==, ==46%==, ==4%==, ~10-fold) are stated.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 30
@@ -5534,10 +5744,11 @@
           }
         ],
         "highlightBlockIndices": [
-          1,
-          3,
-          6,
-          10
+          2,
+          4,
+          5,
+          8,
+          12
         ]
       }
     },
@@ -5623,6 +5834,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p31-bipolar-genes-table.png",
+          "caption": "Table (page 31): columns Genes suspected in Bipolar Disorder / Locus; rows BDNF 11p13, DAO G72/G30 13q33, COMT 22q11 (with Breakpoint cluster region (BCR) gene).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 31
+          }
+        },
+        {
           "type": "table",
           "title": "Genes suspected in bipolar disorder",
           "columns": [
@@ -5653,6 +5873,15 @@
               "page": 31
             }
           ]
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p32-other-implicated-chromosomes-box.png",
+          "caption": "Boxed bullet list (page 32), \"Other implicated chromosomes\": Chr 18, Chr 21q, an X-chromosomal locus, low activity COMT allele and rapid cycling, serotonin transporter and 5HT2A genes in Seasonal Affective Disorder.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 32
+          }
         },
         {
           "type": "paragraph",
@@ -5705,6 +5934,15 @@
         {
           "type": "paragraph",
           "text": "Schizoaffective disorder: the risk to first-degree relatives for **ANY** psychiatric disorder is higher than in any other psychiatric disorder; heritability is unclear but likely in the range of schizophrenia. Relatives have higher rates of schizoaffective illness, schizophrenia and bipolar disorder. Bipolar rates are high if the proband is schizoaffective-manic; schizophrenia rates are high if the proband is schizoaffective-depressive (no elevation in bipolar risk in the depressive subtype, Andreasen 1987).",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 32
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p32-shared-genes-table.png",
+          "caption": "Boxed list (page 32), \"Shared genes - BPAD and Schizophrenia\": DAO & BDNF; DISC 1 & NRG; Dysbindin; CREB1 (chr2), each with the printed note.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 32
@@ -5935,10 +6173,10 @@
         ],
         "highlightBlockIndices": [
           2,
-          6,
-          8,
-          11,
-          17
+          7,
+          10,
+          14,
+          20
         ]
       }
     },
@@ -5965,6 +6203,15 @@
         {
           "type": "paragraph",
           "text": "Chromosome 21 harbours mutant **APP**, which is related to Down's syndrome and explains the higher prevalence of **AD** in Down's syndrome.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 33
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p33-apoe-table.png",
+          "caption": "Table (pages 33-34): columns Male Abs. risk% / Female Abs. Risk % / Relative risk (both sexes); rows ApoE status unknown, No Apo e4, Apo e4 heterozygote, Apo e4 homozygote; modified from McGuffin et al. 2002 (header on page 33, rows continue on page 34).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -6056,6 +6303,15 @@
           }
         },
         {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p34-cadasil-box.png",
+          "caption": "Shaded text box (page 34), \"CADASIL\": text on amyloid angiopathy, NOTCH3, exon 4 and the 96% mutation detection rate.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 34
+          }
+        },
+        {
           "type": "paragraph",
           "text": "**CADASIL** (as the notes describe it): a form of amyloid angiopathy that can present with Alzheimer's-like features. **NOTCH3** is the only gene currently known to be associated (19p13.1-13.2); most mutations are in exon 4 and the mutation detection rate is up to ==96%== in well-defined or biopsy-proven **CADASIL**.",
           "source": {
@@ -6084,6 +6340,15 @@
         {
           "type": "paragraph",
           "text": "Lewy body dementia: no specific genetic associations established; mutations at the alpha-synuclein locus are reported inconsistently. **DLB** is one of the 'synucleinopathies' (synuclein aggregating in presynaptic terminals to form Lewy bodies), along with Parkinson's disease and multisystem atrophy.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 35
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p35-parkinson-loci-table.png",
+          "caption": "Table (page 35), Parkinson's disease: columns LOCUS / POSITION/Protein / Clinical features/inheritance; rows PARK1/PARK4, PARK2, PARK8, PARK6, PARK7.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 35
@@ -6305,9 +6570,9 @@
           }
         ],
         "highlightBlockIndices": [
-          3,
-          12,
-          14
+          4,
+          15,
+          17
         ]
       }
     },
@@ -6442,6 +6707,15 @@
         {
           "type": "paragraph",
           "text": "**OCD**: early onset suggests higher genetic risk (generally onset before 18). Fathers were three times as likely as mothers to receive a diagnosis for probands with severe childhood **OCD**; increased severity and chronicity appear to increase risk. Risk to first-degree relatives: onset before 18 about 10-==35%==; the notes print 'onset after age 18: no increased risk to ~==15%=='. **MZ** twin concordance 53-==87%==; **DZ** 22-==47%==.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 37
+          }
+        },
+        {
+          "type": "image",
+          "src": "/diagrams/paper-a/pa-molecular-genetics/p37-offspring-risk-table.png",
+          "caption": "Table (page 37): columns Family History / Increased Risk for Offspring / General Population Risk; rows Unipolar depression, Bipolar depression, Schizophrenia (SZ), Alcoholism, Panic disorder, Tourette's syndrome, Alzheimer's disease, ADHD, Anorexia nervosa; adapted from Tsuang et al. 1995.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 37
@@ -6773,7 +7047,7 @@
         ],
         "highlightBlockIndices": [
           5,
-          13
+          14
         ]
       }
     },
