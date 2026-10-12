@@ -729,8 +729,8 @@ on-disk names through `realPathForSource()` (several Paper A folders/files have 
 question banks + EMI banks + practice sets (`High yields/`, `Practice questions/`) and 13 mocks (`Paper A mocks/`).
 It has **no** syllabus PDF, recalls, references/video links or trend-analysis PDF, so there is no Paper A
 exam-trends/references/recalls page — don't synthesize them. `PAPER_A_EXAM_DATE` in `scripts/paper-a/config.ts` is
-`2024-04-07` as the user gave it (already in the past when entered, 2026-10-12): `app/paper-a/page.tsx` renders
-"already passed" rather than a negative countdown. Ask before changing it.
+`2027-04-07` (the user first said 2024-04-07, then corrected it); it is also copied into `content/paper-a/manifest.json`,
+so change both (or re-run the full extract). `app/paper-a/page.tsx` shows a countdown, or "already passed" if it ever lapses.
 
 **Pipeline** (`scripts/paper-a/`; run `./node_modules/.bin/tsx scripts/paper-a/extract.ts [ids…]`, then
 `scripts/paper-a/verify.ts`): `config.ts` is the source map (topic ↔ section PDF ↔ bank by *file name match*,

@@ -12,8 +12,8 @@ import { AREAS, type AreaId } from "../../lib/paper-a-areas";
 export const PAPER_A_ROOT = path.join(process.cwd(), "resources/paper-a");
 export const PAPER_A_CONTENT = path.join(process.cwd(), "content/paper-a");
 
-/** User-supplied (2026-10-12). Already in the past relative to that date — kept as given. */
-export const PAPER_A_EXAM_DATE = "2024-04-07";
+/** User-supplied: first given as 2024-04-07 (already past), corrected by the user to 2027-04-07 on 2026-10-12. */
+export const PAPER_A_EXAM_DATE = "2027-04-07";
 
 const HY = "High yields";
 
