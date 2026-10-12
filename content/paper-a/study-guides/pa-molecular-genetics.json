@@ -15,7 +15,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Cells in the quiescent **G0** phase are stimulated by growth factors (**EGF**, **PDGF**, **IGF**), which activate transcription factors and start **DNA** synthesis, followed by mitosis and cell division. From **G0** the cell moves to **G1**, when the chromosomes are prepared for replication.",
+          "text": "Cells in the quiescent **G0** phase are stimulated by growth factors (epidermal growth factor, platelet-derived growth factor and insulin-like growth factor), which activate transcription factors and start **DNA** synthesis, followed by mitosis and cell division. From **G0** the cell moves to **G1**, when the chromosomes are prepared for replication. The notes print \"EGF, epithelial growth factor\"; the correct name is epidermal growth factor (reviewer correction, not in the source).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 2
@@ -31,7 +31,7 @@
           "rows": [
             [
               "**G0**",
-              "Quiescent phase; growth factors (**EGF**, **PDGF**, **IGF**) stimulate the cell to leave it"
+              "Quiescent phase; growth factors (epidermal growth factor, platelet-derived growth factor and insulin-like growth factor) stimulate the cell to leave it"
             ],
             [
               "**G1**",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "text": "Growth factors (EGF, PDGF, IGF) push quiescent G0 cells into the cycle via transcription factors and DNA synthesis.",
+            "text": "Growth factors (epidermal, platelet-derived and insulin-like growth factor) push quiescent G0 cells into the cycle via transcription factors and DNA synthesis.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 2
@@ -228,7 +228,7 @@
               "Synapsis (crossing over) in a prolonged prophase; non-separation of sister chromatids in anaphase 1"
             ],
             [
-              "Meiosis **II**",
+              "Meiosis II",
               "-",
               "Same as a normal mitosis"
             ]
@@ -352,7 +352,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Human cells are diploid: 46 chromosomes, 23 from each parent, forming 23 homologous pairs (22 pairs of autosomes plus two sex chromosomes). X and Y are not homologous: males are **XY**, females **XX**. Gametes are haploid because meiosis halves the chromosome number.",
+          "text": "Chromosomes are intranuclear structures, each containing one linear molecule of DNA. Human cells are diploid: 46 chromosomes, 23 from each parent, forming 23 homologous pairs (22 pairs of autosomes plus two sex chromosomes). X and Y are not homologous: males are **XY**, females **XX**. Gametes are haploid because meiosis halves the chromosome number.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 3
@@ -381,9 +381,19 @@
               "p and q arms of equal length"
             ],
             [
-              "Acrocentric or submetacentric",
+              "Acrocentric or submetacentric (as printed in the notes)",
               "Placed at one end",
               "Arms of unequal length"
+            ],
+            [
+              "Submetacentric (Reviewer correction (not in the source): a separate type)",
+              "Off-centre (between the middle and one end)",
+              "Arms of unequal length (p arm shorter than q arm)"
+            ],
+            [
+              "Acrocentric (Reviewer correction (not in the source): a separate type)",
+              "Very near one end",
+              "Very short p arm; Reviewer correction (not in the source): in humans chromosomes 13, 14, 15, 21 and 22 (the chromosomes involved in Robertsonian translocation, which page 8 of the notes describes as fusing two acrocentric chromosomes and discarding the small p arms)"
             ],
             [
               "Telocentric",
@@ -405,6 +415,14 @@
         },
         {
           "type": "paragraph",
+          "text": "The notes group \"acrocentric or submetacentric\" together as one type. Reviewer correction (not in the source): they are two distinct types.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 3
+          }
+        },
+        {
+          "type": "paragraph",
           "text": "Cells with a chromosome number different from the normal diploid are aneuploid, e.g. trisomy 21, trisomy 18 or the monosomy of Turner's. Rarely a whole extra set is present: triploid (69 chromosomes) or tetraploid (four sets); triploidy and tetraploidy result in spontaneous abortion.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
@@ -413,7 +431,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Aneuploidy arises from non-disjunction (failure of chromosomes or chromatids to separate) in meiosis: one gamete gets two copies and another none, giving a trisomic or monosomic fetus. Only individuals with trisomy 13, 18 and 21 survive to birth, and most children with trisomy 13 and trisomy 18 die in early childhood.",
+          "text": "Aneuploidy arises from non-disjunction (failure of chromosomes or chromatids to separate) in meiosis: one gamete gets two copies and another none, giving a trisomic or monosomic fetus. Only individuals with trisomy 13, 18 and 21 survive to birth, and most children with trisomy 13 and trisomy 18 die in early childhood. Non-disjunction can occur with autosomes or sex chromosomes.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 3
@@ -553,7 +571,7 @@
         },
         {
           "type": "trap",
-          "text": "Nondisjunction in an early mitotic division soon after fertilisation (chromosome 21) gives a 21 trisomy **MOSAIC** foetus - not full 21 trisomy, triploidy, 21 monosomy or euploidy; explanation: both normal and trisomic cells are present, in approximately 2-==5%== of people with Down syndrome.",
+          "text": "Nondisjunction in an early mitotic division soon after fertilisation (chromosome 21) gives a 21 trisomy **MOSAIC** foetus - not full 21 trisomy, triploidy, 21 monosomy or euploidy; explanation: both normal and trisomic cells are present, in approximately ==2-5%== of people with Down syndrome.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
@@ -563,7 +581,7 @@
         },
         {
           "type": "trap",
-          "text": "Notes vs question bank on Down syndrome causes: the notes give translocation ==4%== and mosaicism ==1%==. The question-bank explanations give translocation as about ==5%== of affected individuals (**Q19**) and mosaicism in approximately 2-==5%== (**Q93**, **Q102**). Treat these as differing source figures and be ready for either; the qualitative points agree (mosaicism = milder, normal **IQ** may reach the 70s per **Q93**).",
+          "text": "Notes vs question bank on Down syndrome causes: the notes give translocation ==4%== and mosaicism ==1%==. The question-bank explanations give translocation as about ==5%== of affected individuals (**Q19**) and mosaicism in approximately ==2-5%== (**Q93**, **Q102**). Treat these as differing source figures and be ready for either; the qualitative points agree (mosaicism = milder, normal **IQ** may reach the 70s per **Q93**).",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
@@ -740,7 +758,7 @@
         {
           "type": "gap",
           "subtopic": "Klinefelter's syndrome diagnosis",
-          "note": "**Q34** states karyotyping is the investigation of choice (also prenatally via **CVS** or amniocentesis). The notes mention Klinefelter's (47 **XXY**) only as a row in the parental-origin table (==45%== paternal / ==55%== maternal) and say nothing about its features or diagnosis.",
+          "note": "**Q34** states karyotyping is the investigation of choice (also prenatally via chorionic villus sampling (**CVS**) or amniocentesis). The notes mention Klinefelter's (47 **XXY**) only as a row in the parental-origin table (==45%== paternal / ==55%== maternal) and say nothing about its features or diagnosis.",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 15,
@@ -854,10 +872,10 @@
           }
         ],
         "highlightBlockIndices": [
-          7,
-          11,
-          16,
-          21
+          8,
+          12,
+          17,
+          22
         ]
       }
     },
@@ -938,7 +956,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A gene is a sub-portion of **DNA** coding for a polypeptide sequence. A set of three adjacent nucleotides is a codon, coding for a specific amino acid. There are 20 amino acids but 64 possible codons, so most amino acids are encoded by more than one triplet; other codons signal initiating or terminating polypeptide-chain synthesis.",
+          "text": "A gene is a sub-portion of **DNA** coding for a polypeptide sequence. A set of three adjacent nucleotides is a codon, coding for a specific amino acid. There are 20 amino acids but 64 possible codons, so most amino acids are encoded by more than one triplet; other codons signal initiating or terminating polypeptide-chain synthesis. The notes say \"around 10\" of the 20 amino acids are essential and define essential the wrong way round (as amino acids \"not found in food and so need to be synthesized\"). Reviewer correction (not in the source): essential amino acids (about 9) are those the body cannot synthesise, so they must come from the diet.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 5
@@ -955,7 +973,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Exons are the polypeptide-coding sequences; they are interrupted by non-coding introns, which contain three types of sequence (satellite, mini and microsatellite). All introns are removed from the mRNA before it leaves the nucleus. The notes state humans have 3 x 109 bp (as printed) of total chromosomal **DNA** of which protein-coding genes constitute only 32 000 bp (as printed).",
+          "text": "Exons are the polypeptide-coding sequences; they are interrupted by non-coding introns, which contain three types of sequence (satellite, mini and microsatellite). All introns are removed from the mRNA before it leaves the nucleus. Humans have 3 × 10⁹ base pairs (about 3 billion; the page prints the exponent as a superscript) of total chromosomal **DNA**. The notes then print that 'protein-coding genes constitute only 32 000 bp', which is garbled (it cannot be a part of 3 × 10⁹ in base pairs). Reviewer note (not in the source): it probably refers to an older estimate of about 32,000 genes, and current estimates are about 20,000 protein-coding genes. [NEEDS VERIFICATION: exact current protein-coding gene count] The coding percentage is in the question-bank gap below.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 6
@@ -1010,7 +1028,7 @@
         {
           "type": "gap",
           "subtopic": "Proportion of the genome that is coding",
-          "note": "**Q98** asks what percentage of the human genome is active coding sequence: answer ==2%==, with the explanation that more than ==98%== does not encode protein sequences. The notes only give the figures '3 x 109 bp' and 'protein-coding genes constitute only 32 000 bp' (both as printed, apparently with lost formatting) and never state the percentage - use the question's ==2%==.",
+          "note": "**Q98** asks what percentage of the human genome is active coding sequence: answer ==2%==, with the explanation that more than ==98%== does not encode protein sequences. The notes give the genome as 3 × 10⁹ base pairs but never state the coding percentage - use the question's ==2%==.",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 42,
@@ -1116,7 +1134,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Transcribed **RNA** initially contains non-coding introns and is called heterogeneous nuclear **RNA** (hnRNA). hnRNA undergoes splicing (the notes say aided by nucleosomes in the nucleus) to remove the non-coding sequences, giving messenger **RNA** (mRNA). tRNAs are synthesised from **DNA** in the nucleus in a separate process.",
+          "text": "Transcribed **RNA** initially contains non-coding introns and is called heterogeneous nuclear **RNA** (hnRNA). hnRNA undergoes splicing in the nucleus (the notes say it is aided by \"nucleosomes\"; Reviewer correction (not in the source): splicing is done by spliceosomes) to remove the non-coding sequences, giving messenger **RNA** (mRNA). tRNAs are synthesised from **DNA** in the nucleus in a separate process.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 6
@@ -1185,7 +1203,7 @@
             [
               "Tandem repeats",
               "Satellite",
-              "10-==15%==; large series of simple repeats"
+              "==10-15%==; large series of simple repeats"
             ],
             [
               "Tandem repeats",
@@ -1412,10 +1430,14 @@
             [
               "Protein product",
               "Non-sense",
-              "New codon signals 'stop', giving a non-functional protein (printed as '**UUA** **UGA** or **UAG**')"
+              "New codon signals 'stop', giving a non-functional protein (UAA, UGA or UAG; this page of the notes misprints UAA as 'UUA', while page 6 prints UAA correctly)"
             ]
           ],
           "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+              "page": 6
+            },
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 7
@@ -1489,7 +1511,7 @@
           "rows": [
             [
               "DiGeorge (Velocardiofacial)",
-              "22q11.2; autosomal dominant, ==50%== risk to offspring, 5-==10%== risk of deletion in parents. If the offspring has the deletion, ==25%== chance of schizophrenia; if not, general population risk ~==1%==",
+              "22q11.2; autosomal dominant, ==50%== risk to offspring, ==5-10%== risk of deletion in parents. If the offspring has the deletion, ==25%== chance of schizophrenia; if not, general population risk ~==1%==",
               "Mild to moderate learning disability, facial deformities esp. cleft palate, absent or malformed parathyroids resulting in hypocalcemia, broad nasal bridge, articulatory speech and swallowing problems, >==25%== have psychosis"
             ],
             [
@@ -1547,7 +1569,7 @@
               }
             },
             {
-              "text": "**COMT** gene resides at 22q11 (the same locus as DiGeorge).",
+              "text": "catechol-O-methyl transferase (**COMT**) gene resides at 22q11 (the same locus as DiGeorge).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 2,
@@ -1641,7 +1663,7 @@
             }
           },
           {
-            "text": "DiGeorge 22q11.2: AD, hypocalcemia from absent/malformed parathyroids, >25% psychosis; 25% schizophrenia risk if offspring has deletion.",
+            "text": "DiGeorge 22q11.2: autosomal dominant, hypocalcemia from absent/malformed parathyroids, >25% psychosis; 25% schizophrenia risk if offspring has deletion.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 9
@@ -1709,7 +1731,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Mendel (a Catholic priest working with garden peas) proposed the laws of inheritance. First law, uniformity: crossing plants differing in one trait gives hybrids uniform in that trait. The notes add this is not entirely true, as later geneticists showed intermediate phenotypes from co-dominant heterozygous expression.",
+          "text": "Mendel (a Catholic priest working with garden peas; the notes print the name as 'Johann Mendel' - Reviewer correction (not in the source): Gregor Johann Mendel) proposed the laws of inheritance. First law, uniformity: crossing plants differing in one trait gives hybrids uniform in that trait. The notes add this is not entirely true, as later geneticists showed intermediate phenotypes from co-dominant heterozygous expression.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 9
@@ -1793,7 +1815,7 @@
         {
           "type": "gap",
           "subtopic": "Genotype definition and half-sibling gene sharing",
-          "note": "**Q87**: genotype = the sum total of all the genes inherited by an organism (explanation: the term describes the actual set of genes carried; distinction from phenotype made by Johanssen, 1909). **Q90**: a half-sibling pair shares ==25%== of genes (explanation: first-degree relatives share one-half, second-degree one-fourth, third-degree one-eighth). The notes state siblings/**DZ** twins share ==50%== but give no relatedness table, no genotype definition and no half-sibling figure.",
+          "note": "**Q87**: genotype = the sum total of all the genes inherited by an organism (explanation: the term describes the actual set of genes carried; distinction from phenotype made by Johanssen, 1909). **Q90**: a half-sibling pair shares ==25%== of genes (explanation: first-degree relatives share one-half, second-degree one-fourth, third-degree one-eighth). The notes state siblings/dizygotic (non-identical) (**DZ**) twins share ==50%== but give no relatedness table, no genotype definition and no half-sibling figure.",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 38,
@@ -1859,7 +1881,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Spontaneous disease-causing mutations often present as diseases known to be autosomal dominant: achondroplasia and tuberous sclerosis are commonly spontaneous mutations although families show an **AD** pattern. The abnormal gene in autosomal dominant disease often codes for structural proteins such as receptors or cytoskeleton proteins.",
+          "text": "Spontaneous disease-causing mutations often present as diseases known to be autosomal dominant: achondroplasia and tuberous sclerosis are commonly spontaneous mutations although families show an autosomal dominant pattern. The abnormal gene in autosomal dominant disease often codes for structural proteins such as receptors or cytoskeleton proteins.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 11
@@ -2043,13 +2065,13 @@
             [
               "Tuberous sclerosis",
               "9q34 / 16p13",
-              "Autosomal dominant (but most are spontaneous); ==1 in 30== 000",
+              "Autosomal dominant (but most are spontaneous); ==1 in 30 000==",
               "Adenoma sebaceum, normal to severe **MR**, ash leaf macules, brain hamartomas, heart and kidney cysts"
             ],
             [
               "Treacher Collins syndrome",
               "5q31",
-              "Autosomal dominant; ==1 in 40== 000",
+              "Autosomal dominant; ==1 in 40 000==",
               "Maxilla-mandibular hypoplasia, malformed pinna, down slanting palpebrae, mild to moderate **MR**"
             ],
             [
@@ -2061,13 +2083,13 @@
             [
               "Noonan syndrome",
               "Chr 12",
-              "Autosomal dominant; ==1 in 1== 500",
+              "Autosomal dominant; ==1 in 1 500==",
               "Mild **MR**, short stature, nuchal oedema/webbed neck, pulmonary stenosis, cryptorchidism"
             ],
             [
               "Hurler syndrome",
               "4p16",
-              "Autosomal recessive; ==1 in 100== 000",
+              "Autosomal recessive; ==1 in 100 000==",
               "Deteriorating **IQ** after age 2, coarse facies, clouded cornea, joint stiffness"
             ],
             [
@@ -2161,7 +2183,7 @@
         },
         {
           "type": "trap",
-          "text": "Notes vs question bank on Noonan frequency: the notes give ==1 in 1== 500; the **Q41** explanation gives 1:1000-1:2000 (males and females equally affected). The figures are compatible; the notes give ==1 in 1== 500.",
+          "text": "Notes vs question bank on Noonan frequency: the notes give ==1 in 1 500==; the **Q41** explanation gives 1:1000-1:2000 (males and females equally affected). The figures are compatible; the notes give ==1 in 1 500==.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
@@ -2193,14 +2215,14 @@
       "concise": {
         "bullets": [
           {
-            "text": "AD: 50% risk from one heterozygous parent, 75% if both heterozygous; incomplete penetrance and variable expression; phenocopy.",
+            "text": "Autosomal dominant: 50% risk from one heterozygous parent, 75% if both heterozygous; incomplete penetrance and variable expression; phenocopy.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 10
             }
           },
           {
-            "text": "AR: two carriers give 1 in 4 affected, 1 in 2 carriers, 1 in 4 normal; consanguinity raises risk; enzymatic proteins.",
+            "text": "Autosomal recessive: two carriers give 1 in 4 affected, 1 in 2 carriers, 1 in 4 normal; consanguinity raises risk; enzymatic proteins.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 11
@@ -2228,21 +2250,21 @@
             }
           },
           {
-            "text": "Lesch-Nyhan: Xq26-27, XLR, HGPRT deficiency, self-mutilation (lip/finger biting), hyperuricemia.",
+            "text": "Lesch-Nyhan: Xq26-27, XLR, hypoxanthine-guanine phosphoribosyltransferase (HGPRT) deficiency, self-mutilation (lip/finger biting), hyperuricemia.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 12
             }
           },
           {
-            "text": "XLMR: syndromic 1/3, non-syndromic 2/3; Fragile X most common; MECP2 gives Rett.",
+            "text": "X-linked mental retardation (XLMR): syndromic 1/3, non-syndromic 2/3; Fragile X most common; MECP2 gives Rett.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 13
             }
           },
           {
-            "text": "Both parents affected by an AR disorder: all children affected (100%); two carriers: 1 in 4.",
+            "text": "Both parents affected by an autosomal recessive disorder: all children affected (100%); two carriers: 1 in 4.",
             "source": {
               "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
               "page": 26,
@@ -2260,7 +2282,7 @@
         ],
         "facts": [
           {
-            "label": "Risk, two heterozygous AD parents",
+            "label": "Risk, two heterozygous autosomal dominant parents",
             "value": "75%",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
@@ -2268,7 +2290,7 @@
             }
           },
           {
-            "label": "Risk, two AR carriers",
+            "label": "Risk, two autosomal recessive carriers",
             "value": "1 in 4 affected",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
@@ -2360,7 +2382,7 @@
               "Myoclonic epilepsy with ragged red fibres (an encephalomyopathy)"
             ],
             [
-              "Kearus-Sayre syndrome (as printed)",
+              "Kearns-Sayre syndrome",
               "Ophthalmoplegia, heart block, cerebellar ataxia, deafness and mental deficiency due to long deletions and rearrangements"
             ]
           ],
@@ -2550,7 +2572,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Huntington's disease: autosomal dominant with full penetrance, prevalence about 5 per 100,000. An expanded unstable **CAG** repeat on 4p16.3 gives an extended glutamine sequence in huntingtin (expressed throughout the body, function unclear). Onset is usually between 30 and 50 years. Most adult-onset cases have 40-55 **CAG** repeats, while more than 70 repeats are seen in childhood-onset **HD**. Characteristic protein deposits form nuclear inclusions in neurons.",
+          "text": "Huntington's disease: autosomal dominant with full penetrance, prevalence about 5 per 100,000. An expanded unstable **CAG** repeat on 4p16.3 gives an extended glutamine sequence in huntingtin (expressed throughout the body, function unclear). Onset is usually between 30 and 50 years. Most adult-onset cases have 40-55 **CAG** repeats, while more than 70 repeats are seen in childhood-onset Huntington's disease (**HD**). Characteristic protein deposits form nuclear inclusions in neurons.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 15
@@ -2760,7 +2782,7 @@
               }
             },
             {
-              "text": "Abnormal trinucleotide expansions are detected by **PCR**.",
+              "text": "Abnormal trinucleotide expansions are detected by polymerase chain reaction (**PCR**).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 15,
@@ -2805,7 +2827,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Mitochondrial DNA is purely maternal (no sperm mitochondria); no introns so mutations bite; MELAS, LHON, CPEO, MERRF, Kearns-Sayre type disorders.",
+            "text": "Mitochondrial DNA is purely maternal (no sperm mitochondria); no introns so mutations bite; MELAS, LHON, CPEO, MERRF, Kearns-Sayre syndrome.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 13
@@ -2826,7 +2848,7 @@
             }
           },
           {
-            "text": "Huntington's: AD, full penetrance, CAG on 4p16.3, 40-55 repeats adult onset (30-50 y), >70 juvenile; paternal expansion.",
+            "text": "Huntington's: autosomal dominant, full penetrance, CAG on 4p16.3, 40-55 repeats adult onset (30-50 y), >70 juvenile; paternal expansion.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 15
@@ -2840,7 +2862,7 @@
             }
           },
           {
-            "text": "Imprinting: paternal 15q11-q13 deletion = Prader-Willi (~70%, maternal UPD ~25%); maternal deletion = Angelman (paternal UPD ~4%).",
+            "text": "Imprinting: paternal 15q11-q13 deletion = Prader-Willi (~70%, maternal uniparental disomy (UPD) ~25%); maternal deletion = Angelman (paternal UPD ~4%).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 15
@@ -3041,7 +3063,7 @@
         {
           "type": "gap",
           "subtopic": "SLC6A4 and chromosomal position of the serotonin transporter",
-          "note": "**Q84** answer **SLC6A4**: the explanation says 5HTT is encoded by **SLC6A4** (solute carrier family 6, member 4) on chromosome 17q11.2, and that the S allele lowers transcriptional efficiency, serotonin transporter binding and uptake. The notes discuss 5HTTLPR (short/long, ==55%== of Europeans long) but never name **SLC6A4** or give its locus.",
+          "note": "**Q84** answer **SLC6A4**: the explanation says serotonin transporter (5HTT) is encoded by **SLC6A4** (solute carrier family 6, member 4) on chromosome 17q11.2, and that the S allele lowers transcriptional efficiency, serotonin transporter binding and uptake. The notes discuss 5HTTLPR (short/long, ==55%== of Europeans long) but never name **SLC6A4** or give its locus.",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 36,
@@ -3059,7 +3081,7 @@
             }
           },
           {
-            "text": "RFLP (Southern blotting), SNPs (sequencing/DNA chips), VNTRs: microsatellites 2-6 bases (preferred, PCR), minisatellites 20-70 bases.",
+            "text": "restriction fragment length polymorphism (RFLP) (Southern blotting), SNPs (sequencing/DNA chips), VNTRs: microsatellites 2-6 bases (preferred, polymerase chain reaction (PCR)), minisatellites 20-70 bases.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 17
@@ -3178,7 +3200,7 @@
         },
         {
           "type": "trap",
-          "text": "Trinucleotide repeat expansions are **DNA** abnormalities, so Southern blot is the keyed detection method (not Northern blot, **ELISA** or Western blot; **PCR** is among the options but is not the key here).",
+          "text": "Trinucleotide repeat expansions are **DNA** abnormalities, so Southern blot is the keyed detection method (not Northern blot, **ELISA** or Western blot; polymerase chain reaction (**PCR**) is among the options but is not the key here).",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
@@ -3301,7 +3323,7 @@
         {
           "type": "gap",
           "subtopic": "Karyotyping for Klinefelter's",
-          "note": "**Q34**: the investigation of choice for Klinefelter's syndrome is karyotyping (explanation: white blood cells cultured and checked for an extra X; prenatal diagnosis by **CVS** or amniocentesis). The notes' cytogenetic techniques section covers blotting, **PCR**, **FISH** and cloning only, not karyotyping.",
+          "note": "**Q34**: the investigation of choice for Klinefelter's syndrome is karyotyping (explanation: white blood cells cultured and checked for an extra X; prenatal diagnosis by chorionic villus sampling (**CVS**) or amniocentesis). The notes' cytogenetic techniques section covers blotting, **PCR**, **FISH** and cloning only, not karyotyping.",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 15,
@@ -3339,7 +3361,7 @@
             }
           },
           {
-            "text": "PCR: primers needed, so target sequence must be known; amplifies over a million-fold from tiny samples; contaminants can be amplified.",
+            "text": "polymerase chain reaction (PCR): primers needed, so target sequence must be known; amplifies over a million-fold from tiny samples; contaminants can be amplified.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 17
@@ -3353,7 +3375,7 @@
             }
           },
           {
-            "text": "FISH uses fluorescent probes to localise specific DNA sequences on chromosomes.",
+            "text": "fluorescent in situ hybridisation (FISH) uses fluorescent probes to localise specific DNA sequences on chromosomes.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 18
@@ -3398,7 +3420,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A twin pair is concordant when both co-twins have the same disease expression (or both are disease free) and discordant if only one has the disease. If a disease has a significant genetic component, concordance should be higher in monozygotes than dizygotes; a trait with no genetic basis should have equivalent **MZ** and **DZ** concordance.",
+          "text": "A twin pair is concordant when both co-twins have the same disease expression (or both are disease free) and discordant if only one has the disease. If a disease has a significant genetic component, concordance should be higher in monozygotes than dizygotes; a trait with no genetic basis should have equivalent monozygotic (identical) (**MZ**) and dizygotic (non-identical) (**DZ**) concordance.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 18
@@ -3406,7 +3428,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Heritability is the main measure of genetic variation in polygenic (quantitative) traits: the proportion of total variation in a population that is genetic rather than environmental. Narrow-sense heritability = proportion of total phenotypic variance due to additive genetic variance; broad-sense heritability = proportion explained by total genetic variance (additive and non-additive). Non-additive influences include epistasis (gene-gene interaction) and dominance effects. Heritability can be calculated from concordance rates.",
+          "text": "Heritability is the main measure of genetic variation in polygenic (quantitative) traits: the proportion of total variation in a population that is genetic rather than environmental. Narrow-sense heritability = proportion of total phenotypic variance due to additive genetic variance; broad-sense heritability = proportion explained by total genetic variance (additive and non-additive). Non-additive influences include epistasis (gene-gene interaction) and dominance effects (the notes describe these as the presence of one gene mitigating the expression of another). Heritability can be calculated from concordance rates.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 18
@@ -3481,7 +3503,7 @@
         },
         {
           "type": "table",
-          "title": "Heritability estimates by disorder (approximations, DSM-IIR based)",
+          "title": "Heritability estimates by disorder (approximations, based on DSM-III-R diagnoses; the notes print 'DSM-IIR')",
           "columns": [
             "Disorder",
             "Heritability estimate"
@@ -3574,7 +3596,7 @@
         },
         {
           "type": "trap",
-          "text": "Notes vs question bank on bipolar heritability: the notes give bipolar heritability as >80 (disorder table, p19-20) and 'broad heritability nearly 85-==90%==' (genetics of mood disorders, p31). **Q57** (answer 75-==85%==) gives 0.75 to 0.80 in its explanation. If asked in the exam, pick the option that fits 75-==85%== when offered; know that the notes quote higher figures.",
+          "text": "Notes vs question bank on bipolar heritability: the notes give bipolar heritability as >80 (disorder table, p19-20) and 'broad heritability nearly ==85-90%==' (genetics of mood disorders, p31). **Q57** (answer ==75-85%==) gives 0.75 to 0.80 in its explanation. If asked in the exam, pick the option that fits ==75-85%== when offered; know that the notes quote higher figures.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
@@ -3624,7 +3646,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Concordance: MZ > DZ implies a genetic component; equal MZ and DZ concordance implies none.",
+            "text": "Concordance: monozygotic (identical) (MZ) > dizygotic (non-identical) (DZ) implies a genetic component; equal MZ and DZ concordance implies none.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 18
@@ -3780,7 +3802,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Genotype frequency = count of each genotype divided by the total number of individuals (example: 33 **AA**, 45 **AB**, 22 **BB** in 100 gives 0.33, 0.45, 0.22). Gene frequency is the proportion of chromosomes in a population carrying a specific allele; the notes work it as 2 x 33 + 45 = ==111%== or 1.11 for allele A and 2 x 22 + 45 = ==89%== or 0.89 for B (figures as printed).",
+          "text": "Genotype frequency = count of each genotype divided by the total number of individuals (example: 33 **AA**, 45 **AB**, 22 **BB** in 100 gives 0.33, 0.45, 0.22). Gene (allele) frequency is the proportion of chromosomes in a population carrying a specific allele. The notes work it as 2 x 33 + 45 = ==111%== or 1.11 for allele A and 2 x 22 + 45 = ==89%== or 0.89 for B (figures as printed). Corrected arithmetic: 100 people carry 200 copies of the gene, so allele A = (2 x 33 + 45) / 200 = 111/200 = ==0.555== and allele B = (2 x 22 + 45) / 200 = 89/200 = ==0.445== (these sum to 1). The printed 111% / 1.11 and 89% / 0.89 omit the division by 200 - do not learn those figures.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 20
@@ -3905,7 +3927,7 @@
         },
         {
           "type": "trap",
-          "text": "Two parents **BOTH** affected by the same autosomal recessive disorder have a clinically normal child = locus heterogeneity (not incomplete penetrance, variable expressivity, pleiotropy or allelic heterogeneity): each parent may carry a mutation at a different locus, so the child is a heterozygous carrier at both (explanation example: presenilin 1, 2 and beta-**APP** mutations all causing similar presenile Alzheimer's).",
+          "text": "Two parents **BOTH** affected by the same autosomal recessive disorder have a clinically normal child = locus heterogeneity (not incomplete penetrance, variable expressivity, pleiotropy or allelic heterogeneity): each parent may carry a mutation at a different locus, so the child is a heterozygous carrier at both (explanation example: presenilin 1, 2 and beta-amyloid precursor protein (**APP**) mutations all causing similar presenile Alzheimer's).",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
@@ -3970,7 +3992,7 @@
             }
           },
           {
-            "text": "Locus heterogeneity = same phenotype, different loci (early onset AD: chromosomes 1, 14, 21).",
+            "text": "Locus heterogeneity = same phenotype, different loci (early onset Alzheimer's disease: chromosomes 1, 14, 21).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 21
@@ -3991,7 +4013,7 @@
             }
           },
           {
-            "text": "Two affected AR parents with a normal child = locus heterogeneity (different loci in each parent).",
+            "text": "Two affected autosomal recessive parents with a normal child = locus heterogeneity (different loci in each parent).",
             "source": {
               "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
               "page": 5,
@@ -4262,7 +4284,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Complete case ascertainment (identifying all affected individuals in a population) is rarely possible. With multiple incomplete ascertainments consecutive referrals are identified, so more than one proband may come from the same family. Most genetic studies concern lifetime prevalence, so age correction is important (Weinberg's shorter method is often used because it is simpler); standard age correction methods do not exist for twin studies.",
+          "text": "Complete case ascertainment (identifying all affected individuals in a population) is rarely possible. With multiple incomplete ascertainments consecutive referrals are identified, so more than one proband may come from the same family. Most genetic studies concern lifetime prevalence, so age correction is important (Weinberg's shorter method is often used because it is simpler); standard age correction methods do not exist for twin studies. This is a problem for identical twins with psychiatric disorders because their ages of onset are highly correlated; survival analysis can sometimes be used for non-psychiatric phenotypes in twins.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 23
@@ -4366,6 +4388,74 @@
         },
         {
           "type": "table",
+          "title": "Pedigree symbols",
+          "columns": [
+            "Symbol",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Square",
+              "Male"
+            ],
+            [
+              "Circle",
+              "Female"
+            ],
+            [
+              "Diamond",
+              "Sex unspecified"
+            ],
+            [
+              "Symbol with a diagonal slash",
+              "Deceased individual"
+            ],
+            [
+              "Filled (shaded) symbol",
+              "Affected individual"
+            ],
+            [
+              "Arrow pointing to a symbol",
+              "Proband"
+            ],
+            [
+              "Horizontal line joining a male and a female",
+              "Mating"
+            ],
+            [
+              "Mating line crossed by a slash",
+              "Divorce"
+            ],
+            [
+              "Double horizontal line",
+              "Consanguineous mating"
+            ],
+            [
+              "Two lines from one point to two symbols",
+              "Dizygotic (non-identical) twins"
+            ],
+            [
+              "Two lines from one point, joined by a horizontal bar",
+              "Monozygotic (identical) twins"
+            ],
+            [
+              "Small symbol with a slash below the parents",
+              "Abortus (the figure shows it as a female symbol)"
+            ],
+            [
+              "Roman numerals (I, II) at left; numbers under symbols",
+              "Generations and individuals within a generation"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+              "page": 24
+            }
+          ]
+        },
+        {
+          "type": "table",
           "title": "Types of adoption study",
           "columns": [
             "Type",
@@ -4425,7 +4515,7 @@
               }
             },
             {
-              "text": "Risk of schizophrenia in a sibling: ==10%== (explanation: lifetime risk 9-==10%==).",
+              "text": "Risk of schizophrenia in a sibling: ==10%== (explanation: lifetime risk ==9-10%==).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 38,
@@ -4471,7 +4561,7 @@
             }
           },
           {
-            "text": "MZ twins share 100% of genes (70% share a chorion); DZ twins share 50%, like siblings.",
+            "text": "monozygotic (identical) (MZ) twins share 100% of genes (70% share a chorion); dizygotic (non-identical) (DZ) twins share 50%, like siblings.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 22
@@ -4485,7 +4575,7 @@
             }
           },
           {
-            "text": "MZ/DZ concordance: male alcoholism 41/22, female alcoholism 34/31, panic 24/11, bulimia 23/9, ADHD 58/31, autism 64/9, Tourette's 53/8.",
+            "text": "MZ/DZ concordance: male alcoholism 41/22, female alcoholism 34/31, panic 24/11, bulimia 23/9, attention deficit hyperactivity disorder (ADHD) 58/31, autism 64/9, Tourette's 53/8.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 23
@@ -4555,8 +4645,8 @@
           11,
           14,
           16,
-          18,
-          20
+          19,
+          21
         ]
       }
     },
@@ -4816,7 +4906,7 @@
               }
             },
             {
-              "text": "Locating a gene by how far it co-segregates with a marker gene = linkage analysis (coarse chromosomal location) - not mutagenesis, physical mapping, association studies or **PCR**.",
+              "text": "Locating a gene by how far it co-segregates with a marker gene = linkage analysis (coarse chromosomal location) - not mutagenesis, physical mapping, association studies or polymerase chain reaction (**PCR**).",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
                 "page": 5,
@@ -4837,14 +4927,14 @@
       "concise": {
         "bullets": [
           {
-            "text": "Linkage: closer loci recombine less; recombination frequency gives distance; 1 cM = 1% recombination = ~1 Mb.",
+            "text": "Linkage: closer loci recombine less; recombination frequency gives distance; 1 centiMorgan (cM) = 1% recombination = ~1 Mb.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 25
             }
           },
           {
-            "text": "LOD >3 = linkage (1,000:1); LOD <= -2 = non-linkage (100:1).",
+            "text": "log of the odds (LOD) >3 = linkage (1,000:1); LOD <= -2 = non-linkage (100:1).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 25
@@ -4865,7 +4955,7 @@
             }
           },
           {
-            "text": "Association studies: case-control, candidate genes, TDT; GWAS = thousands of SNPs in thousands of people.",
+            "text": "Association studies: case-control, candidate genes, transmission disequilibrium test (TDT); genome-wide association study (GWAS) = thousands of SNPs in thousands of people.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 26
@@ -5191,7 +5281,7 @@
             [
               "3",
               "Familial-risk modelling is inconsistent with single genes of large effect",
-              "Very rapid non-linear drop in risk from **MZ** co-twin (50-==60%==) to someone sharing half the genes (sibling, parent, **DZ** co-twin ~==10%==) in schizophrenia and bipolar disorder; compatible with multiple interacting modest-effect risk factors"
+              "Very rapid non-linear drop in risk from **MZ** co-twin (==50-60%==) to someone sharing half the genes (sibling, parent, **DZ** co-twin ~==10%==) in schizophrenia and bipolar disorder; compatible with multiple interacting modest-effect risk factors"
             ],
             [
               "4",
@@ -5306,7 +5396,7 @@
             [
               "**MZ** concordance",
               "Nearly ==100%==",
-              "30-==70%== only"
+              "==30-70%== only"
             ],
             [
               "Locus heterogeneity",
@@ -5338,7 +5428,7 @@
               }
             },
             {
-              "text": "Moving from a closer to a more distant relative, schizophrenia risk **DECREASES** (very rapid non-linear fall from **MZ** co-twin 50-==60%== to about ==10%== for siblings/parents/**DZ**).",
+              "text": "Moving from a closer to a more distant relative, schizophrenia risk **DECREASES** (very rapid non-linear fall from monozygotic (identical) (**MZ**) co-twin ==50-60%== to about ==10%== for siblings/parents/dizygotic (non-identical) (**DZ**)).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 4,
@@ -5358,7 +5448,7 @@
             }
           },
           {
-            "text": "Risk falls rapidly and non-linearly from MZ co-twin (50-60%) to first-degree relatives (~10%): many interacting modest-effect factors.",
+            "text": "Risk falls rapidly and non-linearly from monozygotic (identical) (MZ) co-twin (50-60%) to first-degree relatives (~10%): many interacting modest-effect factors.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 28
@@ -5450,8 +5540,8 @@
               "6p22"
             ],
             [
-              "**G72**",
-              "13q34"
+              "**G72** (Reviewer note (not in the source): also called D-amino acid oxidase activator)",
+              "13q34 as printed here; the notes give 13q33 for G72/G30 in the bipolar table, so read 13q33-34 [NEEDS VERIFICATION: exact band]"
             ],
             [
               "**DAAO** (D amino acid oxidase; interacts with **G72**)",
@@ -5480,7 +5570,7 @@
         },
         {
           "type": "trap",
-          "text": "Gene **NOT** implicated in schizophrenia from the options: monoamine oxidase (**MAO** is implicated in neuroticism and anxiety disorders); D amino acid oxidase, dysbindin, neuregulin and **COMT** are implicated.",
+          "text": "Gene **NOT** implicated in schizophrenia from the options: monoamine oxidase (**MAO** is implicated in neuroticism and anxiety disorders); D amino acid oxidase, dysbindin, neuregulin and catechol-O-methyl transferase (**COMT**) are implicated.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
@@ -5515,7 +5605,7 @@
             ],
             [
               "Half sibling",
-              "==4%=="
+              "==4%== (the Gottesman chart on the same page gives 6%)"
             ],
             [
               "Children and siblings of an affected individual",
@@ -5540,9 +5630,82 @@
           }
         },
         {
-          "type": "gap",
-          "subtopic": "Risk-to-family-members chart",
-          "note": "The notes' 'Risk to family members' chart on p30 is a bar chart (an image in the PDF, not extractable as text); it is reproduced as the image above. In the text, only the figures quoted around it (==13%==, ==46%==, ==4%==, ~10-fold) are stated.",
+          "type": "table",
+          "title": "Risk of developing schizophrenia by relationship (Gottesman, 1991) [NEEDS VERIFICATION: values read from the bar chart image on page 30; a quick visual check of each bar is advised]",
+          "columns": [
+            "Genes shared",
+            "Relationship to person with schizophrenia",
+            "Lifetime risk"
+          ],
+          "rows": [
+            [
+              "-",
+              "General population",
+              "==1%=="
+            ],
+            [
+              "12.5% (third-degree relatives)",
+              "First cousins",
+              "==2%=="
+            ],
+            [
+              "25% (second-degree relatives)",
+              "Uncles / aunts",
+              "==2%=="
+            ],
+            [
+              "25% (second-degree relatives)",
+              "Nephews / nieces",
+              "==4%=="
+            ],
+            [
+              "25% (second-degree relatives)",
+              "Grandchildren",
+              "==5%=="
+            ],
+            [
+              "25% (second-degree relatives)",
+              "Half siblings",
+              "==6%=="
+            ],
+            [
+              "50% (first-degree relatives)",
+              "Parents",
+              "==6%=="
+            ],
+            [
+              "50% (first-degree relatives)",
+              "Siblings",
+              "==9%=="
+            ],
+            [
+              "50% (first-degree relatives)",
+              "Children (one parent affected)",
+              "==13%=="
+            ],
+            [
+              "50% (first-degree relatives)",
+              "Fraternal (non-identical) twins",
+              "==17%=="
+            ],
+            [
+              "100%",
+              "Identical twins",
+              "==48%=="
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+              "page": 30
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "trap",
+          "text": "Notes vs notes on half-sibling risk: the text on page 30 says the risk to a half sibling is ==4%==, but the Gottesman (1991) chart on the same page shows half siblings at ==6%==. Know both figures; the Gottesman chart is the more widely quoted source.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 30
@@ -5558,11 +5721,11 @@
           "rows": [
             [
               "Monozygotic (**MZ**) concordance",
-              "41-==65%=="
+              "==41-65%=="
             ],
             [
               "Dizygotic (**DZ**) concordance",
-              "0-==28%=="
+              "==0-28%=="
             ],
             [
               "Broad heritability",
@@ -5583,7 +5746,7 @@
         },
         {
           "type": "trap",
-          "text": "**MZ** concordance in schizophrenia: the keyed answer is 0.48 - the explanation says most studies give 44-==50%== for **MZ** twins and 10-==15%== for **DZ** twins, about three times higher in **MZ** than **DZ**. The notes' own range (41-==65%==) is wider, so the narrower 44-==50%== band decides between 0.22, 0.48, 0.18, 0.14 and 0.08.",
+          "text": "monozygotic (identical) (**MZ**) concordance in schizophrenia: the keyed answer is 0.48 - the explanation says most studies give ==44-50%== for **MZ** twins and ==10-15%== for dizygotic (non-identical) (**DZ**) twins, about three times higher in **MZ** than **DZ**. The notes' own range (==41-65%==) is wider, so the narrower ==44-50%== band decides between 0.22, 0.48, 0.18, 0.14 and 0.08.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
@@ -5620,7 +5783,7 @@
               }
             },
             {
-              "text": "Sibling of a person with schizophrenia: risk about ==10%== (explanation: 9-==10%==).",
+              "text": "Sibling of a person with schizophrenia: risk about ==10%== (explanation: ==9-10%==).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 38,
@@ -5631,7 +5794,7 @@
         },
         {
           "type": "trap",
-          "text": "Notes vs question bank on **MZ** risk: the notes' schizophrenia section gives **MZ** concordance 41-==65%== (p30); the causal-models section and **Q8**'s explanation quote **MZ** co-twin risk 50-==60%== with ~==10%== for sibling/parent/**DZ** co-twin. Both ranges appear in the sources.",
+          "text": "Notes vs question bank on **MZ** risk: the notes' schizophrenia section gives **MZ** concordance ==41-65%== (p30); the causal-models section and **Q8**'s explanation quote **MZ** co-twin risk ==50-60%== with ~==10%== for sibling/parent/**DZ** co-twin. Both ranges appear in the sources.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
@@ -5643,7 +5806,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Candidate genes: NRG1 8p12-p21, DTNBP1 6p22, G72 13q34, DAAO 12q24, RGS4 1q21-22, COMT 22q11, DISC1 1q42.",
+            "text": "Candidate genes: NRG1 8p12-p21, DTNBP1 6p22, G72 13q33-34, DAAO 12q24, RGS4 1q21-22, catechol-O-methyl transferase (COMT) 22q11, DISC1 1q42.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 30
@@ -5657,7 +5820,7 @@
             }
           },
           {
-            "text": "MZ concordance 41-65%, DZ 0-28%, broad heritability 80%.",
+            "text": "monozygotic (identical) (MZ) concordance 41-65%, dizygotic (non-identical) (DZ) 0-28%, broad heritability 80%.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 30
@@ -5690,6 +5853,13 @@
               "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
               "page": 10,
               "questionNumber": 40
+            }
+          },
+          {
+            "text": "Gottesman (1991): general population 1%, first cousins 2%, half siblings 6%, parents 6%, siblings 9%, children 13%, fraternal twins 17%, identical twins 48%.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+              "page": 30
             }
           }
         ],
@@ -5747,8 +5917,9 @@
           2,
           4,
           5,
-          8,
-          12
+          7,
+          9,
+          13
         ]
       }
     },
@@ -5758,7 +5929,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "If one parent has a mood disorder a child has a 10-==25%== risk of mood disorder; if both parents are affected the risk roughly doubles. More severe mood disorder in the family conveys greater risk.",
+          "text": "If one parent has a mood disorder a child has a ==10-25%== risk of mood disorder; if both parents are affected the risk roughly doubles. More severe mood disorder in the family conveys greater risk.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 31
@@ -5766,7 +5937,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Bipolar disorder: family history of bipolar disorder conveys greater risk for mood disorders in general and bipolar disorder in particular (possibly shared genetic underpinnings). Broad heritability is nearly 85-==90%==. Lifetime risk in relatives does not vary with the sex of the relative or proband. Because of higher prevalence, unipolar disorder is typically the most common mood disorder in families of bipolar probands.",
+          "text": "Bipolar disorder: family history of bipolar disorder conveys greater risk for mood disorders in general and bipolar disorder in particular (possibly shared genetic underpinnings). Broad heritability is nearly ==85-90%==. Lifetime risk in relatives does not vary with the sex of the relative or proband. Because of higher prevalence, unipolar disorder is typically the most common mood disorder in families of bipolar probands.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 31
@@ -5783,18 +5954,18 @@
           "rows": [
             [
               "Unrelated member of the general population",
-              "0.5-==1.5%==",
-              "5-==10%=="
+              "==0.5-1.5%==",
+              "==5-10%=="
             ],
             [
               "First-degree relative",
-              "5-==10%== (relative risk = 8)",
-              "10-==20%== (relative risk = 2-3 times)"
+              "==5-10%== (relative risk = 8)",
+              "==10-20%== (relative risk = 2-3 times)"
             ],
             [
               "Monozygotic co-twin",
-              "40-==70%== (relative risk = 60)",
-              "15-==25%== (relative risk = 3-5 times)"
+              "==40-70%== (relative risk = 60)",
+              "==15-25%== (relative risk = 3-5 times)"
             ]
           ],
           "sources": [
@@ -5807,7 +5978,7 @@
         },
         {
           "type": "trap",
-          "text": "Bipolar disorder, first-degree relatives: the question keys a prevalence of 15-==20%== (explanation also quotes **MZ** concordance up to ==79%== and **DZ** ==19%==), whereas the notes' lifetime-risk table gives 5-==10%== for bipolar illness in first-degree relatives - the two figures differ, and this question keys 15-==20%==.",
+          "text": "Bipolar disorder, first-degree relatives: the question keys a prevalence of ==15-20%== (explanation also quotes monozygotic (identical) (**MZ**) concordance up to ==79%== and dizygotic (non-identical) (**DZ**) ==19%==), whereas the notes' lifetime-risk table gives ==5-10%== for bipolar illness in first-degree relatives - the two figures differ, and this question keys ==15-20%==.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
@@ -5817,7 +5988,7 @@
         },
         {
           "type": "trap",
-          "text": "Twin **BROTHER** of a woman with bipolar disorder: the keyed risk is 5-==15%== because a twin brother must be dizygotic (a twin sister could have been **MZ** or **DZ**); the high **MZ** figures are the tempting wrong options (above ==90%==, 65-==70%==, 40-==50%==).",
+          "text": "Twin **BROTHER** of a woman with bipolar disorder: the keyed risk is ==5-15%== because a twin brother must be dizygotic (a twin sister could have been **MZ** or **DZ**); the high **MZ** figures are the tempting wrong options (above ==90%==, ==65-70%==, ==40-50%==).",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
@@ -5855,8 +6026,8 @@
               "11p13"
             ],
             [
-              "**DAO** **G72**/**G30** (D amino acid oxidase)",
-              "13q33"
+              "**G72**/**G30** (printed in the notes as 'DAO G72/G30 - D amino acid oxidase'; Reviewer correction (not in the source): D-amino acid oxidase activator)",
+              "13q33 (Reviewer correction (not in the source): D-amino acid oxidase itself is a different gene, on 12q24 - the notes' schizophrenia table gives DAAO 12q24) [NEEDS VERIFICATION: exact band]"
             ],
             [
               "**COMT** (catechol-O-methyl transferase)",
@@ -5864,7 +6035,7 @@
             ],
             [
               "Breakpoint cluster region (**BCR**) gene",
-              "Locus not given in the notes"
+              "Not stated separately in the notes: the table layout places it in the same cell as catechol-O-methyl transferase (22q11) [NEEDS VERIFICATION: confirm 22q11 against a genetics reference]"
             ]
           ],
           "sources": [
@@ -5885,7 +6056,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Other implicated regions: chromosome 18 (nearly 4 loci, affective disorders in general; ? parent-of-origin effect); chromosome 21q (both schizophrenia and bipolar); an X-chromosomal locus (co-segregation with colour blindness, **G6PD** deficiency and factor **IX** deficiency in some families; Xq24-q27.1 segregated with bipolar disorder in an extended Finnish pedigree). A low-activity **COMT** allele may be associated with rapid cycling; the serotonin transporter gene (hSERT) and 5HT2A gene may be associated, with modest significance, with seasonal affective disorder.",
+          "text": "Other implicated regions: chromosome 18 (nearly 4 loci, affective disorders in general; ? parent-of-origin effect); chromosome 21q (both schizophrenia and bipolar); an X-chromosomal locus (co-segregation with colour blindness, **G6PD** deficiency and factor **IX** deficiency in some families; Xq24-q27.1 segregated with bipolar disorder in an extended Finnish pedigree). A low-activity catechol-O-methyl transferase (**COMT**) allele may be associated with rapid cycling; the serotonin transporter gene (hSERT) and 5HT2A gene may be associated, with modest significance, with seasonal affective disorder.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 32
@@ -5901,7 +6072,7 @@
           "rows": [
             [
               "Age-adjusted risk of **MDD** to first-degree relatives",
-              "5-==30%==, relative risk 1.1-4.0"
+              "==5-30%==, relative risk 1.1-4.0"
             ],
             [
               "**MZ** twin concordance",
@@ -5913,7 +6084,7 @@
             ],
             [
               "Heritability",
-              "Unclear (~20-==80%==); meta-analysis reports 31-==42%=="
+              "Unclear (~==20-80%==); meta-analysis reports ==31-42%=="
             ]
           ],
           "sources": [
@@ -5990,7 +6161,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**BDNF**: antidepressant administration is associated with increased central **BDNF** in experimental animals and **BDNF** itself has antidepressant-like activity; depression has been postulated to involve decreased hippocampal neurogenesis, which depends on neurotrophic factors including **BDNF**.",
+          "text": "brain-derived neurotrophic factor (**BDNF**): antidepressant administration is associated with increased central **BDNF** in experimental animals and **BDNF** itself has antidepressant-like activity; depression has been postulated to involve decreased hippocampal neurogenesis, which depends on neurotrophic factors including **BDNF**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 32
@@ -5998,7 +6169,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**DISC1** (chromosome 1q) was identified in a Scottish family with a translocation and multiple cases of psychiatric disorder, mainly schizophrenia; it is expressed in many brain regions including the hippocampus, is associated with microtubules (disruption in mice gives abnormal neuronal migration and dendritic organisation) and appears to interact with phosphodiesterase 4B.",
+          "text": "**DISC1** (chromosome 1q) was identified in a Scottish family with a translocation and multiple cases of psychiatric disorder, mainly schizophrenia; it is expressed in many brain regions including the hippocampus, is associated with microtubules (disruption in mice gives abnormal neuronal migration and dendritic organisation) and appears to interact with phosphodiesterase 4B, which may play a role in mood regulation.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -6006,7 +6177,7 @@
         },
         {
           "type": "paragraph",
-          "text": "5HTT, **MAOA** and **COMT**: meta-analyses link all three to bipolar disorder, with effect sizes of 10-==20%== increase in risk; each interacts with the environment (major depression, antisocial personality disorder and schizophrenia respectively). Recent bipolar data are more positive for 5HTT than for **MAOA** or **COMT**.",
+          "text": "serotonin transporter (5HTT), **MAOA** and **COMT**: meta-analyses link all three to bipolar disorder, with effect sizes of ==10-20%== increase in risk; each interacts with the environment (major depression, antisocial personality disorder and schizophrenia respectively). Recent bipolar data are more positive for 5HTT than for **MAOA** or **COMT**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -6025,7 +6196,7 @@
           "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Risk of unipolar depression in a first-degree relative of a bipolar proband = 2-3 times higher (10-==20%== vs 5-==10%== in the general population; **MZ** co-twin 3-5 times).",
+              "text": "Risk of unipolar depression in a first-degree relative of a bipolar proband = 2-3 times higher (==10-20%== vs ==5-10%== in the general population; **MZ** co-twin 3-5 times).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 24,
@@ -6063,21 +6234,21 @@
             }
           },
           {
-            "text": "Bipolar proband: first-degree relatives bipolar 5-10% (RR 8), unipolar 10-20% (RR 2-3); MZ co-twin bipolar 40-70% (RR 60).",
+            "text": "Bipolar proband: first-degree relatives bipolar 5-10% (RR 8), unipolar 10-20% (RR 2-3); monozygotic (identical) (MZ) co-twin bipolar 40-70% (RR 60).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 31
             }
           },
           {
-            "text": "Bipolar genes: BDNF 11p13, DAO G72/G30 13q33, COMT 22q11, BCR; X-linked Xq24-q27.1 in a Finnish pedigree.",
+            "text": "Bipolar genes: brain-derived neurotrophic factor (BDNF) 11p13, G72/G30 (printed 'DAO'; Reviewer correction (not in the source): D-amino acid oxidase activator) 13q33, catechol-O-methyl transferase (COMT) 22q11, BCR; X-linked Xq24-q27.1 in a Finnish pedigree.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 32
             }
           },
           {
-            "text": "MDD: first-degree relatives 5-30% (RR 1.1-4.0); MZ 40%, DZ 11%; heritability meta-analysis 31-42%.",
+            "text": "major depressive disorder (MDD): first-degree relatives 5-30% (RR 1.1-4.0); MZ 40%, dizygotic (non-identical) (DZ) 11%; heritability meta-analysis 31-42%.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 32
@@ -6098,7 +6269,7 @@
             }
           },
           {
-            "text": "5HTT, MAOA, COMT each add 10-20% bipolar risk and show gene-environment effects; GRK3 identified via an animal model.",
+            "text": "serotonin transporter (5HTT), MAOA, COMT each add 10-20% bipolar risk and show gene-environment effects; GRK3 identified via an animal model.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 33
@@ -6121,7 +6292,7 @@
             }
           },
           {
-            "text": "Both MAO-A and MAO-B are encoded on chromosome X.",
+            "text": "Both monoamine oxidase (MAO)-A and MAO-B are encoded on chromosome X.",
             "source": {
               "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
               "page": 12,
@@ -6163,7 +6334,7 @@
             }
           },
           {
-            "label": "DAO G72/G30 locus",
+            "label": "G72/G30 (printed 'DAO') locus",
             "value": "13q33",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
@@ -6186,7 +6357,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Alzheimer's disease: mutations in the amyloid precursor protein (chromosome 21), presenilin 1 (chromosome 14) and presenilin 2 (chromosome 1) may account for as much as ==50%== of familial (autosomal dominant) **AD** beginning before 60 years (presenile), but this is less than ==1%== of patients worldwide.",
+          "text": "Alzheimer's disease: mutations in the amyloid precursor protein (chromosome 21), presenilin 1 (chromosome 14) and presenilin 2 (chromosome 1) may account for as much as ==50%== of familial (autosomal dominant) Alzheimer's disease beginning before 60 years (presenile), but this is less than ==1%== of patients worldwide.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -6194,7 +6365,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The genetic factor with the highest attributable risk for **AD** is apolipoprotein E (**APOE**) on chromosome 19q, with three codominant alleles (ApoE2, ApoE3 and ApoE4, differing by single-base substitutions in the coding region); the ancestral ApoE4 allele is overrepresented and ApoE2 underrepresented in **AD**. In Caucasians the odds of **AD** are 14.9 times (ApoE4 homozygotes) and 3.2 times (3/4 heterozygotes) the odds with ApoE3 homozygosity. Mean age of onset is two decades earlier in ApoE4 homozygotes. The ApoE4 allele also raises risk in non-white populations (Afro-Caribbean, Chinese, Japanese); the increase is greater in women than men (not replicated in African Americans).",
+          "text": "The genetic factor with the highest attributable risk for Alzheimer's disease is apolipoprotein E (**APOE**) on chromosome 19q, with three codominant alleles (ApoE2, ApoE3 and ApoE4, differing by single-base substitutions in the coding region); the ancestral ApoE4 allele is overrepresented and ApoE2 underrepresented in Alzheimer's disease. In Caucasians the odds of Alzheimer's disease are 14.9 times (ApoE4 homozygotes) and 3.2 times (3/4 heterozygotes) the odds with ApoE3 homozygosity. Mean age of onset is two decades earlier in ApoE4 homozygotes. The ApoE4 allele also raises risk in non-white populations (Afro-Caribbean, Chinese, Japanese); the increase is greater in women than men (not replicated in African Americans).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -6202,7 +6373,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Chromosome 21 harbours mutant **APP**, which is related to Down's syndrome and explains the higher prevalence of **AD** in Down's syndrome.",
+          "text": "Chromosome 21 harbours mutant amyloid precursor protein (**APP**), which is related to Down's syndrome and explains the higher prevalence of Alzheimer's disease in Down's syndrome.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -6266,7 +6437,7 @@
         },
         {
           "type": "trap",
-          "text": "ApoE4 and Alzheimer's: the question keys 'five fold' (explanation: a single **E4** allele gives up to a three- to fivefold increase in **AD** risk), while the notes' table gives 3.2 times for heterozygotes (up to 5 times in some studies) and 14.9 times for homozygotes - note both figures and the allele count in the stem.",
+          "text": "ApoE4 and Alzheimer's: the question keys 'five fold' (explanation: a single **E4** allele gives up to a three- to fivefold increase in Alzheimer's disease risk), while the notes' table gives 3.2 times for heterozygotes (up to 5 times in some studies) and 14.9 times for homozygotes - note both figures and the allele count in the stem.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
@@ -6286,7 +6457,7 @@
         },
         {
           "type": "trap",
-          "text": "Notes vs question bank on ApoE4 risk: the notes give odds 3.2 (heterozygote) and 14.9 (homozygote) vs 3/3 homozygotes, with the absolute-risk table. **Q9**'s explanation instead says that of people with no **E4** about ==20%== develop **AD**, with one **E4** ==50%== (2-3x higher), and with two **E4** ==90%==; the answer key is 'Three times higher (**OR**=3)' for a heterozygote. Both sets of percentages are in the sources and they differ; know the **OR** of about 3 for **E4** heterozygotes.",
+          "text": "Notes vs question bank on ApoE4 risk: the notes give odds 3.2 (heterozygote) and 14.9 (homozygote) vs 3/3 homozygotes, with the absolute-risk table. **Q9**'s explanation instead says that of people with no **E4** about ==20%== develop Alzheimer's disease, with one **E4** ==50%== (2-3x higher), and with two **E4** ==90%==; the answer key is 'Three times higher (**OR**=3)' for a heterozygote. Both sets of percentages are in the sources and they differ; know the **OR** of about 3 for **E4** heterozygotes.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
@@ -6296,7 +6467,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Risk in relatives: predicted risk of **AD** in first-degree relatives of probands is 15-==19%== compared with ==5%== in controls (3-4 times, to age 85), i.e. between one in five and one in six. For probands who became demented late (80s), relatives probably run the same 30-==50%== risk as anyone living to 90+. Risk drops rapidly with genetic distance (second-degree relatives probably less than twice population levels). Probandwise concordance is about ==40%== for **DZ** and ==84%== for **MZ** twins.",
+          "text": "Risk in relatives: predicted risk of Alzheimer's disease in first-degree relatives of probands is ==15-19%== compared with ==5%== in controls (3-4 times, to age 85), i.e. between one in five and one in six. For probands who became demented late (80s), relatives probably run the same ==30-50%== risk as anyone living to 90+. Risk drops rapidly with genetic distance (second-degree relatives probably less than twice population levels). Probandwise concordance is about ==40%== for dizygotic (non-identical) (**DZ**) and ==84%== for monozygotic (identical) (**MZ**) twins.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 34
@@ -6313,7 +6484,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**CADASIL** (as the notes describe it): a form of amyloid angiopathy that can present with Alzheimer's-like features. **NOTCH3** is the only gene currently known to be associated (19p13.1-13.2); most mutations are in exon 4 and the mutation detection rate is up to ==96%== in well-defined or biopsy-proven **CADASIL**.",
+          "text": "**CADASIL** (cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy) can present with Alzheimer's-like features. The notes call it \"a form of amyloid angiopathy\"; Reviewer correction (not in the source): it is an inherited small-vessel disease, not an amyloid angiopathy (the question bank's explanation, question 79, agrees - see the trap below). **NOTCH3** is the only gene currently known to be associated (19p13.1-13.2); most mutations are in exon 4 and the mutation detection rate is up to ==96%== in well-defined or biopsy-proven **CADASIL**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 34
@@ -6381,11 +6552,11 @@
             [
               "**PARK6**",
               "1p35-37; **PTEN**-induced kinase (**PINK1**) in mitochondria",
-              "Autosomal recessive; onset 30-40 (1-==2%== of early-onset cases, L-dopa responsive)"
+              "Autosomal recessive; onset 30-40 (==1-2%== of early-onset cases, L-dopa responsive)"
             ],
             [
               "**PARK7**",
-              "1p38; **DJ-1**",
+              "1p38 as printed in the notes; **DJ-1**. Reviewer correction (not in the source): chromosome 1's short arm ends at p36, so 1p36 is probably intended [NEEDS VERIFICATION: confirm 1p36 against a genetics reference]",
               "Autosomal recessive; onset 30-40"
             ]
           ],
@@ -6417,7 +6588,7 @@
               }
             },
             {
-              "text": "A 55-year-old with gradual memory loss and **MMSE** 20/30: the implicated gene codes for presenilin-1 (chromosome 14, young-onset **AD**).",
+              "text": "A 55-year-old with gradual memory loss and **MMSE** 20/30: the implicated gene codes for presenilin-1 (chromosome 14, young-onset Alzheimer's disease).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 10,
@@ -6433,7 +6604,7 @@
               }
             },
             {
-              "text": "**CADASIL**: Notch3 gene (not dysbindin, **LRRK2**, Parkin or **COMT**).",
+              "text": "**CADASIL**: Notch3 gene (not dysbindin, **LRRK2**, Parkin or catechol-O-methyl transferase (**COMT**)).",
               "source": {
                 "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
                 "page": 34,
@@ -6465,7 +6636,7 @@
               }
             },
             {
-              "text": "53-year-old with gradual memory loss and **MMSE** 17/30: **PSEN-1** - **PSEN1** mutations are the commonest cause of early-onset **AD** (up to ==70%== of cases).",
+              "text": "53-year-old with gradual memory loss and **MMSE** 17/30: **PSEN-1** - **PSEN1** mutations are the commonest cause of early-onset Alzheimer's disease (up to ==70%== of cases).",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
                 "page": 13,
@@ -6478,7 +6649,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Familial early-onset AD: APP (chr 21), presenilin 1 (chr 14), presenilin 2 (chr 1); up to 50% of familial presenile AD but <1% of all patients.",
+            "text": "Familial early-onset Alzheimer's disease: amyloid precursor protein (APP) (chr 21), presenilin 1 (chr 14), presenilin 2 (chr 1); up to 50% of familial presenile Alzheimer's disease but <1% of all patients.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 33
@@ -6499,7 +6670,7 @@
             }
           },
           {
-            "text": "First-degree relatives of AD probands: 15-19% vs 5% in controls (3-4x); MZ 84% vs DZ 40% probandwise concordance.",
+            "text": "First-degree relatives of Alzheimer's disease probands: 15-19% vs 5% in controls (3-4x); monozygotic (identical) (MZ) 84% vs dizygotic (non-identical) (DZ) 40% probandwise concordance.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 34
@@ -6513,7 +6684,7 @@
             }
           },
           {
-            "text": "FTLD: MAPT (tau) and progranulin (PGRN) both on 17q21.",
+            "text": "frontotemporal lobar degeneration (FTLD): MAPT (tau) and progranulin (PGRN) both on 17q21.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 34
@@ -6545,7 +6716,7 @@
             }
           },
           {
-            "label": "AD risk, first-degree relatives vs controls",
+            "label": "Alzheimer's disease risk, first-degree relatives vs controls",
             "value": "15-19% vs 5%",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
@@ -6582,7 +6753,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Autism: recurrence in siblings of autistic children is ==2%== to ==8%== (relative risk 50 times, range 30-120); the risk in a sibling of two autistic children is 25-==30%== (nearly 300 times higher).",
+          "text": "Autism: recurrence in siblings of autistic children is ==2%== to ==8%== (relative risk 50 times, range 30-120); the risk in a sibling of two autistic children is ==25-30%== (nearly 300 times higher).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 35
@@ -6590,7 +6761,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Autism twin studies: ==60%== concordance for classic autism in **MZ** twins vs 0 in **DZ**; for a broader autistic phenotype ==92%== in **MZ** and ==10%== in **DZ** pairs, translating to ==90%== heritability. The identity and number of genes are unknown; chromosomes 2, 7 and 15 are implicated; segregation analysis was consistent with autosomal recessive inheritance with sex-specific modifications.",
+          "text": "Autism twin studies: ==60%== concordance for classic autism in monozygotic (identical) (**MZ**) twins vs 0 in dizygotic (non-identical) (**DZ**); for a broader autistic phenotype ==92%== in **MZ** and ==10%== in **DZ** pairs, translating to ==90%== heritability. The identity and number of genes are unknown; chromosomes 2, 7 and 15 are implicated; segregation analysis was consistent with autosomal recessive inheritance with sex-specific modifications.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 35
@@ -6632,19 +6803,23 @@
           "rows": [
             [
               "Risk to first-degree relatives",
-              "15-==60%==, relative risk 2-6"
+              "==15-60%==, relative risk 2-6"
             ],
             [
               "Risk to second-degree relatives",
-              "3-==9%==, relative risk 0.5-0.8"
+              "==3-9%==, relative risk 0.5-0.8"
             ],
             [
               "Heritability",
-              "~70-==80%=="
+              "~==70-80%=="
             ],
             [
               "Sex",
               "Risks higher for male relatives, lower for female; unclear if higher when the proband is female"
+            ],
+            [
+              "Persistence into adulthood",
+              "Continuation of illness into adulthood may indicate increased risk to relatives"
             ]
           ],
           "sources": [
@@ -6656,7 +6831,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Personality disorders: the largest factor, nearly ==50%== or more of variation in most personality traits, is non-shared, person-specific environmental variation. Antisocial **PD** has the highest heritability (60-==70%==) among personality disorders; emotional dysregulation is highly heritable in borderline **PD**. A tryptophan hydroxylase gene variant is associated with low **CSF** 5-**HIAA** and suicide attempts in violent criminal offenders.",
+          "text": "Personality disorders: the largest factor, nearly ==50%== or more of variation in most personality traits, is non-shared, person-specific environmental variation. Antisocial **PD** has the highest heritability (==60-70%==) among personality disorders; emotional dysregulation is highly heritable in borderline **PD**. A tryptophan hydroxylase gene variant is associated with low **CSF** 5-**HIAA** and suicide attempts in violent criminal offenders.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 36
@@ -6664,7 +6839,7 @@
         },
         {
           "type": "trap",
-          "text": "Personality disorder with the strongest genetic support: schizotypal disorder is keyed (explanation: familial risk is seen in schizotypal, antisocial, dependent and avoidant, but molecular and twin evidence most strongly implicate genetics for schizotypal); the notes separately give antisocial **PD** the highest heritability (60-==70%==) among personality disorders.",
+          "text": "Personality disorder with the strongest genetic support: schizotypal disorder is keyed (explanation: familial risk is seen in schizotypal, antisocial, dependent and avoidant, but molecular and twin evidence most strongly implicate genetics for schizotypal); the notes separately give antisocial **PD** the highest heritability (==60-70%==) among personality disorders.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 6.pdf",
@@ -6674,7 +6849,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Panic disorder: lifetime prevalence about ==4.7%==; Hettema et al. (2001) family-study meta-analysis **OR** 5 in first-degree relatives (absolute risk 8-==31%==). Early-onset confers more risk: nearly 17-fold if onset before 20 vs 6-fold after 20. Heritability about 0.43.",
+          "text": "Panic disorder: lifetime prevalence about ==4.7%==; Hettema et al. (2001) family-study meta-analysis **OR** 5 in first-degree relatives (absolute risk ==8-31%==). Early-onset confers more risk: nearly 17-fold if onset before 20 vs 6-fold after 20. Heritability about 0.43.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 36
@@ -6698,7 +6873,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Alcohol genes: **GABRA2** variants (chromosome 4p) associated with alcohol dependence, strongly with impulse-control problems (risk allele also in adolescents with conduct disorder and drug-dependent alcoholics). **ADH** breaks alcohol into acetaldehyde, further metabolised by **ALDH**; both have variants linked to the flushing reaction, the strongest alcoholism finding being **ADH4** (early onset of regular drinking). A meta-analysis of 21 studies shows 50-==100%== increased alcoholism risk in carriers of the **DRD2** **A1** allele, though this may reflect a neighbouring gene.",
+          "text": "Alcohol genes: **GABRA2** variants (chromosome 4p) associated with alcohol dependence, strongly with impulse-control problems (risk allele also in adolescents with conduct disorder and drug-dependent alcoholics). **ADH** breaks alcohol into acetaldehyde, further metabolised by **ALDH**; both have variants linked to the flushing reaction, the strongest alcoholism finding being **ADH4** (early onset of regular drinking). A meta-analysis of 21 studies shows ==50-100%== increased alcoholism risk in carriers of the **DRD2** **A1** allele, though this may reflect a neighbouring gene.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 37
@@ -6706,7 +6881,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**OCD**: early onset suggests higher genetic risk (generally onset before 18). Fathers were three times as likely as mothers to receive a diagnosis for probands with severe childhood **OCD**; increased severity and chronicity appear to increase risk. Risk to first-degree relatives: onset before 18 about 10-==35%==; the notes print 'onset after age 18: no increased risk to ~==15%=='. **MZ** twin concordance 53-==87%==; **DZ** 22-==47%==.",
+          "text": "obsessive-compulsive disorder (**OCD**): early onset suggests higher genetic risk (generally onset before 18). Fathers were three times as likely as mothers to receive a diagnosis for probands with severe childhood **OCD**; increased severity and chronicity appear to increase risk. Risk to first-degree relatives: onset before 18 about ==10-35%==; onset after age 18: the risk ranges from no increase up to about ==15%== (printed in the notes as 'no increased risk to ~15%'). **MZ** twin concordance ==53-87%==; **DZ** ==22-47%==.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 37
@@ -6741,8 +6916,8 @@
               "==1%=="
             ],
             [
-              "Schizophrenia (**SZ**)",
-              "Unipolar - 2-fold (==16%==); Bipolar - 4-fold (==4%==)",
+              "Schizophrenia",
+              "Printed in the notes: unipolar - 2-fold (==16%==); bipolar - 4-fold (==4%==). Reviewer note: this repeats the unipolar depression figures and is almost certainly a copying error; use the schizophrenia section instead (about 10-fold increase; ==13%== with one affected parent, page 30) [NEEDS VERIFICATION: check the schizophrenia row in the original Tsuang, Faraone and Tsuang 1995 table]",
               "==1%=="
             ],
             [
@@ -6831,7 +7006,7 @@
         {
           "type": "gap",
           "subtopic": "HLA-DQB1*0602 and narcolepsy",
-          "note": "**Q25**: **HLA-DQB1*0602** is associated with narcolepsy (explanation: **HLA-DR2** haplotypes on chromosome 6; **HLA-DQB1*0602** and **DQA*0102** found in 85-==95%== of patients versus 12-==38%== of the general population). Not in the notes.",
+          "note": "**Q25**: **HLA-DQB1*0602** is associated with narcolepsy (explanation: **HLA-DR2** haplotypes on chromosome 6; **HLA-DQB1*0602** and **DQA*0102** found in ==85-95%== of patients versus ==12-38%== of the general population). Not in the notes.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
             "page": 6,
@@ -6851,7 +7026,7 @@
         {
           "type": "gap",
           "subtopic": "Callous-unemotional traits: heritability",
-          "note": "**Q44**: heritability of callous-unemotional traits is 30-==40%== (explanation: a meta-analysis of behaviour genetic studies in children with callous-unemotional traits and antisocial behaviour estimated ==41%== of variance genetic, ==16%== shared environment, ==43%== non-shared environment). The notes do not give this.",
+          "note": "**Q44**: heritability of callous-unemotional traits is ==30-40%== (explanation: a meta-analysis of behaviour genetic studies in children with callous-unemotional traits and antisocial behaviour estimated ==41%== of variance genetic, ==16%== shared environment, ==43%== non-shared environment). The notes do not give this.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
             "page": 11,
@@ -6871,7 +7046,7 @@
         {
           "type": "gap",
           "subtopic": "ADHD: DRD4 gene",
-          "note": "**Q53**: the gene most strongly implicated in **ADHD** is the dopamine 4 receptor gene (**DRD4**), whose brain mRNA distribution suggests a role in cognitive and executive functions. The notes' **ADHD** table gives risks and heritability but names no gene.",
+          "note": "**Q53**: the gene most strongly implicated in attention deficit hyperactivity disorder (**ADHD**) is the dopamine 4 receptor gene (**DRD4**), whose brain mRNA distribution suggests a role in cognitive and executive functions. The notes' **ADHD** table gives risks and heritability but names no gene.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
             "page": 13,
@@ -6909,7 +7084,7 @@
               }
             },
             {
-              "text": "Panic disorder in first-degree relatives: odds 4-8 times higher (relatives' prevalence 6-==17%==; up to 17 times if the index case's onset is below 20).",
+              "text": "Panic disorder in first-degree relatives: odds 4-8 times higher (relatives' prevalence ==6-17%==; up to 17 times if the index case's onset is below 20).",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
                 "page": 11,
@@ -6922,7 +7097,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Autism: sibling recurrence 2-8% (RR 50); two affected siblings 25-30%; MZ concordance 60% (92% broad), DZ 0% (10% broad); ~90% heritability.",
+            "text": "Autism: sibling recurrence 2-8% (RR 50); two affected siblings 25-30%; monozygotic (identical) (MZ) concordance 60% (92% broad), dizygotic (non-identical) (DZ) 0% (10% broad); ~90% heritability.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 35
@@ -6936,7 +7111,7 @@
             }
           },
           {
-            "text": "ADHD: first-degree relatives 15-60% (RR 2-6); heritability ~70-80%; higher in male relatives.",
+            "text": "attention deficit hyperactivity disorder (ADHD): first-degree relatives 15-60% (RR 2-6); heritability ~70-80%; higher in male relatives.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
               "page": 36
@@ -7176,7 +7351,7 @@
           }
         },
         {
-          "label": "Growth factors (EGF, PDGF, IGF) push quiescent G0 cells into the cycle via transcription factors and DNA synthesis.",
+          "label": "Growth factors (epidermal, platelet-derived and insulin-like growth factor) push quiescent G0 cells into the cycle via transcription factors and DNA synthesis.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 2
@@ -7399,7 +7574,7 @@
           }
         },
         {
-          "label": "DiGeorge 22q11.2: AD, hypocalcemia from absent/malformed parathyroids, >25% psychosis; 25% schizophrenia risk if offspring has deletion.",
+          "label": "DiGeorge 22q11.2: autosomal dominant, hypocalcemia from absent/malformed parathyroids, >25% psychosis; 25% schizophrenia risk if offspring has deletion.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 9
@@ -7458,14 +7633,14 @@
       "label": "7A. Single gene (Mendelian) disorders",
       "children": [
         {
-          "label": "AD: 50% risk from one heterozygous parent, 75% if both heterozygous; incomplete penetrance and variable expression; phenocopy.",
+          "label": "Autosomal dominant: 50% risk from one heterozygous parent, 75% if both heterozygous; incomplete penetrance and variable expression; phenocopy.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 10
           }
         },
         {
-          "label": "AR: two carriers give 1 in 4 affected, 1 in 2 carriers, 1 in 4 normal; consanguinity raises risk; enzymatic proteins.",
+          "label": "Autosomal recessive: two carriers give 1 in 4 affected, 1 in 2 carriers, 1 in 4 normal; consanguinity raises risk; enzymatic proteins.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 11
@@ -7493,21 +7668,21 @@
           }
         },
         {
-          "label": "Lesch-Nyhan: Xq26-27, XLR, HGPRT deficiency, self-mutilation (lip/finger biting), hyperuricemia.",
+          "label": "Lesch-Nyhan: Xq26-27, XLR, hypoxanthine-guanine phosphoribosyltransferase (HGPRT) deficiency, self-mutilation (lip/finger biting), hyperuricemia.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 12
           }
         },
         {
-          "label": "XLMR: syndromic 1/3, non-syndromic 2/3; Fragile X most common; MECP2 gives Rett.",
+          "label": "X-linked mental retardation (XLMR): syndromic 1/3, non-syndromic 2/3; Fragile X most common; MECP2 gives Rett.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 13
           }
         },
         {
-          "label": "Both parents affected by an AR disorder: all children affected (100%); two carriers: 1 in 4.",
+          "label": "Both parents affected by an autosomal recessive disorder: all children affected (100%); two carriers: 1 in 4.",
           "source": {
             "file": "paper-a/High yields/GENETICS/Molecular Genetics Attempt review.pdf",
             "page": 26,
@@ -7528,7 +7703,7 @@
       "label": "7B. Non-Mendelian inheritance",
       "children": [
         {
-          "label": "Mitochondrial DNA is purely maternal (no sperm mitochondria); no introns so mutations bite; MELAS, LHON, CPEO, MERRF, Kearns-Sayre type disorders.",
+          "label": "Mitochondrial DNA is purely maternal (no sperm mitochondria); no introns so mutations bite; MELAS, LHON, CPEO, MERRF, Kearns-Sayre syndrome.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 13
@@ -7549,7 +7724,7 @@
           }
         },
         {
-          "label": "Huntington's: AD, full penetrance, CAG on 4p16.3, 40-55 repeats adult onset (30-50 y), >70 juvenile; paternal expansion.",
+          "label": "Huntington's: autosomal dominant, full penetrance, CAG on 4p16.3, 40-55 repeats adult onset (30-50 y), >70 juvenile; paternal expansion.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 15
@@ -7563,7 +7738,7 @@
           }
         },
         {
-          "label": "Imprinting: paternal 15q11-q13 deletion = Prader-Willi (~70%, maternal UPD ~25%); maternal deletion = Angelman (paternal UPD ~4%).",
+          "label": "Imprinting: paternal 15q11-q13 deletion = Prader-Willi (~70%, maternal uniparental disomy (UPD) ~25%); maternal deletion = Angelman (paternal UPD ~4%).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 15
@@ -7589,7 +7764,7 @@
           }
         },
         {
-          "label": "RFLP (Southern blotting), SNPs (sequencing/DNA chips), VNTRs: microsatellites 2-6 bases (preferred, PCR), minisatellites 20-70 bases.",
+          "label": "restriction fragment length polymorphism (RFLP) (Southern blotting), SNPs (sequencing/DNA chips), VNTRs: microsatellites 2-6 bases (preferred, polymerase chain reaction (PCR)), minisatellites 20-70 bases.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 17
@@ -7629,7 +7804,7 @@
           }
         },
         {
-          "label": "PCR: primers needed, so target sequence must be known; amplifies over a million-fold from tiny samples; contaminants can be amplified.",
+          "label": "polymerase chain reaction (PCR): primers needed, so target sequence must be known; amplifies over a million-fold from tiny samples; contaminants can be amplified.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 17
@@ -7643,7 +7818,7 @@
           }
         },
         {
-          "label": "FISH uses fluorescent probes to localise specific DNA sequences on chromosomes.",
+          "label": "fluorescent in situ hybridisation (FISH) uses fluorescent probes to localise specific DNA sequences on chromosomes.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 18
@@ -7678,7 +7853,7 @@
       "label": "10. Heritability and concordance",
       "children": [
         {
-          "label": "Concordance: MZ > DZ implies a genetic component; equal MZ and DZ concordance implies none.",
+          "label": "Concordance: monozygotic (identical) (MZ) > dizygotic (non-identical) (DZ) implies a genetic component; equal MZ and DZ concordance implies none.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 18
@@ -7739,7 +7914,7 @@
           }
         },
         {
-          "label": "Locus heterogeneity = same phenotype, different loci (early onset AD: chromosomes 1, 14, 21).",
+          "label": "Locus heterogeneity = same phenotype, different loci (early onset Alzheimer's disease: chromosomes 1, 14, 21).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 21
@@ -7760,7 +7935,7 @@
           }
         },
         {
-          "label": "Two affected AR parents with a normal child = locus heterogeneity (different loci in each parent).",
+          "label": "Two affected autosomal recessive parents with a normal child = locus heterogeneity (different loci in each parent).",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
             "page": 5,
@@ -7780,7 +7955,7 @@
           }
         },
         {
-          "label": "MZ twins share 100% of genes (70% share a chorion); DZ twins share 50%, like siblings.",
+          "label": "monozygotic (identical) (MZ) twins share 100% of genes (70% share a chorion); dizygotic (non-identical) (DZ) twins share 50%, like siblings.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 22
@@ -7794,7 +7969,7 @@
           }
         },
         {
-          "label": "MZ/DZ concordance: male alcoholism 41/22, female alcoholism 34/31, panic 24/11, bulimia 23/9, ADHD 58/31, autism 64/9, Tourette's 53/8.",
+          "label": "MZ/DZ concordance: male alcoholism 41/22, female alcoholism 34/31, panic 24/11, bulimia 23/9, attention deficit hyperactivity disorder (ADHD) 58/31, autism 64/9, Tourette's 53/8.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 23
@@ -7827,14 +8002,14 @@
       "label": "12B. Molecular genetic studies",
       "children": [
         {
-          "label": "Linkage: closer loci recombine less; recombination frequency gives distance; 1 cM = 1% recombination = ~1 Mb.",
+          "label": "Linkage: closer loci recombine less; recombination frequency gives distance; 1 centiMorgan (cM) = 1% recombination = ~1 Mb.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 25
           }
         },
         {
-          "label": "LOD >3 = linkage (1,000:1); LOD <= -2 = non-linkage (100:1).",
+          "label": "log of the odds (LOD) >3 = linkage (1,000:1); LOD <= -2 = non-linkage (100:1).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 25
@@ -7855,7 +8030,7 @@
           }
         },
         {
-          "label": "Association studies: case-control, candidate genes, TDT; GWAS = thousands of SNPs in thousands of people.",
+          "label": "Association studies: case-control, candidate genes, transmission disequilibrium test (TDT); genome-wide association study (GWAS) = thousands of SNPs in thousands of people.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 26
@@ -7929,7 +8104,7 @@
           }
         },
         {
-          "label": "Risk falls rapidly and non-linearly from MZ co-twin (50-60%) to first-degree relatives (~10%): many interacting modest-effect factors.",
+          "label": "Risk falls rapidly and non-linearly from monozygotic (identical) (MZ) co-twin (50-60%) to first-degree relatives (~10%): many interacting modest-effect factors.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 28
@@ -7962,7 +8137,7 @@
       "label": "13B. Genetics of schizophrenia",
       "children": [
         {
-          "label": "Candidate genes: NRG1 8p12-p21, DTNBP1 6p22, G72 13q34, DAAO 12q24, RGS4 1q21-22, COMT 22q11, DISC1 1q42.",
+          "label": "Candidate genes: NRG1 8p12-p21, DTNBP1 6p22, G72 13q33-34, DAAO 12q24, RGS4 1q21-22, catechol-O-methyl transferase (COMT) 22q11, DISC1 1q42.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 30
@@ -7976,7 +8151,7 @@
           }
         },
         {
-          "label": "MZ concordance 41-65%, DZ 0-28%, broad heritability 80%.",
+          "label": "monozygotic (identical) (MZ) concordance 41-65%, dizygotic (non-identical) (DZ) 0-28%, broad heritability 80%.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 30
@@ -8010,6 +8185,13 @@
             "page": 10,
             "questionNumber": 40
           }
+        },
+        {
+          "label": "Gottesman (1991): general population 1%, first cousins 2%, half siblings 6%, parents 6%, siblings 9%, children 13%, fraternal twins 17%, identical twins 48%.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
+            "page": 30
+          }
         }
       ]
     },
@@ -8024,21 +8206,21 @@
           }
         },
         {
-          "label": "Bipolar proband: first-degree relatives bipolar 5-10% (RR 8), unipolar 10-20% (RR 2-3); MZ co-twin bipolar 40-70% (RR 60).",
+          "label": "Bipolar proband: first-degree relatives bipolar 5-10% (RR 8), unipolar 10-20% (RR 2-3); monozygotic (identical) (MZ) co-twin bipolar 40-70% (RR 60).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 31
           }
         },
         {
-          "label": "Bipolar genes: BDNF 11p13, DAO G72/G30 13q33, COMT 22q11, BCR; X-linked Xq24-q27.1 in a Finnish pedigree.",
+          "label": "Bipolar genes: brain-derived neurotrophic factor (BDNF) 11p13, G72/G30 (printed 'DAO'; Reviewer correction (not in the source): D-amino acid oxidase activator) 13q33, catechol-O-methyl transferase (COMT) 22q11, BCR; X-linked Xq24-q27.1 in a Finnish pedigree.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 32
           }
         },
         {
-          "label": "MDD: first-degree relatives 5-30% (RR 1.1-4.0); MZ 40%, DZ 11%; heritability meta-analysis 31-42%.",
+          "label": "major depressive disorder (MDD): first-degree relatives 5-30% (RR 1.1-4.0); MZ 40%, dizygotic (non-identical) (DZ) 11%; heritability meta-analysis 31-42%.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 32
@@ -8059,7 +8241,7 @@
           }
         },
         {
-          "label": "5HTT, MAOA, COMT each add 10-20% bipolar risk and show gene-environment effects; GRK3 identified via an animal model.",
+          "label": "serotonin transporter (5HTT), MAOA, COMT each add 10-20% bipolar risk and show gene-environment effects; GRK3 identified via an animal model.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -8082,7 +8264,7 @@
           }
         },
         {
-          "label": "Both MAO-A and MAO-B are encoded on chromosome X.",
+          "label": "Both monoamine oxidase (MAO)-A and MAO-B are encoded on chromosome X.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
             "page": 12,
@@ -8095,7 +8277,7 @@
       "label": "13D. Genetics of dementias",
       "children": [
         {
-          "label": "Familial early-onset AD: APP (chr 21), presenilin 1 (chr 14), presenilin 2 (chr 1); up to 50% of familial presenile AD but <1% of all patients.",
+          "label": "Familial early-onset Alzheimer's disease: amyloid precursor protein (APP) (chr 21), presenilin 1 (chr 14), presenilin 2 (chr 1); up to 50% of familial presenile Alzheimer's disease but <1% of all patients.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 33
@@ -8116,7 +8298,7 @@
           }
         },
         {
-          "label": "First-degree relatives of AD probands: 15-19% vs 5% in controls (3-4x); MZ 84% vs DZ 40% probandwise concordance.",
+          "label": "First-degree relatives of Alzheimer's disease probands: 15-19% vs 5% in controls (3-4x); monozygotic (identical) (MZ) 84% vs dizygotic (non-identical) (DZ) 40% probandwise concordance.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 34
@@ -8130,7 +8312,7 @@
           }
         },
         {
-          "label": "FTLD: MAPT (tau) and progranulin (PGRN) both on 17q21.",
+          "label": "frontotemporal lobar degeneration (FTLD): MAPT (tau) and progranulin (PGRN) both on 17q21.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 34
@@ -8149,7 +8331,7 @@
       "label": "13E. Genetics of other disorders",
       "children": [
         {
-          "label": "Autism: sibling recurrence 2-8% (RR 50); two affected siblings 25-30%; MZ concordance 60% (92% broad), DZ 0% (10% broad); ~90% heritability.",
+          "label": "Autism: sibling recurrence 2-8% (RR 50); two affected siblings 25-30%; monozygotic (identical) (MZ) concordance 60% (92% broad), dizygotic (non-identical) (DZ) 0% (10% broad); ~90% heritability.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 35
@@ -8163,7 +8345,7 @@
           }
         },
         {
-          "label": "ADHD: first-degree relatives 15-60% (RR 2-6); heritability ~70-80%; higher in male relatives.",
+          "label": "attention deficit hyperactivity disorder (ADHD): first-degree relatives 15-60% (RR 2-6); heritability ~70-80%; higher in male relatives.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/MOLECULAR GENETICS.pdf",
             "page": 36

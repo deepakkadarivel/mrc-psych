@@ -23,7 +23,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** matches for interview techniques: 'I'd like to hear more about your parents, but first let me get a picture of what's happening to you of late' (after the patient changes topic) is **REDIRECTION**; 'Sometimes when people are very depressed, they think of hurting themselves. Has this been true for you?' is **NORMALISATION** (the interviewer phrases the question so the patient realises they are not the only person with such thoughts, making a taboo topic easier to explore); 'What sorts of drugs do you usually use when you're drinking?' is **SYMPTOM** **EXPECTATION**; 'I can see that you look anxious when talking about those voices' is **ACKNOWLEDGEMENT**; the clinician describing their own **fluoxetine** side effects is **SELF-REVELATION**, which can powerfully backfire and is not recommended unless necessary for engagement.",
+          "text": "**Extended matching item** matches for interview techniques: 'I'd like to hear more about your parents, but first let me get a picture of what's happening to you of late' (after the patient changes topic) is **REDIRECTION**; 'Sometimes when people are very depressed, they think of hurting themselves. Has this been true for you?' is **NORMALISATION** (the interviewer phrases the question so the patient realises they are not the only person with such thoughts, making a taboo topic easier to explore); 'What sorts of drugs do you usually use when you're drinking?' is **SYMPTOM** **EXPECTATION**; 'I can see that you look anxious when talking about those voices' is **ACKNOWLEDGEMENT**; the clinician describing their own **fluoxetine** side effects is **SELF-REVELATION**, which can powerfully backfire and is not recommended unless necessary for engagement.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -98,17 +98,7 @@
         },
         {
           "type": "trap",
-          "text": "**SUGGESTIVE** questions are the odd one out among techniques that facilitate disclosure (silence, positive reinforcement, acknowledgement of affect and validation do facilitate): the answer is contained in the question itself, which misleads both patient and doctor and leaves the patient little choice but to agree.",
-          "format": "SBA",
-          "source": {
-            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-            "page": 3,
-            "questionNumber": 5
-          }
-        },
-        {
-          "type": "trap",
-          "text": "**EMI** named-technique matches: 'What brings you to the clinic today?' is an **OPEN-ENDED** question (cannot be answered yes/no); asking when the patient feels most depressed after 'low mood ever since you can remember' is **CLARIFICATION**; 'So, you are getting disturbed by the dreams you have' is **RESTATEMENT** (phrases rearranged); 'So, you were having bad dreams last night' is **REPETITION** (the patient's exact words); 'So from what you told so far, you are anxious... Right?' is **SUMMATION**, which lets the patient clarify or modify the doctor's understanding.",
+          "text": "**Extended matching item** named-technique matches: 'What brings you to the clinic today?' is an **OPEN-ENDED** question (cannot be answered yes/no); asking when the patient feels most depressed after 'low mood ever since you can remember' is **CLARIFICATION**; 'So, you are getting disturbed by the dreams you have' is **RESTATEMENT** (phrases rearranged); 'So, you were having bad dreams last night' is **REPETITION** (the patient's exact words); 'So from what you told so far, you are anxious... Right?' is **SUMMATION**, which lets the patient clarify or modify the doctor's understanding.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -188,7 +178,7 @@
         ],
         "highlightBlockIndices": [
           3,
-          7
+          6
         ]
       }
     },
@@ -407,7 +397,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** named-technique matches: 'You seem not to have gained any weight in the last three months. Is it possible that your eating has been poor again?' is **CONFRONTATION**; 'I am going to interrupt you as there are few important things we need to cover today' is **LIMIT** **SETTING**; 'Did you sleep well last night?' is a **CLOSED** question; 'Do you like Sir Cliff Richards? I was a mad fan while at school' is **SELF-REVELATION**; 'You mentioned that your mother is a receptionist. What about yourself?' is a **TRANSITION**.",
+          "text": "**Extended matching item** named-technique matches: 'You seem not to have gained any weight in the last three months. Is it possible that your eating has been poor again?' is **CONFRONTATION**; 'I am going to interrupt you as there are few important things we need to cover today' is **LIMIT** **SETTING**; 'Did you sleep well last night?' is a **CLOSED** question; 'Do you like Sir Cliff Richards? I was a mad fan while at school' is **SELF-REVELATION**; 'You mentioned that your mother is a receptionist. What about yourself?' is a **TRANSITION**.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -507,7 +497,7 @@
             [
               "Positive reinforcement",
               "Gently uplifting self-esteem by statements of praise (but at a realistic extent)",
-              "'Well, I think you've described the situation in a way that helped me understand what you have been going through'."
+              "'I've never been good at expressing my problems'. 'Well, I think you've described the situation in a way that helped me understand what you have been going through'."
             ],
             [
               "Statement of respect",
@@ -617,6 +607,16 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 48,
             "questionNumber": 109
+          }
+        },
+        {
+          "type": "trap",
+          "text": "**SUGGESTIVE** questions are the odd one out among techniques that facilitate disclosure (silence, positive reinforcement, acknowledgement of affect and validation do facilitate): the answer is contained in the question itself, which misleads both patient and doctor and leaves the patient little choice but to agree.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
           }
         }
       ],
@@ -907,14 +907,14 @@
             }
           },
           {
-            "text": "Functional (ABC) analysis observes antecedents, behaviour and consequences; used in LD, dementia care and challenging behaviour services.",
+            "text": "Functional (ABC) analysis observes antecedents, behaviour and consequences; used in learning disability, dementia care and challenging behaviour services.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 8
             }
           },
           {
-            "text": "Interpreters: brief them, insist on literal (not interpreted) translation in the MSE, debrief them, use the same one for a case.",
+            "text": "Interpreters: brief them, insist on literal (not interpreted) translation in the mental state examination, debrief them, use the same one for a case.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 9
@@ -1083,7 +1083,7 @@
             ],
             [
               "Serum thyroxine concentrations",
-              "==1%== and ==4%== of depressed patients, especially women, show evidence of overt hypothyroidism; ==4%== to ==40%== have subclinical hypothyroidism, contributing to treatment failure. Serum **T4** reductions may accompany treatment with antidepressants, **lithium**, sleep deprivation, or **ECT**, especially in responders."
+              "==1%== to ==4%== (the source prints \"1% and 4%\"; read as a range) of depressed patients, especially women, show evidence of overt hypothyroidism; ==4%== to ==40%== have subclinical hypothyroidism, contributing to treatment failure. Serum **T4** reductions may accompany treatment with antidepressants, **lithium**, sleep deprivation, or **ECT**, especially in responders."
             ],
             [
               "Thyrotropin-releasing hormone (**TRH**) test",
@@ -1159,28 +1159,28 @@
             }
           },
           {
-            "text": "Work-up tests: FBC, TSH, B12, HIV/syphilis if suspected, electrolytes, GFR/creatinine, LFTs, toxicology; urinary free cortisol for Cushing; ACTH stimulation for Addison's.",
+            "text": "Work-up tests: full blood count, thyroid-stimulating hormone, B12, human immunodeficiency virus/syphilis if suspected, electrolytes, glomerular filtration rate/creatinine, liver function tests, toxicology; urinary free cortisol for Cushing; adrenocorticotropic hormone stimulation for Addison's.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 10
             }
           },
           {
-            "text": "DST non-suppression rises from grief (10%) to dysthymia (23%), MDD (44%), melancholia (50%), psychotic affective (69%) and depression with serious suicidality (78%).",
+            "text": "Dexamethasone suppression test non-suppression rises from grief (10%) to dysthymia (23%), major depressive disorder (44%), melancholia (50%), psychotic affective (69%) and depression with serious suicidality (78%).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 10
             }
           },
           {
-            "text": "DST non-suppression is non-specific (chronic pain, eating disorders, alcoholism, OCD, anxiety); DST-positive patients respond better to biological treatments.",
+            "text": "Dexamethasone suppression test non-suppression is non-specific (chronic pain, eating disorders, alcoholism, obsessive-compulsive disorder, anxiety); dexamethasone suppression test-positive patients respond better to biological treatments.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 10
             }
           },
           {
-            "text": "CRH test: blunted ACTH response; TRH test: about 30% show blunted TSH response.",
+            "text": "Corticotropin-releasing hormone test: blunted adrenocorticotropic hormone response; thyrotropin-releasing hormone test: about 30% show blunted thyroid-stimulating hormone response.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 10
@@ -1196,7 +1196,7 @@
         ],
         "facts": [
           {
-            "label": "DST-positive: major depressive disorder",
+            "label": "Dexamethasone suppression test-positive: major depressive disorder",
             "value": "44%",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -1204,7 +1204,7 @@
             }
           },
           {
-            "label": "DST-positive: depression with serious suicidality",
+            "label": "Dexamethasone suppression test-positive: depression with serious suicidality",
             "value": "78%",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -1212,7 +1212,7 @@
             }
           },
           {
-            "label": "Blunted TSH response to TRH",
+            "label": "Blunted thyroid-stimulating hormone response to thyrotropin-releasing hormone",
             "value": "about 30%",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -1268,7 +1268,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** biochemical matches: panic disorder = **LACTATE** provocation (nearly ==72%== have a panic attack on **IV** sodium lactate); differentiating pseudoseizures from true epileptic attacks = **SERUM** **PROLACTIN** (elevated within 15-20 minutes of a true seizure, not in pseudoseizures); neuroleptic malignant syndrome = serum **CREATININE** **PHOSPHOKINASE** (raised); **SIADH** induced by antidepressants = **URINE** **ANALYSIS** (urine osmolality high despite hyponatraemia); depression = **DEXAMETHASONE** suppression test (failure of feedback suppression of cortisol).",
+          "text": "**Extended matching item** biochemical matches: panic disorder = **LACTATE** provocation (nearly ==72%== have a panic attack on **IV** sodium lactate); differentiating pseudoseizures from true epileptic attacks = **SERUM** **PROLACTIN** (elevated within 15-20 minutes of a true seizure, not in pseudoseizures); neuroleptic malignant syndrome = serum **CREATININE** **PHOSPHOKINASE** (raised); **SIADH** induced by antidepressants = **URINE** **ANALYSIS** (urine osmolality high despite hyponatraemia); depression = **DEXAMETHASONE** suppression test (failure of feedback suppression of cortisol).",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -1298,7 +1298,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Medical causes of panic: paroxysmal atrial tachycardia, PE, seizures, Meniere's, TIA, carcinoid, Cushing's, hyperthyroidism, hypoglycaemia, phaeochromocytoma.",
+            "text": "Medical causes of panic: paroxysmal atrial tachycardia, pulmonary embolism, seizures, Meniere's, transient ischaemic attack, carcinoid, Cushing's, hyperthyroidism, hypoglycaemia, phaeochromocytoma.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 11
@@ -1328,7 +1328,7 @@
         ],
         "facts": [
           {
-            "label": "Panic disorder patients having a panic attack with IV sodium lactate",
+            "label": "Panic disorder patients having a panic attack with intravenous sodium lactate",
             "value": "about 72%",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -1422,7 +1422,7 @@
             ],
             [
               "**GFR** and creatinine",
-              "In preparation for antidepressant use and to rule out renal insufficiency contributing to depression"
+              "In preparation for antidepressant use and to rule out renal insufficiency contributing to depression (as printed in the source, apparently copied from the depression table). Reviewer correction (not in the source): in preparation for antipsychotic use and to rule out renal insufficiency"
             ],
             [
               "Liver function tests (LFTs)",
@@ -1566,14 +1566,14 @@
             }
           },
           {
-            "text": "Initial tests: FBC, thyroid profile, glucose/lipids/ECG, prolactin, electrolytes, GFR/creatinine, LFTs, toxicology.",
+            "text": "Initial tests: full blood count, thyroid profile, glucose/lipids/electrocardiogram, prolactin, electrolytes, glomerular filtration rate/creatinine, liver function tests, toxicology.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 12
             }
           },
           {
-            "text": "Antipsychotic baselines: FBC (haemotoxic olanzapine/clozapine), glucose/lipids/ECG, prolactin, LFTs.",
+            "text": "Antipsychotic baselines: full blood count (haemotoxic olanzapine/clozapine), glucose/lipids/electrocardiogram, prolactin, liver function tests.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 12
@@ -1587,28 +1587,28 @@
             }
           },
           {
-            "text": "Specific conditions: Wilson's - serum ceruloplasmin and 24-h copper excretion; hyperparathyroidism - calcium and PTH; Cushing's - 24-h urinary free cortisol then DST/ACTH challenge.",
+            "text": "Specific conditions: Wilson's - serum ceruloplasmin and 24-h copper excretion; hyperparathyroidism - calcium and parathyroid hormone; Cushing's - 24-h urinary free cortisol then dexamethasone suppression test/adrenocorticotropic hormone challenge.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 12
             }
           },
           {
-            "text": "Suspected encephalitis: NMDAR and VGKC auto-antibodies; autoimmune screen: ANA, CRP, ESR.",
+            "text": "Suspected encephalitis: NMDAR and voltage-gated potassium channel auto-antibodies; autoimmune screen: antinuclear antibodies, C-reactive protein, erythrocyte sedimentation rate.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 12
             }
           },
           {
-            "text": "AIP: abdominal pain, neuropathy, constipation, no rash; autosomal dominant, 18-40 years; triggered by oestrogens, barbiturates, benzodiazepines, diclofenac.",
+            "text": "Acute intermittent porphyria: abdominal pain, neuropathy, constipation, no rash; autosomal dominant, 18-40 years; triggered by oestrogens, barbiturates, benzodiazepines, diclofenac.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 13
             }
           },
           {
-            "text": "AIP key test: urinary porphobilinogen in acute attacks; treat with haemin.",
+            "text": "Acute intermittent porphyria key test: urinary porphobilinogen in acute attacks; treat with haemin.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 13
@@ -1736,7 +1736,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Receptors targeted by autoimmune psychosis: VGKC complex, NMDA, AMPA, GABA-B, glycine.",
+            "text": "Receptors targeted by autoimmune psychosis: voltage-gated potassium channel complex, NMDA, AMPA, GABA-B, glycine.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 13
@@ -1757,14 +1757,14 @@
             }
           },
           {
-            "text": "Investigate: serum NMDAR/VGKC antibodies, ANA/CRP/ESR/FBC/U+E (low sodium with anti-VGKC), EEG, MRI; confirm with CSF.",
+            "text": "Investigate: serum NMDAR/voltage-gated potassium channel antibodies, antinuclear antibodies/C-reactive protein/erythrocyte sedimentation rate/full blood count/urea and electrolytes (low sodium with anti-voltage-gated potassium channel), electroencephalogram, magnetic resonance imaging; confirm with cerebrospinal fluid.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 13
             }
           },
           {
-            "text": "CSF: lymphocytic pleocytosis, raised protein, oligoclonal bands in about 60%; MRI normal in about 50%; pelvic US/CT in females.",
+            "text": "Cerebrospinal fluid: lymphocytic pleocytosis, raised protein, oligoclonal bands in about 60%; magnetic resonance imaging normal in about 50%; pelvic ultrasound/computed tomography in females.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 14
@@ -1778,7 +1778,7 @@
             }
           },
           {
-            "text": "Avoid antipsychotics (dystonia, NMS-like syndrome); benzodiazepines may be needed.",
+            "text": "Avoid antipsychotics (dystonia, neuroleptic malignant syndrome-like syndrome); benzodiazepines may be needed.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 14
@@ -1985,7 +1985,7 @@
             }
           },
           {
-            "text": "Initial work-up: FBC, thyroid profile, glucose/lipids/ECG, thiamine and folate, syphilis/HIV, electrolytes, GFR, LFTs, CT/MRI.",
+            "text": "Initial work-up: full blood count, thyroid profile, glucose/lipids/electrocardiogram, thiamine and folate, syphilis/human immunodeficiency virus, electrolytes, glomerular filtration rate, liver function tests, computed tomography/magnetic resonance imaging.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 14
@@ -1999,21 +1999,21 @@
             }
           },
           {
-            "text": "HIV is associated with cognitive impairment that can worsen with opportunistic infections.",
+            "text": "Human immunodeficiency virus is associated with cognitive impairment that can worsen with opportunistic infections.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 14
             }
           },
           {
-            "text": "CT/MRI is routine but low-yield in Alzheimer's type; recommended if vascular dementia, subdural haematoma or tumour suspected.",
+            "text": "Computed tomography/magnetic resonance imaging is routine but low-yield in Alzheimer's type; recommended if vascular dementia, subdural haematoma or tumour suspected.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 14
             }
           },
           {
-            "text": "No routine EEG; rapid-onset dementia may suggest CJD, warranting EEG and MRI.",
+            "text": "No routine electroencephalogram; rapid-onset dementia may suggest Creutzfeldt-Jakob disease, warranting electroencephalogram and magnetic resonance imaging.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 15
@@ -2028,7 +2028,7 @@
     },
     {
       "id": "anorexia-investigations-bmi",
-      "title": "11. Anorexia nervosa: investigations and BMI",
+      "title": "11. Anorexia nervosa: investigations and body mass index",
       "blocks": [
         {
           "type": "table",
@@ -2113,7 +2113,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** refeeding matches: sudden death when a very underweight girl is given parenteral nutrition = **HYPOPHOSPHATAEMIA** (refeeding syndrome: the switch to carbohydrate-induced insulin release drives potassium, phosphate and magnesium into cells); coma during fluid resuscitation of an anorexic girl with severe dehydration = **HYPONATRAEMIA** (uncontrolled correction of dehydration and electrolytes can cause hyponatraemia and cerebral oedema).",
+          "text": "**Extended matching item** refeeding matches: sudden death when a very underweight girl is given parenteral nutrition = **HYPOPHOSPHATAEMIA** (refeeding syndrome: the switch to carbohydrate-induced insulin release drives potassium, phosphate and magnesium into cells); coma during fluid resuscitation of an anorexic girl with severe dehydration = **HYPONATRAEMIA** (uncontrolled correction of dehydration and electrolytes can cause hyponatraemia and cerebral oedema).",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -2175,14 +2175,14 @@
       "concise": {
         "bullets": [
           {
-            "text": "Endocrine: low LH/FSH/oestradiol, low T3 with normal TSH, mildly raised cortisol, raised growth hormone, low leptin.",
+            "text": "Endocrine: low luteinising hormone/follicle-stimulating hormone/oestradiol, low T3 with normal thyroid-stimulating hormone, mildly raised cortisol, raised growth hormone, low leptin.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 15
             }
           },
           {
-            "text": "ECG: conduction defects, QT prolongation of major concern; GI: delayed gastric emptying, reduced colonic motility.",
+            "text": "Electrocardiogram: conduction defects, QT prolongation of major concern; gastrointestinal: delayed gastric emptying, reduced colonic motility.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 15
@@ -2203,14 +2203,14 @@
             }
           },
           {
-            "text": "Osteopenia/osteoporosis and pseudo-atrophy (enlarged ventricles and CSF spaces).",
+            "text": "Osteopenia/osteoporosis and pseudo-atrophy (enlarged ventricles and cerebrospinal fluid spaces).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 16
             }
           },
           {
-            "text": "BMI = kg / m^2; underweight <18.5, normal 18.5-24.9, overweight 25-29.9, obese 30+.",
+            "text": "Body mass index = kg / m^2; underweight <18.5, normal 18.5-24.9, overweight 25-29.9, obese 30+.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 16
@@ -2219,7 +2219,7 @@
         ],
         "facts": [
           {
-            "label": "BMI of 50 kg and 165 cm",
+            "label": "Body mass index of 50 kg and 165 cm",
             "value": "18.36",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -2305,7 +2305,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** alcohol-test matches: **GGT** = the **SENSITIVE** marker (levels normalise 2-4 weeks after abstinence); carbohydrate-deficient transferrin = accurately predicts **RECENT** alcohol abuse and detects relapse; mean corpuscular volume = the more **SPECIFIC** test, less useful for relapse; **AUDIT** = best screening tool in primary care. Note the notes call **CDT** the single most specific and sensitive test for heavy drinking over the last 10 days - match on the question's own wording.",
+          "text": "**Extended matching item** alcohol-test matches: **GGT** = the **SENSITIVE** marker (levels normalise 2-4 weeks after abstinence); carbohydrate-deficient transferrin = accurately predicts **RECENT** alcohol abuse and detects relapse; mean corpuscular volume = the more **SPECIFIC** test, less useful for relapse; **AUDIT** = best screening tool in primary care. Note the notes call **CDT** the single most specific and sensitive test for heavy drinking over the last 10 days - match on the question's own wording.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -2315,7 +2315,7 @@
         },
         {
           "type": "trap",
-          "text": "Post-operative confusion in a malnourished alcoholic (**EMI**): bacterial septicaemia = **PETECHIAL** rash; Wernicke syndrome = **NYSTAGMUS** (the classic triad of ophthalmoplegia, ataxia and confusion is present in only ==10%== and ==80%== are not diagnosed before postmortem; gait ataxia may not be demonstrable after femoral surgery); acute hepatic failure = **FLAPPING** tremor (asterixis; jaundice is also a feature).",
+          "text": "Post-operative confusion in a malnourished alcoholic (**extended matching item**): bacterial septicaemia = **PETECHIAL** rash; Wernicke syndrome = **NYSTAGMUS** (the classic triad of ophthalmoplegia, ataxia and confusion is present in only ==10%== and ==80%== are not diagnosed before postmortem; gait ataxia may not be demonstrable after femoral surgery); acute hepatic failure = **FLAPPING** tremor (asterixis; jaundice is also a feature).",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -2377,7 +2377,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "No single lab test diagnoses alcohol abuse; CDT is the most specific and sensitive for heavy use over the last 10 days, best compared with the patient's own baseline.",
+            "text": "No single lab test diagnoses alcohol abuse; carbohydrate-deficient transferrin is the most specific and sensitive for heavy use over the last 10 days, best compared with the patient's own baseline.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 16
@@ -2398,14 +2398,14 @@
             }
           },
           {
-            "text": "GI: GI bleeds, Mallory-Weiss tears, fatty liver, cirrhosis, portal hypertension, pancreatitis, hypoglycaemia; cardiac: cardiomyopathy, hypertension.",
+            "text": "Gastrointestinal: gastrointestinal bleeds, Mallory-Weiss tears, fatty liver, cirrhosis, portal hypertension, pancreatitis, hypoglycaemia; cardiac: cardiomyopathy, hypertension.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 16
             }
           },
           {
-            "text": "Haematologic: pancytopenia, folate/B12 deficiency with MCV changes, clotting disorders; renal: hepatorenal syndrome, hyponatraemia.",
+            "text": "Haematologic: pancytopenia, folate/B12 deficiency with mean corpuscular volume changes, clotting disorders; renal: hepatorenal syndrome, hyponatraemia.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 16
@@ -2427,7 +2427,7 @@
     },
     {
       "id": "ecg-urinalysis",
-      "title": "13. Specific investigations: ECG/QTc and urine drug testing",
+      "title": "13. Specific investigations: electrocardiogram/QTc and urine drug testing",
       "blocks": [
         {
           "type": "paragraph",
@@ -2522,7 +2522,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "ECG on psychiatric wards mainly measures QT when using antipsychotics; prolonged QT risks torsades de pointes.",
+            "text": "Electrocardiogram on psychiatric wards mainly measures QT when using antipsychotics; prolonged QT risks torsades de pointes.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 17
@@ -2550,7 +2550,7 @@
             }
           },
           {
-            "text": "Urine detection: alcohol up to 12 h, amphetamine up to 48 h, benzodiazepine 3 days, cocaine 6-8 h (metabolites 2-4 days), heroin 1-3 days, morphine 2-3 days, codeine 48 h, methadone 3+ days, PCP 8 days.",
+            "text": "Urine detection: alcohol up to 12 h, amphetamine up to 48 h, benzodiazepine 3 days, cocaine 6-8 h (metabolites 2-4 days), heroin 1-3 days, morphine 2-3 days, codeine 48 h, methadone 3+ days, phencyclidine 8 days.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 18
@@ -2605,7 +2605,7 @@
     },
     {
       "id": "renal-siadh-polydipsia",
-      "title": "14. Renal disturbances, SIADH, polydipsia and diabetes insipidus",
+      "title": "14. Renal disturbances, syndrome of inappropriate antidiuretic hormone secretion, polydipsia and diabetes insipidus",
       "blocks": [
         {
           "type": "paragraph",
@@ -2830,35 +2830,35 @@
       "concise": {
         "bullets": [
           {
-            "text": "Heroin user with puffy face, hypertension and weight gain: suspect heroin-related nephropathy; FSGS often in Black patients, membranoproliferative GN in Whites.",
+            "text": "Heroin user with puffy face, hypertension and weight gain: suspect heroin-related nephropathy; focal segmental glomerulosclerosis often in Black patients, membranoproliferative glomerulonephritis in Whites.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 18
             }
           },
           {
-            "text": "Urine analysis matters for SIADH (antidepressants/antipsychotics), psychogenic polydipsia and DI (lithium nephrogenic; head injury central).",
+            "text": "Urine analysis matters for syndrome of inappropriate antidiuretic hormone secretion (antidepressants/antipsychotics), psychogenic polydipsia and diabetes insipidus (lithium nephrogenic; head injury central).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 18
             }
           },
           {
-            "text": "Osmolality guide: plasma high + urine low = DI; plasma low + urine low = psychogenic polydipsia; plasma low + urine high = SIADH.",
+            "text": "Osmolality guide: plasma high + urine low = diabetes insipidus; plasma low + urine low = psychogenic polydipsia; plasma low + urine high = syndrome of inappropriate antidiuretic hormone secretion.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 18
             }
           },
           {
-            "text": "Polydipsia: gradual onset, rare nocturia, normal/low plasma osmolality; DI: acute onset, common nocturia, elevated plasma osmolality.",
+            "text": "Polydipsia: gradual onset, rare nocturia, normal/low plasma osmolality; diabetes insipidus: acute onset, common nocturia, elevated plasma osmolality.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 18
             }
           },
           {
-            "text": "Polydipsia and polyuria are not features of SIADH or hyponatraemia per se.",
+            "text": "Polydipsia and polyuria are not features of syndrome of inappropriate antidiuretic hormone secretion or hyponatraemia per se.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 19
@@ -2874,7 +2874,7 @@
         ],
         "facts": [
           {
-            "label": "Plasma osmolality in DI",
+            "label": "Plasma osmolality in diabetes insipidus",
             "value": "> 295 mosm/kg",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -3035,7 +3035,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** physical-sign matches: **LANUGO** hair = anorexia nervosa; **RUSSELL** sign (abrasions and calluses over the knuckles from the incisors during self-induced vomiting) = bulimia; **PILOERECTION** (gooseflesh, 'cold turkey') = opioid withdrawal; **SIALORRHOEA** (hypersalivation, which can contribute to aspiration pneumonia) = **clozapine**.",
+          "text": "**Extended matching item** physical-sign matches: **LANUGO** hair = anorexia nervosa; **RUSSELL** sign (abrasions and calluses over the knuckles from the incisors during self-induced vomiting) = bulimia; **PILOERECTION** (gooseflesh, 'cold turkey') = opioid withdrawal; **SIALORRHOEA** (hypersalivation, which can contribute to aspiration pneumonia) = **clozapine**.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -3045,7 +3045,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** general-examination matches: generalised lymph node enlargement = **HIV** illness (mania and weight loss in a drug abuser); Argyll-Robertson pupil = long-standing diabetes with depression; **XANTHELASMA** = long-term **olanzapine**; **CHECKERBOARD** abdomen = repeated A&E attendance with chronic abdominal pain and self-inflicted injury; **JAUNDICE** = heavy alcohol use.",
+          "text": "**Extended matching item** general-examination matches: generalised lymph node enlargement = **HIV** illness (mania and weight loss in a drug abuser); Argyll-Robertson pupil = long-standing diabetes with depression; **XANTHELASMA** = long-term **olanzapine**; **CHECKERBOARD** abdomen = repeated A&E attendance with chronic abdominal pain and self-inflicted injury; **JAUNDICE** = heavy alcohol use.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -3175,7 +3175,7 @@
             }
           },
           {
-            "text": "Signs: checker-board abdomen = factitious disorder; Kayser-Fleischer ring = Wilson's; lymph nodes = HIV/lymphoma; lanugo = anorexia; Russell's sign = bulimia.",
+            "text": "Signs: checker-board abdomen = factitious disorder; Kayser-Fleischer ring = Wilson's; lymph nodes = human immunodeficiency virus/lymphoma; lanugo = anorexia; Russell's sign = bulimia.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 20
@@ -3436,8 +3436,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "Visual defects (EMI)",
-          "note": "Not in the notes (**EMI**): keyhole vision after a major stroke = cortical blindness (usually posterior cerebral artery occlusion; in effect a bilateral homonymous hemianopia with macular sparing); sudden blindness with patchy spirals of field loss = tunnel vision (seen in hysteria or malingering; conversion disorder); the field larger at 2 m than at 1 m = funnel vision (glaucoma among organic causes); a blind patient who denies the defect = Anton's syndrome; one-quarter of the field affected on one side = quadrantanopia.",
+          "subtopic": "Visual defects (extended matching item)",
+          "note": "Not in the notes (**extended matching item**): keyhole vision after a major stroke = cortical blindness (usually posterior cerebral artery occlusion; in effect a bilateral homonymous hemianopia with macular sparing); sudden blindness with patchy spirals of field loss = tunnel vision (seen in hysteria or malingering; conversion disorder); the field larger at 2 m than at 1 m = funnel vision (glaucoma among organic causes); a blind patient who denies the defect = Anton's syndrome; one-quarter of the field affected on one side = quadrantanopia.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 24,
@@ -3455,14 +3455,14 @@
             }
           },
           {
-            "text": "CN II fields are tested by confrontation/perimetry, colour by Ishihara, acuity by Snellen.",
+            "text": "Cranial nerve II fields are tested by confrontation/perimetry, colour by Ishihara, acuity by Snellen.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 21
             }
           },
           {
-            "text": "CN VIII: vestibular - Romberg/caloric; cochlear - Rinne and Weber.",
+            "text": "Cranial nerve VIII: vestibular - Romberg/caloric; cochlear - Rinne and Weber.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 22
@@ -3672,7 +3672,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Hard signs are localisable motor/sensory deficits; soft signs are non-localisable, thought to reflect neurodevelopmental aberration (schizophrenia, autism, OCD, ADHD).",
+            "text": "Hard signs are localisable motor/sensory deficits; soft signs are non-localisable, thought to reflect neurodevelopmental aberration (schizophrenia, autism, obsessive-compulsive disorder, attention deficit hyperactivity disorder).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 23
@@ -3894,7 +3894,7 @@
             }
           },
           {
-            "text": "Lasegue SLR limitation = lower lumbar root irritation; reverse SLR (prone) limitation = upper lumbar root irritation.",
+            "text": "Lasegue straight leg raise limitation = lower lumbar root irritation; reverse straight leg raise (prone) limitation = upper lumbar root irritation.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 24
@@ -3908,14 +3908,14 @@
             }
           },
           {
-            "text": "Chorea - caudate lesions; hemiballismus - subthalamic nucleus lesions; myoclonus - <0.25 s jerk, CJD and severe Alzheimer's.",
+            "text": "Chorea - caudate lesions; hemiballismus - subthalamic nucleus lesions; myoclonus - <0.25 s jerk, Creutzfeldt-Jakob disease and severe Alzheimer's.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 25
             }
           },
           {
-            "text": "Fasciculations usually benign but if widespread may indicate neuromuscular disease such as ALS.",
+            "text": "Fasciculations usually benign but if widespread may indicate neuromuscular disease such as amyotrophic lateral sclerosis.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 25
@@ -4018,7 +4018,7 @@
             ],
             [
               "Achilles",
-              "**S4**"
+              "**S4** (as printed in the source). Reviewer correction (not in the source): the ankle jerk is S1-2"
             ]
           ],
           "sources": [
@@ -4062,7 +4062,7 @@
             ],
             [
               "Axillary freckling",
-              "Neurofibroma"
+              "Neurofibroma (as printed in the source). Reviewer correction (not in the source): axillary freckling is a sign of neurofibromatosis type 1 (Crowe sign); a neurofibroma is a tumour"
             ]
           ],
           "sources": [
@@ -4141,35 +4141,35 @@
             }
           },
           {
-            "text": "Superficial reflexes: corneal, conjunctival, abdominal, cremasteric, plantar; corneal afferent via CN V, efferent via CN VII.",
+            "text": "Superficial reflexes: corneal, conjunctival, abdominal, cremasteric, plantar; corneal afferent via cranial nerve V, efferent via cranial nerve VII.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 25
             }
           },
           {
-            "text": "Positive Babinski (great toe dorsiflexion) suggests UMN lesion; normal is plantar flexion.",
+            "text": "Positive Babinski (great toe dorsiflexion) suggests upper motor neuron lesion; normal is plantar flexion.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 26
             }
           },
           {
-            "text": "Deep tendon reflexes: exaggerated in UMN lesions, absent in LMN lesions; roots: biceps C5-6, brachioradialis C6, triceps C7, patellar L2-4, Achilles S4.",
+            "text": "Deep tendon reflexes: exaggerated in upper motor neuron lesions, absent in lower motor neuron lesions; roots: biceps C5-6, brachioradialis C6, triceps C7, patellar L2-4, Achilles S4 as printed in the source (reviewer correction, not in the source: the ankle jerk is S1-2).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 26
             }
           },
           {
-            "text": "Neurocutaneous: ash leaf macules and ungual fibromas - tuberous sclerosis; cafe au lait spots - neurofibromata/tuberous sclerosis; axillary freckling - neurofibroma; frontal baldness - myotonic dystrophy.",
+            "text": "Neurocutaneous: ash leaf macules and ungual fibromas - tuberous sclerosis; cafe au lait spots - neurofibromata/tuberous sclerosis; axillary freckling - neurofibroma as printed in the source (reviewer correction, not in the source: neurofibromatosis type 1, Crowe sign); frontal baldness - myotonic dystrophy.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 26
             }
           },
           {
-            "text": "Dysarthria: spastic (bilateral UMN), flaccid (LMN), ataxic (scanning, cerebellar), hypokinetic (breathy monotone), hyperkinetic (basal ganglia), mixed.",
+            "text": "Dysarthria: spastic (bilateral upper motor neuron), flaccid (lower motor neuron), ataxic (scanning, cerebellar), hypokinetic (breathy monotone), hyperkinetic (basal ganglia), mixed.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 26
@@ -4323,7 +4323,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** gait matches: Huntington disease = **LURCHING** chaotic gait; pregnancy = **WADDLING** (myopathic) gait - broad-based with a duck-like waddle, also seen in proximal myopathy; hip dysplasia = **PIGEON** gait (torsional difficulties); Friedreich ataxia = **STOMPING** gait (dorsal column sensory disturbance, as in subacute combined cord degeneration).",
+          "text": "**Extended matching item** gait matches: Huntington disease = **LURCHING** chaotic gait; pregnancy = **WADDLING** (myopathic) gait - broad-based with a duck-like waddle, also seen in proximal myopathy; hip dysplasia = **PIGEON** gait (torsional difficulties); Friedreich ataxia = **STOMPING** gait (dorsal column sensory disturbance, as in subacute combined cord degeneration).",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -4334,7 +4334,7 @@
         {
           "type": "gap",
           "subtopic": "Normal pressure hydrocephalus and Charles Bonnet syndrome",
-          "note": "Not in the notes beyond 'gait apraxia - hydrocephalus (magnetic gait)': normal pressure hydrocephalus is dilatation of the cerebral ventricles (especially the third) with normal **CSF** pressure at lumbar puncture, typically the triad of dementia, gait disorder and urinary incontinence, with a broad-based, bradykinetic, shuffling gait and enlarged lateral ventricles with thinning of the cortex on **CT**; in the same **EMI**, Charles Bonnet syndrome is complex visual hallucinations in clear consciousness with reduced vision, no other psychopathology and retained insight.",
+          "note": "Not in the notes beyond 'gait apraxia - hydrocephalus (magnetic gait)': normal pressure hydrocephalus is dilatation of the cerebral ventricles (especially the third) with normal **CSF** pressure at lumbar puncture, typically the triad of dementia, gait disorder and urinary incontinence, with a broad-based, bradykinetic, shuffling gait and enlarged lateral ventricles with thinning of the cortex on **CT**; in the same **extended matching item**, Charles Bonnet syndrome is complex visual hallucinations in clear consciousness with reduced vision, no other psychopathology and retained insight.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 26,
@@ -4447,7 +4447,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** eye-sign matches: sluggish light and accommodation reflexes with persistently small pupils = **SENILE** pupil; small irregular pupil with no light response but accommodation preserved = **ARGYLL-ROBERTSON** (seen in neurosyphilis); swinging-flashlight dilatation with no anisocoria = **MARCUS** **GUNN** (afferent defect from optic nerve damage); one pupil constricting then widely dilating, then the other = **HUTCHINSON** pupil (rapidly rising unilateral intracranial pressure); ptosis, anhidrosis and enophthalmos with normal light and accommodation reflexes = **HORNER**'S syndrome.",
+          "text": "**Extended matching item** eye-sign matches: sluggish light and accommodation reflexes with persistently small pupils = **SENILE** pupil; small irregular pupil with no light response but accommodation preserved = **ARGYLL-ROBERTSON** (seen in neurosyphilis); swinging-flashlight dilatation with no anisocoria = **MARCUS** **GUNN** (afferent defect from optic nerve damage); one pupil constricting then widely dilating, then the other = **HUTCHINSON** pupil (rapidly rising unilateral intracranial pressure); ptosis, anhidrosis and enophthalmos with normal light and accommodation reflexes = **HORNER**'S syndrome.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -4568,7 +4568,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** neurological-sign matches: difficulty turning in bed with rest tremor and forearm stiffness = **SHUFFLING** gait (parkinsonism); wing-beating tremor with abnormal liver function and a suspected genetic disease = **KAYSER-FLEISCHER** ring (Wilson disease); poor motor development, bulky muscles and a brother who died of cardiomyopathy at 16 = **GOWER**'S sign; continued blinking to repeated glabellar taps with rest tremor and cogwheel rigidity = **MYERSON** sign.",
+          "text": "**Extended matching item** neurological-sign matches: difficulty turning in bed with rest tremor and forearm stiffness = **SHUFFLING** gait (parkinsonism); wing-beating tremor with abnormal liver function and a suspected genetic disease = **KAYSER-FLEISCHER** ring (Wilson disease); poor motor development, bulky muscles and a brother who died of cardiomyopathy at 16 = **GOWER**'S sign; continued blinking to repeated glabellar taps with rest tremor and cogwheel rigidity = **MYERSON** sign.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -4667,7 +4667,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Absent ankle jerks with upgoing plantars: subacute combined degeneration, taboparesis, Friedreich's ataxia, MND.",
+            "text": "Absent ankle jerks with upgoing plantars: subacute combined degeneration, taboparesis, Friedreich's ataxia, motor neurone disease.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 28
@@ -4731,7 +4731,7 @@
     },
     {
       "id": "umn-lmn-bulbar",
-      "title": "22. UMN vs LMN lesions; bulbar vs pseudobulbar palsy",
+      "title": "22. Upper motor neuron vs lower motor neuron lesions; bulbar vs pseudobulbar palsy",
       "blocks": [
         {
           "type": "image",
@@ -4854,28 +4854,28 @@
       "concise": {
         "bullets": [
           {
-            "text": "UMN lesion: hypertonia/rigidity, exaggerated reflexes, mild disuse atrophy; LMN lesion: hypotonia, absent reflexes, wasting, fasciculations.",
+            "text": "Upper motor neuron lesion: hypertonia/rigidity, exaggerated reflexes, mild disuse atrophy; lower motor neuron lesion: hypotonia, absent reflexes, wasting, fasciculations.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 30
             }
           },
           {
-            "text": "Bulbar palsy: LMN lesion of CN 9-12; wasted fasciculating tongue, nasal speech, lost jaw jerk and gag, no emotional lability.",
+            "text": "Bulbar palsy: lower motor neuron lesion of cranial nerves 9-12; wasted fasciculating tongue, nasal speech, lost jaw jerk and gag, no emotional lability.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 31
             }
           },
           {
-            "text": "Pseudobulbar palsy: bilateral UMN lesions; stiff tongue, Donald-duck speech, exaggerated jaw jerk, preserved gag, emotional lability.",
+            "text": "Pseudobulbar palsy: bilateral upper motor neuron lesions; stiff tongue, Donald-duck speech, exaggerated jaw jerk, preserved gag, emotional lability.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 31
             }
           },
           {
-            "text": "Bulbar causes: MND, polio, botulism, myasthenia gravis, muscular dystrophy; pseudobulbar causes: MND, MS, multi-infarct dementia, severe head injury.",
+            "text": "Bulbar causes: motor neurone disease, polio, botulism, myasthenia gravis, muscular dystrophy; pseudobulbar causes: motor neurone disease, multiple sclerosis, multi-infarct dementia, severe head injury.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 31
@@ -5144,14 +5144,14 @@
       "concise": {
         "bullets": [
           {
-            "text": "MMSE: 30 points, 5-10 minutes; cut-off 21/22 if under 9 years of education (usual 23/24); misses early decline and frontal executive defects.",
+            "text": "Mini-Mental State Examination: 30 points, 5-10 minutes; cut-off 21/22 if under 9 years of education (usual 23/24); misses early decline and frontal executive defects.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 31
             }
           },
           {
-            "text": "MMSE items: orientation 10, registration and recall 6, attention 5, command 3, naming 2, repetition 1, reading 1, writing 1, visual construction 1.",
+            "text": "Mini-Mental State Examination items: orientation 10, registration and recall 6, attention 5, command 3, naming 2, repetition 1, reading 1, writing 1, visual construction 1.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 32
@@ -5172,14 +5172,14 @@
             }
           },
           {
-            "text": "ACE-R: six domains; more sensitive to frontal dementias than MMSE; cut-offs <88 and <82; language carries most of the score.",
+            "text": "Addenbrooke's Cognitive Examination-Revised: six domains; more sensitive to frontal dementias than Mini-Mental State Examination; cut-offs <88 and <82; language carries most of the score.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 32
             }
           },
           {
-            "text": "Overreliance on MMSE scores can be counterproductive; the clinical interview with carers and patients is the best diagnostic tool.",
+            "text": "Overreliance on Mini-Mental State Examination scores can be counterproductive; the clinical interview with carers and patients is the best diagnostic tool.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 32
@@ -5188,7 +5188,7 @@
         ],
         "facts": [
           {
-            "label": "MMSE total score",
+            "label": "Mini-Mental State Examination total score",
             "value": "30",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -5196,7 +5196,7 @@
             }
           },
           {
-            "label": "ACE-R cut-off <88",
+            "label": "Addenbrooke's Cognitive Examination-Revised cut-off <88",
             "value": "sensitivity 0.94, specificity 0.89",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -5204,7 +5204,7 @@
             }
           },
           {
-            "label": "ACE-R cut-off <82",
+            "label": "Addenbrooke's Cognitive Examination-Revised cut-off <82",
             "value": "sensitivity 0.84, specificity 1.0",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -5220,7 +5220,7 @@
     },
     {
       "id": "ct-mri",
-      "title": "24. Imaging of the nervous system: CT and MRI",
+      "title": "24. Imaging of the nervous system: computed tomography and magnetic resonance imaging",
       "blocks": [
         {
           "type": "paragraph",
@@ -5408,7 +5408,7 @@
             [
               "Bone",
               "Bright",
-              "Bright",
+              "Bright (as printed in the source). Reviewer correction (not in the source): cortical bone is dark on T1; the bright signal reflects fatty marrow inside the bone",
               "Dark"
             ],
             [
@@ -5455,42 +5455,42 @@
       "concise": {
         "bullets": [
           {
-            "text": "CT: most widely available, quick, cheap, but radiation; poor for early ischaemia, posterior fossa and structures near bone; calcification better seen than on MRI.",
+            "text": "Computed tomography: most widely available, quick, cheap, but radiation; poor for early ischaemia, posterior fossa and structures near bone; calcification better seen than on magnetic resonance imaging.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 34
             }
           },
           {
-            "text": "MRI: no radiation, good for early ischaemia and posterior fossa; limited availability, longer, costlier; contraindicated with pacemakers/ferromagnetic implants.",
+            "text": "Magnetic resonance imaging: no radiation, good for early ischaemia and posterior fossa; limited availability, longer, costlier; contraindicated with pacemakers/ferromagnetic implants.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 35
             }
           },
           {
-            "text": "T1: fat bright, CSF dark, best for structure, only sequence with gadolinium contrast; T2: CSF white, pathology (water) bright, best for pathology.",
+            "text": "T1: fat bright, cerebrospinal fluid dark, best for structure, only sequence with gadolinium contrast; T2: cerebrospinal fluid white, pathology (water) bright, best for pathology.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 35
             }
           },
           {
-            "text": "FLAIR detects hippocampal sclerosis in temporal lobe epilepsy; proton density shows periventricular structures.",
+            "text": "Fluid attenuated inversion recovery detects hippocampal sclerosis in temporal lobe epilepsy; proton density shows periventricular structures.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 35
             }
           },
           {
-            "text": "Infarct, tumour, MS plaque and CSF are dark on CT and T1 but bright on T2; haemorrhage bright on CT, T1 and T2 (unless too old/too fresh).",
+            "text": "Infarct, tumour, multiple sclerosis plaque and cerebrospinal fluid are dark on computed tomography and T1 but bright on T2; haemorrhage bright on computed tomography, T1 and T2 (unless too old/too fresh).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 35
             }
           },
           {
-            "text": "Bone is bright on CT and T1 but dark on T2; air dark on all; fat dark on CT but bright on T1 and T2.",
+            "text": "Bone is bright on computed tomography and T1 but dark on T2 as printed in the source (reviewer correction, not in the source: cortical bone is dark on T1; the bright signal reflects fatty marrow); air dark on all; fat dark on computed tomography but bright on T1 and T2.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 36
@@ -5506,7 +5506,7 @@
     },
     {
       "id": "mrs-fmri",
-      "title": "25. Magnetic resonance spectroscopy and functional MRI",
+      "title": "25. Magnetic resonance spectroscopy and functional magnetic resonance imaging",
       "blocks": [
         {
           "type": "paragraph",
@@ -5641,14 +5641,14 @@
       "concise": {
         "bullets": [
           {
-            "text": "MRS detects odd-numbered nuclei; 1H quantifies NAA, creatine, choline; GABA and glutamate detectable but not dopamine (too low concentration).",
+            "text": "Magnetic resonance spectroscopy detects odd-numbered nuclei; 1H quantifies N-acetylaspartate, creatine, choline; GABA and glutamate detectable but not dopamine (too low concentration).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 36
             }
           },
           {
-            "text": "31P MRS measures brain pH and phosphorus compounds (ATP, GTP).",
+            "text": "31P magnetic resonance spectroscopy measures brain pH and phosphorus compounds (adenosine triphosphate, guanosine triphosphate).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 36
@@ -5662,21 +5662,21 @@
             }
           },
           {
-            "text": "MRS can measure brain lithium; fluoxetine and trifluoperazine contain fluorine-19 and are detectable.",
+            "text": "Magnetic resonance spectroscopy can measure brain lithium; fluoxetine and trifluoperazine contain fluorine-19 and are detectable.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 36
             }
           },
           {
-            "text": "fMRI uses BOLD: deoxyhaemoglobin is paramagnetic, detected on T2; it is a proxy of perfusion, not neuronal metabolism.",
+            "text": "Functional magnetic resonance imaging uses blood-oxygen-level-dependent: deoxyhaemoglobin is paramagnetic, detected on T2; it is a proxy of perfusion, not neuronal metabolism.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 36
             }
           },
           {
-            "text": "fMRI uses no radioactive isotopes (advantage over PET and SPECT); resting fMRI maps the default mode network (precuneus, lateral parietal, medial prefrontal).",
+            "text": "Functional magnetic resonance imaging uses no radioactive isotopes (advantage over positron emission tomography and single-photon emission computed tomography); resting functional magnetic resonance imaging maps the default mode network (precuneus, lateral parietal, medial prefrontal).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 37
@@ -5690,7 +5690,7 @@
     },
     {
       "id": "spect-pet-dti",
-      "title": "26. SPECT, PET and diffusion tensor imaging",
+      "title": "26. Single-photon emission computed tomography, positron emission tomography and diffusion tensor imaging",
       "blocks": [
         {
           "type": "paragraph",
@@ -5784,7 +5784,7 @@
           "rows": [
             [
               "Blood flow",
-              "**C15**/**H2** 15O (as printed)"
+              "**C15**/**H2** 15O (as printed; the source's subscripts and superscripts are garbled). Reviewer reading (not in the source): oxygen-15 labelled carbon dioxide (C15O2) or oxygen-15 labelled water (H2 15O)"
             ],
             [
               "Glucose metabolism",
@@ -5838,7 +5838,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** investigations of choice: fever with abrupt-onset confusion and behavioural change (herpes simplex encephalitis) = **MRI**, the most sensitive method for early lesions (**CSF** **PCR** is the in vivo gold standard, about ==95%== sensitive and specific); late-onset psychosis on **olanzapine** who develops parkinsonism (possible Lewy body dementia or Parkinson's disease rather than drug-induced) = **SPECT** **DAT** scan (I-123-**FP-CIT**, abnormal in ==86%== of **DLB** cases and helps separate idiopathic from drug-induced parkinsonism).",
+          "text": "**Extended matching item** investigations of choice: fever with abrupt-onset confusion and behavioural change (herpes simplex encephalitis) = **MRI**, the most sensitive method for early lesions (**CSF** **PCR** is the in vivo gold standard, about ==95%== sensitive and specific); late-onset psychosis on **olanzapine** who develops parkinsonism (possible Lewy body dementia or Parkinson's disease rather than drug-induced) = **SPECT** **DAT** scan (I-123-**FP-CIT**, abnormal in ==86%== of **DLB** cases and helps separate idiopathic from drug-induced parkinsonism).",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -5966,49 +5966,49 @@
       "concise": {
         "bullets": [
           {
-            "text": "SPECT: single-photon isotopes (I-123, Tc-99m, Xe-133) measure regional blood flow, not neuronal metabolism directly.",
+            "text": "Single-photon emission computed tomography: single-photon isotopes (I-123, Tc-99m, Xe-133) measure regional blood flow, not neuronal metabolism directly.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 37
             }
           },
           {
-            "text": "Xenon-133 SPECT (rCBF) measures only surface blood flow; Tc-99m HMPAO gives whole-brain perfusion and is most used in dementia.",
+            "text": "Xenon-133 single-photon emission computed tomography (regional cerebral blood flow) measures only surface blood flow; Tc-99m HMPAO gives whole-brain perfusion and is most used in dementia.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 37
             }
           },
           {
-            "text": "SPECT ligands: iodobenzamide - D1/D2; iomazenil - GABA-A; nor-beta-CIT - dopamine/serotonin transporters; epidepride - D2/D3.",
+            "text": "Single-photon emission computed tomography ligands: iodobenzamide - D1/D2; iomazenil - GABA-A; nor-beta-CIT - dopamine/serotonin transporters; epidepride - D2/D3.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 37
             }
           },
           {
-            "text": "PET emits two particles (SPECT one): better localisation and resolution (closer to 3 mm); needs an on-site cyclotron.",
+            "text": "Positron emission tomography emits two particles (single-photon emission computed tomography one): better localisation and resolution (closer to 3 mm); needs an on-site cyclotron.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 38
             }
           },
           {
-            "text": "FDG (18F-fluorodeoxyglucose) is the most used PET ligand and gives direct information about neuronal metabolism.",
+            "text": "18F-fluorodeoxyglucose is the most used positron emission tomography ligand and gives direct information about neuronal metabolism.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 38
             }
           },
           {
-            "text": "PET ligands: raclopride - D2; flumazenil - GABA-A; altanserin/setoperone - 5HT2; methyltryptophan - serotonin synthesis; scopolamine - muscarinic; 18F dopa - dopamine neuron density.",
+            "text": "Positron emission tomography ligands: raclopride - D2; flumazenil - GABA-A; altanserin/setoperone - 5HT2; methyltryptophan - serotonin synthesis; scopolamine - muscarinic; 18F dopa - dopamine neuron density.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 38
             }
           },
           {
-            "text": "DTI: fractional anisotropy indexes white matter integrity; tractography infers white-matter connectivity.",
+            "text": "Diffusion tensor imaging: fractional anisotropy indexes white matter integrity; tractography infers white-matter connectivity.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 38
@@ -6124,6 +6124,51 @@
         },
         {
           "type": "table",
+          "title": "Childhood-onset schizophrenia: grey matter changes by region",
+          "columns": [
+            "Region",
+            "Finding (figure, page 39)"
+          ],
+          "rows": [
+            [
+              "Overall pattern",
+              "Back-to-front progressive reduction"
+            ],
+            [
+              "Frontal",
+              "Progressive reduction in COS; Sibs: baseline changes not progressive"
+            ],
+            [
+              "Parietal",
+              "Profound early reduction in COS but not prominent by adulthood"
+            ],
+            [
+              "Occipital",
+              "Subtle changes; not seen by adulthood"
+            ],
+            [
+              "Temporal",
+              "Progressive reduction in COS; Sibs: baseline changes not progressive"
+            ],
+            [
+              "Insula",
+              "Robust reduction in adult patients"
+            ],
+            [
+              "Also noted (text beside the figure)",
+              "Ventricular enlargement at baseline and slower growth rates of white matter (especially right hemispheric) are also noted"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
+              "page": 39
+            }
+          ],
+          "highYield": true
+        },
+        {
+          "type": "table",
           "title": "Neuroimaging findings in Alzheimer's disease and OCD",
           "columns": [
             "Condition",
@@ -6171,7 +6216,7 @@
         },
         {
           "type": "trap",
-          "text": "**EMI** neuroimaging matches: persecutory delusions with third-person auditory hallucinations = ventricular enlargement and poor dorsolateral prefrontal activation in executive tasks on fMRI (schizophrenia); low mood, anhedonia and poor sleep = periventricular and deep white matter hyperintensities and decreased prefrontal and anterior cingulate metabolism (depression); short-term memory loss and poor concentration at 77 = ventricular enlargement and loss of temporal lobe volume, especially hippocampus.",
+          "text": "**Extended matching item** neuroimaging matches: persecutory delusions with third-person auditory hallucinations = ventricular enlargement and poor dorsolateral prefrontal activation in executive tasks on fMRI (schizophrenia); low mood, anhedonia and poor sleep = periventricular and deep white matter hyperintensities and decreased prefrontal and anterior cingulate metabolism (depression); short-term memory loss and poor concentration at 77 = ventricular enlargement and loss of temporal lobe volume, especially hippocampus.",
           "format": "EMI",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
@@ -6230,42 +6275,49 @@
       "concise": {
         "bullets": [
           {
-            "text": "Depression: periventricular/deep WM and thalamic/striatal hyperintensities; reduced frontal and basal ganglia volumes; lower prefrontal, cingulate, amygdala metabolism.",
+            "text": "Depression: periventricular/deep white matter and thalamic/striatal hyperintensities; reduced frontal and basal ganglia volumes; lower prefrontal, cingulate, amygdala metabolism.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
           },
           {
-            "text": "Depression: higher anterior cingulate/prefrontal metabolism predicts better treatment response; higher 5HT2A density, raised MAO-A, raised D2 binding (psychomotor retardation).",
+            "text": "Depression: higher anterior cingulate/prefrontal metabolism predicts better treatment response; higher 5HT2A density, raised monoamine oxidase A, raised D2 binding (psychomotor retardation).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
           },
           {
-            "text": "Therapeutic SSRI dose occupies 80% of 5HT transporters.",
+            "text": "Therapeutic selective serotonin reuptake inhibitor dose occupies 80% of 5HT transporters.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
           },
           {
-            "text": "Schizophrenia: ventricular enlargement; grey matter loss (insula, anterior cingulate, medial temporal); progressive volume loss in first years; poor DLPFC activation; low NAA in PFC; reduced FA.",
+            "text": "Schizophrenia: ventricular enlargement; grey matter loss (insula, anterior cingulate, medial temporal); progressive volume loss in first years; poor dorsolateral prefrontal cortex activation; low N-acetylaspartate in prefrontal cortex; reduced fractional anisotropy.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
           },
           {
-            "text": "Alzheimer's: ventricular enlargement, loss of temporal volume especially hippocampus, reduced parieto-temporal fMRI activation and SPECT flow.",
+            "text": "Alzheimer's: ventricular enlargement, loss of temporal volume especially hippocampus, reduced parieto-temporal functional magnetic resonance imaging activation and single-photon emission computed tomography flow.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
             }
           },
           {
-            "text": "OCD: caudate volumes reduced and increased reported; higher caudate blood flow that falls with effective treatment.",
+            "text": "Obsessive-compulsive disorder: caudate volumes reduced and increased reported; higher caudate blood flow that falls with effective treatment.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
+              "page": 39
+            }
+          },
+          {
+            "text": "Childhood-onset schizophrenia: grey matter reduction runs back to front; frontal and temporal reductions progress, parietal is profound early but not prominent by adulthood, occipital changes are subtle, insula reduction is robust in adult patients.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
               "page": 39
@@ -6274,7 +6326,7 @@
         ],
         "facts": [
           {
-            "label": "SSRI therapeutic dose 5HT transporter occupancy",
+            "label": "Selective serotonin reuptake inhibitor therapeutic dose 5HT transporter occupancy",
             "value": "80%",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
@@ -6286,7 +6338,8 @@
           1,
           2,
           4,
-          7
+          5,
+          8
         ]
       }
     },
@@ -6656,8 +6709,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "EEG waveforms (EMI)",
-          "note": "Not in the notes (**EMI**): alpha 8-13 Hz (dominant when eyes are closed; disappears with anxiety, arousal, eye opening or focused attention); beta more than 13 Hz (frontal and central in the normal waking **EEG**); theta 4-8 Hz (prominent in drowsy or sleep **EEG**; excessive theta in the awake **EEG** is a sign of pathology); mu 7-11 Hz (over the motor cortex, arch-like); delta less than 4 Hz (not seen in the waking **EEG**; common in deeper sleep).",
+          "subtopic": "EEG waveforms (extended matching item)",
+          "note": "Not in the notes (**extended matching item**): alpha 8-13 Hz (dominant when eyes are closed; disappears with anxiety, arousal, eye opening or focused attention); beta more than 13 Hz (frontal and central in the normal waking **EEG**); theta 4-8 Hz (prominent in drowsy or sleep **EEG**; excessive theta in the awake **EEG** is a sign of pathology); mu 7-11 Hz (over the motor cortex, arch-like); delta less than 4 Hz (not seen in the waking **EEG**; common in deeper sleep).",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 14,
@@ -6736,8 +6789,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "Agnosias and apraxias (EMI)",
-          "note": "Not in the notes (**EMI**): difficulty recognising complex pictures though able to describe the parts = simultanagnosia; difficulty copying a wire cube = visuospatial agnosia; denial of left hemiplegia and gait disturbance after a stroke = anosognosia; failing to recognise the faces of children and close friends while recognising their voices = prosopagnosia; feeling that the limbs on one side of the body are missing = hemisomatognosia (a unilateral lack of body image that can occur in migraine or an epileptic aura).",
+          "subtopic": "Agnosias and apraxias (extended matching item)",
+          "note": "Not in the notes (**extended matching item**): difficulty recognising complex pictures though able to describe the parts = simultanagnosia; difficulty copying a wire cube = visuospatial agnosia; denial of left hemiplegia and gait disturbance after a stroke = anosognosia; failing to recognise the faces of children and close friends while recognising their voices = prosopagnosia; feeling that the limbs on one side of the body are missing = hemisomatognosia (a unilateral lack of body image that can occur in migraine or an epileptic aura).",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 15,
@@ -6746,8 +6799,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "Localising signs (EMI)",
-          "note": "Not in the notes (**EMI**): a malnourished alcoholic = ataxia and 6th nerve palsy (Wernicke's encephalopathy; the commonest ophthalmoplegia is a bilateral 6th nerve lesion); a right parietal lesion in a right-handed person = anosognosia and constructional apraxia; a frontal meningioma = ipsilateral optic atrophy and anosmia (with contralateral papilloedema this is the Kennedy-Foster syndrome).",
+          "subtopic": "Localising signs (extended matching item)",
+          "note": "Not in the notes (**extended matching item**): a malnourished alcoholic = ataxia and 6th nerve palsy (Wernicke's encephalopathy; the commonest ophthalmoplegia is a bilateral 6th nerve lesion); a right parietal lesion in a right-handed person = anosognosia and constructional apraxia; a frontal meningioma = ipsilateral optic atrophy and anosmia (with contralateral papilloedema this is the Kennedy-Foster syndrome).",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 16,
@@ -6756,8 +6809,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "Psychiatric syndromes after stroke (EMI)",
-          "note": "Not in the notes beyond pathological emotionalism under pseudobulbar palsy (**EMI**): becoming anxious and tearful when attempting a task beyond ability after a stroke = catastrophic reaction (agitation, anger or even violence when a cognitively impaired patient is asked to undertake tasks beyond their ability); impaired control of crying = emotionalism (15-==35%== prevalence after stroke); unconcern about memory loss with low motivation and no other depressive symptoms = apathy without depression (about ==20%== of stroke patients).",
+          "subtopic": "Psychiatric syndromes after stroke (extended matching item)",
+          "note": "Not in the notes beyond pathological emotionalism under pseudobulbar palsy (**extended matching item**): becoming anxious and tearful when attempting a task beyond ability after a stroke = catastrophic reaction (agitation, anger or even violence when a cognitively impaired patient is asked to undertake tasks beyond their ability); impaired control of crying = emotionalism (15-==35%== prevalence after stroke); unconcern about memory loss with low motivation and no other depressive symptoms = apathy without depression (about ==20%== of stroke patients).",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 22,
@@ -6766,8 +6819,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "Eponymous syndromes (EMI)",
-          "note": "Not in the notes beyond 'damage to corpus callosum (Marchiafava syndrome)' (**EMI**): demyelination and necrosis of the corpus callosum associated with red wine consumption = Marchiafava-Bignami disease; occipital lobe lesion with cortical blindness = Anton syndrome (patients deny the loss of vision); lesion of the dominant parietal lobe = Gerstmann syndrome (left-right disorientation, agraphia, acalculia, finger agnosia).",
+          "subtopic": "Eponymous syndromes (extended matching item)",
+          "note": "Not in the notes beyond 'damage to corpus callosum (Marchiafava syndrome)' (**extended matching item**): demyelination and necrosis of the corpus callosum associated with red wine consumption = Marchiafava-Bignami disease; occipital lobe lesion with cortical blindness = Anton syndrome (patients deny the loss of vision); lesion of the dominant parietal lobe = Gerstmann syndrome (left-right disorientation, agraphia, acalculia, finger agnosia).",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 27,
@@ -6810,7 +6863,7 @@
             }
           },
           {
-            "text": "EEG frequency bands and sleep-related items (Q47, Q63, Q59, Q83) are tested but not in the notes.",
+            "text": "Electroencephalogram frequency bands and sleep-related items (Q47, Q63, Q59, Q83) are tested but not in the notes.",
             "source": {
               "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
               "page": 20,
@@ -6881,14 +6934,6 @@
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 2,
             "questionNumber": 3
-          }
-        },
-        {
-          "label": "Suggestive questions are the odd one out among techniques that facilitate disclosure.",
-          "source": {
-            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
-            "page": 3,
-            "questionNumber": 5
           }
         },
         {
@@ -7102,6 +7147,14 @@
             "page": 48,
             "questionNumber": 109
           }
+        },
+        {
+          "label": "Suggestive questions are the odd one out among techniques that facilitate disclosure.",
+          "source": {
+            "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
+            "page": 3,
+            "questionNumber": 5
+          }
         }
       ]
     },
@@ -7137,14 +7190,14 @@
           }
         },
         {
-          "label": "Functional (ABC) analysis observes antecedents, behaviour and consequences; used in LD, dementia care and challenging behaviour services.",
+          "label": "Functional (ABC) analysis observes antecedents, behaviour and consequences; used in learning disability, dementia care and challenging behaviour services.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 8
           }
         },
         {
-          "label": "Interpreters: brief them, insist on literal (not interpreted) translation in the MSE, debrief them, use the same one for a case.",
+          "label": "Interpreters: brief them, insist on literal (not interpreted) translation in the mental state examination, debrief them, use the same one for a case.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 9
@@ -7170,28 +7223,28 @@
           }
         },
         {
-          "label": "Work-up tests: FBC, TSH, B12, HIV/syphilis if suspected, electrolytes, GFR/creatinine, LFTs, toxicology; urinary free cortisol for Cushing; ACTH stimulation for Addison's.",
+          "label": "Work-up tests: full blood count, thyroid-stimulating hormone, B12, human immunodeficiency virus/syphilis if suspected, electrolytes, glomerular filtration rate/creatinine, liver function tests, toxicology; urinary free cortisol for Cushing; adrenocorticotropic hormone stimulation for Addison's.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 10
           }
         },
         {
-          "label": "DST non-suppression rises from grief (10%) to dysthymia (23%), MDD (44%), melancholia (50%), psychotic affective (69%) and depression with serious suicidality (78%).",
+          "label": "Dexamethasone suppression test non-suppression rises from grief (10%) to dysthymia (23%), major depressive disorder (44%), melancholia (50%), psychotic affective (69%) and depression with serious suicidality (78%).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 10
           }
         },
         {
-          "label": "DST non-suppression is non-specific (chronic pain, eating disorders, alcoholism, OCD, anxiety); DST-positive patients respond better to biological treatments.",
+          "label": "Dexamethasone suppression test non-suppression is non-specific (chronic pain, eating disorders, alcoholism, obsessive-compulsive disorder, anxiety); dexamethasone suppression test-positive patients respond better to biological treatments.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 10
           }
         },
         {
-          "label": "CRH test: blunted ACTH response; TRH test: about 30% show blunted TSH response.",
+          "label": "Corticotropin-releasing hormone test: blunted adrenocorticotropic hormone response; thyrotropin-releasing hormone test: about 30% show blunted thyroid-stimulating hormone response.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 10
@@ -7205,7 +7258,7 @@
           }
         },
         {
-          "label": "TSH assay is the best screening test for subclinical hypothyroidism.",
+          "label": "Thyroid-stimulating hormone assay is the best screening test for subclinical hypothyroidism.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 7 .pdf",
             "page": 4,
@@ -7213,7 +7266,7 @@
           }
         },
         {
-          "label": "On lithium with TSH 6.4 and normal T4 (subclinical thyroid disease): repeat TSH in a month.",
+          "label": "On lithium with thyroid-stimulating hormone 6.4 and normal T4 (subclinical thyroid disease): repeat thyroid-stimulating hormone in a month.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
             "page": 10,
@@ -7226,7 +7279,7 @@
       "label": "Laboratory assessment: anxiety and other neuroses, lactate infusion and narcoanalysis",
       "children": [
         {
-          "label": "Medical causes of panic: paroxysmal atrial tachycardia, PE, seizures, Meniere's, TIA, carcinoid, Cushing's, hyperthyroidism, hypoglycaemia, phaeochromocytoma.",
+          "label": "Medical causes of panic: paroxysmal atrial tachycardia, pulmonary embolism, seizures, Meniere's, transient ischaemic attack, carcinoid, Cushing's, hyperthyroidism, hypoglycaemia, phaeochromocytoma.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 11
@@ -7262,7 +7315,7 @@
           }
         },
         {
-          "label": "EMI: lactate = panic disorder; prolactin = pseudoseizure versus seizure; CPK = NMS; urinalysis = SIADH; DST = depression.",
+          "label": "Extended matching item: lactate = panic disorder; prolactin = pseudoseizure versus seizure; creatine phosphokinase = neuroleptic malignant syndrome; urinalysis = syndrome of inappropriate antidiuretic hormone secretion; dexamethasone suppression test = depression.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 17,
@@ -7290,14 +7343,14 @@
           }
         },
         {
-          "label": "Initial tests: FBC, thyroid profile, glucose/lipids/ECG, prolactin, electrolytes, GFR/creatinine, LFTs, toxicology.",
+          "label": "Initial tests: full blood count, thyroid profile, glucose/lipids/electrocardiogram, prolactin, electrolytes, glomerular filtration rate/creatinine, liver function tests, toxicology.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 12
           }
         },
         {
-          "label": "Antipsychotic baselines: FBC (haemotoxic olanzapine/clozapine), glucose/lipids/ECG, prolactin, LFTs.",
+          "label": "Antipsychotic baselines: full blood count (haemotoxic olanzapine/clozapine), glucose/lipids/electrocardiogram, prolactin, liver function tests.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 12
@@ -7311,28 +7364,28 @@
           }
         },
         {
-          "label": "Specific conditions: Wilson's - serum ceruloplasmin and 24-h copper excretion; hyperparathyroidism - calcium and PTH; Cushing's - 24-h urinary free cortisol then DST/ACTH challenge.",
+          "label": "Specific conditions: Wilson's - serum ceruloplasmin and 24-h copper excretion; hyperparathyroidism - calcium and parathyroid hormone; Cushing's - 24-h urinary free cortisol then dexamethasone suppression test/adrenocorticotropic hormone challenge.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 12
           }
         },
         {
-          "label": "Suspected encephalitis: NMDAR and VGKC auto-antibodies; autoimmune screen: ANA, CRP, ESR.",
+          "label": "Suspected encephalitis: NMDAR and voltage-gated potassium channel auto-antibodies; autoimmune screen: antinuclear antibodies, C-reactive protein, erythrocyte sedimentation rate.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 12
           }
         },
         {
-          "label": "AIP: abdominal pain, neuropathy, constipation, no rash; autosomal dominant, 18-40 years; triggered by oestrogens, barbiturates, benzodiazepines, diclofenac.",
+          "label": "Acute intermittent porphyria: abdominal pain, neuropathy, constipation, no rash; autosomal dominant, 18-40 years; triggered by oestrogens, barbiturates, benzodiazepines, diclofenac.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 13
           }
         },
         {
-          "label": "AIP key test: urinary porphobilinogen in acute attacks; treat with haemin.",
+          "label": "Acute intermittent porphyria key test: urinary porphobilinogen in acute attacks; treat with haemin.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 13
@@ -7376,7 +7429,7 @@
       "label": "Autoimmune encephalitis presenting as psychosis (anti-NMDAR)",
       "children": [
         {
-          "label": "Receptors targeted by autoimmune psychosis: VGKC complex, NMDA, AMPA, GABA-B, glycine.",
+          "label": "Receptors targeted by autoimmune psychosis: voltage-gated potassium channel complex, NMDA, AMPA, GABA-B, glycine.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 13
@@ -7397,14 +7450,14 @@
           }
         },
         {
-          "label": "Investigate: serum NMDAR/VGKC antibodies, ANA/CRP/ESR/FBC/U+E (low sodium with anti-VGKC), EEG, MRI; confirm with CSF.",
+          "label": "Investigate: serum NMDAR/voltage-gated potassium channel antibodies, antinuclear antibodies/C-reactive protein/erythrocyte sedimentation rate/full blood count/urea and electrolytes (low sodium with anti-voltage-gated potassium channel), electroencephalogram, magnetic resonance imaging; confirm with cerebrospinal fluid.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 13
           }
         },
         {
-          "label": "CSF: lymphocytic pleocytosis, raised protein, oligoclonal bands in about 60%; MRI normal in about 50%; pelvic US/CT in females.",
+          "label": "Cerebrospinal fluid: lymphocytic pleocytosis, raised protein, oligoclonal bands in about 60%; magnetic resonance imaging normal in about 50%; pelvic ultrasound/computed tomography in females.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 14
@@ -7418,14 +7471,14 @@
           }
         },
         {
-          "label": "Avoid antipsychotics (dystonia, NMS-like syndrome); benzodiazepines may be needed.",
+          "label": "Avoid antipsychotics (dystonia, neuroleptic malignant syndrome-like syndrome); benzodiazepines may be needed.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 14
           }
         },
         {
-          "label": "Herpes encephalitis: lymphocytic CSF with red cells, temporal T2 hyperintensity and lateralised periodic EEG discharges.",
+          "label": "Herpes encephalitis: lymphocytic cerebrospinal fluid with red cells, temporal T2 hyperintensity and lateralised periodic electroencephalogram discharges.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
             "page": 14,
@@ -7445,7 +7498,7 @@
           }
         },
         {
-          "label": "Initial work-up: FBC, thyroid profile, glucose/lipids/ECG, thiamine and folate, syphilis/HIV, electrolytes, GFR, LFTs, CT/MRI.",
+          "label": "Initial work-up: full blood count, thyroid profile, glucose/lipids/electrocardiogram, thiamine and folate, syphilis/human immunodeficiency virus, electrolytes, glomerular filtration rate, liver function tests, computed tomography/magnetic resonance imaging.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 14
@@ -7459,21 +7512,21 @@
           }
         },
         {
-          "label": "HIV is associated with cognitive impairment that can worsen with opportunistic infections.",
+          "label": "Human immunodeficiency virus is associated with cognitive impairment that can worsen with opportunistic infections.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 14
           }
         },
         {
-          "label": "CT/MRI is routine but low-yield in Alzheimer's type; recommended if vascular dementia, subdural haematoma or tumour suspected.",
+          "label": "Computed tomography/magnetic resonance imaging is routine but low-yield in Alzheimer's type; recommended if vascular dementia, subdural haematoma or tumour suspected.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 14
           }
         },
         {
-          "label": "No routine EEG; rapid-onset dementia may suggest CJD, warranting EEG and MRI.",
+          "label": "No routine electroencephalogram; rapid-onset dementia may suggest Creutzfeldt-Jakob disease, warranting electroencephalogram and magnetic resonance imaging.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 15
@@ -7498,17 +7551,17 @@
       ]
     },
     {
-      "label": "Anorexia nervosa: investigations and BMI",
+      "label": "Anorexia nervosa: investigations and body mass index",
       "children": [
         {
-          "label": "Endocrine: low LH/FSH/oestradiol, low T3 with normal TSH, mildly raised cortisol, raised growth hormone, low leptin.",
+          "label": "Endocrine: low luteinising hormone/follicle-stimulating hormone/oestradiol, low T3 with normal thyroid-stimulating hormone, mildly raised cortisol, raised growth hormone, low leptin.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 15
           }
         },
         {
-          "label": "ECG: conduction defects, QT prolongation of major concern; GI: delayed gastric emptying, reduced colonic motility.",
+          "label": "Electrocardiogram: conduction defects, QT prolongation of major concern; gastrointestinal: delayed gastric emptying, reduced colonic motility.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 15
@@ -7529,14 +7582,14 @@
           }
         },
         {
-          "label": "Osteopenia/osteoporosis and pseudo-atrophy (enlarged ventricles and CSF spaces).",
+          "label": "Osteopenia/osteoporosis and pseudo-atrophy (enlarged ventricles and cerebrospinal fluid spaces).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
           }
         },
         {
-          "label": "BMI = kg / m^2; underweight <18.5, normal 18.5-24.9, overweight 25-29.9, obese 30+.",
+          "label": "Body mass index = kg / m^2; underweight <18.5, normal 18.5-24.9, overweight 25-29.9, obese 30+.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
@@ -7572,7 +7625,7 @@
       "label": "Alcohol use disorders: tests and complications",
       "children": [
         {
-          "label": "No single lab test diagnoses alcohol abuse; CDT is the most specific and sensitive for heavy use over the last 10 days, best compared with the patient's own baseline.",
+          "label": "No single lab test diagnoses alcohol abuse; carbohydrate-deficient transferrin is the most specific and sensitive for heavy use over the last 10 days, best compared with the patient's own baseline.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
@@ -7593,14 +7646,14 @@
           }
         },
         {
-          "label": "GI: GI bleeds, Mallory-Weiss tears, fatty liver, cirrhosis, portal hypertension, pancreatitis, hypoglycaemia; cardiac: cardiomyopathy, hypertension.",
+          "label": "Gastrointestinal: gastrointestinal bleeds, Mallory-Weiss tears, fatty liver, cirrhosis, portal hypertension, pancreatitis, hypoglycaemia; cardiac: cardiomyopathy, hypertension.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
           }
         },
         {
-          "label": "Haematologic: pancytopenia, folate/B12 deficiency with MCV changes, clotting disorders; renal: hepatorenal syndrome, hyponatraemia.",
+          "label": "Haematologic: pancytopenia, folate/B12 deficiency with mean corpuscular volume changes, clotting disorders; renal: hepatorenal syndrome, hyponatraemia.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 16
@@ -7614,7 +7667,7 @@
           }
         },
         {
-          "label": "EMI: GGT = sensitive marker; CDT = recent abuse and relapse; MCV = more specific; AUDIT = best primary-care screen.",
+          "label": "Extended matching item: gamma-glutamyltransferase = sensitive marker; carbohydrate-deficient transferrin = recent abuse and relapse; mean corpuscular volume = more specific; AUDIT = best primary-care screen.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 10,
@@ -7648,10 +7701,10 @@
       ]
     },
     {
-      "label": "Specific investigations: ECG/QTc and urine drug testing",
+      "label": "Specific investigations: electrocardiogram/QTc and urine drug testing",
       "children": [
         {
-          "label": "ECG on psychiatric wards mainly measures QT when using antipsychotics; prolonged QT risks torsades de pointes.",
+          "label": "Electrocardiogram on psychiatric wards mainly measures QT when using antipsychotics; prolonged QT risks torsades de pointes.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 17
@@ -7679,7 +7732,7 @@
           }
         },
         {
-          "label": "Urine detection: alcohol up to 12 h, amphetamine up to 48 h, benzodiazepine 3 days, cocaine 6-8 h (metabolites 2-4 days), heroin 1-3 days, morphine 2-3 days, codeine 48 h, methadone 3+ days, PCP 8 days.",
+          "label": "Urine detection: alcohol up to 12 h, amphetamine up to 48 h, benzodiazepine 3 days, cocaine 6-8 h (metabolites 2-4 days), heroin 1-3 days, morphine 2-3 days, codeine 48 h, methadone 3+ days, phencyclidine 8 days.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 18
@@ -7695,38 +7748,38 @@
       ]
     },
     {
-      "label": "Renal disturbances, SIADH, polydipsia and diabetes insipidus",
+      "label": "Renal disturbances, syndrome of inappropriate antidiuretic hormone secretion, polydipsia and diabetes insipidus",
       "children": [
         {
-          "label": "Heroin user with puffy face, hypertension and weight gain: suspect heroin-related nephropathy; FSGS often in Black patients, membranoproliferative GN in Whites.",
+          "label": "Heroin user with puffy face, hypertension and weight gain: suspect heroin-related nephropathy; focal segmental glomerulosclerosis often in Black patients, membranoproliferative glomerulonephritis in Whites.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 18
           }
         },
         {
-          "label": "Urine analysis matters for SIADH (antidepressants/antipsychotics), psychogenic polydipsia and DI (lithium nephrogenic; head injury central).",
+          "label": "Urine analysis matters for syndrome of inappropriate antidiuretic hormone secretion (antidepressants/antipsychotics), psychogenic polydipsia and diabetes insipidus (lithium nephrogenic; head injury central).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 18
           }
         },
         {
-          "label": "Osmolality guide: plasma high + urine low = DI; plasma low + urine low = psychogenic polydipsia; plasma low + urine high = SIADH.",
+          "label": "Osmolality guide: plasma high + urine low = diabetes insipidus; plasma low + urine low = psychogenic polydipsia; plasma low + urine high = syndrome of inappropriate antidiuretic hormone secretion.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 18
           }
         },
         {
-          "label": "Polydipsia: gradual onset, rare nocturia, normal/low plasma osmolality; DI: acute onset, common nocturia, elevated plasma osmolality.",
+          "label": "Polydipsia: gradual onset, rare nocturia, normal/low plasma osmolality; diabetes insipidus: acute onset, common nocturia, elevated plasma osmolality.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 18
           }
         },
         {
-          "label": "Polydipsia and polyuria are not features of SIADH or hyponatraemia per se.",
+          "label": "Polydipsia and polyuria are not features of syndrome of inappropriate antidiuretic hormone secretion or hyponatraemia per se.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 19
@@ -7776,7 +7829,7 @@
           }
         },
         {
-          "label": "Signs: checker-board abdomen = factitious disorder; Kayser-Fleischer ring = Wilson's; lymph nodes = HIV/lymphoma; lanugo = anorexia; Russell's sign = bulimia.",
+          "label": "Signs: checker-board abdomen = factitious disorder; Kayser-Fleischer ring = Wilson's; lymph nodes = human immunodeficiency virus/lymphoma; lanugo = anorexia; Russell's sign = bulimia.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 20
@@ -7827,7 +7880,7 @@
           }
         },
         {
-          "label": "EMI: lanugo = anorexia; Russell sign = bulimia; piloerection = opioid withdrawal; sialorrhoea = clozapine.",
+          "label": "Extended matching item: lanugo = anorexia; Russell sign = bulimia; piloerection = opioid withdrawal; sialorrhoea = clozapine.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 7,
@@ -7835,7 +7888,7 @@
           }
         },
         {
-          "label": "EMI: lymph node enlargement = HIV; xanthelasma = olanzapine; checkerboard abdomen = repeated A&E self-injury.",
+          "label": "Extended matching item: lymph node enlargement = human immunodeficiency virus; xanthelasma = olanzapine; checkerboard abdomen = repeated A&E self-injury.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 8,
@@ -7863,14 +7916,14 @@
           }
         },
         {
-          "label": "CN II fields are tested by confrontation/perimetry, colour by Ishihara, acuity by Snellen.",
+          "label": "Cranial nerve II fields are tested by confrontation/perimetry, colour by Ishihara, acuity by Snellen.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 21
           }
         },
         {
-          "label": "CN VIII: vestibular - Romberg/caloric; cochlear - Rinne and Weber.",
+          "label": "Cranial nerve VIII: vestibular - Romberg/caloric; cochlear - Rinne and Weber.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 22
@@ -7926,7 +7979,7 @@
       "label": "Neurological soft signs and cerebellar signs",
       "children": [
         {
-          "label": "Hard signs are localisable motor/sensory deficits; soft signs are non-localisable, thought to reflect neurodevelopmental aberration (schizophrenia, autism, OCD, ADHD).",
+          "label": "Hard signs are localisable motor/sensory deficits; soft signs are non-localisable, thought to reflect neurodevelopmental aberration (schizophrenia, autism, obsessive-compulsive disorder, attention deficit hyperactivity disorder).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 23
@@ -7976,7 +8029,7 @@
           }
         },
         {
-          "label": "Pupillary mydriasis is not cerebellar; it occurs in severe alcohol withdrawal (DTs).",
+          "label": "Pupillary mydriasis is not cerebellar; it occurs in severe alcohol withdrawal (delirium tremens).",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
             "page": 8,
@@ -8003,7 +8056,7 @@
           }
         },
         {
-          "label": "Lasegue SLR limitation = lower lumbar root irritation; reverse SLR (prone) limitation = upper lumbar root irritation.",
+          "label": "Lasegue straight leg raise limitation = lower lumbar root irritation; reverse straight leg raise (prone) limitation = upper lumbar root irritation.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 24
@@ -8017,14 +8070,14 @@
           }
         },
         {
-          "label": "Chorea - caudate lesions; hemiballismus - subthalamic nucleus lesions; myoclonus - <0.25 s jerk, CJD and severe Alzheimer's.",
+          "label": "Chorea - caudate lesions; hemiballismus - subthalamic nucleus lesions; myoclonus - <0.25 s jerk, Creutzfeldt-Jakob disease and severe Alzheimer's.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 25
           }
         },
         {
-          "label": "Fasciculations usually benign but if widespread may indicate neuromuscular disease such as ALS.",
+          "label": "Fasciculations usually benign but if widespread may indicate neuromuscular disease such as amyotrophic lateral sclerosis.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 25
@@ -8039,7 +8092,7 @@
           }
         },
         {
-          "label": "To tell lithium from risperidone tremor, examine tone: EPSE gives tremor and rigidity, lithium tremor does not.",
+          "label": "To tell lithium from risperidone tremor, examine tone: extrapyramidal side effects gives tremor and rigidity, lithium tremor does not.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
             "page": 6,
@@ -8059,35 +8112,35 @@
           }
         },
         {
-          "label": "Superficial reflexes: corneal, conjunctival, abdominal, cremasteric, plantar; corneal afferent via CN V, efferent via CN VII.",
+          "label": "Superficial reflexes: corneal, conjunctival, abdominal, cremasteric, plantar; corneal afferent via cranial nerve V, efferent via cranial nerve VII.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 25
           }
         },
         {
-          "label": "Positive Babinski (great toe dorsiflexion) suggests UMN lesion; normal is plantar flexion.",
+          "label": "Positive Babinski (great toe dorsiflexion) suggests upper motor neuron lesion; normal is plantar flexion.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 26
           }
         },
         {
-          "label": "Deep tendon reflexes: exaggerated in UMN lesions, absent in LMN lesions; roots: biceps C5-6, brachioradialis C6, triceps C7, patellar L2-4, Achilles S4.",
+          "label": "Deep tendon reflexes: exaggerated in upper motor neuron lesions, absent in lower motor neuron lesions; roots: biceps C5-6, brachioradialis C6, triceps C7, patellar L2-4, Achilles S4 as printed in the source (reviewer correction, not in the source: the ankle jerk is S1-2).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 26
           }
         },
         {
-          "label": "Neurocutaneous: ash leaf macules and ungual fibromas - tuberous sclerosis; cafe au lait spots - neurofibromata/tuberous sclerosis; axillary freckling - neurofibroma; frontal baldness - myotonic dystrophy.",
+          "label": "Neurocutaneous: ash leaf macules and ungual fibromas - tuberous sclerosis; cafe au lait spots - neurofibromata/tuberous sclerosis; axillary freckling - neurofibroma as printed in the source (reviewer correction, not in the source: neurofibromatosis type 1, Crowe sign); frontal baldness - myotonic dystrophy.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 26
           }
         },
         {
-          "label": "Dysarthria: spastic (bilateral UMN), flaccid (LMN), ataxic (scanning, cerebellar), hypokinetic (breathy monotone), hyperkinetic (basal ganglia), mixed.",
+          "label": "Dysarthria: spastic (bilateral upper motor neuron), flaccid (lower motor neuron), ataxic (scanning, cerebellar), hypokinetic (breathy monotone), hyperkinetic (basal ganglia), mixed.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 26
@@ -8156,7 +8209,7 @@
           }
         },
         {
-          "label": "EMI gaits: Huntington = lurching; pregnancy = waddling; hip dysplasia = pigeon; Friedreich ataxia = stomping.",
+          "label": "Extended matching item gaits: Huntington = lurching; pregnancy = waddling; hip dysplasia = pigeon; Friedreich ataxia = stomping.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 19,
@@ -8169,7 +8222,7 @@
       "label": "Other neurological signs and eponyms",
       "children": [
         {
-          "label": "Absent ankle jerks with upgoing plantars: subacute combined degeneration, taboparesis, Friedreich's ataxia, MND.",
+          "label": "Absent ankle jerks with upgoing plantars: subacute combined degeneration, taboparesis, Friedreich's ataxia, motor neurone disease.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 28
@@ -8234,7 +8287,7 @@
           }
         },
         {
-          "label": "EMI: Kayser-Fleischer ring = Wilson's disease; Gower sign = myopathy picture; Myerson sign = blinking to repeated glabellar taps.",
+          "label": "Extended matching item: Kayser-Fleischer ring = Wilson's disease; Gower sign = myopathy picture; Myerson sign = blinking to repeated glabellar taps.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 6,
@@ -8244,38 +8297,38 @@
       ]
     },
     {
-      "label": "UMN vs LMN lesions; bulbar vs pseudobulbar palsy",
+      "label": "Upper motor neuron vs lower motor neuron lesions; bulbar vs pseudobulbar palsy",
       "children": [
         {
-          "label": "UMN lesion: hypertonia/rigidity, exaggerated reflexes, mild disuse atrophy; LMN lesion: hypotonia, absent reflexes, wasting, fasciculations.",
+          "label": "Upper motor neuron lesion: hypertonia/rigidity, exaggerated reflexes, mild disuse atrophy; lower motor neuron lesion: hypotonia, absent reflexes, wasting, fasciculations.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 30
           }
         },
         {
-          "label": "Bulbar palsy: LMN lesion of CN 9-12; wasted fasciculating tongue, nasal speech, lost jaw jerk and gag, no emotional lability.",
+          "label": "Bulbar palsy: lower motor neuron lesion of cranial nerves 9-12; wasted fasciculating tongue, nasal speech, lost jaw jerk and gag, no emotional lability.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 31
           }
         },
         {
-          "label": "Pseudobulbar palsy: bilateral UMN lesions; stiff tongue, Donald-duck speech, exaggerated jaw jerk, preserved gag, emotional lability.",
+          "label": "Pseudobulbar palsy: bilateral upper motor neuron lesions; stiff tongue, Donald-duck speech, exaggerated jaw jerk, preserved gag, emotional lability.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 31
           }
         },
         {
-          "label": "Bulbar causes: MND, polio, botulism, myasthenia gravis, muscular dystrophy; pseudobulbar causes: MND, MS, multi-infarct dementia, severe head injury.",
+          "label": "Bulbar causes: motor neurone disease, polio, botulism, myasthenia gravis, muscular dystrophy; pseudobulbar causes: motor neurone disease, multiple sclerosis, multi-infarct dementia, severe head injury.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 31
           }
         },
         {
-          "label": "Muscle atrophy is seen in LMN lesions, not UMN lesions.",
+          "label": "Muscle atrophy is seen in lower motor neuron lesions, not upper motor neuron lesions.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 37,
@@ -8288,14 +8341,14 @@
       "label": "Bedside cognitive examination tools",
       "children": [
         {
-          "label": "MMSE: 30 points, 5-10 minutes; cut-off 21/22 if under 9 years of education (usual 23/24); misses early decline and frontal executive defects.",
+          "label": "Mini-Mental State Examination: 30 points, 5-10 minutes; cut-off 21/22 if under 9 years of education (usual 23/24); misses early decline and frontal executive defects.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 31
           }
         },
         {
-          "label": "MMSE items: orientation 10, registration and recall 6, attention 5, command 3, naming 2, repetition 1, reading 1, writing 1, visual construction 1.",
+          "label": "Mini-Mental State Examination items: orientation 10, registration and recall 6, attention 5, command 3, naming 2, repetition 1, reading 1, writing 1, visual construction 1.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 32
@@ -8316,14 +8369,14 @@
           }
         },
         {
-          "label": "ACE-R: six domains; more sensitive to frontal dementias than MMSE; cut-offs <88 and <82; language carries most of the score.",
+          "label": "Addenbrooke's Cognitive Examination-Revised: six domains; more sensitive to frontal dementias than Mini-Mental State Examination; cut-offs <88 and <82; language carries most of the score.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 32
           }
         },
         {
-          "label": "Overreliance on MMSE scores can be counterproductive; the clinical interview with carers and patients is the best diagnostic tool.",
+          "label": "Overreliance on Mini-Mental State Examination scores can be counterproductive; the clinical interview with carers and patients is the best diagnostic tool.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 32
@@ -8354,7 +8407,7 @@
           }
         },
         {
-          "label": "ACE-R below 82 has high specificity (1.0) with sensitivity 0.84.",
+          "label": "Addenbrooke's Cognitive Examination-Revised below 82 has high specificity (1.0) with sensitivity 0.84.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 6.pdf",
             "page": 11,
@@ -8364,52 +8417,52 @@
       ]
     },
     {
-      "label": "Imaging of the nervous system: CT and MRI",
+      "label": "Imaging of the nervous system: computed tomography and magnetic resonance imaging",
       "children": [
         {
-          "label": "CT: most widely available, quick, cheap, but radiation; poor for early ischaemia, posterior fossa and structures near bone; calcification better seen than on MRI.",
+          "label": "Computed tomography: most widely available, quick, cheap, but radiation; poor for early ischaemia, posterior fossa and structures near bone; calcification better seen than on magnetic resonance imaging.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 34
           }
         },
         {
-          "label": "MRI: no radiation, good for early ischaemia and posterior fossa; limited availability, longer, costlier; contraindicated with pacemakers/ferromagnetic implants.",
+          "label": "Magnetic resonance imaging: no radiation, good for early ischaemia and posterior fossa; limited availability, longer, costlier; contraindicated with pacemakers/ferromagnetic implants.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 35
           }
         },
         {
-          "label": "T1: fat bright, CSF dark, best for structure, only sequence with gadolinium contrast; T2: CSF white, pathology (water) bright, best for pathology.",
+          "label": "T1: fat bright, cerebrospinal fluid dark, best for structure, only sequence with gadolinium contrast; T2: cerebrospinal fluid white, pathology (water) bright, best for pathology.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 35
           }
         },
         {
-          "label": "FLAIR detects hippocampal sclerosis in temporal lobe epilepsy; proton density shows periventricular structures.",
+          "label": "Fluid attenuated inversion recovery detects hippocampal sclerosis in temporal lobe epilepsy; proton density shows periventricular structures.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 35
           }
         },
         {
-          "label": "Infarct, tumour, MS plaque and CSF are dark on CT and T1 but bright on T2; haemorrhage bright on CT, T1 and T2 (unless too old/too fresh).",
+          "label": "Infarct, tumour, multiple sclerosis plaque and cerebrospinal fluid are dark on computed tomography and T1 but bright on T2; haemorrhage bright on computed tomography, T1 and T2 (unless too old/too fresh).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 35
           }
         },
         {
-          "label": "Bone is bright on CT and T1 but dark on T2; air dark on all; fat dark on CT but bright on T1 and T2.",
+          "label": "Bone is bright on computed tomography and T1 but dark on T2 as printed in the source (reviewer correction, not in the source: cortical bone is dark on T1; the bright signal reflects fatty marrow); air dark on all; fat dark on computed tomography but bright on T1 and T2.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 36
           }
         },
         {
-          "label": "Delayed deterioration after a blow to the head: CT, not X-ray or MRI, for fresh haemorrhage.",
+          "label": "Delayed deterioration after a blow to the head: computed tomography, not X-ray or magnetic resonance imaging, for fresh haemorrhage.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 3.pdf",
             "page": 5,
@@ -8419,17 +8472,17 @@
       ]
     },
     {
-      "label": "Magnetic resonance spectroscopy and functional MRI",
+      "label": "Magnetic resonance spectroscopy and functional magnetic resonance imaging",
       "children": [
         {
-          "label": "MRS detects odd-numbered nuclei; 1H quantifies NAA, creatine, choline; GABA and glutamate detectable but not dopamine (too low concentration).",
+          "label": "Magnetic resonance spectroscopy detects odd-numbered nuclei; 1H quantifies N-acetylaspartate, creatine, choline; GABA and glutamate detectable but not dopamine (too low concentration).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 36
           }
         },
         {
-          "label": "31P MRS measures brain pH and phosphorus compounds (ATP, GTP).",
+          "label": "31P magnetic resonance spectroscopy measures brain pH and phosphorus compounds (adenosine triphosphate, guanosine triphosphate).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 36
@@ -8443,21 +8496,21 @@
           }
         },
         {
-          "label": "MRS can measure brain lithium; fluoxetine and trifluoperazine contain fluorine-19 and are detectable.",
+          "label": "Magnetic resonance spectroscopy can measure brain lithium; fluoxetine and trifluoperazine contain fluorine-19 and are detectable.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 36
           }
         },
         {
-          "label": "fMRI uses BOLD: deoxyhaemoglobin is paramagnetic, detected on T2; it is a proxy of perfusion, not neuronal metabolism.",
+          "label": "Functional magnetic resonance imaging uses blood-oxygen-level-dependent: deoxyhaemoglobin is paramagnetic, detected on T2; it is a proxy of perfusion, not neuronal metabolism.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 36
           }
         },
         {
-          "label": "fMRI uses no radioactive isotopes (advantage over PET and SPECT); resting fMRI maps the default mode network (precuneus, lateral parietal, medial prefrontal).",
+          "label": "Functional magnetic resonance imaging uses no radioactive isotopes (advantage over positron emission tomography and single-photon emission computed tomography); resting functional magnetic resonance imaging maps the default mode network (precuneus, lateral parietal, medial prefrontal).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 37
@@ -8466,59 +8519,59 @@
       ]
     },
     {
-      "label": "SPECT, PET and diffusion tensor imaging",
+      "label": "Single-photon emission computed tomography, positron emission tomography and diffusion tensor imaging",
       "children": [
         {
-          "label": "SPECT: single-photon isotopes (I-123, Tc-99m, Xe-133) measure regional blood flow, not neuronal metabolism directly.",
+          "label": "Single-photon emission computed tomography: single-photon isotopes (I-123, Tc-99m, Xe-133) measure regional blood flow, not neuronal metabolism directly.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 37
           }
         },
         {
-          "label": "Xenon-133 SPECT (rCBF) measures only surface blood flow; Tc-99m HMPAO gives whole-brain perfusion and is most used in dementia.",
+          "label": "Xenon-133 single-photon emission computed tomography (regional cerebral blood flow) measures only surface blood flow; Tc-99m HMPAO gives whole-brain perfusion and is most used in dementia.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 37
           }
         },
         {
-          "label": "SPECT ligands: iodobenzamide - D1/D2; iomazenil - GABA-A; nor-beta-CIT - dopamine/serotonin transporters; epidepride - D2/D3.",
+          "label": "Single-photon emission computed tomography ligands: iodobenzamide - D1/D2; iomazenil - GABA-A; nor-beta-CIT - dopamine/serotonin transporters; epidepride - D2/D3.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 37
           }
         },
         {
-          "label": "PET emits two particles (SPECT one): better localisation and resolution (closer to 3 mm); needs an on-site cyclotron.",
+          "label": "Positron emission tomography emits two particles (single-photon emission computed tomography one): better localisation and resolution (closer to 3 mm); needs an on-site cyclotron.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 38
           }
         },
         {
-          "label": "FDG (18F-fluorodeoxyglucose) is the most used PET ligand and gives direct information about neuronal metabolism.",
+          "label": "18F-fluorodeoxyglucose is the most used positron emission tomography ligand and gives direct information about neuronal metabolism.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 38
           }
         },
         {
-          "label": "PET ligands: raclopride - D2; flumazenil - GABA-A; altanserin/setoperone - 5HT2; methyltryptophan - serotonin synthesis; scopolamine - muscarinic; 18F dopa - dopamine neuron density.",
+          "label": "Positron emission tomography ligands: raclopride - D2; flumazenil - GABA-A; altanserin/setoperone - 5HT2; methyltryptophan - serotonin synthesis; scopolamine - muscarinic; 18F dopa - dopamine neuron density.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 38
           }
         },
         {
-          "label": "DTI: fractional anisotropy indexes white matter integrity; tractography infers white-matter connectivity.",
+          "label": "Diffusion tensor imaging: fractional anisotropy indexes white matter integrity; tractography infers white-matter connectivity.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 38
           }
         },
         {
-          "label": "PET gives metabolic information; SPECT gives blood flow only.",
+          "label": "Positron emission tomography gives metabolic information; single-photon emission computed tomography gives blood flow only.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 47,
@@ -8526,7 +8579,7 @@
           }
         },
         {
-          "label": "Herpes simplex encephalitis: MRI; possible DLB versus drug-induced parkinsonism: DAT SPECT.",
+          "label": "Herpes simplex encephalitis: magnetic resonance imaging; possible dementia with Lewy bodies versus drug-induced parkinsonism: dopamine transporter single-photon emission computed tomography.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 25,
@@ -8539,42 +8592,42 @@
       "label": "Neuroimaging findings in psychiatry",
       "children": [
         {
-          "label": "Depression: periventricular/deep WM and thalamic/striatal hyperintensities; reduced frontal and basal ganglia volumes; lower prefrontal, cingulate, amygdala metabolism.",
+          "label": "Depression: periventricular/deep white matter and thalamic/striatal hyperintensities; reduced frontal and basal ganglia volumes; lower prefrontal, cingulate, amygdala metabolism.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 39
           }
         },
         {
-          "label": "Depression: higher anterior cingulate/prefrontal metabolism predicts better treatment response; higher 5HT2A density, raised MAO-A, raised D2 binding (psychomotor retardation).",
+          "label": "Depression: higher anterior cingulate/prefrontal metabolism predicts better treatment response; higher 5HT2A density, raised monoamine oxidase A, raised D2 binding (psychomotor retardation).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 39
           }
         },
         {
-          "label": "Therapeutic SSRI dose occupies 80% of 5HT transporters.",
+          "label": "Therapeutic selective serotonin reuptake inhibitor dose occupies 80% of 5HT transporters.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 39
           }
         },
         {
-          "label": "Schizophrenia: ventricular enlargement; grey matter loss (insula, anterior cingulate, medial temporal); progressive volume loss in first years; poor DLPFC activation; low NAA in PFC; reduced FA.",
+          "label": "Schizophrenia: ventricular enlargement; grey matter loss (insula, anterior cingulate, medial temporal); progressive volume loss in first years; poor dorsolateral prefrontal cortex activation; low N-acetylaspartate in prefrontal cortex; reduced fractional anisotropy.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 39
           }
         },
         {
-          "label": "Alzheimer's: ventricular enlargement, loss of temporal volume especially hippocampus, reduced parieto-temporal fMRI activation and SPECT flow.",
+          "label": "Alzheimer's: ventricular enlargement, loss of temporal volume especially hippocampus, reduced parieto-temporal functional magnetic resonance imaging activation and single-photon emission computed tomography flow.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 39
           }
         },
         {
-          "label": "OCD: caudate volumes reduced and increased reported; higher caudate blood flow that falls with effective treatment.",
+          "label": "Obsessive-compulsive disorder: caudate volumes reduced and increased reported; higher caudate blood flow that falls with effective treatment.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
             "page": 39
@@ -8597,7 +8650,7 @@
           }
         },
         {
-          "label": "EMI: schizophrenia = ventricular enlargement and poor DLPFC activation; depression = white matter hyperintensities.",
+          "label": "Extended matching item: schizophrenia = ventricular enlargement and poor dorsolateral prefrontal cortex activation; depression = white matter hyperintensities.",
           "source": {
             "file": "paper-a/High yields/EMIS all chapters/EMIs Clinical Examination.pdf",
             "page": 13,
@@ -8605,11 +8658,18 @@
           }
         },
         {
-          "label": "ADHD imaging shows underactivation of prefrontal areas and frontostriatal pathways.",
+          "label": "Attention deficit hyperactivity disorder imaging shows underactivation of prefrontal areas and frontostriatal pathways.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 43,
             "questionNumber": 97
+          }
+        },
+        {
+          "label": "Childhood-onset schizophrenia: grey matter reduction runs back to front; frontal and temporal reductions progress, parietal is profound early but not prominent by adulthood, occipital changes are subtle, insula reduction is robust in adult patients.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/CLINICAL EXAMINATION.pdf",
+            "page": 39
           }
         }
       ]
@@ -8650,7 +8710,7 @@
           }
         },
         {
-          "label": "EEG frequency bands and sleep-related items (Q47, Q63, Q59, Q83) are tested but not in the notes.",
+          "label": "Electroencephalogram frequency bands and sleep-related items (Q47, Q63, Q59, Q83) are tested but not in the notes.",
           "source": {
             "file": "paper-a/High yields/CLASSIFICATION AND CLINICAL EXAMINATION/Clinical Examination Attempt review.pdf",
             "page": 20,

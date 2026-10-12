@@ -750,7 +750,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Effects of protein displacement are usually not clinically significant, because metabolism of the affected drug rises in parallel with free drug; the free level rises briefly then returns to the previous steady state, so untoward effects are normally short-lived.",
+          "text": "Effects of protein displacement are usually not clinically significant, because metabolism of the affected drug rises in parallel with free drug; the free level rises briefly then returns to the previous steady state, so untoward effects are normally short-lived (Chadwick et al., 2005).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 6
@@ -780,11 +780,11 @@
               "Primary binding protein for alkaline drugs; most psychotropics are basic and may bind it and lipoproteins"
             ],
             [
-              "95-==99%== bound",
+              "==95-99%== bound",
               "**Diazepam**, **chlorpromazine**, **amitriptyline**, **imipramine**"
             ],
             [
-              "90-==95%== bound",
+              "==90-95%== bound",
               "**Phenytoin**, **valproate**, **clomipramine**"
             ]
           ],
@@ -1198,7 +1198,7 @@
           "rows": [
             [
               "**Imipramine**",
-              "Only 30-==80%=="
+              "Only ==30-80%=="
             ],
             [
               "**Fluphenazine**",
@@ -1342,7 +1342,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Biotransformation renders a drug less lipid-soluble and more water-soluble, so products are more readily eliminated. The liver is the principal site, but metabolism can occur in the **GI** tract, plasma, lungs, kidneys, suprarenal cortex, placenta, skin and lymphocytes. The four major routes are oxidation, reduction, hydrolysis and conjugation.",
+          "text": "Xenobiotic metabolism is the mechanism by which a foreign agent, such as a drug molecule, is metabolized and eliminated from the body. Biotransformation renders a drug less lipid-soluble and more water-soluble, so products are more readily eliminated. The liver is the principal site, but metabolism can occur in the **GI** tract, plasma, lungs, kidneys, suprarenal cortex, placenta, skin and lymphocytes. The four major routes are oxidation, reduction, hydrolysis and conjugation.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 10
@@ -1454,7 +1454,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Genetic variation: between 5 and ==10%== of Caucasians lack **CYP2D6** and are poor metabolizers of its substrates; up to 15-==20%== of East Asians are poor metabolizers of **CYP2C19** substrates.",
+          "text": "Genetic variation: between ==5 and 10%== of Caucasians lack **CYP2D6** and are poor metabolizers of its substrates; up to ==15-20%== of East Asians are poor metabolizers of **CYP2C19** substrates.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 11
@@ -1470,13 +1470,18 @@
           "rows": [
             [
               "**CYP2D6**",
-              "All TCAs, **fluoxetine**, **paroxetine**, **trazodone**, **nefazodone**, **valproate**, all neuroleptics, **risperidone**",
+              "All TCAs, **fluoxetine**, **paroxetine**, **trazodone**, **nefazodone**, **valproate** (Reviewer correction (not in the source): valproate is probably not a CYP2D6 substrate; see verification note), all neuroleptics, **risperidone**",
               "**Paroxetine**, to some extent **fluoxetine**, neuroleptics, **amitriptyline** and **clomipramine** inhibit 2D6"
             ],
             [
               "**CYP3A4** (most prominent in gut wall mucosa)",
               "**Clomipramine**, **fluvoxamine**, **mirtazapine**, **nefazodone**, **carbamazepine**, most benzodiazepines",
-              "Stimulated by **carbamazepine** and barbiturates; inhibited by calcium channel blockers, **fluoxetine** and **nefazodone**. Smoking induces **CYP1A2** via **PAH**"
+              "Stimulated by **carbamazepine** and barbiturates; inhibited by calcium channel blockers, **fluoxetine** and **nefazodone**"
+            ],
+            [
+              "**CYP1A2**",
+              "**Clozapine**, **olanzapine**",
+              "Induced by smoking (polyaromatic hydrocarbons, **PAH**, in tobacco smoke; the notes print this in the CYP3A4 row on page 11); competitively inhibited by caffeine; inhibited by **fluvoxamine** (page 24)"
             ]
           ],
           "sources": [
@@ -1487,6 +1492,10 @@
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 11
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+              "page": 12
             }
           ],
           "title": "CYP enzymes, substrates and modifiers",
@@ -1570,7 +1579,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Autoinduction: **carbamazepine** is metabolized by hepatic **CYP2D6**, synthesis of which it induces. Metabolism of **carbamazepine** (and other **P450** substrates) gradually increases over the first several weeks. The initial steady state may be reached in 4 to 5 days but final steady state may be delayed until 3 to 4 weeks after starting; so **carbamazepine** levels must be monitored and the dose often raised early. **Chlorpromazine** can also induce its own metabolism to some extent.",
+          "text": "Autoinduction: **carbamazepine** is metabolized by hepatic **CYP3A4**, synthesis of which it induces. Metabolism of **carbamazepine** (and other **P450** substrates) gradually increases over the first several weeks. The initial steady state may be reached in 4 to 5 days but final steady state may be delayed until 3 to 4 weeks after starting; so **carbamazepine** levels must be monitored and the dose often raised early. **Chlorpromazine** can also induce its own metabolism to some extent.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 12
@@ -1685,6 +1694,15 @@
             "file": "paper-a/Paper A mocks/Paper A(2) Test 5.pdf",
             "page": 7,
             "questionNumber": 28
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "NEEDS VERIFICATION: Valproate and CYP2D6",
+          "note": "The source notes list valproate as a CYP2D6 substrate (page 11, retained in the table above). Reviewer correction (not in the source): valproate is mainly cleared by glucuronidation and mitochondrial beta-oxidation, with only a minor contribution from CYP2C9 and CYP2C19, so it is probably not a CYP2D6 substrate. Confirm before relying on it.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 11
           }
         }
       ],
@@ -1905,7 +1923,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Clearance is specific for each drug and does not depend on plasma concentration (elimination rises as concentration rises under first order kinetics). For first order drugs clearance is constant irrespective of dose consumed, because rate of elimination is directly proportional to plasma level.",
+          "text": "Clearance is specific for each drug and does not depend on plasma concentration (elimination rises as concentration rises under first order kinetics). For first order drugs clearance is constant irrespective of dose consumed, because rate of elimination is directly proportional to plasma level. It represents the relationship between the rate of drug elimination and plasma level.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 13
@@ -2526,7 +2544,7 @@
             [
               "Examples",
               "**Lithium**, **carbamazepine**, **phenytoin** (narrow range)",
-              "**Imipramine**, **nortriptyline**, desipramine: curvilinear relationship between plasma level and response; very high or very low levels do not help"
+              "**Nortriptyline** is the clear example (window 50 to 150 ng/mL): very high or very low levels do not help. Page 16 of the notes also lists **imipramine** and desipramine here as curvilinear, but page 20 of the same notes describes them as sigmoidal (response plateaus)"
             ]
           ],
           "sources": [
@@ -2548,6 +2566,15 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
             "page": 12,
             "questionNumber": 26
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "NEEDS VERIFICATION: Which tricyclics have a therapeutic window",
+          "note": "Page 16 groups imipramine, nortriptyline and desipramine as curvilinear (therapeutic window). Page 20 says imipramine and desipramine are sigmoidal and only nortriptyline has a clear window (50 to 150 ng/ml). Bank question 26 calls imipramine and desipramine curvilinear with an optimal range of 150 to 300 ng/mL. Reviewer note (not in the source): standard teaching is that nortriptyline is the classic therapeutic-window drug. Confirm which answer to use for 'which drug has a therapeutic window'.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 16
           }
         }
       ],
@@ -2589,7 +2616,7 @@
             }
           },
           {
-            "text": "Therapeutic window is a plasma-level range for efficacy only (not toxicity): imipramine, nortriptyline, desipramine show a curvilinear relationship.",
+            "text": "Therapeutic window is a plasma-level range for efficacy only (not toxicity): nortriptyline is the clear example (50-150 ng/mL); page 16 also lists imipramine and desipramine as curvilinear but page 20 calls them sigmoidal.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 16
@@ -2630,7 +2657,7 @@
             [
               "Plasma protein",
               "Decrease in plasma protein binding capacity",
-              "Nearly 15-==25%==, due to higher proteinuria and to some extent less plasma protein synthesis by the liver. Albumin decreased; protein affinity decreased; acid glycoprotein increased. Higher free drug concentration, increased metabolism and clearance of free drug. More frequent protein binding interactions. **Phenytoin** is affected"
+              "Nearly ==15-25%==, due to higher proteinuria and to some extent less plasma protein synthesis by the liver. Albumin decreased; protein affinity decreased; acid glycoprotein increased. Higher free drug concentration, increased metabolism and clearance of free drug. More frequent protein binding interactions. **Phenytoin** is affected"
             ],
             [
               "Liver",
@@ -2684,7 +2711,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kidney mass is reported to fall by approximately 20 to ==25%== between age 30 and 80 years. Renal blood flow reduces with age even in healthy people, by about ==10%== per decade after the age of 20. By age 80, **RBF** may be 600 ml/min compared with 1200 ml/min in young adults.",
+          "text": "Kidney mass is reported to fall by approximately ==20 to 25%== between age 30 and 80 years. Renal blood flow reduces with age even in healthy people, by about ==10%== per decade after the age of 20. By age 80, **RBF** may be 600 ml/min compared with 1200 ml/min in young adults.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 17
@@ -2700,7 +2727,7 @@
         },
         {
           "type": "gap",
-          "subtopic": "Age at which renal blood flow starts to fall",
+          "subtopic": "DECISION NEEDED: Age at which renal blood flow starts to fall",
           "note": "The notes give two starting points for the roughly ==10%== per decade fall in renal blood flow: 'beginning after the fourth decade' (table, p17) versus 'after the age of 20' (prose, p17-18). Both are stated; no question in the bank settles it.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
@@ -2985,7 +3012,7 @@
             ],
             [
               "**Sertraline**",
-              "Manufacturers do not recommend its use in renal impairment"
+              "Manufacturers do not recommend its use in renal impairment (as stated in the notes; see update note)"
             ],
             [
               "**Haloperidol**",
@@ -3076,6 +3103,11 @@
             "page": 7,
             "questionNumber": 30
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "UK UPDATE: Sertraline and renal impairment",
+          "note": "NEEDS VERIFICATION: The notes (page 19) say manufacturers do not recommend sertraline in renal impairment. Reviewer note (not in the source): current UK product information is understood to state that no dose adjustment is needed. Confirm, and learn the notes' version for recognition in older-style questions."
         }
       ],
       "concise": {
@@ -3143,7 +3175,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Tricyclics are orally well absorbed but have variable time to peak plasma concentration (1 to 12 h). Many have active metabolites. Most have a long half-life (close to 24 h) that allows once-daily dosing, and readily cross lipid barriers such as the blood-brain barrier and placenta. They are extensively bound to plasma proteins, e.g. **imipramine** 80-==95%==.",
+          "text": "Tricyclics are orally well absorbed but have variable time to peak plasma concentration (1 to 12 h). Many have active metabolites. Most have a long half-life (close to 24 h) that allows once-daily dosing, and readily cross lipid barriers such as the blood-brain barrier and placenta. They are extensively bound to plasma proteins, e.g. **imipramine** ==80-95%==.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 20
@@ -3151,7 +3183,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Nearly 7-==9%== of Caucasians are slow metabolizers of tricyclics (debrisoquin hydroxylation) because of **CYP2D6** polymorphism; up to a 40 times difference in plasma **TCA** concentrations can occur. Children clear more tricyclics, the elderly clear less.",
+          "text": "Nearly ==7-9%== of Caucasians are slow metabolizers of tricyclics (debrisoquin hydroxylation) because of **CYP2D6** polymorphism; up to a 40 times difference in plasma **TCA** concentrations can occur. Children clear more tricyclics, the elderly clear less.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 20
@@ -3344,7 +3376,7 @@
         },
         {
           "type": "trap",
-          "text": "'Metabolism being reduced by smoking' is the least likely **TCA** pharmacokinetic property: the explanation says smoking **FACILITATES** metabolism and reduces **TCA** plasma levels by 25-==50%==; the true properties are that TCAs cross lipid barriers, are extensively protein bound and (being anticholinergic) may delay their own absorption.",
+          "text": "'Metabolism being reduced by smoking' is the least likely **TCA** pharmacokinetic property: the explanation says smoking **FACILITATES** metabolism and reduces **TCA** plasma levels by ==25-50%==; the true properties are that TCAs cross lipid barriers, are extensively protein bound and (being anticholinergic) may delay their own absorption.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
@@ -3360,6 +3392,15 @@
             "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
             "page": 23,
             "questionNumber": 61
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "DECISION NEEDED: Percentage of Caucasians who are CYP2D6 poor metabolisers",
+          "note": "Page 11 gives 5 to 10%. Page 20 gives 7 to 9% (tricyclic slow metabolisers). The figures are compatible; decide which to learn.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 20
           }
         }
       ],
@@ -3709,7 +3750,7 @@
         },
         {
           "type": "trap",
-          "text": "**Fluoxetine** is the **SSRI** with the longest total half-life: the explanation gives **fluoxetine** 2-3 days and its active metabolite norfluoxetine an even longer half-life of 2 weeks. The figures differ between sources (the notes give 1.9 days single dose / 5.6 days multiple dose, metabolite 7-15 days) but the ranking is constant.",
+          "text": "**Fluoxetine** is the **SSRI** with the longest total half-life: the explanation gives **fluoxetine** 2-3 days and its active metabolite norfluoxetine an even longer half-life of 2 weeks. The figures differ between sources (the notes give 1.9 days single dose / 5.6 days multiple dose, metabolite 7-15 days) but the ranking is constant. DECISION NEEDED: commonly taught figures are fluoxetine 1-4 days (acute) / 4-6 days (chronic) and norfluoxetine 4-16 days (verify).",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
@@ -3737,8 +3778,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "SSRI ranking chart (page 22)",
-          "note": "Page 22 carries a graphic ranking the six SSRIs (**fluvoxamine**, **sertraline**, **escitalopram**, **citalopram**, **fluoxetine**, **paroxetine**) with captions such as 'Lower end: Greatest nonlinearity of kinetics', 'Longest t1/2 of primary drug'. It is reproduced as the image in this section; the extracted text does not preserve which caption belongs to which drug, so no caption-to-drug pairing is stated in words here.",
+          "subtopic": "DECISION NEEDED: SSRI ranking chart (page 22)",
+          "note": "Page 22 carries a graphic ranking the six SSRIs (**fluvoxamine**, **sertraline**, **escitalopram**, **citalopram**, **fluoxetine**, **paroxetine**) with captions such as 'Lower end: Greatest nonlinearity of kinetics', 'Longest t1/2 of primary drug'. It is reproduced as the image in this section; the extracted text does not preserve which caption belongs to which drug, so no caption-to-drug pairing is stated in words here. Check the original PDF image to match each caption to its drug before adding it; do not guess.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 22
@@ -4039,15 +4080,15 @@
           "rows": [
             [
               "Non-response",
-              "Minimal or <==25%== decrease in baseline severity of symptoms"
+              "Minimal or ==<25%== decrease in baseline severity of symptoms"
             ],
             [
               "Partial response",
-              "25-==50%== reduction in baseline severity (symptoms still evident)"
+              "==25-50%== reduction in baseline severity (symptoms still evident)"
             ],
             [
               "Partial remission",
-              ">==50%== reduction, but still some symptoms evident"
+              "==>50%== reduction, but still some symptoms evident"
             ],
             [
               "Remission",
@@ -4153,6 +4194,11 @@
             "page": 16,
             "questionNumber": 69
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "UK UPDATE: Nefazodone availability",
+          "note": "NEEDS VERIFICATION: Nefazodone (listed on page 25 of the notes) is believed to be withdrawn in the UK (liver toxicity). Keep it for exam recognition only."
         }
       ],
       "concise": {
@@ -4441,7 +4487,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Valproate**: t1/2 9 to 16 hours; highly (==90%==) protein bound, with saturable binding so at higher doses a greater percentage is free; the increased free fraction stays in plasma and is cleared by the liver, giving 'sublinear' kinetics (greater dose increases needed for desired plasma level increases). **VPA** can increase free **diazepam** through binding interactions.",
+          "text": "**Valproate**: t1/2 9 to 16 hours; highly (==90%==) protein bound, with saturable binding so at higher doses a greater percentage is free; the increased free fraction stays in plasma and is cleared by the liver, giving 'sublinear' kinetics (greater dose increases needed for desired plasma level increases) (Graves, 1995). **VPA** can increase free **diazepam** through binding interactions.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 27
@@ -4457,7 +4503,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The active **CBZ-10**,11-epoxide metabolite has a half-life of about 6 hr. Conventional **carbamazepine** needs multiple divided doses; extended release can be twice a day. Steady-state plasma concentration of 4 to 12 ng/ml is therapeutic (as stated in the notes).",
+          "text": "The active carbamazepine-10,11-epoxide metabolite has a half-life of about 6 hr. Conventional **carbamazepine** needs multiple divided doses; extended release can be twice a day. Steady-state plasma concentration of 4 to 12 ng/ml is therapeutic (as stated in the notes; Reviewer correction (not in the source): the standard unit is mg/L, micrograms per mL, see verification note).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 28
@@ -4694,6 +4740,24 @@
               }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "NEEDS VERIFICATION: Carbamazepine level unit",
+          "note": "The source notes print \"4 to 12 ng/ml\". Reviewer correction (not in the source): the standard therapeutic range is 4 to 12 mg/L (micrograms per mL), so the notes appear to contain a unit error. The source-printed value is kept above. Confirm against the British National Formulary or the Maudsley Prescribing Guidelines.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 28
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "DECISION NEEDED: Carbamazepine time to final steady state",
+          "note": "Page 12 says final steady state is reached 3 to 4 weeks after starting. Page 27 says autoinduction occurs 2 to 4 weeks into therapy. Bank question 10 says at least 2 weeks. Choose one figure to learn, for example '2 to 4 weeks', and keep the others for recognition.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
+            "page": 27
+          }
         }
       ],
       "concise": {
@@ -4972,6 +5036,11 @@
             "page": 18,
             "questionNumber": 39
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "UK UPDATE: Pipotiazine availability",
+          "note": "NEEDS VERIFICATION: Pipotiazine palmitate depot (listed on pages 29-30 of the notes) is believed to have been discontinued in the UK (around 2015). Keep it for exam recognition only."
         }
       ],
       "concise": {
@@ -5134,7 +5203,7 @@
               "page": 30
             }
           ],
-          "title": "Half-life and chlorpromazine equivalents (100mg/day CPZ or 2mg haloperidol)",
+          "title": "Half-life and chlorpromazine equivalents (100 mg/day chlorpromazine or 2 mg haloperidol; Woods, 2003)",
           "highYield": true
         },
         {
@@ -5167,7 +5236,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Paliperidone** is the major active metabolite of **risperidone** (9-**OH**): a potent 5HT2 blocker that partially blocks **D2**; efficacy and side effects same as **risperidone**. Sustained release preparation (gradual water absorption), once daily, no need to titrate.",
+          "text": "**Paliperidone** is the major active metabolite of **risperidone** (9-**OH**): a potent 5HT2 blocker that partially blocks **D2**; efficacy and side effects same as **risperidone**. Sustained release preparation similar to extended-release methylphenidate (gradual water absorption delivers the drug slowly), once daily, no need to titrate.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 30
@@ -5175,7 +5244,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Quetiapine** has a shorter half-life of 6 to 12 hours so needs multiple daily dosing, though with longer use once daily may suffice.",
+          "text": "**Quetiapine** has a shorter half-life of 6 to 12 hours so needs multiple daily dosing, though with longer use once daily may suffice because its pharmacodynamic receptor action lasts longer than its half-life.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 30
@@ -5198,7 +5267,7 @@
           "rows": [
             [
               "**Aripiprazole** depot",
-              "No need to refrigerate; once monthly; gluteal administration only; only 2 weeks oral dose tapering needed"
+              "No need to refrigerate; once monthly; gluteal administration only (as printed in the notes; see update note); only 2 weeks oral dose tapering needed"
             ],
             [
               "**Paliperidone** depot",
@@ -5252,7 +5321,7 @@
         },
         {
           "type": "gap",
-          "subtopic": "Half-life figures differ within the notes and the bank",
+          "subtopic": "DECISION NEEDED: Half-life figures differ within the notes and the bank",
           "note": "**Aripiprazole**: 90 hrs (table, p30) vs 75 hours with metabolite 94 hours (text, p30) vs bank **Q60** explanation 75 hours with metabolite 96 hours. **Quetiapine**: 6 hrs (table) vs 6 to 12 hours (text) vs bank **Q58** explanation about 7 hours. All are stated; none is reconciled in the source.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
@@ -5263,7 +5332,7 @@
         {
           "type": "gap",
           "subtopic": "Clozapine receptor pharmacology",
-          "note": "**Q22** asks about **clozapine** pharmacology (the false statement is 'slow release from **D2** receptors'; explanation: **clozapine** binds loosely with fast dissociation, occupies only 40-==50%== of striatal **D2**). That is pharmacodynamics, not covered in the pharmacokinetics notes.",
+          "note": "**Q22** asks about **clozapine** pharmacology (the false statement is 'slow release from **D2** receptors'; explanation: **clozapine** binds loosely with fast dissociation, occupies only ==40-50%== of striatal **D2**). That is pharmacodynamics, not covered in the pharmacokinetics notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
             "page": 10,
@@ -5289,6 +5358,26 @@
             "page": 7,
             "questionNumber": 26
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "UK UPDATE: Aripiprazole depot injection site",
+          "note": "NEEDS VERIFICATION: The notes (page 30) say gluteal administration only. Reviewer note (not in the source): the monthly aripiprazole long-acting injection is now licensed for deltoid or gluteal use, so the notes' statement is outdated. Confirm against current UK product information."
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Olanzapine depot post-injection syndrome",
+          "note": "NEEDS VERIFICATION: Not in the notes. Olanzapine pamoate can cause post-injection delirium/sedation syndrome, so patients are observed for 3 hours after each injection. Confirm against current product information."
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Paliperidone depot loading",
+          "note": "NEEDS VERIFICATION: Not in the notes. Monthly paliperidone palmitate needs no oral cover because it starts with two deltoid loading injections (day 1 and day 8). Confirm against current product information."
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Newer risperidone depots",
+          "note": "NEEDS VERIFICATION: Not in the notes. The 3-week oral cover applies to risperidone microspheres. Some newer risperidone long-acting injections do not need oral cover. Confirm against current product information."
         }
       ],
       "concise": {
@@ -5329,7 +5418,7 @@
             }
           },
           {
-            "text": "Depots: aripiprazole (monthly, gluteal, 2 weeks oral); paliperidone (monthly, no oral cover, renal); risperidone microspheres (3 weeks oral cover, refrigerate); olanzapine pamoate (30-day t1/2, steady state 12 weeks, no oral cover).",
+            "text": "Depots: aripiprazole (monthly, gluteal per the notes, 2 weeks oral); paliperidone (monthly, no oral cover, renal); risperidone microspheres (3 weeks oral cover, refrigerate); olanzapine pamoate (30-day t1/2, steady state 12 weeks, no oral cover).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
               "page": 30
@@ -5449,6 +5538,11 @@
             "page": 7,
             "questionNumber": 26
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Tacrine availability",
+          "note": "NEEDS VERIFICATION: Tacrine (listed on page 31 of the notes) is withdrawn (liver toxicity). Keep it for exam recognition only."
         }
       ],
       "concise": {
@@ -5637,7 +5731,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Diazepam**: well absorbed orally, bioavailability nearly ==100%==; peak in 15-90 minutes with a second peak at 6-12 hours due to enterohepatic recirculation. Highly lipophilic (**CSF** concentration more or less equals plasma), 95-==99%== protein bound. Slow elimination t1/2 30 h (range 20-100 h); steady state takes 5-6 days. Extensively metabolized in the liver to 3 active metabolites: nordiazepam/desmethyldiazepam (principal; could accumulate), **oxazepam** and **temazepam**.",
+          "text": "**Diazepam**: well absorbed orally, bioavailability nearly ==100%==; peak in 15-90 minutes with a second peak at 6-12 hours due to enterohepatic recirculation. Highly lipophilic (**CSF** concentration more or less equals plasma), ==95-99%== protein bound. Slow elimination t1/2 30 h (range 20-100 h); steady state takes 5-6 days. Extensively metabolized in the liver to 3 active metabolites: nordiazepam/desmethyldiazepam (principal; could accumulate), **oxazepam** and **temazepam**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/PHARMACOKINETICS.pdf",
             "page": 32
@@ -5645,7 +5739,7 @@
         },
         {
           "type": "trap",
-          "text": "A **diazepam** protein binding of 30-==40%== is the **INCORRECT** statement (the notes give 95-==99%==; the explanation says benzodiazepine binding ranges from 70 to 99 percent).",
+          "text": "A **diazepam** protein binding of ==30-40%== is the **INCORRECT** statement (the notes give ==95-99%==; the explanation says benzodiazepine binding ranges from 70 to 99 percent).",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
@@ -5672,7 +5766,7 @@
             [
               "**Zopiclone** / eszopiclone (enantiomer)",
               "Onset within 45 mins; half-life 4 to 5 hours (acts up to 8 hours)",
-              "Benzodiazepine receptor selective for alpha 1 subunit; eszopiclone is the only Z-hypnotic indicated for sleep maintenance (**US** **FDA**), others for initiation problems"
+              "Benzodiazepine receptor selective for alpha 1 subunit; eszopiclone is the only Z-hypnotic indicated for sleep maintenance (**US** **FDA**), others for initiation problems (see update note)"
             ],
             [
               "Zaleplon",
@@ -5704,7 +5798,7 @@
         },
         {
           "type": "gap",
-          "subtopic": "Hypnotic half-life figures",
+          "subtopic": "DECISION NEEDED: Hypnotic half-life figures",
           "note": "**Zolpidem**: notes give half-life 1 to 4 hours; bank **Q2** gives 2.6 hours. Zaleplon: notes 1 to 2 hours; bank **Q63** gives 1 hour. Both stated; not reconciled in source.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Pharmacokinetics Attempt review.pdf",
@@ -5811,6 +5905,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Z-hypnotics for sleep maintenance",
+          "note": "NEEDS VERIFICATION: The notes (page 32) say eszopiclone is the only Z-hypnotic indicated for sleep maintenance (US FDA). Reviewer note (not in the source): extended-release zolpidem is also licensed in the United States for sleep maintenance, so 'eszopiclone is the only one' may be outdated. Eszopiclone is not licensed in the UK. Confirm."
         }
       ],
       "concise": {

@@ -72,7 +72,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Classical conditioning: a neutral conditioned stimulus (**CS**, e.g. bell) is repeatedly paired with an unconditioned stimulus (**UCS**, e.g. food) that naturally evokes an unconditioned response (**UCR**, e.g. salivation). Eventually the **CS** alone evokes the response, now called the conditioned response (CR). It is a relatively rapid process and depends on the nature of the **UCS**. Pavlov first demonstrated it in dogs.",
+          "text": "Classical conditioning: a neutral **conditioned stimulus** (e.g. bell) is repeatedly paired with an **unconditioned stimulus** (e.g. food) that naturally evokes an **unconditioned response** (e.g. salivation). Eventually the **conditioned stimulus** alone evokes the response, now called the conditioned response. It is a relatively rapid process and depends on the nature of the **unconditioned stimulus**. Pavlov first demonstrated it in dogs.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 2
@@ -80,7 +80,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Development of the association between **CS** and **UCR** resulting in a CR is called acquisition. In animals this takes around 3 to 15 pairings; with sufficient emotional involvement acquisition can occur with even one pairing.",
+          "text": "Development of the association between **conditioned stimulus** and **unconditioned response** resulting in a conditioned response is called acquisition. In animals this takes around 3 to 15 pairings; with sufficient emotional involvement acquisition can occur with even one pairing.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 2
@@ -96,19 +96,19 @@
           "rows": [
             [
               "Delayed or forward conditioning",
-              "**CS** (bell) presented before **UCS** (food); the **CS** + **UCS** pairing continues till **UCR** (saliva) appears"
+              "**Conditioned stimulus** (bell) presented before **unconditioned stimulus** (food); the **conditioned stimulus** + **unconditioned stimulus** pairing continues till **unconditioned response** (saliva) appears"
             ],
             [
               "Backward conditioning",
-              "**UCS** (food) presented before **CS** (bell) - not useful in animals; used in advertising"
+              "**Unconditioned stimulus** (food) presented before **conditioned stimulus** (bell) - not useful in animals; used in advertising"
             ],
             [
               "Simultaneous conditioning",
-              "**UCS** + **CS** presented together - often the case of learning in real life situations"
+              "**Unconditioned stimulus** + **conditioned stimulus** presented together - often the case of learning in real life situations"
             ],
             [
               "Trace conditioning",
-              "**CS** presented and removed before **UCS** presented - conditioning depends on memory trace"
+              "**Conditioned stimulus** presented and removed before **unconditioned stimulus** presented - conditioning depends on memory trace"
             ]
           ],
           "sources": [
@@ -137,7 +137,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A delay of less than 0.5ms is proposed to be the optimum for trace conditioning.",
+          "text": "A delay of less than 0.5 seconds between the conditioned and unconditioned stimulus is proposed to be the optimum (the source notes print '0.5ms', which appears to be a typo; question bank Q82 keys 'less than 0.5 seconds').",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 3
@@ -153,7 +153,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Higher-order conditioning uses an already conditioned stimulus (**CS1**) as the **UCS** for the next level of conditioning, eliciting a CR for another stimulus (**CS2**). Animals do not usually respond higher than 4th order.",
+          "text": "Higher-order conditioning uses an already conditioned stimulus (**first conditioned stimulus**) as the **unconditioned stimulus** for the next level of conditioning, eliciting a conditioned response for another stimulus (**second conditioned stimulus**). Animals do not usually respond higher than 4th order.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 3
@@ -185,7 +185,7 @@
           "rows": [
             [
               "Extinction",
-              "Reduction/disappearance of a learned response when the **UCS-CS** pairing (or the reinforcer in operant conditioning) is no longer available. Faster extinction may mean weaker learning. It is suppression of the behavioural response, not loss of learning"
+              "Reduction/disappearance of a learned response when the **unconditioned stimulus-CS** pairing (or the reinforcer in operant conditioning) is no longer available. Faster extinction may mean weaker learning. It is suppression of the behavioural response, not loss of learning"
             ],
             [
               "Spontaneous recovery",
@@ -197,7 +197,7 @@
             ],
             [
               "Latent inhibition",
-              "Delay in learning the **CS-UCS** association if the **CS** was previously presented in isolation"
+              "Delay in learning the **conditioned stimulus-UCS** association if the **conditioned stimulus** was previously presented in isolation"
             ]
           ],
           "sources": [
@@ -220,7 +220,7 @@
         },
         {
           "type": "trap",
-          "text": "Trace conditioning is the tempting-wrong label whenever the **CS** **ENDS** before the **UCS** is applied (the options were forward, delayed, trace, backward and higher-order). The explanation also says trace and higher-order conditioning tend to be weaker than delayed (forward) conditioning, where the **CS** stays on until the response appears.",
+          "text": "Trace conditioning is the tempting-wrong label whenever the **conditioned stimulus** **ENDS** before the **unconditioned stimulus** is applied (the options were forward, delayed, trace, backward and higher-order). The explanation also says trace and higher-order conditioning tend to be weaker than delayed (forward) conditioning, where the **conditioned stimulus** stays on until the response appears.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
@@ -241,7 +241,7 @@
         {
           "type": "gap",
           "subtopic": "Timing of the strongest learning: notes and question bank differ",
-          "note": "Notes: a delay of less than 0.5ms is proposed as optimum for trace conditioning. **Q82** asks 'strongest learning occurs when the delay is...' and keys 'Less than 0.5 seconds' with the explanation 'Longer the interval, poorer the learning'. The unit (ms in the notes, seconds in the question) is not the same; both are shown here and the source does not reconcile them.",
+          "note": "Resolved: learn 'less than 0.5 seconds'. The notes print '0.5ms', which appears to be a typo; **Q82** keys 'Less than 0.5 seconds' with the explanation 'Longer the interval, poorer the learning'.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 37,
@@ -315,7 +315,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In **OCD**, compulsions provide short-term relief of obsessional anxiety via negative reinforcement: carrying out rituals acutely reduces anxiety, so termination of the aversive anxiety cued by obsessions increases the compulsive behaviour that removed it, without addressing the core of the obsessions.",
+          "text": "In **obsessive-compulsive disorder**, compulsions provide short-term relief of obsessional anxiety via negative reinforcement: carrying out rituals acutely reduces anxiety, so termination of the aversive anxiety cued by obsessions increases the compulsive behaviour that removed it, without addressing the core of the obsessions.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 4
@@ -347,7 +347,7 @@
             ],
             [
               "Fixed Ratio",
-              "Reward occurs after a specific number of responses e.g. after completing 20 MCQs, you give yourself a coffee (or chocolate) break."
+              "Reward occurs after a specific number of responses e.g. after completing 20 multiple-choice questions, you give yourself a coffee (or chocolate) break."
             ],
             [
               "Variable Ratio",
@@ -368,7 +368,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In fixed schedules a pause in response is seen after reinforcement; the pause for fixed interval is greater than for fixed ratio. Variable schedules generate a constant rate of response because the chance of reward stays the same at any time.",
+          "text": "In fixed schedules a pause in response is seen after reinforcement, as the organism knows reinforcement will not happen for some reasonable time or number of attempts; the pause for fixed interval is greater than for fixed ratio. When we interpret an operation to be under control (as in fixed schedules) we learn more quickly. Variable schedules generate a constant rate of response because the chance of reward stays the same at any time and for any instance of behaviour.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 5
@@ -518,7 +518,7 @@
             ],
             [
               "Covert reinforcement",
-              "Reinforcer is an imagined pleasant event rather than material pleasure - e.g. imagining the MRCPsych graduation event to reinforce practising MCQs"
+              "Reinforcer is an imagined pleasant event rather than material pleasure - e.g. imagining the MRCPsych graduation event to reinforce practising multiple-choice questions"
             ],
             [
               "Covert sensitization",
@@ -546,7 +546,7 @@
         {
           "type": "gap",
           "subtopic": "Disulfiram: notes and question bank classify it differently",
-          "note": "Notes (p5) list **disulfiram** under aversive conditioning, i.e. punishment used to reduce drinking. **Q59** asks 'which is a form of negative reinforcement used in the treatment of alcohol dependence' and keys **disulfiram**, explaining that negative reinforcement of abstinence occurs when adherence reduces the anxiety caused by internal conflicts about drinking, and that **disulfiram** is often confused with aversion therapy. Both framings are shown; the source does not reconcile them.",
+          "note": "Notes (p5) list **disulfiram** under aversive conditioning, i.e. punishment used to reduce drinking. **Q59** asks 'which is a form of negative reinforcement used in the treatment of alcohol dependence' and keys **disulfiram**, explaining that negative reinforcement of abstinence occurs when adherence reduces the anxiety caused by internal conflicts about drinking, and that **disulfiram** is often confused with aversion therapy. Both framings are shown; the source does not reconcile them. Reviewer note (not in the source): textbooks generally class disulfiram as aversive (punishment-based) conditioning; for the **Q59** stem ('a form of negative reinforcement used in the treatment of alcohol dependence') choose disulfiram as keyed.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 26,
@@ -563,7 +563,7 @@
           "rows": [
             [
               "Flooding",
-              "Exposure to the feared stimulus for a substantial time so the accompanying anxiety fades while the stimulus is continuously present (e.g. a man afraid of heights standing on top of the Burj Khalifa); leads to extinction of fear"
+              "An operant conditioning technique (as classed in the notes): Exposure to the feared stimulus for a substantial time so the accompanying anxiety fades while the stimulus is continuously present (e.g. a man afraid of heights standing on top of the Burj Khalifa); leads to extinction of fear"
             ],
             [
               "Implosion",
@@ -590,7 +590,7 @@
         },
         {
           "type": "trap",
-          "text": "Exposure and response prevention for contamination fears: the therapist asks her to **TOUCH** the dirty linen and prevents her washing her hands. The wrong options are limiting washing to four times, washing without touching the dirt, and saying '**STOP**' aloud - none of these is exposure with response prevention. **ERP** is a form of **CBT** (psychoeducation, exposure, resisting compulsions); not covered in the notes.",
+          "text": "Exposure and response prevention for contamination fears: the therapist asks her to **TOUCH** the dirty linen and prevents her washing her hands. The wrong options are limiting washing to four times, washing without touching the dirt, and saying '**STOP**' aloud - none of these is exposure with response prevention. **ERP** is a form of **cognitive behavioural therapy** (psychoeducation, exposure, resisting compulsions); not covered in the notes.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
@@ -659,7 +659,7 @@
           "rows": [
             [
               "Incubation",
-              "Emotional response increases in strength with brief but repeated exposure to the stimulus; rumination on anxiety-provoking stimuli increases anxiety this way; maintains phobic anxiety and **PTSD**"
+              "Emotional response increases in strength with brief but repeated exposure to the stimulus; rumination on anxiety-provoking stimuli increases anxiety this way; maintains phobic anxiety and **post-traumatic stress disorder**"
             ],
             [
               "Stimulus preparedness (Seligman)",
@@ -671,7 +671,7 @@
             ],
             [
               "Reciprocal inhibition (Wolpe)",
-              "If stimuli with the desired and undesired responses are presented together repeatedly, the incompatibility reduces the undesired response; used in relaxation therapy for anxiety and in systematic desensitisation"
+              "If stimuli with the desired and undesired responses are presented together repeatedly, the incompatibility reduces the undesired response; used in relaxation therapy for anxiety and in systematic desensitisation. Example from the notes: if your dog barks at your friend, hugging her in front of the dog every time it barks slowly stops the barking"
             ],
             [
               "Cueing (prompting)",
@@ -877,7 +877,7 @@
         {
           "type": "gap",
           "subtopic": "Behaviour-therapy techniques tested but not in the notes",
-          "note": "**Q11** (modelling): the explanation says modelling can lead to social facilitation and skilled behaviour, can lower the pain and anxiety threshold, and that observational learning is more likely when the model shares characteristics with the observer, is competent, has high status or social power; the notes do not cover these effects. **Q34** (time out): the explanation calls time out and loss of privileges 'negative reinforcement strategies' to reduce unwanted behaviour in children, whereas the notes would class taking something away to reduce behaviour as negative punishment. **Q61** (exposure and response prevention for contamination fears: touching dirty linen with the hand-washing prevented), **Q70** (habit reversal for trichotillomania) and **Q76** (biofeedback mainly modifies cardiovascular function) are also tested but not covered in these notes.",
+          "note": "**Q11** (modelling): the explanation says modelling can lead to social facilitation and skilled behaviour, can lower the pain and anxiety threshold, and that observational learning is more likely when the model shares characteristics with the observer, is competent, has high status or social power; the notes do not cover these effects. **Q34** (time out): the explanation calls time out and loss of privileges 'negative reinforcement strategies' to reduce unwanted behaviour in children, whereas the notes would class taking something away to reduce behaviour as negative punishment. **Q61** (exposure and response prevention for contamination fears: touching dirty linen with the hand-washing prevented), **Q70** (habit reversal for trichotillomania) and **Q76** (biofeedback mainly modifies cardiovascular function) are also tested but not covered in these notes. By the notes' own definitions (p4), time out and loss of privileges remove something to reduce behaviour, which is negative punishment; the Q34 explanation's 'negative reinforcement' is loose wording (reviewer reading, not stated in the source).",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 5,
@@ -969,7 +969,7 @@
               }
             },
             {
-              "text": "**Q52**: a fear of driving after a trivial collision, avoiding cars even as a passenger and with no **PTSD** symptoms = behaviour therapy (the explanation: simple phobia, not **PTSD**).",
+              "text": "**Q52**: a fear of driving after a trivial collision, avoiding cars even as a passenger and with no **post-traumatic stress disorder** symptoms = behaviour therapy (the explanation: simple phobia, not **post-traumatic stress disorder**).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 23,
@@ -1013,14 +1013,14 @@
             }
           },
           {
-            "text": "Classical conditioning: CS paired with UCS evokes UCR; CS alone then evokes CR. Acquisition takes about 3-15 pairings in animals (one if strongly emotional).",
+            "text": "Classical conditioning: conditioned stimulus paired with unconditioned stimulus evokes unconditioned response; conditioned stimulus alone then evokes conditioned response. Acquisition takes about 3-15 pairings in animals (one if strongly emotional).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 2
             }
           },
           {
-            "text": "Pairing types: delayed/forward (CS before UCS), backward (UCS first; advertising), simultaneous, trace (CS removed before UCS; memory trace).",
+            "text": "Pairing types: delayed/forward (conditioned stimulus before unconditioned stimulus), backward (unconditioned stimulus first; advertising), simultaneous, trace (conditioned stimulus removed before unconditioned stimulus; memory trace).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 2
@@ -1034,7 +1034,7 @@
             }
           },
           {
-            "text": "Extinction suppresses the response (not loss of learning); spontaneous recovery follows a rest; latent inhibition delays learning after prior CS-alone exposure.",
+            "text": "Extinction suppresses the response (not loss of learning); spontaneous recovery follows a rest; latent inhibition delays learning after prior conditioned stimulus-alone exposure.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 3
@@ -1088,8 +1088,8 @@
             }
           },
           {
-            "label": "Optimum trace conditioning delay (notes)",
-            "value": "Less than 0.5ms",
+            "label": "Optimum conditioning delay",
+            "value": "Less than 0.5 seconds (notes print 0.5ms, apparently a typo; Q82 keys seconds)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 3
@@ -1224,7 +1224,7 @@
         {
           "type": "gap",
           "subtopic": "Gestalt principles: notes and question bank list them differently",
-          "note": "Notes list five Gestalt laws: proximity, closure, continuity, similarity and common fate (symmetry appears only as a figure-ground determinant). **Q40** (which is **NOT** a Gestalt principle) keys 'Familiarity', and its explanation lists the Gestalt principles as proximity, closure, similarity, continuity and symmetry. Both lists are shown; the source does not reconcile 'common fate' and 'symmetry'.",
+          "note": "Notes list five Gestalt laws: proximity, closure, continuity, similarity and common fate (symmetry appears only as a figure-ground determinant). **Q40** (which is **NOT** a Gestalt principle) keys 'Familiarity', and its explanation lists the Gestalt principles as proximity, closure, similarity, continuity and symmetry. Both lists are shown; the source does not reconcile 'common fate' and 'symmetry'. Reviewer note (not in the source): symmetry and common fate are both recognised Gestalt principles, so learn all six (proximity, closure, continuity, similarity, common fate, symmetry); 'Familiarity' remains the keyed 'not a Gestalt principle' for **Q40**.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 18,
@@ -1298,7 +1298,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Autokinesis: light from a small, dim, fixed source shown for an extended period in a dark room appears to move; this illusion can explain **UFO** sightings and can affect pilots.",
+          "text": "Autokinesis: light from a small, dim, fixed source shown for an extended period in a dark room appears to move; this illusion can explain **unidentified flying object** sightings and can affect pilots.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 9
@@ -1332,9 +1332,14 @@
               "Retinal images are sketchy and cannot explain the complex, fully formed perceptions we experience"
             ],
             [
-              "Support",
-              "Perception is not just seeing, it is 'seeing as'",
-              "Illusions such as Muller-Lyer support top-down processing"
+              "Limitation noted in the source",
+              "Perception is not just seeing, it is 'seeing as' (stated at the end of the bottom-up paragraph, p9; reviewer reading, not in the source: a purely data-driven account does not explain this)",
+              "Not stated in the notes"
+            ],
+            [
+              "Supporting evidence",
+              "Not stated in the notes",
+              "Illusions such as Muller-Lyer support top-down processing (two horizontal lines of identical length, shown in the notes as >----< and ←→; the first one may appear longer)"
             ]
           ],
           "sources": [
@@ -1350,7 +1355,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A perceptual set is the readiness to perceive selected features as an object; it is related to level of motivation (e.g. hunger), emotional state, values, beliefs, context and expectations (e.g. UFOs are sighted by those who believe in them and expect them).",
+          "text": "A perceptual set is the readiness to perceive selected features as an object; it is related to level of motivation (e.g. hunger), emotional state, values, beliefs, context and expectations (e.g. Unidentified flying objects are sighted only by those who believe in them and 'expect' them).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 10
@@ -1471,6 +1476,15 @@
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 10,
             "questionNumber": 21
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "Depth perception age: two statements in the notes",
+          "note": "The notes say depth perception is apparent at 2-4 months (p10) and that infants of 6 months and older avoid the deep side of the visual cliff (p9). Reviewer reading (not in the source): these are compatible - at 2-4 months infants show heart-rate change over the deep side (they perceive depth but show no fear); avoidance of the deep side appears around 6 months, once infants crawl.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+            "page": 10
           }
         }
       ],
@@ -1612,7 +1626,7 @@
         {
           "type": "image",
           "src": "/diagrams/paper-a/pa-basic-psychology/p11-broadbent-filter-diagram.png",
-          "caption": "Diagram for Broadbent's early selection filter theory: circles labelled sight, sound, smell (Senses) -> short term memory (STM) -> Selected stimulus (Selective Filter).",
+          "caption": "Diagram for Broadbent's early selection filter theory: circles labelled sight, sound, smell (Senses) -> short term memory -> Selected stimulus (Selective Filter).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 11
@@ -1628,7 +1642,7 @@
           "rows": [
             [
               "Broadbent's early selection filter",
-              "Capacity-limited processing; a temporary buffer receives all information and passes it to a selective filter; selection is based on physical characteristics, one source selected and others rejected; processing two pieces of information takes longer and is less efficient because switching takes a substantial period"
+              "Capacity-limited processing; a temporary buffer receives all information and passes it to a selective filter; selection is based on physical characteristics, one source selected and others rejected; processing two pieces of information takes longer and is less efficient because switching takes a substantial period; diagram in the notes (left to right): senses (sight, sound, smell), short-term memory, selective filter, selected stimulus"
             ],
             [
               "Treisman's attenuation theory (1964)",
@@ -1941,8 +1955,8 @@
           "columns": [
             "Feature",
             "Sensory memory",
-            "Short-term memory (STM)",
-            "Long-term memory (LTM)"
+            "Short-term memory",
+            "Long-term memory"
           ],
           "rows": [
             [
@@ -1965,8 +1979,8 @@
             ],
             [
               "Other",
-              "Disrupted by new inflow in the same modality; attended sensory memory moves into **STM**",
-              "Recall effortless and usually error-free; held by rehearsal; lost by displacement and decay",
+              "Disrupted by new inflow in the same modality; attended sensory memory moves into **short-term memory**",
+              "Recall effortless and usually error-free; held by rehearsal; lost mainly by displacement (newly acquired items entering short-term memory displace existing material) and decay (older material has a weaker trace strength than recently acquired items)",
               "Not stated in the notes"
             ]
           ],
@@ -1980,7 +1994,7 @@
         },
         {
           "type": "trap",
-          "text": "The **FALSE** statement about short-term memory is that it is 'mainly stored in the visual modality' - the explanation says **STM** is mainly auditory (acoustic encoding). The other options were true: held 15 to 30 seconds, extended by rehearsal, capacity increased by chunking, and retrieval is error-free.",
+          "text": "The **FALSE** statement about short-term memory is that it is 'mainly stored in the visual modality' - the explanation says **short-term memory** is mainly auditory (acoustic encoding). The other options were true: held 15 to 30 seconds, extended by rehearsal, capacity increased by chunking, and retrieval is error-free.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
@@ -1990,7 +2004,7 @@
         },
         {
           "type": "trap",
-          "text": "The inaccurate statement about **SENSORY** memory is that information is processed in it: no processing is involved; attended information moves to **STM** and unselected information is rapidly lost.",
+          "text": "The inaccurate statement about **SENSORY** memory is that information is processed in it: no processing is involved; attended information moves to **short-term memory** and unselected information is rapidly lost.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
@@ -2000,7 +2014,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Brown Paterson task: distraction (e.g. counting a three-digit number backwards) is introduced immediately after the digit span test to prevent rehearsal. Moving from temporary to long-term storage requires elaborative encoding (Daniel Schacter).",
+          "text": "Brown-Peterson task: distraction (e.g. counting a three-digit number backwards) is introduced immediately after the digit span test to prevent rehearsal. Moving from temporary to long-term storage requires elaborative encoding (Daniel Schacter).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 13
@@ -2008,7 +2022,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Working memory is increasingly used to describe a large part of what was called **STM**; it allows cognitive processes to be performed on data briefly stored in **STM**.",
+          "text": "Working memory is increasingly used to describe a large part of what was called **short-term memory**; it allows cognitive processes to be performed on data briefly stored in **short-term memory**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 13
@@ -2016,11 +2030,11 @@
         },
         {
           "type": "comparison",
-          "title": "STM vs LTM (Atkinson and Shiffrin structural components)",
+          "title": "Short-term memory vs long-term memory (Atkinson and Shiffrin structural components)",
           "columns": [
             "Feature",
-            "STM",
-            "LTM"
+            "Short-term memory",
+            "Long-term memory"
           ],
           "rows": [
             [
@@ -2048,7 +2062,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Atkinson and Shiffrin regard **STM** and **LTM** as structural components; rehearsal is the transient control process that aids maintenance of **STM** and transfer to **LTM**. Other control processes are encoding, retrieval strategies and the decision to remember.",
+          "text": "Atkinson and Shiffrin regard **short-term memory** and **long-term memory** as structural components; rehearsal is the transient control process that aids maintenance of **short-term memory** and transfer to **long-term memory**. Other control processes are encoding, retrieval strategies and the decision to remember.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 13
@@ -2064,7 +2078,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Psychology and psychiatry use different terms: **STM** corresponds to immediate memory in clinical psychiatry, and **LTM** to recent and remote memory. Immediate memory (**STM**) is tested by recall of digits immediately after presentation (digit span).",
+          "text": "Psychology and psychiatry use different terms: **short-term memory** corresponds to immediate memory in clinical psychiatry, and **long-term memory** to recent and remote memory. Immediate memory (**short-term memory**) is tested by recall of digits immediately after presentation (digit span).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 14
@@ -2089,7 +2103,7 @@
         },
         {
           "type": "comparison",
-          "title": "Declarative vs non-declarative (Tulving's elaboration of LTM)",
+          "title": "Declarative vs non-declarative (Tulving's elaboration of long-term memory)",
           "columns": [
             "Feature",
             "Declarative (explicit)",
@@ -2146,7 +2160,7 @@
             ],
             [
               "Episodic buffer (4th component)",
-              "Multimodal store integrating information from the slave systems onto **LTM**; important for chunking"
+              "Multimodal store integrating information from the slave systems onto **long-term memory**; important for chunking"
             ]
           ],
           "sources": [
@@ -2178,7 +2192,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Serial position effect: when memorising and recalling a list of words, the initial words (primacy) and the last few words (recency) are remembered better than the middle, regardless of list length. Primacy is thought to reflect **LTM** (consolidation had time to occur); recency reflects **STM** (freshly retained last words).",
+          "text": "Serial position effect: when memorising and recalling a list of words, the initial words (primacy) and the last few words (recency) are remembered better than the middle, regardless of list length. Primacy is thought to reflect **long-term memory** (consolidation had time to occur); recency reflects **short-term memory** (freshly retained last words).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 14
@@ -2186,7 +2200,7 @@
         },
         {
           "type": "trap",
-          "text": "Primacy is due to initial items receiving the most consolidation; recency is because the latest items are still in **STM**. Wrong options to avoid: 'primacy is stronger than recency in immediate recall', 'elaborative rehearsal helps to store information in **STM**', and 'retroactive inhibition is prior learning interfering with later learning' (the explanation gives that definition to **PROACTIVE** inhibition).",
+          "text": "Primacy is due to initial items receiving the most consolidation; recency is because the latest items are still in **short-term memory**. Wrong options to avoid: 'primacy is stronger than recency in immediate recall', 'elaborative rehearsal helps to store information in **short-term memory**', and 'retroactive inhibition is prior learning interfering with later learning' (the explanation gives that definition to **PROACTIVE** inhibition).",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
@@ -2196,7 +2210,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In organic anterograde amnesia, recency is better preserved than primacy: the problem is transferring from **STM** to **LTM** and/or retrieving from **LTM**.",
+          "text": "In organic anterograde amnesia, recency is better preserved than primacy: the problem is transferring from **short-term memory** to **long-term memory** and/or retrieving from **long-term memory**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 15
@@ -2204,7 +2218,7 @@
         },
         {
           "type": "table",
-          "title": "Modes of retrieval (LTM to STM)",
+          "title": "Modes of retrieval (long-term memory to short-term memory)",
           "columns": [
             "Mode",
             "Notes"
@@ -2212,7 +2226,7 @@
           "rows": [
             [
               "Recognition",
-              "e.g. solving MCQs"
+              "e.g. solving multiple-choice questions"
             ],
             [
               "Recall",
@@ -2353,7 +2367,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Chunking increases **STM** capacity by combining units (usually numbers) into chunks - e.g. 1,5,2,3,5,2,5,8,5,3,7,8 overloads **STM** but arranged as 152, 352, 585, 378 it is manageable.",
+          "text": "Chunking increases **short-term memory** capacity by combining units (usually numbers) into chunks - e.g. 1,5,2,3,5,2,5,8,5,3,7,8 overloads **short-term memory** but arranged as 152, 352, 585, 378 it is manageable.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 16
@@ -2410,8 +2424,8 @@
             ],
             [
               "Features listed",
-              "Lack memory for events after the event; classic cases often involve hippocampal damage; cannot learn anything new; nothing moved from **STM** to **LTM**",
-              "Lack memory for immediately preceding events; follows head injury; never consolidates information already in **STM** (retrieval failure, i.e. fails to move from **LTM** to **STM**)"
+              "Lack memory for events after the event; classic cases often involve hippocampal damage; cannot learn anything new; nothing moved from **short-term memory** to **long-term memory**",
+              "Lack memory for immediately preceding events; follows head injury; never consolidates information already in **short-term memory** (retrieval failure, i.e. fails to move from **long-term memory** to **short-term memory**)"
             ]
           ],
           "sources": [
@@ -2428,7 +2442,7 @@
         {
           "type": "gap",
           "subtopic": "Retrograde amnesia described two ways in the notes",
-          "note": "On p15 the notes say that in retrograde amnesia the physical establishment of **LTM** (consolidation) fails; on p17 they describe it as the subject never consolidating information already in **STM** (retrieval failure, 'fails to move from **LTM** to **STM**'). Both are shown as written; the notes do not reconcile them.",
+          "note": "On p15 the notes say that in retrograde amnesia the physical establishment of **long-term memory** (consolidation) fails; on p17 they describe it as the subject never consolidating information already in **short-term memory** (retrieval failure, 'fails to move from **long-term memory** to **short-term memory**'). Both are shown as written; the notes do not reconcile them. Suggested reading (reviewer, not in the source): p15 (failure of consolidation of memories formed before the injury) is the general definition; p17 ('never consolidates information already in short-term memory') describes the brief retrograde gap just before a head injury.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 17
@@ -2460,7 +2474,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Situation-specific amnesia: offenders and victims commonly claim amnesia for the offence - in 25-==45%== of homicides and ==8%== of other violent crimes (Kopelman 2002a). It is associated with alcohol or substance misuse and acute psychosis, while purely psychological amnesia is often limited to crimes of passion.",
+          "text": "Situation-specific amnesia: offenders and victims commonly claim amnesia for the offence - in 25-==45%== of homicides and ==8%== of other violent crimes and a small percentage of non-violent crimes (Kopelman 2002a). It is associated with alcohol or substance misuse and acute psychosis, while purely psychological amnesia is often limited to crimes of passion.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 17
@@ -2468,7 +2482,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In **PTSD**, anterograde memory dysfunction has been shown with some reduction in hippocampal volume on **MRI** (Bremmer 1999), attributed to glucocorticoids (Markowitsch 1996).",
+          "text": "In **post-traumatic stress disorder**, anterograde memory dysfunction has been shown with some reduction in hippocampal volume on **magnetic resonance imaging** (Bremner 1999), attributed to glucocorticoids (Markowitsch 1996).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 17
@@ -2531,7 +2545,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Post-traumatic amnesia (**PTA**) is the time between injury and recovery of normal continuous memory in head injury; the longer the **PTA**, the more severe the brain damage and the poorer the prognosis. Retrograde amnesia after head injury is usually short (< 1 min) and not a good indicator of prognosis.",
+          "text": "Post-traumatic amnesia is the time between injury and recovery of normal continuous memory in head injury; the longer the **post-traumatic amnesia**, the more severe the brain damage and the poorer the prognosis. Retrograde amnesia is also possible after head injury, tested with recent autobiographical questions (e.g. 'what did you eat for dinner yesterday?'); in most cases the amnesic gap is short (< 1 min) and it is not a good indicator of prognosis.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 18
@@ -2540,7 +2554,7 @@
         {
           "type": "gap",
           "subtopic": "Post-traumatic amnesia grading",
-          "note": "Mock 1 Test 4 **Q14**: in moderate head injury **PTA** usually lasts from 1 to 24 hours (distractors: less than 1 hour, 1 day to 1 week, 1 week to 1 month, less than 1 minute). The explanation grades **PTA** under 1 hour as mild, 1 to 24 hours as moderate and over 24 hours as severe head injury. The notes say only that longer **PTA** means more severe damage and poorer prognosis.",
+          "note": "Mock 1 Test 4 **Q14**: in moderate head injury **post-traumatic amnesia** usually lasts from 1 to 24 hours (distractors: less than 1 hour, 1 day to 1 week, 1 week to 1 month, less than 1 minute). The explanation grades **post-traumatic amnesia** under 1 hour as mild, 1 to 24 hours as moderate and over 24 hours as severe head injury. The notes say only that longer **post-traumatic amnesia** means more severe damage and poorer prognosis.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
             "page": 4,
@@ -2549,7 +2563,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Memory loss after **ECT** is usually temporary, with both anterograde and retrograde amnesia reducing rapidly in most patients; a third report persistent memory loss (Rose et al. 2003); impairment is less pronounced with unilateral **ECT**.",
+          "text": "Memory loss after **electroconvulsive therapy** is usually temporary, with both anterograde and retrograde amnesia reducing rapidly in most patients; a third report persistent memory loss (Rose et al. 2003); impairment is less pronounced with unilateral **electroconvulsive therapy**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 18
@@ -2557,7 +2571,7 @@
         },
         {
           "type": "trap",
-          "text": "On memory loss after **ECT** the **INCORRECT** statement is that impairment is more pronounced with **UNILATERAL** **ECT** - it is **LESS** pronounced. The true options: no lasting impairment is usual, both anterograde and retrograde amnesia occur and shrink rapidly, a third report persistent memory loss.",
+          "text": "On memory loss after **electroconvulsive therapy** the **INCORRECT** statement is that impairment is more pronounced with **UNILATERAL** **electroconvulsive therapy** - it is **LESS** pronounced. The true options: no lasting impairment is usual, both anterograde and retrograde amnesia occur and shrink rapidly, a third report persistent memory loss.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
@@ -2625,7 +2639,7 @@
         {
           "type": "gap",
           "subtopic": "Digit span norms: notes and question bank differ",
-          "note": "Notes: forward 6 +/- 1 and reverse 5 +/- 1. **Q55** (normal reverse digit span in a working-age adult) keys '5 +/- 2 digits', and its explanation states normal forward span is 7 +/- 2 and reverse span 5 +/- 2. Both are shown; the source does not reconcile them.",
+          "note": "Notes: forward 6 +/- 1 and reverse 5 +/- 1. **Q55** (normal reverse digit span in a working-age adult) keys '5 +/- 2 digits', and its explanation states normal forward span is 7 +/- 2 and reverse span 5 +/- 2. Both are shown; the source does not reconcile them. Exam guidance (reviewer, not in the source): learn forward 7 +/- 2 and reverse 5 +/- 2 as keyed in **Q55**; the notes' 6 +/- 1 / 5 +/- 1 differ.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 25,
@@ -2675,7 +2689,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Imaging and neuropsychological studies: **STM** performance is mediated principally by the prefrontal lobes; phonological **STM** by left-hemisphere Broca's area and prefrontal cortex; visuospatial **STM** by right-hemisphere parietal and prefrontal areas; **LTM** by limbic regions, especially the hippocampus and the entorhinal cortex of the medial temporal lobe.",
+          "text": "Imaging and neuropsychological studies: **short-term memory** performance is mediated principally by the prefrontal lobes; phonological **short-term memory** by left-hemisphere Broca's area and prefrontal cortex; visuospatial **short-term memory** by right-hemisphere parietal and prefrontal areas; **long-term memory** by limbic regions, especially the hippocampus and the entorhinal cortex of the medial temporal lobe.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 19
@@ -2772,7 +2786,7 @@
               }
             },
             {
-              "text": "**Q35**: information is held in **LTM** by elaborative rehearsal (not rote or maintenance rehearsal).",
+              "text": "**Q35**: information is held in **long-term memory** by elaborative rehearsal (not rote or maintenance rehearsal).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 16,
@@ -2788,7 +2802,7 @@
               }
             },
             {
-              "text": "**Q85** and **Q92**: solving MCQs = recognition; recalling an entire memory from a partial cue = reintegration.",
+              "text": "**Q85** and **Q92**: solving multiple-choice questions = recognition; recalling an entire memory from a partial cue = reintegration.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 38,
@@ -2874,7 +2888,7 @@
               }
             },
             {
-              "text": "**Q79**: counting a three-digit number backwards immediately after digit span = Brown Paterson task.",
+              "text": "**Q79**: counting a three-digit number backwards immediately after digit span = Brown-Peterson task.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 36,
@@ -2882,7 +2896,7 @@
               }
             },
             {
-              "text": "**Q84**: digit span tests immediate memory (**STM**); name-and-address recall after 5 minutes tests recent memory.",
+              "text": "**Q84**: digit span tests immediate memory (**short-term memory**); name-and-address recall after 5 minutes tests recent memory.",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 38,
@@ -2914,7 +2928,7 @@
               }
             },
             {
-              "text": "**Q95**: situation-specific amnesia is **NOT** reported in adjustment disorder (it can occur in **PTSD**, in victims of an offence or of childhood sexual abuse, and in offenders - 25-==45%== of homicides).",
+              "text": "**Q95**: situation-specific amnesia is **NOT** reported in adjustment disorder (it can occur in **post-traumatic stress disorder**, in victims of an offence or of childhood sexual abuse, and in offenders - 25-==45%== of homicides).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 43,
@@ -2994,7 +3008,7 @@
         {
           "type": "gap",
           "subtopic": "Commonest cause of long-term forgetting",
-          "note": "**Q50** keys retrieval failure as the commonest cause of long-term forgetting (explanation: failure of encoding at input, failure of transfer from **STM** to **LTM**, and retrieval failure 'more commonly'). The notes say encoding, retention or retrieval problems can all cause forgetting, without ranking them.",
+          "note": "**Q50** keys retrieval failure as the commonest cause of long-term forgetting (explanation: failure of encoding at input, failure of transfer from **short-term memory** to **long-term memory**, and retrieval failure 'more commonly'). The notes say encoding, retention or retrieval problems can all cause forgetting, without ranking them.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 23,
@@ -3004,7 +3018,7 @@
         {
           "type": "gap",
           "subtopic": "Sensory memory duration: notes and question bank",
-          "note": "Notes give iconic memory 0.5 s and echoic memory 2 s. **Q36** keys 'Large capacity but memories are unprocessed and of very short duration (<0.5s)'. Both are shown; the source does not reconcile the <0.5 s statement with echoic memory lasting 2 s.",
+          "note": "Notes give iconic memory 0.5 s and echoic memory 2 s. **Q36** keys 'Large capacity but memories are unprocessed and of very short duration (<0.5s)'. Both are shown; the source does not reconcile the <0.5 s statement with echoic memory lasting 2 s. Suggested reading (reviewer, not in the source): Q36's '<0.5s' describes iconic (visual) sensory memory; echoic (auditory) memory lasts longer (about 2 s in the notes).",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 16,
@@ -3032,14 +3046,14 @@
             }
           },
           {
-            "text": "Sensory memory: large capacity, modality specific, no processing; iconic 0.5 s, echoic 2 s; attention moves it into STM.",
+            "text": "Sensory memory: large capacity, modality specific, no processing; iconic 0.5 s, echoic 2 s; attention moves it into short-term memory.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 13
             }
           },
           {
-            "text": "STM: 7 +/- 2 items (Miller), 15-30 s unaided; Brown Paterson task blocks rehearsal; elaborative encoding (Schacter) needed for LTM. LTM: unlimited, largely semantic.",
+            "text": "Short-term memory: 7 +/- 2 items (Miller), 15-30 s unaided; Brown-Peterson task blocks rehearsal; elaborative encoding (Schacter) needed for long-term memory. Long-term memory: unlimited, largely semantic.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 13
@@ -3053,7 +3067,7 @@
             }
           },
           {
-            "text": "Primacy reflects LTM, recency reflects STM; in organic anterograde amnesia recency is better preserved.",
+            "text": "Primacy reflects long-term memory, recency reflects short-term memory; in organic anterograde amnesia recency is better preserved.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 14
@@ -3091,7 +3105,7 @@
         ],
         "facts": [
           {
-            "label": "STM capacity (Miller)",
+            "label": "Short-term memory capacity (Miller)",
             "value": "7 +/- 2 items",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
@@ -3115,7 +3129,7 @@
             }
           },
           {
-            "label": "STM unaided duration",
+            "label": "Short-term memory unaided duration",
             "value": "15-30 s",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
@@ -3152,6 +3166,15 @@
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 15
+            }
+          },
+          {
+            "label": "Digit span forward / reverse (question bank Q55)",
+            "value": "7 +/- 2 / 5 +/- 2",
+            "source": {
+              "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
+              "page": 25,
+              "questionNumber": 55
             }
           }
         ],
@@ -3202,7 +3225,7 @@
             ],
             [
               "Cognitive distortions",
-              "Challenging our internal dialogue can change our cognitive distortions (as in **CBT**)"
+              "Challenging our internal dialogue can change our cognitive distortions (as in **cognitive behavioural therapy**)"
             ],
             [
               "Counting",
@@ -3365,7 +3388,7 @@
             ],
             [
               "Base rate fallacy",
-              "Ignoring the relative frequency of occurrence of events and sticking to stereotypes"
+              "Ignoring the relative frequency of occurrence of events and sticking to stereotypes. Example from the notes: a very good student fails an exam; someone had earlier said he could only fail if the examiner were annoyed by his handwriting; once he fails, people believe that explanation even though its probability is tiny, ignoring the not-negligible base rate of good students failing"
             ],
             [
               "Sunk cost bias (entrapment)",
@@ -3416,7 +3439,7 @@
         {
           "type": "gap",
           "subtopic": "Overgeneralisation",
-          "note": "**Q81**: a candidate who thinks he will fail the whole exam because of one wrong question shows overgeneralisation (a cognitive distortion in which a single negative event is made into a general rule). The notes mention cognitive distortions only in passing (challenged in **CBT**) and do not list overgeneralisation.",
+          "note": "**Q81**: a candidate who thinks he will fail the whole exam because of one wrong question shows overgeneralisation (a cognitive distortion in which a single negative event is made into a general rule). The notes mention cognitive distortions only in passing (challenged in **cognitive behavioural therapy**) and do not list overgeneralisation.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 37,
@@ -3456,7 +3479,7 @@
         {
           "type": "gap",
           "subtopic": "Beck: distorted negative thoughts in depression",
-          "note": "Mock 1 Test 2 **Q39**: according to Aaron Beck, depression results from distorted negative thoughts (high or low expressed emotion, aggression turned inwards and genetic risk were distractors); the explanation says Beck first proposed the cognitive distortions associated with depression. The notes mention cognitive distortions only in passing (challenged in **CBT**).",
+          "note": "Mock 1 Test 2 **Q39**: according to Aaron Beck, depression results from distorted negative thoughts (high or low expressed emotion, aggression turned inwards and genetic risk were distractors); the explanation says Beck first proposed the cognitive distortions associated with depression. The notes mention cognitive distortions only in passing (challenged in **cognitive behavioural therapy**).",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 2.pdf",
             "page": 15,
@@ -3576,6 +3599,43 @@
         },
         {
           "type": "table",
+          "title": "Where each theory sits on the two dimensions (figure on p22, adapted from Gross; quadrant as drawn)",
+          "columns": [
+            "Theory",
+            "Shared (nomothetic) or unique (idiographic)",
+            "Consistent (dispositional) or variable (situational)"
+          ],
+          "rows": [
+            [
+              "Eysenck's factors, Cattell's traits",
+              "Shared features (nomothetic)",
+              "Consistent/enduring (dispositional)"
+            ],
+            [
+              "Psychoanalytic theories",
+              "Shared features",
+              "Variable and situational"
+            ],
+            [
+              "Kelly's personal construct theory",
+              "Unique features (idiographic)",
+              "Consistent and enduring"
+            ],
+            [
+              "Situationalism (printed 'Situationlism'), Humanistic school",
+              "Unique features",
+              "Variable and situational"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "type": "table",
           "title": "Allport's trait theory (analysed 18000 adjectives; a trait is an enduring disposition viewed as a continuous dimension)",
           "columns": [
             "Type of trait",
@@ -3618,7 +3678,7 @@
             ],
             [
               "Factors identified",
-              "16 dimensions (source traits - building blocks of the 16 **PF**); more, less powerful, somewhat correlated factors; surface traits correlate but are not important",
+              "16 dimensions (source traits - building blocks of the **Sixteen Personality Factor Questionnaire**); more, less powerful, somewhat correlated factors; surface traits correlate but are not important",
               "3 dimensions: neuroticism (vs stability), psychoticism, extraversion (vs introversion) - few powerful independent factors; questionnaire contains a lie scale"
             ],
             [
@@ -3743,7 +3803,7 @@
           "type": "table",
           "title": "Personality disorder clusters and Cloninger temperament (as stated in the notes)",
           "columns": [
-            "DSM cluster",
+            "Diagnostic and Statistical Manual of Mental Disorders (4th edition) cluster",
             "Associated trait"
           ],
           "rows": [
@@ -3804,7 +3864,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The Big Five concept has provided a unified framework for trait research. The notes state that N, E and O ('**NEO**') decrease with age while A and C increase with age.",
+          "text": "The Big Five concept has provided a unified framework for trait research. The notes state that N, E and O ('**neuroticism, extraversion and openness**') decrease with age while A and C increase with age.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 23
@@ -3836,7 +3896,7 @@
         },
         {
           "type": "table",
-          "title": "Typologies of body build and personality",
+          "title": "Typologies of body build and personality (Sheldon's three types were based on a study of thousands of nude photographs of first-year college students)",
           "columns": [
             "Theorist",
             "Type",
@@ -3920,7 +3980,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Type A was first described as a coronary risk factor, but the **MRFIT** study concluded no difference between Type A and B in coronary proneness; the classification has poor psychometric construct and content validity; the hostility component of Type A is the only significant **CHD** risk factor.",
+          "text": "Type A was first described as a coronary risk factor, but the **Multiple Risk Factor Intervention Trial** study concluded no difference between Type A and B in coronary proneness; the classification has poor psychometric construct and content validity; the hostility component of Type A is the only significant **coronary heart disease** risk factor.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 25
@@ -3928,7 +3988,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Projective tests: individually administered tests of emotional functioning, based on the principle that ambiguous, unstructured, open-ended situations stimulate projection of the internal emotional world. Murray was a major proponent, but the first projective test was Rorschach's inkblots; others include **TAT** (Murray), draw-a-person and sentence completion. They have little place in contemporary practice.",
+          "text": "Projective tests: individually administered tests of emotional functioning, based on the principle that ambiguous, unstructured, open-ended situations stimulate projection of the internal emotional world. Murray was a major proponent, but the first projective test was Rorschach's inkblots; others include **Thematic Apperception Test** (Murray), draw-a-person and sentence completion. They have little place in contemporary practice.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 25
@@ -3956,7 +4016,7 @@
             ],
             [
               "Construction",
-              "Develop or construct a story or narration - e.g. **TAT**"
+              "Develop or construct a story or narration - e.g. **Thematic Apperception Test**"
             ],
             [
               "Self-expression",
@@ -3977,7 +4037,7 @@
         },
         {
           "type": "table",
-          "title": "Rorschach, TAT and word association",
+          "title": "Rorschach, Thematic Apperception Test and word association",
           "columns": [
             "Test",
             "Notes"
@@ -4006,7 +4066,7 @@
         },
         {
           "type": "trap",
-          "text": "'Which is an objective personality test?' = the **MMPI** (Rorschach, sentence completion, draw-a-person and **TAT** are projective). The explanation adds that the **MMPI** was devised from a clinical population and Cattell's 16 **PF** from a non-clinical one, both with lie, frequency and correction scales.",
+          "text": "'Which is an objective personality test?' = the **Minnesota Multiphasic Personality Inventory** (Rorschach, sentence completion, draw-a-person and **Thematic Apperception Test** are projective). The explanation adds that the **Minnesota Multiphasic Personality Inventory** was devised from a clinical population and Cattell's **Sixteen Personality Factor Questionnaire** from a non-clinical one, both with lie, frequency and correction scales.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
@@ -4016,7 +4076,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**MMPI** (Hathaway and McKinley): a popular, self-report, most-researched personality inventory of 567 statements, scored on 10 empirically derived clinical scales, with a lie scale (validity component). It is **NOT** a projective test.",
+          "text": "**Minnesota Multiphasic Personality Inventory** (Hathaway and McKinley): a popular, self-report, most-researched personality inventory of 567 statements (Reviewer correction (not in the source): 567 is the second edition; the original had 566), scored on 10 empirically derived clinical scales, with a lie scale (validity component). It is **NOT** a projective test.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 25
@@ -4024,7 +4084,7 @@
         },
         {
           "type": "table",
-          "title": "MMPI clinical scales",
+          "title": "Minnesota Multiphasic Personality Inventory clinical scales",
           "columns": [
             "#",
             "Scale"
@@ -4085,7 +4145,7 @@
         },
         {
           "type": "mnemonic",
-          "forTopic": "MMPI clinical scales (1-10)",
+          "forTopic": "Minnesota Multiphasic Personality Inventory clinical scales (1-10)",
           "mnemonic": "Hungry Dogs Hide Pork; Many Puppies Plan Sneaky Hunts, Silently",
           "expansion": [
             "Hypochondriasis",
@@ -4103,8 +4163,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "MMPI: nine vs ten scales",
-          "note": "Mock 1 Test 4 **Q20**: the instrument assessing personality across 'nine psychopathological domains' is keyed as the **MMPI**, and the explanation says it uses more than 500 questions. The notes list **TEN** clinical scales (and another mock explanation also says ten scales), so the source does not reconcile 'nine' with 'ten'.",
+          "subtopic": "Minnesota Multiphasic Personality Inventory: nine vs ten scales",
+          "note": "Mock 1 Test 4 **Q20**: the instrument assessing personality across 'nine psychopathological domains' is keyed as the **Minnesota Multiphasic Personality Inventory**, and the explanation says it uses more than 500 questions. The notes list **TEN** clinical scales (and another mock explanation also says ten scales), so the source does not reconcile 'nine' with 'ten'.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
             "page": 5,
@@ -4121,7 +4181,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**IPDE** (International Personality Disorder Examination): psychometric trait instrument for assessing personality disorders (age > 5 years); a 77-item true/false self-report screening questionnaire plus a semi-structured clinician-rated interview; compatible with **ICD-10** and **DSM-IV**; gives a definite, probable or negative diagnosis per disorder; ratings can use patient or informant answers; allows 'past personality disorder' (prior to the past 12 months) and 'late onset' (criteria first met after age 25) diagnoses.",
+          "text": "**International Personality Disorder Examination** (International Personality Disorder Examination): psychometric trait instrument for assessing personality disorders (the notes print 'for those > 5 years age'; Reviewer correction (not in the source): for adults, and a trait must have been present for at least 5 years to count); a 77-item true/false self-report screening questionnaire (Reviewer correction (not in the source): 77 items is the Diagnostic and Statistical Manual of Mental Disorders (4th edition) version; the International Classification of Diseases, 10th revision version has 59 items) plus a semi-structured clinician-rated interview; compatible with **International Classification of Diseases, 10th revision** and **Diagnostic and Statistical Manual of Mental Disorders (4th edition)**; gives a definite, probable or negative diagnosis per disorder; ratings can use patient or informant answers; allows 'past personality disorder' (prior to the past 12 months) and 'late onset' (criteria first met after age 25) diagnoses; translated into several foreign languages.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 26
@@ -4142,7 +4202,7 @@
           "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q2**: the projective test of personality is the Thematic Apperception Test (Cattell's 16 **PF**, Eysenck's inventory, **MMPI** and the **IPDE** are not projective).",
+              "text": "**Q2**: the projective test of personality is the Thematic Apperception Test (Cattell's **Sixteen Personality Factor Questionnaire**, Eysenck's inventory, **Minnesota Multiphasic Personality Inventory** and the **International Personality Disorder Examination** are not projective).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 1,
@@ -4166,7 +4226,7 @@
               }
             },
             {
-              "text": "**Q38**: a measure of extroversion-introversion and neuroticism-stability = the Eysenck Personality Inventory (not **MMPI**, Rorschach, draw-a-person or **TAT**).",
+              "text": "**Q38**: a measure of extroversion-introversion and neuroticism-stability = the Eysenck Personality Inventory (not **Minnesota Multiphasic Personality Inventory**, Rorschach, draw-a-person or **Thematic Apperception Test**).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 17,
@@ -4198,7 +4258,7 @@
               }
             },
             {
-              "text": "Mock 1 Test 5 **Q12**: the scale built on the Big Five is the **NEO** Inventory (**NEO** **PI**: 240 items), not the **EPI**, **IPDE**, **TAT** or **MMPI**.",
+              "text": "Mock 1 Test 5 **Q12**: the scale built on the Big Five is the **NEO** Inventory (**NEO** **PI**: 240 items), not the **EPI**, **International Personality Disorder Examination**, **Thematic Apperception Test** or **Minnesota Multiphasic Personality Inventory**.",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(1) Test 5.pdf",
                 "page": 3,
@@ -4226,7 +4286,7 @@
             }
           },
           {
-            "text": "Cattell: 16 PF, oblique first-order factors, categorical normal/abnormal; data types Q, L and T.",
+            "text": "Cattell: Sixteen Personality Factor Questionnaire, oblique first-order factors, categorical normal/abnormal; data types Q, L and T.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 22
@@ -4261,21 +4321,21 @@
             }
           },
           {
-            "text": "Kretschmer: asthenic (schizophrenia), pyknic (manic-depression), athletic. Sheldon: endo-, meso-, ectomorphic. Type A: hostility is the only significant CHD risk component.",
+            "text": "Kretschmer: asthenic (schizophrenia), pyknic (manic-depression), athletic. Sheldon: endo-, meso-, ectomorphic. Type A: hostility is the only significant coronary heart disease risk component.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 24
             }
           },
           {
-            "text": "Projective tests: Rorschach (10 inkblots, first projective test), TAT (20-30 cards plus a blank), Jung's WAT. MMPI is a self-report inventory (567 statements, 10 clinical scales, lie scale) - NOT projective.",
+            "text": "Projective tests: Rorschach (10 inkblots, first projective test), Thematic Apperception Test (20-30 cards plus a blank), Jung's Word Association Test. Minnesota Multiphasic Personality Inventory is a self-report inventory (567 statements, 10 clinical scales, lie scale) - NOT projective.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 25
             }
           },
           {
-            "text": "MMPI: notes list ten clinical scales; one mock describes 'nine psychopathological domains' - unreconciled in the source.",
+            "text": "Minnesota Multiphasic Personality Inventory: notes list ten clinical scales; one mock describes 'nine psychopathological domains' - unreconciled in the source.",
             "source": {
               "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
               "page": 5,
@@ -4293,7 +4353,7 @@
             }
           },
           {
-            "label": "Cattell factors (16 PF)",
+            "label": "Cattell factors (Sixteen Personality Factor Questionnaire)",
             "value": "16",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
@@ -4309,15 +4369,15 @@
             }
           },
           {
-            "label": "MMPI statements",
-            "value": "567",
+            "label": "Minnesota Multiphasic Personality Inventory statements",
+            "value": "567 (reviewer, not in the source: second edition; the original had 566)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 25
             }
           },
           {
-            "label": "MMPI clinical scales",
+            "label": "Minnesota Multiphasic Personality Inventory clinical scales",
             "value": "10",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
@@ -4333,7 +4393,7 @@
             }
           },
           {
-            "label": "TAT pictures",
+            "label": "Thematic Apperception Test pictures",
             "value": "20-30 plus one blank",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
@@ -4341,8 +4401,8 @@
             }
           },
           {
-            "label": "IPDE screening items",
-            "value": "77 true/false",
+            "label": "International Personality Disorder Examination screening items",
+            "value": "77 true/false (reviewer, not in the source: Diagnostic and Statistical Manual of Mental Disorders (4th edition) version)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 26
@@ -4352,16 +4412,17 @@
         "highlightBlockIndices": [
           0,
           1,
-          4,
+          3,
           5,
-          8,
-          10,
-          13,
+          6,
+          9,
+          11,
           14,
-          20,
+          15,
           21,
-          26,
-          29
+          22,
+          27,
+          30
         ]
       }
     },
@@ -4384,6 +4445,48 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 27
           }
+        },
+        {
+          "type": "table",
+          "title": "Maslow's hierarchy of needs (pyramid in the notes, from the bottom up)",
+          "columns": [
+            "Level",
+            "Need",
+            "Examples given in the figure"
+          ],
+          "rows": [
+            [
+              "1 (bottom)",
+              "Physiological",
+              "Food, water, warmth"
+            ],
+            [
+              "2",
+              "Safety",
+              "Security, shelter"
+            ],
+            [
+              "3",
+              "Belonging",
+              "Friends, family, community"
+            ],
+            [
+              "4",
+              "Self-esteem",
+              "Achievement, mastery, recognition"
+            ],
+            [
+              "5 (top)",
+              "Self-actualisation",
+              "Pursue talent, creativity, fulfilment"
+            ]
+          ],
+          "sources": [
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
+              "page": 27
+            }
+          ]
         },
         {
           "type": "image",
@@ -4455,7 +4558,7 @@
         {
           "type": "gap",
           "subtopic": "Maslow's levels and D vs B needs",
-          "note": "The notes' text does not list Maslow's levels in order. **Q77** (all are deficiency needs except...) keys 'Aesthetic needs'; its explanation gives the five tiers from the bottom as physiological, safety, love and belonging, esteem, self-actualisation, with the first four called deficiency needs and the top level growth/being needs, and cognitive and aesthetic needs added right below self-actualisation and transcendence above. **Q48** keys 'Esteem needs' for the need for personal worth, competence and recognition by others. **Q60** keys as incorrect 'cognitive needs precede esteem needs', consistent with the notes placing cognitive/aesthetic needs between esteem and actualisation.",
+          "note": "The notes list the five levels in the pyramid figure (see table above) but do not say which are deficiency needs. **Q77** (all are deficiency needs except...) keys 'Aesthetic needs'; its explanation gives the five tiers from the bottom as physiological, safety, love and belonging, esteem, self-actualisation, with the first four called deficiency needs and the top level growth/being needs, and cognitive and aesthetic needs added right below self-actualisation and transcendence above. **Q48** keys 'Esteem needs' for the need for personal worth, competence and recognition by others. **Q60** keys as incorrect 'cognitive needs precede esteem needs', consistent with the notes placing cognitive/aesthetic needs between esteem and actualisation.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 35,
@@ -4500,7 +4603,7 @@
             ],
             [
               "Cognitive curiosity",
-              "Learner believes it may be useful to modify existing cognitive structures"
+              "Learner believes it may be useful to modify existing cognitive structures (e.g. improving knowledge of statistical models to better understand baseball batting averages)"
             ],
             [
               "Optimal discrepancy",
@@ -4524,7 +4627,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Need for achievement (nAch; first used by Henry Murray): the desire for significant accomplishment and mastering skills to a high standard, motivating success in competition. People high in nAch seek challenges and show a high degree of independence. nAch is a personality trait measured in the **TAT**.",
+          "text": "Need for achievement (first used by Henry Murray): the desire for significant accomplishment and mastering skills to a high standard, motivating success in competition. People high in need for achievement seek challenges and show a high degree of independence. Need for achievement is a personality trait measured in the **Thematic Apperception Test**.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 28
@@ -4532,7 +4635,7 @@
         },
         {
           "type": "table",
-          "title": "Sources of high nAch",
+          "title": "Sources of high need for achievement",
           "columns": [
             "#",
             "Source"
@@ -4679,7 +4782,7 @@
             }
           },
           {
-            "text": "nAch (Murray): seeks challenges, independent, measured by TAT; sources include early independence training, praise for success, attributing success to competence and effort not luck.",
+            "text": "Need for achievement (Murray): seeks challenges, independent, measured by Thematic Apperception Test; sources include early independence training, praise for success, attributing success to competence and effort not luck.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 28
@@ -4696,11 +4799,12 @@
         ],
         "highlightBlockIndices": [
           2,
-          4,
+          3,
           5,
-          10,
-          13,
-          14
+          6,
+          11,
+          14,
+          15
         ]
       }
     },
@@ -4898,7 +5002,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Psychologically, a small amount of stress that improves motivation and ability is eustress; large amounts of negative stress (distress) are detrimental to mental health. Stress can also be caused by internal cognitions, which can be addressed in **CBT** for anxiety.",
+          "text": "Psychologically, a small amount of stress that improves motivation and ability is eustress; large amounts of negative stress (distress) are detrimental to mental health. Stress can also be caused by internal cognitions, which can be addressed in **cognitive behavioural therapy** for anxiety.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 31
@@ -4914,7 +5018,7 @@
           "rows": [
             [
               "Crises / catastrophes",
-              "Completely out of the individual's control (natural disasters, war); can lead to **PTSD**"
+              "Completely out of the individual's control (natural disasters, war); can lead to **post-traumatic stress disorder**"
             ],
             [
               "Major life events",
@@ -4978,7 +5082,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Stress vulnerability model (Zubin and Spring, 1977): individuals have strengths and vulnerabilities for dealing with stress - a person with low vulnerability can cope with a high degree of stress, whereas one with high vulnerability becomes unwell even with moderately low stress. It applies to a wide variety of psychiatric disorders including psychosis. Vulnerability is increased by genetic factors, childhood loss and trauma; medication, psychological interventions and coping-skills training can build resilience and reduce vulnerability.",
+          "text": "Stress vulnerability model (Zubin and Spring, 1977): individuals have strengths and vulnerabilities for dealing with stress - a person with low vulnerability can cope with a high degree of stress, whereas one with high vulnerability becomes unwell even with moderately low stress. It applies to a wide variety of psychiatric disorders including psychosis. Vulnerability is increased by genetic factors, childhood loss and trauma; medication, psychological interventions and coping-skills training can build resilience and reduce vulnerability. In the diagram, person 'a' (low vulnerability) stays well under high stress, while person 'c' (high vulnerability) becomes unwell with low stress. This is a simplistic model and more sophisticated models exist (the last sentence continues onto p32).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 31
@@ -5004,7 +5108,7 @@
         {
           "type": "image",
           "src": "/diagrams/paper-a/pa-basic-psychology/p32-serotonin-transporter-box.png",
-          "caption": "Shaded box titled SEROTONIN TRANSPORTER & LIFE EVENTS: Caspi et al (2003) - individuals with one or two copies of the short allele of the 5-HT T promoter polymorphism showed more depressive symptoms, diagnosable depression and suicidality in relation to stressful life events than individuals homozygous for the long allele.",
+          "caption": "Shaded box titled SEROTONIN TRANSPORTER & LIFE EVENTS: Caspi et al (2003) - individuals with one or two copies of the short allele of the serotonin (5-hydroxytryptamine) T promoter polymorphism showed more depressive symptoms, diagnosable depression and suicidality in relation to stressful life events than individuals homozygous for the long allele.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 32
@@ -5012,7 +5116,7 @@
         },
         {
           "type": "table",
-          "title": "Lazarus's cognitive-mediation model of coping (1999) - three stages",
+          "title": "Lazarus's cognitive-mediation model of coping (1999) - three stages; the most popular coping model, explaining why different individuals respond differently to the same stressor and why the same individual may respond differently to a similar stressor at different times",
           "columns": [
             "Stage",
             "Description"
@@ -5163,7 +5267,7 @@
             }
           },
           {
-            "text": "Caspi 2003: short allele of the 5-HT transporter promoter plus stressful life events gives more depression and suicidality.",
+            "text": "Caspi 2003: short allele of the serotonin (5-hydroxytryptamine) transporter promoter plus stressful life events gives more depression and suicidality.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 32
@@ -5334,7 +5438,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Sleep debt accumulates and some is paid back on resuming sleep. **REM** sleep deprivation has profound effects on concentration and other psychological functions; **REM** phases recover better than **NREM** sleep (**REM** rebound).",
+          "text": "Sleep debt accumulates and some is paid back on resuming sleep. **Rapid eye movement** sleep deprivation has profound effects on concentration and other psychological functions; **rapid eye movement** phases recover better than **non-rapid eye movement** sleep (**rapid eye movement** rebound).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 35
@@ -5407,7 +5511,7 @@
             }
           },
           {
-            "text": "Arousal (reticular activating system plus ANS) regulates consciousness and attention; underlies fight-or-flight and appraisal of emotion.",
+            "text": "Arousal (reticular activating system plus autonomic nervous system) regulates consciousness and attention; underlies fight-or-flight and appraisal of emotion.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 35
@@ -5421,7 +5525,7 @@
             }
           },
           {
-            "text": "Sleep deprivation: micro-sleeps, hat phenomenon, then sleep-deprivation psychosis; REM rebound after REM deprivation.",
+            "text": "Sleep deprivation: micro-sleeps, hat phenomenon, then sleep-deprivation psychosis; rapid eye movement rebound after rapid eye movement deprivation.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 35
@@ -5542,7 +5646,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Flynn effect: **IQ** scores have increased from one generation to the next in all countries where generational cohorts have been studied (Flynn, 1994); generally between 5 and 25 points. The largest gains are on tests of fluid intelligence (problem solving, e.g. Raven's progressive matrices; about 15 points, one **SD**, per generation) rather than crystallised intelligence (verbal and maths skills, e.g. Wechsler's tests; about 9 points per generation).",
+          "text": "Flynn effect: **intelligence quotient** scores have increased from one generation to the next in all countries where generational cohorts have been studied (Flynn, 1994); generally between 5 and 25 points. The largest gains are on tests of fluid intelligence (problem solving, e.g. Raven's progressive matrices; about 15 points, one **standard deviation**, per generation) rather than crystallised intelligence (verbal and maths skills, e.g. Wechsler's tests; about 9 points per generation).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 37
@@ -5558,7 +5662,7 @@
           "rows": [
             [
               "1",
-              "Non-verbal **IQ** has risen more rapidly than verbal **IQ**"
+              "Non-verbal **intelligence quotient** has risen more rapidly than verbal **intelligence quotient**"
             ],
             [
               "2",
@@ -5594,7 +5698,7 @@
           "rows": [
             [
               "Artifacts",
-              "**IQ** tests measure something linked to intelligence that can change with generations rather than the construct itself"
+              "**Intelligence quotient** tests measure something linked to intelligence that can change with generations rather than the construct itself"
             ],
             [
               "Test sophistication",
@@ -5626,7 +5730,7 @@
           "rows": [
             [
               "Factor paradox",
-              "A single factor g underlies **IQ**, yet the effect does not touch all test sections equally - only some parts of intelligence appear to be improving"
+              "A single factor g underlies **intelligence quotient**, yet the effect does not touch all test sections equally - only some parts of intelligence appear to be improving"
             ],
             [
               "Interaction paradox",
@@ -5634,11 +5738,11 @@
             ],
             [
               "Mental retardation paradox",
-              "If true, average **IQ** in 1900 was 75, just above the mental retardation range, predicting a very high frequency of mental retardation; not observed"
+              "If true, average **intelligence quotient** in 1900 was 75, just above the mental retardation range, predicting a very high frequency of mental retardation; not observed"
             ],
             [
               "Identical twins paradox",
-              "Twins raised apart have very similar IQs, yet the Flynn effect implies **IQ** is more subject to environment than genes"
+              "Twins raised apart have very similar IQs, yet the Flynn effect implies **intelligence quotient** is more subject to environment than genes"
             ]
           ],
           "sources": [
@@ -5650,7 +5754,7 @@
         },
         {
           "type": "table",
-          "title": "Commonly used IQ tests",
+          "title": "Commonly used intelligence quotient tests",
           "columns": [
             "Test",
             "Details in the notes"
@@ -5658,19 +5762,19 @@
           "rows": [
             [
               "Stanford-Binet Scale",
-              "First formal **IQ** test, introduced 1905 (before World War 1); ages 2 to 18"
+              "Notes: first formal **intelligence quotient** test, 1905, ages 2 to 18. Reviewer correction (not in the source): 1905 was the Binet-Simon scale; the Stanford-Binet is Terman's 1916 revision; the current (fifth) edition covers ages 2 to 85+"
             ],
             [
-              "**WAIS** (Revised)",
+              "**Wechsler Adult Intelligence Scale** (Revised)",
               "Individuals older than 16"
             ],
             [
-              "**WISC** (Revised)",
+              "**Wechsler Intelligence Scale for Children** (Revised)",
               "Ages 6 to 16"
             ],
             [
-              "**WPPSI**",
-              "Children aged 4 to 6"
+              "**Wechsler Preschool and Primary Scale of Intelligence**",
+              "Children aged 4 to 6 in the notes; reviewer correction (not in the source): the current (fourth) edition covers 2 years 6 months to 7 years 7 months"
             ]
           ],
           "sources": [
@@ -5688,7 +5792,7 @@
         {
           "type": "gap",
           "subtopic": "Wechsler age ranges and Flynn magnitude: notes and question bank",
-          "note": "Notes: **WAIS** older than 16, **WISC** 6-16, **WPPSI** 4 to 6. **Q102** keys **WAIS-R** 'Aged 16 and over' (agrees) but its explanation gives **WPPSI** as 3 to 7 year-old children, differing from the notes' 4 to 6. **Q68** (Flynn effect) explanation says about three **IQ** points per decade, most pronounced on fluid intelligence such as Raven's; the notes give 5-25 points per generation, about 15 points (1 **SD**) per generation for fluid tests and about 9 for crystallised. Both are shown.",
+          "note": "Notes: **Wechsler Adult Intelligence Scale** older than 16, **Wechsler Intelligence Scale for Children** 6-16, **Wechsler Preschool and Primary Scale of Intelligence** 4 to 6. **Q102** keys **Wechsler Adult Intelligence Scale (Revised)** 'Aged 16 and over' (agrees) but its explanation gives **Wechsler Preschool and Primary Scale of Intelligence** as 3 to 7 year-old children, differing from the notes' 4 to 6. **Q68** (Flynn effect) explanation says about three **intelligence quotient** points per decade, most pronounced on fluid intelligence such as Raven's; the notes give 5-25 points per generation, about 15 points (1 **standard deviation**) per generation for fluid tests and about 9 for crystallised. Both are shown. Reconciliation (reviewer, not in the source): about 3 intelligence quotient points per decade is roughly 9 points per 30-year generation, matching the notes' crystallised figure; fluid tests such as Raven's show larger gains.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 46,
@@ -5728,7 +5832,7 @@
         {
           "type": "gap",
           "subtopic": "Tests of intellect tested but not in the notes",
-          "note": "**Q13**: Raven's progressive matrices assesses general cognitive ability (60-item standard version, coloured and advanced versions); the notes only mention it as a fluid-intelligence test in the Flynn effect. **Q43**: the National Adult Reading Test (**NART**, 50 items, 1982) estimates premorbid intelligence. **Q19**: Goldstein's card sorting test tests abstract reasoning. None is covered in the notes beyond the Raven mention. Cited to the **NART** question.",
+          "note": "**Q13**: Raven's progressive matrices assesses general cognitive ability (60-item standard version, coloured and advanced versions); the notes only mention it as a fluid-intelligence test in the Flynn effect. **Q43**: the National Adult Reading Test (**National Adult Reading Test**, 50 items, 1982) estimates premorbid intelligence. **Q19**: Goldstein's card sorting test tests abstract reasoning. None is covered in the notes beyond the Raven mention. Cited to the **National Adult Reading Test** question.",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
             "page": 19,
@@ -5753,7 +5857,7 @@
             }
           },
           {
-            "text": "Flynn effect: IQ rises across generations (5-25 points); biggest on fluid intelligence (about 15 points/SD) vs crystallised (about 9).",
+            "text": "Flynn effect: intelligence quotient rises across generations (5-25 points); biggest on fluid intelligence (about 15 points/standard deviation) vs crystallised (about 9).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 37
@@ -5781,7 +5885,7 @@
             }
           },
           {
-            "text": "IQ tests: Stanford-Binet (1905, ages 2-18), WAIS-R (over 16), WISC-R (6-16), WPPSI (4-6).",
+            "text": "Intelligence quotient tests: Stanford-Binet (1905, ages 2-18 in the notes; reviewer, not in the source: 1916 revision of the 1905 Binet-Simon scale, current edition ages 2-85+), Wechsler Adult Intelligence Scale (Revised) (over 16), Wechsler Intelligence Scale for Children (Revised) (6-16), Wechsler Preschool and Primary Scale of Intelligence (4-6 in the notes; reviewer, not in the source: 2y 6m-7y 7m in the current edition).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 38
@@ -5791,7 +5895,7 @@
         "facts": [
           {
             "label": "Stanford-Binet introduced",
-            "value": "1905",
+            "value": "1905 in the notes (reviewer, not in the source: Stanford-Binet is Terman's 1916 revision of the 1905 Binet-Simon scale)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 38
@@ -5799,14 +5903,14 @@
           },
           {
             "label": "Stanford-Binet age range",
-            "value": "2 to 18",
+            "value": "2 to 18 in the notes (reviewer, not in the source: 2 to 85+ in the fifth edition)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 38
             }
           },
           {
-            "label": "WAIS-R age",
+            "label": "Wechsler Adult Intelligence Scale (Revised) age",
             "value": "Older than 16",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
@@ -5814,7 +5918,7 @@
             }
           },
           {
-            "label": "WISC-R age",
+            "label": "Wechsler Intelligence Scale for Children (Revised) age",
             "value": "6 to 16",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
@@ -5822,8 +5926,8 @@
             }
           },
           {
-            "label": "WPPSI age",
-            "value": "4 to 6",
+            "label": "Wechsler Preschool and Primary Scale of Intelligence age",
+            "value": "4 to 6 in the notes (reviewer, not in the source: current edition 2y 6m to 7y 7m)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 38
@@ -5831,7 +5935,7 @@
           },
           {
             "label": "Fluid intelligence gain per generation",
-            "value": "About 15 points (1 SD)",
+            "value": "About 15 points (1 standard deviation)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
               "page": 37
@@ -5874,7 +5978,7 @@
               }
             },
             {
-              "label": "CS/UCS/UCR/CR; Pavlov; acquisition 3-15 pairings",
+              "label": "Conditioned stimulus/unconditioned stimulus/unconditioned response/conditioned response; Pavlov; acquisition 3-15 pairings",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 2
@@ -6001,7 +6105,7 @@
           "label": "Exam traps and tested gaps",
           "children": [
             {
-              "label": "Trace conditioning: CS ends before UCS; weaker than delayed",
+              "label": "Trace conditioning: conditioned stimulus ends before unconditioned stimulus; weaker than delayed",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/7) Basic Psychology Attempt review.pdf",
                 "page": 3,
@@ -6255,7 +6359,7 @@
               }
             },
             {
-              "label": "STM vs LTM; rehearsal and levels of processing",
+              "label": "Short-term memory vs long-term memory; rehearsal and levels of processing",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 13
@@ -6281,7 +6385,7 @@
           "label": "Retrieval and forgetting",
           "children": [
             {
-              "label": "Serial position: primacy (LTM) and recency (STM)",
+              "label": "Serial position: primacy (long-term memory) and recency (short-term memory)",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 14
@@ -6335,7 +6439,7 @@
               }
             },
             {
-              "label": "Amnesic syndrome features; Korsakoff's; PTA; ECT",
+              "label": "Amnesic syndrome features; Korsakoff's; post-traumatic amnesia; electroconvulsive therapy",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 18
@@ -6361,7 +6465,7 @@
           "label": "Exam traps and tested gaps",
           "children": [
             {
-              "label": "STM is mainly acoustic, not visual",
+              "label": "Short-term memory is mainly acoustic, not visual",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
                 "page": 4,
@@ -6385,7 +6489,7 @@
               }
             },
             {
-              "label": "Unilateral ECT causes LESS memory impairment",
+              "label": "Unilateral electroconvulsive therapy causes LESS memory impairment",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
                 "page": 5,
@@ -6401,7 +6505,7 @@
               }
             },
             {
-              "label": "PTA: <1 h mild, 1-24 h moderate, >24 h severe (gap)",
+              "label": "Post-traumatic amnesia: <1 h mild, 1-24 h moderate, >24 h severe (gap)",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
                 "page": 4,
@@ -6526,7 +6630,7 @@
               }
             },
             {
-              "label": "Cattell: 16 PF, oblique, categorical",
+              "label": "Cattell: Sixteen Personality Factor Questionnaire, oblique, categorical",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 22
@@ -6573,7 +6677,7 @@
               }
             },
             {
-              "label": "Type A vs Type B and CHD risk",
+              "label": "Type A vs Type B and coronary heart disease risk",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 25
@@ -6585,21 +6689,21 @@
           "label": "Measurement",
           "children": [
             {
-              "label": "Projective tests: Rorschach, TAT, WAT and five categories",
+              "label": "Projective tests: Rorschach, Thematic Apperception Test, Word Association Test and five categories",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 25
               }
             },
             {
-              "label": "MMPI: 567 items, 10 scales, not projective",
+              "label": "Minnesota Multiphasic Personality Inventory: 567 items, 10 scales, not projective",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 25
               }
             },
             {
-              "label": "Q-sort and IPDE",
+              "label": "Q-sort and International Personality Disorder Examination",
               "source": {
                 "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
                 "page": 26
@@ -6635,7 +6739,7 @@
               }
             },
             {
-              "label": "MMPI = objective test; TAT/Rorschach projective",
+              "label": "Minnesota Multiphasic Personality Inventory = objective test; Thematic Apperception Test/Rorschach projective",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
                 "page": 5,
@@ -6643,7 +6747,7 @@
               }
             },
             {
-              "label": "MMPI nine vs ten scales (gap)",
+              "label": "Minnesota Multiphasic Personality Inventory nine vs ten scales (gap)",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(1) Test 4.pdf",
                 "page": 5,
@@ -6673,7 +6777,7 @@
           }
         },
         {
-          "label": "Maslow's hierarchy: D and B motives; self-actualisers",
+          "label": "Maslow's hierarchy: five levels; D and B motives; self-actualisers",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 27
@@ -6708,7 +6812,7 @@
           }
         },
         {
-          "label": "Need for achievement (nAch) and its sources",
+          "label": "Need for achievement and its sources",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 28
@@ -6915,7 +7019,7 @@
           }
         },
         {
-          "label": "Sleep deprivation and REM rebound",
+          "label": "Sleep deprivation and rapid eye movement rebound",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 35
@@ -6976,7 +7080,7 @@
           }
         },
         {
-          "label": "Stanford-Binet, WAIS-R, WISC-R, WPPSI",
+          "label": "Stanford-Binet, Wechsler Adult Intelligence Scale (Revised), Wechsler Intelligence Scale for Children (Revised), Wechsler Preschool and Primary Scale of Intelligence",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PSYCHOLOGY.pdf",
             "page": 38

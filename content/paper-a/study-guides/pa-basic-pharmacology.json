@@ -19,7 +19,7 @@
             ],
             [
               "1931",
-              "Sen & Bose (Indian physicians, Calcutta) reported antipsychotic properties of the plant Rauwolfia serpentine; reserpine was rediscovered by Kline in 1954"
+              "Sen & Bose (Indian physicians, Calcutta) reported antipsychotic properties of the plant Rauwolfia serpentina; reserpine was rediscovered by Kline in 1954"
             ],
             [
               "1949",
@@ -39,7 +39,7 @@
             ],
             [
               "1958",
-              "Kuhn discovered that 'endogenous' depression responded best to **imipramine** (second **TCA** **amitriptyline** introduced in 1961)"
+              "Kuhn discovered that 'endogenous' depression responded best to **imipramine** (second tricyclic antidepressant **amitriptyline** introduced in 1961)"
             ],
             [
               "1958",
@@ -47,7 +47,7 @@
             ],
             [
               "1963",
-              "Blackwell proposed the cheese reaction as the mechanism of **MAOI**-associated hypertension"
+              "Blackwell proposed the cheese reaction as the mechanism of monoamine oxidase inhibitor-associated hypertension"
             ]
           ],
           "sources": [
@@ -72,7 +72,7 @@
             ],
             [
               "(year not given)",
-              "Carlssen synthesised purpose-made **SSRI** zimeldine, withdrawn because of hypersensitivity syndrome and demyelinating disease"
+              "Carlsson synthesised purpose-made selective serotonin reuptake inhibitor zimeldine, withdrawn because of hypersensitivity syndrome and demyelinating disease"
             ],
             [
               "1988",
@@ -92,7 +92,7 @@
             ],
             [
               "2005",
-              "**CATIE** results published: reappraisal of atypical vs typical antipsychotics; the **UK** CuTLASS study followed, showing no apparent economic gain from atypicals"
+              "Clinical Antipsychotic Trials of Intervention Effectiveness results published: reappraisal of atypical vs typical antipsychotics; the United Kingdom Cost Utility of the Latest Antipsychotic drugs in Schizophrenia Study study followed, showing no apparent economic gain from atypicals"
             ]
           ],
           "sources": [
@@ -102,6 +102,11 @@
             }
           ],
           "highYield": true
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Black box warning year",
+          "note": "NEEDS VERIFICATION: The notes give no year for the 'black box warning' on antidepressants in adolescents and children (the '(period not given)' row of the 1970s-2005 timeline). Reviewer suggestion, not in the source: 2004."
         },
         {
           "type": "paragraph",
@@ -157,7 +162,7 @@
         },
         {
           "type": "trap",
-          "text": "First antidepressant introduced = iproniazid, an **MAO** inhibitor (chosen for its euphoric effects in tuberculosis patients) - **NOT** a tricyclic, **SSRI**, **SNRI** or tetracyclic. The explanation has TCAs arising later from **imipramine** and SSRIs later still, once serotonin was linked to depression.",
+          "text": "First antidepressant introduced = iproniazid, a monoamine oxidase inhibitor (chosen for its euphoric effects in tuberculosis patients) - **NOT** a tricyclic, selective serotonin reuptake inhibitor, serotonin and noradrenaline reuptake inhibitor or tetracyclic. The explanation has tricyclic antidepressants arising later from **imipramine** and selective serotonin reuptake inhibitors later still, once serotonin was linked to depression.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
@@ -254,6 +259,13 @@
             }
           },
           {
+            "text": "Sen & Bose 1931 (Calcutta): antipsychotic properties of Rauwolfia serpentina; reserpine rediscovered by Kline 1954.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
             "text": "Cade 1949: lithium in mania (from a urate-metabolism hypothesis; lithium ion itself calming even in healthy controls).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
@@ -282,6 +294,27 @@
             }
           },
           {
+            "text": "Kuhn 1958: 'endogenous' depression responded best to imipramine; amitriptyline (second tricyclic antidepressant) introduced 1961.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Antipsychotics were called major tranquillisers; barbiturates and benzodiazepines were called minor tranquillisers. Large-scale hospital discharges and deinstitutionalisation followed.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
+            "text": "Blackwell 1963: the cheese reaction was proposed as the mechanism of monoamine oxidase inhibitor-associated hypertension.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 2
+            }
+          },
+          {
             "text": "Kane 1988 clozapine vs chlorpromazine in treatment-resistant schizophrenia: 30% vs 4% responded.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
@@ -289,14 +322,21 @@
             }
           },
           {
-            "text": "Zimeldine (first purpose-made SSRI) withdrawn: hypersensitivity syndrome and demyelinating disease; fluoxetine marketed 1987.",
+            "text": "Zimeldine (purpose-made selective serotonin reuptake inhibitor, synthesised by Carlsson) withdrawn: hypersensitivity syndrome and demyelinating disease; fluoxetine marketed 1987.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 3
             }
           },
           {
-            "text": "CATIE 2005 reappraised atypicals vs typicals; UK CuTLASS showed no apparent economic gain from atypicals.",
+            "text": "Janssen synthesised risperidone 1989; 1990s 'Prozac era' of wide-scale antidepressant prescribing; later black box warning for antidepressants in children and adolescents.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 3
+            }
+          },
+          {
+            "text": "Clinical Antipsychotic Trials of Intervention Effectiveness 2005 reappraised atypicals vs typicals; United Kingdom Cost Utility of the Latest Antipsychotic drugs in Schizophrenia Study showed no apparent economic gain from atypicals.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 3
@@ -356,8 +396,8 @@
         "highlightBlockIndices": [
           0,
           1,
-          3,
-          5
+          4,
+          6
         ]
       }
     },
@@ -403,15 +443,15 @@
               "Thiothixene, Flupenthixol, **Zuclopenthixol**"
             ],
             [
-              "Dihydroindoles",
+              "Dihydroindoles (as printed in the notes; Reviewer correction (not in the source): dihydroindolones - NEEDS VERIFICATION)",
               "Molindone"
             ],
             [
               "Diphenylbutylpiperidine",
-              "Pimozide (long t1/2)"
+              "Pimozide (long half-life)"
             ],
             [
-              "Dibenzoxapine",
+              "Dibenzoxapine (as printed in the notes; Reviewer correction (not in the source): dibenzoxazepine - NEEDS VERIFICATION)",
               "Loxapine"
             ],
             [
@@ -439,7 +479,7 @@
               "**Ziprasidone**"
             ],
             [
-              "Arylpiperidylindole (quinolone)",
+              "Arylpiperidylindole (quinolone; Reviewer correction (not in the source): quinolinone - NEEDS VERIFICATION)",
               "**Aripiprazole**"
             ]
           ],
@@ -463,7 +503,7 @@
         },
         {
           "type": "trap",
-          "text": "In 'choose the correct match', only droperidol: butyrophenone is right (**haloperidol**, droperidol and benperidol are the high-potency butyrophenones with troublesome extra-pyramidal side effects). The other four pairs (**risperidone**: dibenzoxapine, **aripiprazole**: benzisothiazole, thioridazine: diphenyl butyl piperidine, **flupentixol**: dihydroindole) are wrong.",
+          "text": "In 'choose the correct match', only droperidol: butyrophenone is right (**haloperidol**, droperidol and benperidol are the high-potency butyrophenones with troublesome extra-pyramidal side effects). The other four pairs (**risperidone**: dibenzoxapine (as worded in the question; reviewer: dibenzoxazepine, NEEDS VERIFICATION), **aripiprazole**: benzisothiazole, thioridazine: diphenyl butyl piperidine, **flupentixol**: dihydroindole) are wrong.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
@@ -625,7 +665,7 @@
         {
           "type": "image",
           "src": "/diagrams/paper-a/pa-basic-pharmacology/p5-mechanism-table.png",
-          "caption": "Table image: 'Classification by mechanisms of action' - two columns listing SSRIs, SNRIs, NARI, NDDI, NaSSA, DARI, RIMA and SARI with their drugs.",
+          "caption": "Table image: 'Classification by mechanisms of action' - two columns listing selective serotonin reuptake inhibitors (SSRIs), serotonin and noradrenaline reuptake inhibitors (SNRIs), noradrenaline reuptake inhibitor (NARI), noradrenaline dopamine disinhibitor (NDDI), noradrenergic and specific serotonergic antagonist (NaSSA), dopamine reuptake inhibitor (DARI), reversible inhibitor of monoamine oxidase A (RIMA) and serotonin antagonist and reuptake inhibitor (SARI) with their drugs.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 5
@@ -640,35 +680,35 @@
           ],
           "rows": [
             [
-              "SSRIs",
+              "Selective serotonin reuptake inhibitors (SSRIs)",
               "**Citalopram**, **Paroxetine**, **Fluoxetine**, **Sertraline** and **Fluvoxamine**; **Escitalopram** = S enantiomer of **citalopram**"
             ],
             [
-              "SNRIs (serotonin and noradrenaline reuptake inhibitors)",
+              "Serotonin and noradrenaline reuptake inhibitors (SNRIs)",
               "**Venlafaxine**, Milnacipran, **Duloxetine**, Sibutramine"
             ],
             [
-              "**NARI** (noradrenaline reuptake inhibitor)",
+              "Noradrenaline reuptake inhibitor (NARI)",
               "**Reboxetine**"
             ],
             [
-              "**NDDI** (noradrenaline dopamine dis-inhibitor)",
+              "Noradrenaline dopamine dis-inhibitor (NDDI)",
               "**Agomelatine**"
             ],
             [
-              "NaSSA (noradrenergic and specific serotonergic antagonist)",
+              "Noradrenergic and specific serotonergic antagonist (NaSSA)",
               "**Mirtazapine** and **Mianserin**"
             ],
             [
-              "**DARI** (dopamine reuptake inhibitor)",
+              "Dopamine reuptake inhibitor (DARI)",
               "**Bupropion**"
             ],
             [
-              "**RIMA** (reversible inhibitor of monoamine A oxidase)",
+              "Reversible inhibitor of monoamine A oxidase (RIMA)",
               "**Moclobemide**"
             ],
             [
-              "**SARI** (serotonin antagonist and reuptake inhibitor)",
+              "Serotonin antagonist and reuptake inhibitor (SARI)",
               "**Nefazodone**, **Trazodone**"
             ]
           ],
@@ -681,8 +721,18 @@
           "highYield": true
         },
         {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Sibutramine",
+          "note": "NEEDS VERIFICATION: Sibutramine is listed among the serotonin and noradrenaline reuptake inhibitors in the notes, but it was an anti-obesity drug, not an antidepressant, and was withdrawn in 2010 because of cardiovascular risk."
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Agomelatine receptor action",
+          "note": "NEEDS VERIFICATION: The notes give only the label 'noradrenaline dopamine disinhibitor'. Its receptor action is melatonin MT1/MT2 receptor agonism plus serotonin 5-HT2C receptor antagonism; 5-HT2C antagonism disinhibits noradrenaline and dopamine release in the frontal cortex. Exam questions often test the receptor action."
+        },
+        {
           "type": "trap",
-          "text": "SNRIs per the explanation: **duloxetine**, **venlafaxine**, desvenlafaxine, milnacipran and levomilnacipran. The notes' **SNRI** list (**venlafaxine**, milnacipran, **duloxetine**, sibutramine) differs - the question adds desvenlafaxine and levomilnacipran. **Reboxetine**, **bupropion**, **galantamine** and **aripiprazole** are the distractors.",
+          "text": "Serotonin and noradrenaline reuptake inhibitors per the explanation: **duloxetine**, **venlafaxine**, desvenlafaxine, milnacipran and levomilnacipran. The notes' serotonin and noradrenaline reuptake inhibitor list (**venlafaxine**, milnacipran, **duloxetine**, sibutramine) differs - the question adds desvenlafaxine and levomilnacipran. **Reboxetine**, **bupropion**, **galantamine** and **aripiprazole** are the distractors.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
@@ -692,7 +742,7 @@
         },
         {
           "type": "mnemonic",
-          "forTopic": "SNRIs (Q22 explanation)",
+          "forTopic": "Serotonin and noradrenaline reuptake inhibitors (Q22 explanation)",
           "mnemonic": "DVD ML - \"Dull Vets Dream Mostly Lazily\"",
           "expansion": [
             "**Duloxetine**",
@@ -705,7 +755,7 @@
         },
         {
           "type": "trap",
-          "text": "Term trap: the question calls **bupropion** a norepinephrine and dopamine re-uptake inhibitor, whereas the notes label it **DARI** (dopamine reuptake inhibitor) - both are stated. It is indicated for depression but licensed in the **UK** only for nicotine dependence.",
+          "text": "Term trap: the question calls **bupropion** a norepinephrine and dopamine re-uptake inhibitor, whereas the notes label it dopamine reuptake inhibitor - both are stated. It is indicated for depression but licensed in the United Kingdom only for nicotine dependence.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
@@ -725,19 +775,29 @@
         },
         {
           "type": "paragraph",
-          "text": "Xanomeline (acts via **M1**/**M4** agonism) underwent phase 3 trials in schizophrenia: trend toward improved cognition in Alzheimer's and robust dose-dependent reductions in psychotic symptoms in **AD**; in schizophrenia early trials showed efficacy in positive and negative symptoms plus improved verbal learning and short-term memory, but with a high degree of gastrointestinal side effects.",
+          "text": "Xanomeline (acts via muscarinic M1/M4 receptor agonism) underwent phase 3 trials in schizophrenia: trend toward improved cognition in Alzheimer's and robust dose-dependent reductions in psychotic symptoms in Alzheimer's disease; in schizophrenia early trials showed efficacy in positive and negative symptoms plus improved verbal learning and short-term memory, but with a high degree of gastrointestinal side effects.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 5
           }
         },
         {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Xanomeline-trospium approval",
+          "note": "NEEDS VERIFICATION: Xanomeline combined with trospium (a peripherally acting muscarinic antagonist that reduces the gastrointestinal and other peripheral cholinergic side effects) was approved by the United States Food and Drug Administration in September 2024 for schizophrenia in adults (brand name Cobenfy). The notes describe xanomeline only as 'in phase 3'; older exam questions may still use that wording."
+        },
+        {
           "type": "paragraph",
-          "text": "**Ketamine**, a glutamate **NMDA** receptor antagonist, has shown rapid antidepressant effects in treatment-resistant depression; large-scale trials were under way.",
+          "text": "**Ketamine**, a glutamate N-methyl-D-aspartate receptor antagonist, has shown rapid antidepressant effects in treatment-resistant depression; large-scale trials were under way.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 5
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Esketamine licensing",
+          "note": "NEEDS VERIFICATION: Esketamine nasal spray (the S-enantiomer of ketamine) was approved in the United States in 2019 for treatment-resistant depression alongside an oral antidepressant, and is licensed in Europe; the National Institute for Health and Care Excellence did not recommend it for routine National Health Service use. The notes say only that large-scale ketamine trials are under way."
         },
         {
           "type": "paragraph",
@@ -746,6 +806,11 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 5
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: Pomaglumetad discontinued",
+          "note": "NEEDS VERIFICATION: Eli Lilly stopped development of pomaglumetad methionil for schizophrenia in 2012 after failed phase 3 results."
         },
         {
           "type": "trap-list",
@@ -792,7 +857,7 @@
               }
             },
             {
-              "text": "**Q53**: **moclobemide** is the reversible **MAOI** (**RIMA**); the 'cheese reaction' is less likely with RIMAs than with traditional MAOIs.",
+              "text": "**Q53**: **moclobemide** is the reversible monoamine oxidase inhibitor (reversible inhibitor of monoamine oxidase A); the 'cheese reaction' is less likely with reversible inhibitor of monoamine oxidase As than with traditional monoamine oxidase inhibitors.",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 28,
@@ -800,7 +865,7 @@
               }
             },
             {
-              "text": "**Q29**: **duloxetine** and milnacipran are SNRIs (serotonergic and noradrenergic reuptake inhibitors).",
+              "text": "**Q29**: **duloxetine** and milnacipran are serotonin and noradrenaline reuptake inhibitors (serotonergic and noradrenergic reuptake inhibitors).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 15,
@@ -822,7 +887,7 @@
         {
           "type": "gap",
           "subtopic": "Alprazolam as a benzodiazepine",
-          "note": "**Q7**: **alprazolam** is a benzodiazepine (benzodiazepines share an effect on benzodiazepine receptors, which modulate **GABA** activity; onset is quickest for **diazepam**, **lorazepam**, **alprazolam**, triazolam, estazolam). Notes do not list benzodiazepines by structure.",
+          "note": "**Q7**: **alprazolam** is a benzodiazepine (benzodiazepines share an effect on benzodiazepine receptors, which modulate gamma-aminobutyric acid activity; onset is quickest for **diazepam**, **lorazepam**, **alprazolam**, triazolam, estazolam). Notes do not list benzodiazepines by structure.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 4,
@@ -862,7 +927,7 @@
         {
           "type": "gap",
           "subtopic": "Memantine action",
-          "note": "**Q51**: **memantine** is an **NMDA** receptor antagonist. Not in the notes.",
+          "note": "**Q51**: **memantine** is an N-methyl-D-aspartate receptor antagonist. Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 26,
@@ -882,7 +947,7 @@
         {
           "type": "gap",
           "subtopic": "Acamprosate",
-          "note": "**Q41**: **acamprosate** is a synthetic taurine analogue, a functional glutamatergic **NMDA** antagonist that also increases **GABA**-ergic function. Not in the notes.",
+          "note": "**Q41**: **acamprosate** is a synthetic taurine analogue, a functional glutamatergic N-methyl-D-aspartate antagonist that also increases gamma-aminobutyric acid-ergic function. Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 22,
@@ -901,8 +966,8 @@
         },
         {
           "type": "gap",
-          "subtopic": "OCD treatment",
-          "note": "**Q5**: SSRIs are first-line for **OCD** (no clear superiority of one agent, high doses usually needed, at least 12 weeks for response, long-term therapy). Not in the notes.",
+          "subtopic": "Obsessive-compulsive disorder treatment",
+          "note": "**Q5**: selective serotonin reuptake inhibitors are first-line for obsessive-compulsive disorder (no clear superiority of one agent, high doses usually needed, at least 12 weeks for response, long-term therapy). Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 3,
@@ -912,7 +977,7 @@
         {
           "type": "gap",
           "subtopic": "Mixed affective episodes",
-          "note": "**Q21**: sodium **valproate** is the answer; **NICE** recommends mixed affective episodes be treated as manic episodes. Not in the notes.",
+          "note": "**Q21**: sodium **valproate** is the answer; National Institute for Health and Care Excellence recommends mixed affective episodes be treated as manic episodes. Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 11,
@@ -921,7 +986,7 @@
         },
         {
           "type": "trap",
-          "text": "Mixed affective episode, bank answer = sodium **valproate** (**carbamazepine**, **gabapentin**, **clonazepam** and **lamotrigine** are the other options). **NICE** recommends mixed episodes be treated as manic episodes; antipsychotics, **lithium** and **valproate** are first-line, and **lamotrigine** is **NOT** offered for mania. The extra-pool version of this question keys **olanzapine** instead (see gap below).",
+          "text": "Mixed affective episode, bank answer = sodium **valproate** (**carbamazepine**, **gabapentin**, **clonazepam** and **lamotrigine** are the other options). National Institute for Health and Care Excellence recommends mixed episodes be treated as manic episodes; antipsychotics, **lithium** and **valproate** are first-line, and **lamotrigine** is **NOT** offered for mania. The extra-pool version of this question keys **olanzapine** instead (see gap below).",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
@@ -952,7 +1017,7 @@
         {
           "type": "gap",
           "subtopic": "Treatment-resistant depression combinations",
-          "note": "**Q56**: an **SSRI** or **venlafaxine** plus **mianserin** or **mirtazapine** has literature support and **NICE** recommendation (theoretical serotonin-syndrome risk; blood dyscrasia with **mianserin**). Not in the notes.",
+          "note": "**Q56**: a selective serotonin reuptake inhibitor or **venlafaxine** plus **mianserin** or **mirtazapine** has literature support and National Institute for Health and Care Excellence recommendation (theoretical serotonin-syndrome risk; blood dyscrasia with **mianserin**). Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 29,
@@ -962,7 +1027,7 @@
         {
           "type": "gap",
           "subtopic": "Dementia drug targets",
-          "note": "**Q44**: drugs acting on intracellular secretase enzymes (**BACE1**, needed to generate amyloid-beta) are a potential advance in dementia treatment. Not in the notes.",
+          "note": "**Q44**: drugs acting on intracellular secretase enzymes (beta-site amyloid precursor protein cleaving enzyme 1, needed to generate amyloid-beta) are a potential advance in dementia treatment. Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 23,
@@ -972,7 +1037,7 @@
         {
           "type": "gap",
           "subtopic": "Mild cognitive impairment",
-          "note": "**Q43**: no recommendation exists for drug prevention of dementia in **MCI**. Not in the notes.",
+          "note": "**Q43**: no recommendation exists for drug prevention of dementia in mild cognitive impairment. Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 22,
@@ -990,21 +1055,35 @@
             }
           },
           {
-            "text": "Pimozide is the diphenylbutylpiperidine (long t1/2); aripiprazole is an arylpiperidylindole (quinolone); ziprasidone a benzisothiazole.",
+            "text": "Phenothiazines: aliphatic (chlorpromazine, promazine, triflupromazine), piperidine (thioridazine), piperazine (trifluoperazine, fluphenazine, perphenazine). Thioridazine is printed under both piperidine and piperazine in the notes.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 4
             }
           },
           {
-            "text": "Tertiary amine TCAs (imipramine, amitriptyline, clomipramine, dosulepin, trimipramine) vs secondary amines (desipramine, amoxapine, nortriptyline, protriptyline): secondary more potent, less sedating, more noradrenergic, less antihistaminic/anticholinergic.",
+            "text": "Loxapine = dibenzoxapine; molindone = dihydroindoles (class names as printed in the notes; Question 8 pairs these class names wrongly with risperidone and flupentixol). Reviewer correction (not in the source), NEEDS VERIFICATION: dibenzoxazepine and dihydroindolone.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 4
             }
           },
           {
-            "text": "Hydrazine MAOIs: phenelzine, isocarboxazid (greater hepatotoxicity than non-hydrazine tranylcypromine); bupropion aminoketone (amphetamine-like).",
+            "text": "Pimozide is the diphenylbutylpiperidine (long half-life); aripiprazole is an arylpiperidylindole (quinolone; reviewer: quinolinone, NEEDS VERIFICATION); ziprasidone a benzisothiazole.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Tertiary amine tricyclic antidepressants (imipramine, amitriptyline, clomipramine, dosulepin, trimipramine) vs secondary amines (desipramine, amoxapine, nortriptyline, protriptyline): secondary more potent, less sedating, more noradrenergic, less antihistaminic/anticholinergic.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 4
+            }
+          },
+          {
+            "text": "Hydrazine monoamine oxidase inhibitors: phenelzine, isocarboxazid (greater hepatotoxicity than non-hydrazine tranylcypromine); bupropion aminoketone (amphetamine-like).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 4
@@ -1018,7 +1097,7 @@
             }
           },
           {
-            "text": "By mechanism: SSRIs, SNRIs (venlafaxine, milnacipran, duloxetine, sibutramine), NARI reboxetine, NDDI agomelatine, NaSSA mirtazapine/mianserin, DARI bupropion, RIMA moclobemide, SARI nefazodone/trazodone.",
+            "text": "By mechanism: selective serotonin reuptake inhibitors (SSRIs), serotonin and noradrenaline reuptake inhibitors (SNRIs: venlafaxine, milnacipran, duloxetine, sibutramine), noradrenaline reuptake inhibitor (NARI) reboxetine, noradrenaline dopamine disinhibitor (NDDI) agomelatine, noradrenergic and specific serotonergic antagonist (NaSSA) mirtazapine/mianserin, dopamine reuptake inhibitor (DARI) bupropion, reversible inhibitor of monoamine oxidase A (RIMA) moclobemide, serotonin antagonist and reuptake inhibitor (SARI) nefazodone/trazodone.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1032,7 +1111,7 @@
             }
           },
           {
-            "text": "Novel agents: xanomeline (M1/M4 agonist; GI side effects), ketamine (NMDA antagonist; rapid antidepressant effect), pomaglumetad (mGluR2/3 agonist; not replicated, high placebo response).",
+            "text": "Novel agents: xanomeline (muscarinic M1/M4 receptor agonist; GI side effects), ketamine (N-methyl-D-aspartate antagonist; rapid antidepressant effect), pomaglumetad (mGluR2/3 agonist; not replicated, high placebo response).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1047,7 +1126,7 @@
             }
           },
           {
-            "text": "Mixed affective episodes: bank keys sodium valproate (NICE treats as mania); extra pool keys olanzapine.",
+            "text": "Mixed affective episodes: bank keys sodium valproate (National Institute for Health and Care Excellence treats as mania); extra pool keys olanzapine.",
             "source": {
               "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
               "page": 4,
@@ -1058,7 +1137,7 @@
         "facts": [
           {
             "label": "Pimozide",
-            "value": "Diphenylbutylpiperidine; long t1/2",
+            "value": "Diphenylbutylpiperidine; long half-life",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 4
@@ -1066,7 +1145,7 @@
           },
           {
             "label": "Moclobemide",
-            "value": "RIMA",
+            "value": "Reversible inhibitor of monoamine oxidase A (RIMA)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1074,7 +1153,7 @@
           },
           {
             "label": "Reboxetine",
-            "value": "NARI",
+            "value": "Noradrenaline reuptake inhibitor (NARI)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1082,7 +1161,7 @@
           },
           {
             "label": "Agomelatine",
-            "value": "NDDI",
+            "value": "Noradrenaline dopamine disinhibitor (NDDI)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1090,7 +1169,7 @@
           },
           {
             "label": "Mirtazapine / Mianserin",
-            "value": "NaSSA",
+            "value": "Noradrenergic and specific serotonergic antagonist (NaSSA)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1098,7 +1177,7 @@
           },
           {
             "label": "Nefazodone / Trazodone",
-            "value": "SARI",
+            "value": "Serotonin antagonist and reuptake inhibitor (SARI)",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1106,7 +1185,7 @@
           },
           {
             "label": "Xanomeline",
-            "value": "M1/M4 agonist",
+            "value": "muscarinic M1/M4 receptor agonist",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 5
@@ -1123,7 +1202,7 @@
           12,
           13,
           14,
-          16
+          18
         ]
       }
     },
@@ -1141,7 +1220,7 @@
           "rows": [
             [
               "Watchful waiting",
-              "For depression and anxiety, **NICE** recommends watchful waiting before pharmacological interventions"
+              "For depression and anxiety, National Institute for Health and Care Excellence recommends watchful waiting before pharmacological interventions"
             ],
             [
               "Start low, go slow",
@@ -1169,7 +1248,7 @@
             ],
             [
               "Patient choice",
-              "Guidelines such as **NICE** recommend patients be supported to make the final choice of a specific psychotropic for an indication from options provided by the psychiatrist"
+              "Guidelines such as National Institute for Health and Care Excellence recommend patients be supported to make the final choice of a specific psychotropic for an indication from options provided by the psychiatrist"
             ]
           ],
           "sources": [
@@ -1229,8 +1308,8 @@
           ],
           "rows": [
             [
-              "Hygrophilicity",
-              "Drugs exposed to moisture and light can gain moisture quickly, reducing availability of active excipients"
+              "Hygrophilicity (Reviewer correction (not in the source): hygroscopicity - NEEDS VERIFICATION)",
+              "Drugs exposed to moisture and light can gain moisture quickly, reducing availability of active excipients (Reviewer correction (not in the source): excipients are inactive by definition, so 'active ingredient' is probably meant - NEEDS VERIFICATION)"
             ],
             [
               "Deliquescence",
@@ -1247,7 +1326,7 @@
         {
           "type": "gap",
           "subtopic": "Ethnic differences in psychotropic effects",
-          "note": "**Q12**: all of **haloperidol** blood levels (higher peak after rapid tranquillisation in Asians than Caucasians), tricyclic hydroxylation (slower in Asians; Caucasians have lower **TCA** plasma levels), alcohol metabolism (about ==40%== of Asians and ==60%== of South American Native Indians lack enough aldehyde dehydrogenase) and prolactin response to antipsychotics (greater in Asians) show ethnic differences. Not in the notes.",
+          "note": "**Q12**: all of **haloperidol** blood levels (higher peak after rapid tranquillisation in Asians than Caucasians), tricyclic hydroxylation (slower in Asians; Caucasians have lower tricyclic antidepressant plasma levels), alcohol metabolism (about ==40%== of Asians and ==60%== of South American Native Indians lack enough aldehyde dehydrogenase) and prolactin response to antipsychotics (greater in Asians) show ethnic differences. Not in the notes.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 6,
@@ -1378,7 +1457,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "NICE: watchful waiting before drugs in depression and anxiety.",
+            "text": "National Institute for Health and Care Excellence: watchful waiting before drugs in depression and anxiety.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 6
@@ -1406,7 +1485,7 @@
             }
           },
           {
-            "text": "Informed consent and patient choice (NICE) of the specific drug.",
+            "text": "Informed consent and patient choice (National Institute for Health and Care Excellence) of the specific drug.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 6
@@ -1427,14 +1506,14 @@
             }
           },
           {
-            "text": "Hygrophilicity = gaining moisture; deliquescence = turning to paste/liquid (sodium valproate).",
+            "text": "Hygrophilicity (Reviewer correction (not in the source), NEEDS VERIFICATION: hygroscopicity) = gaining moisture; deliquescence = turning to paste/liquid (sodium valproate).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 6
             }
           },
           {
-            "text": "Ethnic differences: all of haloperidol levels, TCA hydroxylation, alcohol metabolism (ALDH lack) and prolactin response; lithium is the same in Asians and Whites (95% excreted unchanged).",
+            "text": "Ethnic differences: all of haloperidol levels, tricyclic antidepressant hydroxylation, alcohol metabolism (ALDH lack) and prolactin response; lithium is the same in Asians and Whites (95% excreted unchanged).",
             "source": {
               "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
               "page": 6,
@@ -1474,7 +1553,7 @@
           "rows": [
             [
               "Placebo",
-              "Any intervention deliberately used for non-specific psychological or psychophysiological treatment effect; may be pharmacologically active or inert (most commonly inert). Latin 'to please'; term coined by anaesthetist Beecher in 1955"
+              "Any intervention deliberately used for non-specific psychological or psychophysiological treatment effect; may be pharmacologically active or inert (most commonly inert). Latin 'to please'; term coined by anaesthetist Beecher in 1955 (as the notes print). NEEDS VERIFICATION: Reviewer correction (not in the source): Latin 'I shall please'; the word was already in medical use before 1955 (the Q19 explanation cites Hooper's Medical Dictionary, 1811), and Beecher's 1955 paper 'The Powerful Placebo' began the modern study of the placebo effect"
             ],
             [
               "Placebo effect (research definition)",
@@ -1501,6 +1580,11 @@
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 8
+            },
+            {
+              "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
+              "page": 10,
+              "questionNumber": 19
             }
           ],
           "highYield": true
@@ -1525,7 +1609,7 @@
           "rows": [
             [
               "Depressive illness",
-              "25 to ==60%=="
+              "==25-60%=="
             ],
             [
               "Mania",
@@ -1533,7 +1617,7 @@
             ],
             [
               "Schizophrenia",
-              "25 to ==50%== (depends on improvement criterion and other factors)"
+              "==25-50%== (depends on improvement criterion and other factors)"
             ],
             [
               "Panic disorder",
@@ -1565,7 +1649,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Physiological changes in opioids and **GABA** have been proposed to explain some aspects of placebo action; the neuropeptide hypothesis holds for placebo analgesia but is not proven in other conditions such as depression.",
+          "text": "Physiological changes in opioids and gamma-aminobutyric acid have been proposed to explain some aspects of placebo action; the neuropeptide hypothesis holds for placebo analgesia but is not proven in other conditions such as depression.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 8
@@ -1573,7 +1657,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Three factors are necessary for placebo action: the nature of the disease treated and the doctor-patient relationship, patients' expectations, and experience with treatment in the past. Gender, suggestibility scores and **IQ** do not affect placebo effect consistently.",
+          "text": "Three factors are necessary for placebo action: the nature of the disease treated and the doctor-patient relationship, patients' expectations, and experience with treatment in the past. Gender, suggestibility scores and intelligence quotient do not affect placebo effect consistently.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 8
@@ -1605,7 +1689,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A placebo can be a procedure, not a medication (e.g. sham **ECT**; sham surgery with only a skin incision). Placebo analgesia may be associated with decreased beta-adrenergic activity of the heart (decreased heart rate and low-frequency heart-rate variability).",
+          "text": "A placebo can be a procedure, not a medication (e.g. sham electroconvulsive therapy; sham surgery with only a skin incision). Placebo analgesia may be associated with decreased beta-adrenergic activity of the heart (decreased heart rate and low-frequency heart-rate variability).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 9
@@ -1614,6 +1698,14 @@
         {
           "type": "paragraph",
           "text": "Placebo response is higher in trials with more than 2 arms than in two-arm trials: in a three-armed trial participants know they have a 2/3 chance of active treatment versus 1/2 in a two-armed study.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+            "page": 9
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "People have individual traits that predispose them to be more or less responsive to certain stimuli; the interaction between the learned associations of the clinical situation and the person's particular biology produces a response.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 9
@@ -1678,7 +1770,7 @@
             ],
             [
               "Conditioning",
-              "Placebo as a behavioural intervention: classical conditioning (active medication = unconditioned stimulus; pills/capsules/syringes = conditioned stimuli; therapeutic benefit = unconditioned then conditioned response) plus visceral learning akin to operant conditioning (perceived improvement acts as an internal reward). Conditioning mediates unconscious physiological functions (e.g. hormonal secretion); expectation mediates conscious processes (pain, motor performance)"
+              "Placebo as a behavioural intervention: classical conditioning (active medication = unconditioned stimulus; pills/capsules/syringes = conditioned stimuli; therapeutic benefit = unconditioned then conditioned response) plus visceral learning akin to operant conditioning (perceived improvement acts as an internal reward). Conditioning mediates unconscious physiological functions (e.g. hormonal secretion); expectation mediates conscious processes (pain, motor performance). Learned associations producing placebo effects can be acquired through conditioning, especially for immune or endocrine conditions. During placebo treatment the patient's belief in being treated may cause selective attention to symptom improvement and expectation"
             ],
             [
               "Endogenous opioids",
@@ -1733,11 +1825,6 @@
               "Persistence",
               "Less likely to persist (Quitkin et al. 1991)",
               "More likely to persist"
-            ],
-            [
-              "Brain imaging (Mayberg et al. 2002)",
-              "Patients whose depression relented with **fluoxetine** or placebo had nearly identical **PET** scans",
-              "Nearly identical **PET** scans to the placebo responders"
             ]
           ],
           "sources": [
@@ -1752,11 +1839,19 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Mayberg et al. (2002): patients whose depression remitted with fluoxetine or with placebo had nearly identical positron emission tomography brain scans, so the neurobiological correlates of placebo and drug response may not truly differ.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+            "page": 11
+          }
+        },
+        {
           "type": "trap-list",
           "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "**Q19**: a placebo is a dummy preparation of inactive compound. The notes say Beecher coined the term in 1955; the explanation says 'placebo' entered Hooper's Medical Dictionary in 1811 and that Beecher began the modern study of the placebo effect (both given, not reconciled).",
+              "text": "**Q19**: a placebo is a dummy preparation of inactive compound. The notes say Beecher coined the term in 1955; the explanation says 'placebo' entered Hooper's Medical Dictionary in 1811 and that Beecher began the modern study of the placebo effect (reconciled: Beecher began the modern study of the placebo effect but did not coin the word - NEEDS VERIFICATION).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
                 "page": 10,
@@ -1783,7 +1878,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The **ACC** is an important anatomical component of both the dopaminergic and the opioid system and has been activated during placebo analgesia.",
+          "text": "The anterior cingulate cortex is an important anatomical component of both the dopaminergic and the opioid system and has been activated during placebo analgesia.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 11
@@ -1792,7 +1887,7 @@
         {
           "type": "gap",
           "subtopic": "Further placebo/nocebo mediators",
-          "note": "**Q6** explanation: placebo effects are associated with release of endogenous opioids, endocannabinoids, dopamine, oxytocin and vasopressin (notes mention opioids, **GABA** and dopamine only). **Q25** explanation: optimism, suggestibility and gender not closely associated with placebo responsiveness; nocebo more likely in those who are more anxious, with a history of medically unexplained symptoms or greater psychological distress.",
+          "note": "**Q6** explanation: placebo effects are associated with release of endogenous opioids, endocannabinoids, dopamine, oxytocin and vasopressin (notes mention opioids, gamma-aminobutyric acid and dopamine only). **Q25** explanation: optimism, suggestibility and gender not closely associated with placebo responsiveness; nocebo more likely in those who are more anxious, with a history of medically unexplained symptoms or greater psychological distress.",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 3,
@@ -1803,7 +1898,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Placebo: intervention used for non-specific effect (usually inert; Latin 'to please'; coined by Beecher 1955). Active placebo: some inherent activity, not against the treated condition.",
+            "text": "Placebo: intervention used for non-specific effect (usually inert; Latin 'to please'; coined by Beecher 1955, per the notes). Reviewer correction (not in the source), NEEDS VERIFICATION: Latin 'I shall please'; Beecher 1955 ('The Powerful Placebo') began modern study of the effect, the word itself is older. Active placebo: some inherent activity, not against the treated condition.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 8
@@ -1845,10 +1940,38 @@
             }
           },
           {
-            "text": "Placebo antidepressant response abrupt, early, less persistent vs gradual, later, persistent for drug; PET scans nearly identical (Mayberg 2002).",
+            "text": "Placebo antidepressant response abrupt, early, less persistent vs gradual, later, persistent for drug; positron emission tomography scans nearly identical (Mayberg 2002).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 10
+            }
+          },
+          {
+            "text": "Placebo works better for severe than mild pain, but mildly depressed patients respond better than severely depressed patients (tested in Question 25).",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Placebos are more effective for clinical than for experimentally induced conditions.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 9
+            }
+          },
+          {
+            "text": "Necessary factors: nature of the disease and the doctor-patient relationship, patient expectations, past experience with treatment. Gender, suggestibility and intelligence quotient do not affect placebo effect consistently.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 8
+            }
+          },
+          {
+            "text": "A placebo can be a procedure, not a medication: sham electroconvulsive therapy, sham surgery with only a skin incision.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 9
             }
           }
         ],
@@ -1889,10 +2012,10 @@
         "highlightBlockIndices": [
           0,
           2,
-          12,
           13,
           14,
-          15
+          15,
+          16
         ]
       }
     },
@@ -1918,11 +2041,11 @@
             ],
             [
               "Phase 2 (patients) - effectiveness",
-              "Hundreds of patients with the target disease compared with placebo to see if it works at all; controlled trials or small RCTs"
+              "Hundreds of patients with the target disease compared with placebo to see if it works at all; controlled trials or small randomised controlled trials"
             ],
             [
               "Phase 3 (patients) - superiority or equivalence to standard",
-              "Extensive double-blind RCTs to determine how well it works and common side effects (comparative efficacy and tolerance profile)"
+              "Extensive double-blind randomised controlled trials to determine how well it works and common side effects (comparative efficacy and tolerance profile)"
             ],
             [
               "Phase 4 - post-marketing surveillance",
@@ -1952,7 +2075,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Regulatory agencies named: **FDA** (**US**) and **MHRA** (**UK**).",
+          "text": "Regulatory agencies named: Food and Drug Administration (United States) and Medicines and Healthcare products Regulatory Agency (United Kingdom).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 12
@@ -1976,19 +2099,19 @@
           ],
           "rows": [
             [
-              "Nefazadone",
+              "Nefazodone",
               "Hepatotoxicity"
             ],
             [
               "Droperidol, Thioridazine",
-              "**QT** prolongation on **ECG**"
+              "QT interval prolongation on electrocardiogram"
             ],
             [
               "Sertindole",
               "Sudden cardiac death"
             ],
             [
-              "Thalidomide (analgesic)",
+              "Thalidomide (analgesic, as printed in the notes; Reviewer correction (not in the source): thalidomide was a sedative/hypnotic used for morning sickness - NEEDS VERIFICATION)",
               "Phocomelia"
             ],
             [
@@ -2000,7 +2123,7 @@
               "Hypersensitivity reactions and Guillain-Barre syndrome"
             ],
             [
-              "Remoxipiride (**sulpiride** group)",
+              "Remoxipride (**sulpiride** group)",
               "Aplastic anaemia"
             ],
             [
@@ -2008,7 +2131,7 @@
               "Blood dyscrasias"
             ],
             [
-              "MAOIs",
+              "Monoamine oxidase inhibitors",
               "Cheese reactions"
             ],
             [
@@ -2017,10 +2140,6 @@
             ]
           ],
           "sources": [
-            {
-              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
-              "page": 12
-            },
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
@@ -2040,7 +2159,7 @@
         },
         {
           "type": "trap",
-          "text": "**Q30**: thioridazine is the psychotropic well known to cause sudden death (QTc prolongation, torsades de pointes, sudden cardiac death; withdrawn from the global market in 2005; sertindole and **haloperidol** also cited). The notes' surveillance table lists thioridazine under **QT** prolongation and sertindole under sudden cardiac death - both stated.",
+          "text": "**Q30**: thioridazine is the psychotropic well known to cause sudden death (QTc prolongation, torsades de pointes, sudden cardiac death; withdrawn from the global market in 2005; sertindole and **haloperidol** also cited). The notes' surveillance table lists thioridazine under QT interval prolongation and sertindole under sudden cardiac death - both stated.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
@@ -2072,7 +2191,7 @@
         },
         {
           "type": "trap",
-          "text": "Zimeldine = an **SSRI** (the first **SSRI** to reach the market: synthesised 1971, launched by Astra 1982, withdrawn the next year for adverse neurological effects / demyelination). The notes' surveillance table records hypersensitivity reactions and Guillain-Barre syndrome. MAOIs, tricyclics, benzodiazepines and antipsychotics are the distractors.",
+          "text": "Zimeldine = a selective serotonin reuptake inhibitor (the first selective serotonin reuptake inhibitor to reach the market: synthesised 1971, launched by Astra 1982, withdrawn the next year for adverse neurological effects / demyelination). The notes' surveillance table records hypersensitivity reactions and Guillain-Barre syndrome. Monoamine oxidase inhibitors, tricyclics, benzodiazepines and antipsychotics are the distractors.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
@@ -2094,7 +2213,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "Approval pathway regulated by FDA (US) / MHRA (UK): preclinical, phase 1-3, then phase 4 post-marketing surveillance.",
+            "text": "Approval pathway regulated by Food and Drug Administration (United States) / Medicines and Healthcare products Regulatory Agency (United Kingdom): preclinical, phase 1-3, then phase 4 post-marketing surveillance.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
@@ -2115,32 +2234,39 @@
             }
           },
           {
-            "text": "Phase 3 = extensive double-blind RCTs for comparative efficacy and common side effects; phase 4 picks up rarer effects after approval.",
+            "text": "Phase 3 = extensive double-blind randomised controlled trials for comparative efficacy and common side effects; phase 4 picks up rarer effects after approval.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
             }
           },
           {
-            "text": "Post-marketing hits: nefazodone/nomifensine hepatotoxicity; droperidol/thioridazine QT prolongation; sertindole sudden cardiac death.",
+            "text": "Post-marketing hits: nefazodone/nomifensine hepatotoxicity; droperidol/thioridazine QT interval prolongation; sertindole sudden cardiac death.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
             }
           },
           {
-            "text": "Zimeldine: hypersensitivity and Guillain-Barre; remoxipride aplastic anaemia; mianserin blood dyscrasias; MAOIs cheese reaction; clozapine agranulocytosis.",
+            "text": "Zimeldine: hypersensitivity and Guillain-Barre; remoxipride aplastic anaemia; mianserin blood dyscrasias; monoamine oxidase inhibitors cheese reaction; clozapine agranulocytosis.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
             }
           },
           {
-            "text": "QT-c: thioridazine, pimozide, sertindole and any IV antipsychotic = high effect; chlorpromazine, quetiapine, ziprasidone, TCAs = moderate.",
+            "text": "QT-c: thioridazine, pimozide, sertindole and any IV antipsychotic = high effect; chlorpromazine, quetiapine, ziprasidone, tricyclic antidepressants = moderate.",
             "source": {
               "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
               "page": 4,
               "questionNumber": 16
+            }
+          },
+          {
+            "text": "Thalidomide: phocomelia, detected through post-marketing surveillance.",
+            "source": {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
+              "page": 12
             }
           }
         ],
@@ -2163,7 +2289,7 @@
           },
           {
             "label": "Phase 3",
-            "value": "Superiority/equivalence; double-blind RCT",
+            "value": "Superiority/equivalence; double-blind randomised controlled trial",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
               "page": 12
@@ -2295,15 +2421,15 @@
           "rows": [
             [
               "Antipsychotics",
-              "40-==60%=="
+              "==40-60%=="
             ],
             [
               "Mood stabilizers",
-              "18-==56%=="
+              "==18-56%=="
             ],
             [
               "Antidepressants",
-              "30-==97%== (median ==63%==)"
+              "==30-97%== (median 63%)"
             ]
           ],
           "sources": [
@@ -2709,15 +2835,6 @@
             "page": 4,
             "questionNumber": 13
           }
-        },
-        {
-          "type": "gap",
-          "subtopic": "Source heading label",
-          "note": "In the notes the page-14 'Improving adherence' text and later blocks are filed under the heading '4. Secondary benefits of medication and adherence', which is actually the fourth item of the health belief model list on page 14 (checked against the **PDF** page), not a section of its own.",
-          "source": {
-            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
-            "page": 14
-          }
         }
       ],
       "concise": {
@@ -2806,7 +2923,7 @@
           }
         },
         {
-          "label": "1963 Blackwell: cheese reaction explains MAOI hypertension",
+          "label": "1963 Blackwell: cheese reaction explains monoamine oxidase inhibitor hypertension",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 2
@@ -2827,7 +2944,7 @@
           }
         },
         {
-          "label": "2005 CATIE and CuTLASS",
+          "label": "2005 Clinical Antipsychotic Trials of Intervention Effectiveness and Cost Utility of the Latest Antipsychotic drugs in Schizophrenia Study",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 3
@@ -2854,14 +2971,14 @@
           }
         },
         {
-          "label": "Tertiary vs secondary amine TCAs",
+          "label": "Tertiary vs secondary amine tricyclic antidepressants",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 4
           }
         },
         {
-          "label": "Hydrazine MAOIs and bupropion (aminoketone)",
+          "label": "Hydrazine monoamine oxidase inhibitors and bupropion (aminoketone)",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 4
@@ -2875,7 +2992,7 @@
           }
         },
         {
-          "label": "Mechanism classes: SSRI, SNRI, NARI, NDDI, NaSSA, DARI, RIMA, SARI",
+          "label": "Mechanism classes: selective serotonin reuptake inhibitor (SSRI), serotonin and noradrenaline reuptake inhibitor (SNRI), noradrenaline reuptake inhibitor (NARI), noradrenaline dopamine disinhibitor (NDDI), noradrenergic and specific serotonergic antagonist (NaSSA), dopamine reuptake inhibitor (DARI), reversible inhibitor of monoamine oxidase A (RIMA), serotonin antagonist and reuptake inhibitor (SARI)",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 5
@@ -2896,7 +3013,7 @@
           }
         },
         {
-          "label": "Mixed episodes: valproate (bank) / olanzapine (extra pool); NICE treats as mania",
+          "label": "Mixed episodes: valproate (bank) / olanzapine (extra pool); National Institute for Health and Care Excellence treats as mania",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 11,
@@ -2917,7 +3034,7 @@
       "label": "The principles of rational prescribing of psychotropics",
       "children": [
         {
-          "label": "Watchful waiting (NICE), start low go slow",
+          "label": "Watchful waiting (National Institute for Health and Care Excellence), start low go slow",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 6
@@ -2959,14 +3076,14 @@
           }
         },
         {
-          "label": "Chemistry: hygrophilicity, deliquescence (sodium valproate)",
+          "label": "Chemistry: hygrophilicity (reviewer: hygroscopicity, NEEDS VERIFICATION), deliquescence (sodium valproate)",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 6
           }
         },
         {
-          "label": "Ethnic differences: haloperidol levels, TCA hydroxylation, ALDH lack, prolactin; lithium same",
+          "label": "Ethnic differences: haloperidol levels, tricyclic antidepressant hydroxylation, ALDH lack, prolactin; lithium same",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 6,
@@ -3036,7 +3153,7 @@
           }
         },
         {
-          "label": "Placebo vs antidepressant response; Mayberg PET",
+          "label": "Placebo vs antidepressant response; Mayberg positron emission tomography",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 10
@@ -3062,7 +3179,7 @@
           }
         },
         {
-          "label": "Phase 3 double-blind RCT; phase 4 post-marketing",
+          "label": "Phase 3 double-blind randomised controlled trial; phase 4 post-marketing",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 12
@@ -3076,7 +3193,7 @@
           }
         },
         {
-          "label": "QT prolongation: droperidol, thioridazine; sertindole sudden cardiac death",
+          "label": "QT interval prolongation: droperidol, thioridazine; sertindole sudden cardiac death",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/BASIC PHARMACOLOGY.pdf",
             "page": 12
@@ -3098,7 +3215,7 @@
           }
         },
         {
-          "label": "Zimeldine = first SSRI to market, withdrawn for neurological adverse effects",
+          "label": "Zimeldine = first selective serotonin reuptake inhibitor to market, withdrawn for neurological adverse effects",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Basic Pharmacology Attempt review.pdf",
             "page": 26,

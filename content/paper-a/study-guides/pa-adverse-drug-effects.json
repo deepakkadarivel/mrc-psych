@@ -519,6 +519,15 @@
           }
         },
         {
+          "type": "trap",
+          "text": "Priapism mechanism is given two ways in the notes: the mechanism table says alpha-1 blockade alone; the antipsychotic section says simultaneous alpha-1 blockade plus anticholinergic activity. Alpha-1 blockade is the common core answer.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 9
+          }
+        },
+        {
           "type": "trap-list",
           "title": "MCQ Traps — Remember These!",
           "items": [
@@ -690,7 +699,7 @@
           "rows": [
             [
               "Drug-induced parkinsonism",
-              "15-==20%== of patients; within 90 days of treatment (5 to 90); elderly and female at higher risk",
+              "==15-20%== of patients; within 90 days of treatment (5 to 90); elderly and female at higher risk",
               "Muscle stiffness, cogwheel rigidity, shuffling gait, stooped posture, drooling; no pill-rolling tremor but a regular coarse tremor",
               "Anticholinergics for a short period (up to 6 weeks); withdraw after 4 to 6 weeks as tolerance develops"
             ],
@@ -780,7 +789,7 @@
         },
         {
           "type": "trap",
-          "text": "Restless pacing, foot stamping when seated, rocking back and forth and fidgeting on **risperidone** 4 mg = akathisia (subjectively unpleasant inner restlessness, seen in 20-==25%== of antipsychotic-treated patients), not tardive dyskinesia, **NMS**, restless leg syndrome or pseudo-parkinsonism. It may become prominent as the dose rises, can be mistaken for psychotic agitation, and has been linked with suicide and aggression towards others.",
+          "text": "Restless pacing, foot stamping when seated, rocking back and forth and fidgeting on **risperidone** 4 mg = akathisia (subjectively unpleasant inner restlessness, seen in ==20-25%== of antipsychotic-treated patients), not tardive dyskinesia, **NMS**, restless leg syndrome or pseudo-parkinsonism. It may become prominent as the dose rises, can be mistaken for psychotic agitation, and has been linked with suicide and aggression towards others.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
@@ -964,7 +973,7 @@
         },
         {
           "type": "trap",
-          "text": "**TD** figures that differ between notes and bank: the notes give **TD** as a late side effect in nearly ==25%== of patients (usually after 6 months to 1-2 years); the bank's incidence question gives ==5%== of patients per year of antipsychotic exposure (answer key 2-==5%==). Different measures - do not mix them up.",
+          "text": "**TD** figures that differ between notes and bank: the notes give **TD** as a late side effect in nearly ==25%== of patients (usually after 6 months to 1-2 years); the bank's incidence question gives ==5%== of patients per year of antipsychotic exposure (answer key ==2-5%==). Different measures - do not mix them up.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
@@ -987,7 +996,7 @@
           "title": "MCQ Traps — Remember These!",
           "items": [
             {
-              "text": "Notes: most cases of **TD** remit spontaneously. **Q68**: approximately ==50%== of **TD** cases are reversible (answer key approximately 50-==55%== recovery within a year with antipsychotic reduction).",
+              "text": "Notes: most cases of **TD** remit spontaneously. **Q68**: approximately ==50%== of **TD** cases are reversible (answer key approximately ==50-55%== recovery within a year with antipsychotic reduction).",
               "source": {
                 "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
                 "page": 36,
@@ -1276,7 +1285,7 @@
             ],
             [
               "Mortality",
-              "Around 20-==30%== if untreated, and higher if depot is used"
+              "Around ==20-30%== if untreated, and higher if depot is used"
             ],
             [
               "Treatment",
@@ -1297,7 +1306,7 @@
         },
         {
           "type": "trap",
-          "text": "**NMS** mortality is keyed at 15-==20%==, with the explanation stating 5-==20%== of patients on oral medication and up to ==30%== on depot formulations die if untreated; the notes give around 20-==30%== if untreated and higher with depot. Know both ranges (the other bands offered were 5-==10%==, 25-==50%==, 1-==2%==, 2-==5%==).",
+          "text": "**NMS** mortality is keyed at ==15-20%==, with the explanation stating ==5-20%== of patients on oral medication and up to ==30%== on depot formulations die if untreated; the notes give around ==20-30%== if untreated and higher with depot. Know both ranges (the other bands offered were ==5-10%==, ==25-50%==, ==1-2%==, ==2-5%==).",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
@@ -1337,7 +1346,7 @@
         },
         {
           "type": "trap",
-          "text": "**Q81**: false statement about **NMS**: '2-==3%== of patients on conventional antipsychotics develop **NMS**' - **NMS** is rare (incidence 0.07-==0.2%==); it evolves over 24-72 hours, lasts 10-14 days untreated, features fluctuating **BP**, and can follow tricyclics, **lithium**, **valproate** and antidepressants.",
+          "text": "**Q81**: false statement about **NMS**: '==2-3%== of patients on conventional antipsychotics develop **NMS**' - **NMS** is rare (incidence ==0.07-0.2%==); it evolves over 24-72 hours, lasts 10-14 days untreated, features fluctuating **BP**, and can follow tricyclics, **lithium**, **valproate** and antidepressants.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
@@ -1508,6 +1517,11 @@
           "highYield": true
         },
         {
+          "type": "gap",
+          "subtopic": "UK UPDATE: clozapine monitoring frequency",
+          "note": "NEEDS VERIFICATION: UK practice is usually given as weekly for the first 18 weeks, then every 2 weeks until 1 year, then every 4 weeks. The notes' '26 weeks in most countries' is a generic figure. Check the current UK clozapine monitoring service / Maudsley Prescribing Guidelines, as monitoring rules have been under review. (The reviewer also links this to question 78, over 80% of agranulocytosis in the first 18 weeks; that question could not be located in this topic's question files, so it is not cited here.)"
+        },
+        {
           "type": "paragraph",
           "text": "Many side effects of **clozapine** - salivation, sedation, weight gain, fatigue and lowering of seizure threshold - are dose related, but agranulocytosis and myocarditis can occur at any dose.",
           "source": {
@@ -1528,7 +1542,7 @@
         {
           "type": "gap",
           "subtopic": "Clozapine seizure risk by dose",
-          "note": "The notes say **clozapine** lowers seizure threshold dose-relatedly but give no figures. A question states: dose under 300 mg/day 1-==2%==; 300-600 mg/day 3-==4%==; over 600 mg/day ==5%==.",
+          "note": "The notes say **clozapine** lowers seizure threshold dose-relatedly but give no figures. A question states: dose under 300 mg/day ==1-2%==; 300-600 mg/day ==3-4%==; over 600 mg/day ==5%==.",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 2.pdf",
             "page": 1,
@@ -1542,6 +1556,11 @@
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 8
           }
+        },
+        {
+          "type": "gap",
+          "subtopic": "EXTERNAL UPDATE: benign ethnic neutropenia - newer term",
+          "note": "NEEDS VERIFICATION: newer literature calls this \"Duffy-null associated neutrophil count\"; check whether current UK clozapine guidance uses this term. (Reviewer suggestion; not in the source.)"
         },
         {
           "type": "paragraph",
@@ -1761,9 +1780,9 @@
         "highlightBlockIndices": [
           1,
           3,
-          5,
-          15,
-          17
+          6,
+          17,
+          19
         ]
       }
     },
@@ -1876,6 +1895,15 @@
             "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
             "page": 20,
             "questionNumber": 38
+          }
+        },
+        {
+          "type": "trap",
+          "text": "Notes vs bank on priapism: the notes say antipsychotics are the commonest reported cause (20% of all priapisms), followed by trazodone. Question 38 keys trazodone as the drug most associated (79% of psychotropic-induced priapism). Different denominators - for 'which single drug', answer trazodone.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 9
           }
         }
       ],
@@ -1994,7 +2022,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**QT** prolongation is mediated by blockade of the rapid component of the delayed rectifier potassium current (IKr) responsible for repolarisation of cardiac Purkinje and myocardial cells. Droperidol, pimozide, sertindole and thioridazine have a greater capacity than other antipsychotics to cause IKr blockade.",
+          "text": "**QT** prolongation is mediated by blockade of the rapid component of the delayed rectifier potassium current (IKr) responsible for repolarisation of cardiac Purkinje and myocardial cells. Many drugs, including certain antipsychotics and antidepressants, bind to this potassium channel and decrease the outward movement of potassium. Droperidol, pimozide, sertindole and thioridazine have a greater capacity than other antipsychotics to cause IKr blockade.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 10
@@ -2083,7 +2111,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Inadvertent intravascular injection (**IAIV**) / post-injection delirium sedation syndrome (**PDSS**) has been described after **olanzapine** pamoate depot injections: within 20 minutes to 3 hours, sedation, confusion, dizziness, altered speech/dysarthria and somnolence (as in oral **olanzapine** overdose); rarely deep coma. Supportive care usually gives full recovery within 3-72 hours.",
+          "text": "Inadvertent intravascular injection (**IAIV**) / post-injection delirium sedation syndrome (**PDSS**) has been described after **olanzapine** pamoate depot injections: within 20 minutes to 3 hours, sedation, confusion, dizziness, altered speech/dysarthria and somnolence (as in oral **olanzapine** overdose); rarely deep coma. Medical hospitalisation and supportive care are usually sufficient for full recovery, usually within 3-72 hours.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 10
@@ -2128,7 +2156,7 @@
               }
             },
             {
-              "text": "Female gender is a predisposing factor for **QT** prolongation (60-==70%== of long **QT** syndrome cases are diagnosed in women); the options hyperkalaemia, hypermagnesaemia and hypercalcaemia are not the answer, whereas hypokalaemia and hypomagnesaemia are associated.",
+              "text": "Female gender is a predisposing factor for **QT** prolongation (==60-70%== of long **QT** syndrome cases are diagnosed in women); the options hyperkalaemia, hypermagnesaemia and hypercalcaemia are not the answer, whereas hypokalaemia and hypomagnesaemia are associated.",
               "source": {
                 "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
                 "page": 13,
@@ -2302,15 +2330,15 @@
             ],
             [
               "**AND** two or more of: obesity",
-              "Waist-hip ratio >0.90 (men), >0.85 (women) **OR** body mass index 30 kg/m2 (comparison sign not extractable from the **PDF** text)"
+              "Waist-hip ratio >0.90 (men), >0.85 (women) **OR** body mass index 30 kg/m2 (comparison sign not printed in the notes). Reviewer correction (not in the source): NEEDS VERIFICATION: the standard 1999 World Health Organization criteria read body mass index >30 kg/m2."
             ],
             [
               "Lipids",
-              "Triglyceride level 1.7 mmol/l **OR** **HDL** <0.9 mmol/l (men), <1.0 mmol/l (women) (comparison sign for triglycerides not extractable)"
+              "Triglyceride level 1.7 mmol/l **OR** **HDL** <0.9 mmol/l (men), <1.0 mmol/l (women) (comparison sign for triglycerides not printed in the notes). Reviewer correction (not in the source): NEEDS VERIFICATION: the standard 1999 World Health Organization criteria read triglycerides >=1.7 mmol/l."
             ],
             [
               "Blood pressure",
-              "140/90 mmHg (or treated hypertension)"
+              "140/90 mmHg (or treated hypertension) (comparison sign not printed in the notes). Reviewer correction (not in the source): NEEDS VERIFICATION: the standard 1999 World Health Organization criteria read blood pressure >=140/90 mmHg."
             ],
             [
               "Microalbuminuria",
@@ -2421,7 +2449,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Diabetes mellitus is twice as prevalent in schizophrenia cohorts as in the general population. Unaffected first-degree relatives of patients share a propensity for type 2 diabetes (19-==30%==), suggesting a genetic association.",
+          "text": "Diabetes mellitus is twice as prevalent in schizophrenia cohorts as in the general population. Unaffected first-degree relatives of patients share a propensity for type 2 diabetes (==19-30%==), suggesting a genetic association.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 11
@@ -2429,7 +2457,7 @@
         },
         {
           "type": "trap",
-          "text": "An obese (**BMI** 38) schizophrenia patient on **olanzapine** with drowsiness and erectile dysfunction: the answer is diabetes mellitus - erectile dysfunction affects 35-==75%== of male diabetics and can be induced by **olanzapine**, whose other effects are drowsiness and weight gain (weight gain may also reduce sexual desire).",
+          "text": "An obese (**BMI** 38) schizophrenia patient on **olanzapine** with drowsiness and erectile dysfunction: the answer is diabetes mellitus - erectile dysfunction affects ==35-75%== of male diabetics and can be induced by **olanzapine**, whose other effects are drowsiness and weight gain (weight gain may also reduce sexual desire).",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 4.pdf",
@@ -2463,7 +2491,7 @@
         },
         {
           "type": "trap",
-          "text": "**CATIE** metabolic syndrome prevalence is keyed as a range of 41-==50%==, which sits between the two figures the explanation (and the notes) give: ==51.6%== of females and ==36.0%== of males. Remember the sex-specific figures rather than one range.",
+          "text": "**CATIE** metabolic syndrome prevalence is keyed as a range of ==41-50%==, which sits between the two figures the explanation (and the notes) give: ==51.6%== of females and ==36.0%== of males. Remember the sex-specific figures rather than one range.",
           "format": "SBA",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
@@ -2653,7 +2681,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Phase 2 (efficacy pathway): those who discontinued for ineffectiveness (re-randomised, n=99) compared **clozapine** with other atypicals. **Clozapine** had the lowest discontinuation rate - median 10 months, nearly 3 times longer than other SGAs. **Quetiapine** had comparatively less EPSEs.",
+          "text": "Phase 2 (efficacy pathway): those who did not respond in phase 1 (after 18 months), i.e. discontinued because of ineffectiveness (re-randomised, n=99) compared **clozapine** with other atypicals. **Clozapine** had the lowest discontinuation rate - median 10 months, nearly 3 times longer than other SGAs. **Quetiapine** had comparatively less EPSEs.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 12
@@ -3629,6 +3657,15 @@
           "highYield": true
         },
         {
+          "type": "trap",
+          "text": "Duration of SSRI treatment needed before a discontinuation syndrome: the prose (page 16) says at least 4-6 weeks; the criteria table (criterion A, page 17) says at least 1 month. Both come from the notes.",
+          "format": "SBA",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 17
+          }
+        },
+        {
           "type": "paragraph",
           "text": "Suicide risk and SSRIs: in short-term (4 to 16 weeks) placebo-controlled trials of nine antidepressants in those up to age 24, the average risk of suicidal thinking or behaviour in the first few months was ==4%== on antidepressants versus ==2%== on placebo.",
           "source": {
@@ -3830,7 +3867,7 @@
             }
           },
           {
-            "text": "Upper GI bleeding risk (platelet serotonin uptake blocked, more gastric acid): worse in elderly, NSAID users, alcohol, H. pylori; sexual dysfunction less with bupropion, mirtazapine, moclobemide, nefazodone, reboxetine and reversed by cyproheptadine or mirtazapine.",
+            "text": "Upper GI bleeding risk (platelet serotonin uptake blocked, more gastric acid): worse in elderly, NSAID users, alcohol, H. pylori; sexual dysfunction less with bupropion, mirtazapine, moclobemide, nefazodone, reboxetine and reversed by cyproheptadine, mirtazapine, buspirone or bupropion.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
               "page": 17
@@ -4009,7 +4046,7 @@
             ],
             [
               "Features",
-              "Nausea, apprehension, occasional chills, sweating, restlessness and hypotension with occipital headache, palpitations and vomiting; sympathetic overdrive shows as piloerection, dilated pupils and fever; if severe, cerebral haemorrhage and death can occur"
+              "Nausea, apprehension, occasional chills, sweating, restlessness and hypertension with occipital headache, palpitations and vomiting; sympathetic overdrive shows as piloerection, dilated pupils and fever; if severe, cerebral haemorrhage and death can occur (The notes print \"hypotension\" - this is a typo; the tyramine reaction is a hypertensive crisis, as the same page itself says.)"
             ],
             [
               "Reversible MAOIs",
@@ -4017,7 +4054,7 @@
             ],
             [
               "Foods to avoid",
-              "Mature cheese such as Stilton, blue cheese, old cheddar and mozzarella; fish, cured meats, sausage; mature poultry, wild game; liqueurs; concentrated yeast extract"
+              "Mature cheese such as Stilton, blue cheese, old cheddar and mozzarella; fish, cured meats, sausage; mature poultry, wild game; liqueurs; concentrated yeast extract NEEDS VERIFICATION (reviewer note, not in the source): the notes list mozzarella, but standard teaching treats fresh cheeses (mozzarella, cottage cheese, cream cheese) as low in tyramine and generally allowed - check against the current British National Formulary / Maudsley Prescribing Guidelines before relying on it."
             ],
             [
               "Treatment of hypertensive crisis",
@@ -4463,7 +4500,7 @@
         },
         {
           "type": "trap",
-          "text": "**Lithium** and Ebstein anomaly: the notes say ==1 in 1==,000 (20 times the general population), but the bank says more recent data suggest the effect is much smaller - best estimate 2-3 times (not 20-400 times as first suggested); general population risk 7:100,000; keyed true statement: maternal mental illness in general may increase the risk (cardiac malformations ==2.41%== vs ==1.15%==, **RR** 1.65, dose-dependent).",
+          "text": "**Lithium** and Ebstein anomaly: the notes say ==1 in 1,000== (20 times the general population), but the bank says more recent data suggest the effect is much smaller - best estimate 2-3 times (not 20-400 times as first suggested); general population risk 7:100,000; keyed true statement: maternal mental illness in general may increase the risk (cardiac malformations ==2.41%== vs ==1.15%==, **RR** 1.65, dose-dependent).",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
@@ -4753,7 +4790,7 @@
         {
           "type": "gap",
           "subtopic": "Fatal valproate hepatotoxicity incidence",
-          "note": "The notes describe **valproate** liver failure and its risk factors but give no incidence. A question keys ==1 in 100==,000 for fatal hepatotoxicity in those taking **valproate** alone (risk factors: age under ten, first few months of treatment, severe epilepsy, multiple drugs).",
+          "note": "The notes describe **valproate** liver failure and its risk factors but give no incidence. A question keys ==1 in 100,000== for fatal hepatotoxicity in those taking **valproate** alone (risk factors: age under ten, first few months of treatment, severe epilepsy, multiple drugs).",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 3.pdf",
             "page": 15,
@@ -4786,7 +4823,7 @@
           "rows": [
             [
               "Background",
-              "25-==33%== of **UK** adult females have **PCO** morphology on ultrasound; 5-==26%== have **PCOD** (**PCO** plus hyperandrogenism or **LH** disturbance)"
+              "==25-33%== of **UK** adult females have **PCO** morphology on ultrasound; ==5-26%== have **PCOD** (**PCO** plus hyperandrogenism or **LH** disturbance)"
             ],
             [
               "**Valproate** risk",
@@ -4822,8 +4859,13 @@
         },
         {
           "type": "gap",
+          "subtopic": "UK UPDATE: valproate prescribing rules (Medicines and Healthcare products Regulatory Agency)",
+          "note": "The notes only say it is best to avoid valproate. Current UK rules: since spring 2018 valproate must not be used in women and girls who could become pregnant unless they are on a pregnancy prevention programme. From 31 January 2024, valproate must not be started in any new patient (male or female) younger than 55 unless two specialists independently consider and document that there is no other effective or tolerated treatment, or that there are compelling reasons the reproductive risks do not apply. Women under 55 already on valproate need the two-specialist review at their next annual review, with a Risk Acknowledgement Form. The two-specialist rule applies to oral formulations. NEEDS VERIFICATION: the later (2024 onwards) requirements for men already taking valproate - check the current MHRA valproate page. References: sps.nhs.uk MHRA Valproate regulatory update (Feb 2024); National Patient Safety Alert NatPSA/2023/013/MHRA."
+        },
+        {
+          "type": "gap",
           "subtopic": "Valproate foetal malformation risk",
-          "note": "The notes give neural tube defects in 1-==4%== of mothers. A question keys about ==7%== for foetal malformation with **valproate** (explanation: ==7.2%==; neural tube defect incidence 1-==2%==, rising with dose above 1 g/day; epilepsy itself raises malformation risk two- to three-fold).",
+          "note": "The notes give neural tube defects in ==1-4%== of mothers. A question keys about ==7%== for foetal malformation with **valproate** (explanation: ==7.2%==; neural tube defect incidence ==1-2%==, rising with dose above 1 g/day; epilepsy itself raises malformation risk two- to three-fold).",
           "source": {
             "file": "paper-a/Paper A mocks/Paper A(2) Test 1.pdf",
             "page": 1,
@@ -4852,7 +4894,7 @@
             ],
             [
               "Rash",
-              "5 to ==20%== of those on aromatic anticonvulsants; **lamotrigine** rash in ==10%== of patients"
+              "==5 to 20%== of those on aromatic anticonvulsants; **lamotrigine** rash in ==10%== of patients"
             ],
             [
               "Rash risk factors",
@@ -4909,7 +4951,7 @@
         },
         {
           "type": "trap",
-          "text": "**Q25**: fatal skin problem with **lamotrigine** = Stevens-Johnson syndrome; bank says 10-==14%== develop rash (most benign), most likely in the first 2-8 weeks, more likely with **valproate**, exceeding the starting dose or rapid escalation (notes: ==10%==; risk factors as above).",
+          "text": "**Q25**: fatal skin problem with **lamotrigine** = Stevens-Johnson syndrome; bank says ==10-14%== develop rash (most benign), most likely in the first 2-8 weeks, more likely with **valproate**, exceeding the starting dose or rapid escalation (notes: ==10%==; risk factors as above).",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PHARMACOLOGY/Adverse effects Attempt review.pdf",
@@ -5078,7 +5120,7 @@
         "highlightBlockIndices": [
           1,
           12,
-          16
+          17
         ]
       }
     },
@@ -5241,11 +5283,11 @@
             ],
             [
               "4 months",
-              "5-==10%=="
+              "==5-10%=="
             ],
             [
               "2 years",
-              "25-==45%=="
+              "==25-45%=="
             ],
             [
               "6-8 years",
@@ -5262,6 +5304,15 @@
         {
           "type": "paragraph",
           "text": "Strategies for withdrawal: slow taper at ==25%== per week, longer-acting agents when tapering, avoiding long-term use of short-acting benzodiazepines, and **carbamazepine** to assist discontinuation.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
+            "page": 26
+          }
+        },
+        {
+          "type": "trap",
+          "text": "The notes give two different benzodiazepine taper rates: section 1b says 10% dose reduction every 2 weeks; section 6 says slow taper at 25% per week. Know both and read the question stem carefully.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 26
@@ -5458,7 +5509,7 @@
         "highlightBlockIndices": [
           1,
           13,
-          16
+          17
         ]
       }
     },
@@ -5498,7 +5549,7 @@
             ],
             [
               "**ACE** inhibitors",
-              "Increased arousal, anxiety, fatigue, insomnia and increased psychomotor activity (4-==8%==)"
+              "Increased arousal, anxiety, fatigue, insomnia and increased psychomotor activity (==4-8%==)"
             ],
             [
               "**Clonidine**",
@@ -5625,7 +5676,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Rimonabant, the first **CB1**-receptor antagonist, was developed as an anti-obesity agent on the premise that blocking central cannabinoid activity might reduce food intake (prompted by cannabis-related appetite increase, the 'munchies'). Evidence shows severe psychiatric adverse events: 2.5 times more depression and suicidal ideas, and 3 times more anxiety.",
+          "text": "Two endocannabinoid receptors, CB1 and CB2, have been identified. Rimonabant, the first **CB1**-receptor antagonist, was developed as an anti-obesity agent on the premise that blocking central cannabinoid activity might reduce food intake (prompted by cannabis-related appetite increase, the 'munchies'). Evidence shows severe psychiatric adverse events: 2.5 times more depression and suicidal ideas, and 3 times more anxiety.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 28
@@ -5782,6 +5833,11 @@
           ]
         },
         {
+          "type": "gap",
+          "subtopic": "UK UPDATE: changes to drug classes since the notes were written",
+          "note": "The notes list cannabis, ketamine and GHB as Class C - this is out of date. Cannabis is Class B (since 2009) and ketamine is Class B (since 2014). GHB, gamma-butyrolactone and 1,4-butanediol were moved from Class C to Class B on 13 April 2022 (Misuse of Drugs Act 1971 (Amendment) Order 2022, S.I. 2022/322). Pregabalin and gabapentin became Class C and Schedule 3 on 1 April 2019, exempt from safe custody requirements. Exam answers should follow current law. NEEDS VERIFICATION only for the years given for cannabis (2009) and ketamine (2014); the Class B status of both is confirmed. References: legislation.gov.uk/uksi/2022/322; gov.uk/government/news/harsher-sentences-introduced-for-spiking-drugs; gov.uk/drug-safety-update/pregabalin-lyrica-gabapentin-neurontin-and-risk-of-abuse-and-dependence-new-scheduling-requirements-from-1-april."
+        },
+        {
           "type": "table",
           "title": "2001 Misuse of Drugs Regulations - schedules",
           "columns": [
@@ -5835,6 +5891,11 @@
               "page": 30
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "UK UPDATE: Schedule 3 and Schedule 4 changes (pregabalin, gabapentin, midazolam)",
+          "note": "NEEDS VERIFICATION (except the first item, which the reviewer marks verified): pregabalin and gabapentin are Schedule 3 since 1 April 2019, exempt from safe custody. Midazolam is Schedule 3; tramadol is Schedule 3 (since 2014). In Schedule 4 Part 1 the notes list 'Benzodiazepines (not temazepam) and zolpidem' - the reviewer suggests midazolam is also an exception (as Schedule 3), and that zopiclone and zaleplon may need listing alongside zolpidem. Check the current British National Formulary / Misuse of Drugs Regulations 2001 before relying on these. Reference: gov.uk/drug-safety-update/pregabalin-lyrica-gabapentin-neurontin-and-risk-of-abuse-and-dependence-new-scheduling-requirements-from-1-april."
         },
         {
           "type": "image",
@@ -5994,8 +6055,8 @@
         ],
         "highlightBlockIndices": [
           1,
-          2,
-          4
+          3,
+          6
         ]
       }
     },
@@ -6058,11 +6119,11 @@
             ],
             [
               "Rare",
-              "==1 in 10== 000 to ==1 in 1000=="
+              "==1 in 10 000== to ==1 in 1000=="
             ],
             [
               "Very rare",
-              "Less than ==1 in 10== 000"
+              "Less than ==1 in 10 000=="
             ]
           ],
           "sources": [
@@ -6174,7 +6235,7 @@
               "**VPA**"
             ],
             [
-              "P. ileus (as printed)",
+              "Paralytic ileus (printed \"P. ileus\")",
               "**clozapine**"
             ],
             [
@@ -6191,7 +6252,7 @@
             ],
             [
               "Weight gain",
-              "all antipsychotics (less for **APZ**, **ZPD** as printed), TCAs, Li, **VPA**, **CBZ**"
+              "all antipsychotics (less for aripiprazole and ziprasidone; printed as APZ, ZPD), TCAs, Li, **VPA**, **CBZ**"
             ],
             [
               "Weight loss",
@@ -6211,7 +6272,7 @@
             ],
             [
               "**WBC** suppression",
-              "'zapines' (olanz, mirtaz, cloz, carbama) and **mianserin** (first character of 'zapines' garbled in the **PDF** text)"
+              "drugs ending in \"-zapine\" (olanzapine, mirtazapine, clozapine) and carbamazepine, plus **mianserin** (printed \"olanz, mirtaz, cloz, carbama\")"
             ],
             [
               "Haemolytic anaemia",
@@ -6234,7 +6295,7 @@
               "SSRIs"
             ],
             [
-              "U. incontinence/hesitancy (as printed)",
+              "Urinary incontinence/hesitancy (printed \"U. incontinence/hesitancy\")",
               "**reboxetine**"
             ],
             [
@@ -6288,7 +6349,7 @@
         {
           "type": "gap",
           "subtopic": "Chart wording that could not be read cleanly",
-          "note": "The chart (page 32) is laid out in two columns; the **WBC**-suppression entry begins with a garbled character ('^zapines'), and 'P. ileus', 'U. incontinence/hesitancy', '**APZ**' and '**ZPD**' are abbreviated in the source. Check the original page before relying on those specific entries.",
+          "note": "Abbreviations on the page 32 chart have been expanded from the page image: P. ileus = paralytic ileus; U. = urinary; APZ = aripiprazole; ZPD = ziprasidone; the garbled character before \"zapines\" is a stray symbol. NEEDS VERIFICATION: APZ and ZPD are read as aripiprazole and ziprasidone from context - confirm against the original page.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 32
@@ -7083,7 +7144,7 @@
           }
         },
         {
-          "label": "Sexual dysfunction remedied by cyproheptadine or mirtazapine",
+          "label": "Sexual dysfunction remedied by cyproheptadine, mirtazapine, buspirone or bupropion",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/ADVERSE DRUG EFFECTS.pdf",
             "page": 17

@@ -15,7 +15,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Beliefs are based on our knowledge of the world and link an object to an attribute; they are non-evaluative and objective (e.g. '**USA** is a nation built on capitalism'). Values relate to the importance or desirability of the object; they are largely subjective with preferential patterns attached (e.g. 'I do not like capitalism'). Values can turn beliefs into attitudes ('I dislike American people').",
+          "text": "Beliefs are based on our knowledge of the world and link an object to an attribute; they are non-evaluative and objective (e.g. 'USA is a nation built on capitalism'). Values relate to the importance or desirability of the object; they are largely subjective with preferential patterns attached (e.g. 'I do not like capitalism'). Values can turn beliefs into attitudes ('I dislike American people').",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 2
@@ -168,7 +168,7 @@
             [
               "Control",
               "Boring repetitive task for 30 minutes",
-              "Baseline rating of enjoyment"
+              "Baseline rating of enjoyment (not stated in the source, page 3, which says only that all participants rated enjoyment; added by the guide's author)"
             ],
             [
               "20-dollar group",
@@ -403,7 +403,7 @@
           "rows": [
             [
               "Thurstone",
-              "Hundreds of statements scored by judges on an 11-point scale; about 10 statements from each extreme chosen for consistency of scores; each carries a value (average of 100 judgments); 20 statements make the scale; rarely used as too tedious; assumes the 11 points are intervals but they are really ordinal"
+              "Hundreds of statements scored by judges on an 11-point scale; about 10 statements from each extreme chosen for consistency of scores; each carries a value (average of 100 judgments); 20 statements make the scale; the subject then indicates which statements they agree with; rarely used as too tedious; assumes the 11 points are intervals but they are really ordinal"
             ],
             [
               "Likert",
@@ -419,7 +419,7 @@
             ],
             [
               "Osgood's semantic differential",
-              "Measures verbally expressed attitudes; bipolar adjectives (e.g. evaluative good-bad, activity active-inactive, potency powerful-weak) on a 7-point scale; assumes every concept can be represented in a hypothetical semantic space with two extremes"
+              "Measures verbally expressed attitudes; allows different attitudes about one topic to be measured on the same scale; bipolar adjectives (e.g. evaluative good-bad, activity active-inactive, potency powerful-weak) on a 7-point scale; assumes every concept can be represented in a hypothetical semantic space with two extremes"
             ]
           ],
           "sources": [
@@ -653,7 +653,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Gallup's 'touching the dot' experiments demonstrate self-recognition: a red dot is unknowingly placed on the child's face and a mirror shown. Only higher primates and humans older than 20 months successfully touch the dot; it does not occur below 15 months. 5 to ==25%== of infants touch the dot by 18 months and nearly ==75%== by 20 months, so self-recognition rapidly develops between 18 and 20 months. Object permanence is necessary for self-recognition.",
+          "text": "Gallup's 'touching the dot' experiments demonstrate self-recognition: a red dot is unknowingly placed on the child's face and a mirror shown. Only higher primates and humans older than 20 months successfully touch the dot; it does not occur below 15 months. ==5 to 25%== of infants touch the dot by 18 months and nearly ==75%== by 20 months, so self-recognition rapidly develops between 18 and 20 months. Object permanence is necessary for self-recognition.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 6
@@ -669,7 +669,7 @@
         },
         {
           "type": "trap",
-          "text": "**Q15**: children pass the mirror test at 18 months (the explanation says the child touches the dot on its nose at 18 months); the notes (page 6) give a range, with 5 to ==25%== at 18 months and about ==75%== by 20 months.",
+          "text": "**Q15**: children pass the mirror test at 18 months (the explanation says the child touches the dot on its nose at 18 months); the notes (page 6) give a range, with ==5 to 25%== at 18 months and about ==75%== by 20 months.",
           "format": "SBA",
           "source": {
             "file": "paper-a/High yields/PSYCHOLOGY/8) Social Psychology Attempt review.pdf",
@@ -984,21 +984,39 @@
             ],
             [
               "Self-serving bias",
-              "The actor-observer effect is most pronounced for negative behaviours; may be absent or reversed for positive ones; offers self-enhancement and defence. Exception in depression: excessive self-blame for personal failures"
+              "Successes attributed to internal factors (e.g. ability) and failures to external factors, protecting and enhancing self-esteem (question bank explanations, Q37 and Q39). The notes (page 8) add that the actor-observer effect is most pronounced for negative behaviours and may be absent or reversed for positive ones. Exception in depression: excessive self-blame for personal failures"
             ],
             [
               "Just world hypothesis",
               "'I am a just person living in a just world; everyone gets what they deserve'; 'bad things happen to bad people', leading to blaming-the-victim culture"
             ],
             [
-              "False consensus effect / illusion of in-group homogeneity",
-              "Viewing another person's behaviour as representative of a group's behaviour (culture or racial stereotypes form)"
+              "Illusion of out-group homogeneity",
+              "Viewing another person's behaviour as representative of a group's behaviour (culture or racial stereotypes form); members of the other group are seen as all alike (page 17). Page 8 prints this description under the label 'false consensus effect and illusion of in group homogeneity'"
+            ],
+            [
+              "False consensus effect",
+              "Reviewer correction (not in the source): overestimating how far other people share one's own opinions and behaviours. The notes (page 8) do not give this definition; confirm against a standard textbook"
             ]
           ],
           "sources": [
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 8
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
+              "page": 17
+            },
+            {
+              "file": "paper-a/High yields/PSYCHOLOGY/8) Social Psychology Attempt review.pdf",
+              "page": 18,
+              "questionNumber": 37
+            },
+            {
+              "file": "paper-a/High yields/PSYCHOLOGY/8) Social Psychology Attempt review.pdf",
+              "page": 19,
+              "questionNumber": 39
             }
           ],
           "highYield": true
@@ -1017,7 +1035,7 @@
             ],
             [
               "Halo effect",
-              "Perceiving others as wholly good or bad from a few observed traits (e.g. physical attractiveness); traits 'spill over' to the total perception. Investigators of crime suspects are susceptible, more accurately the reversed halo / devil effect / association fallacy"
+              "Perceiving others as wholly good or bad from a few observed traits (e.g. physical attractiveness), i.e. making inferences about people from limited, superficial information; traits 'spill over' to the total perception of personality. Investigators evaluating crime suspects are susceptible; more accurately this is the reversed halo effect / devil effect / association fallacy (e.g. a policeman concludes someone is guilty by association with attributes previously seen in other criminals; mere similarity to a suspect can lead police to wrongly link an innocent person with a guilty act)"
             ]
           ],
           "sources": [
@@ -1201,14 +1219,14 @@
             }
           },
           {
-            "text": "Self-serving bias: self-enhancing and defensive; exception in depression, with excessive self-blame.",
+            "text": "Self-serving bias: successes attributed internally, failures externally (question bank, Q37 and Q39); self-enhancing and defensive; exception in depression, with excessive self-blame.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 8
             }
           },
           {
-            "text": "Just world hypothesis leads to blaming the victim; false consensus effect underlies stereotypes.",
+            "text": "Just world hypothesis leads to blaming the victim; stereotypes form from the illusion of out-group homogeneity (page 8 labels it false consensus effect / illusion of in-group homogeneity; page 17 says out-group).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 8
@@ -1252,7 +1270,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Theory of Mind (ToM) develops around age 3.5 to 4 years. It is the understanding that other persons have mental processes similar to one's own, and forms an essential part of the social attribution process.",
+          "text": "Theory of mind develops around age 3.5 to 4 years. It is the understanding that other persons have mental processes similar to one's own, and forms an essential part of the social attribution process.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 9
@@ -1260,7 +1278,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Lack of development of ToM (trait related) could explain the apparent lack of empathy seen in autism. In acute psychosis, state-related ToM deficits are noted only when relapsing into positive symptoms (not pervasive). Poor ToM with reduced empathic ability is also demonstrated in conduct disorder and antisocial personality disorder.",
+          "text": "Lack of development of theory of mind (trait related) could explain the apparent lack of empathy seen in autism. In acute psychosis, state-related theory of mind deficits are noted only when relapsing into positive symptoms (not pervasive). Poor theory of mind with reduced empathic ability is also demonstrated in conduct disorder and antisocial personality disorder.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 9
@@ -1332,7 +1350,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Flavell et al. (1986): children older than 4 distinguish appearance from reality ('it looks like an apple but it is really a ball'). When task demands are reduced, even 15-month-olds show some signs of ToM.",
+          "text": "Flavell et al. (1986): children older than 4 distinguish appearance from reality ('it looks like an apple but it is really a ball'). When task demands are reduced, even 15-month-olds show some signs of theory of mind.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 10
@@ -1340,7 +1358,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Key neural regions for normal ToM: amygdala, orbitofrontal cortex, inferior parietal and medial frontal cortex.",
+          "text": "Key neural regions for normal theory of mind: amygdala, orbitofrontal cortex, inferior parietal and medial frontal cortex.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 10
@@ -1380,7 +1398,7 @@
       "concise": {
         "bullets": [
           {
-            "text": "ToM develops around 3.5 to 4 years; understanding that others have mental processes like one's own.",
+            "text": "Theory of mind develops around 3.5 to 4 years; understanding that others have mental processes like one's own.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 9
@@ -1401,14 +1419,14 @@
             }
           },
           {
-            "text": "Second-order tasks usually passed by 6 years; people with ASD may never pass or pass only as teenagers.",
+            "text": "Second-order tasks usually passed by 6 years; people with autism spectrum disorder may never pass or pass only as teenagers.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 10
             }
           },
           {
-            "text": "ToM regions: amygdala, orbitofrontal, inferior parietal, medial frontal.",
+            "text": "Theory of mind regions: amygdala, orbitofrontal, inferior parietal, medial frontal.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 10
@@ -1417,7 +1435,7 @@
         ],
         "facts": [
           {
-            "label": "ToM develops",
+            "label": "Theory of mind develops",
             "value": "about 3.5 to 4 years",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
@@ -1555,7 +1573,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**SVR** theory: relationships proceed from Stimulus (external attributes) to Values to Role stage.",
+          "text": "Stimulus-Value-Role theory: relationships proceed from Stimulus (external attributes) to Values to Role stage.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 11
@@ -1616,7 +1634,7 @@
             }
           },
           {
-            "text": "SVR theory: Stimulus, then Values, then Role stage.",
+            "text": "Stimulus-Value-Role theory: Stimulus, then Values, then Role stage.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 11
@@ -1692,7 +1710,7 @@
             ],
             [
               "Morphology",
-              "Listed in the notes as 'the study of sound structure' (same wording as phonology; check the source page)"
+              "The source (page 11) prints 'the study of sound structure' for morphology, the same wording as phonology, which appears to be a copying error. Reviewer correction (not in the source): morphology is the study of word structure (how words are built from smaller meaningful units); confirm against a standard textbook"
             ],
             [
               "Syntax",
@@ -1728,7 +1746,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Whorfian (Sapir-Whorf linguistic relativity) hypothesis: the semantics of a language can affect how its speakers perceive and conceptualise the world; language determines the basic categories of thought, so speakers of different languages think differently. This extreme position is linguistic determinism. Noam Chomsky argues against it.",
+          "text": "Whorfian (Sapir-Whorf linguistic relativity) hypothesis: the semantics of a language can affect how its speakers perceive and conceptualise the world; language determines the basic categories of thought, so speakers of different languages think differently. This extreme position is linguistic determinism. Noam Chomsky argues against it (see Language Development in the Human Development notes).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 11
@@ -1864,7 +1882,7 @@
         },
         {
           "type": "paragraph",
-          "text": "One-sided arguments may strengthen existing beliefs but two-sided arguments are more effective in changing beliefs/attitudes. Highly fear-inducing messages may increase anxiety without behaviour change (Jansis & Feshback 1953); moderately fear-inducing messages can produce greater behaviour change, giving an inverted U-shaped curve between fear and attitude/behaviour change. Feeling vulnerable also increases behaviour change.",
+          "text": "One-sided arguments may strengthen existing beliefs but two-sided arguments are more effective in changing beliefs/attitudes. Highly fear-inducing messages may increase anxiety without behaviour change (Janis & Feshbach 1953); moderately fear-inducing messages can produce greater behaviour change, giving an inverted U-shaped curve between fear and attitude/behaviour change. Feeling vulnerable also increases behaviour change.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 12
@@ -2071,7 +2089,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Sherif used the autokinetic effect (apparent false movement of a pinpoint of light in a dark room, aka Phi Phenomenon) to study conformity: individuals first gave idiosyncratic responses (individual norms), but when grouped together they modified their answers to conform and group norms emerged.",
+          "text": "Sherif used the autokinetic effect (apparent false movement of a pinpoint of light in a dark room; the source prints 'aka Phi Phenomenon'. Reviewer correction (not in the source): the autokinetic effect is apparent movement of a single stationary light, which is different from the phi phenomenon, apparent movement between alternating lights; confirm against a standard textbook) to study conformity: individuals first gave idiosyncratic responses (individual norms), but when grouped together they modified their answers to conform and group norms emerged.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 13
@@ -2079,7 +2097,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Asch used an unambiguous paradigm (length assessment test): group majority size up to 3 to 5 people influenced conformity, a much larger majority did not; the more unanimous the majority, the more the conformity; giving opinions privately reduced conformity; collectivist cultures showed more conformity than nuclear cultures.",
+          "text": "Asch used an unambiguous paradigm (length assessment test): group majority size up to 3 to 5 people influenced conformity, a much larger majority did not; the more unanimous the majority, the more the conformity; giving opinions privately reduced conformity; collectivist cultures showed more conformity than nuclear cultures (as printed in the source; Reviewer correction (not in the source): 'individualist cultures' is the standard exam term).",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 13
@@ -2205,7 +2223,7 @@
               }
             },
             {
-              "text": "**Q20**: the percept of a light moving between alternating lights is the phi phenomenon (Wertheimer's apparent movement); the notes (page 13) equate Phi Phenomenon with the autokinetic effect, so read the question's definition carefully.",
+              "text": "**Q20**: the percept of a light moving between alternating lights is the phi phenomenon (Wertheimer's apparent movement); the source notes (page 13) equate the phi phenomenon with the autokinetic effect, but they are different (Reviewer correction (not in the source): autokinetic = a single stationary light appears to move; phi = apparent movement between alternating lights, as the question describes).",
               "source": {
                 "file": "paper-a/High yields/PSYCHOLOGY/8) Social Psychology Attempt review.pdf",
                 "page": 10,
@@ -2344,7 +2362,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Bales (early 1950s), small groups: discussion first shifts back and forth between the task and its relevance to members (balancing task completion and cohesion); later a linear phase emerges (exchange of opinions, then evaluating underlying values, then a decision). No matter how large the group, the most talkative member spoke 40-==50%== of the time and the second most talkative 23-==30%==.",
+          "text": "Bales (early 1950s), small groups: discussion first shifts back and forth between the task and its relevance to members (balancing task completion and cohesion); later a linear phase emerges (exchange of opinions, then evaluating underlying values, then a decision). No matter how large the group, the most talkative member spoke ==40-50%== of the time and the second most talkative ==23-30%==, dominating the conversation to the detriment of the others.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 14
@@ -3027,7 +3045,7 @@
             ],
             [
               "Social learning (Bandura's Bobo doll)",
-              "Children reproduce an aggressive model's acts, especially if the model's aggression was rewarded; vicarious conditioning = learning from seeing/hearing of others' consequences; performance is more likely if vicarious reinforcement was observed"
+              "Children reproduce an aggressive model's acts, especially if the model's aggression was rewarded; vicarious conditioning = learning from seeing/hearing of others' consequences; observational learning can occur even without vicarious reinforcement, but performance of the aggressive behaviour is more likely if vicarious reinforcement was observed (learning versus performance distinction)"
             ],
             [
               "Frustration-aggression (Dollard et al. 1939)",
@@ -3038,7 +3056,7 @@
               "Frustration produces a readiness to respond aggressively; environmental cues (knives, guns) then lead to aggression; neither frustration nor cues alone suffice"
             ],
             [
-              "Generalised arousal (Zillman)",
+              "Generalised arousal (Zillmann)",
               "Arousal from one source may energise another response: transferred excitation"
             ],
             [
@@ -3106,7 +3124,7 @@
             }
           },
           {
-            "text": "Berkowitz: weapons effect (frustration plus cues); Zillman: transferred excitation; Festinger: deindividuation.",
+            "text": "Berkowitz: weapons effect (frustration plus cues); Zillmann: transferred excitation; Festinger: deindividuation.",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
               "page": 19
@@ -3127,7 +3145,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Media influences on aggressive behaviour: **TV** can influence through modelling effects. In a natural experiment at St Helena Island when **TV** was first introduced, some increase in prosocial behaviour was surprisingly recorded.",
+          "text": "Media influences on aggressive behaviour: TV can influence through modelling effects. In a natural experiment at St Helena Island when TV was first introduced, some increase in prosocial behaviour was surprisingly recorded.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 19
@@ -3155,7 +3173,7 @@
             [
               "3",
               "Imitation",
-              "e.g. copycat crimes and suicides; Shannon Matthews incident in **UK** (2008) speculated to resemble a Channel 4 drama episode (Shameless)"
+              "e.g. copycat crimes and suicides; Shannon Matthews incident in the UK (2008) speculated to resemble a Channel 4 drama episode (Shameless)"
             ],
             [
               "4",
@@ -3748,7 +3766,7 @@
       "label": "Attribution biases and impression formation",
       "children": [
         {
-          "label": "FAE: overestimates dispositional factors, stronger for negative behaviour",
+          "label": "Fundamental attribution error: overestimates dispositional factors, stronger for negative behaviour",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 8
@@ -3810,14 +3828,14 @@
       "label": "Theory of mind",
       "children": [
         {
-          "label": "ToM develops around 3.5 to 4 years",
+          "label": "Theory of mind develops around 3.5 to 4 years",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 9
           }
         },
         {
-          "label": "Lack in autism (trait), acute psychosis (state), conduct disorder, ASPD",
+          "label": "Lack in autism (trait), acute psychosis (state), conduct disorder, antisocial personality disorder",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 9
@@ -3831,14 +3849,14 @@
           }
         },
         {
-          "label": "Second-order tasks passed by 6 years; ASD may never pass",
+          "label": "Second-order tasks passed by 6 years; autism spectrum disorder may never pass",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 10
           }
         },
         {
-          "label": "Neural regions: amygdala, OFC, inferior parietal, medial frontal",
+          "label": "Neural regions: amygdala, orbitofrontal cortex, inferior parietal, medial frontal",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 10
@@ -3886,7 +3904,7 @@
           }
         },
         {
-          "label": "SVR theory: stimulus, values, role",
+          "label": "Stimulus-Value-Role theory: stimulus, values, role",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/SOCIAL PSYCHOLOGY.pdf",
             "page": 11

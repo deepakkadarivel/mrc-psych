@@ -109,6 +109,16 @@
               }
             }
           ]
+        },
+        {
+          "type": "gap",
+          "subtopic": "NEEDS VERIFICATION - Q25 'protective factors' list",
+          "note": "NEEDS VERIFICATION. The keyed answer (apolipoprotein E e2 allele as protective) is sound. However, the explanation's list of other possible protective factors includes smoking, NSAIDs and oestrogen. Current evidence regards smoking as a risk factor for Alzheimer's dementia, and NSAIDs and oestrogen have not been shown to be protective in trials. Premorbid intelligence and education (cognitive reserve) are better supported. Verify before learning this list as fact.",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 10,
+            "questionNumber": 25
+          }
         }
       ],
       "concise": {
@@ -163,11 +173,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Abeta is cleaved from a larger transmembrane protein, amyloid-beta precursor protein, by the action of secretases; its formation is prevented by the action of alpha-secretase (the Greek letters are missing in the notes' text; alpha-secretase as the preventing enzyme is confirmed by the **Q19** explanation, which names beta- and gamma-secretase as the ones producing beta amyloid).",
+          "text": "Abeta is cleaved from a larger transmembrane protein, amyloid-beta precursor protein, by the action of beta- and gamma-secretases; its formation is prevented by the action of alpha-secretase.",
           "source": {
-            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
-            "page": 8,
-            "questionNumber": 19
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 2
           }
         },
         {
@@ -204,7 +213,7 @@
             ],
             [
               "Cognitive decline",
-              "Not stated in this block",
+              "Associated with the degree of cognitive decline, but less apparent than the relationship between tangles and cognitive decline",
               "Not related to the degree of cognitive decline"
             ],
             [
@@ -222,6 +231,10 @@
             {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 2
+            },
+            {
+              "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+              "page": 3
             }
           ]
         },
@@ -596,9 +609,9 @@
           }
         },
         {
-          "type": "gap",
-          "subtopic": "Balloon cells with Hirano bodies",
-          "note": "Notes do not mention balloon cells. **Q28** (keyed: Pick's disease) states both Hirano bodies and balloon cells are seen together in Pick's disease; Hirano bodies are fusiform or spheroidal eosinophilic bodies commonly seen in the hippocampi of the elderly and numerous in various dementias or degenerative diseases.",
+          "type": "trap",
+          "text": "**Q28**: Hirano bodies seen together with balloon cells point to Pick's disease. The balloon cells are the 'Pick cells' described in the notes (abnormal swollen oval-shaped neurons with loss of Nissl substance and a peripherally displaced nucleus), and the notes state that Hirano bodies are also seen in Pick's disease, though less frequently than in Alzheimer's dementia. The explanation adds that Hirano bodies are fusiform or spheroidal eosinophilic bodies commonly seen in the hippocampi of the elderly and numerous in various dementias or degenerative diseases.",
+          "format": "SBA",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 11,
@@ -793,6 +806,15 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 1,
             "questionNumber": 2
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "NEEDS VERIFICATION - exam tip for 'best correlate of cognitive decline'",
+          "note": "NEEDS VERIFICATION (exam-technique suggestion, not from the source notes). If synapse loss or synaptophysin is offered as an option, choose it: the notes state synapse number is the best neuropathological correlate of decline. If only plaques, tangles, gliosis or vascular amyloid are offered (as in Q2), choose neurofibrillary tangle burden.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 4
           }
         }
       ],
@@ -1067,6 +1089,16 @@
           "type": "trap",
           "text": "**Q26**: depigmentation of the substantia nigra = Parkinson's disease (not **CJD**, Huntington's, Dandy-Walker malformation or Alzheimer's). The explanation specifies the zona compacta, adds depigmentation of the locus coeruleus and diffuse cortical atrophy, and lists Lewy bodies in the substantia nigra, locus coeruleus, dorsal motor nucleus of the vagus, hypothalamus, nucleus basalis of Meynert, Edinger-Westphal nucleus and raphe nuclei.",
           "format": "SBA",
+          "source": {
+            "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
+            "page": 11,
+            "questionNumber": 26
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "NEEDS VERIFICATION - Lewy body distribution in Parkinson's disease",
+          "note": "NEEDS VERIFICATION. The notes say Lewy bodies in Parkinson's disease are confined to the substantia nigra, but the Q26 explanation lists Lewy bodies in the substantia nigra, locus coeruleus, dorsal motor nucleus of the vagus, hypothalamus, nucleus basalis of Meynert, Edinger-Westphal nucleus and raphe nuclei. Likely reconciliation: the substantia nigra is the classic and characteristic site (the expected answer if asked for one site), but Lewy bodies are not strictly confined there. Verify before relying on the word 'confined'.",
           "source": {
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 11,
@@ -1540,6 +1572,14 @@
           }
         },
         {
+          "type": "paragraph",
+          "text": "The presence of particular polymorphisms at codon 129 of the prion protein gene may influence susceptibility to disease. The amino acids methionine (M) or valine (V) may be present at this locus.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 7
+          }
+        },
+        {
           "type": "table",
           "title": "Codon 129 polymorphism of PrP (methionine M / valine V)",
           "columns": [
@@ -1762,8 +1802,8 @@
           5,
           6,
           7,
-          10,
-          12
+          11,
+          13
         ]
       }
     },
@@ -1821,7 +1861,7 @@
         },
         {
           "type": "paragraph",
-          "text": "All main **CNS** cell types (astrocytes, oligodendrocytes, neurons, perivascular macrophages, microglia) could theoretically be infected, but only perivascular macrophages and microglia are the most commonly infected. Most studies indicate absence of in vivo infection in neurons.",
+          "text": "All main **CNS** cell types (astrocytes, oligodendrocytes, neurons, perivascular macrophages, microglia) could theoretically be infected, but only perivascular macrophages and microglia are the most commonly infected. Most studies indicate absence of in vivo infection in neurons. It is unclear whether detection of infected neurons is complicated by the loss of the infected neuronal populations.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 9
@@ -2005,6 +2045,15 @@
             "file": "paper-a/High yields/NUEROSCIENCES/Neuropathology Attempt review.pdf",
             "page": 9,
             "questionNumber": 22
+          }
+        },
+        {
+          "type": "gap",
+          "subtopic": "NEEDS VERIFICATION - HIV-1 receptors (CD8)",
+          "note": "NEEDS VERIFICATION. The notes list CD4 and CD8 as the major HIV-1 receptors. Standard teaching is that CD4 is the primary receptor, with the chemokine receptors CCR5 and CXCR4 as co-receptors, and that CD8 is not an entry receptor for the virus. Check against a standard textbook before relying on the CD8 statement in the exam.",
+          "source": {
+            "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
+            "page": 9
           }
         }
       ],
@@ -2301,7 +2350,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**WMH** are seen in excess in both bipolar and unipolar mood disorder, with an odds ratio of 3 to 7 compared with healthy controls.",
+          "text": "**WMH** are seen in excess in both bipolar and unipolar mood disorder, with an odds ratio of approximately 3 to 7 compared with healthy controls.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 12
@@ -2309,7 +2358,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In major depression, **WMH** are particularly common in elderly subjects, where they are linked to risk factors for, and the presence of, vascular disease. **WMH** confer a poor prognosis in major depression and bipolar disorder.",
+          "text": "In major depression, **WMH** are particularly common in elderly subjects, where they are linked to risk factors for, and the presence of, vascular disease. This finding is consistent with a robust epidemiological association between the two conditions. **WMH** confer a poor prognosis in major depression and bipolar disorder.",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 12
@@ -2352,7 +2401,7 @@
             }
           },
           {
-            "text": "In excess in both bipolar and unipolar disorder (odds ratio 3 to 7).",
+            "text": "In excess in both bipolar and unipolar disorder (odds ratio approximately 3 to 7).",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 12
@@ -2384,7 +2433,7 @@
         "facts": [
           {
             "label": "WMH odds ratio vs healthy controls",
-            "value": "3 to 7",
+            "value": "approximately 3 to 7",
             "source": {
               "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
               "page": 12
@@ -3304,7 +3353,7 @@
           }
         },
         {
-          "label": "Odds ratio 3-7 in bipolar and unipolar",
+          "label": "Odds ratio approximately 3-7 in bipolar and unipolar",
           "source": {
             "file": "paper-a/MRCPSYCH PAPER A SECTIONS/NEUROPATHOLOGY.pdf",
             "page": 12

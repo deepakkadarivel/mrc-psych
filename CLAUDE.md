@@ -821,6 +821,13 @@ standalone sets, mocks, skipped files); `extract.ts` writes everything incl. `ma
   contrast "the notes" with a question are skipped (they quote two sources). ~50 of ~12,300 claims stay flagged, almost all
   compressed or mixed-source bullets; a flag means *look*, not *wrong*. Output goes to the gitignored `.audit-flagged.txt`.
   Mnemonic checks: an invented mnemonic's phrase/acronym should spell the initials of (or key words of) its expansion items.
+- **Reviewer change-document pass (2026-10)**: 19 per-topic review docs were applied to the Paper A guides. Conventions that
+  came out of it: additions are only made after checking the cited PDF page; where the source prints a value the reviewer says
+  is wrong, the source-printed value stays and a labelled "Reviewer correction (not in the source): ..." is added beside it
+  (both readings); external/UK updates are `gap` blocks with no `source`, subtopic `UK UPDATE:`/`EXTERNAL UPDATE:`, note starting
+  `NEEDS VERIFICATION:`; acronyms were expanded in titles/concise/mind map/text but not in mnemonic blocks, and the
+  "MCQ Traps — Remember These!" list title is kept unexpanded. Guides may carry `verificationNotes` (pa-pharmacodynamics, not in
+  `lib/types.ts`, ignored by the renderer).
 - `e2e/paper-a.spec.ts` covers the switch, notes + citation → real PDF load (trailing-space paths), and quiz/mock
   rendering. **Port 3001 may be held by an unrelated project's dev server**: Playwright's
   `reuseExistingServer` then silently tests the wrong app (everything 404s). Start this app yourself on a free port
