@@ -4,7 +4,11 @@ import { execFileSync } from "node:child_process";
 import type { MindMapNode, NoteBlock, Question, Source, StudyGuide } from "@/lib/types";
 
 const root = process.cwd();
-const guidesDir = path.join(root, "content/study-guides");
+// `--paper-a` switches every content path to content/paper-a/ (ids "pa-*", Source.file "paper-a/...").
+// Paper A has no image blocks (no figure-crop pipeline), so image sources are always rejected there.
+const paperA = process.argv.includes("--paper-a");
+const contentDir = path.join(root, paperA ? "content/paper-a" : "content");
+const guidesDir = path.join(contentDir, "study-guides");
 const resourcesDir = path.join(root, "resources/paper-b");
 
 function loadJson<T>(file: string): T | null {
@@ -15,7 +19,7 @@ function loadJson<T>(file: string): T | null {
 interface Manifest {
   topics: { id: string; bookFiles?: string[] }[];
 }
-const manifest = loadJson<Manifest>(path.join(root, "content/manifest.json"));
+const manifest = loadJson<Manifest>(path.join(contentDir, "manifest.json"));
 
 // An image block's citation is self-verifying — the crop *is* the extraction, unlike a text
 // fact — so it only needs to check against the real PDF (source.file is one of this topic's
@@ -38,6 +42,7 @@ function pdfPageCount(relFile: string): number | null {
 }
 
 function isValidImageSource(source: Source, topic: string): boolean {
+  if (paperA) return false;
   const bookFiles = manifest?.topics.find((t) => t.id === topic)?.bookFiles ?? [];
   if (!bookFiles.includes(source.file)) return false;
   const pageCount = pdfPageCount(source.file);
@@ -46,8 +51,8 @@ function isValidImageSource(source: Source, topic: string): boolean {
 }
 
 function buildValidSets(topic: string) {
-  const notes = loadJson<NoteBlock[]>(path.join(root, `content/notes/${topic}.json`)) ?? [];
-  const questions = loadJson<Question[]>(path.join(root, `content/questions/${topic}.json`)) ?? [];
+  const notes = loadJson<NoteBlock[]>(path.join(contentDir, `notes/${topic}.json`)) ?? [];
+  const questions = loadJson<Question[]>(path.join(contentDir, `questions/${topic}.json`)) ?? [];
   const pageKeys = new Set<string>();
   const questionKeys = new Set<string>();
   for (const n of notes) pageKeys.add(`${n.source.file}|${n.source.page}`);

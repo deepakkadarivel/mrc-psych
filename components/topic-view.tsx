@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { AlertTriangle, PanelRightIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -20,16 +21,69 @@ const PdfViewer = dynamic(() => import("@/components/pdf-viewer").then((m) => m.
   ssr: false,
 });
 
+function MultiColumnNote() {
+  return (
+    <p className="mt-2 rounded border border-amber-300 bg-amber-50 px-2 py-1 text-xs text-amber-900">
+      Side-by-side layout on this page — columns may read out of order below. Check the source page.
+    </p>
+  );
+}
+
+/** Topics without a study guide yet (all of Paper A until its guides are built): the extracted
+ *  source notes inline, each with its page citation, plus a link to the topic's quiz. */
+function NotesFallback({
+  notes,
+  questionCount,
+  quizHref,
+  onCite,
+  topicId,
+}: {
+  notes: NoteBlock[];
+  questionCount: number;
+  quizHref?: string;
+  onCite: (s: Source) => void;
+  topicId: string;
+}) {
+  return (
+    <div className="mx-auto max-w-[880px] space-y-4 p-4 sm:p-6">
+      <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted-foreground">
+        <span>No study guide for this topic yet — showing the source notes as extracted ({notes.length} blocks).</span>
+        {quizHref && questionCount > 0 && (
+          <Button render={<Link href={quizHref} />} nativeButton={false} size="sm">
+            Take the quiz ({questionCount})
+          </Button>
+        )}
+      </div>
+      {notes.map((n) => (
+        <section key={n.id} className="rounded-lg border p-4">
+          <div className="flex items-start justify-between gap-2">
+            <h2 className="font-medium">{n.heading}</h2>
+            <CitationBadge source={n.source} onClick={onCite} />
+          </div>
+          {n.multiColumn && <MultiColumnNote />}
+          <p className="mt-2 whitespace-pre-line text-sm leading-relaxed">
+            <RichText text={n.text} highlightId={`note:${n.id}`} />
+          </p>
+        </section>
+      ))}
+      {notes.length === 0 && <p className="text-center text-muted-foreground">No notes extracted for {topicId}.</p>}
+    </div>
+  );
+}
+
 export function TopicView({
   topic,
   notes,
   studyGuide,
   questions,
+  quizHref,
 }: {
   topic: TopicManifestEntry;
   notes: NoteBlock[];
   studyGuide: StudyGuide | null;
   questions: Question[];
+  /** Where "Take the quiz" goes on a topic with no study guide (whose Quiz tab otherwise hosts it). */
+  quizHref?: string;
 }) {
   const [index, setIndex] = useState(0);
   const [activeSource, setActiveSource] = useState<Source | null>(notes[0]?.source ?? null);
@@ -115,11 +169,10 @@ export function TopicView({
           questions={questions}
           topicId={topic.id}
           topicTitle={topic.title}
+          quizBackHref={quizHref ? quizHref.replace("/quiz/", "/topics/") : undefined}
         />
       ) : (
-        <div className="p-6 text-center text-muted-foreground">
-          No study guide for this topic yet.
-        </div>
+        <NotesFallback notes={notes} questionCount={questions.length} quizHref={quizHref} onCite={handleCite} topicId={topic.id} />
       )}
 
       <Sheet open={pdfOpen} onOpenChange={setPdfOpen}>
@@ -160,7 +213,8 @@ export function TopicView({
                       <h2 className="font-medium">{note.heading}</h2>
                       <CitationBadge source={note.source} onClick={handleCite} />
                     </div>
-                    <p className="mt-3 text-sm leading-relaxed">
+                    {note.multiColumn && <MultiColumnNote />}
+                    <p className="mt-3 whitespace-pre-line text-sm leading-relaxed">
                       <RichText text={note.text} highlightId={`note:${note.id}`} />
                     </p>
                   </div>

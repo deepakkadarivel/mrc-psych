@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import manifest from "../content/manifest.json";
+import paperAManifest from "../content/paper-a/manifest.json";
+import { PAPER_A_ROOT, SKIPPED, realPathForSource } from "./paper-a/config";
 
 const root = process.cwd();
 const resourcesDir = path.join(root, "resources/paper-b");
@@ -39,4 +41,26 @@ if (requestedIds.length === 0) {
     fs.copyFileSync(src, dest);
   }
   console.log(`mocks & recalls: copied ${extra.length} source files`);
+}
+
+// ---- Paper A ----
+// Source files live under resources/paper-a/ with stray leading/trailing spaces in some folder and
+// file names; they're served from /sources/paper-a/<trimmed path> (the same string Source.file
+// carries), so the copy goes through realPathForSource() to map back to the real on-disk name.
+if (requestedIds.length === 0) {
+  const sources = new Set<string>();
+  for (const t of paperAManifest.topics) [...t.bookFiles, ...t.questionBankFiles].forEach((f) => sources.add(f));
+  for (const s of paperAManifest.quizSets) sources.add(s.file);
+  // Skipped-but-citable files (the image-only scan, the recall post) stay reachable too.
+  SKIPPED.forEach((s) => sources.add("paper-a/" + s.file.split("/").map((p) => p.trim().replace(/\s+/g, " ")).join("/")));
+  let copied = 0;
+  for (const src of sources) {
+    const real = realPathForSource(src);
+    if (!real) throw new Error(`Paper A source not found on disk: ${src} (under ${PAPER_A_ROOT})`);
+    const dest = path.join(publicDir, src);
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.copyFileSync(real, dest);
+    copied++;
+  }
+  console.log(`paper-a: copied ${copied} source PDFs`);
 }

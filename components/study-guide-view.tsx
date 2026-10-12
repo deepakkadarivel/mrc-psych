@@ -1051,12 +1051,15 @@ export function StudyGuideView({
   questions,
   topicId,
   topicTitle,
+  quizBackHref,
 }: {
   guide: StudyGuide;
   onCite: (source: Source) => void;
   questions: Question[];
   topicId: string;
   topicTitle: string;
+  /** Where the embedded quiz's "Back to ..." button goes; defaults to Paper B's /topics/<id>. */
+  quizBackHref?: string;
 }) {
   const tableCount = countBlocks(guide, "table", "comparison");
   const mnemonicCount = countBlocks(guide, "mnemonic");
@@ -1251,7 +1254,7 @@ export function StudyGuideView({
 
       <TabsContent value="quiz">
         {questions.length > 0 && (
-          <QuizView topicId={topicId} topicTitle={topicTitle} questions={questions} />
+          <QuizView topicId={topicId} topicTitle={topicTitle} questions={questions} backHref={quizBackHref} />
         )}
       </TabsContent>
     </Tabs>

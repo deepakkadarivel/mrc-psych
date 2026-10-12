@@ -9,7 +9,7 @@ process.loadEnvFile(".env.local");
 // casually killing/restarting it) — `next dev` refuses to start a second instance in the same
 // directory on a different port, so pointing here lets Playwright reuse an already-running
 // server instead of erroring out.
-const PORT = 3001;
+const PORT = Number(process.env.E2E_PORT ?? 3001); // override when another project already holds 3001
 
 export default defineConfig({
   testDir: "./e2e",

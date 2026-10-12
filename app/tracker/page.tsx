@@ -4,12 +4,21 @@ import { useEffect, useState } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { trackerStore, type TrackerEntry } from "@/lib/tracker-store";
 
+type PaperFilter = "all" | "B" | "A";
+
+// The tracker table has no paper column, but every Paper A quiz id is prefixed "pa-" (and the quiz
+// logs its id as `topic`), so the prefix is what separates the papers; anything else is Paper B.
+const isPaperA = (e: TrackerEntry) => e.topic.startsWith("pa-");
+
 export default function TrackerPage() {
-  const [entries, setEntries] = useState<TrackerEntry[]>([]);
+  const [allEntries, setEntries] = useState<TrackerEntry[]>([]);
+  const [paper, setPaper] = useState<PaperFilter>("all");
 
   useEffect(() => {
     trackerStore.getEntries().then(setEntries);
   }, []);
+
+  const entries = allEntries.filter((e) => (paper === "all" ? true : paper === "A" ? isPaperA(e) : !isPaperA(e)));
 
   const byTopic = new Map<string, { attempts: number; lastTwoPct: number[] }>();
   for (const e of entries) {
@@ -26,9 +35,26 @@ export default function TrackerPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-6 p-4 sm:p-6">
       <h1 className="font-serif text-xl font-semibold sm:text-2xl">Performance tracker</h1>
+      <div className="flex gap-1" role="group" aria-label="Paper filter">
+        {(["all", "B", "A"] as const).map((p) => (
+          <button
+            key={p}
+            type="button"
+            onClick={() => setPaper(p)}
+            aria-pressed={paper === p}
+            className={`rounded-md border px-3 py-1 text-sm ${paper === p ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-muted"}`}
+          >
+            {p === "all" ? "All" : `Paper ${p}`}
+          </button>
+        ))}
+      </div>
 
       {entries.length === 0 ? (
-        <p className="text-muted-foreground">No quiz sessions logged yet — take a topic quiz to start tracking.</p>
+        <p className="text-muted-foreground">
+          {allEntries.length === 0
+            ? "No quiz sessions logged yet — take a topic quiz to start tracking."
+            : "No sessions logged for this paper yet."}
+        </p>
       ) : (
         <>
           <div>

@@ -76,7 +76,9 @@ function joinWrapped(text: string): string {
 }
 
 function stripPageMarks(text: string): string {
-  return text.replace(new RegExp(`${PAGE_MARK}\\d+ `, "g"), "");
+  // Leading space optional: with `optionsEndAtBlankLine` the options regex can swallow it, which left a
+  // literal "PAGE:6" as the first option of a question whose options start at a page top.
+  return text.replace(/ ?PAGE:\d+ ?/g, "");
 }
 
 function pageAt(combined: string, index: number): number {
@@ -91,9 +93,22 @@ function pageAt(combined: string, index: number): number {
  * mocks/, and PDF past-paper recalls. Returns raw parsed questions without topic/id
  * assigned — the caller stamps those, since one parser serves many source files.
  */
+export interface ParseOptions {
+  /**
+   * Paper A's exports often print no "Your answer is..." or "Explanation:" label, so the
+   * explanation text runs straight on after the options with nothing to bound them. Paper A's
+   * page normaliser (`attemptReviewPages`) emits a blank line wherever there's a vertical gap,
+   * so — only when neither label is present — the first blank line after "Select one:" ends the
+   * options and what follows (up to
+   * Ref:/the answer line) is the explanation. Off by default — Paper B's files don't need it.
+   */
+  optionsEndAtBlankLine?: boolean;
+}
+
 export function parseAttemptReview(
   pages: string[],
-  sourceFile: string
+  sourceFile: string,
+  opts: ParseOptions = {}
 ): Array<Omit<Question, "id" | "topic">> {
   let combined = "";
   pages.forEach((pageText, idx) => {
@@ -124,12 +139,18 @@ export function parseAttemptReview(
       selectOneIdx !== -1 ? selectOneIdx : yourAnswerMatch?.index ?? explanationMatch?.index ?? body.length;
     const stem = joinWrapped(body.slice(0, stemEnd).replace("Select one:", ""));
 
+    let unlabelledExpStart: number | undefined;
     let options: string[] = [];
     let format: "SBA" | "EMI" = "EMI";
     if (selectOneIdx !== -1) {
       format = "SBA";
       const optionsEnd = yourAnswerMatch?.index ?? explanationMatch?.index ?? body.length;
-      const optionsBlock = body.slice(selectOneIdx + "Select one:".length, optionsEnd);
+      let optionsBlock = body.slice(selectOneIdx + "Select one:".length, optionsEnd);
+      if (opts.optionsEndAtBlankLine && !yourAnswerMatch && !explanationMatch) {
+        const m = optionsBlock.match(/^\s*\n?([\s\S]*?)(\n[ \t]*\n|$)/);
+        optionsBlock = m ? m[1] : optionsBlock;
+        unlabelledExpStart = selectOneIdx + "Select one:".length + (m ? m[0].length : 0);
+      }
       options = optionsBlock
         .split("\n")
         .map((l) => stripPageMarks(l).trim())
@@ -144,7 +165,7 @@ export function parseAttemptReview(
       ? explanationMatch.index! + explanationMatch[0].length
       : yourAnswerMatch
         ? yourAnswerMatch.index! + yourAnswerMatch[0].length
-        : undefined;
+        : unlabelledExpStart;
     if (expStart !== undefined) {
       const expEnd = refMatch?.index ?? correctAnswerMatch?.index ?? body.length;
       explanation = joinWrapped(body.slice(expStart, expEnd));
@@ -158,11 +179,23 @@ export function parseAttemptReview(
 
     let correctAnswer = "";
     if (correctAnswerMatch) {
-      correctAnswer = joinWrapped(body.slice(correctAnswerMatch.index! + correctAnswerMatch[0].length));
+      let answerText = body.slice(correctAnswerMatch.index! + correctAnswerMatch[0].length);
+      // With normalised Paper A pages the answer is its own paragraph; anything after the first
+      // blank line is page furniture on a file's last page (nav links, "Jump to...", footers).
+      if (opts.optionsEndAtBlankLine) answerText = answerText.split(/\n[ \t]*\n/)[0];
+      correctAnswer = joinWrapped(answerText);
     }
 
     if (format === "SBA" && correctAnswer && !options.includes(correctAnswer)) {
       options = mergeSplitOption(options, correctAnswer);
+    }
+    if (opts.optionsEndAtBlankLine && format === "SBA" && correctAnswer && !options.includes(correctAnswer)) {
+      // Same text, different line-wrap whitespace ("co- administered" vs "co-administered"):
+      // adopt the displayed option's spelling so exact-string grading matches. Whitespace-only
+      // difference — never changes a word.
+      const squash = (t: string) => t.replace(/\s+/g, "");
+      const hit = options.find((o) => squash(o) === squash(correctAnswer));
+      if (hit) correctAnswer = hit;
     }
 
     results.push({

@@ -712,6 +712,83 @@ switching, run across two representative topics (`adult-psychiatry` — richest 
   concern (topic/study-guide rendering); `e2e/quiz.spec.ts` is a genuinely separate concern (quiz
   progress persistence and Prev/Next/palette navigation) and lives in its own file for that reason.
 
+## Paper A (`resources/paper-a/` → `content/paper-a/`, routes under `/paper-a`)
+
+Paper A (added after Paper B) lives in the same app behind a **Paper B / Paper A switch** in the sidebar
+header (`components/paper-switch.tsx`; the sidebar body swaps by `usePathname()`, both bodies are server-rendered
+in `components/app-sidebar.tsx`). Paper B's URLs, content paths and storage keys are untouched. Everything
+Paper A is namespaced: content under `content/paper-a/{manifest.json,notes,questions,study-guides}`, every id
+prefixed `pa-` (topics `pa-classification`, sets `pa-practice-2019`, mocks `pa-mock-1-3`) so quiz-progress,
+highlight-scope and tracker keys can't collide with Paper B, and `Source.file` is `paper-a/<path with stray
+spaces trimmed>` — served from `/sources/paper-a/...` by `scripts/copy-sources.ts`, which maps back to the real
+on-disk names through `realPathForSource()` (several Paper A folders/files have leading/trailing spaces, e.g.
+`GENETICS `, ` Practice Questions 2018 .pdf`). The tracker table has no paper column; it logs the quiz id as
+`topic`, so `app/tracker/page.tsx` splits papers by the `pa-` prefix.
+
+**What Paper A has and doesn't**: 20 section PDFs (`MRCPSYCH PAPER A SECTIONS/`, the notes), 18 section-matched
+question banks + EMI banks + practice sets (`High yields/`, `Practice questions/`) and 13 mocks (`Paper A mocks/`).
+It has **no** syllabus PDF, recalls, references/video links or trend-analysis PDF, so there is no Paper A
+exam-trends/references/recalls page — don't synthesize them. `PAPER_A_EXAM_DATE` in `scripts/paper-a/config.ts` is
+`2024-04-07` as the user gave it (already in the past when entered, 2026-10-12): `app/paper-a/page.tsx` renders
+"already passed" rather than a negative countdown. Ask before changing it.
+
+**Pipeline** (`scripts/paper-a/`; run `./node_modules/.bin/tsx scripts/paper-a/extract.ts [ids…]`, then
+`scripts/paper-a/verify.ts`): `config.ts` is the source map (topic ↔ section PDF ↔ bank by *file name match*,
+standalone sets, mocks, skipped files); `extract.ts` writes everything incl. `manifest.json`.
+- **Questions need a different extractor than Paper B** (`scripts/lib/pdf-words.ts`, `paper-a-attempt-pages.ts`,
+  then the *same* `parseAttemptReview` with `{optionsEndAtBlankLine: true}`). Paper A's Moodle exports put the
+  "Question N / Not answered / Marked out of" gutter in a left column beside the stem, so `pdftotext -layout`
+  interleaves them (the Paper B parser finds ~0 questions), and the mocks' page header is spliced into body text.
+  The extractor uses `pdftotext -bbox` word coordinates: gutter split by x, header/footer words removed by shared
+  baseline (y0, tolerance 0.08 — a looser one swallowed a real "Question 40" that shared the header row), the
+  question number taken from the big integer in the gutter (on some pages the "Question" *label* is missing from
+  the text layer entirely), options = the radio-indented run after "Select one:". Families handled: gutter
+  (question_bank-style, mocks, most practice sets), stacked (Paper B style), the 2024 set (unnumbered "Question"
+  headers; "Theme:/Lead-in:" EMIs whose item rows carry the *attempt's chosen answer* in a right-hand column —
+  stripped, never shown — and a standalone ":" row before the real answer key).
+- **Ligatures**: the fi/ff/fl glyph is absent from the text layer ("classi ed"). Repaired from the *gap width*
+  (mid-word ≈ ligature width; word-start/end ≈ ligature + space) and only when exactly one candidate yields a word
+  in `/usr/share/dict/words` (+ suffix stripping); a mid-word reading wins over an edge reading ("a"+"ffi"+"nity").
+  Unresolved gaps stay as a plain space. `LIG_AUDIT=1 …extract.ts` prints every repair for review (~310 repaired,
+  ~86 left). Applies to questions only; notes were checked verbatim against their pages.
+- **Verified** (`verify.ts`): question count == the PDF's own count of "Marked out of" status blocks (not "Question
+  N" labels — explanations contain the literal text "Question 1", labels can be missing), numbering 1..N with no
+  gap, no empty stems, every SBA `correctAnswer` among its options, every cited page exists, and each note block's
+  start/end text occurs on the page it cites. 3663 questions, 968 note blocks, all clean.
+- **EMIs here are better than Paper B's**: `correctAnswer` carries the full "item → answer" key (options still
+  unrecoverable; `options: []`). A few EMIs have no key (answer only in prose) — left empty, as in Paper B.
+- **Dedup**: the topic-folder EMI copies (md5 differ) were verified at question level to be fully contained in the
+  `EMIS all chapters` copies and skipped; `Rating Scales ...(0).pdf` is byte-identical. The `-1` / second-file
+  practice exports are **different questions** from their namesakes (0 overlap measured), so they are kept as
+  separate sets ("— file a/b"), not duplicates. Skipped with reasons in `manifest.skippedFiles`:
+  `Practice Questions combined.pdf` (image-only scan, no OCR tool installed) and `Fresh Questions for June 2016.pdf`
+  (forum-style recall post, same treatment as Paper B recalls).
+- Mock questions keep the course's own label in `Question.tag` ("MoK Classification 004"); the topic of a practice
+  set is never guessed.
+- **Notes** (`scripts/lib/segment-section.ts`, not `segment-book.ts`): no `cleanBookText` (Paper A's fonts are
+  clean; Paper B's `!`/`?` substitution would corrupt real punctuation); blocks **never cross a page** (so a
+  citation's page is exact), headings are standalone `1.`/`A.` lines else the topic title; table rows stay as
+  `cell | cell` lines (render with `whitespace-pre-line`, added to topic-view). `SYNDROMES.pdf` is two-column prose
+  and uses reading-order `pdftotext` instead of `-layout`. **Known limitation**: side-by-side text boxes/tables can
+  interleave across rows; ~35 blocks whose layout looks like that are flagged `multiColumn: true` and show an
+  amber "check the source page" note in the UI — flagged, not fixed (a bbox column reconstruction wasn't worth it).
+  Anyone writing a study guide must read the real PDF page for those blocks, not the extracted text.
+- **Study guides**: `content/paper-a/study-guides/<id>.json`, same schema/rules as Paper B (see "Study guides").
+  `scripts/verify-study-guide-citations.ts`, `emphasize-study-guides.ts` and `highlight-study-guides.ts` all take
+  `--paper-a` (emphasize: optionally followed by topic ids; it is still **not idempotent** — run once per new
+  guide). **All 20 Paper A guides exist** (built by parallel agents from a reviewed template,
+  `pa-neurochemistry`; emphasize + highlight already applied — do NOT re-run emphasize on them). Agents repeatedly found
+  note blocks that were interleaved/mislabelled/missing list items **without** a `multiColumn` flag, so the flag is a
+  hint, not a guarantee; where notes and question bank disagree the guides show both (trap/gap blocks), and obvious
+  source errors (e.g. "Achilles S4", cranial nerve VIII labels, a swapped Addison/Cushing cortisol table) are
+  reproduced as printed and flagged, never silently corrected. Topics without a guide render their notes inline with a "Take the quiz" button (`NotesFallback` in
+  `topic-view.tsx`). No `image` blocks for Paper A (no figure-crop pipeline).
+- `e2e/paper-a.spec.ts` covers the switch, notes + citation → real PDF load (trailing-space paths), and quiz/mock
+  rendering. **Port 3001 may be held by an unrelated project's dev server**: Playwright's
+  `reuseExistingServer` then silently tests the wrong app (everything 404s). Start this app yourself on a free port
+  and run `E2E_PORT=3011 playwright test …` (`playwright.config.ts` reads `E2E_PORT`). Pre-existing, unrelated to
+  Paper A: two `study-guide.spec.ts` "inner tabs" cases expect an empty Mind Map state but those topics now have maps.
+
 ## Working conventions
 
 - pnpm, not npm/yarn (already on this machine).

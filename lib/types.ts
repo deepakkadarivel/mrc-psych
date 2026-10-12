@@ -10,6 +10,9 @@ export interface NoteBlock {
   heading: string;
   text: string;
   source: Source;
+  /** Paper A notes: the source page lays this out side by side, so cells/columns may read out of
+   *  order here. The citation is still exact; check the PDF page before relying on the wording. */
+  multiColumn?: boolean;
 }
 
 export interface Question {
@@ -21,6 +24,8 @@ export interface Question {
   correctAnswer: string;
   explanation: string;
   reference?: string;
+  /** Paper A mocks only: the course's own per-question label, e.g. "MoK Classification 004". */
+  tag?: string;
   source: Source;
 }
 
@@ -167,7 +172,8 @@ export interface StudyGuide {
 export interface TopicManifestEntry {
   id: string;
   title: string;
-  area: "clinical" | "research-and-stats";
+  /** Paper B: "clinical" | "research-and-stats". Paper A: the source folder's grouping (see PaperAManifest). */
+  area: string;
   bookFiles: string[];
   questionBankFiles: string[];
   gap?: string;
@@ -176,6 +182,31 @@ export interface TopicManifestEntry {
 export interface Manifest {
   examDate: string;
   topics: TopicManifestEntry[];
+}
+
+// Paper A (resources/paper-a/) has no one-bank-per-topic structure like Paper B: besides the
+// section-matched topic banks there are EMI banks, dated practice sets, and 13 numbered mocks.
+// Each is its own quiz keyed by `id` (prefixed "pa-" so progress/highlight/tracker keys can never
+// collide with Paper B's), with the course's own grouping kept as `group` rather than guessed.
+export interface PaperAQuizSet {
+  id: string;
+  title: string;
+  group: "emi" | "high-yield" | "practice" | "mock";
+  /** Source.file of the PDF these questions came from (served at /sources/<file>). */
+  file: string;
+  questionCount: number;
+  /** Questions in the PDF that were already present in an earlier-kept file and dropped. */
+  duplicatesSkipped: number;
+}
+
+export interface PaperAManifest {
+  paper: "A";
+  /** null = not set; set from `scripts/paper-a/config.ts`. */
+  examDate: string | null;
+  topics: TopicManifestEntry[];
+  quizSets: PaperAQuizSet[];
+  /** PDFs deliberately not turned into questions/notes, with the reason (duplicate, image-only...). */
+  skippedFiles: Array<{ file: string; reason: string }>;
 }
 
 // A claim that can't carry a {file,page} Source back into resources/paper-b/ — either it's an

@@ -8,9 +8,17 @@ import { highlightKeyFacts } from "./lib/emphasize";
 // pipeline against already-processed content would corrupt existing bold markup.
 
 const root = process.cwd();
-const guidesDir = path.join(root, "content/study-guides");
+// `--paper-a` processes content/paper-a/study-guides/ instead of Paper B's; optional topic ids after it
+// (or alone) restrict the run — needed for emphasize(), which is NOT idempotent (never re-run on a guide
+// that has already been through it).
+const args = process.argv.slice(2);
+const paperA = args.includes("--paper-a");
+const onlyTopics = args.filter((a) => !a.startsWith("--"));
+const guidesDir = path.join(root, paperA ? "content/paper-a/study-guides" : "content/study-guides");
 
-const files = fs.readdirSync(guidesDir).filter((f) => f.endsWith(".json"));
+const files = fs
+  .readdirSync(guidesDir)
+  .filter((f) => f.endsWith(".json") && (onlyTopics.length === 0 || onlyTopics.includes(f.replace(/\.json$/, ""))));
 for (const file of files) {
   const full = path.join(guidesDir, file);
   const guide = JSON.parse(fs.readFileSync(full, "utf-8")) as StudyGuide;
