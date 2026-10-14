@@ -66,13 +66,21 @@ export default function PaperAHome() {
 
       <section className="space-y-2">
         <h2 className="font-medium">More practice</h2>
-        <div className="grid gap-2 sm:grid-cols-3">
+        <div className="grid gap-2 sm:grid-cols-4">
+          <Link href="/paper-a/fresh">
+            <Card size="sm" className="transition-colors hover:border-foreground/30">
+              <CardHeader>
+                <CardTitle className="text-base">Fresh questions</CardTitle>
+                <p className="text-sm text-muted-foreground">{sets.filter((s) => s.group === "fresh").length} fresh sets</p>
+              </CardHeader>
+            </Card>
+          </Link>
           <Link href="/paper-a/quiz">
             <Card size="sm" className="transition-colors hover:border-foreground/30">
               <CardHeader>
                 <CardTitle className="text-base">Question sets</CardTitle>
                 <p className="text-sm text-muted-foreground">
-                  {sets.filter((s) => s.group !== "mock").length} EMI / practice sets
+                  {sets.filter((s) => s.group !== "mock" && s.group !== "fresh").length} EMI / practice sets
                 </p>
               </CardHeader>
             </Card>

@@ -15,7 +15,7 @@ export default async function PaperAQuizPage({ params }: { params: Promise<{ id:
   const questions = getPaperAQuestions(id);
   if (questions.length === 0) notFound();
 
-  const backHref = topic ? `/paper-a/topics/${id}` : set?.group === "mock" ? "/paper-a/mock" : "/paper-a/quiz";
+  const backHref = topic ? `/paper-a/topics/${id}` : set?.group === "mock" ? "/paper-a/mock" : set?.group === "fresh" ? "/paper-a/fresh" : "/paper-a/quiz";
   // `id` ("pa-...") is what the tracker logs as the session's topic, which keeps Paper A apart from B.
   return <QuizView topicId={id} topicTitle={title} questions={questions} backHref={backHref} />;
 }

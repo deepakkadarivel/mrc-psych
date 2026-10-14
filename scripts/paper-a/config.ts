@@ -80,6 +80,21 @@ export interface SetDef {
   file: string; // relative to resources/paper-a
 }
 
+/** Sets also shown in the "Fresh Questions" tab (manifest group "fresh"). Each is the same Moodle quiz as the
+ *  user's "Fresh questions update" PDFs, matched by question text (all questions identical), so the original
+ *  ids stay and tracker history/saved progress is kept. Dedup still runs on the set's own `group` above. */
+export const FRESH_TITLES: Record<string, string> = {
+  "pa-practice-2016": "Fresh Practice Questions 2016 (Set 1)",
+  "pa-practice-2017": "Fresh Practice Questions 2017 (Set 2) — file a",
+  "pa-practice-2017-b": "Fresh Practice Questions 2017 (Set 2) — file b",
+  "pa-practice-2018-b": "Fresh Practice Questions 2018 (Set 3)",
+  "pa-practice-2019": "Fresh Practice Questions 2019 (Set 4)",
+  "pa-practice-2020": "Fresh Practice Questions 2020 (Set 5)",
+  "pa-practice-2020-21": "Fresh Practice Questions 2020–2021 (Set 6) — file a",
+  "pa-practice-2020-21-b": "Fresh Practice Questions 2020–2021 (Set 6) — file b",
+  "pa-icd11-2021": "Fresh ICD-11 New Questions (2021)",
+};
+
 /** Canonical EMI banks: the "EMIS all chapters" folder. Same-named copies in the topic folders are
  *  checked for question-level duplication and dropped (recorded in skippedFiles). */
 const EMI = `${HY}/EMIS all chapters `;

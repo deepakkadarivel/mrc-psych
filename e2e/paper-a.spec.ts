@@ -55,6 +55,19 @@ test.describe("paper A", () => {
     await expect(page.getByText("Test 7").first()).toBeVisible();
   });
 
+  test("fresh questions tab lists the fresh sets and drops them from the old index", async ({ page }) => {
+    await page.goto("/paper-a/fresh");
+    await expect(page.getByTestId("fresh-questions")).toBeVisible();
+    await expect(page.getByRole("link", { name: "Fresh Practice Questions 2016 (Set 1)" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Fresh ICD-11 New Questions (2021)" })).toBeVisible();
+
+    await page.goto("/paper-a/quiz/pa-practice-2016");
+    await expect(page.getByRole("radio").first()).toBeVisible();
+
+    await page.goto("/paper-a/quiz");
+    await expect(page.getByRole("link", { name: "Fresh Practice Questions 2016 (Set 1)" })).toHaveCount(0);
+  });
+
   test("no Paper A study guide scrolls sideways", async ({ page }) => {
     test.setTimeout(120_000);
     const topics = [

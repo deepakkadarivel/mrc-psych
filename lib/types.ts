@@ -191,7 +191,7 @@ export interface Manifest {
 export interface PaperAQuizSet {
   id: string;
   title: string;
-  group: "emi" | "high-yield" | "practice" | "mock";
+  group: "emi" | "high-yield" | "practice" | "fresh" | "mock";
   /** Source.file of the PDF these questions came from (served at /sources/<file>). */
   file: string;
   questionCount: number;

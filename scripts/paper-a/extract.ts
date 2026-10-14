@@ -8,6 +8,7 @@ import { extractPdfPagesReadingOrder, segmentSection } from "../lib/segment-sect
 import {
   AREAS,
   DUPLICATE_CANDIDATES,
+  FRESH_TITLES,
   MOCKS,
   PAPER_A_CONTENT,
   PAPER_A_EXAM_DATE,
@@ -126,7 +127,7 @@ for (const s of SETS) {
     console.log(`${s.id}: all ${raw.length} questions duplicate earlier files — dropped`);
     continue;
   }
-  quizSets.push({ id: s.id, title: s.title, group: s.group, file: sourcePath(s.file), questionCount: kept.length, duplicatesSkipped: dupes });
+  quizSets.push({ id: s.id, title: FRESH_TITLES[s.id] ?? s.title, group: FRESH_TITLES[s.id] ? "fresh" : s.group, file: sourcePath(s.file), questionCount: kept.length, duplicatesSkipped: dupes });
   if (want(s.id)) {
     write(`questions/${s.id}.json`, kept.map((q, i) => ({ ...q, id: `${s.id}-${i}`, topic: s.id })));
     console.log(`${s.id}: ${kept.length} questions (${dupes} duplicates skipped)`);
