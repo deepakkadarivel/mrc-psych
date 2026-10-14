@@ -71,6 +71,21 @@ test.describe("paper A", () => {
     await expect(page.getByRole("link", { name: "Fresh Practice Questions 2016 (Set 1)" })).toHaveCount(0);
   });
 
+  test("exam trends page, recalls page and a topic's recall panel render", async ({ page }) => {
+    await page.goto("/paper-a/exam-trends");
+    await expect(page.getByTestId("paper-a-trends")).toBeVisible();
+    await expect(page.getByTestId("trends-areas")).toContainText("Clinical Psychopharmacology");
+    await expect(page.getByTestId("trends-concentrate")).toBeVisible();
+    await expect(page.getByTestId("trends-clusters").locator("li").first()).toBeVisible();
+
+    await page.goto("/paper-a/recalls");
+    await expect(page.getByTestId("recall-files").locator("a").first()).toBeVisible();
+
+    await page.goto("/paper-a/topics/pa-pharmacodynamics");
+    await expect(page.getByTestId("topic-recalls")).toBeVisible();
+    await expect(page.getByTestId("recall-repeat").first()).toBeVisible();
+  });
+
   test("no Paper A study guide scrolls sideways", async ({ page }) => {
     test.setTimeout(120_000);
     const topics = [

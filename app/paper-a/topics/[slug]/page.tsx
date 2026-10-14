@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { PaperARecallsPanel } from "@/components/paper-a-recalls-panel";
 import { TopicView } from "@/components/topic-view";
 import {
   getPaperAManifest,
@@ -17,12 +18,15 @@ export default async function PaperATopicPage({ params }: { params: Promise<{ sl
   const topic = getPaperATopic(slug);
   if (!topic) notFound();
   return (
-    <TopicView
-      topic={topic}
-      notes={getPaperANotes(slug)}
-      studyGuide={getPaperAStudyGuide(slug)}
-      questions={getPaperAQuestions(slug)}
-      quizHref={`/paper-a/quiz/${slug}`}
-    />
+    <>
+      <TopicView
+        topic={topic}
+        notes={getPaperANotes(slug)}
+        studyGuide={getPaperAStudyGuide(slug)}
+        questions={getPaperAQuestions(slug)}
+        quizHref={`/paper-a/quiz/${slug}`}
+      />
+      <PaperARecallsPanel topicId={slug} />
+    </>
   );
 }

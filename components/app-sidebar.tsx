@@ -96,6 +96,12 @@ export function AppSidebar() {
               <SidebarMenuButton render={<Link href="/paper-a/mock" />}>Mock exams</SidebarMenuButton>
             </SidebarMenuItem>
             <SidebarMenuItem>
+              <SidebarMenuButton render={<Link href="/paper-a/exam-trends" />}>Exam trends</SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton render={<Link href="/paper-a/recalls" />}>Recalls</SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
               <SidebarMenuButton render={<Link href="/tracker" />}>Performance tracker</SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>

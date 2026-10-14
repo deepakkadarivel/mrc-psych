@@ -53,6 +53,8 @@ if (requestedIds.length === 0) {
   for (const s of paperAManifest.quizSets) sources.add(s.file);
   // Skipped-but-citable files (the image-only scan, the recall post) stay reachable too.
   SKIPPED.forEach((s) => sources.add("paper-a/" + s.file.split("/").map((p) => p.trim().replace(/\s+/g, " ")).join("/")));
+  // Student recall files (resources/paper-a/Recalls/) are cited by content/paper-a/recalls.json.
+  for (const f of fs.readdirSync(path.join(PAPER_A_ROOT, "Recalls"))) sources.add(`paper-a/Recalls/${f.trim().replace(/\s+/g, " ")}`);
   let copied = 0;
   for (const src of sources) {
     const real = realPathForSource(src);

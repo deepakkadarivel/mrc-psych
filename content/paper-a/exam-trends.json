@@ -1,0 +1,8262 @@
+{
+ "totals": {
+  "points": 2038,
+  "sittings": 15,
+  "files": 12,
+  "clusters": 367
+ },
+ "sittings": [
+  {
+   "id": "2019-12",
+   "points": 238
+  },
+  {
+   "id": "2020-12",
+   "points": 37
+  },
+  {
+   "id": "2021-06",
+   "points": 194
+  },
+  {
+   "id": "2021-12",
+   "points": 123
+  },
+  {
+   "id": "2022-06",
+   "points": 80
+  },
+  {
+   "id": "2022-12",
+   "points": 156
+  },
+  {
+   "id": "2023-04",
+   "points": 122
+  },
+  {
+   "id": "2023-07",
+   "points": 152
+  },
+  {
+   "id": "2023-11",
+   "points": 161
+  },
+  {
+   "id": "2024-04",
+   "points": 121
+  },
+  {
+   "id": "2024-07",
+   "points": 115
+  },
+  {
+   "id": "2024-11",
+   "points": 120
+  },
+  {
+   "id": "2025-?",
+   "points": 147
+  },
+  {
+   "id": "2026-04",
+   "points": 137
+  },
+  {
+   "id": "2026-07",
+   "points": 135
+  }
+ ],
+ "blueprint": {
+  "source": "https://www.rcpsych.ac.uk/training/exams/preparing-for-exams",
+  "format": "Paper A is a three hour exam worth 150 marks, comprised of 150 questions; two-thirds MCQ and one-third EMI. Pass-mark method not stated on that page (links to 'How the written papers are marked'). Revised syllabus reportedly due Jan 2027 (secondary source).",
+  "reliability": "official (RCPsych)"
+ },
+ "areas": [
+  {
+   "id": "behavioural-science-and-socio-cultural-psychiatry",
+   "title": "Behavioural Science and Socio-cultural Psychiatry",
+   "officialQuestions": "25",
+   "officialPercent": 16.67,
+   "topicIds": [
+    "pa-basic-psychology",
+    "pa-social-psychology",
+    "pa-sociocultural-psychiatry",
+    "pa-dynamic-psychopathology"
+   ],
+   "recallPoints": 289,
+   "recallPercent": 14.2
+  },
+  {
+   "id": "human-development",
+   "title": "Human Development",
+   "officialQuestions": "25",
+   "officialPercent": 16.67,
+   "topicIds": [
+    "pa-human-development"
+   ],
+   "recallPoints": 182,
+   "recallPercent": 8.9
+  },
+  {
+   "id": "basic-neurosciences",
+   "title": "Basic Neurosciences",
+   "officialQuestions": "37 or 38",
+   "officialPercent": 25,
+   "topicIds": [
+    "pa-applied-neurosciences",
+    "pa-neuroanatomy",
+    "pa-neurochemistry",
+    "pa-neuropathology",
+    "pa-neurophysiology",
+    "pa-molecular-genetics"
+   ],
+   "recallPoints": 597,
+   "recallPercent": 29.3
+  },
+  {
+   "id": "clinical-psychopharmacology",
+   "title": "Clinical Psychopharmacology",
+   "officialQuestions": "37 or 38",
+   "officialPercent": 25,
+   "topicIds": [
+    "pa-basic-pharmacology",
+    "pa-pharmacokinetics",
+    "pa-pharmacodynamics",
+    "pa-adverse-drug-effects"
+   ],
+   "recallPoints": 468,
+   "recallPercent": 23
+  },
+  {
+   "id": "classification-and-assessment-in-psychiatry",
+   "title": "Classification and Assessment in Psychiatry",
+   "officialQuestions": "25",
+   "officialPercent": 16.67,
+   "topicIds": [
+    "pa-classification",
+    "pa-clinical-examination",
+    "pa-descriptive-psychopathology",
+    "pa-rating-scales",
+    "pa-syndromes"
+   ],
+   "recallPoints": 421,
+   "recallPercent": 20.7
+  }
+ ],
+ "topics": [
+  {
+   "id": "pa-human-development",
+   "title": "Human Development",
+   "recallPoints": 182,
+   "recallPercent": 8.9,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 22,
+    "2020-12": 6,
+    "2021-06": 20,
+    "2021-12": 8,
+    "2022-06": 9,
+    "2022-12": 11,
+    "2023-04": 9,
+    "2023-07": 12,
+    "2023-11": 12,
+    "2024-04": 7,
+    "2024-07": 11,
+    "2024-11": 5,
+    "2025-?": 13,
+    "2026-04": 19,
+    "2026-07": 18
+   },
+   "repeatedFacts": 31,
+   "bankQuestions": 0
+  },
+  {
+   "id": "pa-pharmacodynamics",
+   "title": "Pharmacodynamics",
+   "recallPoints": 172,
+   "recallPercent": 8.4,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 19,
+    "2020-12": 3,
+    "2021-06": 7,
+    "2021-12": 8,
+    "2022-06": 11,
+    "2022-12": 17,
+    "2023-04": 7,
+    "2023-07": 9,
+    "2023-11": 12,
+    "2024-04": 12,
+    "2024-07": 13,
+    "2024-11": 5,
+    "2025-?": 15,
+    "2026-04": 17,
+    "2026-07": 17
+   },
+   "repeatedFacts": 31,
+   "bankQuestions": 50
+  },
+  {
+   "id": "pa-basic-psychology",
+   "title": "Basic Psychology",
+   "recallPoints": 168,
+   "recallPercent": 8.2,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 12,
+    "2020-12": 1,
+    "2021-06": 22,
+    "2021-12": 12,
+    "2022-06": 6,
+    "2022-12": 13,
+    "2023-04": 8,
+    "2023-07": 11,
+    "2023-11": 8,
+    "2024-04": 12,
+    "2024-07": 7,
+    "2024-11": 9,
+    "2025-?": 15,
+    "2026-04": 14,
+    "2026-07": 18
+   },
+   "repeatedFacts": 29,
+   "bankQuestions": 105
+  },
+  {
+   "id": "pa-neurochemistry",
+   "title": "Neurochemistry",
+   "recallPoints": 159,
+   "recallPercent": 7.8,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 20,
+    "2020-12": 1,
+    "2021-06": 20,
+    "2021-12": 11,
+    "2022-06": 5,
+    "2022-12": 11,
+    "2023-04": 9,
+    "2023-07": 12,
+    "2023-11": 14,
+    "2024-04": 6,
+    "2024-07": 12,
+    "2024-11": 10,
+    "2025-?": 9,
+    "2026-04": 15,
+    "2026-07": 4
+   },
+   "repeatedFacts": 31,
+   "bankQuestions": 38
+  },
+  {
+   "id": "pa-adverse-drug-effects",
+   "title": "Adverse Drug Effects",
+   "recallPoints": 159,
+   "recallPercent": 7.8,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 37,
+    "2020-12": 1,
+    "2021-06": 15,
+    "2021-12": 14,
+    "2022-06": 11,
+    "2022-12": 10,
+    "2023-04": 3,
+    "2023-07": 8,
+    "2023-11": 7,
+    "2024-04": 8,
+    "2024-07": 8,
+    "2024-11": 11,
+    "2025-?": 10,
+    "2026-04": 9,
+    "2026-07": 7
+   },
+   "repeatedFacts": 28,
+   "bankQuestions": 83
+  },
+  {
+   "id": "pa-descriptive-psychopathology",
+   "title": "Descriptive Psychopathology",
+   "recallPoints": 125,
+   "recallPercent": 6.1,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 12,
+    "2020-12": 3,
+    "2021-06": 14,
+    "2021-12": 7,
+    "2022-06": 3,
+    "2022-12": 11,
+    "2023-04": 3,
+    "2023-07": 11,
+    "2023-11": 18,
+    "2024-04": 5,
+    "2024-07": 1,
+    "2024-11": 14,
+    "2025-?": 5,
+    "2026-04": 8,
+    "2026-07": 10
+   },
+   "repeatedFacts": 22,
+   "bankQuestions": 189
+  },
+  {
+   "id": "pa-molecular-genetics",
+   "title": "Molecular Genetics",
+   "recallPoints": 114,
+   "recallPercent": 5.6,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 9,
+    "2020-12": 2,
+    "2021-06": 18,
+    "2021-12": 7,
+    "2022-06": 6,
+    "2022-12": 11,
+    "2023-04": 5,
+    "2023-07": 9,
+    "2023-11": 14,
+    "2024-04": 4,
+    "2024-07": 6,
+    "2024-11": 9,
+    "2025-?": 9,
+    "2026-04": 2,
+    "2026-07": 3
+   },
+   "repeatedFacts": 19,
+   "bankQuestions": 113
+  },
+  {
+   "id": "pa-classification",
+   "title": "Classification",
+   "recallPoints": 113,
+   "recallPercent": 5.5,
+   "sittingsSeen": 13,
+   "perSitting": {
+    "2019-12": 13,
+    "2021-06": 10,
+    "2021-12": 12,
+    "2022-12": 17,
+    "2023-04": 7,
+    "2023-07": 16,
+    "2023-11": 5,
+    "2024-04": 6,
+    "2024-07": 6,
+    "2024-11": 4,
+    "2025-?": 5,
+    "2026-04": 4,
+    "2026-07": 8
+   },
+   "repeatedFacts": 19,
+   "bankQuestions": 146
+  },
+  {
+   "id": "pa-applied-neurosciences",
+   "title": "Applied Neurosciences",
+   "recallPoints": 110,
+   "recallPercent": 5.4,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 9,
+    "2020-12": 2,
+    "2021-06": 9,
+    "2021-12": 5,
+    "2022-06": 5,
+    "2022-12": 10,
+    "2023-04": 11,
+    "2023-07": 8,
+    "2023-11": 10,
+    "2024-04": 7,
+    "2024-07": 5,
+    "2024-11": 7,
+    "2025-?": 9,
+    "2026-04": 7,
+    "2026-07": 6
+   },
+   "repeatedFacts": 25,
+   "bankQuestions": 48
+  },
+  {
+   "id": "pa-pharmacokinetics",
+   "title": "Pharmacokinetics",
+   "recallPoints": 99,
+   "recallPercent": 4.9,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 16,
+    "2020-12": 2,
+    "2021-06": 7,
+    "2021-12": 6,
+    "2022-06": 6,
+    "2022-12": 6,
+    "2023-04": 13,
+    "2023-07": 7,
+    "2023-11": 7,
+    "2024-04": 7,
+    "2024-07": 3,
+    "2024-11": 5,
+    "2025-?": 7,
+    "2026-04": 2,
+    "2026-07": 5
+   },
+   "repeatedFacts": 17,
+   "bankQuestions": 69
+  },
+  {
+   "id": "pa-neuroanatomy",
+   "title": "Neuroanatomy",
+   "recallPoints": 97,
+   "recallPercent": 4.8,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 9,
+    "2020-12": 2,
+    "2021-06": 12,
+    "2021-12": 3,
+    "2022-06": 4,
+    "2022-12": 5,
+    "2023-04": 5,
+    "2023-07": 7,
+    "2023-11": 5,
+    "2024-04": 10,
+    "2024-07": 9,
+    "2024-11": 9,
+    "2025-?": 4,
+    "2026-04": 6,
+    "2026-07": 7
+   },
+   "repeatedFacts": 14,
+   "bankQuestions": 64
+  },
+  {
+   "id": "pa-clinical-examination",
+   "title": "Clinical Examination",
+   "recallPoints": 91,
+   "recallPercent": 4.5,
+   "sittingsSeen": 14,
+   "perSitting": {
+    "2019-12": 11,
+    "2020-12": 2,
+    "2021-06": 7,
+    "2021-12": 3,
+    "2022-12": 2,
+    "2023-04": 11,
+    "2023-07": 9,
+    "2023-11": 8,
+    "2024-04": 6,
+    "2024-07": 5,
+    "2024-11": 5,
+    "2025-?": 9,
+    "2026-04": 8,
+    "2026-07": 5
+   },
+   "repeatedFacts": 17,
+   "bankQuestions": 111
+  },
+  {
+   "id": "pa-other",
+   "title": "Other (ethics, therapies, research…)",
+   "recallPoints": 81,
+   "recallPercent": 4,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 6,
+    "2020-12": 1,
+    "2021-06": 4,
+    "2021-12": 2,
+    "2022-06": 2,
+    "2022-12": 8,
+    "2023-04": 9,
+    "2023-07": 3,
+    "2023-11": 9,
+    "2024-04": 6,
+    "2024-07": 7,
+    "2024-11": 5,
+    "2025-?": 10,
+    "2026-04": 7,
+    "2026-07": 2
+   },
+   "repeatedFacts": 10,
+   "bankQuestions": 0
+  },
+  {
+   "id": "pa-social-psychology",
+   "title": "Social Psychology",
+   "recallPoints": 70,
+   "recallPercent": 3.4,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 9,
+    "2020-12": 3,
+    "2021-06": 5,
+    "2021-12": 3,
+    "2022-06": 1,
+    "2022-12": 10,
+    "2023-04": 5,
+    "2023-07": 8,
+    "2023-11": 8,
+    "2024-04": 4,
+    "2024-07": 2,
+    "2024-11": 3,
+    "2025-?": 3,
+    "2026-04": 4,
+    "2026-07": 2
+   },
+   "repeatedFacts": 12,
+   "bankQuestions": 47
+  },
+  {
+   "id": "pa-neuropathology",
+   "title": "Neuropathology",
+   "recallPoints": 64,
+   "recallPercent": 3.1,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 6,
+    "2020-12": 3,
+    "2021-06": 4,
+    "2021-12": 6,
+    "2022-06": 3,
+    "2022-12": 4,
+    "2023-04": 5,
+    "2023-07": 7,
+    "2023-11": 4,
+    "2024-04": 3,
+    "2024-07": 2,
+    "2024-11": 2,
+    "2025-?": 6,
+    "2026-04": 3,
+    "2026-07": 6
+   },
+   "repeatedFacts": 11,
+   "bankQuestions": 32
+  },
+  {
+   "id": "pa-neurophysiology",
+   "title": "Neurophysiology",
+   "recallPoints": 53,
+   "recallPercent": 2.6,
+   "sittingsSeen": 15,
+   "perSitting": {
+    "2019-12": 7,
+    "2020-12": 3,
+    "2021-06": 5,
+    "2021-12": 3,
+    "2022-06": 3,
+    "2022-12": 1,
+    "2023-04": 3,
+    "2023-07": 2,
+    "2023-11": 2,
+    "2024-04": 5,
+    "2024-07": 4,
+    "2024-11": 3,
+    "2025-?": 4,
+    "2026-04": 4,
+    "2026-07": 4
+   },
+   "repeatedFacts": 13,
+   "bankQuestions": 51
+  },
+  {
+   "id": "pa-rating-scales",
+   "title": "Rating Scales",
+   "recallPoints": 48,
+   "recallPercent": 2.4,
+   "sittingsSeen": 13,
+   "perSitting": {
+    "2019-12": 12,
+    "2021-06": 2,
+    "2021-12": 3,
+    "2022-12": 2,
+    "2023-04": 3,
+    "2023-07": 1,
+    "2023-11": 4,
+    "2024-04": 3,
+    "2024-07": 5,
+    "2024-11": 5,
+    "2025-?": 3,
+    "2026-04": 1,
+    "2026-07": 4
+   },
+   "repeatedFacts": 9,
+   "bankQuestions": 43
+  },
+  {
+   "id": "pa-syndromes",
+   "title": "Syndromes",
+   "recallPoints": 44,
+   "recallPercent": 2.2,
+   "sittingsSeen": 12,
+   "perSitting": {
+    "2019-12": 3,
+    "2020-12": 1,
+    "2021-06": 6,
+    "2021-12": 4,
+    "2022-06": 3,
+    "2023-07": 1,
+    "2024-04": 4,
+    "2024-07": 5,
+    "2024-11": 4,
+    "2025-?": 5,
+    "2026-04": 3,
+    "2026-07": 5
+   },
+   "repeatedFacts": 13,
+   "bankQuestions": 0
+  },
+  {
+   "id": "pa-basic-pharmacology",
+   "title": "Basic Pharmacology",
+   "recallPoints": 38,
+   "recallPercent": 1.9,
+   "sittingsSeen": 14,
+   "perSitting": {
+    "2019-12": 2,
+    "2020-12": 1,
+    "2021-06": 1,
+    "2021-12": 1,
+    "2022-06": 1,
+    "2022-12": 3,
+    "2023-04": 1,
+    "2023-07": 8,
+    "2023-11": 9,
+    "2024-04": 2,
+    "2024-11": 2,
+    "2025-?": 2,
+    "2026-04": 2,
+    "2026-07": 3
+   },
+   "repeatedFacts": 9,
+   "bankQuestions": 56
+  },
+  {
+   "id": "pa-sociocultural-psychiatry",
+   "title": "Sociocultural Psychiatry",
+   "recallPoints": 36,
+   "recallPercent": 1.8,
+   "sittingsSeen": 13,
+   "perSitting": {
+    "2019-12": 3,
+    "2021-06": 3,
+    "2021-12": 3,
+    "2022-12": 4,
+    "2023-04": 5,
+    "2023-07": 2,
+    "2023-11": 3,
+    "2024-04": 3,
+    "2024-07": 3,
+    "2024-11": 2,
+    "2025-?": 3,
+    "2026-04": 1,
+    "2026-07": 1
+   },
+   "repeatedFacts": 5,
+   "bankQuestions": 73
+  },
+  {
+   "id": "pa-dynamic-psychopathology",
+   "title": "Dynamic Psychopathology",
+   "recallPoints": 15,
+   "recallPercent": 0.7,
+   "sittingsSeen": 11,
+   "perSitting": {
+    "2019-12": 1,
+    "2021-06": 3,
+    "2021-12": 2,
+    "2022-06": 1,
+    "2023-07": 1,
+    "2023-11": 2,
+    "2024-04": 1,
+    "2024-07": 1,
+    "2024-11": 1,
+    "2025-?": 1,
+    "2026-04": 1
+   },
+   "repeatedFacts": 2,
+   "bankQuestions": 37
+  }
+ ],
+ "clusters": [
+  {
+   "label": "Psilocybin/psychedelics act on 5HT2A receptor",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2023-11",
+    "2024-04",
+    "2024-07",
+    "2024-11",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2020-12-11",
+    "rc-2021-12-70",
+    "rc-2022-06-45",
+    "rc-2022-12-150",
+    "rc-2023-04-45",
+    "rc-2023-07-77",
+    "rc-2023-11-35",
+    "rc-2024-04-17",
+    "rc-2024-04-118",
+    "rc-2024-07-3",
+    "rc-2024-11-35",
+    "rc-2025-?-38",
+    "rc-2026-07-20"
+   ],
+   "answers": [
+    "5HT2A agonist",
+    "5HT2A partial agonism (and full)",
+    "5HT2A",
+    "NMDA antagonism (R); E: serotonin 5HT-2A"
+   ]
+  },
+  {
+   "label": "Imprinting occurs in a critical period",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-06",
+    "2023-04",
+    "2024-04",
+    "2024-11",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-21",
+    "rc-2021-12-58",
+    "rc-2022-06-8",
+    "rc-2023-04-111",
+    "rc-2024-04-97",
+    "rc-2024-11-95",
+    "rc-2025-?-36",
+    "rc-2026-04-18",
+    "rc-2026-07-74"
+   ],
+   "answers": [
+    "Imprinting",
+    "imprinting (rapid, unreinforced, irreversible; Lorenz)",
+    "phase-sensitive critical attachment; rapid, unreinforced, critical period, irreversible",
+    "Critical phase"
+   ]
+  },
+  {
+   "label": "Locus coeruleus = noradrenaline",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2023-11",
+    "2024-07",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-212",
+    "rc-2021-06-27",
+    "rc-2021-06-193",
+    "rc-2022-06-23",
+    "rc-2022-12-66",
+    "rc-2023-07-121",
+    "rc-2023-11-145",
+    "rc-2024-07-105",
+    "rc-2026-04-95"
+   ],
+   "answers": [
+    "NA",
+    "Noradrenaline (ACh nucleus of Meynert; serotonin raphe; dopamine substantia nigra)",
+    "Noradrenergic projection from locus coeruleus (pons) ascending to cortex via medial forebrain bundle; also descends to spinal cord",
+    "noradrenaline"
+   ]
+  },
+  {
+   "label": "Default mode network components (parietal, PCC, mPFC)",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2023-11",
+    "2024-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2020-12-9",
+    "rc-2022-06-20",
+    "rc-2022-06-21",
+    "rc-2022-12-113",
+    "rc-2023-07-85",
+    "rc-2023-11-79",
+    "rc-2024-07-46",
+    "rc-2025-?-126",
+    "rc-2026-04-8"
+   ],
+   "answers": [
+    "Medial prefrontal cortex, angular gyrus, precuneus, posterior cingulate (wakeful rest)",
+    "medial frontoparietal network: medial prefrontal cortex, posterior cingulate/precuneus, angular gyrus",
+    "daydreaming, mind-wandering, thinking about self, remembering past, planning future",
+    "posterior cingulate"
+   ]
+  },
+  {
+   "label": "Group therapy/resource allocation for greater number = utilitarianism",
+   "topic": "pa-other",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-11",
+    "2024-04",
+    "2024-07",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-12-106",
+    "rc-2022-06-35",
+    "rc-2022-12-45",
+    "rc-2023-11-45",
+    "rc-2024-04-58",
+    "rc-2024-07-52",
+    "rc-2024-11-119",
+    "rc-2025-?-19"
+   ],
+   "answers": [
+    "Utilitarianism",
+    "Utilitarian (greatest good for greatest number)",
+    "utilitarianism",
+    "between justice or utilitarianism"
+   ]
+  },
+  {
+   "label": "Autism: cerebellar vermis hypoplasia/atrophy",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-07",
+    "2024-07",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-15",
+    "rc-2021-06-6",
+    "rc-2021-12-9",
+    "rc-2022-12-76",
+    "rc-2023-07-69",
+    "rc-2024-07-109",
+    "rc-2024-11-40",
+    "rc-2025-?-26"
+   ],
+   "answers": [
+    "atrophy of cerebellar vermis (SPMM: decreased corpus callosum, increased caudate/amygdala)",
+    "Hypoplasia of cerebellar vermis (SPMM: decreased corpus callosum, increased caudate/amygdala)",
+    "cerebellar vermis",
+    "cerebellar vermis hypoplasia"
+   ]
+  },
+  {
+   "label": "Memantine mechanism = non-competitive NMDA antagonist",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2024-07",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-95",
+    "rc-2022-06-7",
+    "rc-2022-12-54",
+    "rc-2023-07-139",
+    "rc-2024-07-115",
+    "rc-2025-?-83",
+    "rc-2026-04-39",
+    "rc-2026-07-78"
+   ],
+   "answers": [
+    "NMDA antagonist/5HT3 antagonist",
+    "Memantine non-competitive NMDA antagonist; bupropion NDRI and nicotinic ACh receptor antagonist; naltrexone reversible competitive antagonist at mu and kappa (delta lesser)",
+    "uncompetitive/non-competitive NMDA antagonist",
+    "Non competitive NMDA receptor antagonist"
+   ]
+  },
+  {
+   "label": "Topiramate side effect: weight loss",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-07",
+    "2024-07",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-65",
+    "rc-2021-12-76",
+    "rc-2022-12-4",
+    "rc-2023-07-3",
+    "rc-2024-07-15",
+    "rc-2025-?-77",
+    "rc-2026-04-13",
+    "rc-2026-07-17"
+   ],
+   "answers": [
+    "Weight loss",
+    "weight loss; renal stones",
+    "weight loss",
+    "Topiramate"
+   ]
+  },
+  {
+   "label": "Maslow's original hierarchy of needs includes esteem",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-11",
+    "2024-11",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-42",
+    "rc-2022-06-75",
+    "rc-2022-12-91",
+    "rc-2023-11-132",
+    "rc-2024-11-50",
+    "rc-2025-?-75",
+    "rc-2026-04-80",
+    "rc-2026-07-7"
+   ],
+   "answers": [
+    "physiological, safety, love & belonging, esteem, self-actualisation",
+    "Esteem?",
+    "esteem",
+    "Esteem"
+   ]
+  },
+  {
+   "label": "Screening tool for depression: EPDS",
+   "topic": "pa-rating-scales",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-04",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-53",
+    "rc-2019-12-135",
+    "rc-2019-12-207",
+    "rc-2019-12-208",
+    "rc-2021-06-36",
+    "rc-2021-12-37",
+    "rc-2022-12-73",
+    "rc-2023-04-73",
+    "rc-2023-11-84",
+    "rc-2024-11-46",
+    "rc-2024-11-47"
+   ],
+   "answers": [
+    "EPDS",
+    "Edinburgh scale",
+    "EPDS?",
+    "EPDS screening; HAMD/MADRS monitoring/severity"
+   ]
+  },
+  {
+   "label": "Auditory hallucinations = temporal lobe (superior temporal gyrus)",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-12",
+    "2022-06",
+    "2023-04",
+    "2023-11",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-58",
+    "rc-2019-12-194",
+    "rc-2021-12-100",
+    "rc-2022-06-19",
+    "rc-2022-06-54",
+    "rc-2023-04-27",
+    "rc-2023-11-78",
+    "rc-2024-07-45",
+    "rc-2026-07-30"
+   ],
+   "answers": [
+    "temporal lobe",
+    "auditory hallucination: primary auditory cortex; working memory: DLPFC",
+    "auditory: primary auditory cortex (temporal); visual: ventral occipital cortex",
+    "Language (Wernicke's area) and sound sensation; reduced grey matter in superior temporal gyrus"
+   ]
+  },
+  {
+   "label": "Stroop test: selective attention",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2023-07",
+    "2024-04",
+    "2024-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-25",
+    "rc-2021-12-24",
+    "rc-2023-07-20",
+    "rc-2024-04-47",
+    "rc-2024-07-70",
+    "rc-2025-?-80",
+    "rc-2026-04-15"
+   ],
+   "answers": [
+    "Executive function (response inhibition and set shifting)/selective attention",
+    "Response inhibition and set shifting, attention bias",
+    "Stroop",
+    "Stroop test"
+   ]
+  },
+  {
+   "label": "Camberwell Family Interview: expressed emotion",
+   "topic": "pa-rating-scales",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2023-11",
+    "2024-07",
+    "2024-11",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-62",
+    "rc-2023-11-118",
+    "rc-2024-07-84",
+    "rc-2024-11-25",
+    "rc-2025-?-71",
+    "rc-2026-04-30",
+    "rc-2026-07-39"
+   ],
+   "answers": [
+    "Expressed emotion in family",
+    "Camberwell Family Interview (expressed emotion)",
+    "criticism",
+    "Emotional response"
+   ]
+  },
+  {
+   "label": "Complex PTSD versus PTSD difference",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2023-11",
+    "2024-07",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-12-83",
+    "rc-2023-04-16",
+    "rc-2023-07-67",
+    "rc-2023-11-26",
+    "rc-2024-07-39",
+    "rc-2025-?-60",
+    "rc-2026-07-63"
+   ],
+   "answers": [
+    "difficulty sustaining relationships",
+    "poor interpersonal relationships",
+    "CPTSD: repeated trauma over time, severe problems in affect regulation; PTSD single trauma",
+    "Low self esteem"
+   ]
+  },
+  {
+   "label": "Stopping drug for harm (cardiac/clozapine agranulocytosis) = non-maleficence",
+   "topic": "pa-other",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-04",
+    "2023-11",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-06-57",
+    "rc-2021-12-107",
+    "rc-2022-12-46",
+    "rc-2023-04-10",
+    "rc-2023-11-43",
+    "rc-2024-07-53",
+    "rc-2025-?-20"
+   ],
+   "answers": [
+    "Non-maleficence",
+    "non-maleficence"
+   ]
+  },
+  {
+   "label": "Lithium side effect: worsening psoriasis",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-07",
+    "2024-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-91",
+    "rc-2021-12-75",
+    "rc-2022-12-3",
+    "rc-2023-07-4",
+    "rc-2024-07-16",
+    "rc-2025-?-76",
+    "rc-2026-04-12"
+   ],
+   "answers": [
+    "Worsening of psoriasis",
+    "worsening of psoriasis (nausea most common; also tremor, polyuria/polydipsia; SPMM: most common = polyuria)",
+    "worsening psoriasis",
+    "Psoriasis worsening"
+   ]
+  },
+  {
+   "label": "Valproate in pregnancy: congenital malformation risk 8-12%",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-11",
+    "2024-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-113",
+    "rc-2021-12-121",
+    "rc-2022-06-50",
+    "rc-2022-12-114",
+    "rc-2023-11-80",
+    "rc-2024-11-69",
+    "rc-2026-07-95"
+   ],
+   "answers": [
+    "8-10%",
+    "8-12% (10%); developmental delay 31-40%",
+    "Neural tube defects (spina bifida 1%), facial dysmorphism, cleft lip/palate, craniostenosis, cardiac, renal, urogenital, limb defects",
+    "8-12%"
+   ]
+  },
+  {
+   "label": "Kohlberg conventional level (social order / law and order / good boy-girl)",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-151",
+    "rc-2021-06-78",
+    "rc-2022-12-36",
+    "rc-2023-04-62",
+    "rc-2023-07-84",
+    "rc-2025-?-107",
+    "rc-2026-04-99"
+   ],
+   "answers": [
+    "conventional (only 15% post-conventional)",
+    "social order",
+    "authority based / social order (2nd sub-stage of conventional)",
+    "Conventional"
+   ]
+  },
+  {
+   "label": "Heritability definition",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2023-11",
+    "2024-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-125",
+    "rc-2021-06-161",
+    "rc-2022-12-97",
+    "rc-2023-11-120",
+    "rc-2024-11-82",
+    "rc-2025-?-137",
+    "rc-2026-04-38",
+    "rc-2026-04-118"
+   ],
+   "answers": [
+    "Genetic contribution to phenotypic variation in population",
+    "genetic attribution (variance)",
+    "genetic contribution to phenotypic variation",
+    "heritability"
+   ]
+  },
+  {
+   "label": "Test of abstraction: similarities and proverbs",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2023-04",
+    "2023-07",
+    "2024-07",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-102",
+    "rc-2023-04-53",
+    "rc-2023-07-17",
+    "rc-2023-07-18",
+    "rc-2024-07-72",
+    "rc-2025-?-122",
+    "rc-2026-07-94"
+   ],
+   "answers": [
+    "similarities, proverbs and cognitive estimates",
+    "WAIS similarities test",
+    "Similarities",
+    "Similarities (or interpretation of proverbs)"
+   ]
+  },
+  {
+   "label": "First rank symptoms of schizophrenia",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2023-11",
+    "2024-04",
+    "2024-11",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-115",
+    "rc-2023-11-138",
+    "rc-2023-11-146",
+    "rc-2024-04-73",
+    "rc-2024-11-24",
+    "rc-2026-04-4",
+    "rc-2026-07-75"
+   ],
+   "answers": [
+    "man sees clock strike 12 and believes he is Messiah (delusional perception)",
+    "thought insertion",
+    "Command hallucination"
+   ]
+  },
+  {
+   "label": "Pregnancy: increased GFR changes drug clearance",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2021-06",
+    "2022-06",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-145",
+    "rc-2019-12-205",
+    "rc-2020-12-35",
+    "rc-2021-06-35",
+    "rc-2022-06-77",
+    "rc-2023-07-144",
+    "rc-2023-11-54"
+   ],
+   "answers": [
+    "increased",
+    "Increase GFR, increased renal elimination (only APE decrease)",
+    "Increase GFR (per notes)",
+    "Increased GFR and renal clearance (per notes)"
+   ]
+  },
+  {
+   "label": "Delayed gratification in childhood associated with academic achievement",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-23",
+    "rc-2019-12-162",
+    "rc-2021-06-1",
+    "rc-2021-12-54",
+    "rc-2024-04-107",
+    "rc-2025-?-123",
+    "rc-2026-04-93"
+   ],
+   "answers": [
+    "Academic achievement",
+    "Higher academic achievement, lower tendency towards frustration and aggression later in life",
+    "Long-term academic performance, social competence, good psychological health",
+    "Stanford marshmallow experiment; better academic performance"
+   ]
+  },
+  {
+   "label": "Durkheim: suicide due to social factors / anomie",
+   "topic": "pa-sociocultural-psychiatry",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2023-04",
+    "2023-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-105",
+    "rc-2021-06-62",
+    "rc-2021-06-154",
+    "rc-2021-12-14",
+    "rc-2023-04-69",
+    "rc-2023-11-31",
+    "rc-2025-?-124"
+   ],
+   "answers": [
+    "social factors, unmarried lonely couples",
+    "social effect on individual",
+    "Social conditions failing to provide goals/rules impair socio-psychological health; most vulnerable commit suicide",
+    "lack of close relationship"
+   ]
+  },
+  {
+   "label": "Ideomotor apraxia: cannot use hammer when asked",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-98",
+    "rc-2021-12-21",
+    "rc-2022-06-3",
+    "rc-2022-12-13",
+    "rc-2023-11-11",
+    "rc-2024-11-87"
+   ],
+   "answers": [
+    "ideomotor apraxia",
+    "inability to carry out learned tasks when given the objects (hairbrush used to write)",
+    "Ideomotor apraxia",
+    "cannot use tool when asked but can do it with the tool"
+   ]
+  },
+  {
+   "label": "ARFID versus anorexia: not driven by weight/body image",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-12-43",
+    "rc-2022-12-84",
+    "rc-2023-04-98",
+    "rc-2023-07-31",
+    "rc-2024-07-34",
+    "rc-2025-?-96"
+   ],
+   "answers": [
+    "avoidant/restrictive feeding disorder",
+    "intentional weight loss (P: preoccupation with weight/body image)",
+    "not preoccupied by weight, excludes certain food groups",
+    "AN is motivated by desire for thinness/fear of weight gain; ARFID not motivated by weight or shape"
+   ]
+  },
+  {
+   "label": "ADHD gene = DRD4",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-28",
+    "rc-2021-06-13",
+    "rc-2021-12-47",
+    "rc-2022-06-67",
+    "rc-2022-12-74",
+    "rc-2025-?-43"
+   ],
+   "answers": [
+    "DRD4",
+    "DRD4, dopamine receptor D4"
+   ]
+  },
+  {
+   "label": "Not telling patient about cancer finding = paternalism",
+   "topic": "pa-other",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2023-11",
+    "2024-04",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-12-47",
+    "rc-2023-04-9",
+    "rc-2023-11-44",
+    "rc-2024-04-57",
+    "rc-2024-11-120",
+    "rc-2025-?-18"
+   ],
+   "answers": [
+    "paternalism",
+    "Paternalism"
+   ]
+  },
+  {
+   "label": "Cross-sectional study",
+   "topic": "pa-other",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2023-04",
+    "2023-07",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-156",
+    "rc-2023-04-74",
+    "rc-2023-07-87",
+    "rc-2025-?-93",
+    "rc-2026-04-71",
+    "rc-2026-07-16"
+   ],
+   "answers": [
+    "population studies at one specific point in time",
+    "cross sectional",
+    "Cross-sectional study"
+   ]
+  },
+  {
+   "label": "Which cells use/release glutamate (pyramidal/granular vs astrocyte)",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2019-12-232",
+    "rc-2022-12-32",
+    "rc-2021-12-114",
+    "rc-2022-06-4",
+    "rc-2023-07-141",
+    "rc-2024-04-6"
+   ],
+   "answers": [
+    "Granular and pyramidal cells",
+    "pyramidal neurons",
+    "astrocytes",
+    "Astrocyte"
+   ]
+  },
+  {
+   "label": "Hypothalamic appetite hormone = neuropeptide Y",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-12-2",
+    "rc-2022-06-30",
+    "rc-2022-12-22",
+    "rc-2023-04-95",
+    "rc-2025-?-97",
+    "rc-2026-04-27"
+   ],
+   "answers": [
+    "Neuropeptide Y",
+    "neuropeptide Y",
+    "appetite increase"
+   ]
+  },
+  {
+   "label": "Adipose tissue appetite hormone = leptin",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2023-04",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-3",
+    "rc-2022-06-31",
+    "rc-2023-04-94",
+    "rc-2025-?-98",
+    "rc-2026-04-25",
+    "rc-2026-07-53"
+   ],
+   "answers": [
+    "Leptin",
+    "leptin",
+    "adipose tissue"
+   ]
+  },
+  {
+   "label": "Area under the curve in pharmacokinetics",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-12-81",
+    "rc-2022-06-40",
+    "rc-2022-12-100",
+    "rc-2023-04-1",
+    "rc-2023-07-58",
+    "rc-2023-11-154"
+   ],
+   "answers": [
+    "drug concentration in plasma as a function of time (bioavailability in SPMM)",
+    "bioavailability (plasma concentration of a drug versus time)",
+    "bioavailability (M: exposure to drug over time)",
+    "plasma concentration"
+   ]
+  },
+  {
+   "label": "First-order kinetics = constant fraction eliminated",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2023-07",
+    "2023-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-12-82",
+    "rc-2022-12-101",
+    "rc-2023-07-59",
+    "rc-2023-11-60",
+    "rc-2025-?-131",
+    "rc-2026-04-7"
+   ],
+   "answers": [
+    "Clearance is dose dependent; follows linear curve",
+    "constant fraction of drug eliminated",
+    "constant fraction eliminated",
+    "fraction"
+   ]
+  },
+  {
+   "label": "Groupthink is reduced by open debate",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-06",
+    "2022-12",
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-06-2",
+    "rc-2021-12-4",
+    "rc-2022-06-66",
+    "rc-2022-12-94",
+    "rc-2024-04-103",
+    "rc-2025-?-72"
+   ],
+   "answers": [
+    "Open debate",
+    "open debate"
+   ]
+  },
+  {
+   "label": "Piaget concrete operational stage (conservation, age 7-11)",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-110",
+    "rc-2021-06-184",
+    "rc-2021-12-48",
+    "rc-2022-12-92",
+    "rc-2023-04-56",
+    "rc-2025-?-142"
+   ],
+   "answers": [
+    "concrete operational",
+    "7-11 yrs (Piaget)",
+    "7 years - 12 years"
+   ]
+  },
+  {
+   "label": "Big Five personality model",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2023-04",
+    "2024-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-119",
+    "rc-2022-12-109",
+    "rc-2023-04-63",
+    "rc-2024-11-111",
+    "rc-2025-?-68",
+    "rc-2026-04-58"
+   ],
+   "answers": [
+    "Can change over time (NEO decreases with age)",
+    "Carefulness",
+    "Big Five"
+   ]
+  },
+  {
+   "label": "Piaget assimilation (new information into existing schema)",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2024-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-06-42",
+    "rc-2022-06-52",
+    "rc-2022-12-117",
+    "rc-2023-07-136",
+    "rc-2024-04-100",
+    "rc-2026-07-37",
+    "rc-2026-07-38"
+   ],
+   "answers": [
+    "Assimilation",
+    "assimilation",
+    "Piaget",
+    "Modifying existing schemas in response to new information that does not fit (Piaget)"
+   ]
+  },
+  {
+   "label": "Memory/cognition preserved in normal ageing",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2023-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-226",
+    "rc-2021-06-153",
+    "rc-2021-06-169",
+    "rc-2021-12-23",
+    "rc-2023-04-90",
+    "rc-2026-07-28",
+    "rc-2026-07-29"
+   ],
+   "answers": [
+    "Procedural memory",
+    "Simple recognition task (and semantic/crystallized intelligence)"
+   ]
+  },
+  {
+   "label": "Delirium: impaired attention and sleep-wake/consciousness disturbance",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2023-11",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-26",
+    "rc-2023-11-49",
+    "rc-2023-11-114",
+    "rc-2025-?-69",
+    "rc-2026-04-100",
+    "rc-2026-07-68"
+   ],
+   "answers": [
+    "delirium",
+    "Attention",
+    "disturbance in attention and awareness and agitation",
+    "Impaired attention and consciousness"
+   ]
+  },
+  {
+   "label": "DSM-5 schizophrenia: no subtypes",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-69",
+    "rc-2021-06-166",
+    "rc-2021-12-31",
+    "rc-2022-12-134",
+    "rc-2025-?-100",
+    "rc-2026-04-127"
+   ],
+   "answers": [
+    "No categories (subtypes removed)",
+    "no subtype for schizophrenia",
+    "subtypes discarded",
+    "No subtypes"
+   ]
+  },
+  {
+   "label": "Conrad's model: apophany, finding new meaning",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2023-07",
+    "2023-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-06-173",
+    "rc-2022-12-88",
+    "rc-2023-07-108",
+    "rc-2023-11-136",
+    "rc-2023-11-150",
+    "rc-2025-?-127"
+   ],
+   "answers": [
+    "apophany"
+   ]
+  },
+  {
+   "label": "Schizophrenia genes: neuregulin, dysbindin",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2023-07",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-34",
+    "rc-2021-06-155",
+    "rc-2022-12-30",
+    "rc-2023-07-71",
+    "rc-2023-11-14",
+    "rc-2024-11-34"
+   ],
+   "answers": [
+    "Schizophrenia",
+    "Schizophrenia (DTNBP1 chr 6p22.3; COMT chr 22; NRG1 chr 8)",
+    "schizophrenia",
+    "NRG1"
+   ]
+  },
+  {
+   "label": "Metabotropic receptor (CB1/cannabinoid, GPCR, 5HT2)",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2023-04",
+    "2023-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-32",
+    "rc-2019-12-154",
+    "rc-2021-06-85",
+    "rc-2023-04-119",
+    "rc-2023-07-98",
+    "rc-2026-07-83"
+   ],
+   "answers": [
+    "CB1",
+    "cannabinoid",
+    "CB1/CB2 endocannabinoid",
+    "G protein coupled"
+   ]
+  },
+  {
+   "label": "Caffeine effect reversed by / acts on adenosine receptor",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2022-06",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-188",
+    "rc-2021-06-109",
+    "rc-2021-06-143",
+    "rc-2022-06-73",
+    "rc-2024-07-79",
+    "rc-2025-?-37"
+   ],
+   "answers": [
+    "Adenosine",
+    "adenosine antagonist",
+    "methylxanthine derivative; completely reverses adenosine effect",
+    "adenosine agonist"
+   ]
+  },
+  {
+   "label": "Propranolol mechanism = non-selective beta-1/beta-2 antagonist",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2024-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-88",
+    "rc-2019-12-131",
+    "rc-2021-06-55",
+    "rc-2024-07-67",
+    "rc-2025-?-133",
+    "rc-2026-04-70"
+   ],
+   "answers": [
+    "non-selective beta 1 beta 2 antagonist",
+    "B1+B2 adrenergic antagonist (non-selective)",
+    "Beta 1, 2 adrenergic receptor blocker",
+    "Non selective b1/b2 antagonist"
+   ]
+  },
+  {
+   "label": "Midlife crisis = Erikson generativity vs stagnation",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2023-04",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-74",
+    "rc-2021-06-192",
+    "rc-2023-04-57",
+    "rc-2024-04-99",
+    "rc-2025-?-105",
+    "rc-2026-04-61"
+   ],
+   "answers": [
+    "Stagnation vs generativity",
+    "40-45 years",
+    "Erikson (coined by Elliott Jaques, 1965)",
+    "Generativity vs Stagnation"
+   ]
+  },
+  {
+   "label": "Landmark agnosia / visuospatial agnosia",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-06",
+    "2021-12",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2020-12-37",
+    "rc-2021-06-49",
+    "rc-2021-12-22",
+    "rc-2023-11-124",
+    "rc-2024-11-16"
+   ],
+   "answers": [
+    "Visuospatial agnosia",
+    "visual agnosia"
+   ]
+  },
+  {
+   "label": "Rey-Osterrieth test: visuospatial construction and visual memory",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2023-11",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-95",
+    "rc-2023-11-81",
+    "rc-2024-04-46",
+    "rc-2025-?-79",
+    "rc-2026-04-37"
+   ],
+   "answers": [
+    "Rey-Osterrieth visuospatial memory",
+    "Rey-Osterrieth Complex Figure",
+    "Rey-Osterreith complex figure drawing test",
+    "Rey Osterrieth test"
+   ]
+  },
+  {
+   "label": "NART: test of premorbid intelligence",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-07",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-04-75",
+    "rc-2023-07-88",
+    "rc-2024-04-45",
+    "rc-2025-?-73",
+    "rc-2026-04-31"
+   ],
+   "answers": [
+    "National Adult Reading Test",
+    "NART",
+    "National reading audit",
+    "premorbid"
+   ]
+  },
+  {
+   "label": "Cerebellar gait: broad based ataxic",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2023-04",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2020-12-10",
+    "rc-2023-04-41",
+    "rc-2024-04-83",
+    "rc-2025-?-9",
+    "rc-2026-04-76"
+   ],
+   "answers": [
+    "Huntington chaotic; UMN scissoring; LMN foot drop/high stepping; cerebellar broad based; Parkinson festinate/shuffling; NPH magnetic",
+    "ataxic",
+    "unsteady broad based",
+    "broad based unsteady gait"
+   ]
+  },
+  {
+   "label": "Lyonization associated with Klinefelter",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2023-07",
+    "2023-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-83",
+    "rc-2021-12-69",
+    "rc-2023-07-145",
+    "rc-2023-11-137",
+    "rc-2026-07-106"
+   ],
+   "answers": [
+    "Klinefelter's",
+    "Klinefelter (XXY)",
+    "Klinefelter",
+    "X-inactivation in females (file's answer wording garbled)"
+   ]
+  },
+  {
+   "label": "FTD inclusions: tau / ubiquitin",
+   "topic": "pa-neuropathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-4",
+    "rc-2022-06-57",
+    "rc-2022-12-75",
+    "rc-2023-07-53",
+    "rc-2025-?-41"
+   ],
+   "answers": [
+    "LBD alpha synuclein, ubiquitin; FTD tau protein",
+    "Familial FTD with ubiquitin-positive, tau-negative inclusions",
+    "tau positive, ubiquitin negative (R: ubiquitin + tau FTD)"
+   ]
+  },
+  {
+   "label": "Medium spiny neurons / striatal GABA loss in Huntington's",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2023-07",
+    "2024-04",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-12-115",
+    "rc-2023-07-142",
+    "rc-2024-04-70",
+    "rc-2024-07-10",
+    "rc-2025-?-112"
+   ],
+   "answers": [
+    "medium spiny neurons",
+    "Huntington's"
+   ]
+  },
+  {
+   "label": "IL-6 as pro-inflammatory marker in depression",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-06-32",
+    "rc-2022-12-90",
+    "rc-2023-07-134",
+    "rc-2026-04-36",
+    "rc-2026-07-93"
+   ],
+   "answers": [
+    "IL-6",
+    "interleukin 6",
+    "IL 6"
+   ]
+  },
+  {
+   "label": "In vivo neurotransmitter measurement: MRS/PET",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2023-07",
+    "2024-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-12-56",
+    "rc-2023-07-90",
+    "rc-2024-07-62",
+    "rc-2025-?-39",
+    "rc-2026-04-86"
+   ],
+   "answers": [
+    "PET (also lists MRS, SPECT, fMRI, MEG descriptions)",
+    "MRS / PET",
+    "MRS"
+   ]
+  },
+  {
+   "label": "Empathy = insula",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2021-06-123",
+    "rc-2021-12-79",
+    "rc-2022-12-81",
+    "rc-2023-07-45",
+    "rc-2024-07-83"
+   ],
+   "answers": [
+    "Supramarginal gyrus (per notes)",
+    "DLPFC and anterior insular cortex (file); SPMM supramarginal gyrus, especially right",
+    "insula (P: also supramarginal gyrus, ACC)",
+    "insula (anterior)"
+   ]
+  },
+  {
+   "label": "Brain organoid equals 2nd trimester fetal brain",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-12-48",
+    "rc-2023-04-92",
+    "rc-2023-07-38",
+    "rc-2024-07-73",
+    "rc-2025-?-101"
+   ],
+   "answers": [
+    "2nd trimester",
+    "second trimester fetus",
+    "Fetus 2nd trimester"
+   ]
+  },
+  {
+   "label": "Pregabalin mechanism = alpha-2-delta voltage-gated calcium channel",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2022-06",
+    "2022-12",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-117",
+    "rc-2022-06-1",
+    "rc-2022-12-7",
+    "rc-2024-07-2",
+    "rc-2026-07-62"
+   ],
+   "answers": [
+    "enhance GABA (as written)",
+    "alpha-2-delta subunit of voltage-gated calcium channels",
+    "calcium channel (alpha-2-delta subunit of voltage-gated calcium channels)",
+    "Acts on voltage gated calcium channel alpha 2 delta subunit"
+   ]
+  },
+  {
+   "label": "Caffeine acts on adenosine receptors",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-04",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-12-58",
+    "rc-2023-07-119",
+    "rc-2024-04-81",
+    "rc-2026-04-51",
+    "rc-2026-07-11"
+   ],
+   "answers": [
+    "adenosine agonism",
+    "adenosine receptor agonist",
+    "adenosine",
+    "Adenosine (A1 and A2A)"
+   ]
+  },
+  {
+   "label": "Buprenorphine = partial mu-opioid agonist",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-12",
+    "2022-12",
+    "2023-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-149",
+    "rc-2021-12-15",
+    "rc-2022-12-6",
+    "rc-2023-11-38",
+    "rc-2026-07-96"
+   ],
+   "answers": [
+    "Partial agonist at mu-opioid receptor",
+    "buprenorphine",
+    "Partial mu-opioid agonist and kappa-opioid antagonist"
+   ]
+  },
+  {
+   "label": "Absorption constant is independent of elimination constant",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-12-71",
+    "rc-2022-12-61",
+    "rc-2023-04-2",
+    "rc-2023-07-60",
+    "rc-2023-11-161"
+   ],
+   "answers": [
+    "elimination constant? (file notes absorption depends on route, chemical properties, form, blood flow, solubility)",
+    "elimination constant"
+   ]
+  },
+  {
+   "label": "Mirtazapine antiemetic effect via 5HT3 antagonism",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-52",
+    "rc-2023-04-20",
+    "rc-2024-04-16",
+    "rc-2025-?-44",
+    "rc-2026-04-3"
+   ],
+   "answers": [
+    "5HT3 (antagonism)",
+    "5HT3 antagonism",
+    "5HT3 (others 5HT2A, H1)",
+    "5HT3"
+   ]
+  },
+  {
+   "label": "Vortioxetine mechanism of action",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-06",
+    "2023-11",
+    "2024-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-42",
+    "rc-2022-06-36",
+    "rc-2023-11-20",
+    "rc-2024-11-14",
+    "rc-2026-07-98"
+   ],
+   "answers": [
+    "5HT1A agonism (also 5HT3 antagonism)",
+    "5HT1A full agonist, 5HT1B partial agonist; antagonist at 5HT3, 5HT7, 5HT1D",
+    "5HT1 agonist (5HT1A)",
+    "Serotonin modulator and stimulator: SERT inhibition plus multiple 5-HT receptor effects"
+   ]
+  },
+  {
+   "label": "Lamotrigine mechanism = voltage-gated sodium channel",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-07",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-12-8",
+    "rc-2023-07-6",
+    "rc-2024-07-1",
+    "rc-2026-04-130",
+    "rc-2026-07-61"
+   ],
+   "answers": [
+    "voltage-sensitive sodium channel",
+    "NMDA receptor modulation; some GABA modulation; stabilises Na channels; blocks calcium channels",
+    "Acts on voltage gated sodium channel",
+    "Block voltage-sensitive sodium channels"
+   ]
+  },
+  {
+   "label": "Cocktail party phenomenon = selective auditory attention",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2023-07",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-12-106",
+    "rc-2023-04-30",
+    "rc-2023-07-19",
+    "rc-2024-07-68",
+    "rc-2026-07-110"
+   ],
+   "answers": [
+    "selective attention",
+    "selective auditory attention",
+    "Selective auditory attention"
+   ]
+  },
+  {
+   "label": "Reciprocal inhibition underlies systematic desensitisation",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-06-105",
+    "rc-2021-12-110",
+    "rc-2022-12-86",
+    "rc-2023-07-148",
+    "rc-2023-11-76"
+   ],
+   "answers": [
+    "Systematic desensitisation",
+    "systematic desensitization"
+   ]
+  },
+  {
+   "label": "Protest, despair, detachment = Bowlby separation/maternal deprivation",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-04",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-12-34",
+    "rc-2023-07-124",
+    "rc-2024-04-35",
+    "rc-2024-07-114",
+    "rc-2025-?-32"
+   ],
+   "answers": [
+    "Bowlby's maternal deprivation theory",
+    "Bowlby stages of grief and maternal deprivation",
+    "Protest, Despair, Detachment",
+    "Bowlby"
+   ]
+  },
+  {
+   "label": "Marcia identity statuses (diffusion, foreclosure, moratorium)",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2020-12",
+    "2021-06",
+    "2021-12",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2020-12-7",
+    "rc-2021-06-136",
+    "rc-2021-12-53",
+    "rc-2025-?-109",
+    "rc-2026-07-90"
+   ],
+   "answers": [
+    "Identity diffusion????",
+    "Moratorium: has explored/is exploring but no decision; foreclosure: not explored but decided",
+    "Moratorium/ Identify diffusion",
+    "Foreclosure"
+   ]
+  },
+  {
+   "label": "Integration/biculturalism: adopting new culture while keeping own",
+   "topic": "pa-sociocultural-psychiatry",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2023-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-118",
+    "rc-2023-04-115",
+    "rc-2023-11-108",
+    "rc-2025-?-99",
+    "rc-2026-04-94"
+   ],
+   "answers": [
+    "biculturalism (integration)",
+    "Integration",
+    "integration"
+   ]
+  },
+  {
+   "label": "Vygotsky zone of proximal development",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2024-04",
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-16",
+    "rc-2024-04-27",
+    "rc-2025-?-24",
+    "rc-2026-04-56",
+    "rc-2026-07-4"
+   ],
+   "answers": [
+    "collaborative learning, scaffolding, zone of proximal development",
+    "space between what a learner can do unsupported and cannot do even with support",
+    "Distance between actual developmental level (independent problem-solving) and potential level (under adult guidance or with more capable peers)"
+   ]
+  },
+  {
+   "label": "Thomas and Chess childhood temperament types",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2022-12",
+    "2023-11",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-06-74",
+    "rc-2022-12-108",
+    "rc-2023-11-8",
+    "rc-2024-07-63",
+    "rc-2026-07-126"
+   ],
+   "answers": [
+    "Activity, rhythmicity, approach/withdrawal, adaptability, intensity, threshold, mood, distractibility, attention span/persistence",
+    "sensitivity",
+    "difficult child",
+    "Slow to warm up 15%, difficult 10%, easy 40%; goodness of fit"
+   ]
+  },
+  {
+   "label": "NMDA receptor / glutamate",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2023-11",
+    "2024-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-07-7",
+    "rc-2023-07-10",
+    "rc-2023-07-56",
+    "rc-2023-11-59",
+    "rc-2024-11-4",
+    "rc-2026-04-6",
+    "rc-2026-04-128"
+   ],
+   "answers": [
+    "glutamate",
+    "glutamate-gated ion channels that increase calcium",
+    "NMDA",
+    "glutamate receptor"
+   ]
+  },
+  {
+   "label": "Language at 13 years (20,000 words) and 5 years (grammar/passive speech)",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2020-12",
+    "2021-06",
+    "2022-06",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2020-12-23",
+    "rc-2021-06-22",
+    "rc-2021-06-189",
+    "rc-2022-06-47",
+    "rc-2026-07-56",
+    "rc-2026-07-57",
+    "rc-2026-07-58"
+   ],
+   "answers": [
+    "1 year 2-3 words; 13 years 20,000 words",
+    "20,000 words; 40 words; telegraphic, vocabulary more than 240 words",
+    "Per SA JUNE 2022 file: phonemic expansion at babbling, contraction 9-10 months, expansion 2-3 years",
+    "Use passive speech (or grammatical rules)"
+   ]
+  },
+  {
+   "label": "Huntington gene location (chromosome 4)",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2023-11",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-6",
+    "rc-2019-12-139",
+    "rc-2019-12-184",
+    "rc-2023-11-67",
+    "rc-2024-07-48",
+    "rc-2025-?-27"
+   ],
+   "answers": [
+    "Chromosome 4, 4p16.3",
+    "FTD GRN 17, MAPT 17, C9; Lewy alpha synuclein; Huntington 4",
+    "Huntington 4p; Lewy SNCA 4q21/SNCB 5q35; FTD 17q21 (per notes)",
+    "Wilson 13, Huntington 4, frontotemporal 17"
+   ]
+  },
+  {
+   "label": "PTSD imaging: amygdala changes",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2022-12",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-06-9",
+    "rc-2022-06-78",
+    "rc-2022-12-80",
+    "rc-2024-11-57",
+    "rc-2024-11-102",
+    "rc-2025-?-121"
+   ],
+   "answers": [
+    "PTSD: increased amygdala activation, smaller amygdala and hippocampal volumes; vCJD pulvinar sign, bilateral anterior basal ganglia and thalamus high signal; antipsychotics: increased ventricular volume, reduced frontal and medial temporal grey matter",
+    "Reduced NAA in ACC and hippocampus (SA JUNE 2022 file only)",
+    "amygdala",
+    "Amygdala hyperactivity when shown related stressor"
+   ]
+  },
+  {
+   "label": "Ketamine/esketamine mechanism = NMDA antagonist",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2023-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-94",
+    "rc-2022-06-11",
+    "rc-2022-06-68",
+    "rc-2023-11-21",
+    "rc-2023-11-130",
+    "rc-2026-07-88"
+   ],
+   "answers": [
+    "Non-competitive NMDA antagonist",
+    "NMDA antagonist",
+    "NMDA",
+    "NMDA antagonist, noncompetitive"
+   ]
+  },
+  {
+   "label": "Sulpiride/amisulpride: renal excretion, not metabolised, poor BBB",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2022-06",
+    "2023-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-44",
+    "rc-2022-06-60",
+    "rc-2023-04-4",
+    "rc-2023-04-17",
+    "rc-2023-04-28",
+    "rc-2026-07-92"
+   ],
+   "answers": [
+    "Sulpiride",
+    "amisulpride (renally excreted, per editor note)",
+    "amisulpride (active transport, editor note)",
+    "sulpiride, amisulpride (do not cross BBB)"
+   ]
+  },
+  {
+   "label": "Bowlby stages of grief and which item is not one",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2021-06",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-54",
+    "rc-2019-12-191",
+    "rc-2020-12-15",
+    "rc-2021-06-37",
+    "rc-2021-06-146",
+    "rc-2025-?-33"
+   ],
+   "answers": [
+    "protest (stages listed: shock and numbness, yearning and searching, disorganisation and despair, reorganisation)",
+    "bargaining",
+    "Shock-numbness, yearning-searching, disorganisation-despair, reorganisation-resolution",
+    "agitation"
+   ]
+  },
+  {
+   "label": "Test for executive function: Tower of London",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2023-04",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2021-12-101",
+    "rc-2023-04-54",
+    "rc-2023-07-146",
+    "rc-2024-07-71",
+    "rc-2024-07-91"
+   ],
+   "answers": [
+    "Tower of London (planning)",
+    "Tower of London"
+   ]
+  },
+  {
+   "label": "Delusional disorder criteria: ICD-10 duration / no persistent hallucinations",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2021-12",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2019-12-83",
+    "rc-2019-12-179",
+    "rc-2021-06-15",
+    "rc-2021-12-12",
+    "rc-2022-12-135"
+   ],
+   "answers": [
+    "3 months in ICD, 1 month in DSM",
+    "Duration 2 weeks (min 3 months per notes)",
+    "no persistent hallucinations",
+    "no persistent hallucination"
+   ]
+  },
+  {
+   "label": "Confabulation: autobiographical memory, clear consciousness, Korsakoff",
+   "topic": "pa-syndromes",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-06",
+    "2022-12",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2021-06-98",
+    "rc-2021-06-168",
+    "rc-2022-06-56",
+    "rc-2022-12-82",
+    "rc-2023-04-91"
+   ],
+   "answers": [
+    "Korsakoff hallmark anterograde amnesia (dorsomedial thalamus) per SPMM",
+    "falsification of memory in clear consciousness, organic states; suggestibility; Korsakoff",
+    "Falsification of memory in clear consciousness associated with organic states; suggestibility prominent",
+    "affects autobiographical memory"
+   ]
+  },
+  {
+   "label": "ApoE4 heterozygous: fold increase in Alzheimer's risk",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2019-12-89",
+    "rc-2019-12-213",
+    "rc-2020-12-34",
+    "rc-2021-06-56",
+    "rc-2022-12-77"
+   ],
+   "answers": [
+    "hetero 3-4, homo 10-15",
+    "3-4 times (homozygous 10-15)",
+    "3-4 times (homozygous 10-30 / 10-15 times)",
+    "homozygous ApoE4 raises AD risk 10-30 fold; heterozygous 2-3 fold"
+   ]
+  },
+  {
+   "label": "FTD genes and chromosome (GRN/MAPT 17, C9orf72)",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2022-06",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-49",
+    "rc-2022-06-55",
+    "rc-2024-07-49",
+    "rc-2024-07-96",
+    "rc-2025-?-29"
+   ],
+   "answers": [
+    "GRN, MAPT (chr 17), C9orf72",
+    "FTD",
+    "17q21 (also C9orf72 [9], PGRN [17], MAPT [17])",
+    "PGRN, MAPT [17]"
+   ]
+  },
+  {
+   "label": "Reward pathway = mesolimbic",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2024-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-12",
+    "rc-2019-12-211",
+    "rc-2021-06-4",
+    "rc-2024-11-19",
+    "rc-2026-07-47"
+   ],
+   "answers": [
+    "Mesolimbic",
+    "Mesolimbic dopamine pathway"
+   ]
+  },
+  {
+   "label": "Dopamine/GPCR receptor crosses membrane 7 times",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-12",
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2019-12-22",
+    "rc-2019-12-152",
+    "rc-2021-12-86",
+    "rc-2022-12-56",
+    "rc-2023-07-55"
+   ],
+   "answers": [
+    "7",
+    "7 times (ionotropic 4)",
+    "7 transmembrane regions (G-protein coupled)",
+    "7 times"
+   ]
+  },
+  {
+   "label": "Diazepam mechanism = GABA-A receptor",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-87",
+    "rc-2019-12-216",
+    "rc-2021-06-54",
+    "rc-2025-?-3",
+    "rc-2026-04-69"
+   ],
+   "answers": [
+    "GABA-A omega 1,2,3",
+    "GABA-A receptor agonist",
+    "GABA-A allosteric",
+    "GABA-A receptors"
+   ]
+  },
+  {
+   "label": "Mirtazapine for patient with hyponatraemia",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-06",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-137",
+    "rc-2021-06-187",
+    "rc-2021-12-74",
+    "rc-2022-06-37",
+    "rc-2024-11-61"
+   ],
+   "answers": [
+    "Mirtazapine",
+    "mirtazapine",
+    "Mirtazapine / amitryptiline"
+   ]
+  },
+  {
+   "label": "Postural hypotension via alpha-1 adrenergic blockade",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2022-06",
+    "2022-12",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-06-24",
+    "rc-2022-06-63",
+    "rc-2022-12-20",
+    "rc-2024-07-28",
+    "rc-2025-?-146"
+   ],
+   "answers": [
+    "Alpha-1 antagonist",
+    "Alpha-1 adrenergic blocker",
+    "alpha 1 blockade (antagonism)",
+    "Alpha 1 block"
+   ]
+  },
+  {
+   "label": "Parkinsonism due to high D2 occupancy",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-12-68",
+    "rc-2024-04-51",
+    "rc-2025-?-129",
+    "rc-2026-04-65",
+    "rc-2026-04-89"
+   ],
+   "answers": [
+    "high D2 occupancy in striatum",
+    "high D2 occupancy (parkinsonism); post-synaptic D2 supersensitivity (TD)",
+    "high D2 occupancy",
+    "high occupancy of dopamine D2 receptors in the striatum"
+   ]
+  },
+  {
+   "label": "Locum/salary/hourly pay = fixed interval reinforcement schedule",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-12-51",
+    "rc-2022-06-71",
+    "rc-2025-?-15",
+    "rc-2025-?-16",
+    "rc-2026-04-84"
+   ],
+   "answers": [
+    "fixed interval"
+   ]
+  },
+  {
+   "label": "Hawthorne effect: performance changes when observed (e.g. handwashing)",
+   "topic": "pa-social-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2022-12",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-80",
+    "rc-2019-12-223",
+    "rc-2022-12-125",
+    "rc-2023-07-120",
+    "rc-2023-11-102"
+   ],
+   "answers": [
+    "Hawthorne",
+    "Hawthorne (first)",
+    "Hawthorne effect"
+   ]
+  },
+  {
+   "label": "Avoidant attachment: child shows no response when parent leaves/returns",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-101",
+    "rc-2019-12-130",
+    "rc-2020-12-29",
+    "rc-2023-07-37",
+    "rc-2023-11-157"
+   ],
+   "answers": [
+    "avoidant insecure",
+    "anxious avoidant"
+   ]
+  },
+  {
+   "label": "Maternal attachment neurobiology (oxytocin; hippocampus-amygdala)",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2023-04",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-192",
+    "rc-2023-04-43",
+    "rc-2023-07-75",
+    "rc-2023-07-76",
+    "rc-2023-11-133"
+   ],
+   "answers": [
+    "hippocampus and amygdala",
+    "oxytocin"
+   ]
+  },
+  {
+   "label": "Mentalisation: reading others' mental states",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-5",
+    "rc-2021-06-104",
+    "rc-2021-12-120",
+    "rc-2025-?-59",
+    "rc-2026-04-79"
+   ],
+   "answers": [
+    "Mentalisation",
+    "Mentalization"
+   ]
+  },
+  {
+   "label": "Ideational apraxia: cannot perform sequence of actions",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-11",
+    "rc-2021-12-20",
+    "rc-2022-06-2",
+    "rc-2022-12-12"
+   ],
+   "answers": [
+    "Ideational apraxia",
+    "inability to follow a sequence of actions in correct order (match from box and strike)",
+    "can do steps separately but cannot perform the sequence"
+   ]
+  },
+  {
+   "label": "Hayling test assesses executive function (response initiation/inhibition)",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-11",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-04-47",
+    "rc-2023-11-128",
+    "rc-2026-04-35",
+    "rc-2026-07-73"
+   ],
+   "answers": [
+    "executive function",
+    "response initiation and inhibition",
+    "Executive function (behavioral inhibition and response initiation)"
+   ]
+  },
+  {
+   "label": "Anti-NMDAR encephalitis: flu-like prodrome, seizure, ovarian teratoma",
+   "topic": "pa-syndromes",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-04",
+    "2024-11",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-04-42",
+    "rc-2024-11-63",
+    "rc-2025-?-88",
+    "rc-2026-07-13"
+   ],
+   "answers": [
+    "Ovarian teratoma",
+    "Anti-NMDA-R encephalitis"
+   ]
+  },
+  {
+   "label": "Wilson disease: chromosome 13, autosomal recessive",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2020-12",
+    "2021-06",
+    "2023-04",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2020-12-3",
+    "rc-2021-06-8",
+    "rc-2023-04-77",
+    "rc-2023-11-22"
+   ],
+   "answers": [
+    "ATP7B on chromosome 13, autosomal recessive",
+    "Wilson's",
+    "Wilson's disease",
+    "13"
+   ]
+  },
+  {
+   "label": "Southern blot detects specific DNA sequence",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-06",
+    "2023-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-133",
+    "rc-2022-06-70",
+    "rc-2023-07-110",
+    "rc-2026-07-107"
+   ],
+   "answers": [
+    "sequence of DNA",
+    "specific DNA sequence",
+    "DNA",
+    "Detecting a specific DNA sequence"
+   ]
+  },
+  {
+   "label": "Association study: comparing allele frequencies in cases vs controls",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-12-80",
+    "rc-2022-12-122",
+    "rc-2023-11-152",
+    "rc-2024-11-91"
+   ],
+   "answers": [
+    "Association: exact disease-causing genes; linkage: location of culprit gene",
+    "association studies",
+    "association",
+    "Association study"
+   ]
+  },
+  {
+   "label": "Family members ganging up on / blaming one member = detouring",
+   "topic": "pa-other",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-07",
+    "2023-11",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2023-04-102",
+    "rc-2023-07-94",
+    "rc-2023-11-106",
+    "rc-2024-07-54"
+   ],
+   "answers": [
+    "detouring",
+    "detouring?"
+   ]
+  },
+  {
+   "label": "Wernicke aphasia = fluent/receptive",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-06",
+    "2021-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2020-12-25",
+    "rc-2021-06-10",
+    "rc-2021-12-19",
+    "rc-2024-11-64"
+   ],
+   "answers": [
+    "Fluent or receptive aphasia (Brodmann 22)",
+    "fluent/receptive aphasia, impaired auditory comprehension",
+    "Fluent aphasia"
+   ]
+  },
+  {
+   "label": "3-6 Hz polyspike EEG = myoclonic/juvenile myoclonic epilepsy",
+   "topic": "pa-neurophysiology",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2023-04",
+    "2024-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-06-13",
+    "rc-2024-04-53",
+    "rc-2026-04-133",
+    "rc-2023-04-85"
+   ],
+   "answers": [
+    "3-6 Hz myoclonic; 2-4 Hz atypical absence",
+    "Myoclonic seizures",
+    "juvenile",
+    "juvenile myoclonic epilepsy"
+   ]
+  },
+  {
+   "label": "70% D2 occupancy at therapeutic antipsychotic dose on PET (11C raclopride)",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-04",
+    "2024-04",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-04-113",
+    "rc-2024-04-54",
+    "rc-2025-?-132",
+    "rc-2026-07-45"
+   ],
+   "answers": [
+    "DAT scan",
+    "70% D2 occupancy at 11C on PET",
+    "70% occupancy on 11C raclopride",
+    "Raclopride 11C PET"
+   ]
+  },
+  {
+   "label": "Pulvinar sign = variant CJD",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2023-11",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-60",
+    "rc-2023-11-34",
+    "rc-2026-04-116",
+    "rc-2026-07-50"
+   ],
+   "answers": [
+    "pulvinar sign?",
+    "variant CJD",
+    "VCJD",
+    "Variant Creutzfeldt-Jakob disease (vCJD)"
+   ]
+  },
+  {
+   "label": "Phagocytic cells of CNS = microglia",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2024-04",
+    "2024-07",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2023-07-140",
+    "rc-2024-04-5",
+    "rc-2024-07-102",
+    "rc-2024-11-71"
+   ],
+   "answers": [
+    "Microglia",
+    "Phagocytosis"
+   ]
+  },
+  {
+   "label": "Gut satiety hormone = CCK",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-12-21",
+    "rc-2023-04-93",
+    "rc-2026-04-23",
+    "rc-2026-07-54"
+   ],
+   "answers": [
+    "cholecystokinin (CCK)",
+    "CCK",
+    "intestinal cell",
+    "CCK (cholecystokinin)"
+   ]
+  },
+  {
+   "label": "Dopamine synthesis: tyrosine is hydroxylated",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-06-12",
+    "rc-2021-12-93",
+    "rc-2022-12-69",
+    "rc-2023-11-148"
+   ],
+   "answers": [
+    "L-tyrosine to L-DOPA",
+    "L-tyrosine",
+    "tyrosine (to L-dopa by tyrosine hydroxylase)"
+   ]
+  },
+  {
+   "label": "Endocannabinoid = anandamide",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2023-11",
+    "2024-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-76",
+    "rc-2023-11-131",
+    "rc-2024-11-66",
+    "rc-2026-04-50"
+   ],
+   "answers": [
+    "Anandamide receptor",
+    "Anandamide",
+    "anandamide"
+   ]
+  },
+  {
+   "label": "Dentate gyrus is part of hippocampus",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2022-06",
+    "2023-07",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-06-6",
+    "rc-2023-07-101",
+    "rc-2024-07-112",
+    "rc-2026-07-33"
+   ],
+   "answers": [
+    "Hippocampus > Episodic Memory",
+    "hippocampus",
+    "Hippocampus",
+    "Dentate gyrus, subiculum, and hippocampus proper (CA1-CA4)"
+   ]
+  },
+  {
+   "label": "Papez circuit components",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-04",
+    "2023-11",
+    "2024-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-04-72",
+    "rc-2023-11-24",
+    "rc-2024-04-33",
+    "rc-2026-04-22"
+   ],
+   "answers": [
+    "fornix",
+    "cingulate gyrus"
+   ]
+  },
+  {
+   "label": "Basal ganglia parts (putamen, caudate)",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-04",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-04-118",
+    "rc-2024-04-111",
+    "rc-2025-?-66",
+    "rc-2026-04-21"
+   ],
+   "answers": [
+    "putamen",
+    "part of the basal ganglia",
+    "Putamen"
+   ]
+  },
+  {
+   "label": "Ion channel implicated in schizophrenia",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2021-12-40",
+    "rc-2022-06-38",
+    "rc-2023-07-92",
+    "rc-2024-07-59"
+   ],
+   "answers": [
+    "Mg (per file; also mentions calcium-activated potassium channels, voltage gated sodium channel)",
+    "Calcium",
+    "potassium (editors unsure)",
+    "voltage gated calcium channel?"
+   ]
+  },
+  {
+   "label": "T2-weighted MRI signal = water",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2024-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-132",
+    "rc-2023-04-99",
+    "rc-2024-04-91",
+    "rc-2026-04-41"
+   ],
+   "answers": [
+    "hydrogen ion (water content)",
+    "water"
+   ]
+  },
+  {
+   "label": "DTI / white matter tract imaging",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2024-07",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-12-131",
+    "rc-2024-07-38",
+    "rc-2026-04-114",
+    "rc-2026-07-42"
+   ],
+   "answers": [
+    "diffusion tensor imaging",
+    "Measure of DTI; reflects white matter integrity",
+    "DTI (diffusion tensor imaging)"
+   ]
+  },
+  {
+   "label": "Antihypertensive for patient on lithium: atenolol",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-73",
+    "rc-2021-12-72",
+    "rc-2022-12-60",
+    "rc-2024-11-89"
+   ],
+   "answers": [
+    "Atenolol",
+    "Atenolol; Furosemide (file unclear)",
+    "atenolol"
+   ]
+  },
+  {
+   "label": "Antibiotic interaction with clozapine (neutropenia/agranulocytosis)",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-11",
+    "2024-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-11-7",
+    "rc-2024-11-106",
+    "rc-2025-?-42",
+    "rc-2026-04-66"
+   ],
+   "answers": [
+    "erythromycin",
+    "trimethoprim"
+   ]
+  },
+  {
+   "label": "Rate-limiting enzyme in alcohol metabolism: alcohol dehydrogenase",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-12-91",
+    "rc-2022-06-65",
+    "rc-2023-07-95",
+    "rc-2023-11-135"
+   ],
+   "answers": [
+    "alcohol dehydrogenase"
+   ]
+  },
+  {
+   "label": "Cariprazine mechanism (D2/D3 partial agonist)",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2024-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-49",
+    "rc-2024-04-28",
+    "rc-2025-?-45",
+    "rc-2026-04-47"
+   ],
+   "answers": [
+    "D2 partial agonist, 5HT2A antagonist (P/M: partial D3 agonist)",
+    "partial agonist at D2, D3 (prefers D3), 5-HT1A; antagonist 5-HT2A, 5HT2B",
+    "D2 D3"
+   ]
+  },
+  {
+   "label": "Atomoxetine mechanism = noradrenaline reuptake inhibitor",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-12-53",
+    "rc-2023-07-48",
+    "rc-2024-07-4",
+    "rc-2025-?-2"
+   ],
+   "answers": [
+    "selective noradrenaline reuptake inhibitor",
+    "noradrenaline reuptake inhibitor",
+    "Selective norepinephrine reuptake inhibitor"
+   ]
+  },
+  {
+   "label": "Modafinil/stimulants used by students before exams",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2023-11",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-44",
+    "rc-2023-11-62",
+    "rc-2026-04-44",
+    "rc-2026-07-23"
+   ],
+   "answers": [
+    "amphetamine",
+    "Modafinil (or methylphenidate/amphetamines)"
+   ]
+  },
+  {
+   "label": "Tardive dyskinesia due to D2 supersensitivity",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-12-67",
+    "rc-2022-06-62",
+    "rc-2025-?-130",
+    "rc-2026-04-10"
+   ],
+   "answers": [
+    "D2 supersensitivity",
+    "TD: D2 hypersensitivity; akathisia due to D2 occupancy",
+    "D2 super sensitivity",
+    "dopamine supersensitivity"
+   ]
+  },
+  {
+   "label": "Lecanemab: amyloid evidence required / ARIA",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-11",
+    "2024-04",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-11-29",
+    "rc-2024-04-11",
+    "rc-2026-04-90",
+    "rc-2026-07-49"
+   ],
+   "answers": [
+    "given only if evidence of amyloid beta deposition",
+    "given only in evidence of amyloid beta deposition",
+    "Amyloid-related imaging abnormalities (ARIA)"
+   ]
+  },
+  {
+   "label": "Gambling = variable ratio reinforcement schedule",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-12-50",
+    "rc-2022-06-72",
+    "rc-2025-?-17",
+    "rc-2026-04-85"
+   ],
+   "answers": [
+    "variable ratio",
+    "variable ratio?"
+   ]
+  },
+  {
+   "label": "Halo effect: well-dressed man at crime scene seen as not guilty",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2022-12-126",
+    "rc-2023-07-114",
+    "rc-2023-11-103",
+    "rc-2024-11-21"
+   ],
+   "answers": [
+    "halo effect"
+   ]
+  },
+  {
+   "label": "Monotropy (Bowlby): innate tendency to attach to one figure",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2023-11",
+    "2024-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-06-76",
+    "rc-2023-11-151",
+    "rc-2024-11-96",
+    "rc-2026-04-60"
+   ],
+   "answers": [
+    "attachment to single figure mainly mother; strong innate tendency to attach to one adult female",
+    "monotropy"
+   ]
+  },
+  {
+   "label": "Authoritarian parenting: obedient child with low self-esteem",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-07",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-44",
+    "rc-2023-07-131",
+    "rc-2024-07-106",
+    "rc-2026-04-19"
+   ],
+   "answers": [
+    "authoritarian",
+    "Authoritarian"
+   ]
+  },
+  {
+   "label": "Prelinguistic phase (cooing, babbling; extended in autism)",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2024-04",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-105",
+    "rc-2024-04-108",
+    "rc-2024-07-27",
+    "rc-2026-07-125"
+   ],
+   "answers": [
+    "birth to 12 months; crying, babbling, echolalia",
+    "Pre linguistics"
+   ]
+  },
+  {
+   "label": "Delayed speech: immigration not a risk factor",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2022-06",
+    "2022-12",
+    "2023-04",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2022-06-59",
+    "rc-2022-12-99",
+    "rc-2023-04-79",
+    "rc-2024-07-75"
+   ],
+   "answers": [
+    "lack of stimulation",
+    "immigrant status"
+   ]
+  },
+  {
+   "label": "Assimilation: losing own culture and taking up the dominant one",
+   "topic": "pa-sociocultural-psychiatry",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-12",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2021-06-132",
+    "rc-2021-12-122",
+    "rc-2022-12-119",
+    "rc-2024-07-19"
+   ],
+   "answers": [
+    "assimilation",
+    "Partial adaptation, without giving up one's culture completely"
+   ]
+  },
+  {
+   "label": "Secure attachment: child distressed when caregiver leaves, comforted on return",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-161",
+    "rc-2021-06-61",
+    "rc-2025-?-125",
+    "rc-2026-04-17"
+   ],
+   "answers": [
+    "Secure attachment?",
+    "distress when parent leaves"
+   ]
+  },
+  {
+   "label": "Gestalt principles (proximity, closure etc.)",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2023-07",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-80",
+    "rc-2021-12-104",
+    "rc-2023-07-80",
+    "rc-2024-11-12"
+   ],
+   "answers": [
+    "Proximity",
+    "symmetry and order, proximity, continuity, closure, common fate, similarity"
+   ]
+  },
+  {
+   "label": "Procedural memory least affected in schizophrenia",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2023-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-39",
+    "rc-2022-12-89",
+    "rc-2023-07-15",
+    "rc-2026-07-27"
+   ],
+   "answers": [
+    "procedural memory",
+    "Procedural memory"
+   ]
+  },
+  {
+   "label": "Fundamental attribution error: more common in western world",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-06",
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2020-12-28",
+    "rc-2021-06-45",
+    "rc-2024-04-63",
+    "rc-2025-?-128"
+   ],
+   "answers": [
+    "focus on other people's behaviour",
+    "More common in western world",
+    "western world"
+   ]
+  },
+  {
+   "label": "Self-serving bias: success attributed to internal factors",
+   "topic": "pa-social-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2023-11",
+    "2024-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-72",
+    "rc-2023-11-110",
+    "rc-2024-11-76",
+    "rc-2026-04-98"
+   ],
+   "answers": [
+    "attributes success to internal attributes",
+    "negative things caused by external factors"
+   ]
+  },
+  {
+   "label": "Cue exposure for alcohol/substance cues",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2022-06",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-59",
+    "rc-2021-12-89",
+    "rc-2022-06-14",
+    "rc-2026-07-82"
+   ],
+   "answers": [
+    "Cue therapy ???",
+    "Cue exposure conditioned; 12 steps powerless, hopeless",
+    "Behaviour therapy",
+    "Cue exposure"
+   ]
+  },
+  {
+   "label": "Sally-Anne test = theory of mind",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2024-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-17",
+    "rc-2022-12-120",
+    "rc-2024-11-53",
+    "rc-2026-07-79"
+   ],
+   "answers": [
+    "Autism, 4 years",
+    "theory of mind",
+    "Theory of Mind"
+   ]
+  },
+  {
+   "label": "Altruism and volunteering: replicated findings (pain, wellbeing)",
+   "topic": "pa-dynamic-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2022-12",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2022-06-33",
+    "rc-2022-12-104",
+    "rc-2023-07-74",
+    "rc-2024-07-81"
+   ],
+   "answers": [
+    "Vicarious but constructive and instinctually gratifying service to others",
+    "reduced dementia risk/wellbeing in elderly who volunteer (M)",
+    "reduced physical pain"
+   ]
+  },
+  {
+   "label": "Checks before methylphenidate (BP) and atomoxetine/agomelatine (LFTs)",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-46",
+    "rc-2019-12-47",
+    "rc-2019-12-123",
+    "rc-2019-12-206",
+    "rc-2021-06-28",
+    "rc-2021-06-29",
+    "rc-2023-11-1",
+    "rc-2023-11-2"
+   ],
+   "answers": [
+    "BP",
+    "LFTs",
+    "both: BP checked before starting",
+    "Blood pressure"
+   ]
+  },
+  {
+   "label": "Autoimmune encephalitis antibodies (LGI1, NMDA, AQP4)",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-04",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2023-04-122",
+    "rc-2023-07-12",
+    "rc-2023-07-13",
+    "rc-2023-07-14",
+    "rc-2023-11-55",
+    "rc-2023-11-134",
+    "rc-2023-11-143"
+   ],
+   "answers": [
+    "LGI1",
+    "NMDA",
+    "aquaporin 4 (could be MOG if in options)"
+   ]
+  },
+  {
+   "label": "Zopiclone binds GABA-A receptor (omega-1/alpha-1)",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2019-12-36",
+    "rc-2019-12-116",
+    "rc-2019-12-176",
+    "rc-2019-12-224",
+    "rc-2020-12-22",
+    "rc-2022-12-10"
+   ],
+   "answers": [
+    "Omega, GABA-A",
+    "voltage gated ion channels (as written)",
+    "Zopiclone GABA-A",
+    "GABA-A (alpha 1 subunit / omega 1)"
+   ]
+  },
+  {
+   "label": "Ambitendency: handshake offered then withdrawn repeatedly",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2019-12-40",
+    "rc-2019-12-203",
+    "rc-2019-12-166",
+    "rc-2021-06-26",
+    "rc-2022-12-124"
+   ],
+   "answers": [
+    "ambitendency",
+    "Ambitendency"
+   ]
+  },
+  {
+   "label": "DNA methylation: cytosine, most common epigenetic mechanism",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-06-124",
+    "rc-2021-12-7",
+    "rc-2021-06-194",
+    "rc-2023-11-159",
+    "rc-2021-06-82"
+   ],
+   "answers": [
+    "Cytosine carbon 5???",
+    "cytosine",
+    "DNA acetylation? (SPMM: epigenetic mechanism most associated with schizophrenia = DNA methylation)"
+   ]
+  },
+  {
+   "label": "MAOI interaction with OTC decongestant",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-104",
+    "rc-2019-12-171",
+    "rc-2019-12-201",
+    "rc-2020-12-20",
+    "rc-2023-11-153"
+   ],
+   "answers": [
+    "decongestant?",
+    "decongestant"
+   ]
+  },
+  {
+   "label": "Breakfast memory examples: episodic vs semantic",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-39",
+    "rc-2024-07-77",
+    "rc-2024-07-78",
+    "rc-2026-07-111",
+    "rc-2026-07-112"
+   ],
+   "answers": [
+    "Semantic; declarative; episodic; procedural; prospective",
+    "Episodic",
+    "Semantic",
+    "Episodic memory"
+   ]
+  },
+  {
+   "label": "Trail making test: what it assesses",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2019-12-93",
+    "rc-2019-12-186",
+    "rc-2021-06-24",
+    "rc-2023-04-48"
+   ],
+   "answers": [
+    "Response inhibition and set shifting",
+    "processing speed and executive functions"
+   ]
+  },
+  {
+   "label": "Activities of daily living scale",
+   "topic": "pa-rating-scales",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-79",
+    "rc-2019-12-165",
+    "rc-2023-11-85",
+    "rc-2024-11-48"
+   ],
+   "answers": [
+    "MOHOST? Vineland social maturity scale?",
+    "VSMS?",
+    "Rivermead scale"
+   ]
+  },
+  {
+   "label": "Reactive attachment disorder: minimal seeking of comfort",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2022-12-41",
+    "rc-2023-07-35",
+    "rc-2023-07-36",
+    "rc-2024-07-111"
+   ],
+   "answers": [
+    "reactive attachment disorder",
+    "reactive attachment disorder (if frozen it would be disorganised attachment)",
+    "Minimal seeking of comfort"
+   ]
+  },
+  {
+   "label": "Scenario: adjustment disorder",
+   "topic": "pa-syndromes",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2019-12-109",
+    "rc-2021-12-117",
+    "rc-2023-07-27",
+    "rc-2023-07-30"
+   ],
+   "answers": [
+    "adjustment disorder"
+   ]
+  },
+  {
+   "label": "Pedigree: pattern of inheritance (autosomal dominant)",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2021-06-9",
+    "rc-2021-06-191",
+    "rc-2022-12-103",
+    "rc-2023-07-125"
+   ],
+   "answers": [
+    "Autosomal dominant?",
+    "Autosomal dominant (50% affected each generation) per merged notes",
+    "autosomal dominant"
+   ]
+  },
+  {
+   "label": "Alzheimer's treatment targets: amyloid / secretase",
+   "topic": "pa-neuropathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-04",
+    "2024-07",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-04-7",
+    "rc-2024-04-10",
+    "rc-2024-07-30",
+    "rc-2025-?-145"
+   ],
+   "answers": [
+    "beta amyloid (Q90)",
+    "Alpha secretase",
+    "Beta amyloid / alpha-secretase",
+    "Beta-secretase"
+   ]
+  },
+  {
+   "label": "CNS myelination = oligodendrocytes",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2021-06-131",
+    "rc-2021-06-159",
+    "rc-2023-07-143",
+    "rc-2024-07-101"
+   ],
+   "answers": [
+    "oligodendrocytes",
+    "Oligodendrocytes",
+    "Oligodendrocytes (PNS: Schwann cells)"
+   ]
+  },
+  {
+   "label": "Cocaine mechanism = dopamine transporter (DAT) blockade",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-06",
+    "2023-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-06-34",
+    "rc-2022-06-69",
+    "rc-2023-04-44",
+    "rc-2026-07-1"
+   ],
+   "answers": [
+    "Cocaine blocks dopamine transporter (DAT); MDMA blocks SERT",
+    "DAT",
+    "dopamine transporter",
+    "Inhibition of monoamine reuptake (DAT, SERT, NET)"
+   ]
+  },
+  {
+   "label": "Risk factors for QT prolongation",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-12-34",
+    "rc-2021-12-123",
+    "rc-2022-06-61",
+    "rc-2023-11-98"
+   ],
+   "answers": [
+    "Female gender, anorexia nervosa, hypokalaemia, low Mg and Ca, extreme exercise, extremes of age, antipsychotics, grapefruit juice, liver disease",
+    "hypokalaemia, hypomagnesaemia, hypocalcaemia, extreme exertion, extremes of age, female, anorexia nervosa",
+    "Hypokalaemia (Sunday Evening file)"
+   ]
+  },
+  {
+   "label": "Flumazenil reverses benzodiazepine/zopiclone toxicity",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2023-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-55",
+    "rc-2023-11-83",
+    "rc-2023-11-117",
+    "rc-2026-07-3"
+   ],
+   "answers": [
+    "benzodiazepine and zopiclone (not barbiturates)",
+    "flumazenil",
+    "benzodiazepine and zopiclone",
+    "Decrease in chloride influx"
+   ]
+  },
+  {
+   "label": "Melanie Klein paranoid-schizoid and depressive positions",
+   "topic": "pa-dynamic-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2021-06-144",
+    "rc-2021-06-183",
+    "rc-2021-12-32",
+    "rc-2024-07-50"
+   ],
+   "answers": [
+    "paranoid-schizoid splitting; depressive ambivalence",
+    "paranoid-schizoid position in 1st year",
+    "depressive position / paranoid-schizoid position",
+    "Depressive position from 4-6 months; ambivalence, guilt"
+   ]
+  },
+  {
+   "label": "Yerkes-Dodson law: arousal and performance",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-06",
+    "2023-11",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2022-06-41",
+    "rc-2023-11-119",
+    "rc-2024-04-12",
+    "rc-2024-04-101"
+   ],
+   "answers": [
+    "Yerkes-Dodson law",
+    "high-demand task performance decreases with high arousal",
+    "Stress/arousal and performance"
+   ]
+  },
+  {
+   "label": "Social exchange theory (cost-benefit)",
+   "topic": "pa-social-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-101",
+    "rc-2021-06-152",
+    "rc-2025-?-141",
+    "rc-2026-07-135"
+   ],
+   "answers": [
+    "Social exchange theory",
+    "cost effective"
+   ]
+  },
+  {
+   "label": "Classical conditioning: rat/child frightened by loud noise",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-164",
+    "rc-2024-04-29",
+    "rc-2024-04-30",
+    "rc-2025-?-78"
+   ],
+   "answers": [
+    "classical conditioning",
+    "Conditioned response / conditioned stimulus (file: mouse is conditioned stimulus)",
+    "Unconditioned response",
+    "Classical conditioning"
+   ]
+  },
+  {
+   "label": "Deindividuation: person joins crowd throwing stones",
+   "topic": "pa-social-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-63",
+    "rc-2019-12-228",
+    "rc-2020-12-14",
+    "rc-2024-11-113"
+   ],
+   "answers": [
+    "deindividuation",
+    "Loss of self-awareness in groups"
+   ]
+  },
+  {
+   "label": "Unawareness of one half of body (hemisomatagnosia/hemineglect)",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-12-112",
+    "rc-2022-12-14",
+    "rc-2023-11-123"
+   ],
+   "answers": [
+    "Unawareness/unresponsiveness to one side (non-dominant parietal lesion)",
+    "hemisomatagnosia (hemineglect)",
+    "hemisomatoagnosia"
+   ]
+  },
+  {
+   "label": "Theory of mind test: reading the mind in the eyes",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2021-06"
+   ],
+   "ids": [
+    "rc-2019-12-187",
+    "rc-2020-12-17",
+    "rc-2021-06-79"
+   ],
+   "answers": [
+    "Reading the mind in the eyes",
+    "Theory of mind (false belief); reading the mind in the eyes - Baron-Cohen"
+   ]
+  },
+  {
+   "label": "Set shifting test: Wisconsin Card Sorting Test",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2023-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-147",
+    "rc-2023-11-82",
+    "rc-2026-07-72"
+   ],
+   "answers": [
+    "Wisconsin card sorting test",
+    "Wisconsin Card Sort Test",
+    "Wisconsin Card Sorting Test (or Trail Making Test B)"
+   ]
+  },
+  {
+   "label": "Working memory / short term memory test: digit span",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-16",
+    "rc-2025-?-81",
+    "rc-2026-07-70"
+   ],
+   "answers": [
+    "digit span",
+    "Digit span",
+    "Digit span (backwards)"
+   ]
+  },
+  {
+   "label": "Self-rated depression scale: BDI",
+   "topic": "pa-rating-scales",
+   "kind": "same-question",
+   "sittings": [
+    "2024-04",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-04-13",
+    "rc-2024-07-41",
+    "rc-2026-07-85"
+   ],
+   "answers": [
+    "BDI",
+    "BDI (Beck Depression Inventory)"
+   ]
+  },
+  {
+   "label": "Interviewer/clinician-rated depression scale: Hamilton (HAMD)",
+   "topic": "pa-rating-scales",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2022-12-72",
+    "rc-2023-07-86",
+    "rc-2024-07-42"
+   ],
+   "answers": [
+    "Hamilton",
+    "HAMD"
+   ]
+  },
+  {
+   "label": "Pain scale from no pain to excruciating pain (Likert)",
+   "topic": "pa-rating-scales",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2024-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-04-33",
+    "rc-2024-04-19",
+    "rc-2026-07-91"
+   ],
+   "answers": [
+    "Likert scale or Visual Analogue Scale"
+   ]
+  },
+  {
+   "label": "Likert scale features: agree/disagree, ordinal",
+   "topic": "pa-rating-scales",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-04",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2023-04-32",
+    "rc-2024-11-112",
+    "rc-2025-?-92"
+   ],
+   "answers": [
+    "Ordinal basis assumption"
+   ]
+  },
+  {
+   "label": "Multiple symptoms for years, normal tests, convinced doctors missed disease",
+   "topic": "pa-syndromes",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-51",
+    "rc-2022-06-18",
+    "rc-2022-12-24"
+   ],
+   "answers": [
+    "hypochondriasis",
+    "Somatisation (bodily distress disorder in ICD-11) per Sunday Evening file"
+   ]
+  },
+  {
+   "label": "Friend died in accident, arm paralysed without cause: conversion",
+   "topic": "pa-syndromes",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-12-119",
+    "rc-2022-06-16",
+    "rc-2022-12-23"
+   ],
+   "answers": [
+    "conversion",
+    "Conversion disorder"
+   ]
+  },
+  {
+   "label": "Bipolar I requires at least one manic episode",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-88",
+    "rc-2021-12-66",
+    "rc-2026-07-102"
+   ],
+   "answers": [
+    "One manic episode",
+    "at least one episode of mania",
+    "At least one manic episode"
+   ]
+  },
+  {
+   "label": "Modern classification system is operationalised",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-100",
+    "rc-2021-12-11",
+    "rc-2024-11-100"
+   ],
+   "answers": [
+    "Operational system",
+    "operationalized"
+   ]
+  },
+  {
+   "label": "Palinopsia: persistence of perception after stimulus",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2021-06-114",
+    "rc-2021-12-13",
+    "rc-2023-07-66"
+   ],
+   "answers": [
+    "Palinaptia (visual persistence palinopsia)",
+    "palinopsia (visual); palinaptia?more correct (tactile)",
+    "palinopsia"
+   ]
+  },
+  {
+   "label": "Mania versus hypomania difference",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2022-12-85",
+    "rc-2023-07-123",
+    "rc-2024-07-110"
+   ],
+   "answers": [
+    "need for hospitalization",
+    "1 week/7 days vs several days (<4 days)"
+   ]
+  },
+  {
+   "label": "Melancholia as ICD-11 depression qualifier",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2024-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-34",
+    "rc-2024-11-86",
+    "rc-2026-07-131"
+   ],
+   "answers": [
+    "melancholic (with melancholia; also anxiety, panic attacks, seasonal pattern)",
+    "Melancholy / Pseudodementia"
+   ]
+  },
+  {
+   "label": "Negative affectivity: ICD-11 personality disorder qualifier",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2025-?-62",
+    "rc-2026-04-74",
+    "rc-2026-07-19"
+   ],
+   "answers": [
+    "Negative affectivity",
+    "anxious, emotional instability",
+    "Negative affectivity (ICD-11)"
+   ]
+  },
+  {
+   "label": "LGI1 encephalitis: hyponatraemia, limbic",
+   "topic": "pa-syndromes",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-04",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-04-43",
+    "rc-2025-?-89",
+    "rc-2026-07-14"
+   ],
+   "answers": [
+    "LGI1",
+    "55-64",
+    "Anti-LGI1 encephalitis"
+   ]
+  },
+  {
+   "label": "Stupor: continuum from wakefulness to coma",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-149",
+    "rc-2025-?-10",
+    "rc-2026-07-128"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Total loss of identity: dissociative fugue",
+   "topic": "pa-syndromes",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-12-28",
+    "rc-2024-11-60",
+    "rc-2025-?-117"
+   ],
+   "answers": [
+    "fugue",
+    "dissociative amnesia / derealization, / depersonalization, / dissociative fugue",
+    "Dissociative fugue"
+   ]
+  },
+  {
+   "label": "Descriptive psychopathology: definition",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2025-?",
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2025-?-82",
+    "rc-2026-04-119",
+    "rc-2026-07-35"
+   ],
+   "answers": [
+    "observation and explanation",
+    "Study of abnormal experiences"
+   ]
+  },
+  {
+   "label": "Purines: true statement",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2023-04",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2022-06-46",
+    "rc-2023-04-34",
+    "rc-2023-07-70"
+   ],
+   "answers": [
+    "Aromatic",
+    "nitrogen-containing compounds"
+   ]
+  },
+  {
+   "label": "Microarray for copy number variations",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-11",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-11-108",
+    "rc-2025-?-115",
+    "rc-2026-07-44"
+   ],
+   "answers": [
+    "Microarray",
+    "mRNA (or cDNA derived from mRNA)"
+   ]
+  },
+  {
+   "label": "Hypsarrhythmia = infantile spasms/West syndrome",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2020-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-148",
+    "rc-2020-12-1",
+    "rc-2024-11-67"
+   ],
+   "answers": [
+    "infantile spasm; absence 3 regular complexes; JME multiple spike and wave",
+    "Continuous high-amplitude arrhythmic delta with multiple spikes; infantile spasms/West syndrome"
+   ]
+  },
+  {
+   "label": "3 Hz EEG = typical absence seizure",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2024-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2019-12-183",
+    "rc-2024-04-52",
+    "rc-2026-04-46"
+   ],
+   "answers": [
+    "typical absence seizure",
+    "Absence seizures",
+    "3 Hz"
+   ]
+  },
+  {
+   "label": "Sleep spindles/K complex = NREM stage 2",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-07-82",
+    "rc-2025-?-56",
+    "rc-2026-04-45"
+   ],
+   "answers": [
+    "NREM stage 2",
+    "Stage 2 nonREM",
+    "stage 2"
+   ]
+  },
+  {
+   "label": "Alzheimer's MRI: medial temporal lobe atrophy",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2019-12-64",
+    "rc-2021-06-40",
+    "rc-2024-04-50"
+   ],
+   "answers": [
+    "medial temporal lobe atrophy (entorhinal first)",
+    "Medial temporal lobe atrophy (hippocampus); entorhinal cortex first",
+    "SPECT temporal and parietal hypoperfusion; MRI hippocampus, parahippocampal gyrus, temporal amygdala"
+   ]
+  },
+  {
+   "label": "Alzheimer's pathology = beta amyloid",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-112",
+    "rc-2023-04-80",
+    "rc-2026-04-29"
+   ],
+   "answers": [
+    "beta amyloid"
+   ]
+  },
+  {
+   "label": "Prion disease = fatal familial insomnia",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-12-78",
+    "rc-2023-04-82",
+    "rc-2026-07-52"
+   ],
+   "answers": [
+    "fatal familial insomnia",
+    "Fatal familial insomnia (FFI)"
+   ]
+  },
+  {
+   "label": "HIV neurocognitive disorder on ART = neuronal loss",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-04-97",
+    "rc-2023-11-74",
+    "rc-2026-04-55"
+   ],
+   "answers": [
+    "neuronal loss"
+   ]
+  },
+  {
+   "label": "POMC is precursor of ACTH",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2023-11",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2021-06-138",
+    "rc-2023-11-19",
+    "rc-2024-07-24"
+   ],
+   "answers": [
+    "ACTH",
+    "Alpha MSH, beta-endorphin, ACTH"
+   ]
+  },
+  {
+   "label": "Oxytocin and mother-infant interaction",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-12-65",
+    "rc-2022-12-130",
+    "rc-2025-?-49"
+   ],
+   "answers": [
+    "oxytocin",
+    "Oxytocin"
+   ]
+  },
+  {
+   "label": "Anti-inflammatory cytokine (IL-10)",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-12-41",
+    "rc-2024-11-22",
+    "rc-2025-?-70"
+   ],
+   "answers": [
+    "schizophrenia = IL-2 (file gives no clear single answer)",
+    "IL10"
+   ]
+  },
+  {
+   "label": "MRS measures metabolites",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-06",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2020-12-2",
+    "rc-2021-06-117",
+    "rc-2024-11-88"
+   ],
+   "answers": [
+    "Noninvasive quantification of in vivo metabolite concentrations incl. glutamate and GABA",
+    "metabolites",
+    "Metabolites"
+   ]
+  },
+  {
+   "label": "Rat model for schizophrenia = prepulse inhibition",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-11-3",
+    "rc-2025-?-47",
+    "rc-2026-04-67"
+   ],
+   "answers": [
+    "prepulse inhibition"
+   ]
+  },
+  {
+   "label": "Rat model for Alzheimer's = Morris water maze",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-11-4",
+    "rc-2025-?-48",
+    "rc-2026-04-68"
+   ],
+   "answers": [
+    "Morris water maze"
+   ]
+  },
+  {
+   "label": "Last part of brain to mature/myelinate = anterior frontal pole",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2022-12-96",
+    "rc-2023-07-116",
+    "rc-2024-07-113"
+   ],
+   "answers": [
+    "anterior frontal pole (DLPFC, age ~25)",
+    "Anterior frontal pole"
+   ]
+  },
+  {
+   "label": "Fusiform gyrus and face recognition",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2019-12-172",
+    "rc-2024-07-44",
+    "rc-2026-07-108"
+   ],
+   "answers": [
+    "occipitotemporal junction",
+    "PCA artery; occipito-temporal junction",
+    "Fusiform gyrus"
+   ]
+  },
+  {
+   "label": "SERT and VMAT2 mechanism",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2021-06-140",
+    "rc-2021-12-85",
+    "rc-2023-07-11"
+   ],
+   "answers": [
+    "VMAT2 integral membrane ATP-dependent; serotonin transporter sodium-dependent",
+    "SERT Na/K ATPase driven; VMAT uses V-ATPase proton gradient (tetrabenazine and amphetamine VMAT inhibitors)",
+    "uses sodium and chloride gradients to drive reuptake of serotonin"
+   ]
+  },
+  {
+   "label": "Calcium triggers vesicle exocytosis",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2024-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-106",
+    "rc-2024-04-9",
+    "rc-2026-07-69"
+   ],
+   "answers": [
+    "Ionic sodium and calcium channel ???",
+    "Calcium"
+   ]
+  },
+  {
+   "label": "Duloxetine use: peripheral neuropathy / pain",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-06",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-06-3",
+    "rc-2022-06-15",
+    "rc-2023-11-115"
+   ],
+   "answers": [
+    "Peripheral neuropathy (60-120 mg)",
+    "GAD, pain disorders",
+    "used in peripheral neuropathy"
+   ]
+  },
+  {
+   "label": "MDMA acts on serotonin vesicles",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-11-36",
+    "rc-2025-?-136",
+    "rc-2026-04-5"
+   ],
+   "answers": [
+    "Serotonin vesicles",
+    "serotonin vesicles"
+   ]
+  },
+  {
+   "label": "Khat is comparable to amphetamine",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-04-46",
+    "rc-2023-11-9",
+    "rc-2026-04-2"
+   ],
+   "answers": [
+    "amphetamine"
+   ]
+  },
+  {
+   "label": "Varenicline = partial agonist at nicotinic receptor",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-12-63",
+    "rc-2024-04-79",
+    "rc-2025-?-90"
+   ],
+   "answers": [
+    "varenicline",
+    "Varenicline"
+   ]
+  },
+  {
+   "label": "Naltrexone = long-acting opioid antagonist",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-12-60",
+    "rc-2022-12-57",
+    "rc-2023-11-37"
+   ],
+   "answers": [
+    "Naltrexone",
+    "naltrexone"
+   ]
+  },
+  {
+   "label": "Eosinophilia as marker of clozapine-induced myocarditis",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-12-36",
+    "rc-2022-06-49",
+    "rc-2022-12-116"
+   ],
+   "answers": [
+    "eosinophilia"
+   ]
+  },
+  {
+   "label": "Half-life of fluoxetine (4-5 days)",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-06-43",
+    "rc-2024-11-11",
+    "rc-2025-?-63"
+   ],
+   "answers": [
+    "4-5 days",
+    "4-6 days"
+   ]
+  },
+  {
+   "label": "Half-life of citalopram",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2019-12-2",
+    "rc-2024-11-10",
+    "rc-2025-?-64"
+   ],
+   "answers": [
+    "30 hrs",
+    "1-2 days"
+   ]
+  },
+  {
+   "label": "Fluoxetine non-linear kinetics",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-120",
+    "rc-2021-12-73",
+    "rc-2024-11-8"
+   ],
+   "answers": [
+    "fluoxetine",
+    "fluoxetine, paroxetine, fluvoxamine"
+   ]
+  },
+  {
+   "label": "Desipramine is not a prodrug",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2023-04",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-103",
+    "rc-2023-04-60",
+    "rc-2024-11-107"
+   ],
+   "answers": [
+    "Desipramine",
+    "desipramine"
+   ]
+  },
+  {
+   "label": "Smoking induces CYP1A2 (clozapine/olanzapine levels)",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2022-06",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-12-10",
+    "rc-2022-06-79",
+    "rc-2026-07-6"
+   ],
+   "answers": [
+    "smoking",
+    "Smoking induces CYP1A2 (metabolises clozapine and olanzapine); CYP2D6 (Sunday Evening file)",
+    "De-induction of CYP1A2"
+   ]
+  },
+  {
+   "label": "Vortioxetine: least sexual side effects",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2022-12-50",
+    "rc-2023-07-2",
+    "rc-2024-04-56"
+   ],
+   "answers": [
+    "vortioxetine"
+   ]
+  },
+  {
+   "label": "Aripiprazole to reduce hyperprolactinaemia",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2023-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-12-108",
+    "rc-2023-04-87",
+    "rc-2025-?-6"
+   ],
+   "answers": [
+    "Aripiprazole"
+   ]
+  },
+  {
+   "label": "Buspirone mechanism (5HT1 partial agonist)",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-11-38",
+    "rc-2025-?-1",
+    "rc-2026-04-9"
+   ],
+   "answers": [
+    "partial agonist"
+   ]
+  },
+  {
+   "label": "Guanfacine indicated for ADHD / alpha-2A agonist",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2024-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-41",
+    "rc-2024-04-117",
+    "rc-2026-07-65"
+   ],
+   "answers": [
+    "ADHD",
+    "Non-stimulant, selective agonist of alpha2A-adrenergic receptors"
+   ]
+  },
+  {
+   "label": "ADHD drug causing hypotension (guanfacine/clonidine)",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-12",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2020-12-21",
+    "rc-2021-12-99",
+    "rc-2025-?-4"
+   ],
+   "answers": [
+    "Clonidine, guanfacine, atomoxetine (methylphenidate causes hypertension)",
+    "guanfacine/clonidine",
+    "guanfacine"
+   ]
+  },
+  {
+   "label": "Prazosin use: PTSD nightmares",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2024-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-39",
+    "rc-2024-04-74",
+    "rc-2026-07-64"
+   ],
+   "answers": [
+    "ADHD (as reported; editors suspect anxiety/PTSD nightmares)",
+    "PTSD (trauma-related nightmares), ADHD",
+    "PTSD"
+   ]
+  },
+  {
+   "label": "CATIE trial metabolic syndrome prevalence",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2021-06-89",
+    "rc-2022-12-143",
+    "rc-2023-07-73"
+   ],
+   "answers": [
+    "40.9% (men 36%, women 51.6%)",
+    "40-50%",
+    "40.9% (females 51.6%, males 36%)"
+   ]
+  },
+  {
+   "label": "Selective D2 antagonist (sulpiride/amisulpride)",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-12",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2020-12-16",
+    "rc-2021-12-59",
+    "rc-2022-12-5"
+   ],
+   "answers": [
+    "Sulpiride",
+    "Amisulpride",
+    "amisulpride"
+   ]
+  },
+  {
+   "label": "Quetiapine reaches peak concentration earliest",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-07-57",
+    "rc-2025-?-21",
+    "rc-2026-04-82"
+   ],
+   "answers": [
+    "quetiapine (1-2 h)",
+    "Quetiapine",
+    "quetiapine"
+   ]
+  },
+  {
+   "label": "SSRI plus tramadol causes fever (serotonin toxicity)",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-11-7",
+    "rc-2025-?-12",
+    "rc-2026-04-11"
+   ],
+   "answers": [
+    "tramadol"
+   ]
+  },
+  {
+   "label": "Levetiracetam: antiepileptic most linked to aggression",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-132",
+    "rc-2021-12-78",
+    "rc-2024-11-70"
+   ],
+   "answers": [
+    "Levetiracetam over topiramate, then vigabatrin",
+    "Levetiracetam > topiramate; vigabatrin",
+    "Levetiracetam"
+   ]
+  },
+  {
+   "label": "Tetrabenazine: VMAT2 inhibitor",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2023-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2022-06-10",
+    "rc-2023-11-91",
+    "rc-2025-?-104"
+   ],
+   "answers": [
+    "VMAT-2 inhibitor, reversible",
+    "VMAT 1 inhibitor (editor note: binds VMAT-2)",
+    "Tetrabenazine"
+   ]
+  },
+  {
+   "label": "GHB (GABA-B, half-life)",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-85",
+    "rc-2021-06-90",
+    "rc-2024-11-103"
+   ],
+   "answers": [
+    "GABA-B"
+   ]
+  },
+  {
+   "label": "Authoritative parenting: high demand and high responsiveness",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-43",
+    "rc-2023-07-130",
+    "rc-2026-04-20"
+   ],
+   "answers": [
+    "authoritative"
+   ]
+  },
+  {
+   "label": "Three mountain task shows egocentrism",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2024-04",
+    "2024-07",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-04-39",
+    "rc-2024-07-21",
+    "rc-2026-04-87"
+   ],
+   "answers": [
+    "egocentrism (pre-operational, 2-7)",
+    "egocentrism"
+   ]
+  },
+  {
+   "label": "Piaget stage at which a child understands another child's pain",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2023-04-121",
+    "rc-2023-11-63",
+    "rc-2024-11-55"
+   ],
+   "answers": [
+    "concrete operational",
+    "Preoperational"
+   ]
+  },
+  {
+   "label": "Stranger anxiety develops at about 9 months",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-04-108",
+    "rc-2025-?-87",
+    "rc-2026-04-126"
+   ],
+   "answers": [
+    "9 mths",
+    "9 months"
+   ]
+  },
+  {
+   "label": "Adolescent brain maturation: pruning, myelination, white matter up",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-47",
+    "rc-2025-?-103",
+    "rc-2026-07-66"
+   ],
+   "answers": [
+    "Increase in pruning and synapsis (decrease grey matter, increase white matter)",
+    "Synaptic pruning and increase in myelination",
+    "Increase in white matter volume and decrease in gray matter volume (file: requires options)"
+   ]
+  },
+  {
+   "label": "Korsakoff syndrome memory changes",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-04",
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-04-89",
+    "rc-2025-?-138",
+    "rc-2026-07-130"
+   ],
+   "answers": [
+    "Episodic",
+    "Profound anterograde amnesia"
+   ]
+  },
+  {
+   "label": "Eysenck personality theory: biological basis",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-218",
+    "rc-2021-06-177",
+    "rc-2024-11-51"
+   ],
+   "answers": [
+    "biological basis to personality"
+   ]
+  },
+  {
+   "label": "Rat avoiding shocked area = avoidance learning",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-77",
+    "rc-2022-12-93",
+    "rc-2024-11-104"
+   ],
+   "answers": [
+    "Avoidance learning",
+    "avoidance learning"
+   ]
+  },
+  {
+   "label": "Superstition theory of OCD",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2022-12-140",
+    "rc-2023-07-132",
+    "rc-2023-11-158"
+   ],
+   "answers": [
+    "mental processes by which threatening thoughts are removed (M: likely)",
+    "mental processes by which threatening thoughts are removed (editors' likely answer)"
+   ]
+  },
+  {
+   "label": "Gregory: perception as inference from past experience",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-07-111",
+    "rc-2025-?-120",
+    "rc-2026-04-92"
+   ],
+   "answers": [
+    "perception depends on making inferences from past experiences",
+    "A hypothesis, making inferences from sensory data based on past experiences"
+   ]
+  },
+  {
+   "label": "Modelling / observational (social) learning",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-04",
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-04-98",
+    "rc-2024-07-23",
+    "rc-2026-07-118"
+   ],
+   "answers": [
+    "modelling/identification",
+    "Modelling",
+    "Modeling"
+   ]
+  },
+  {
+   "label": "Pharmacokinetic changes in older adults (distribution, absorption)",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-52",
+    "rc-2019-12-146",
+    "rc-2019-12-225",
+    "rc-2023-11-142",
+    "rc-2023-11-156"
+   ],
+   "answers": [
+    "increased volume of distribution"
+   ]
+  },
+  {
+   "label": "Retrospective/retroactive falsification of memory",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2019-12-215",
+    "rc-2023-07-63",
+    "rc-2023-07-64",
+    "rc-2023-07-117"
+   ],
+   "answers": [
+    "Retrospective falsification",
+    "information that aligns with a previously held belief",
+    "retroactive falsification (new information interrupts old memories)"
+   ]
+  },
+  {
+   "label": "Not a variant of FTD (PSP / Huntington)",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2019-12-16",
+    "rc-2019-12-48",
+    "rc-2019-12-199",
+    "rc-2021-12-49"
+   ],
+   "answers": [
+    "PSP or Huntington?",
+    "PSP?",
+    "Huntington?"
+   ]
+  },
+  {
+   "label": "MDMA/methamphetamine and serotonin vesicles",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2023-07-8",
+    "rc-2023-07-9",
+    "rc-2023-11-58",
+    "rc-2023-11-140"
+   ],
+   "answers": [
+    "serotonin vesicles; blocks SERT"
+   ]
+  },
+  {
+   "label": "Carbamazepine adverse effects (leucopenia/blood dyscrasia)",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2021-06-67",
+    "rc-2021-06-141",
+    "rc-2021-06-164",
+    "rc-2021-12-35"
+   ],
+   "answers": [
+    "Leucopenia (agranulocytosis with clozapine)",
+    "blood dyscrasia? hair loss?; neurological: confusion, drowsiness, ataxia, nystagmus; CV: tachycardia, hypotension, wide QRS",
+    "Leucopenia, thrombocytopaenia, eosinophilia"
+   ]
+  },
+  {
+   "label": "Rogerian therapy with Beck's CBT = motivational interviewing / person-centred",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-58",
+    "rc-2021-06-97",
+    "rc-2021-06-167",
+    "rc-2026-07-81"
+   ],
+   "answers": [
+    "Cognitive therapy ???",
+    "Person-centered therapy",
+    "motivational interview?",
+    "Motivational interviewing"
+   ]
+  },
+  {
+   "label": "Oneiroid state: dream-like state",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-27",
+    "rc-2019-12-214",
+    "rc-2023-11-51"
+   ],
+   "answers": [
+    "oneiroid state",
+    "dream-like state",
+    "oneiroid"
+   ]
+  },
+  {
+   "label": "EMI: antisocial and schizoid personality disorder features",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2019-12-29",
+    "rc-2023-11-47",
+    "rc-2023-11-48"
+   ],
+   "answers": [
+    "Antisocial; schizoid; borderline",
+    "antisocial",
+    "schizoid"
+   ]
+  },
+  {
+   "label": "Narcissistic personality disorder: inflated sense of self",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2019-12-30",
+    "rc-2019-12-221",
+    "rc-2021-12-46"
+   ],
+   "answers": [
+    "narcissistic",
+    "avoidant; narcissistic; borderline"
+   ]
+  },
+  {
+   "label": "Ganser syndrome: dissociative disorder",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2021-06-122",
+    "rc-2021-06-171",
+    "rc-2021-12-88"
+   ],
+   "answers": [
+    "Dissociative state",
+    "dissociative disorder"
+   ]
+  },
+  {
+   "label": "Paramimia / parathymia: incongruence of gesture, action and affect",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-139",
+    "rc-2022-12-18",
+    "rc-2022-12-19"
+   ],
+   "answers": [
+    "paramimia?",
+    "paramimia",
+    "parathymia"
+   ]
+  },
+  {
+   "label": "Separation anxiety and selective mutism features",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-11",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-11-41",
+    "rc-2024-04-64",
+    "rc-2024-04-65"
+   ],
+   "answers": [
+    "Situation Specific"
+   ]
+  },
+  {
+   "label": "Bright light therapy / circadian rhythm",
+   "topic": "pa-neurophysiology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-04",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2023-04-71",
+    "rc-2023-11-112",
+    "rc-2023-11-113"
+   ],
+   "answers": [
+    "circadian rhythm",
+    "suprachiasmatic nucleus"
+   ]
+  },
+  {
+   "label": "Efferents from cortex = pyramidal cells",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-130",
+    "rc-2021-06-158",
+    "rc-2022-12-33"
+   ],
+   "answers": [
+    "Pyramidal cells - corticospinal tract",
+    "pyramidal cells",
+    "pyramidal neurons"
+   ]
+  },
+  {
+   "label": "Direct current via saline pads = tDCS",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-134",
+    "rc-2021-06-170",
+    "rc-2022-12-37"
+   ],
+   "answers": [
+    "Transcranial direct current stimulation",
+    "tDCS",
+    "transcranial direct current stimulation"
+   ]
+  },
+  {
+   "label": "Preoptic area thermoregulation = hypothalamus",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-11-126",
+    "rc-2024-04-32",
+    "rc-2024-04-77"
+   ],
+   "answers": [
+    "hypothalamus",
+    "Preoptic nucleus of hypothalamus"
+   ]
+  },
+  {
+   "label": "GABA-A alpha subunits (sedation/memory)",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-11-40",
+    "rc-2023-11-77",
+    "rc-2026-04-111"
+   ],
+   "answers": [
+    "alpha 1",
+    "alpha 5"
+   ]
+  },
+  {
+   "label": "Action potential depolarisation/hyperpolarisation ions",
+   "topic": "pa-neurophysiology",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-04-55",
+    "rc-2025-?-54",
+    "rc-2025-?-55"
+   ],
+   "answers": [
+    "K+ out for hyperpolarisation; Na+ influx for depolarisation; resting -70mV",
+    "Na+ into the cell"
+   ]
+  },
+  {
+   "label": "Brain region prominent/active in teenagers",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2022-06-51",
+    "rc-2023-04-25",
+    "rc-2023-04-42"
+   ],
+   "answers": [
+    "Dorsolateral prefrontal cortex (Sunday Evening file)",
+    "limbic system, amygdala (editors unsure; dorsomedial/dorsolateral PFC alternatives)"
+   ]
+  },
+  {
+   "label": "Lurasidone: take with food (calories) increases absorption",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2020-12"
+   ],
+   "ids": [
+    "rc-2019-12-13",
+    "rc-2019-12-155",
+    "rc-2020-12-33"
+   ],
+   "answers": [
+    "Take with food (at least 350 kcal); food increases absorption",
+    "Lurasidone (asenapine buccal; benzo without food)"
+   ]
+  },
+  {
+   "label": "Drug with half-life more than 50 hours = aripiprazole",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2019-12-69",
+    "rc-2019-12-229",
+    "rc-2022-12-1"
+   ],
+   "answers": [
+    "flupentixol?",
+    "Aripiprazole (Sunday Evening file)",
+    "aripiprazole"
+   ]
+  },
+  {
+   "label": "AESOP: nine-fold schizophrenia risk in African-Caribbeans = immigration",
+   "topic": "pa-sociocultural-psychiatry",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2019-12-50",
+    "rc-2019-12-220",
+    "rc-2022-12-98"
+   ],
+   "answers": [
+    "immigration"
+   ]
+  },
+  {
+   "label": "Frontal lobe is the last brain area to mature",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2021-06-46",
+    "rc-2021-06-157",
+    "rc-2026-07-34"
+   ],
+   "answers": [
+    "Frontal lobe",
+    "anterior part of frontal lobe",
+    "Anterior pole of frontal lobe (prefrontal cortex)"
+   ]
+  },
+  {
+   "label": "Prosopagnosia: inability to recognise faces",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2023-11-125",
+    "rc-2024-11-15"
+   ],
+   "answers": [
+    "prosopagnosia"
+   ]
+  },
+  {
+   "label": "Motor speed assessment: finger tapping",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-78",
+    "rc-2026-07-71"
+   ],
+   "answers": [
+    "Finger tapping (or Grooved Pegboard)"
+   ]
+  },
+  {
+   "label": "Holmes and Rahe life event scale",
+   "topic": "pa-rating-scales",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2021-12-118",
+    "rc-2023-11-53"
+   ],
+   "answers": [
+    "death of spouse (100), divorce (73), marital separation (65), death of close family/jail (63)",
+    "friendship breakdown"
+   ]
+  },
+  {
+   "label": "Callous unemotional trait",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-198",
+    "rc-2024-11-94"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Convinced he has cancer despite negative tests: hypochondriasis",
+   "topic": "pa-syndromes",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2021-06-50",
+    "rc-2021-12-5"
+   ],
+   "answers": [
+    "Delusional disorder (Hypochondriasis)",
+    "hypochondriasis"
+   ]
+  },
+  {
+   "label": "Son lost father, acute stress reaction",
+   "topic": "pa-syndromes",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-06"
+   ],
+   "ids": [
+    "rc-2019-12-108",
+    "rc-2021-06-64"
+   ],
+   "answers": [
+    "acute stress reaction",
+    "Acute stress reaction"
+   ]
+  },
+  {
+   "label": "Neurasthenia classification: other neurotic disorders",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2021-06-87",
+    "rc-2021-12-87"
+   ],
+   "answers": [
+    "Other neurotic disorders",
+    "ICD-10 other neurotic disorders; ICD-11 replaced by bodily distress disorder"
+   ]
+  },
+  {
+   "label": "Categorical classification: advantages (epidemiological data)",
+   "topic": "pa-classification",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2022-12-153",
+    "rc-2023-07-51"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Pareidolia: seeing a face in cloud/sky",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2020-12-27",
+    "rc-2021-12-105"
+   ],
+   "answers": [
+    "pareidolia",
+    "pareidolia (illusion)"
+   ]
+  },
+  {
+   "label": "Circumstantiality: teaching hospital as young doctors' training place",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2020-12",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2020-12-36",
+    "rc-2021-12-27"
+   ],
+   "answers": [
+    "Circumstantiality",
+    "circumstantiality"
+   ]
+  },
+  {
+   "label": "Waxy flexibility",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-127",
+    "rc-2022-12-127"
+   ],
+   "answers": [
+    "waxy flexibility"
+   ]
+  },
+  {
+   "label": "ICD-11 intellectual disability: 2 SD below mean",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2022-12-141",
+    "rc-2023-07-122"
+   ],
+   "answers": [
+    "2 SD or more below mean"
+   ]
+  },
+  {
+   "label": "Prolonged grief disorder: more than 6 months",
+   "topic": "pa-classification",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-07-33",
+    "rc-2026-04-59"
+   ],
+   "answers": [
+    "more than 6 months"
+   ]
+  },
+  {
+   "label": "Autoimmune encephalitis: CSF antibody as best marker",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2022-12-152",
+    "rc-2024-04-66"
+   ],
+   "answers": [
+    "CSF antibody"
+   ]
+  },
+  {
+   "label": "UMN lesion gait: scissoring/spastic",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-04-39",
+    "rc-2024-04-84"
+   ],
+   "answers": [
+    "spastic/scissor",
+    "scissoring & stiff legged (cerebral palsy)"
+   ]
+  },
+  {
+   "label": "Normal pressure hydrocephalus gait: magnetic/apraxic",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2023-04-40",
+    "rc-2026-04-75"
+   ],
+   "answers": [
+    "magnetic",
+    "apraxic gait"
+   ]
+  },
+  {
+   "label": "Parkinson's resting tremor frequency",
+   "topic": "pa-clinical-examination",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2023-11-95",
+    "rc-2024-11-78"
+   ],
+   "answers": [
+    "parkinsonism 4 to 6 Hz"
+   ]
+  },
+  {
+   "label": "Musical hallucinations",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-04-62",
+    "rc-2026-04-62"
+   ],
+   "answers": [
+    "Presence of some auditory perceptual impairment (PS)"
+   ]
+  },
+  {
+   "label": "Autoscopy: seeing one's own double",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2026-04-63",
+    "rc-2026-07-59"
+   ],
+   "answers": [
+    "Autoscopy"
+   ]
+  },
+  {
+   "label": "Out of body experience",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2026-04-64",
+    "rc-2026-07-60"
+   ],
+   "answers": [
+    "Out of body experience"
+   ]
+  },
+  {
+   "label": "Clonus: serotonin syndrome",
+   "topic": "pa-syndromes",
+   "kind": "same-question",
+   "sittings": [
+    "2026-04",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2026-04-83",
+    "rc-2026-07-51"
+   ],
+   "answers": [
+    "clonus",
+    "Serotonin syndrome"
+   ]
+  },
+  {
+   "label": "Metamorphopsia: image upside down",
+   "topic": "pa-descriptive-psychopathology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-11-122",
+    "rc-2026-07-76"
+   ],
+   "answers": [
+    "metamorphopsia",
+    "Metamorphopsia (file hedges; also mentions visual inversion)"
+   ]
+  },
+  {
+   "label": "Attenuated psychosis: magical thinking, perceptual disturbance",
+   "topic": "pa-syndromes",
+   "kind": "same-concept",
+   "sittings": [
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2025-?-111",
+    "rc-2026-07-26"
+   ],
+   "answers": [
+    "Magical thinking and perceptual disturbances"
+   ]
+  },
+  {
+   "label": "Scale for severity of psychosis: BPRS",
+   "topic": "pa-rating-scales",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-07-31",
+    "rc-2026-07-114"
+   ],
+   "answers": [
+    "BPRS",
+    "BPRS (or PANSS)"
+   ]
+  },
+  {
+   "label": "Social phobia scenario: fear of public performance/party",
+   "topic": "pa-syndromes",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2021-06-63",
+    "rc-2021-12-116"
+   ],
+   "answers": [
+    "Social phobia?",
+    "social phobia"
+   ]
+  },
+  {
+   "label": "Anorexia purging/vomiting: physical findings",
+   "topic": "pa-syndromes",
+   "kind": "same-concept",
+   "sittings": [
+    "2020-12",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2020-12-24",
+    "rc-2023-04-23"
+   ],
+   "answers": [
+    "metabolic acidosis (vomiting causes alkalosis)",
+    "parotid swelling (editor note: in vomiting type)"
+   ]
+  },
+  {
+   "label": "Trisomy 18 = Edwards syndrome",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-12-90",
+    "rc-2022-12-31"
+   ],
+   "answers": [
+    "Edward syndrome",
+    "Edwards syndrome"
+   ]
+  },
+  {
+   "label": "Interactions influence each other = circular causality",
+   "topic": "pa-other",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2023-04-103",
+    "rc-2023-07-93"
+   ],
+   "answers": [
+    "circular causality"
+   ]
+  },
+  {
+   "label": "Alcohol cue exposure therapy",
+   "topic": "pa-other",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2022-12-16",
+    "rc-2023-04-105"
+   ],
+   "answers": [
+    "cue exposure",
+    "cue therapy"
+   ]
+  },
+  {
+   "label": "Rogerian approach / motivational interviewing",
+   "topic": "pa-other",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2022-12-15",
+    "rc-2023-04-104"
+   ],
+   "answers": [
+    "motivational interviewing"
+   ]
+  },
+  {
+   "label": "Advantage of prospective birth cohort: no recall/retrospective bias",
+   "topic": "pa-other",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2022-12-128",
+    "rc-2023-11-15"
+   ],
+   "answers": [
+    "no retrospective bias",
+    "minimises recall bias"
+   ]
+  },
+  {
+   "label": "CATIE: olanzapine lowest dropout rate",
+   "topic": "pa-other",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-90",
+    "rc-2025-?-86"
+   ],
+   "answers": [
+    "olanzapine lowest dropout rate"
+   ]
+  },
+  {
+   "label": "Alpha synuclein gene = SNCA",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-07-25",
+    "rc-2024-04-40"
+   ],
+   "answers": [
+    "SNCA"
+   ]
+  },
+  {
+   "label": "Multifactorial inheritance: autism",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-16",
+    "rc-2022-12-27"
+   ],
+   "answers": [
+    "autism (M: autism and schizophrenia)"
+   ]
+  },
+  {
+   "label": "DiGeorge: schizophrenia-like phenotype",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2023-04-76",
+    "rc-2025-?-28"
+   ],
+   "answers": [
+    "Di-George"
+   ]
+  },
+  {
+   "label": "Tau in familial frontotemporal dementia",
+   "topic": "pa-molecular-genetics",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-7",
+    "rc-2022-12-28"
+   ],
+   "answers": [
+    "Tau negative, ubiquitin positive"
+   ]
+  },
+  {
+   "label": "Neurotransmitter with fast excitatory effect = glutamate",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2020-12"
+   ],
+   "ids": [
+    "rc-2019-12-227",
+    "rc-2020-12-32"
+   ],
+   "answers": [
+    "glutamate"
+   ]
+  },
+  {
+   "label": "EEG in delirium tremens = fast beta activity",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2019-12-55",
+    "rc-2021-12-1"
+   ],
+   "answers": [
+    "increase in beta fast activity",
+    "Hyperactive trace, fast"
+   ]
+  },
+  {
+   "label": "EEG normal in which condition (interictal/frontal lobe epilepsy)",
+   "topic": "pa-neurophysiology",
+   "kind": "same-concept",
+   "sittings": [
+    "2020-12",
+    "2021-06"
+   ],
+   "ids": [
+    "rc-2020-12-18",
+    "rc-2021-06-145"
+   ],
+   "answers": [
+    "inter-ictal",
+    "autosomal dominant frontal lobe epilepsy (interictal EEG often normal)"
+   ]
+  },
+  {
+   "label": "Sleep stage with >50% delta waves",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2021-06-30",
+    "rc-2024-11-42"
+   ],
+   "answers": [
+    "NREM 4"
+   ]
+  },
+  {
+   "label": "REM sleep neurotransmitter = ACh",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2022-12-67",
+    "rc-2026-04-14"
+   ],
+   "answers": [
+    "ACh (M: adrenaline, ACh)",
+    "ACh"
+   ]
+  },
+  {
+   "label": "Sleep terrors (child waking agitated, cannot recall)",
+   "topic": "pa-neurophysiology",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-06",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2022-06-17",
+    "rc-2026-07-116"
+   ],
+   "answers": [
+    "Sleep terrors: sudden arousal from slow wave sleep with piercing scream, autonomic and fear manifestations"
+   ]
+  },
+  {
+   "label": "Narcolepsy = loss of orexin neurons",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2019-12-142",
+    "rc-2023-07-47"
+   ],
+   "answers": [
+    "orexin/hypocretin; narcolepsy = loss of orexin-secreting neurons",
+    "narcolepsy"
+   ]
+  },
+  {
+   "label": "Orexin synthesized/released in lateral hypothalamus",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-27",
+    "rc-2025-?-46"
+   ],
+   "answers": [
+    "Lateral hypothalamus"
+   ]
+  },
+  {
+   "label": "DAT scan in Lewy body dementia",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2019-12-18",
+    "rc-2024-04-86"
+   ],
+   "answers": [
+    "differentiates",
+    "DAT scan differentiates DLB from AD; SPECT differentiates DLB from Parkinson's"
+   ]
+  },
+  {
+   "label": "Alzheimer's CSF biomarkers",
+   "topic": "pa-neuropathology",
+   "kind": "same-concept",
+   "sittings": [
+    "2025-?",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2025-?-40",
+    "rc-2026-07-31"
+   ],
+   "answers": [
+    "Decreased CSF Abeta42 and increased CSF total tau/phosphorylated tau"
+   ]
+  },
+  {
+   "label": "CTE pathology = tau",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-65",
+    "rc-2025-?-84"
+   ],
+   "answers": [
+    "Tau Proteins",
+    "Hyperphosphorylated tau"
+   ]
+  },
+  {
+   "label": "Insulin-like growth factor secreted by liver",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-53",
+    "rc-2026-04-26"
+   ],
+   "answers": [
+    "Insulin growth factor",
+    "liver"
+   ]
+  },
+  {
+   "label": "Serotonin precursor (tryptophan/5-HTP)",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2021-06-116",
+    "rc-2021-12-92"
+   ],
+   "answers": [
+    "L-tryptophan",
+    "5-hydroxytryptophan"
+   ]
+  },
+  {
+   "label": "Serotonin gives melatonin",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-07-25",
+    "rc-2026-04-78"
+   ],
+   "answers": [
+    "melatonin"
+   ]
+  },
+  {
+   "label": "MAO degrades dopamine presynaptically",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-128",
+    "rc-2022-12-70"
+   ],
+   "answers": [
+    "MAO (MAO-B more?)",
+    "MAO"
+   ]
+  },
+  {
+   "label": "DBS in OCD targets anterior limb of internal capsule",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2021-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2021-12-84",
+    "rc-2023-07-100"
+   ],
+   "answers": [
+    "hiPSC brain in a dish; MECP2 in Rett; optogenetics blue light channelrhodopsin; rTMS headache; DBS OCD anterior limb internal capsule; 10 Hz TMS depression",
+    "anterior limb of internal capsule"
+   ]
+  },
+  {
+   "label": "Brain organoid limitation: lack of vasculature",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2025-?-102",
+    "rc-2026-04-40"
+   ],
+   "answers": [
+    "Lack vasculature",
+    "absence of vascular system"
+   ]
+  },
+  {
+   "label": "Forced swim test = depression model",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2023-04-64",
+    "rc-2023-11-6"
+   ],
+   "answers": [
+    "depression (learned helplessness)",
+    "forced swim test"
+   ]
+  },
+  {
+   "label": "Frontal lobe damage = perseveration",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-question",
+   "sittings": [
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-04-85",
+    "rc-2025-?-139"
+   ],
+   "answers": [
+    "Perseveration"
+   ]
+  },
+  {
+   "label": "Brain changes in childhood abuse",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-concept",
+   "sittings": [
+    "2022-12",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2022-12-151",
+    "rc-2023-11-92"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Neurotransmitter improving cognition in schizophrenia",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-07-43",
+    "rc-2024-04-20"
+   ],
+   "answers": [
+    "dopamine"
+   ]
+  },
+  {
+   "label": "Parkinson tremor 4-6 Hz",
+   "topic": "pa-neurophysiology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-68",
+    "rc-2022-12-87"
+   ],
+   "answers": [
+    "Parkinson 4-6 Hz (file also says 2-4); cerebellar intentional 2-3 Hz",
+    "4-6 Hz"
+   ]
+  },
+  {
+   "label": "GABA acts via ligand-gated chloride channel",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2021-06-160",
+    "rc-2026-04-129"
+   ],
+   "answers": [
+    "Ligand-gated chloride channel",
+    "chloride"
+   ]
+  },
+  {
+   "label": "Muscarinic receptor location",
+   "topic": "pa-neurochemistry",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2023-07-103",
+    "rc-2023-11-139"
+   ],
+   "answers": [
+    "post-synaptic parasympathetic (peripheral parasympathetic system)"
+   ]
+  },
+  {
+   "label": "Purines (ATP)",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-73",
+    "rc-2025-?-53"
+   ],
+   "answers": [
+    "ATP"
+   ]
+  },
+  {
+   "label": "Williams syndrome neuroimaging",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-74",
+    "rc-2025-?-135"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Reward prediction error",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-101",
+    "rc-2025-?-113"
+   ],
+   "answers": [
+    "Expected reward"
+   ]
+  },
+  {
+   "label": "Mentalisation in adolescence",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2023-04-29",
+    "rc-2024-11-54"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Bipolar neuroimaging findings",
+   "topic": "pa-applied-neurosciences",
+   "kind": "same-concept",
+   "sittings": [
+    "2024-04",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2024-04-94",
+    "rc-2024-07-37"
+   ],
+   "answers": [
+    "Increased grey matter thickness with lithium",
+    "Higher bilateral ventricular volume; lower hippocampal, amygdala, thalamic volume"
+   ]
+  },
+  {
+   "label": "HPA axis dysregulation in depression/relapse",
+   "topic": "pa-neurochemistry",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2019-12-84",
+    "rc-2024-11-85"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Parietal seizure aura = somatosensory",
+   "topic": "pa-neuropathology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2021-06-32",
+    "rc-2021-12-98"
+   ],
+   "answers": [
+    "Somatosensory",
+    "somatosensory (tingling, numbness, Jacksonian march)"
+   ]
+  },
+  {
+   "label": "Blood-brain barrier component",
+   "topic": "pa-neuroanatomy",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-26",
+    "rc-2026-07-101"
+   ],
+   "answers": [
+    "APP (editors: choose P-glycoprotein if offered)",
+    "Tight junctions of cerebral endothelial cells, astrocytic end-feet, pericytes"
+   ]
+  },
+  {
+   "label": "Duloxetine class = SNRI",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2021-06"
+   ],
+   "ids": [
+    "rc-2019-12-10",
+    "rc-2021-06-174"
+   ],
+   "answers": [
+    "SNRI",
+    "SNRI (not in options)"
+   ]
+  },
+  {
+   "label": "Craving is last nicotine withdrawal symptom to go",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-84",
+    "rc-2025-?-143"
+   ],
+   "answers": [
+    "Craving"
+   ]
+  },
+  {
+   "label": "Naloxone combined with buprenorphine to deter injection misuse",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2022-12-154",
+    "rc-2023-07-112"
+   ],
+   "answers": [
+    "cannot be used IV",
+    "reduces chances of misuse (severe withdrawal if injected)"
+   ]
+  },
+  {
+   "label": "Sertraline has an active metabolite",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2021-06-188",
+    "rc-2023-04-58"
+   ],
+   "answers": [
+    "sertraline"
+   ]
+  },
+  {
+   "label": "Number of half-lives to eliminate a drug",
+   "topic": "pa-pharmacokinetics",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2023-04-120",
+    "rc-2025-?-23"
+   ],
+   "answers": [
+    "5 (96%<)"
+   ]
+  },
+  {
+   "label": "Disulfiram inhibits aldehyde dehydrogenase",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2022-12-9",
+    "rc-2023-04-110"
+   ],
+   "answers": [
+    "disulfiram",
+    "aldehyde dehydrogenase"
+   ]
+  },
+  {
+   "label": "Bupropion mechanism = NDRI / nicotinic antagonist",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-07-5",
+    "rc-2026-07-22"
+   ],
+   "answers": [
+    "NDRI (norepinephrine-dopamine reuptake inhibitor) and nicotinic acetylcholine receptor antagonist",
+    "Norepinephrine and dopamine reuptake inhibitor (NDRI)"
+   ]
+  },
+  {
+   "label": "Treatment of REM sleep behaviour disorder",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-07-46",
+    "rc-2024-04-67"
+   ],
+   "answers": []
+  },
+  {
+   "label": "DORAs used for insomnia",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2024-04",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2024-04-4",
+    "rc-2024-07-74"
+   ],
+   "answers": [
+    "Insomnia"
+   ]
+  },
+  {
+   "label": "EPS at 80% D2 occupancy",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2022-12-142",
+    "rc-2023-07-96"
+   ],
+   "answers": [
+    "0.8"
+   ]
+  },
+  {
+   "label": "Dosulepin high fatal toxicity index",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-07-43",
+    "rc-2026-04-43"
+   ],
+   "answers": [
+    "Dosulepin 2.7, amitriptyline 12, doxepin 22",
+    "dosulepin"
+   ]
+  },
+  {
+   "label": "Serotonin syndrome vs NMS: clonus",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-11-92",
+    "rc-2025-?-106"
+   ],
+   "answers": [
+    "Clonus / Raised CK",
+    "Clonus"
+   ]
+  },
+  {
+   "label": "Sleep paralysis as drug side effect",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2025-?",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2025-?-13",
+    "rc-2026-04-137"
+   ],
+   "answers": [
+    "SSRIs"
+   ]
+  },
+  {
+   "label": "Anorexia: laxative abuse findings",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-04-89",
+    "rc-2025-?-52"
+   ],
+   "answers": [
+    "metabolic acidosis",
+    "Colonic slowing"
+   ]
+  },
+  {
+   "label": "Anorexia/bulimia: vomiting findings",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2024-04",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2024-04-90",
+    "rc-2025-?-51"
+   ],
+   "answers": [
+    "metabolic alkalosis",
+    "Parotid swelling"
+   ]
+  },
+  {
+   "label": "Antiepileptic and autism risk",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2023-04-19",
+    "rc-2024-11-39"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Mirtazapine high H1 affinity (central H1)",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2023-04-68",
+    "rc-2023-11-64"
+   ],
+   "answers": [
+    "mirtazapine, TCAs",
+    "mirtazapine"
+   ]
+  },
+  {
+   "label": "Pindolol augmentation in depression (5HT1A)",
+   "topic": "pa-basic-pharmacology",
+   "kind": "same-concept",
+   "sittings": [
+    "2023-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-07-40",
+    "rc-2026-07-97"
+   ],
+   "answers": [
+    "depression (augmentation, 5HT1A antagonism)",
+    "5-HT1A autoreceptor blockade"
+   ]
+  },
+  {
+   "label": "Agomelatine mechanism (MT agonist / 5HT2C antagonist)",
+   "topic": "pa-pharmacodynamics",
+   "kind": "same-question",
+   "sittings": [
+    "2022-06",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2022-06-28",
+    "rc-2023-04-67"
+   ],
+   "answers": [
+    "Agonist at MT1 and MT2, antagonist at 5HT2C"
+   ]
+  },
+  {
+   "label": "NMS after starting haloperidol",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2019-12-235",
+    "rc-2022-12-62"
+   ],
+   "answers": [
+    "NMS",
+    "haloperidol"
+   ]
+  },
+  {
+   "label": "SSRI with NSAIDs: bleeding/caution",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-06"
+   ],
+   "ids": [
+    "rc-2021-06-142",
+    "rc-2022-06-48"
+   ],
+   "answers": [
+    "naproxen; MAOIs, triptans, TCAs, fentanyl, lithium, tramadol, buspirone, amphetamine, St John's wort",
+    "NICE: do not normally offer SSRIs with NSAIDs, co-prescribe PPI if given"
+   ]
+  },
+  {
+   "label": "Bupropion least risk of manic switch",
+   "topic": "pa-adverse-drug-effects",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2024-07"
+   ],
+   "ids": [
+    "rc-2019-12-1",
+    "rc-2024-07-32"
+   ],
+   "answers": [
+    "bupropion, fluvoxamine, sertraline (as written)",
+    "Bupropion"
+   ]
+  },
+  {
+   "label": "Fear of heights treated by implosion",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2022-12"
+   ],
+   "ids": [
+    "rc-2021-06-92",
+    "rc-2022-12-156"
+   ],
+   "answers": [
+    "Implosion",
+    "implosion"
+   ]
+  },
+  {
+   "label": "Four parenting styles (authoritarian, authoritative, permissive, uninvolved)",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2019-12",
+    "2021-12"
+   ],
+   "ids": [
+    "rc-2019-12-128",
+    "rc-2021-12-103"
+   ],
+   "answers": [
+    "authoritarian, authoritative, permissive, uninvolved",
+    "authoritarian, authoritative, permissive, uninvolved/neglectful"
+   ]
+  },
+  {
+   "label": "Child asks mum about having a baby brother = formal operational",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2021-06",
+    "2025-?"
+   ],
+   "ids": [
+    "rc-2021-06-118",
+    "rc-2025-?-108"
+   ],
+   "answers": [
+    "Formal operational??",
+    "Formal (hypothetical testing)"
+   ]
+  },
+  {
+   "label": "Harlow rhesus monkey experiment = attachment theory",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2024-11"
+   ],
+   "ids": [
+    "rc-2024-07-61",
+    "rc-2024-11-56"
+   ],
+   "answers": [
+    "attachment theory",
+    "Attachment"
+   ]
+  },
+  {
+   "label": "Sequence of planets = semantic memory",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-11-94",
+    "rc-2024-04-93"
+   ],
+   "answers": [
+    "semantic memory",
+    "planet names"
+   ]
+  },
+  {
+   "label": "Rosenthal effect = Pygmalion effect",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2024-04",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-04-102",
+    "rc-2026-04-109"
+   ],
+   "answers": [
+    "Pygmalion effect"
+   ]
+  },
+  {
+   "label": "Substance treatment for helpless, powerless people (12-step)",
+   "topic": "pa-basic-psychology",
+   "kind": "same-concept",
+   "sittings": [
+    "2021-06",
+    "2022-06"
+   ],
+   "ids": [
+    "rc-2021-06-60",
+    "rc-2022-06-12"
+   ],
+   "answers": [
+    "12-step program",
+    "Learned Helplessness, CBT"
+   ]
+  },
+  {
+   "label": "Power type: patient follows doctor's advice",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2023-04-7",
+    "rc-2023-07-61"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Power type: campaign on harms of smoking",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2023-04-8",
+    "rc-2023-07-62"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Bullying: seen more at primary to secondary transition",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-04"
+   ],
+   "ids": [
+    "rc-2022-12-110",
+    "rc-2023-04-50"
+   ],
+   "answers": [
+    "seen more in transition from primary to secondary school"
+   ]
+  },
+  {
+   "label": "Alcohol dependence in young people: early onset predicts dependence",
+   "topic": "pa-sociocultural-psychiatry",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2023-04-78",
+    "rc-2023-07-89"
+   ],
+   "answers": []
+  },
+  {
+   "label": "Aggression reduced by observing aggressor punished",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2022-12",
+    "2023-07"
+   ],
+   "ids": [
+    "rc-2022-12-111",
+    "rc-2023-07-104"
+   ],
+   "answers": [
+    "observing the aggressor receive punishment"
+   ]
+  },
+  {
+   "label": "Prejudice reduced by more information/contact",
+   "topic": "pa-social-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-04",
+    "2024-04"
+   ],
+   "ids": [
+    "rc-2023-04-35",
+    "rc-2024-04-104"
+   ],
+   "answers": [
+    "more information or contact with other cultures"
+   ]
+  },
+  {
+   "label": "Bereavement in children",
+   "topic": "pa-human-development",
+   "kind": "same-question",
+   "sittings": [
+    "2023-07",
+    "2023-11"
+   ],
+   "ids": [
+    "rc-2023-07-107",
+    "rc-2023-11-111"
+   ],
+   "answers": [
+    "more in boys than girls"
+   ]
+  },
+  {
+   "label": "James-Lange theory of emotion",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-07-69",
+    "rc-2026-07-113"
+   ],
+   "answers": [
+    "perception of stimulus leads to bodily changes",
+    "Physiological arousal then emotion"
+   ]
+  },
+  {
+   "label": "Sex education leading child to avoid sex (punishment/vicarious learning)",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2024-07",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2024-07-22",
+    "rc-2026-07-18"
+   ],
+   "answers": [
+    "Positive punishment",
+    "Cognitive/vicarious learning (file says options incomplete)"
+   ]
+  },
+  {
+   "label": "Constancy shown by door image = shape",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2023-11",
+    "2026-07"
+   ],
+   "ids": [
+    "rc-2023-11-101",
+    "rc-2026-07-67"
+   ],
+   "answers": [
+    "shape",
+    "Shape"
+   ]
+  },
+  {
+   "label": "Gender schema theory",
+   "topic": "pa-human-development",
+   "kind": "same-concept",
+   "sittings": [
+    "2019-12",
+    "2020-12"
+   ],
+   "ids": [
+    "rc-2019-12-75",
+    "rc-2020-12-8"
+   ],
+   "answers": [
+    "Children actively construct mental representations of what defines males and females by observing their culture"
+   ]
+  },
+  {
+   "label": "Ribot's law/hypothesis",
+   "topic": "pa-basic-psychology",
+   "kind": "same-question",
+   "sittings": [
+    "2024-11",
+    "2026-04"
+   ],
+   "ids": [
+    "rc-2024-11-77",
+    "rc-2026-04-32"
+   ],
+   "answers": [
+    "recent memory loss"
+   ]
+  }
+ ],
+ "external": [
+  {
+   "claim": "Psychopharmacology: learn via the receptor rather than lists; exam often asks to explain an adverse effect by the receptor action responsible.",
+   "topic": "pharmacology",
+   "url": "https://www.iatrox.com/blog/mrcpsych-exam-paper-a-paper-b-explained",
+   "reliability": "vendor blog (iatroX), low-medium"
+  },
+  {
+   "claim": "Psychopharmacology: need to distinguish mechanism, adverse effect and interaction.",
+   "topic": "pharmacology",
+   "url": "https://www.iatrox.com/blog/mrcpsych-exam-paper-a-paper-b-explained",
+   "reliability": "vendor blog (iatroX), low-medium"
+  },
+  {
+   "claim": "Neuroscience: need to understand relationships between structures, pathways and function (limbic system, basal ganglia direct/indirect pathways, neurotransmitter systems, neuroplasticity).",
+   "topic": "neuroscience",
+   "url": "https://www.iatrox.com/blog/mrcpsych-exam-paper-a-paper-b-explained",
+   "reliability": "vendor blog (iatroX), low-medium"
+  },
+  {
+   "claim": "Developmental/behavioural topics: identify which model explains a vignette.",
+   "topic": "development",
+   "url": "https://www.iatrox.com/blog/mrcpsych-exam-paper-a-paper-b-explained",
+   "reliability": "vendor blog (iatroX), low-medium"
+  },
+  {
+   "claim": "Classification/assessment: separate concepts such as obsessions from other preoccupations.",
+   "topic": "assessment",
+   "url": "https://www.iatrox.com/blog/mrcpsych-exam-paper-a-paper-b-explained",
+   "reliability": "vendor blog (iatroX), low-medium"
+  },
+  {
+   "claim": "Neuroscience and psychopharmacology carry disproportionate marks relative to how comfortable most trainees feel with them.",
+   "topic": "other",
+   "url": "https://www.iatrox.com/blog/mrcpsych-paper-a-retrieval-system",
+   "reliability": "vendor blog (iatroX), low-medium; paraphrased from search summary"
+  },
+  {
+   "claim": "EMIs: work each stem independently; option lists are deliberately populated with plausible near-misses.",
+   "topic": "other",
+   "url": "https://www.iatrox.com/blog/mrcpsych-paper-a-retrieval-system",
+   "reliability": "vendor blog (iatroX), low-medium; paraphrased from search summary"
+  }
+ ],
+ "notFound": [
+  "Pass-mark method (not on preparing-for-exams page; see RCPsych 'How the written papers are marked')",
+  "Published list/frequency data of most repeatedly examined Paper A topics",
+  "Genuine trainee/forum first-hand reports (only vendor blogs surfaced; no forum threads found)",
+  "Defence mechanisms, learning theory, attachment, genetics specific over-representation claims"
+ ]
+}

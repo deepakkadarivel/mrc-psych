@@ -209,6 +209,76 @@ export interface PaperAManifest {
   skippedFiles: Array<{ file: string; reason: string }>;
 }
 
+// ---- Paper A recalls (content/paper-a/recalls.json, recall-clusters.json, exam-trends.json) ----
+// Faithful extractions of what students recalled from real Paper A sittings (resources/paper-a/Recalls/).
+export interface RecallPoint {
+  id: string;
+  /** YYYY-MM of the sitting; "2025-?" when the source gives no month. */
+  sitting: string;
+  topic: string; // a Paper A topic id, or "pa-other"
+  point: string;
+  /** The source file's own stated answer — never supplied by this app. */
+  answer: string | null;
+  format: "EMI" | "SBA" | "hint";
+  flag?: string;
+  source: { file: string; page?: number };
+  alsoIn?: string[];
+}
+
+export interface RecallsFile {
+  sittings: string[];
+  points: RecallPoint[];
+}
+
+export interface RecallCluster {
+  label: string;
+  topic: string;
+  ids: string[];
+  kind: "same-question" | "same-concept";
+}
+
+export interface PaperATrendArea {
+  id: string;
+  title: string;
+  officialQuestions: string;
+  officialPercent: number;
+  topicIds: string[];
+  recallPoints: number;
+  recallPercent: number;
+}
+
+export interface PaperATrendTopic {
+  id: string;
+  title: string;
+  recallPoints: number;
+  recallPercent: number;
+  sittingsSeen: number;
+  perSitting: Record<string, number>;
+  repeatedFacts: number;
+  bankQuestions: number;
+}
+
+export interface PaperATrendCluster {
+  label: string;
+  topic: string;
+  kind: RecallCluster["kind"];
+  sittings: string[];
+  ids: string[];
+  /** Answers exactly as the sources state them (deduplicated, may be empty). */
+  answers: string[];
+}
+
+export interface PaperATrendsData {
+  totals: { points: number; sittings: number; files: number; clusters: number };
+  sittings: Array<{ id: string; points: number }>;
+  blueprint: { source: string; format: string; reliability: string };
+  areas: PaperATrendArea[];
+  topics: PaperATrendTopic[];
+  clusters: PaperATrendCluster[];
+  external: Array<{ claim: string; topic: string; url: string; reliability: string }>;
+  notFound: string[];
+}
+
 // A claim that can't carry a {file,page} Source back into resources/paper-b/ — either it's an
 // external web source (cited by `url`, genuinely fetched, not fabricated) or general exam-prep
 // knowledge with no single citable source at all. Same discipline as MnemonicBlock's

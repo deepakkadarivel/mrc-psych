@@ -1,7 +1,17 @@
 import fs from "node:fs";
 import path from "node:path";
 import manifestJson from "@/content/paper-a/manifest.json";
-import type { NoteBlock, PaperAManifest, PaperAQuizSet, Question, StudyGuide, TopicManifestEntry } from "@/lib/types";
+import type {
+  NoteBlock,
+  PaperAManifest,
+  PaperAQuizSet,
+  PaperATrendsData,
+  Question,
+  RecallCluster,
+  RecallsFile,
+  StudyGuide,
+  TopicManifestEntry,
+} from "@/lib/types";
 
 // Paper A content lives under content/paper-a/ with ids prefixed "pa-" (see PaperAManifest), so
 // nothing here can collide with Paper B's lib/content.ts accessors, URLs or storage keys.
@@ -34,6 +44,18 @@ export function getPaperANotes(topicId: string): NoteBlock[] {
 /** Questions for either a topic bank (`pa-classification`) or a standalone set (`pa-mock-1-3`). */
 export function getPaperAQuestions(id: string): Question[] {
   return readJson<Question[]>(`questions/${id}.json`) ?? [];
+}
+
+export function getPaperARecalls(): RecallsFile {
+  return readJson<RecallsFile>("recalls.json") ?? { sittings: [], points: [] };
+}
+
+export function getPaperARecallClusters(): RecallCluster[] {
+  return readJson<{ clusters: RecallCluster[] }>("recall-clusters.json")?.clusters ?? [];
+}
+
+export function getPaperATrends(): PaperATrendsData | null {
+  return readJson<PaperATrendsData>("exam-trends.json");
 }
 
 export function getPaperAStudyGuide(topicId: string): StudyGuide | null {
