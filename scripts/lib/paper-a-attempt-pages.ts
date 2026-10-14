@@ -65,9 +65,30 @@ function stripChoosePlaceholders(words: Word[]): Word[] {
   return words.filter((w) => w.t !== "Choose...");
 }
 
-export function attemptReviewPages(absPath: string): string[] {
-  const pages = extractWordPages(absPath);
-  const G = detectGutter(pages);
+/**
+ * `stacked`: status block above the stem (Paper B style), but an EMI's answer-choice list is printed to the
+ * right of the "Question N / Not answered / Marked out of" label rows (Mock Exams 11-12). That list would be
+ * read as a gutter split, so it is dropped here instead (EMI options are never recoverable anyway).
+ */
+function dropHeaderSideLists(words: Word[]): Word[] {
+  const dropped = new Set<Word>();
+  words.forEach((w, i) => {
+    const n = words[i + 1];
+    if (w.t !== "Question" || !n || !/^\d+$/.test(n.t)) return;
+    const marked = words.find((m, k) => k > i && m.t === "Marked" && m.x0 < w.x0 + 20 && m.y0 - w.y0 < 80);
+    const labelEnd = (marked?.y0 ?? w.y0 + 45) + 8;
+    // The choice list can outrun the label rows; the stem starts at the first body word below them.
+    const stem = words.find((o) => o.y0 > labelEnd && o.x0 < w.x0 + 100 && !/^(?:Not|answered|Flag|question)$/.test(o.t));
+    const yEnd = stem ? stem.y0 - 2 : labelEnd + 4;
+    for (const o of words) if (o.x0 > w.x0 + 100 && o.y0 >= w.y0 - 8 && o.y0 <= yEnd) dropped.add(o);
+  });
+  return words.filter((w) => !dropped.has(w));
+}
+
+export function attemptReviewPages(absPath: string, opts: { stacked?: boolean } = {}): string[] {
+  const rawPages = extractWordPages(absPath);
+  const pages = opts.stacked ? rawPages.map((pg) => ({ ...pg, words: dropHeaderSideLists(pg.words) })) : rawPages;
+  const G = opts.stacked ? 0 : detectGutter(pages);
   // Radio-indent state persists across pages: a question's options can run onto the next page.
   let selectX: number | null = null;
   // 2024 set: unnumbered "Question" headers, "Theme:/Lead-in:" EMIs whose item rows carry the

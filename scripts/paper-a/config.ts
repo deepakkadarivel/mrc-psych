@@ -160,6 +160,16 @@ export const MOCKS: MockDef[] = [
   })),
 ];
 
+/** "Paper A Mock Exam N" uploads (Exam 4 was not supplied). Exams 11-12 print an EMI's choice list beside the
+ *  question's label rows, so they need the `stacked` extractor. Kept whole: questions that also appear in other
+ *  mocks are intentionally not removed. */
+export const MOCK_EXAMS: Array<MockDef & { stacked?: boolean }> = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12].map((n) => ({
+  id: `pa-mock-exam-${n}`,
+  title: `Paper A Mock Exam ${n}`,
+  file: `Paper A mocks/Mock Exams/Paper A Mock Exam ${n}_ Attempt review.pdf`,
+  ...(n >= 11 ? { stacked: true } : {}),
+}));
+
 /** Files deliberately not parsed, each with the reason shown in the manifest. */
 export const SKIPPED: Array<{ file: string; reason: string }> = [
   {

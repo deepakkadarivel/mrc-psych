@@ -10,6 +10,7 @@ import {
   DUPLICATE_CANDIDATES,
   FRESH_TITLES,
   MOCKS,
+  MOCK_EXAMS,
   PAPER_A_CONTENT,
   PAPER_A_EXAM_DATE,
   PAPER_A_ROOT,
@@ -29,9 +30,9 @@ const write = (rel: string, data: unknown) => fs.writeFileSync(path.join(PAPER_A
 
 type RawQ = Omit<Question, "id" | "topic">;
 
-function parseFile(rel: string): RawQ[] {
+function parseFile(rel: string, stacked = false): RawQ[] {
   const abs = path.join(PAPER_A_ROOT, rel);
-  const raw = parseAttemptReview(attemptReviewPages(abs), sourcePath(rel), { optionsEndAtBlankLine: true });
+  const raw = parseAttemptReview(attemptReviewPages(abs, { stacked }), sourcePath(rel), { optionsEndAtBlankLine: true });
   return raw.map((q) => {
     // Mocks print the course's own label ("MoK Classification 004") as the first line of the stem.
     const m = q.stem.match(/^(MoK\s+(?:[A-Za-z&'/-]+\s+)+?\d{1,3})\s+(?=\S)/);
@@ -166,8 +167,27 @@ for (const m of MOCKS) {
   }
 }
 
+// ---- 5. Mock Exam N uploads: kept whole — repeats of questions in other mocks are deliberately NOT removed ----
+const examSets: PaperAQuizSet[] = [];
+for (const m of MOCK_EXAMS) {
+  const raw = parseFile(m.file, m.stacked);
+  warnings.push(...sanity(m.id, raw));
+  examSets.push({ id: m.id, title: m.title, group: "mock", file: sourcePath(m.file), questionCount: raw.length, duplicatesSkipped: 0 });
+  if (want(m.id)) {
+    write(`questions/${m.id}.json`, raw.map((q, i) => ({ ...q, id: `${m.id}-${i}`, topic: m.id })));
+    console.log(`${m.id}: ${raw.length} questions`);
+  }
+}
+quizSets.push(...examSets);
+
 if (only.size === 0) {
   const manifest: PaperAManifest = { paper: "A", examDate: PAPER_A_EXAM_DATE, topics, quizSets, skippedFiles };
+  write("manifest.json", manifest);
+} else if (examSets.some((s) => only.has(s.id))) {
+  // Partial run limited to mock exams: patch just those manifest entries, leave everything else untouched.
+  const mp = path.join(PAPER_A_CONTENT, "manifest.json");
+  const manifest: PaperAManifest = JSON.parse(fs.readFileSync(mp, "utf-8"));
+  manifest.quizSets = [...manifest.quizSets.filter((s) => !examSets.some((e) => e.id === s.id)), ...examSets];
   write("manifest.json", manifest);
 }
 

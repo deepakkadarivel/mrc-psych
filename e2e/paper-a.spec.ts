@@ -53,6 +53,9 @@ test.describe("paper A", () => {
     await expect(page.getByRole("radio").first()).toBeVisible();
     await page.goto("/paper-a/mock");
     await expect(page.getByText("Test 7").first()).toBeVisible();
+    await expect(page.getByText("Mock Exam 12").first()).toBeVisible();
+    await page.goto("/paper-a/quiz/pa-mock-exam-11");
+    await expect(page.getByText(/Half-lives of antidepressants/).first()).toBeVisible();
   });
 
   test("fresh questions tab lists the fresh sets and drops them from the old index", async ({ page }) => {
